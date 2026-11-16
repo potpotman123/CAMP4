@@ -1,0 +1,408 @@
+{
+  "as_of": "2026-11-09",
+  "status": "Inherited Street reference snapshot, not an independent forecast or current market valuation. See context handoff for subsequent corrections.",
+  "provenance": "../02_first_entry_dmt_forecast_study/data/research_evidence.json",
+  "path_base": "This Project 1 folder. Original source registry is retained in provenance file.",
+  "source_registry_reference": "../02_first_entry_dmt_forecast_study/data/research_evidence.json#sources",
+  "current_sellside": [
+    {
+      "broker": "Leerink Partners",
+      "date": "2026-09-28; 2026-10-12",
+      "rating": "Outperform",
+      "target_usd": 14,
+      "method": "SOTP cash flows into early 2040s; 12% discount rate. October report assigns no explicit value to CMP-001 BD or other platform opportunities.",
+      "sales_pos": "No auditable conditional annual sales curve or PoS disclosed in these notes.",
+      "pages": "September pp.1\u20133,12; October pp.16\u201317",
+      "sources": [
+        "leerink_sep",
+        "leerink_oct"
+      ]
+    },
+    {
+      "broker": "Piper Sandler",
+      "date": "2026-09-28",
+      "rating": "Overweight",
+      "target_usd": 15,
+      "method": "Projected EV $1.26bn plus mid-2027 estimated cash.",
+      "sales_pos": "No explicit conditional sales/PoS bridge. P.2 is an image-based earnings model dated August 13, 2026.",
+      "pages": "pp.1\u20132",
+      "sources": [
+        "piper"
+      ]
+    },
+    {
+      "broker": "Needham",
+      "date": "2026-10-15",
+      "rating": "Buy",
+      "target_usd": 8,
+      "method": "50% DCF / 50% EV-to-peak-sales; 9% discount rate; 0% terminal growth; 7x peak-sales multiple; 98m diluted shares.",
+      "sales_pos": "Conditional WW peak $2.106bn in 2046; 25% PoS applied separately in valuation.",
+      "pages": "pp.25\u201329,31",
+      "sources": [
+        "needham"
+      ]
+    },
+    {
+      "broker": "Oppenheimer",
+      "date": "2026-10-27",
+      "rating": "Outperform",
+      "target_usd": 15,
+      "method": "DCF: 12% discount rate, 2% terminal growth; described terminal FCF value $3.5bn in 2036.",
+      "sales_pos": "Do not interpret terminal FCF value as annual revenue or assume undisclosed PoS.",
+      "pages": "pp.1,3",
+      "sources": [
+        "oppenheimer"
+      ]
+    },
+    {
+      "broker": "JPMorgan",
+      "date": "2026-11-05",
+      "rating": "Overweight",
+      "target_usd": null,
+      "method": "Quick take describes shares as undervalued on probability-adjusted CMP-002 potential.",
+      "sales_pos": "No current target/model on first page; rating history p.2 last lists $9 on June 16, 2026. That historical entry is not a fresh model update.",
+      "pages": "pp.1\u20132",
+      "sources": [
+        "jpmorgan"
+      ]
+    },
+    {
+      "broker": "William Blair",
+      "date": "2026-11-05",
+      "rating": "Outperform",
+      "target_usd": null,
+      "method": "Relative peer valuation and platform thesis; no numerical price target in supplied note.",
+      "sales_pos": "2030 product revenue $53.939m: UCD $51.866m and SYNGAP $2.073m. Risk treatment not disclosed. Do not attribute total revenue to CMP-002.",
+      "pages": "pp.1,3\u20134",
+      "sources": [
+        "blair"
+      ]
+    },
+    {
+      "broker": "Wedbush",
+      "date": "2026-11-06",
+      "rating": "Outperform",
+      "target_usd": 8,
+      "method": "Discounted earnings and clinical NPV: 25x P/E, 25% discount rate; DCF: 12% WACC, 0% terminal growth.",
+      "sales_pos": "25% discount rate is not disclosed clinical PoS. No conditional sales bridge.",
+      "pages": "pp.1,3",
+      "sources": [
+        "wedbush"
+      ]
+    }
+  ],
+  "needham_conditional_sales": [
+    {
+      "year": 2032,
+      "us_usdm": 37,
+      "worldwide_usdm": 37,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2033,
+      "us_usdm": 95,
+      "worldwide_usdm": 118,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2034,
+      "us_usdm": 231,
+      "worldwide_usdm": 289,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2035,
+      "us_usdm": 484,
+      "worldwide_usdm": 605,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2036,
+      "us_usdm": 730,
+      "worldwide_usdm": 912,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2037,
+      "us_usdm": 938,
+      "worldwide_usdm": 1173,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2038,
+      "us_usdm": 1073,
+      "worldwide_usdm": 1342,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2039,
+      "us_usdm": 1217,
+      "worldwide_usdm": 1521,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2040,
+      "us_usdm": 1369,
+      "worldwide_usdm": 1712,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2041,
+      "us_usdm": 1417,
+      "worldwide_usdm": 1772,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2042,
+      "us_usdm": 1467,
+      "worldwide_usdm": 1834,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2043,
+      "us_usdm": 1519,
+      "worldwide_usdm": 1899,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2044,
+      "us_usdm": 1572,
+      "worldwide_usdm": 1965,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2045,
+      "us_usdm": 1627,
+      "worldwide_usdm": 2034,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2046,
+      "us_usdm": 1685,
+      "worldwide_usdm": 2106,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2047,
+      "us_usdm": 872,
+      "worldwide_usdm": 1090,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2048,
+      "us_usdm": 451,
+      "worldwide_usdm": 564,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2049,
+      "us_usdm": 234,
+      "worldwide_usdm": 292,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2050,
+      "us_usdm": 121,
+      "worldwide_usdm": 151,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2051,
+      "us_usdm": 63,
+      "worldwide_usdm": 78,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2052,
+      "us_usdm": 32,
+      "worldwide_usdm": 40,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    },
+    {
+      "year": 2053,
+      "us_usdm": 17,
+      "worldwide_usdm": 21,
+      "status": "observed forecast, rounded as printed",
+      "conditional_on_approval": true,
+      "source": "needham",
+      "page": 26
+    }
+  ],
+  "visible_alpha_reproduced_chart": [
+    {
+      "year": 2032,
+      "as_reported_usdm": 148,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2033,
+      "as_reported_usdm": 353,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2034,
+      "as_reported_usdm": 577,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2035,
+      "as_reported_usdm": 754,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2036,
+      "as_reported_usdm": 1074,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2037,
+      "as_reported_usdm": 1272,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2038,
+      "as_reported_usdm": 1444,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2039,
+      "as_reported_usdm": 1587,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    },
+    {
+      "year": 2040,
+      "as_reported_usdm": 1716,
+      "source": "needham",
+      "page": 26,
+      "status": "observed chart label of reproduced consensus; underlying composition and PoS unknown"
+    }
+  ],
+  "needham_inputs": {
+    "source": "needham",
+    "pages": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "us_launch_year": 2032,
+    "row_launch_year": 2033,
+    "us_prevalence_2026_under18": 11000,
+    "population_growth": 0.005,
+    "diagnosis_rate_2026": 0.15,
+    "diagnosis_rate_2032": 0.18,
+    "diagnosis_rate_2040_onward": 0.5,
+    "peak_penetration_of_diagnosed": 0.5,
+    "adherence_persistence": 0.75,
+    "launch_annual_wac_usd": 575000,
+    "annual_wac_growth": 0.03,
+    "gross_to_net_discount": 0.15,
+    "row_to_us_sales_ratio": 0.25,
+    "pos": 0.25,
+    "wacc": 0.09,
+    "terminal_growth": 0,
+    "peak_sales_multiple": 7,
+    "diluted_shares_m": 98,
+    "net_cash_usdm": 135,
+    "dcf_ev_usdm": 514,
+    "multiple_ev_usdm": 745,
+    "blended_ev_usdm": 630,
+    "blended_equity_usdm": 765,
+    "printed_peak_sales_multiple_input_usdm": 1843,
+    "printed_peak_sales_multiple_year": 2043,
+    "status": "observed analyst assumptions, not independently validated forecasts"
+  },
+  "capitalization_bridge": {
+    "source": "camp_10q",
+    "date": "2026-09-30",
+    "common_shares": 62754200,
+    "prefunded_initial": 6003758,
+    "prefunded_second": 21925368,
+    "prefunded_exercise_price_usd": 0.0001,
+    "reference_stock_price_usd": 3.72,
+    "price_source": "November 5\u20136 supplied broker reports; not live November 9 quote",
+    "cash_usdm": 124.522,
+    "status": "observed inputs; derived equity value and equity-less-cash proxy, before other adjustments"
+  }
+}

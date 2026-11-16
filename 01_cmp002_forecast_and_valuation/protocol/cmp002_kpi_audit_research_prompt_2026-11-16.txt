@@ -15,12 +15,12 @@ Use 16 November 2026 as the initial evidence cutoff. State any later cutoff expl
 
 Read the repository's AGENTS.md, README, current assessment, relevant handoff, source manifest, existing analogue matrix and supplied Needham initiation. Repository: https://github.com/potpotman123/First-Entry-Rare-DMTs. Local checkout, if available: /Users/kwu/Documents/Codex/First-Entry-Rare-DMTs.
 
-Useful existing files:
-- data/independent/analogue_matrix.csv: 20 case dossiers.
-- data/independent/candidate_universe.json: 99 extended screened candidates; not 99 validated matched peers.
-- data/independent/evidence.json and data/research_evidence.json.
-- sources/user-provided/sellside/ and sources/extracted/.
-- reports/independent_research.html and context/handoff.txt.
+Paths below are relative to the repository root. Useful existing files:
+- 02_first_entry_dmt_forecast_study/data/independent/analogue_matrix.csv: 20 case dossiers.
+- 02_first_entry_dmt_forecast_study/data/independent/candidate_universe.json: 99 extended screened candidates; not 99 validated matched peers.
+- 02_first_entry_dmt_forecast_study/data/independent/evidence.json and 02_first_entry_dmt_forecast_study/data/research_evidence.json.
+- 01_cmp002_forecast_and_valuation/sources/user-provided/sellside/ and 01_cmp002_forecast_and_valuation/sources/extracted/.
+- 02_first_entry_dmt_forecast_study/reports/independent_research.html and 02_first_entry_dmt_forecast_study/context/handoff.txt.
 
 The existing universe originated largely from approvals. Reuse its commercial evidence, but never use its approval-selected denominator to calculate development success rates. Treat earlier protocols as background: the user's updated preference gives priority to early pre-human-data information and recent analogues, superseding the old near-approval forecast-vintage priority for this assignment.
 
@@ -185,3 +185,5 @@ Investigate why roughly 48% annual revenue erosion through 2050 changes to a 0%-
 Audit fixed versus variable costs, shutdown costs, working-capital release, tax effects, maintenance investment, manufacturing economics and discontinuation decisions in the tail. A zero-post-LOE-cash-flow haircut is a valuation contribution diagnostic, not a fully recomputed scenario where all revenues disappear but costs are also ignored.
 
 Report value shares and sensitivity on four denominators: DCF enterprise value, DCF equity value, per-share DCF value and blended price target. Needham weights DCF and its separate peak-multiple valuation 50/50, so a terminal-only change affects half the combined target if the other method is held fixed. Check whether changed LOE assumptions should also change the multiple or its peak-year anchor; do not imply the multiple method is economically independent of commercial durability. Compare remaining protected life at the peak-multiple valuation date against its assumed 7x multiple, not merely against current-EV acquisition multiples. Keep single-asset runoff separate from any pipeline-reinvestment perpetuity; do not introduce unsupported future products.
+
+PROJECT ORGANIZATION: Save this KPI audit, the independent WW revenue model, reverse DCF and valuation outputs under 01_cmp002_forecast_and_valuation/. The historical forecast-bias study and its comparator library belong under 02_first_entry_dmt_forecast_study/. Reuse cross-project evidence by reference. Read each project README; do not overwrite the historical study.

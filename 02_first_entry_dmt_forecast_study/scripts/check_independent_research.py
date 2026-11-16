@@ -46,6 +46,6 @@ class Links(HTMLParser):
 p=Links();p.feed((R/'reports/independent_research.html').read_text())
 check('report internal anchors resolve',all(x[1:] in p.ids for x in p.hrefs if x.startswith('#')))
 check('report has no duplicate IDs',len(p.ids)==len(set(p.ids)))
-check('all repository report links resolve except generated validation',all((R/x.split('/blob/main/',1)[1]).exists() or x.endswith('data/independent/validation.json') for x in p.hrefs if '/blob/main/' in x))
+check('all repository report links resolve except generated validation',all((R.parent/x.split('/blob/main/',1)[1]).exists() or x.endswith('data/independent/validation.json') for x in p.hrefs if '/blob/main/' in x))
 v=dict(as_of=e['as_of'],checks_passed=len(checks),checks=checks,frame_counts=e['frame_counts'],candidate_N=len(c),primary_candidate_control_N=82,new_comparisons=[{k:x[k] for k in ['product','forecast_usdm','actual_usdm','raw_actual_over_forecast_minus_1','break_even_scalar_pos']} for x in e['new_target_year_comparisons']],strict_36m_N=0,strict_60m_N=0,limitations='Internal arithmetic/provenance consistency, not independent validation of forecast scope or causal mechanisms.')
 (D/'validation.json').write_text(json.dumps(v,indent=2)+'\n');print(f'{len(checks)} checks passed; no normalized pooled result claimed.')

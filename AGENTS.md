@@ -1,6 +1,6 @@
 # Research working instructions
 
-This public repository studies preapproval sales forecasts for first rare-disease DMTs and implications for CMP-002 in SYNGAP1-related disorder. Read README.md, context/handoff.txt, the current assessment, protocol, and relevant evidence before extending the work.
+This public repository contains two separate projects. Read the root README and the relevant project README, handoff, protocol and evidence before extending work. Project 1 is `01_cmp002_forecast_and_valuation/`: independent CMP-002 WW revenue, reverse DCF, Street assumptions, KPI/PoS audit and valuation. Project 2 is `02_first_entry_dmt_forecast_study/`: historical first-entry rare-DMT forecast accuracy, analogues and source evidence. Current Project 2 handoff is `02_first_entry_dmt_forecast_study/context/handoff.txt`. Current Project 1 handoff is `01_cmp002_forecast_and_valuation/context/kpi_audit_prompt_handoff_2026-11-16.txt`.
 
 - Treat systematic underforecasting and CAMP undervaluation as hypotheses, not required conclusions.
 - Keep the historical study separate from the independent CMP-002 revenue forecast and valuation project.
@@ -17,4 +17,4 @@ This public repository studies preapproval sales forecasts for first rare-diseas
 - Preserve concise durable state, source provenance, unresolved issues and the next highest-value step. Avoid duplicative reports.
 - On 9 November 2026, the user explicitly instructed: "Keep it public and save everything, including the sell-side context." This supersedes the earlier private-only instruction. Preserve public visibility and save all project research, supplied sources and sell-side context here. Do not change sharing without a new user instruction.
 
-Use work/ for scratch files. Keep deliverables in reports/, records in data/, source originals and metadata in sources/, reproducible code in scripts/, and methods in protocol/.
+Within the relevant project folder, use work/ for scratch files, reports/ for deliverables, data/ for records, sources/ for originals and metadata, scripts/ for reproducible code, protocol/ for methods and models/ for valuation/forecast workbooks. Do not mix the two research questions. Cross-reference reusable evidence instead of duplicating original sources. Preserve frozen historical protocols and source originals; consult repository_reorganization_2026-11-16.json for old-path mappings.
