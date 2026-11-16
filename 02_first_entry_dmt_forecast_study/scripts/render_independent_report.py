@@ -5,7 +5,7 @@ from collections import Counter
 R=Path(__file__).resolve().parents[1];D=R/'data/independent'
 e=json.loads((D/'evidence.json').read_text());frame=json.loads((D/'approval_screen.json').read_text());cand=json.loads((D/'candidate_universe.json').read_text())
 esc=lambda s:html.escape(str(s))
-repo='https://github.com/potpotman123/First-Entry-Rare-DMTs/blob/main/02_first_entry_dmt_forecast_study/'
+repo='https://github.com/potpotman123/CAMP4/blob/main/02_first_entry_dmt_forecast_study/'
 def link(k,label=None):
  s=e['sources'][k];return f'<a href="{esc(s["url"])}">{esc(label or s["title"])}</a>'
 def filelink(p,label):return f'<a href="{repo+p}">{esc(label)}</a>'
