@@ -1,0 +1,177 @@
+CMP-002 IN SYNGAP1: INDEPENDENT KPI AND PROBABILITY-OF-SUCCESS AUDIT
+Research assignment prepared 16 November 2026
+
+PURPOSE
+
+Conduct an extensive, independent, source-verifiable investigation to calibrate the inputs for a worldwide CMP-002 revenue forecast and a separate risk-adjusted valuation. Audit Needham's assumptions using appropriate historical and contemporary comparators. Do not assume CAMP is undervalued, that sell-side forecasts are conservative, or that 25% probability of success is too high. Find evidence that could justify, lower, or raise each assumption.
+
+The user wants to reconstruct what happened to genuinely comparable programs in the past, including failures, rather than apply a broad industry average or select famous successes. Historical information available before first human dosing is particularly important. More recent clinical and commercial experience generally deserves greater relevance, but recent unresolved programs must not be mistaken for successes or failures.
+
+This is a new KPI-calibration project, separate from the existing question about systematic sell-side underforecasting for first-entry rare-disease DMTs. A drug need not be a first DMT to be an excellent comparator for a particular KPI. Do not require historical analyst estimates to include a case here.
+
+Use 16 November 2026 as the initial evidence cutoff. State any later cutoff explicitly. Distinguish a retrospective audit of Needham's 15 October 2026 assumptions using information available then from an updated assessment using subsequently available information. Do not import later clinical results into an earlier as-of judgment.
+
+1. RECOVER EXISTING WORK AND FREEZE THE QUESTION
+
+Read the repository's AGENTS.md, README, current assessment, relevant handoff, source manifest, existing analogue matrix and supplied Needham initiation. Repository: https://github.com/potpotman123/First-Entry-Rare-DMTs. Local checkout, if available: /Users/kwu/Documents/Codex/First-Entry-Rare-DMTs.
+
+Useful existing files:
+- data/independent/analogue_matrix.csv: 20 case dossiers.
+- data/independent/candidate_universe.json: 99 extended screened candidates; not 99 validated matched peers.
+- data/independent/evidence.json and data/research_evidence.json.
+- sources/user-provided/sellside/ and sources/extracted/.
+- reports/independent_research.html and context/handoff.txt.
+
+The existing universe originated largely from approvals. Reuse its commercial evidence, but never use its approval-selected denominator to calculate development success rates. Treat earlier protocols as background: the user's updated preference gives priority to early pre-human-data information and recent analogues, superseding the old near-approval forecast-vintage priority for this assignment.
+
+Define the targets before collecting outcomes:
+A. Annual worldwide product net sales conditional on approval, for CMP-002 in SYNGAP1 only.
+B. Probability of first US approval from the exact observed program stage; separately evaluate European approval, timing, and any materially restricted label.
+C. Time to launch and revenue ramp conditional on success, including commercially weak approvals.
+D. CAMP-attributable economics and valuation, kept separate from worldwide product sales.
+
+No later disease indications in the base case. Explicitly separate original populations from age/genotype expansions and new territories. Clinical trial eligibility is not automatically the future label. Approval is not equivalent to broad reimbursement or commercial success.
+
+2. ESTABLISH THE ACTUAL CMP-002 REFERENCE CASE
+
+Verify from primary sources its modality, molecular action, intended target restoration, administration route and frequency, animal and human evidence, target validation, therapeutic-window concerns, regulatory clearance, first-dose status, current trial design, endpoints, and available natural history. ASOs must not automatically be pooled with viral gene therapies or protein biologics under an undifferentiated 'advanced biologic' category.
+
+Distinguish discovery, nominated candidate, IND-enabling, IND/CTA submission, regulatory clearance, enrollment, and actual first human administration. If timing differs across countries, record this. The key landmark is the closest match to CAMP's actual status, not a generic 'preclinical' label. Report separate estimates if an exact match is infeasible.
+
+Audit the Needham model directly, including formulas and denominator definitions. Initial extracted assumptions to VERIFY, not accept:
+- Approximately 11,000 US patients under 18, with 0.5% annual population growth.
+- Diagnosis initially 15%, rising to 50%.
+- CMP-002 penetration of 50% of diagnosed patients.
+- US launch in 2032, EU4 + UK in 2033.
+- Launch annual WAC $575,000, increasing 3% annually.
+- Combined adherence/persistence factor 75%; gross-to-net discount 15%.
+- EU4 + UK revenue mechanically 25% of US revenue.
+- Detailed forecast: approximately $2.106bn worldwide peak in 2046.
+- Multiple valuation: $1.843bn peak in 2043, 25% PoS, 7x multiple, 9% discount over 17 years.
+
+Reconcile why the valuation inputs differ from the detailed revenue table; that table also shows approximately $1.899bn in 2043. Do not silently resolve the discrepancy. Verify patent/extension/LOE assumptions independently; assumed extensions are not granted rights.
+
+Important correction: the report's 50/50 worldwide cost-and-profit collaboration describes Stoke/Acadia, not CMP-002. Do not apply it to CAMP. Independently verify actual CMP-002 ownership, royalties and contractual obligations before calculating attributable economics.
+
+3. BUILD KPI-SPECIFIC COMPARATOR UNIVERSES
+
+Use a shared master case library with separate, explicitly justified membership for each KPI. No single universal peer ranking and no single first-DMT screen should determine every input. Freeze inclusion criteria before tabulating results; previous outcomes are already known, so do not claim blinding.
+
+For each case document: disease biology, genetic causality and penetrance, loss versus gain of function, dosage restoration versus knockdown, modality/chemistry/mechanism, administration, disease onset and reversibility, target human validation, novelty of platform and target, stage at entry, geography, reimbursement environment, endpoints, and relevance to each KPI. Separate molecular target validation from evidence that the proposed intervention can safely improve clinical function at the treated age.
+
+Candidate families:
+- Development risk: genetically defined CNS programs; intrathecal ASOs; gene-expression-restoring approaches; pediatric neurodevelopmental/haploinsufficiency programs. Include approved, failed, discontinued, dormant, active and unresolved candidates.
+- Delivery and retention: repeated CNS administration, pediatric specialist-center treatment, anesthesia/procedure burden and caregiver travel.
+- Diagnosis and uptake: rare genetically diagnosed neurodevelopmental disorders and developmental/epileptic encephalopathies, including symptomatic therapies where commercially informative.
+- Price and reimbursement: chronic rare-disease therapies with similar benefit, route, age and payer mix; one-time gene therapies only as explicitly different sensitivities.
+- Geographic rollout: matched indication launches across the US, Europe and other relevant markets.
+
+Existing candidates worth rescreening include Spinraza, Brineura, Qalsody, Daybue, Ztalmy, Kebilidi, Lenmeldy, Kanuma and Vimizim. These are discovery leads, not mandatory selected peers. Older ERTs can explain patient-finding mechanisms but should receive less direct weight for contemporary commercial calibration.
+
+For development-risk discovery, inspect complete historical sponsor pipelines, trial registries, publications, termination disclosures and archived corporate materials rather than only approved product lists. Candidate leads include nusinersen, tofersen, tominersen, BIIB078, CNS ASO programs in Angelman and Dravet, and gene-restoration programs in pediatric CNS disorders. Verify all current statuses and aliases. Do not label an unresolved program a failure because a particular trial failed, or an apparent clinical signal an approval success.
+
+An IL-17 me-too drug is not a direct matched PoS peer for CMP-002. It may appear in a clearly labeled broad background dataset, never as an equally weighted mechanistic comparator. Conversely, a non-first-entry ASO may be a highly relevant delivery or safety comparator.
+
+4. PoS: DESIGN A DEFENSIBLE HISTORICAL COHORT
+
+Primary question: Among programs sufficiently comparable to CMP-002 at the same observed pre-human-data landmark, what fraction eventually obtain first US approval, over what period, and with what uncertainty?
+
+Use drug-indication programs as the unit. Track aliases, acquisitions, reformulations and sponsor transfers to avoid duplication. Multiple trials, doses and analysts are not independent programs. Show sensitivity to correlated assets from a common platform, sponsor or target. Where later indication success follows failure in the original indication, do not count the original indication as successful.
+
+Construct nested cohorts:
+1. Broad CNS ASO clinical-entry cohort as an accessible reference, with prespecified date windows.
+2. Genetically defined CNS disease subset.
+3. Pediatric neurodevelopmental and dosage-restoration subsets, including nearest available mechanistic peers.
+4. Exact-stage late-preclinical/cleared-but-not-dosed cohort where a credible denominator can be recovered.
+5. Adjacent modalities or diseases as separate supporting strata, not indiscriminately pooled.
+
+Compare narrow biological relevance against sample size and follow-up completeness. If no useful exact-match denominator exists, say so. Do not produce an apparently precise estimate from a handful of handpicked programs.
+
+Entry dates must be observable contemporaneous milestones, not backfilled from eventual success. An all-Phase-I cohort has already survived preclinical development and cannot directly estimate probability from early discovery. A Phase-I-only cohort can still be informative for a cleared program awaiting dosing, with the remaining gap explicit. Discovery-stage attrition estimates cannot be mechanically applied to a program that has already passed those hurdles.
+
+Outcomes and competing explanations:
+- First approval: accelerated/conditional versus traditional, indication, geography, date and label restrictions.
+- Technical discontinuation: safety, insufficient target engagement, insufficient clinical efficacy, dose/distribution limitations, or manufacturing problems.
+- Commercial/strategic discontinuation, financing failure, sponsor failure, or licensing return.
+- Active, paused, dormant, missing status, and lost follow-up, each separately defined.
+- A negative trial is an event, not necessarily program termination; resumption must be tracked.
+
+For investor-relevant overall approval likelihood, a program abandoned for nontechnical reasons cannot simply be removed as though approval were assured. For biological efficacy questions, analyze technical outcomes separately. Show how classifications change the result.
+
+Avoid the two common biased calculations: approvals divided by all programs when many are still active, and approvals divided only by resolved programs when time to resolution differs. Present raw counts first, follow-up distribution and unresolved share. Estimate fixed-horizon approval incidence (for example 5, 10 and 15 years from entry where supported). Use time-to-event/competing-risk methods only when dates and censoring assumptions warrant them. Treat permanent discontinuation as a competing event, not ordinary independent censoring. Explain remaining informative-censoring problems. Do not equate 'not approved by year 10' with 'will never be approved.'
+
+Report older mature cohorts and newer cohorts separately, with a clearly specified recency sensitivity. Recent cohorts are more technologically relevant but have shorter follow-up. Do not solve that conflict by counting their unresolved programs as successes, deleting them, or assigning arbitrary outcome-driven weights. Use elapsed follow-up from the entry landmark rather than raw calendar years alone.
+
+Provide uncertainty intervals appropriate to the method; a simple binomial interval is insufficient if censoring and dependency materially affect the estimate. If sample sizes are too small, give descriptive evidence and a reasoned range rather than false statistical precision. Hierarchical/Bayesian modeling is optional only if justified by sufficient data, transparent priors and material information gain; ask before extensive fitting.
+
+5. PoS: BRIDGE EMPIRICAL RESULTS TO CMP-002
+
+Use broad published success-rate studies as background priors, not final answers. Verify starting stage, period, denominator, endpoint and definitions. Do not multiply or average overlapping subgroup rates for neurology, rare disease, biologics and genetic targets as though they were independent effects.
+
+Decompose the path into distinct questions: safe CNS delivery; adequate distribution; meaningful target engagement; restoration within a safe dosage range; clinical reversibility at relevant ages; observable benefit on feasible endpoints; confirmatory and regulatory success. This is a causal checklist, not authorization to invent independent numerical probabilities for correlated events.
+
+Investigate both favorable and unfavorable evidence for 25%:
+- Favorable possibilities: strong monogenic causal evidence, a remaining functional allele, relevant animal rescue, established delivery experience, objective endpoints, regulatory flexibility, and late-preclinical risks already resolved.
+- Unfavorable possibilities: untested platform/target combination in humans, translation and brain distribution, neurodevelopmental timing, dose toxicity, endpoint variability, small populations, recruitment and trial execution, and uncertain relationship between seizure reduction and broader function.
+
+For every claimed adjustment, state the supporting observation, competing explanation, transferability limit and whether numerical calibration is possible. Do not automatically penalize every novel target equally or assume severe unmet need raises biological success probability.
+
+Present: broad benchmark; closest credible empirical cohort; CMP-specific differences; defensible low/base/high range; confidence; and exactly what future evidence would change the estimate. Give both an as-of-Needham assessment and an updated assessment if appropriate. The conclusion may be that 25% is aggressive, defensible, conservative, or presently unresolvable. Do not start by anchoring on a preferred 5%, 10% or 25% answer.
+
+6. AUDIT THE COMMERCIAL KPIs
+
+For each KPI, provide its exact definition, units, denominator, geography, year, Needham value, best comparator evidence, contrary evidence, transferability limits, and proposed scenario range. Reconcile quantities before interpreting differences.
+
+A. Epidemiology and eligibility
+Triangulate clinical/genetic studies, claims, diagnosed-patient counts, registries, advocacy censuses and population data. A census of known families is not a population-complete registry. Separate birth incidence, living prevalence, diagnosed prevalence, clinically eligible patients and commercially accessible patients. Audit genotype definitions and VUS treatment. Model age cohorts, survival, new births, age-out rules and continued treatment after adulthood. Avoid applying pediatric prevalence to all ages or assuming every pathogenic variant is equally treatable. Diagnosis prevalence denominators must match the underlying genetic and clinical population.
+
+B. Diagnosis growth
+Measure absolute diagnosed patient additions and, where supportable, the proportion of the true population diagnosed. Distinguish new diagnoses from new registry enrollment or expanded advocacy reach. Evaluate genetic-testing adoption, payer access, diagnostic odyssey, laboratory reclassification, clinic capacity and launch-driven testing. Seek comparable prelaunch-to-postlaunch diagnosis trajectories, including cases where patient finding disappointed. Do not assume treatment availability alone produces the observed increase; distinguish secular testing improvements and sponsor efforts. Test whether 50% is plausible and how fast it could be reached.
+
+C. Treatment uptake and market share
+Separate label eligibility, reimbursement approval, treatment willingness, initiation, and allocation among competing therapies. Define whether the denominator is all prevalent, diagnosed, eligible, reimbursed or reachable patients. Estimate launch-year and subsequent uptake, not just peak. Account for backlog depletion, incident patients, country launch timing, procedural capacity and competing entrants. An oral seizure therapy may inform family/physician behavior but not intrathecal procedural acceptance. Keep efficacy-dependent uptake scenarios explicit; do not assume human benefit from preclinical results.
+
+D. Adherence, persistence and dosing
+Separate never-starting, delayed doses, missed doses, temporary interruption, permanent discontinuation, death and age-out. Use patient-years and actual paid dosing where possible. A combined 75% haircut may conceal several different mechanisms. Do not count discontinuation both in patient retention and again in annual revenue per patient. Audit loading and maintenance regimens, treatment frequency, vial use/wastage, free supply and trial-to-commercial transitions. Treat future CMP-002 dosing frequency as uncertain unless established.
+
+E. Price and gross-to-net
+Separate WAC, annualized list cost, per-dose net price and realized net revenue per treated patient-year. Distinguish loading from maintenance, weight-based from fixed dosing, and acquisition cost from hospital/procedure cost. Compare demonstrated clinical benefit and payer mix, not just rarity. Separate rebates, discounts, patient assistance, free supply and FX from adherence. Do not infer precise net prices from list prices or company total sales divided by incomplete patient counts. Distinguish current dollars from future nominal launch/peak dollars; assess the 3% annual escalation independently.
+
+F. Geography
+Build the US, EU4 + UK and other material territories explicitly where evidence permits. Prioritize Japan, Canada, Australia and additional Europe for screening; include other territories only with defensible access and pricing assumptions. Model population, diagnosis, genotype/age mix, regulatory timing, reimbursement, net price, distribution and center capacity. Do not equate regulatory approval with funded access. Test Needham's 25%-of-US shortcut against observed matched product-country histories. Missing geography data should yield transparent scenarios, not invented precise country forecasts.
+
+G. Competition, timing and durability
+Independently map clinical and potential commercial competitors; first-to-market is a scenario, not guaranteed. Distinguish disease-modifying competitors from symptomatic treatment and possible combination use. Model postapproval launches, switching, persistence, access constraints and changing standards of care. Separate patent expiry, regulatory exclusivity, extensions, actual substitutable competition and loss of market share. Investigate evidence on oligonucleotide competition rather than borrowing an oral generic cliff without qualification. Audit clinical timeline and recruitment comparators so launch assumptions are not disconnected from PoS evidence.
+
+7. TRANSLATE EVIDENCE INTO A COHERENT MODEL
+
+Deliver a geography-by-year forecast structure with diagnosed stocks, new diagnoses, eligible stocks, new starts, continuing treated patients, paid doses and net revenue. Do not construct a finished numeric model using unsupported inputs simply to fill cells.
+
+Use commercial scenarios conditional on approval, plus a separate development-risk/timing layer. Approval can produce a narrow label or weak efficacy; model those outcomes rather than equating approval with the full base-case sales forecast. Avoid counting the same risk in PoS, eligible population, penetration and an unexplained discount-rate premium. Correlated assumptions must form coherent scenarios: better efficacy can affect approval, label, price, uptake and persistence together.
+
+Show sensitivity to one driver at a time and joint downside/base/upside scenarios. Decompose the difference from Needham into prevalence, diagnosis, eligibility, uptake, exposure, net price, geography, launch timing and competition. Flag when an apparent peak difference is only inflation or a different peak year. Keep PoS out of conditional product sales and introduce it explicitly in valuation. Do not derive an assumed sales forecast from a desired equity value.
+
+8. SOURCES, EXECUTION AND STOPPING RULES
+
+Start with a bounded discovery pass across relevant source families, rank leads, then retrieve selectively. Prefer regulatory reviews and labels, trial registries and history, peer-reviewed trial reports, historical sponsor pipelines, company filings, payer/HTA decisions and original market-research methods. Use advocacy and clinician material with ascertainment limits. Management claims and analyst forecasts are hypotheses or secondary evidence, not independent observed outcomes. Multiple articles citing one sponsor are one underlying source.
+
+For every usable numerical record preserve URL/file, date, page/table, short supporting excerpt, original units and denominator, transformation, outcome cutoff, and evidence status: observed, derived, proxy, assumption or unknown. Maintain failed searches and missing-data requests. Use program alias tables and separate inclusion/exclusion ledgers for each KPI.
+
+Ask before paid datasets, bulk scraping/OCR, outreach, materially expensive exploration or extensive statistical fitting. First specify the unresolved question, workflow, uncertain cost, expected information gain, cheaper alternatives and stopping rule. Do not launch agents or change model settings without authorization. If public sources cannot recover a valid preclinical denominator, report that limitation and complete the other KPI audits; do not manufacture completeness.
+
+9. REQUIRED DELIVERABLES
+
+1. A concise decision memo: what is defensible, what should change, what remains unknown, and which evidence can enter the model now.
+2. Needham assumption audit and formula reconciliation, including table inconsistencies.
+3. A master comparator library and KPI-specific eligibility/relevance matrices; document why old-universe members are retained or excluded and new candidates added.
+4. A PoS cohort ledger covering entry landmark, stage, mechanism, outcome, dates, follow-up, discontinuation reason, dependencies and sources; raw counts before modeled rates.
+5. A PoS assessment with separate benchmark, matched evidence, judgmental adjustments, uncertainty and sensitivity to censoring, stage, vintage and nontechnical failures.
+6. Commercial KPI evidence tables with geography/period/denominator, ranges and explicit recommended or unsupported inputs.
+7. A transparent forecast specification or populated model where evidence supports it, keeping conditional WW sales, approval risk and CAMP economics separate.
+8. A prioritized evidence-acquisition list showing which unresolved input most affects valuation and the next feasible action.
+
+Save substantive outputs, sources/provenance and a concise continuation handoff in the authorized public GitHub repository. Preserve the earlier first-entry forecast study rather than overwriting it. Use dedicated paths for this audit. Public visibility and saving the sell-side context have already been explicitly authorized. Do not claim analyses are complete until performed and checked.
+
+STANDARD OF SUCCESS
+
+The goal is not a larger stack of anecdotes or a confident-looking PoS percentage. It is a reproducible explanation of which historical observations genuinely transfer to each CMP-002 assumption, where that transfer breaks down, and how the remaining uncertainty changes the independent forecast and valuation.
