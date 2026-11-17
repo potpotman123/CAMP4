@@ -15,6 +15,9 @@
 
 ## Start here
 
+- **Current direction: [independent nested-cohort rebuild](protocol/pos_nested_cohort_reset_2026-11-16.txt).** Recalculate the broad rate from a common universe and progressively filter it. The earlier odds sensitivity is a scenario tool, not completion of this empirical analysis.
+
+
 - **[Three-tier PoS synthesis](reports/pos_three_tier_synthesis_2026-11-16.txt)**: frozen [four closest biological/clinical peers](data/pos_synthesis/closest_biological_clinical_peers_2026-11-16.json), broader 16-asset genetic CNS set, published benchmark anchors and explicit odds sensitivities. No fitted posterior or empirically calibrated blend claimed.
 
 
