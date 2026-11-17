@@ -32,6 +32,8 @@ adjudication_file=D/'fda_hit_adjudication.json'
 hit_adjudications=json.loads(adjudication_file.read_text()) if adjudication_file.exists() else []
 if isinstance(hit_adjudications,dict):hit_adjudications=hit_adjudications.get('rows',list(hit_adjudications.values()))
 hit_adjudications={r['id']:r for r in hit_adjudications}
+status_audit_file=D/'six_program_status_audit.json'
+status_audits={r['id']:r for r in json.loads(status_audit_file.read_text())} if status_audit_file.exists() else {}
 rows=[]
 for b in base:
  u=updates.get(b['id'],{});s=b['source_record'];disp=u.get('disposition','exclude' if b['reference_eligibility']=='excluded' else 'unknown')
@@ -54,6 +56,12 @@ for b in base:
  strict_entry=qualified and (u.get('entry_window_qualified') is True or u.get('first_human_verified') is True or u.get('first_human_entry_verified') is True or (precision in ['month','year','day','day_proxy','exact'] and bool(u.get('first_human_evidence',u.get('evidence')))))
  row={'id':b['id'],'asset':u.get('canonical_asset',b['asset']),'indication':b['indication'],'family':b['family'],'asset_cluster':u.get('asset_cluster',b['asset_cluster']),'disposition':disp,'disposition_reason':u.get('disposition_reason',b['eligibility_reason']),'entry_interval':ints,'entry_precision':precision,'entry_qualified':qualified,'strict_entry_qualified':strict_entry,'flags':flags,'closest4':u.get('closest_restoration_ASO4',s.get('closest_restoration_ASO4',False)),'outcome':outcome,'approval_date':appdate if approved else None,'observed_FDA_approval':bool(approved),'FDA_inventory_matches':len(hits),'FDA_approval_ascertainment':'indication_approval_primary_evidence' if approved else 'no_approval_identified_in_program_review_and_inventory' if not hits else 'inventory_hit_requires_target_indication_review','review_complete':u.get('review_complete',u.get('research_complete',bool(u.get('searches')))) if u else b['reference_eligibility']=='excluded','review_file':reviewfiles.get(b['id'],'data/pos_adjudication/integrated_program_ledger.json'),'remaining_uncertainty':u.get('remaining_uncertainty',[]),'last_verified_active_date':u.get('last_verified_active_date'),'original_entry_proxy':b['entry_proxy']}
  rows.append(row)
+ if b['id'] in status_audits:
+  audit=status_audits[b['id']]
+  row['prior_review_outcome']=row['outcome'];row['outcome']=audit['outcome']
+  row['latest_status_audit']=audit
+  row['latest_status_audit_file']='data/pos_completion/six_program_status_audit.json'
+  row['remaining_uncertainty']=[audit['uncertainty']]
  if b['id'] in hit_adjudications:row['FDA_approval_ascertainment']='inventory_hit_resolved_by_target_indication_review'
 # No later indications or duplicate mixed-program rows may silently multiply independent assets.
 def dedup(seq,latest=False):

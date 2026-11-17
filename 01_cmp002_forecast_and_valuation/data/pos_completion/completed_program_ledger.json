@@ -24,7 +24,7 @@
       "neurodevelopmental": false
     },
     "closest4": false,
-    "outcome": "unknown",
+    "outcome": "stopped_superseded",
     "approval_date": null,
     "observed_FDA_approval": false,
     "FDA_inventory_matches": 0,
@@ -32,10 +32,26 @@
     "review_complete": true,
     "review_file": "data/pos_completion/als_updates.json",
     "remaining_uncertainty": [
-      "Secondary review says discontinued but no primary explicit cessation date found; do not use tofersen approval as this molecule success."
+      "Exact decision date not established."
     ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2010-01"
+    "original_entry_proxy": "2010-01",
+    "prior_review_outcome": "unknown",
+    "latest_status_audit": {
+      "id": "als:ISIS333611|ALS",
+      "asset": "ISIS333611",
+      "outcome": "stopped_superseded",
+      "clinical_result": "Initial trial focused on safety; termination was replacement by a more potent candidate, not a demonstrated pivotal efficacy failure.",
+      "development_status": "Ionis developer-authored account explicitly says development was terminated in favor of an improved molecule; tofersen is distinct.",
+      "uncertainty": "Exact decision date not established.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8682074/"
+      ],
+      "evidence_basis": "First-party historical account by Ionis drug developers, published in a review; not an unrelated secondary inference.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "als:NurOwn|ALS",
@@ -1969,7 +1985,7 @@
       "neurodevelopmental": false
     },
     "closest4": false,
-    "outcome": "unknown_after_research",
+    "outcome": "clinical_efficacy_not_demonstrated_program_fate_unknown",
     "approval_date": null,
     "observed_FDA_approval": false,
     "FDA_inventory_matches": 0,
@@ -1977,11 +1993,26 @@
     "review_complete": true,
     "review_file": "data/pos_completion/neuro_updates.json",
     "remaining_uncertainty": [
-      "Clinical treatment and poor benefit established, but no definitive sponsor stop declaration/date recovered. Do not infer stop from completed trial or negative investigator results.",
-      "No definitive current program fate found in reviewed public sources; completed/terminated individual trial does not establish whole program failure."
+      "Formal disposition and stop date remain unresolved. New vectors for MLD are not evidence this original product continues."
     ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2014-06"
+    "original_entry_proxy": "2014-06",
+    "prior_review_outcome": "unknown_after_research",
+    "latest_status_audit": {
+      "id": "neuro:AAVrh10_ARSA|MLD",
+      "asset": "AAVrh10-ARSA",
+      "outcome": "clinical_efficacy_not_demonstrated_program_fate_unknown",
+      "clinical_result": "Investigators report no clinical effect despite persistent CSF ARSA restoration, including in presymptomatic patients.",
+      "development_status": "Negative clinical evidence established; no definitive current continuation or formal program-wide termination recovered.",
+      "uncertainty": "Formal disposition and stop date remain unresolved. New vectors for MLD are not evidence this original product continues.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8175802/"
+      ],
+      "evidence_basis": "Original research paper from investigators explicitly describing their prior clinical trial experience.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "neuro:AAVrh10_CLN2|NCL",
@@ -2008,7 +2039,7 @@
       "neurodevelopmental": false
     },
     "closest4": false,
-    "outcome": "unknown_after_research",
+    "outcome": "sponsor_exit_rights_returned_successor_unknown",
     "approval_date": null,
     "observed_FDA_approval": false,
     "FDA_inventory_matches": 0,
@@ -2016,10 +2047,28 @@
     "review_complete": true,
     "review_file": "data/pos_completion/neuro_updates.json",
     "remaining_uncertainty": [
-      "No definitive current program fate found in reviewed public sources; completed/terminated individual trial does not establish whole program failure."
+      "Cornell continuation/relicensing not established. Sponsor exit is not proof of permanent molecule failure."
     ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2010-04-15"
+    "original_entry_proxy": "2010-04-15",
+    "prior_review_outcome": "unknown_after_research",
+    "latest_status_audit": {
+      "id": "neuro:AAVrh10_CLN2|NCL",
+      "asset": "AAVrh10-CLN2 / LX1004",
+      "outcome": "sponsor_exit_rights_returned_successor_unknown",
+      "clinical_result": "Early signal of slower progression; distribution limitations prompted consideration of a different delivery route and additional preclinical work.",
+      "development_status": "Lexeo sought partners in2024; its September2026 quarter10Q states license terminated and CLN2 IND returned to Cornell inOctober2026.",
+      "uncertainty": "Cornell continuation/relicensing not established. Sponsor exit is not proof of permanent molecule failure.",
+      "event_date": "2026-10",
+      "sources": [
+        "https://bdsrafoundation.org/wp-content/uploads/2024/03/Lexeo_Letter-to-community_Feb2024.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1907108/000119312526462020/lxeo-20260930.htm"
+      ],
+      "evidence_basis": "Sponsor community letter and latest SEC filing.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "neuro:AB-1001|Huntington",
@@ -5804,9 +5853,28 @@
     "FDA_approval_ascertainment": "no_approval_identified_in_program_review_and_inventory",
     "review_complete": true,
     "review_file": "data/pos_completion/neuro_updates.json",
-    "remaining_uncertainty": [],
+    "remaining_uncertainty": [
+      "No current continuation established; exact disclosed stop date known."
+    ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2015-08-06"
+    "original_entry_proxy": "2015-08-06",
+    "prior_review_outcome": "stopped_efficacy",
+    "latest_status_audit": {
+      "id": "neuro:tominersen|Huntington",
+      "asset": "Tominersen",
+      "outcome": "stopped_efficacy",
+      "clinical_result": "GENERATION HD2 met safety/biomarker objectives but showed no meaningful clinical efficacy benefit against placebo.",
+      "development_status": "Roche explicitly discontinued clinical development July9,2026. This is the later HD2 decision, not simply the2021HD1 trial halt.",
+      "uncertainty": "No current continuation established; exact disclosed stop date known.",
+      "event_date": "2026-07-09",
+      "sources": [
+        "https://ehdn.org/wp-content/uploads/2026/07/Roche-GENERATION-HD2-_-POINT-HD-global-patient-community-letter-July2026.pdf"
+      ],
+      "evidence_basis": "Dated sponsor letter.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "neuro:trofinetide|Fragile_X",
@@ -6391,11 +6459,27 @@
     "review_complete": true,
     "review_file": "data/pos_completion/metabolic_updates.json",
     "remaining_uncertainty": [
-      "FDA approval absence requires central Drugs@FDA plus CBER alias matching; lack of an isolated web hit is not coded as a negative.",
-      "Later LYS-SAF302 is a modified vector, not merely another name for SAF301. No ongoing standalone SAF301 development was recovered."
+      "Exact formal SAF301 retirement date not established; this is not a verified pivotal clinical failure."
     ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2011-08"
+    "original_entry_proxy": "2011-08",
+    "prior_review_outcome": "superseded_by_distinct_asset",
+    "latest_status_audit": {
+      "id": "metabolic:metabolic_saf301",
+      "asset": "SAF301",
+      "outcome": "superseded_by_distinct_asset",
+      "clinical_result": "Early study met its safety objective; successor engineering changed the promoter and removed SUMF1 to improve the construct.",
+      "development_status": "Development shifted to distinct LYS-SAF302. No standalone ongoing SAF301 development recovered.",
+      "uncertainty": "Exact formal SAF301 retirement date not established; this is not a verified pivotal clinical failure.",
+      "sources": [
+        "https://echanges.dila.gouv.fr/OPENDATA/AMF/190/8888/01/FC190380000_20210412.pdf",
+        "https://bettersciencebetterhealth.com/wp-content/uploads/2017/11/1-Michael-Hocquemiller-Advanced-Therapies-Opportunities-and-Challenges_-LYSOGENE-presentation.pdf"
+      ],
+      "evidence_basis": "Issuer annual registration document and developer presentation.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "metabolic:metabolic_ucmsc",
@@ -6994,11 +7078,28 @@
     "review_complete": true,
     "review_file": "data/pos_completion/metabolic_updates.json",
     "remaining_uncertainty": [
-      "FDA approval absence requires central Drugs@FDA plus CBER alias matching; lack of an isolated web hit is not coded as a negative.",
-      "uniQure explicitly deprioritized AMT110 and sought partners. Termination-cost language in same filing concerns workforce, not permanent drug abandonment."
+      "Final transfer/termination and any current active successor not established."
     ],
     "last_verified_active_date": null,
-    "original_entry_proxy": "2013-09-17"
+    "original_entry_proxy": "2013-09-17",
+    "prior_review_outcome": "deprioritized_current_fate_unknown",
+    "latest_status_audit": {
+      "id": "metabolic:metabolic_raav25naglu",
+      "asset": "rAAV2/5-hNAGLU / AMT-110",
+      "outcome": "deprioritized_current_fate_unknown",
+      "clinical_result": "Five-and-a-half-year followup found no confirmed cognitive benefit in three older children; youngest child had a more favorable course in an uncontrolled four-patient study.",
+      "development_status": "uniQure explicitly deprioritized program November14,2016 and discussed discontinuation or transfer. Later patient followup publication does not establish renewed drug development.",
+      "uncertainty": "Final transfer/termination and any current active successor not established.",
+      "event_date": "2016-11-14",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1590560/000110465916158478/a16-21899_1ex99d2.htm",
+        "https://pubmed.ncbi.nlm.nih.gov/34405688/"
+      ],
+      "evidence_basis": "Sponsor filing and original long-term clinical report.",
+      "as_of": "2026-11-16",
+      "approval_status_changed": false
+    },
+    "latest_status_audit_file": "data/pos_completion/six_program_status_audit.json"
   },
   {
     "id": "metabolic:metabolic_ezutromid",
