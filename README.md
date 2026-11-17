@@ -11,7 +11,7 @@ Build an unbiased forecast for CMP-002 in SYNGAP1-related disorder and a defensi
 3. Independently build a top-down epidemiology-driven worldwide sales forecast.
 4. Compare the results and explain any gap: patients, diagnosis, eligibility, uptake, pricing, timing, development risk, competition or valuation assumptions.
 
-**Available:** eight original CAMP sell-side PDFs and their extracted text, an inherited Street-reference dataset, and the extensive KPI/PoS/post-LOE audit research prompt. **Not yet completed:** the independent forecast, reverse DCF and matched KPI audit. See the [Project 1 guide](01_cmp002_forecast_and_valuation/README.md).
+**Available:** 15 original CAMP sell-side PDFs (eight with extracted text; seven additional LSEG reports saved November 17), an inherited Street-reference dataset, and the extensive KPI/PoS/post-LOE audit research prompt. **Not yet completed:** the independent forecast, reverse DCF and matched KPI audit. See the [Project 1 guide](01_cmp002_forecast_and_valuation/README.md).
 
 ## [Project 2 — Historical sell-side forecasts for first-entry rare DMTs](02_first_entry_dmt_forecast_study/)
 

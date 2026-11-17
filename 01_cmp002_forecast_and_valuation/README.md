@@ -6,7 +6,7 @@
 
 | Workstream | Status / starting point |
 |---|---|
-| Sell-side context and assumption audit | Eight original reports and extracted text saved; inherited Street data available |
+| Sell-side context and assumption audit | 15 original reports saved (eight with extracted text); seven LSEG initiations/pivot and valuation reports added November 17; inherited Street data available |
 | Reverse DCF | To build: observed EV, development/operating costs, timeline, financing context and sales implied by valuation |
 | Independent worldwide revenue forecast | To build: epidemiology, diagnosis, eligibility, uptake, paid exposure, net pricing and country access |
 | KPI and PoS comparator research | Completed second review of all 449 assigned histories; 316 included records / 310 asset clusters. Five-, eight- and ten-year approval calculations and sensitivities saved. CMP-002 lifetime PoS remains judgmental; other KPI audits pending |
