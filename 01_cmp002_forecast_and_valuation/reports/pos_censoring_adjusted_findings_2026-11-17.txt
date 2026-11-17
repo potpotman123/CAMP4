@@ -1,0 +1,93 @@
+PROGRESSIVELY TIGHTER PoS PEERS, WITH ACTIVE PROGRAMS RETAINED
+Analysis: 17 November 2026. Evidence cutoff remains 16 November 2026.
+Project 1: CMP-002 independent forecast and valuation.
+
+DECISION
+Needham's 25% eventual approval assumption is plausible in magnitude against the larger historical panels, but is not independently calibrated for pre-dose CMP-002. There is no defensible statistical basis here to replace it with a precise 21%, 22%, or a weighted average of the overlapping panels. The closest four restoration ASOs remain too immature. Recent genetic-CNS experience is less reassuring than the pooled historical tail, but too sparse to establish a lower lifetime probability.
+
+WHAT WAS CALCULATED
+Use the SAME 310 asset/combination clusters and progressively restrict them:
+R1: 310 candidates in the selected broad rare-disease discovery panel.
+R2: 81 in genetically defined CNS diseases.
+R3: 48 genetic medicines within that genetic-CNS panel.
+R4: 4 closest intrathecal protein-restoration ASOs: apazunersen, obudanersen, rugonersen and zorevunersen. These are the same four obtained by the recorded intrathecal/protein-restoration/neurodevelopmental filters; not an independent additional evidence set.
+
+R1 is not all rare drugs or all drugs generally. This remains a public-source panel discovered through 48 disease terms. R3 includes materially different delivery systems, biological targets and disease mechanisms. Increasing similarity sacrifices sample size and observation time; it does not automatically eliminate confounding or make the small sample representative of CMP-002.
+
+METHOD THAT USES RECENT, STILL-ACTIVE PROGRAMS
+Estimate the distribution of elapsed time from initial human entry to FDA approval in the qualifying indication. Every candidate contributes its actual observed elapsed time. An unapproved candidate is administratively censored at the evidence cutoff. A failed candidate is retained as a non-approval through the cutoff, NOT removed/censored on its discontinuation date. Thus failure is not incorrectly treated as if its future approval chances match those of active programs.
+
+At each approval time t, multiply the remaining nonapproval probability by 1 - d(t)/R*(t), where d(t) is approvals at that elapsed time and R*(t) includes nonapproved candidates observed through t, including failed candidates. Estimated approval by horizon h is one minus that product through h. This is an administrative-censoring subdistribution product-limit calculation. No proportional-hazards regression or parametric tail model was fitted; do not call it a fitted Fine-Gray regression.
+
+Why this route: 49 of 114 failed drug-indication member records lack an outcome/status date in the existing structured fields. A conventional dated approval-versus-discontinuation analysis would require further extraction or imputation. Approval dates and the fixed cutoff permit the above approach without selecting only the failures with good date documentation. Some missing stop dates may be recoverable in source text; missing structured date does not mean unknown status.
+
+This requires sufficiently complete approval ascertainment through cutoff and reasonably comparable approval-time distributions across entry eras within a fitted cohort. Unknown development status is NOT the same as unknown regulatory approval: the prior FDA inventory and alias/indication review supplies the conditional approval observation. No-hit is not perfect proof. If an approval was missed, this assumption fails. The method does not assume an unresolved program remained in active development to cutoff.
+
+Under known administrative censoring, retaining competing events to their administrative censoring time is a recognized subdistribution approach. See the original methods discussion in:
+https://academic.oup.com/ije/article/51/2/615/6468864
+https://doi.org/10.1186/s12874-017-0327-3
+These references support the method, not the empirical drug data or its selection assumptions. Ordinary Kaplan-Meier with failure censored at the stop would overstate approval incidence; that is NOT the calculation used here.
+
+RESULTS: FINITE HORIZONS, NOT EVENTUAL PoS
+Panel                         N      By 5 years   By 8 years   By 10 years   By 12 years
+Broad rare disease           310        4.8%        14.5%         21.8%         26.2%
+Genetic CNS                   81        5.0%        15.2%         21.1%         25.1%
+Genetic medicines in CNS      48        3.2%        15.1%         22.2%         30.8%
+Closest restoration ASOs       4        0 observed   Unsupported   Unsupported   Unsupported
+
+All entrants remain in each fitted cohort; later entrants contribute the years they have. This does not create ten years of information for a candidate with three years of history. Longer-horizon estimates still depend on older candidates. The subdistribution comparison sets at years 8/10/12 are 122/73/38 for broad rare disease, 31/20/11 for genetic CNS and 15/9/6 for genetic CNS medicines. These sets include known failures retained as non-approvals; they are NOT counts of active programs.
+
+Descriptive 95% cluster-bootstrap intervals at ten years: broad 15.5-28.7%; genetic CNS 9.8-34.4%; genetic CNS medicines 6.2-41.8%. At twelve years the corresponding intervals are 18.5-35.0%, 12.5-39.6%, and 10.5-54.3%. These reflect resampling this finite selected panel, not population-valid confidence intervals: disease/target/sponsor dependence, omitted programs, input uncertainty and panel-selection bias are not corrected. No degenerate 0-0 interval is reported for the zero-event four-ASO cohort.
+
+First-human intervals use midpoint dates for the main calculation. Changing all dates to earliest/latest bounds gives ten-year estimates of 22.0/22.7%, 21.7/24.8%, and 23.8/30.1% for R1/R2/R3. These are scenarios, NOT mathematical extrema: reordering entry/approval times and censoring can make midpoint results lie outside the two endpoint scenarios. This date sensitivity matters, especially for R3. The stronger-entry broad subset yields 21.8% by ten years; its N=236 requires ALL merged member rows to satisfy the stronger-entry flag, versus the earlier selected-row implementation's 238.
+
+RECENCY TEST
+Entries 2015-2024             N      By 8 years   By 10 years    Year-10 comparison set
+Broad rare disease          256        13.8%         21.0%                33
+Genetic CNS                  65        11.7%         16.6%                 9
+Genetic medicines in CNS     39        12.9%         12.9%                 3
+
+The recent R3 curve is flat from eight to ten years because no further approval events occur in the observed tail. It is not evidence that eventual approval plateaus at 12.9%. For 2020-2024 entries there is no eight- or ten-year support. The broad panel contains two approvals by cutoff, but none within five years of entry under the midpoint clock. That is development latency, not proof of zero eventual success. A pooled survival correction cannot fix calendar-era differences; the recent cohorts are a required sensitivity, not optional decoration.
+
+UNRESOLVED-PROGRAM BIAS
+Current unknown counts are 40/310 (12.9%), 4/81 (4.9%), 1/48 (2.1%) and 0/4. The 40 consist of 30 unresolved dispositions, four other-indication scope problems, five geographic pathway problems and one follow-up-versus-advancement ambiguity. Thirty-four are in metabolic/systemic families. Public disappearance plausibly occurs more often after quiet discontinuation, small-company financing failure and foreign/local development; the assumption of random missingness is not justified. This directional mechanism is plausible, not proven for each unknown.
+
+Deliberately deleting unknowns, as a selection-bias diagnostic, changes ten-year estimates:
+Broad: 21.8% -> 26.0% (+4.2 percentage points).
+Genetic CNS: 21.1% -> 22.5% (+1.4 points).
+Genetic CNS medicines: 22.2% -> 22.5% (+0.3 points).
+Deleting both unknowns and probable failures increases them further to 28.2%, 26.2% and 28.5%. These deletion scenarios are NOT preferred estimates or missing-data corrections. They demonstrate the consequence of selecting better-documented/resolved candidates.
+
+Changing a nonapproved candidate's label between failed, active and unknown does not alter this finite-horizon curve, because it remains a nonapproval through the same cutoff. That is intentional. Status uncertainty matters enormously for projecting beyond cutoff, but need not erase a separately ascertained absence of FDA approval to date.
+
+Other biases may be more important than the remaining within-panel unknowns:
+- Omitted quiet failures never discovered in the first place can bias the panel upward; this analysis cannot quantify their number.
+- The separate 43 identity/entry-unresolved records outside the qualified 310 remain outside this analysis. Selection on recoverable identity/entry can still bias the denominator; resolving within-panel outcomes does not solve that exclusion problem.
+- Missing approvals through alias/construct or indication errors would bias the measured approval incidence downward.
+- Foreign-only development in an FDA-endpoint denominator can lower the observed rate relative to candidates intending US registration. US regulatory intent has not been uniformly established across this panel; foreign approval is not FDA failure.
+- Initial-human entry conditions on surviving preclinical development. CMP-002 pre-dose PoS also includes the remaining chance of not reaching human exposure, and target/platform-specific translation risks.
+- Older approved gene-replacement/splicing programs may have different target validation and development environments from a novel regulatory-RNA platform.
+- Shared targets, delivery platforms and asset/component clusters are not independent evidence. Nested rates must not be blended as independent estimates.
+
+BRIDGE TO NEEDHAM'S EVENTUAL 25%: EXPLICIT THRESHOLD, NOT A FITTED FORECAST
+For the existing finite cohort, let A=already approved, D=active, U=unknown, and N=all candidates. If the failed category is terminal, expected eventual approval fraction is:
+  (A + p_active*D + p_unknown*U) / N.
+The p terms are future approval probabilities CONDITIONAL ON CURRENT STATUS, not inception PoS. This identity does not use the horizon curve, does not estimate either p, and is not a substitute for duration-adjusted modelling. It makes the extra assumption behind a 25% eventual outcome visible.
+
+If none of the unknowns ever gains FDA approval, reaching 25% requires:
+Broad: 35.5 additional expected approvals out of 115 active = 30.9%.
+Genetic CNS: 8.25 out of 36 active = 22.9%.
+Genetic medicines in CNS: 5 out of 21 active = 23.8%.
+Closest four ASOs: 1 out of 3 active = 33.3%.
+Fractional values are expected counts, not literal fractional drug outcomes. With a hypothetical 25% future approval rate for unknowns, required active rates fall to 22.2%, 20.1%, 22.6% and 33.3%, respectively. None is estimated by this exercise.
+
+Without any assumption on future active/unknown outcomes, eventual fractions are only bounded by 13.5-63.5%, 14.8-64.2%, 14.6-60.4% and 0-75%, treating main failures as terminal. Allowing the 19/8/6 probable failures to revive widens the first three upper bounds to 69.7%, 74.1% and 72.9%. These are finite-panel identification bounds, not useful confidence intervals or forward-looking CMP-002 valuation ranges.
+
+WHAT TO PUT IN THE MODEL NOW
+Keep 25% labeled as Needham's judgmental assumption / sensitivity anchor. The historical exercise does not show it is absurdly high, but also does not validate it for this molecule or establish it as the independent base case. The 21-22% ten-year observations are not replacements for lifetime PoS. The historical twelve-year tail places 25% within a plausible magnitude, while recent CNS cohorts, date uncertainty and the four-ASO immaturity argue against claiming strong empirical confidence. A higher or lower CMP-002 assumption needs explicit clinical/platform/target and pre-dose adjustments, not an average of these overlapping rates.
+
+The next incremental evidence with greatest decision value is current-stage and event-date annotation for the 21 active genetic-CNS medicines, the four closest ASOs, and the six probable failures in R3. That would distinguish a late-stage active candidate from a newly dosed candidate and constrain future conditional probabilities. It would still not repair undiscovered-program selection without a broader historical database. No further universe expansion or expensive model fitting was undertaken here.
+
+REPRODUCTION AND SAVED OUTPUTS
+scripts/analyze_censoring_adjusted_pos.py rebuilds data/pos_censoring_analysis/{observations,results,validation}.json using the frozen 310-candidate status ledger. Results contain full approval curves, all horizon values, earliest/latest entry scenarios, recent and stronger-entry subsets, deletion diagnostics, future-outcome scenarios and reproducible 1,000-resample descriptive intervals. Source retrievals saved in sources/pos_completion/censoring_*_2026-11-17.json.
+Validation includes hand-calculated failure-retention/censoring examples, unsupported-horizon handling, 310/81/48/4 membership, 42 FDA approvals, monotonic bounded curves, status totals and 25% threshold identities. These check arithmetic, not external validity. Input hashes and random seed saved. No parallel agents used. No new regulatory events inferred after the frozen evidence cutoff.

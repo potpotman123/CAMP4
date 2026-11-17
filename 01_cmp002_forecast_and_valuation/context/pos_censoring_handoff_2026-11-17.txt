@@ -1,0 +1,11 @@
+CURRENT PoS ANALYSIS — 17 NOVEMBER 2026; EVIDENCE FROZEN 16 NOVEMBER
+
+Read reports/pos_censoring_adjusted_findings_2026-11-17.txt. All 310/81/48/4 nested clusters used. Administrative-censoring subdistribution product-limit curve: FDA approval date vs cutoff; failed programs retained through cutoff, NOT censored at stop. Valid conditional on sufficiently complete approval ascertainment and exchangeability across calendar-entry eras. Unknown development status is not inferred to mean active; no observed FDA approval through cutoff is the operational endpoint. Methods sources saved; no parametric lifetime extrapolation.
+
+Ten-year estimates21.8/21.1/22.2%; twelve-year26.2/25.1/30.8%. Closest4 no8y support,0approved/1failed/3active. Recent2015+ tenyear21.0/16.6/12.9 with comparison sets33/9/3; current2020+ cannot support8y. Date midpoint vs earliest/latest matters: R3tenyear22.2/23.8/30.1. These are scenarios not extrema. Bootstrap descriptive, not population-valid: n310 tenyear15.5-28.7,n81 9.8-34.4,n48 6.2-41.8. Never label these lifetime PoS.
+
+Deleting unknowns inflates tenyear to26.0/22.5/22.5; diagnostic only. Changing failed/active/unknown labels without changing observed approval does not change historical curve, but changes future-outcome projections. Stronger-entry clusters236 (all member rows strict) versus prior238 (selected representative row); explicitly documented. Forty unknown within qualified310 separate from43identity/entryunknown outside310. Public samplingframe, foreign-onlyFDApath, first-humanconditioning, recency and correlatedassets remain biases.
+
+Needham25% not refuted and not validated forCMP002. Algebraic finite-cohort threshold assumingunknownfuture0: activefutureapproval30.9/22.9/23.8/33.3% produces eventual25. This is an assumption audit, not fitted p_active or a valuation forecast. No automatic empirical weighted blend. Current-stage annotation for21activeR3/fourclosest/sixprobableR3 could improve next calibration, but not completed this turn.
+
+Run scripts/analyze_censoring_adjusted_pos.py. data/pos_censoring_analysis/{observations,results,validation}.json records inputs, scenarios, curves,1000-resample intervals,seed and hashes. Structural/arithmetic tests passed. No agents; no paiddata/outreach/expensive fitting. All workProject1. Prior horizon and statuslayers preserved.

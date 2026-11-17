@@ -1,0 +1,3477 @@
+{
+  "analysis_date": "2026-11-17",
+  "evidence_cutoff": "2026-11-16",
+  "method": "Administrative-censoring subdistribution product limit; discontinued candidates retained through cutoff, never censored at stop",
+  "formula": "F(h)=1-product_over_approval_times_t<=h(1-approvals(t)/nonapproved_observed_through_t)",
+  "assumptions": [
+    "FDA qualifying-indication approval ascertainment complete through cutoff conditional on prior alias review",
+    "Within each fitted cohort, entry-calendar-derived observation time independent of latent time to approval",
+    "Entry midpoint is a proxy; earliest/latest scenarios supplied",
+    "No extrapolation from finite horizon to lifetime"
+  ],
+  "tiers": {
+    "R1_rare": {
+      "n": 310,
+      "status_counts": {
+        "approved": 42,
+        "failed": 113,
+        "active": 115,
+        "unknown": 40
+      },
+      "probable_failures": 19,
+      "lifetime_identification_bounds": [
+        0.13548387096774195,
+        0.635483870967742
+      ],
+      "strict_failure_lifetime_bounds": [
+        0.13548387096774195,
+        0.6967741935483871
+      ],
+      "active_future_success_required_for_25": [
+        {
+          "unknown_future_success": 0,
+          "required_active_future_success": 0.30869565217391304
+        },
+        {
+          "unknown_future_success": 0.25,
+          "required_active_future_success": 0.2217391304347826
+        },
+        {
+          "unknown_future_success": 0.5,
+          "required_active_future_success": 0.13478260869565217
+        },
+        {
+          "unknown_future_success": 1,
+          "required_active_future_success": -0.0391304347826087
+        }
+      ],
+      "lifetime_scenarios": [
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.17258064516129032
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.20483870967741935
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.3016129032258065
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.22822580645161292
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.26048387096774195
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.357258064516129
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.2838709677419355
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.3161290322580645
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.4129032258064516
+        }
+      ],
+      "main": {
+        "n": 310,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0033112582781457123,
+            "supported": true,
+            "subdistribution_risk_set": 280,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0033670033670033517,
+            "latest_entry_scenario": 0.003225806451612856,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.010000000000000009
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0476924332638442,
+            "supported": true,
+            "subdistribution_risk_set": 205,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.029411142899885556,
+            "latest_entry_scenario": 0.07540622113870443,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.023409116162193648,
+              0.07869780511395753
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.14523533655120036,
+            "supported": true,
+            "subdistribution_risk_set": 122,
+            "observed_approvals_by_horizon": 28,
+            "earliest_entry_scenario": 0.11951618622256566,
+            "latest_entry_scenario": 0.15631271747576647,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.09594131826760248,
+              0.19932503845049054
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.21786466821584505,
+            "supported": true,
+            "subdistribution_risk_set": 73,
+            "observed_approvals_by_horizon": 37,
+            "earliest_entry_scenario": 0.2200568409164605,
+            "latest_entry_scenario": 0.22668914501927084,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.1552922983487241,
+              0.2867243296978011
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": 0.2622781603028741,
+            "supported": true,
+            "subdistribution_risk_set": 38,
+            "observed_approvals_by_horizon": 40,
+            "earliest_entry_scenario": 0.24172192866878106,
+            "latest_entry_scenario": 0.26180336340848875,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.18463748355081383,
+              0.34965305178401507
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 2.302532511978097,
+            "subdistribution_risk_set": 302.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0033112582781457123
+          },
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 251.0,
+            "approvals": 1.0,
+            "approval_probability": 0.007282129759109246
+          },
+          {
+            "years": 4.314852840520191,
+            "subdistribution_risk_set": 242.0,
+            "approvals": 1.0,
+            "approval_probability": 0.01138426971878237
+          },
+          {
+            "years": 4.372347707049966,
+            "subdistribution_risk_set": 239.0,
+            "approvals": 1.0,
+            "approval_probability": 0.015520737209498758
+          },
+          {
+            "years": 4.446269678302532,
+            "subdistribution_risk_set": 218.0,
+            "approvals": 1.0,
+            "approval_probability": 0.020036697130556114
+          },
+          {
+            "years": 4.470910335386721,
+            "subdistribution_risk_set": 217.0,
+            "approvals": 1.0,
+            "approval_probability": 0.02455265705161347
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 214.0,
+            "approvals": 1.0,
+            "approval_probability": 0.029110822205577813
+          },
+          {
+            "years": 4.878850102669404,
+            "subdistribution_risk_set": 209.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03375622497014441
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 208.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03840162773471101
+          },
+          {
+            "years": 4.941820670773443,
+            "subdistribution_risk_set": 207.0,
+            "approvals": 1.0,
+            "approval_probability": 0.043047030499277605
+          },
+          {
+            "years": 4.971937029431896,
+            "subdistribution_risk_set": 206.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0476924332638442
+          },
+          {
+            "years": 5.1416837782340865,
+            "subdistribution_risk_set": 203.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0523836035433326
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 200.0,
+            "approvals": 1.0,
+            "approval_probability": 0.05712168552561592
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 199.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06185976750789923
+          },
+          {
+            "years": 5.281314168377824,
+            "subdistribution_risk_set": 198.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06659784949018255
+          },
+          {
+            "years": 5.286789869952088,
+            "subdistribution_risk_set": 197.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07133593147246586
+          },
+          {
+            "years": 5.423682409308693,
+            "subdistribution_risk_set": 187.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07630204948598207
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 186.0,
+            "approvals": 2.0,
+            "approval_probability": 0.08623428551301449
+          },
+          {
+            "years": 6.806297056810404,
+            "subdistribution_risk_set": 148.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09240837817846714
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 147.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0985824708439198
+          },
+          {
+            "years": 7.003422313483915,
+            "subdistribution_risk_set": 144.0,
+            "approvals": 1.0,
+            "approval_probability": 0.10484231479639261
+          },
+          {
+            "years": 7.112936344969199,
+            "subdistribution_risk_set": 141.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11119095086166642
+          },
+          {
+            "years": 7.115674195756331,
+            "subdistribution_risk_set": 140.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11753958692694022
+          },
+          {
+            "years": 7.389459274469542,
+            "subdistribution_risk_set": 130.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1243277439505791
+          },
+          {
+            "years": 7.742642026009582,
+            "subdistribution_risk_set": 127.0,
+            "approvals": 1.0,
+            "approval_probability": 0.13122280108482653
+          },
+          {
+            "years": 7.969883641341547,
+            "subdistribution_risk_set": 124.0,
+            "approvals": 1.0,
+            "approval_probability": 0.13822906881801345
+          },
+          {
+            "years": 7.991786447638604,
+            "subdistribution_risk_set": 123.0,
+            "approvals": 1.0,
+            "approval_probability": 0.14523533655120036
+          },
+          {
+            "years": 8.049281314168377,
+            "subdistribution_risk_set": 122.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15224160428438727
+          },
+          {
+            "years": 8.136892539356605,
+            "subdistribution_risk_set": 121.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15924787201757418
+          },
+          {
+            "years": 8.183436002737851,
+            "subdistribution_risk_set": 119.0,
+            "approvals": 1.0,
+            "approval_probability": 0.16631301595019954
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 118.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1733781598828249
+          },
+          {
+            "years": 8.632443531827516,
+            "subdistribution_risk_set": 100.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1816443782839967
+          },
+          {
+            "years": 8.635181382614647,
+            "subdistribution_risk_set": 99.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1899105966851684
+          },
+          {
+            "years": 9.125256673511293,
+            "subdistribution_risk_set": 95.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1984378535621667
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 92.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2071504855886649
+          },
+          {
+            "years": 9.796030116358658,
+            "subdistribution_risk_set": 74.0,
+            "approvals": 1.0,
+            "approval_probability": 0.21786466821584505
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 73.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22857885084302532
+          },
+          {
+            "years": 10.392881587953456,
+            "subdistribution_risk_set": 54.0,
+            "approvals": 1.0,
+            "approval_probability": 0.24286442767926553
+          },
+          {
+            "years": 11.822039698836413,
+            "subdistribution_risk_set": 39.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2622781603028741
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.30110562555009124
+          },
+          {
+            "years": 14.469541409993155,
+            "subdistribution_risk_set": 14.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3510266522965133
+          }
+        ]
+      },
+      "recent_2015_2024": {
+        "n": 256,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0040322580645161255,
+            "supported": true,
+            "subdistribution_risk_set": 226,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.004115226337448541,
+            "latest_entry_scenario": 0.00390625,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.01234695439240899
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.03369974257532127,
+            "supported": true,
+            "subdistribution_risk_set": 156,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": 0.015509266004647304,
+            "latest_entry_scenario": 0.05180256564542496,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.00973508339136698,
+              0.06459106190719137
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.13775411190209297,
+            "supported": true,
+            "subdistribution_risk_set": 78,
+            "observed_approvals_by_horizon": 18,
+            "earliest_entry_scenario": 0.10552805788208985,
+            "latest_entry_scenario": 0.14643266734233273,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.08008207113898465,
+              0.20284691946043087
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.20969709910169865,
+            "supported": true,
+            "subdistribution_risk_set": 33,
+            "observed_approvals_by_horizon": 23,
+            "earliest_entry_scenario": 0.207916713158095,
+            "latest_entry_scenario": 0.23604900614956859,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.1272454504911938,
+              0.298364336530893
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 24,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 2.302532511978097,
+            "subdistribution_risk_set": 248.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0040322580645161255
+          },
+          {
+            "years": 4.314852840520191,
+            "subdistribution_risk_set": 189.0,
+            "approvals": 1.0,
+            "approval_probability": 0.009301928656767378
+          },
+          {
+            "years": 4.446269678302532,
+            "subdistribution_risk_set": 166.0,
+            "approvals": 1.0,
+            "approval_probability": 0.01526998932750967
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 163.0,
+            "approvals": 1.0,
+            "approval_probability": 0.021311277736543288
+          },
+          {
+            "years": 4.878850102669404,
+            "subdistribution_risk_set": 158.0,
+            "approvals": 1.0,
+            "approval_probability": 0.027505510155932278
+          },
+          {
+            "years": 4.971937029431896,
+            "subdistribution_risk_set": 157.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03369974257532127
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 152.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04005698111100986
+          },
+          {
+            "years": 5.281314168377824,
+            "subdistribution_risk_set": 151.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04641421964669856
+          },
+          {
+            "years": 5.286789869952088,
+            "subdistribution_risk_set": 150.0,
+            "approvals": 1.0,
+            "approval_probability": 0.052771458182387265
+          },
+          {
+            "years": 5.423682409308693,
+            "subdistribution_risk_set": 140.0,
+            "approvals": 1.0,
+            "approval_probability": 0.05953737633822731
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 139.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06630329449406736
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 102.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07545718376373334
+          },
+          {
+            "years": 7.003422313483915,
+            "subdistribution_risk_set": 99.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08479600008935217
+          },
+          {
+            "years": 7.115674195756331,
+            "subdistribution_risk_set": 96.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09432937508842143
+          },
+          {
+            "years": 7.389459274469542,
+            "subdistribution_risk_set": 86.0,
+            "approvals": 1.0,
+            "approval_probability": 0.10486042886646307
+          },
+          {
+            "years": 7.742642026009582,
+            "subdistribution_risk_set": 83.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11564524297650569
+          },
+          {
+            "years": 7.969883641341547,
+            "subdistribution_risk_set": 80.0,
+            "approvals": 1.0,
+            "approval_probability": 0.12669967743929933
+          },
+          {
+            "years": 7.991786447638604,
+            "subdistribution_risk_set": 79.0,
+            "approvals": 1.0,
+            "approval_probability": 0.13775411190209297
+          },
+          {
+            "years": 8.136892539356605,
+            "subdistribution_risk_set": 78.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1488085463648866
+          },
+          {
+            "years": 8.183436002737851,
+            "subdistribution_risk_set": 76.0,
+            "approvals": 1.0,
+            "approval_probability": 0.16000843391271713
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 75.0,
+            "approvals": 1.0,
+            "approval_probability": 0.17120832146054754
+          },
+          {
+            "years": 8.632443531827516,
+            "subdistribution_risk_set": 57.0,
+            "approvals": 1.0,
+            "approval_probability": 0.18574852634720462
+          },
+          {
+            "years": 9.796030116358658,
+            "subdistribution_risk_set": 34.0,
+            "approvals": 1.0,
+            "approval_probability": 0.20969709910169865
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 33.0,
+            "approvals": 1.0,
+            "approval_probability": 0.23364567185619256
+          }
+        ]
+      },
+      "recent_2020_2024": {
+        "n": 146,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 117,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 52,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.018867924528301883,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 48.0,
+            "approvals": 1.0,
+            "approval_probability": 0.02083333333333337
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 38.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04660087719298245
+          }
+        ]
+      },
+      "stronger_entry": {
+        "n": 236,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.004385964912280715,
+            "supported": true,
+            "subdistribution_risk_set": 211,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.004484304932735439,
+            "latest_entry_scenario": 0.004237288135593209
+          },
+          {
+            "years": 5,
+            "estimate": 0.052123512157369656,
+            "supported": true,
+            "subdistribution_risk_set": 149,
+            "observed_approvals_by_horizon": 9,
+            "earliest_entry_scenario": 0.033502570351584215,
+            "latest_entry_scenario": 0.08343582189497734
+          },
+          {
+            "years": 8,
+            "estimate": 0.15323997490042285,
+            "supported": true,
+            "subdistribution_risk_set": 86,
+            "observed_approvals_by_horizon": 22,
+            "earliest_entry_scenario": 0.1372020847748281,
+            "latest_entry_scenario": 0.16818407413539038
+          },
+          {
+            "years": 10,
+            "estimate": 0.21794255159447773,
+            "supported": true,
+            "subdistribution_risk_set": 50,
+            "observed_approvals_by_horizon": 28,
+            "earliest_entry_scenario": 0.2207411027430224,
+            "latest_entry_scenario": 0.23118795841879003
+          },
+          {
+            "years": 12,
+            "estimate": 0.27898590397753653,
+            "supported": true,
+            "subdistribution_risk_set": 28,
+            "observed_approvals_by_horizon": 31,
+            "earliest_entry_scenario": 0.2525475883453481,
+            "latest_entry_scenario": 0.27923871101761566
+          }
+        ],
+        "curve": [
+          {
+            "years": 2.302532511978097,
+            "subdistribution_risk_set": 228.0,
+            "approvals": 1.0,
+            "approval_probability": 0.004385964912280715
+          },
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 189.0,
+            "approvals": 1.0,
+            "approval_probability": 0.009653764039729062
+          },
+          {
+            "years": 4.314852840520191,
+            "subdistribution_risk_set": 180.0,
+            "approvals": 1.0,
+            "approval_probability": 0.015155687572841692
+          },
+          {
+            "years": 4.372347707049966,
+            "subdistribution_risk_set": 177.0,
+            "approvals": 1.0,
+            "approval_probability": 0.020719779733447075
+          },
+          {
+            "years": 4.446269678302532,
+            "subdistribution_risk_set": 160.0,
+            "approvals": 1.0,
+            "approval_probability": 0.02684028111011305
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 157.0,
+            "approvals": 1.0,
+            "approval_probability": 0.033038750657182425
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 152.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0394003378239115
+          },
+          {
+            "years": 4.941820670773443,
+            "subdistribution_risk_set": 151.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04576192499064058
+          },
+          {
+            "years": 4.971937029431896,
+            "subdistribution_risk_set": 150.0,
+            "approvals": 1.0,
+            "approval_probability": 0.052123512157369656
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 145.0,
+            "approvals": 1.0,
+            "approval_probability": 0.058660591383870586
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 144.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06519767061037152
+          },
+          {
+            "years": 5.281314168377824,
+            "subdistribution_risk_set": 143.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07173474983687245
+          },
+          {
+            "years": 5.286789869952088,
+            "subdistribution_risk_set": 142.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07827182906337338
+          },
+          {
+            "years": 5.423682409308693,
+            "subdistribution_risk_set": 136.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08504924208496623
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 135.0,
+            "approvals": 2.0,
+            "approval_probability": 0.09860406812815192
+          },
+          {
+            "years": 6.806297056810404,
+            "subdistribution_risk_set": 104.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1072713367038427
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 103.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11593860527953359
+          },
+          {
+            "years": 7.112936344969199,
+            "subdistribution_risk_set": 98.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1249596399195384
+          },
+          {
+            "years": 7.115674195756331,
+            "subdistribution_risk_set": 97.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1339806745595431
+          },
+          {
+            "years": 7.389459274469542,
+            "subdistribution_risk_set": 92.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1433939280969394
+          },
+          {
+            "years": 7.969883641341547,
+            "subdistribution_risk_set": 87.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15323997490042285
+          },
+          {
+            "years": 8.049281314168377,
+            "subdistribution_risk_set": 86.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1630860217039063
+          },
+          {
+            "years": 8.136892539356605,
+            "subdistribution_risk_set": 85.0,
+            "approvals": 1.0,
+            "approval_probability": 0.17293206850738974
+          },
+          {
+            "years": 8.183436002737851,
+            "subdistribution_risk_set": 83.0,
+            "approvals": 1.0,
+            "approval_probability": 0.18289674238079467
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 82.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1928614162541996
+          },
+          {
+            "years": 8.632443531827516,
+            "subdistribution_risk_set": 67.0,
+            "approvals": 1.0,
+            "approval_probability": 0.20490826078771907
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 61.0,
+            "approvals": 1.0,
+            "approval_probability": 0.21794255159447773
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 50.0,
+            "approvals": 1.0,
+            "approval_probability": 0.23358370056258815
+          },
+          {
+            "years": 10.392881587953456,
+            "subdistribution_risk_set": 39.0,
+            "approvals": 1.0,
+            "approval_probability": 0.25323540054816285
+          },
+          {
+            "years": 11.822039698836413,
+            "subdistribution_risk_set": 29.0,
+            "approvals": 1.0,
+            "approval_probability": 0.27898590397753653
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 14.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3304869108362839
+          }
+        ]
+      },
+      "exclude_unknown_DIAGNOSTIC": {
+        "n": 270,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0038022813688213253,
+            "supported": true,
+            "subdistribution_risk_set": 242,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.003875968992248069,
+            "latest_entry_scenario": 0.0037037037037036535
+          },
+          {
+            "years": 5,
+            "estimate": 0.05623140847007568,
+            "supported": true,
+            "subdistribution_risk_set": 171,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.03454216522111986,
+            "latest_entry_scenario": 0.08899055724846394
+          },
+          {
+            "years": 8,
+            "estimate": 0.17213449086305788,
+            "supported": true,
+            "subdistribution_risk_set": 100,
+            "observed_approvals_by_horizon": 28,
+            "earliest_entry_scenario": 0.14170843786216614,
+            "latest_entry_scenario": 0.18511903838056476
+          },
+          {
+            "years": 10,
+            "estimate": 0.2596904995577435,
+            "supported": true,
+            "subdistribution_risk_set": 55,
+            "observed_approvals_by_horizon": 37,
+            "earliest_entry_scenario": 0.2624336538462422,
+            "latest_entry_scenario": 0.2706881455885458
+          },
+          {
+            "years": 12,
+            "estimate": 0.3157590811586366,
+            "supported": true,
+            "subdistribution_risk_set": 28,
+            "observed_approvals_by_horizon": 40,
+            "earliest_entry_scenario": 0.2897509259260109,
+            "latest_entry_scenario": 0.3166807850559348
+          }
+        ],
+        "curve": [
+          {
+            "years": 2.302532511978097,
+            "subdistribution_risk_set": 263.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0038022813688213253
+          },
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 215.0,
+            "approvals": 1.0,
+            "approval_probability": 0.00843575912989658
+          },
+          {
+            "years": 4.314852840520191,
+            "subdistribution_risk_set": 206.0,
+            "approvals": 1.0,
+            "approval_probability": 0.013249177774897092
+          },
+          {
+            "years": 4.372347707049966,
+            "subdistribution_risk_set": 204.0,
+            "approvals": 1.0,
+            "approval_probability": 0.01808619160933389
+          },
+          {
+            "years": 4.446269678302532,
+            "subdistribution_risk_set": 184.0,
+            "approvals": 1.0,
+            "approval_probability": 0.023422679698413607
+          },
+          {
+            "years": 4.470910335386721,
+            "subdistribution_risk_set": 183.0,
+            "approvals": 1.0,
+            "approval_probability": 0.028759167787493323
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 180.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03415495018867387
+          },
+          {
+            "years": 4.878850102669404,
+            "subdistribution_risk_set": 175.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03967406475902424
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 174.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04519317932937472
+          },
+          {
+            "years": 4.941820670773443,
+            "subdistribution_risk_set": 173.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0507122938997252
+          },
+          {
+            "years": 4.971937029431896,
+            "subdistribution_risk_set": 172.0,
+            "approvals": 1.0,
+            "approval_probability": 0.05623140847007568
+          },
+          {
+            "years": 5.1416837782340865,
+            "subdistribution_risk_set": 169.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06181583800575574
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 166.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06746754982499814
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 165.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07311926164424065
+          },
+          {
+            "years": 5.281314168377824,
+            "subdistribution_risk_set": 164.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07877097346348305
+          },
+          {
+            "years": 5.286789869952088,
+            "subdistribution_risk_set": 163.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08442268528272545
+          },
+          {
+            "years": 5.423682409308693,
+            "subdistribution_risk_set": 156.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09029177063347715
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 155.0,
+            "approvals": 2.0,
+            "approval_probability": 0.10202994133498067
+          },
+          {
+            "years": 6.806297056810404,
+            "subdistribution_risk_set": 122.0,
+            "approvals": 1.0,
+            "approval_probability": 0.10939035165190703
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 121.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11675076196883338
+          },
+          {
+            "years": 7.003422313483915,
+            "subdistribution_risk_set": 118.0,
+            "approvals": 1.0,
+            "approval_probability": 0.12423592500299574
+          },
+          {
+            "years": 7.112936344969199,
+            "subdistribution_risk_set": 116.0,
+            "approvals": 1.0,
+            "approval_probability": 0.13178561530469401
+          },
+          {
+            "years": 7.115674195756331,
+            "subdistribution_risk_set": 115.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1393353056063923
+          },
+          {
+            "years": 7.389459274469542,
+            "subdistribution_risk_set": 107.0,
+            "approvals": 1.0,
+            "approval_probability": 0.14737890088109895
+          },
+          {
+            "years": 7.742642026009582,
+            "subdistribution_risk_set": 104.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15557718068031912
+          },
+          {
+            "years": 7.969883641341547,
+            "subdistribution_risk_set": 102.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1638558357716885
+          },
+          {
+            "years": 7.991786447638604,
+            "subdistribution_risk_set": 101.0,
+            "approvals": 1.0,
+            "approval_probability": 0.17213449086305788
+          },
+          {
+            "years": 8.049281314168377,
+            "subdistribution_risk_set": 100.0,
+            "approvals": 1.0,
+            "approval_probability": 0.18041314595442726
+          },
+          {
+            "years": 8.136892539356605,
+            "subdistribution_risk_set": 99.0,
+            "approvals": 1.0,
+            "approval_probability": 0.18869180104579664
+          },
+          {
+            "years": 8.183436002737851,
+            "subdistribution_risk_set": 97.0,
+            "approvals": 1.0,
+            "approval_probability": 0.19705580309687087
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 96.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2054198051479451
+          },
+          {
+            "years": 8.632443531827516,
+            "subdistribution_risk_set": 80.0,
+            "approvals": 1.0,
+            "approval_probability": 0.21535205758359577
+          },
+          {
+            "years": 8.635181382614647,
+            "subdistribution_risk_set": 79.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22528431001924643
+          },
+          {
+            "years": 9.125256673511293,
+            "subdistribution_risk_set": 75.0,
+            "approvals": 1.0,
+            "approval_probability": 0.23561385255232314
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 72.0,
+            "approvals": 1.0,
+            "approval_probability": 0.24623032682242973
+          },
+          {
+            "years": 9.796030116358658,
+            "subdistribution_risk_set": 56.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2596904995577435
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 55.0,
+            "approvals": 1.0,
+            "approval_probability": 0.27315067229305723
+          },
+          {
+            "years": 10.392881587953456,
+            "subdistribution_risk_set": 40.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2913219054857308
+          },
+          {
+            "years": 11.822039698836413,
+            "subdistribution_risk_set": 29.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3157590811586366
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 15.0,
+            "approvals": 1.0,
+            "approval_probability": 0.36137514241472746
+          },
+          {
+            "years": 14.469541409993155,
+            "subdistribution_risk_set": 11.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4194319476497522
+          }
+        ]
+      },
+      "exclude_unknown_and_probable_DIAGNOSTIC": {
+        "n": 251,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.004098360655737654,
+            "supported": true,
+            "subdistribution_risk_set": 223,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.004184100418409997,
+            "latest_entry_scenario": 0.003984063745019917
+          },
+          {
+            "years": 5,
+            "estimate": 0.06166433677111749,
+            "supported": true,
+            "subdistribution_risk_set": 155,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.038058528339974806,
+            "latest_entry_scenario": 0.09736009030016346
+          },
+          {
+            "years": 8,
+            "estimate": 0.1879141217868775,
+            "supported": true,
+            "subdistribution_risk_set": 92,
+            "observed_approvals_by_horizon": 28,
+            "earliest_entry_scenario": 0.15548109877265925,
+            "latest_entry_scenario": 0.20181553815087483
+          },
+          {
+            "years": 10,
+            "estimate": 0.28234906352562583,
+            "supported": true,
+            "subdistribution_risk_set": 49,
+            "observed_approvals_by_horizon": 37,
+            "earliest_entry_scenario": 0.28512673328953075,
+            "latest_entry_scenario": 0.2946563833737834
+          },
+          {
+            "years": 12,
+            "estimate": 0.34553582236389424,
+            "supported": true,
+            "subdistribution_risk_set": 23,
+            "observed_approvals_by_horizon": 40,
+            "earliest_entry_scenario": 0.314913119402467,
+            "latest_entry_scenario": 0.3477575363300184
+          }
+        ],
+        "curve": [
+          {
+            "years": 2.302532511978097,
+            "subdistribution_risk_set": 244.0,
+            "approvals": 1.0,
+            "approval_probability": 0.004098360655737654
+          },
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 196.0,
+            "approvals": 1.0,
+            "approval_probability": 0.009179491468718548
+          },
+          {
+            "years": 4.314852840520191,
+            "subdistribution_risk_set": 187.0,
+            "approvals": 1.0,
+            "approval_probability": 0.014477996861933962
+          },
+          {
+            "years": 4.372347707049966,
+            "subdistribution_risk_set": 185.0,
+            "approvals": 1.0,
+            "approval_probability": 0.01980514282484236
+          },
+          {
+            "years": 4.446269678302532,
+            "subdistribution_risk_set": 167.0,
+            "approvals": 1.0,
+            "approval_probability": 0.025674573107328347
+          },
+          {
+            "years": 4.470910335386721,
+            "subdistribution_risk_set": 166.0,
+            "approvals": 1.0,
+            "approval_probability": 0.031544003389814335
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 164.0,
+            "approvals": 1.0,
+            "approval_probability": 0.037449222881339894
+          },
+          {
+            "years": 4.878850102669404,
+            "subdistribution_risk_set": 159.0,
+            "approvals": 1.0,
+            "approval_probability": 0.043503001353784265
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 158.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04955677982622875
+          },
+          {
+            "years": 4.941820670773443,
+            "subdistribution_risk_set": 157.0,
+            "approvals": 1.0,
+            "approval_probability": 0.05561055829867312
+          },
+          {
+            "years": 4.971937029431896,
+            "subdistribution_risk_set": 156.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06166433677111749
+          },
+          {
+            "years": 5.1416837782340865,
+            "subdistribution_risk_set": 153.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06779724960267874
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 151.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07397077775100536
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 150.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08014430589933208
+          },
+          {
+            "years": 5.281314168377824,
+            "subdistribution_risk_set": 149.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08631783404765869
+          },
+          {
+            "years": 5.286789869952088,
+            "subdistribution_risk_set": 148.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09249136219598542
+          },
+          {
+            "years": 5.423682409308693,
+            "subdistribution_risk_set": 141.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09892759366977277
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 140.0,
+            "approvals": 2.0,
+            "approval_probability": 0.11180005661734738
+          },
+          {
+            "years": 6.806297056810404,
+            "subdistribution_risk_set": 110.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11987460155718965
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 109.0,
+            "approvals": 1.0,
+            "approval_probability": 0.12794914649703193
+          },
+          {
+            "years": 7.003422313483915,
+            "subdistribution_risk_set": 106.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1361760413413996
+          },
+          {
+            "years": 7.112936344969199,
+            "subdistribution_risk_set": 104.0,
+            "approvals": 1.0,
+            "approval_probability": 0.14448204094388606
+          },
+          {
+            "years": 7.115674195756331,
+            "subdistribution_risk_set": 103.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15278804054637263
+          },
+          {
+            "years": 7.389459274469542,
+            "subdistribution_risk_set": 98.0,
+            "approvals": 1.0,
+            "approval_probability": 0.16143306054079742
+          },
+          {
+            "years": 7.742642026009582,
+            "subdistribution_risk_set": 95.0,
+            "approvals": 1.0,
+            "approval_probability": 0.17026008095615752
+          },
+          {
+            "years": 7.969883641341547,
+            "subdistribution_risk_set": 94.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1790871013715175
+          },
+          {
+            "years": 7.991786447638604,
+            "subdistribution_risk_set": 93.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1879141217868775
+          },
+          {
+            "years": 8.049281314168377,
+            "subdistribution_risk_set": 92.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1967411422022376
+          },
+          {
+            "years": 8.136892539356605,
+            "subdistribution_risk_set": 91.0,
+            "approvals": 1.0,
+            "approval_probability": 0.20556816261759758
+          },
+          {
+            "years": 8.183436002737851,
+            "subdistribution_risk_set": 89.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2144943630376246
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 88.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2234205634576516
+          },
+          {
+            "years": 8.632443531827516,
+            "subdistribution_risk_set": 72.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2342063889651842
+          },
+          {
+            "years": 8.635181382614647,
+            "subdistribution_risk_set": 71.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2449922144727168
+          },
+          {
+            "years": 9.125256673511293,
+            "subdistribution_risk_set": 67.0,
+            "approvals": 1.0,
+            "approval_probability": 0.25626098739103453
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 65.0,
+            "approvals": 1.0,
+            "approval_probability": 0.267703126046557
+          },
+          {
+            "years": 9.796030116358658,
+            "subdistribution_risk_set": 50.0,
+            "approvals": 1.0,
+            "approval_probability": 0.28234906352562583
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 49.0,
+            "approvals": 1.0,
+            "approval_probability": 0.29699500100469467
+          },
+          {
+            "years": 10.392881587953456,
+            "subdistribution_risk_set": 35.0,
+            "approvals": 1.0,
+            "approval_probability": 0.31708085811884623
+          },
+          {
+            "years": 11.822039698836413,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.34553582236389424
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 14.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3922832636236161
+          },
+          {
+            "years": 14.469541409993155,
+            "subdistribution_risk_set": 10.0,
+            "approvals": 1.0,
+            "approval_probability": 0.45305493726125445
+          }
+        ]
+      }
+    },
+    "R2_genetic_CNS": {
+      "n": 81,
+      "status_counts": {
+        "approved": 12,
+        "failed": 29,
+        "active": 36,
+        "unknown": 4
+      },
+      "probable_failures": 8,
+      "lifetime_identification_bounds": [
+        0.14814814814814814,
+        0.6419753086419753
+      ],
+      "strict_failure_lifetime_bounds": [
+        0.14814814814814814,
+        0.7407407407407407
+      ],
+      "active_future_success_required_for_25": [
+        {
+          "unknown_future_success": 0,
+          "required_active_future_success": 0.22916666666666666
+        },
+        {
+          "unknown_future_success": 0.25,
+          "required_active_future_success": 0.2013888888888889
+        },
+        {
+          "unknown_future_success": 0.5,
+          "required_active_future_success": 0.1736111111111111
+        },
+        {
+          "unknown_future_success": 1,
+          "required_active_future_success": 0.11805555555555555
+        }
+      ],
+      "lifetime_scenarios": [
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.1925925925925926
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.2049382716049383
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.24197530864197533
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.25925925925925924
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.2716049382716049
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.30864197530864196
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.3259259259259259
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.3382716049382716
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.3753086419753086
+        }
+      ],
+      "main": {
+        "n": 81,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 71,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0503475298796936,
+            "supported": true,
+            "subdistribution_risk_set": 53,
+            "observed_approvals_by_horizon": 3,
+            "earliest_entry_scenario": 0.01538461538461533,
+            "latest_entry_scenario": 0.10305910435718124,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.1123231569299032
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.15150166482809613,
+            "supported": true,
+            "subdistribution_risk_set": 31,
+            "observed_approvals_by_horizon": 8,
+            "earliest_entry_scenario": 0.1559928089394088,
+            "latest_entry_scenario": 0.14564840317774985,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.062494224211423845,
+              0.26481886031205404
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.21133167564149957,
+            "supported": true,
+            "subdistribution_risk_set": 20,
+            "observed_approvals_by_horizon": 10,
+            "earliest_entry_scenario": 0.21725139538735483,
+            "latest_entry_scenario": 0.24848702131376144,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.09833640426297925,
+              0.34352540672251963
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": 0.25076509185942464,
+            "supported": true,
+            "subdistribution_risk_set": 11,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.2584486903669677,
+            "latest_entry_scenario": 0.24848702131376144,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.12478155876503422,
+              0.3957439743466974
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 66.0,
+            "approvals": 1.0,
+            "approval_probability": 0.015151515151515138
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 57.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03242955874534825
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 54.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0503475298796936
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 51.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06896816654871929
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 50.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08758880321774487
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 46.0,
+            "approvals": 2.0,
+            "approval_probability": 0.12725885525175595
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 36.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15150166482809613
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 30.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1797849426671596
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 26.0,
+            "approvals": 1.0,
+            "approval_probability": 0.21133167564149957
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 20.0,
+            "approvals": 1.0,
+            "approval_probability": 0.25076509185942464
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 5.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4006120734875397
+          }
+        ]
+      },
+      "recent_2015_2024": {
+        "n": 65,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 55,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.023809523809523836,
+            "supported": true,
+            "subdistribution_risk_set": 39,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.04552590266875989,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.08004081632653054
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.11735111735111725,
+            "supported": true,
+            "subdistribution_risk_set": 19,
+            "observed_approvals_by_horizon": 4,
+            "earliest_entry_scenario": 0.11971232428898326,
+            "latest_entry_scenario": 0.10922949061281328,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.025000000000000022,
+              0.2417172131836668
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.16638716638716633,
+            "supported": true,
+            "subdistribution_risk_set": 9,
+            "observed_approvals_by_horizon": 5,
+            "earliest_entry_scenario": 0.16604325458956304,
+            "latest_entry_scenario": 0.26099039221211184,
+            "bootstrap_supported_replicates": 999,
+            "descriptive_bootstrap_95": [
+              0.04526515151515149,
+              0.32179867341461543
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 42.0,
+            "approvals": 1.0,
+            "approval_probability": 0.023809523809523836
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 37.0,
+            "approvals": 1.0,
+            "approval_probability": 0.050193050193050204
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 33.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07897507897507894
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11735111735111725
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 18.0,
+            "approvals": 1.0,
+            "approval_probability": 0.16638716638716633
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2590108145663701
+          }
+        ]
+      },
+      "recent_2020_2024": {
+        "n": 40,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 30,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 15,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.06666666666666665,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 13.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07692307692307687
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.17948717948717952
+          }
+        ]
+      },
+      "stronger_entry": {
+        "n": 81,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 71,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.0503475298796936,
+            "supported": true,
+            "subdistribution_risk_set": 53,
+            "observed_approvals_by_horizon": 3,
+            "earliest_entry_scenario": 0.01538461538461533,
+            "latest_entry_scenario": 0.10305910435718124
+          },
+          {
+            "years": 8,
+            "estimate": 0.15150166482809613,
+            "supported": true,
+            "subdistribution_risk_set": 31,
+            "observed_approvals_by_horizon": 8,
+            "earliest_entry_scenario": 0.1559928089394088,
+            "latest_entry_scenario": 0.14564840317774985
+          },
+          {
+            "years": 10,
+            "estimate": 0.21133167564149957,
+            "supported": true,
+            "subdistribution_risk_set": 20,
+            "observed_approvals_by_horizon": 10,
+            "earliest_entry_scenario": 0.21725139538735483,
+            "latest_entry_scenario": 0.24848702131376144
+          },
+          {
+            "years": 12,
+            "estimate": 0.25076509185942464,
+            "supported": true,
+            "subdistribution_risk_set": 11,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.2584486903669677,
+            "latest_entry_scenario": 0.24848702131376144
+          }
+        ],
+        "curve": [
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 66.0,
+            "approvals": 1.0,
+            "approval_probability": 0.015151515151515138
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 57.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03242955874534825
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 54.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0503475298796936
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 51.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06896816654871929
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 50.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08758880321774487
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 46.0,
+            "approvals": 2.0,
+            "approval_probability": 0.12725885525175595
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 36.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15150166482809613
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 30.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1797849426671596
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 26.0,
+            "approvals": 1.0,
+            "approval_probability": 0.21133167564149957
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 20.0,
+            "approvals": 1.0,
+            "approval_probability": 0.25076509185942464
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 5.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4006120734875397
+          }
+        ]
+      },
+      "exclude_unknown_DIAGNOSTIC": {
+        "n": 77,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 67,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.05399878271454661,
+            "supported": true,
+            "subdistribution_risk_set": 49,
+            "observed_approvals_by_horizon": 3,
+            "earliest_entry_scenario": 0.016393442622950838,
+            "latest_entry_scenario": 0.11029739157350871
+          },
+          {
+            "years": 8,
+            "estimate": 0.1617824007563986,
+            "supported": true,
+            "subdistribution_risk_set": 29,
+            "observed_approvals_by_horizon": 8,
+            "earliest_entry_scenario": 0.16547326101271975,
+            "latest_entry_scenario": 0.1551273679670916
+          },
+          {
+            "years": 10,
+            "estimate": 0.22539712927042188,
+            "supported": true,
+            "subdistribution_risk_set": 19,
+            "observed_approvals_by_horizon": 10,
+            "earliest_entry_scenario": 0.23087504306501438,
+            "latest_entry_scenario": 0.2636268007123703
+          },
+          {
+            "years": 12,
+            "estimate": 0.2661657014140838,
+            "supported": true,
+            "subdistribution_risk_set": 10,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.2736042073391802,
+            "latest_entry_scenario": 0.2636268007123703
+          }
+        ],
+        "curve": [
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 62.0,
+            "approvals": 1.0,
+            "approval_probability": 0.016129032258064502
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 53.0,
+            "approvals": 1.0,
+            "approval_probability": 0.03469263542300671
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 50.0,
+            "approvals": 1.0,
+            "approval_probability": 0.05399878271454661
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 47.0,
+            "approvals": 1.0,
+            "approval_probability": 0.07412646818870527
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 46.0,
+            "approvals": 1.0,
+            "approval_probability": 0.09425415366286383
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 43.0,
+            "approvals": 2.0,
+            "approval_probability": 0.13638186744598646
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 34.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1617824007563986
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 28.0,
+            "approvals": 1.0,
+            "approval_probability": 0.19171874358652718
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22539712927042188
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2661657014140838
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 5.0,
+            "approvals": 1.0,
+            "approval_probability": 0.412932561131267
+          }
+        ]
+      },
+      "exclude_unknown_and_probable_DIAGNOSTIC": {
+        "n": 69,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 59,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.06317852243778166,
+            "supported": true,
+            "subdistribution_risk_set": 41,
+            "observed_approvals_by_horizon": 3,
+            "earliest_entry_scenario": 0.018867924528301883,
+            "latest_entry_scenario": 0.12897132860672977
+          },
+          {
+            "years": 8,
+            "estimate": 0.18948213235911637,
+            "supported": true,
+            "subdistribution_risk_set": 25,
+            "observed_approvals_by_horizon": 8,
+            "earliest_entry_scenario": 0.19337453127069615,
+            "latest_entry_scenario": 0.1813943504961395
+          },
+          {
+            "years": 10,
+            "estimate": 0.2620910246686122,
+            "supported": true,
+            "subdistribution_risk_set": 15,
+            "observed_approvals_by_horizon": 10,
+            "earliest_entry_scenario": 0.2686595750187646,
+            "latest_entry_scenario": 0.3087330070856289
+          },
+          {
+            "years": 12,
+            "estimate": 0.3112849563573714,
+            "supported": true,
+            "subdistribution_risk_set": 6,
+            "observed_approvals_by_horizon": 11,
+            "earliest_entry_scenario": 0.3208981768031385,
+            "latest_entry_scenario": 0.3087330070856289
+          }
+        ],
+        "curve": [
+          {
+            "years": 3.8193018480492813,
+            "subdistribution_risk_set": 54.0,
+            "approvals": 1.0,
+            "approval_probability": 0.01851851851851849
+          },
+          {
+            "years": 4.59958932238193,
+            "subdistribution_risk_set": 45.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04032921810699586
+          },
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 42.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06317852243778166
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 40.0,
+            "approvals": 1.0,
+            "approval_probability": 0.0865990593768371
+          },
+          {
+            "years": 5.253935660506502,
+            "subdistribution_risk_set": 39.0,
+            "approvals": 1.0,
+            "approval_probability": 0.11001959631589253
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 36.0,
+            "approvals": 2.0,
+            "approval_probability": 0.1594629520761207
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 28.0,
+            "approvals": 1.0,
+            "approval_probability": 0.18948213235911637
+          },
+          {
+            "years": 8.323066392881588,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22325371017748652
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 20.0,
+            "approvals": 1.0,
+            "approval_probability": 0.2620910246686122
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 15.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3112849563573714
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 4.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4834637172680285
+          }
+        ]
+      }
+    },
+    "R3_genetic_medicine_CNS": {
+      "n": 48,
+      "status_counts": {
+        "approved": 7,
+        "failed": 19,
+        "active": 21,
+        "unknown": 1
+      },
+      "probable_failures": 6,
+      "lifetime_identification_bounds": [
+        0.14583333333333334,
+        0.6041666666666666
+      ],
+      "strict_failure_lifetime_bounds": [
+        0.14583333333333334,
+        0.7291666666666666
+      ],
+      "active_future_success_required_for_25": [
+        {
+          "unknown_future_success": 0,
+          "required_active_future_success": 0.23809523809523808
+        },
+        {
+          "unknown_future_success": 0.25,
+          "required_active_future_success": 0.2261904761904762
+        },
+        {
+          "unknown_future_success": 0.5,
+          "required_active_future_success": 0.21428571428571427
+        },
+        {
+          "unknown_future_success": 1,
+          "required_active_future_success": 0.19047619047619047
+        }
+      ],
+      "lifetime_scenarios": [
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.18958333333333333
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.19479166666666667
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.21041666666666667
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.2552083333333333
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.2604166666666667
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.2760416666666667
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.32083333333333336
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.3260416666666667
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.3416666666666666
+        }
+      ],
+      "main": {
+        "n": 48,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 41,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.032258064516129004,
+            "supported": true,
+            "subdistribution_risk_set": 30,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.099163679808841,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.10354064039408857
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.15129759883579919,
+            "supported": true,
+            "subdistribution_risk_set": 15,
+            "observed_approvals_by_horizon": 4,
+            "earliest_entry_scenario": 0.15371240601503744,
+            "latest_entry_scenario": 0.14206064743699143,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.033333333333333326,
+              0.3055008417508418
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.22202279893281596,
+            "supported": true,
+            "subdistribution_risk_set": 9,
+            "observed_approvals_by_horizon": 5,
+            "earliest_entry_scenario": 0.23834116541353367,
+            "latest_entry_scenario": 0.3009383053190301,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.062481617647058826,
+              0.4176235402548116
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": 0.3084647101625031,
+            "supported": true,
+            "subdistribution_risk_set": 6,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": 0.32296992481203,
+            "latest_entry_scenario": 0.3009383053190301,
+            "bootstrap_supported_replicates": 996,
+            "descriptive_bootstrap_95": [
+              0.10472859634997318,
+              0.5432300661069469
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 31.0,
+            "approvals": 1.0,
+            "approval_probability": 0.032258064516129004
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 28.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06682027649769584
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 25.0,
+            "approvals": 1.0,
+            "approval_probability": 0.10414746543778808
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15129759883579919
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 12.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22202279893281596
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3084647101625031
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 4.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4813485326218774
+          }
+        ]
+      },
+      "recent_2015_2024": {
+        "n": 39,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 32,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 22,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.045454545454545414,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": 0.12916666666666676,
+            "supported": true,
+            "subdistribution_risk_set": 8,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": 0.12916666666666676,
+            "latest_entry_scenario": 0.11363636363636354,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.33500961538461543
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": 0.12916666666666676,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 2,
+            "earliest_entry_scenario": 0.12916666666666676,
+            "latest_entry_scenario": 0.40909090909090895,
+            "bootstrap_supported_replicates": 958,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.33333333333333326
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 3,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 20.0,
+            "approvals": 1.0,
+            "approval_probability": 0.050000000000000044
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 12.0,
+            "approvals": 1.0,
+            "approval_probability": 0.12916666666666676
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 3.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4194444444444444
+          }
+        ]
+      },
+      "recent_2020_2024": {
+        "n": 27,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 20,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 10,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.09999999999999998,
+            "bootstrap_supported_replicates": 1000,
+            "descriptive_bootstrap_95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": [
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 8.0,
+            "approvals": 1.0,
+            "approval_probability": 0.125
+          }
+        ]
+      },
+      "stronger_entry": {
+        "n": 48,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 41,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.032258064516129004,
+            "supported": true,
+            "subdistribution_risk_set": 30,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.099163679808841
+          },
+          {
+            "years": 8,
+            "estimate": 0.15129759883579919,
+            "supported": true,
+            "subdistribution_risk_set": 15,
+            "observed_approvals_by_horizon": 4,
+            "earliest_entry_scenario": 0.15371240601503744,
+            "latest_entry_scenario": 0.14206064743699143
+          },
+          {
+            "years": 10,
+            "estimate": 0.22202279893281596,
+            "supported": true,
+            "subdistribution_risk_set": 9,
+            "observed_approvals_by_horizon": 5,
+            "earliest_entry_scenario": 0.23834116541353367,
+            "latest_entry_scenario": 0.3009383053190301
+          },
+          {
+            "years": 12,
+            "estimate": 0.3084647101625031,
+            "supported": true,
+            "subdistribution_risk_set": 6,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": 0.32296992481203,
+            "latest_entry_scenario": 0.3009383053190301
+          }
+        ],
+        "curve": [
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 31.0,
+            "approvals": 1.0,
+            "approval_probability": 0.032258064516129004
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 28.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06682027649769584
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 25.0,
+            "approvals": 1.0,
+            "approval_probability": 0.10414746543778808
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15129759883579919
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 12.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22202279893281596
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3084647101625031
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 4.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4813485326218774
+          }
+        ]
+      },
+      "exclude_unknown_DIAGNOSTIC": {
+        "n": 47,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 40,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.033333333333333326,
+            "supported": true,
+            "subdistribution_risk_set": 29,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.10256410256410253
+          },
+          {
+            "years": 8,
+            "estimate": 0.15487329434697839,
+            "supported": true,
+            "subdistribution_risk_set": 15,
+            "observed_approvals_by_horizon": 4,
+            "earliest_entry_scenario": 0.15587820125025187,
+            "latest_entry_scenario": 0.14529914529914534
+          },
+          {
+            "years": 10,
+            "estimate": 0.22530051981806354,
+            "supported": true,
+            "subdistribution_risk_set": 9,
+            "observed_approvals_by_horizon": 5,
+            "earliest_entry_scenario": 0.24029038112522672,
+            "latest_entry_scenario": 0.3035770813548593
+          },
+          {
+            "years": 12,
+            "estimate": 0.3113782398382787,
+            "supported": true,
+            "subdistribution_risk_set": 6,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": 0.32470256100020156,
+            "latest_entry_scenario": 0.3035770813548593
+          }
+        ],
+        "curve": [
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 30.0,
+            "approvals": 1.0,
+            "approval_probability": 0.033333333333333326
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 27.0,
+            "approvals": 1.0,
+            "approval_probability": 0.06913580246913575
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1079218106995884
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.15487329434697839
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 12.0,
+            "approvals": 1.0,
+            "approval_probability": 0.22530051981806354
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.3113782398382787
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 4.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4835336798787091
+          }
+        ]
+      },
+      "exclude_unknown_and_probable_DIAGNOSTIC": {
+        "n": 41,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 34,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.04166666666666663,
+            "supported": true,
+            "subdistribution_risk_set": 23,
+            "observed_approvals_by_horizon": 1,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.12698412698412698
+          },
+          {
+            "years": 8,
+            "estimate": 0.19527511961722477,
+            "supported": true,
+            "subdistribution_risk_set": 12,
+            "observed_approvals_by_horizon": 4,
+            "earliest_entry_scenario": 0.1967963386727688,
+            "latest_entry_scenario": 0.18154761904761907
+          },
+          {
+            "years": 10,
+            "estimate": 0.284688995215311,
+            "supported": true,
+            "subdistribution_risk_set": 6,
+            "observed_approvals_by_horizon": 5,
+            "earliest_entry_scenario": 0.3115397188623732,
+            "latest_entry_scenario": 0.3937389770723104
+          },
+          {
+            "years": 12,
+            "estimate": 0.4039074960127591,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 6,
+            "earliest_entry_scenario": 0.4262830990519776,
+            "latest_entry_scenario": 0.3937389770723104
+          }
+        ],
+        "curve": [
+          {
+            "years": 4.892539356605065,
+            "subdistribution_risk_set": 24.0,
+            "approvals": 1.0,
+            "approval_probability": 0.04166666666666663
+          },
+          {
+            "years": 5.171800136892539,
+            "subdistribution_risk_set": 22.0,
+            "approvals": 1.0,
+            "approval_probability": 0.08522727272727271
+          },
+          {
+            "years": 5.478439425051334,
+            "subdistribution_risk_set": 19.0,
+            "approvals": 1.0,
+            "approval_probability": 0.1333732057416267
+          },
+          {
+            "years": 6.8145106091718,
+            "subdistribution_risk_set": 14.0,
+            "approvals": 1.0,
+            "approval_probability": 0.19527511961722477
+          },
+          {
+            "years": 9.207392197125257,
+            "subdistribution_risk_set": 9.0,
+            "approvals": 1.0,
+            "approval_probability": 0.284688995215311
+          },
+          {
+            "years": 10.08624229979466,
+            "subdistribution_risk_set": 6.0,
+            "approvals": 1.0,
+            "approval_probability": 0.4039074960127591
+          },
+          {
+            "years": 13.711156741957563,
+            "subdistribution_risk_set": 3.0,
+            "approvals": 1.0,
+            "approval_probability": 0.6026049973418394
+          }
+        ]
+      }
+    },
+    "R4_closest_restoration_ASO": {
+      "n": 4,
+      "status_counts": {
+        "approved": 0,
+        "failed": 1,
+        "active": 3,
+        "unknown": 0
+      },
+      "probable_failures": 0,
+      "lifetime_identification_bounds": [
+        0.0,
+        0.75
+      ],
+      "strict_failure_lifetime_bounds": [
+        0.0,
+        0.75
+      ],
+      "active_future_success_required_for_25": [
+        {
+          "unknown_future_success": 0,
+          "required_active_future_success": 0.3333333333333333
+        },
+        {
+          "unknown_future_success": 0.25,
+          "required_active_future_success": 0.3333333333333333
+        },
+        {
+          "unknown_future_success": 0.5,
+          "required_active_future_success": 0.3333333333333333
+        },
+        {
+          "unknown_future_success": 1,
+          "required_active_future_success": 0.3333333333333333
+        }
+      ],
+      "lifetime_scenarios": [
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.07500000000000001
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.07500000000000001
+        },
+        {
+          "active_future_success": 0.1,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.07500000000000001
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.1875
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.1875
+        },
+        {
+          "active_future_success": 0.25,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.1875
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0,
+          "eventual_fraction": 0.30000000000000004
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 0.25,
+          "eventual_fraction": 0.30000000000000004
+        },
+        {
+          "active_future_success": 0.4,
+          "unknown_future_success": 1,
+          "eventual_fraction": 0.30000000000000004
+        }
+      ],
+      "main": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": []
+      },
+      "recent_2015_2024": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": []
+      },
+      "recent_2020_2024": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null,
+            "bootstrap_supported_replicates": 0,
+            "descriptive_bootstrap_95": null,
+            "bootstrap_note": "Cluster resampling, not a population-valid CI; no zero-width interval for zero-event cohorts; unsupported tail replicates omitted."
+          }
+        ],
+        "curve": []
+      },
+      "stronger_entry": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          }
+        ],
+        "curve": []
+      },
+      "exclude_unknown_DIAGNOSTIC": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          }
+        ],
+        "curve": []
+      },
+      "exclude_unknown_and_probable_DIAGNOSTIC": {
+        "n": 4,
+        "horizons": [
+          {
+            "years": 3,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 4,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 5,
+            "estimate": 0.0,
+            "supported": true,
+            "subdistribution_risk_set": 3,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": 0.0,
+            "latest_entry_scenario": 0.0
+          },
+          {
+            "years": 8,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 10,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          },
+          {
+            "years": 12,
+            "estimate": null,
+            "supported": false,
+            "subdistribution_risk_set": 0,
+            "observed_approvals_by_horizon": 0,
+            "earliest_entry_scenario": null,
+            "latest_entry_scenario": null
+          }
+        ],
+        "curve": []
+      }
+    }
+  },
+  "unknown_by_family": [
+    {
+      "family": "als",
+      "n": 22,
+      "unknown": 3,
+      "probable_failures": 0
+    },
+    {
+      "family": "neuro",
+      "n": 54,
+      "unknown": 3,
+      "probable_failures": 4
+    },
+    {
+      "family": "metabolic",
+      "n": 105,
+      "unknown": 14,
+      "probable_failures": 10
+    },
+    {
+      "family": "systemic",
+      "n": 129,
+      "unknown": 20,
+      "probable_failures": 5
+    }
+  ]
+}

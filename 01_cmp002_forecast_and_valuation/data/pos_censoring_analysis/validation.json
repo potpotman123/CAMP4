@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "bootstrap_replicates": 1000,
+  "seed": 20261117,
+  "checks": [
+    "310 clusters,42 approvals",
+    "nested310/81/48/4",
+    "hand calculated retained-failure/censoring example",
+    "unsupported horizon excluded",
+    "monotone bounded curves",
+    "status sums",
+    "25 percent threshold identities"
+  ],
+  "input_sha256": {
+    "data/pos_molecule_status/cluster_status.json": "4b474cd37f2bff50cc316223494def124f322493ffe68f8ec7472e6a765aa20c",
+    "data/pos_completion/completed_program_ledger.json": "b011c2418a0f1d0f47412eddff21b0e35c753be08b71bb772133eb3b21212722",
+    "scripts/analyze_censoring_adjusted_pos.py": "c5a5919c015af10bf7f54d81898ef19200570af39e53758d24ab540a71dc226c"
+  }
+}
