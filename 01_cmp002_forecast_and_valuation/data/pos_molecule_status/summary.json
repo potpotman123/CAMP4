@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-11-16",
+  "unit": "Existing asset/combination clusters, original qualifying indications, FDA approval endpoint",
+  "clusters": 310,
+  "member_records": 316,
+  "counts": {
+    "approved": 42,
+    "failed": 113,
+    "active": 115,
+    "unknown": 40
+  },
+  "strict_counts": {
+    "approved": 42,
+    "failed": 94,
+    "active": 115,
+    "unknown": 59
+  },
+  "probable_failures": 19,
+  "unknown_types": {
+    "followup_versus_advancement": 1,
+    "insufficient_program_fate_evidence": 30,
+    "indication_scope": 4,
+    "geography_scope": 5
+  },
+  "era_counts": {
+    "2010-2014": {
+      "n": 54,
+      "approved": 18,
+      "failed": 22,
+      "active": 4,
+      "unknown": 10
+    },
+    "2015-2019": {
+      "n": 110,
+      "approved": 22,
+      "failed": 56,
+      "active": 16,
+      "unknown": 16
+    },
+    "2020-2024": {
+      "n": 146,
+      "approved": 2,
+      "failed": 35,
+      "active": 95,
+      "unknown": 14
+    }
+  },
+  "nested_counts": {
+    "all": {
+      "n": 310,
+      "approved": 42,
+      "failed": 113,
+      "active": 115,
+      "unknown": 40,
+      "probable_failures": 19
+    },
+    "genetic_cns": {
+      "n": 81,
+      "approved": 12,
+      "failed": 29,
+      "active": 36,
+      "unknown": 4,
+      "probable_failures": 8
+    },
+    "genetic_medicine_cns": {
+      "n": 48,
+      "approved": 7,
+      "failed": 19,
+      "active": 21,
+      "unknown": 1,
+      "probable_failures": 6
+    }
+  }
+}

@@ -1,0 +1,1330 @@
+MOLECULE STATUS AUDIT — 16 NOVEMBER 2026
+
+{
+  "as_of": "2026-11-16",
+  "unit": "Existing asset/combination clusters, original qualifying indications, FDA approval endpoint",
+  "clusters": 310,
+  "member_records": 316,
+  "counts": {
+    "approved": 42,
+    "failed": 113,
+    "active": 115,
+    "unknown": 40
+  },
+  "strict_counts": {
+    "approved": 42,
+    "failed": 94,
+    "active": 115,
+    "unknown": 59
+  },
+  "probable_failures": 19,
+  "unknown_types": {
+    "followup_versus_advancement": 1,
+    "insufficient_program_fate_evidence": 30,
+    "indication_scope": 4,
+    "geography_scope": 5
+  },
+  "era_counts": {
+    "2010-2014": {
+      "n": 54,
+      "approved": 18,
+      "failed": 22,
+      "active": 4,
+      "unknown": 10
+    },
+    "2015-2019": {
+      "n": 110,
+      "approved": 22,
+      "failed": 56,
+      "active": 16,
+      "unknown": 16
+    },
+    "2020-2024": {
+      "n": 146,
+      "approved": 2,
+      "failed": 35,
+      "active": 95,
+      "unknown": 14
+    }
+  },
+  "nested_counts": {
+    "all": {
+      "n": 310,
+      "approved": 42,
+      "failed": 113,
+      "active": 115,
+      "unknown": 40,
+      "probable_failures": 19
+    },
+    "genetic_cns": {
+      "n": 81,
+      "approved": 12,
+      "failed": 29,
+      "active": 36,
+      "unknown": 4,
+      "probable_failures": 8
+    },
+    "genetic_medicine_cns": {
+      "n": 48,
+      "approved": 7,
+      "failed": 19,
+      "active": 21,
+      "unknown": 1,
+      "probable_failures": 6
+    }
+  }
+}
+
+ALL 310 CLUSTERS — includes all original qualifying indications; detailed claims/URLs in JSON.
+
+DISC-3405 (9MW3011) | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_353838c2b13c: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06389942 ; https://clinicaltrials.gov/study/NCT06772766 ; https://mabwell-therapeutics.com/mabwell-presents-first-in-human-clinical-data-of-mwtx-003-9mw3011-at-eha-2024/ ; https://www.mabwell.com/en/news_info/id-232.html
+
+deutivacaftor; vanzacaftor | APPROVED | supported | Cystic fibrosis
+  systemic:sys_5c1b62772e17: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10166/Alyftrek-vanzacaftor-tezacaftor-deutivacaftor ; https://clinicaltrials.gov/study/NCT03911713 ; https://clinicaltrials.gov/study/NCT06154447 ; https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshot-alyftrek ; https://www.sec.gov/Archives/edgar/data/1367920/000119312515178300/d922174dex991.htm
+  systemic:sys_63b17612fcf4: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10166/Alyftrek-vanzacaftor-tezacaftor-deutivacaftor ; https://clinicaltrials.gov/study/NCT03768089 ; https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshot-alyftrek
+
+betibeglogene autotemcel; lovotibeglogene autotemcel | APPROVED | supported | Beta-thalassemia; SCD and beta-thalassemia mixed
+  systemic:sys_784ce96d8dcd: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01745120 ; https://clinicaltrials.gov/study/NCT02151526 ; https://www.fda.gov/files/vaccines%2C%20blood%20%26%20biologics/published/December-8-2023-Approval-Letter-LYFGENIA.pdf
+  systemic:sys_776b1386625c: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02151526 ; https://www.fda.gov/files/vaccines%2C%20blood%20%26%20biologics/published/December-8-2023-Approval-Letter-LYFGENIA.pdf
+
+elexacaftor | APPROVED | supported | Cystic fibrosis
+  systemic:sys_c6878dc23868: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10150/Trikafta-elexacaftor-tezacaftor-ivacaftor ; https://clinicaltrials.gov/study/NCT03227471 ; https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=647618
+
+odevixibat | APPROVED | supported | Mixed cholestatic liver indications
+  systemic:sys_6b6006cc65cc: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02963077 ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215498Orig1s000OtherR.pdf
+
+AAV9_CLN7 | ACTIVE | supported | NCL
+  neuro:AAV9_CLN7|NCL: Primary first-in-human paper confirms treated patients. Subsequent commercial advancement is unknown.
+  Evidence: https://clinicaltrials.gov/study/NCT04737460 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12703863/
+
+AAVrh10_ARSA | FAILED | probable | MLD
+  neuro:AAVrh10_ARSA|MLD: Original clinical candidate did not demonstrate efficacy; classify probable attrition, not a documented permanent discontinuation. Biochemical activity was not clinical success.
+  Evidence: https://clinicaltrials.gov/study/NCT01801709 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8175802/ ; https://research.unipg.it/handle/11391/1463671
+
+AAVrh10_CLN2 | FAILED | probable | NCL
+  neuro:AAVrh10_CLN2|NCL: Sponsor exited and returned license/IND to Cornell in October 2026; no verified continuing successor-owner program. Possible revival remains a sensitivity.
+  Evidence: https://bdsrafoundation.org/wp-content/uploads/2024/03/Lexeo_Letter-to-community_Feb2024.pdf ; https://clinicaltrials.gov/study/NCT01161576 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8056991/ ; https://www.sec.gov/Archives/edgar/data/1907108/000119312526462020/lxeo-20260930.htm
+
+AB-1001 | ACTIVE | supported | Huntington
+  neuro:AB-1001|Huntington: Sponsor/investigator registry attestation of active trial NCT05541627; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05541627
+
+ABO101 (rAAV9.CMV.hNAGLU) | FAILED | supported | MPS IIIB
+  metabolic:metabolic_abo101: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT03315182
+
+Rebisufligene etisparvovec (UX111/ABO102) | APPROVED | supported | MPS IIIA
+  metabolic:metabolic_abo102: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02716246 ; https://clinicaltrials.gov/study/NCT04088734 ; https://www.fda.gov/media/194921/download
+
+ABX1100 | ACTIVE | supported | Late-onset Pompe
+  metabolic:metabolic_abx1100: Aro reports positive phase Ib Pompe patient results, distinct from earlier healthy-volunteer dosing.
+  Evidence: https://clinicaltrials.gov/study/NCT06109948 ; https://www.arobiotx.com/newsroom
+
+ACTUS101 | UNKNOWN | unresolved | Late-onset Pompe
+  metabolic:metabolic_actus101: Sponsor calls original program active but no further enrollment while AB1009 advances. Follow-up alone does not resolve whether original candidate is still being advanced.
+  Evidence: https://clinicaltrials.gov/study/NCT03533673 ; https://reports.bayer.com/annual-report-2025/en/_assets/downloads/entire-bayer-ar25.pdf ; https://www.askbio.com/first-patient-dosed-with-gene-therapy-in-phase-1-2-study-of-actus-101-in-patients-with-pompe-disease/ ; https://www.bayer.com/media/download/75964e0c-af43-4c30-8781-bde50e5e506f/2026-0006e.pdf
+
+ADX038 | ACTIVE | supported | PNH
+  systemic:sys_6ee7cea752c8: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05876312 ; https://investors.adarx.com/news-releases/news-release-details/adarx-reports-third-quarter-2026-financial-results-and-provides
+
+ADX324 | ACTIVE | supported | HAE
+  systemic:sys_e409bbd5eeef: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05691361 ; https://investors.adarx.com/news-releases/news-release-details/adarx-reports-third-quarter-2026-financial-results-and-provides
+
+5-hydroxymethylfurfural (AES-103) | UNKNOWN | unresolved | SCD
+  systemic:sys_546e9a0eb064: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT01597401 ; https://ncats.nih.gov/research/our-impact/our-impact-drug-discovery-and-development/drug-approvals
+
+tebapivat | FAILED | supported | SCD
+  systemic:sys_a5e742ea1e70: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT04536792 ; https://investor.agios.com/news-releases/news-release-details/agios-provides-update-phase-2-trial-tebapivat-sickle-cell
+
+Valanafusp alfa (AGT181) | UNKNOWN | unresolved | MPS I
+  metabolic:metabolic_agt181: No defensible current program-fate determination recovered after targeted registry/alias, sponsor/regulator, and publication searches. Trial status is preserved separately, not converted into a program stop.
+  Evidence: https://clinicaltrials.gov/study/NCT02371226 ; https://clinicaltrials.gov/study/NCT02597114 ; https://clinicaltrials.gov/study/NCT03053089 ; https://clinicaltrials.gov/study/NCT03071341 ; https://www.prnewswire.com/news-releases/armagen-announces-first-patient-dosed-in-phase-12a-clinical-trial-of-agt-181-for-the-treatment-of-hurler-syndrome-300136944.html
+
+AGT182 | UNKNOWN | unresolved | MPS II
+  metabolic:metabolic_agt182: No defensible current program-fate determination recovered after targeted registry/alias, sponsor/regulator, and publication searches. Trial status is preserved separately, not converted into a program stop.
+  Evidence: https://clinicaltrials.gov/study/NCT02262338 ; https://news.emory.edu/stories/2015/06/first-man-clinical-trial-hunter-syndrome-underway-emory
+
+alidornase alfa | UNKNOWN | unresolved | Cystic fibrosis
+  systemic:sys_22a2bfad28a7: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT02605590 ; https://ir.protalix.com/node/9511/html
+
+ALN-HTT02 | ACTIVE | supported | Huntington
+  neuro:ALN-HTT02|Huntington: Sponsor reports initial Phase 1b data; alias brezosiran. Program is ongoing.
+  Evidence: https://clinicaltrials.gov/study/NCT06585449 ; https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68 ; https://www.sec.gov/Archives/edgar/data/1178670/000117867025000026/alny-20241231.htm
+
+ALN-SOD | ACTIVE | supported | SOD1-ALS
+  als:ALN-SOD|ALS: Sponsor pipeline dated October 2026 includes ALN-SOD for SOD1-ALS.
+  Evidence: https://clinicaltrials.gov/study/NCT06351592 ; https://www.alnylam.com/alnylam-rnai-pipeline
+
+ALX009 | FAILED | supported | Cystic fibrosis
+  systemic:sys_f0a3de3b6ef0: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10147/ALX-009 ; https://clinicaltrials.gov/study/NCT02598999
+
+ALXN1850 | ACTIVE | supported | Hypophosphatasia
+  metabolic:metabolic_alxn1850: AstraZeneca announces FDA priority review of efzimfotase alfa/ALXN1850 with H1 2027 action target; review is not approval.
+  Evidence: https://clinicaltrials.gov/study/NCT04980248 ; https://clinicaltrials.gov/study/NCT06079281 ; https://clinicaltrials.gov/study/NCT06079359 ; https://clinicaltrials.gov/study/NCT06079372 ; https://s3.amazonaws.com/ctr-med-7111/ALXN1850-HPP-101/8682c152-0932-4dfb-af33-423a6345591f/4d5822ec-a920-4b34-aaa0-a5e2e8763904/CSR_Synopsis_alxn1850hpp101_Redacted-v1.pdf ; https://www.astrazeneca.com/media-centre/press-releases/2026/efzimfotase-alfa-granted-priority-review-us-as-treatment-for-patients-with-hypophosphatasia-aged-2-years-and-older.html
+
+AMT-130 | ACTIVE | supported | Huntington
+  neuro:AMT-130|Huntington: Sponsor community letter confirms BLA acceptance for review. This is not approval.
+  Evidence: https://clinicaltrials.gov/study/NCT04120493 ; https://clinicaltrials.gov/study/NCT05243017 ; https://huntington-disease.org/wp-content/uploads/2026/11/2026-Nov-2-uniQure-Regulatory-BLA-Update-Community-Letter_Final.pdf ; https://www.globenewswire.com/news-release/2020/06/19/2050634/0/en/uniQure-Announces-First-Two-Patients-Treated-in-Phase-I-II-Clinical-Trial-of-AMT-130-for-the-Treatment-of-Huntington-s-Disease.html
+
+AMT-162 | FAILED | supported | SOD1-ALS
+  als:AMT-162|ALS: Prior completed review: stopped_safety_efficacy
+  Evidence: https://cdn.craft.cloud/fe68e1a2-b284-4f69-ba29-921f065edf17/assets/uploads/uniQure-2026-Proxy-Statement.pdf ; https://www.sec.gov/Archives/edgar/data/1590560/000155837024013276/qure-20241015xex99d1.htm
+
+AMT191 | ACTIVE | supported | Fabry
+  metabolic:metabolic_amt191: uniQure quarterly update reports clinical dosing resumed August 2026.
+  Evidence: https://clinicaltrials.gov/study/NCT06270316 ; https://www.sec.gov/Archives/edgar/data/1590560/000110465926122362/tm2628930d1_ex99-1.htm ; https://www.sec.gov/Archives/edgar/data/1590560/000155837024012295/qure-20240815xex99d1.htm
+
+Delpacibart etedesiran (AOC1001) | ACTIVE | supported | DM1
+  metabolic:metabolic_aoc1001: Ongoing phase III/open-label program under subsequent ownership; original AOC1001 is delpacibart etedesiran.
+  Evidence: https://clinicaltrials.gov/study/NCT05027269 ; https://euclinicaltrials.eu/ctis-public/view/2025-520766-22-00 ; https://www.myotonic.org/sites/default/files/pages/files/2021-11-04_Avidity-MARINA-First-Patient-In-Release_FINAL.pdf
+
+AOC1044 | ACTIVE | supported | DMD exon 44
+  metabolic:metabolic_aoc1044: Novartis Q3 pipeline lists delpacibart zotadirsen clinical development.
+  Evidence: https://clinicaltrials.gov/study/NCT05670730 ; https://filecache.investorroom.com/mr5ir_aviditybiosciences/231/download/FINAL%20Avidity%20Vol%2010%20AOC%201044%20Webcast%20Deck%2008-09-24.pdf ; https://www.novartis.com/sites/novartis_com/files/q3-2026-investor-presentation.pdf
+
+AP-101 | ACTIVE | supported | ALS
+  als:AP-101|ALS: Prior completed review: ongoing
+  Evidence: https://al-spharma.com/news/ ; https://tvm-capital.com/neurimmune-and-tvm-capital-life-science-announce-the-initiation-of-al-s-pharmas-phase-1-study-of-ap-101-for-the-treatment-of-als/
+
+apazunersen | FAILED | supported | Angelman
+  neuro:apazunersen|Angelman: Prior completed review: stopped_efficacy
+  Evidence: https://clinicaltrials.gov/study/NCT04259281 ; https://clinicaltrials.gov/study/NCT05531890 ; https://clinicaltrials.gov/study/NCT06415344 ; https://clinicaltrials.gov/study/NCT06617429 ; https://clinicaltrials.gov/study/NCT07157254 ; https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-phase-3-aspire-results-angelman-syndrome ; https://ir.ultragenyx.com/node/12596 ; https://ir.ultragenyx.com/static-files/83f1b349-cb50-417a-8195-c53c514af23d
+
+apitegromab | APPROVED | supported | SMA
+  neuro:apitegromab|SMA: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03921528 ; https://clinicaltrials.gov/study/NCT05156320 ; https://clinicaltrials.gov/study/NCT05626855 ; https://clinicaltrials.gov/study/NCT06445075 ; https://clinicaltrials.gov/study/NCT06877689 ; https://clinicaltrials.gov/study/NCT07047144 ; https://clinicaltrials.gov/study/NCT07435129 ; https://scholarrock.gcs-web.com/news-releases/news-release-details/scholar-rock-announces-fda-approval-isembyldtm-apitegromab-mstn ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761463Orig1s000IntegratedR.pdf
+
+AP-PA02 | FAILED | supported | Cystic fibrosis
+  systemic:sys_5bea6371d0f4: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10178/AP-PA02 ; https://clinicaltrials.gov/study/NCT04596319
+
+ARCT-032 | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_87c5dd5a793c: Prior completed review: ongoing
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10222/ARCT-032-LUNAR-CF ; https://clinicaltrials.gov/study/NCT05712538
+
+ARCT810 | ACTIVE | supported | Ornithine transcarbamylase deficiency
+  metabolic:metabolic_arct810: Arcturus current quarterly report continues ARCT810 phase II; ARCT2601 is a distinct candidate.
+  Evidence: https://clinicaltrials.gov/study/NCT04416126 ; https://clinicaltrials.gov/study/NCT04442347 ; https://ir.arcturusrx.com/news-releases/news-release-details/arcturus-therapeutics-announces-first-healthy-volunteer-dosed ; https://www.sec.gov/Archives/edgar/data/1768224/000119312526449901/arct-20260930.htm
+
+ARO-ENaC | FAILED | supported | Cystic fibrosis
+  systemic:sys_7dcf7ced26d8: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10189/ARO-ENaC ; https://clinicaltrials.gov/study/NCT04375514
+
+AstroRx | UNKNOWN | unresolved | ALS
+  als:AstroRx|ALS: Prior completed review: retained_asset_activity_unclear
+  Evidence: https://pmc.ncbi.nlm.nih.gov/articles/PMC9927047/ ; https://www.sec.gov/Archives/edgar/data/1783036/000121390026101419/ea030514101ex99-2.htm
+
+Zocaglusagene nuzaparvovec (AT845) | ACTIVE | supported | Pompe
+  metabolic:metabolic_at845: Astellas FY2026 Q2 pipeline/script still lists AT845. Nearby discontinuation legend referred to ASP5541/ASP6554, not AT845.
+  Evidence: https://clinicaltrials.gov/study/NCT04174105 ; https://newsroom.astellas.com/2023-02-22-Astellas-Announces-Update-on-Preliminary-Safety-and-Efficacy-Data-from-FORTIS-Study-of-Investigational-AT845-in-Adults-with-Late-Onset-Pompe-Disease ; https://www.astellas.com/content/dam/astellas-com/global/en/confidential-documents/financial-results/2q2026_script_en.pdf
+
+Cipaglucosidase alfa plus miglustat (ATB200/AT2221) | APPROVED | supported | Late-onset Pompe
+  metabolic:metabolic_atb200: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://cdn.clinicaltrials.gov/large-docs/65/NCT02675465/Prot_000.pdf ; https://clinicaltrials.gov/study/NCT02675465 ; https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-pombiliti
+
+AT-GTX-501 | FAILED | supported | NCL
+  neuro:AT-GTX-501|NCL: Amicus discontinued commercial program for inadequate durability. New 2026 academic CLN6 trial may be a successor/restart; do not silently merge without construct/provenance review.
+  Evidence: https://cdn.clinicaltrials.gov/large-docs/80/NCT02725580/Prot_000.pdf ; https://clinicaltrials.gov/study/NCT02725580 ; https://clinicaltrials.gov/study/NCT04273243 ; https://clinicaltrials.gov/study/NCT07582484 ; https://www.sec.gov/Archives/edgar/data/1178879/000110465922002472/tm222353d1_ex99-1.htm
+
+atidarsagene_autotemcel | APPROVED | supported | MLD
+  neuro:atidarsagene_autotemcel|MLD: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01560182 ; https://clinicaltrials.gov/study/NCT03392987 ; https://clinicaltrials.gov/study/NCT04283227 ; https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-children-metachromatic-leukodystrophy ; https://www.has-sante.fr/jcms/p_3702895/fr/libmeldy-decision-et-avisct-ap510
+
+ATX01 | ACTIVE | supported | DM1
+  metabolic:metabolic_atx01: ARTHEMIR initial patient trial remains ongoing under EU registry.
+  Evidence: https://clinicaltrials.gov/study/NCT06300307 ; https://euclinicaltrials.eu/ctis-public/view/2023-505363-37-00 ; https://www.arthexbiotech.com/post/arthex-biotech-announces-first-patient-dosed-in-phase-i-iia-arthemir-tm-trial-for-myotonic-dystrophy-type-1-dm1
+
+Avalglucosidase alfa (GZ402666) | APPROVED | supported | Pompe
+  metabolic:metabolic_avalglucosidase: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01898364 ; https://content.govdelivery.com/accounts/USFDA/bulletins/2eb9f27
+
+avoralstat | FAILED | supported | HAE
+  systemic:sys_e66b8a5b3370: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT01984788 ; https://ir.biocryst.com/news-releases/news-release-details/biocryst-successfully-completes-its-phase-1-clinical-trial ; https://ir.biocryst.com/static-files/1fbd3b4e-272d-4267-8d66-6a4d020e8834 ; https://www.sec.gov/Archives/edgar/data/882796/000119312513310301/d575409d424b5.htm
+
+AVR-RD-01 | FAILED | supported | Fabry
+  metabolic:metabolic_avrrd01: Avrobio annual report confirms no ongoing development of AVR-RD-01 after clinical halt/strategic changes.
+  Evidence: https://clinicaltrials.gov/study/NCT03454893 ; https://www.sec.gov/Archives/edgar/data/1681087/000095017024031635/avro-20231231.htm ; https://www.sec.gov/Archives/edgar/data/1681087/000119312518188630/d562006ds1a.htm
+
+AVR-RD-02 | FAILED | supported | Gaucher type 1
+  metabolic:metabolic_avrrd02: Avrobio annual report confirms no ongoing development of AVR-RD-02; separate AVR-RD-04 cystinosis sale does not revive Gaucher asset.
+  Evidence: https://clinicaltrials.gov/study/NCT04145037 ; https://www.sec.gov/Archives/edgar/data/1681087/000095017024031635/avro-20231231.htm ; https://www.sec.gov/Archives/edgar/data/1681087/000156459020031761/avro-ex991_6.htm
+
+Tralesinidase alfa (AX250) | ACTIVE | supported | MPS IIIB
+  metabolic:metabolic_ax250: Spruce quarterly release says tralesinidase alfa BLA submission on track for December 2026. Transfer from BioMarin/Allievex has not ended development.
+  Evidence: https://clinicaltrials.gov/study/NCT02754076 ; https://clinicaltrials.gov/study/NCT03784287 ; https://investors.sprucebio.com/node/9346/pdf ; https://www.sec.gov/Archives/edgar/data/1683553/000119312526452707/sprb-ex99_1.htm
+
+AZD5634 | FAILED | supported | Cystic fibrosis
+  systemic:sys_4c1b8bc94c70: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10142/AZD5634 ; https://clinicaltrials.gov/study/NCT02679729
+
+mosliciguat | UNKNOWN | unresolved | Pulmonary arterial hypertension
+  systemic:sys_2406594fa25f: Prior completed review: unknown_after_search Current activity in another indication does not resolve the original program.
+  Evidence: https://clinicaltrials.gov/study/NCT03754660 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12158843/
+
+BCX10013 | FAILED | supported | PNH
+  systemic:sys_9803aaf12aff: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT06100900 ; https://ir.biocryst.com/static-files/42e13a74-a7eb-405f-b0f1-068d884b240b ; https://www.sec.gov/Archives/edgar/data/882796/000162828022028463/bcrx-20220930.htm
+
+BCX9930 | FAILED | supported | PNH
+  systemic:sys_eae7398282ce: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT04330534 ; https://ir.biocryst.com/news-releases/news-release-details/biocryst-discontinues-development-bcx9930-and-shifts-focus
+
+ristoglogene autogetemcel (BEAM-101) | ACTIVE | supported | SCD
+  systemic:sys_8ea0aa0f19da: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05456880 ; https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-highlights-progress-across-base-editing ; https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-reports-third-quarter-2026-financial-results
+
+berotralstat | APPROVED | supported | HAE
+  systemic:sys_e73d8b55aeb1: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02448264 ; https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=607617
+
+BI 3720931 | FAILED | supported | Cystic fibrosis
+  systemic:sys_994e3c1341c5: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT06515002 ; https://www.fiercebiotech.com/biotech/boehringer-axes-inhaled-gene-therapy-after-viewing-cystic-fibrosis-data
+
+BI 443651 | FAILED | supported | Cystic fibrosis
+  systemic:sys_5ec81a4cdbf8: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT02706925 ; https://clinicaltrials.gov/study/NCT02976519 ; https://publications.ersnet.org/content/erjor/early/2020/11/19/23120541.00447-2020.full.pdf
+
+BIIB078 | FAILED | supported | C9orf72-ALS
+  als:BIIB078|ALS: Prior completed review: stopped_efficacy
+  Evidence: https://clinicaltrials.gov/study/NCT03626012 ; https://investors.biogen.com/static-files/c21d50af-43ce-43a3-8e02-9fbd4a7c5558 ; https://ir.ionis.com/news-releases/news-release-details/biogen-and-ionis-announce-topline-phase-1-study-results
+
+BIIB100 | FAILED | supported | ALS
+  als:BIIB100|ALS: Prior completed review: stopped_strategic
+  Evidence: https://investors.biogen.com/static-files/da2a28e6-8165-4a82-9e88-12a1363851cd ; https://www.hopkinsmedicine.org/neurology-neurosurgery/clinical-trials/als-clinical-trials/completed-trials
+
+BIIB105 | FAILED | supported | ALS
+  als:BIIB105|ALS: Prior completed review: stopped_efficacy
+  Evidence: https://investors.biogen.com/news-releases/news-release-details/biogen-and-ionis-announce-topline-phase-12-study-results ; https://ir.ionis.com/news-releases/news-release-details/ionis-third-novel-antisense-medicine-als-its-first-designed ; https://www.sec.gov/Archives/edgar/data/875045/000087504521000010/biib-20201231.htm
+
+BIIB132 | FAILED | supported | SCA
+  neuro:BIIB132|SCA: Prior completed review: stopped_strategic
+  Evidence: https://clinicaltrials.gov/study/NCT05160558 ; https://www.sec.gov/Archives/edgar/data/875045/000087504523000012/exhibit991-q12023pressrele.htm
+
+BIVV003 | FAILED | probable | SCD
+  systemic:sys_1f84df4ebcba: Sponsor suspended/deprioritized internal development or material investment; partner option remains. Classify strategic attrition with explicit revival sensitivity.
+  Evidence: https://clinicaltrials.gov/study/NCT03653247 ; https://www.sec.gov/Archives/edgar/data/1001233/000162828023004666/sgmo-20221231.htm
+
+BLS-M22 | UNKNOWN | unresolved | DMD
+  metabolic:metabolic_blsm22: No defensible current program-fate determination recovered after targeted registry/alias, sponsor/regulator, and publication searches. Trial status is preserved separately, not converted into a program stop.
+  Evidence: https://clinicaltrials.gov/study/NCT03789734 ; https://www.kobia.kr/uploaded/company_member/276/intro_20251205094941_088.pdf
+
+BMB-101 | ACTIVE | supported | Dravet; Lennox_Gastaut
+  neuro:BMB-101|Dravet: FDA placed a proposed DEE trial on partial clinical hold; existing open-label patients remain on treatment. Do not treat this as permanent discontinuation or independent outcomes for each pooled diagnosis.
+  Evidence: https://brightmindsbio.com/bright-minds-biosciences-announces-positive-topline-data-for-its-first-in-human-phase-1-study-of-lead-compound-bmb-101/ ; https://clinicaltrials.gov/study/NCT05397041 ; https://clinicaltrials.gov/study/NCT06401538 ; https://clinicaltrials.gov/study/NCT07266324 ; https://www.sec.gov/Archives/edgar/data/1827401/000206075526000063/ex991-20261102drug.htm
+  neuro:BMB-101|Lennox_Gastaut: FDA placed a proposed DEE trial on partial clinical hold; existing open-label patients remain on treatment. Do not treat this as permanent discontinuation or independent outcomes for each pooled diagnosis.
+  Evidence: https://brightmindsbio.com/bright-minds-biosciences-announces-positive-topline-data-for-its-first-in-human-phase-1-study-of-lead-compound-bmb-101/ ; https://clinicaltrials.gov/study/NCT05397041 ; https://clinicaltrials.gov/study/NCT06401538 ; https://clinicaltrials.gov/study/NCT07266324 ; https://www.sec.gov/Archives/edgar/data/1827401/000206075526000063/ex991-20261102drug.htm
+
+BMN307 | UNKNOWN | unresolved | Phenylketonuria
+  metabolic:metabolic_bmn307: 2021 clinical hold and November 2025 EU orphan withdrawal established; orphan designation withdrawal does not establish program termination.
+  Evidence: https://clinicaltrials.gov/study/NCT04480567 ; https://www.biomarin.com/news/press-releases/biomarin-pioneer-in-phenylketonuria-pku-and-gene-therapy-doses-first-participant-in-global-phearless-phase-1-2-study-of-bmn-307-gene-therapy/ ; https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-19-2229
+
+BMN331 | FAILED | supported | HAE
+  systemic:sys_cac04d5ba0ec: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT05121376 ; https://investors.biomarin.com/news/news-details/2024/BioMarin-Reports-Record-Financial-Results-for-the-First-Quarter-2024/default.aspx
+
+BMN351 | ACTIVE | supported | DMD exon 51
+  metabolic:metabolic_bmn351: BioMarin reports clinical data and extension development.
+  Evidence: https://clinicaltrials.gov/study/NCT06280209 ; https://www.sec.gov/Archives/edgar/data/1048477/000104847725000007/bmrn-20241231.htm ; https://www.sec.gov/Archives/edgar/data/1048477/000104847726000006/earningsrelease-4may26ex991.htm
+
+Reveglucosidase alfa (BMN701) | FAILED | supported | Pompe
+  metabolic:metabolic_bmn701: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT01230801 ; https://clinicaltrials.gov/study/NCT01435772 ; https://investors.biomarin.com/files/doc_financials/2014/q4/Fourth-Quarter-2014-10K.pdf ; https://www.worldpompe.org/images/pdfs/2016-06-22_Biomarin_Pompe_Community_Update.pdf
+
+BMS-986470 | ACTIVE | supported | SCD
+  systemic:sys_8bb0cbd513ac: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06481306 ; https://www.yalemedicine.org/clinical-trials/bms-ca230-1019-a-study-to-evaluate-bms-986470-in-healthy-volunteers-and-participants-with-sickle-ce
+
+BN82451B | UNKNOWN | unresolved | Huntington
+  neuro:BN82451B|Huntington: Prior completed review: unknown_after_research
+  Evidence: https://clinicaltrials.gov/study/NCT02231580 ; https://echanges.dila.gouv.fr/OPENDATA/AMF/MAN/2012/05/FCMAN131921_20120524.pdf
+
+Bocidelpar | FAILED | supported | DMD
+  metabolic:metabolic_bocidelpar: Astellas FY2023 results (year ending March 2024) report ASP0367 PMM phase II and DMD phase I discontinued based on clinical data.
+  Evidence: https://clinicaltrials.gov/study/NCT04184882 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9298414/ ; https://www.astellas.com/content/dam/astellas-com/global/en/documents/financial-results/supplementary-documents-%28fy2023%29-q4-2023.pdf
+
+branaplam | FAILED | supported | SMA
+  neuro:branaplam|SMA: Prior completed review: stopped_strategic
+  Evidence: https://assets.sma-europe.eu/21072021_Branaplam_in_SMA_Community_Update_July_2021_FINAL_PDF_827fc25697.pdf ; https://clinicaltrials.gov/study/NCT02268552 ; https://clinicaltrials.gov/study/NCT05111249 ; https://clinicaltrials.gov/study/NCT05330286
+
+BRL-101 | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_c348ab7a37d2: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05577312 ; https://www.brlmed.com/en/qiyenew.html
+
+Burlulipase | FAILED | supported | Cystic fibrosis
+  systemic:sys_86455d1ca16f: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10021/Burlulipase ; https://clinicaltrials.gov/study/NCT01710644
+
+beremagene geperpavec | APPROVED | supported | Epidermolysis bullosa
+  systemic:sys_b77778a7144f: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03536143 ; https://www.fda.gov/news-events/press-announcements/fda-approves-first-topical-gene-therapy-treatment-wounds-patients-dystrophic-epidermolysis-bullosa
+
+BX004-A | FAILED | supported | Cystic fibrosis
+  systemic:sys_fac1b2670355: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10190/BX004-A ; https://clinicaltrials.gov/study/NCT05010577
+
+CAN103 | UNKNOWN | unresolved | Gaucher type 1/3 mixed
+  metabolic:metabolic_can103: Known non-US approval/commercialization; FDA development path unresolved. This is NOT a globally dead or wholly untraceable molecule.
+  Evidence: https://canbridgepharma.com/en/media-news/press-release/22020720/ ; https://clinicaltrials.gov/study/NCT05447494 ; https://www.hkexnews.hk/listedco/listconews/sehk/2025/1208/2025120800806.pdf
+
+Casimersen (SRP4045) | APPROVED | supported | DMD exon 45
+  metabolic:metabolic_casimersen: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02500381 ; https://clinicaltrials.gov/study/NCT02530905 ; https://content.govdelivery.com/accounts/USFDA/bulletins/2c3e83d ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213026Orig1s000ClinPharmR.pdf
+
+CB-280 | FAILED | supported | Cystic fibrosis
+  systemic:sys_8618364b58ba: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10174/CB-280 ; https://clinicaltrials.gov/study/NCT04279769
+
+CDX6114 | FAILED | supported | Phenylketonuria
+  metabolic:metabolic_cdx6114: Codexis abandoned patent estate December 5, 2023 after Nestle declined assumption. Strong sponsor exit evidence; not proof no conceivable successor.
+  Evidence: https://clinicaltrials.gov/study/NCT04085666 ; https://clinicaltrials.gov/study/NCT04256655 ; https://d1io3yog0oux5.cloudfront.net/_bada3bc6dd3caf7aca66045023b68acc/codexis/news/2018-07-09_Codexis_Doses_First_Subjects_in_Phase_1a_Trial_of__59.pdf ; https://www.sec.gov/Archives/edgar/data/1200375/000120037524000009/R15.htm
+
+Cellavita_HD | UNKNOWN | unresolved | Huntington
+  neuro:Cellavita_HD|Huntington: Prior completed review: unknown_after_research
+  Evidence: https://clinicaltrials.gov/study/NCT02728115 ; https://clinicaltrials.gov/study/NCT03252535 ; https://clinicaltrials.gov/study/NCT04219241
+
+cerliponase_alfa | APPROVED | supported | NCL
+  neuro:cerliponase_alfa|NCL: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01907087 ; https://clinicaltrials.gov/study/NCT02485899 ; https://clinicaltrials.gov/study/NCT02678689 ; https://clinicaltrials.gov/study/NCT02963350 ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/761052Orig1s000Approv.pdf ; https://www.ninds.nih.gov/sites/default/files/documents/batten_design_508c.pdf
+
+CHF6333 | UNKNOWN | unresolved | Cystic fibrosis
+  systemic:sys_bb422a68b71b: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT03056326
+
+ciprocopan | UNKNOWN | unresolved | PNH
+  systemic:sys_e238494c1732: Known non-US approval/commercialization; FDA development path unresolved. This is NOT a globally dead or wholly untraceable molecule.
+  Evidence: https://clinicaltrials.gov/study/NCT06350279 ; https://clinicaltrials.gov/study/NCT06561841 ; https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-27/8ef41362-8592-467c-8fba-38d4f313eb45.PDF
+
+CLN-301 | ACTIVE | supported | NCL
+  neuro:CLN-301|NCL: Current developer Neela lists CLN3 gene therapy development; predecessor aliases AT-GTX-502. Sponsor changes are not absorbing failures.
+  Evidence: https://clinicaltrials.gov/study/NCT03770572 ; https://neelatx.com/pipeline-programs/cln-301/
+
+CMTX-101 | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_158ef6ee714b: Prior completed review: ongoing
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10213/CMTX-101 ; https://clinicaltrials.gov/study/NCT05629741 ; https://clinicaltrials.gov/study/NCT06159725
+
+CNP-104 | ACTIVE | supported | Primary biliary cholangitis
+  systemic:sys_af6c0e11d6dc: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05104853 ; https://www.globenewswire.com/news-release/2026/03/03/3248294/0/en/COUR-Pharma-Announces-Positive-One-Year-Results-from-the-Phase-2a-Study-of-CNP-104-in-Primary-Biliary-Cholangitis.html
+
+concizumab | APPROVED | supported | Hemophilia A/B (subtype review)
+  systemic:sys_54cd113e2719: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01228669 ; https://clinicaltrials.gov/study/NCT01555749 ; https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshot-alhemo
+
+crovalimab | APPROVED | supported | PNH
+  systemic:sys_34837d74253a: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03157635 ; https://purplebooksearch.fda.gov/index.cfm?blaNo=761388&event=productdetails
+
+CS101 (CorrectSequence base-edited HSC) | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_48047b16514a: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05768932 ; https://clinicaltrials.gov/study/NCT06024876
+
+CSL889 | ACTIVE | supported | SCD
+  systemic:sys_58108ee83acb: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04285827 ; https://haematologica.org/article/view/13403
+
+CTH120 | ACTIVE | supported | Fragile_X
+  neuro:CTH120|Fragile_X: Sponsor supports continued development. EMA CTIS 2022-502209-13-01 explicitly describes first administration to humans; exact dosing date remains unverified.
+  Evidence: https://clinicaltrials.gov/study/NCT06480968 ; https://clinicaltrials.gov/study/NCT07654114 ; https://connectatherapeutics.com/news/connecta-therapeutics-and-centre-for-genomic-regulation-to-present-first-in-class-program-cth120-for-fragile-x-syndrome-at-fens-forum-2026/
+
+Nomlabofusp (CTI1601) | ACTIVE | supported | Friedreich ataxia
+  metabolic:metabolic_cti1601: Larimar announced completed BLA submission; submission is not FDA approval.
+  Evidence: https://clinicaltrials.gov/study/NCT04176991 ; https://clinicaltrials.gov/study/NCT04519567 ; https://clinicaltrials.gov/study/NCT05579691 ; https://clinicaltrials.gov/study/NCT06447025 ; https://clinicaltrials.gov/study/NCT06681766 ; https://larimar.gcs-web.com/node/12796/pdf ; https://www.sec.gov/Archives/edgar/data/1374690/000119312519316829/d845901dex993.htm
+
+danicopan | APPROVED | supported | PNH
+  systemic:sys_8a707d052eae: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT04889677 ; https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-voydeya
+
+DCR-PH1 | FAILED | supported | Primary hyperoxaluria type 1
+  metabolic:metabolic_dcrph1: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT02795325 ; https://www.sec.gov/Archives/edgar/data/1399529/000119312516671791/d230319dex991.htm ; https://www.sec.gov/Archives/edgar/data/1399529/000119312516761661/d249794dex991.htm
+
+deucrictibant | ACTIVE | supported | HAE
+  systemic:sys_979fd98d5336: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04618211 ; https://clinicaltrials.gov/study/NCT05047185 ; https://ir.pharvaris.com/news-releases/news-release-details/pharvaris-reports-third-quarter-2026-financial-results-and ; https://ir.pharvaris.com/static-files/0dfb2cef-f1c3-44f9-93bc-31fb3578ecae ; https://www.sec.gov/Archives/edgar/data/1830487/000095012320011234/filename1.htm
+
+deutetrabenazine | APPROVED | supported | Huntington
+  neuro:deutetrabenazine|Huntington: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01795859 ; https://clinicaltrials.gov/study/NCT01897896 ; https://clinicaltrials.gov/study/NCT02195700 ; https://clinicaltrials.gov/study/NCT02198794 ; https://clinicaltrials.gov/study/NCT02291861 ; https://clinicaltrials.gov/study/NCT02674321 ; https://clinicaltrials.gov/study/NCT03452943 ; https://clinicaltrials.gov/study/NCT03567291 ; https://clinicaltrials.gov/study/NCT03571256 ; https://clinicaltrials.gov/study/NCT03813238 ; https://clinicaltrials.gov/study/NCT04071639 ; https://clinicaltrials.gov/study/NCT04173260 ; https://clinicaltrials.gov/study/NCT04200352 ; https://clinicaltrials.gov/study/NCT04301726 ; https://clinicaltrials.gov/study/NCT04713982 ; https://clinicaltrials.gov/study/NCT06997198 ; https://clinicaltrials.gov/study/NCT07105111 ; https://clinicaltrials.gov/study/NCT07601516 ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208082Orig1s000ODMemo.pdf ; https://www.sec.gov/Archives/edgar/data/1454189/000119312513481239/d627086ds1.htm
+
+Baliforsen (IONIS-DMPKRx) | FAILED | probable | DM1
+  metabolic:metabolic_dmpkrx: Sponsor reported inadequate muscle potency; patient-research organization documented non-advancement and replacement-technology plan. Exact formal stop date not established.
+  Evidence: https://clinicaltrials.gov/study/NCT02312011 ; https://www.mda.org/quest/article/progress-now-spring-2017 ; https://www.prnewswire.com/news-releases/isis-pharmaceuticals-initiates-phase-1-study-of-isis-dmpk-rx-to-treat-myotonic-dystrophy-type-1-262356081.html ; https://www.sec.gov/Archives/edgar/data/874015/000114036117015262/formdef14a.htm
+
+DNL126 | ACTIVE | supported | MPS IIIA
+  metabolic:metabolic_dnl126: Denali current data show ongoing investigational MPSIIIA ETV program.
+  Evidence: https://clinicaltrials.gov/study/NCT06181136 ; https://investors.denalitherapeutics.com/static-files/37f7ea27-934d-4aba-bc6f-a40765f3d0b9 ; https://www.sec.gov/Archives/edgar/data/1714899/000171489925000066/dnli-20241231.htm
+
+Tividenofusp alfa (DNL310) | APPROVED | supported | MPS II neurologic
+  metabolic:metabolic_dnl310: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT04251026 ; https://clinicaltrials.gov/study/NCT05371613 ; https://clinicaltrials.gov/study/NCT06075537 ; https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761485Orig1s000correctedltr.pdf
+
+DNL747 | FAILED | supported | ALS
+  als:DNL747|ALS: Prior completed review: stopped_safety
+  Evidence: https://www.sanofi.com/assets/dotcom/content-app/events/quaterly-results/2020/Q2-2020-EN/2020_07_29_Q2_2020_PR_EN_v3.pdf ; https://www.sec.gov/Archives/edgar/data/1714899/000119312518086714/d518262dex991.htm
+
+donidalorsen | APPROVED | supported | HAE
+  systemic:sys_61af629e9418: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03263507 ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219407Orig1s000Approv.pdf ; https://www.ema.europa.eu/en/documents/assessment-report/dawnzera-epar-public-assessment-report_en.pdf
+
+DS5141b | FAILED | supported | DMD exon 45
+  metabolic:metabolic_ds5141b: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT02667483 ; https://clinicaltrials.gov/study/NCT04433234 ; https://www.daiichisankyo.com/files/investors/library/quarterly_result/2022/FY2022_Q4_ReferenceData_E4.pdf
+
+DT216 | ACTIVE | supported | Friedreich ataxia
+  metabolic:metabolic_dt216: Design reports ongoing DT216P2 clinical development; formulation switch is not a second asset or terminal failure.
+  Evidence: https://clinicaltrials.gov/study/NCT05285540 ; https://clinicaltrials.gov/study/NCT05573698 ; https://investors.designtx.com/news-releases/news-release-details/design-therapeutics-announces-third-quarter-2026-financial/ ; https://www.sec.gov/Archives/edgar/data/1807120/000119312526447258/dsgn-20260930.htm
+
+DTX301 (scAAV8OTC) | ACTIVE | supported | Ornithine transcarbamylase deficiency
+  metabolic:metabolic_dtx301: Ultragenyx current quarterly report continues DTX301 OTC gene therapy program; not the newly approved DTX401 GSDIa program.
+  Evidence: https://clinicaltrials.gov/study/NCT02991144 ; https://ir.ultragenyx.com/static-files/83f1b349-cb50-417a-8195-c53c514af23d
+
+Pariglasgene brecaparvovec (DTX401) | APPROVED | supported | Glycogen storage disease Ia
+  metabolic:metabolic_dtx401: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03517085 ; https://clinicaltrials.gov/study/NCT05139316 ; https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-first-patient-dosed-phase-12-study-dtx401 ; https://www.fda.gov/news-events/press-announcements/fda-approves-first-therapy-patients-aged-8-years-and-older-glycogen-storage-disease-type-ia
+
+DYNE101 | ACTIVE | supported | DM1
+  metabolic:metabolic_dyne101: Dyne continues DM1 program/registrational development.
+  Evidence: https://clinicaltrials.gov/study/NCT05481879 ; https://investors.dyne-tx.com/news-releases/news-release-details/dyne-therapeutics-announces-initiation-phase-12-achieve-clinical ; https://www.sec.gov/Archives/edgar/data/1818794/000181879426000013/dyn-ex99_1.htm
+
+DYNE251 | ACTIVE | supported | DMD exon 51
+  metabolic:metabolic_dyne251: Dyne reports BLA review and intended Q1 2027 launch; not FDA-approved by research cutoff.
+  Evidence: https://clinicaltrials.gov/study/NCT05524883 ; https://investors.dyne-tx.com/news-releases/news-release-details/dyne-therapeutics-announces-first-patient-dosed-phase-12-deliver/ ; https://investors.dyne-tx.com/news-releases/news-release-details/dyne-therapeutics-reports-third-quarter-2026-financial-results
+
+EA5 | ACTIVE | supported | PNH
+  systemic:sys_7c60148e4b13: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT07256288 ; https://clinicaltrials.gov/study/NCT07256301
+
+prademagene zamikeracel | APPROVED | supported | Epidermolysis bullosa
+  systemic:sys_b480244d8250: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://2024sidannualmeeting.org/wp-content/uploads/2024/05/SID_2024_Abstracts-Book_r8.pdf ; https://clinicaltrials.gov/study/NCT01263379 ; https://clinicaltrials.gov/study/NCT04227106 ; https://www.fda.gov/vaccines-blood-biologics/zevaskyn
+
+renizgamglogene autogedtemcel | FAILED | supported | SCD
+  systemic:sys_a230391cc644: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT04853576 ; https://ir.editasmedicine.com/static-files/e0bac71a-35b0-41ae-9e8f-1d016a100354 ; https://www.sec.gov/Archives/edgar/data/1650664/000155837022011904/edit-20220630x10q.htm
+
+elivaldogene_autotemcel | APPROVED | supported | ALD
+  neuro:elivaldogene_autotemcel|ALD: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01896102 ; https://clinicaltrials.gov/study/NCT02698579 ; https://clinicaltrials.gov/study/NCT03852498 ; https://www.fda.gov/media/161665/download?attachment= ; https://www.sec.gov/Archives/edgar/data/1293971/000095012313002592/filename1.htm
+
+EN001 | FAILED | probable | DMD
+  metabolic:metabolic_en001: Original DMD trial terminated early; CMT activity is a different indication. No verified continued DMD development.
+  Evidence: https://clinicaltrials.gov/study/NCT05338099 ; https://kind.krx.co.kr/external/2026/03/20/001219/20260320004527/11011.htm ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11711273/
+
+etavopivat | ACTIVE | supported | SCD
+  systemic:sys_0a051925743b: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT03815695 ; https://clinicaltrials.gov/study/NCT06433661 ; https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=920485
+
+ETD001 | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_5c775d7662c1: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04926701 ; https://www.isrctn.com/pdf/ISRCTN11798668
+
+ETX101 | ACTIVE | supported | Dravet
+  neuro:ETX101|Dravet: Sponsor presents updatedPOLARIS phase1/2 data.
+  Evidence: https://clinicaltrials.gov/study/NCT05419492 ; https://clinicaltrials.gov/study/NCT06112275 ; https://clinicaltrials.gov/study/NCT06283212 ; https://encoded.com/wp-content/uploads/post_to_pdf/press-release_3446.pdf
+
+EXG001-307 | ACTIVE | supported | SMA
+  neuro:EXG001-307|SMA: Issuer filing confirms 13 treated Phase 1/2 patients and continuing long-term safety follow-up. Follow-up alone does not establish advancement toward approval.
+  Evidence: https://clinicaltrials.gov/study/NCT05614531 ; https://clinicaltrials.gov/study/NCT06576388 ; https://clinicaltrials.gov/study/NCT06588803 ; https://clinicaltrials.gov/study/NCT06888661 ; https://www.hkexnews.hk/app/sehk/2026/108081/a129285/sehk26011401481.pdf
+
+Ezutromid (SMTC1100) | FAILED | supported | DMD
+  metabolic:metabolic_ezutromid: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT02056808 ; https://www.biospace.com/biomarin-pharmaceutical-inc-initiates-phase-1-clinical-study-of-bmn-195-for-duchenne-muscular-dystrophy ; https://www.sec.gov/Archives/edgar/data/1599298/000159929821000011/smmt-20201231.htm
+
+dabocemagene autoficel | ACTIVE | supported | Epidermolysis bullosa
+  systemic:sys_6638db96747c: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT02810951 ; https://www.sec.gov/Archives/edgar/data/886163/000088616325000051/R10.htm
+
+FLT190 | FAILED | supported | Fabry
+  metabolic:metabolic_flt190: Freeline explicitly halted further FLT190 development to prioritize Gaucher gene therapy.
+  Evidence: https://clinicaltrials.gov/study/NCT04040049 ; https://clinicaltrials.gov/study/NCT04455230 ; https://www.sec.gov/Archives/edgar/data/1810031/000095017023011688/frln-20221231.htm ; https://www.sec.gov/Archives/edgar/data/1810031/000095017023042621/frln-20230630.htm
+
+FLT201 | ACTIVE | supported | Gaucher type 1
+  metabolic:metabolic_flt201: Spur confirms phase III first patient dosed.
+  Evidence: https://clinicaltrials.gov/study/NCT05324943 ; https://clinicaltrials.gov/study/NCT06545136 ; https://spurtherapeutics.com/wp-content/uploads/Spur-Therapeutics-ESGCT-Rome-2024-FLT201-Presentation-10-23-24.pdf ; https://www.globenewswire.com/news-release/2026/07/07/3323089/0/en/spur-therapeutics-announces-first-patient-dosed-in-galileo-3-pivotal-clinical-trial-of-flt201-for-the-treatment-of-gaucher-disease-type-1.html
+
+4D310 | FAILED | probable | Fabry
+  metabolic:metabolic_four_d310: Sponsor reduced investment and designated candidate noncore; continuing participant follow-up does not establish investment in advancement. Revival remains possible.
+  Evidence: https://clinicaltrials.gov/study/NCT04519749 ; https://clinicaltrials.gov/study/NCT05629559 ; https://www.sec.gov/Archives/edgar/data/1650648/000095017025030056/fdmt-20241231.htm ; https://www.sec.gov/Archives/edgar/data/1650648/000119312521094446/d118367dex991.htm
+
+frespaciguat | UNKNOWN | unresolved | Pulmonary arterial hypertension
+  systemic:sys_52eb95e839f9: Prior completed review: unknown_after_search Current activity in another indication does not resolve the original program.
+  Evidence: https://clinicaltrials.gov/study/NCT03744637 ; https://www.merck.com/wp-content/uploads/sites/124/2026/08/2Q26-Merck-Earnings-Presentation.pdf
+
+garadacimab | APPROVED | supported | HAE
+  systemic:sys_2f49dbb20666: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT04409509 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8932690/ ; https://www.accessdata.fda.gov/scripts/purplebooksearch/index.cfm?blaNo=761367&event=productdetails
+
+seralutinib | ACTIVE | supported | Pulmonary arterial hypertension
+  systemic:sys_df5a6757eff2: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT03473236 ; https://clinicaltrials.gov/study/NCT03926793 ; https://gossamerbio.gcs-web.com/news-releases/news-release-details/gossamer-bio-announces-third-quarter-2026-financial-results-and
+
+GC101 | ACTIVE | supported | SMA
+  neuro:GC101|SMA: Primary clinical paper confirms treated patients. A 2021 ChiCTR registration predates the panel proxy. Current program fate was not independently established.
+  Evidence: https://clinicaltrials.gov/study/NCT04943913 ; https://clinicaltrials.gov/study/NCT04960072 ; https://clinicaltrials.gov/study/NCT04967833 ; https://clinicaltrials.gov/study/NCT05098184 ; https://clinicaltrials.gov/study/NCT05098197 ; https://clinicaltrials.gov/study/NCT05142475 ; https://clinicaltrials.gov/study/NCT05417750 ; https://clinicaltrials.gov/study/NCT05824169 ; https://clinicaltrials.gov/study/NCT05901987 ; https://clinicaltrials.gov/study/NCT06120712 ; https://clinicaltrials.gov/study/NCT06421831 ; https://clinicaltrials.gov/study/NCT06473961 ; https://clinicaltrials.gov/study/NCT06488950 ; https://clinicaltrials.gov/study/NCT06703398 ; https://clinicaltrials.gov/study/NCT06971094 ; https://clinicaltrials.gov/study/NCT07294872 ; https://clinicaltrials.gov/study/NCT07560111 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11332719/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12433340/
+
+Idursulfase beta (GC1111/Hunterase) | UNKNOWN | unresolved | MPS II somatic
+  metabolic:metabolic_gc1111: Known non-US approval/commercialization; FDA development path unresolved. This is NOT a globally dead or wholly untraceable molecule.
+  Evidence: https://clinicaltrials.gov/study/NCT01301898 ; https://global-greencross.com/eng/research/global_project.html ; https://www.gimjournal.org/article/S1098-3600%2825%2900107-8/fulltext
+
+GC1130A | ACTIVE | supported | MPS IIIA
+  metabolic:metabolic_gc1130a: Current treating-site registry lists ongoing Sanfilippo A study.
+  Evidence: https://clinicaltrials.gov/study/NCT06567769 ; https://clinicaltrials.ucsf.edu/trial/NCT06567769 ; https://www.gcbiopharma.com/eng/news_view.do?idx=1388
+
+GC301 | ACTIVE | supported | Pompe (infantile and late-onset)
+  metabolic:metabolic_gc301: GeneCradle first adult registrational patient dosed August 2024 after infantile IIT; 2025 registry continues study. No later substantive company update recovered.
+  Evidence: https://clinicaltrials.gov/study/NCT05793307 ; https://clinicaltrials.gov/study/NCT06391736 ; https://en.bj-genecradle.com/news/262 ; https://www.nejm.org/doi/full/10.1056/NEJMoa2407766
+
+GDC-0134 | FAILED | supported | ALS
+  als:GDC-0134|ALS: Prior completed review: stopped_safety
+  Evidence: https://pmc.ncbi.nlm.nih.gov/articles/PMC8791798/
+
+RAG1-LV CD34+ cells | ACTIVE | supported | SCID
+  systemic:sys_6857678a3992: Explicitly temporary SAE-related study suspension; retain paused development rather than infer permanent failure.
+  Evidence: https://clinicaltrials.gov/study/NCT04797260
+
+Hologene 7 | UNKNOWN | unresolved | Epidermolysis bullosa
+  systemic:sys_cb9f111303e1: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT02984085 ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-004592-74/AT
+
+HGI-001 (Hemo-cel) | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_7141ac1cc8f2: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05745532 ; https://www.hemogen.cn/en/dynamic/info_itemid_286.html ; https://www.hemogen.cn/en/history/index.html
+
+Bioray HBB CVS654-corrected HSC | UNKNOWN | unresolved | Beta-thalassemia
+  systemic:sys_a27fd6fb14c7: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT04205435
+
+galicaftor (SION-2222) | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_ba4510beca93: Prior completed review: ongoing
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10145/SION-2222 ; https://clinicaltrials.gov/study/NCT02662452 ; https://clinicaltrials.gov/study/NCT03540524
+
+navocaftor | UNKNOWN | unresolved | Cystic fibrosis
+  systemic:sys_c56d0b56165a: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT02788721 ; https://clinicaltrials.gov/study/NCT03540524 ; https://www.sec.gov/Archives/edgar/data/1421876/000117184318004887/exh_991.htm
+
+GLPG2737 | UNKNOWN | unresolved | Cystic fibrosis
+  systemic:sys_242c94c3ee7f: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT03410979 ; https://clinicaltrials.gov/study/NCT03450720 ; https://www.sec.gov/Archives/edgar/data/1421876/000117184318004887/exh_991.htm
+
+ABBV-3067 | FAILED | supported | Cystic fibrosis
+  systemic:sys_7f3082ade1f7: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10167/ABBV-2222-ABBV-3067-ABBV-576 ; https://clinicaltrials.gov/study/NCT03128606 ; https://clinicaltrials.gov/study/NCT03589313
+
+GMA301 | ACTIVE | supported | Pulmonary arterial hypertension
+  systemic:sys_ad159e8cc660: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04505137 ; https://www.gmaxbiopharm.com/
+
+GNR038 | FAILED | probable | HAE
+  systemic:sys_a6c4ba839e4e: HAE trial withdrawn for sponsor pipeline change after prior human exposure. Program attrition inferred; future revival not excluded.
+  Evidence: https://clinicaltrials.gov/study/NCT04557319 ; https://clinicaltrials.gov/study/NCT04898309
+
+Golodirsen (SRP4053) | APPROVED | supported | DMD exon 53
+  metabolic:metabolic_golodirsen: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02310906 ; https://clinicaltrials.gov/study/NCT02500381 ; https://investorrelations.sarepta.com/news-releases/news-release-details/sarepta-therapeutics-announces-fda-approval-vyondys-53tm ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/211970Orig1s000OtherR.pdf
+
+VX-371 (P-1037) | FAILED | supported | Cystic fibrosis
+  systemic:sys_34a6c08b18b3: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10139/VX-371-formerly-P-1037 ; https://clinicaltrials.gov/study/NCT01793649 ; https://www.parion.com/wp-content/uploads/2014/04/P-1037-Rights-4-30-2014-Final2.pdf
+
+GSK4172239D | FAILED | supported | SCD
+  systemic:sys_a4b5301147dd: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT05660265 ; https://www.gsk.com/media/obzbsgp4/q3-2025-pipeline-assets-and-clinical-trials-report.pdf
+
+HepaStem | UNKNOWN | unresolved | Urea-cycle disorders and Crigler-Najjar (mixed)
+  metabolic:metabolic_hepastem: No defensible current program-fate determination recovered after targeted registry/alias, sponsor/regulator, and publication searches. Trial status is preserved separately, not converted into a program stop.
+  Evidence: https://clinicaltrials.gov/study/NCT01765283 ; https://www.afmps.be/sites/default/files/content/WTA/4_vinciane_wouters_-_promethera_biosciences_-_experience_of_a_belgian_sme.pdf
+
+HG302 | UNKNOWN | unresolved | DMD
+  metabolic:metabolic_hg302: Sponsor disclosed August 2025 fatal SAE on August 5, 2026; October 2026 company publication discusses further development. Death alone does not prove permanent cessation.
+  Evidence: https://clinicaltrials.gov/study/NCT06594094 ; https://www.huidagene.com/new/news/72 ; https://www.huidagene.com/new/news/82
+
+HMI102 | FAILED | supported | Phenylketonuria
+  metabolic:metabolic_hmi102: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT03952156
+
+HMI103 | FAILED | supported | Phenylketonuria
+  metabolic:metabolic_hmi103: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT05222178 ; https://www.globenewswire.com/news-release/2023/07/27/2712667/0/en/Homology-Medicines-Announces-Encouraging-Initial-Data-from-First-Dose-Level-in-the-pheEDIT-Trial-Evaluating-Gene-Editing-Candidate-HMI-103-in-Adults-with-Classical-PKU.html
+
+HRS5965 | ACTIVE | supported | PNH
+  systemic:sys_c7b83552e6eb: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05505955 ; https://clinicaltrials.gov/study/NCT06051357 ; https://static.cninfo.com.cn/finalpage/2026-01-10/1224927347.PDF
+
+HS135 | UNKNOWN | unresolved | Pulmonary arterial hypertension
+  systemic:sys_1989247e0c70: Prior completed review: unknown_after_search
+  Evidence: https://35pharma.com/wp-content/uploads/2024/01/2024-01_03JAN2024_HS135-CTA-clearance_for-release.pdf ; https://clinicaltrials.gov/study/NCT06493461
+
+IDUA-LVV genetically modified autologous HSPCs (OTL203) | ACTIVE | supported | MPS I Hurler
+  metabolic:metabolic_idua_lvv: Kyowa Kirin current pipeline lists OTL203 registrational MPSI development through 2027.
+  Evidence: https://clinicaltrials.gov/study/NCT03488394 ; https://ir.kyowakirin.com/en/library/earnings/earnings0/main/0118/teaserItems1/00/linkList/01/link/presentation_2024_q4_en.pdf ; https://ir.kyowakirin.com/en/library/earnings/earnings0/main/0118/teaserItems1/00/linkList/01/link/presentation_2026_q3_en.pdf
+
+imr-687 | FAILED | supported | SCD
+  systemic:sys_9ac6a94a1a0c: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT02998450 ; https://www.sec.gov/Archives/edgar/data/1672619/000156459022018458/imra-10q_20220331.htm
+
+Inhaled SNSP113 | FAILED | supported | Cystic fibrosis
+  systemic:sys_efdd53f61091: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10156/SNSP113 ; https://clinicaltrials.gov/study/NCT03309358
+
+ION283 | ACTIVE | supported | Lafora
+  neuro:ION283|Lafora: Sponsor/investigator registry attestation of active trial NCT06609889; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://chelseashope.org/wp-content/uploads/2025/02/Safety-Study-Press-Release-February-2025.pdf ; https://clinicaltrials.gov/study/NCT06609889
+
+IONIS-ENaCRx | FAILED | supported | Cystic fibrosis
+  systemic:sys_87a4ffffb919: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10144/IONIS-ENaC-25 ; https://clinicaltrials.gov/study/NCT03647228
+
+IPL344 | UNKNOWN | unresolved | ALS
+  als:IPL344|ALS: Prior completed review: suspended_supply
+  Evidence: https://clinicaltrials.gov/study/NCT03652805 ; https://immunitypharma.com/images/publications/muscle_and_nerve_-_2025_-_gotkine_-_akt_activation_with_ipl344_treatment_for_amyotrophic_lateral_sclerosis_first_in_human_1.pdf ; https://immunitypharma.com/news/5-immunity-pharma-announces-passing-a-two-year-mark-for-treating-an-als-patient-with-ipl344-under-a-compassionate-treatment-protocol
+
+iptacopan | APPROVED | supported | PNH
+  systemic:sys_2369512c9ad9: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.70339 ; https://clinicaltrials.gov/study/NCT03439839 ; https://www.novartis.com/news/media-releases/novartis-receives-fda-approval-fabhalta-iptacopan-offering-superior-hemoglobin-improvement-absence-transfusions-first-oral-monotherapy-adults-pnh
+
+ISIS333611 | FAILED | supported | SOD1-ALS
+  als:ISIS333611|ALS: Ionis developer-authored account explicitly says development was terminated in favor of an improved molecule; tofersen is distinct.
+  Evidence: https://pmc.ncbi.nlm.nih.gov/articles/PMC3712285/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8682074/
+
+ISP001 autologous engineered plasmablasts | ACTIVE | supported | MPS I
+  metabolic:metabolic_isp001: Sponsor describes phase I/II and redosed first patient; B-cell gene product remains investigational.
+  Evidence: https://clinicaltrials.gov/study/NCT05682144 ; https://www.biospace.com/immusoft-administers-the-first-engineered-b-cell-in-a-human-clinical-trial ; https://www.immusoft.com/faqs/
+
+ITU512 | ACTIVE | supported | SCD
+  systemic:sys_b1a423a7ce84: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06546670 ; https://www.ctsearchsupport.org/clinical-trials/a-phase-i-ii-study-of-itu512-in-healthy-participants-and-patients-with-sickle-cell-disease
+
+JNT517 | ACTIVE | supported | Phenylketonuria
+  metabolic:metabolic_jnt517: Otsuka/Jnana phase III program registered in Japan; not an FDA approval.
+  Evidence: https://anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622001222730 ; https://clinicaltrials.gov/study/NCT05781399 ; https://jrct.mhlw.go.jp/en-latest-detail/jRCT2051250120
+
+Pabinafusp alfa (JR141) | ACTIVE | supported | MPS II neurologic
+  metabolic:metabolic_jr141: JCR FY2026 Q2 report describes October 2026 Italfarmaco licensing for US/Europe/Latin America and ongoing global program. Prior Japanese approval is separate from FDA outcome.
+  Evidence: https://clinicaltrials.gov/study/NCT03128593 ; https://clinicaltrials.gov/study/NCT03359213 ; https://clinicaltrials.gov/study/NCT03568175 ; https://clinicaltrials.gov/study/NCT03708965 ; https://clinicaltrials.gov/study/NCT04348136 ; https://clinicaltrials.gov/study/NCT04573023 ; https://clinicaltrials.gov/study/NCT05594992 ; https://jcrpharm.com/wp-content/uploads/2026/10/FY2026-Q2_Financial_Report_EN.pdf ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/FY2026-Q2_Results_Briefing_Session_EN.pdf
+
+Lepunafusp alfa (JR171) | ACTIVE | supported | MPS I
+  metabolic:metabolic_jr171: JCR current quarterly report describes completed initial study and ongoing next-phase strategy for lepunafusp alfa.
+  Evidence: https://clinicaltrials.gov/study/NCT04227600 ; https://clinicaltrials.gov/study/NCT04453085 ; https://jcrpharm.com/wp-content/uploads/2026/10/FY2026-Q2_Financial_Report_EN.pdf ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/2020-10-30_JCRAnnouncesFirstPatientDosedinPhase12GlobalClinicalTrialofJR-171forMPSI.pdf ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/FY2026-Q2_Results_Briefing_Session_EN.pdf
+
+JR441 | ACTIVE | supported | MPS IIIA
+  metabolic:metabolic_jr441: JCR dated pipeline explicitly lists German phase I/II and Japanese phase I.
+  Evidence: https://clinicaltrials.gov/study/NCT06095388 ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/2023-10-27_JCRPharmaceuticalsAnnouncesFirstPatientDosedinaGlobalPhaseI_IIClinicalTrialofJR-441fortheTreatmentofMPSIIIA.pdf ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/FY2026-Q2_Results_Briefing_Session_EN.pdf ; https://www.jcrpharm.co.jp/en/ir/pipeline/
+
+JR446 | ACTIVE | supported | MPS IIIB
+  metabolic:metabolic_jr446: JCR Q2 presentation confirms ongoing JR446 clinical development.
+  Evidence: https://clinicaltrials.gov/study/NCT06488924 ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/2024-12-03_MEDIPALHOLDINGSCORPORATIONandJCRPharmaceuticalsAnnounceInitiationofFirstDosinginPhaseI_IIClinicalTrialofJR-446forMPSIIIB.pdf ; https://www.jcrpharm.co.jp/en/assets/uploads/docs/FY2026-Q2_Results_Briefing_Session_EN.pdf
+
+rodatristat ethyl | FAILED | supported | Pulmonary arterial hypertension
+  systemic:sys_a359160d0a29: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT02746237 ; https://www.sumitomo-pharma.com/news/20240430-2.html
+
+KB407 (Nebulization) | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_a78d01f71f98: Prior completed review: ongoing
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10221/KB407 ; https://clinicaltrials.gov/study/NCT05095246 ; https://clinicaltrials.gov/study/NCT05504837
+
+KP104 | ACTIVE | supported | PNH
+  systemic:sys_6890ff08350a: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05490017 ; https://www.sec.gov/Archives/edgar/data/1788028/000121390026120161/ea0310332-10q_jasper.htm
+
+KVD824 | FAILED | supported | HAE
+  systemic:sys_67aa6579c87a: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT05178355 ; https://www.sec.gov/Archives/edgar/data/1348911/000119312522312718/d418283d424b5.htm
+
+lanadelumab | APPROVED | supported | HAE
+  systemic:sys_d0bcb2472cba: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01923207 ; https://www.fda.gov/media/173980/download
+
+lanoracopan | ACTIVE | supported | PNH
+  systemic:sys_088686ed3508: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05642585 ; https://www.createrna.com/en/news-activity/news-center/news/59
+
+leriglitazone | ACTIVE | supported | ALD
+  neuro:leriglitazone|ALD: US-directed CALYX phase3 ongoing. EU exceptional-circumstances approval separately recorded and must not be counted as FDA approval.
+  Evidence: https://clinicaltrials.gov/study/NCT03231878 ; https://clinicaltrials.gov/study/NCT03917225 ; https://clinicaltrials.gov/study/NCT04528706 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9961553/ ; https://www.minoryx.com/media/minoryx_and_neuraxpharm_complete_enrolment_in_leriglitazone_pivotal_phase_3_trial_%28calyx%29_in_adult_patients_with_cerebral_adrenoleukodystrophy_%28cald%29/
+
+LP005 | ACTIVE | supported | PNH
+  systemic:sys_c28562f1af2e: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06294301 ; https://clinicaltrials.gov/study/NCT07212426
+
+LPM3770164 | ACTIVE | supported | Huntington
+  neuro:LPM3770164|Huntington: Sponsor/investigator registry attestation of active trial NCT06731868; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05238701 ; https://clinicaltrials.gov/study/NCT06216054 ; https://clinicaltrials.gov/study/NCT06474650 ; https://clinicaltrials.gov/study/NCT06731868 ; https://clinicaltrials.gov/study/NCT07516899 ; https://clinicaltrials.gov/study/NCT07671833 ; https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0929/2021092901657_c.pdf
+
+LTP001 | ACTIVE | supported | Pulmonary arterial hypertension
+  systemic:sys_0b071dfe4859: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05135000 ; https://clinicaltrials.gov/study/NCT06649110 ; https://www.novartis.com/research-development/novartis-pipeline?field_pipeline_filing_date=All&field_pipeline_therapeutic_area%5B0%5D=2126&page=3
+
+Lumasiran | APPROVED | supported | Primary hyperoxaluria type 1
+  metabolic:metabolic_lumasiran: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02706886 ; https://clinicaltrials.gov/study/NCT03681184 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8425611/ ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/214103Orig1s000IntegratedR.pdf
+
+LX2006 | ACTIVE | supported | Friedreich ataxia cardiomyopathy
+  metabolic:metabolic_lx2006: Lexeo current filing reports ongoing pivotal development and follow-up.
+  Evidence: https://clinicaltrials.gov/study/NCT05445323 ; https://ir.lexeotx.com/news-releases/news-release-details/lexeo-therapeutics-announces-completion-first-cohort-and-dosing ; https://www.sec.gov/Archives/edgar/data/1907108/000119312526462020/lxeo-20260930.htm
+
+LY-M001 | ACTIVE | supported | Gaucher type 1
+  metabolic:metabolic_lym001: Original investigator report of treated IIT and subsequent commercial phase I/II results support ongoing clinical investigation in 2025; no dated 2026 sponsor advancement found.
+  Evidence: https://ashpublications.org/blood/article/146/Supplement%201/6098/553689/Safety-and-activity-of-gene-therapy-with-AAV8-GBA1 ; https://clinicaltrials.gov/study/NCT06818838
+
+LYS-GM101 | FAILED | probable | GM1 gangliosidosis
+  metabolic:metabolic_lysgm101: Owner liquidated; no verified successor development. Commercial/organizational attrition inferred, not scientific failure.
+  Evidence: https://clinicaltrials.gov/study/NCT04273269 ; https://www.amf-france.org/sites/institutionnel/files/private/2025-05/san-2025-04.pdf ; https://www.businesswire.com/news/home/20220206005034/en/Lysogene-Provides-Medical-Update
+
+LYS-SAF302 | FAILED | probable | MPS IIIA
+  metabolic:metabolic_lyssaf302: Owner liquidated; no verified successor development. Commercial/organizational attrition inferred, not scientific failure.
+  Evidence: https://clinicaltrials.gov/study/NCT03612869 ; https://investorrelations.sarepta.com/news-releases/news-release-details/lysogene-and-sarepta-therapeutics-announce-dosing-first-patient ; https://www.amf-france.org/sites/institutionnel/files/private/2025-05/san-2025-04.pdf
+
+MBF-015 | UNKNOWN | unresolved | Huntington
+  neuro:MBF-015|Huntington: Primary sponsor announcement documents Phase 2 dosing after healthy-volunteer Phase 1. Current program fate remains unknown.
+  Evidence: https://clinicaltrials.gov/study/NCT06049147 ; https://clinicaltrials.gov/study/NCT06469853 ; https://medibiofarma.com/first-patient-dosed-in-the-phase-iia-clinical-trial-of-mbf-015-in-patients-with-huntingtons-disease/
+
+denecimig | ACTIVE | supported | Hemophilia A
+  systemic:sys_e8f8a999cd73: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04204408 ; https://clinicaltrials.gov/study/NCT05127473 ; https://www.sec.gov/Archives/edgar/data/353278/000162828026069805/caq32026.htm
+
+MK-8892 | UNKNOWN | unresolved | Pulmonary arterial hypertension
+  systemic:sys_0ce4bcb16dbe: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT01798849
+
+Moss-aGal | ACTIVE | supported | Fabry
+  metabolic:metabolic_mossagal: Eleva company presentation at BIO 2026 retains aGal/RPV001 pipeline; February 2025 manufacturing alliance explicitly supports continued Fabry development.
+  Evidence: https://3pbiovian.com/wp-content/uploads/2025/02/Press-release_-Eleva-and-3PBIOVIAN_-04022025.pdf ; https://clinicaltrials.gov/study/NCT02995993 ; https://convention.bio.org/2026-sessions-and-courses/eleva-gmbh ; https://onlinelibrary.wiley.com/doi/full/10.1002/jimd.12052
+
+MP4CO | FAILED | supported | SCD
+  systemic:sys_5994b62e605a: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT01356485 ; https://clinicaltrials.gov/study/NCT01925001
+
+mRNA3745 | FAILED | supported | Glycogen storage disease Ia
+  metabolic:metabolic_mrna3745: Moderna 2025 analyst day says not progressing mRNA3745 to phase II and annual report lists discontinuation.
+  Evidence: https://clinicaltrials.gov/study/NCT05095727 ; https://irp.cdn-website.com/0a71bb4f/files/uploaded/Moderna-Final-R-D-Day-Slides_PDF-%2809.08.22%29.pdf ; https://www.sec.gov/Archives/edgar/data/1682852/000162828025053318/exhibit9912025analystday.htm
+
+MRT5005 | FAILED | supported | Cystic fibrosis
+  systemic:sys_5bdc14a13c0e: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10157/MRT5005 ; https://clinicaltrials.gov/study/NCT03375047
+
+N91115 | FAILED | supported | Cystic fibrosis
+  systemic:sys_f51b3e18fb9f: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/116/Cavosonstat-N91115 ; https://clinicaltrials.gov/study/NCT02013388 ; https://clinicaltrials.gov/study/NCT02227888
+
+navenibart | ACTIVE | supported | HAE
+  systemic:sys_626224247cd8: Prior completed review: ongoing
+  Evidence: https://biocryst.gcs-web.com/news-releases/news-release-details/biocryst-reports-third-quarter-2026-financial-results ; https://clinicaltrials.gov/study/NCT05477160 ; https://clinicaltrials.gov/study/NCT05695248
+
+Nedosiran (DCR-PHXC) | APPROVED | supported | Primary hyperoxaluria type 1 (early study included PH2)
+  metabolic:metabolic_nedosiran_ph1: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03392896 ; https://downloads.regulations.gov/FDA-2024-E-0439-0002/attachment_1.pdf ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2017-003534-89/results
+
+NGGT002 | ACTIVE | supported | Phenylketonuria
+  metabolic:metabolic_nggt002: Sponsor pipeline describes eight patients dosed and further development.
+  Evidence: https://clinicaltrials.gov/study/NCT06687733 ; https://nggtbio.com/pipeline/ ; https://www.prnewswire.com/news-releases/next-generation-gene-therapeutics-nggt-announces-positive-new-data-on-nggt002-for-the-treatment-of-phenylketonuria-pku-302300911.html
+
+NGN-101 | FAILED | supported | NCL
+  neuro:NGN-101|NCL: Sponsor will not advance the CLN5 program after denial of RMAT designation, while evaluating options and continuing post-dose follow-up. This is a regulatory and strategic stop, not proof of biological failure.
+  Evidence: https://clinicaltrials.gov/study/NCT05228145 ; https://ir.neurogene.com/static-files/f3e3a84e-fa6b-4292-8da0-66654acecd02
+
+NGN-401 | ACTIVE | supported | Rett
+  neuro:NGN-401|Rett: Pivotal trial results expected in the second half of 2027. Earlier high-dose safety events remain relevant.
+  Evidence: https://clinicaltrials.gov/study/NCT05898620 ; https://ir.neurogene.com/static-files/f70165fb-4fd0-47f3-bb8b-52f0051ecd53 ; https://www.sec.gov/Archives/edgar/data/1404644/000140464426000064/ngne_3qye26earningsrelease.htm
+
+NKG001 | ACTIVE | supported | SMA
+  neuro:NKG001|SMA: Sponsor/investigator registry attestation of active trial NCT07617779; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT07617779 ; https://www.sciencedirect.com/science/article/abs/pii/S1525001625004794
+
+NKTT120 | UNKNOWN | unresolved | SCD
+  systemic:sys_05c508f3da1d: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT01783691 ; https://pubmed.ncbi.nlm.nih.gov/28152086/
+
+Inno8 | ACTIVE | supported | Hemophilia A
+  systemic:sys_f0398873a9b2: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06649630
+
+NNZ-2591 | ACTIVE | supported | Angelman
+  neuro:NNZ-2591|Angelman: Current sponsor pipeline includes Angelman syndrome. The dated status update is unavailable.
+  Evidence: https://clinicaltrials.gov/study/NCT04379869 ; https://clinicaltrials.gov/study/NCT05011851 ; https://clinicaltrials.gov/study/NCT05025241 ; https://clinicaltrials.gov/study/NCT05025332 ; https://clinicaltrials.gov/study/NCT05879614 ; https://clinicaltrials.gov/study/NCT07281079 ; https://clinicaltrials.gov/study/NCT07593391 ; https://neurenpharma.com/pipeline
+
+nomacopan | FAILED | probable | PNH
+  systemic:sys_4e9bd4187b6b: Sponsor suspended/deprioritized internal development or material investment; partner option remains. Classify strategic attrition with explicit revival sensitivity.
+  Evidence: https://clinicaltrials.gov/study/NCT02591862 ; https://clinicaltrials.gov/study/NCT03829449 ; https://investor.akaritx.com/static-files/c1c965d2-0149-4d44-a56f-ebb8c56661db
+
+NP001_sodium_chlorite | ACTIVE | supported | ALS
+  als:NP001_sodium_chlorite|ALS: Prior completed review: ongoing
+  Evidence: https://pmc.ncbi.nlm.nih.gov/articles/PMC5524125/ ; https://www.neuvivo.com/news
+
+NTLA2002 | ACTIVE | supported | HAE
+  systemic:sys_9e918df3516a: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05120830 ; https://ir.intelliatx.com/node/13006/pdf
+
+nulabeglogene autogedtemcel | ACTIVE | supported | SCD
+  systemic:sys_fd613d7c5f39: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT04819841 ; https://kamautx.com/posts/kamau-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-nula-cel-a-gene-corrected-stem-cell-therapy-for-sickle-cell-disease ; https://www.sec.gov/Archives/edgar/data/1815776/000095017022023869/grph-20220930.htm
+
+NurOwn | ACTIVE | supported | ALS
+  als:NurOwn|ALS: Prior completed review: ongoing
+  Evidence: https://ir.brainstorm-cell.com/2026-08-14-BrainStorm-Cell-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update ; https://www.sec.gov/Archives/edgar/data/1137883/000114420419017041/tv512716_10k.htm
+
+nusinersen | APPROVED | supported | SMA
+  neuro:nusinersen|SMA: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01494701 ; https://clinicaltrials.gov/study/NCT01703988 ; https://clinicaltrials.gov/study/NCT01780246 ; https://clinicaltrials.gov/study/NCT01839656 ; https://clinicaltrials.gov/study/NCT02052791 ; https://clinicaltrials.gov/study/NCT02193074 ; https://clinicaltrials.gov/study/NCT02292537 ; https://clinicaltrials.gov/study/NCT02386553 ; https://clinicaltrials.gov/study/NCT02462759 ; https://clinicaltrials.gov/study/NCT02594124 ; https://clinicaltrials.gov/study/NCT02865109 ; https://clinicaltrials.gov/study/NCT03339830 ; https://clinicaltrials.gov/study/NCT03709784 ; https://clinicaltrials.gov/study/NCT03878030 ; https://clinicaltrials.gov/study/NCT04050852 ; https://clinicaltrials.gov/study/NCT04089566 ; https://clinicaltrials.gov/study/NCT04139343 ; https://clinicaltrials.gov/study/NCT04159987 ; https://clinicaltrials.gov/study/NCT04317794 ; https://clinicaltrials.gov/study/NCT04404764 ; https://clinicaltrials.gov/study/NCT04419233 ; https://clinicaltrials.gov/study/NCT04488133 ; https://clinicaltrials.gov/study/NCT04576494 ; https://clinicaltrials.gov/study/NCT04587492 ; https://clinicaltrials.gov/study/NCT04591678 ; https://clinicaltrials.gov/study/NCT04602195 ; https://clinicaltrials.gov/study/NCT04644393 ; https://clinicaltrials.gov/study/NCT04674618 ; https://clinicaltrials.gov/study/NCT04729907 ; https://clinicaltrials.gov/study/NCT04825119 ; https://clinicaltrials.gov/study/NCT04888702 ; https://clinicaltrials.gov/study/NCT05042921 ; https://clinicaltrials.gov/study/NCT05067790 ; https://clinicaltrials.gov/study/NCT05156320 ; https://clinicaltrials.gov/study/NCT05187260 ; https://clinicaltrials.gov/study/NCT05354414 ; https://clinicaltrials.gov/study/NCT05386680 ; https://clinicaltrials.gov/study/NCT05475691 ; https://clinicaltrials.gov/study/NCT05518773 ; https://clinicaltrials.gov/study/NCT05522361 ; https://clinicaltrials.gov/study/NCT05618379 ; https://clinicaltrials.gov/study/NCT05644899 ; https://clinicaltrials.gov/study/NCT05761262 ; https://clinicaltrials.gov/study/NCT05769465 ; https://clinicaltrials.gov/study/NCT05789758 ; https://clinicaltrials.gov/study/NCT05852418 ; https://clinicaltrials.gov/study/NCT05866419 ; https://clinicaltrials.gov/study/NCT06178393 ; https://clinicaltrials.gov/study/NCT06321965 ; https://clinicaltrials.gov/study/NCT06532474 ; https://clinicaltrials.gov/study/NCT06555419 ; https://clinicaltrials.gov/study/NCT06599606 ; https://clinicaltrials.gov/study/NCT06955897 ; https://clinicaltrials.gov/study/NCT06971094 ; https://clinicaltrials.gov/study/NCT06978985 ; https://clinicaltrials.gov/study/NCT07047144 ; https://clinicaltrials.gov/study/NCT07378943 ; https://clinicaltrials.gov/study/NCT07805278 ; https://clinicaltrials.gov/study/NCT07838779 ; https://clinicaltrials.gov/study/NCT07846696 ; https://doi.org/10.1212/WNL.0000000000002445 ; https://investors.biogen.com/news-releases/news-release-details/us-fda-approves-biogens-spinrazatm-nusinersen-first-treatment
+
+obudanersen | ACTIVE | supported | Angelman
+  neuro:obudanersen|Angelman: Sponsor/investigator registry attestation of active trial NCT06914609; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05127226 ; https://clinicaltrials.gov/study/NCT06914609 ; https://clinicaltrials.gov/study/NCT07782827 ; https://ir.ionis.com/news-releases/news-release-details/ionis-reports-third-quarter-2026-financial-results-and
+
+onasemnogene_abeparvovec | APPROVED | supported | SMA
+  neuro:onasemnogene_abeparvovec|SMA: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02122952 ; https://clinicaltrials.gov/study/NCT03306277 ; https://clinicaltrials.gov/study/NCT03381729 ; https://clinicaltrials.gov/study/NCT03421977 ; https://clinicaltrials.gov/study/NCT03461289 ; https://clinicaltrials.gov/study/NCT03505099 ; https://clinicaltrials.gov/study/NCT03837184 ; https://clinicaltrials.gov/study/NCT03955679 ; https://clinicaltrials.gov/study/NCT04042025 ; https://clinicaltrials.gov/study/NCT04174157 ; https://clinicaltrials.gov/study/NCT04851873 ; https://clinicaltrials.gov/study/NCT05073133 ; https://clinicaltrials.gov/study/NCT05089656 ; https://clinicaltrials.gov/study/NCT05335876 ; https://clinicaltrials.gov/study/NCT05386680 ; https://clinicaltrials.gov/study/NCT05575011 ; https://clinicaltrials.gov/study/NCT06019637 ; https://clinicaltrials.gov/study/NCT06532474 ; https://clinicaltrials.gov/study/NCT07737756 ; https://clinicaltrials.gov/study/NCT07767890 ; https://www.fda.gov/vaccines-blood-biologics/zolgensma
+
+ORT247 | UNKNOWN | unresolved | ALS
+  als:ORT247|ALS: Prior completed review: unknown
+  Evidence: https://clinicaltrials.gov/study/NCT06769620
+
+osivelotor | ACTIVE | supported | SCD
+  systemic:sys_7a929fd8cbde: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05036512 ; https://www.sicklecellga.org/post/an-important-message-from-pfizer
+
+OTQ923 | FAILED | supported | SCD
+  systemic:sys_8415115c4b4b: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT04443907
+
+PBGM01 | UNKNOWN | unresolved | GM1 gangliosidosis
+  metabolic:metabolic_pbgm01: Gemma license continued in SEC disclosure, with overdue milestone/financial uncertainty. Asset transfer is not automatically a stop.
+  Evidence: https://clinicaltrials.gov/study/NCT04713475 ; https://www.sec.gov/Archives/edgar/data/1787297/000110465926124783/R13.htm ; https://www.sec.gov/Archives/edgar/data/1787297/000155837022012042/pasg-20220630x10q.htm
+
+Fordadistrogene movaparvovec (PF06939926) | FAILED | supported | DMD
+  metabolic:metabolic_pf06939926: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://cdn.pfizer.com/pfizercom/product-pipeline/Pipeline_Update_30JUL2024.pdf ; https://clinicaltrials.gov/study/NCT03362502
+
+PF-07209326 | UNKNOWN | unresolved | SCD
+  systemic:sys_55d8eaa883d9: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT04255875 ; https://www.pfizer.com/sites/default/files/plsr-studies/C4071001%20Plain%20Language%20Study%20Results%20Summary%20%28PLSRS%29%20Phase%201%20PK%20Primary%20Endpoint.pdf
+
+PF-07868489 | FAILED | supported | Pulmonary arterial hypertension
+  systemic:sys_0067b93b6894: Prior completed review: stopped
+  Evidence: https://cdn.pfizer.com/pfizercom/product-pipeline/Q3%202026%20Pipeline%20Update_vfinal.pdf?VersionId=Ltaaulsg1IHmJvxHRLx.OXa.0v9KLY.4 ; https://clinicaltrials.gov/study/NCT06137742
+
+PGN-EDODM1 | ACTIVE | supported | DM1
+  metabolic:metabolic_pgnedodm1: Ongoing sponsor DM1 program under partial hold; distinct from discontinued EDO51.
+  Evidence: https://clinicaltrials.gov/study/NCT06204809 ; https://investors.pepgen.com/news-releases/news-release-details/pepgen-announces-first-patient-dosed-phase-1-freedom-dm1 ; https://investors.pepgen.com/static-files/804d6245-584a-4c0c-a3bf-1c39f9bc8867
+
+pociredir | FAILED | supported | SCD
+  systemic:sys_a91ec3919ee5: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT04586985 ; https://ir.fulcrumtx.com/news-releases/news-release-details/fulcrum-therapeutics-announces-discontinuation-pociredir-program
+
+POL6014 | FAILED | supported | Cystic fibrosis
+  systemic:sys_e079e11fdf59: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10129/Lonodelestat ; https://clinicaltrials.gov/study/NCT03748199
+
+cemdisiran; pozelimab | ACTIVE | supported | PNH
+  systemic:sys_60d818e7fb2d: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT02352493 ; https://clinicaltrials.gov/study/NCT03841448 ; https://www.regeneron.com/science/investigational-pipeline
+  systemic:sys_0bfbf88afa2f: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT03115996 ; https://clinicaltrials.gov/study/NCT04162470 ; https://www.regeneron.com/science/investigational-pipeline
+
+LY3884961 (PR001) | FAILED | probable | Gaucher type 2 neuronopathic
+  metabolic:metabolic_pr001_gd2: Lilly Q1 2024 pipeline update removes GD2; later Parkinson development does not rescue original GD2 indication.
+  Evidence: https://clinicaltrials.gov/study/NCT04411654 ; https://investor.lilly.com/static-files/d0789b60-5579-415e-9461-8b8130413dd6 ; https://www.sec.gov/Archives/edgar/data/1714798/000119312520004748/d861073dex991.htm
+
+PRO045/BMN045 | FAILED | supported | DMD exon 45
+  metabolic:metabolic_pro045: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT01826474 ; https://cordis.europa.eu/project/id/601573/reporting/es ; https://www.sec.gov/Archives/edgar/data/873303/000156459016027821/srpt-10q_20160930.htm
+
+PRO053/BMN053 | FAILED | supported | DMD exon 53
+  metabolic:metabolic_pro053: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT01957059 ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2011-005042-35/results ; https://www.sec.gov/Archives/edgar/data/873303/000156459016027821/srpt-10q_20160930.htm
+
+prosetin | ACTIVE | supported | ALS
+  als:prosetin|ALS: Prior completed review: ongoing
+  Evidence: https://projenx.com/projenx-announces-a-development-update-for-prosetin-a-first-in-class-cns-penetrant-map4k-inhibitor/ ; https://projenx.com/projenx-announces-first-person-dosed-in-phase-1-study-of-prosetin/
+
+Pegunigalsidase alfa (PRX102) | APPROVED | supported | Fabry
+  metabolic:metabolic_prx102: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01678898 ; https://clinicaltrials.gov/study/NCT01981720 ; https://clinicaltrials.gov/study/NCT02795676 ; https://clinicaltrials.gov/study/NCT02921620 ; https://clinicaltrials.gov/study/NCT03018730 ; https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-elfabrio ; https://www.sec.gov/Archives/edgar/vprr/1300/13003490.pdf
+
+PRX112 oral glucocerebrosidase | UNKNOWN | unresolved | Gaucher
+  metabolic:metabolic_prx112: No defensible current program-fate determination recovered after targeted registry/alias, sponsor/regulator, and publication searches. Trial status is preserved separately, not converted into a program stop.
+  Evidence: https://clinicaltrials.gov/study/NCT01747980 ; https://clinicaltrials.gov/study/NCT02107846 ; https://www.sec.gov/Archives/edgar/data/1006281/000114420413019478/v340222_ex99-1.htm
+
+PTI-428 | FAILED | supported | Cystic fibrosis
+  systemic:sys_9811dc8c629b: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10184/Nesolicaftor-PTI-428 ; https://clinicaltrials.gov/study/NCT02846142 ; https://clinicaltrials.gov/study/NCT03251092
+
+PTI-801 | FAILED | supported | Cystic fibrosis
+  systemic:sys_6d3d0292e167: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10183/Posenacaftor-PTI-801 ; https://clinicaltrials.gov/study/NCT03140527 ; https://clinicaltrials.gov/study/NCT03251092
+
+PTI-808 | FAILED | supported | Cystic fibrosis
+  systemic:sys_bf11112bc3c1: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10182/Dirocaftor-PTI-808 ; https://clinicaltrials.gov/study/NCT03140527 ; https://clinicaltrials.gov/study/NCT03251092
+
+PTR-01 (BBP-589) | FAILED | probable | Epidermolysis bullosa
+  systemic:sys_aa3c33ebf3a7: Sponsor suspended/deprioritized internal development or material investment; partner option remains. Classify strategic attrition with explicit revival sensitivity.
+  Evidence: https://clinicaltrials.gov/study/NCT03752905 ; https://s205.q4cdn.com/224494602/files/doc_financials/2022/ar/10K-2022.pdf
+
+PTW-002 (QR-313) | UNKNOWN | unresolved | Epidermolysis bullosa
+  systemic:sys_e8490d2a22cf: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT03605069 ; https://clinicaltrials.gov/study/NCT05529134 ; https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/ptw-002-001/
+
+PUR118 | FAILED | supported | Cystic fibrosis
+  systemic:sys_350c8c777b7b: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10019/PUR-118 ; https://clinicaltrials.gov/study/NCT01333904 ; https://clinicaltrials.gov/study/NCT01543191
+
+PVT201 | ACTIVE | supported | Primary biliary cholangitis
+  systemic:sys_b6d7b34ae5e6: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06798454 ; https://parvustx.com/news-media/
+
+QBW251 | FAILED | supported | Cystic fibrosis
+  systemic:sys_9c2ccd44ccff: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/91/QBW251 ; https://clinicaltrials.gov/study/NCT02190604
+
+QBW276 | FAILED | supported | Cystic fibrosis
+  systemic:sys_3ff9c7dab757: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10151/QBW276 ; https://clinicaltrials.gov/study/NCT02566044
+
+QR-010 | FAILED | supported | Cystic fibrosis
+  systemic:sys_55f2f9180ec6: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/112/Eluforsen-QR-010 ; https://clinicaltrials.gov/study/NCT02532764
+
+QRL-101 | ACTIVE | supported | ALS
+  als:QRL-101|ALS: January 2026 corporate presentation and December 2025 ALS results support continued candidate development.
+  Evidence: https://clinicaltrials.gov/study/NCT05667779 ; https://www.quralis.com/news/ ; https://www.quralis.com/wp-content/uploads/2026/01/QurAlis-Corporate-Presentation-January-2026-UPDATED.pdf
+
+QRL-201 | ACTIVE | supported | ALS
+  als:QRL-201|ALS: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05633459 ; https://www.quralis.com/news/quralis-announces-first-patient-dosed-with-qrl-201-a-first-in-class-stathmin-2-precision-therapy-for-als/ ; https://www.quralis.com/news/quralis-receives-fda-clearance-for-ind-application-of-qrl-201-for-the-treatment-of-als-clearing-a-path-to-initiation-of-pivotal-clinical-trial-in-the-u-s/ ; https://www.quralis.com/our-story/
+
+rAAV2/5-hNAGLU | FAILED | probable | MPS IIIB
+  metabolic:metabolic_raav25naglu: Original AMT110 candidate deprioritized and partner sought; no verified resumption. Strategic attrition, not proof that the target cannot work.
+  Evidence: https://clinicaltrials.gov/study/NCT03300453 ; https://pubmed.ncbi.nlm.nih.gov/34405688/ ; https://www.sec.gov/Archives/edgar/data/1590560/000104746914000006/a2217855zex-10_1.htm ; https://www.sec.gov/Archives/edgar/data/1590560/000110465916158478/a16-21899_1ex99d2.htm
+
+ravulizumab | APPROVED | supported | PNH
+  systemic:sys_185d25b0e36b: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT05288660 ; https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=513015
+
+reldesemtiv | FAILED | probable | SMA
+  neuro:reldesemtiv|SMA: Sponsor terminated reldesemtiv dosing after ALS futility; no verified SMA continuation. ALS efficacy result is not attributed to SMA.
+  Evidence: https://clinicaltrials.gov/study/NCT02644668 ; https://clinicaltrials.gov/study/NCT02662582 ; https://clinicaltrials.gov/study/NCT03065959 ; https://clinicaltrials.gov/study/NCT03160898 ; https://clinicaltrials.gov/study/NCT04944784 ; https://clinicaltrials.gov/study/NCT05442775 ; https://www.sec.gov/Archives/edgar/data/1061983/000095017023011143/cytk-20230331.htm ; https://www.sec.gov/Archives/edgar/data/1061983/000119312513429809/d590986d10q.htm
+
+RG7800 | FAILED | supported | SMA
+  neuro:RG7800|SMA: Sponsor explicitly states no longer in development; exact event date not established.
+  Evidence: https://clinicaltrials.gov/study/NCT02240355 ; https://www.roche.com/investors/updates/inv-update-2022-10-12 ; https://www.sec.gov/Archives/edgar/data/1070081/000110465914057865/a14-18524_1ex99d1.htm
+
+RGX111 | ACTIVE | supported | MPS I
+  metabolic:metabolic_rgx111: Temporarily on clinical hold, with sponsor explicitly pursuing continued development under collaboration. Active includes paused development; it does not imply dosing.
+  Evidence: https://clinicaltrials.gov/study/NCT03580083 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC13239742/ ; https://www.sec.gov/Archives/edgar/data/1590877/000119312526448581/rgnx-20260930.htm
+
+rhHNS (SHP610/HGT-1410) | FAILED | supported | MPS IIIA
+  metabolic:metabolic_rhhns: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://cdn.clinicaltrials.gov/large-docs/27/NCT01299727/SAP_001.pdf ; https://clinicaltrials.gov/study/NCT01155778 ; https://clinicaltrials.gov/study/NCT01299727 ; https://www.ema.europa.eu/en/documents/pip-discontinuation/recombinant-human-heparan-n-sulfatase-rhhns-shp610-hgt-1410-sulfamidase-san-notification-discontinuation-paediatric-development-which-covered-agreed-pip-decision_en.pdf ; https://www.sec.gov/Archives/edgar/data/936402/000095010315001422/dp53559_10k.htm
+
+risdiplam | APPROVED | supported | SMA
+  neuro:risdiplam|SMA: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02633709 ; https://clinicaltrials.gov/study/NCT02908685 ; https://clinicaltrials.gov/study/NCT02913482 ; https://clinicaltrials.gov/study/NCT03032172 ; https://clinicaltrials.gov/study/NCT03036501 ; https://clinicaltrials.gov/study/NCT03040635 ; https://clinicaltrials.gov/study/NCT03779334 ; https://clinicaltrials.gov/study/NCT03920865 ; https://clinicaltrials.gov/study/NCT03988907 ; https://clinicaltrials.gov/study/NCT04256265 ; https://clinicaltrials.gov/study/NCT04718181 ; https://clinicaltrials.gov/study/NCT04888702 ; https://clinicaltrials.gov/study/NCT05067790 ; https://clinicaltrials.gov/study/NCT05115110 ; https://clinicaltrials.gov/study/NCT05156320 ; https://clinicaltrials.gov/study/NCT05219487 ; https://clinicaltrials.gov/study/NCT05232929 ; https://clinicaltrials.gov/study/NCT05386680 ; https://clinicaltrials.gov/study/NCT05518773 ; https://clinicaltrials.gov/study/NCT05522361 ; https://clinicaltrials.gov/study/NCT05769465 ; https://clinicaltrials.gov/study/NCT05808764 ; https://clinicaltrials.gov/study/NCT05852418 ; https://clinicaltrials.gov/study/NCT05861986 ; https://clinicaltrials.gov/study/NCT05861999 ; https://clinicaltrials.gov/study/NCT06321965 ; https://clinicaltrials.gov/study/NCT06978985 ; https://clinicaltrials.gov/study/NCT07047144 ; https://clinicaltrials.gov/study/NCT07070999 ; https://clinicaltrials.gov/study/NCT07378943 ; https://clinicaltrials.gov/study/NCT07444476 ; https://clinicaltrials.gov/study/NCT07531719 ; https://clinicaltrials.gov/study/NCT07805278 ; https://www.fda.gov/news-events/press-announcements/fda-approves-oral-treatment-spinal-muscular-atrophy
+
+RT001 | FAILED | supported | Friedreich ataxia
+  metabolic:metabolic_rt001: Research-funder tracker reports inactive/discontinued development following unsuccessful trial; exact stop date uncertain.
+  Evidence: https://clinicaltrials.gov/study/NCT02445794 ; https://www.curefa.org/drug-development/rt001/ ; https://www.fagofar.org/wp-content/uploads/2017/10/IARC2017-ABSTRACT-AF1.pdf
+
+RTX134 | FAILED | supported | Phenylketonuria
+  metabolic:metabolic_rtx134: Rubius halted further RTX134 development amid manufacturing/cost and oncology prioritization.
+  Evidence: https://clinicaltrials.gov/study/NCT04110496 ; https://www.sec.gov/Archives/edgar/data/1709401/000110465920009345/tm206327d1_ex99-1.htm ; https://www.sec.gov/Archives/edgar/data/1709401/000110465920032144/tm2012386d1_ex99-1.htm
+
+rugonersen | ACTIVE | supported | Angelman
+  neuro:rugonersen|Angelman: Inherited dated primary sponsor evidence; no claim continuous activity between observations.
+  Evidence: https://clinicaltrials.gov/study/NCT04428281 ; https://clinicaltrials.gov/study/NCT04863794 ; https://clinicaltrials.gov/study/NCT07605429 ; https://forpatients.roche.com/content/dam/patient-platform/lps/global/bp41674/LPS_BP41674_TANGELO_final-results_December2025_English.pdf ; https://www.nature.com/articles/s41591-025-03784-7
+
+Aceneuramic acid ER (SA-ER/Ace-ER) | UNKNOWN | unresolved | GNE myopathy
+  metabolic:metabolic_saer: Known non-US approval/commercialization; FDA development path unresolved. This is NOT a globally dead or wholly untraceable molecule.
+  Evidence: https://clinicaltrials.gov/study/NCT01359319 ; https://www.nobelpharma.co.jp/en/news/20240326-p1309/ ; https://www.pmda.go.jp/files/000273006.pdf
+
+SAF301 | FAILED | supported | MPS IIIA
+  metabolic:metabolic_saf301: Later LYS-SAF302 is a modified vector, not merely another name for SAF301. No ongoing standalone SAF301 development was recovered.
+  Evidence: https://bettersciencebetterhealth.com/wp-content/uploads/2017/11/1-Michael-Hocquemiller-Advanced-Therapies-Opportunities-and-Challenges_-LYSOGENE-presentation.pdf ; https://clinicaltrials.gov/study/NCT01474343 ; https://clinicaltrials.gov/study/NCT02053064 ; https://echanges.dila.gouv.fr/OPENDATA/AMF/190/8888/01/FC190380000_20210412.pdf ; https://fondation-sanfilippo.ch/wp-content/uploads/2023/12/Rapport-Annuel-2011.pdf ; https://www.amf-france.org/sites/institutionnel/files/private/2025-05/san-2025-04.pdf
+
+SAGE-718 | FAILED | supported | Huntington
+  neuro:SAGE-718|Huntington: SEC filing records discontinuation after DIMENSION missed its primary endpoint.
+  Evidence: https://clinicaltrials.gov/study/NCT03770780 ; https://clinicaltrials.gov/study/NCT03771586 ; https://clinicaltrials.gov/study/NCT03787758 ; https://clinicaltrials.gov/study/NCT03844906 ; https://clinicaltrials.gov/study/NCT04476017 ; https://clinicaltrials.gov/study/NCT04602624 ; https://clinicaltrials.gov/study/NCT05107128 ; https://clinicaltrials.gov/study/NCT05318937 ; https://clinicaltrials.gov/study/NCT05358821 ; https://clinicaltrials.gov/study/NCT05619692 ; https://clinicaltrials.gov/study/NCT05655520 ; https://www.sec.gov/Archives/edgar/data/1597553/000119312517247473/d423103dex991.htm ; https://www.sec.gov/Archives/edgar/data/1597553/000119312525155020/d63256dsc14d9.htm
+
+salanersen | ACTIVE | supported | SMA
+  neuro:salanersen|SMA: Sponsor/investigator registry attestation of active trial NCT07444476; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05575011 ; https://clinicaltrials.gov/study/NCT07221669 ; https://clinicaltrials.gov/study/NCT07444450 ; https://clinicaltrials.gov/study/NCT07444476 ; https://www.sec.gov/Archives/edgar/data/875045/000087504523000009/biib-20221231.htm
+
+pegylated carboxyhemoglobin bovine | UNKNOWN | unresolved | SCD
+  systemic:sys_8bff64f7fa28: Prior completed review: unknown_after_search Current activity in another indication does not resolve the original program.
+  Evidence: https://clinicaltrials.gov/study/NCT01847222 ; https://clinicaltrials.gov/study/NCT01848925 ; https://clinicaltrials.gov/study/NCT02411708
+
+SAR443809 | UNKNOWN | unresolved | PNH
+  systemic:sys_3fd7379ac497: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT06326814
+
+SAR443820 | FAILED | supported | ALS
+  als:SAR443820|ALS: Prior completed review: stopped
+  Evidence: https://www.sanofi.com/assets/dotcom/content-app/publications/annual-report-on-form-20-f/2024-01-01-form-20-f-2024-en.pdf ; https://www.sec.gov/Archives/edgar/data/1714899/000171489921000033/dnli-20201231.htm
+
+SAT3247 | ACTIVE | supported | DMD
+  metabolic:metabolic_sat3247: Current sponsor disclosure describes phase Ib DMD treated patients.
+  Evidence: https://clinicaltrials.gov/study/NCT06565208 ; https://s203.q4cdn.com/439234936/files/doc_news/Satellos-Announces-Dosing-of-First-Participant-in-Phase-1-Clinical-Study-of-SAT-3247-2024.pdf ; https://www.sec.gov/Archives/edgar/data/1421642/000117184326005503/exh_992.htm
+
+SB318 | FAILED | supported | MPS I
+  metabolic:metabolic_sb318: Same annual report confirms MPSI genome-editing program discontinued; exact decision date not recovered.
+  Evidence: https://clinicaltrials.gov/study/NCT02702115 ; https://investor.sangamo.com/news-releases/news-release-details/sangamo-announces-treatment-first-patient-phase-12-clinical ; https://www.sec.gov/Archives/edgar/data/1001233/000162828022003819/sgmo-20211231.htm
+
+SB913 | FAILED | supported | MPS II
+  metabolic:metabolic_sb913: Sangamo 2021 annual report explicitly confirms ending MPSII program in January 2021.
+  Evidence: https://clinicaltrials.gov/study/NCT03041324 ; https://www.prnewswire.com/news-releases/sangamo-therapeutics-presents-initial-safety-data-from-champions-genome-editing-study-for-mps-ii-at-worldsymposium-300594628.html ; https://www.sec.gov/Archives/edgar/data/1001233/000162828022003819/sgmo-20211231.htm
+
+SBC103 | FAILED | supported | MPS IIIB
+  metabolic:metabolic_sbc103: Sponsor-submitted registry explicitly says the SBC103 PROGRAM was terminated after review of all interventional studies; hypothetical revival does not make this unknown.
+  Evidence: https://clinicaltrials.gov/study/NCT02324049 ; https://clinicaltrials.gov/study/NCT02350816 ; https://clinicaltrials.gov/study/NCT02618512
+
+SCD-101 | UNKNOWN | unresolved | SCD
+  systemic:sys_ebc0a92ea465: Prior completed review: unknown_after_search
+  Evidence: https://ashpublications.org/blood/article/128/22/121/95942/SCD-101-A-New-Anti-Sickling-Drug-Reduces-Pain-and ; https://clinicaltrials.gov/study/NCT02380079
+
+sebetralstat | APPROVED | supported | HAE
+  systemic:sys_52b173953870: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT04349800 ; https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/219301Orig1s000ltr.pdf
+
+SGT001 | FAILED | supported | DMD
+  metabolic:metabolic_sgt001: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT03368742 ; https://investors.solidbio.com/news-releases/news-release-details/solid-biosciences-announces-clinical-hold-sgt-001-phase-iii ; https://investors.solidbio.com/node/12296/html
+
+SGT003 | ACTIVE | supported | DMD
+  metabolic:metabolic_sgt003: Solid current report states 53 patients dosed; distinguish discontinued SGT001.
+  Evidence: https://clinicaltrials.gov/study/NCT06138639 ; https://solidbio.gcs-web.com/news-releases/news-release-details/solid-biosciences-reports-third-quarter-2026-financial-results ; https://www.sec.gov/Archives/edgar/data/1707502/000119312525096730/d795176dars.pdf
+
+SHP623 | UNKNOWN | unresolved | HAE
+  systemic:sys_3974f3f87f0b: Prior completed review: unknown_after_search
+  Evidence: https://clinicaltrials.gov/study/NCT02663687
+
+divesiran | UNKNOWN | unresolved | Beta-thalassemia
+  systemic:sys_ae0b7e566b9a: Prior completed review: unknown_after_search Current activity in another indication does not resolve the original program.
+  Evidence: https://clinicaltrials.gov/study/NCT04559971 ; https://clinicaltrials.gov/study/NCT04718844
+
+SOBI003 | FAILED | supported | MPS IIIA
+  metabolic:metabolic_sobi003: Sobi Q1 report explicitly states program discontinued when no partner found; existing patient follow-up continued.
+  Evidence: https://clinicaltrials.gov/study/NCT03423186 ; https://clinicaltrials.gov/study/NCT03811028 ; https://www.sobi.com/en/press-releases/sobi-strengthens-focus-and-increases-investments-late-stage-development-haematology ; https://www.sobi.com/sites/sobi/files/pr/201808095897-1.pdf ; https://www.sobi.com/sites/sobi/files/pr/202004281040-1.pdf
+
+soticlestat | FAILED | supported | Dravet; Lennox_Gastaut
+  neuro:soticlestat|Dravet: Prior completed review: stopped_efficacy
+  Evidence: https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bcp.14854 ; https://clinicaltrials.gov/study/NCT02201056 ; https://clinicaltrials.gov/study/NCT02497235 ; https://clinicaltrials.gov/study/NCT02539134 ; https://clinicaltrials.gov/study/NCT02906813 ; https://clinicaltrials.gov/study/NCT03166215 ; https://clinicaltrials.gov/study/NCT03635073 ; https://clinicaltrials.gov/study/NCT03650452 ; https://clinicaltrials.gov/study/NCT03694275 ; https://clinicaltrials.gov/study/NCT03990649 ; https://clinicaltrials.gov/study/NCT04461483 ; https://clinicaltrials.gov/study/NCT04938427 ; https://clinicaltrials.gov/study/NCT04940624 ; https://clinicaltrials.gov/study/NCT04992442 ; https://clinicaltrials.gov/study/NCT05064449 ; https://clinicaltrials.gov/study/NCT05098041 ; https://clinicaltrials.gov/study/NCT05098054 ; https://clinicaltrials.gov/study/NCT05163314 ; https://clinicaltrials.gov/study/NCT05284760 ; https://clinicaltrials.gov/study/NCT05309902 ; https://clinicaltrials.gov/study/NCT05602818 ; https://clinicaltrials.gov/study/NCT05982717 ; https://clinicaltrials.gov/study/NCT06395792 ; https://clinicaltrials.gov/study/NCT06422377 ; https://www.takeda.com/newsroom/statements/2025/takeda-provides-update-on-soticlestat/
+  neuro:soticlestat|Lennox_Gastaut: Prior completed review: stopped_efficacy
+  Evidence: https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bcp.14854 ; https://clinicaltrials.gov/study/NCT02201056 ; https://clinicaltrials.gov/study/NCT02497235 ; https://clinicaltrials.gov/study/NCT02539134 ; https://clinicaltrials.gov/study/NCT02906813 ; https://clinicaltrials.gov/study/NCT03166215 ; https://clinicaltrials.gov/study/NCT03635073 ; https://clinicaltrials.gov/study/NCT03650452 ; https://clinicaltrials.gov/study/NCT03694275 ; https://clinicaltrials.gov/study/NCT03990649 ; https://clinicaltrials.gov/study/NCT04461483 ; https://clinicaltrials.gov/study/NCT04938427 ; https://clinicaltrials.gov/study/NCT04940624 ; https://clinicaltrials.gov/study/NCT04992442 ; https://clinicaltrials.gov/study/NCT05064449 ; https://clinicaltrials.gov/study/NCT05098041 ; https://clinicaltrials.gov/study/NCT05098054 ; https://clinicaltrials.gov/study/NCT05163314 ; https://clinicaltrials.gov/study/NCT05284760 ; https://clinicaltrials.gov/study/NCT05309902 ; https://clinicaltrials.gov/study/NCT05602818 ; https://clinicaltrials.gov/study/NCT05982717 ; https://clinicaltrials.gov/study/NCT06395792 ; https://clinicaltrials.gov/study/NCT06422377 ; https://www.takeda.com/newsroom/statements/2025/takeda-provides-update-on-soticlestat/
+
+SP-420 | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_87e10296919f: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT02274233 ; https://pharmacosmos.com/news-media/news-press/pharmacosmos-initiates-phase-ii-clinical-trial-of-potential-new-treatment-for-iro
+
+SPG302 | ACTIVE | supported | ALS
+  als:SPG302|ALS: Current sponsor pipeline retains SPG302/tazbentetol ALS development after Phase 2a.
+  Evidence: https://clinicaltrials.gov/study/NCT05882695 ; https://spinogenix.com/pipeline/ ; https://spinogenix.com/press-release/spinogenix-announces-second-grant-award-from-u-s-department-of-defense-to-further-advance-spg302-the-first-synaptic-regenerative-drug-to-treat-amyotrophic-lateral-sclerosis-als/
+
+SPK3006 | UNKNOWN | unresolved | Pompe
+  metabolic:metabolic_spk3006: Roche pipeline/registry still lists SPK3006/RG6359 but current substantive sponsor advancement statement not recovered. Do not infer failure from Spark restructuring.
+  Evidence: https://clinicaltrials.gov/study/NCT04093349 ; https://www.globenewswire.com/news-release/2021/02/01/2167191/35287/en/spark-therapeutics-announces-first-participant-dosed-in-phase-1-2-study-of-investigational-gene-therapy-for-late-onset-pompe-disease.html ; https://www.rocheplus.ro/Pipeline.html
+
+SPX-101 | FAILED | supported | Cystic fibrosis
+  systemic:sys_9ea2637fcb85: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10128/SPX-101 ; https://clinicaltrials.gov/study/NCT03056989
+
+SRP1003 (ARO-DM1) | ACTIVE | supported | DM1
+  metabolic:metabolic_srp1003: Sarepta DM1 development update confirms ongoing SRP1003/ARO-DM1.
+  Evidence: https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-initiates-phase-12a-study-aro-dm1 ; https://clinicaltrials.gov/study/NCT06138743 ; https://www.sarepta.com/community-letter-update-dm1-clinical-development-program
+
+Vesleteplirsen (SRP5051) | FAILED | supported | DMD exon 51
+  metabolic:metabolic_srp5051: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT03375255 ; https://clinicaltrials.gov/study/NCT03675126 ; https://www.sec.gov/Archives/edgar/data/873303/000095017025058003/srpt-20250424.htm ; https://www.sec.gov/Archives/edgar/data/873303/000156459018020534/srpt-10q_20180630.htm
+
+Delandistrogene moxeparvovec (SRP9001) | APPROVED | supported | DMD
+  metabolic:metabolic_srp9001: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT03375164 ; https://clinicaltrials.gov/study/NCT03769116 ; https://clinicaltrials.gov/study/NCT04626674 ; https://clinicaltrials.gov/study/NCT05096221 ; https://clinicaltrials.gov/study/NCT05881408 ; https://clinicaltrials.gov/study/NCT05967351 ; https://clinicaltrials.gov/study/NCT06128564 ; https://clinicaltrials.gov/study/NCT06241950 ; https://clinicaltrials.gov/study/NCT06597656 ; https://www.fda.gov/media/169105/download ; https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-treatment-certain-patients-duchenne-muscular-dystrophy
+
+ST-400 | FAILED | supported | Beta-thalassemia
+  systemic:sys_36a391c0d38d: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT03432364 ; https://www.sec.gov/Archives/edgar/data/1001233/000162828022003819/R12.htm
+
+Isaralgagene civaparvovec (ST920) | ACTIVE | supported | Fabry
+  metabolic:metabolic_st920: PTC completed acquisition of ST920 for continued Fabry development/BLA; earlier Sangamo resource constraints are not permanent failure.
+  Evidence: https://clinicaltrials.gov/study/NCT04046224 ; https://ir.ptcbio.com/news-releases/news-release-details/ptc-completes-acquisition-st-920-fabry-disease-gene-therapy ; https://www.sec.gov/Archives/edgar/data/1001233/000162828021003069/sgmo-20201231.htm
+
+Suvodirsen (WVE210201) | FAILED | supported | DMD exon 51
+  metabolic:metabolic_suvodirsen: Previously adjudicated explicit sponsor/regulator stop retained after new alias/status search; subsequent clinical restart not recovered. See frozen evidence for decision scope.
+  Evidence: https://clinicaltrials.gov/study/NCT03508947 ; https://ir.wavelifesciences.com/node/8361/html
+
+SYNB1618 | FAILED | supported | Phenylketonuria
+  metabolic:metabolic_synb1618: Sponsor selected distinct optimized strain SYNB1934 for phase III. Later SYNB1934 trial failure is not an observed SYNB1618 phase III outcome.
+  Evidence: https://clinicaltrials.gov/study/NCT03516487 ; https://investor.synlogictx.com/news-releases/news-release-details/synlogic-doses-first-subject-phase-12a-trial-synb1618-treatment ; https://www.sec.gov/Archives/edgar/data/1527599/000095017022024120/sybx-20220930.htm
+
+tofersen | APPROVED | supported | SOD1-ALS
+  als:tofersen|ALS: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215887Orig1s000IntegratedR.pdf ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004590-51/DE ; https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody ; https://www.nejm.org/doi/full/10.1056/NEJMoa2003715
+
+tominersen | FAILED | supported | Huntington
+  neuro:tominersen|Huntington: Roche explicitly discontinued clinical development July9,2026. This is the later HD2 decision, not simply the2021HD1 trial halt.
+  Evidence: https://assets.roche.com/f/176343/x/49a542bd7a/irp210421.pdf ; https://clinicaltrials.gov/study/NCT02519036 ; https://clinicaltrials.gov/study/NCT03342053 ; https://clinicaltrials.gov/study/NCT03761849 ; https://clinicaltrials.gov/study/NCT03842969 ; https://clinicaltrials.gov/study/NCT04000594 ; https://clinicaltrials.gov/study/NCT05686551 ; https://ehdn.org/wp-content/uploads/2026/07/Roche-GENERATION-HD2-_-POINT-HD-global-patient-community-letter-July2026.pdf
+
+troriluzole | ACTIVE | supported | SCA
+  neuro:troriluzole|SCA: NDA resubmission accepted for review. This is not marketing approval.
+  Evidence: https://clinicaltrials.gov/study/NCT02960893 ; https://clinicaltrials.gov/study/NCT03229278 ; https://clinicaltrials.gov/study/NCT03299166 ; https://clinicaltrials.gov/study/NCT03605667 ; https://clinicaltrials.gov/study/NCT03701399 ; https://clinicaltrials.gov/study/NCT03829241 ; https://clinicaltrials.gov/study/NCT03970447 ; https://clinicaltrials.gov/study/NCT04641143 ; https://clinicaltrials.gov/study/NCT04693351 ; https://clinicaltrials.gov/study/NCT04708834 ; https://clinicaltrials.gov/study/NCT04899921 ; https://clinicaltrials.gov/study/NCT06034886 ; https://clinicaltrials.gov/study/NCT06529146 ; https://clinicaltrials.gov/study/NCT06552260 ; https://clinicaltrials.gov/study/NCT06989853 ; https://www.sec.gov/Archives/edgar/data/1935979/000162828022026549/biohavenltd-sx1.htm ; https://www.sec.gov/Archives/edgar/data/1935979/000193597926000083/bhvn-20261022.htm
+
+TSHA-102 | ACTIVE | supported | Rett
+  neuro:TSHA-102|Rett: Pivotal/ASPIRE ongoing. Latest evidence date is not continuous-followup censoring time.
+  Evidence: https://clinicaltrials.gov/study/NCT05606614 ; https://clinicaltrials.gov/study/NCT06152237 ; https://clinicaltrials.gov/study/NCT07480564 ; https://tayshagtx.gcs-web.com/news-releases/news-release-details/taysha-gene-therapies-reports-initial-clinical-data-first-adult/ ; https://tayshagtx.gcs-web.com/news-releases/news-release-details/taysha-gene-therapies-reports-third-quarter-2026-financial
+
+TT30 | FAILED | supported | PNH
+  systemic:sys_c501aa9d5fbd: Clinical-investigator account explicitly describes sponsor discontinuation due to short duration of inhibition; no requirement for impossible proof against future revival.
+  Evidence: https://clinicaltrials.gov/study/NCT01335165 ; https://onlinelibrary.wiley.com/doi/10.1111/imr.13137
+
+TTX-381 | ACTIVE | supported | NCL
+  neuro:TTX-381|NCL: Ocular CLN2 program, formerly RGX-381. Exclude from the CNS therapeutic stratum because treatment is retinal.
+  Evidence: https://clinicaltrials.gov/study/NCT05791864 ; https://www.terntx.com/clinical-research
+
+turoctocog alfa pegol | APPROVED | supported | Hemophilia A
+  systemic:sys_689de6b99264: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01205724 ; https://www.fda.gov/vaccines-blood-biologics/esperoct
+
+Vestronidase alfa (UX003) | APPROVED | supported | MPS VII
+  metabolic:metabolic_ux003: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT01856218 ; https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=359811
+
+UX053 | FAILED | probable | Glycogen storage disease III
+  metabolic:metabolic_ux053: Sponsor terminated original trial and patient summary had no future-study timeline. Probable attrition; original ledger assertion of later SEC cessation lacks a precise linked passage and is not promoted to confirmed.
+  Evidence: https://clinicaltrials.gov/study/NCT04990388 ; https://www.ultragenyx.com/wp-content/uploads/2024/05/UX053-CL101_GSD_III_MRCC-UX053-00018.pdf ; https://www.ultragenyx.com/wp-content/uploads/2024/07/UX053-CL101-Plain-Language-Summary-MRCC-UX053-00018_Final-w-Cover-Sheet-wTranslations.pdf
+
+UX701 | FAILED | supported | Wilson disease
+  metabolic:metabolic_ux701: Ultragenyx Q3 update explicitly terminated UX701 after failure to meet the dose-finding response criterion. Overrides earlier ongoing designation.
+  Evidence: https://clinicaltrials.gov/study/NCT04884815 ; https://ir.ultragenyx.com/node/19346/ixbrl-viewer ; https://ir.ultragenyx.com/static-files/50d9ee53-214f-4b1b-ac72-29c86e484e73 ; https://wilsondisease.org/wp-content/uploads/2021/08/Ultragenyx-Wilson-Disease-Update-Feb-2022.pdf
+
+VAL1221 | FAILED | probable | Pompe
+  metabolic:metabolic_val1221: Pompe study and funding stopped per directly involved patient organization; later Lafora development does not rescue the original indication.
+  Evidence: https://agsd.org.uk/news/valerions-trial-pompe-stopped/ ; https://clinicaltrials.gov/study/NCT02898753
+
+valoctocogene roxaparvovec | APPROVED | supported | Hemophilia A
+  systemic:sys_30587c4d57c3: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02576795 ; https://www.fda.gov/media/170455/download
+
+vebeglogene autotemcel | ACTIVE | supported | Beta-thalassemia
+  systemic:sys_d5671fca356a: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06308159
+
+vemircopan | FAILED | probable | PNH
+  systemic:sys_fd673d394db0: Original PNH study stopped for inadequate intravascular hemolysis control; no verified continuing original-indication program. Not proof of global molecule abandonment.
+  Evidence: https://clinicaltrials.gov/study/NCT04170023 ; https://clinicaltrials.gov/study/NCT05047458 ; https://clinicaltrials.gov/study/NCT06071442
+
+Verenafusp alfa | UNKNOWN | unresolved | MPS II
+  metabolic:metabolic_verenafusp: Original phase I publication confirms distinct GENERIUM protein. Non-US use reported but no FDA approval evidence established by this investigation. FDA pathway and current advancement not resolved by publication date alone.
+  Evidence: https://clinicaltrials.gov/study/NCT06475404 ; https://pubmed.ncbi.nlm.nih.gov/41705613/
+
+vesemnogene_lantuparvovec | ACTIVE | supported | SMA
+  neuro:vesemnogene_lantuparvovec|SMA: Sponsor/investigator registry attestation of active trial NCT06288230; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT06288230 ; https://clinicaltrials.gov/study/NCT07265232 ; https://www.medrxiv.org/content/10.1101/2025.04.13.25325764v4.full
+
+Viltolarsen (NS065/NCNP01) | APPROVED | supported | DMD exon 53
+  metabolic:metabolic_viltolarsen: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02081625 ; https://clinicaltrials.gov/study/NCT02740972 ; https://clinicaltrials.gov/study/NCT03167255 ; https://clinicaltrials.gov/study/NCT04060199 ; https://clinicaltrials.gov/study/NCT04768062 ; https://clinicaltrials.gov/study/NCT04956289 ; https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/212154Orig1s000ltr.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/212154Orig1s000ClinPharmR.pdf
+
+VK0214 | FAILED | probable | ALD
+  neuro:VK0214|ALD: Development mothballed pending partner: sponsor says additional clinical studies require a licensing arrangement. Potential revival is not an active funded program.
+  Evidence: https://clinicaltrials.gov/study/NCT04973657 ; https://www.sec.gov/Archives/edgar/data/1607678/000119312526137931/vktx-2026-04-01-ars.pdf ; https://www.sec.gov/Archives/edgar/data/1607678/000156459021038623/vktx-ex991_6.htm
+
+VO659 | ACTIVE | supported | Huntington; SCA
+  neuro:VO659|Huntington: Sponsor/investigator registry attestation of active trial NCT05822908; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05822908
+  neuro:VO659|SCA: Sponsor/investigator registry attestation of active trial NCT05822908; valid dated study observation, not proof of uninterrupted commercial development.
+  Evidence: https://clinicaltrials.gov/study/NCT05822908
+
+votoplam | ACTIVE | supported | Huntington
+  neuro:votoplam|Huntington: Current Novartis trial record supports continued development. PTC518 is the earlier alias.
+  Evidence: https://clinicaltrials.gov/study/NCT05358717 ; https://clinicaltrials.gov/study/NCT06254482 ; https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-ptc518-has-entered-phase-1-clinical?mobile=1 ; https://www.novartis.com/clinicaltrials/study/nct07326709
+
+voxelotor | APPROVED | supported | SCD
+  systemic:sys_909eb0852bd4: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT02285088 ; https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerting-patients-and-health-care-professionals-about-voluntary-withdrawal-oxbryta-market-due ; https://www.sec.gov/Archives/edgar/data/1629137/000119312515271753/d885656ds1a.htm
+
+VRG50635 | FAILED | supported | ALS
+  als:VRG50635|ALS: Prior completed review: stopped_efficacy
+  Evidence: https://vergelabs.com/resources/news/ ; https://www.isrctn.com/ISRCTN14792372 ; https://www.vergelabs.blog/p/what-we-learned-from-the-trial-of
+
+Adrabetadex (VTS270) | ACTIVE | supported | Niemann-Pick C1
+  metabolic:metabolic_vts270: Beren reports FDA accepted NDA with November 17, 2026 action target; still investigational at November 16 cutoff.
+  Evidence: https://cdn.clinicaltrials.gov/large-docs/42/NCT04958642/Prot_000.pdf ; https://clinicaltrials.gov/study/NCT01747135 ; https://clinicaltrials.gov/study/NCT03887533 ; https://www.berentx.com/faq ; https://www.berentx.com/news/community-update-building-long-term-support-for-families/
+
+VTX801 | FAILED | probable | Wilson disease
+  metabolic:metabolic_vtx801: Original clinical trial terminated; no verified advancement beyond follow-up. Program-level attrition inferred, not proven by trial termination alone.
+  Evidence: https://clinicaltrials.gov/study/NCT04537377 ; https://wilsondisease.org/living-with-wilson-disease/treatment/genetic-therapies/
+
+VX-118 | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_653d573491a2: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT06154447 ; https://www.sec.gov/Archives/edgar/data/875320/000087532025000160/vrtx-20250403.htm
+
+VX-440 | FAILED | supported | Cystic fibrosis
+  systemic:sys_52c1cb227d9f: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10141/VX-440-tezacaftor-ivacaftor ; https://clinicaltrials.gov/study/NCT03486236
+
+VX-522 | FAILED | supported | Cystic fibrosis
+  systemic:sys_1b39b5172c5d: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10204/VX-522-mRNA ; https://clinicaltrials.gov/study/NCT05668741
+
+VX-659 | FAILED | supported | Cystic fibrosis
+  systemic:sys_03d235e7c63f: Prior completed review: stopped
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10153/VX-659-tezacaftor-ivacaftor ; https://clinicaltrials.gov/study/NCT03029455
+
+VX670 | ACTIVE | supported | DM1
+  metabolic:metabolic_vx670: Entrada/Vertex quarterly disclosure reports ongoing multiple-dose clinical development.
+  Evidence: https://clinicaltrials.gov/study/NCT06185764 ; https://investors.vrtx.com/static-files/bb2d04e0-a3f0-4f79-a050-34692fb2ac27 ; https://www.sec.gov/Archives/edgar/data/1689375/000168937526000064/trda-20260930.htm
+
+VX-828 | ACTIVE | supported | Cystic fibrosis
+  systemic:sys_8ba05ed06b08: Prior completed review: ongoing
+  Evidence: https://apps.cff.org/Trials/Pipeline/details/10231/VX-828 ; https://clinicaltrials.gov/study/NCT06154447
+
+WVE-003 | ACTIVE | supported | Huntington
+  neuro:WVE-003|Huntington: Inherited dated primary sponsor evidence; no claim continuous activity between observations.
+  Evidence: https://clinicaltrials.gov/study/NCT05032196 ; https://ir.wavelifesciences.com/static-files/0f63ab1b-ace4-4948-90e8-3843756cf762 ; https://ir.wavelifesciences.com/static-files/bcf6c33b-f343-4e52-9a0d-93dfc6eeeeb1
+
+WVE-004 | FAILED | supported | C9orf72-ALS
+  als:WVE-004|ALS: Prior completed review: stopped_efficacy
+  Evidence: https://clinicaltrials.gov/study/NCT04931862 ; https://ir.wavelifesciences.com/node/9271/pdf ; https://wavelifesciences.com/wp-content/uploads/2023/12/C9-Community-Letter-5-23-23.pdf
+
+WVE-120101 | FAILED | supported | Huntington
+  neuro:WVE-120101|Huntington: Prior completed review: stopped_efficacy
+  Evidence: https://clinicaltrials.gov/study/NCT03225833 ; https://clinicaltrials.gov/study/NCT04617847 ; https://www.globenewswire.com/news-release/2021/03/29/2201081/0/en/wave-life-sciences-provides-update-on-phase-1b-2a-precision-hd-trials.html ; https://www.sec.gov/Archives/edgar/data/1631574/000156459017016986/wve-10q_20170630.htm
+
+WVE-120102 | FAILED | supported | Huntington
+  neuro:WVE-120102|Huntington: Prior completed review: stopped_efficacy
+  Evidence: https://clinicaltrials.gov/study/NCT03225846 ; https://clinicaltrials.gov/study/NCT04617860 ; https://www.globenewswire.com/news-release/2021/03/29/2201081/0/en/wave-life-sciences-provides-update-on-phase-1b-2a-precision-hd-trials.html ; https://www.sec.gov/Archives/edgar/data/1631574/000156459017016986/wve-10q_20170630.htm
+
+WVE-N531 | ACTIVE | supported | DMD exon 53
+  metabolic:metabolic_wven531: Wave quarterly report describes continued clinical/extension development.
+  Evidence: https://clinicaltrials.gov/study/NCT04906460 ; https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-announces-initiation-dosing-phase-1b2a ; https://www.sec.gov/Archives/edgar/data/1631574/000119312526324949/wve-20260630.htm
+
+zaltenibart | ACTIVE | supported | PNH
+  systemic:sys_74c700190326: Prior completed review: ongoing
+  Evidence: https://clinicaltrials.gov/study/NCT05889299 ; https://s21.q4cdn.com/975996899/files/doc_financials/2020/q3/0001558370-20-013359.pdf ; https://www.novonordisk.com/content/dam/nncorp/global/en/investors/pdfs/financial-results/2026/Q3-2026-Full-presentation.pdf
+
+zilganersen | APPROVED | supported | Alexander
+  neuro:zilganersen|Alexander: FDA approval in an included qualifying indication; historical success remains even if later withdrawn.
+  Evidence: https://clinicaltrials.gov/study/NCT04849741 ; https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-alexander-disease
+
+zilucoplan | FAILED | supported | PNH
+  systemic:sys_d1cd7fcbd645: Prior completed review: stopped
+  Evidence: https://clinicaltrials.gov/study/NCT03078582 ; https://clinicaltrials.gov/study/NCT03225287 ; https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-16-1762
+
+zorevunersen | ACTIVE | supported | Dravet
+  neuro:zorevunersen|Dravet: Inherited dated primary sponsor evidence; no claim continuous activity between observations.
+  Evidence: https://clinicaltrials.gov/study/NCT04442295 ; https://clinicaltrials.gov/study/NCT04740476 ; https://clinicaltrials.gov/study/NCT06872125 ; https://investor.stoketherapeutics.com/static-files/27fc3d36-cd34-4b7c-880c-605d7e6e1e9c ; https://www.nejm.org/doi/10.1056/NEJMoa2506295 ; https://www.sec.gov/Archives/edgar/data/1623526/000119312526330557/stok-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1623526/000119312526437775/stok-ex99_1.htm

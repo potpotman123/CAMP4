@@ -1,0 +1,25 @@
+{
+  "result": "passed",
+  "checks": [
+    "316 unique qualified rows",
+    "310 unique clusters",
+    "42 approval clusters preserved",
+    "four exhaustive mutually exclusive buckets",
+    "every row has source pointers",
+    "all override IDs belong to panel",
+    "all era totals reconcile",
+    "probable-failure sensitivity reconciles",
+    "cluster membership covers all records",
+    "approval dates consistent with status"
+  ],
+  "input_sha256": {
+    "data/pos_completion/completed_program_ledger.json": "b011c2418a0f1d0f47412eddff21b0e35c753be08b71bb772133eb3b21212722",
+    "data/pos_completion/als_updates.json": "59c17e49fc26e1315225476a3341197a68f2ee4e3194a3f4318e4a3377e6528c",
+    "data/pos_completion/neuro_updates.json": "fb2bd71a31577d7d604fe9ca5fded4ea4066bac69e7434949ec9f7d0479c70ef",
+    "data/pos_completion/metabolic_updates.json": "6a39d1b5e8648827e5217a8fe5aa911f41fc5802880fb7a74ab7cb08eb18c0ea",
+    "data/pos_completion/systemic_updates.json": "4417747fcb6f884327bd732e7a3b8c9b72f5f084868cda2964bebf63f3bc26c0",
+    "data/pos_completion/six_program_status_audit.json": "66f13a2b0d2e158e6be99923def87283c61204b47eee6627aca9af7fd78d8efc",
+    "scripts/classify_molecule_status.py": "7e12ef6fa278a8a38b56c0641005106f29bdb6958c7c380fb19cf76c31a904be"
+  },
+  "limitation": "Structural and arithmetic validation, not independent confirmation of every source claim or exhaustive universe coverage."
+}
