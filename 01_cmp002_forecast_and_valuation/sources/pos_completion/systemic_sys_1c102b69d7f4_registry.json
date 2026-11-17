@@ -1,0 +1,765 @@
+{
+  "integrated_id": "systemic:sys_1c102b69d7f4",
+  "asset": "golexanolone",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=golexanolone+OR+GR3027",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07304843",
+            "orgStudyIdInfo": {
+              "id": "UCAB-CT-05"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-515907-20-00",
+                "type": "CTIS"
+              },
+              {
+                "id": "IRAS ID 1003871",
+                "type": "OTHER",
+                "domain": "MHRA"
+              },
+              {
+                "id": "515-04-27580-22-1",
+                "type": "OTHER",
+                "domain": "Medicines and Medical Devices Agency of Serbia"
+              },
+              {
+                "id": "E-66175679-514.02.02-1264666",
+                "type": "OTHER",
+                "domain": "Turkish Medicines and Medical Devices Agency"
+              }
+            ],
+            "organization": {
+              "fullName": "Umecrine Cognition AB",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Two-part Study to Investigate the Effects in Adults of Two Doses of Golexanolone in Patients With Primary Biliary Cholangitis (PBC) With Fatigue and Cognitive Dysfunction",
+            "officialTitle": "A Randomised, Double-blind, Placebo-controlled, Two-part Study to Evaluate the Pharmacokinetics, Safety and Tolerability, and Preliminary Efficacy of Two Dose Levels of Golexanolone in Subjects With Primary Biliary Cholangitis (PBC), Fatigue, and Cognitive Dysfunction"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-04-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-11-18",
+            "studyFirstSubmitQcDate": "2025-12-12",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Umecrine Cognition AB",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The present phase 1b/2 randomised, double-blind, placebo-controlled, two-part study is designed to evaluate the safety, tolerability, pharmacokinetic characteristics and preliminary efficacy of two dose levels of golexanolone compared with placebo among subjects with a history of non-cirrhotic or Child-Pugh class A cirrhotic Primary Biliary Cholangitis (PBC) with clinically significant fatigue and cognitive symptoms on stable background standard of care (SoC) PBC medication. The objectives of this research study are to assess the safety and tolerability as well the pharmacokinetic (PK) characteristics of golexanolone administered 40 mg BID for 5 days in the target population (part A) and to assess the safety and tolerability, the effects of golexanolone on health-related quality of life (HRQoL), including fatigue, day-time sleepiness and cognitive function as well as Investigator's overall impression of treatment effect of 28 days twice per day (BID) treatment with two dose levels of golexanolone versus placebo (part B)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cholangitis (PBC)"
+            ],
+            "keywords": [
+              "PBC",
+              "Cognition",
+              "Fatigue"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Part A (phase 1b) includes 6 subjects on active (40 mg BID for five days) and 2 subjects on placebo (BID for five days) Part B (phase 2a) includes 3 arms (40 mg BID, 80 mg BID or placebo for 28 days)",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Double-blind",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 207,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part B: Treatment arm 1 (golexanolone 40 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "40 mg golexanolone BID",
+                "interventionNames": [
+                  "Drug: golexanolone"
+                ]
+              },
+              {
+                "label": "Part B: Treatment arm 2 (golexanolone 80 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "80 mg golexanolone BID",
+                "interventionNames": [
+                  "Drug: golexanolone"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Part B: Placebo BID",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part A: Golexanolone",
+                "type": "EXPERIMENTAL",
+                "description": "40 mg golexanolone BID",
+                "interventionNames": [
+                  "Drug: golexanolone"
+                ]
+              },
+              {
+                "label": "Part A: Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo BID",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "golexanolone",
+                "description": "soft gelatin capsules, oral dosage twice per day for up to 28 days",
+                "armGroupLabels": [
+                  "Part B: Treatment arm 1 (golexanolone 40 mg)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "golexanolone",
+                "description": "soft gelatin capsules, oral dosage twice a day for up to 28 days",
+                "armGroupLabels": [
+                  "Part B: Treatment arm 2 (golexanolone 80 mg)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "soft gelatin capsules, oral dosage twice a day for up to 28 days",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "golexanolone",
+                "description": "soft gelatin capsules, oral dosage twice per day for 5 days",
+                "armGroupLabels": [
+                  "Part A: Golexanolone"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "soft gelatin capsules, oral dosage twice per day for 5 days",
+                "armGroupLabels": [
+                  "Part A: Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "1. Frequency, intensity, and seriousness of adverse events (AEs) from baseline to Day 28 (part B)",
+                "description": "Frequency, intensity, and seriousness of adverse events (AEs) from baseline to Day 28",
+                "timeFrame": "From enrollment to the end of treatment at 28 days"
+              },
+              {
+                "measure": "Frequency, intensity, and seriousness of adverse events (AEs) from baseline to Day 5 (part A)",
+                "description": "Frequency, intensity, and seriousness of adverse events (AEs)",
+                "timeFrame": "From Baseline to Day 5"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "1. Change from baseline to Day 28 in PBC-40 scores for each of the domains (cognition, itch, fatigue, social, emotional, and general symptoms) (part B)",
+                "description": "The PBC-40 is a patient-derived, disease specific health-related quality of life measure for PBC. The paper questionnaire consists of 40 questions, each scored on a scale of 1 to 5 (where 1=least impact, 5=greatest impact) grouped into six domains (cognition, itch, fatigue, social, emotional, and general symptoms). For each domain, scoring involves summing individual question response scores, range of 6-30. Higher scores indicate a poorer quality of life",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "2. Change from baseline to Day 28 in EQ-5D-3L tool (part B)",
+                "description": "The EQ-5D tool is a standardised measure of health status developed to provide a simple, generic measure of health for clinical and economic appraisal.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "3. Change from baseline to Day 28 in daytime sleepiness related symptoms using the Epworth Sleepiness Scale (ESS) (part B)",
+                "description": "ESS is a validated self-administered questionnaire for assessment of daytime hypersomnolence. Respondents are asked to rate, on a 4-point scale (0-3), their usual chances of dozing off or falling asleep while engaged in eight different activities. The ESS score (the sum of eight item scores, 0-3) can range from 0 to 24. The higher the ESS score, the higher that person's average sleep propensity in daily life, or their 'daytime sleepiness'.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "4. Change from baseline to Day 28 in Portosystemic Hepatic Encephalopathy Score (PHES) total score (part B)",
+                "description": "The PHES is composed of five sub-tests, number connection test-A (NCT-A), number connection test-B (NCT-B), serial dotting test (SDT), line tracing test (LTT) and digit symbol test (DST). PHES assesses motor speed, motor accuracy, concentration, attention, visual perception, visual-spatial orientation, visual construction, and memory.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "5. Change from baseline to Day 28 in Rey Auditory Verbal Learning test (RAVLT) (part B)",
+                "description": "The RAVLT is a validated word list learning task composed of 15 words that are read to the subject at a rate of one word/second after which the subject is asked to recall as many words as they can. This procedure is repeated five times. The sum of words recalled across these five trials constitutes the immediate recall score.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "6. Change from baseline to Day 28 in Delis and Kaplan Executive Function System (D-KEFS) Letter and Category fluency subtests (part B)",
+                "description": "The Category Fluency and Letter Fluency tests from the D-KEFS are validated ideational fluency tasks in which the subject is asked to say as many words as possible in 1 minute that adhere to a particular rule.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "7. To evaluate the Investigator's overall impression of treatment effect by Clinical Global Impression of change, PBC version (CGI-C-PBC) from baseline to Day 28 (part B)",
+                "description": "The clinical global impression (CGI) scale consists of two clinician-rated instruments, CGI-S-PBC and CGI-C-PBC, respectively measuring overall disease severity and change. The CGI-S-PBC entails a 30-45 minute semi-structured interview examining all six clinical domains identified as clinically relevant for patients living with PBC. Domain-specific and global ratings are rendered by trained independent clinical raters who are experts in PBC and have been certified for this purpose to be central raters. All CGI-S-PBC and CGI-C-PBC interviews will be video-recorded and used to support the evaluation made by the raters.",
+                "timeFrame": "From baseline to Day 28"
+              },
+              {
+                "measure": "8. To assess the exposure of two dose levels of golexanolone in the target population treated for 28 days (part B)",
+                "description": "The lowest plasma concentration before the next dose (Ctrough) will be assessed pre-dose on Days 1, 14, and 28",
+                "timeFrame": "At Day 1, 14 and 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female subjects age \u2265 18 years\n* Diagnosis of PBC based on the presence of \u22652 of 3 key disease characteristics\n* Clinically significant fatigue defined for the purposes of this study as a PBC-40 fatigue domain score of \u226529 at screening\n* Clinically significant cognitive symptoms, defined for the purposes of this study as a PBC-40 cognitive domain \u226516 at screening\n* Stable PBC SoC therapy (if any),for at least 3 months prior to randomisation\n* For all women of childbearing potential (WOCBP) a negative pregnancy test at screening and a negative urine dip-stick pregnancy test at baseline, prior to first dose of IMP\n* WOCBP must be willing to use a contraceptive method with a failure rate of \\< 1% and agree to continue use of this method for the duration of the study and thereafter for 1 month after the last dosing of the IMP\n* Females of non-childbearing potential must have documented tubal ligation or hysterectomy; or be post-menopausal\n* Fertile male subjects must be willing to use condom and assure that their female partner will use contraceptive methods with a failure rate of \\< 1%\n* Willing and able to give informed consent\n* The subject should be judged by the Investigator to be lucid and oriented to person, place, time, and situation when giving the informed consent\n\nExclusion Criteria:\n\n* Child-Pugh class B or C cirrhosis\n* Clinical evidence of hepatic decompensation (e.g. current or prior HE, ascites, or variceal bleeding)\n* History of hepatocellular carcinoma\n* Bilirubin \\>1.5 x ULN\n* Glomerular filtration rate (GFR) \\<35 mL/min/1.73m2\n* Low Haemoglobin (HB), i.e. subjects with moderate/severe anaemia\n* Low S-B12 or low P-folate\n* Evidence of biliary obstruction\n* Any positive result on screening for human immunodeficiency virus (HIV), or hepatitis B (serum hepatitis B surface antigen positive)\n* Prolonged QTcF (\\>500 ms), or any clinically significant abnormality in the resting ECG, as judged by the Investigator (at screening)\n* Concomitant disease characterised by chronic fatigue and/or cognitive impairment\n* Clinically significant bowel disease, including obstruction, active inflammatory bowel disease, or malabsorption\n* Clinically significant sleep apnoea\n* An uncontrolled thyroid disorder\n* Subjects with a history of or currently active immune disorders (i.e. uncontrolled) other that PBC (including autoimmune disease) and/or diseases requiring immunosuppressive drugs\n* Clinical diagnosis of autoimmune hepatitis overlap\n* The presence, as judged by the Investigator, of clinically significant concomitant illness which would jeopardise safe participation in the study and /or the interpretation of study findings\n* Regular use of prescribed or over the counter (OTC) medications known to cause fatigue or cognitive dysfunction\n* Use of prohibited medications within 14 days prior to randomisation\n* Anticipated change in PBC medication and/or significant medical or surgical intervention within the duration of the study\n* Regular (more than 1 week per month) alcohol consumption in excess of 14 units per week\n* Administration of another new chemical entity or has participated in any other clinical study that included drug treatment with the last administration within 3 months prior to administration of IMP in this study\n* Females who are pregnant, nursing or actively trying to conceive a child\n* Expected inability to swallow the required number of IMP capsules at the applicable dose level\n* History of severe allergy/hypersensitivity or on-going allergy/hypersensitivity, as judged by the Investigator",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Pernilla Sandwall",
+                "affiliation": "Umecrine Cognition",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University Hospital D\u00fcsseldorf",
+                "city": "D\u00fcsseldorf",
+                "zip": "40225",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.22319,
+                  "lon": 6.77927
+                }
+              },
+              {
+                "facility": "University of Leipzig",
+                "city": "Leipzig",
+                "zip": "04103",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "Hippokration General Hospital of Athens",
+                "city": "Athens",
+                "zip": "11527",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 37.98376,
+                  "lon": 23.72784
+                }
+              },
+              {
+                "facility": "University Hospital of Patras",
+                "city": "P\u00e1trai",
+                "zip": "26504",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 38.2462,
+                  "lon": 21.73508
+                }
+              },
+              {
+                "facility": "Facility of CRU Hungary Ltd.",
+                "city": "Kistarcsa",
+                "zip": "2143",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.54757,
+                  "lon": 19.26247
+                }
+              },
+              {
+                "facility": "Universit\u00e0 di Milano-Bicocca, S.C. ASST Grande Ospedale Metropolitano Niguarda, Dipartimento di Medicina e Chirurgia, Epatologia e Gastroenterologia",
+                "city": "Milan",
+                "zip": "20162",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "University of Padova, Department of Surgery, Oncology and Gastroenterology",
+                "city": "Padova",
+                "zip": "35128",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.38225,
+                  "lon": 11.14261
+                }
+              },
+              {
+                "facility": "University Hospital Paolo Giaccone, University of Palermo",
+                "city": "Palermo",
+                "zip": "90127",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 38.1166,
+                  "lon": 13.3636
+                }
+              },
+              {
+                "facility": "A. Gemelli Polyclinic, Sacro Cuore Catholic University",
+                "city": "Roma",
+                "zip": "168",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Humanitas University",
+                "city": "Rozzano",
+                "zip": "20089",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.38193,
+                  "lon": 9.1559
+                }
+              },
+              {
+                "facility": "University of Udine",
+                "city": "Udine",
+                "zip": "33100",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 46.0693,
+                  "lon": 13.23715
+                }
+              },
+              {
+                "facility": "University Medical Center \"Zvezdara\"",
+                "city": "Belgrade",
+                "zip": "11000",
+                "country": "Serbia",
+                "geoPoint": {
+                  "lat": 44.80401,
+                  "lon": 20.46513
+                }
+              },
+              {
+                "facility": "Hospital Universitario Parc Taul\u00ed",
+                "city": "Barcelona",
+                "zip": "08208",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Clinic Barcelona",
+                "city": "Barcelona",
+                "zip": "8036",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital General Universitario Gregorio Mara\u00f1\u00f3n",
+                "city": "Madrid",
+                "zip": "28007",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital 12th October, Madrid",
+                "city": "Madrid",
+                "zip": "28041",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Virgen De La Victoria",
+                "city": "M\u00e1laga",
+                "zip": "29010",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 36.72016,
+                  "lon": -4.42034
+                }
+              },
+              {
+                "facility": "University Hospital Complex of Pontevedra & IIS Galicia South, Pontevedra",
+                "city": "Pontevedra",
+                "zip": "36071",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.431,
+                  "lon": -8.64435
+                }
+              },
+              {
+                "facility": "University Hospital Marquez de Valdecilla, Santander",
+                "city": "Santander",
+                "zip": "39008",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.46589,
+                  "lon": -3.80493
+                }
+              },
+              {
+                "facility": "Virgen del Rocio University Hospital",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "Hospital Universitario y Polit\u00e9cnico La Fe",
+                "city": "Valencia",
+                "zip": "46026",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 39.47391,
+                  "lon": -0.37966
+                }
+              },
+              {
+                "facility": "Hacettepe University, Fakulty of Medicine, Department of Gastroenterology and Hepatology",
+                "city": "Ankara",
+                "zip": "06230",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 39.91987,
+                  "lon": 32.85427
+                }
+              },
+              {
+                "facility": "9 Eylul University Research and Application Hospital Department of Gastroenterology",
+                "city": "Bal\u00e7ova",
+                "zip": "35340",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 38.39201,
+                  "lon": 27.04258
+                }
+              },
+              {
+                "facility": "Dicle University Faculty of Medicine Department of Gastroenterology",
+                "city": "Diyarbak\u0131r",
+                "zip": "21280",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 37.91363,
+                  "lon": 40.21721
+                }
+              },
+              {
+                "facility": "Ege University Faculty of Medicine, Department of Gastroenterology",
+                "city": "Izmir",
+                "zip": "35100",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 38.41273,
+                  "lon": 27.13838
+                }
+              },
+              {
+                "facility": "Kocaeli University Faculty of Medicine Gastroenterology and Hepatology Department",
+                "city": "Kocaeli",
+                "zip": "41100",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 39.62497,
+                  "lon": 27.51145
+                }
+              },
+              {
+                "facility": "Recep Tayyip Erdo\u011fan University Training and Research Hospital, Department of Gastroenterology",
+                "city": "Rize",
+                "zip": "53020",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 41.02083,
+                  "lon": 40.52194
+                }
+              },
+              {
+                "facility": "Harran \u00dcniversitesi Osmanbey Campus Department of Gastroenterology",
+                "city": "Sanliurfa",
+                "zip": "63300",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 37.16708,
+                  "lon": 38.79392
+                }
+              },
+              {
+                "facility": "Karadeniz Technical University, Farabi Hospital, Department of Gastroenterology",
+                "city": "Trabzon",
+                "zip": "61080",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 41.005,
+                  "lon": 39.72694
+                }
+              },
+              {
+                "facility": "NIHR Birmingham BRC",
+                "city": "Birmingham",
+                "zip": "B15 2TT",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Glasgow Royal Infirmary",
+                "city": "Glasgow",
+                "zip": "G4 0SF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Royal Free London NHS Foundation Trust",
+                "city": "London",
+                "zip": "NW3 2QG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Guy's and St Thomas' Hospital, London",
+                "city": "London",
+                "zip": "SE1 7EH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Freeman Hospital",
+                "city": "Newcastle",
+                "zip": "NE7 7DN",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.21804,
+                  "lon": -5.88979
+                }
+              },
+              {
+                "facility": "Nottingham Digestive Diseases Centre and Biomedical Research Centre Nottingham University Hospitals NHS Trust, Queen's Medical Centre",
+                "city": "Nottingham",
+                "zip": "NG7 2UH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.9536,
+                  "lon": -1.15047
+                }
+              },
+              {
+                "facility": "Oxford University Hospitals NHS Foundation Trust",
+                "city": "Oxford",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              },
+              {
+                "facility": "Dept of Gastroenterology & Hepatology Portsmouth Hospitals University NHS Trust Queen Alexandra Hospital",
+                "city": "Portsmouth",
+                "zip": "PO6 3LY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.79899,
+                  "lon": -1.09125
+                }
+              },
+              {
+                "facility": "Royal Wolverhampton NHS Trust, New Cross Hospital",
+                "city": "Wolverhampton",
+                "zip": "WV10 0QP",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.58547,
+                  "lon": -2.12296
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2025-10-03",
+                "uploadDate": "2026-10-12T10:35",
+                "filename": "Prot_002.pdf",
+                "size": 6704348
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              },
+              {
+                "id": "D005221",
+                "term": "Fatigue"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000722239",
+                "term": "golexanolone"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

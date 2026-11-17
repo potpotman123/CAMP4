@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-16",
+  "assigned_rows": 178,
+  "reviewed_rows": 178,
+  "dispositions": {
+    "include": 132,
+    "exclude": 33,
+    "unknown": 13
+  },
+  "observed_program_outcomes_all_including_exclusions": {
+    "ongoing": 47,
+    "approved": 23,
+    "stopped": 49,
+    "unknown_after_search": 53,
+    "suspended": 5,
+    "approved_non_US": 1
+  },
+  "included_reference_outcomes": {
+    "ongoing": 41,
+    "approved": 21,
+    "unknown_after_search": 22,
+    "stopped": 43,
+    "suspended": 4,
+    "approved_non_US": 1
+  },
+  "strict_entry_qualified": 58,
+  "sources": {
+    "alias_registry_snapshots": 178,
+    "current_targeted_search_batches": 44,
+    "prior_targeted_search_batches": 17,
+    "CFF_operational_tracker_pages": 37,
+    "additional_exact_registry_reference_checks": 16
+  },
+  "cautions": [
+    "This completes assigned finite-row bounded research, not all-drug frame coverage or universal FDA negative ascertainment.",
+    "Unknown-after-search status is not evidence of program failure and is not administratively censored as known-active.",
+    "Clinical entry dates distinguish observed registry proxy from documented first-human study/year; gene-therapy registration may precede actual infusion by years.",
+    "First-FDA-approval endpoint must be indication-specific; approved_non_US is not FDA success and later CHAPLE or myasthenia approvals do not count for PNH.",
+    "BB305 hemoglobinopathy programs and Alyftrek components are correlated; concizumab and pociredir duplicate rows excluded.",
+    "Operational tracker stop dates often interval-censored/undated; latest pipeline replaces historical stop after transfer/restart."
+  ],
+  "updates_sha256": "4417747fcb6f884327bd732e7a3b8c9b72f5f084868cda2964bebf63f3bc26c0",
+  "status": "Final assigned-row research freeze; all178searched, unresolvedidentity/outcome retained explicitly"
+}

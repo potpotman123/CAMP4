@@ -1,0 +1,651 @@
+[
+  {
+    "id": "als:BIIB078|ALS",
+    "program_id": "BIIB078|ALS",
+    "canonical_asset": "BIIB078",
+    "aliases": [
+      "BIIB078",
+      "IONIS-C9Rx",
+      "IONIS-C9_Rx"
+    ],
+    "candidate_ids": [
+      "bc701782097a4bd6"
+    ],
+    "indication": "C9orf72-ALS",
+    "nct_ids": [
+      "NCT03626012",
+      "NCT04288856"
+    ],
+    "disposition": "include",
+    "disposition_reason": "New C9orf72-directed molecule with first human dosing in2018; includes failure in inception denominator.",
+    "first_human_date": "2018-09",
+    "first_human_interval": [
+      "2018-09-01",
+      "2018-09-30"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://investors.biogen.com/static-files/c21d50af-43ce-43a3-8e02-9fbd4a7c5558",
+        "note": "Sponsor slide 27 explicitly dates first patient dosing to September 2018; indexed text available although direct reopen returned403.",
+        "evidence_date": null
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT03626012",
+        "note": "First registered phase1 study actual start 2018-09-10; exact date is enrollment proxy, not independently verified injection date.",
+        "evidence_date": null
+      }
+    ],
+    "outcome": "stopped_efficacy",
+    "outcome_date": "2022-03-28",
+    "outcome_date_precision": "day",
+    "outcome_evidence": [
+      {
+        "url": "https://ir.ionis.com/news-releases/news-release-details/biogen-and-ionis-announce-topline-phase-1-study-results",
+        "note": "Sponsors discontinued BIIB078 after phase1 showed no clinical benefit.",
+        "evidence_date": "2022-03-28"
+      }
+    ],
+    "FDA_ever_approved": null,
+    "FDA_ascertainment_note": "Not approved at documented investigational/stop source date; complete FDA alias/inventory ascertainment through cutoff delegated to root. Null here is not evidence of approval.",
+    "last_verified_active_date": null,
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": true,
+      "genetic_medicine": true,
+      "intrathecal": true,
+      "protein_restoration": false,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": null
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_1.json",
+      "sources/pos_completion/neuro_als_web_10.json",
+      "sources/pos_completion/neuro_als_web_24.json",
+      "sources/pos_completion/neuro_als_web_28.json",
+      "sources/pos_completion/als_history_BIIB078.json"
+    ],
+    "remaining_uncertainty": [],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_1.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_10.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_24.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_28.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_BIIB078.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "novelty_evidence": {
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-third-novel-antisense-medicine-als-its-first-designed",
+      "note": "Sponsor calls IONIS-C9Rx first drug to enter clinical development targeting mutant C9orf72 RNA; source dated2020, retain literal novelty diagnostic separately from primary filter.",
+      "evidence_date": "2020-10-22"
+    },
+    "first_human_precision": "month",
+    "entry_window_qualified": true,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": null
+  },
+  {
+    "id": "als:BIIB105|ALS",
+    "program_id": "BIIB105|ALS",
+    "canonical_asset": "BIIB105",
+    "aliases": [
+      "BIIB105",
+      "ION541"
+    ],
+    "candidate_ids": [
+      "d1618439ddbef1ce"
+    ],
+    "indication": "ALS",
+    "nct_ids": [
+      "NCT04494256"
+    ],
+    "disposition": "include",
+    "disposition_reason": "ATXN2 lowering ASO for broad ALS; genetic target biology does not mean genotype-defined patient enrollment.",
+    "first_human_date": "2020-09",
+    "first_human_interval": [
+      "2020-09-01",
+      "2020-09-30"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504521000010/biib-20201231.htm",
+        "note": "Biogen2020annual explicitly dates first patient dosing toSeptember2020.",
+        "evidence_date": null
+      },
+      {
+        "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-third-novel-antisense-medicine-als-its-first-designed",
+        "note": "Primary announcement confirms first patients dosed and ION541=BIIB105.",
+        "evidence_date": "2020-10-22"
+      }
+    ],
+    "outcome": "stopped_efficacy",
+    "outcome_date": "2024-05-16",
+    "outcome_date_precision": "day",
+    "outcome_evidence": [
+      {
+        "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-and-ionis-announce-topline-phase-12-study-results",
+        "note": "Sponsors ended BIIB105 development after absence of clinical/neurofilament benefit despite ATXN2 lowering.",
+        "evidence_date": "2024-05-16"
+      }
+    ],
+    "FDA_ever_approved": null,
+    "FDA_ascertainment_note": "Not approved at documented investigational/stop source date; complete FDA alias/inventory ascertainment through cutoff delegated to root. Null here is not evidence of approval.",
+    "last_verified_active_date": null,
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": false,
+      "genetic_medicine": true,
+      "intrathecal": true,
+      "protein_restoration": false,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": null
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_2.json",
+      "sources/pos_completion/neuro_als_web_11.json",
+      "sources/pos_completion/neuro_als_web_24.json",
+      "sources/pos_completion/als_history_BIIB105.json"
+    ],
+    "remaining_uncertainty": [],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_2.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_11.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_24.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_BIIB105.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "first_human_precision": "month",
+    "entry_window_qualified": true,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": null
+  },
+  {
+    "id": "als:WVE-004|ALS",
+    "program_id": "WVE-004|ALS",
+    "canonical_asset": "WVE-004",
+    "aliases": [
+      "WVE-004",
+      "WVE004"
+    ],
+    "candidate_ids": [
+      "fa19852c3e7cfcea",
+      "745a0dc27fc15738"
+    ],
+    "indication": "C9orf72-ALS",
+    "nct_ids": [
+      "NCT04931862",
+      "NCT05683860"
+    ],
+    "disposition": "include",
+    "disposition_reason": "Single C9orf72 ALS/FTD basket asset; do not double count ALS and FTD as independent outcomes. September2021 first-dose announcement belongs to WVE003, not WVE004.",
+    "first_human_date": "2021",
+    "first_human_interval": [
+      "2021-06-28",
+      "2021-07-20"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://ir.wavelifesciences.com/node/9271/pdf",
+        "note": "July20,2021 sponsor announcement says multiple participants had initiated dosing in first-in-human FOCUS-C9.",
+        "evidence_date": "2021-07-20"
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT04931862",
+        "note": "Actual first enrollmentJune28,2021 supplies lower bound; no assertion that first injection occurred that day.",
+        "evidence_date": null
+      }
+    ],
+    "outcome": "stopped_efficacy",
+    "outcome_date": "2023-05-23",
+    "outcome_date_precision": "day",
+    "outcome_evidence": [
+      {
+        "url": "https://wavelifesciences.com/wp-content/uploads/2023/12/C9-Community-Letter-5-23-23.pdf",
+        "note": "Sponsor ended FOCUS-C9/WVE004 development after absence of clinical benefit despite polyGP lowering.",
+        "evidence_date": "2023-05-23"
+      }
+    ],
+    "FDA_ever_approved": null,
+    "FDA_ascertainment_note": "Not approved at documented investigational/stop source date; complete FDA alias/inventory ascertainment through cutoff delegated to root. Null here is not evidence of approval.",
+    "last_verified_active_date": null,
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": true,
+      "genetic_medicine": true,
+      "intrathecal": true,
+      "protein_restoration": false,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": false
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_3.json",
+      "sources/pos_completion/neuro_als_web_12.json",
+      "sources/pos_completion/neuro_als_web_20.json",
+      "sources/pos_completion/neuro_als_web_21.json",
+      "sources/pos_completion/als_history_WVE-004.json"
+    ],
+    "remaining_uncertainty": [],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_3.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_12.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_20.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_21.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_WVE-004.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "novelty_evidence": {
+      "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-third-novel-antisense-medicine-als-its-first-designed",
+      "note": "C9orf72 RNA was already in human testing with BIIB078 in2018; molecular chemistry differs.",
+      "evidence_date": "2020-10-22"
+    },
+    "first_human_precision": "bounded_interval",
+    "entry_window_qualified": true,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": null
+  },
+  {
+    "id": "als:tofersen|ALS",
+    "program_id": "tofersen|ALS",
+    "canonical_asset": "tofersen",
+    "aliases": [
+      "tofersen",
+      "BIIB067",
+      "ISIS666853",
+      "ISIS 666853",
+      "IONIS-SOD1Rx",
+      "Qalsody"
+    ],
+    "candidate_ids": [],
+    "indication": "SOD1-ALS",
+    "nct_ids": [
+      "NCT02623699"
+    ],
+    "disposition": "include",
+    "disposition_reason": "Distinct second-generation molecule from ISIS333611. Do not merge ISIS333611 as alias; its earlier SOD1 human trial means target was not literally human-naive.",
+    "first_human_date": "2016-01",
+    "first_human_interval": [
+      "2016-01-01",
+      "2016-12-31"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2003715",
+        "note": "Primary phase1/2 publication states trial beganJanuary2016 and confirms actual treated patients, including PartA prior exposure; exact first injection day not extracted.",
+        "evidence_date": "2020-07-08"
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215887Orig1s000IntegratedR.pdf",
+        "note": "FDA review places preIND meetingJan29,2015 for planned first-in-human study233AS101.",
+        "evidence_date": null
+      },
+      {
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004590-51/DE",
+        "note": "Regulatory registry maps BIIB067(ISIS666853) to tofersen.",
+        "evidence_date": null
+      }
+    ],
+    "outcome": "approved",
+    "outcome_date": "2023-04-25",
+    "outcome_date_precision": "day",
+    "outcome_evidence": [
+      {
+        "url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody",
+        "note": "FDA original approval dateApril25,2023; accelerated approval.",
+        "evidence_date": "2023-04-25"
+      }
+    ],
+    "FDA_ever_approved": true,
+    "FDA_ascertainment_note": "FDA approval verified directly.",
+    "last_verified_active_date": null,
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": true,
+      "genetic_medicine": true,
+      "intrathecal": true,
+      "protein_restoration": false,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": false
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_6.json",
+      "sources/pos_completion/neuro_als_web_25.json",
+      "sources/pos_completion/neuro_als_web_26.json",
+      "sources/pos_completion/neuro_als_web_27.json",
+      "sources/pos_completion/neuro_als_web_28.json",
+      "sources/pos_completion/als_history_tofersen.json"
+    ],
+    "remaining_uncertainty": [
+      "January2016 is independently published first-trial month, not exact first active-drug injection date; year2016 robust. Use full-year entry interval if dosing-day sensitivity required."
+    ],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_6.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_25.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_26.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_27.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_28.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_tofersen.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "first_human_precision": "first_clinical_trial_month",
+    "entry_window_qualified": true,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": "2023-04-25"
+  },
+  {
+    "id": "als:QRL-201|ALS",
+    "program_id": "QRL-201|ALS",
+    "canonical_asset": "QRL-201",
+    "aliases": [
+      "QRL-201",
+      "QRL201"
+    ],
+    "candidate_ids": [
+      "24e371c3e3c23e93",
+      "a4a08be20d634b28"
+    ],
+    "indication": "ALS",
+    "nct_ids": [
+      "NCT05633459"
+    ],
+    "disposition": "include",
+    "disposition_reason": "STMN2 restoration ASO; broad sporadic/genetic ALS cohort, not a monogenic-only program. Current development confirmed on cutoff date.",
+    "first_human_date": "2023",
+    "first_human_interval": [
+      "2023-01-01",
+      "2023-04-06"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://www.quralis.com/news/quralis-announces-first-patient-dosed-with-qrl-201-a-first-in-class-stathmin-2-precision-therapy-for-als/",
+        "note": "April6,2023 sponsor announcement confirms first patient dosed in first-in-human ANQUR; announcement is upper bound, not proven dosing day.",
+        "evidence_date": "2023-04-06"
+      },
+      {
+        "url": "https://www.quralis.com/our-story/",
+        "note": "Sponsor timeline explicitly places first patient dosing in2023; therefore December2022 registry start is enrollment/screening, not dosing.",
+        "evidence_date": null
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT05633459",
+        "note": "Actual start2022-12-16 is registry enrollment proxy; replaced by sponsor-confirmed2023 dosing year.",
+        "evidence_date": null
+      }
+    ],
+    "outcome": "ongoing",
+    "outcome_date": null,
+    "outcome_date_precision": null,
+    "outcome_evidence": [
+      {
+        "url": "https://www.quralis.com/news/quralis-receives-fda-clearance-for-ind-application-of-qrl-201-for-the-treatment-of-als-clearing-a-path-to-initiation-of-pivotal-clinical-trial-in-the-u-s/",
+        "note": "Nov16,2026 release: FDA IND clearance, continuing ANQUR OLE and planned pivotal CONQUR1H2027; not marketing approval.",
+        "evidence_date": "2026-11-16"
+      }
+    ],
+    "FDA_ever_approved": null,
+    "FDA_ascertainment_note": "Not approved at documented investigational/stop source date; complete FDA alias/inventory ascertainment through cutoff delegated to root. Null here is not evidence of approval.",
+    "last_verified_active_date": "2026-11-16",
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": false,
+      "genetic_medicine": true,
+      "intrathecal": true,
+      "protein_restoration": true,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": null
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_4.json",
+      "sources/pos_completion/neuro_als_web_13.json",
+      "sources/pos_completion/neuro_als_web_24.json",
+      "sources/pos_completion/neuro_als_web_26.json",
+      "sources/pos_completion/als_history_QRL-201.json"
+    ],
+    "remaining_uncertainty": [
+      "Exact first injection month/day not explicitly given; sponsor2023timeline plus April6announcement bounds it. FDA-negative cutoff inference strong from current firstUSIND/pivotal plan, but leave full inventory classification to root."
+    ],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_4.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_13.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_24.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_26.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_QRL-201.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "first_human_precision": "year_with_upper_date",
+    "entry_window_qualified": true,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": null
+  },
+  {
+    "id": "als:HYNR-CS|ALS",
+    "program_id": "HYNR-CS|ALS",
+    "canonical_asset": "HYNR-CS",
+    "aliases": [
+      "HYNR-CS",
+      "HYNR-CS inj",
+      "HYNRCS",
+      "lenzumestrocel",
+      "Neuronata-R"
+    ],
+    "candidate_ids": [
+      "f169b1d90f5abec0"
+    ],
+    "indication": "ALS",
+    "nct_ids": [
+      "NCT01363401"
+    ],
+    "disposition": "exclude",
+    "disposition_reason": "Exclude strict2010\u201324clinical inception because sameCorestem/Hanyang product lineage was administered before2010. HYNR-CS-Allo is a different allogeneic product and must not be merged. Manufacturing changes/strict branded-product identity can be evaluated only as explicit lineage sensitivity.",
+    "first_human_date": "before2010",
+    "first_human_interval": [
+      "2007-01-01",
+      "2009-04-10"
+    ],
+    "first_human_evidence": [
+      {
+        "url": "https://www.jkna.org/upload/pdf/200902013.pdf",
+        "note": "Primary2009report,pp163-169:22ALS patients received two IT autologous bone-marrowMSC injections. Study enrollment beganJan2007; paper receivedApr10,2009. Jan2007 is not claimed as first injection date.",
+        "evidence_date": "2009"
+      },
+      {
+        "url": "https://stemcellsjournals.onlinelibrary.wiley.com/doi/10.5966/sctm.2014-0212",
+        "note": "HYNR-CS formal phase1 paper links prior pilot IRB2005-452/2006-339 and cites2009report; formal2011study is not earliest human use in product lineage.",
+        "evidence_date": "2015"
+      }
+    ],
+    "outcome": "approved_South_Korea_US_development_ongoing",
+    "outcome_date": null,
+    "outcome_date_precision": null,
+    "outcome_evidence": [
+      {
+        "url": "https://stemcellsjournals.onlinelibrary.wiley.com/doi/10.5966/sctm.2014-0212",
+        "note": "Korean conditional marketing approvalJuly30,2014; this is not FDA approval.",
+        "evidence_date": "2015"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/neuronata-r-retains-conditional-approval-in-south-korea-302827142.html",
+        "note": "SponsorJuly19,2026release reports Korean conditional approval retained and plannedUSapplication; overall phase3endpoints failed, subgroup discussion continues.",
+        "evidence_date": "2026-07-19"
+      }
+    ],
+    "FDA_ever_approved": null,
+    "FDA_ascertainment_note": "Not approved at documented investigational/stop source date; complete FDA alias/inventory ascertainment through cutoff delegated to root. Null here is not evidence of approval.",
+    "last_verified_active_date": "2026-07-19",
+    "flags": {
+      "rare_nononcology": true,
+      "genetic_cns": false,
+      "genetic_medicine": false,
+      "intrathecal": true,
+      "protein_restoration": false,
+      "neurodevelopmental": false,
+      "novel_human_target_at_entry": null
+    },
+    "sources": [
+      "sources/pos_completion/neuro_als_web_5.json",
+      "sources/pos_completion/neuro_als_web_7.json",
+      "sources/pos_completion/neuro_als_web_8.json",
+      "sources/pos_completion/neuro_als_web_9.json",
+      "sources/pos_completion/neuro_als_web_14.json",
+      "sources/pos_completion/neuro_als_web_15.json",
+      "sources/pos_completion/neuro_als_web_16.json",
+      "sources/pos_completion/neuro_als_web_17.json",
+      "sources/pos_completion/neuro_als_web_18.json",
+      "sources/pos_completion/neuro_als_web_19.json",
+      "sources/pos_completion/neuro_als_web_22.json",
+      "sources/pos_completion/neuro_als_web_23.json",
+      "sources/pos_completion/neuro_als_web_27.json",
+      "sources/pos_completion/als_history_HYNR-CS.json"
+    ],
+    "remaining_uncertainty": [
+      "Exact first pilot dose date unknown; pre2010 boundary is established. Pilot-to-commercial manufacturing comparability not independently audited; lineage sensitivity retained rather than silently treating2011asfirstever."
+    ],
+    "as_of": "2026-11-16",
+    "searches": [
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_5.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_7.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_8.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_9.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_14.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_15.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_16.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_17.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_18.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_19.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_22.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_23.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/neuro_als_web_27.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      },
+      {
+        "source_file": "sources/pos_completion/als_history_HYNR-CS.json",
+        "query_or_action": "Primary sponsor, regulatory or publication search/open; exact query and response preserved in source snapshot."
+      }
+    ],
+    "non_FDA_approval": {
+      "jurisdiction": "SouthKorea",
+      "date": "2014-07-30",
+      "type": "conditional"
+    },
+    "first_human_precision": "prior_human_exposure_window",
+    "entry_window_qualified": false,
+    "review_complete": true,
+    "review_scope": "Six specifically assigned ALS histories: saved all-phase registry alias queries plus primary sponsor, regulator and publication review. Not an exhaustive global molecule or FDA inventory census.",
+    "FDA_approval_date": null
+  }
+]

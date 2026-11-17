@@ -1,0 +1,319 @@
+{
+  "asset": "CLN-301",
+  "query": "CLN-301 OR AT-GTX-502",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=CLN-301+OR+AT-GTX-502&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03770572",
+            "orgStudyIdInfo": {
+              "id": "CLN-301"
+            },
+            "organization": {
+              "fullName": "Neela Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Gene Therapy for Children With CLN3 Batten Disease",
+            "officialTitle": "Phase I/IIa Gene Transfer Clinical Trial for Juvenile Neuronal Ceroid Lipofuscinosis, Delivering the CLN3 Gene by Self-Complementary AAV9"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-08",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-11-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-09-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-09-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-12-07",
+            "studyFirstSubmitQcDate": "2018-12-07",
+            "studyFirstPostDateStruct": {
+              "date": "2018-12-10",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Neela Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a phase 1/2, open-label, single dose, dose-escalation clinical trial to evaluate the safety and efficacy of CLN-301 (previous NCH Code: scAAV9.P546.CLN3) delivered intrathecally into the lumbar spinal cord region of subjects with CLN3 Batten disease.",
+            "detailedDescription": "This is a phase 1/2, open-label, single-dose, dose-escalation study of CLN-301 administered intrathecally into the lumbar spinal cord region of pediatric patients with CLN3 Batten disease.\n\nThis study consists of a one-time injection of CLN-301 with follow-up visits on Day 7, 14, 21, and 30, followed by every 3 months through 1 year post-dose, and then every 6 months through the fifth year. There are two Cohorts with a low dose and a high dose.\n\nThe primary outcome for this clinical study is to evaluate safety. The co-primary objective is to determine the efficacy of CLN-301 as measured by United Batten Disease Rating Scale (UBDRS) physical subscale.\n\nThe secondary outcome measures include Pediatric Quality of Life (PedsQL) inventory, seizure subscale of the UBDRS and global impression subscale of the UBDRS.\n\nThe exploratory outcome measures include visual impairment assessment, cognitive evaluations, Brain magnetic resonance imaging (MRI), electroencephalogram (EEG), electrocardiogram (ECG) and echocardiogram (ECHO).\n\nFor more information about this study, please contact Neela Therapeutics at info@neelatx.com"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "CLN3",
+              "Batten Disease"
+            ],
+            "keywords": [
+              "CLN3",
+              "Neuronal ceroid lipofuscinosis",
+              "NCL",
+              "Gene Transfer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Single Treatment Group (AAV9-CLN3) - 2 Cohort Assignment (Low-dose, High-dose)\n\nDose escalation in this study will begin with low-dose, determined to be the minimal efficacious dose as determined in non-clinical studies. Dose escalation to a high-dose (2x the minimally effective dose (MED) as evaluated in Cohort 1) will proceed as part of Cohort 2 of the study upon demonstration of safety of the low-dose in Cohort 1 of the study.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 7,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1: CLN-301 Low-Dose",
+                "type": "EXPERIMENTAL",
+                "description": "No more than 5 mL of 6 x 1013 vg CLN-301 administered via intrathecal injection",
+                "interventionNames": [
+                  "Genetic: Low dose CLN-301"
+                ]
+              },
+              {
+                "label": "Cohort 2: CLN-301 High-Dose",
+                "type": "EXPERIMENTAL",
+                "description": "No more than 10 mL of 1.2 x 1014 vg of CLN-301 administered via intrathecal injection",
+                "interventionNames": [
+                  "Genetic: High dose CLN-301"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "Low dose CLN-301",
+                "description": "Subjects with diagnosis of CLN3 Batten disease will receive a single dose of CLN-301 at low dose",
+                "armGroupLabels": [
+                  "Cohort 1: CLN-301 Low-Dose"
+                ]
+              },
+              {
+                "type": "GENETIC",
+                "name": "High dose CLN-301",
+                "description": "Subjects with diagnosis of CLN3 Batten disease will receive a single dose of CLN-301 at high dose",
+                "armGroupLabels": [
+                  "Cohort 2: CLN-301 High-Dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety evaluation based on the development of dose-limiting toxicity (DLT).",
+                "description": "The DLT is defined as any unanticipated AE that is considered related to CLN-301 and is Common Terminology Criteria for Adverse Events Grade 3 or higher.",
+                "timeFrame": "36 Months"
+              },
+              {
+                "measure": "Efficacy: Change in rating as determined using the Unified Batten Disease Rating Scale (UBDRS) rating scale.",
+                "description": "The UBDRS is a clinical ratings instrument used specifically to assess motor, seizure, behavioral and functional capabilities. The \"Physical Assessment\" is a 20 item subscale that measures vision, speech, motor strength, gait, abnormal involuntary movements and balance. Each item has a score range of 0 to 4. The minimum score is 0 and the maximum score is 112. The items are summed up to obtain a total score.The higher the score, the more severe the disability and worse the outcome.",
+                "timeFrame": "36 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "QOL: Change in Quality of Life (QOL) as determined using the Pediatric Quality of Life (PedsQL\u2122) scale.",
+                "description": "The PedsQL is used to assess physical, emotional, social, and school functioning of pediatric subjects in ranging from 2 years to 18 years of age.",
+                "timeFrame": "36 months"
+              },
+              {
+                "measure": "Seizures: Change is seizure subscore as determined using Seizure subscale of the UBDRS scale.",
+                "description": "The UBDRS seizure subscale is used to assess seizure history, type, frequency, duration, and frequency of seizure-related injury.",
+                "timeFrame": "36 months"
+              },
+              {
+                "measure": "Global impression: Change in disease severity using the UBDRS clinical global impression (CGI) subscale.",
+                "description": "The clinical global impression subscale includes assessment of motor, seizure, behavioral and cognitive function in NCL subjects.",
+                "timeFrame": "36 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n1. Diagnosis of CLN3 Batten disease determined by genotype available at screening by a College of American Pathologists/Clinical Laboratory Improvement Amendments (CAP/CLIA)-certified laboratory (or a non-US laboratory with an equivalent national accreditation/certification)\n2. Aged \u2265 3 to \\< 11 years\n3. UBDRS physical impairment score of \u2264 7\n4. Able to walk independently at least 50 feet\n\nExclusion Criteria\n\n1. Presence of another inherited neurologic or metabolic disease, eg, other forms of Batten disease (also known as neuronal ceroid lipofuscinosis; NCL) or seizures unrelated to CLN3 Batten disease (subjects with febrile seizures may be eligible at the discretion of the investigator)\n2. Presence of another neurological illness that may have caused cognitive decline (eg, trauma, meningitis, hemorrhage) before screening\n3. Active viral infection (includes HIV or serology positive for hepatitis B or C)\n4. Subjects with 2 consecutive aminotransaminase liver tests \\> 3 times the upper limit of normal or \\> 1.5 times the upper limit of normal if taking valproic acid at Visit 1 (screening/baseline)\n5. Subjects with anti-AAV9 antibody titers \\> 1:400 as determined by ELISA (enzyme-linked immunosorbent assay) binding immunoassay\n6. Abnormal laboratory values considered clinically significant\n7. Presence of immunologic disease\n8. Has received stem cell or bone marrow transplantation\n9. Has received any form of organ transplant\n10. History of or current chemotherapy, radiotherapy, or other immunosuppression therapy within the past 30 days (corticosteroid treatment may be permitted at the discretion of the investigator)\n11. Current use of cannabinoids and any by-products\n12. Contraindications for intrathecal administration of the product or lumbar puncture (for collection of CSF), such as bleeding disorders or other medical conditions (eg, spina bifida, meningitis, or clotting abnormalities)\n13. Contraindications for MRI scans (eg, cardiac pacemaker, metal fragment or chip in the eye, aneurysm clip in the brain)\n14. Poorly controlled seizures - intractable epilepsy\n15. Episode of generalized motor status epilepticus within 4 weeks before the Gene Transfer visit\n16. History of corneal or intraocular surgery\n17. Severe infection (eg, upper respiratory tract infection, pneumonia, pyelonephritis, or meningitis) within 4 weeks before the Gene Transfer visit (Enrollment may be postponed.)\n18. Has received any investigational medication within 30 days before the infusion of study drug\n19. Has a medical condition or extenuating circumstance that, in the opinion of the investigator, might compromise the subject's ability to comply with the protocol required testing or procedures or compromise the subject's wellbeing, safety, or clinical interpretability\n20. Pregnancy at screening or Day 0. Any female subject judged by the investigator to be of childbearing potential will be tested for pregnancy.\n21. Family does not want to disclose subject's study participation with primary care physician and other medical providers",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "10 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Kathrin C Meyer, PhD",
+                "affiliation": "Neela Therapeutics",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Nationwide Children's Hospital",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43201",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "23602993",
+                "type": "BACKGROUND",
+                "citation": "Schulz A, Kohlschutter A, Mink J, Simonati A, Williams R. NCL diseases - clinical perspectives. Biochim Biophys Acta. 2013 Nov;1832(11):1801-6. doi: 10.1016/j.bbadis.2013.04.008. Epub 2013 Apr 17."
+              },
+              {
+                "pmid": "15657902",
+                "type": "BACKGROUND",
+                "citation": "Phillips SN, Benedict JW, Weimer JM, Pearce DA. CLN3, the protein associated with batten disease: structure, function and localization. J Neurosci Res. 2005 Mar 1;79(5):573-83. doi: 10.1002/jnr.20367."
+              },
+              {
+                "pmid": "9311735",
+                "type": "BACKGROUND",
+                "citation": "Munroe PB, Mitchison HM, O'Rawe AM, Anderson JW, Boustany RM, Lerner TJ, Taschner PE, de Vos N, Breuning MH, Gardiner RM, Mole SE. Spectrum of mutations in the Batten disease gene, CLN3. Am J Hum Genet. 1997 Aug;61(2):310-6. doi: 10.1086/514846."
+              },
+              {
+                "pmid": "24547931",
+                "type": "BACKGROUND",
+                "citation": "Drack AV, Mullins RF, Pfeifer WL, Augustine EF, Stasheff SF, Hong SD. Immunosuppressive Treatment for Retinal Degeneration in Juvenile Neuronal Ceroid Lipofuscinosis (Juvenile Batten Disease). Ophthalmic Genet. 2015;36(4):359-64. doi: 10.3109/13816810.2014.886271. Epub 2014 Feb 19."
+              },
+              {
+                "pmid": "22013180",
+                "type": "BACKGROUND",
+                "citation": "Kwon JM, Adams H, Rothberg PG, Augustine EF, Marshall FJ, Deblieck EA, Vierhile A, Beck CA, Newhouse NJ, Cialone J, Levy E, Ramirez-Montealegre D, Dure LS, Rose KR, Mink JW. Quantifying physical decline in juvenile neuronal ceroid lipofuscinosis (Batten disease). Neurology. 2011 Nov 15;77(20):1801-7. doi: 10.1212/WNL.0b013e318237f649. Epub 2011 Oct 19."
+              },
+              {
+                "pmid": "24014508",
+                "type": "BACKGROUND",
+                "citation": "Adams HR, Mink JW; University of Rochester Batten Center Study Group. Neurobehavioral features and natural history of juvenile neuronal ceroid lipofuscinosis (Batten disease). J Child Neurol. 2013 Sep;28(9):1128-36. doi: 10.1177/0883073813494813."
+              },
+              {
+                "pmid": "21464428",
+                "type": "BACKGROUND",
+                "citation": "Ostergaard JR, Rasmussen TB, Molgaard H. Cardiac involvement in juvenile neuronal ceroid lipofuscinosis (Batten disease). Neurology. 2011 Apr 5;76(14):1245-51. doi: 10.1212/WNL.0b013e31821435bd."
+              },
+              {
+                "pmid": "12374761",
+                "type": "BACKGROUND",
+                "citation": "Cotman SL, Vrbanac V, Lebel LA, Lee RL, Johnson KA, Donahue LR, Teed AM, Antonellis K, Bronson RT, Lerner TJ, MacDonald ME. Cln3(Deltaex7/8) knock-in mice with the common JNCL mutation exhibit progressive neurologic disease that begins before birth. Hum Mol Genet. 2002 Oct 15;11(22):2709-21. doi: 10.1093/hmg/11.22.2709."
+              },
+              {
+                "pmid": "37035740",
+                "type": "DERIVED",
+                "citation": "Johnson TB, Brudvig JJ, Likhite S, Pratt MA, White KA, Cain JT, Booth CD, Timm DJ, Davis SS, Meyerink B, Pineda R, Dennys-Rivers C, Kaspar BK, Meyer K, Weimer JM. Early postnatal administration of an AAV9 gene therapy is safe and efficacious in CLN3 disease. Front Genet. 2023 Mar 24;14:1118649. doi: 10.3389/fgene.2023.1118649. eCollection 2023."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009472",
+                "term": "Neuronal Ceroid-Lipofuscinoses"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

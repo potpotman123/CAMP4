@@ -1,0 +1,3061 @@
+{
+  "integrated_id": "systemic:sys_b0bb89e2784a",
+  "asset": "Inhaled AR-501",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=AR-501+OR+Gallium+Citrate",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02776891",
+            "orgStudyIdInfo": {
+              "id": "16251"
+            },
+            "organization": {
+              "fullName": "University of California, San Francisco",
+              "class": "OTHER"
+            },
+            "briefTitle": "A Feasibility Study of Gallium-68 Citrate PET to Detect Aberrant MYC Proto-Oncogene, BHLH Transcription Factor (MYC) Protein Expression in Diffuse Large B-Cell Lymphoma",
+            "officialTitle": "A Feasibility Study of Gallium-68 Citrate PET to Detect Aberrant MYC Protein Expression in Diffuse Large B-Cell Lymphoma"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2019-10",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Unexpected dose production issues prevented study start up",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-06-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-04-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2018-04-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-05-17",
+            "studyFirstSubmitQcDate": "2016-05-17",
+            "studyFirstPostDateStruct": {
+              "date": "2016-05-18",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2019-10-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2019-10-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "University of California, San Francisco",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center imaging study investigating the use of PET with 68Ga-citrate in patients with DLBCL or BCLU.",
+            "detailedDescription": "This is a single center feasibility imaging study in patients with diffuse large B-cell lymphoma (DLBCL) or B-cell Lymphoma, Unclassifiable with features between DLBCL and Burkitt's (BCLU). Study participants will undergo PET/MRI of the whole body with 68Ga citrate.\n\nThe study will include at least 5 patients with double hit lymphoma and 5 patients with DLBCL with an additional 5 more patients as expansion once the dose level has been established. Patients with DLBCL will be included once an optimal dose level for the resolution of cancer lesions has been established."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Burkitt Lymphoma"
+            ],
+            "keywords": [
+              "lymphoma",
+              "gallium citrate",
+              "PET"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Gallium citrate",
+                "type": "EXPERIMENTAL",
+                "description": "The patients will be organized into two cohorts. Cohort 1 will receive 10 mCi and will be imaged 4 and 6 hours post injection. Cohort 2 will receive 15 millicurie (mCi) and will be imaged 4 and 6 hours post injection. Cohort 2 will be imaged if the optimal protocol identified image quality from cohort 1 does not allow for the resolution of cancer lesions.",
+                "interventionNames": [
+                  "Drug: Gallium citrate"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Gallium citrate",
+                "description": "Ga-68 citrate will be administered on an outpatient basis at the Center for Molecular and Functional Imaging at China Basin. It will be administered a single time point intravenously prior to PET imaging. The one-time nominal injected dose will be up to 15 mCi containing 10 - 25 \u03bcg Ga-68. A simultaneous MRI (PET/MRI) of the head will be used for attenuation correction and anatomic localization of gallium-68 citrate uptake and standardized uptake value (SUV) calculation.",
+                "armGroupLabels": [
+                  "Gallium citrate"
+                ],
+                "otherNames": [
+                  "Ga-68 citrate"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Uptake of radiotracer in tumor tissue",
+                "description": "To show evidence of specific uptake of the radiotracer in the tumor tissue compared to background. For exploratory radiotracer studies, this is typically defined as 1.5-2 fold increase in SUVmax in the tumor compared to mediastinal blood pool activity.",
+                "timeFrame": "16 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Comparing Gallium citrate uptake",
+                "description": "To compare 68Ga-citrate (standard uptake value, metabolic tumor volume) between patients with Double Hit Lymphoma (DHL) and with diffuse B-cell lymphoma without aberrant MYC expression",
+                "timeFrame": "16 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Histologically confirmed DLBCL or BCLU.\n\n   * Double hit lymphoma, defined by positive cytogenetic/ fluorescence in situ hybridization (FISH) analysis for translocations involving myc and bcl2 or a double hit score of 2 by immunohistochemistry as described by Johnson et al.\n   * DLBCL without myc translocation or overexpression by the above methods\n2. Presence of palpable or radiographically measurable disease of at least 1.5 cm in longest dimension.\n3. Available prior CT or PET/CT scan done in the last 8 weeks for comparison\n4. Prior chemotherapy or radiation to the measurable lesion must be completed at least 14 days prior.\n5. Adequate renal function with estimated creatinine clearance \u226550 mL/min (by the Cockcroft Gault equation)\n6. No contraindications to MRI (e.g. pacemaker, aneurysm clips, severe claustrophobia)\n7. Ability to sign a study-specific internal review board (IRB) approved consent prior to study entry. Patients must be able and willing to consent and undergo study procedures.\n8. Age \u226518 years old\n\nExclusion Criteria:\n\n1. Any serious and/or unstable pre-existing medical, psychiatric, or other medical condition that could interfere with subject's safety, provision of informed consent, or compliance with study procedures\n2. Body weight over 300 pounds\n3. Female patients who are pregnant or breast-feeding\n4. Prior MRI with gadolinium performed \\<24 hours before the study scan\n5. No red blood cell transfusion or iron administration by any route in the last 7 days\n6. Prior hypersensitivity or intolerance to gadolinium or gallium citrate.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Michael Evans, MD",
+                "affiliation": "University of California, San Francisco",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "United States"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016403",
+                "term": "Lymphoma, Large B-Cell, Diffuse"
+              },
+              {
+                "id": "D002051",
+                "term": "Burkitt Lymphoma"
+              },
+              {
+                "id": "D008223",
+                "term": "Lymphoma"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D016393",
+                "term": "Lymphoma, B-Cell"
+              },
+              {
+                "id": "D008228",
+                "term": "Lymphoma, Non-Hodgkin"
+              },
+              {
+                "id": "D009370",
+                "term": "Neoplasms by Histologic Type"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D008232",
+                "term": "Lymphoproliferative Disorders"
+              },
+              {
+                "id": "D008206",
+                "term": "Lymphatic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D007160",
+                "term": "Immunoproliferative Disorders"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D020031",
+                "term": "Epstein-Barr Virus Infections"
+              },
+              {
+                "id": "D006566",
+                "term": "Herpesviridae Infections"
+              },
+              {
+                "id": "D004266",
+                "term": "DNA Virus Infections"
+              },
+              {
+                "id": "D014777",
+                "term": "Virus Diseases"
+              },
+              {
+                "id": "D007239",
+                "term": "Infections"
+              },
+              {
+                "id": "D014412",
+                "term": "Tumor Virus Infections"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04139395",
+            "orgStudyIdInfo": {
+              "id": "IRB-49104"
+            },
+            "organization": {
+              "fullName": "Stanford University",
+              "class": "OTHER"
+            },
+            "briefTitle": "68Ga Citrate PET/MRI for Evaluation of Fever of Unknown Origin (FUO)",
+            "officialTitle": "68Ga Citrate PET/MRI for Evaluation of Fever of Unknown Origin (FUO)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-08",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Not feasible at this time.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-01-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-12-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2021-12-20",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-10-23",
+            "studyFirstSubmitQcDate": "2019-10-23",
+            "studyFirstPostDateStruct": {
+              "date": "2019-10-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-08-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-08-22",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR_INVESTIGATOR",
+              "investigatorFullName": "Carina Mari Aparici",
+              "investigatorTitle": "Clinical Professor, Radiology/ Nuclear Medicine",
+              "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+              "name": "Carina Mari Aparici",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase III study to evaluate 68Ga Citrate PET/MRI for detection of origin of fever of unknown origin.",
+            "detailedDescription": "The purpose of this research study is to evaluate a PET tracer (68Ga-Citrate) that can localize the origin of patients diagnosed with fever of unknown origin (FUO) using a PET/MRI scanner. We hope to learn if this can detect FUO better than with the present nuclear imaging standard of care (67Ga SPECT).\n\nWe propose the following aim:\n\n\u2022 To evaluate 68Ga Citrate PET/MRI for detection of origin of fever in patients with fever of unknown origin.\n\nPatients disgnosed with fever of unknown origin are injected intravenously (IV) with 370 MBq of 68Ga Citrate. 45-60 minutes later, a whole body PET/MRI images are obtained."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Fever of Unknown Origin"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Diagnostic 68Ga-Citrate PET/MRI Imaging",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive separate scans, first a SPECT scan following administration of the 67Ga Citrate tracer (standard of care), then a PET/MRI scan following administration of the 68Ga-Citrate tracer (investigational); some participants will also receive IV gadolinium-based contrast injection. Scans will be performed 45-60 minutes following injection of the tracer.",
+                "interventionNames": [
+                  "Drug: 68Ga-Citrate PET/MRI",
+                  "Drug: 67Ga-Citrate SPECT",
+                  "Device: Positron Emission Tomography",
+                  "Device: Magnetic Resonance Imaging",
+                  "Device: SPECT"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "68Ga-Citrate PET/MRI",
+                "description": "Participants will be injected intravenously (IV) with 370 MBq of 68Ga Citrate. 45 -60 minutes after the radiopharmaceutical IV administration, whole body data acquisition at the PET/MRI suite will begin.",
+                "armGroupLabels": [
+                  "Diagnostic 68Ga-Citrate PET/MRI Imaging"
+                ],
+                "otherNames": [
+                  "Gallium-68- Citrate"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "67Ga-Citrate SPECT",
+                "description": "67Ga-Citrate will be used as the radiotracer for a regular medical care SPECT scan",
+                "armGroupLabels": [
+                  "Diagnostic 68Ga-Citrate PET/MRI Imaging"
+                ],
+                "otherNames": [
+                  "Gallium-67- Citrate"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Positron Emission Tomography",
+                "description": "Imaging with 68Ga-Citrate PET/MRI",
+                "armGroupLabels": [
+                  "Diagnostic 68Ga-Citrate PET/MRI Imaging"
+                ],
+                "otherNames": [
+                  "PET"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Magnetic Resonance Imaging",
+                "description": "Imaging with 68Ga-Citrate PET/MRI",
+                "armGroupLabels": [
+                  "Diagnostic 68Ga-Citrate PET/MRI Imaging"
+                ],
+                "otherNames": [
+                  "MRI",
+                  "Medical Imaging, Magnetic Resonance/ Nuclear Magnetic Resonance"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "SPECT",
+                "description": "Imaging with 67Ga-Citrate radiotracer. SPECT scan will be conducted as part of regular medical care.",
+                "armGroupLabels": [
+                  "Diagnostic 68Ga-Citrate PET/MRI Imaging"
+                ],
+                "otherNames": [
+                  "Single Photon Emission Computed Tomography/Computed Tomography"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Uptake detected by investigational imaging agent",
+                "description": "The uptake detected on 68Ga Citrate PET/MRI and conventional 67Ga Citrate SPECT will be compared. Outcome will be reported as infectious uptake detected per patient for each imaging method.",
+                "timeFrame": "Up to 12 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is \\>/=18 years old at the time of the scan.\n* Patient with diagnosis of FUO.\n* Patient is capable of complying with study procedures.\n* Patient can remain still for duration of imaging procedure.\n* Able to provide written consent.\n\nExclusion Criteria:\n\n* Patient is pregnant or nursing.\n* Metallic implants (contraindicated for MRI).\n* History of renal insufficiency (only for MRI contrast administration).\n* Inability to lie still for the entire imaging time.\n* Inability to complete the needed investigational and standard of care imaging examinations due to other reasons (severe claustrophobia, radiation phobia, etc.).\n* Any additional medical condition, serious intercurrent illness, or other extenuating circumstance that, in the opinion of the investigator, may significantly interfere with study compliance.\n* Known allergy, hypersensitivity, or intolerance to the investigational product or its excipients.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Carina Mari Aparici, MD",
+                "affiliation": "clinical professor",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Palo Alto",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.44188,
+                  "lon": -122.14302
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005335",
+                "term": "Fever of Unknown Origin"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005334",
+                "term": "Fever"
+              },
+              {
+                "id": "D001832",
+                "term": "Body Temperature Changes"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              },
+              {
+                "id": "D049268",
+                "term": "Positron-Emission Tomography"
+              },
+              {
+                "id": "D008279",
+                "term": "Magnetic Resonance Imaging"
+              },
+              {
+                "id": "D015899",
+                "term": "Tomography, Emission-Computed, Single-Photon"
+              },
+              {
+                "id": "D000072098",
+                "term": "Single Photon Emission Computed Tomography Computed Tomography"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D014055",
+                "term": "Tomography, Emission-Computed"
+              },
+              {
+                "id": "D007090",
+                "term": "Image Interpretation, Computer-Assisted"
+              },
+              {
+                "id": "D003952",
+                "term": "Diagnostic Imaging"
+              },
+              {
+                "id": "D019937",
+                "term": "Diagnostic Techniques and Procedures"
+              },
+              {
+                "id": "D003933",
+                "term": "Diagnosis"
+              },
+              {
+                "id": "D007089",
+                "term": "Image Enhancement"
+              },
+              {
+                "id": "D010781",
+                "term": "Photography"
+              },
+              {
+                "id": "D011877",
+                "term": "Radionuclide Imaging"
+              },
+              {
+                "id": "D014054",
+                "term": "Tomography"
+              },
+              {
+                "id": "D003947",
+                "term": "Diagnostic Techniques, Radioisotope"
+              },
+              {
+                "id": "D014057",
+                "term": "Tomography, X-Ray Computed"
+              },
+              {
+                "id": "D064847",
+                "term": "Multimodal Imaging"
+              },
+              {
+                "id": "D011856",
+                "term": "Radiographic Image Enhancement"
+              },
+              {
+                "id": "D011859",
+                "term": "Radiography"
+              },
+              {
+                "id": "D014056",
+                "term": "Tomography, X-Ray"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT00477503",
+            "orgStudyIdInfo": {
+              "id": "2006-0623"
+            },
+            "organization": {
+              "fullName": "M.D. Anderson Cancer Center",
+              "class": "OTHER"
+            },
+            "briefTitle": "Nuclear Imaging of Human CSF Flow Using Ga-67 Citrate and In-111 DTPA",
+            "officialTitle": "Phase 1 Study Nuclear Imaging of Human CSF Flow Using Ga-67 Citrate and In-111 DTPA"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2012-07",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "One participant enrolled, study terminated .",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2007-05"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2009-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2009-07",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2007-05-21",
+            "studyFirstSubmitQcDate": "2007-05-21",
+            "studyFirstPostDateStruct": {
+              "date": "2007-05-23",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2012-07-31",
+            "lastUpdatePostDateStruct": {
+              "date": "2012-08-01",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "M.D. Anderson Cancer Center",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "* Primary Objective will be to evaluate the use of Ga-67 citrate as an alternative radiopharmaceutical for CSF imaging.\n* Secondary Objective will be to evaluate the biodistribution, pharmacokinetics and radiation dosimetry of In 111 DTPA and gallium-67 after intrathecal injection during remission of leptomeningeal metastasis (LM) and during LM occurrence, remission and recurrence.",
+            "detailedDescription": "In-111 DTPA is a radioactive dye that is standardly used to check the flow of CSF. Ga-67 citrate has been used to detect inflammation and tumors in other parts of the body, and researchers want to learn if it is also able to detect tumors in the brain and spinal cord.\n\nBefore you can be enrolled in this study, you will have \"screening tests.\" These tests will help the doctor decide if you are eligible to take part in this study. Blood (about 1-2 tablespoons) will be drawn for routine tests. This routine blood draw will include a pregnancy test for women who are able to have children. To be eligible to take part in this study, the pregnancy test must be negative.\n\nIf you are found to be eligible to take part in this study, you will be assigned to 1 of 3 groups. The group you are assigned to will depend on whether tumor cells were found in the CSF during your last spinal fluid exam. If you were found to have cancer cells in the CSF and you have had no earlier treatment for this type of disease, the first 5 participants will be assigned to Group A and will be given Ga-67 citrate injection alone, in the baseline study. The next 5 participants who have cancer cells in the CSF and have had no earlier treatment will be assigned to Group B. Group B will have Ga-67 and In 111 DTPA injection in the baseline study. Otherwise, if the tumors in the CSF have been treated and are now cleared from the CSF, you will be assigned to Group C and will receive standard follow-up care.\n\nAt the beginning of the study, you will have an imaging session. This first imaging session is called the \"baseline\" session. For the imaging, you will lie on a gamma camera table. Depending on which group you are in, one or both of the radioactive dyes will be injected into your CSF through the Ommaya reservoir. If you are in Group B or C, both In-111 DTPA and Ga-67 citrate will be injected over about 2-4 minutes, total. If you are in Group A, Ga-67 citrate alone will be injected over about 2 minutes.\n\nFor participants who are 2-17 years old, the doses of In-111 DTPA and Ga-67 citrate will be adjusted to the surface area of your body (a measurement of your body size).\n\nDuring the hour immediately following the injections, your head, neck, and back areas will be imaged (scanned) in order to see how the CSF flows. After that, you will have scans of your entire body performed in order to see how quickly the radioactive dyes leave from different parts of your body. These whole-body scans will each last 20 minutes. These scans (1 each time) will occur at 1-2, 3-4, 6-8, 22-24, 28-32, 48, and 72 hours after the injections. You will have blood samples collected before injection and during each imaging session in order to measure how much radiation is absorbed by different parts of your brain, spine, and other organs. These blood samples (less than \u00bc teaspoon each time) will be drawn during each of the whole-body scans.\n\nIf you are in Group A or B, you will receive standard follow-up care for up to 52 weeks after the baseline imaging session. This is in order to check the status of the disease. If the cancer goes into remission (no tumor cells are found in CSF) at any time during the 52 weeks, you will have a follow-up imaging session. The follow-up imaging session will include the same procedures, and In-111 DTPA and/or Ga-67 citrate injections as the baseline imaging session.\n\nIf you are in Group C, you will receive standard follow-up care for up to 52 weeks after the baseline imaging session. If the cancer reappears at any time during the 52 weeks, you will have a follow-up imaging session. The follow-up imaging session will include the same procedures, and In-111 DTPA and Ga-67 citrate injections as the baseline imaging session.\n\nWhether you are in Group A, B or C, after your last follow-up imaging session, your participation in this study will be over. If your cancer clears from the spinal fluid, the records from your routine visit to the neuro-oncology clinic will be reviewed to follow your progress until 30 days after the radioisotope injection for your last imaging session. Researchers will review your medical records for potential side effects. If you do not have a clinical visit within a week from that 30th day, the study chair will contact you by phone concerning these matters.\n\nThis is an investigational study. In-111 DTPA is commercially available and FDA approved for injection into the CSF. Although Ga-67 citrate is FDA approved for injection into a vein, it is not FDA approved for injection into the CSF. It is commercially available, but injecting it into the CSF has only been authorized for use in research. Up to 20 patients will take part in this study. All will be enrolled at M. D. Anderson."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Central Nervous System Tumors",
+              "Brain Tumors"
+            ],
+            "keywords": [
+              "Central Nervous System Tumors",
+              "Brain Tumors",
+              "Leptomeningeal Metastasis",
+              "Cerebral Spinal Fluid",
+              "Human CSF Flow",
+              "Nuclear Imaging",
+              "Gallium-67 Citrate",
+              "In-111 DTPA"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group A",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Ga-67 citrate injection alone for individuals with cancer cells in cerebral spinal fluid (CSF), no earlier treatment for disease.",
+                "interventionNames": [
+                  "Drug: Gallium-67 Citrate (Ga-67)"
+                ]
+              },
+              {
+                "label": "Group B",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Ga-67 + In 111 DTPA injection for individuals who have cancer cells in CSF, no earlier treatment for disease.",
+                "interventionNames": [
+                  "Drug: Gallium-67 Citrate (Ga-67)",
+                  "Drug: In-111 DTPA (In-111 pentetate)"
+                ]
+              },
+              {
+                "label": "Group C",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Individuals with tumors in the CSF that have been treated and are now cleared from the CSF, receive standard follow-up care (baseline injection of Ga-67 citrate and In-111 DTPA).",
+                "interventionNames": [
+                  "Drug: Gallium-67 Citrate (Ga-67)",
+                  "Drug: In-111 DTPA (In-111 pentetate)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Gallium-67 Citrate (Ga-67)",
+                "description": "Group A: Ga-67 citrate injection alone, in the baseline study.\n\nGroup B: Ga-67 and In 111 DTPA injection in the baseline study.\n\nGroup C: Standard of care with Ga-67 and In 111 DTPA injection in baseline study.",
+                "armGroupLabels": [
+                  "Group A",
+                  "Group B",
+                  "Group C"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "In-111 DTPA (In-111 pentetate)",
+                "description": "Group B: Ga-67 and In 111 DTPA injection in the baseline study.\n\nGroup C: Standard of care with Ga-67 and In 111 DTPA injection in baseline study.",
+                "armGroupLabels": [
+                  "Group B",
+                  "Group C"
+                ],
+                "otherNames": [
+                  "DTPA"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To compare Ga-67 citrate with a standard radioactive dye in order to learn if Ga-67 citrate can help doctors to check the flow of CSF for any blockage.",
+                "timeFrame": "3 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must have provided informed consent.\n* Participants must be 2 years of age or older.\n* Participants must have known history of LM as established by CSF cytology.\n* Participants must have an Ommaya reservoir implanted at least 2 days before the study.\n* Participants with ventriculoperitoneal shunts are eligible as long as the shunt is not in the \"open\" position during the imaging session.\n* Participants with adequate renal and hepatic function. Creatinine =\\< 1.4 mg/dL Bilirubin =\\< 2.0 mg/dL BUN =\\< 30 SGOT (AST), alkaline phosphatase =\\<3 x upper norm (Institutional norm of SGOT = 7-56 mIU/ml and alkaline phosphatase = 38-126 IU/L.).\n* Urine analysis within normal limits.\n* Women of child bearing potential (WOCBP) must have a negative serum B-HCG pregnancy test within 7 days of treatment. WOCBP is defined as not post-menopausal for 12 months or no previous surgical sterilization.\n\nExclusion Criteria:\n\n* Participants on concurrent external beam radiation therapy to the brain or spine during the planned nuclear imaging sessions.\n* Participants on concurrent intrathecal chemotherapy during imaging sessions.\n* Participants with Karnofsky Performance Scale \\<50 or Zubrod Performance Scale \\>2.\n* Participants with known or suspected renal or hepatic disease that have not been adequately treated to achieve normalized liver function tests or renal function tests to the above eligible criteria.\n* Participants with known history of claustrophobia, as established by medical records or claimed by patient.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Franklin C Wong, M.D.",
+                "affiliation": "M.D. Anderson Cancer Center",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The University of Texas M.D. Anderson Cancer Center",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "UT MD Anderson Cancer Center website",
+                "url": "http://www.mdanderson.org"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016543",
+                "term": "Central Nervous System Neoplasms"
+              },
+              {
+                "id": "D001932",
+                "term": "Brain Neoplasms"
+              },
+              {
+                "id": "D055756",
+                "term": "Meningeal Carcinomatosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009423",
+                "term": "Nervous System Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D008577",
+                "term": "Meningeal Neoplasms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              },
+              {
+                "id": "C000615429",
+                "term": "Gallium-67"
+              },
+              {
+                "id": "D004369",
+                "term": "Pentetic Acid"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D011073",
+                "term": "Polyamines"
+              },
+              {
+                "id": "D000588",
+                "term": "Amines"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D000085",
+                "term": "Acetates"
+              },
+              {
+                "id": "D000144",
+                "term": "Acids, Acyclic"
+              },
+              {
+                "id": "D002264",
+                "term": "Carboxylic Acids"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05446376",
+            "orgStudyIdInfo": {
+              "id": "CHUBX 2020/49"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2021-002898-26",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2024-514331-24-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "University Hospital, Bordeaux",
+              "class": "OTHER"
+            },
+            "briefTitle": "Contribution of PET/CT With Gallium 68 Citrate (68Ga-PET/CT) for the Diagnosis of Prosthetic Valve Infective Endocarditis",
+            "officialTitle": "Contribution of PET/CT With Gallium 68 Citrate (68Ga-PET/CT) for the Diagnosis of Prosthetic Valve Infective Endocarditis",
+            "acronym": "CiGal-EI-TEP"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-22",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-05-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-05-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-07-01",
+            "studyFirstSubmitQcDate": "2022-07-01",
+            "studyFirstPostDateStruct": {
+              "date": "2022-07-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-08-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-08-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "University Hospital, Bordeaux",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "CiGal-EI-TEP is an exploratory study that aim to assess the diagnostic performance of 68Ga Positron emission tomography (PET) / Computed Tomography (CT) for the diagnosis of prosthetic valve infective endocarditis in comparison with the final diagnosis established according to the ESC 2023 criteria, after 3 months of follow-up, by a panel of experts.",
+            "detailedDescription": "Diagnosis of prosthetic valve infective endocarditis is challenging. It is based on the modified criteria of the European Society of Cardiology (ESC) 2023 which include clinical, microbiological and imaging data. 18F-fluorodeoxyglucose (18FDG) PET/CT is a major diagnostic criterion for prosthetic valve infective endocarditis. In practice, 18FGD-PET/CT is carried out as soon as possible in all patients having valve repair materials and suspected of infective endocarditis on material. According to studies, the sensitivity of 18FDG-PET/CT is around 80% for the diagnosis of infective endocarditis on a prosthetic valve. The use of 18FDG requires a low carbohydrate diet the day before the exam. Compliance with this condition is difficult to obtain, in diabetic patients. Without following these instructions, interpretation of the heart valves is difficult, and this can leed to false negatives. The use of an another radiopharmaceutical drug could avoid these problem. PET/CT with Gallium 68 citrate (68Ga-PET/CT) could reduce the number of false negatives while having similar specificity to 18FDG-PET/CT for the diagnosis of infective endocarditis on prosthetic valve.\n\nThe investigators therefore propose an exploratory study to assess the diagnostic performance of 68Ga-PET/CT for the diagnosis of prosthetic valve infective endocarditis in comparison with the final diagnosis established according to the ESC 2023 criteria, after 3 months of follow-up, by a panel of experts.\n\nPatient suspected of infective endocarditis on prosthetic valves will be included.\n\nThe index test (68Ga-PET/CT) and the usual test (18FDG-PET/CT) will be performed in all participants. The 68Ga-PET/CT will be performed the day before, the same day or the next day after 18FDG-PET/CT.\n\n. Both PET/CT scans will be interpreted independently by two experienced nuclear physicians, blinded to the final diagnosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Infective Endocarditis"
+            ],
+            "keywords": [
+              "prosthetic valve",
+              "PET/CT",
+              "Gallium 68",
+              "diagnosis",
+              "infective endocarditis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 19,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "68Ga-citrate PET/CT",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: 68Ga-citrate PET/CT"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "68Ga-citrate PET/CT",
+                "description": "PET/CT Imaging with 68Ga-citrate PET/CT injection",
+                "armGroupLabels": [
+                  "68Ga-citrate PET/CT"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Sensitivity of 68Ga-PET/CT for the diagnosis of prosthetic valve infective endocarditis in patients suspected of infective endocarditis on prosthetic valve",
+                "description": "The final diagnosis of infective endocarditis is established according to the ESC 2023 criteria (assessed at 3 months by a panel of experts).",
+                "timeFrame": "3 months after baseline (Day 0)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Diagnostic accuracy of 68Ga citrate PET / CT scan CT for prosthetic valve infective endocarditis in patients suspected of infective endocarditis on prosthetic valve",
+                "description": "Specificity, positive and negative predictive values of 68Ga-PET/CT for the diagnosis of infective endocarditis on prosthetic valve in patients suspected of infective endocarditis on prosthetic valve.",
+                "timeFrame": "3 months after baseline (Day 0)"
+              },
+              {
+                "measure": "Inter-observer reproducibility of 68Ga-citrate PET/CT interpretation",
+                "description": "Intraclass correlation coefficient and/or Cohen's Kappa.",
+                "timeFrame": "3 months after baseline (Day 0)"
+              },
+              {
+                "measure": "Comparison of diagnostic accuracy of 68Ga-PET/CT and 18FDG-PET/CT for the diagnosis of infective endocarditis on prosthetic valve.",
+                "description": "Sensitivity, specificity and positive and negative predictive values of 18FDG-PET/CT for the diagnosis of infective endocarditis on prosthetic valve.",
+                "timeFrame": "3 months after baseline (Day 0)"
+              },
+              {
+                "measure": "o Agreement between 68Ga-PET/CT and 18FDG-PET/CT for the evaluation of the spread of infection assessment and the search for the initial portal of pathogen entry",
+                "description": "Cohen's Kappa",
+                "timeFrame": "3 months after baseline (Day 0)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* adult patient (over 18 years old);\n* patient with a prosthetic heart valve;\n* patient suspected of infective endocarditis (on clinical and/or microbiological and/or imaging data);\n* patient whose history is discussed in the multidisciplinary meeting dedicated to endocarditis;\n* patient beneficiary of a social security scheme;\n* free, informed and written consent signed by the participant and the investigator.\n\nExclusion Criteria:\n\n* pregnant or breastfeeding women;\n* women of childbearing potential not using effective contraception;\n* patients referred to in articles L.1121-5 to L.1121-8 (persons deprived of liberty by judicial or administrative decision, minors, adults subject to a legal protection measure or unable to express their consent);\n* subject in a period of relative exclusion due to another protocol;\n* known contraindication to PET/CT with injection of radiotracers (hypersensitivity to radiopharmaceuticals and/or excipients).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Carine GREIB, MD",
+                "affiliation": "University Hospital, Bordeaux",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              },
+              {
+                "name": "Eric FRISON, MD",
+                "affiliation": "University Hospital, Bordeaux",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "CHU de Bordeaux",
+                "city": "Bordeaux",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 44.84124,
+                  "lon": -0.58046
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004696",
+                "term": "Endocarditis"
+              },
+              {
+                "id": "D004194",
+                "term": "Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006331",
+                "term": "Heart Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01951300",
+            "orgStudyIdInfo": {
+              "id": "167/2013"
+            },
+            "organization": {
+              "fullName": "Turku University Hospital",
+              "class": "OTHER_GOV"
+            },
+            "briefTitle": "68Ga-Citrate PET of Healthy Volunteers",
+            "officialTitle": "68Ga-Citrate Positron Emission Tomography (PET) of Healthy Volunteers",
+            "acronym": "SITRAT"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2015-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-09"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2015-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2015-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-09-03",
+            "studyFirstSubmitQcDate": "2013-09-23",
+            "studyFirstPostDateStruct": {
+              "date": "2013-09-26",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2015-11-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2015-11-04",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Anne Roivainen",
+              "investigatorTitle": "professor",
+              "investigatorAffiliation": "Turku University Hospital"
+            },
+            "leadSponsor": {
+              "name": "Turku University Hospital",
+              "class": "OTHER_GOV"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study investigates whole-body distribution kinetics of intravenously administered Gallium-69 (68Ga) citrate by positron emission tomography (PET)/computed tomography (CT). Thereafter, radiation dosimetry of 68Ga-citrate PET/CT will be determined.",
+            "detailedDescription": "Six healthy male volunteers are recruited in this study. Gallium-68 citrate radiopharmaceutical is intravenously injected as a bolus and whole-body distribution kinetics are studied by dynamic whole-body positron emission tomography/computed tomography. During imaging, serial venous blood samples are drawn, plasma is separated and radioactivity is measured by gamma counter. Immediately after imaging session, urine is voided and radioactivity is measured by gamma counting. As a final point, radiation dosimetry due to single Gallium-68 citrate injection is determined."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Gallium-68 citrate",
+                "type": "OTHER",
+                "description": "Intravenous bolus injection of 200 MBq of Gallium-68 citrate",
+                "interventionNames": [
+                  "Other: Gallium-68 citrate"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "Gallium-68 citrate",
+                "description": "Single intravenous bolus injection of 200 MBq of Gallium-68 citrate radiopharmaceutical",
+                "armGroupLabels": [
+                  "Gallium-68 citrate"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Whole-body distribution of Gallium-68 citrate",
+                "timeFrame": "4 hours"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Absorbed dose",
+                "description": "Absorbed ionisation radiation dose in critical organs due to intravenous bolus injection of 200 MBq of Gallium citrate",
+                "timeFrame": "4 hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* healthy 18-100 year-old men\n\nExclusion Criteria:\n\n* ongoing infection/inflammation proven by blood or other tests",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Anne Roivainen",
+                "affiliation": "Turku University Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Turku University Hospital/Turku PET Centre",
+                "city": "Turku",
+                "zip": "FI-20521",
+                "country": "Finland",
+                "geoPoint": {
+                  "lat": 60.45148,
+                  "lon": 22.26869
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03116945",
+            "orgStudyIdInfo": {
+              "id": "20150001631"
+            },
+            "organization": {
+              "fullName": "Rutgers, The State University of New Jersey",
+              "class": "OTHER"
+            },
+            "briefTitle": "Novel Gallium Imaging in Hepatocellular Carcinoma",
+            "officialTitle": "68Gallium Citrate Imaging in Newly Diagnosed Hepatocellular Carcinoma"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-12",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-06",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2020-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-04-28",
+            "studyFirstSubmitQcDate": "2017-04-11",
+            "studyFirstPostDateStruct": {
+              "date": "2017-04-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-12-31",
+            "lastUpdatePostDateStruct": {
+              "date": "2019-01-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Nasrin Ghesani",
+              "investigatorTitle": "Associate Professor",
+              "investigatorAffiliation": "Rutgers, The State University of New Jersey"
+            },
+            "leadSponsor": {
+              "name": "Rutgers, The State University of New Jersey",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Radiological Society of North America",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The aim of the present study is to validate the uptake of novel, positron emitting radiotracer, 68Gallium Citrate in hepatocellular carcinoma(HCC). The investigators also aim to evaluate the sensitivity of 68Gallium (68Ga)-citrate positron emission tomography/computed tomography (PET/CT) for the identification of intrahepatic HCC lesions in comparison with existing modalities: computed tomography (CT) alone and magnetic resonance imaging (MRI). The investigators expect that 68Ga-citrate PET/CT will offer a sensitive functional imaging modality for identification of HCC lesions in the liver. The investigators intend to use the results of this preliminary study to fuel further studies in the utility of 68Ga-citrate PET/CT for HCC treatment monitoring.",
+            "detailedDescription": "Hepatocellular carcinoma (HCC) is a malignancy of the liver with very high mortality. Management of HCC often involves interventional and surgical therapies that distort surrounding liver morphology. For this reason, current morphologic imaging techniques following these therapies often fail to distinguish between residual tumor and post-therapeutic morphologic changes. Therefore, there is the need for an effective imaging technique in therapy monitoring for HCC.\n\nFunctional imaging techniques are commonly used in other cancers for effective therapy monitoring. Functional imaging in HCC with single photon emitting gallium radioisotopes has been explored in the past but have not been used routinely due to poor resolution of images. 68Gallium-citrate PET/CT can generate high resolution images that specifically target HCC cells regardless of liver morphology. This makes 68Gallium-citrate PET/CT an ideal imaging modality for HCC following therapies that distort liver morphology.\n\nBefore determining its efficacy in therapy monitoring, The investigators aim to demonstrate the ability for 68Gallium-citrate PET/CT to localize known intrahepatic HCC lesions.\n\nIn this pilot study, 18 subjects with newly diagnosed HCC will be recruited. Each subject will undergo a 68Gallium-citrate PET/CT scan within 6 weeks of radiographic diagnosis. Foci of abnormal radiotracer uptake on these scans will be tabulated and compared to clinically-indicated morphologic imaging. The investigators expect that 68Gallium-citrate PET/CT will offer a sensitive functional imaging modality for identification of HCC lesions in the liver. The investigators intend to use the results of this preliminary study to form the basis for grant applications to extra-mural funding agencies. These subsequent grant applications will focus on further studies in the utility of 68Gallium-citrate PET/CT for HCC therapy monitoring and metastatic work-up."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hepatocellular Carcinoma"
+            ],
+            "keywords": [
+              "PET/CT",
+              "68Gallium Citrate",
+              "Hepatocellular carcinoma"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 18,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Drug; 68Gallium Citrate",
+                "type": "EXPERIMENTAL",
+                "description": "Procedure: PET/CT Imaging",
+                "interventionNames": [
+                  "Drug: 68Gallium Citrate"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "68Gallium Citrate",
+                "description": "Procedure: PET/CT Imaging",
+                "armGroupLabels": [
+                  "Drug; 68Gallium Citrate"
+                ],
+                "otherNames": [
+                  "Scintigraphy"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Uptake of positron emitting radiotracer, 68Gallium Citrate will be measured in the lesions of hepatocellular carcinoma.",
+                "description": "For each subject, presence and location of abnormal radiotracer localization will be recorded. Tumor volume will be measured on CT, MRI, and PET/CT images using the MIM software. Region-of-interest (ROI) will be drawn around each area of morphologic abnormality on PET/CT images to calculate a mean standardized uptake value (SUV), a maximum SUV, and a target-to-background ratio.",
+                "timeFrame": "One Year"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least one biopsy-confirmed or Liver Imaging Reporting and Data System (LI-RADS)- 5 HCC lesion, diagnosed within the past 6 weeks.\n* Lesion size greater than or equal to 3cm\n* At least one triple-phase CT or MRI of the liver prior to medical or surgical therapy\n\nExclusion Criteria:\n\n* Pregnant or breast-feeding women.\n* Current somatic or psychiatric disease/condition that may interfere with the objectives and assessments of the study.\n* Inability to consent\n* Prior medical or surgical therapy for HCC, including chemoembolization, radiofrequency ablation, and lobectomy\n* Known or suspected hypersensitivity to metals or gallium",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Nasrin Ghesani, MD",
+                "affiliation": "Rutgers University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Rutgers New Jersey Medical School",
+                "city": "Newark",
+                "state": "New Jersey",
+                "zip": "07103",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.73566,
+                  "lon": -74.17237
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "15508079",
+                "type": "RESULT",
+                "citation": "Gharib AM, Thomasson D, Li KC. Molecular imaging of hepatocellular carcinoma. Gastroenterology. 2004 Nov;127(5 Suppl 1):S153-8. doi: 10.1053/j.gastro.2004.09.029."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "annotationSection": {
+          "annotationModule": {
+            "unpostedAnnotation": {
+              "unpostedResponsibleParty": "Nasrin Ghesani, Associate Professor, Rutgers, The State University of New Jersey",
+              "unpostedEvents": [
+                {
+                  "type": "RELEASE",
+                  "date": "2021-09-16"
+                },
+                {
+                  "type": "RESET",
+                  "date": "2021-10-12"
+                },
+                {
+                  "type": "RELEASE",
+                  "date": "2021-11-06"
+                },
+                {
+                  "type": "RESET",
+                  "date": "2021-11-29"
+                }
+              ]
+            }
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2021-09-16",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2021-09-16",
+                  "resetDate": "2021-10-12"
+                },
+                {
+                  "releaseDate": "2021-11-06",
+                  "resetDate": "2021-11-29"
+                }
+              ]
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006528",
+                "term": "Carcinoma, Hepatocellular"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000230",
+                "term": "Adenocarcinoma"
+              },
+              {
+                "id": "D002277",
+                "term": "Carcinoma"
+              },
+              {
+                "id": "D009375",
+                "term": "Neoplasms, Glandular and Epithelial"
+              },
+              {
+                "id": "D009370",
+                "term": "Neoplasms by Histologic Type"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D008113",
+                "term": "Liver Neoplasms"
+              },
+              {
+                "id": "D004067",
+                "term": "Digestive System Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02391025",
+            "orgStudyIdInfo": {
+              "id": "145512"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "NCI-2017-01773",
+                "type": "REGISTRY",
+                "domain": "NCI Clinical Trials Reporting Program (CTRP)"
+              }
+            ],
+            "organization": {
+              "fullName": "University of California, San Francisco",
+              "class": "OTHER"
+            },
+            "briefTitle": "Gallium-68 Citrate PET Used in Prostate Cancer",
+            "officialTitle": "Gallium-68 Citrate PET To Detect MYC Amplification in Metastatic Castrate Resistant Prostate Cancer"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-05-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-06-15",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-06-15",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2015-03-04",
+            "studyFirstSubmitQcDate": "2015-03-11",
+            "studyFirstPostDateStruct": {
+              "date": "2015-03-18",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-06-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-06-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR_INVESTIGATOR",
+              "investigatorFullName": "Rahul Aggarwal",
+              "investigatorTitle": "Assistant Clinical Professor",
+              "investigatorAffiliation": "University of California, San Francisco"
+            },
+            "leadSponsor": {
+              "name": "Rahul Aggarwal",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "United States Department of Defense",
+                "class": "FED"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center, pilot, cross-sectional imaging study investigating the use of gallium-68 citrate PET in participants with metastatic castration-resistant prostate cancer who are planning to undergo a metastatic tumor biopsy on protocol NCT02432001 (CC#125519).\n\nThe study population will consist of participants with metastatic castration-resistant prostate cancer who are undergoing a metastatic tumor biopsy as part of clinical protocol NCT02432001 (CC#125519), with evidence of resistance to androgen signaling inhibition.",
+            "detailedDescription": "Primary Objective:\n\nI. To determine the association between maximum average of standard uptake value (SUVmax-ave) of target metastatic lesions on gallium-68 citrate PET with MYC amplification determined from analysis of circulating tumor DNA.\n\nSecondary Objectives:\n\nI. To determine the accuracy rate, sensitivity, specificity of gallium citrate PET in the detection of metastatic lesions as compared to standard staging scans including cross-sectional imaging of the abdomen/pelvis and whole body bone scan.\n\nII. To determine the optimal dose of gallium-68 citrate and timing of scan post-injection to maximize tumor-to-background signal.\n\nIII. To characterize the safety profile of gallium-68 citrate.\n\nOutline:\n\nThe study will involve gallium-68 PET scan obtained on a single day, followed by optional tumor biopsy within 6 weeks of gallium scan. There will be optional follow up gallium-68 citrate PET scan to assess response to treatment that will be completed within 12 weeks of baseline gallium citrate PET."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Prostatic Neoplasms"
+            ],
+            "keywords": [
+              "Metastatic",
+              "Prostate Cancer",
+              "Castrate Resistant"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Gallium-68 citrate, PET",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive a single scan obtained on a single day, followed by optional tumor biopsy within 6 weeks of scan. There will be optional follow up gallium-68 citrate PET scan to assess response to treatment received outside this study that will be completed within 12 weeks of baseline scan.",
+                "interventionNames": [
+                  "Drug: Gallium-68 citrate",
+                  "Procedure: Positron Emission Tomography (PET)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Gallium-68 citrate",
+                "description": "Given via IV at time of imaging",
+                "armGroupLabels": [
+                  "Gallium-68 citrate, PET"
+                ],
+                "otherNames": [
+                  "Gallium-68 (8^Ga) citrate",
+                  "Ga-68 citrate"
+                ]
+              },
+              {
+                "type": "PROCEDURE",
+                "name": "Positron Emission Tomography (PET)",
+                "description": "Imaging procedure",
+                "armGroupLabels": [
+                  "Gallium-68 citrate, PET"
+                ],
+                "otherNames": [
+                  "PET Scan"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Mean maximum Standardized Uptake Value (SUVmax)",
+                "description": "The mean and standard deviation of SUVmax of gallium-68 citrate (across all metastatic lesions per participant) will be reported.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Mean maximum Standardized Uptake Value (SUVmax-ave)",
+                "description": "The mean and standard deviation of SUVmax-ave of gallium-68 citrate across all participants in the study cohort will be descriptively reported.",
+                "timeFrame": "Day of imaging (1 day)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Correlation between SUVmax and MYC gene expression",
+                "description": "For participants who undergo optional tumor biopsy, with evaluable RNA sequencing data: Correlation between SUVmax on Gallium-68 Citrate PET and MYC gene expression level, reported as the Pearson correlation coefficient. The coefficient correlation has a value between +1 and -1, where 1 is total positive linear correlation, 0 is no linear correlation, and -1 is total negative linear correlation.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Correlation between SUVmax and transferrin receptor gene expression",
+                "description": "For participants who undergo optional tumor biopsy, with evaluable RNA sequencing data: Correlation between SUVmax on Gallium-68 Citrate PET and transferrin receptor gene expression level, reported as the Pearson correlation coefficient. The coefficient correlation has a value between +1 and -1, where 1 is total positive linear correlation, 0 is no linear correlation, and -1 is total negative linear correlation.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Mean SUVmax-ave percent change from baseline",
+                "description": "For participants who undergo optional follow up gallium-68 citrate PET scan, the mean percent change from baseline in SUVmax-ave will be descriptively reported.",
+                "timeFrame": "Up to 12 weeks"
+              },
+              {
+                "measure": "Sensitivity of gallium-68 PET",
+                "description": "Using as a cut-off to define a positive lesion on gallium-68 citrate PET as a lesion with SUV at least 1.5 times higher than mediastinal blood pool, the sensitivity value of gallium-68 PET will be descriptively reported on a lesion-per-lesion basis, using as reference standard staging scans including CT or MRI of the chest/abdomen/pelvis and whole body bone scan.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Specificity of gallium-68 PET",
+                "description": "Using as a cut-off to define a positive lesion on gallium-68 citrate PET as a lesion with SUV at least 1.5 times higher than mediastinal blood pool, the specificity of gallium-68 PET will be descriptively reported on a lesion-per-lesion basis, using as reference standard staging scans including CT or MRI of the chest/abdomen/pelvis and whole body bone scan.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Positive predictive value (PPV) of gallium-68 PET",
+                "description": "Using as a cut-off to define a positive lesion on gallium-68 citrate PET as a lesion with SUV at least 1.5 times higher than mediastinal blood pool, the positive predictive value of gallium-68 PET will be descriptively reported on a lesion-per-lesion basis, using as reference standard staging scans including CT or MRI of the chest/abdomen/pelvis and whole body bone scan.",
+                "timeFrame": "Day of imaging (1 day)"
+              },
+              {
+                "measure": "Number of participants with reported treatment-emergent adverse events",
+                "description": "The frequency and severity of adverse events following gallium-68 citrate injection will be descriptively reported, using CTCAE version 4.03.",
+                "timeFrame": "Up to 12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male participants with histologically confirmed prostate cancer\n* Participants must have castrate levels of testosterone (\\< 50 ng/dL) on Luteinizing hormone-releasing hormone (LHRH) analogue or have had prior bilateral orchiectomy, with evidence of castration-resistant disease by Prostate Cancer Clinical Trials Working Group 2 (PCWG2) criteria\n* Age 18 years or older at the time of study entry\n* Minimum of at least three discrete metastatic lesions in the bone and/or soft tissue amenable to whole body Positron Emission Tomography (PET) imaging per the judgment of study radiologist\n\nFor participants who undergo optional metastatic tumor biopsy following completion of gallium citrate PET:\n\n* Presence of one or more metastases by standard radiographic scans that is safely accessible to tumor biopsy in the judgment of treating clinician and/or Interventional Radiology\n\nExclusion Criteria:\n\n* Contra-indications to MRI, including permanent pacemaker, implantable device, aneurysm clip, or severe claustrophobia (for participants planning to be imaged on PET/ Magnetic resonance imaging(MRI) scanner)\n* Active infection within 14 days of study enrollment\n\nFor participants who undergo optional metastatic tumor biopsy following completion of gallium citrate PET:\n\n* History of radiation therapy to the target metastatic lesion selected for tumor biopsy\n* Contra-indication to biopsy including uncontrolled bleeding diathesis.\n* Platelets \\>75,000/\u03bcl and prothrombin time (PT) or international normalized ratio (INR) and a partial prothrombin time (PTT) \\< 1.5 times the institutional upper limit of normal (ULN) within 14 days prior to biopsy.",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Rahul Aggarwal, MD",
+                "affiliation": "University of California, San Francisco",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of California, San Francisco",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94143",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "ICF",
+                "hasProtocol": false,
+                "hasSap": false,
+                "hasIcf": true,
+                "label": "Informed Consent Form",
+                "date": "2022-09-13",
+                "uploadDate": "2023-06-15T20:31",
+                "filename": "ICF_000.pdf",
+                "size": 237517
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D011471",
+                "term": "Prostatic Neoplasms"
+              },
+              {
+                "id": "D009362",
+                "term": "Neoplasm Metastasis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005834",
+                "term": "Genital Neoplasms, Male"
+              },
+              {
+                "id": "D014565",
+                "term": "Urogenital Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D005832",
+                "term": "Genital Diseases, Male"
+              },
+              {
+                "id": "D000091662",
+                "term": "Genital Diseases"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D011469",
+                "term": "Prostatic Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D009385",
+                "term": "Neoplastic Processes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              },
+              {
+                "id": "C000615430",
+                "term": "Gallium-68"
+              },
+              {
+                "id": "D019343",
+                "term": "Citric Acid"
+              },
+              {
+                "id": "D009682",
+                "term": "Magnetic Resonance Spectroscopy"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002951",
+                "term": "Citrates"
+              },
+              {
+                "id": "D014233",
+                "term": "Tricarboxylic Acids"
+              },
+              {
+                "id": "D000144",
+                "term": "Acids, Acyclic"
+              },
+              {
+                "id": "D002264",
+                "term": "Carboxylic Acids"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D013057",
+                "term": "Spectrum Analysis"
+              },
+              {
+                "id": "D002623",
+                "term": "Chemistry Techniques, Analytical"
+              },
+              {
+                "id": "D008919",
+                "term": "Investigative Techniques"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03669614",
+            "orgStudyIdInfo": {
+              "id": "AR-501-001"
+            },
+            "organization": {
+              "fullName": "Aridis Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "SAD and MAD of Inhaled AR-501 in Health Adults and P. Aeruginosa Infected Cystic Fibrosis Subjects",
+            "officialTitle": "A Phase 1/2a Randomized, Double-Blind, Two-Part, Dose-Ascending, Multicenter Study of the Safety and PK of AR-501 (Gallium Citrate), Administered Via Inhalation, in Healthy Adult and P. Aeruginosa Infected Cystic Fibrosis Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-03",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-12-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2023-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-08-30",
+            "studyFirstSubmitQcDate": "2018-09-11",
+            "studyFirstPostDateStruct": {
+              "date": "2018-09-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-03-07",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-03-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Aridis Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase 1/2a randomized, double-blind, two-part, dose-ascending, multicenter study of AR-501 (gallium citrate) solution, administered via inhalation, in healthy adult and P. aeruginosa infected cystic fibrosis (CF) subjects. Phase 1 of the study in HV subjects will consist of a single-ascending-dose (SAD) cohort, followed by the HV multiple-ascending-dose (MAD) cohort. Phase 2a of the study in CF subjects will consist of a MAD study design. The study will evaluate the safety and pharmacokinetic (PK) profile of single and repeat administrations of inhaled AR-501 solution in healthy adults, and the safety, PK and efficacy of repeat administrations of inhaled AR-501 solution in P. aeruginosa infected CF subjects.",
+            "detailedDescription": "Three dose levels (low, medium and high) will be assessed in succession, first in healthy volunteer (HV) subjects, then four ascending doses will be assessed in cystic fibrosis (CF) subjects. The study will be performed in 2 parts: Phase 1 part of the study in HV subjects will consist of a single-ascending-dose (SAD) cohort, followed by the HV multiple-ascending-dose (MAD) cohort. Phase 2a part of the study in CF subjects will consist of a MAD study design.\n\nThe HV cohort will include up to 48 subjects. The CF cohort will have 54 subjects. Thus, the total number of subjects is 102.\n\nThe Phase 1 HV study will be performed at a Phase 1 Clinical Study Unit and the Phase 2a will be performed at approximately 24 clinical trial sites located in the United States and possibly in Europe, some of which may be part of the Cystic Fibrosis Foundation (CFF)-accredited Therapeutic Development Network (TDN) or the European Cystic Fibrosis Society Clinical Trial Network (ECFS-CTN). Subjects who meet all eligibility criteria, including giving informed consent, will be enrolled and undergo a screening period of 28 days for HV cohorts and 42 days for CF Cohorts.\n\nThe HV cohort will include up to 24 adult subjects in 3 dose groups (8 per dose group \\[Low, Medium and High\\]) for the SAD phase of the study. In each dose group, subjects will be randomly assigned in a 3:1 ratio to the active drug or placebo, resulting in 6 subjects receiving inhaled AR-501 and 2 receiving inhaled placebo in a double-blind manner. The HV MAD phase of the study will include 24 adult subjects in 3 dose groups (8 per dose group \\[Low, Medium and High\\]). In each dose group, subjects will be randomly assigned in a 3:1 ratio to active study drug or placebo, resulting in 6 subjects receiving inhaled AR-501 and 2 receiving inhaled placebo in a double-blind manner. All subjects in HV MAD cohorts will receive once weekly inhaled study drug (either AR-501 or matching placebo) for 4 weeks for a total of 5 doses.\n\nThe CF MAD cohort will evaluate 4 different dose levels for a total of 54 adult CF. Of the 54 subjects, 40 will be randomized to receive one of the three ascending doses of AR-501, while 14 will be randomized to receive placebo. All subjects in CF cohorts will receive once weekly inhaled study drug (either AR-501 or matching placebo) for 2 weeks for a total of 3 doses.\n\nThe primary purpose of this study is to assess preliminary clinical safety of inhaled AR-501. The true frequency of AEs is unknown, and the sample size cannot be estimated accurately. For unknown AEs, the probabilities of observing at least 1 AE among 36 total healthy adult subjects and 40 adult CF subjects receiving any AR-501 dose are \u2265 80% if the true rate of such events are at least 4.4% and 4.8% respectively."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "Cystic Fibrosis",
+              "Gallium Citrate",
+              "Pseudomonas Aeruginosa"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "This study is a dose-escalation, placebo-controlled study where subjects are randomized to receive study drug or placebo.\n\nSAD and MAD HV Phases: The HV SAD and MAD will each include up to 24 adult subjects in 3 groups (8 per dose group) in each the SAD and MAD phase . All subjects will be randomly assigned in a 3:1 ratio to receive a single administration of active drug (12 HVs) or placebo (4 HVs).\n\nThe CF MAD will evaluate 4 different dose levels in a total of 54 adult CF subjects (10 per dose level). The first 3 subjects (sentinel subjects) in the low, medium and high dose level will be randomly assigned at a 2:1 ratio to receive either AR-501 or placebo, for a total of 9 CF subjects. An expanded cohort will randomize 30 adult subjects at a 2:3:3:2 ratio to three doses of inhaled AR-501 or placebo. Subsequently an 80mg Ga dose (top dose) cohort will randomize subjects at a 2:1 ratio to receive either AR 501 or placebo for a total of 15 subjects , including 6 sentinel subjects.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "This is a standard double-blind randomized controlled trial.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 102,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "AR-501 inhaled",
+                "type": "EXPERIMENTAL",
+                "description": "Four doses (low, medium, high, top) of inhaled AR-501 will be used.",
+                "interventionNames": [
+                  "Drug: Inhaled AR-501"
+                ]
+              },
+              {
+                "label": "inhaled AR-501 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Four doses (low, medium, high, top) of inhaled placebo will be used",
+                "interventionNames": [
+                  "Drug: Inhaled Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Inhaled AR-501",
+                "description": "single and multiple ascending doses of inhaled AR-501",
+                "armGroupLabels": [
+                  "AR-501 inhaled"
+                ],
+                "otherNames": [
+                  "Inhaled Gallium Citrate"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Inhaled Placebo",
+                "description": "single and multiple ascending doses of inhaled placebo",
+                "armGroupLabels": [
+                  "inhaled AR-501 Placebo"
+                ],
+                "otherNames": [
+                  "Control (inhaled placebo)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Clinical safety profile (adverse events) - Single Ascending Dose",
+                "description": "Evaluation of adverse events in HV subjects",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Clinical safety profile (adverse events) - Multiple Ascending Dose",
+                "description": "Evaluation of adverse events in HV and CF subjects",
+                "timeFrame": "up to 28 days after last dose administration"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD Cmax",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: Observed maximum concentration (Cmax)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD Tmax",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: time to reach maximum concentration (Tmax)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD AUC0-inf",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: area under the time-concentration curve (AUC) from time zero to infinity (AUC0-inf)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD AUC0-last",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: area under the time-concentration curve (AUC) from time zero to the last dose (AUC0-last)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD \u03bbz",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: terminal elimination rate (\u03bbz)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD t\u00bd",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: half-life (t\u00bd)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - SAD Clp",
+                "description": "Pharmacokinetics Characteristics in Single Ascending Dose HV Subjects: plasma clearance (Clp)",
+                "timeFrame": "28 days following dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD Cmax",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: Observed maximum concentration (Cmax)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD Tmax",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: time to reach maximum concentration (Tmax)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD AUC0-inf",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: area under the time-concentration curve (AUC) from time zero to infinity (AUC0-inf)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD AUC0-last",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: area under the time-concentration curve (AUC) from time zero to the last dose (AUC0-last)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD \u03bbz",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: terminal elimination rate (\u03bbz)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD t\u00bd",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: half-life (t\u00bd)",
+                "timeFrame": "up to 28 days after last dose administration"
+              },
+              {
+                "measure": "Pharmacokinetics (PK) Profile - MAD Clp",
+                "description": "Pharmacokinetics Characteristics in Multiple Ascending Dose CF Subjects: plasma clearance (Clp)",
+                "timeFrame": "up to 28 days after last dose administration"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria (HV Subjects):\n\n1. Written informed consent given by the subject.\n2. At least \u2265 18 years old and \\< 50 years of age.\n3. Healthy with no acute medical condition for \u2265 2 weeks prior to screening and no known chronic medical condition requiring regular medical follow up and care.\n4. Body mass index (BMI) between 18 and 30 kg/m2, inclusive.\n5. Currently nonsmoking and no history of using nicotine/tobacco-containing products for \u2265 5 years prior to screening.\n6. Normal chest X-ray, per opinion of the Investigator.\n7. FEV1 \u2265 80% of predicted values.\n8. No history or current illicit, pharmaceutical drug or alcohol abuse within \u2264 5 years prior to screening.\n9. A female subject must meet one of the following criteria:\n\n   If of childbearing potential - agrees to use one of the accepted contraceptive regimens from at least 30 days prior to the first administration of the study medication, during the study, and for at least 90 days after the last dose of the study medication. An acceptable method of contraception includes one of the following:\n   * Abstinence from heterosexual intercourse\n   * Hormonal contraceptives (birth control pills, injectable/implant/insertable hormonal birth control products, transdermal patch)\n   * Intrauterine device (with or without hormones), OR\n   * Agrees to use a double barrier method (e.g., condom and spermicide) during the study and for at least 90 days after the last dose of the study medication\n\n   If a female of non-childbearing potential, the subject should be surgically sterile (i.e., has undergone complete hysterectomy, bilateral oophorectomy, or tubal ligation) or in a menopausal state (at least 1 year without menses), as confirmed by follicle stimulating hormone (FSH) levels.\n10. A male subject must agree to use a double barrier method (e.g., condom and spermicide) during the study and for at least 90 days after the last dose of the study medication.\n\nInclusion Criteria (CF Subjects):\n\n1. Written informed consent given by the subject.\n2. At least18 years old\n3. Documentation of a CF diagnosis as evidenced by one or more clinical features consistent with the CF phenotype and one or more of the following criteria:\n\n   * Sweat chloride equal to or greater than 60 mmol/liter by quantitative pilocarpine iontophoresis test (QPIT)\n   * Two well-characterized, disease-causing mutations in the cystic fibrosis transmembrane conductance regulator (CFTR) gene.\n4. Confirmation of current colonization/infection with P. aeruginosa defined as: a positive sputum or oropharyngeal swab culture at screening.\n5. Respiratory symptoms and CF status are stable with no acute exacerbation at the time of randomization.\n6. BMI \u2265 18 kg/m2\n7. Currently non-smoking and no history of using nicotine/tobacco-containing products or smoking/vaping (inhaled tobacco products or other inhaled substances) for \u2265 1 year prior to screening.\n8. FEV1 \u2265 45% of predicted values.\n9. Serum creatinine and total bilirubin are both \\< 1.5 x upper limit of normal (ULN) range (isolated bilirubin \\> 1.5 x ULN range is acceptable if bilirubin is fractionated and direct bilirubin is \\< 35%).\n10. A female subject must meet one of the following criteria:\n\n    * If of childbearing potential - agrees to use one of the accepted contraceptive regimens from at least 21 days prior to the first administration of the study medication, during the study, and for at least 28 days after the last dose of the study medication. An acceptable method of contraception includes one of the following:\n\n      * Abstinence from heterosexual intercourse\n      * Hormonal contraceptives (birth control pills, injectable/implant/insertable hormonal birth control products, transdermal patch)\n      * Intrauterine device (with or without hormones), OR\n      * Agrees to use a double barrier method (e.g., condom and spermicide) during the study and for at least 28 days after the last dose of the study medication\n    * If a female of non-childbearing potential, the subject should be surgically sterile (i.e., has undergone complete hysterectomy, bilateral oophorectomy, or tubal ligation) or in a menopausal state (at least 1 year without menses), as confirmed by FSH levels.\n11. A male subject must agree to use a double barrier method (e.g., condom and spermicide) during the study and for at least 28 days after the last dose of the study medication.\n12. Ability to produce an oropharyngeal sample (e.g., Expectorated Sputum or throat swab).\n\nExclusion Criteria (HV Subjects):\n\nNone of the following criteria can be met.\n\n1. Female subjects who are currently pregnant or lactating.\n2. Oral temperature above 37.5\u00baC at the time of screening or prior to randomization.\n3. Clinically abnormal renal function, evidenced by serum creatinine \\> 1.5 mg/dL.\n4. Need for using any nephrotoxic agents during the study.\n5. Known allergy or hypersensitivity to albuterol.\n6. Significantly abnormal liver function:\n\n   1. Total bilirubin \\>1.5 x upper limit of the normal range (ULN),\n   2. Alanine aminotransferase (ALT) and/or aspartate aminotransferase (AST) \\> 3 x ULN and alkaline phosphatase (ALP) \\> 2 x ULN\n7. Hemoglobin \\<10 g/dL\n8. Abnormal corrected serum calcium concentration prior to enrollment.\n9. History or current use of illicit, pharmaceutical drug or alcohol abuse within 5 years prior to screening.\n10. Positive urine screen for alcohol, cotinine and/or drugs of abuse at screening and admission.\n11. Positive test results for Human Immunodeficiency Virus (HIV)-1/HIV-2 antibodies, Hepatitis B surface antigen (HBsAg) or Hepatitis C virus antibody (HCVAb).\n12. Inability to comply with any study requirements based on judgement of the Investigator.\n13. Any medical, psychological, cognitive, social or legal conditions that would interfere in the ability to give an informed consent and/or participate fully in the study.\n14. Participation in another clinical trial involving receipt of an investigative product within 30 days before screening.\n15. Any other reason as determined by an Investigator.\n\nExclusion Criteria (CF Subjects):\n\nNone of the following criteria can be met.\n\n1. Female subjects who are currently pregnant or lactating.\n2. Oral temperature above 37.5\u00baC (or temporal temperature above 38.0\u00baC) at the time of screening or prior to randomization.\n3. Serum creatinine \\> 1.5 mg/dL or known significant kidney disease.\n4. Significantly abnormal liver function:\n\n   1. Total bilirubin \\> 1.5 x ULN range,\n   2. ALT and/or AST \\> 3 x ULN range and ALP \\> 2 x ULN range.\n5. History of medically attended hemoptysis \\< 1 year (small amount of blood streaking in sputum is acceptable).\n6. Pulmonary exacerbations within 3 months prior to randomization (defined as requiring IV antibiotics), in the hospital or at home.\n7. Hemoglobin \\< 10 g/dL.\n8. Abnormal corrected serum calcium concentration prior to randomization (normal range is typically 8.5-10.2 mg/dL).\n9. Any change (initiation, change in type of drug, dose modification, schedule modification, interruption, discontinuation, or re-initiation) in a chronic treatment/prophylaxis regimen for CF or CF-related conditions within 2 weeks prior to randomization.\n10. Known allergy or hypersensitivity to albuterol or any component of the study drug or placebo\n11. Use of illicit, pharmaceutical drug or alcohol abuse within 6 months prior to screening.\n12. Positive urine screen for alcohol, cotinine and/or drugs of abuse at screening (positive results for a subject on Orkambi should have a confirmatory test for cannabinoids performed, e.g., reflex testing, to rule out cross reaction with Orkambi).\n13. History of positive test result for human immunodeficiency virus (HIV) HIV-1/HIV-2 antibodies, HBsAg or chronic hepatitis C virus infection.\n14. Inability to comply with any study requirements based on judgement of the Investigator.\n15. Any medical, psychological, cognitive, social or legal conditions that would interfere in the ability to give an informed consent and/or participate fully in the study.\n16. Participation in another clinical trial involving receipt of an investigative product within 30 days before randomization.\n17. Suspected or confirmed acute respiratory infection (Examples: bacterial pneumonia, influenza, COVID-19).\n18. Any other reason as determined by an Investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "49 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Lynne M Deans, MT",
+                "role": "CONTACT",
+                "phone": "4083851742",
+                "email": "clinicaltrial@aridispharma.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Hasan S Jafri, MD, FAAP",
+                "affiliation": "Aridis Pharmaceuticals, Inc.",
+                "role": "STUDY_DIRECTOR"
+              },
+              {
+                "name": "Alan H Cohen, MD",
+                "affiliation": "Aridis Pharmaceuticals, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Long Beach",
+                "state": "California",
+                "zip": "90806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.76696,
+                  "lon": -118.18923
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Denver",
+                "state": "Colorado",
+                "zip": "80206",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.73915,
+                  "lon": -104.9847
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Hollywood",
+                "state": "Florida",
+                "zip": "33021",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.0112,
+                  "lon": -80.14949
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33136",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32803",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Tampa",
+                "state": "Florida",
+                "zip": "33606",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 27.94752,
+                  "lon": -82.45843
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60093",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "55242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "COMPLETED",
+                "city": "Overland Park",
+                "state": "Kansas",
+                "zip": "66212",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.98223,
+                  "lon": -94.67079
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Portland",
+                "state": "Maine",
+                "zip": "04102",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.65737,
+                  "lon": -70.2589
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21204",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48201",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68198",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10532",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Oklahoma City",
+                "state": "Oklahoma",
+                "zip": "73104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.46756,
+                  "lon": -97.51643
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Tyler",
+                "state": "Texas",
+                "zip": "75708",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.35126,
+                  "lon": -95.30106
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84132",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "facility": "Research Site",
+                "status": "RECRUITING",
+                "city": "Spokane",
+                "state": "Washington",
+                "zip": "99204",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.65966,
+                  "lon": -117.42908
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "The Sponsor has not assessed whether to make individual participant data (IPD) available to other researchers."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D011552",
+                "term": "Pseudomonas Infections"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D016905",
+                "term": "Gram-Negative Bacterial Infections"
+              },
+              {
+                "id": "D001424",
+                "term": "Bacterial Infections"
+              },
+              {
+                "id": "D001423",
+                "term": "Bacterial Infections and Mycoses"
+              },
+              {
+                "id": "D007239",
+                "term": "Infections"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02855190",
+            "orgStudyIdInfo": {
+              "id": "103-7226A"
+            },
+            "organization": {
+              "fullName": "Chang Gung Memorial Hospital",
+              "class": "OTHER"
+            },
+            "briefTitle": "Comparative Study With Different Tracers (18F-FDG and 68Gallium Citrate) in the Diagnosis of Periprosthetic Joint Infection",
+            "officialTitle": "Pilot Comparative Study of PET/MR and PET/CT With Different Tracers (18F-FDG and 68Gallium Citrate) in the Diagnosis of Periprosthetic Joint Infection"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-06",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2018-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-07-28",
+            "studyFirstSubmitQcDate": "2016-08-01",
+            "studyFirstPostDateStruct": {
+              "date": "2016-08-04",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2018-06-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-06-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Tzu-Chen Yen",
+              "investigatorTitle": "Principal Investigator",
+              "investigatorAffiliation": "Chang Gung Memorial Hospital"
+            },
+            "leadSponsor": {
+              "name": "Chang Gung Memorial Hospital",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-labelled two-arm pilot comparative prospective study. All the subjects will undergo image assessment in the two stages of exchange arthroplasty surgery. At the first stage, each enrolled subject will receive both FDG and Ga68 citrate PET/CT scans before the first operation for periprosthetic Joint Infection (PJI). Thus, the test results of FDG and Ga68 for each individual can be obtained. After the first operation, the surgery/biopsy proof can be obtained as the gold standard. The subjects those with PJI negative will complete the process at the first stage.\n\nAnd the second stage of this study will be based on the subjects with positive PJI from the first operation. They will receive both FDG and Ga68 citrate PET/MR scans after antibiotic bone cement was implanted. The sensitivity/accuracy of the two tracers for PET/MR can be calculated and compared. This stage is aimed to answer whether PET/MR scan is a feasible imaging tool to provide diagnostic information of infection control status after the resection arthroplasty of hip/knee PJIs, especially with the implantation of antibiotic loaded bone cement.\n\nIn the second stage, the investigators shift the imaging modality to PET/MR based on the following reasons: (1) MRI itself has no radiation burden; (2) MRI provides more accurate tissue contrast information and therefore better anatomic delineation; and (3) currently there was no study indicating the existence of ABLC may hamper the interpretation of images.\n\nThe study duration is expected to be completed in a period of 3 year. It plans to enrol a total of 40 evaluable subjects with suspicious. And we expect the PJI prevalence will be around 75%, i.e. the anticipated number of subjects of true PJI is around 30. The sample size and the prevanence is given based on the clinical availability and consideration.",
+            "detailedDescription": "The recruited subject subject with periprosthetic joint infection will undergo total four PET scans at two different stages. At first stage, subsequent FDG PET/CT and Ga68 citrate PET/CT scans on different two days will be arranged before infective prosthesis is removed. Eight to twelve weeks after the 1st stage operation, patient will receive two subsequent PET/MR scans using Ga-68 Citrate and FDG on different two days, respectively. The PET images will be visually examined by a nuclear medicine physician and will be reported if any abnormal uptake higher than background by their location and standard uptake value (SUV). The CT/MR images will be reported by a radiologist using standard reading procedures, respectively. The lesions on the PET scan will be correlated to the computed tomography and magnetic resonance images, and the final sensitivity, specificity, and accuracy will be calculated according to the histopathology results or composite clinical and laboratory data.\n\nOn the scan day using Ga68-Citrate, baseline electrocardiogram, complete blood count (CBC), and biochemistry profiles including serum alanine transaminase (ALT) and creatinine (Cre) level will be done prior to injection of the radio-pharmaceutical (Ga68-Citrate). Vital signs will be measured before the scan beginning. After completing exam, the electrocardiogram and vital signs will be measure again, and the subject will be released if there is no discomfort. The subject will return to the clinic within 1 week after Ga68-citrate scan. CBC, biochemistry profiles will be checked again for safety monitoring."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Infection and Inflammatory Reaction Due to Internal Joint Prosthesis"
+            ],
+            "keywords": [
+              "Ga68-citrate",
+              "FDG",
+              "PET/MR and PET/CT",
+              "Periprosthetic joint infection"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 30,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "68Ga-citrate and 18F-FDG PET scans",
+                "type": "EXPERIMENTAL",
+                "description": "The recruited subject with surgery/pathology proved periprosthetic joint infection will undergo total four PET scans at two different stages. At first stage, subsequent FDG PET/CT and Ga68 citrate PET/CT scans on different two days will be arranged before infective prosthesis is removed. Eight to twelve weeks after the 1st stage operation, patient will receive two subsequent PET/MR scans using Ga-68 Citrate and FDG on different two days, respectively. For the subject without surgery/pathology proved infection, PET/MR scans will NOT be applied.",
+                "interventionNames": [
+                  "Other: 68Ga-citrate and 18F-FDG PET scans"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "68Ga-citrate and 18F-FDG PET scans",
+                "description": "68Ga-citrate and 18F-FDG PET/CT or PET/MR scans before operations",
+                "armGroupLabels": [
+                  "68Ga-citrate and 18F-FDG PET scans"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "sensitivity and specificity of the two PET/CT tracers (18F-FDG and 68Gallium citrate) in detecting periprosthetic joint infection",
+                "timeFrame": "3 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with clinically-proved or -suspicious periprosthetic joint infection and treated with two-stage exchange arthroplasty\n2. Age equals or more than 20 years old\n3. Willing to sign the informed consent\n\nExclusion Criteria:\n\n1. Unable to tolerate PET/MR or PET/CT scan, such as those with magnetic implants (e.g. those received intracranial aneurysm surgery, cardiac pacemaker, artificial valves replacement, artificial ears), renal impairment (glomerular filtration rate lower than 30 ml/min/1.73 m2), claustrophobia, unable to lie still, allergy to medium contrast.\n2. Unable to give informed consent\n3. Patient who is pregnant or lactating\n4. Unwilling to use contraceptives during nuclide medicine examinations.\n5. Allergy history to FDG or Ga68-citrate, significant abnormal lab data, and high risk to conduct examination after evaluations of PI.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "20 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yen Tzu-Chen, MD,PhD",
+                "role": "CONTACT",
+                "phone": "03-328-1200",
+                "phoneExt": "2744",
+                "email": "yen1110@adm.cgmh.org.tw"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Yen Tzu-Chen, MD,PhD",
+                "affiliation": "Chang Gung Memorial Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Chang Gung Memorial Hospital at Linkou",
+                "status": "RECRUITING",
+                "city": "Taoyuan",
+                "zip": "333",
+                "country": "Taiwan",
+                "contacts": [
+                  {
+                    "name": "Jing-Ren Tseng, MD",
+                    "role": "CONTACT",
+                    "phone": "+886- 3281200",
+                    "phoneExt": "2744",
+                    "email": "drtsengjr@gmail.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 24.99368,
+                  "lon": 121.29696
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "21844889",
+                "type": "RESULT",
+                "citation": "Bauman G, Belhocine T, Kovacs M, Ward A, Beheshti M, Rachinsky I. 18F-fluorocholine for prostate cancer imaging: a systematic review of the literature. Prostate Cancer Prostatic Dis. 2012 Mar;15(1):45-55. doi: 10.1038/pcan.2011.35. Epub 2011 Aug 16."
+              },
+              {
+                "pmid": "22956807",
+                "type": "RESULT",
+                "citation": "Mohler JL, Armstrong AJ, Bahnson RR, Boston B, Busby JE, D'Amico AV, Eastham JA, Enke CA, Farrington T, Higano CS, Horwitz EM, Kantoff PW, Kawachi MH, Kuettel M, Lee RJ, MacVicar GR, Malcolm AW, Miller D, Plimack ER, Pow-Sang JM, Roach M 3rd, Rohren E, Rosenfeld S, Srinivas S, Strope SA, Tward J, Twardowski P, Walsh PC, Ho M, Shead DA. Prostate cancer, Version 3.2012: featured updates to the NCCN guidelines. J Natl Compr Canc Netw. 2012 Sep;10(9):1081-7. doi: 10.6004/jnccn.2012.0114."
+              },
+              {
+                "pmid": "22448197",
+                "type": "RESULT",
+                "citation": "Picchio M, Castellucci P. Clinical Indications of C-Choline PET/CT in Prostate Cancer Patients with Biochemical Relapse. Theranostics. 2012;2(3):313-7. doi: 10.7150/thno.4007. Epub 2012 Mar 12."
+              },
+              {
+                "pmid": "22448198",
+                "type": "RESULT",
+                "citation": "Schwarzenbock S, Souvatzoglou M, Krause BJ. Choline PET and PET/CT in Primary Diagnosis and Staging of Prostate Cancer. Theranostics. 2012;2(3):318-30. doi: 10.7150/thno.4008. Epub 2012 Mar 15."
+              },
+              {
+                "pmid": "20599424",
+                "type": "RESULT",
+                "citation": "Beer AJ, Eiber M, Souvatzoglou M, Schwaiger M, Krause BJ. Radionuclide and hybrid imaging of recurrent prostate cancer. Lancet Oncol. 2011 Feb;12(2):181-91. doi: 10.1016/S1470-2045(10)70103-0. Epub 2010 Jul 6."
+              },
+              {
+                "pmid": "23628493",
+                "type": "RESULT",
+                "citation": "Umbehr MH, Muntener M, Hany T, Sulser T, Bachmann LM. The role of 11C-choline and 18F-fluorocholine positron emission tomography (PET) and PET/CT in prostate cancer: a systematic review and meta-analysis. Eur Urol. 2013 Jul;64(1):106-17. doi: 10.1016/j.eururo.2013.04.019. Epub 2013 Apr 19."
+              },
+              {
+                "pmid": "23462678",
+                "type": "RESULT",
+                "citation": "Wetter A, Lipponer C, Nensa F, Beiderwellen K, Olbricht T, Rubben H, Bockisch A, Schlosser T, Heusner TA, Lauenstein TC. Simultaneous 18F choline positron emission tomography/magnetic resonance imaging of the prostate: initial results. Invest Radiol. 2013 May;48(5):256-62. doi: 10.1097/RLI.0b013e318282c654."
+              },
+              {
+                "pmid": "15126770",
+                "type": "RESULT",
+                "citation": "Abuzallouf S, Dayes I, Lukka H. Baseline staging of newly diagnosed prostate cancer: a summary of the literature. J Urol. 2004 Jun;171(6 Pt 1):2122-7. doi: 10.1097/01.ju.0000123981.03084.06."
+              },
+              {
+                "pmid": "23703457",
+                "type": "RESULT",
+                "citation": "Souvatzoglou M, Eiber M, Martinez-Moeller A, Furst S, Holzapfel K, Maurer T, Ziegler S, Nekolla S, Schwaiger M, Beer AJ. PET/MR in prostate cancer: technical aspects and potential diagnostic value. Eur J Nucl Med Mol Imaging. 2013 Jul;40 Suppl 1:S79-88. doi: 10.1007/s00259-013-2445-4. Epub 2013 May 24."
+              },
+              {
+                "pmid": "30607646",
+                "type": "DERIVED",
+                "citation": "Tseng JR, Chang YH, Yang LY, Wu CT, Chen SY, Wan CH, Hsiao IT, Yen TC. Potential usefulness of 68Ga-citrate PET/CT in detecting infected lower limb prostheses. EJNMMI Res. 2019 Jan 3;9(1):2. doi: 10.1186/s13550-018-0468-3."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D007239",
+                "term": "Infections"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C103850",
+                "term": "gallium citrate"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03123289",
+            "orgStudyIdInfo": {
+              "id": "20160000134"
+            },
+            "organization": {
+              "fullName": "Rutgers, The State University of New Jersey",
+              "class": "OTHER"
+            },
+            "briefTitle": "Novel Gallium 68 Citrate in Orthopedic Infections",
+            "officialTitle": "Novel Gallium 68 Citrate in Orthopedic Infections"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-04",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "PI left the institute and the funding expired.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-03-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-10-14",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2020-10-14",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-04-04",
+            "studyFirstSubmitQcDate": "2017-04-18",
+            "studyFirstPostDateStruct": {
+              "date": "2017-04-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-04-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-04-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Nasrin Ghesani",
+              "investigatorTitle": "Associate Professor",
+              "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+            },
+            "leadSponsor": {
+              "name": "Rutgers, The State University of New Jersey",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "In the proposed study, our aim is to evaluate the uptake of 68Gallium-citrate in patients with failed joint prosthesis and compare it with that of conventional 18fluorine-fluorodeoxyglucose (18F-FDG) positron emission tomography/computed tomography (PET/CT) scan. We will perform PET/CT scan with 68Gallium citrate and 18F-FDG in subjects with failed hip or knee prosthesis. Both 68Gallium-citrate and 18F-FDG scans, done within 24-48 hours from each other, will be performed within 4 weeks before surgical evaluation/revision of the hardware."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Joint Prosthesis"
+            ],
+            "keywords": [
+              "PET/CT",
+              "68Gallium Citrate",
+              "Orthopedic Hardware infection"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "Same patients are scanned with two radiotracers within 24-48 hours. Results of the two scans are compared against each other.",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "68Gallium-citrate",
+                "type": "EXPERIMENTAL",
+                "description": "This arm, undergoing the \"68-Gallium citrate PET/CT scan intervention\", includes the PET/CT scans performed with 68Gallium-citrate radiotracer. Note that same patients scanned with different radiotracers serve in both arms.",
+                "interventionNames": [
+                  "Drug: 68-Gallium citrate PET/CT scan"
+                ]
+              },
+              {
+                "label": "18F-FDG",
+                "type": "EXPERIMENTAL",
+                "description": "This arm, undergoing the \"18F FDG PET/CT scan intervention\", includes the PET/CT scans performed with 18F-FDG tracer.\n\nNote that same patients scanned with different radiotracers serve in both arms.",
+                "interventionNames": [
+                  "Drug: 18F FDG PET/CT scan"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "68-Gallium citrate PET/CT scan",
+                "description": "After establishment of an intravenous access, approximately 5 mCi of 68Ga-citrate (Zevacor Molecular, Somerset, NJ, USA) will be administered intravenously. Whole body PET/CT scan will be performed after 60 minutes of uptake phase.",
+                "armGroupLabels": [
+                  "68Gallium-citrate"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "18F FDG PET/CT scan",
+                "description": "Subjects will undergo FDG PET/CT scan using the same imaging parameters either on the same day or within the next 24-48 hours. The subjects will be requested to fast for a minimum of 4 h prior to PET acquisition. After confirmation of a blood glucose level \u2264200 mg/dl, technologists will establish the intravenous access and the subject will receive approximately 10 mCi of 18F-FDG (Zevacor Molecular, Somerset, NJ, USA) intravenously. The subject will be placed in uptake room for 60 minutes to allow for optimal localization of the compound. The subjects will be requested to void prior to administration of 18FDG and again prior to image acquisition.",
+                "armGroupLabels": [
+                  "18F-FDG"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "68Gallium-citrate and 18F-FDG uptake (SUV) surrounding the femoral and acetabular components of the prosthesis",
+                "description": "The radiotracer uptake in SUV units is measured in different Gruen zones around the prosthesis and normalized by that of the liver. The values of the two scans will be compared against each other for all patients.",
+                "timeFrame": "1 year"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Sensitivity, specificity, and accuracy of 68Gallium-citrate and 18F-FDG scans, by using surgical pathology results as the gold standard.",
+                "description": "Using the surgical histology and tissue culture as the gold standard, sensitivity and specificity of both techniques will be calculated. The aim is determine which modality has more accuracy to differentiate septic prosthesis failure from aseptic entities.",
+                "timeFrame": "1 year"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 6 months after hip replacement with complaint of joint pain.\n* Radiographic studies compatible with prosthesis loosening (i.e. periprosthetic infection or aseptic loosening).\n* Pending surgical evaluation and tissue sampling within the next few weeks to differentiate between infection and aseptic loosening.\n\nExclusion Criteria:\n\n* Inability to consent\n* Pregnancy or known or suspected hypersensitivity to metals or gallium\n* Joint replacement for any reason other than primary or secondary osteoarthritis\n* Prior surgical therapy for prosthesis failure after initial hospital discharge\n* Active inflammatory/infectious process at any location other than prosthetic joint (Sarcoidosis, Rheumatoid arthritis, HIV infection, SLE)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Nasrin Ghesani, MD",
+                "affiliation": "Rutgers University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Rutgers New Jersey Medical School",
+                "city": "Newark",
+                "state": "New Jersey",
+                "zip": "07103",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.73566,
+                  "lon": -74.17237
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2018-02-06",
+                "uploadDate": "2020-11-19T14:36",
+                "filename": "Prot_000.pdf",
+                "size": 392057
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2018-02-06",
+                "uploadDate": "2021-04-12T17:17",
+                "filename": "SAP_001.pdf",
+                "size": 99295
+              },
+              {
+                "typeAbbrev": "ICF",
+                "hasProtocol": false,
+                "hasSap": false,
+                "hasIcf": true,
+                "label": "Informed Consent Form",
+                "date": "2018-02-06",
+                "uploadDate": "2020-11-19T14:37",
+                "filename": "ICF_002.pdf",
+                "size": 273788
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2021-09-16",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2021-09-16",
+                  "resetDate": "2021-10-13",
+                  "mcpReleaseN": 8
+                },
+                {
+                  "releaseDate": "2021-11-07",
+                  "resetDate": "2021-12-06",
+                  "mcpReleaseN": 9
+                }
+              ]
+            }
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

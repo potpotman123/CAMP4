@@ -1,0 +1,195 @@
+{
+  "asset": "GCB-002",
+  "query": "GCB-002",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=GCB-002&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06739434",
+            "orgStudyIdInfo": {
+              "id": "GCB-002-101"
+            },
+            "organization": {
+              "fullName": "Genecombio Ltd.",
+              "class": "OTHER"
+            },
+            "briefTitle": "GCB-002 in Treatment of Patients With Rett Syndrome",
+            "officialTitle": "An Open Label, Single Arm, Dose Escalation Clinical Study Evaluating the Safety, Tolerability, and Initial Efficacy of GCB-002 in the Treatment of Female Subjects With MECP2 Gene Mutation in Patients With Rett Syndrome",
+            "acronym": "GITFPWRS"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-11",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-12-12",
+            "studyFirstSubmitQcDate": "2024-12-16",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Genecombio Ltd.",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Study Brief Summary overall design This study explored dose escalation of single-arm, open, single intrathecal injection in female RTT subjects with MECP2 gene mutations. The investigator plans to conduct 2-3 dose groups. It is expected that each dose group will enroll 3 subjects, with a total of 6-9 female RTT subjects aged 2-10 years old due to MECP2 gene mutations.\n\ndose escalation\n\n1. For safety reasons, each subject in the first dose group needs to complete a 30-day safety observation. After the researcher determines that it is safe and tolerable, the next subject can be enrolled in the group;\n2. The follow-up dose group adopts a sentinel test design, with the first case of each dose group being a sentinel. The first subject needs to complete a 30-day safety observation, and after the researcher determines that it is safe and tolerable, the remaining subjects can be enrolled in the group;\n3. If none of the three subjects in a certain dose group developed DLT, the study will proceed to the next higher dose group;\n4. If there are no safety issues and no adverse events of dose escalation termination in dose group 2 (see dose termination escalation rules), the researcher and funding unit (Genecombio) will conduct a comprehensive evaluation of the safety data and efficacy trends of all subjects in dose group 2 to determine whether to escalate to dose group 3;\n5. During the DLT observation period, if the subject does not observe DLT and the researcher believes that continuing treatment can bring clinical benefits to the subject, the subject will continue to receive treatment; During the DLT observation period, if there is no occurrence of DLT or \u2265 grade 2 adverse events related to the investigational drug, it will be escalated to the next dose group. If the subject experiences grade \u2265 2 adverse events related to the study drug, the dose group will be expanded to 3 subjects for further observation of drug safety, and a \"3+3\" rule will be applied from this dose group onwards. Each subject in each dose group will be enrolled on a case by case basis.\n\nAccording to the \"Technical Guidelines for Long term Follow up Clinical Research of Gene Therapy Products (Trial)\", in clinical studies, subjects can automatically enter the long-term follow-up research stage after the last follow-up (52 weeks after administration), and the follow-up period is 5 years after the initial administration."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "RETT Syndrome With Proven MECP2 Mutation"
+            ],
+            "keywords": [
+              "Rett",
+              "MECP2"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Low dose",
+                "type": "EXPERIMENTAL",
+                "description": "Low dose is the first cohort of the study with a low dose level.",
+                "interventionNames": [
+                  "Genetic: GCB-002"
+                ]
+              },
+              {
+                "label": "High dose",
+                "type": "EXPERIMENTAL",
+                "description": "High dose is the first cohort of the study with a high dose level.",
+                "interventionNames": [
+                  "Genetic: GCB-002"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "GCB-002",
+                "description": "GCB-002 is a self-complementary AAV9 carrying a full length human MECP2 transgenetic product.",
+                "armGroupLabels": [
+                  "High dose",
+                  "Low dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the incidence of drug-related adverse events from baseline to 52 weeks after administration",
+                "timeFrame": "0-52 weeks"
+              },
+              {
+                "measure": "Evaluate the changes from baseline using the Clinical Global Impression Scale - Overall Improvement (CGI-I) after 52 weeks of administration",
+                "description": "This 7-point scale (1 = very much improved, 7 = very much worse, etc.) is used by the clinician to assess the participant's overall performance status; higher scores indicate increased severity.",
+                "timeFrame": "0-52 weeks"
+              },
+              {
+                "measure": "Evaluate the changes in the Patient's Global Impressions of Improvement (PGI-I) scale compared to baseline after 52 weeks of drug administration",
+                "description": "This 7-point scale (1 = very much improved, 7 = very much worse, etc.) is used by the clinician to assess the participant's overall performance status; higher scores indicate increased severity.",
+                "timeFrame": "0-52 weeks"
+              },
+              {
+                "measure": "Evaluate the changes in Rett Syndrome Behavior Questionnaire (RSBQ) compared to baseline after 52 weeks of drug administration",
+                "description": "The RSBQ is a 45-item questionnaire and is completed by the participant's Caregiver. Scores (0 = not true, 1 = somewhat/sometimes true, or 2 = very true) are applied to subscales including General Mood, Breathing Problems, Fear/Anxiety, Walking/Standing, etc.; higher scores indicate greater severity.",
+                "timeFrame": "0-52 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age range from 2 to 10 years old, female;\n2. The clinical diagnosis of the subject is RTT, and after genetic testing, it was found to be a pathogenic variant of the MECP2 gene;\n3. The legal guardian is able to understand the requirements and procedures of the research plan, voluntarily participate, and sign an informed consent form.\n\nExclusion Criteria:\n\n1. Has participated in or is currently participating in other RTT drug clinical trials or other AAV gene therapy clinical studies;\n2. The subject has a history of head injuries that can cause neurological disorders such as epilepsy, physical disabilities, etc;\n3. The subject has MECP2 gene mutation but does not cause RTT;\n4. Subjects with allergic constitution, including those allergic or hypersensitive to prednisolone, other glucocorticoids, their excipients, and local anesthetics;\n5. The subjects had status epilepticus in the 3 months prior to enrollment;\n6. Subjects require invasive or non-invasive ventilation support;\n7. Serum anti AAV9 neutralizing antibody titer\\>1:200;\n8. During the screening visit, subjects with the following abnormal findings: ALT, AST, and \u03b3-glutamyl transferase (GGT) levels all \u22651.0\u00d7ULN, TBIL \u22651.0\u00d7ULN; serum creatinine (Scr) \\>1.0\u00d7ULN; activated partial thromboplastin time (APTT) prolonged \\>1.5\u00d7ULN / INR \\>1.5; platelet count (PLT) \\<100\u00d710\\^9/L or investigator judgment that PLT results are abnormal and clinically significant;\n9. Contraindications for lumbar puncture or intrathecal therapy exist;\n10. Positive for human immunodeficiency virus antibody, or hepatitis B surface antigen, or hepatitis C antibody, or Treponema pallidum antibody, or current TORCH viral infection, or current Epstein-Barr virus infection;\n11. Combination use of any of the following drugs within 90 days prior to administration, and planned immunotherapy therapy (cyclosporine, tacrolimus, methotrexate, cyclophosphamide, intravenous immunoglobulin, rituximab) other than prophylactic medication as specified in the protocol within 3 months after the start of the trial;\n12. The researchers believe that it is not suitable to participate in this study.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "2 Years",
+            "maximumAge": "10 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200092",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

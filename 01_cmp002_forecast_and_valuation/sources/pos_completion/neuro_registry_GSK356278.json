@@ -1,0 +1,1120 @@
+{
+  "asset": "GSK356278",
+  "query": "GSK356278",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=GSK356278&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01573819",
+            "orgStudyIdInfo": {
+              "id": "115719"
+            },
+            "organization": {
+              "fullName": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Repeat Dose Study in Healthy Volunteers Investigating Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK356278",
+            "officialTitle": "A Randomised, Placebo Controlled, Ascending, Repeat Dose Study in Healthy Volunteers Investigating Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK356278"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-11-24",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-04-02",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-04-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-02-16",
+            "studyFirstSubmitQcDate": "2012-04-05",
+            "studyFirstPostDateStruct": {
+              "date": "2012-04-10",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2017-06-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-06-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "The study drug, GSK356278, is a possible new medicine for the treatment of Huntington's disease. Huntington's disease, which is often called HD, is caused by a faulty gene that is passed down through families. HD causes damage to nerve cells in the brain which causes them to waste away. As the damage progresses patients develop symptoms that affect every aspect of life. HD reduces people's ability to walk, talk, think, communicate and causes uncontrolled movements. GSK356278 may slow down the progression of damage to nerve cells in people with HD and help with their ability to think.\n\nGSK356278 was well tolerated when it was given as a single dose to healthy people. In this study we want to see what effects, both good and bad, GSK356278 has in people when it is taken every day. During the study we will look at about 3 different doses of GSK356278 in about 36 healthy people. The study will also look at how GSK356278 tablets behave in the body after it is swallowed (this is called pharmacokinetics). The study will also look at effects of GSK356278 on the body (this is called pharmacodynamics). The study will help to design future clinical studies with GSK356278."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "repeat dose",
+              "PDE4",
+              "healthy volunteers",
+              "GSK356278"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "SINGLE",
+                "whoMasked": [
+                  "PARTICIPANT"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 36,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 2mg per day for 10 days",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of Xmg for 14 days. the dose will be determined from Cohort 1 not to exceed 14 mg",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "a single dose of Ymg with a wash out of 7 days followed by 28 days of repeat dosing. The dose (Ymg) will be determined from cohort 1 and 2 not to exceed 14 mg.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GSK356278",
+                "description": "Cohort 1: A dose of 2mg per day for 10 days; Cohort 2: A dose of Xmg for 14 days. the dose will be determined from Cohort 1 not to exceed 14 mg; Cohort 3: a single dose of Ymg with a wash out of 7 days followed by 28 days of repeat dosing. The dose (Ymg) will be determined from cohort 1 and 2 not to exceed 14 mg.",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Cohort 1, a placebo per day for 10 days Cohort 2, a placebo per day for 14 days Cohort 3, a single placebo with a wash out of 7 days followed by 28 days of repeat dosing of a placebo per day.",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Composite (or Profile) of Pharmacokinetics",
+                "description": "The primary pharmacokinetic endpoints following oral administration are: peak plasma concentration (Cmax), time of peak plasma concentration (tmax), area under the plasma concentration-time curve over the dose interval , and area under the plasma concentration-time curve from time-zero extrapolated to infinite time, accumulation ratio (Ro), terminal half-life (t\u00bd ), apparent oral clearance (CL/F) and trough concentration.",
+                "timeFrame": "Cohort 1 for 288 hours post dose; Cohort 2 for 384 hours post dose; Cohort 3 single dose session for 72 hours; Cohort 3 repeat dose session for 744 hours post dose."
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline measures for vital signs",
+                "timeFrame": "Cohort 1 for 15 days post dose; Cohort 2 for 19 days post dose; Cohort 3 single dose session for 4 days post dose; Cohort 3 repeat dose for 33 days post dose."
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for 12-lead ECGs",
+                "timeFrame": "Cohort 1 for 15 days post dose; Cohort 2 for 19 days post dose; Cohort 3 single dose session for 4 days post dose; Cohort 3 repeat dose for 33 days post dose."
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for telemetry ECGs",
+                "timeFrame": "Cohort 1 for 8 hours 30 minutes on Day 1 and Day 10; Cohort 2 for 8 hours 30 minutes on Day 1 and Day 14; Cohort 3 single dose session for 8 hours 30 minutes on Day 1; Cohort 3 repeat dose for 8 hours 30 minutes on Day 1 on Day28."
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for clinical laboratory tests",
+                "description": "hematology, chemistry, liver function enzymes, troponin, B-type natriuretic peptide, inflammatory markers (Haptoglobin, fibrinogen, CRP, IL-6) and urinalysis",
+                "timeFrame": "Cohort 1 for up to 28 days; Cohort 2 for up to 32 days; Cohort 3 single dose for 2 days; Cohort 3 repeat dose for up to 46 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for clinical lab tests",
+                "description": "Inflammatory markers (Haptoglobin, fibrinogen, CRP, IL-6)",
+                "timeFrame": "Cohort 1 for 11 days; Cohort 2 for 15 days; Cohort 3 single dose for 2 days; Cohort 3 repeat dose for 29 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for echocardiography",
+                "timeFrame": "Cohort 1 for 12 days; Cohort 2 for 16 days; Cohort 3 repeat dose for 30 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for Bond and Lader VAS",
+                "timeFrame": "Cohort 1 for 10 days; Cohort 2 for 14 days; Cohort 3 single dose for 2-3 hours post dose on Day 1; Cohort 3 repeat dose for 28 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for Columbia Suicide Severity Rating Scale (C-SSRS)",
+                "timeFrame": "Cohort 1 for 14 days; Cohort 2 for 18 days; Cohort 3 repeat dose for 32 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline for Rhodes Index of Nausea, Vomiting and Retching",
+                "timeFrame": "Cohort 1 for 11 days; Cohort 2 for 15 days; Cohort 3 single dose for 2 days; Cohort 3 repeat dose for 28 days"
+              },
+              {
+                "measure": "Safety and tolerability parameters including change from baseline in the collection of adverse events",
+                "timeFrame": "Cohort 1 for 14 days; Cohort 2 for up to 32 days; Cohort 3 single dose for 4 days; Cohort 3 repeat dose for up to 46 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacodynamic parameters including change from baseline for electroencephalography",
+                "timeFrame": "Cohort 2 for 13 days Cohort 3 repeat dose for 25 days"
+              },
+              {
+                "measure": "Pharmacodynamic parameters including change from baseline for cognition test",
+                "timeFrame": "Cohort 2 for 12 days Cohort 3 repeat dose for 26 days"
+              },
+              {
+                "measure": "Pharmacodynamic parameters including change from baseline for plasma Brain-derived neurotrophic factor",
+                "timeFrame": "Cohort 1 for 11 days; Cohort 2 for 15 days; Cohort 3 single dose session for 2 days; Cohort 3 repeat dose session for 29 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* AST, ALT, alkaline phosphatase and bilirubin less than and equal to 1.5xULN (isolated bilirubin greater than 1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin less than 35%).\n* Healthy as determined by a responsible and experienced physician, based on a medical evaluation including medical history, physical examination, laboratory tests and cardiac monitoring. A subject with a clinically significant abnormality or laboratory parameters significantly outside the reference range for the population being studied may be included only if the Investigator and the GSK Medical Monitor agree that the finding is unlikely to introduce additional risk factors and will not interfere with the study procedures.\n* Male or female between 18 and 65 years of age inclusive, at the time of signing the informed consent.\n* A female subject is eligible to participate if she is of: Non-childbearing potential is defined as pre-menopausal females with a documented tubal ligation or hysterectomy; or postmenopausal defined as 12 months of spontaneous amenorrhea. In questionable cases a blood sample with simultaneous follicle stimulating hormone (FSH) greater than 40 MlU/ml and estradiol less than 40 pg/ml (less than 147 pmol/L) is confirmatory. Females on hormone replacement therapy (HRT) and whose menopausal status is in doubt will not be eligible for the study.\n* Male subjects with female partners of child-bearing potential must agree to use one of the contraception methods listed in the protocol (contraception requirements). This criterion must be followed from the time of the first dose of study medication until the follow up visit.\n* Body weight greater than and equal to 50 kg and BMI within the range 19 - 30 kg/m2 (inclusive).\n* Capable of giving written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.Average of triplicate QTcF less than 450 msec (on an average of triplicate values)\n* Normal echocardiography, plasma troponin and BNP levels confirmed before first dose\n\nExclusion Criteria:\n\n* A positive pre-study Hepatitis B surface antigen or positive Hepatitis C antibody result within 3 months of screening\n* Chronic history of liver disease, or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* A positive pre-study drug/alcohol screen.\n* A positive test for HIV antibody.\n* History of regular alcohol consumption within 6 months of the study defined as: An average weekly intake of greater than 21 units for males or greater than 14 units for females. One unit is equivalent to 8 g of alcohol: a half-pint (approximately 240 ml) of beer, 1 glass (125ml) of wine or 1 (25 ml) measure of spirits.\n* The subject has participated in a clinical trial and has received an investigational product within the following time period prior to the first dosing day in the current study: 30 days, 5 half-lives or twice the duration of the biological effect of the investigational product (whichever is longer).\n* Exposure to more than four new chemical entities within 12 months prior to the first dosing day.\n* Use of prescription or non-prescription drugs, including vitamins, herbal and dietary supplements (including St John's Wort) within 7 days (or 14 days if the drug is a potential enzyme inducer) or 5 half-lives (whichever is longer) prior to the first dose of study medication, unless in the opinion of the Investigator and GSK Medical Monitor the medication will not interfere with the study procedures or compromise subject safety.\n* History of sensitivity to any of the study medications, or components thereof or a history of drug or other allergy that, in the opinion of the investigator or GSK Medical Monitor, contraindicates their participation.\n* Where participation in the study would result in donation of blood or blood products in excess of 500 mL within a 30 day period.\n* Unwillingness or inability to follow the procedures outlined in the protocol.\n* Urinary cotinine levels indicative of smoking or history or regular use of tobacco or nicotine-containing products within 6 months prior to screening.\n* Unable to refrain from consumption of red wine, seville oranges, grapefruit or grapefruit juice and/or pummelos, exotic citrus fruits, grapefruit hybrids from 7 daysprior to the first dose of study medication.\n* Any history of suicidal behaviours or any suicidal ideation of type 4 or 5 on the CSSR in the last six months.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "GSK Clinical Trials",
+                "affiliation": "GlaxoSmithKline",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "GSK Investigational Site",
+                "city": "Zuidlaren",
+                "zip": "9471 GP",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 53.09417,
+                  "lon": 6.68194
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Researchers can use this site to request access to anonymised patient level data and/or supporting documents from clinical studies to conduct further research.",
+                "url": "https://www.clinicalstudydatarequest.com"
+              },
+              {
+                "label": "Results for study 115719 can be found on the GSK Clinical Study Register.",
+                "url": "https://www.gsk-clinicalstudyregister.com/study/115719?search=study&search_terms=115719#rs"
+              }
+            ],
+            "availIpds": [
+              {
+                "id": "115719",
+                "type": "Annotated Case Report Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Individual Participant Data Set",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Clinical Study Report",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Study Protocol",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Statistical Analysis Plan",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Dataset Specification",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "115719",
+                "type": "Informed Consent Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Patient-level data for this study will be made available through www.clinicalstudydatarequest.com following the timelines and process described on this site."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000590928",
+                "term": "5-(5-((2,4-dimethylthiazol-5-yl)methyl)-1,3,4-oxadiazol-2-yl)-1-ethyl-N-(tetrahydro-2H-pyran-4-yl)-1H-pyrazolo(3,4-b)pyridin-4-amine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01031186",
+            "orgStudyIdInfo": {
+              "id": "113324"
+            },
+            "organization": {
+              "fullName": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "First Time in Human Study",
+            "officialTitle": "A First Time in Human Study to Assess the Safety, Tolerability and Pharmacokinetics of GSK356278 (PDE4 Inhibitor) in Healthy Volunteers",
+            "acronym": "FTIM"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2009-11-23",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2010-04-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2010-04-07",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2009-11-05",
+            "studyFirstSubmitQcDate": "2009-12-10",
+            "studyFirstPostDateStruct": {
+              "date": "2009-12-14",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2017-07-25",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-07-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will evaluate the safety, tolerability, and pharmacokinetics of GSK356278 in male volunteers",
+            "detailedDescription": "To evaluate the safety, tolerability and pharmacokinetics of single ascending doses of GSK356278 and may assess the effect of food on GSK356278 pharmacokinetics. They study will assess the compound's effect on nausea, emesis and alertness. Close monitoring of cardiovascular parameters will be included."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Depressive Disorder and Anxiety Disorders"
+            ],
+            "keywords": [
+              "healthy male volunteers",
+              "GSK356278",
+              "first time in man",
+              "major depressive disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "SINGLE",
+                "whoMasked": [
+                  "PARTICIPANT"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1, Session 1",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 1, the subjects will be administered 0.5 mg GSK356278 and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 1, Session 2",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 2, the subjects will be administered GSK356278 (0.5 mg and 1.5 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 1, Session 3",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 3, the subjects will be administered GSK356278 (1.5 mg and 4 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 1, Session 4",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 4, the subjects will be administered GSK356278 (4 mg and 8 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 1, Session 5",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 5, the subjects will be administered GSK356278 8 mg and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 2, Session 1",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 1, the subjects will be administered 8 mg GSK356278 and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 2, Session 2",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 2, the subjects will be administered GSK356278 (8 mg and 16 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 2, Session 3",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 3, the subjects will be administered GSK356278 (16 mg and 30 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 2, Session 4",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 4, the subjects will be administered GSK356278 (30 mg and 50 mg) and placebo in a fasted state.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              },
+              {
+                "label": "Cohort 2, Session 5",
+                "type": "EXPERIMENTAL",
+                "description": "In Dosing Session 5, the subjects will be administered GSK356278 50 mg and placebo in a fasted state. The subjects will undergo food assessment session in Session 5 incase they experience nausea. In food assessment session, the subjects will receive a dose of GSK356278 after a standard breakfast.",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: PLACEBO"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GSK356278",
+                "description": "GSK356278",
+                "armGroupLabels": [
+                  "Cohort 1, Session 1",
+                  "Cohort 1, Session 2",
+                  "Cohort 1, Session 3",
+                  "Cohort 1, Session 4",
+                  "Cohort 1, Session 5",
+                  "Cohort 2, Session 1",
+                  "Cohort 2, Session 2",
+                  "Cohort 2, Session 3",
+                  "Cohort 2, Session 4",
+                  "Cohort 2, Session 5"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PLACEBO",
+                "description": "PLACEBO",
+                "armGroupLabels": [
+                  "Cohort 1, Session 1",
+                  "Cohort 1, Session 2",
+                  "Cohort 1, Session 3",
+                  "Cohort 1, Session 4",
+                  "Cohort 1, Session 5",
+                  "Cohort 2, Session 1",
+                  "Cohort 2, Session 2",
+                  "Cohort 2, Session 3",
+                  "Cohort 2, Session 4",
+                  "Cohort 2, Session 5"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To assess safety and tolerability of single escalating oral doses of GSK356278 in healthy male volunteers",
+                "timeFrame": "72 hours"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To investigate the pharmacokinetics of single escalating doses of GSK356278 in healthy male volunteers",
+                "timeFrame": "72 hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* AST, ALT, alkaline phosphate and bilirubin less than or equal to 1.5 times upper limit of normal.\n* Healthy as determined by a responsible and experienced physician based on a medical evaluation including medical history, physical examination, laboratory tests and cardiac monitoring.\n* Males aged between 18 and 65 years inclusive at the time of signing the informed consent.\n* Males must agree to appropriate forms of contraception from administration of first dose through to 3 months after taking the final dose.\n* Body weight greater than or equal to 50 kg and BMI within the range of 18-29.9 m2 (inclusive)\n* Capable of giving written informed consent.\n* QTcB or QTcF less than 450 msec\n\nExclusion Criteria:\n\n* A positive pre-study Hep B or positive Hep C result within 3 months of screening.\n* Current or chronic history of liver disease or known hepatic or biliary abnormalities\n* A positive pre-study alcohol and drug screen\n* A positive test for HIV antibody.\n* History of regular alcohol consumption within 6 months of the study defined as an average weekly intake of greater than 21 units or average daily intake of greater than 3 units\n* The subject has participated in a clinical trial and has received investigational product within the time period of 30 days prior to first dosing day (or 5 half-lives or twice the duration of the biological effect of the drug, whichever is longer)\n* Exposure to more than 4 new chemical entities in the last 12 months prior to the first dosing day\n* Use of prescription or non-prescription drugs including vitamins, herbal and dietary supplements within 7 days (or 14 days if the drug is a potential enzyme inducer) or 5 half-lives (whichever is longer) prior to the first dose unless in the opinion of the investigator and medical monitor the medication will not interfere with the study procedures or compromise subject safety.\n* History of sensitivity to any of the study medication or history of drug or other allergy that in the opinion of the investigator or medical monitor contraindicates their participation.\n* Where participation in the study would result in donation of blood or blood products in excess of 500 ml within a 56 day period.\n* Unwillingness or inability to follow the procedures in the protocol.\n* Subject is mentally or legally incapacitated.\n* Subjects who have asthma or a history of asthma.\n* Urinary cotinine levels indicative of smoking or history of regular use of tobacco or nicotine containing products within 6 months prior to screening.\n* Consumption of red wine, seville oranges, grapefruit or grapefruit juice and/or pummelos, exotic citrus fruits, grapefruit hybrids or fruit juices from 7 days prior to the first dose.\n* History of any significant psychiatric illness.\n* Any history of suicidal behaviour or any suicidal ideation of type 4 or 5 on the Columbia Suicide Severity Rating Scale in the last 6 months.\n* History of presence of clinically significant cardiac arrhythmias or other clinically significant cardiac disease.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "GSK Clinical Trials",
+                "affiliation": "GlaxoSmithKline",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "GSK Investigational Site",
+                "city": "Randwick",
+                "state": "New South Wales",
+                "zip": "2031",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.91439,
+                  "lon": 151.24895
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Results for study 113324 can be found on the GSK Clinical Study Register.",
+                "url": "https://gsk-clinicalstudyregister.com/study/113324?search=study&search_terms=113324#rs"
+              },
+              {
+                "label": "Researchers can use this site to request access to anonymised patient level data and/or supporting documents from clinical studies to conduct further research.",
+                "url": "https://www.clinicalstudydatarequest.com"
+              }
+            ],
+            "availIpds": [
+              {
+                "id": "113324",
+                "type": "Informed Consent Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Individual Participant Data Set",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Annotated Case Report Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Clinical Study Report",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Study Protocol",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Dataset Specification",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "113324",
+                "type": "Statistical Analysis Plan",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Patient-level data for this study will be made available through www.clinicalstudydatarequest.com following the timelines and process described on this site."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003866",
+                "term": "Depressive Disorder"
+              },
+              {
+                "id": "D001008",
+                "term": "Anxiety Disorders"
+              },
+              {
+                "id": "D003865",
+                "term": "Depressive Disorder, Major"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019964",
+                "term": "Mood Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000590928",
+                "term": "5-(5-((2,4-dimethylthiazol-5-yl)methyl)-1,3,4-oxadiazol-2-yl)-1-ethyl-N-(tetrahydro-2H-pyran-4-yl)-1H-pyrazolo(3,4-b)pyridin-4-amine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01602900",
+            "orgStudyIdInfo": {
+              "id": "116038"
+            },
+            "organization": {
+              "fullName": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Healthy Volunteer Positron Emission Tomography (PET) Brain Occupancy Study of a Phosphodiesterase 4 (PDE4) Inhibitor in Huntington's Disease",
+            "officialTitle": "An Open Label Positron Emission Tomography Study in Healthy Male Subjects to Investigate Brain PDE4 Engagement, Pharmacokinetics and Safety of Single Oral Doses of GSK356278, Using 11C-(R)-Rolipram as a PET Ligand(s)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-11-22",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-04-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-04-12",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-12-01",
+            "studyFirstSubmitQcDate": "2012-05-17",
+            "studyFirstPostDateStruct": {
+              "date": "2012-05-21",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2017-06-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-06-20",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will investigate if a new experimental drug to treat Huntington's Disease gets into the brain. If it does get into the brain the study will explore the relationship between the amount of drug in the brain and the amount of drug in the blood. The study will involve healthy male volunteers.",
+            "detailedDescription": "This is an open label, non-randomized, adaptive design PET occupancy study in healthy adult males. The primary aim of this study is to describe the relationship between plasma concentrations and brain PDE4 occupancy of GSK356278 over time. Up to 24 healthy volunteers may be administered single doses of GSK356278 in order to obtain 12 evaluable complete data sets of occupancy estimates. This study will help to optimize the dose selection for future clinical studies with GSK356278."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GSK356278",
+                "type": "EXPERIMENTAL",
+                "description": "Investigational drug",
+                "interventionNames": [
+                  "Drug: GSK356278",
+                  "Drug: Rolipram"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GSK356278",
+                "description": "Investigational Medicinal Product",
+                "armGroupLabels": [
+                  "GSK356278"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Rolipram",
+                "description": "Challenge Agent",
+                "armGroupLabels": [
+                  "GSK356278"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Positron Gamma-ray emmision & voxel counts",
+                "description": "Brain regions of interest and associated radionuclitide-activity",
+                "timeFrame": "60 minutes"
+              },
+              {
+                "measure": "systemic plasma concentration",
+                "description": "serial sampling: GSK356278 concentration expressed as mass per unit of volume",
+                "timeFrame": "24 hours"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Blood pressure - mm/Hg",
+                "description": "Standard clinical pharmacology safety monitoring of vital signs",
+                "timeFrame": "24 hours"
+              },
+              {
+                "measure": "ECG - 12-Lead & Telemetry",
+                "description": "Standard clinical pharmacology safety monitoring",
+                "timeFrame": "24 & 72 hours"
+              },
+              {
+                "measure": "Heart rate - bpm",
+                "description": "Standard clinical pharmacology safety monitoring of vital signs",
+                "timeFrame": "72 hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male volunteer, aged 22-55 years.\n* Normal blood pressure, laboratory values, and body mass index\n* Willing to agree to study procedures \\& contraception requirements\n* Capable of giving written informed consent\n\nExclusion Criteria:\n\n* Any evidence of disease that would preclude participation in the clinical study (includes sexually transmitted diseases, exessive alcohol consumption, and substance abuse).\n* Previously involved in another clinical trial within 3 months prior to scheduled administration of study drug\n* Smoker\n* Suffers from claustrophobia\n* Any contraindications for MRI scanning (e.g. pacemaker, metal implants or fillings)",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "22 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "GSK Clinical Trials",
+                "affiliation": "GlaxoSmithKline",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "GSK Investigational Site",
+                "city": "London",
+                "zip": "NW10 7EW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "GSK Investigational Site",
+                "city": "London",
+                "zip": "W12 ONN",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Researchers can use this site to request access to anonymised patient level data and/or supporting documents from clinical studies to conduct further research.",
+                "url": "https://www.clinicalstudydatarequest.com"
+              },
+              {
+                "label": "Results for study 116038 can be found on the GSK Clinical Study Register.",
+                "url": "https://www.gsk-clinicalstudyregister.com/study/116038?search=study&search_terms=116038#rs"
+              }
+            ],
+            "availIpds": [
+              {
+                "id": "116038",
+                "type": "Annotated Case Report Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Individual Participant Data Set",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Clinical Study Report",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Study Protocol",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Statistical Analysis Plan",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Dataset Specification",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              },
+              {
+                "id": "116038",
+                "type": "Informed Consent Form",
+                "url": "https://www.clinicalstudydatarequest.com",
+                "comment": "For additional information about this study please refer to the GSK Clinical Study Register"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Patient-level data for this study will be made available through www.clinicalstudydatarequest.com following the timelines and process described on this site."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000590928",
+                "term": "5-(5-((2,4-dimethylthiazol-5-yl)methyl)-1,3,4-oxadiazol-2-yl)-1-ethyl-N-(tetrahydro-2H-pyran-4-yl)-1H-pyrazolo(3,4-b)pyridin-4-amine"
+              },
+              {
+                "id": "D020889",
+                "term": "Rolipram"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D011760",
+                "term": "Pyrrolidinones"
+              },
+              {
+                "id": "D011759",
+                "term": "Pyrrolidines"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "integrated_id": "systemic:sys_b4d17d2764ab",
+  "asset": "FFP104",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=FFP104",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02193360",
+            "orgStudyIdInfo": {
+              "id": "FFP104-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2014-001638-27",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2014",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2014"
+              }
+            ],
+            "organization": {
+              "fullName": "Fast Forward Pharmaceuticals",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Pilot Study of FFP104 Dose Escalation in PBC Subjects",
+            "officialTitle": "A Phase I/II, Open Label, Multicenter, Pilot Dose Escalation Study to Evaluate the Safety, Tolerability and Pharmacodynamics of FFP104 in Subjects Previously Diagnosed With Primary Biliary Cirrhosis (PBC)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-08",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-05"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-08",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2017-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2014-07-11",
+            "studyFirstSubmitQcDate": "2014-07-16",
+            "studyFirstPostDateStruct": {
+              "date": "2014-07-17",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-08-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-08-24",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fast Forward Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine the initial safety, tolerability and pharmacodynamics of the CD40-antagonist Mab, FFP104, in subjects with PBC"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cirrhosis"
+            ],
+            "keywords": [
+              "Inflammation",
+              "PBC"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Single arm Dose Escalation",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: FFP104"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "FFP104",
+                "description": "Cohorts receiving multiple weekly or biweekly i.v. doses of FFP104. FFP104 dose levels: 1.0, 2.5 and 5.0 mg/kg. Subjects will be treated for 12 weeks and then followed for safety and efficacy assessments for an additional 12 weeks.",
+                "armGroupLabels": [
+                  "Single arm Dose Escalation"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability of FFP104 in PBC subjects following repeat doses of FFP104",
+                "description": "Safety outcomes include abbreviated physical examination, treatment emergent adverse events (TEAE), clinically significant changes in clinical haematology, clinical chemistry, and urinalysis.",
+                "timeFrame": "Days 1, 3, 5 and weeks 2 - 12, 14, 16 and 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of subjects with a 10% decrease in Alkaline Phosphatase (ALP) from baseline values",
+                "timeFrame": "Week 12"
+              },
+              {
+                "measure": "Proportion of subjects with a 25 and 40% decrease in ALP from baseline",
+                "timeFrame": "Weeks 4, 8 and 12"
+              },
+              {
+                "measure": "Proportion of subjects with ALP<1.67 from upper limit of normal (ULN), an ALP decrease >15% and bilirubin within normal levels",
+                "timeFrame": "Weeks 4, 8, 12 and 24"
+              },
+              {
+                "measure": "Proportion of subjects with a biochemical response according to 'Paris I' criteria: ALP\u2264 3x ULN and Aspartate Transaminase (AST) \u22642x ULN and bilirubin \u22641mg/dL",
+                "timeFrame": "Weeks 4, 8, 12 and 24"
+              },
+              {
+                "measure": "To evaluate the individual and mean changes in serum liver biochemistry from baseline",
+                "description": "Evaluation of individual and mean changes in lab values (serum ALP, AST, bilirubin, albumin and gamma glutamyl transpeptidase (GGT)) over time from baseline values",
+                "timeFrame": "Weeks 2, 4, 8, 12, 16 and 24"
+              },
+              {
+                "measure": "To evaluate changes from baseline with Mayo Risk Score",
+                "timeFrame": "Weeks 4, 8, 12 and 24"
+              },
+              {
+                "measure": "To evaluate changes from baseline in the Patient Report Outcome PBC-40 Quality of Life",
+                "timeFrame": "Weeks 12 and 24"
+              },
+              {
+                "measure": "To evaluate changes from baseline in pruritus using the Visual Analog Scale (VAS)",
+                "timeFrame": "Weeks 12 and 24"
+              },
+              {
+                "measure": "To evaluate changes from baseline in fatigue using the VAS",
+                "timeFrame": "Weeks 12 and 24"
+              },
+              {
+                "measure": "To evaluate changes in serum FFP104 levels from baseline",
+                "timeFrame": "over time"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female Age between 18 and 75 years of age inclusive at the time of signing the informed consent\n* Established diagnosis of PBC according to the EASL criteria (European Association for the Study of the Liver 2009): A diagnosis of PBC can be made with confidence in adult patients with otherwise unexplained elevation of ALP and presence of anti-mitochondrial antibody (AMA\u22651:40), and/or AMA type M2. A liver biopsy is not essential for the diagnosis of PBC in these patients, but allows activity and stage of the disease to be assessed.\n* Having a screening ALP serum level between 1.67 and 5x ULN inclusive.\n* Be on a stable dose of ursodeoxycholic acid (UDCA) 12-20 mg/kg/day for at least 3 months prior to Screening or intolerant of UDCA in the opinion of the investigator (no UDCA for at least 8 weeks prior to Screening).\n* Are not pregnant or breast feeding and do not plan to become pregnant or father a child during the study. Female subjects (of childbearing potential) must be willing to use two medically accepted forms of contraception throughout the study and must be willing to submit to pregnancy test(s). Male subjects must agree to use medically accepted contraception methods with their partners throughout the study as described above, unless they have had a prior vasectomy.\n* Has the ability to communicate adequately with the study staff and to comply with the requirements of the entire study, with the help of a caregiver, if applicable.\n\nExclusion Criteria:\n\n* Laboratory screening results\n\n  * alanine transaminase (ALT) \\>5x ULN\n  * aspartate transaminase (AST) \\>5x ULN\n  * Total bilirubin \\>2x ULN. Isolated bilirubin \\>2x ULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%\n  * Total white blood cells (WBC) \\<3000 cells/mm3\n  * Absolute neutrophil count (ANC) \\<1500 cells/mm3\n  * Platelet count \\<100,000/mm3\n  * Prothrombin time (international normalized ratio (INR)\\> 1.2\n* Body mass index (BMI) \u226535 or suspected to have relevant nonalcoholic fatty liver disease (NAFLD) as based on the judgment of the Investigator at screening\n* Subject has a history of, or current viral hepatitis B or C (including hepatitis B surface antigen \\[HBsAg\\], hepatitis B core antibody and hepatitis C virus (HCV) antibody \\[anti-HCV\\] positivity), or a positive HIV antibody screen at time of screening\n* Recipients of liver or other organ transplantation or anticipated need for orthotropic organ transplantation in one year as determined by the Mayo Risk Score\n* Co-existing liver or biliary diseases, such as primary sclerosing cholangitis, choledocholithiasis, acute or chronic hepatitis, autoimmune hepatitis, alcoholic liver disease, nonalcoholic steatohepatitis (NASH), acute infection of bile duct system or gall bladder, history of gastrointestinal bleeding (secondary to portal hypertension), cholangiocarcinoma diagnosed or suspected liver cancers\n* Recurrent variceal hemorrhage, uncontrolled encephalopathy, Child-Pugh Class B/C, Esophageal Varices, or refractory ascites within the previous 6 months of Screening (defined as date informed consent signed)\n* Have a family history (more than one first degree relative) of multiple thrombotic events or a personal history of any venous or arterial thrombotic event including deep vein thrombosis, stroke, myocardial infarction, pulmonary embolus, or peripheral arterial thromboembolic events\n* Prohibited medications 6 months prior to Screening: azathioprine, colchicine, cyclosporine, methotrexate, mycophenolate mofetil, pentoxifylline; fenofibrate or other fibrates; budesonide and other systemic corticosteroids; potentially hepatotoxic drugs (including \u03b1-methyl-dopa, sodium valproic acid, isoniazid, or nitrofurantoin)\n* Prohibited medications 12 months prior to Screening: antibodies or immunotherapy directed against interleukins or other cytokines or chemokines\n* Subjects with recurrent bacterial infections (as judged by the Investigator) within 6 months prior to first dose of FFP104, active bacterial, fungal or mycobacterial infections observed during screening, or any recent episode of infection requiring hospitalizations or treatment with antibiotics (within the 3 months prior to first dose)\n* History of malignancy, with the exception of resected basal cell carcinoma, squamous cell carcinoma of the skin, or resected cervical atypia or carcinoma in situ\n* Immunization with a live vaccine within 4 weeks of Screening with the exception of influenza vaccine and no planned immunisations within the period of the study\n* Known clinically significant cardiac disease (e.g., myocardial infarction or stroke, unstable angina, claudication, etc.), or evidence of a clinically significant electrocardiogram (ECG) abnormality within the previous 12 months prior to Screening\n* Subjects with evidence of other serious, significant, acute or chronic medical or psychiatric illness that, in the judgment of the Investigator, could compromise subject safety, limit the subject's ability to complete the study, and/or compromise the objectives of the study\n* History of recent (within 12 months of study) alcohol or drug abuse\n* Use of other immunosuppressive medications 4 weeks prior to Screening\n* Active tuberculosis (TB) in the past or currently suspected TB which is presently receiving treatment or prophylactic therapy, has a positive TB test (as defined by local biological requirements), or any significant abnormality on chest X-ray within 3 months prior to Screening\n* Subjects who have planned surgery during the study period or have undergone major surgery within the 3 months prior to Screening\n* Known clinically significant allergy or known hypersensitivity to drugs that, in the opinion of the Investigator, may affect the patient's safety\n* Known sensitivity to any component of the study drug or previous sensitivity reaction or other clinically significant reaction to intravenous medications or biologic therapy\n* Participated to another clinical trial within the past 30 days prior to Screening, or is still within a washout period of a previous clinical trial or has previously received FFP104 (PG102) or ch5D12 in this or any study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Amsterdam Medical Center",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Amsterdam",
+                "zip": "1100 DD",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.37403,
+                  "lon": 4.88969
+                }
+              },
+              {
+                "facility": "Erasmus University Medical Center",
+                "status": "RECRUITING",
+                "city": "Rotterdam",
+                "country": "Netherlands",
+                "contacts": [
+                  {
+                    "name": "H R van Buuren, MD",
+                    "role": "CONTACT",
+                    "email": "mdlpoli@erasmusmc.nl"
+                  },
+                  {
+                    "name": "H R van Buuren, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.9225,
+                  "lon": 4.47917
+                }
+              },
+              {
+                "facility": "University Hospital Birmingham",
+                "status": "RECRUITING",
+                "city": "Birmingham",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "G Hirschfield, MD",
+                    "role": "CONTACT",
+                    "email": "G.Hirschfield@bham.ac.uk"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Royal Free Hospital",
+                "status": "RECRUITING",
+                "city": "London",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "D Thorburn, MD",
+                    "role": "CONTACT",
+                    "email": "douglas.thorburn@nhs.net"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Newcastle upon Tyne Hospitals",
+                "status": "RECRUITING",
+                "city": "Newcastle upon Tyne",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "D Jones, MD",
+                    "role": "CONTACT",
+                    "phone": "0191 213 7210"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 54.97328,
+                  "lon": -1.61396
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              },
+              {
+                "id": "D007249",
+                "term": "Inflammation"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02465944",
+            "orgStudyIdInfo": {
+              "id": "FFP104-002"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2015-001678-17",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2015",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2015"
+              }
+            ],
+            "organization": {
+              "fullName": "Fast Forward Pharmaceuticals",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Pilot Study of FFP104 in Subjects With Crohn's Disease",
+            "officialTitle": "A Phase II, Double-blind, Randomised, Placebo-controlled, Parallel Group Pilot Study to Evaluate the Safety and Efficacy of FFP104 in the Treatment of Subjects With Moderate to Severely Active Crohn's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-08",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-01"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-08",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2017-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2015-05-18",
+            "studyFirstSubmitQcDate": "2015-06-04",
+            "studyFirstPostDateStruct": {
+              "date": "2015-06-09",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-08-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-08-24",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fast Forward Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will be conducted to evaluate the safety, tolerability and efficacy of intravenously administered FFP104 or placebo over 15 days (3 total doses) in subjects with moderate to severely active Crohn's Disease"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Crohn's Disease"
+            ],
+            "keywords": [
+              "inflammation"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "FFP104 - 2.5 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "FFP104",
+                "interventionNames": [
+                  "Drug: FFP104"
+                ]
+              },
+              {
+                "label": "FFP104 - 5.0 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "FFP104",
+                "interventionNames": [
+                  "Drug: FFP104"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "FFP104",
+                "description": "Three intravenous infusions of FFP104 over 15 days (d0, d7 and d14)",
+                "armGroupLabels": [
+                  "FFP104 - 2.5 mg/kg",
+                  "FFP104 - 5.0 mg/kg"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Three intravenous infusions of 0.9% Saline over 15 days (d0, d7 and d14)",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability will be assessed through clinical laboratory tests, vital signs, physical exams, and adverse event assessments",
+                "timeFrame": "Up to 84 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of subjects achieving clinical response (decrease of Crohn's Disease Activity Index (CDAI) score by \u2265100 points from baseline)",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Proportion of subjects achieving clinical remission (attainment of absolute CDAI score of 150 points or less from baseline)",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Proportion of subjects achieving partial response (decrease of CDAI score by >70 points from baseline)",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Difference in CDAI score between FFP104 treated subjects and placebo subjects in each arm of the study",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Time to response (decrease in CDAI score by >100 points)",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Time to partial response (decrease of CDAI score by >70 points)",
+                "timeFrame": "Days 0, 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Change from baseline in Crohn's Disease Endoscopic Index of Severity (CDEIS)",
+                "timeFrame": "Day 42"
+              },
+              {
+                "measure": "Change from baseline in gut tissue organisation (histology)",
+                "timeFrame": "Day 42"
+              },
+              {
+                "measure": "Percent change from baseline in faecal calprotectin level",
+                "timeFrame": "Day 42"
+              },
+              {
+                "measure": "Percent change from baseline in C-Reactive Protein (CRP) levels",
+                "timeFrame": "Day 7, 14, 28, 42 and 84"
+              },
+              {
+                "measure": "Change from baseline in Inflammatory Bowel Disease Questionnaire (IBDQ)",
+                "timeFrame": "Day 42"
+              },
+              {
+                "measure": "Change from baseline in health outcome measures",
+                "description": "Health outcome measures that will be used are Short Form 36 (SF36), the EuroQol EQ-5D-5L and the Work Productivity and Activity Impairment Questionnaire Crohn's Disease (WPAI-CD)",
+                "timeFrame": "Day 42"
+              },
+              {
+                "measure": "To evaluate changes from baseline in serum FFP104 levels",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "To evaluate changes in lymphocyte sub-populations in peripheral blood",
+                "timeFrame": "Day 0, 14 and 42"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria\n\nSubjects will be entered into this study only if they meet all of the following criteria:\n\n* Willing and able to provide written informed consent.\n* Willing and able to comply with all study procedures and visits.\n* Male or female aged between 18 and 75 years, inclusive.\n* Body Mass Index (BMI) between 18-35 kg/m2.\n* Clinical diagnosis of Crohn's disease involving the colon and/or ileum for at least 3 months from Screening confirmed by radiological, endoscopic or histological evidence.\n* Active Crohn's disease defined as a Crohn's Disease Activity Index (CDAI) score from 220 and 450, inclusive, at Screening.\n* Active inflammatory disease as defined by Crohn's Disease Endoscopic Index of Severity (CDEIS) \u2265 8 (as determined by a Central Blinded Reader) at Screening.\n* Tumor Necrosis Factor (TNF)-na\u00efve or previously exposed to a single anti-TNF agent (such as infliximab, adalimumab or certolizumab pegol) with treatment discontinued at least 8 weeks prior to Screening due to inadequate response, loss of response or intolerance as judged by the Investigator.\n* Must have adequate renal and hepatic function as adjudged by the Investigator.\n* In good health (other than Crohn's disease) as evidenced by medical history and physical examination.\n\nExclusion criteria\n\nSubjects will be entered into this study only if they meet none of the following criteria:\n\n* Subjects who are pregnant, breastfeeding, or of child-bearing potential and not using a medically accepted form of contraception.\n* Presence of fistulas, ileostomies, colostomies or rectal pouches or history of proctocolectomy or total colectomy. Subject has an ostomy or ileoanal pouch (subjects with a previous ileorectal anastomosis are not excluded).\n* Subject has short bowel syndrome as determined by the Investigator.\n* History of evidence of colonic mucosal dysplasia.\n* Subject currently has a significant mechanical obstruction (stenosis).\n* Subject has a current diagnosis of ulcerative or indeterminate colitis.\n* Immunization with a live vaccine within 4 weeks of Screening, with the exception of influenza vaccine and no planned immunizations within the period of the study.\n* Active or latent tuberculosis (TB) or tuberculosis infection; TB assessment and prophylaxis will be performed as per local biologicals regulations and guidelines.\n* Subjects with a history of or ongoing chronic or recurrent infectious disease within the 12 months prior to Screening.\n* Positive stool culture for Clostridium within the last 6 months prior to Screening.\n* Use of prohibited medications/procedures, including;\n\n  * Concomitant corticosteroids doses exceeding 20 mg/day of prednisone (equivalent)\n  * Concomitant use of budesonide\n  * Concomitant use of anti-TNF therapy\n  * Subjects who received previous treatment with more than one anti-TNF agent\n  * Concomitant use of cyclosporine, tacrolimus, sirolimus or mycophenolate mofetil\n  * Prior or concomitant use of anti-\u03b14 integrin or other non-TNF blocking biological\n  * Use of tube or enteral feeding, elemental diet, or parenteral alimentation started within 2 weeks prior to Screening\n  * Leukocytapheresis or granulocytapheresis within 2 weeks prior to Screening\n* Use of any prescription medications/products (with the exception of prescription medications for contraception and/or medications deemed acceptable by the Investigator and Sponsor).\n* Use of any over the counter (OTC), non-prescription preparations (including vitamins, minerals, phytotherapeutic/herbal/plant-derived preparations) within 7 days prior to the Check-in visit (Day 0), unless deemed acceptable by the Investigator and Sponsor.\n* Current or recent history (within 6 months of screening) of drug or substance abuse, including alcohol \u2265 14 units per week or who have a significant history of alcoholism or drug/chemical abuse within 6 months prior to the Screening visit (one unit of alcohol equals 0.5 pint \\[285 mL\\] of beer or lager, one glass \\[125 mL\\] of wine, or 1 shot \\[25 mL\\] of spirits).\n* Subjects with known clinically significant cardiac disease (e.g., myocardial infarction or stroke within 6 months prior to Screening, unstable angina, claudication, etc.), or evidence of a clinically significant electrocardiogram (ECG) abnormality at Screening.\n* A history of significant neurologic, hepatic, renal, endocrine, cardiovascular, gastrointestinal, pulmonary or metabolic disease within 30 days of the Screening visit, as judged by the Investigator.\n* Have a family history (more than one first degree relative) of multiple thrombotic events or a personal history of any venous or arterial thrombotic event including deep vein thrombosis, stroke, myocardial infarction, pulmonary embolus, and peripheral arterial thromboembolic events.\n* Subject has had a positive hepatitis panel (including hepatitis B surface antigen \\[HBsAg\\], hepatitis B core antibody, and hepatitis C virus antibody \\[anti-HCV\\]) or a positive HIV antibody screen at time of Screening.\n* Evidence of hepatic dysfunction, viral hepatitis, or current or chronic history of liver disease including non-alcoholic steatohepatitis (NASH) or abnormal hepatic markers (AST, ALT, ALP, or total bilirubin \\> 1.5 x upper limit of normal) at the time of the Screening visit.\n* Abnormal renal function (BUN or creatinine \\>1.25 x upper limit of normal) at the time of the Screening visit.\n* White Blood Cells \\<4 x 103/mm3; platelets \\<150 x 103/mm, hemoglobin \\< 6.2 mmol/L at the time of the Screening visit.\n* Subjects with evidence of other serious, significant, acute or chronic medical or psychiatric illness that, in the judgment of the Investigator, could compromise subject safety, limit the subject's ability to complete the study, and/or compromise the objectives of the study.\n* History of malignancy, with the exception of resected basal cell carcinoma, squamous cell carcinoma of the skin, or resected cervical atypia or carcinoma in situ.\n* Active acute infection requiring systemic treatment for more than 2 weeks.\n* Planned surgery during the study period or have undergone major surgery within the 3 months prior to the Screening visit.\n* Subjects who have received any investigational drug within 60 days or use of other experimental anti-CD therapies within the last 30 days prior to Screening visit.\n* Known sensitivity to any component of the study drug or previous sensitivity reaction or other clinically significant reaction to intravenous medications or biologic therapy.\n* Subjects who have previously received FFP104 or have been previously enrolled in this study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Universitair Ziekenhuis Leuven",
+                "status": "RECRUITING",
+                "city": "Leuven",
+                "zip": "3000",
+                "country": "Belgium",
+                "contacts": [
+                  {
+                    "name": "Gert van Assche, Prof. Dr.",
+                    "role": "CONTACT",
+                    "phone": "+32 16 34 42 25"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "Erasmus Medical Center",
+                "status": "RECRUITING",
+                "city": "Rotterdam",
+                "zip": "3015CE",
+                "country": "Netherlands",
+                "contacts": [
+                  {
+                    "name": "Janneke van der Woude, Prof. Dr.",
+                    "role": "CONTACT",
+                    "phone": "+31 107040126"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.9225,
+                  "lon": 4.47917
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003424",
+                "term": "Crohn Disease"
+              },
+              {
+                "id": "D007249",
+                "term": "Inflammation"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D015212",
+                "term": "Inflammatory Bowel Diseases"
+              },
+              {
+                "id": "D005759",
+                "term": "Gastroenteritis"
+              },
+              {
+                "id": "D005767",
+                "term": "Gastrointestinal Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D007410",
+                "term": "Intestinal Diseases"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "integrated_id": "systemic:sys_2406594fa25f",
+  "asset": "BAY1237592",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=BAY1237592",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03754660",
+            "orgStudyIdInfo": {
+              "id": "17293"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2018-001791-37",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2018",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2018"
+              }
+            ],
+            "organization": {
+              "fullName": "Bayer",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "This Study Tests the Safety of Inhaled BAY1237592, How the Drug is Tolerated and How it Effects Patients With High Blood Pressure in the Arteries of the Lungs in the Two Different Disease Groups Pulmonary Arterial Hypertension (PAH) and Chronic Thromboembolic Pulmonary Hypertension (CTEPH)",
+            "officialTitle": "A Non-randomized Two Part Multi-center, Open-label, Single Dose Trial With an Escalation Part in Untreated Pulmonary Arterial Hypertension (PAH) and Chronic Thromboembolic Pulmonary Hypertension (CTEPH) Patients (Part A), Followed by a Parallel-group Part in Untreated and Pre-treated Patients With PAH and CTEPH (Part B) to Investigate the Safety, Tolerability and Pharmacodynamics of Inhaled BAY1237592",
+            "acronym": "ATMOS"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-01-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-04-24",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-11-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-11-23",
+            "studyFirstSubmitQcDate": "2018-11-23",
+            "studyFirstPostDateStruct": {
+              "date": "2018-11-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-05-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-05-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bayer",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "In this trial the effects of the inhaled drug BAY1237592 will be studied in patients with high blood pressure in the pulmonary blood vessels due to Pulmonary Arterial Hypertension (PAH) and due to Chronic Thromboembolic Pulmonary Hypertension (CTEPH). Pulmonary hypertension is characterized by the elevation of pressure in the pulmonary arteries (PAP) and of the pulmonary vascular resistance (PVR) leading to increased workload of the right chamber of the heart to eject blood against this elevated resistance. The goal of this study is to measure the safety and tolerability of the drug as well as the reduction of the PVR at different doses\n\nIn Part A patients without specific treatment for PH (untreated patients) will be tested. In Part B also patients stably pre-treated with specific PH drugs will be studied in combination with the new inhaled drug"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hypertension, Pulmonary"
+            ],
+            "keywords": [
+              "PAH",
+              "CTEPH",
+              "pulmonary arterial hypertension",
+              "chronic thromboembolic pulmonary hypertension"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 38,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Untreated patients (Part A and Part B)",
+                "type": "EXPERIMENTAL",
+                "description": "Part A: Untreated PAH and CTEPH patients will be enrolled to test 5 ascending doses of BAY1237592 with 4 patients per dose group up to a maximum dose of 4000 \u00b5g.\n\nPart B: The highest safe, well tolerated and effective dose of Part A will be tested in further untreated patients.",
+                "interventionNames": [
+                  "Drug: BAY1237592"
+                ]
+              },
+              {
+                "label": "Monotherapy (Part B)",
+                "type": "EXPERIMENTAL",
+                "description": "The highest safe, well tolerated and effective dose chosen from Part A will be tested in pre-treated patients with any kind of monotherapy for PAH/CTEPH.",
+                "interventionNames": [
+                  "Drug: BAY1237592"
+                ]
+              },
+              {
+                "label": "Combined therapy (Part B)",
+                "type": "EXPERIMENTAL",
+                "description": "The highest safe, well tolerated and effective dose from Part A will be tested in pre-treated patients with any kind of double combination treatment for PAH/CTEPH.",
+                "interventionNames": [
+                  "Drug: BAY1237592"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BAY1237592",
+                "description": "Oral inhalation with dry powder inhaler, single dose.",
+                "armGroupLabels": [
+                  "Combined therapy (Part B)",
+                  "Monotherapy (Part B)",
+                  "Untreated patients (Part A and Part B)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Peak percent reduction in PVR (Pulmonary vascular resistance) from \"baseline 2\" for untreated patients",
+                "description": "PVR = 80\\* (PAP - PCWP) / CO (dyn\u00b7sec\u00b7cm-5)\n\n* PAP = pulmonary arterial pressure\n* PCWP = pulmonary capillary wedge pressure\n* CO = cardiac output",
+                "timeFrame": "Up to 5 hours post inhalation of BAY1237592 compared to \"baseline 2\""
+              },
+              {
+                "measure": "Peak percent reduction in PVR from \"baseline\" for pre-treated patients",
+                "description": "PVR = 80\\* (PAP - PCWP) / CO (dyn\u00b7sec\u00b7cm-5)",
+                "timeFrame": "Up to 5 hours post inhalation of BAY1237592 compared to \"baseline\""
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Incidence of treatment-emergent adverse events (TEAEs)",
+                "timeFrame": "Up to 7 days after treatment"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Main Inclusion Criteria:\n\n* Patients with PAH or CTEPH undergoing medically indicated routine invasive diagnostics\n* Men and women aged 18 to 80 years\n\nPart A:\n\n\\- Untreated patients: Therapy-na\u00efve patients (defined as off treatment with PDE-5 inhibitors, endothelin receptor antagonists, prostanoids, or other sGC stimulators/activators) with PAH or CTEPH or patients pre-treated with these medications who have to undergo a drug specific wash-out period at the discretion of the investigator for least 24 h prior to Day -1 if medically safe\n\nPart B:\n\n* Untreated patients with PAH or CTEPH:\n\n  \\-- Group 1 (total will be summed up with corresponding dosage group from Part A)\n* Pre-treated patients with PAH or CTEPH:\n\n  * Group 2: Pre-treated patients with any kind of monotherapy\\* for PAH/CTEPH\n  * Group 3: Pre-treated patients with any kind of double combination therapy\\* for PAH/CTEPH \\* patients receiving inhaled Iloprost, and patients who are known responders to iNO are excluded\n\nMain Exclusion Criteria:\n\n\\- Medical history indicating a different cause for PH than PAH or CTEPH according to the guidelines of the European Society of Cardiology (ESC) and the European Respiratory Society (ERS), such as significant left heart disease, valvular disease, or structural heart defects, as assessed by the investigator, significant pulmonary disease or clinical suspicion of pulmonary venoocclusive disease",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Bayer Study Director",
+                "affiliation": "Bayer",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Medizinische Universit\u00e4t Graz",
+                "city": "Graz",
+                "zip": "8036",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 47.06733,
+                  "lon": 15.44197
+                }
+              },
+              {
+                "facility": "Vseobecna fakultni nemocnice v Praze",
+                "city": "Prague",
+                "zip": "12808",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 50.08804,
+                  "lon": 14.42076
+                }
+              },
+              {
+                "facility": "Institut Klinicke a Experimentalni Mediciny",
+                "city": "Prague",
+                "zip": "140 21",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 50.08804,
+                  "lon": 14.42076
+                }
+              },
+              {
+                "facility": "Krankenhaus Neuwittelsbach",
+                "city": "M\u00fcnchen",
+                "state": "Bavaria",
+                "zip": "80639",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.69668,
+                  "lon": 13.46314
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Regensburg",
+                "city": "Regensburg",
+                "state": "Bavaria",
+                "zip": "93042",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.01513,
+                  "lon": 12.10161
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Giessen und Marburg",
+                "city": "Giessen",
+                "state": "Hesse",
+                "zip": "35392",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.58727,
+                  "lon": 8.67554
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Carl Gustav Carus Dresden",
+                "city": "Dresden",
+                "state": "Saxony",
+                "zip": "01307",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.05089,
+                  "lon": 13.73832
+                }
+              },
+              {
+                "facility": "Szpital Specjalistyczny im. Jana Pawla II",
+                "city": "Krakow",
+                "zip": "31-202",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 50.06143,
+                  "lon": 19.93658
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "42728065",
+                "type": "DERIVED",
+                "citation": "Ghofrani HA, Leuchte HH, Al-Hiti H, Halank M, Jansa P, Lange T, Olschewski H, Tello K, Becker-Pelster E, Ligges S, Nagelschmitz J, Nikkho S, Penugonda S, Saleh S, Vesterinen P, Woischnik M, Jung D, Kopec G. Phase 1b ATMOS trial of the inhaled sGC activator mosliciguat in patients with PAH/CTEPH. Thorax. 2026 Sep 11:thorax-2025-224583. doi: 10.1136/thorax-2025-224583. Online ahead of print."
+              }
+            ],
+            "seeAlsoLinks": [
+              {
+                "label": "Click here to find information about studies related to Bayer Healthcare products conducted in Europe",
+                "url": "http://www.clinicaltrialsregister.eu/"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Availability of this study's data will later be determined according to Bayer's commitment to the EFPIA/PhRMA \"Principles for responsible clinical trial data sharing\". This pertains to scope, timepoint and process of data access.\n\nAs such, Bayer commits to sharing upon request from qualified researchers patient-level clinical trial data, study-level clinical trial data, and protocols from clinical trials in patients for medicines and indications approved in the US and EU as necessary for conducting legitimate research. This applies to data on new medicines and indications that have been approved by the EU and US regulatory agencies on or after January 01, 2014.\n\nInterested researchers can use www.clinicalstudydatarequest.com to request access to anonymized patient-level data and supporting documents from clinical studies to conduct research. Information on the Bayer criteria for listing studies and other relevant information is provided in the Study sponsors section of the portal."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D006973",
+                "term": "Hypertension"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,2395 @@
+{
+  "integrated_id": "systemic:sys_6638db96747c",
+  "asset": "FCX-007",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=FCX-007",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02810951",
+            "orgStudyIdInfo": {
+              "id": "FI-EB-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "FD-R-6113-01",
+                "type": "OTHER_GRANT",
+                "domain": "Office of Orphan Products Development"
+              }
+            ],
+            "organization": {
+              "fullName": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of FCX-007 for Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+            "officialTitle": "A Phase I/II Study of FCX-007 (Genetically-Modified Autologous Human Dermal Fibroblasts) for Recessive Dystrophic Epidermolysis Bullosa (RDEB)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Subjects were all in Long-Term Follow Up and were transferred to the ongoing EB-002 study",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-07-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-09-29",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-04-18",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-06-13",
+            "studyFirstSubmitQcDate": "2016-06-20",
+            "studyFirstPostDateStruct": {
+              "date": "2016-06-23",
+              "type": "ESTIMATED"
+            },
+            "resultsFirstSubmitDate": "2021-07-23",
+            "resultsFirstSubmitQcDate": "2021-08-18",
+            "resultsFirstPostDateStruct": {
+              "date": "2021-09-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-02-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the safety of FCX-007, evaluate Type VII collagen (COL7) expression and the presence of anchoring fibrils and to analyze wound healing as a result of FCX-007 administration in subjects with recessive dystrophic epidermolysis bullosa (RDEB). Funding Source- FDA OOPD",
+            "detailedDescription": "RDEB is a rare skin and connective tissue disease characterized clinically by skin fragility with easy blistering, erosion and scarring of skin and mucous membranes, and caused by the deficiency of the protein type VII collagen (COL7). The objective of this study is evaluate the safety of FCX-007 intradermal injections in RDEB subjects. Additionally, the trial will evaluate COL7 expression, the presence of anchoring fibrils, as well evidence of wound healing.\n\nApproximately twelve subjects are expected to enroll in the Phase I/II trial. Phase I will enroll approximately six adult subjects. Phase II will enroll approximately six subjects both adults and pediatric (aged seven (7) years or older). All subjects will receive FCX-007 to one or more paired target RDEB wounds. Proof of mechanism will be monitored through digital photography of target wounds and assays conducted on biopsies taken from intact skin sites where FCX-007 is administered."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Epidermolysis Bullosa Dystrophica, Recessive"
+            ],
+            "keywords": [
+              "RDEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "FCX-007",
+                "type": "EXPERIMENTAL",
+                "description": "In Phase I, a target of three adult subjects will be enrolled into Group A and a target of three adult subjects will be enrolled into Group B.\n\nIn Phase II the study will target enrolling subjects (aged seven (7 years or older) to each arm, but will allow a disproportionate distribution of subjects between Group A and Group B to equal approximately 6 total subjects.\n\nAll subjects will receive FCX-007 into one or more paired target wounds as well as to intact skin at least one time during the study with a possible second administration pending laboratory results.\n\nOne wound in each target wound pair will be used as control for efficacy and safety evaluations.",
+                "interventionNames": [
+                  "Genetic: FCX-007"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "FCX-007",
+                "description": "FCX-007 is a genetically modified cell product obtained from the subject's own skin cells (Autologous fibroblasts). The cells are expanded and genetically modified to produce functional COL7. FCX-007 cell suspension is injected intradermally.",
+                "armGroupLabels": [
+                  "FCX-007"
+                ],
+                "otherNames": [
+                  "Genetically-Modified Autologous Human Dermal Fibroblasts"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Events",
+                "description": "Number of subjects with adverse events.",
+                "timeFrame": "52 weeks post treatment"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Complete Wound Closure",
+                "description": "Percentage of target wounds achieving complete wound closure (greater than 90%) at all post-baseline visits",
+                "timeFrame": "Through Week 52"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Age\n\n   1. Phase I: Eighteen (18) years or older.\n   2. Phase II: Seven (7) years or older.\n2. Diagnosis of recessive dystrophic epidermolysis bullosa (RDEB)\n\nKey Exclusion Criteria:\n\n1. Medical instability limiting ability to travel to the investigative center.\n2. Active infection with HIV, hepatitis B or hepatitis C or evidence of other systemic infection\n3. Current evidence of metastatic squamous cell carcinoma at the site to be injected\n4. Clinically significant abnormal laboratory result or other significant clinical abnormalities\n5. Receipt of a chemical or biological study product for the specific treatment of RDEB in the past six months",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "7 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "All Study Participants",
+                "description": "All subjects will receive FCX-007 intradermal injections into a treated wound in a target pair and will have no FCX-007 injections into the other control wound in the target pair."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FCX-007 Injection",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "No FCX-007 Injection",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Adverse Event",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "FCX-007",
+                "description": "In Phase I, a target of three adult subjects will be enrolled into Group A and a target of three adult subjects will be enrolled into Group B.\n\nIn Phase II the study will target enrolling subjects (aged seven (7) or older) to each arm, but will allow a disproportionate distribution of subjects between Group A and Group B to equal approximately 6 total subjects.\n\nAll subjects will receive FCX-007 into intact skin as well as to one or more paired target wounds at least one time during the study with a possible second administration pending laboratory results.\n\nOne wound in each target wound pair will be used as control for efficacy and safety evaluations. FCX-007 administered wounds will be compared within paired target wounds to untreated wounds.\n\nFCX-007: FCX-007 is a genetically modified cell product obtained from the subject's own skin cells (Autologous fibroblasts). The cells are expanded and genetically modified to produce functional collagen VII. FCX-007 cell suspension is injected intradermally."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "6"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Categorical",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "<=18 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Between 18 and 65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          }
+                        ]
+                      },
+                      {
+                        "title": ">=65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "FULL_RANGE",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "28.4",
+                            "lowerLimit": "9.1",
+                            "upperLimit": "38.9"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "4"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Region of Enrollment",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "participants",
+                "classes": [
+                  {
+                    "title": "United States",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Open target wounds",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "number of wounds",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "10"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Adverse Events",
+                "description": "Number of subjects with adverse events.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "52 weeks post treatment",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Subjects Who Received FCX-007 Injections",
+                    "description": "All subjects who received FCX-007 injections in at least one target wound."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Complete Wound Closure",
+                "description": "Percentage of target wounds achieving complete wound closure (greater than 90%) at all post-baseline visits",
+                "populationDescription": "Number analyzed represents observed wounds/participants only",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "percentage of target wounds",
+                "timeFrame": "Through Week 52",
+                "typeUnitsAnalyzed": "target wounds",
+                "denomUnitsSelected": "target wounds",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Treated Wounds",
+                    "description": "FCX-007 is a genetically modified cell product obtained from the subject's own skin cells (Autologous fibroblasts). The cells are expanded and genetically modified to produce functional collagen 7 (COL7). FCX-007 cell suspension is injected intradermally."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Untreated Wounds",
+                    "description": "No FCX-007 injected"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "units": "target wounds",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "10"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "10"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Complete closure at Week 4",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "6"
+                          }
+                        ]
+                      },
+                      {
+                        "units": "target wounds",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "10"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "10"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "40.0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Complete closure at Week 12",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "6"
+                          }
+                        ]
+                      },
+                      {
+                        "units": "target wounds",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "10"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "80.0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Complete closure at Week 25",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "units": "target wounds",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "75.0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Complete closure at Week 52",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "4"
+                          }
+                        ]
+                      },
+                      {
+                        "units": "target wounds",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "6"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "50.0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "16.7"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "52 weeks",
+            "description": "Adverse events were reported on the whole participant level and not segmented to treated or control wounds",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "FCX-007",
+                "description": "In Phase I, a target of three adult subjects will be enrolled into Group A and a target of three adult subjects will be enrolled into Group B.\n\nIn Phase II the study will target enrolling subjects (aged seven (7) or older) to each arm, but will allow a disproportionate distribution of subjects between Group A and Group B to equal approximately 6 total subjects.\n\nAll subjects will receive FCX-007 into intact skin as well as to one or more paired target wounds at least one time during the study with a possible second administration pending laboratory results.\n\nOne wound in each target wound pair will be used as control for efficacy and safety evaluations. FCX-007 administered wounds will be compared within paired target wounds to untreated wounds.\n\nFCX-007: FCX-007 is a genetically modified cell product obtained from the subject's own skin cells (Autologous fibroblasts). The cells are expanded and genetically modified to produce functional collagen VII. FCX-007 cell suspension is injected intradermally.",
+                "deathsNumAffected": 1,
+                "deathsNumAtRisk": 6,
+                "seriousNumAffected": 3,
+                "seriousNumAtRisk": 6,
+                "otherNumAffected": 3,
+                "otherNumAtRisk": 6
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Gastroenteritis viral",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Neoplasm progression",
+                "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Squamous cell carcinoma of skin",
+                "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Blister",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Injection site discolouration",
+                "organSystem": "General disorders",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Injection site erythema",
+                "organSystem": "General disorders",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "limitationsAndCaveats": {
+              "description": "Small number of subjects analyzed for proof of mechanism analyses"
+            },
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "GT60",
+              "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+              "title": "Chief Medical Officer",
+              "organization": "Castle Creek Biosciences",
+              "email": "medinfo@castlecreekbio.com",
+              "phone": "(484) 713-6000"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot_SAP",
+                "hasProtocol": true,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Study Protocol and Statistical Analysis Plan",
+                "date": "2019-10-29",
+                "uploadDate": "2021-07-23T20:36",
+                "filename": "Prot_SAP_000.pdf",
+                "size": 2674604
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04213261",
+            "orgStudyIdInfo": {
+              "id": "FI-EB-002"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "R01-7289-01",
+                "type": "OTHER_GRANT",
+                "domain": "FDA OOPD"
+              }
+            ],
+            "organization": {
+              "fullName": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of FCX-007 for Recessive Dystrophic Epidermolysis Bullosa",
+            "officialTitle": "A Pivotal Phase 3 Study of FCX-007 (Genetically-Modified Autologous Human Dermal Fibroblasts) for Recessive Dystrophic Epidermolysis Bullosa",
+            "acronym": "DEFI-RDEB"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-06-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-01-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2037-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-12-02",
+            "studyFirstSubmitQcDate": "2019-12-26",
+            "studyFirstPostDateStruct": {
+              "date": "2019-12-30",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2024-01-17",
+            "resultsFirstSubmitQcDate": "2024-03-28",
+            "resultsFirstPostDateStruct": {
+              "date": "2024-04-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-03-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine whether administration of FCX-007 in addition to standard of care improves wound healing as compared to standard of care alone (control) in children, adolescents, and adults with Recessive Dystrophic Epidermolysis Bullosa.\n\nFunding Source - FDA OOPD",
+            "detailedDescription": "DEFI-RDEB is a multi-center, intra-patient randomized, controlled, open-label, Phase 3 study of FCX-007 for the treatment of persistent non-healing and recurrent RDEB wounds in approximately 24 subjects. Each subject will serve as his/her own control. Each subject's target wounds will be paired then randomized to receive FCX-007 (treatment wound) or remain untreated (control wound). Up to three target wound pairs will be identified for each subject.\n\nSubjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated. Safety and efficacy assessments will occur at scheduled intervals through Week 48/Month 12, when the treatment period is completed, and a long-term safety follow-up period (through 15 years) commences for subjects who have received one or more FCX-007 injections."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "RDEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Intra-patient Randomized, Controlled, Open-label, Multi-center",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "FCX-007 COL7A1 Genetically-Corrected Autologous Fibroblasts",
+                "type": "EXPERIMENTAL",
+                "description": "Intra-subject randomized (paired wounds in each subject receive experimental treatment, FCX-007, or remain untreated). Up to three target wound pairs will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (FCX-007 is administered) or control wound. Subjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.",
+                "interventionNames": [
+                  "Biological: FCX-007 (dabocemagene autoficel; see below for FCX-007 description)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "FCX-007 (dabocemagene autoficel; see below for FCX-007 description)",
+                "description": "FCX-007 is comprised of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen.",
+                "armGroupLabels": [
+                  "FCX-007 COL7A1 Genetically-Corrected Autologous Fibroblasts"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Complete Wound Closure of the First Wound Pair at Week 24",
+                "description": "Complete wound closure of the first wound pair (treated vs. control)",
+                "timeFrame": "Week 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Complete Wound Closure of the First Wound Pair at Week 12",
+                "description": "Complete wound closure of first wound pair (treated vs. control)",
+                "timeFrame": "Week 12"
+              },
+              {
+                "measure": "Complete Wound Closure of All Wound Pairs at Week 24",
+                "description": "Complete wound closure",
+                "timeFrame": "Week 24"
+              },
+              {
+                "measure": "Complete Wound Closure of All Wound Pairs at Week 12",
+                "description": "Complete wound closure",
+                "timeFrame": "Week 12"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Male or female \u22652 years of age at the Screening visit.\n* Clinical diagnosis of RDEB with confirmation of COL7A1 genetic mutation.\n\nKey Exclusion Criteria:\n\n* Medical instability limiting ability to travel to the investigative site.\n* Active infection with human immunodeficiency virus, hepatitis B or hepatitis C.\n* The presence of COL7 antibodies.\n* Evidence of systemic infection.\n* Evidence or history of squamous cell carcinoma at the site to be injected.\n* Evidence of or history of metastatic squamous cell carcinoma.\n* Known allergy to any of the constituents of the product.\n* Female who is pregnant or breastfeeding.\n* Receipt of a chemical or biological intervention for the specific treatment of RDEB in the past three (3) months prior to screening or anticipated/planned during the screening and treatment period for this study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "Solutions Through Advanced Research, Inc.",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32256",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Mayo Clinic",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "Dell Children's Medical Group",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78723",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "typeUnitsAnalyzed": "wound",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "FCX-007 COL7A1 Genetically-Corrected Autologous Fibroblasts",
+                "description": "All subjects, intra-subject randomized (paired wounds in each subject receive experimental treatment, FCX-007, or remain untreated). Up to three target wound pairs will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (FCX-007 is administered) or control wound. Subjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.\n\nFCX-007 (dabocemagene autoficel): FCX-007 is comprised of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen."
+              },
+              {
+                "id": "FG001",
+                "title": "Control (no Treatment)",
+                "description": "All subjects, intra-subject randomized (paired wounds in each subject receive experimental treatment, FCX-007, or remain untreated). Up to three target wound pairs will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (FCX-007 is administered) or control wound. Subjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.\n\nFCX-007 (dabocemagene autoficel): FCX-007 is comprised of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "6",
+                        "numUnits": "13"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "6",
+                        "numUnits": "13"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "6",
+                        "numUnits": "13"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "6",
+                        "numUnits": "13"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0",
+                        "numUnits": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0",
+                        "numUnits": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "FCX-007 COL7A1 Genetically-Corrected Autologous Fibroblasts",
+                "description": "Intra-subject randomized (paired wounds in each subject receive experimental treatment, FCX-007, or remain untreated). Up to three target wound pairs will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (FCX-007 is administered) or control wound. Subjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.\n\nFCX-007 (dabocemagene autoficel; see below for FCX-007 description): FCX-007 is comprised of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "6"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Categorical",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "<=18 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Between 18 and 65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "title": ">=65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "28.7",
+                            "spread": "16.77"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "4"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "4"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Region of Enrollment",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "participants",
+                "classes": [
+                  {
+                    "title": "United States",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Complete Wound Closure of the First Wound Pair at Week 24",
+                "description": "Complete wound closure of the first wound pair (treated vs. control)",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "wound",
+                "timeFrame": "Week 24",
+                "typeUnitsAnalyzed": "wound",
+                "denomUnitsSelected": "wound",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "FCX-007 Treated Success",
+                    "description": "Primary wound treated with FCX-007 with complete wound closure at serial assessments at Week 22 and 24"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Control Success",
+                    "description": "Primary control wound with complete wound closure at serial assessments at Week 22 and 24"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "units": "wound",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Complete Wound Closure of the First Wound Pair at Week 12",
+                "description": "Complete wound closure of first wound pair (treated vs. control)",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "wound",
+                "timeFrame": "Week 12",
+                "typeUnitsAnalyzed": "wound",
+                "denomUnitsSelected": "wound",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "FCX-007 Treated Success",
+                    "description": "Primary wound treated with FCX-007 with complete wound closure at Week 12"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Control Success",
+                    "description": "Primary control wound with complete wound closure at Week 12"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "units": "wound",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Complete Wound Closure of All Wound Pairs at Week 24",
+                "description": "Complete wound closure",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "wound",
+                "timeFrame": "Week 24",
+                "typeUnitsAnalyzed": "Wounds",
+                "denomUnitsSelected": "Wounds",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "FCX-007 Treated Success",
+                    "description": "All treated with FCX-007 with complete wound closure at Week 24"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Control Success",
+                    "description": "Primary control wound with complete wound closure at Week 24"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "units": "Wounds",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "13"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "13"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Complete Wound Closure of All Wound Pairs at Week 12",
+                "description": "Complete wound closure",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "wound",
+                "timeFrame": "Week 12",
+                "typeUnitsAnalyzed": "wound",
+                "denomUnitsSelected": "wound",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "FCX-007 Treated Success",
+                    "description": "All treated with FCX-007 with complete wound closure at Week 12"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Control Success",
+                    "description": "Primary control wound with complete wound closure at Week 12"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "6"
+                      }
+                    ]
+                  },
+                  {
+                    "units": "wound",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "13"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "13"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Treatment-emergent adverse events (AEs), regardless of relationship to FCX-007, are those reported from start of treatment to end of treatment period (Week 48)",
+            "description": "All treatment-emergent AEs, regardless of relationship to FCX-007, are reported. AEs at a treated wound were to be described and coded as injection site reactions, AEs at other wounds (including but not limited to control wounds) were described without specific reference to injection-site. Only a single interventional group is included, inclusive of all study participants who have received FCX-007 and had at least one control wound.",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "FCX-007 COL7A1 Genetically-Corrected Autologous Fibroblasts",
+                "description": "Intra-subject randomized (paired wounds in each subject receive experimental treatment, FCX-007, or remain untreated). Up to three target wound pairs will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (FCX-007 is administered) or control wound. Subjects will receive intradermal injections of FCX-007 in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1 and the second at Week 12/Month 3. Additional treatment sessions may occur at Week 24/Month 6 and Week 36/Month 9 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.\n\nFCX-007 (dabocemagene autoficel; see below for FCX-007 description): FCX-007 is comprised of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 6,
+                "seriousNumAffected": 2,
+                "seriousNumAtRisk": 6,
+                "otherNumAffected": 2,
+                "otherNumAtRisk": 6
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Lower limb fracture",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Pulmonary embolism",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Pulmonary infarction",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Tachycardia",
+                "organSystem": "Cardiac disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Injection site pain",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Growth retardation",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Osteoporosis",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Pruritus",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Superficial vein thrombosis",
+                "organSystem": "Vascular disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Injection site haemorrhage",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Injection site swelling",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "COVID-19",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Skin infection",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              },
+              {
+                "term": "Wound infection",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA (25.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 6
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "LTE60",
+              "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+              "title": "Associate VP of Clinical Trials",
+              "organization": "Castle Creek Biosciences",
+              "email": "rblumenthal@castlecreekbio.com",
+              "phone": "16506901024"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2022-05-04",
+                "uploadDate": "2024-02-27T16:23",
+                "filename": "Prot_002.pdf",
+                "size": 7619200
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2022-09-29",
+                "uploadDate": "2024-02-27T16:24",
+                "filename": "SAP_003.pdf",
+                "size": 1878484
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "firstMcpInfo": {
+                "postDateStruct": {
+                  "date": "2024-02-14",
+                  "type": "ACTUAL"
+                }
+              }
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06892639",
+            "orgStudyIdInfo": {
+              "id": "CCB-EB-304"
+            },
+            "organization": {
+              "fullName": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluation of D-Fi for the Treatment of Wounds Due to DEB",
+            "officialTitle": "Evaluation of Dabocemagene Autoficel (D-Fi; FCX-007; Genetically Modified Autologous Human Dermal Fibroblasts) for the Treatment of Wounds Due to Dystropic Epidermolysis Bullosa"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-03-27",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-09",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2042-02",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-03-12",
+            "studyFirstSubmitQcDate": "2025-03-21",
+            "studyFirstPostDateStruct": {
+              "date": "2025-03-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-03-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Castle Creek Biosciences, LLC.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Prosoft Clinical",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine whether administration of D-Fi in addition to standard of care improves wound healing as compared to standard of care alone (control) in children, adolescents, and adults with Dystrophic Epidermolysis Bullosa.",
+            "detailedDescription": "CCB-EB-304 is a multi-center, intra-patient randomized and controlled, open-label, rater-blinded Phase 3 study of D-Fi for the treatment of persistent non-healing and recurrent DEB wounds in approximately 32 subjects. Each subject will serve as his/her own control. Each subject's Target Wounds will be paired then randomized to receive D-Fi (Treatment Wound) or remain untreated (Control Wound). One Target Wound Pair will be identified for each subject.\n\nSubjects will receive intradermal injections of D-Fi in each specified Treatment Wound in three or more treatment sessions. The first treatment session occurs at Day 1, the second at Week 8/Month 2 and the third at Week 16/Month 4. Additional treatment sessions may occur at Week 26/Month 6 and Week 32/Month 8 and Week 40/Month 10 when unclosed Treatment Wounds may be re-treated, and unclosed Control Wounds may be treated. Safety and efficacy assessments will occur at scheduled intervals through Week 48/Month 12, when the Treatment Period is completed, and is followed by an optional Open-Label Extension (OLE) treatment phase of an additional 96 weeks. A long-term safety follow-up period (through 15 years) commences for subjects who have received one or more D-Fi injections, either following the treatment phase or if the subject had opted-in, the OLE."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "DEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Intra-patient Randomized and Controlled, Open-label, Rater-Blinded, Multi-center",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "D-Fi COL7A1 Genetically-Corrected Autologous Fibroblasts",
+                "type": "EXPERIMENTAL",
+                "description": "Intra-subject randomized (paired wounds in each subject receive experimental treatment, D-Fi, or remain untreated). One target wound pair will be identified for each subject. Following pairing, target wounds will be randomly assigned as the treatment wound (D-Fi is administered) or control wound. Subjects will receive intradermal injections of D-Fi in each specified treatment wound in two or more treatment sessions. The first treatment session occurs at Day 1, the second at Week 8/Month 2 and the third at Week 16/Month 4. Additional treatment sessions may occur at Week 26/Month 6, Week 32/Month 8 and Week 40/Month 10 when unclosed treatment wounds may be re-treated, and unclosed control wounds may be treated.",
+                "interventionNames": [
+                  "Biological: D-Fi"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "D-Fi",
+                "description": "D-Fi is composed of fibroblasts isolated from the subject's skin biopsies which are genetically corrected with the full length COL7A1 gene encoding for type VII collagen.",
+                "armGroupLabels": [
+                  "D-Fi COL7A1 Genetically-Corrected Autologous Fibroblasts"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The difference in Complete (100%) Wound Closure of the Target Wound Pair at either Week 22 (Visit 6), and Week 24 (Visit 7) or at Week 24 (Visit 7) and Week 26 (Visit 8) as assessed by a Blinded Assessor.",
+                "timeFrame": "Week 26"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female \u22652 years of age at the Screening visit\n* Clinical diagnosis of DEB with confirmation of COL7A1 genetic mutation.\n\nExclusion Criteria:\n\n* Medical instability limiting ability to travel to the investigative site.\n* Active infection with human immunodeficiency virus, hepatitis B or hepatitis C.\n* The presence of clinically significant COL7 antibodies.\n* Evidence of systemic infection.\n* Known allergy to any of the constituents of the product.\n* Female who is pregnant or breastfeeding.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Stanford University School of Medicine, Dermatology",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "Mission Dermatology",
+                "city": "Santa Margarita",
+                "state": "California",
+                "zip": "92688",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.38997,
+                  "lon": -120.60906
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "University of Massachusetts",
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01655",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "integrated_id": "systemic:sys_10c3bafbc08b",
+  "asset": "AER-901 Solution for Nebulization",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=AER-901",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04903730",
+            "orgStudyIdInfo": {
+              "id": "AER-901-01-001"
+            },
+            "organization": {
+              "fullName": "Aerami Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, & Pharmacokinetics Study of Single & Multiple Inhaled Doses of Imatinib Inhalation Solution",
+            "officialTitle": "A Randomised, Double-Blind, Placebo-Controlled, Dose Escalation Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single and Multiple Inhaled Doses of Imatinib Inhalation Solution (AER-901) in Adult Healthy Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-05-24",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-12-02",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-12-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-05-24",
+            "studyFirstSubmitQcDate": "2021-05-24",
+            "studyFirstPostDateStruct": {
+              "date": "2021-05-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-12-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-12-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Aerami Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a randomised, double-blind, placebo-controlled, dose escalation study to evaluate the safety, tolerability, and PK of single and multiple inhaled doses of imatinib inhalation solution (AER-901) in healthy adult volunteers. This study consists of 3 parts and an optional fourth part.",
+            "detailedDescription": "This is a randomised, double-blind, placebo-controlled, dose escalation study to evaluate the safety, tolerability, and PK of single and multiple inhaled doses of imatinib inhalation solution (AER-901) in healthy adult volunteers. This study consists of 3 parts and an optional fourth part:\n\n* Part A: double-blind, placebo-controlled, single ascending dose (SAD).\n* Part B: double-blind, placebo-controlled, multiple ascending dose (MAD).\n* Part C (optional): open-label, single-dose, crossover. The decision to proceed with Part C will be made by the Sponsor after reviewing unblinded safety and PK data from Part D of the study.\n* Part D: double-blind, placebo-controlled, 5 mg single dose (SD) followed by a twice daily (BID) 5 mg dose (total daily dose of 10 mg) of AER-901 in a propylene glycol formulation vs. placebo.\n\nOversight for the study will be provided by an SRC composed of the Principal Investigator (PI), the Sponsor's Medical Monitor (MM) and an independent MM. The decision to progress from Cohort A1 to Cohort A2 will be based on safety and tolerability data and not PK data from Cohort A1. However, the decision to progress from Cohort A2 to Cohort A3 will be based on review of safety and tolerability data from Cohort A2 and PK data from Cohort A1 by the SRC. A similar sequence will follow for subsequent progression decisions by the SRC for the cohorts in Part A and Part B of the study.\n\nAll parts of the study (A, B, C, and D) will include a 28-day Screening period, a Treatment period, and a Follow-up period. Parts C and D include an additional treatment period and a Washout period between the 2 treatment periods.\n\nThroughout this Study Protocol, timings for post-dose assessments for spirometry, ECG, blood and urine samples for PK analysis are stated in relation to completion of the most recent dose of IP."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Pulmonary Arterial Hypertension"
+            ],
+            "keywords": [
+              "Healthy Subjects",
+              "Imatinib",
+              "AER-901",
+              "PAH",
+              "Imatinib mesylate",
+              "inhalation",
+              "inhaled",
+              "nebulization",
+              "FOX Mobile",
+              "inhaler",
+              "Gleevec"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "This is a randomised, double-blind, placebo-controlled, dose escalation study to evaluate the safety, tolerability, and PK of single and multiple inhaled doses of imatinib inhalation solution (AER-901) in healthy adult volunteers. This study consists of 3 parts and an optional fourth part:\n\n* Part A: double-blind, placebo-controlled, single ascending dose (SAD).\n* Part B: double-blind, placebo-controlled, multiple ascending dose (MAD).\n* Part C (optional): open-label, single-dose, crossover. The decision to proceed with Part C will be made by the Sponsor after reviewing unblinded safety and PK data from Part D of the study.\n* Part D: double-blind, placebo-controlled, 5 mg single dose (SD) followed by a twice daily (BID) 5 mg dose (total daily dose of 10 mg) of AER-901 in a propylene glycol formulation vs. placebo.",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "Only Parts A, B and BD of the study will be double blinded. The Sponsor, PI and their designee/s, MM, study personnel, and participants are not to make any effort to determine which IP therapy is being received. Unmasked pharmacy personnel will be used in this study to prepare the IP.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 83,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "AER-901 Solution for Nebulization",
+                "type": "EXPERIMENTAL",
+                "description": "The inhalation formulation AER-901 for Part A and Part B (Cohort B1 only) is a sterile, yellow solution composed of imatinib mesylate and sterile water for injection. AER-901 will be supplied in 2 solution strengths (5 mg/mL and 40 mg/mL) for nebulisation.\n\nThe AER-901 inhalation formulation for Part D is a sterile yellow solution composed of imatinib mesylate, sterile water for injection and propylene glycol. AER-901 will be supplied in 2 solution strengths (5 mg/mL and 40 mg/mL) and the Pharmacy Manual will provide guidance on preparation for nebulization. Following review of the Part D safety and PK data by the SRC, the SRC will recommend which formulation and dose of AER-901 (sterile water vs propylene glycol) will be used in Parts B (Cohorts B2 and B3) and Part C.\n\nThe solution will be filled into a suitable container-closure system and delivered via a nebuliser known as the FOX\u00ae MOBILE. The water acts as the medium for nebulisation.",
+                "interventionNames": [
+                  "Drug: AER-901 Solution for Nebulization"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "A volume-matching placebo (0.45% sterile saline for injection) is to be delivered via the FOX\u00ae MOBILE device.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "AER-901 Solution for Nebulization",
+                "description": "Part A: participants will be enrolled into 1 of up to 5 sequential cohorts (A1 to A5). Inhaled AER-901 doses of 5, 10, 20, 40, and 80mg are planned.\n\nPart B: participants will be enrolled into 1 of up to 3 cohorts (B1 to B3).\n\nCohorts B2 and B3 will commence following Part D of the study and following SRC review of safety, tolerability, and PK data. A decision to dose with either a propylene glycol formulation or a sterile water formulation will be made by the SRC at the time of the review of the Part D data.\n\nPart D has a three-part design (Treatment Periods 1 \\& 2 separated by a Washout period) and will compare placebo to a single-dose of AER-901 (5 mg/mL QD) followed by two doses of AER-901.\n\nEach cohort will consist of 8 participants (6 receiving AER 901 and 2 receiving placebo).",
+                "armGroupLabels": [
+                  "AER-901 Solution for Nebulization"
+                ],
+                "otherNames": [
+                  "AER-901"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "0.45% sterile saline for injection delivered via the FOX MOBILE device.",
+                "armGroupLabels": [
+                  "Placebo"
+                ],
+                "otherNames": [
+                  "Placebo for Nebulization"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Treatment Emergent Adverse Events (TEAEs)",
+                "description": "TEAEs will be summarized by treatment group using frequency and percent for each system organ class and preferred term within each system, organ and class (SOC)",
+                "timeFrame": "From randomization though study completion (up to 17 days following last treatment)"
+              },
+              {
+                "measure": "Number of Participants with Serious Adverse Events (SAEs)",
+                "description": "SAEs will be summarized by treatment group using frequency and percent for each system organ class and preferred term within each system, organ and class (SOC)",
+                "timeFrame": "From randomization though study completion (up to 17 days following last treatment)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Systemic exposure to imatinib (in plasma) after a single administration of AER-901 (Part A)",
+                "description": "Plasma will be collected pre-dose, 0.5 h, 1 h, 2 h, 3 h, 4 h, 6 h, 9 h, 12 h , 24 h, 48 h, and 72 h post dose.",
+                "timeFrame": "Pre-dose through 72 hours post dose"
+              },
+              {
+                "measure": "Systemic exposure to imatinib (in plasma) after multiple administrations of AER-901 (Part B)",
+                "description": "Plasma will be collected at Days 1, 3, 5, and 7 at pre-dose, 0.5 h, 1 h, 2 h, 3 h, 4 h, 6 h, 9 h, 12 h (and 24 h, 48 h, 72 h, and 96 h post last dose).",
+                "timeFrame": "Pre-dose through 96 hours post last dose"
+              },
+              {
+                "measure": "Systemic exposure to imatinib (in urine) after single administration of AER-901 (Part A)",
+                "description": "Urine will be collected pre-dose, and post dose on Day 1, 24 h, 48 h, 72 h post dose",
+                "timeFrame": "Pre-dose through 72 hours post dose"
+              },
+              {
+                "measure": "Systemic exposure to imatinib (in urine) after multiple administrations of AER-901 (Part B)",
+                "description": "Urine will be collected pre-dose, and post dose on Days 1, 3, 5, 7 and 24 h, 48 h, 72 h, and 96 h post last dose",
+                "timeFrame": "Pre-dose through 96 hours post last dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provide written consent.\n2. Body weight \u2265 50 kg, and a body mass index 18.0 to 32.0, inclusive.\n3. Female participants of non child bearing potential or if of child bearing potential, agrees to take effective contraceptive measures throughout the study period.\n4. Male participant: has undergone bilateral vasectomy or agrees to use effective contraceptive effective contraceptive measures or abstinence, and not donate sperm throughout the study until at least 3 months after the last dose of IP.\n5. Forced expiratory volume in 1 sec (FEV1)/forced vital capacity (FVC) ratio of at least 0.7.\n6. Values for FEV1 and FVC of at least 80% of the predicted value.\n7. Able to understand the nature of the study and any hazards of participation, and ability to communicate satisfactorily with the Investigator and to participate in, and comply with the requirements of, the entire study.\n8. Able to successfully perform spirometry and use the inhalation device at Screening.\n9. Negative result for cotinine in the urine drug screen, at Screening and on Day -1.\n\nExclusion Criteria:\n\n1. Clinically significant physical findings, vital signs, ECG, or laboratory values that could interfere with the objectives of the study or the safety of the subject.\n2. Pregnant or lactating or planning to become pregnant (self or partner) at any time during the study, including the follow-up period.\n3. Presence of acute or chronic illness or history of chronic illness.\n4. Impaired endocrine, thyroid, hepatic, respiratory or renal function, diabetes mellitus, coronary artery disease, or history of any psychotic mental illness.\n5. Upper or lower respiratory tract infection within 4 weeks before the first dose of treatment.\n6. Any medically identified respiratory disease(s) and/or condition(s), including but not limited to current asthma, chronic obstructive pulmonary disease, and diagnosed obstructive sleep apnoea syndrome.\n7. Any clinically significant arrhythmia(s) at Screening ECG.\n8. History of surgery or medical intervention, or planned surgery or medical intervention, that could interfere with the objectives of the study or the safety of the volunteer.\n9. Currently taking any drug including prescription and non-prescription medications, herbal remedies, or vitamin supplements beginning 14 days before the first dose and throughout the study, with the exception of acetylsalicylic acid (aspirin).\n10. Positive test result(s) for hepatitis C virus (HCV) antibody, hepatitis B surface antigen (HbsAg), human immunodeficiency virus (HIV) antibody, or coronavirus disease of 2019 (COVID-19).\n11. Suffering from post-COVID-19 syndrome or have tested positive for COVID-19 infection within 3 months prior to the first dose of treatment.\n12. Participation in another clinical study of a new chemical entity, new device, or a prescription medicine within 3 months before dosing.\n13. Regular alcohol consumption at levels which may increase risk of harm from alcohol-related disease or injury. Participant is unwilling to abstain from alcohol beginning 48 hours prior to admission to the CRU and for the duration of the study.\n14. A history of substance abuse or dependency in the last 12 months, or a history of recreational intravenous drug use over the last 5 years, or a positive toxicology screening panel (urine test including qualitative identification of barbiturates, THC, amphetamines, methamphetamines, MDMA, phencyclidine, benzodiazepines, opiates and cocaine), or alcohol breath test.\n15. Current or previous use of tobacco, nicotine products, vaping device or e-cigarettes within the past 6 months.\n16. Loss of more than 400 mL blood (e.g., as a blood donor, or donor of blood products), during the 3 months before screening.\n17. Received any vaccination (e.g. for COVID-19 or influenza) within 6 weeks of treatment or plans to receive a vaccination during the study.\n18. History of Mycobacterium tuberculosis infection, or latent M. tuberculosis infection.\n19. Active or latent parasitic infection, have travelled to or have an intention to travel to a country with a high prevalence of parasitic infections within 3 months before or after receiving the treatment.\n20. Evidence of any other clinically significant infection, including bacterial or viral infections, at Screening and Day -1.\n21. Presence of any underlying physical and/or psychological medical condition that would make it unlikely that the participant will comply with the protocol or complete the study per protocol.\n22. An employee of the study site or Sponsor who is directly involved in the study, or a family member of such a person.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Lisa Yanez",
+                "affiliation": "Chief Operating Officer",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "CMAX",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "zip": "5000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              },
+              {
+                "id": "D053120",
+                "term": "Respiratory Aspiration"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D012120",
+                "term": "Respiration Disorders"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,3370 @@
+{
+  "integrated_id": "systemic:sys_c7b83552e6eb",
+  "asset": "HRS5965",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=HRS-5965",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06593938",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-301"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Efficacy and Safety of Oral HRS-5965 in Adult Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients Who Are Naive to Complement Inhibitor Therapy",
+            "officialTitle": "A Multicenter, Randomized, Open-label, Active-comparator Controlled Phase III Study to Evaluate the Efficacy and Safety of HRS-5965 Capsule in Patients With Paroxysmal Nocturnal Hemoglobinuria"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-07-31",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-07-31",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-09-10",
+            "studyFirstSubmitQcDate": "2024-09-10",
+            "studyFirstPostDateStruct": {
+              "date": "2024-09-19",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-09-10",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-09-11",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A study of the efficacy and safety of HRS-5965 capsules compared to eculizumab for 24 weeks in patients with PNH."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 76,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "HRS-5965 capsule",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsule"
+                ]
+              },
+              {
+                "label": "Eculizumab Injection",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: Eculizumab Injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 capsule",
+                "description": "HRS-5965 capsule for 24 weeks",
+                "armGroupLabels": [
+                  "HRS-5965 capsule"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Eculizumab Injection",
+                "description": "Eculizumab Injection for 24 weeks",
+                "armGroupLabels": [
+                  "Eculizumab Injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of subjects with the hemoglobin levels are \u2265 12 g/dL at least on three out of four measurements in the absence of red blood cell transfusions",
+                "timeFrame": "24 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of subjects with the change from baseline in hemoglobin is \u2265 2 g/dL at least on three out of four measurements in the absence of red blood cell transfusions",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "Proportion of subjects who absence of administration of red blood cell transfusions",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "Mean change from baseline in hemoglobin",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "Mean percent change from baseline in LDH levels",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "Mean change from baseline in reticulocyte counts",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "Mean change from baseline in FACIT-Fatigue scores",
+                "timeFrame": "24 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Diagnosis of PNH confirmed by flow cytometry with clone size \\> 10%.\n2. Have not received complement inhibitor therapy;\n3. LDH \\> 1.5\\*ULN at screening.\n4. Hemoglobin level \\< 10 g/dL at screening.\n\nExclusion Criteria:\n\n1. Known or suspected hereditary or acquired complement deficiency;\n2. Patients with laboratory evidence of bone marrow failure (reticulocytes \\<100x109/L; platelets \\<30x109/L; neutrophils \\<0.5x109/L);\n3. Presence or suspicion of a systemic active bacterial, viral, or fungal infection (based on judgment of the investigator) within 2 weeks prior to the first dose of HRS-5965;\n4. History of infection with capsular bacteria (e.g., meningococcus, pneumococcus, etc.)\n5. Positive of HIV, HBsAg or HCVAb.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital, Chinese Academy of Medical Sciences",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100730",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "The Blood Disease Hospital of the Chinese Academy of Medical Sciences",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C481642",
+                "term": "eculizumab"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07040787",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-107"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Investigation of Drug-drug Interaction of HRS-5965 With Clopidogrel and Clarithromycin in Healthy Subjects",
+            "officialTitle": "A Single-center, Single-arm, Fixed-sequence Drug-drug Interaction Study of HRS-5965 With Clopidogrel and Clarithromycin in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-07-08",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-08-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-08-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-06-18",
+            "studyFirstSubmitQcDate": "2025-06-18",
+            "studyFirstPostDateStruct": {
+              "date": "2025-06-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-08-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-08-20",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is being conducted to compare the drug-drug interaction of HRS-5965 with clopidogrel and clarithromycin in healthy subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Complement Mediated Glomerular Diseases",
+              "Hemolytic Anemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 36,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Drug-drug interaction between HRS-5965 and clopidogrel",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 Capsules",
+                  "Drug: Clopidogrel"
+                ]
+              },
+              {
+                "label": "Drug-drug interaction between HRS-5965 and clarithromycin",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 Capsules",
+                  "Drug: Clarithromycin"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 Capsules",
+                "description": "Oral HRS-5965 capsules.",
+                "armGroupLabels": [
+                  "Drug-drug interaction between HRS-5965 and clarithromycin",
+                  "Drug-drug interaction between HRS-5965 and clopidogrel"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Clopidogrel",
+                "description": "Oral clopidogrel.",
+                "armGroupLabels": [
+                  "Drug-drug interaction between HRS-5965 and clopidogrel"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Clarithromycin",
+                "description": "Oral clarithromycin.",
+                "armGroupLabels": [
+                  "Drug-drug interaction between HRS-5965 and clarithromycin"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The maximum plasma concentration (Cmax)",
+                "timeFrame": "Day 1 to day 12."
+              },
+              {
+                "measure": "Area under the concentration curve from time 0 to the last quantifiable concentration (AUClast)",
+                "timeFrame": "Day 1 to day 12."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Time to maximum plasma concentration",
+                "timeFrame": "Day 1 to day 12."
+              },
+              {
+                "measure": "Terminal half-life (t1/2)",
+                "timeFrame": "Day 1 to day 12."
+              },
+              {
+                "measure": "Incidence and severity of adverse events (AEs)",
+                "timeFrame": "Day 1 up to day 19."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ability to understand the study procedures and methods, participate voluntarily and be able to complete the study according to the protocol requirements, and sign the informed consent form (ICF) in writing.\n2. Aged 18-45 years old on the date of signing the ICF (including the threshold), both male and female.\n3. At the time of screening, male subjects weighing no less than 50 kg and female subjects weighing no less than 45 kg; body mass index (BMI): 19\\~26 kg/m2 (including the threshold).\n4. During the screening period, human immunodeficiency virus antibody (HIV-Ab), treponema pallidum antibody, hepatitis B surface antigen (HBsAg) and hepatitis C virus antibody (HCV-Ab) were all negative.\n5. Female subjects with reproductive capacity or male subjects whose partners are female subjects with reproductive capacity need to have no plans for fertility or sperm/egg donation within 3 months +1 week for male subjects and 6 months +1 week for female subjects from the date of signing the informed consent form until the last medication use, and voluntarily take efficient contraceptive measures (including partners).\n\nExclusion Criteria:\n\n1. Allergic to two or more allergens, or in the judgment of the investigator, may be allergic to the study drug or its components.\n2. Disease or medical condition that, in the judgment of the investigator, may interfere with the absorption, distribution, metabolism, and excretion of the drug or that may reduce compliance.\n3. Patients with a previous history of coronary artery disease, severe cardiac insufficiency, conduction disorders or clinically significant bradycardia.\n4. Patients with a history of electrolyte disorders (such as hypomagnesemia).\n5. Patients with a history of congenital or acquired QT interval prolongation or ventricular arrhythmia.\n6. Those with a history of meningococcal infection and streptococcus pneumoniae infection.\n7. Those with a history of neuromuscular diseases (such as myotonic dystrophy, poliomyelitis, myasthenia gravis, botulism poisoning) and poliomyelitis.\n8. Subjects who have had or are currently suffering from active pathological bleeding.\n9. Subjects with a previous history of recurrent oral ulcers.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Nanchang University",
+                "city": "Nanchang",
+                "state": "Jiangxi",
+                "zip": "330019",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.68396,
+                  "lon": 115.85306
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000077144",
+                "term": "Clopidogrel"
+              },
+              {
+                "id": "D017291",
+                "term": "Clarithromycin"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013988",
+                "term": "Ticlopidine"
+              },
+              {
+                "id": "D058924",
+                "term": "Thienopyridines"
+              },
+              {
+                "id": "D013876",
+                "term": "Thiophenes"
+              },
+              {
+                "id": "D013457",
+                "term": "Sulfur Compounds"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D011725",
+                "term": "Pyridines"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D004917",
+                "term": "Erythromycin"
+              },
+              {
+                "id": "D018942",
+                "term": "Macrolides"
+              },
+              {
+                "id": "D061065",
+                "term": "Polyketides"
+              },
+              {
+                "id": "D007783",
+                "term": "Lactones"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06684041",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-106"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety, Tolerability, Pharmacokinetic/Pharmacodynamic Study, and QT Interval Study of HRS-5965 Capsules in Healthy Subjects",
+            "officialTitle": "Safety, Tolerability, Pharmacokinetic/Pharmacodynamic Study of Multiple Doses of HRS-5965 Capsules in Healthy Subjects and a Phase I Clinical Trial of the Effect of HRS-5965 on QT Interval in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-04-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-04-07",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-11-01",
+            "studyFirstSubmitQcDate": "2024-11-10",
+            "studyFirstPostDateStruct": {
+              "date": "2024-11-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-04",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This was a randomized, double-blind, single-dose, placebo-controlled phase I clinical trial. This study plans to conduct three dose groups of dose 1, dose 2, and dose 3. A total of 32 healthy subjects were planned to be enrolled."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hemolytic Anemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Dose 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsule",
+                  "Drug: HRS-5965 capsule placebo"
+                ]
+              },
+              {
+                "label": "Dose 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsule",
+                  "Drug: HRS-5965 capsule placebo"
+                ]
+              },
+              {
+                "label": "Dose 3",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsule",
+                  "Drug: HRS-5965 capsule placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 capsule",
+                "description": "HRS-5965 capsule",
+                "armGroupLabels": [
+                  "Dose 1",
+                  "Dose 2",
+                  "Dose 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 capsule placebo",
+                "description": "HRS-5965 capsule placebo",
+                "armGroupLabels": [
+                  "Dose 1",
+                  "Dose 2",
+                  "Dose 3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of subjects with adverse events (AEs)",
+                "description": "Incidence of AEs, including any abnormal findings in vital signs, and/or physical examination and/or clinical laboratory assessments and/or 12-lead ECG evaluation.",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "QTcF: Baseline and placebo-adjusted QTcF after oral HRS-5965 capsules",
+                "timeFrame": "Baseline up to 24 hours after dosing."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero to the time of last quantifiable analyte concentration (AUC0-t) for HRS-5965",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero extrapolated to infinity (AUC0-\u221e) for HRS-5965",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Maximum plasma concentration (Cmax) for HRS-5965",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Time to reach maximum plasma concentration (Tmax) for HRS-5965",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Terminal half-life (t1/2) for HRS-5965",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Apparent clearance (CL/F) of HRS-5965 for administration subcutaneously",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Apparent volume of distribution (V/F) of HRS-5965 for administration subcutaneously",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              },
+              {
+                "measure": "Complement system alternative pathway (AP) inhibition efficiency",
+                "timeFrame": "Baseline up to seven days after the last dosing."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent form before any activities related to this trial, be able to understand the procedures and methods of this trial, and be willing to complete this trial in strict accordance with the clinical trial protocol.\n2. Aged between 18 and 45 years old (based on the time of signing the informed consent form), both males and females are eligible.\n3. The body weight of males \u2265 50 kg, and that of females \u2265 45 kg, and body mass index (BMI): 19 - 26 kg/m\u00b2.\n4. During the screening period, there are no abnormalities in physical examination, vital signs, twelve - lead electrocardiogram, frontal and lateral chest radiographs, abdominal ultrasound, and laboratory tests, or those with minor abnormalities but judged by the investigator to be of no clinical significance.\n5. During the screening period, human immunodeficiency virus antibody (HIV - Ab), treponema pallidum antibody, hepatitis B surface antigen (HBsAg), and hepatitis C virus antibody (HCV - Ab) are all negative.\n6. Complete the vaccination of Neisseria meningitidis and Streptococcus pneumoniae vaccines 2 weeks before the first administration of HRS - 5965.\n\nExclusion Criteria:\n\n1. The researcher has determined that there may be diseases or medical conditions that affect the absorption, distribution, metabolism and excretion of drugs or reduce compliance.\n2. According to the judgment of the researcher, any physiological or psychological disease or condition that may increase the risk of the test, affect the subject's compliance with the protocol, or affect the subject's completion of the test.\n3. Those with a previous history of Neisseria meningitidis infection, or those whose first - degree relatives have a history of Neisseria meningitidis infection.\n4. Those with definite evidence of infection within 2 weeks before screening (positive etiological examination, or having received systemic antibiotic treatment), or those who have had a body temperature exceeding 38 \u00b0C.\n5. Subjects with abnormal serum electrolytes (hypokalemia, hypomagnesemia, hypocalcemia).\n6. Subjects with a history of convulsive disorders, long QT syndrome (including family history), syncope while swimming or any other type of syncope or history of loss of consciousness.\n7. Subjects with a previous history of heart disease, such as hypertension, atherosclerosis, heart failure, bradycardia or stroke, or those using a pacemaker.\n8. Those with a serum creatinine level exceeding the upper limit of the normal value, or those whose level does not exceed the upper limit but are judged by the investigator to be at risk of renal function impairment.\n9. Those with alanine aminotransferase (ALT) or aspartate aminotransferase (AST) exceeding the upper limit of normal value (ULN), or with total bilirubin exceeding 1.5 times the ULN.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Zhongnan hospital of Wuhan University",
+                "city": "Wuhan",
+                "state": "Hubei",
+                "zip": "430071",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07582133",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-206"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Trial to Evaluate the Long-term Safety and Tolerability of HRS-5965 in Patients With Primary IgA Nephropathy",
+            "officialTitle": "A Multicenter, Open-label Trial to Evaluate the Long-term Safety and Tolerability of HRS-5965 Capsules in Patients With Primary IgA Nephropathy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-07-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-11",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-05-06",
+            "studyFirstSubmitQcDate": "2026-05-06",
+            "studyFirstPostDateStruct": {
+              "date": "2026-05-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-22",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study aims to evaluate the long-term safety of HRS-5965 capsules in patients with primary IgA nephropathy, and also to assess its efficacy in reducing 24-hour urinary protein and delaying the decline in eGFR in these patients."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary IgA Nephropathy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 380,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "HRS-5965 Capsules",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 Capsules"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 Capsules",
+                "description": "HRS-5965 Capsules",
+                "armGroupLabels": [
+                  "HRS-5965 Capsules"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence and severity of adverse events (AEs) throughout the study;",
+                "timeFrame": "2 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Ratio of 24-hour urine protein excretion (24-UPE) to baseline;",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "The change from baseline in estimated glomerular filtration rate (eGFR);",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "The change from baseline in serum creatinine (Scr);",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "The proportion of participants with 24-UPE < 0.5 g/d;",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "The proportion of participants with 24-UPE < 0.3 g/d;",
+                "timeFrame": "2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with primary IgA nephropathy who completed treatment in Study HRS-5965-305, or who prematurely discontinued study drug during the maintenance phase following initiation of rescue therapy;\n2. Understand the research procedures and methods, voluntarily participate in this trial and sign the informed consent form in person.\n\nExclusion Criteria:\n\n1. Hypersensitivity to the study drug or its components\uff1b\n2. History of immunodeficiency disorders\uff1b\n3. History of invasive encapsulated bacterial infection\uff1b\n4. History of malignant neoplasm\uff1b\n5. The estimated glomerular filtration rate (eGFR) is less than 20 mL/min/1.73m2\uff1b",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yanfang Zou",
+                "role": "CONTACT",
+                "phone": "+0518-82342973",
+                "email": "yanfang.zou@hengrui.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University First Hospital",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100000",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hong Zhang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06137768",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-201"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Trial of HRS-5965 Tablets in Primary IgA Nephropathy",
+            "officialTitle": "A Trial to Evaluate the Efficacy and Safety of HRS-5965 Tablets in Primary IgA Nephropathy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-12-19",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-10-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-10-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-11-14",
+            "studyFirstSubmitQcDate": "2023-11-14",
+            "studyFirstPostDateStruct": {
+              "date": "2023-11-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is being conducted to evaluate the efficacy, and safety of HRS-5965 tablets for primary IgA nephropathy. To explore the effective dosage of HRS-5965 tablets for primary IgA nephropathy."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary IgA Nephropathy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 123,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Treatment group A: HRS-5965; high dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              },
+              {
+                "label": "Treatment group B: HRS-5965; medium dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              },
+              {
+                "label": "Treatment group C: HRS-5965; low dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              },
+              {
+                "label": "Treatment group D: Placebo.",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Treatment group E",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965",
+                "description": "HRS-5965",
+                "armGroupLabels": [
+                  "Treatment group A: HRS-5965; high dose",
+                  "Treatment group B: HRS-5965; medium dose",
+                  "Treatment group C: HRS-5965; low dose",
+                  "Treatment group E"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo.",
+                "armGroupLabels": [
+                  "Treatment group D: Placebo."
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Ratio of 24-hour Urinary protein to creatinine ratio (UPCR) to baseline",
+                "timeFrame": "Baseline and Week 12"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Ratio of 24-hour Urinary protein to creatinine ratio (UPCR) to baseline",
+                "timeFrame": "Baseline and Week 24"
+              },
+              {
+                "measure": "Ratio of 24-hour Urinary protein to creatinine ratio (UPCR) to baseline",
+                "timeFrame": "up to Week 24"
+              },
+              {
+                "measure": "Ratio of 24-hour Urinary protein excretion\uff08UPE\uff09 to baseline",
+                "timeFrame": "up to Week 24"
+              },
+              {
+                "measure": "Change from baseline of estimated glomerular filtration rate\uff08eGFR\uff09",
+                "timeFrame": "up to Week 24"
+              },
+              {
+                "measure": "Change from baseline of serum creatinine",
+                "timeFrame": "up to Week 24"
+              },
+              {
+                "measure": "Ratio of Urinary protein to creatinine ratio and Urinary albumin to creatinine ratio to baseline",
+                "timeFrame": "up to Week 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able and willing to provide a written informed consent\uff1b\n2. Weight \u226535 kg, Body mass index (BMI) \\< 37.5kg /m2;\n3. Primary IgA nephropathy was confirmed by renal biopsy within 5 years;\n4. 24-UPE\u2265 0.75g /24h, or UPCR\u2265 0.8g/g at screening and prior to randomization;\n5. eGFR\u226530 ml/min/1.73m2 at screening and prior to randomization; (CKD-EPI formula)\n6. A fertile female subject or a male subject whose partner is a fertile female, who has not had a fertility, sperm/egg donation plan from the signing of the informed consent to 1 month after the last dose, and voluntarily takes effective contraceptive measures (including the partner);\n7. Receiving optimal supportive therapy including RAS blockers for 12 weeks and stabilizing the dose for at least 4 weeks after reaching the maximum recommended dose or the maximum tolerated dose prior to randomization;\n\nExclusion Criteria:\n\n1. Allergic to any RAS blockers, investigational products, or components as evaluated by the investigator;\n2. Patients with secondary IgA nephropathy as determined by the investigator;\n3. IgA nephropathy with rapid decline of renal function; Kidney pathology indicated that more than 50% of the glomerulus had large crescent body formation, which may affect the study results; Tubule atrophy - interstitial fibrosis of more than 50%;\n4. Patients with a history of immunodeficiency disease; Or in combination with other systemic diseases likely to cause proteinuria;\n5. Have any organ transplant;\n6. Patients with chronic recurrent infections within 1 year prior to screening, such as liver abscess and pyelonephritis; Or subjects with active infection who requiring intravenous antibiotic therapy within 2 weeks prior to randomization;\n7. Patients with a history of malignant neoplasms;\n8. Patients with a history of severe trauma or major surgery within 12 weeks prior to screening, or who plan to undergo surgery during the study period;\n9. Patients with a history of blood donation or a history of severe blood loss (\u2265400 mL blood loss) within 12 weeks prior to screening, or who have received blood transfusions within 12 weeks prior to screening;\n10. The presence of a disease or medical condition determined by the investigator might affect drug absorption, distribution, metabolism, and excretion;\n11. As determined by the investigator, the subject has any of the following: progression or recovery of a disease;\n12. Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), or total bilirubin exceeding 3 times the upper limit of normal (ULN) at screening;\n13. Participants who have participated in a clinical trial of any drug or medical device within 12 weeks prior to randomization and are expected to have residual effects of the investigational treatment (as determined by the investigator), or who were within the follow-up period of a clinical study, or within 5 half-lives of the investigational drug, or within 30 days (whichever is older) before screening;\n14. Women who are pregnant or breastfeeding;\n15. A history of drug abuse;\n16. Any physical or mental illness or condition that, as determined by the investigator, is likely to increase the risk of the study, affect the subject's adherence to the protocol, or prevent the subject from completing the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Beijing University First Hospital",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100034",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "38299639",
+                "type": "DERIVED",
+                "citation": "Tunnicliffe DJ, Reid S, Craig JC, Samuels JA, Molony DA, Strippoli GF. Non-immunosuppressive treatment for IgA nephropathy. Cochrane Database Syst Rev. 2024 Feb 1;2(2):CD003962. doi: 10.1002/14651858.CD003962.pub3."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06490991",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-102"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Comparison of HRS-5965 Capsules and Tablets in Healthy Subjects",
+            "officialTitle": "A Clinical Study Evaluating the Relative Bioavailability of HRS-5965 Capsules and Tablets in Healthy Subjects ."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-07-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-08-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-09-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-06-23",
+            "studyFirstSubmitQcDate": "2024-07-05",
+            "studyFirstPostDateStruct": {
+              "date": "2024-07-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-22",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is designed as a single-center, randomized, open-label, cross-over phase I clinical trial with the intention of recruiting 16 healthy subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria\uff0cIgA Nephropathy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Arm A: Medication regimen 1-2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 tablets\uff1bHRS-5965 capsules"
+                ]
+              },
+              {
+                "label": "Arm B: Medication regimen 2-1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 tablets\uff1bHRS-5965 capsules"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 tablets\uff1bHRS-5965 capsules",
+                "description": "Medication regimen: 1 Drug: HRS-5965 tablets Medication regimen: 2 Drug: HRS-5965 capsules",
+                "armGroupLabels": [
+                  "Arm A: Medication regimen 1-2",
+                  "Arm B: Medication regimen 2-1"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The relative bioavailability (Fr) values between HRS-5965 capsules and HRS-5965 tablets taken on an empty stomach",
+                "timeFrame": "0-144hours"
+              },
+              {
+                "measure": "Relative bioavailability (Fr) values of HRS-5965 capsules taken on an empty stomach",
+                "timeFrame": "0-144hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntarily sign an informed consent form before the start of this trial, and be able to understand the procedures and methods of this trial. Willing to strictly follow the clinical trial protocol to complete this trial.\n2. Healthy subject is male aged between 18 and 45 years (including both ends, subject to signing of informed consent form);\n3. Body weight \u2265 50 kg, and body mass index (BMI): 19-26 kg/m2 (including both ends);\n4. Physical examination, vital signs, 12 lead electrocardiogram, chest X-ray, abdominal ultrasound, and laboratory tests during the screening period show no abnormalities, or there are slight abnormalities that have been determined by the researcher to have no clinical significance;\n5. Human immunodeficiency virus antibody (HIV Ab), treponema pallidum antibody, hepatitis B surface antigen (HBsAg) and hepatitis C virus antibody (HCV Ab) were all negative during the screening period;\n6. Male subjects with partners who are fertile women, who have no plans to conceive or donate sperm within 3 months after signing the informed consent form and voluntarily adopt efficient contraceptive measures (including partners);\n\nExclusion Criteria:\n\n1. Individuals who are allergic to two or more allergens, or who have been determined by the researcher to be potentially allergic to the investigational drug or its components;\n2. According to the judgment of researchers, there may be diseases or medical conditions that may affect drug absorption, distribution, metabolism, and excretion, or may reduce compliance;\n3. Patients with comorbidities such as cardiovascular, liver, kidney, digestive tract, psychiatric, hematological, metabolic abnormalities, and immunodeficiency;\n4. Individuals with a history of meningococcal infection or first-degree relatives with a history of meningococcal infection;\n5. Screening for individuals with clear evidence of infection (positive pathogen test or previous systemic antibiotic treatment) or those with a body temperature exceeding 38 \u2103 within the first two weeks;\n6. Screening for individuals who have experienced severe trauma or surgery within the first 8 weeks, or plan to undergo surgery during the trial period;\n7. Screening for clinical trials involving any other drugs or medical devices within the first 4 weeks or planned during the study period, or those who are still within 5 half-lives of the drugs before screening (whichever is longer);\n8. Those who have used any drugs (including prescription drugs, over-the-counter drugs, Chinese herbal medicines, traditional Chinese patent medicines and simple preparations and dietary supplements) within 4 weeks before screening; Or select those who are within 5 half-lives of the drug at the time of screening (whichever is longer);\n9. Those whose blood creatinine levels exceed the upper limit of normal values, or those who have not exceeded the upper limit but have been determined by the researcher to have a possibility of renal function damage;\n10. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) exceeding the upper limit of normal values (ULN), or total bilirubin exceeding 1.5 times ULN;\n11. When screening, individuals with QTcF\\>450 msec (male) , or other clinically significant abnormalities determined by the researcher;\n12. Individuals with a history of blood donation or severe blood loss (blood loss \u2265 400 mL) within the 8 weeks prior to screening, or those who have received blood transfusions within the 12 weeks prior to screening;\n13. Those who have used drugs or drugs in the past; Or those who tested positive for urine medication during screening;\n14. Screening for individuals who smoke an average of 5 or more cigarettes per day within the first 4 weeks;\n15. The average daily alcohol intake in the four weeks before screening exceeds 15 g (15 g alcohol is equivalent to 450 mL beer, 150 mL wine or 50 mL low alcohol Baijiu), or the alcohol breath test is positive during screening;\n16. Difficulty swallowing, difficulty in venous blood collection, or physical condition unable to withstand blood collection; Or subjects who are expected to be unable to complete the entire trial follow-up;\n17. Those who receive the vaccine within 2 weeks before the first administration or within 1 month after the last administration during the study period;\n18. Subjects with a history of recurrent oral ulcers;\n19. According to the judgment of the researcher, any physiological or psychological illness or condition that may increase the trial risk, affect the participant's compliance with the protocol, or affect the participant's completion of the trial, as well as any other situation determined by the researcher that the participant is not suitable to participate in the clinical study.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "ZhongShan Hospital FuDan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200032",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07035665",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-108"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Study to Evaluate the Effect of Food on the Pharmacokinetic Profiles of HRS-5965 Capsules in Healthy Subjects",
+            "officialTitle": "A Single-Center, Randomized, Open-Label, Crossover Clinical Study to Evaluate the Effect of Food on the Pharmacokinetic Profiles of HRS-5965 Capsules in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-06-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-07-22",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-07-22",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-06-16",
+            "studyFirstSubmitQcDate": "2025-06-16",
+            "studyFirstPostDateStruct": {
+              "date": "2025-06-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-08-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-08-20",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is being conducted to evaluate the effect of food on pharmacokinetics of HRS-5965 capsules after oral administration."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "IgA Nephropathy",
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "HRS-5965 Group A",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 Capsules"
+                ]
+              },
+              {
+                "label": "HRS-5965 Group B",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 Capsules"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 Capsules",
+                "description": "Oral doses of HRS-5965 capsules at fasted and fed conditions.",
+                "armGroupLabels": [
+                  "HRS-5965 Group A",
+                  "HRS-5965 Group B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Peak concentration (Cmax) of HRS-5965",
+                "timeFrame": "Day 1 to Day 13."
+              },
+              {
+                "measure": "Area under the plasma concentration - time curve from time 0 to the last quantifiable timepoint (AUC0-t)",
+                "timeFrame": "Day 1 to Day 13."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Time to peak concentration (Tmax)",
+                "timeFrame": "Day 1 to Day 13."
+              },
+              {
+                "measure": "Adverse events (AEs)",
+                "timeFrame": "Day 1 to Day 20."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed the informed consent form pre-trial.\n2. Aged 18-45 years at signing the informed consent form.\n3. Childbearing potential subjects: no pregnancy/sperm/egg donation plans; effective contraception.\n\nExclusion Criteria:\n\n1. Recent infection (\u22642 weeks): pathogen-positive test, systemic antibiotics, or fever \\> 38\u00b0C.\n2. Major trauma/surgery (\u22648 weeks) or planned surgery during the study.\n3. Drug abuse history or positive urine drug screen.\n4. Investigator-assessed suitability concerns: increased risk, compliance issues, or clinical ineligibility.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "ZhongShan Hospital FuDan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200032",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              },
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06715943",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-302"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Efficacy and Safety of HRS-5965 in Patients With PNH Who Are Still Anemia After Anti-C5 Antibody Treatment",
+            "officialTitle": "Multicenter, Single-arm, Open-label Phase III Study to Evaluate Efficacy and Safety of HRS-5965 Capsule in Patients With PNH Who Are Still Anemia After Anti-C5 Antibody Treatment"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-01-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-01-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-01-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-11-28",
+            "studyFirstSubmitQcDate": "2024-11-28",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-07",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial is a multi-center, single-arm, open-label phase III clinical trial. A total of approximately 35 patients with paroxysmal nocturnal hemoglobinuria who remained anemic despite stable use of C5 complement inhibitor (eculizumab/Kevacumab) for the first 6 months before randomization were included in the study. Approximately 40% of the subjects had received at least one red blood cell (RBC) transfusion within the first 6 months before receiving the experimental intervention. Subjects who met the criteria were all treated with HRS-5965 capsules. This trial includes an 8-week screening period, a 24-week treatment period, a 2-week dose reduction period, and a 4-week safety follow-up period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "HRS-5965 capsule",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsule"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 capsule",
+                "description": "HRS-5965 capsule treatment",
+                "armGroupLabels": [
+                  "HRS-5965 capsule"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "In the absence of red blood cell infusion (defined as no red blood cell infusion after week 2 to week 24), the proportion of subjects with at least 3 times of \u226512 g/dL of hemoglobin level measured 4 times between weeks 18 and 24.",
+                "timeFrame": "From the 18th to the 24th week."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The proportion of subjects who did not receive red blood cell infusion from week 2 to week 24",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "The average change of hemoglobin compared with baseline during weeks 18 to 24",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "The average percentage change of lactate dehydrogenase (LDH) level compared with the baseline during weeks 18 to 24",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "The average change of reticular red blood cell count compared with the baseline during weeks 18 to 24",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "Chronic Disease Treatment Function Assessment (FACIT) from weeks 18 to 24 - the average change of the score compared to the baseline",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "The incidence of breakthrough hemolysis from week 1 to week 24",
+                "timeFrame": "From the 18th to the 24th week"
+              },
+              {
+                "measure": "The incidence of MAVEs (including thrombosis) from week 1 to week 24",
+                "timeFrame": "From the 1st to the 24th week"
+              },
+              {
+                "measure": "The incidence and severity of adverse events from week 1 to week 24",
+                "timeFrame": "From the 1st to the 24th week"
+              },
+              {
+                "measure": "The concentration of HRS-5965 in plasma",
+                "timeFrame": "From the 1st to the 24th week"
+              },
+              {
+                "measure": "The percentage of the change of complement bypass pathway (AP) activity at each point in time compared with the baseline",
+                "timeFrame": "From the 1st to the 24th week"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Understand the specific process of the experiment, voluntarily participate in this experiment, and sign a written informed consent form.\n2. Age \u226518 on the day of signing the informed consent, regardless of gender\n3. It was confirmed to be PNH during screening, and the clone size of red blood cells or granulocytes was detected by flow cytopy \\>10%\n4. Stable use of C5 complement inhibitor ikuzumab/covalimab for the first 6 months of random treatment\n5. Have at least one blood transfusion record within the last 3 months, or sustain a hemoglobin level below 10g/dL during the eculizumab treatment within the last 3 months prior to screening.\n6. The average hemoglobin level from two tests conducted by the central laboratory at the time of screening is less than 10 g/dL, with each individual Hb value being less than 10.5 g/dL.\n7. Inoccution of Neisseris meningitis and Streptococcus pneumoniae vaccine at least 2 weeks before the first administration of HRS-5965; if HRS-5965 treatment must begin less than 2 weeks after vaccination, preventive antibiotic treatment must begin at least 2 weeks after vaccination.\n8. Male and female subjects with fertility must agree to adopt efficient contraceptive measures with their partners within 30 days from the signing of the informed consent form to the last administration, and have no family planning and no sperm/egg donation.\n\nExclusion Criteria:\n\n1. In addition to C5 complement inhibitors (ikuzuzumab/covalimamab), those who have participated in clinical trials of any other drug or medical device within 1 month before and are expected to have a residual effect of experimental treatment (judged by researchers), or those who were still in the follow-up period of a clinical trial or the 5 half-life of the experimental drug before screening Inside (whichever is longer)\n2. Known or suspected hereditary or acquired complement deficiency\n3. Currently active primary or secondary immunodeficiency\n4. Those who have a history of splenectomy or plan to perform surgery during the trial\n5. History of bone marrow/hematopoietic stem cells or solid organ transplantation\n6. Diagnosed malignant tumors in the past 5 years\n7. There is laboratory evidence for patients with bone marrow failure during screening\n8. History of infection with pod bacteria (such as Neisseris meningitis, Streptococcus pneumoniae, etc.)\n9. There is or is suspected of systemic active bacteria, virus or fungal infection 2 weeks before the first administration of HRS-5965 (according to the researcher's judgment)\n10. Fever occurs within 1 week before the first administration of HRS-5965 (body temperature \u226538 \u2103)\n11. Human immunodeficiency virus (HIV) infection\n12. Hepatitis B surface antigen (HBsAg) and hepatitis C antibody (HCVAb) are positive during screening, or abnormal liver function test during screening\n13. Use any of the following drugs, unless there is a stable treatment plan before screening: a) erythropoietin (ESA), hypoxic-inducing factor proaminoyl hydroxylase inhibitor (HIF-PHI) or immunosuppressant for at least 8 weeks b) Systemic use of glucocorticoids (\u226415 mg/day Prednisone or equivalent doses of glucocorticoids) at least 4 weeks c) Vitamin K antagonists (such as warfarin) have a stable international standardized ratio (INR) at least 4 weeks d) Low molecular weight heparin, oral anticoagulants such as aspirin, rvaroxaban, apifloxaban, etc. at least 4 weeks e) Iron supplements , vitamin B12, folic acid or androgen for at least 4 weeks\n14. During screening, there are serious concurrent diseases, such as severe kidney disease (such as eGFR\\<30 mL/min/1.73 m2, dialysis), advanced heart disease (such as NYHA level IV), severe lung disease such as pulmonary hypertension (WHO level IV) or liver disease (such as active hepatitis), etc. , judged by the researcher that it is not suitable to participate in the researcher\n15. Any medical condition determined by the researcher that it may affect the patient's participation in the trial, chronic anemia or unstable thrombosis events that may exist for other causes, and other conditions judged by the researcher to be unsuitable for participation in the trial\n16. Those who are suspected of being allergic to experimental drugs or any ingredient in experimental drugs\n17. Screening positive blood pregnancy test and breastfeeding women at the time of the visit",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Hematology Hospital of Chinese Academy of Medical Sciences",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "30000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "Tianjin Medical University General Hospital",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "30000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05505955",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-101"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of HRS-5965 in Healthy Subjects and Subjects With Renal Insufficiency",
+            "officialTitle": "A Phase I Study to Evaluate Safety, Tolerability, Pharmacokinetics/Pharmacodynamics of Single and Multiple Dose of HRS-5965 Tablets in Healthy Subjects, and the Food Effect on Pharmacokinetics, and Pharmacokinetics in Subjects With Impaired Renal Function"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-10-08",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-11-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-11-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-08-16",
+            "studyFirstSubmitQcDate": "2022-08-16",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-22",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-23",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The trial is the first human trial. The safety, tolerability, PK and PD of HRS-5965 tablets will be evaluated in healthy subjects and subjects with impaired renal function. The study was divided into three parts:\n\nPart 1: single ascending dose, randomized, double-blind study\uff0cwith 6 dose groups preset, of which 1 group will be administered under fasted and fed conditions; Part 2: Multiple ascending dose, randomized, double-blind study\uff0cwith 4 dose groups preset; Part 3: an open-label, nonrandomized, single-dose study to evaluate the effect of severe renal impairment (RI) on the safety, tolerability, pharmacokinetics, and pharmacodynamics of HRS -5965 compared to demographically-matched healthy participants with normal renal function."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Glomerulonephritis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Single-dose and multi-dose, dose escalation, placebo-controlled study",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 83,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1",
+                "type": "EXPERIMENTAL",
+                "description": "single ascending dose, randomized, double-blind study\uff0cwith 6 dose groups preset, of which 1 group will be administered under fasted and fed conditions. The food impact study consisted of 10 subjects, 8 of whom received HRS-5965 tablets and 2 of whom received placebo. The remaining cohorts required 8 subjects each, with 6 receiving HRS-5965 tablets and 2 receiving placebo.",
+                "interventionNames": [
+                  "Drug: HRS-5965",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple ascending dose, randomized, double-blind study\uff0cwith 4 dose groups preset; Each dose group consisted of 8 healthy adult subjects randomly assigned 6:2 to HRS-5965 tablets or placebo.",
+                "interventionNames": [
+                  "Drug: HRS-5965",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 3",
+                "type": "EXPERIMENTAL",
+                "description": "an open-label, nonrandomized, single-dose study to evaluate the effect of severe renal impairment (RI) on the safety, tolerability, pharmacokinetics, and pharmacodynamics of HRS -5965 compared to demographically-matched healthy participants with normal renal function. Subjects took HRS5965 tablets.",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965",
+                "description": "Subjects took HRS5965 tablets in Part 1, Part 2 and Part 3.",
+                "armGroupLabels": [
+                  "Part 1",
+                  "Part 2",
+                  "Part 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Subjects took Placebo in Part 1 and Part 2.",
+                "armGroupLabels": [
+                  "Part 1",
+                  "Part 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence and severity of adverse events to assess safety and tolerability",
+                "timeFrame": "up to 24 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area under the plasma concentration versus time curve (AUC) on Day 1 for Part 1 and Part 3",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              },
+              {
+                "measure": "Peak plasma concentration (Cmax) on Day 1 for Part 1 and Part 3",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              },
+              {
+                "measure": "Time to maximum plasma concentration (Tmax) on Day 1 for Part 1 and Part 3",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              },
+              {
+                "measure": "\u2022 Area under the plasma concentration versus time curve (AUC) on Day 1 and Day 10 for Part 2",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              },
+              {
+                "measure": "Peak plasma concentration (Cmax) on Day 1 and Day 10 for Part 2",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              },
+              {
+                "measure": "Time to maximum plasma concentration (Tmax) on Day 1 and Day 10 for Part 2",
+                "timeFrame": "Pre-dose to 144 hours post-dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Healthy subjects study\n\n1. Healthy male or female, age \u2265 18 years old and \u2264 70 years old (on the day of signing the informed consent);\n2. 18.5kg/m2 \u2264BMI\\<30 kg/m2, and the weight of men should be \u2265 50kg, and that of women should be \u2265 45kg.\n\nStudy on subjects with renal insufficiency\n\n1. Age \u2265 18 years old and \u2264 70 years old (on the day of signing the informed consent), both men and women can;\n2. 18.5kg/m2\u2264BMI\\<30 kg/m2\uff1b\n3. The estimated glomerular filtration rate of subjects with chronic renal insufficiency conforms to 15 \u2264 EGFR \\< 30 ml/min/1.73m2 (calculated according to CKD-EPI formula, see Appendix 2 of the scheme).\n\nExclusion Criteria:\n\n\\- Healthy subjects study\n\n1. The researcher has determined that there may be diseases or medical conditions that affect the absorption, distribution, metabolism and excretion of drugs or reduce compliance;\n2. The estimated glomerular filtration rate conforms to EGFR \\< 90 ml/min/1.73m2 (calculated according to CKD-EPI formula, see Appendix 2 of the scheme);\n3. According to the judgment of the researcher, any physiological or psychological disease or condition that may increase the risk of the test, affect the subject's compliance with the protocol, or affect the subject's completion of the test.\n\nStudy on subjects with renal insufficiency\n\n1. Those who received renal replacement therapy within 12 weeks before screening; Or the two tests in the screening period indicate that the renal function is unstable (the results in the screening period meet the diagnostic criteria of 2012 KDIGO acute renal injury, or the changes that do not meet the above criteria but are judged to be clinically significant by the researcher. If there are reasonable reasons, the third test is allowed, and the interval between two consecutive tests should be more than 3 days but not more than 7 days);\n2. According to the judgment of the researcher, the subject has any of the following: in the state of progression or prognosis of disease (including primary renal disease, complications and other complications); The treatment plan needs to be adjusted at any time; Any physical or mental disease or condition that may increase the risk of the test, affect the subject's compliance with the protocol, or affect the subject's completion of the test.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Affiliated hospital of QingDao University",
+                "city": "Qingdao",
+                "state": "Shandong",
+                "zip": "266000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 36.06488,
+                  "lon": 120.38042
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40378845",
+                "type": "DERIVED",
+                "citation": "Xu Y, Tian F, Ren H, Yu X, Chen X, Ye K, Sun F, Fang L, Li Y, Ban R, Jiang X, Wang C, Ma Y, Kuang F, Li X, Zhang Z, Ye C, Hu M, He F, Shu C, Zou Y, Huang R, Shen K, Xing G, Cao Y. HRS-5965, a small-molecule factor B inhibitor, in healthy participants and participants with renal insufficiency: A first-in-human, phase 1 trial. Med. 2025 Aug 8;6(8):100698. doi: 10.1016/j.medj.2025.100698. Epub 2025 May 15."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07014826",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-305"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Trial of HRS-5965 Capsule in Primary IgA Nephropathy",
+            "officialTitle": "Multicenter, Randomized, Double-blind, Parallel, Placebo-controlled Phase III Clinical Trial, to Evaluate the Efficacy and Safety of HRS-5965 Capsule in Primary IgA Nephropathy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-06-04",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-05-22",
+            "studyFirstSubmitQcDate": "2025-06-03",
+            "studyFirstPostDateStruct": {
+              "date": "2025-06-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-31",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-08-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This multicenter, randomized, double-blind, parallel, placebo-controlled study is being conducted to evaluate the efficacy, and safety of HRS-5965 capsule for primary IgA nephropathy."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary IgA Nephropathy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 378,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Treatment group A",
+                "type": "EXPERIMENTAL",
+                "description": "HRS-5965",
+                "interventionNames": [
+                  "Drug: HRS-5965"
+                ]
+              },
+              {
+                "label": "Treatment group B",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965",
+                "description": "HRS-5965",
+                "armGroupLabels": [
+                  "Treatment group A"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Treatment group B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Ratio of 24-hour Urinary protein to creatinine ratio (UPCR) to baseline",
+                "timeFrame": "Baseline and Week 36"
+              },
+              {
+                "measure": "The total annualized slope of estimated glomerular filtration rate\uff08eGFR\uff09",
+                "timeFrame": "Baseline and Week 104"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The total annualized slope of estimated glomerular filtration rate\uff08eGFR\uff09",
+                "timeFrame": "up to Week 36"
+              },
+              {
+                "measure": "Proportion of subjects with 24-hour urinary protein excretion (24-UPE) < 0.5 g/d and < 0.3 g/d",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Proportion of subjects with 24-UPCR declined >50% to baseline",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Ratio of 24-hour Urinary protein to creatinine ratio (24-UPCR) to baseline",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Ratio of 24-hour Urinary protein to Albumin Creatinine ratio (24-UACR) to baseline",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Ratio of 24-hour Urinary protein excretion\uff0824-UPE\uff09 to baseline",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Change from baseline of eGFR",
+                "timeFrame": "up to Week 36 and Week104"
+              },
+              {
+                "measure": "Change from baseline of serum creatinine",
+                "timeFrame": "up to Week 36 and Week104"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able and willing to provide a written informed consent\uff1b\n2. Weight \u226535 kg, Body mass index (BMI) \\< 37.5kg /m2;\n3. Primary IgA nephropathy was confirmed by renal biopsy within 8 years;\n4. 24-UPE\u2265 1.0g /24h, or 24-UPCR\u2265 0.8g/g at screen, and 24-UPCR\u2265 0.8g/g prior to randomization;\n5. eGFR\u226530 ml/min/1.73m2 at screening and prior to randomization; (CKD-EPI formula)\n6. A fertile female subject or a male subject whose partner is a fertile female, who has not had a fertility, sperm/egg donation plan from the signing of the informed consent to 1 month after the last dose, and voluntarily takes effective contraceptive measures (including the partner);\n7. Understand the research procedures and methods, voluntarily participate in this trial, and sign the informed consent form in person.\n8. Receiving optimal supportive therapy including RAS blockers and stabilizing the dose for at least 12 weeks after reaching the maximum recommended dose or the maximum tolerated dose prior to randomization;\n\nExclusion Criteria:\n\n1. Allergic to any RAS blockers, investigational products, or components as evaluated by the investigator;\n2. Patients with secondary IgA nephropathy as determined by the investigator;\n3. IgA nephropathy with rapid decline of renal function; Kidney pathology indicated that more than 50% of the glomerulus had large crescent body formation, which may affect the study results; Tubule atrophy - interstitial fibrosis of more than 50%;\n4. Patients with a history of immunodeficiency disease; Or in combination with other systemic diseases likely to cause proteinuria; Or with Nephrotic Syndrome;\n5. Have any organ transplant;\n6. Patients with active infection of tuberculosis within 1 year prior to screening, such as liver abscess and pyelonephritis; Or subjects with active infection who requiring intravenous antibiotic therapy within 2 weeks prior to randomization;\n7. Patients with a history of malignant neoplasms;\n8. Patients with a history of severe trauma or major surgery within 12 weeks prior to screening, or who plan to undergo surgery during the study period;\n9. Patients with a history of blood donation or a history of severe blood loss (\u2265400 mL blood loss) within 12 weeks prior to screening, or who have received blood transfusions within 12 weeks prior to screening;\n10. The presence of a disease or medical condition determined by the investigator might affect drug absorption, distribution, metabolism, and excretion;\n11. As determined by the investigator, the subject has any of the following: progression or recovery of a disease;\n12. Alanine aminotransferase (ALT), Aspartate aminotransferase (AST), or total bilirubin exceeding 3 times the upper limit of normal (ULN) at screening;\n13. Participants who have participated in a clinical trial of any drug or medical device within 12 weeks prior to randomization and are expected to have residual effects of the investigational treatment (as determined by the investigator), or who were within the follow-up period of a clinical study, or within 5 half-lives of the investigational drug, or within 30 days (whichever is older) before screening;\n14. Women who are pregnant or breastfeeding;\n15. A history of drug abuse;\n16. Participants who received systemic glucocorticoid or immune suppressants within 12 weeks prior to randomization and are expected to have during research\uff1b\n17. Participants who received biologics or cytokine inhibitor within 6 months prior to randomization and are expected to have during research\uff1b\n18. Any physical or mental illness or condition that, as determined by the investigator, is likely to increase the risk of the study, affect the subject's adherence to the protocol, or prevent the subject from completing the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Sheng Qi",
+                "role": "CONTACT",
+                "phone": "+86 0518 82342973",
+                "email": "Sheng.qi@hengrui.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University First Hospital",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100034",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hong Zhang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06051357",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-202"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Proof of Concept Study to Assess the Efficacy, Safety of HRS-5965 in Patients With Paroxysmal Nocturnal Hemoglobinuria",
+            "officialTitle": "An Multicenter, Randomized, Open-label Proof of Concept Study to Assess the Efficacy, Safety of HRS-5965 in Patients With Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-11-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-03-25",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-03-25",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-09-05",
+            "studyFirstSubmitQcDate": "2023-09-20",
+            "studyFirstPostDateStruct": {
+              "date": "2023-09-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-10",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, randomized, open-label phase II clinical trial. A total of 24 patients with paroxysmal nocturnal hemoglobinuria na\u00efve to complement inhibitor therapy were included. Subjects were treated with HRS-5965 for 12 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 26,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Treatment group A",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 tablets"
+                ]
+              },
+              {
+                "label": "Treatment group B",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 tablets",
+                "description": "HRS-5965 tablets for 12 weeks",
+                "armGroupLabels": [
+                  "Treatment group A",
+                  "Treatment group B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Changes in hemoglobin.",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Changes in LDH.",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Changes in haptoglobin.",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Changes in bilirubin.",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Changes in reticulocyte counts.",
+                "timeFrame": "12weeks"
+              },
+              {
+                "measure": "Changes in C3 complement fragment deposition.",
+                "timeFrame": "12 week"
+              },
+              {
+                "measure": "Percentage of patients who did not receive a blood transfusion.",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Number of RBC units of transfused.",
+                "timeFrame": "12weeks"
+              },
+              {
+                "measure": "Incidence and severity of adverse events",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Incidence of thromboembolic events.",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Plasma concentration of HRS-5965.",
+                "timeFrame": "12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Diagnosis of PNH confirmed by flow cytometry with clone size \u2265 10%.\n2. Have not received complement inhibitor therapy ;\n3. LDH \\> 1.5\u00d7ULN;\n4. Hemoglobin level \\< 10 g/dL.\n\nExclusion Criteria:\n\n1. Known or suspected hereditary or acquired complement deficiency;\n2. Patients with laboratory evidence of bone marrow failure (reticulocytes \\<100x109/L; platelets \\<30x109/L; neutrophils \\<0.5x109/L);\n3. Presence or suspicion of a systemic active bacterial, viral, or fungal infection (based on judgment of the investigator) within 2 weeks prior to the first dose of HRS-5965;\n4. History of infection with capsular bacteria (e.g., meningococcus, pneumococcus, etc.)\n5. Positive of HIV, HBsAg or HCVAb.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital, Chinese Academy of Medical Sciences",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100730",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "The Blood Disease Hospital of the Chinese Academy of Medical Sciences",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06674915",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-103"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Investigation of Pharmacokinetics,Safety,and Pharmacodynamics of HRS-5965 in Subjects With Hepatic Impairment",
+            "officialTitle": "A Single-dose, Open-label, Phase I Study Comparing the Pharmacokinetics, Safety, and Pharmacodynamics of HRS-5965 in Subjects With Mild and Moderate Hepatic Impairment and Normal Hepatic Function"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-26",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-01-16",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-01-16",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-11-04",
+            "studyFirstSubmitQcDate": "2024-11-04",
+            "studyFirstPostDateStruct": {
+              "date": "2024-11-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-30",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is being conducted to compare the pharmacokinetics, safety, and pharmacodynamics of HRS-5965 in subjects with mild to moderate hepatic impairment and normal hepatic function."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Complement Mediated Primary or Secondary Glomerular Diseases"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Treatment group A",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects with mild hepatic impairment.",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsules"
+                ]
+              },
+              {
+                "label": "Treatment group B",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects with moderate hepatic impairment.",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsules"
+                ]
+              },
+              {
+                "label": "Treatment group C",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects with normal hepatic function.",
+                "interventionNames": [
+                  "Drug: HRS-5965 capsules"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 capsules",
+                "description": "Oral 50 mg.",
+                "armGroupLabels": [
+                  "Treatment group A",
+                  "Treatment group B",
+                  "Treatment group C"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Cmax",
+                "description": "The maximum plasma concentration.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "AUClast",
+                "description": "Area under the concentration curve from time 0 to the last quantifiable concentration.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "AUCinf",
+                "description": "Area under the concentration curve from time 0 to extrapolated infinite time.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Tmax",
+                "description": "Time to maximum plasma concentration.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "t1/2",
+                "description": "Terminal half-life.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "CL/F",
+                "description": "Apparent clearance.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "Vz/F",
+                "description": "Apparent volume of distribution.",
+                "timeFrame": "Post-dose at day 1 to day 9."
+              },
+              {
+                "measure": "Incidence and severity of adverse events",
+                "timeFrame": "Screening period up to day 9."
+              },
+              {
+                "measure": "Change from baseline of alternative pathway activity",
+                "timeFrame": "Post-dose at day 1."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ability to understand the study procedures and methods, participate voluntarily and be able to complete the study according to the protocol requirements, and sign the informed consent form (ICF) in writing;\n2. Aged 18-70 years old on the date of signing the ICF (including the threshold), both male and female;\n3. At the time of screening, male subjects weighing no less than 50 kg and female subjects weighing no less than 45 kg; body mass index (BMI): 18\\~32 kg/m2 (including the threshold);\n4. Subjects with childbearing potential must agree to have no plans for childbearing and voluntarily use highly effective contraception with their partner from the time of signing the ICF until 1 month after administration of the test drug, and to avoid sperm/egg donation. Female subjects of childbearing potential must have a negative serum pregnancy test at both screening and baseline and not be breastfeeding.\n\n   For subjects with hepatic impairment, the following inclusion criteria must also be met:\n5. Not on medication within 4 weeks prior to screening, or have at least 4 weeks of stable medication for hepatic impairment and/or other co-morbidities requiring long-term treatment;\n6. Child-Pugh classification of Class A or B.\n\n   For subjects with normal hepatic function, the following inclusion criteria must also be met:\n7. The demographic means of subjects in the normal liver function group (Group C) at screening must meet the following matching criteria:\n\n   1. Weight matched to the hepatic impairment group (Group A + Group B) with a mean value \u00b1 10 kg;\n   2. Age-matched to the hepatic impairment group (Group A + Group B), mean \u00b1 10 years;\n   3. Sex-matched to liver impairment group (Group A + Group B), mean value \u00b1 1 case;\n8. Normal or abnormal physical examination, 12-ECG, vital signs, chest frontal and lateral radiographs/CT, abdominal ultrasound, and laboratory tests (blood routine, blood biochemistry, urine routine, coagulation function, etc.) in the screening and baseline periods were not clinically significant.\n\nExclusion Criteria:\n\n1. Allergic to two or more allergens, or in the judgment of the investigator, may be allergic to the study drug or its components;\n2. Disease or medical condition that, in the judgment of the investigator, may interfere with the absorption, distribution, metabolism, and excretion of the drug or that may reduce compliance;\n3. Prior history of meningococcal infection or a first-degree relative with a history of meningococcal infection;\n4. Existing or suspected infection (at the investigator's discretion) within 2 weeks prior to screening, or fever;\n5. Severe trauma or undergone surgery within 8 weeks prior to screening, or plan to undergo surgery during the trial period;\n6. Participated in a clinical trial of any other drug or medical device within 3 months prior to screening or plan to do so during the study period, or still within 5 half-lives of the drug prior to screening (whichever is longer);\n7. Smoked an average of more than 5 cigarettes per day in the 4 weeks, or consumed an average of more than 15 g of alcohol in a day in the 4 weeks prior to screening (15 g of alcohol is equivalent to 450 mL of beer, 150 mL of wine, or 50 mL of low-potency liquor), or a positive breath alcohol test at baseline;\n8. History of drug or substance abuse; or a positive urine drug test at screening;\n9. Donated or lost \u2265 400 mL of blood within 8 weeks, or received a blood transfusion within 12 weeks prior to screening;\n10. Malignant tumor, or history of a malignant tumor within 5 years prior to screening (except for primary hepatocellular carcinoma treated with radical surgery without recurrence within 2 years, non-melanoma of the skin for which treatment has been administered without signs of recurrence, and resected cervical intraepithelial neoplasia);\n11. Systolic blood pressure \u2265 160 mmHg or diastolic blood pressure \u2265 100 mmHg at screening;\n12. QTcF (males) \\> 450 ms and a QTcF (females) \\> 470 ms at screening, or other 12-ECG abnormalities judged by the investigator to be clinically significant or unsuitable for participation;\n13. Glomerular filtration rate (eGFR) \\< 75 mL/min/1.73m2 calculated using the Chronic Kidney Disease Epidemiology Collaborative Study Group (CKD-EPI) formula;\n14. Difficulty in swallowing, collecting blood intravenously, or physically unable to tolerate blood collection, or not expected to complete the entire trial follow-up;\n15. Vaccinated within 2 weeks prior to dosing or plan to receive the vaccine during the study and within 1 month after dosing;\n16. Pre-existing recurrent oral ulcers;\n17. Any physical or psychological disease or condition that, in the judgment of the investigator, is likely to increase the risk of the trial, interfere with compliance with the protocol and ability to complete the trial.\n\n    Additional exclusion criteria for subjects with hepatic impairment (excluded if 1 of these criteria is met):\n18. History of liver transplantation;\n19. Liver failure, or cirrhosis with combination of hepatic encephalopathy, hepatocellular carcinoma, ruptured variceal hemorrhage of the esophagogastric fundus vein, and other complications that, in the judgment of the investigator, make the subject unsuitable for participation in the study;\n20. History of any serious disease other than the primary disease of the liver itself, or a history of and/or abnormal clinically significant clinical laboratory tests that, in the opinion of the investigator, may affect the results of the test, including, but not limited to, a history of circulatory, endocrine, neurological, gastrointestinal, urologic, or hematologic, immunologic, psychiatric, and metabolic disorders;\n21. Positive Human Immunodeficiency Virus (HIV) antigen/antibody screen; if syphilis spirochete antibody is positive, additional tolulized red unheated serum test (TRUST) is required, and exclusion is required if TRUST is positive at the same time; if Hepatitis B Surface Antigen (HBsAg) is positive, additional Hepatitis B Virus (HBV) Deoxyribonucleic Acid (DNA) Quantitative Test is required, and if Hepatitis C Virus If hepatitis C virus (HCV) antibody (Anti-HCV) is positive, additional quantitative hepatitis C virus (HCV) ribonucleic acid (RNA) testing is required, and exclusion will be determined by the investigator based on the quantitative results;\n22. Alpha-fetoprotein \\> 20 ng/mL; hemoglobin (Hb) \u2264 70 g/L; alanine aminotransferase (ALT) or mentholatum aminotransferase (AST) \u2265 5 times the upper limit of normal (ULN);\n23. On systemic hormones (except subjects on stable use of \u2264 5 mg/day of prednisone or equivalent doses of glucocorticoids) or other immunosuppressive agents within 4 weeks prior to screening, or more than 4 weeks from their last immunosuppressive therapy at screening but are still within the drug's efficacy period (as assessed by the investigator);\n24. On herbal medications within 4 weeks prior to screening;\n25. On albumin within 14 days prior to screening.\n\n    Additional exclusion criteria for subjects with normal hepatic function (excluded if 1 of these criteria is met):\n26. Pre-existing serious primary diseases of vital organs, including but not limited to gastrointestinal, respiratory, renal, hepatic, neurological, hematological, endocrine, oncological, immunological, psychiatric, or cardiovascular diseases;\n27. Positive for any of the HBsAg, Anti-HCV, HIV antigen/antibody, or syphilis spirochete antibody tests;\n28. On any medication (including prescription drugs, over-the-counter medications, herbal medicines, proprietary Chinese medicines and dietary supplements, etc.) within 4 weeks prior to screening; or within 5 half-lives of the medication at the time of screening (whichever is longer).",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Suzhou University",
+                "city": "Suzhou",
+                "state": "Jiangsu",
+                "zip": "215008",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.30408,
+                  "lon": 120.59538
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06567392",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-105"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Mass Balance of [14C] HRS-5965 in Healthy Adult Male Volunteers",
+            "officialTitle": "Phase I Clinical Trial of Mass Balance of [14C] HRS-5965 in Healthy Chinese Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-09-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-10-08",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-10-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-08-20",
+            "studyFirstSubmitQcDate": "2024-08-20",
+            "studyFirstPostDateStruct": {
+              "date": "2024-08-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Evaluate the Mass Balance of \\[14C\\] HRS-5965 in Healthy Adult Volunteers."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Complement Mediated Primary or Secondary Glomerular Diseases"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Single oral dose of \\[14C\\] HRS-5965",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "[14C] HRS-5965",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: [14C] HRS-5965"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "[14C] HRS-5965",
+                "description": "Patients will receive single dose of orally \\[14C\\] HRS-5965 on Day 1.",
+                "armGroupLabels": [
+                  "[14C] HRS-5965"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Total radioactive recovery rate in urine and feces at each time interval",
+                "timeFrame": "0-240 hours"
+              },
+              {
+                "measure": "Cumulative total radioactive recovery rate in urine and feces",
+                "timeFrame": "0-240 hours"
+              },
+              {
+                "measure": "3. Percentage of parent drug and its metabolites in plasma as a percentage of total radioactive exposure (%AUC)",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Percentage of parent drug and its metabolites in urine and feces as a percentage of administered dose (%Dose)",
+                "timeFrame": "0-240 hours"
+              },
+              {
+                "measure": "Radioactivity Tmax",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Radioactivity Cmax",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Radioactivity AUC",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Radioactivity t1/2",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Radioactivity CL/F",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Radioactivity Vz/F",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Total radioactivity ratio for blood/plasma",
+                "timeFrame": "0-96 hours"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Plasma HRS-5965: Tmax",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: Cmax",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: AUC",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: t1/2",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: CL/F",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: Vz/F",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "Plasma HRS-5965: \u03bbz",
+                "timeFrame": "0-192 hours"
+              },
+              {
+                "measure": "AEs and SAEs",
+                "timeFrame": "0-11 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Sign the informed consent form prior to the trial and have a full understanding of the trial's procedures, content, and potential adverse reactions;\n2. Healthy adult males between 18 and 45 years;\n3. Body weight \u226550 kg, and the body mass index (BMI) of 19 to 26 kg/m2;\n4. From the signing of the informed consent form until 12 months after the last administration, the subject (including partner) has no family planning and is willing to use the high-efficiency contraceptive measures specified in the plan.\n\nExclusion Criteria:\n\n1. Comprehensive physical examination, vital signs, laboratory tests (blood routine, blood biochemistry, coagulation function, urine analysis, fecal analysis, thyroid function), full chest anteroposterior and lateral film, abdominal ultrasound, and anoscope results that the researcher deems clinically significant.\n2. Patients with QTcF\\>450 msec at the time of screening or baseline, or 12 lead electrocardiogram examination are abnormal and determined by the researcher to have clinical significance.\n3. Patients with clinically significant abnormalities in ophthalmic examinations (color vision, slit lamp, intraocular pressure, and fundus photography).\n4. Patients whose blood creatinine levels exceed the upper limit of normal values.\n5. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) exceeding the upper limit of normal values (ULN), or total bilirubin exceeding 1.5 times ULN.\n6. Hepatitis B surface antigen (HBsAg) positive, or anti hepatitis C virus (HCV) antibody positive, or human immunodeficiency virus (HIV) antibody positive, or Treponema pallidum antibody positive.\n7. Abuse of drugs or use of soft drugs (such as marijuana) in the three months prior to screening, or use of hard drugs (such as amphetamines, phencyclidine, etc.) in the year prior to screening; Or screening period urine drug test positive individuals.\n8. Patients used any drugs (including prescription drugs, over-the-counter drugs, Chinese herbal medicines, traditional Chinese patent medicines and simple preparations and dietary supplements) within 4 weeks before screening; Or select those who are within 5 half-lives of the drug at the time of screening (whichever is longer).\n9. Patients who are allergic to two or more allergens, or who have been determined by the researcher to be potentially allergic to the investigational drug or its components 11. Any clinical history of serious diseases or conditions that the researcher believes may affect the trial results, including but not limited to a history of circulatory, endocrine, nervous, digestive, urinary, or blood, immune, mental, and metabolic diseases.\n10. According to the judgment of researchers, there may be diseases or medical conditions that may affect drug absorption, distribution, metabolism, and excretion, or may reduce compliance.\n11. Patients with combined diseases of the respiratory, circulatory, digestive, urinary, psychiatric, hematological, endocrine, metabolic, and immune systems.\n12. Patients with a history of meningococcal infection or first-degree relatives with a history of meningococcal infection.\n13. Screening for individuals with clear evidence of infection (positive pathogen test or previous systemic antibiotic treatment) or those with a body temperature above 38 \u2103 within the first 2 weeks.\n14. Screening for individuals with severe trauma or surgery within the first 8 weeks, or those planning to undergo surgery during the trial period.\n15. Subjects with a history of recurrent oral ulcers.\n16. Perianal diseases with hemorrhoids or periodic/ongoing rectal bleeding; The subject is unable to swallow or has difficulty swallowing, or has a history of gastrointestinal dysfunction such as irritable bowel syndrome, inflammatory bowel disease, or has undergone surgery such as gastrectomy, which the researcher determines may affect drug absorption.\n17. Habitual constipation or diarrhea, irregular or difficult bowel movements, or other situations that have been evaluated by the researcher and affect the collection of fecal samples.\n18. Have a history of severe vomiting.\n19. Screening for individuals who smoke an average of 5 or more cigarettes per day within the first 4 weeks, or who are unable to quit nicotine containing products (including nicotine patches) during the trial period.\n20. The average daily intake of alcohol in the four weeks before screening exceeds 15 g (15 g of alcohol is equivalent to 450 mL of beer, 150 mL of wine or 50 mL of low alcohol Baijiu), or the alcohol breath test is positive during screening, or the patient uses or drinks any food or drink containing alcohol within 48 hours before administration, or cannot quit during the test.\n21. Habitually drinking grapefruit or grapefruit juice or orange juice, or products containing caffeine or xanthine (such as coffee, tea, cola drinks, and chocolate), or using these products within 48 hours before administration, or unable to quit during the trial period.\n22. Clinical trials involving any other drug or medical device within the first 3 months of screening or planned to be conducted during the study period, or those who are still within 5 half-lives of the drug before screening (whichever is longer).\n23. Vaccines administered within 2 weeks prior to the first administration or planned during the study period and within 1 month after the last administration.\n24. Individuals with a history of blood donation or severe blood loss (blood loss \u2265 400 mL) within the 8 weeks prior to screening, or those who have received a blood transfusion within the 12 weeks prior to screening.\n25. Engaged in workers who require long-term exposure to radioactive conditions; Or select individuals who have had significant radiation exposure (chest/abdominal CT \u2265 2 times, or other types of X-ray examinations \u2265 3 times) or participated in radiopharmaceutical labeling trials within the previous year.\n26. Difficulty in venous blood collection or inability to withstand blood collection due to physical condition; Or subjects who are expected to be unable to complete the entire trial follow-up.\n27. The researcher determined that the subjects had other factors that were not suitable for participation in this study.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital Of Shandong First Medical University\uff08Shandong Provincial Qianfoshan Hospital\uff09",
+                "city": "Jinan",
+                "state": "Shandong",
+                "zip": "250014",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 36.66833,
+                  "lon": 116.99722
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06238544",
+            "orgStudyIdInfo": {
+              "id": "HRS-5965-203"
+            },
+            "organization": {
+              "fullName": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Safety and Tolerability of HRS-5965 in Patients With Paroxysmal Nocturnal Hemoglobinuria",
+            "officialTitle": "An Open Label, Multicenter Study to Evaluate the Long-term Safety and Tolerability of HRS-5965 in Patients With Paroxysmal Nocturnal Hemoglobinuria"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-02-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-22",
+            "studyFirstSubmitQcDate": "2024-01-31",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-02",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chengdu Suncadia Medicine Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, single-arm, open-label study. Patients with Paroxysmal Nocturnal Hemoglobinuria who had previously received and completed the HRS-5965 study well included. All eligible subjects received HRS-5965 tablets or capsules until the end of treatment in this study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 132,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "HRS-5965 Group",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: HRS-5965 tablets",
+                  "Drug: HRS-5965 Capsules"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 tablets",
+                "description": "HRS-5965 tablets until the end of study treatment",
+                "armGroupLabels": [
+                  "HRS-5965 Group"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "HRS-5965 Capsules",
+                "description": "HRS-5965 capsules.",
+                "armGroupLabels": [
+                  "HRS-5965 Group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence and severity of adverse events.",
+                "timeFrame": "Every six months,for about 3 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of participants achieving sustained hemoglobin levels \u2265 12 g/dL in the absence of red blood cell transfusions was assessed every half a year during treatment..",
+                "timeFrame": "Every six months ,for about 3 years"
+              },
+              {
+                "measure": "Proportion of participants who remain free from transfusions was assessed every half a year during treatment..",
+                "timeFrame": "Every six months,for about 3 years"
+              },
+              {
+                "measure": "Rate of breakthrough hemolysis was assessed every half a year during treatment",
+                "timeFrame": "Every six months,for about 3 years"
+              },
+              {
+                "measure": "Proportion of participants with Major Adverse Vascular Events MAVEs.",
+                "timeFrame": "Every six months,for about 3 years"
+              },
+              {
+                "measure": "Plasma concentration of HRS-5965.",
+                "timeFrame": "Start of Treatment to end of study\uff0cfor about 3 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1\\. Patients who have previously received and completed HRS-5965 study treatment, and are judged by the investigator to have treatment benefit and may benefit from continued treatment of HRS-5965 and patients in the control group of who received eculizumab treatment.\n\nExclusion Criteria:\n\n1. Known or suspected hereditary or acquired complement deficiency;\n2. History of infection with capsular bacteria (e.g., meningococcus, pneumococcus, etc.)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital, Chinese Academy of Medical Sciences",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100730",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "The Blood Disease Hospital of the Chinese Academy of Medical Sciences",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

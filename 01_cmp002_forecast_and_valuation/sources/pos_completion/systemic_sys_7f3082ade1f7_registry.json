@@ -1,0 +1,612 @@
+{
+  "integrated_id": "systemic:sys_7f3082ade1f7",
+  "asset": "GLPG3067",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=GLPG3067",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03589313",
+            "orgStudyIdInfo": {
+              "id": "GLPG3067-CL-104"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2017-002294-19",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2017",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2017"
+              }
+            ],
+            "organization": {
+              "fullName": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Pharmacokinetics of GLPG3067 in Male Subjects With Cystic Fibrosis.",
+            "officialTitle": "Evaluation of the Pharmacokinetics, Safety and Tolerability of a Single Dose of GLPG3067 Administered as Solid Formulation in Male Subjects With Cystic Fibrosis."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-02-12",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-03-26",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2018-03-26",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-07-09",
+            "studyFirstSubmitQcDate": "2018-07-09",
+            "studyFirstPostDateStruct": {
+              "date": "2018-07-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-07-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-07-17",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This clinical study is a Phase I, open-label, single-center study designed to evaluate the pharmacokinetics profile of a single oral dose of GLPG3067 in adult male subjects with cystic fibrosis in fed state."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GLPG3067 single dose.",
+                "type": "EXPERIMENTAL",
+                "description": "Single Dose of GLPG3067 film coated tablets.",
+                "interventionNames": [
+                  "Drug: GLPG3067 single dose"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GLPG3067 single dose",
+                "description": "GLPG3067 film coated tablets provided at Day 1.",
+                "armGroupLabels": [
+                  "GLPG3067 single dose."
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Maximum observed plasma concentration (cmax) of GLPG3067 single dose.",
+                "description": "To evaluate the PK profile of GLPG3067 after a single oral dose of GLPG3067.",
+                "timeFrame": "Between Day 1 pre-dose and Day 4."
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero until 24 hours post-dose ( (AUC0-24h) of GLPG3067 single dose.",
+                "description": "To evaluate the PK profile of GLPG3067 after a single oral dose of GLPG3067.",
+                "timeFrame": "Between Day 1 pre-dose and Day 4."
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero until 72 hours post-dose (AUC0-72h) of GLPG3067 single dose.",
+                "description": "To evaluate the PK profile of GLPG3067 after a single oral dose of GLPG3067.",
+                "timeFrame": "Between Day 1 pre-dose and Day 4."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The number of subjects with adverse events.",
+                "description": "To evaluate the safety and tolerability of a single oral dose of GLPG3067 in adult male subjects with CF.",
+                "timeFrame": "From screening to 19 days after the last dose."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male subject \u226518 years of age on the day of signing the ICF.\n* A confirmed clinical diagnosis of CF.\n* Exocrine pancreatic insufficiency (documented in the subject's medical record).\n* Stable concomitant medication regimen for pulmonary health for at least 2 weeks prior to study drug administration\n\nExclusion Criteria:\n\n* History of clinically meaningful unstable or uncontrolled chronic disease that makes the subject unsuitable for inclusion in the study in the opinion of the investigator.\n* Unstable pulmonary status or respiratory tract infection (including rhinosinusitis) requiring a change in therapy within 2 weeks prior to study drug administration.\n* Need for supplemental oxygen during the day, and \\>2 L/minute while sleeping.\n* History of solid organ or hematopoietic cell transplantation.\n* History of hepatic cirrhosis with portal hypertension (e.g., signs/symptoms of splenomegaly, esophageal varices).\n* Use of CFTR modulator therapy (e.g., lumacaftor or ivacaftor) within 2 weeks prior to study drug administration.\n* Abnormal liver function test at screening, defined as aspartate aminotransferase (AST) and/or ALT and/or alkaline phosphatase and/or gamma-glutamyl transferase (GGT) \u22653x the upper limit of normal, and/or total bilirubin \u22651.5x the upper limit of normal.",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "genderBased": true,
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Olivier Van de Steen, MD MBA",
+                "affiliation": "Lakefront Biotherapeutics NV",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University Hospital Leuven,Pediatric Pulmonology",
+                "city": "Leuven",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03128606",
+            "orgStudyIdInfo": {
+              "id": "GLPG3067-CL-101"
+            },
+            "organization": {
+              "fullName": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Assess Safety, Tolerability and Pharmacokinetics of GLPG3067 in Healthy Subjects.",
+            "officialTitle": "Assessment of Safety, Tolerability and Pharmacokinetics of Single and Multiple Ascending Oral Doses of GLPG3067, the Combination of GLPG3067 and GLPG2222, and the Combination of GLPG3067, GLPG2222 and GLPG2737 in Healthy Female Subjects, Including a Relative Bioavailability and Food Effect Part for Single Dose of GLPG3067."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-03-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-02-20",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2018-02-20",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-04-21",
+            "studyFirstSubmitQcDate": "2017-04-21",
+            "studyFirstPostDateStruct": {
+              "date": "2017-04-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-04-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-04-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is a First-in-Human, Phase I, randomized, double-blind, placebo-controlled, single center study, evaluating single and multiple ascending oral doses of GLPG3067 and the combination of GLPG3067 and GLPG2222 and the combination of GLPG3067,GLPG2222 and GLPG2737 given for 14 days in healthy women of non-childbearing potential.\n\nThe purpose of the study is to evaluate the safety and tolerability of single ascending oral doses and multiple ascending oral doses of GLPG3067 given to healthy women of non-childbearing potential compared to placebo, as well as of multiple oral doses of the combination of GLPG3067/GLPG2222 compared to matching placebo for each compound and multiple oral doses of the combination of GLPG3067/GLPG2222/GLPG2737 compared to matching placebo for each compound."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 81,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GLPG3067 single dose",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose of GLPG3067 oral suspension at up to 6 dose levels in ascending order.",
+                "interventionNames": [
+                  "Drug: GLPG3067 single dose"
+                ]
+              },
+              {
+                "label": "Placebo single dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Single dose of Placebo oral suspension.",
+                "interventionNames": [
+                  "Drug: Placebo single dose"
+                ]
+              },
+              {
+                "label": "GLPG3067 oral suspension fed 1",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose 1 of GLPG3067 oral suspension after a standardized breakfast.",
+                "interventionNames": [
+                  "Drug: GLPG3067 oral suspension"
+                ]
+              },
+              {
+                "label": "GLPG3067 oral tablet fed 1",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose 1 of GLPG3067 oral tablet after a standardized breakfast.",
+                "interventionNames": [
+                  "Drug: GLPG3067 oral tablet"
+                ]
+              },
+              {
+                "label": "GLPG3067 oral tablet fasted 1",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose 1 of GLPG3067 oral tablet after an overnight fast.",
+                "interventionNames": [
+                  "Drug: GLPG3067 oral tablet"
+                ]
+              },
+              {
+                "label": "GLPG3067 oral tablet fed 2",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose 2 of GLPG3067 oral tablet after a standardized breakfast.",
+                "interventionNames": [
+                  "Drug: GLPG3067 oral tablet"
+                ]
+              },
+              {
+                "label": "GLPG3067 oral tablet fed 2 high-fat high-calorie",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose 2 of GLPG3067 oral tablet after a high-fat high-calorie breakfast",
+                "interventionNames": [
+                  "Drug: GLPG3067 oral tablet"
+                ]
+              },
+              {
+                "label": "GLPG3067 multiple dose",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple doses of GLPG3067 oral suspension at up to 5 dose levels in ascending order.",
+                "interventionNames": [
+                  "Drug: GLPG3067 multiple dose"
+                ]
+              },
+              {
+                "label": "Placebo multiple dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Multiple doses of Placebo oral suspension.",
+                "interventionNames": [
+                  "Drug: Placebo multiple dose"
+                ]
+              },
+              {
+                "label": "GLPG3067/GLPG2222 multiple dose",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple doses of GLPG3067 oral suspension combined with GLPG2222 oral tablet up to 2 dose levels in ascending order.",
+                "interventionNames": [
+                  "Drug: GLPG3067/GLPG2222 multiple dose"
+                ]
+              },
+              {
+                "label": "GLPG3067/GLPG2222 Placebo multiple dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Multiple doses of GLPG3067 matching placebo oral suspension combined with GLPG2222 matching placebo oral tablet.",
+                "interventionNames": [
+                  "Drug: GLPG3067/GLPG2222 Placebo multiple dose"
+                ]
+              },
+              {
+                "label": "GLPG3067/GLPG2222/GLPG2737 multiple dose",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple doses of GLPG3067 oral tablet combined with GLPG2222 oral tablet and GLPG2737 oral capsule at up to 2 dose levels in ascending order.",
+                "interventionNames": [
+                  "Drug: GLPG3067/GLPG2222/GLPG2737 multiple dose"
+                ]
+              },
+              {
+                "label": "GLPG3067/GLPG2222/GLPG2737 Placebo multiple dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Multiple doses of GLPG3067 matching placebo oral tablet combined with GLPG2222 matching placebo oral tablet and GLPG2737 matching placebo oral capsule.",
+                "interventionNames": [
+                  "Drug: GLPG3067/GLPG2222/GLPG2737 Placebo multiple dose"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GLPG3067 single dose",
+                "description": "GLPG3067 oral suspension, single ascending doses, daily",
+                "armGroupLabels": [
+                  "GLPG3067 single dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo single dose",
+                "description": "Placebo, oral suspension, daily",
+                "armGroupLabels": [
+                  "Placebo single dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067 multiple dose",
+                "description": "GLPG3067 oral suspension, multiple ascending doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG3067 multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo multiple dose",
+                "description": "Placebo, oral suspension, daily for 14 days",
+                "armGroupLabels": [
+                  "Placebo multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067 oral suspension",
+                "description": "GLPG3067 oral suspension, single dose, daily",
+                "armGroupLabels": [
+                  "GLPG3067 oral suspension fed 1"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067 oral tablet",
+                "description": "GLPG3067 oral tablet, single dose, daily",
+                "armGroupLabels": [
+                  "GLPG3067 oral tablet fasted 1",
+                  "GLPG3067 oral tablet fed 1",
+                  "GLPG3067 oral tablet fed 2",
+                  "GLPG3067 oral tablet fed 2 high-fat high-calorie"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067/GLPG2222 multiple dose",
+                "description": "GLPG3067 oral suspension and GLPG2222 oral tablet, multiple doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG3067/GLPG2222 multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067/GLPG2222 Placebo multiple dose",
+                "description": "GLPG3067 matching placebo oral suspension and GLPG2222 matching placebo oral tablet, multiple doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG3067/GLPG2222 Placebo multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067/GLPG2222/GLPG2737 multiple dose",
+                "description": "GLPG3067 oral tablet, GLPG2222 oral tablet and GLPG2737 oral capsule, multiple doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG3067/GLPG2222/GLPG2737 multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG3067/GLPG2222/GLPG2737 Placebo multiple dose",
+                "description": "GLPG3067 matching placebo oral tablet, GLPG2222 matching placebo oral tablet and GLPG2737 matching placebo oral capsule, multiple doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG3067/GLPG2222/GLPG2737 Placebo multiple dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change versus placebo in the proportion of subjects with adverse events",
+                "description": "To assess safety and tolerability of single ascending doses, multiple ascending doses of GLPG3067 alone, or in combination with GLPG2222, or in combination with GLPG2222 and GLPG2737 versus placebo in healthy subjects",
+                "timeFrame": "Between screening and 14 days after the last dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum observed plasma concentration of GLPG3067 (Cmax) given alone or in combination with GLPG2222 or in combination with GLPG2222 and GLPG2737",
+                "description": "To characterize pharmacokinetics of GLPG3067 after a single oral dose and of GLPG3067, GLPG2222, and GLPG2737 after multiple oral doses in healthy subjects",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve of GLPG3067 (AUC0-t) given alone or in combination with GLPG2222 or in combination with GLPG2222 and GLPG2737",
+                "description": "To characterize pharmacokinetics of GLPG3067 after a single oral dose and of GLPG3067, GLPG2222, and GLPG2737 after multiple oral doses in healthy subjects",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Ratio of 4-beta-hydroxycholesterol/cholesterol in plasma after multiple oral doses in healthy subjects",
+                "description": "To assess the potential for CYP3A4 interaction with GLPG3067, GLPG3067 and GLPG2222, or GLPG3067 and GLPG2222 and GLPG2737",
+                "timeFrame": "Day 1 predose and Day 14"
+              },
+              {
+                "measure": "Maximum observed plasma concentration of GLPG3067 (Cmax) given alone in fed state",
+                "description": "To assess the relative bioavailability of GLPG3067 when given as a single dose of oral suspension or an oral tablet both administered in fed state",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Concentration in plasma observed at 24 hours post dose (C24h) of GLPG3067 given alone in fed state",
+                "description": "To assess the relative bioavailability of GLPG3067 when given as a single dose of oral suspension or an oral tablet both administered in fed state",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve of GLPG3067 (AUC0-t) given alone in fed state",
+                "description": "To assess the relative bioavailability of GLPG3067 when given as a single dose of oral suspension or an oral tablet both administered in fed state",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Maximum observed plasma concentration of GLPG3067 (Cmax) given alone in fasted state",
+                "description": "To assess the effect of food on the pharmacokinetics of GLPG3067 when given under fasted versus fed conditions",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Concentration in plasma observed at 24 hours post dose (C24h) of GLPG3067 given alone in fasted state",
+                "description": "To assess the effect of food on the pharmacokinetics of GLPG3067 when given under fasted versus fed conditions",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve of GLPG3067 (AUC0-t) given alone in fasted state",
+                "description": "To assess the effect of food on the pharmacokinetics of GLPG3067 when given under fasted versus fed conditions",
+                "timeFrame": "Between Day 1 predose and 10 days after the last dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Female subject between 18-70 years of age, inclusive, on the date of signing the informed consent form (ICF).\n* Be of non-childbearing potential defined as surgically sterile (hysterectomy, bilateral salpingectomy and bilateral oophorectomy), or post-menopausal (at least 12 consecutive months without menstruation, without an alternative medical cause \\[including hormone replacement therapy\\]).\n* Have a body mass index between 18-30 kg/m2, inclusive.\n* Judged by the investigator to be in good health based upon the results of a medical history, physical examination, vital signs, 12-lead triplicate electrocardiogram (ECG), and clinical safety laboratory tests prior to the initial study drug administration.\n* Discontinuation of all medications (including over-the-counter and/or prescription medication, dietary supplements, nutraceuticals, vitamins and/or herbal supplements, and hormonal replacement therapy for postmenopausal subjects) except occasional paracetamol (maximum dose of 2 g/day and maximum of 10 g/2 weeks) at least 2 weeks prior to the first study drug administration.\n\nExclusion Criteria:\n\n* Known hypersensitivity to study drug ingredients or a significant allergic reaction to any drug as determined by the investigator, such as anaphylaxis requiring hospitalization.\n* Clinically significant symptoms or illness in the 3 months before screening.\n* Presence or having sequelae of gastrointestinal, liver, kidney, or other conditions known to interfere with the absorption, distribution, metabolism, or excretion of drugs.\n* Any laboratory result considered by the investigator as clinically significant prior to study drug administration.\n* Creatinine clearance \u226480 mL/min using the Cockcroft-Gault formula for subjects aged \u226450 years, or creatinine clearance \u226470 mL/min using the Cockcroft-Gault formula for subjects aged \\>50 years. A 24-hour urine collection to determine the actual value may be performed to confirm creatinine clearance if required.\n* Clinically significant abnormalities of vital signs at screening.\n* Clinically relevant abnormalities detected on ECG regarding either rhythm or conduction (e.g. QT interval corrected for heart rate using Fridericia's formula \\[QTcF\\] \\>470 ms) or a known long QT syndrome. A first degree heart block or sinus arrhythmia will not be considered as a significant abnormality.\n* Participation in a drug, drug and device delivery system or combination, or biologic investigational research study within 8 weeks or 5 times the half-life of the investigational drug, if the half-life is known (whichever is longer) prior to initial study drug administration. Subjects who have been dosed previously with GLPG3067 in a clinical trial are allowed to participate Part 4 of this study as long as they completed their last follow-up visit or a washout period of 5 times the half-life of GLPG3067 (whichever is longer) after the last study drug administration is respected.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "genderBased": true,
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Magdalena Petkova, MD",
+                "affiliation": "Lakefront Biotherapeutics NV",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "SGS LSS Clinical Pharmacology Unit Antwerp",
+                "city": "Antwerp",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.22047,
+                  "lon": 4.40026
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

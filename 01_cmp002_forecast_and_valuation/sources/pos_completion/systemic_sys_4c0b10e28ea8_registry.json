@@ -1,0 +1,535 @@
+{
+  "integrated_id": "systemic:sys_4c0b10e28ea8",
+  "asset": "AGLE-102",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=AGLE-102",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04173650",
+            "orgStudyIdInfo": {
+              "id": "EB IND"
+            },
+            "organization": {
+              "fullName": "Aegle Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "MSC EVs in Dystrophic Epidermolysis Bullosa",
+            "officialTitle": "Mesenchymal Stem Cell Extracellular Vesicles for the Treatment of Recessive Dystrophic Epidermolysis Bullosa Wounds"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-08-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-09",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-11-18",
+            "studyFirstSubmitQcDate": "2019-11-20",
+            "studyFirstPostDateStruct": {
+              "date": "2019-11-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-06-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-06-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Aegle Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "INVESTIGATIONAL PRODUCT: AGLE-102 is an allogeneic extracellular vesicle (EV) product derived from normal donor mesenchymal stem cells (MSCs).\n\nINDICATION AND RATIONALE: The aim of the study is to assess the safety and efficacy of AGLE-102 in the treatment of lesions in subjects with Epidermolysis Bullosa (EB).\n\nSTUDY DESIGN: This is a phase 1/2A, randomized, multi-center, study to assess the effectiveness and safety of AGLE-102 on lesions in subjects with EB.",
+            "detailedDescription": "STUDY DESIGN: This is a prospective, open label, randomized, multi-center study, with intra-subject paired wound standard of care control, intended to assess the safety and preliminary efficacy of administering EVs derived from allogeneic MSCs to 10-50 cm2 wounds in RDEB subjects with wounds persisting for at least four weeks.\n\nAfter providing written informed consent (assent with parental written consent for pediatric subjects) and undergoing screening evaluations, eligible subjects have a single set of paired wounds identified that are determined by either subject/caregiver reporting, medical history or other reliable sources to have been present for a minimum of four weeks. One of each pair is randomized to treatment with EVs in conjunction with standard of care. The other wound of each pair receives standard of care alone, without EV treatment. All wounds on study continue to receive standard of care throughout the study. For the EV treated wounds, up to six administrations of EVs occur approximately two weeks apart over a period of 10 weeks. If the treated wound closes prior to six administrations, no additional doses are given unless the wound reopens during the treatment period, in which case the original retreatment schedule resumes but is not extended. Subjects with wound closure identified at one of the treatment visits should return for all subsequent visits to verify wound closure and assess the scar quality of the wound, unless the closure is identified at the final study visit, in which case no additional visits are required.\n\nWound closure is determined by complete re-epithelialization that is not subject to re-injury during dressing changes or as a result of normal daily activities (e.g., wearing clothing, eating, sleeping). This is confirmed by the investigator at least two weeks after initial closure (unless closure is identified at the final study visit). At the conclusion of the 10-weektreatment period, the wounds are followed every 4 weeks for a period of 12 weeks. At no time during the study does closure status of the control wound influence the EV treatment or visit schedule.\n\nSTUDY OBJECTIVES:\n\nPrimary Objectives:\n\nDetermine the safety of applying multiple administrations of EVs derived from allogeneic MSCs to 10-50 cm2 RDEB wounds that have persisted for at least four weeks\n\nDetermine if EVs plus standard of care can promote wound healing in RDEB subjects compared to standard of care alone control\n\nSecondary Objectives: Determine if there is clinical benefit of applying EVs to RDEB wounds\n\nPLANNED SAMPLE SIZE: 8 subjects will be treated on the protocol with AGLE-102."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "Exosomes",
+              "Extracellular Vesicles"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "This trial is a prospective, open label, randomized, multi-center study, with intra-subject paired- wound control, intended to assess the safety and preliminary efficacy of administering EVs derived from allogeneic MSCs to 10-50 cm2 wounds in RDEB subjects with wounds persisting for at least four weeks.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "AGLE 102",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment arm",
+                "interventionNames": [
+                  "Drug: AGLE-102"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "AGLE-102",
+                "description": "Extracellular vesicles from bone marrow derived mesenchymal stem cells - up to six topical administrations",
+                "armGroupLabels": [
+                  "AGLE 102"
+                ],
+                "otherNames": [
+                  "AGLE 102",
+                  "Control"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Treatment-emergent Adverse Events",
+                "description": "Incidence of adverse events after single and repeat administrations of EVs",
+                "timeFrame": "22 weeks"
+              },
+              {
+                "measure": "Wound healing improvement",
+                "description": "Change in wound surface area relative to baseline compared with standard of care control",
+                "timeFrame": "10 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Complete wound closure efficacy",
+                "description": "Incidence of complete wound closure versus standard of care alone within 10 weeks",
+                "timeFrame": "10 weeks"
+              },
+              {
+                "measure": "Time from baseline to complete wound closure",
+                "description": "Time to wound closure versus standard of care alone",
+                "timeFrame": "22 weeks"
+              },
+              {
+                "measure": "Scar quality improvement",
+                "description": "Change from baseline in Patient and Observer Scar Assessment Scales. The min value is 1 and the max value is 10. The min value is normal skin and the max value is worst scar imaginable.",
+                "timeFrame": "22 weeks"
+              },
+              {
+                "measure": "Pain relief efficacy",
+                "description": "Change from baseline in patient reported pain using the Wong-Baker Faces Pain rating scale. The minimum value is value is 0 (no pain) and the maximum value is 10 (hurts worst).",
+                "timeFrame": "22 weeks"
+              },
+              {
+                "measure": "Quality of Life Improvement",
+                "description": "Change from baseline in patient reported Quality of Life scale. The minimum value is 0 (would does not affect you at all) and the maximum value is 5 (wound has maximum impact) on care, daily function, appearance, and concerns regarding others' reactions to the wound.",
+                "timeFrame": "22 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects must be 6 months or older at screening.\n2. Subjects who have a confirmed diagnosis of DEB based on electron microscopy, immunomapping, or genetic testing. Subjects with severe DEB (e.g., RDEB patients with absent Col VII/no anchoring fibrils) and milder forms of DEB (e.g., RDEB patients with reduced Col VII and/or anchoring fibril levels) are eligible.\n3. Presence for at least four weeks of two 10 - 50 cm2 wounds (unroofed EB erosions) at least 4 inches apart that can be considered similar enough in size, wound location and expected healing characteristics to be a matched pair. Neither index wound may have been treated with any local (topical, subcutaneous, etc) or systemic therapeutic other than standard of care treatments described in this protocol (i.e. local or systemic antimicrobials to control infection, topical anesthetic and oral analgesics if required) in the past 3 months prior to screening.\n4. Females of childbearing potential must have a negative urine or serum pregnancy test at screening and agree to continue use of an acceptable form of birth control throughout the duration of the study. Acceptable forms of birth control include oral, implant, injectable, and transdermal contraceptives; an intrauterine device; or other forms considered acceptable by the investigator. A female subject is eligible to participate if she is not pregnant, is not a woman or childbearing potential (WOCBP), or is a WOCBP who agrees to follow the contraceptive guidance above.\n5. Post-pubertal males who agree to use an acceptable method of contraception for the duration of the study.\n6. Subjects 18 years of age and older must be capable of giving signed informed consent, which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol. Subjects under the age of 18 years must be capable of giving assent (if age-appropriate), and/or they must have a guardian capable of providing consent.\n7. Willing to comply with the protocol requirements.\n\nNote: Reference to Appendix 3 can be located in the protocol\n\nExclusion Criteria:\n\n1. Concomitant treatment at the time of screening or at any time during the study of either study wound (control or AGLE-102 treated) with local or systemic therapy other than standard of care treatments described in this protocol (i.e. local or systemic antimicrobials to control infection, topical anesthetic and oral analgesics if required). Concomitant treatment of non-study wounds with local therapy during the study is acceptable. Systemic treatment of RDEB wounds (except as noted for standard of care) during the study is not acceptable. Subjects unwilling to abstain from prohibited concomitant treatment of study wounds (treated or control) and/or systemic treatment of RDEB wounds during the study period are excluded.\n2. Either study wound located within 6 inches of wounds treated concurrently with any other local therapy.\n3. Clinical evidence of systemic infection.\n4. History of bone marrow transplantation.\n5. Diagnosed clinically significant autoimmune disease\n6. Wound that extends across the fingers, toes, pubic or perineum region are excluded from being index wounds.\n7. The subject has clinical evidence of an active infection at the wound site.\n8. Current malignancy (including skin cancer), a life expectancy of \\< 2 years, or severe cardiopulmonary disease that restricts ambulation to the clinical facility.\n9. History of coagulopathy.\n10. Chronic use of systemic steroids or immunosuppressive agents.\n11. Allergy to human albumin, streptomycin, or penicillin.\n12. The subject is likely to be a recipient of tissue or organ transplantation.\n13. Current history of alcohol or substance abuse or has a history of alcohol or substance abuse that required treatment within the previous 12 months.\n14. History of poor compliance or unreliability.\n15. Females who are pregnant, nursing, or planning a pregnancy during their participation in the study.\n16. Concurrent participation in another investigational drug, biologic or device study that could confound study data.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Mei Chen, Ph.D.",
+                "role": "CONTACT",
+                "phone": "323-865-0621",
+                "email": "chenm@usc.edu"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "David T Woodley, MD",
+                "affiliation": "University of Southern California Dept of Dermatology",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Phoenix Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Phoenix",
+                "state": "Arizona",
+                "zip": "85016",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kellie Badger, BS, RN",
+                    "role": "CONTACT",
+                    "phone": "602-933-2053",
+                    "email": "kbadger@phoenixchildres.com"
+                  },
+                  {
+                    "name": "Harper N Price, MD, FAAD, FAAP",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.44838,
+                  "lon": -112.07404
+                }
+              },
+              {
+                "facility": "USC /Norris Comprehensive Cancer Center University of Southern California",
+                "status": "RECRUITING",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90033",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Mei Chen, PhD",
+                    "role": "CONTACT",
+                    "phone": "323-865-0621",
+                    "email": "chenm@usc.edu"
+                  },
+                  {
+                    "name": "David Woodley, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "status": "RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Griffin S Hogrogian, MSEd",
+                    "role": "CONTACT",
+                    "phone": "215-590-1930",
+                    "email": "stocktonhg@chop.edu"
+                  },
+                  {
+                    "name": "Marissa Perman, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05078385",
+            "orgStudyIdInfo": {
+              "id": "AGLE-102-102"
+            },
+            "organization": {
+              "fullName": "Aegle Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety of Extracellular Vesicles for Burn Wounds",
+            "officialTitle": "A Pilot Safety Study of Mesenchymal Stem Cell Derived Extracellular Vesicles for the Treatment of Burn Wounds."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-09-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-11-19",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-10-12",
+            "studyFirstSubmitQcDate": "2021-10-12",
+            "studyFirstPostDateStruct": {
+              "date": "2021-10-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-11-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-11-20",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Aegle Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Congressionally Directed Medical Research Programs",
+                "class": "FED"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Treatment of patients with deep second degree burns of the skin with extracellular vesicles (EV) isolated from bone marrow derived mesenchymal stem cells.",
+            "detailedDescription": "This study is designed to examine the safety and efficacy, in 10 patients of administration of allogeneic MSC EV to deep second degree burn wounds. The dose level delivered will be approximately 1 X 107 EV particles for each cm2 treated area. Wounds eligible for treatment will not exceed 600 cm2 per wound or collection of wounds in a defined anatomical area (e.g., arm, leg, chest) treated. Patients with 20% or greater TBSA in total (3700 cm2 in a 70 kg, 175 cm subject) will be ineligible to participate in the study. The first treatment will be administered within 48 hours of the burn injury. Two additional administrations of EV will be given approximately one week (day 5-7 post-injury) and two weeks after the first treatment (unless the wound is fully closed, in which case the patient will continue to be monitored at weekly intervals through 5 weeks, then at 8, 12, 26, and 54 weeks). Safety will be assessed by collection of adverse event data. The potential for wound healing efficacy will be evaluated by recording the percent of burns re-epithelialized within 8 weeks as well as the time to complete closure. Wound closure will be defined as complete re-epithelialization that is not subject to re-injury during dressing changes or as a result of normal daily activities (e.g., wearing clothing, eating, sleeping). The potential for tissue regeneration and restoration of pigmentation, hair growth and skin texture will be evaluated by scoring healing and scar formation using POSAS. Assessment of the potential for prevention of conversion will be done using LDI. Deep second degree wounds presenting at screening that are assessed to be deeper by LDI at the 5-7 day reading than at the initial evaluation in the first 72 hours will be considered to have undergone conversion. Exploratory endpoints will include monitoring for the presence of an immunologic response in recipients."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Burns"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "AGLE-102",
+                "type": "EXPERIMENTAL",
+                "description": "AGLE-102, bone marrow mesenchymal stem cell derived extracellular vesicles (EVs)",
+                "interventionNames": [
+                  "Drug: AGLE-102"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "AGLE-102",
+                "description": "AGLE-102, bone marrow mesenchymal stem cell derived extracellular vesicles (EVs)",
+                "armGroupLabels": [
+                  "AGLE-102"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Examine the safety of applying up to three applications of EVs to deep 2nd degree burn wounds up to 600 cm2",
+                "description": "Examine the safety of applying up to three applications of EVs to deep 2nd degree burn wounds up to 600 cm2 by evaluating the number of participants with treatment-related adverse events as assessed cy CTCAE v4.0",
+                "timeFrame": "1 year"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Determine if administration of EVs can promote wound healing by serial wound measurements",
+                "description": "Determine if administration of EVs can promote wound healing by serial wound measurements; tissue regeneration as evidenced by restoration of pigmentation and hair growth by serial photography; and skin texture assessment the Patient and Observer Scar Assessment Scale (scale of 1 to 10, where 10 is a worse outcome).",
+                "timeFrame": "8 weeks"
+              },
+              {
+                "measure": "Laser Doppler will assess differences in dermal perfusion rates between control (unburned) and treated burn tissues.",
+                "description": "Laser Doppler will assess differences in dermal perfusion rates between control (unburned) and treated burn tissues.",
+                "timeFrame": "1 year"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Eighteen years of age or older with deep second degree thermal burn wounds\n2. Index burn injury within the prior 72 hours\n3. Subjects must understand and be willing and able to give written informed consent\n4. Subjects must agree to have blood draws performed per protocol\n5. Subjects must be accessible for wound treatment and assessment visits\n6. Males and females must agree to use an acceptable method of contraception. Exceptions will be females of non-childbearing age and monogamous males who are partners of females of non-childbearing age. Acceptable methods of birth control include; history of sterilization, oral contraceptives, depo-progesterone injections, a barrier contraceptive such as a condom with or without spermicide cream or gel, diaphragms or cervical cap with or without spermicide cream or gel, or an intrauterine device (IUD).\n7. Maximum index wound size at screening limited to single or multiple wounds (in a defined anatomical area) cumulatively \u2264 600 cm2. Minimum wound size at screening: 30 cm2. Other wounds may be present that are treated separately from this protocol subject to the maximum TBSA exclusion criteria listed below.\n\nExclusion Criteria:\n\n1. Solely first degree or solely third degree burns\n2. Cumulative burn area \u2265 20% TBSA (20% TBSA corresponds to 3700 cm2 in a 70 kg, 175 cm subject)\n3. Burns that occur over a previous scar\n4. Chemical, radiation, or electrical burns\n5. Subjects with superficial second degree burn who are expected to heal within 2 weeks with standard therapy\n6. Evidence of active infection at the wound site\n7. Evidence of significant wound healing prior to treatment\n8. Burn wounds requiring surgery (other than debridement), or skin grafting\n9. Wound exclusively located in the area of fingers, toes, face, or perineum\n10. Wound that extends \\> 50% across one or more joints\n11. Have any requirement for the use of systemic steroids or immunosuppressive medications\n12. Subjects allergic to human albumin, streptomycin, or penicillin\n13. Be a pregnant female or nursing mother\n14. Subjects who are known or found to be HIV positive\n15. History of alcohol or substance abuse requiring treatment within the past 12 months.\n16. Severe medical conditions\n\n    1. Malignancy (other than non-melanoma skin cancer) not in remission or in remission less than 5 years\n    2. Life expectancy less than two years\n    3. Severe cardiopulmonary disease restricting ambulation to the clinical facility\n17. WBC \\<3 or \\> 20 x109/L, Hgb \\< 9g/dL, platelet count 100x109/L or less, serum creatinine \\> 1.5 times the upper normal limit, AST or ALT \\> 2.4 times upper normal limit\n18. Known history of coagulopathy\n19. Subjects who have a reasonable likelihood of being a recipient of tissue or organ transplantation\n20. History of poor compliance, unreliability",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Carl Schulman, MD",
+                "affiliation": "Ryder Trauma Center",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Ryder Trauma Center",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33136",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "North Carolina Jaycee Burn Center",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27599",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002056",
+                "term": "Burns"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D014947",
+                "term": "Wounds and Injuries"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

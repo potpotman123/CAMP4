@@ -1,0 +1,254 @@
+{
+  "integrated_id": "systemic:sys_d49ab2687d64",
+  "asset": "NNC 0128-0000-2021",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=NNC+0128-0000-2021",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01272206",
+            "orgStudyIdInfo": {
+              "id": "NN7128-3729"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2010-021286-67",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "U1111-1118-0208",
+                "type": "OTHER",
+                "domain": "WHO"
+              }
+            ],
+            "organization": {
+              "fullName": "Novo Nordisk A/S",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Investigating Safety and Pharmacokinetics of NNC 0128-0000-2011 Compared to NNC 0128-0000-2021 in Healthy Male Subjects",
+            "officialTitle": "A Single-centre, Randomised, Double-blind, Single Dose, Cross-over Trial Investigating Safety and Pharmacokinetics of NNC 0128-0000-2011 Compared to NNC 0128-0000-2021, Following Intravenous Administration in Healthy Male Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2014-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-01"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-01-06",
+            "studyFirstSubmitQcDate": "2011-01-06",
+            "studyFirstPostDateStruct": {
+              "date": "2011-01-07",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2014-08-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2014-08-20",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novo Nordisk A/S",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial is conducted in Europe. The aim of this trial is to investigate the safety and pharmacokinetics (the rate at which the body eliminates the trial drug) of NNC 0128-0000-2011 compared to NNC 0128-0000-2021 when given for the first time to healthy human subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Congenital Bleeding Disorder",
+              "Haemophilia A",
+              "Haemophilia B"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "A",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NNC 0128-0000-2011"
+                ]
+              },
+              {
+                "label": "B",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NNC 0128-0000-2021"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NNC 0128-0000-2011",
+                "description": "Administered as one single i.v. (intravenous) injection, 100 mcg/kg",
+                "armGroupLabels": [
+                  "A"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "NNC 0128-0000-2021",
+                "description": "Administered as one single i.v. (intravenous) injection, 100 mcg/kg",
+                "armGroupLabels": [
+                  "B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency of adverse events (AEs)",
+                "timeFrame": "from first trial product administration until maximally 10 weeks after last trial product administration"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Neutralising antibodies against FVII and/or N7-GP",
+                "timeFrame": "from first trial product administration until maximally 10 weeks after last trial product administration"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Body weight between 50.0 and 100.0 kg, both inclusive\n* Body mass index (BMI) between 18.0 and 28.0 kg/m2, both inclusive\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to trial product or related products, such as activated recombinant factor VII\n* Any clinical sign or known history of atherosclerosis or thromboembolic events\n* Renal dysfunction\n* A subject considered at high risk of thromboembolic events\n* Overt bleeding, including from gastrointestinal tract\n* Hepatitis B or C infection\n* Human immunodeficiency virus (HIV) infection\n* Positive test for drugs of abuse or alcohol as well as a history of alcohol or drug abuse within the past 12 months\n* Smoking within 3 months prior to trial start\n* Unable to abstain from alcohol consumption during visits of trial product administration, visit 2 (0-28 days after screening) and visit 3 (2-4 weeks after visit 2)\n* Habitual excessive consumption of methylxanthine-containing beverages and foods (coffee, tea, soft drinks such as cola, chocolate) as judged by the investigator (trial physician)\n* Excessive consumption of a diet deviating from a normal diet\n* Blood donation within the last three months prior to screening\n* The receipt of any investigational product within 30 days of trial product administration\n* Participation in any other trial investigating a procoagulant within the last six months prior to screening\n* Strenuous exercise within four days prior trial start\n* Suffers from a life threatening disease\n* Males who are sexually active and not surgically sterilised, who or whose partner are not using adequate contraceptive methods (adequate contraceptive measures as required by local law or practise).\n* Subjects at increased cardiovascular risk, including a strong family history of cardiovascular disease\n* Subjects with high fasting cholesterol at trial start",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "49 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Global Clinical Registry (GCR, 1452)",
+                "affiliation": "Novo Nordisk A/S",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Manchester",
+                "zip": "M15 6SH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Clinical Trials at Novo Nordisk",
+                "url": "http://novonordisk-trials.com"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006467",
+                "term": "Hemophilia A"
+              },
+              {
+                "id": "D002836",
+                "term": "Hemophilia B"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D025861",
+                "term": "Blood Coagulation Disorders, Inherited"
+              },
+              {
+                "id": "D001778",
+                "term": "Blood Coagulation Disorders"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D020147",
+                "term": "Coagulation Protein Disorders"
+              },
+              {
+                "id": "D006474",
+                "term": "Hemorrhagic Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

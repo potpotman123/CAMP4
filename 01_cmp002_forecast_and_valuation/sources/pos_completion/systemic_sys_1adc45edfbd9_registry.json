@@ -1,0 +1,562 @@
+{
+  "integrated_id": "systemic:sys_1adc45edfbd9",
+  "asset": "CS-206",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=CS-206",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07000318",
+            "orgStudyIdInfo": {
+              "id": "CS-206-02"
+            },
+            "organization": {
+              "fullName": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            },
+            "briefTitle": "CS-206 in Patients With Sickle Cell Disease",
+            "officialTitle": "An Open-Label Study to Evaluate the Safety and Efficacy of a Single Dose of Autologous CD34+ Human Hematopoietic Stem Cells Modified Using Transformer Base Editor in Participants With Severe Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-09-30",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-12-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-03-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-05-30",
+            "studyFirstSubmitQcDate": "2025-05-30",
+            "studyFirstPostDateStruct": {
+              "date": "2025-06-02",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-206 injection in treating sickle cell disease.",
+            "detailedDescription": "CS-206 is an autologous CD34+ cell suspension, edited by ex vivo base editing technology, which modifies the BCL11A binding site in HBG promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of fetal hemoglobin(HbF) in the blood, compensating for the function of missing adult hemoglobin HbA to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-206",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "interventionNames": [
+                  "Genetic: CS-206"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-206",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "armGroupLabels": [
+                  "CS-206"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AEs(Adverse Events) and SAEs(Serious Adverse Events) after CS-206 infusion",
+                "description": "Frequency and severity of adverse events(AEs#as assessed by CTCAE(Common Terminology Criteria for Adverse Events)v5.0",
+                "timeFrame": "From signing informed consent to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "description": "Incidence of transplant-related mortality(Transplant-related mortality events defined as deaths assessed by the investigator as potentially transplant-related)",
+                "timeFrame": "From baseline to 100 days and 12 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days.",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "description": "Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/ L on three different days and without platelet transfusion.",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "All-cause mortality",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Free from severe VOCs for 12 consecutive months (VF12)",
+                "description": "Whether the patient remained free from severe vaso-occlusive crises (VOCs) for 12 consecutive months (VF12)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Free from hospitalization due to severe vaso-occlusive crises for 12 consecutive months(HF12)",
+                "description": "Whether the patient remained free from hospitalization due to severe vaso-occlusive crises for 12 consecutive months(HF12)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Free from severe VOCs for 9 consecutive months (VF9)",
+                "description": "Whether the patient remained free from severe vaso-occlusive crises (VOCs) for 9 consecutive months (VF9)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Annualized incidence of severe vaso-occlusive crises (VOC)",
+                "description": "Severe vaso-occlusive crisis (VOC) annualized incidence rate",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Annualized incidence of hospitalization due to severe vaso-occlusive crises",
+                "description": "Annualized incidence rate of hospitalization due to severe vaso-occlusive crisis",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion"
+              },
+              {
+                "measure": "HbF (fetal hemoglobin) level in blood samples",
+                "description": "Persistence of fetal hemoglobin (HbF) expression",
+                "timeFrame": "up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Proportion of edited alleles in peripheral blood leukocytes and bone marrow cells, and persistence and chimerism kinetics evaluation",
+                "description": "Proportion of edited alleles in peripheral blood leukocytes and bone marrow cells, along with their persistence over time and the dynamics of chimerism rates.",
+                "timeFrame": "up to 24 months post-CS-206 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be between 12 to 18 years old (inclusive). Participants or their legal guardians (for participants below 18 years old) must provide written informed consent before any study-related procedures.\n* Participants must have a Documented \u03b2S/\u03b2S, \u03b2S/\u03b20 or \u03b2S/\u03b2+ genotype.\n* Participants must have at least one of the following conditions\n\n  1. At least 2 occurrences of any of the following events within 2 years prior to screening.\n\n     1. Acute pain crisis: requiring a visit to a medical facility and administration of pain medications (opioids or intravenous NSAIDs) or red blood cell transfusions.\n     2. Acute chest syndrome: defined by the presence of a new pulmonary infiltrate on a chest X-ray, associated with pneumonia-like symptoms, including chest pain, fever, or respiratory distress.\n     3. Priapism lasting more than 2 hours and necessitating a visit to a medical facility for intervention.\n     4. Stroke or transient ischemic attack (TIA): confirmed by imaging studies (e.g., MRI or CT scan), including silent stroke, and overt stroke leading to neurological deficits lasting \\>24 hours.\n  2. Presence of red cell alloimmunization (\\>2 antibodies) and the need for ongoing chronic transfusions.\n  3. Participants who have failed, not tolerated, refused the standard of care for Sickle Cell Disease (SCD), or are unable to access the standard of care due to the availability\n  4. Other situations deemed appropriate for hematopoietic stem cell transplantation according to the sickle cell anemia treatment guidelines, as determined by the investigator.\n* Laboratory Parameters:\n\n  1. Documented Hemoglobin S (HbS) level \u226530% of total hemoglobin (Hb) concentration prior to transfusion.\n  2. HbF at screening \\< 20%\n* Participants must have a Karnofsky Performance Status (KPS for participants above 16 years old, inclusive) or Lansky Play-Performance Scale (LPPS for participants below 16 years old) score of \u226570, indicating sufficient functional status to undergo the intervention.\n* Willing to comply with the protocol requirements, use contraception as required, attend regular follow-up visits, and cooperate with examinations\n\nExclusion Criteria:\n\n* Female participants who are pregnant, breastfeeding, or planning pregnancy during the study period are excluded.\n* Participation in another investigational drug trial within 30 days prior to screening or within 5 half-lives (whichever is longer).\n* Subjects who have received or are receiving luspatercept treatment within 3 months prior to screening.\n* Subjects who have previously received any gene therapy for the disease.\n* Subjects with a fully matched related donor who are already scheduled for allogeneic hematopoietic stem cell transplantation.\n* More than 10 unplanned hospitalizations or emergency visits within 12 months prior to screening, which the investigator believes are related to significant chronic pain rather than acute pain crisis (VOC).\n* Severe liver dysfunction:\n\n  1. Aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\>3\u00d7 the upper limit of normal (ULN) or:\n  2. International Normalized Ratio (INR) \\>1.5\u00d7 ULN\n* Severe renal impairment (creatinine clearance \\<30 mL/min/1.73 m\u00b2) are excluded.\n* Subjects with HIV, cytomegalovirus (CMV), Epstein-Barr virus (EBV), or Treponema pallidum infection during the screening period; those with active HBV or HCV infection; or known tuberculosis or parasitic infection, etc. Excludes subjects with stable hepatitis B (HBV-DNA negative) after treatment and those cured of hepatitis C (HCV-RNA negative). Known active bacterial, viral, or fungal infections.\n* Deemed unsuitable for autologous hematopoietic stem cell transplantation procedures as determined by the investigator.\n* Other situations deemed unsuitable for this study as determined by the investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaowen Zhai, M.D.",
+                "role": "CONTACT",
+                "phone": "+86-021-64931126",
+                "email": "zhaixiaowendy@163.com"
+              },
+              {
+                "name": "Zifeng Li, M.S.",
+                "role": "CONTACT",
+                "phone": "+86-13920704768",
+                "email": "zfli18@fudan.edu.cn"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Xiaowen Zhai, M.D.",
+                "affiliation": "Children's Hospital of Fudan University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Children's Hospital of Fudan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "201102",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06565026",
+            "orgStudyIdInfo": {
+              "id": "CS-206-01"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "CS-206 in Patients With Sickle Cell Disease",
+            "officialTitle": "An Open-Label Study to Evaluate the Safety and Efficacy of a Single Dose of Autologous CD34+ Human Hematopoietic Stem Cells Modified Using Transformer Base Editor in Participants With Severe Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-09-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-06-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-08-13",
+            "studyFirstSubmitQcDate": "2024-08-19",
+            "studyFirstPostDateStruct": {
+              "date": "2024-08-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-101 injection in treating sickle cell disease.",
+            "detailedDescription": "CS-101 is an autologous CD34+ cell suspension, edited by in vitro base editing technology, which modifies the BCL11A binding site in HBG promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of fetal hemoglobin(HbF) in the blood, compensating for the function of missing adult hemoglobin HbA to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-206",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "interventionNames": [
+                  "Genetic: CS-206"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-206",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "armGroupLabels": [
+                  "CS-206"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AEs(Adverse Events) and SAEs(Serious Adverse Events) after CS-101 infusion",
+                "description": "Frequency and severity of adverse events(AEs\uff09as assessed by CTCAE(Common Terminology Criteria for Adverse Events)v5.0",
+                "timeFrame": "From signing informed consent to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "description": "Incidence of transplant-related mortality(Transplant-related mortality events defined as deaths assessed by the investigator as potentially transplant-related)",
+                "timeFrame": "From baseline to 100 days and 12 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days.",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "description": "Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/L on three different days and without platelet transfusion.",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "All-cause mortality",
+                "timeFrame": "Up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Free from severe VOCs for 12 consecutive months (VF12)",
+                "description": "Free from severe vaso-occlusive crises (VOCs) for 12 consecutive months (VF12)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Free from hospitalization due to severe vaso-occlusive crises for 12 consecutive months(HF12)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Free from severe VOCs for 9 consecutive months (VF9)",
+                "description": "Free from severe vaso-occlusive crises (VOCs) for 9 consecutive months (VF9)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Annualized incidence of severe vaso-occlusive crises (VOC)",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion up to 24 months"
+              },
+              {
+                "measure": "Annualized incidence of hospitalization due to severe vaso-occlusive crises",
+                "timeFrame": "starting 60 days after the last red blood cell transfusion"
+              },
+              {
+                "measure": "HbF (fetal hemoglobin) level in blood samples",
+                "timeFrame": "up to 24 months post-CS-206 infusion"
+              },
+              {
+                "measure": "Proportion of edited alleles in peripheral blood leukocytes and bone marrow cells, and persistence and chimerism kinetics evaluation",
+                "timeFrame": "up to 24 months post-CS-206 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be between 12 to 35 years old (inclusive). Participants or their legal guardians (for participants below 18 years old) must provide written informed consent before any study-related procedures.\n* Participants must have a Documented \u03b2S/\u03b2S, \u03b2S/\u03b20 or \u03b2S/\u03b2+ genotype.\n* Participants must have at least one of the following conditions\n\n  1. At least 2 occurrences of any of the following events within 2 years prior to screening.\n\n     1. Acute pain crisis: requiring a visit to a medical facility and administration of pain medications (opioids or intravenous NSAIDs) or red blood cell transfusions.\n     2. Acute chest syndrome: defined by the presence of a new pulmonary infiltrate on a chest X-ray, associated with pneumonia-like symptoms, including chest pain, fever, or respiratory distress.\n     3. Priapism lasting more than 2 hours and necessitating a visit to a medical facility for intervention.\n     4. Stroke or transient ischemic attack (TIA): confirmed by imaging studies (e.g., MRI or CT scan), including silent stroke, and overt stroke leading to neurological deficits lasting \\>24 hours.\n  2. Presence of red cell alloimmunization (\\>2 antibodies) and the need for ongoing chronic transfusions.\n  3. Participants who have failed, not tolerated, refused the standard of care for Sickle Cell Disease (SCD), or are unable to access the standard of care due to the availability\n  4. Other situations deemed appropriate for hematopoietic stem cell transplantation according to the sickle cell anemia treatment guidelines, as determined by the investigator.\n* Laboratory Parameters:\n\n  1. Documented Hemoglobin S (HbS) level \u226530% of total hemoglobin (Hb) concentration prior to transfusion.\n  2. HbF at screening \\< 20%\n* Participants must have a Karnofsky Performance Status (KPS for participants above 16 years old, inclusive) or Lansky Play-Performance Scale (LPPS for participants below 16 years old) score of \u226570, indicating sufficient functional status to undergo the intervention.\n* Willing to comply with the protocol requirements, use contraception as required, attend regular follow-up visits, and cooperate with examinations.\n\nExclusion Criteria:\n\n* Female participants who are pregnant, breastfeeding, or planning pregnancy during the study period are excluded.\n* Participation in another investigational drug trial within 30 days prior to screening or within 5 half-lives (whichever is longer).\n* Subjects who have received or are receiving luspatercept treatment within 3 months prior to screening.\n* Subjects who have previously received any gene therapy for the disease.\n* Subjects with a fully matched related donor who are already scheduled for allogeneic hematopoietic stem cell transplantation.\n* More than 10 unplanned hospitalizations or emergency visits within 12 months prior to screening, which the investigator believes are related to significant chronic pain rather than acute pain crisis (VOC).\n* Severe liver dysfunction:\n\n  1. Aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\>3\u00d7 the upper limit of normal (ULN) or:\n  2. International Normalized Ratio (INR) \\>1.5\u00d7 ULN\n* Severe renal impairment (creatinine clearance \\<30 mL/min/1.73 m\u00b2) are excluded.\n* Subjects with HIV, cytomegalovirus (CMV), Epstein-Barr virus (EBV), or Treponema pallidum infection during the screening period; those with active HBV or HCV infection; or known tuberculosis or parasitic infection, etc. Excludes subjects with stable hepatitis B (HBV-DNA negative) after treatment and those cured of hepatitis C (HCV-RNA negative). Known active bacterial, viral, or fungal infections.\n* Deemed unsuitable for autologous hematopoietic stem cell transplantation procedures as determined by the investigator.\n* Other situations deemed unsuitable for this study as determined by the investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yaliang Li",
+                "role": "CONTACT",
+                "phone": "+ 86 186 2104 6122",
+                "email": "CT@correctsequence.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Yongrong Lai, M.D.",
+                "affiliation": "First Affiliated Hospital of Guangxi Medical University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "status": "RECRUITING",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yongrong Lai, M.D.",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Yongrong Lai, M.D.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "42705233",
+                "type": "DERIVED",
+                "citation": "Liu R, Lai Y, Wang L, Qian X, Ma XK, Li Y, Yang G, Shi L, Li Z, Wei J, Wei Z, Wang H, Zhou X, Yu L, Yang B, Zhai X, Mou X, Yang L, Chen J. Clinical base editing for beta-hemoglobinopathies across different genetic backgrounds. Cell Stem Cell. 2026 Sep 7:S1934-5909(26)00310-3. doi: 10.1016/j.stem.2026.08.009. Online ahead of print."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "asset": "AB-1001",
+  "query": "AB-1001",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=AB-1001&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05541627",
+            "orgStudyIdInfo": {
+              "id": "ASK-HD-01-CS-101"
+            },
+            "organization": {
+              "fullName": "AskBio Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate AB-1001 Striatal Administration in Adults With Early Manifest Huntington's Disease",
+            "officialTitle": "An Open-Label Phase I/II Dose Finding Study to Evaluate the Safety, Tolerability, and Preliminary Efficacy of Striatal Administration of AB-1001 in Adult Subjects With Early Manifest Huntington's Disease (HD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-09",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-10-12",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-04-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2028-04",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-09-13",
+            "studyFirstSubmitQcDate": "2022-09-13",
+            "studyFirstPostDateStruct": {
+              "date": "2022-09-15",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "AskBio France, SAS, a subsidiary of AskBio Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Phase I/II Dose-Finding Study to Evaluate Striatal Administration of AB-1001 (previously BV-101) in Adults with Early Manifest Huntington's Disease",
+            "detailedDescription": "This is a Phase I/II, first-in-human, open-label study to evaluate the safety, tolerability, and preliminary efficacy signals in subjects with early manifest HD following treatment with one-time intracerebral bilateral injections of AB-1001 within the striatum (caudate and putamen).\n\nThis study consists of 2 parts: Dose-Finding Part and Expansion Part; each part consists of 3 phases: Screening Phase (8 weeks, with extension to 12 weeks to accommodate scheduling if needed), Treatment and Initial Follow-Up Phase (52 weeks) and Long-Term Follow-Up Phase (4 years). In the Dose-Finding Part, 2 dose titers will be tested in 3-6 subjects in each cohort. Once a dose is selected based on Dose-Limiting Toxicities, an additional 6 subjects will be enrolled into the Dose Expansion Part."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "Huntington's Disease",
+              "Early Manifest Huntington's Disease",
+              "Brain Diseases",
+              "Central Nervous System Diseases",
+              "Nervous System Diseases",
+              "Movement Disorders",
+              "Neurodegenerative Diseases",
+              "Genetic Diseases, Inborn",
+              "Cognition Disorders",
+              "Neurocognitive Disorders",
+              "Gene Therapy",
+              "AAV (adeno-associated virus)",
+              "Viral Vector",
+              "Cholesterol 24-Hydroxylase",
+              "CYP46A1",
+              "AB-1001"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Low-dose of AB-1001",
+                "interventionNames": [
+                  "Genetic: AB-1001 Gene Therapy"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "High-dose of AB-1001",
+                "interventionNames": [
+                  "Genetic: AB-1001 Gene Therapy"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "AB-1001 Gene Therapy",
+                "description": "One-time intracerebral bilateral injections of AB-1001 (AAVrh10.CAG.hCYP46A1), an adeno-associated viral vector serotype Rh10 containing the human cholesterol 24-hydroxylase gene",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2"
+                ],
+                "otherNames": [
+                  "AAVrh10.CAG.hCYP46A1 (previously BV-101)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Dose-Limiting Toxicities (DLTs), Treatment-Emergent Adverse Events (TEAEs), and Serious Adverse Events (SAEs)",
+                "description": "The incidence of DLTs, TEAEs, and SAEs will be measured according to protocol specifications.",
+                "timeFrame": "Through Week 52"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Anatomical and volumetric measures of brain regions impacted by HD as assessed by MRI",
+                "description": "The magnitude and variability of change from baseline in anatomical and volumetric measures of brain regions impacted by HD as assessed by MRI will be measured",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "Composite Unified Huntington Disease Rating Scale (cUHDRS)",
+                "description": "The change from baseline in the cUHDRS will be measured (a higher score indicates better functioning)",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "Mutant Huntingtin protein (mHTT)",
+                "description": "The change from baseline in mHTT in blood and cerebrospinal fluid (CSF) will be measured",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "Neurofilament light chain (NfL)",
+                "description": "The change from baseline in blood and CSF NfL will be measured",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "24OH cholesterol",
+                "description": "The change from baseline in blood and CSF 24OH cholesterol will be measured",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "Magnetic resonance spectroscopy (MRS) metabolic profile",
+                "description": "Change from baseline in MRS metabolic profile",
+                "timeFrame": "At Week 52"
+              },
+              {
+                "measure": "Positron emission tomography (PET) fluoro-deoxyglucose (FDG) striatal profile",
+                "description": "Change from baseline in PET FDG striatal profile",
+                "timeFrame": "At Week 52"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or Female subjects between ages 18 and 65 years (both inclusive) at time of consenting, able to provide Informed Consent and able to understand and comply with all study procedures.\n* Documented genetic confirmation of pathological CAG expansion in the huntingtin gene \u226540.\n* Early manifest HD as defined by a UHDRS total functional capacity (TFC) score of 9 to 13 and a diagnostic classification level (DCL) of 4, or a DCL of 3 if present with cognitive impairment and clear evidence of disease progression.\n* Striatal MRI volumes per hemisphere: Putamen \u2265 2.3 cm3 (per side); Caudate \u2265 1.7 cm3 (per side) on Screening MRI.\n* All HD concomitant medications stable for at least 30 days prior to screening at the investigator's discretion.\n\nKey Exclusion Criteria:\n\n* Prior or ongoing medical condition, physical findings, ECG findings, or laboratory abnormality that, in the investigator's opinion, would impact subject's safety and compliance with the study procedures.\n* Metastatic neoplasms within the five years prior to screening.\n* Presence of clinically relevant immunologic, hematologic, hepatic, cardiac, or renal disease at the time of screening as per investigator's clinical judgment.\n* Current untreated and unstable depressive disorder or a serious mood disorder requiring hospitalization.\n* History of prior suicide attempt or imminent risk of self-harm based on investigator's judgment or with a \"yes\" answer on item 4 or 5 on the Columbia Suicide Severity Rating Scale (C-SSRS).\n* Patients with history of confirmed stroke, known intracranial neoplasms, vascular malformations, or intracranial hemorrhage.\n* Subjects not deemed suitable for the surgical procedure as per the Neurosurgeon's judgment.\n* Any history of gene therapy, cell transplantation or any other experimental brain surgery.\n* Any RNA or DNA targeted HD specific investigational agents such as antisense oligonucleotides within 6 months prior to screening.\n* Subjects unable to tolerate or unwilling to undergo multiple lumbar punctures.\n* Participation in any clinical trial of an approved or non-approved investigational drug or intervention within 12 weeks or 5 half-lives whichever is longer prior to treatment.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Institut du Cerveau (ICM), H\u00f4pital La Piti\u00e9 Salp\u00eatri\u00e8re APHP",
+                "city": "Paris",
+                "state": "\u00cele-de-France Region",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

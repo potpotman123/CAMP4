@@ -1,0 +1,597 @@
+{
+  "integrated_id": "systemic:sys_a78d01f71f98",
+  "asset": "KB407 (Nebulization)",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=KB407",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05504837",
+            "orgStudyIdInfo": {
+              "id": "KB407-02"
+            },
+            "organization": {
+              "fullName": "Krystal Biotech, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study Assessing KB407 for the Treatment of Cystic Fibrosis",
+            "officialTitle": "KB407-02 A Phase 1 Study of Inhaled KB407, a Replication-Defective, Non-Integrating Vector Expressing Human Cystic Fibrosis Transmembrane Conductance Regulator, for the Treatment of Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-06-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-08-15",
+            "studyFirstSubmitQcDate": "2022-08-15",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Krystal Biotech, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will evaluate safety and tolerability of ascending doses of nebulized KB407 in adults with cystic fibrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1 (open label)",
+                "type": "EXPERIMENTAL",
+                "description": "A single administration of KB407",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              },
+              {
+                "label": "Cohort 2 (open label)",
+                "type": "EXPERIMENTAL",
+                "description": "Two administrations of KB407",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              },
+              {
+                "label": "Cohort 3 (open label)",
+                "type": "EXPERIMENTAL",
+                "description": "Four administrations of KB407",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              },
+              {
+                "label": "Cohort 4 (open label)",
+                "type": "EXPERIMENTAL",
+                "description": "Four consecutive administrations of KB407 followed by weekly administration for up to 6 months",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "KB407 (Nebulization)",
+                "description": "Nebulized solution of KB407, a replication-defective HSV-1 expressing full length human CFTR",
+                "armGroupLabels": [
+                  "Cohort 1 (open label)",
+                  "Cohort 2 (open label)",
+                  "Cohort 3 (open label)",
+                  "Cohort 4 (open label)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate safety and tolerability of KB407 based upon assessment of adverse events (frequency, severity, relatedness), and changes from baseline in physical examinations, vital signs, ECG, and clinical laboratory test results",
+                "description": "Number of adult subjects with treatment related adverse events as assessed by NCI-CTCAE v5",
+                "timeFrame": "6 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To evaluate the effects of KB407 on pulmonary function, as measured by change from baseline in absolute and percent predicted FEV1",
+                "description": "Assessment of forced expiratory volume, in one second (FEV1,) will be assessed by spirometry as compared to baseline",
+                "timeFrame": "6 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. The subject must have read, understood, and signed an Institutional Review Board/Ethics Committee (IRB/IEC) approved Informed Consent Form and must be able to and willing to follow study procedures and instructions\n2. Subjects aged 18 years or older at the time of Informed Consent\n3. A confirmed diagnosis of CF as defined by clinical signs and symptoms of CF and at least one of the following:\n\n   * A historical sweat chloride value \\>60 mmol/L\n   * Two copies of a disease causing mutation in the CFTR gene\n4. Clinically stable in the opinion of the Investigator\n5. Percent predicted FEV1 \u226540% and \u226490% of the predicted normal for age, gender, and height at Screening\n6. Resting oxygen saturation \u226592% on room air at Screening\n\nExclusion Criteria:\n\n1. Initiation of any new chronic therapy (eg, CFTR modulator, hypertonic saline, inhaled antibiotic) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days prior to the first dose\n2. Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness 14 days prior to the first dose that, in the opinion of the Investigator, may confound study results\n3. Treatment for Mycobacterium abscessus within 3 months prior to the first dose or more than two pulmonary exacerbations with a history of Burkholderia cenocepacia infection within 6 months prior to the first dose\n4. Participation in another clinical study or treatment with an investigational agent 30 days or 5 half-lives, whichever is longer, prior to the first dose\n5. History of or listed for solid organ transplantation\n6. Any condition (including a history or current evidence of substance abuse or dependence, uncontrolled asthma, or is considered to be immunocompromised) that, in the opinion of the Investigator, would impact a subject's ability to complete all study-related procedures and/or poses an additional risk to the assessment of safety of KB407\n7. An active oral herpes infection 30 days prior to the first dose\n8. Women who are pregnant or nursing\n9. Subject who is unwilling to comply with contraception requirements per protocol\n10. Clinically significant abnormalities of hematology or chemistry testing at Screening that the Investigator believes may interfere with the assessment of safety and/or efficacy of the study treatment\n11. Subject has a known hypersensitivity to inhaled glycerol\n12. Subject is known to be noncompliant or is unlikely to comply with the requirements of the study protocol in the opinion of the Investigator\n13. Bronchoscopy participants only: Unable to tolerate bronchoscopy procedure and airway sampling, in the opinion of the Investigator\n14. Cohort 4 participants only: Subjects who are ineligible for, do not tolerate, or do not benefit from modulator therapy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "David Sweet, MD, PhD",
+                "role": "CONTACT",
+                "phone": "412-586-5830",
+                "email": "dsweet@krystalbio.com"
+              },
+              {
+                "name": "Brittani Agostini, RN, CCRC",
+                "role": "CONTACT",
+                "phone": "412-586-5830",
+                "email": "bagostini@krystalbio.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Florida, Gainesville",
+                "status": "RECRUITING",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Alexa Smith",
+                    "role": "CONTACT",
+                    "phone": "352-273-5085",
+                    "email": "alexa.howell@ufl.edu"
+                  },
+                  {
+                    "name": "Jorge Lascano, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "St. Lukes CF Center of Idaho",
+                "status": "RECRUITING",
+                "city": "Boise",
+                "state": "Idaho",
+                "zip": "83712",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Dixie Durham",
+                    "role": "CONTACT",
+                    "phone": "208-381-7092",
+                    "email": "durhamd@slhs.org"
+                  },
+                  {
+                    "name": "Karen Miller, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.6135,
+                  "lon": -116.20345
+                }
+              },
+              {
+                "facility": "The Cystic Fibrosis Institute",
+                "status": "RECRUITING",
+                "city": "Northfield",
+                "state": "Illinois",
+                "zip": "60093",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Karolina Roszko",
+                    "role": "CONTACT",
+                    "email": "research@wecare4lungs.com"
+                  },
+                  {
+                    "name": "Steven Boas, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.09975,
+                  "lon": -87.7809
+                }
+              },
+              {
+                "facility": "New York Medical College/ Boston Children's Health Physicians",
+                "status": "RECRUITING",
+                "city": "Hawthorne",
+                "state": "New York",
+                "zip": "10532",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Armando Ramirez, CRC",
+                    "role": "CONTACT",
+                    "phone": "914-504-0152",
+                    "email": "armando.ramirez@bchphysicians.org"
+                  },
+                  {
+                    "name": "John Welter, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.10732,
+                  "lon": -73.79597
+                }
+              },
+              {
+                "facility": "Northwell Health Physicians",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10028",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Teresa Demarco",
+                    "role": "CONTACT",
+                    "phone": "212-434-4790",
+                    "email": "tdemarco3@northwell.edu"
+                  },
+                  {
+                    "name": "Maria Berdella, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Atrium Health Wake Forest Baptist Medical Center",
+                "status": "RECRUITING",
+                "city": "Winston-Salem",
+                "state": "North Carolina",
+                "zip": "27157",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Christian Smith",
+                    "role": "CONTACT",
+                    "phone": "336-173-8550",
+                    "email": "chnsmith@wakehealth.edu"
+                  },
+                  {
+                    "name": "Chad R Marion, DO, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05095246",
+            "orgStudyIdInfo": {
+              "id": "KB407-01"
+            },
+            "organization": {
+              "fullName": "Krystal Biotech, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Inhaled KB407 for the Treatment of Cystic Fibrosis",
+            "officialTitle": "A Phase I Study of Inhaled KB407, a Replication-Incompetent, Non-Integrating Vector Expressing Human Cystic Fibrosis Transmembrane Conductance Regulator (CFTR), for the Treatment of Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Pandemic, logistical, and recruitment challenges",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-03-08",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-07-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2024-10-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-08-27",
+            "studyFirstSubmitQcDate": "2021-10-14",
+            "studyFirstPostDateStruct": {
+              "date": "2021-10-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-08-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Krystal Biotech, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Novotech (Australia) Pty Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The Sponsor is developing KB407, a replication-defective, non-integrating herpes simplex virus type 1 (HSV-1)-derived vector engineered to deliver functional full-length human Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) to the airways of people with cystic fibrosis via nebulization. This study is designed to evaluate safety and tolerability of KB407 in people with cystic fibrosis. This study will enroll 4 participants into each of the first two cohorts and will enroll five subjects into the last cohort. Cohort 1 will receive a single dose of KB407 and be followed for 60 days. Subjects in Cohort 1 may rollover into Cohort 2 at the Day 28 Visit. A Data Safety Monitoring Board (DSMB) will meet to determine study progress from Cohort 2 into Cohort 3. In Cohort 2, subjects will be dosed bi-weekly at Day 0 and Day 14. In Cohort 3 subjects will be dosed weekly at Day 0, Day 7, Day 14 and Day 21. All subjects will be followed for a year after the last dose of KB407."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1 (KB407)",
+                "type": "EXPERIMENTAL",
+                "description": "A single dose of KB407 administered on Day 0",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              },
+              {
+                "label": "Cohort 2 (KB407)",
+                "type": "EXPERIMENTAL",
+                "description": "Two (2) doses of KB407 administered at Day 0 and Day 14",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              },
+              {
+                "label": "Cohort 3 (KB407)",
+                "type": "EXPERIMENTAL",
+                "description": "Four (4) doses of KB407 administered at Day 0, Day 7, Day 14, and Day 21",
+                "interventionNames": [
+                  "Biological: KB407 (Nebulization)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "KB407 (Nebulization)",
+                "description": "Nebulized solution of KB407, a replication-incompetent HSV-1 expressing full length human CFTR",
+                "armGroupLabels": [
+                  "Cohort 1 (KB407)",
+                  "Cohort 2 (KB407)",
+                  "Cohort 3 (KB407)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the safety and tolerability of KB407 in subjects with Cystic Fibrosis through adverse events as assessed by NCI-CTCAE v5.0",
+                "description": "Number of participants with treatment related adverse events as assessed by NCI-CTCAE v5.0",
+                "timeFrame": "Baseline to End of the treatment assessed up to an average of 60 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To measure the difference in lung function over the course of the study, by change from baseline in forced expiratory volume (FEV1).",
+                "description": "Assessment of forced expiratory volume, in one second (FEV1,) will be assessed by pulmonary function test (PFT) as compared to baseline.",
+                "timeFrame": "Baseline to End of the treatment up to an average of 60 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. The subject or legally appointed and authorized representative must have read, understood and signed an Institutional Review Board/Ethics Committee (IRB/EC) approved Informed Consent Form and must be able to and willing to follow study procedures and instructions.\n2. Male or female subject aged 18 years old or older at the time of Informed Consent.\n3. A confirmed diagnosis of cystic fibrosis (CF) that is clinically stable, in the opinion of the Investigator.\n4. FEV1 \u226550% and \u2264100% of the predicted normal for age, gender, and height at Visit 1 (Screening).\n\nExclusion Criteria:\n\n1. Initiation of any new chronic therapy (e.g., ibuprofen, hypertonic saline, azithromycin, Pulmozyme\u00ae, Cayston\u00ae, TOBI\u00ae) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days of Visit 2 (Day 0).\n2. Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness within 14 days of Visit 2 (Day 0) that, in the opinion of the Investigator, may confound study results.\n3. A positive culture (saliva or sputum) indicating infection with highly virulent bacteria associated with accelerated decline in pulmonary function and/or decreased survival (e.g., Burkholderia cenocepacia, Burkholderia dolosa, Mycobacterium abscessus) within 6-months of Visit 2 (Day 0).\n4. Participation in another clinical study or treatment with an investigational agent within 30 days or 5 half-lives, whichever is longer, of Visit 2 (Day 0).\n5. History of lung transplantation.\n6. Any condition (including a history or current evidence of substance abuse or dependence) that, in the opinion of the Investigator, would impact a subject's ability to complete all study-related procedures and/or poses an additional risk to the assessment of safety of the Investigational Product (IP).\n7. An active oral herpes infection within 30 Days of Visit 2 (Day 0).\n8. Women who are pregnant or nursing.\n9. Subject who is unwilling to comply with contraception requirements per-protocol.\n10. Clinically significant abnormalities of hematology or chemistry testing at Visit 1 (Screening) that the Investigator believes may interfere with the assessment of safety and/or efficacy of the study treatment.\n11. Subject is known to be noncompliant or is unlikely to comply with the requirements of the study protocol, in the opinion of the Investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Hunter Medical Research Institute",
+                "city": "Newcastle",
+                "state": "New South Wales",
+                "zip": "2305",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -32.92953,
+                  "lon": 151.7801
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

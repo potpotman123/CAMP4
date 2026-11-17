@@ -1,0 +1,638 @@
+{
+  "integrated_id": "systemic:sys_b1a423a7ce84",
+  "asset": "ITU512",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ITU512",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06546670",
+            "orgStudyIdInfo": {
+              "id": "CITU512A12101"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-515696-35-00",
+                "type": "REGISTRY",
+                "domain": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase I/II Study of ITU512 in Healthy Participants and Patients With Sickle Cell Disease",
+            "officialTitle": "A Phase I/II Clinical Study to Investigate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of ITU512 in Healthy Participants and Patients With Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-08-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-05-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-05-27",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-16",
+            "studyFirstSubmitQcDate": "2024-08-06",
+            "studyFirstPostDateStruct": {
+              "date": "2024-08-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary food effect of ITU512 as well as the fetal hemoglobin (HbF)-inducing capacity of ITU512. This will be the first evaluation of the potential therapeutic effect of ITU512 in healthy participants and patients with sickle cell disease (SCD).",
+            "detailedDescription": "This is a global, randomized, Phase I/II study to assess the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and preliminary food effect of single-agent ITU512 in adult healthy participants, and safety, tolerability, PK, PD, and efficacy of ITU512 in adolescent and adult patients with sickle cell disease (SCD). The study consists of a first-in-human Phase I study (Part 1) in healthy participants, and a Phase II study (Part 2) in patients with SCD.\n\nPart 1 will comprise of Part 1A, Part 1B, and Part 1C. Part 2 will include Part 2A and 2B and may also include an extension part (Part 2C)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "ITU512",
+              "Low molecular weight",
+              "Small molecule",
+              "Sickle cell disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 161,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1A",
+                "type": "EXPERIMENTAL",
+                "description": "Part 1A in healthy participants",
+                "interventionNames": [
+                  "Drug: ITU512",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 1B",
+                "type": "EXPERIMENTAL",
+                "description": "Part 1B in healthy participants",
+                "interventionNames": [
+                  "Drug: ITU512",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 1C",
+                "type": "EXPERIMENTAL",
+                "description": "Part 1C in healthy participants",
+                "interventionNames": [
+                  "Drug: ITU512"
+                ]
+              },
+              {
+                "label": "Part 2A",
+                "type": "EXPERIMENTAL",
+                "description": "Part 2A in patients with sickle cell disease",
+                "interventionNames": [
+                  "Drug: ITU512",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2B",
+                "type": "EXPERIMENTAL",
+                "description": "Part 2B in patients with sickle cell disease",
+                "interventionNames": [
+                  "Drug: ITU512",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2C",
+                "type": "EXPERIMENTAL",
+                "description": "Optional extension in patients with sickle cell disease",
+                "interventionNames": [
+                  "Drug: ITU512"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ITU512",
+                "description": "ITU512 is an investigational, oral, low molecular weight (LMW) compound.",
+                "armGroupLabels": [
+                  "Part 1A",
+                  "Part 1B",
+                  "Part 1C",
+                  "Part 2A",
+                  "Part 2B",
+                  "Part 2C"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "An inactive substance that looks like and is given the same way as ITU512. The effect(s) of ITU512 will be evaluated against the placebo. Placebos are designed as a control and to have no real effect.",
+                "armGroupLabels": [
+                  "Part 1A",
+                  "Part 1B",
+                  "Part 2A",
+                  "Part 2B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1A, Part 1B, Part 1C: Incidence of AEs and SAEs",
+                "description": "Number of participants with adverse events (AEs) and serious adverse events (SAEs), including changes in vital signs, electrocardiograms (ECGs) and laboratory values qualifying and reported as AEs.",
+                "timeFrame": "Up to approximately 60 days"
+              },
+              {
+                "measure": "Part 1A, Part 1B , Part 1C: Dose discontinued due to AE",
+                "description": "Number of participants with dose discontinuation due to AEs",
+                "timeFrame": "Up to 30 days"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Incidence of AEs and SAEs",
+                "description": "Number of participants with adverse events (AEs) and serious adverse events (SAEs), including changes in vital signs, electrocardiograms (ECGs) and laboratory values qualifying and reported as AEs.",
+                "timeFrame": "Up to 5 months"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Dose interruptions and reductions",
+                "description": "Number of participants with dose interruptions or reductions of ITU512",
+                "timeFrame": "Up to 4 months"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Dose intensity",
+                "description": "Dose intensity of ITU512 is computed as the ratio of actual cumulative dose received and actual duration of exposure",
+                "timeFrame": "Up to 4 months"
+              },
+              {
+                "measure": "Part 2B: Fetal hemoglobin (HbF)%",
+                "description": "Assessment of fetal hemoglobin expression by measuring fetal hemoglobin (HbF)% by high-performance liquid chromatography (HPLC) assay",
+                "timeFrame": "Month 4"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Part 1A, Part 1B: Area under the plasma concentration-time curve (AUC) of ITU512",
+                "description": "Pharmacokinetic (PK) parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose on Day 1 (Part 1A) and from pre-dose up to 24 hours post-dose on Day 1 and Day 10 (Part 1B)"
+              },
+              {
+                "measure": "Part 1A, Part 1B: Maximum plasma concentration (Cmax) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose on Day 1 (Part 1A) and from pre-dose up to 24 hours post-dose on Day 1 and Day 10 (Part 1B)"
+              },
+              {
+                "measure": "Part 1A, Part 1B: Time to maximum plasma concentration (Tmax) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose on Day 1 (Part 1A) and from pre-dose up to 24 hours post-dose on Day 1 and Day 10 (Part 1B)"
+              },
+              {
+                "measure": "Part 1A, Part 1B: Renal clearance (CLr)",
+                "description": "PK parameters calculated based on ITU512 urine concentrations by non-compartmental methods. The renal clearance (CLr) may be determined based on AUC and amount of drug excreted into urine (Ae) available for the same time period.",
+                "timeFrame": "From pre-dose up to 48 hours post-dose on Day 1 (Part 1A) and from pre-dose up to 24 hours post-dose on Day 1 and Day 10 (Part 1B)"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Plasma concentrations of ITU512",
+                "description": "ITU512 concentration in plasma determined in non-placebo treated participants by a validated liquid chromatography with tandem mass spectrometry (LC-MS/MS) method",
+                "timeFrame": "From pre-dose up to 4, 6 or 8 hours post-dose on Day 1 at Month 1 and Month 2"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Urine concentrations of ITU512",
+                "description": "ITU512 concentration in urine determined in non-placebo treated participants by a LC-MS/MS method",
+                "timeFrame": "From pre-dose up to 4 or 8 hours post-dose on Day 1 at Month 1"
+              },
+              {
+                "measure": "Part 2A: Fetal hemoglobin (HbF)%",
+                "description": "Assessment of fetal hemoglobin expression by measuring fetal hemoglobin (HbF)% by HPLC assay",
+                "timeFrame": "Up to 4 months"
+              },
+              {
+                "measure": "Part 2A, Part 2B: Change from baseline in total hemoglobin (Hb)",
+                "description": "Change from baseline in total hemoglobin (Hb) over time measured in blood samples",
+                "timeFrame": "Baseline, up to 4 months"
+              },
+              {
+                "measure": "Part 1A, Part 1B, Part 2A, Part 2B: Change from baseline in Fridericia- corrected Holter QT interval (QTcF)",
+                "description": "Real-time 12-lead safety ECGs will be locally collected and evaluated. Change from baseline in QTcF with respect to PK parameters and/or ITU512 concentrations will be assessed",
+                "timeFrame": "Up to 4 months"
+              },
+              {
+                "measure": "Part 1C: Area under the plasma concentration-time curve from time 0 up to the time of the last quantifiable concentration (AUClast) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose"
+              },
+              {
+                "measure": "Part 1C: Area under the plasma concentration-time curve from time 0 up to infinity (AUCinf) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose"
+              },
+              {
+                "measure": "Part 1C: Maximum plasma concentration (Cmax) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose"
+              },
+              {
+                "measure": "Part 1C: Time to maximum plasma concentration (Tmax) of ITU512",
+                "description": "PK parameters calculated based on ITU512 plasma concentrations by non-compartmental methods",
+                "timeFrame": "From pre-dose up to 144 hours post-dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\nPart 1 (Healthy participants)\n\n* Healthy male participants and female participants of non-childbearing potential between 18-55 years of age\n* In good health as determined by the investigator's assessment of medical history, physical examination, vital signs, ECG, and laboratory tests\n* Participants must weigh at least 50 kg at screening and first baseline (admission) and must have a body mass index (BMI) within the range of 18.0-32.0 kg/m2 inclusive.\n\nPart 2 (Sickle Cell Disease)\n\n\\- Male and female participants with a diagnosis of sickle cell disease\n\nKey Exclusion Criteria:\n\nPart 1 (Healthy participants)\n\n* QTcF \u2265 450 msec (as a mean value of triplicates)\n* History of arrhythmias\n* History of significant illness which has not resolved within two (2) weeks prior to initial dosing\n* Women of child-bearing potential (WOCBP)\n\nPart 2 (Sickle Cell Disease)\n\n* Current use of hydroxyurea/hydroxycarbamide (HU/HC)\n* QTcF \u2265 450 msec (as a mean value of triplicates)\n* History of arrhythmias\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "1-888-669-6682",
+                "email": "novartis.email@novartis.com"
+              },
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "+41613241111"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Alabama Birmingham",
+                "status": "RECRUITING",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35233",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Emily Burke",
+                    "role": "CONTACT",
+                    "phone": "+1 205 801 3411",
+                    "email": "eduke@uabmc.edu"
+                  },
+                  {
+                    "name": "Julie Kanter-Washko",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "Quotient Sciences Sea View",
+                "status": "COMPLETED",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33126",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Boston Childrens Hospital",
+                "status": "RECRUITING",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02215",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Nadia Tarhini",
+                    "role": "CONTACT",
+                    "phone": "+1 617 355 4278",
+                    "email": "nadia.tarhini@childrens.harvard.edu"
+                  },
+                  {
+                    "name": "Matthew M Heeney",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Icahn School Of Med At Mount Sinai",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10029",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Mitali Pradhan",
+                    "role": "CONTACT",
+                    "email": "mitali.pradhan@mountsinai.org"
+                  },
+                  {
+                    "name": "Susanna Curtis",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Levine Cancer Insitute Carolinas Healthcare System",
+                "status": "RECRUITING",
+                "city": "Charlotte",
+                "state": "North Carolina",
+                "zip": "28204",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Sydney Marks",
+                    "role": "CONTACT",
+                    "phone": "+1 980 442 2000",
+                    "email": "sydney.marks@advocatehealth.org"
+                  },
+                  {
+                    "name": "Payal Desai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.22709,
+                  "lon": -80.84313
+                }
+              },
+              {
+                "facility": "East Carolina University",
+                "status": "RECRUITING",
+                "city": "Greenville",
+                "state": "North Carolina",
+                "zip": "27858",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kelly Martin",
+                    "role": "CONTACT",
+                    "email": "martinke21@ecu.edu"
+                  },
+                  {
+                    "name": "Darla Liles",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.61266,
+                  "lon": -77.36635
+                }
+              },
+              {
+                "facility": "Childrens Hospital Of Philadelphia",
+                "status": "RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Avi Patel",
+                    "role": "CONTACT",
+                    "phone": "+1 215 590 9959",
+                    "email": "patela67@chop.edu"
+                  },
+                  {
+                    "name": "Alexis A Thompson",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Lifespan",
+                "status": "RECRUITING",
+                "city": "Providence",
+                "state": "Rhode Island",
+                "zip": "02903",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Asher Dillman",
+                    "role": "CONTACT",
+                    "phone": "+1 401 444 5328",
+                    "email": "adillmann@brownhealth.org"
+                  },
+                  {
+                    "name": "Patrick Mc Gann",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.82399,
+                  "lon": -71.41283
+                }
+              },
+              {
+                "facility": "UT Health Science Center",
+                "status": "RECRUITING",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Eyuel Baherey",
+                    "role": "CONTACT",
+                    "email": "Eyuel.L.Baherey@uth.tmc.edu"
+                  },
+                  {
+                    "name": "Modupe Idowu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Ribeir\u00e3o Preto",
+                "state": "S\u00e3o Paulo",
+                "zip": "14048-900",
+                "country": "Brazil",
+                "geoPoint": {
+                  "lat": -21.1775,
+                  "lon": -47.81028
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "S\u00e3o Paulo",
+                "state": "S\u00e3o Paulo",
+                "zip": "01232-010",
+                "country": "Brazil",
+                "geoPoint": {
+                  "lat": -23.5475,
+                  "lon": -46.63611
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "S\u00e3o Paulo",
+                "zip": "05403-000",
+                "country": "Brazil",
+                "geoPoint": {
+                  "lat": -23.5475,
+                  "lon": -46.63611
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Ankara",
+                "state": "Sihhiye Altindag",
+                "zip": "06230",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 39.91987,
+                  "lon": 32.85427
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Adana",
+                "state": "Yuregir",
+                "zip": "01250",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 36.98615,
+                  "lon": 35.32531
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations. This trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

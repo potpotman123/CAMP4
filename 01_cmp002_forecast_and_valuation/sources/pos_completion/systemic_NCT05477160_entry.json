@@ -1,0 +1,322 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05477160",
+      "orgStudyIdInfo": {
+        "id": "STAR-0215-101"
+      },
+      "organization": {
+        "fullName": "Astria Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of STAR-0215 in Healthy Adult Participants",
+      "officialTitle": "A First-in-Human, Phase 1a, Randomized, Double-Blind, Placebo Controlled, Single Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of STAR-0215 in Healthy Adult Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-11-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-11-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-07-26",
+      "studyFirstSubmitQcDate": "2022-07-26",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Astria Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a first-in-human, single-center, randomized, double-blind, placebo-controlled, single ascending dose study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and immunogenicity of a single subcutaneous (SC) or intravenous (IV) administration of STAR-0215 in healthy adult participants."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hereditary Angioedema"
+      ],
+      "keywords": [
+        "HAE",
+        "Angioedema"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 41,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "STAR-0215 Dose 1",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomized to receive STAR-0215 or placebo.",
+          "interventionNames": [
+            "Drug: STAR-0215 (SC)",
+            "Drug: Placebo (SC)"
+          ]
+        },
+        {
+          "label": "STAR-0215 Dose 2",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomized to receive STAR-0215 or placebo.",
+          "interventionNames": [
+            "Drug: STAR-0215 (SC)",
+            "Drug: Placebo (SC)"
+          ]
+        },
+        {
+          "label": "STAR-0215 Dose 3",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomized to receive STAR-0215 or placebo.",
+          "interventionNames": [
+            "Drug: STAR-0215 (SC)",
+            "Drug: Placebo (SC)"
+          ]
+        },
+        {
+          "label": "STAR-0215 Dose 4",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomized to receive STAR-0215 or placebo.",
+          "interventionNames": [
+            "Drug: STAR-0215 (SC)",
+            "Drug: Placebo (SC)"
+          ]
+        },
+        {
+          "label": "STAR-0215 Dose 5",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be randomized to receive STAR-0215 or placebo.",
+          "interventionNames": [
+            "Drug: STAR-0215 (IV)",
+            "Drug: Placebo (IV)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "STAR-0215 (SC)",
+          "description": "STAR-0215 will be administered as an SC bolus injection.",
+          "armGroupLabels": [
+            "STAR-0215 Dose 1",
+            "STAR-0215 Dose 2",
+            "STAR-0215 Dose 3",
+            "STAR-0215 Dose 4"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (SC)",
+          "description": "Placebo will be administered as an SC bolus injection.",
+          "armGroupLabels": [
+            "STAR-0215 Dose 1",
+            "STAR-0215 Dose 2",
+            "STAR-0215 Dose 3",
+            "STAR-0215 Dose 4"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "STAR-0215 (IV)",
+          "description": "STAR-0215 will be administered as an IV bolus injection.",
+          "armGroupLabels": [
+            "STAR-0215 Dose 5"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (IV)",
+          "description": "Placebo will be administered as an IV bolus injection.",
+          "armGroupLabels": [
+            "STAR-0215 Dose 5"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants Experiencing Treatment-emergent Adverse Events",
+          "timeFrame": "Day 1 through Day 224"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Serum Concentration of STAR-0215",
+          "description": "Blood samples will be collected to measure the serum concentration of STAR-0215 before and after study drug administration.",
+          "timeFrame": "Day 1 (pre-dose, up to 2 hours before study drug administration, and 2, 6, 12, 24, 48, 72, 96, and 120 hours post-dose); Days 14, 28, 56, 84, 112, 140, 168, 196, and 224"
+        },
+        {
+          "measure": "Plasma Levels of Cleaved High-molecular-weight Kininogen",
+          "description": "Blood samples will be collected to measure the plasma levels of cleaved high-molecular-weight kininogen (a measure of plasma kallikrein activity).",
+          "timeFrame": "Day 1 (pre-dose, up to 2 hours before study drug administration, and 2, 6, 12, 24, 48, 72, 96, and 120 hours post-dose); Days 14, 28, 56, 84, 112, 140, 168, 196, and 224"
+        },
+        {
+          "measure": "Number of Participants with Anti-drug Antibodies to STAR-0215",
+          "description": "Blood samples will be collected to assess the formation of STAR-0215 anti-drug antibodies in serum before and after study drug administration.",
+          "timeFrame": "Day 1 (pre-dose, up to 2 hours before study drug administration); Days 28, 56, 84, 112, 140, 168, 196, and 224"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Good health as determined by the Investigator based upon a medical evaluation, including medical history, physical examination, vital signs, 12-lead electrocardiogram (ECG), and clinical laboratory measurements. Assessments may be repeated per Investigator discretion.\n* Body mass index of 18 to 35 kilograms (kg)/square meter with a weight of at least 60 kg for men and at least 50 kg for women, with a maximum weight of 130 kg for any participant.\n* Female participants capable of becoming pregnant must have a negative serum pregnancy test at Screening, not be nursing, and must agree to use an effective method of contraception and abstain from egg donation or fertility treatment.\n* Male participants must agree to use an effective method of contraception and abstain from sperm donation.\n\nExclusion Criteria:\n\n* Prior or ongoing medical condition (for example, gastrointestinal, renal, hepatic, dermatological, neurological or psychiatric, cardiovascular, respiratory, or hematological), medical history, physical examination, vital signs, ECG, or clinical laboratory abnormality that, in the Investigator's opinion, could adversely affect the safety of the participant. Assessments may be repeated once prior to dosing as needed per Investigator discretion.\n* Known sensitivity to the ingredients in STAR-0215.\n* Regular use of prescription or non-prescription drugs unless Investigator believes the medication(s) will not interfere with the study or compromise participant safety.\n* Participation in a recent clinical study involving receipt of an investigational product within 30 days prior to the first dose of study drug or exposure to more than 4 investigational products within 12 months prior to the first dose of study drug.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Spaulding Clinical Research, LLC",
+          "city": "West Bend",
+          "state": "Wisconsin",
+          "zip": "53095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.42528,
+            "lon": -88.18343
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40158724",
+          "type": "DERIVED",
+          "citation": "Lumry W, Gunsior M, Cohen T, Bernard K, Gustafson P, Chung JK, Morabito C. Safety and pharmacokinetics of long-acting plasma kallikrein inhibitor navenibart (STAR-0215) in healthy adults. Ann Allergy Asthma Immunol. 2025 Jul;135(1):103-111.e2. doi: 10.1016/j.anai.2025.03.016. Epub 2025 Mar 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-16"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054179",
+          "term": "Angioedemas, Hereditary"
+        },
+        {
+          "id": "D000799",
+          "term": "Angioedema"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000081208",
+          "term": "Hereditary Complement Deficiency Diseases"
+        },
+        {
+          "id": "D000081207",
+          "term": "Primary Immunodeficiency Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D014581",
+          "term": "Urticaria"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

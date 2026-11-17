@@ -1,0 +1,1168 @@
+{
+  "integrated_id": "systemic:sys_87e10296919f",
+  "asset": "SP-420",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=SP-420",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05693909",
+            "orgStudyIdInfo": {
+              "id": "P-SP420-THAL-01"
+            },
+            "organization": {
+              "fullName": "Pharmacosmos A/S",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Trial Testing SP-420 in Subjects With Transfusion-dependent \u03b2-thalassemia or Low-risk Myelodysplastic Syndromes",
+            "officialTitle": "An Open-label, Dose-escalation, Dose-finding, and Proof-of-concept Trial of SP-420 in Subjects With Transfusion-dependent \u03b2-thalassemia or Low-risk Myelodysplastic Syndromes"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-09-04",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-12-22",
+            "studyFirstSubmitQcDate": "2023-01-20",
+            "studyFirstPostDateStruct": {
+              "date": "2023-01-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-09-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-09-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Pharmacosmos A/S",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "ICON plc",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to learn about SP-420 ability to remove iron from organs in subjects with transfusion-dependent \u03b2-thalassemia or transfusion-dependent low-risk myelodysplastic syndrome.\n\nThe main questions it aims to answer are:\n\n* How efficient is SP-420 in cleaning iron from the liver?\n* How is the safety and tolerability of ascending doses of SP-420?\n\nParticipants will:\n\n* Take medication three times weekly\n* Attend up to 20 site visits\n* Undergo MRI scans"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta Thalassemia Major Anemia",
+              "Myelodysplastic Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 90,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1a-1b",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Cohort 2a-2b",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Cohort 3a-3b",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "1c-1d",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "2c-2d",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "3c-3d",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 for 48 weeks",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SP-420",
+                "description": "Capsules for oral intake",
+                "armGroupLabels": [
+                  "1c-1d",
+                  "2c-2d",
+                  "3c-3d",
+                  "Cohort 1a-1b",
+                  "Cohort 2a-2b",
+                  "Cohort 3a-3b"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To establish dose-response relationship of SP-420 for 24 weeks in the treatment of subjects with transfusion-dependent \u03b2-thalassemia",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "To assess the safety and tolerability of ascending doses of SP-420 after 12 weeks treatment of subjects with transfusion-dependent low-risk myelodysplastic syndrome",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To assess the efficacy of SP-420 in clearing iron from the liver after 24 weeks treatment of subjects with transfusion-dependent \u03b2-thalassemia",
+                "description": "Change in liver iron concentration (LIC) measured by R2-magnetic resonance imaging (MRI) from baseline to week 24",
+                "timeFrame": "24 weeks"
+              },
+              {
+                "measure": "To assess the efficacy of SP-420 in clearing iron from the liver after 12 and 48 weeks treatment of subjects with transfusion-dependent \u03b2-thalassemia",
+                "description": "Change in LIC measured by R2-MRI from baseline to week 12 and week 48",
+                "timeFrame": "12 and 48 weeks"
+              },
+              {
+                "measure": "To assess the efficacy of SP-420 on serum (s-) ferritin",
+                "description": "Change in s-ferritin from baseline to weeks 1, 2, 3, 4, 6, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, and 48",
+                "timeFrame": "up to 48 weeks"
+              },
+              {
+                "measure": "To assess the safety and tolerability of ascending doses of SP-420",
+                "description": "Type and incidence of adverse events (AEs)",
+                "timeFrame": "48 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Thalassemia cohorts:\n\nInclusion criteria:\n\n* Women and men aged 18 years or older\n* Transfusion-dependent \u03b2-thalassemia including HbE/\u03b2-thalassemia requiring iron chelation therapy (\u03b2-thalassemia with mutation and/or multiplication of \u03b1-globin is allowed)\n* On a stable dose of iron chelation for at least 4 weeks prior to screening\n* Weight \u2265 35kg at screening\n* Transfusion iron overload\n* Treated and followed for at least the past 6 months in a specialized centre\n\nExclusion criteria:\n\n* \u03b2-thalassemia with the structural Hb variants HbS and HbC\n* Current MDS\n* Current biliary disorder\n* Historic or ongoing clinically significant kidney disease\n* Unable to undergo trial assessments including MRI e.g. due to claustrophobia in MRI scanner\n* Pregnant or nursing women\n* Men who do not agree to practice effective barrier contraception during the entire period\n\nMyelodysplastic Syndromes Cohorts:\n\nInclusion criteria:\n\n* Women and men aged 18 years or older\n* Very low, low, or intermediate risk Myelodysplastic Syndrome according to IPSS-R\n* Weight \u2265 35kg at screening\n* Transfusion iron overload\n* Treated and followed for at least the past 6 months at medical facilities experienced with MDS\n\nExclusion criteria:\n\n* Therapy-related MDS or MDS with a known bone marrow fibrosis\n* Diagnosis of decompensated liver cirrhosis\n* Clinically significant kidney disease, either historic or ongoing\n* Uncontrolled ischemic heart disease or uncontrolled arrythmia\n* Uncontrolled hypertension\n* Uncontrolled dyslipidaemia\n* Uncontrolled Diabetes\n* Major surgery within 8 weeks prior to screening\n* Pregnant or nursing women\n* Men who do not agree to practice effective barrier contraception during the entire period",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Pharmacosmos Clinical and non-clinical Department",
+                "role": "CONTACT",
+                "phone": "+45 5948 5959",
+                "email": "info@pharmacosmos.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Pharmacosmos Clinical and non-clinical Department",
+                "affiliation": "Pharmacosmos A/S",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Pharmacosmos Investigational Site",
+                "status": "RECRUITING",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000624987",
+                "term": "SP-420"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04741542",
+            "orgStudyIdInfo": {
+              "id": "CTMS 20-0138"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "HSC20210039H",
+                "type": "OTHER",
+                "domain": "UT Health Science Center San Antonio"
+              }
+            ],
+            "organization": {
+              "fullName": "The University of Texas Health Science Center at San Antonio",
+              "class": "OTHER"
+            },
+            "briefTitle": "Safety of SP-420 in the Treatment of Transfusional Iron Overload",
+            "officialTitle": "Phase 1, Open-Label, Dose Escalation Study to Assess the Safety of SP-420 in the Treatment of Transfusional Iron Overload"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-12",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Study is on hold by FDA in the US.",
+            "startDateStruct": {
+              "date": "2021-03-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-01-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-01-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-01-19",
+            "studyFirstSubmitQcDate": "2021-02-02",
+            "studyFirstPostDateStruct": {
+              "date": "2021-02-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-12-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-12-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "The University of Texas Health Science Center at San Antonio",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Abfero Pharmaceuticals, Inc",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study enrolls patients with myelodysplastic syndrome (MDS) and myelofibrosis (MFS), with transfusional iron overload and treats them with the investigational iron chelator, SP-420. SP-420 may be better tolerated and safer than commercially available iron chelators. Iron chelation therapy (ICT) has been shown to improve outcomes in iron overload, but adherence is poor due to problems related to ease of administration, tolerability, and safety."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Iron Overload"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 2,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group A",
+                "type": "EXPERIMENTAL",
+                "description": "Study subjects will receive a 14mg/kg starting dose of SP-420 three times a week",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Group B",
+                "type": "EXPERIMENTAL",
+                "description": "Study subjects will receive a 28mg/kg starting dose of SP-420 three times a week",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Group C",
+                "type": "EXPERIMENTAL",
+                "description": "Study subjects will receive a 42mg/kg starting dose of SP-420 three times a week",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Group D",
+                "type": "EXPERIMENTAL",
+                "description": "Study subjects will receive a 56mg/kg starting dose of SP-420 three times a week",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SP-420",
+                "description": "This study aims to establish the safety of SP-420 administered orally three times per week (TIW).",
+                "armGroupLabels": [
+                  "Group A",
+                  "Group B",
+                  "Group C",
+                  "Group D"
+                ],
+                "otherNames": [
+                  "(4S)-4,5-dihydro-2-[2-hydroxy-4-[2-(2-methoxyethoxy)ethoxy]phenyl]-4-methyl-4-thiazolecarboxylic acid"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of adverse events",
+                "description": "Count of adverse events induced by SP-420",
+                "timeFrame": "28 Days"
+              },
+              {
+                "measure": "Completion at original dose",
+                "description": "Number of subjects that completed the study at the original starting dose of that group",
+                "timeFrame": "28 Days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u226518\n2. Diagnosis of MDS or MF with transfusional iron overload\n3. Patients with MDS, will include only those with MDS Revised international prognostic scoring system (IPSS-R) risk group of intermediate, high, or very high.\n4. Patients with MF, will include only those with Dynamic International Prognostic Scoring System-Plus (DIPSS=Plus) risk category of intermediate-1, intermediate-2, and high risk.\n5. Patients with sickle cell disease and transfusional iron overload\n6. Not appropriate for other iron chelation therapy, per physician\n7. Received 10 or more units of packed red blood cells in the preceding 24 months and remains red cell transfusion dependent\n8. ECOG \u2264 3\n9. ALT \u2264 3 times the upper limit of the normal range\n10. Estimate glomerular filtration rate calculated using Cockroft Gault of \u2265 60 mL/min/1.73m2\n11. Serum ferritin \u22651000 ng/ml\n12. Willing to comply with all study procedures and be available for the duration of the study\n13. Able to take oral medication and be willing to adhere to study medication for 28 days\n14. Female patient must be post-menopausal (no menses for \\> 12 consecutive months) or surgically sterile (i.e., bilateral oophorectomy, hysterectomy, or tubal sterilization; must agree to completely abstain for heterosexual intercourse; or, if sexually active, must agree to use 1 of the following methods for birth control from the date she signs the consent form until 30 days after final dose of the study drug.\n\n    * Progesterone implant\n    * Intrauterine device\n    * Combination of 2 highly effective birth control methods (e.g., diaphragm/or cervical cap with spermicide plus a condom, hormonal contraception plus a barrier method, partner with vasectomy conducted \\>60 days before screening visit plus a hormone or barrier method\n15. Male patients must agree to use 1 of the following methods for birth control from the date he signs the consent form until 30 days after final dose of the study drug: be surgically sterile by vasectomy conducted \\> 60 days before screening visit plus use a barrier method, or, must agree to completely abstain from heterosexual intercourse, or must agree to use a combination of 2 highly effective birth control methods (e.g., diaphragm/or cervical cap with spermicide plus a condom, hormonal contraception plus a barrier method), or have a post-menopausal partner plus barrier method.\n\nExclusion Criteria:\n\n1. History of kidney disease including the renal Fanconi syndrome\n2. Proteinuria on urine dipstick greater than trace positive\n3. Pregnant, intending to become pregnant during the study, or breastfeeding\n4. Receiving another investigational drug within 30 days or 3 half-lives of the discontinued investigational agent, whichever is greater, of signing consent\n5. History of significant hepatic impairment, defined by Child-Pugh class C\n6. Active hepatitis B or C disease, evidenced by positive viral PCR\n7. Symptomatic heart failure\n8. Receiving active cytotoxic chemotherapy or radiation therapy for a second malignancy (hormonal therapy or topical therapy for squamous cell/basal cell cutaneous tumors are allowed). Treatment of the underlying hematologic malignancy with azacytidine, decitabine, venetoclax, lenalidomide, or ruxolitinib is permitted. Treatment with the supportive care agents luspatercept or erythropoietin agonists is permitted.\n9. Concurrent treatment with Exjade/Jadenu (deferasirox), Desferal (deferoxamine), or Ferriprox (deferiprone) are not permitted. Patients are allowed to stop these chelators and participate in this trial 14 days after discontinuation of the other chelator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Supreet Kaur, MD",
+                "affiliation": "The University of Texas Health Science Center at San Antonio",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Mays Cancer Center, UT Health San Antonio",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D019190",
+                "term": "Iron Overload"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019189",
+                "term": "Iron Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000624987",
+                "term": "SP-420"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02274233",
+            "orgStudyIdInfo": {
+              "id": "SP-420-702"
+            },
+            "organization": {
+              "fullName": "Sideris Pharmaceuticals",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Pharmacokinetic Study of Escalating Doses of SP-420, an Iron Chelator, in Patients With \u03b2-Thalassemia",
+            "officialTitle": "Multicenter, Open-label, Dose-escalation Study of SP-420 in Subjects With Transfusion-dependent \u03b2-Thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2015-09",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Changes in renal function parameters.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-10"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2015-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2015-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2014-10-21",
+            "studyFirstSubmitQcDate": "2014-10-22",
+            "studyFirstPostDateStruct": {
+              "date": "2014-10-24",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2015-09-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2015-09-29",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Sideris Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to assess safety and amount of the study drug in the blood after increasing doses of SP-420. The study will be conducted in patients with \u03b2-thalassemia."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Iron Overload",
+              "Beta-Thalassemia"
+            ],
+            "keywords": [
+              "Chelation",
+              "Iron Overload",
+              "Thalassemia",
+              "Transfusion",
+              "Iron Chelation"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "1.5 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "1.5 mg/kg SP-420 once daily for 14 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "3 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "3 mg/kg SP-420 once daily for 14 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "6 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "6 mg/kg SP-420 once daily for 14 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "12 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "12 mg/kg SP-420 once daily for 14 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "24 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "24 mg/kg SP-420 once daily for 28 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "9 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "9 mg/kg SP-420 twice daily for 28 days",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SP-420",
+                "armGroupLabels": [
+                  "1.5 mg/kg",
+                  "12 mg/kg",
+                  "24 mg/kg",
+                  "3 mg/kg",
+                  "6 mg/kg",
+                  "9 mg/kg"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Adverse Events",
+                "timeFrame": "Up to 35 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Peak Plasma Concentration (Cmax) of SP-420",
+                "timeFrame": "Day 7"
+              },
+              {
+                "measure": "Area under the plasma concentration versus time curve (AUC) of SP-420",
+                "timeFrame": "Day 7"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject has iron-overload secondary to \u03b2-thalassemia requiring chronic red blood cell transfusions and iron chelation therapy\n* Subject weighs \u226535 kg\n* Subject is willing to discontinue current iron chelation therapy at least 7 days prior to the first dose of SP-420 and for the duration of the study\n* Serum ferritin \u2265700 ng/mL and iron saturation \u226570% within 3 weeks before Baseline (Day 1)\n* Cardiac T2\\* score \\>20 msec within 6 months before Baseline (Day 1)\n* Willing to use contraception during the study\n\nExclusion Criteria:\n\n* Pregnant or breast-feeding\n* Serum creatinine greater than the upper limit of normal\n* Platelet count \\<100 \u00d7 10\\^9/L\n* Use of another investigational drug within the last 30 days\n* Significant cardiac, renal, hepatic dysfunction or other clinically significant conditions that, in the opinion of the Investigator, would exclude the subject",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Sideris Pharmaceuticals, Inc. Sideris Pharmaceuticals, Inc.",
+                "affiliation": "Sideris Pharmaceuticals, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5G 2N2",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Beirut",
+                "country": "Lebanon",
+                "geoPoint": {
+                  "lat": 33.89332,
+                  "lon": 35.50157
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Bangkok",
+                "zip": "10700",
+                "country": "Thailand",
+                "geoPoint": {
+                  "lat": 13.75398,
+                  "lon": 100.50144
+                }
+              },
+              {
+                "facility": "Sideris Investigative Site",
+                "city": "Izmir",
+                "zip": "35100",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 38.41273,
+                  "lon": 27.13838
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D019190",
+                "term": "Iron Overload"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019189",
+                "term": "Iron Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000624987",
+                "term": "SP-420"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03801889",
+            "orgStudyIdInfo": {
+              "id": "SP-420-705"
+            },
+            "organization": {
+              "fullName": "Abfero Pharmaceuticals, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "SP-420 in Subjects With Transfusion-dependent Beta-Thalassemia or Other Rare Anemias",
+            "officialTitle": "Multicenter, Open-label, 52 Week, Dose-escalation Study of SP 420 in Subjects With Transfusion-dependent Beta-Thalassemia or Other Rare Anemias"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-09",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Protocol suspended prior to patient enrollment",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-08",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-09",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2023-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-01-08",
+            "studyFirstSubmitQcDate": "2019-01-10",
+            "studyFirstPostDateStruct": {
+              "date": "2019-01-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-09-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-10-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abfero Pharmaceuticals, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to test the safety and tolerability of SP-420 and it's efficacy in terms of lowering iron in subjects with Beta-thalassemia or other rare anemias who need regular blood transfusions."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Iron Overload",
+              "Beta-Thalassemia"
+            ],
+            "keywords": [
+              "chelator"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "This is a multi-center, open-label, dose-escalation study designed to evaluate the safety, tolerability, and iron clearing efficacy of SP 420 administered three-times per week in subjects with transfusion-dependent beta-thalassemia or other rare anemias. Approximately 24 subjects are to be enrolled in 3 cohorts (doses of 28 mg/kg, 56 mg/kg and 84 mg/kg) of approximately 8 subjects each. Based upon the results from lower dose cohorts, if needed the size of latter cohorts may be increased to improve the power of the study to detect efficacy to approximately 74 subjects in total.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 initially at 28 mg/kg",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "SP -20 initially at 56 mg/kg",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "SP-420 initially at 84 mg/kg",
+                "interventionNames": [
+                  "Drug: SP-420"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SP-420",
+                "description": "Self-administered by mouth",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence of treatment-emergent Adverse Events (AEs)",
+                "timeFrame": "Week 24"
+              },
+              {
+                "measure": "The incidence of treatment-emergent Adverse Events (AEs)",
+                "timeFrame": "Week 52"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in liver iron concentration (LIC) on R2-MRI from baseline",
+                "timeFrame": "Week 24"
+              },
+              {
+                "measure": "Change in liver iron concentration (LIC) on R2-MRI from baseline",
+                "timeFrame": "Week 52"
+              },
+              {
+                "measure": "Change in cardiac iron content (CIC) on T2*-MRI from baseline",
+                "timeFrame": "Week 24"
+              },
+              {
+                "measure": "Change in cardiac iron content (CIC) on T2*-MRI from baseline",
+                "timeFrame": "Week 52"
+              },
+              {
+                "measure": "Total iron removed by chelator (in mg) from baseline",
+                "timeFrame": "Week 24"
+              },
+              {
+                "measure": "Total iron removed by chelator (in mg) from baseline",
+                "timeFrame": "Week 52"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 18 years old\n* Iron-overload secondary to \u03b2-thalassemia (homozygote or compound heterozygote) or other rare anemias (e.g., aplastic anemia, pure red-cell dysplasia ) requiring chronic RBC transfusions and iron chelation therapy\n* On a stable dose of iron chelation for at least 4 weeks prior to screening visit\n* Weight \u226535 kg at screening\n* Willing to discontinue current iron chelation therapy 7 days (\u00b1 3 days) prior to the first dose of SP-420 and for the duration of the current study\n* LIC \u22655 and \u226425 mg/g dry weight on the R2-MRI obtained within 2 weeks prior to the baseline visit\n* Cardiac T2\\* score \\> 12 msec obtained on the MRI obtained within 2 weeks prior to the baseline visit\n\nExclusion Criteria:\n\n* Pregnant or breast-feeding\n* Current malignancy with the exceptions of localized basal cell or squamous cell skin cancer or localized prostate cancer or is receiving immunotherapy, chemotherapy or radiation therapy for a malignancy\n* Current myelodysplastic syndrome\n* Alanine aminotransferase (ALT) \\>4 times the upper limit of normal, decompensated cirrhosis, or ascites at screening\n* Past history of clinically significant kidney disease (per the Principal Investigator)\n* Serum creatinine greater than the upper limit of normal during screening\n* Urine protein to creatinine ratio \\> 0.5 mg/mg during screening\n* Ongoing symptoms of cardiac dysfunction or failure\n* Ongoing symptoms of neuropathy, including peripheral sensory neuropathy, peripheral motor neuropathy, or paresthesia at screening\n* Received another investigational drug within 30 days or investigational antibody within 90 days of Day 1 of the study\n* Other condition that, in the opinion of the PI, would interfere with the conduct of the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Ali Taher, MD, PhD",
+                "affiliation": "American University of Beirut Medical Center",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Toronto- University Health Network",
+                "city": "Toronto",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "American University of Beirut Medical Center",
+                "city": "Beirut",
+                "country": "Lebanon",
+                "geoPoint": {
+                  "lat": 33.89332,
+                  "lon": 35.50157
+                }
+              },
+              {
+                "facility": "Siriraj Hospital",
+                "city": "Bangkok",
+                "country": "Thailand",
+                "geoPoint": {
+                  "lat": 13.75398,
+                  "lon": 100.50144
+                }
+              },
+              {
+                "facility": "Ege University Hospital",
+                "city": "Izmir",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 38.41273,
+                  "lon": 27.13838
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D019190",
+                "term": "Iron Overload"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019189",
+                "term": "Iron Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000624987",
+                "term": "SP-420"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

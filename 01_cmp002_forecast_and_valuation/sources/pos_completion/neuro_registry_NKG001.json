@@ -1,0 +1,257 @@
+{
+  "asset": "NKG001",
+  "query": "NKG001",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=NKG001&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07617779",
+            "orgStudyIdInfo": {
+              "id": "DJYY-NKG001-\u216001"
+            },
+            "organization": {
+              "fullName": "Nikegen Pharmaceutical (Hangzhou) Company Limited",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Safety and Preliminary Efficacy of NKG001 in Pediatric Patients With Type 1 or Type 2 Spinal Muscular Atrophy",
+            "officialTitle": "A Single-Center, Open-Label, Single-Arm, Non-Randomized, Single-Dose, Dose-Escalation Investigator-Initiated Trial to Evaluate the Safety, Tolerability, and Preliminary Efficacy of NKG001 Injection in Patients With Type 1 or Type 2 Spinal Muscular Atrophy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-04-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-04-23",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-04-23",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-05-15",
+            "studyFirstSubmitQcDate": "2026-05-24",
+            "studyFirstPostDateStruct": {
+              "date": "2026-06-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-01",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Nikegen Pharmaceutical (Hangzhou) Company Limited",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Xiangya Hospital of Central South University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a single-center, open-label, single-arm, non-randomized, single-dose, dose-escalation investigator-initiated trial (IIT) designed to evaluate the safety, tolerability, and preliminary efficacy of NKG001 Injection administered via different dosing regimens (intravenous \\[IV\\] alone or intravenous combined with intrathecal \\[IV+IT\\]) in subjects with Type 1 or Type 2 spinal muscular atrophy (SMA).\n\nA total of 13-21 SMA subjects aged \u226460 months are planned to be enrolled. Based on age at enrollment, subjects will be stratified into two age cohorts for independent evaluation:\n\nAge Cohort 1: subjects aged \\<24 months at dosing; Age Cohort 2: subjects aged \u226524 months and \u226460 months at dosing.\n\nEligible subjects must carry 2 or 3 copies of the SMN2 gene.\n\nNote: Subjects with 3 SMN2 copies must be able to sit independently but unable to walk independently.\n\nFour dose cohorts are planned as follows:\n\nS1: 6.0 \u00d7 10\\^13 vg/kg, IV S2: 1.2 \u00d7 10\\^14 vg/kg, IV S3: 6.0 \u00d7 10\\^13 vg/kg, IV + 6 \u00d7 10\\^13 vg/person, IT S4: 6.0 \u00d7 10\\^13 vg/kg, IV + 1.2 \u00d7 10\\^14 vg/person, IT\n\nSubjects in the S1 cohort (2 SMN2 copies and aged \\<24 months at dosing) and the S2 cohort (2 or 3 SMN2 copies and aged \u226460 months at dosing) will receive a single intravenous administration of NKG001 Injection.\n\nSubjects in the S3 and S4 cohorts will receive a single administration of NKG001 Injection via combined intravenous and intrathecal routes. In each of these two cohorts, the first enrolled subject must have 2 SMN2 copies and be aged \\<24 months at dosing, while the remaining subjects may have either 2 or 3 SMN2 copies and be aged \u226460 months at dosing."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy (SMA)"
+            ],
+            "keywords": [
+              "NKG001",
+              "Nikegen",
+              "SMA"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 21,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NKG001 administration group",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: NKG001"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "NKG001",
+                "description": "NKG001 Injection",
+                "armGroupLabels": [
+                  "NKG001 administration group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants Who Experienced Adverse Events (AEs) and Serious Adverse Events (SAEs) During the Study.",
+                "description": "Assess the number of AEs and SAEs as characterized by Common Terminology Criteria for Adverse Events (CTCAE) v5.0.",
+                "timeFrame": "Up to 24 months"
+              },
+              {
+                "measure": "Incidence of Dose-Limiting Toxicities (DLTs) Within 30 Days After Administration.",
+                "description": "DLTs are defined according to the NCI Common Terminology Criteria for Adverse Events (CTCAE) v5.0.",
+                "timeFrame": "Up to 30 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change From Baseline in Children's Hospital of Philadelphia Infant Test of Neuromuscular Disorders (CHOP-INTEND) Score (Participants aged <24 months at dosing)",
+                "description": "Assess 16 types of muscle movements, each given a score from zero (the person can't complete the movement) to 4 (the person can complete the movement on their own, without assistance) to produce a score of 0 to 64.",
+                "timeFrame": "UP to 24 months"
+              },
+              {
+                "measure": "Change From Baseline in Hammersmith Infant Neurological Examination (HINE) Section 2 (Participants aged <24 months at dosing)",
+                "description": "HINE Section 2, the motor milestones portion of the HINE, includes 8 items. Total HINE score is the sum of points from each item and can range from 0 to 26. A positive change from baseline indicates a better outcome.",
+                "timeFrame": "Baseline, Month 6, Month 12, Month 18, Month 24"
+              },
+              {
+                "measure": "Proportion of Participants Who Survival at 14 Month of Age (Participants aged <24 months at dosing).",
+                "description": "Survival is defined by the avoidance of the combined endpoint of either (a) death or (b) permanent ventilation, which is defined by tracheostomy or by the requirement of \u2265 16 hours of respiratory assistance per day (via non-invasive ventilatory support) for \u2265 14 consecutive days in the absence of an acute reversible illness, excluding perioperative ventilation.",
+                "timeFrame": "Up to 14 month of age"
+              },
+              {
+                "measure": "Proportion of Participants Maintaining Growth Without Non-oral Nutrition at 18 Month of Age (Participants aged <24 months at dosing).",
+                "description": "The ability to maintain growth without non-oral nutrition is defined as the subject not requiring nutrition via nasogastric tube, gastric tube, enteral, parenteral, or intravenous routes, while maintaining body weight (not less than 2 standard deviations below the mean body weight for children of the same age and sex).",
+                "timeFrame": "Up to 18 month of age"
+              },
+              {
+                "measure": "Proportion of Ventilator-independent Participants at 18 Month of Age (Participants aged <24 months at dosing).",
+                "description": "Independence from ventilator support is defined as no requirement for daily ventilator support/use in the absence of acute reversible disease, excluding perioperative ventilation.",
+                "timeFrame": "Up to 18 month of age"
+              },
+              {
+                "measure": "Change From Baseline in Revised Upper Limb Module (RULM) Total Score (Participants aged \u226524 months and \u226460 months at dosing).",
+                "description": "The RULM is a specific assessment of motor performance in the upper limbs from childhood through adulthood in ambulatory and non-ambulatory individuals with SMA. The scale consists of 19 scorable items: 18 items scored on 0 (unable) to 2 (full achievement) scale, and one item that is scored from 0 (unable) to 1 (able). Total scores range from 0-37 points. Higher scores reflect higher level of motor ability.",
+                "timeFrame": "Up to 24 months"
+              },
+              {
+                "measure": "Change From Baseline in MFM-32 Score (Participants aged \u226524 months and \u226460 months at dosing).",
+                "description": "The MFM-32 is a generic neuromuscular scale consisting of 32 items. Items belong to one of three different dimensions: Standing and transfers D1; Axial and proximal mobility D2; Distal motor ability D3. Each item is scored on a scale from 0 (cannot perform) to 3 (performs the task completely and normally), higher scores reflect higher level of motor ability.",
+                "timeFrame": "Up to 24 months"
+              },
+              {
+                "measure": "Change From Baseline in Hammersmith Functional Motor Scale-Expanded (HFMSE) Score (All age groups)",
+                "description": "Assess change from baseline in HFMSE score (33 items, 0-66 points).",
+                "timeFrame": "Baseline, Month 6, Month 12, Month 18, Month 24"
+              },
+              {
+                "measure": "Proportion of Participants Who Achieve The World Health Organization (WHO) motor milestones (All age groups).",
+                "description": "WHO motor milestones and performance criteria included sitting without support for at least 10 seconds, Hands-and-knees crawling at least three in a row, standing with assistance for at least 10 seconds, walking with assistance at least five steps, standing alone for at least 10 seconds, and walking alone. Assess proportion of participants achieving any new WHO motor milestone.",
+                "timeFrame": "Baseline, Month 6, Month 12, Month 18, Month 24"
+              },
+              {
+                "measure": "Change From Baseline in CMAP (All age groups)",
+                "description": "Assess motor neuron function via change from baseline in CMAP within 24 months after treatment, assessed per dose cohort independently.",
+                "timeFrame": "Baseline, Month 6, Month 12, Month 18, Month 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\nSubjects who meet all of the following criteria are eligible for enrollment in this study:\n\n1. Subjects aged \u226460 months on the day of dosing, regardless of sex.\n2. Subjects must have a genetically confirmed diagnosis of spinal muscular atrophy (SMA) caused by biallelic SMN1 mutations (deletion or point mutation). SMN2 copy number requirements are as follows:\n\n   * S1 cohort and S2-A cohort: 2 copies of SMN2;\n   * S2-B cohort: 3 copies of SMN2;\n   * S3 and S4 cohorts: 2 or 3 copies of SMN2.\n\nNotes:\n\n1. Subjects in the S1 cohort and S2-A cohort may be enrolled regardless of the presence or absence of clinical symptoms.\n2. Subjects with 3 copies of SMN2 must be able to sit independently but unable to walk independently. Independent sitting is defined according to the WHO Multicentre Growth Reference Study (WHO-MGRS) criteria as maintaining an upright seated position with the head erect for at least 10 seconds without support from the arms or hands.\n3. The subject's legally authorized representative (LAR) must understand the purpose, potential risks, and rights associated with the study; agree to the subject's participation in all study procedures, assessments, and visits; and voluntarily sign the informed consent form (ICF).\n4. During the study period, based on changes in the subject's clinical condition, the subject's LAR must be willing to comply with standard-of-care recommendations provided by the investigator, including nasogastric feeding, non-invasive mechanical ventilation, cough assist devices, and other supportive treatments as needed.\n\nExclusion Criteria\n\nSubjects meeting any of the following criteria will be excluded from participation in the study:\n\n1. Gestational age at birth \\<35 weeks (245 days).\n2. During screening, oxygen saturation \\<96% while awake or asleep without supplemental oxygen or respiratory support.\n3. During screening, subjects with moderate or greater swallowing impairment whose caregivers are unwilling to use alternative feeding methods to oral feeding.\n4. Requirement for invasive ventilation or tracheostomy, or use of non-invasive ventilatory support for an average of \u226512 hours/day during screening.\n5. Positive test results for any of the following: human immunodeficiency virus (HIV) antibody, hepatitis B surface antigen (HBsAg), hepatitis C virus (HCV) antibody, Treponema pallidum antibody, TORCH infection, or Epstein-Barr virus (EBV).\n6. Presence of other severe infections or diseases that may pose unnecessary risk for gene replacement therapy, including but not limited to:\n\n   1. Upper or lower respiratory tract infection requiring medical care or intervention (including systemic therapy, hospitalization, respiratory support, or supplemental oxygen) within 4 weeks prior to dosing, or severe non-pulmonary/non-respiratory infection;\n   2. Known epilepsy;\n   3. Diabetes mellitus;\n   4. Idiopathic hypocalcemia;\n   5. Severe cardiovascular or cerebrovascular disease;\n   6. Severe hepatic or renal impairment.\n7. Clinically significant abnormal laboratory findings, including:\n\n   * GGT, ALT, total bilirubin, or AST \\>3.0 \u00d7 upper limit of normal (ULN) (isolated bilirubin elevation attributable to physiologic neonatal jaundice is not exclusionary);\n   * Serum creatinine above the normal range;\n   * Hemoglobin \\<80 g/L or \\>180 g/L;\n   * White blood cell count \\<4.3 \u00d7 10\\^9/L or \\>14.2 \u00d7 10\\^9/L;\n   * Platelet count \\<183 \u00d7 10\\^9/L or \\>614 \u00d7 10\\^9/L;\n   * Prothrombin time (PT) prolonged by \\>1.0-1.5 \u00d7 ULN.\n8. Anti-AAV9 binding antibody titer \\>1:50 (measured by ELISA) or anti-AAV9 neutralizing antibody titer \\>1:200 (cell-based assay). Subjects exceeding these thresholds may undergo one repeat test during screening; subjects meeting eligibility criteria upon retesting may continue screening.\n9. Known hypersensitivity or allergic predisposition to prednisolone acetate, other glucocorticoids, or any excipients of the investigational product.\n10. Previous or planned treatment with other SMA gene replacement therapies (e.g., Zolgensma) during the study period.\n11. Participation in another clinical trial within 1 month prior to screening, or prior participation in a clinical study that, in the investigator's judgment, may affect subject safety or evaluation of the investigational product, even if completed \\>1 month previously.\n12. Receipt of immunosuppressive therapy within 3 months prior to dosing, or anticipated receipt within 3 months after study initiation, other than protocol-required prophylactic medications. Examples include corticosteroids, cyclosporine, tacrolimus, methotrexate, cyclophosphamide, intravenous immunoglobulin (IVIG), and rituximab.\n13. Current use of, or inability to discontinue during the study, immunomodulatory agents (e.g., thymosin, interferons), medications for myopathy, neuritis, or diabetes (e.g., immunosuppressants, glucocorticoids, insulin), or receipt of plasmapheresis.\n14. Oral treatment with \u03b22-adrenergic agonists within 30 days prior to dosing (except inhaled salbutamol/albuterol).\n15. Anticipated need for major surgery during the treatment period.\n16. Prior to dosing, incomplete or delayed vaccinations according to the national immunization schedule for the subject's age that, in the judgment of the investigator and sponsor, may significantly affect subject safety.\n17. Any other condition that, in the investigator's opinion, makes the subject unsuitable for participation in the study.\n\n    Additional Exclusion Criteria for S3 and S4 Cohorts\n\n    Subjects meeting any of the following criteria will be excluded from enrollment into the S3 and S4 dose cohorts:\n18. Presence of cerebrospinal fluid circulation disorders or related diseases.\n19. Contraindications to lumbar puncture or intrathecal administration, including but not limited to infection at the injection site, signs or symptoms of increased intracranial pressure, implanted cerebrospinal fluid drainage devices, or implanted central nervous system catheters.\n20. Severe scoliosis (Cobb angle \u226550\u00b0), severe joint contracture deformities that may interfere with motor function assessments, or planned spinal corrective surgery during the observation period.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "60 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Xiangya Hospital of Central South University",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "410008",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

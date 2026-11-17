@@ -1,0 +1,328 @@
+{
+  "integrated_id": "systemic:sys_efdd53f61091",
+  "asset": "Inhaled SNSP113",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=SNSP113",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03309358",
+            "orgStudyIdInfo": {
+              "id": "SNSP113-17-101"
+            },
+            "organization": {
+              "fullName": "Synspira, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Safety and Tolerability of Inhaled SNSP113 in Healthy Subjects and Subjects With Stable Cystic Fibrosis",
+            "officialTitle": "A Multiple-Site, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose (SAD) Study to Assess the Safety and Tolerability of Inhaled SNSP113 in Healthy Male Subjects (Part A) and Subjects With Stable Cystic Fibrosis (Part B)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-05",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Successful completion of Part A. Company decision to end early.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-09-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-12-18",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-12-18",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-10-05",
+            "studyFirstSubmitQcDate": "2017-10-12",
+            "studyFirstPostDateStruct": {
+              "date": "2017-10-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-05-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-05-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Synspira, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Although Cystic Fibrosis is a complex genetic disease affecting many organs, lung disease is the primary cause of mortality. The objective of this study is to determine the safety and tolerability of SNSP113 in healthy subjects and subjects with stable cystic fibrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lung Diseases",
+              "Pulmonary Disease",
+              "Cystic Fibrosis",
+              "Cystic Fibrosis Lung",
+              "Cystic Fibrosis Pulmonary Exacerbation",
+              "Cystic Fibrosis With Exacerbation",
+              "Respiratory Tract Disease",
+              "Pulmonary Inflammation",
+              "Multi-antibiotic Resistance",
+              "Antibiotic Resistant Infection",
+              "Lung Infection",
+              "Lung Infection Pseudomonal",
+              "Lung; Infection, Atypical Mycobacterium",
+              "Burkholderia Infections",
+              "Burkholderia Cepacia Infection",
+              "Lung Inflammation"
+            ],
+            "keywords": [
+              "Cystic Fibrosis",
+              "Pulmonary exacerbation",
+              "Pulmonary inflammation",
+              "Respiratory tract disease",
+              "Pulmonary disease",
+              "Biofilms"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "This is a multiple-site, randomized, double-blind, placebo-controlled, single ascending dose (SAD) study to assess the safety and tolerability of inhaled SNSP113 in healthy subjects (Part A) and subjects with stable CF (Part B).",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Inhaled SNSP113",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: Inhaled SNSP113"
+                ]
+              },
+              {
+                "label": "Inhaled Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Inhaled Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Inhaled SNSP113",
+                "description": "A single ascending dose of inhaled SNSP113 will be administered to healthy subjects and subjects with stable cystic fibrosis.",
+                "armGroupLabels": [
+                  "Inhaled SNSP113"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Inhaled Placebo",
+                "description": "A single dose of inhaled placebo control will be administered to healthy subjects and subjects with stable cystic fibrosis.",
+                "armGroupLabels": [
+                  "Inhaled Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of adverse events",
+                "description": "To determine the incidence of treatment related adverse events.",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Spirometry",
+                "description": "To assess change from baseline spirometry.",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Pulse Oximetry",
+                "description": "To assess change in baseline pulse oximetry",
+                "timeFrame": "8 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Observed maximum plasma concentration, taken directly from the individual concentration-time curve (Cmax)",
+                "description": "To characterize the pharmacokinetics of SNSP113",
+                "timeFrame": "Days 1, 2 and 8"
+              },
+              {
+                "measure": "Area under concentration-time curve from time zero extrapolated to infinity (AUC)",
+                "description": "To characterize the pharmacokinetics of SNSP113",
+                "timeFrame": "Days 1, 2 and 8"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPart A\n\n* Healthy male adults \u226518 and \u226450 years of age at screening.\n* Baseline FEV1 80-120% of predicted at Screening.\n* Oxygen saturation of \u2265 96% on room air as determined by pulse oximetry at Screening.\n* Screening laboratory tests within normal limits.\n\nPart B\n\n* Female and Male subjects who are \u226518 years of age and a confirmed diagnosis of CF.\n* FEV1 \\>50% of predicted.\n* Oxygen saturation of \u2265 94% on room air as determined by pulse oximetry at Screening.\n* Stable CF pulmonary disease as judged by the Investigator.\n\nExclusion Criteria:\n\nPart A\n\n* Any history of any form of lung disease or any systemic disease that may affect the lung or pulmonary function.\n* Former regular smoker or has smoked tobacco or cannabis products within the last 30 days.\n* Any history of any form of liver disease, renal disease, cardiac disease, hematologic disease, neurologic disease, atopy or any chronic condition.\n* Participation in one or more healthy subject studies within the prior 3 months.\n\nPart B\n\n* Participation in a clinical trial involving receipt of an investigational product within the 30 days prior to screening.\n* Female subjects who are pregnant (a negative serum pregnancy test must be demonstrated at screening), have a positive pregnancy test, are lactating or who plan to become pregnant within 90 days after dosing.\n* Subjects requiring supplemental oxygen.\n* Hemoptysis of \\>5 mL within 12 weeks of screening.\n* Listed for organ transplantation.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "genderBased": true,
+            "genderDescription": "Healthy Male Subjects, Part A\n\nFemale and Male Subjects with Stable Cystic Fibrosis, Part B",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Maria Theresa Basco, MD, MPH",
+                "affiliation": "Synspira, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Royal Brompton Hospital",
+                "city": "London",
+                "state": "England",
+                "zip": "SW3 6NP",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Celerion",
+                "city": "Belfast",
+                "state": "Northern Ireland",
+                "zip": "BT9 6AD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D011014",
+                "term": "Pneumonia"
+              },
+              {
+                "id": "D007239",
+                "term": "Infections"
+              },
+              {
+                "id": "D009165",
+                "term": "Mycobacterium Infections, Nontuberculous"
+              },
+              {
+                "id": "D019121",
+                "term": "Burkholderia Infections"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D012141",
+                "term": "Respiratory Tract Infections"
+              },
+              {
+                "id": "D009164",
+                "term": "Mycobacterium Infections"
+              },
+              {
+                "id": "D000193",
+                "term": "Actinomycetales Infections"
+              },
+              {
+                "id": "D016908",
+                "term": "Gram-Positive Bacterial Infections"
+              },
+              {
+                "id": "D001424",
+                "term": "Bacterial Infections"
+              },
+              {
+                "id": "D001423",
+                "term": "Bacterial Infections and Mycoses"
+              },
+              {
+                "id": "D016905",
+                "term": "Gram-Negative Bacterial Infections"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

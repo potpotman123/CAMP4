@@ -1,0 +1,779 @@
+{
+  "integrated_id": "systemic:sys_060ccbf6dcc7",
+  "asset": "CRC (A3384)",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=A3384",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02963077",
+            "orgStudyIdInfo": {
+              "id": "A4250-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2013-001175-21",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Ipsen",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety and Pharmakokinetic Study of A4250 Alone or in Combination With A3384",
+            "officialTitle": "A Phase I, Double-Blind Single and Multiple Ascending Dose Study to Assess Safety and Pharmacokinetics of A4250 as Monotherapy, and in Combination With Colonic Release Cholestyramine (A3384) or Commercially Available Cholestyramine (Questran\u2122) in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-07"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2014-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2014-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-11-01",
+            "studyFirstSubmitQcDate": "2016-11-10",
+            "studyFirstPostDateStruct": {
+              "date": "2016-11-15",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-03-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-03-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Albireo",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objectives of the study are to evaluate the safety, tolerability and pharmacokinetics of A4250 after single or multiple oral doses in healthy subjects. In addition, will evaluate A4250 in combination with cholestyramine."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Orphan Cholestatic Liver Diseases",
+              "Primary Biliary Cirrhosis",
+              "Progressive Familial Intrahepatic Cholestasis",
+              "Alagille Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 94,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1 SAD - 0.1 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 0.1 mg of A4250. Sentinel dosing was used (2 sub-cohorts dosed a minimum of 24 h apart).",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 2 SAD - 0.3 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 0.3 mg of A4250.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 3 SAD - 1 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 1 mg A4250.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 4 SAD - 3 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 3 mg A4250.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 5 SAD - 10 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 10 mg A4250.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 1 SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 0.1 mg of A4250 matching placebo. Sentinel dosing was used (2 sub-cohorts dosed a minimum of 24 h apart).",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 2 SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 0.3 mg A4250 matching placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 3 SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 1 mg A4250 matching placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 4 SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 3 mg A4250 matching placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 5 SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 10 mg A4250 matching placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 1 MAD - 1 mg A4250 qd",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 1 mg A4250 qd for 7 days.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 1 MAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 1 mg A4250 matching placebo qd for 7 days.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 2 MAD - 3 mg A4250",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 3 mg A4250 qd for 7 days",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 2 MAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 3 mg A4250 matching placebo qd for 7 days.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 3 MAD - 1.5 mg A4250 b.i.d for 7 days.",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 1.5 mg A4250 b.i.d. for 7 days.",
+                "interventionNames": [
+                  "Drug: A4250"
+                ]
+              },
+              {
+                "label": "Cohort 3 MAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 1.5 A4250 matching placebo b.i.d for 7 days.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 4 MAD - 3 mg A4250 qd + 1 mg Questran b.i.d",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 3 mg A4250 qd + 1 mg Questran b.i.d for 7 days.",
+                "interventionNames": [
+                  "Drug: A4250",
+                  "Drug: Questran"
+                ]
+              },
+              {
+                "label": "Cohort 4 MAD A4250 placebo + 1 mg Questran b.i.d",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Dose: 3 mg A4250 matching placebo + 1 mg Questran b.i.d for 7 days.",
+                "interventionNames": [
+                  "Drug: Questran",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 5 MAD - 3 mg A4250 qd + 1 g CRC b.i.d",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 3 mg A4250 qd + 1 g CRC b.i.d for 7 days.",
+                "interventionNames": [
+                  "Drug: A4250",
+                  "Drug: CRC (A3384)"
+                ]
+              },
+              {
+                "label": "Cohort 5 MAD A4250 placebo + CRC placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 3 mg A4250 matching placebo qd + 1 g CRC placebo b.i.d for 7 days",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 6 MAD - 1 g CRC",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Dose: 1 g CRC b.i.d",
+                "interventionNames": [
+                  "Drug: CRC (A3384)"
+                ]
+              },
+              {
+                "label": "Cohort 6 MAD CRC placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 1 g CRC matching placebo b.i.d.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 7 MAD - 3 mg A4250 qd + 1 g CRC b.i.d",
+                "type": "EXPERIMENTAL",
+                "description": "Dose: 3 mg A4250 qd + 1 g CRC b.i.d",
+                "interventionNames": [
+                  "Drug: A4250",
+                  "Drug: CRC (A3384)"
+                ]
+              },
+              {
+                "label": "Cohort 7 MAD A4250 placebo + CRC placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Dose: 3 mg A4250 matching placebo qd + 1 g CRC matching placebo b.i.d.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "A4250",
+                "armGroupLabels": [
+                  "Cohort 1 MAD - 1 mg A4250 qd",
+                  "Cohort 1 SAD - 0.1 mg A4250",
+                  "Cohort 2 MAD - 3 mg A4250",
+                  "Cohort 2 SAD - 0.3 mg A4250",
+                  "Cohort 3 MAD - 1.5 mg A4250 b.i.d for 7 days.",
+                  "Cohort 3 SAD - 1 mg A4250",
+                  "Cohort 4 MAD - 3 mg A4250 qd + 1 mg Questran b.i.d",
+                  "Cohort 4 SAD - 3 mg A4250",
+                  "Cohort 5 MAD - 3 mg A4250 qd + 1 g CRC b.i.d",
+                  "Cohort 5 SAD - 10 mg A4250",
+                  "Cohort 7 MAD - 3 mg A4250 qd + 1 g CRC b.i.d"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "CRC (A3384)",
+                "armGroupLabels": [
+                  "Cohort 5 MAD - 3 mg A4250 qd + 1 g CRC b.i.d",
+                  "Cohort 6 MAD - 1 g CRC",
+                  "Cohort 7 MAD - 3 mg A4250 qd + 1 g CRC b.i.d"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Questran",
+                "armGroupLabels": [
+                  "Cohort 4 MAD - 3 mg A4250 qd + 1 mg Questran b.i.d",
+                  "Cohort 4 MAD A4250 placebo + 1 mg Questran b.i.d"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "armGroupLabels": [
+                  "Cohort 1 MAD placebo",
+                  "Cohort 1 SAD placebo",
+                  "Cohort 2 MAD placebo",
+                  "Cohort 2 SAD placebo",
+                  "Cohort 3 MAD placebo",
+                  "Cohort 3 SAD placebo",
+                  "Cohort 4 MAD A4250 placebo + 1 mg Questran b.i.d",
+                  "Cohort 4 SAD placebo",
+                  "Cohort 5 MAD A4250 placebo + CRC placebo",
+                  "Cohort 5 SAD placebo",
+                  "Cohort 6 MAD CRC placebo",
+                  "Cohort 7 MAD A4250 placebo + CRC placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Mean (\u00b1 SD) Plasma Pharmacokinetic Concentrations of A4250 Following A Single Oral 10 mg A4250 Dose - Tmax",
+                "timeFrame": "Pharmacokinetic blood samples were taken pre-dose, and post-dose at: 0.5 hour, 1 hour, 1.5 hours, 2 hours, 3 hours, 4 hours, 6 hours, 8 hours, 12 hours and 24 hours"
+              },
+              {
+                "measure": "Mean (\u00b1 SD) Plasma Pharmacokinetic Concentrations of A4250 Following a Single Oral 10 mg A4250 Dose - Cmax",
+                "timeFrame": "Pharmacokinetic blood samples were taken pre-dose, and post-dose at: 0.5 hour, 1 hour, 1.5 hours, 2 hours, 3 hours, 4 hours, 6 hours, 8 hours, 12 hours and 24 hours"
+              },
+              {
+                "measure": "Mean (\u00b1 SD) Plasma Pharmacokinetic Concentrations of A4250 Following a Single Oral 10 mg A4250 Dose - AUC 0-t",
+                "timeFrame": "Pharmacokinetic blood samples were taken pre-dose, and post-dose at: 0.5 hour, 1 hour, 1.5 hours, 2 hours, 3 hours, 4 hours, 6 hours, 8 hours, 12 hours and 24 hours"
+              },
+              {
+                "measure": "Mean (SD) Change in FGF19 from Day 1 Pre-Dose to 4 h Post-Dose",
+                "timeFrame": "Pharmacodynamic blood samples were taken pre-dose and at 4 hours and 24 hours post-dosing, and at follow-up (5-7 days after final dose)."
+              },
+              {
+                "measure": "Mean (SD) Change in FGF19 from Day 1 Pre-Dose to 24 h Post-Dose",
+                "timeFrame": "Pharmacodynamic blood samples were taken pre-dose and at 4 hours and 24 hours post-dosing, and at follow-up (5-7 days after final dose)."
+              },
+              {
+                "measure": "Mean (SD) Change in C4 from Day 1 Pre-Dose to 4 h Post-Dose",
+                "timeFrame": "Pharmacodynamic blood samples were taken pre-dose and at 4 hours and 24 hours post-dosing, and at follow-up (5-7 days after final dose)."
+              },
+              {
+                "measure": "Mean (SD) Change in C4 from Day 1 Pre-Dose to 24 h Post-Dose",
+                "timeFrame": "Pharmacodynamic blood samples were taken pre-dose and at 4 hours and 24 hours post-dosing, and at follow-up (5-7 days after final dose)."
+              },
+              {
+                "measure": "Mean (SD) Changes in Total Bile Acids for A4250 4 h compared to pre-dose",
+                "timeFrame": "Samples were taken pre-dose and post-dose at 4 hours and 24 hours."
+              },
+              {
+                "measure": "Mean (SD) Changes in Total Bile Acids for A4250 24 h compared to pre-dose",
+                "timeFrame": "Samples were taken pre-dose, and post-dose at 4 hours and 24 hours."
+              },
+              {
+                "measure": "Geometric (geometric CV%) Mean for AUC(0-12) on Day 7 for plasma FGF19",
+                "timeFrame": "AUC(0-12) on Day 7 (only for Part II)"
+              },
+              {
+                "measure": "Geometric (geometric CV%) Mean for AUC(0-12) on Day 7 for plasma C4",
+                "timeFrame": "AUC(0-12) on Day 7 (only Part II)"
+              },
+              {
+                "measure": "Geometric (geometric CV%) Mean for AUC(0-12) on Day 7 for plasma Total Bile Acids",
+                "timeFrame": "AUC(0-12) on Day 7 (only Part II)"
+              },
+              {
+                "measure": "Mean (SD) Changes in Faecel Total Bile Acids from Day 1 Pre-Dose on Day 7 at 24 h Post-dose",
+                "timeFrame": "Change from Day 1 Pre-dose to Day 7 at 24 hours Post-dose"
+              },
+              {
+                "measure": "Mean (SD) Change in Faecal Total Bile Acids Excreted (ng) from Day 1 Pre-Dose on Day 7 Post-Dose",
+                "timeFrame": "Change from Day 1 Pre-dose to Day 7 at 24 hours Post-dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Healthy males or non-pregnant, non-lactating healthy females\n2. BMI of 18 to 32 kg/m2 or, if outside the range, considered not clinically significant by the investigator\n3. Willing and able to communicate and participate in the whole study\n4. Provided written informed consent\n5. Agreed to use an adequate method of contraception\n\nExclusion Criteria:\n\n1. Had participated in a clinical research study within the previous 3 months\n2. Were study site employees, or immediate family members of a study site or sponsor employee\n3. Had previously been enrolled in this study\n4. History of any drug or alcohol abuse in the past 2 years\n5. Regular alcohol consumption, in males \\>21 units per week and females \\>14 units per week (1 unit = \u00bd pint beer, 25 mL of 40% spirit or a 125 mL glass of wine)\n6. Current smokers and those who had smoked within the last 12 months. A breath carbon monoxide (CO) reading of greater than 10 ppm at screening\n7. Females of childbearing potential who were pregnant or lactating (female subjects must have had a negative urine pregnancy test at admission)\n8. Did not have suitable veins for multiple venepunctures/cannulation as assessed by the investigator at screening\n9. Clinically significant abnormal biochemistry, haematology or urinalysis as judged by the investigator\n10. Positive drugs of abuse test result\n11. Positive hepatitis B surface antigen (HBsAg), hepatitis C virus antibody (HCV Ab) or human immunodeficiency virus (HIV) results\n12. History of cardiovascular, renal, hepatic, chronic respiratory or GI disease as judged by the investigator\n13. Serious adverse reaction or serious hypersensitivity to any drug or the formulation excipients eg lactose or contraindications to cholestyramine/Questran\n14. Presence or history of clinically significant allergy requiring treatment as per the judgement of the investigator Hayfever was allowed unless it was active\n15. Donation or loss of greater than 400 mL of blood within the previous 3 months\n16. Were taking, or had taken, any prescribed or over-the-counter drug (other than up to 4 g per day paracetamol, hormone replacement therapy \\[HRT\\] and hormonal contraception) or herbal remedies in the 14 days before IMP administration unless they were not considered to have interfered with the objectives of the study, as agreed by the PI and sponsor's medical monitor on a case by case basis\n17. Failed to satisfy the investigator of fitness to participate for any other reason",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Ipsen Medical Director",
+                "affiliation": "Ipsen",
+                "role": "STUDY_DIRECTOR"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              },
+              {
+                "id": "C535933",
+                "term": "Cholestasis, progressive familial intrahepatic 1"
+              },
+              {
+                "id": "D016738",
+                "term": "Alagille Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D006330",
+                "term": "Heart Defects, Congenital"
+              },
+              {
+                "id": "D018376",
+                "term": "Cardiovascular Abnormalities"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002792",
+                "term": "Cholestyramine Resin"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D011137",
+                "term": "Polystyrenes"
+              },
+              {
+                "id": "D010969",
+                "term": "Plastics"
+              },
+              {
+                "id": "D011108",
+                "term": "Polymers"
+              },
+              {
+                "id": "D046911",
+                "term": "Macromolecular Substances"
+              },
+              {
+                "id": "D001697",
+                "term": "Biomedical and Dental Materials"
+              },
+              {
+                "id": "D008420",
+                "term": "Manufactured Materials"
+              },
+              {
+                "id": "D013676",
+                "term": "Technology, Industry, and Agriculture"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02078856",
+            "orgStudyIdInfo": {
+              "id": "A3384-001"
+            },
+            "organization": {
+              "fullName": "Ipsen",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Double-blind, Randomised Study of A3384 in BAM/BAD",
+            "officialTitle": "A Phase II, Placebo-controlled, Multi-centre, Dose-finding Efficacy and Safety Study of a Range of Doses of A3384 in Patients With Bile Acid Malabsorption (BAM)/Bile Acid Diarrhoea (BAD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-03"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2014-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2014-12",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2014-03-03",
+            "studyFirstSubmitQcDate": "2014-03-04",
+            "studyFirstPostDateStruct": {
+              "date": "2014-03-05",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-03-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-03-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Albireo",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this trial is to determine the efficacy and safety of A3384 administered to patients with Bile Acid Malabsorption (BAM)/Bile Acid Diarrhoea (BAD)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Bile Acid Malabsorption"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 19,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "A3384 Low dose",
+                "type": "EXPERIMENTAL",
+                "description": "Administered twice daily for the duration of the study",
+                "interventionNames": [
+                  "Drug: A3384"
+                ]
+              },
+              {
+                "label": "A3384 High dose",
+                "type": "EXPERIMENTAL",
+                "description": "Administered twice daily for the duration of the study",
+                "interventionNames": [
+                  "Drug: A3384"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Administered twice daily for the duration of the study",
+                "interventionNames": [
+                  "Drug: A3384"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "A3384",
+                "armGroupLabels": [
+                  "A3384 High dose",
+                  "A3384 Low dose",
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The primary efficacy objective of this study is to demonstrate the efficacy of different daily doses of A3384 as determined by the # of bowel movements (BMs).",
+                "timeFrame": "2 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Secondary efficacy objectives of this study are to demonstrate the efficacy of different daily doses on other BM parameters and BAM/BAD symptoms",
+                "description": "Change from Baseline in average severity of diarrhoea during the second treatment week (last 7 days of reporting).\n\n* Change from Baseline in average severity of abdominal discomfort during the second treatment week (last 7 days of reporting).\n* Change from Baseline in average severity of abdominal bloating during the second treatment week (last 7 days of reporting).\n* Change from Baseline in average BSFS during the second treatment week (last 7 days of reporting)",
+                "timeFrame": "Baseline and 2 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient meets protocol specified criteria for Bile Acid Malabsorption/Bile Acid Diarrhoea\n* Patient has successfully completed study requirements with no clinically relevant findings for physical exam, ECG, laboratory tests as applicable\n\nExclusion Criteria:\n\n* Medical history or medical condition that would not make the patient a good candidate for the study or limit the patient\u00b4s ability to complete the study\n* Patient needs medications prohibited as specified in the protocol",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Ipsen Medical Director",
+                "affiliation": "Ipsen",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Sahlgrenska Academy",
+                "city": "Gothenburg",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 57.70716,
+                  "lon": 11.96679
+                }
+              },
+              {
+                "facility": "K\u00e4rnsjukhuset",
+                "city": "Sk\u00f6vde",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 58.39118,
+                  "lon": 13.84506
+                }
+              },
+              {
+                "facility": "Hammersmith Hospital, Imperial College Healthcare NHS Trust",
+                "city": "London",
+                "zip": "W12 0HS",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Qualified researchers may request access to patient level data and related study documents including the clinical study report, study protocol with any amendments, annotated case report form, statistical analysis plan, and dataset specifications.\n\nPatient level data will be anonymized and study documents will be redacted to protect the privacy of study participants. Any requests should be submitted to www.vivli.org for assessment by an independent scientific review board.",
+            "timeFrame": "Where applicable, data from eligible studies are available 6 months after the studied medicine and indication have been approved in the US and EU or after the primary manuscript describing the results has been accepted for publication, whichever is later.",
+            "accessCriteria": "Further details on Ipsen's sharing criteria, eligible studies and process for sharing are available here (https://vivli.org/members/ourmembers/).",
+            "url": "https://vivli.org/members/ourmembers/"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

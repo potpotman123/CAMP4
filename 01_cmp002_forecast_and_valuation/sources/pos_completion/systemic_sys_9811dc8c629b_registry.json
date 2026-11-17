@@ -1,0 +1,3225 @@
+{
+  "integrated_id": "systemic:sys_9811dc8c629b",
+  "asset": "PTI-428",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=PTI-428",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02846142",
+            "orgStudyIdInfo": {
+              "id": "PTI-428-02"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Assess the Safety, Tolerability, PK, ECG Effects, Food Effect, and Drug-drug Interaction (DDI) of Hormonal Contraceptives of PTI-428 in Healthy Female Volunteers",
+            "officialTitle": "A Single-center, Randomized, Placebo-Controlled Phase I Study Designed to Assess the Safety, Tolerability, Pharmacokinetics, ECG Effects, Food Effect, and Drug-drug Interaction (DDI) of Hormonal Contraceptives of PTI-428 in Healthy Female Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-06"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-07-18",
+            "studyFirstSubmitQcDate": "2016-07-22",
+            "studyFirstPostDateStruct": {
+              "date": "2016-07-27",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2018-05-22",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-05-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial will consist of three parts: the first two parts will enroll healthy female volunteers into a single ascending dose (SAD) and multiple ascending dose (MAD) treatment groups.\n\nThe SAD treatment group is comprised of at least 3 cohorts where subjects will be randomized to a single dose of either PTI-428 or placebo and will be followed for 7 days post dose. A total of 24 subjects are anticipated to participate in this part of the study.\n\nFollowing the conclusion of the respective SAD level dose groups and after sufficient review of study data and approval by the SRC, a second set of healthy adult female subjects will participate in an assigned MAD treatment group. The MAD treatment group is comprised of 3 cohorts where subjects will be randomized to either PTI-428 or placebo and will be followed for a total of 14 days. The SRC will convene after the completion of each cohort to evaluate safety, PK and other relevant data. The SRC will determine whether to proceed to the next planned dose level, to reduce the dose, or to stop the study. The next cohort may commence only after written SRC approval. A total of 24 subjects are anticipated to participate in this part of the study.\n\nFollowing completion of the SAD and MAD, 40 female healthy volunteers will participate in two treatment periods of the DDI study component: Treatment period A will consist of once daily oral contraceptive (OC) for 28-days (21-day hormonal active + 7 days off).\n\nTreatment period B will randomize subjects to PTI-428 or placebo in combination with once daily OC for 28 days (21-day hormonal active and PTI-428 or placebo + 7 days off). Following completion of the subjects' second treatment period, they will be followed for 7-days after their last dose."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 94,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SAD PTI-428",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "The safety, tolerability, and pharmacokinetic profile of PTI-428 will be evaluated following a single dose of PTI-428. Three cohorts are planned for evaluation where subjects will be randomized to PTI-428 or placebo.The subjects will be followed for 7 days post dose.",
+                "interventionNames": [
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "SAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "The safety, tolerability, and pharmacokinetic profile of PTI-428 will be evaluated following a single dose of PTI-428. Three cohorts are planned for evaluation where subjects will be randomized to PTI-428 or placebo.The subjects will be followed for 7 days post dose.",
+                "interventionNames": [
+                  "Other: Placebo"
+                ]
+              },
+              {
+                "label": "MAD PTI-428",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Following the conclusion of the respective SAD level dose groups and after sufficient review of study data and approval by the SRC, a second set of healthy adult female subjects will participate in an assigned MAD treatment group. The MAD treatment group is comprised of 3 cohorts. Subjects will be randomized to either PTI-428 or placebo. Each dose will be administered once daily (QD) for a total of 7 days. Follow up visits will occur on Days 12 and 14.",
+                "interventionNames": [
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "MAD placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Following the conclusion of the respective SAD level dose groups and after sufficient review of study data and approval by the SRC, a second set of healthy adult female subjects will participate in an assigned MAD treatment group. The MAD treatment group is comprised of 3 cohorts. Subjects will be randomized to either PTI-428 or placebo. Each dose will be administered once daily (QD) for a total of 7 days. Follow up visits will occur on Days 12 and 14.",
+                "interventionNames": [
+                  "Other: Placebo"
+                ]
+              },
+              {
+                "label": "OC (ethinyl estradiol and levonorgestrel) DDI Period A",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment period A will consist of once daily oral contraceptive (OC) for 28-days (21-day hormonal active + 7 days off).",
+                "interventionNames": [
+                  "Drug: ethinyl estradiol and levonorgestrel"
+                ]
+              },
+              {
+                "label": "OC (ethinyl estradiol and levonorgestrel) DDI Period B",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Treatment period B will randomize subjects to PTI-428 or placebo in combination with once daily OC daily for 28 days (21-day hormonal active + 7 days off).",
+                "interventionNames": [
+                  "Drug: PTI-428",
+                  "Drug: ethinyl estradiol and levonorgestrel"
+                ]
+              },
+              {
+                "label": "OC (ethinyl estradiol and levonorgestrel) DDI",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Treatment period B will randomize subjects 4:1 to PTI-428 or placebo in combination with once daily OC daily for 28 days (21-day hormonal active + 7 days off).",
+                "interventionNames": [
+                  "Other: Placebo",
+                  "Drug: ethinyl estradiol and levonorgestrel"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "armGroupLabels": [
+                  "MAD PTI-428",
+                  "OC (ethinyl estradiol and levonorgestrel) DDI Period B",
+                  "SAD PTI-428"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Placebo",
+                "armGroupLabels": [
+                  "MAD placebo",
+                  "OC (ethinyl estradiol and levonorgestrel) DDI",
+                  "SAD placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ethinyl estradiol and levonorgestrel",
+                "armGroupLabels": [
+                  "OC (ethinyl estradiol and levonorgestrel) DDI",
+                  "OC (ethinyl estradiol and levonorgestrel) DDI Period A",
+                  "OC (ethinyl estradiol and levonorgestrel) DDI Period B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "SAD and MAD: Safety and tolerability measured by number of subjects who experience adverse events and potential clinically significant changes in safety labs, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "baseline to 7 days"
+              },
+              {
+                "measure": "SAD: Apparent terminal half-life (t1/2) of single oral dose",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "SAD: Time to reach maximum plasma concentration (Tmax) of single oral dose",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "SAD: Maximum plasma concentration (Cmax) of single oral dose",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "SAD: Area under the concentration-time curve from time 0 to time of last measurable concentration (AUC0-t) of single oral dose",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "MAD: Apparent terminal half-life (t1/2) of multiple oral doses",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "MAD: Time to reach maximum plasma concentration (Tmax) of multiple oral doses",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "MAD: Maximum plasma concentration (Cmax) of multiple oral doses",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "MAD: Area under the concentration-time curve from time 0 to time of last measurable concentration (AUC0-t) of multiple oral doses",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "SAD: Cumulative amount of PTI-428 excreted unchanged in urine (Ae)",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "SAD: renal clearance (CLR)",
+                "timeFrame": "through 72-hours post dose"
+              },
+              {
+                "measure": "MAD: Cumulative amount of PTI-428 excreted unchanged in urine (Ae)",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "MAD: renal clearance (CLR)",
+                "timeFrame": "through 72 hours post day 7 dose"
+              },
+              {
+                "measure": "OC: Time to reach maximum plasma concentration (Tmax) of multiple oral doses",
+                "timeFrame": "through day 49"
+              },
+              {
+                "measure": "OC: Maximum plasma concentration (Cmax) of multiple oral doses",
+                "timeFrame": "through day 49"
+              },
+              {
+                "measure": "OC: Area under the concentration-time curve from time 0 to time of last measurable concentration (AUC0-t) of multiple oral doses",
+                "timeFrame": "through day 49"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult females age 18 - 55 years old, inclusive, at the time of informed consent.\n* For the DDI Oral Contraceptive Cohort, women of child bearing potential with intact ovarian function by medical history and history of regular menstrual. cycles.\n* Body mass index (BMI) \u226518 \\< 30 kg/m2.\n* Subject must be non-smoker and non-tobacco user for a minimum of 30 days prior to screening and for the duration of the study.\n* Subject understands the full nature and purpose of the study, including possible risks and side effects, and is willing and able to comply with all compulsory study procedures and provides informed consent/permission prior to any study procedures being performed.\n\nExclusion Criteria:\n\n* History or current evidence of any clinically significant cardiac, endocrinologic, hematologic, hepatobiliary, immunologic, metabolic, urologic, pulmonary, neurologic, dermatologic, psychiatric, renal, or other major disease, as determined by the Investigator.\n* Abnormal liver function as defined by:\n* Aspartate aminotransferase (AST), alanine aminotransferase (ALT) or bilirubin \\> 1.5 x upper limit of the normal range.\n* Abnormal renal function at screening defined as:\n* Creatinine clearance \\< 80mL/min using the Cockroft-Gault equation.\n* No clinically significant screening results that would exclude subject from the study (e.g., medical histories, physical examination, ECGs, vital signs,and laboratory profiles) as deemed by the investigator.\n* Platelet count \\< 150,000 cell/mm3\n* Participation in another clinical trial or treatment with an investigational agent within 30 days or 5 half-lives, whichever is longer, prior to Study Day 1.\n* History of cancer within the past five years (excluding non-melanoma skin cancer).\n* History of alcohol or drug abuse or dependence within 12 months of screening as determined by the Investigator.\n* Positive urine screen for prohibited drugs (cocaine, cannabinoids, nicotine \\[urine cotinine is the detection mechanism for nicotine\\], opiates, barbiturates, amphetamines, and benzodiazepines) or positive alcohol test at screening.\n* Positive blood screen for human immunodeficiency virus (HIV), hepatitis B surface antigen (HBsAg), or hepatitis C virus antibody (HCVAb).\n* Clinically significant infection within 3 months of screening as determined by the Investigator.\n* Known or suspected hypersensitivity or idiosyncratic reaction to study medication or any components thereof.\n* Has donated blood within 3 months of screening or plans to donate blood within 3 months of study completion.\n* Pregnant or nursing women.\n* Any conditions that, in the opinion of the Investigator, would make the subject unsuitable for enrollment or could interfere with the subject's participation in or completion of the study.\n* Females of child-bearing potential, unless they are willing to use highly effective methods of contraception during participation in the clinical study and for 30 days after termination from study.\n* Use of prohibited medications within 14 days prior to dosing of study drug.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Overland Park",
+                "state": "Kansas",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.98223,
+                  "lon": -94.67079
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C072593",
+                "term": "ethinyl estradiol, levonorgestrel drug combination"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02718495",
+            "orgStudyIdInfo": {
+              "id": "PTI-428-01"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study Assessing PTI-428 Safety, Tolerability, and Pharmacokinetics in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Phase I/II, Multi-center, Randomized, Placebo-Controlled, Study Designed to Assess the Safety, Tolerability, and Pharmacokinetics of PTI-428 in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2019-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-07-19",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-11-28",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-11-28",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-03-10",
+            "studyFirstSubmitQcDate": "2016-03-18",
+            "studyFirstPostDateStruct": {
+              "date": "2016-03-24",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2019-03-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2019-03-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial will consist of three arms: Part A, Part B, and Part C. Part A has two groups. The first group will enroll adult subjects with cystic fibrosis (CF) into a single ascending dose (SAD) treatment group. The second group will enroll adult subjects with CF, including those on background treatment with ORKAMBI\u00ae and those not on a cystic fibrosis transmembrane conductance regulator (CFTR) modulator, into a multiple ascending dose (MAD) treatment group. Part B will enroll adult subjects with CF currently on stable ORKAMBI\u00ae background therapy for a minimum of 3 months into a Phase II treatment group consisting of two cohorts. Part C will enroll adult subjects with CF, including those on background treatment with KALYDECO\u00ae and those not on a CFTR modulator, into a Phase II treatment group consisting of three cohorts. Approximately 136 subjects will be enrolled.",
+            "detailedDescription": "PART A The SAD treatment group is comprised of 3 cohorts where subjects will be randomized to either PTI-428 or placebo. Following the conclusion of at least 3 SAD treatment groups, a set of adult subjects diagnosed with CF will participate in an assigned MAD treatment group. The MAD treatment group is comprised of 3 cohorts. MAD Cohort 1 will enroll adult subjects with CF currently on stable ORKAMBI\u00ae background therapy for a minimum of 3 months at the time of randomization. MAD Cohorts 2 and 3 will enroll adult subjects with CF who are not currently on any background therapies. Subjects in all MAD cohorts will be randomized to either PTI-428 or placebo. Each dose will be administered once daily (QD) for a total of 7 Days.\n\nPART B Following the conclusion of MAD Cohort 1, a set of adult subjects diagnosed with CF currently on stable ORKAMBI\u00ae background therapy for a minimum of 3 months will participate in Part B. The Part B Phase II treatment group is comprised of 2 cohorts where subjects will be randomized to either PTI-428 or placebo. Each dose will be administered QD for a total of 28 days.\n\nPART C Following the conclusion of Part B Phase II, a set of adult subjects diagnosed with CF will participate in Part C. The Part C Phase II treatment group is comprised of 3 cohorts. Part C Cohort 1 will enroll adult subjects with CF who are eligible to take, but not currently taking, ORKAMBI\u00ae in accordance with the approved label. Part C Cohort 2 will enroll adult subjects with CF currently on stable KALYDECO\u00ae background therapy for a minimum of 3 months at the time of randomization. Part C Cohort 3 will enroll adult subjects with CF who are not currently on any background therapies and are pancreatic sufficient. Each PTI-428 or placebo dose will be administered QD for a total of 28 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 56,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part A",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Part A consists of two treatment groups, SAD and MAD. Both treatment groups will consist of 3 cohorts. In SAD, subjects will receive a single dose of PTI-428 or placebo. In MAD, subjects will receive once daily dosing of PTI-428 or placebo for 7 days.",
+                "interventionNames": [
+                  "Drug: PTI-428",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part B",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Part B will consist of 2 cohorts. Subjects will receive once daily dosing of PTI-428 or placebo for 28 days.",
+                "interventionNames": [
+                  "Drug: PTI-428",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part C",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Part C will consist of 3 cohorts. Subjects will receive once daily dosing of PTI-428 or placebo for 28 days.",
+                "interventionNames": [
+                  "Drug: PTI-428",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "armGroupLabels": [
+                  "Part A",
+                  "Part B",
+                  "Part C"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "armGroupLabels": [
+                  "Part A",
+                  "Part B",
+                  "Part C"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "SAD: safety and tolerability as assessed by adverse events, safety labs: hematology, chemistry, and urinalysis, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Baseline to Day 7"
+              },
+              {
+                "measure": "MAD: safety and tolerability as assessed by adverse events, pulomonary function tests, safety labs: hematology, chemistry, and urinalysis, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Baseline to Day 14"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: safety and tolerability as assessed by adverse events, safety labs: hematology, chemistry, and urinalysis, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Baseline to Day 35"
+              },
+              {
+                "measure": "Part C Cohort 1: safety and tolerability as assessed by adverse events, safety labs: hematology, chemistry, and urinalysis, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Baseline to Day 49"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "SAD: apparent terminal half-life (t1/2) of single oral dose",
+                "timeFrame": "Baseline through 72 hours post dose"
+              },
+              {
+                "measure": "SAD: time to reach maximum plasma concentration (Tmax) of single oral dose",
+                "timeFrame": "Baseline through 72 hours post dose"
+              },
+              {
+                "measure": "SAD: maximum plasma concentration (Cmax) of single oral dose",
+                "timeFrame": "Baseline through 72 hours post dose"
+              },
+              {
+                "measure": "SAD: area under the concentration-time curve from time 0 to time of last measurable concentration (AUC0-t) of single oral dose",
+                "timeFrame": "Baseline through 72 hours post dose"
+              },
+              {
+                "measure": "MAD: t1/2 of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 7 dose"
+              },
+              {
+                "measure": "MAD: Tmax of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 7 dose"
+              },
+              {
+                "measure": "MAD: Cmax of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 7 dose"
+              },
+              {
+                "measure": "MAD: AUC0-t of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 7 dose"
+              },
+              {
+                "measure": "MAD: area under the concentration-time curve from time 0 to infinity (AUC0-\u221e) of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 7 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: t1/2 of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 28 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: Tmax of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 28 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: Cmax of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 28 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: AUC0-t of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 28 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: AUC0-\u221e of multiple oral doses",
+                "timeFrame": "Baseline through 24 hours post Day 28 dose"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: change in forced expiratory volume in one second (FEV1) over time",
+                "timeFrame": "Baseline through Day 35"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 35"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: change in weight over time",
+                "timeFrame": "Baseline through Day 35"
+              },
+              {
+                "measure": "Part C Cohort 1: t1/2 of multiple oral doses",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 1: Tmax of multiple oral doses",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 1: Cmax of multiple oral doses",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 1: AUC0-t of multiple oral doses",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 1: AUC0-\u221e of multiple oral doses",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 1: change in FEV1 over time",
+                "timeFrame": "Baseline through Day 49"
+              },
+              {
+                "measure": "Part C Cohort 1: change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 49"
+              },
+              {
+                "measure": "Part C Cohort 1: change in weight over time",
+                "timeFrame": "Baseline through Day 49"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "SAD: change in nasal epithelial CFTR mRNA and protein expression",
+                "timeFrame": "Baseline through Day 7"
+              },
+              {
+                "measure": "MAD: change in nasal epithelial CFTR mRNA and protein expression",
+                "timeFrame": "Baseline through Day 14"
+              },
+              {
+                "measure": "MAD: change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 14"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: change in nasal epithelial CFTR mRNA and protein expression",
+                "timeFrame": "Baseline through Day 35"
+              },
+              {
+                "measure": "Part B and Part C Cohorts 2 and 3: change in CFQ-R over time",
+                "timeFrame": "Baseline through Day 28"
+              },
+              {
+                "measure": "Part C Cohort 1: change in nasal epithelial CFTR mRNA and protein expression",
+                "timeFrame": "Baseline through Day 49"
+              },
+              {
+                "measure": "Part C Cohort 1: change in CFQ-R over time",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part C Cohort 3: change in fecal elastase over time",
+                "timeFrame": "Baseline through Day 35"
+              },
+              {
+                "measure": "Part C Cohort 3: change in fecal calprotectin over time",
+                "timeFrame": "Baseline through Day 35"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of CF.\n* Forced expiratory volume in 1 second (FEV1) 40-90% predicted.\n* Non-smoker and non-tobacco user for a minimum of 30 days prior to screening and for the duration of the study.\n\nExclusion Criteria:\n\n* Participation in another clinical trial or treatment with an investigational agent within 30 days or 5 half-lives, whichever is longer, prior to Study Day 1.\n* History of cancer within the past five years (excluding cervical CIS with curative therapy for at least one year prior to screening and non-melanoma skin cancer).\n* History of organ transplantation.\n* Any sinopulmonary infection or CF exacerbation requiring a change or addition of medication (including antibiotics) within 1 month of Study Day 1 or any other clinically significant infection as determined by the investigator within 1 month of Day 1.\n* History of alcohol or drug abuse or dependence within 12 months of screening as determined by the Investigator.\n* Male and female of child-bearing potential, unless they are using highly effective methods of contraception during participation in the clinical study and for 4 weeks after termination from study.\n* Pregnant or nursing women.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Stanford University Medical Center",
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "facility": "Central Florida Pulmonary Group",
+                "city": "Altamonte Springs",
+                "state": "Florida",
+                "zip": "32803",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.66111,
+                  "lon": -81.36562
+                }
+              },
+              {
+                "facility": "University of Florida College of Medicine",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "St. Luke's Cystic Fibrosis Center of Idaho",
+                "city": "Boise",
+                "state": "Idaho",
+                "zip": "83712",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.6135,
+                  "lon": -116.20345
+                }
+              },
+              {
+                "facility": "Northwestern University Memorial Hospital",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "University of Iowa",
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "facility": "University of Kansas Medical Center Research Institute, Inc.",
+                "city": "Kansas City",
+                "state": "Kansas",
+                "zip": "66160",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.11417,
+                  "lon": -94.62746
+                }
+              },
+              {
+                "facility": "Quintiles Overland Park Phase 1 Unit",
+                "city": "Overland Park",
+                "state": "Kansas",
+                "zip": "66211",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.98223,
+                  "lon": -94.67079
+                }
+              },
+              {
+                "facility": "University of Louisville",
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Childrens Hospital Boston",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Universiy of Michigan Health System",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "Mayo Clinic",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "Children's Lung Specialists",
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "zip": "89107",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.17497,
+                  "lon": -115.13722
+                }
+              },
+              {
+                "facility": "Duke University Health System",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27710",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "University of Oklahoma Health Sciences Center",
+                "city": "Oklahoma City",
+                "state": "Oklahoma",
+                "zip": "73104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.46756,
+                  "lon": -97.51643
+                }
+              },
+              {
+                "facility": "Penn State Milton S. Hershey Medical Center",
+                "city": "Hershey",
+                "state": "Pennsylvania",
+                "zip": "17033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.28592,
+                  "lon": -76.65025
+                }
+              },
+              {
+                "facility": "Drexel University College of Medicine",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19107",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "Vanderbilt University Medical Center",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "St. Paul's Hospital Pacific Lung Research Center",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6Z 1Y6",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "St. Michael's Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5B 1W8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Institut de Recherches Cliniques de Montreal",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X 0A9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Institut Universitaire de Cardiologie et de Pneumologie de Quebec",
+                "city": "Qu\u00e9bec",
+                "state": "Quebec",
+                "zip": "G1V 4G5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 46.81228,
+                  "lon": -71.21454
+                }
+              },
+              {
+                "facility": "University of Copenhagen Rigshospitalet",
+                "city": "Copenhagen",
+                "zip": "2100",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "Groupe Hospitalier Pellegrin - H\u00f4pital des Enfants",
+                "city": "Bordeaux",
+                "zip": "33076",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 44.84124,
+                  "lon": -0.58046
+                }
+              },
+              {
+                "facility": "H\u00f4pital Cochin",
+                "city": "Paris",
+                "zip": "75014",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Charite - Campus Virchow-Klinikum",
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Universitaetsklinikum Frankfurt-Zentrum der Inneren Medizin",
+                "city": "Frankfurt",
+                "zip": "60590",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.68333,
+                  "lon": 10.53333
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Czechia",
+              "United Kingdom"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03591094",
+            "orgStudyIdInfo": {
+              "id": "PTI-428-06"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study Assessing PTI-428 Safety, Tolerability, Pharmacokinetics and Effect in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Phase 2, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Effect of PTI-428 in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-08-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-02-18",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-02-18",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-07-06",
+            "studyFirstSubmitQcDate": "2018-07-06",
+            "studyFirstPostDateStruct": {
+              "date": "2018-07-18",
+              "type": "ACTUAL"
+            },
+            "dispFirstSubmitDate": "2020-02-25",
+            "dispFirstSubmitQcDate": "2020-02-25",
+            "dispFirstPostDateStruct": {
+              "date": "2020-02-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-02-25",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-02-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study population is comprised of adult subjects with cystic fibrosis (CF) who are homozygous for the F508del mutation and are currently receiving background treatment with tezacaftor/ivacaftor for a minimum of 1 month prior to Day 1. The planned sample size is approximately 40 subjects. 20 subjects will be assigned to PTI-428 dose level 1 or placebo and 20 subjects will be assigned to PTI-428 dose level 2 or placebo. At each dose level, subjects will be randomized at a 3:1 randomization ratio. Subjects will receive once daily oral doses of PTI-428 or placebo for 28 days, while the subjects continue to receive background treatment with tezacaftor/ivacaftor per product label. The study drug administration period will be followed by a 14-day safety follow-up period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTI-428 dose level 1",
+                "type": "ACTIVE_COMPARATOR",
+                "interventionNames": [
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "PTI-428 dose level 2",
+                "type": "ACTIVE_COMPARATOR",
+                "interventionNames": [
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "Placebo PTI-428",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "description": "Active",
+                "armGroupLabels": [
+                  "PTI-428 dose level 1",
+                  "PTI-428 dose level 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Placebo PTI-428"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of subjects with treatment-emergent adverse events (TEAEs)",
+                "description": "Safety and tolerability will be assessed by adverse events (AEs), safety labs, electrocardiograms (ECGs), physical examinations and vital signs.",
+                "timeFrame": "Baseline through Day 42"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum plasma concentration (Cmax)",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "Time of Cmax (Tmax)",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "Area under the concentration time curve from time 0 to time of last measurable concentration (AUC0-t)",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "Change in FEV1 over time",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 42"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Change in nasal epithelial CFTR mRNA and protein expression over time",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Change in CFQ-R over time",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Cmax of PTI-428 metabolites, if applicable",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "Tmax of PTI-428 metabolites, if applicable",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "AUC0-t of PTI-428 metabolites, if applicable",
+                "timeFrame": "28 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of CF with the F508del/F508del genotype on record\n* On tezacaftor/ivacaftor dosing for both label indication and per label dosing for a minimum of 1 month on Day 1\n* Forced expiratory volume in 1 second (FEV1) 40-90% predicted, inclusive\n* Clinically stable with no significant changes in health status within 14 days of Day 1\n* Non-smoker and non-tobacco user for a minimum of 28 days prior to screening and for the duration of the study\n\nExclusion Criteria:\n\n* Participation in another clinical trial or treatment with an investigational agent within 28 days or 5 half-lives, whichever is longer, prior to Study Day 1\n* History of cancer within the past 5 years (excluding cervical cancer in situ with curative therapy for at least one year prior to screening and non-melanoma skin cancer)\n* History of organ transplantation\n* Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness (as determined by the investigator) requiring an increase or addition of medication, such as antibiotics or corticosteroids, within 14 days of Day 1\n* Initiation of any new chronic therapy (e.g., ibuprofen, hypertonic saline, azithromycin, Pulmozyme\u00ae, Cayston\u00ae, TOBI\u00ae)) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days prior to Day 1\n* History or current evidence of alcohol or drug abuse or dependence within 12 months of screening as determined by the investigator\n* Pregnant or nursing women",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Alabama at Birmingham",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35233",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "University of Arizona",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "Stanford University",
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "facility": "National Jewish Health",
+                "city": "Denver",
+                "state": "Colorado",
+                "zip": "80206",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.73915,
+                  "lon": -104.9847
+                }
+              },
+              {
+                "facility": "Central Florida Pulmonary Group",
+                "city": "Altamonte Springs",
+                "state": "Florida",
+                "zip": "32701",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.66111,
+                  "lon": -81.36562
+                }
+              },
+              {
+                "facility": "Northwestern University",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Cystic Fibrosis Center, Children's Hospital of Illinois at OSF Saint Francis Medical Center",
+                "city": "Peoria",
+                "state": "Illinois",
+                "zip": "61637",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.69365,
+                  "lon": -89.58899
+                }
+              },
+              {
+                "facility": "University of Iowa, Roy J and Lucille A Carver College of Medicine",
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "facility": "Universitey of Louisville, Kosair Charities Pediatric Clinical Research Unit",
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "facility": "Maine Medical Center",
+                "city": "Portland",
+                "state": "Maine",
+                "zip": "04102",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.65737,
+                  "lon": -70.2589
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Michigan Medicine, University of Michigan",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Children's Mercy Hospital",
+                "city": "Kansas City",
+                "state": "Missouri",
+                "zip": "64108",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.09973,
+                  "lon": -94.57857
+                }
+              },
+              {
+                "facility": "Dartmouth Hitchcock Medical Center",
+                "city": "Manchester",
+                "state": "New Hampshire",
+                "zip": "03104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.99564,
+                  "lon": -71.45479
+                }
+              },
+              {
+                "facility": "Mount Sinai Beth Israel",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10003",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Columbia University Medical Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "New York Medical College",
+                "city": "Valhalla",
+                "state": "New York",
+                "zip": "10595",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.07482,
+                  "lon": -73.77513
+                }
+              },
+              {
+                "facility": "Duke University Medical Center",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27710",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "Akron Children's Hospital",
+                "city": "Akron",
+                "state": "Ohio",
+                "zip": "44308",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.08144,
+                  "lon": -81.51901
+                }
+              },
+              {
+                "facility": "Nationwide Children's Hospital",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "Children's Hospital of Pittsburgh of UPMC",
+                "city": "Pittsburgh",
+                "state": "Pennsylvania",
+                "zip": "15224",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "The University of Texas Health Science Center at Tyler - Center for Clinical Research",
+                "city": "Tyler",
+                "state": "Texas",
+                "zip": "75708",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.35126,
+                  "lon": -95.30106
+                }
+              },
+              {
+                "facility": "University of Utah",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84132",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03258424",
+            "orgStudyIdInfo": {
+              "id": "PTI-428-05"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study Assessing PTI-428 Safety, Tolerability, and Pharmacokinetics in Subjects With Cystic Fibrosis on KALYDECO\u00ae as Background Therapy",
+            "officialTitle": "A Phase I, Randomized, Placebo-Controlled, Study Designed to Assess the Safety, Tolerability, and Pharmacokinetics of PTI-428 in Subjects With Cystic Fibrosis."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-07-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-10-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2018-10-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-08-18",
+            "studyFirstSubmitQcDate": "2017-08-18",
+            "studyFirstPostDateStruct": {
+              "date": "2017-08-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-03-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-03-26",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The trial will consist of a single treatment group enrolling adult subjects with CF on background therapy with KALYDECO\u00ae. Approximately 16 subjects will be enrolled.",
+            "detailedDescription": "The single treatment group will enroll adult subjects with CF currently on stable KALYDECO\u00ae background therapy for a minimum of 3 months at the time of randomization. Subjects will be randomized to either PTI-428 or placebo. Each dose will be administered once daily (QD) for a total of 14 Days. The subjects will continue treatment with KALYDECO\u00ae throughout the study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 15,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTI-428",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Subjects will receive once daily dosing of PTI-428 or placebo for 14 days.",
+                "interventionNames": [
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will receive once daily dosing of PTI-428 or placebo for 14 days.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "description": "PTI-428 or placebo will be given QD for 14 days.",
+                "armGroupLabels": [
+                  "PTI-428"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "PTI-428 or placebo will be given QD for 14 days.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability as assessed by adverse events, safety labs, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Baseline through Day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "t1/2 of multiple oral doses",
+                "timeFrame": "Baseline through Day 14"
+              },
+              {
+                "measure": "Tmax of multiple oral doses",
+                "timeFrame": "Baseline through Day 14"
+              },
+              {
+                "measure": "Cmax of multiple oral doses",
+                "timeFrame": "Baseline through Day 14"
+              },
+              {
+                "measure": "AUC0-t of multiple oral doses",
+                "timeFrame": "Baseline through Day 14"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Change in nasal epithelial mRNA and protein expression over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in FEV1 over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in weight over time",
+                "timeFrame": "Baseline through Day 21"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of CF.\n* Stable on Kalydeco dosing for both label indication and per label dosing for a minimum of 3 months at the time of randomization\n* Forced expiratory volume in 1 second (FEV1) 40-90% predicted.\n* Non-smoker and non-tobacco user for a minimum of 30 days prior to screening and for the duration of the study.\n\nExclusion Criteria:\n\n* Participation in another clinical trial or treatment with an investigational agent within 30 days or 5 half-lives, whichever is longer, prior to Study Day 1.\n* History of cancer within the past five years (excluding cervical CIS with curative therapy for at least one year prior to screening and non-melanoma skin cancer).\n* History of organ transplantation.\n* Any sinopulmonary infection or CF exacerbation requiring a change or addition of medication (including antibiotics) within 1 month of Study Day 1 or any other clinically significant infection as determined by the investigator within 1 month of Day 1.\n* History of alcohol or drug abuse or dependence within 12 months of screening as determined by the Investigator.\n* Male and female of child-bearing potential, unless they are using highly effective methods of contraception during participation in the clinical study and for 4 weeks after termination from study.\n* Pregnant or nursing women.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Celerion",
+                "city": "Belfast",
+                "zip": "BT9 6AD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "facility": "Medicines Evaluation Unit",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03500263",
+            "orgStudyIdInfo": {
+              "id": "PTI-808-02"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, and Pharmacokinetics of PTI-808, PTI-801, and PTI-428 Combination Therapy in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Phase 1 / 2, Randomized, Double-Blind, Placebo-Controlled Study Designed to Evaluate the Safety, Tolerability, and Pharmacokinetics of PTI-808, PTI-801, and PTI-428 Combination Therapy in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-01-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-03-13",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-03-13",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-04-09",
+            "studyFirstSubmitQcDate": "2018-04-13",
+            "studyFirstPostDateStruct": {
+              "date": "2018-04-18",
+              "type": "ACTUAL"
+            },
+            "dispFirstSubmitDate": "2020-03-31",
+            "dispFirstSubmitQcDate": "2020-03-31",
+            "dispFirstPostDateStruct": {
+              "date": "2020-04-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-03-31",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-04-06",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is a randomized, double-blind, placebo-controlled, study that will be conducted at multiple centers in subjects with Cystic Fibrosis (CF) who are either homozygous for the F508del mutation or heterozygous with at least copy of the F508del mutation.",
+            "detailedDescription": "Study PTI-808-02 will enroll up to approximately 32 subjects. Subjects in the first cohort will receive PTI-808 and PTI-801. Following completion of Cohort 1, initiation of enrollment into subsequent cohorts will be based upon review and approval by the Safety Review Committee (SRC)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohorts 1 and 2: PTI-808 Active Co-admin with PTI-801 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 or placebos once-a-day for a total of 14 days. A follow up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Cohorts 1 and 2: PTI-808 Placebo Co-admin with PTI-801 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 or placebos once-a-day for a total of 14 days. A follow up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 3 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 and PTI-428 or placebos once-a-day for a total of 14 days. A follow up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-801",
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "Cohort 3 PTI-808 placebo + PTI-801 Placebo + PTI-428 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 and PTI-428 or placebos once-a-day for a total of 14 days. A follow up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 4 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 and PTI-428 or placebos once-a-day for 7 days immediately followed by PTI-808 co-administered with PTI-801 or placebos once-a-day for 7 days. A follow-up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-801",
+                  "Drug: PTI-428"
+                ]
+              },
+              {
+                "label": "Cohort 4 PTI-808 Placebo + PTI-801 Placebo + PTI-428 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will be randomized to receive either PTI-808 co-administered with PTI-801 and PTI-428 or placebos once-a-day for 7 days immediately followed by PTI-808 co-administered with PTI-801 or placebos once-a-day for 7 days. A follow-up visit will occur on Day 21.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-808",
+                "description": "Active",
+                "armGroupLabels": [
+                  "Cohort 3 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                  "Cohort 4 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                  "Cohorts 1 and 2: PTI-808 Active Co-admin with PTI-801 Active"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Cohort 3 PTI-808 placebo + PTI-801 Placebo + PTI-428 Placebo",
+                  "Cohort 4 PTI-808 Placebo + PTI-801 Placebo + PTI-428 Placebo",
+                  "Cohorts 1 and 2: PTI-808 Placebo Co-admin with PTI-801 Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PTI-801",
+                "description": "Active",
+                "armGroupLabels": [
+                  "Cohort 3 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                  "Cohort 4 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                  "Cohorts 1 and 2: PTI-808 Active Co-admin with PTI-801 Active"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "description": "Active",
+                "armGroupLabels": [
+                  "Cohort 3 PTI-808 Active + PTI-801 Active + PTI-428 Active",
+                  "Cohort 4 PTI-808 Active + PTI-801 Active + PTI-428 Active"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Cohort 3 PTI-808 placebo + PTI-801 Placebo + PTI-428 Placebo",
+                  "Cohort 4 PTI-808 Placebo + PTI-801 Placebo + PTI-428 Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability measured by the number of subjects who experience adverse events and potentially significant clinical laboratory assessments, electrocardiography, physical examinations, vital signs.",
+                "timeFrame": "Baseline through Day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Apparent terminal half-life (t1/2) of multiple oral doses of PTI-808 + PTI-801 and PTI-428 (cohorts 3 & 4 only)",
+                "timeFrame": "Day 1 through 15"
+              },
+              {
+                "measure": "Time to reach maximum plasma concentration (Tmax) of multiple oral doses of PTI-808 + PTI-801 and PTI-428 (cohorts 3 & 4 only)",
+                "timeFrame": "Day 1 through 15"
+              },
+              {
+                "measure": "Maximum plasma concentration (Cmax) of multiple oral doses of PTI-808 + PTI-801 and PTI-428 (cohorts 3 & 4 only)",
+                "timeFrame": "Day 1 through 15"
+              },
+              {
+                "measure": "Change in FEV1 over time",
+                "timeFrame": "Baseline through Day 21"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Change in sweat chloride over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in weight over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in BMI over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in Cystic Fibrosis Questionnaire-Revised (CFQ-R) respiratory domain results over time",
+                "description": "Disease-specific instrument designed to measure impact on overall health, daily life, perceived well-being and symptoms. Developed specifically for use in patients with a diagnosis of cystic fibrosis.\n\nScaling of items:\n\n5 distinct 4-point Likert scales (e.g., always/often/ sometime/never)\n\nScoring:\n\nScores for each HRQoL domain; after recoding, each item is summed to generate a domain score and standardized. Scores range from 0 to 100, with higher scores indicating better health.",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in nasal epithelial mRNA expression over time",
+                "timeFrame": "Baseline through Day 21"
+              },
+              {
+                "measure": "Change in nasal protein expression over time",
+                "timeFrame": "Baseline through Day 21"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Cohorts 1,2 and 4: A Confirmed diagnosis of CF with the F508del/F508del CFTR genotype on record, along with clinical findings consistent with CF such as chronic sinopulmonary disease or gastrointestinal/nutritional abnormalities\n* Cohort 3 only: Confirmed diagnosis of CF with at least one copy of the F508del CFTR mutation on record, along with clinical findings consistent with CF, such as chronic sinopulmonary disease or gastrointestinal / nutritional abnormalities\n* Forced expiratory volume in 1 second (FEV1) 40-90% predicted, inclusive\n* Non-smoker and non-tobacco user for a minimum of 30 days prior to screening\n* Cohort 3 only: A sweat chloride value of \u226560 mmol/L based on quantitative pilocarpine iontophoresis (as documented in the subject's medical record or as confirmed at the screening visit)\n\nExclusion Criteria:\n\n* Currently taking or has taken a CFTR modulator within 30 days prior to initial dose of study drugs\n* Participation in another clinical trial or treatment with an investigational agent within 28 days or 5 half-lives, whichever is longer, prior to Study Day 1\n* History of cancer within the past 5 years\n* History of organ transplantation\n* Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness (as determined by the investigator) requiring an increase or addition of medication, such as antibiotics or corticosteroids, within 14 days of Day 1\n* Initiation of any new chronic therapy (e.g., ibuprofen, hypertonic saline, azithromycin, Pulmozyme\u00ae, Cayston\u00ae, TOBI\u00ae) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days prior to Day 1\n* History or current evidence of alcohol or drug abuse or dependence within 12 months of screening as determined by the investigator\n* Pregnant or nursing women",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Celerion",
+                "city": "Belfast",
+                "zip": "BT9 6AD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "facility": "Western General Hospital",
+                "city": "Edinburgh",
+                "zip": "EH4 2XU",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Queen Elizabeth University Hospital",
+                "city": "Glasgow",
+                "zip": "G514TF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Medicines Evaluation Unit",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03251092",
+            "orgStudyIdInfo": {
+              "id": "PTI-808-01"
+            },
+            "organization": {
+              "fullName": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study Designed to Assess the Safety, Tolerability and PK of PTI-808 in Healthy Volunteers and in Adults With Cystic Fibrosis",
+            "officialTitle": "A Phase 1/2 Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of PTI-808 in Healthy Adult Subjects and in Adults With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-07-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-12-23",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-12-23",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-08-07",
+            "studyFirstSubmitQcDate": "2017-08-11",
+            "studyFirstPostDateStruct": {
+              "date": "2017-08-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-04-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-04-22",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Proteostasis Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Part 1 of this trial will enroll healthy volunteers into a single ascending dose (SAD), multiple ascending dose (MAD), and Food Effect (FE) treatment groups.\n\nThe SAD treatment group is comprised of at least 3 ascending dose level cohorts where healthy adult subjects will be randomized to receive a single dose of either PTI-808 or placebo and will be followed for 7 days post dose. A safety review committee (SRC) will convene after the completion of each cohort to evaluate safety and pharmacokinetic (PK) data.\n\nFollowing the conclusion of the respective SAD level dose groups and after sufficient review of study data and approval by the SRC, a second set of healthy adult subjects will participate in an assigned MAD treatment group. The MAD treatment group is comprised of 3 ascending dose level cohorts where subjects will be randomized to receive either PTI-808 or placebo daily for 7 days and will be followed for 7 days after receiving the last dose.\n\nAlso following the conclusion of the respective SAD level dose groups, healthy adult subjects will participate in the FE treatment group.\n\nPart 2 of this will enroll healthy volunteers to assess the safety, tolerability, and PK of PTI 808 co administered with PTI 801 and PTI 428 to HVs with daily dosing for 7 consecutive days.\n\nPart 3 will enroll adult subjects with cystic fibrosis (CF) into a MAD treatment group consisting of 2 cohorts. Subjects will receive PTI-808 co-administered with PTI-801 and PTI-428. PTI-808 will be administered daily for 7 consecutive days followed by PTI-808 + PTI-801 + PTI-428 administered daily for 14 consecutive days.\n\nPart 4 will enroll adult subjects with cystic fibrosis (CF) into 28-day cohorts. Subjects will receive PTI-808 co-administered with PTI-801 with or without PTI-428 versus matching placebo.",
+            "detailedDescription": "Part 1 of this trial will enroll healthy volunteers into a single ascending dose (SAD), multiple ascending dose (MAD), and Food Effect (FE) treatment groups.\n\nThe SAD treatment group is comprised of at least 3 ascending dose level cohorts where healthy adult subjects will be randomized to receive a single dose of either PTI-808 or placebo and will be followed for 7 days post dose.\n\nThe MAD treatment group is comprised of 3 ascending dose level cohorts where subjects will be randomized to receive either PTI-808 or placebo daily for 7 days and will be followed for 7 days after receiving the last dose.\n\nFollowing the conclusion of the respective SAD level dose groups the food effect portion of the study will be initiated and subjects will be randomized to receive an initial single dose of PTI-808 either after an overnight fast of at least 10 hours (fasted group) or after an overnight fast of at least 10 hours followed the consumption of a high fat high calorie meal (fed group). After a 10 day washout period, subjects will cross over to the opposite group and receive a second dose of PTI-808. Subjects will be followed for up to 7 days following dosing.\n\nPart 2 of this will enroll healthy volunteers to assess the safety, tolerability, and PK of PTI 808 co administered with PTI 801 and PTI 428 to HVs with daily dosing for 7 consecutive days.\n\nPart 3 - Part 3 will enroll adult subjects with CF to assess the safety, tolerability, and PK of multiple ascending doses of PTI-808 co-administered with PTI-801 and PTI-428. Subjects will receive 7 days of PTI-808 or placebo followed by 14 days of PTI-808 or placebo co-administered with PTI-801+PTI-428 or matching placebos.\n\nPart 4 - Part 4 will assess the safety, tolerability, PK, and the effects of PTI-808 co-administered with PTI-801 with or without PTI-428 over a 28-day treatment period in CF subjects who are either homozygous for the F508del CFTR genotype or are heterozygous for the F508del CFTR genotype. Subjects will be randomized to receive treatment with PTI-808 co-administered with PTI-801 with or without PTI-428 versus matching placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer - Complete",
+              "Cystic Fibrosis - Complete"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 179,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SAD PTI-808 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Three cohorts of SAD are planned for evaluation where subjects will be randomized to PTI-808 or placebo.",
+                "interventionNames": [
+                  "Drug: PTI-808"
+                ]
+              },
+              {
+                "label": "SAD PTI-808 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Three cohorts of SAD are planned for evaluation where subjects will be randomized to PTI-808 or placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "MAD PTI-808 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Three cohorts of MAD are planned for evaluation where subjects will be randomized to PTI-808 or placebo.",
+                "interventionNames": [
+                  "Drug: PTI-808"
+                ]
+              },
+              {
+                "label": "MAD PTI-808 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Three cohorts of MAD are planned for evaluation where subjects will be randomized to PTI-808 or placebo.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "FE PTI-808 Active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Subjects will be randomized to Fed or Fasted on Days 1 and 12. Follow up visits will occur 7 days post Day 12 dose.",
+                "interventionNames": [
+                  "Drug: PTI-808"
+                ]
+              },
+              {
+                "label": "FE PTI-808 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will be randomized to Fed or Fasted on Days 1 and 12. Follow up visits will occur 7 days post Day 12 dose.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2 PTI-808 + PTI-801 + PTI-428 Active",
+                "type": "EXPERIMENTAL",
+                "description": "One cohort is planned where subjects will be randomized to either the triple active arm (dosed with PTI 808+PTI 801+PTI 428) OR placebo arm.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-428",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 2 matching Placebos",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "In all three cohorts in part 2, subjects will be randomized to active drug or placebo. The placebo arm for all cohorts consists of placebo capsules matching PTI-808+PTI-801+PTI-428.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2 dual active arm PTI-801+PTI-428+ PTI-808 placebo",
+                "type": "EXPERIMENTAL",
+                "description": "One cohort is planned where subjects are randomized to either 808 placebo + dual active arm (dosed with placebo matching PTI 808 plus PTI 801 + PTI 428) OR placebo arm.",
+                "interventionNames": [
+                  "Drug: Placebo",
+                  "Drug: PTI-428",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 2 dual active arm PTI-801+PTI-808+PTI-428 placebo",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "One cohort is planned where subjects are randomized to either 428 placebo + dual active arm (dosed with placebo matching PTI 428 plus PTI 808 and PTI 801) OR placebo arm.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: Placebo",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 3 CF MAD PTI-808 + PTI-801 + PTI-428",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "In all cohorts in Part 3, subjects will be will be randomized to receive 7 days of PTI-808 or placebo followed by 14 days of co-administration of PTI-808+PTI-801+PTI-428 or matching placebos. A follow-up will occur on Day 28.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-428",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 3 CF MAD PTI-808 placebo+PTI-801 placebo+PTI-428 placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "In all cohorts in Part 3, subjects will be randomized to receive 7 days of PTI-808 or placebo followed by 14 days of co-administration of PTI-808+PTI-801+PTI-428 or matching placebos. A follow-up will occur on Day 28.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 4 CF PTI-808 + PTI-801 + PTI-428",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "In cohorts 3 \\& 4 subjects will be randomized to receive PTI-808 + PTI-801 with or without PTI-428 or matching placebos. A follow-up will occur on Day 42.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-428",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 4 CF PTI-808 + PTI-801 + PTI-428 placebo",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "In cohorts 3 \\& 4, subjects will be randomized to receive PTI-808 + PTI-801 with or without PTI-428 or matching placebos. A follow-up will occur on Day 42.",
+                "interventionNames": [
+                  "Drug: PTI-808",
+                  "Drug: PTI-801"
+                ]
+              },
+              {
+                "label": "Part 4 CF PTI-808 placebo + PTI-801 placebo + PTI-428 placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "In cohorts 3 \\& 4, subjects will be randomized to receive PTI-808 + PTI-801 with or without PTI-428 or matching placebos. A follow-up will occur on Day 42.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTI-808",
+                "description": "Active",
+                "armGroupLabels": [
+                  "FE PTI-808 Active",
+                  "MAD PTI-808 Active",
+                  "Part 2 PTI-808 + PTI-801 + PTI-428 Active",
+                  "Part 2 dual active arm PTI-801+PTI-808+PTI-428 placebo",
+                  "Part 3 CF MAD PTI-808 + PTI-801 + PTI-428",
+                  "Part 4 CF PTI-808 + PTI-801 + PTI-428",
+                  "Part 4 CF PTI-808 + PTI-801 + PTI-428 placebo",
+                  "SAD PTI-808 Active"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "FE PTI-808 Placebo",
+                  "MAD PTI-808 Placebo",
+                  "Part 2 dual active arm PTI-801+PTI-428+ PTI-808 placebo",
+                  "Part 2 dual active arm PTI-801+PTI-808+PTI-428 placebo",
+                  "Part 2 matching Placebos",
+                  "Part 3 CF MAD PTI-808 placebo+PTI-801 placebo+PTI-428 placebo",
+                  "Part 4 CF PTI-808 placebo + PTI-801 placebo + PTI-428 placebo",
+                  "SAD PTI-808 Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PTI-428",
+                "description": "Active",
+                "armGroupLabels": [
+                  "Part 2 PTI-808 + PTI-801 + PTI-428 Active",
+                  "Part 2 dual active arm PTI-801+PTI-428+ PTI-808 placebo",
+                  "Part 3 CF MAD PTI-808 + PTI-801 + PTI-428",
+                  "Part 4 CF PTI-808 + PTI-801 + PTI-428"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PTI-801",
+                "description": "Active",
+                "armGroupLabels": [
+                  "Part 2 PTI-808 + PTI-801 + PTI-428 Active",
+                  "Part 2 dual active arm PTI-801+PTI-428+ PTI-808 placebo",
+                  "Part 2 dual active arm PTI-801+PTI-808+PTI-428 placebo",
+                  "Part 3 CF MAD PTI-808 + PTI-801 + PTI-428",
+                  "Part 4 CF PTI-808 + PTI-801 + PTI-428",
+                  "Part 4 CF PTI-808 + PTI-801 + PTI-428 placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1 SAD and MAD: Adverse Events",
+                "description": "Safety and tolerability measure by number of subjects who experience adverse events",
+                "timeFrame": "Baseline to up to 14 days"
+              },
+              {
+                "measure": "Part 1 SAD and MAD: Physical Exams",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in physical examinations",
+                "timeFrame": "Baseline to up to 14 days"
+              },
+              {
+                "measure": "Part 1 SAD and MAD: The number of subjects who experience potential clinically significant changes in vital signs",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in vital signs",
+                "timeFrame": "Baseline to up to 14 days"
+              },
+              {
+                "measure": "Part 1 SAD and MAD: ECGs",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in ECGs",
+                "timeFrame": "Baseline to up to 14 days"
+              },
+              {
+                "measure": "Part 1 SAD and MAD: The number of subjects who experience potential clinically significant changes in safety labs",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in safety labs",
+                "timeFrame": "Baseline to up to 14 days"
+              },
+              {
+                "measure": "Part 1 SAD and FE: terminal half life",
+                "description": "Apparent terminal half-life (t1/2) of single oral dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 SAD and FE : Tmax",
+                "description": "Time to reach maximum plasma concentration (Tmax) of single oral dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 SAD and FE: Cmax",
+                "description": "Maximum plasma concentration (Cmax) of single oral dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 SAD : AUC",
+                "description": "Area under the concentration-time curve from time 0 to 24 hours post dose (AUC 0-24) of single oral dose",
+                "timeFrame": "Through 24 hours post dose"
+              },
+              {
+                "measure": "Part 1 SAD and FE: AUC0",
+                "description": "AUC from time 0 to time of last measurable concentration (AUC0-last) of single oral dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 SAD and FE: AUC0-inf",
+                "description": "AUC from time 0 to infinity (AUC0-inf) of single dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 MAD: t1/2",
+                "description": "t1/2 of multiple oral dose",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 MAD: Tmax",
+                "description": "Tmax of multiple oral doses",
+                "timeFrame": "Through 72 hours post dose"
+              },
+              {
+                "measure": "Part 1 MAD: Cmax",
+                "description": "Cmax of multiple oral doses",
+                "timeFrame": "Through 72 hours post last dose"
+              },
+              {
+                "measure": "Part 1 MAD: AUC0-24",
+                "description": "AUC0-24 of multiple oral dose",
+                "timeFrame": "Through 24 hours post last dose"
+              },
+              {
+                "measure": "Part 1 MAD: AUC0-last",
+                "description": "AUC0-last of multiple oral doses",
+                "timeFrame": "Through 72 hours post last dose"
+              },
+              {
+                "measure": "Part 1 MAD: Urine",
+                "description": "Cumulative amount of PTI-808 excreted unchanged in urine (Ae) as appropriate of multiple oral doses",
+                "timeFrame": "Through 24 hours post last dose"
+              },
+              {
+                "measure": "Part 1 MAD: CLR",
+                "description": "Renal clearance (CLR) of multiple oral doses",
+                "timeFrame": "Through 24 hours post dose"
+              },
+              {
+                "measure": "Part 2: Physical Exams",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in physical examinations",
+                "timeFrame": "Baseline up to 14 days"
+              },
+              {
+                "measure": "Part 2: ECGs",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in ECGs",
+                "timeFrame": "Baseline up to 14 days"
+              },
+              {
+                "measure": "Part 2: Safety Labs",
+                "description": "Safety and tolerability measure by number of subjects who experience potential clinically significant changes in safety labs",
+                "timeFrame": "Baseline up to 14 days"
+              },
+              {
+                "measure": "Part 2: Vitals Signs",
+                "description": "Measure by number of subjects who experience potential clinically significant changes in vital signs",
+                "timeFrame": "Baseline up to 14 days"
+              },
+              {
+                "measure": "Part 3 CF: Physical Exams",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in physical examinations",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 3 CF: ECGs",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in ECGs",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 3 CF: Safety Labs",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in safety labs",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 3 CF: Vital Signs",
+                "description": "Measured by number of subjects who experience potential clinically significant changes in vital signs",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 4 CF: Physical Exams",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in physical examinations",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF: ECGs",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in ECGs",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF: Safety Labs",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in safety labs",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF: Vital Signs",
+                "description": "Safety and tolerability measured by number of subjects who experience potential clinically significant changes in physical examinations",
+                "timeFrame": "Baseline up to 42 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Part 2: Apparent terminal half life (t1/2) of multiple oral doses PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in healthy adults",
+                "timeFrame": "Day 1 through Day 10"
+              },
+              {
+                "measure": "Part 2: Maximum plasma concentration (Cmax) of multiple oral doses PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in healthy adults",
+                "timeFrame": "Day 1 through Day 10"
+              },
+              {
+                "measure": "Part 2: Time to reach maximum plasma concentration (Tmax) of multiple oral doses PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in healthy adults",
+                "timeFrame": "Day 1 through Day 10"
+              },
+              {
+                "measure": "Part 2: AUC0-last of multiple oral doses when PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in healthy adults",
+                "timeFrame": "Day 1 through Day 10"
+              },
+              {
+                "measure": "Part 2: AUC from time 0 to infinity (AUC0-inf) of multiple oral doses when PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in healthy adults",
+                "timeFrame": "Day 1 through Day 10"
+              },
+              {
+                "measure": "Part 3 CF: Time to reach maximum plasma concentration (Tmax) of multiple oral doses PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through Day 22"
+              },
+              {
+                "measure": "Part 3 CF: Maximum plasma concentration (Cmax) of multiple oral doses PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through Day 22"
+              },
+              {
+                "measure": "Part 3 CF: AUC0-last of multiple oral doses when PTI 808 is co administered with PTI 801 and PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 is co administered with PTI 801 and PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through Day 22"
+              },
+              {
+                "measure": "Part 3 CF: FEV1",
+                "description": "Change in forced expiratory volume in one second (FEV1) over time",
+                "timeFrame": "Baseline through Day 28"
+              },
+              {
+                "measure": "Part 4 CF: Time to reach maximum plasma concentration (Tmax) of multiple oral doses of PTI 808 + PTI 801 co-administered with or without PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 + PTI 801 is co administered with or with out PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through Day 28"
+              },
+              {
+                "measure": "Part 4 CF: Maximum plasma concentration (Cmax) of multiple oral doses of PTI 808 + PTI 801 co-administered with or without PTI 428",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 + PTI 801 is co administered with or with out PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through 28"
+              },
+              {
+                "measure": "Part 4 CF: AUC0-last of multiple oral doses when PTI 808 + PTI 801 is coadministered with or without PTI 428 in adults with CF",
+                "description": "Evaluate the PK profile of PTI 808, PTI 801, and PTI 428 when PTI 808 + PTI 801 is co administered with or without PTI 428 in adults with CF",
+                "timeFrame": "Day 1 through 28"
+              },
+              {
+                "measure": "Part 4 CF: FEV1",
+                "description": "Change in forced expiratory volume in one second (FEV1) over time",
+                "timeFrame": "Baseline through Day 42"
+              },
+              {
+                "measure": "Part 4 CF Sweat Chloride",
+                "description": "Change in sweat chloride concentrations over time",
+                "timeFrame": "Baseline through Day 42"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Part 2 Nasal biomarker",
+                "description": "change in nasal epithelial mRNA and protein over time",
+                "timeFrame": "Baseline up to 14 days"
+              },
+              {
+                "measure": "Part 3 CF Sweat Chloride",
+                "description": "Change in sweat chloride concentrations over time",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 3 CF Nasal biomarker",
+                "description": "Change in nasal epithelial mRNA and protein expression over time",
+                "timeFrame": "Baseline up to 28 days"
+              },
+              {
+                "measure": "Part 4 CF Weight and BMI",
+                "description": "Change in weight and BMI over time",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF Blood Glucose",
+                "description": "Change in blood glucose over time",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF disease-specific health related quality of life",
+                "description": "Change in disease-specific health related quality of life over time",
+                "timeFrame": "Baseline up to 42 days"
+              },
+              {
+                "measure": "Part 4 CF Nasal biomarker",
+                "description": "Change in nasal epithelial mRNA and protein expression over time",
+                "timeFrame": "Baseline up to 42 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Part 1 and Part 2 Inclusion Criteria:\n\n1. Adults aged 18 to 55 years old, inclusive, at the time of informed consent\n2. Body mass index \u226518 and \\<30 kg/m2\n3. Subject must be a non-smoker and non-tobacco user for a minimum of 30 days prior to screening and for the duration of the study.\n4. Subject understands the full nature and purpose of the study, including possible risks and side effects, and is willing and able to comply with all compulsory study procedures and provides informed consent/permission prior to any study procedures being performed.\n5. Females of childbearing potential and males capable of fathering a child must meet the contraception requirements\n\nPart 1 \\& Part 2 Exclusion Criteria:\n\n1. History or current evidence of any clinically significant cardiac, endocrinologic, hematologic, hepatobiliary, immunologic, metabolic, urologic, pulmonary, neurologic, dermatologic, psychiatric, renal, or other major disease, as determined by the investigator\n2. Prolonged QT interval with Fridericia's correction \\>450 msec at screening\n3. Abnormal liver function as defined by aspartate transaminase (AST), alanine transaminase (ALT), or bilirubin \\>1.5\u00d7 the upper limit of the normal range\n4. Abnormal renal function at screening defined as creatinine clearance \\<90 mL/min using the Cockroft-Gault equation\n5. Clinically significant screening results that would exclude subject from the study (e.g., medical histories, PE, ECGs, vital signs, and laboratory profiles) as deemed by the investigator\n6. Participation in another clinical study or treatment with an investigational agent within 30 days or five half-lives, whichever is longer, prior to Study Day 1\n7. History of cancer within the past 5 years (excluding non-melanoma skin cancer)\n8. History or current evidence of alcohol or drug abuse or dependence within 12 months of screening as determined by the investigator\n9. Positive urine screen for prohibited drugs (cocaine, cannabinoids, nicotine \\[urine cotinine is the detection mechanism for nicotine\\], opiates, barbiturates, amphetamines, and benzodiazepines) or positive alcohol test at screening\n10. Positive blood screen for human immunodeficiency virus (HIV), hepatitis B surface antigen (HBsAg), or hepatitis C virus antibody (HCVAb)\n11. Clinically significant infection within 3 months of screening as determined by the investigator\n12. Known or suspected hypersensitivity or idiosyncratic reaction to study medication or any components thereof\n13. Has donated blood within 3 months of screening or plans to donate blood within 3 months of study completion\n14. Pregnant or nursing women\n15. Any conditions that, in the opinion of the investigator, would make the subject unsuitable for enrollment or could interfere with the subject's participation in or completion of the study\n16. Use of prohibited medications within 14 days prior to dosing of study drug\n\nPart 3 CF Inclusion Criteria:\n\n1. Confirmed diagnosis of CF with the F508del/F508del genotype\n2. Forced expiratory volume in 1 second (FEV1) 40-90% predicted, inclusive\n3. Non-smoker and non-tobacco user for a minimum of 30 days prior to screening\n\nPart 3 CF Exclusion Criteria:\n\n1. Participation in another clinical trial or treatment with an investigational agent within 28 days or 5 half-lives, whichever is longer, prior to Study Day 1\n2. History of cancer within the past 5 years (excluding cervical cancer in situ with curative therapy for at least one year prior to screening and non-melanoma skin cancer)\n3. History of organ transplantation\n4. Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness (as determined by the investigator) requiring an increase or addition of medication, such as antibiotics or corticosteroids, within 14 days of Day 1\n5. Initiation of any new chronic therapy (e.g., ibuprofen, hypertonic saline, azithromycin, Pulmozyme\u00ae, Cayston\u00ae, TOBI\u00ae)) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days prior to Day 1\n6. History or current evidence of alcohol or drug abuse or dependence within 12 months of screening as determined by the investigator\n7. Pregnant or nursing women\n8. Currently taking or has taken a CFTR modulator within 30 days prior to initial dose of study drugs\n\nPart 4 CF Inclusion Criteria:\n\n1. Confirmed diagnosis of CF with either the F508del CFTR homozygous genotype on record or for heterozygote subjects, only one copy of the F508del CFTR mutation on record\n2. Forced expiratory volume in 1 second (FEV1) 40-90% predicted, inclusive\n3. Non-smoker and non-tobacco user for a minimum of 30 days prior to screening\n\nPart 4 CF Exclusion Criteria:\n\n1. Participation in another clinical trial or treatment with an investigational agent within 28 days or 5 half-lives, whichever is longer, prior to Study Day 1\n2. History of cancer within the past 5 years (excluding cervical cancer in situ with curative therapy for at least one year prior to screening and non-melanoma skin cancer)\n3. History of organ transplantation\n4. Hospitalization, sinopulmonary infection, CF exacerbation, or other clinically significant infection or illness (as determined by the investigator) requiring an increase or addition of medication, such as antibiotics or corticosteroids, within 28 days of Day 1\n5. Initiation of any new chronic therapy (e.g., ibuprofen, hypertonic saline, azithromycin, Pulmozyme\u00ae, Cayston\u00ae, TOBI\u00ae)) or any change in chronic therapy (excluding pancreatic enzyme replacement therapy) within 28 days of Day 1\n6. History or current evidence of alcohol or drug abuse or dependence within 12 months of screening as determined by the investigator\n7. Pregnant or nursing women\n8. Currently taking or has taken a CFTR modulator within 14 days prior to the screening visit",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Cassandra Key, MD",
+                "affiliation": "ICON Early Phase Services (Parts 1 & 2)",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              },
+              {
+                "name": "Patrick Flume, MD",
+                "affiliation": "Medical University of South Carolina (Parts 3 & 4)",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Banner University of Arizona Medical Center",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "Stanford University Medical Center",
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "facility": "National Jewish Health",
+                "city": "Denver",
+                "state": "Colorado",
+                "zip": "80206",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.73915,
+                  "lon": -104.9847
+                }
+              },
+              {
+                "facility": "Central Florida Pulmonary Group",
+                "city": "Altamonte Springs",
+                "state": "Florida",
+                "zip": "32803",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.66111,
+                  "lon": -81.36562
+                }
+              },
+              {
+                "facility": "Emory Children's Center",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30322",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Northwestern Memorial Hospital",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Johns Hopkins University",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21287",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Michigan Medicine, University of Michigan",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "Harper University Hospital",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48201",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Children's Mercy",
+                "city": "Kansas City",
+                "state": "Missouri",
+                "zip": "64108",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.09973,
+                  "lon": -94.57857
+                }
+              },
+              {
+                "facility": "Billings Clinic",
+                "city": "Billings",
+                "state": "Montana",
+                "zip": "59101",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 45.78329,
+                  "lon": -108.50069
+                }
+              },
+              {
+                "facility": "University of Nebraska Medical Center",
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68198",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "facility": "Dartmouth Hitchcock Medical Center",
+                "city": "Lebanon",
+                "state": "New Hampshire",
+                "zip": "03756",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.64229,
+                  "lon": -72.25176
+                }
+              },
+              {
+                "facility": "New York Medical College",
+                "city": "Valhalla",
+                "state": "New York",
+                "zip": "10595",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.07482,
+                  "lon": -73.77513
+                }
+              },
+              {
+                "facility": "University of North Carolina at Chapel Hill",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27517",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "ICON Early Phase Services",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78209",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "University of Utah",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84132",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              },
+              {
+                "facility": "John Hunter Hospital",
+                "city": "Lambton",
+                "state": "New South Wales",
+                "zip": "2305",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -32.91667,
+                  "lon": 151.7
+                }
+              },
+              {
+                "facility": "Universitair ziekenhuis Brussel",
+                "city": "Brussels",
+                "zip": "1090",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.85045,
+                  "lon": 4.34878
+                }
+              },
+              {
+                "facility": "UZ Leuven",
+                "city": "Leuven",
+                "zip": "3000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "St. Paul's Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6Z1Y6",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CHUM)",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X3E4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "McGill University Health Centre",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H4A3J1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Institut universitaire de cardiologie et de pneumologie de Qu\u00e9bec-Universit\u00e9 Laval",
+                "city": "Qu\u00e9bec",
+                "zip": "G1V4G5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 46.81228,
+                  "lon": -71.21454
+                }
+              },
+              {
+                "facility": "University of Copenhagen Rigshospitalet",
+                "city": "Copenhagen",
+                "zip": "2100",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "H\u00f4pital Pasteur",
+                "city": "Nice",
+                "state": "Alpes-Maritimes",
+                "zip": "06001",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.70313,
+                  "lon": 7.26608
+                }
+              },
+              {
+                "facility": "H\u00f4pital Haut L\u00e9v\u00eaque",
+                "city": "Pessac",
+                "state": "Gironde",
+                "zip": "33600",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 44.80565,
+                  "lon": -0.6324
+                }
+              },
+              {
+                "facility": "H\u00f4pital Guillaume-et-Ren\u00e9-Laennec",
+                "city": "Nantes",
+                "state": "Loire-Atlantique",
+                "zip": "44093",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.21725,
+                  "lon": -1.55336
+                }
+              },
+              {
+                "facility": "H\u00f4pital Maison Blanche Maladies respiratoires et allergologie",
+                "city": "Reims",
+                "state": "Marne",
+                "zip": "51092",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 49.26526,
+                  "lon": 4.02853
+                }
+              },
+              {
+                "facility": "Hospices Civils de Lyon",
+                "city": "Lyon",
+                "zip": "69495",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.74906,
+                  "lon": 4.84789
+                }
+              },
+              {
+                "facility": "H\u00f4pital Cochin",
+                "city": "Paris",
+                "zip": "75014",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Charit\u00e9 Universit\u00e4tsmedizin Berlin",
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "University Hospital Cologne",
+                "city": "Cologne",
+                "zip": "50937",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.93333,
+                  "lon": 6.95
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Essen",
+                "city": "Essen",
+                "zip": "45239",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.45657,
+                  "lon": 7.01228
+                }
+              },
+              {
+                "facility": "Klinikum der J.W. Goethe Universit\u00e4t",
+                "city": "Frankfurt",
+                "zip": "60590",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.68333,
+                  "lon": 10.53333
+                }
+              },
+              {
+                "facility": "Klinikum des Universit\u00e4t M\u00fcnchen",
+                "city": "M\u00fcnchen",
+                "zip": "81377",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.60698,
+                  "lon": 13.31243
+                }
+              },
+              {
+                "facility": "Auckland Clinical Studies Ltd.",
+                "city": "Grafton",
+                "state": "Auckland",
+                "zip": "1010",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -36.86029,
+                  "lon": 174.76566
+                }
+              },
+              {
+                "facility": "Royal Devon and Exeter Hospital",
+                "city": "Exeter",
+                "state": "Devon",
+                "zip": "EX2 5DW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.7236,
+                  "lon": -3.52751
+                }
+              },
+              {
+                "facility": "Western General Hospital",
+                "city": "Edinburgh",
+                "state": "Scotland",
+                "zip": "EH42XU",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Birmingham Heartlands Hospital",
+                "city": "Birmingham",
+                "state": "West Midlands",
+                "zip": "B9 5SS",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Belfast City Hospital",
+                "city": "Belfast",
+                "zip": "BT9 7AB",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "facility": "King's College Hospital",
+                "city": "London",
+                "zip": "SE59RS",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "University Hospital Southampton",
+                "city": "Southampton",
+                "zip": "SO16 6YD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.90395,
+                  "lon": -1.40428
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

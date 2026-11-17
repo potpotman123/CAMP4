@@ -1,0 +1,241 @@
+{
+  "integrated_id": "systemic:sys_d5671fca356a",
+  "asset": "Vebeglogene autotemcel",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=Vebeglogene+autotemcel",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06308159",
+            "orgStudyIdInfo": {
+              "id": "LT02-101"
+            },
+            "organization": {
+              "fullName": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Open-label Study of a Gene Therapy Product (Vebeglogene Autotemcel) in Transfusion Dependent Beta-Thalassemia",
+            "officialTitle": "An Open-label Clinical Trial of Ex Vivo Beta-globin Lentiviral Vector Transduction of Autologous CD34+HSPCs (Vebeglogene Autotemcel) for the Treatment of Transfusion Dependent Beta-thalassemia Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-05-11",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-08-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-08-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-06",
+            "studyFirstSubmitQcDate": "2024-03-06",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an interventional study to evaluate the safety and efficacy of autologous Hematopoietic Stem and Progenitor Cells (HSPCs) transduced with lentiviral vector encoding functional hemoglobin subunit beta (HBB) gene in patients with transfusion-dependent beta-thalassemia.",
+            "detailedDescription": "The participant's autologous HSPCs will be transduced with the self-inactivating lentiviral vector, carrying the functional HBB gene.\n\nStudy duration per participant is approximately 27 months including an approximately 30-day screening/baseline period, an approximately 60-day mobilization and product manufacture, an approximately 10-day myeloablative conditioning, 1 treatment day, and an approximately 24-month study observation period.\n\nThe endpoints will be used to assess the safety and efficacy profiles in patients with transfusion-dependent beta-thalassemia."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Vebeglogene autotemcel",
+                "type": "EXPERIMENTAL",
+                "description": "One-time infusion of\u22655\u00d710\\^6/kg beta-globin lentiviral vector transduced HSPCs",
+                "interventionNames": [
+                  "Drug: Vebeglogene autotemcel"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Vebeglogene autotemcel",
+                "description": "Autologous HSPCs transduced with self-inactivating lentiviral vector encoding functional HBB gene and resuspended in cryopreservative solution in the final immediate container for the intended medical use.",
+                "armGroupLabels": [
+                  "Vebeglogene autotemcel"
+                ],
+                "otherNames": [
+                  "Beta-globin lentiviral vector transduced autologous HSPCs"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Time and duration of the subject's hemoglobin (Hb)\u22659.0 g/dL without receiving red blood cell infusion",
+                "timeFrame": "From baseline to Month 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The prevalence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+                "description": "Participants are monitored for safety from baseline up to the end of the follow-up period.",
+                "timeFrame": "From baseline to Month 24"
+              },
+              {
+                "measure": "The reduction of red blood cells (RBCs) transfusion requirement after product infusion compared to previous transfusion records",
+                "description": "The annual number of RBCs transfusions prior to product infusion will be compared to the annual number of RBCs transfusions post-infusion, and the requirement reduction duration should be reported.",
+                "timeFrame": "From infusion to Month 24"
+              },
+              {
+                "measure": "Number of days required to achieve successful neutrophil and platelet engraftment",
+                "description": "Neutrophil engraftment is defined as the time to the first of 3 consecutive days of absolute neutrophil counts (ANC)\u22650.5\u00d710\\^9/L post-infusion without transfusion. Platelet engraftment is defined as the time to the first of 3 consecutive days of platelet values\u226520\u00d710\\^9/L post-infusion without transfusion.",
+                "timeFrame": "From infusion to Month 24"
+              },
+              {
+                "measure": "Vector copy number (VCN) in peripheral blood over time",
+                "description": "Quantification of the lentiviral vector copy number in individual peripheral blood cells will be conducted to measure the transduction of HSPCs.",
+                "timeFrame": "From baseline to Month 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients or parent(s)/legal guardian(s) willing and able to complete the informed consent process and comply with study procedures and visit schedules.\n* Diagnosis of beta-thalassemia and a history of RBCs transfusions.\n* Documented baseline, or pretransfusion, Hb\u22647 g/dL.\n* Availability of an adequate and well-documented transfusion history.\n\nExclusion Criteria:\n\n* Active bacterial, viral, fungal, or parasitic infection.\n* A white blood cell (WBC) counts\\<3\u00d710\\^9/L, and/or platelet counts\\<100\u00d710\\^9/L not related to hypersplenism.\n* Uncorrected bleeding disorder.\n* Presence of severe diseases that judged not compatible with the study procedures, such as severe hepatic disease, kidney disease, lung disease, and/or cardiovascular disease.\n* Uncontrolled seizure disorder.\n* Any evidence of severe iron overload that, in the investigator's opinion, warrants exclusion.\n* Prior autologous hematopoietic stem cell transplantation.\n* Prior receipt of gene therapy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "920th Hospital of Joint Logistics Support Force of People's Liberation Army of China",
+                "city": "Kunming",
+                "state": "Yunnan",
+                "zip": "650100",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 25.03889,
+                  "lon": 102.71833
+                }
+              },
+              {
+                "facility": "Kunming Hope of Health Hospital",
+                "city": "Kunming",
+                "state": "Yunnan",
+                "zip": "650200",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 25.03889,
+                  "lon": 102.71833
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

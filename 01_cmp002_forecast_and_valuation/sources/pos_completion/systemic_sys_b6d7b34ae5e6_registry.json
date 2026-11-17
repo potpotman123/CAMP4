@@ -1,0 +1,376 @@
+{
+  "integrated_id": "systemic:sys_b6d7b34ae5e6",
+  "asset": "PVT201",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=PVT201",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06798454",
+            "orgStudyIdInfo": {
+              "id": "PVT201_C1_001"
+            },
+            "organization": {
+              "fullName": "Parvus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Single Ascending Dose Study to Evaluate Safety Tolerability, Pharmacokinetics, and Pharmacodynamics of PVT201 in Healthy Subjects and Patients (PBC/PSC)",
+            "officialTitle": "A Phase 1, First-In-Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of PVT201 Following Randomized, Double-blind, Placebo-controlled Single Ascending Doses in Healthy Subjects and Patients (PBC/PSC)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-04-23",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-04-23",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-10-08",
+            "studyFirstSubmitQcDate": "2025-01-22",
+            "studyFirstPostDateStruct": {
+              "date": "2025-01-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Parvus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Avance Clinical Pty Ltd.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to learn what happens to PVT201 when it enters your body and how it affects your immune system. It will also learn about the safety of PVT201 after a single dose. The main questions it aims to answer are:\n\nWill participants experience any side effects when taking PVT201? How long does it take PVT201 to leave your body after you take it?\n\nHealthy volunteers will:\n\nstay in the clinic for two nights, get one dose of PVT201 or a placebo intravenously (through a vein) on Day 1, have blood drawn periodically throughout their stay and be monitored for side effects, and return to the clinic approximately one week after their dose for a final study visit.\n\nPatients with primary biliary cholangitis (PBC) or primary sclerosing cholangitis (PSC) will have the same procedures performed as healthy volunteers; however, none of the patients will receive placebo (all patients will be given PVT201).",
+            "detailedDescription": "This is a randomized, double-blind, placebo-controlled, single ascending dose, multi-cohort study conducted in healthy participants and patients with PBC/PSC.\n\nHealthy adult participants will be enrolled to 1 of 4 main cohorts (Cohorts 1-4; 6 participants per cohort), and randomized to receive single ascending doses of PVT201 or placebo.\n\nDosing in each cohort begins with two sentinel subjects randomized such that one will receive PVT201 and the other will receive placebo (normal saline; 0.9% sodium chloride). The safety and tolerability of each sentinel participant will be monitored in the clinic until 24 hours post-dose. Following completion of Day 2 assessments for sentinel participants, all available safety/tolerability information will be reviewed prior to making the decision to dose the remaining participants in each cohort. Participants will be discharged after Day 2 assessments have been completed, and will return to the clinic for a final study visit on Day 7.\n\nAfter the completion of each cohort, the decision to advance to the next dose cohort will be made by the Safety Review Committee (SRC) following review of safety and tolerability data of at least 4 of 6 participants, up to and including the Day 7 visit.\n\nCohorts will be dosed in an escalating order, unless otherwise indicated by the Safety Review Committee. At the discretion of the Sponsor and Safety Review Committee, healthy adult participants may be enrolled in up to one additional cohorts (6 participants per cohort) and randomized to receive single doses of PVT201 or placebo (ratio 2:1 active:placebo), to achieve the objectives of the study. If an additional cohort is required, it will commence with two sentinels, with one of the two sentinels randomized to receive PVT201 and the other randomized to receive placebo.\n\nAfter completion of a minimum of 4 cohorts and with the approval of the SRC, the final cohort of the study will enroll up to 6 patients diagnosed with either PBC or PSC (of which at least half of the participants must have PBC). This cohort will not be blinded or placebo controlled, but will commence with one sentinel subject that will be monitored as noted above for previous cohorts prior to subsequent subject dosing. The dose level of the cohort will be the highest dose administered in the previous cohorts that was deemed safe and well tolerated by the SRC. All study visits and procedures noted for the healthy volunteer cohorts will also apply to the PBC/PSC patient cohort."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cholangitis (PBC)"
+            ],
+            "keywords": [
+              "first-in-human",
+              "healthy volunteer",
+              "single ascending dose",
+              "PBC",
+              "PSC",
+              "randomized"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "The treatment assignment of the healthy volunteer cohorts to either PVT201 or placebo will be masked (double-blind); however, the final cohort of patients with PBS/PSC will be open label (all PBC/PSC patients will receive PVT201)",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PVT201",
+                "type": "EXPERIMENTAL",
+                "description": "PVT201 will be administered as a single IV dose. Planned doses are:\n\nCohort 1 Healthy Volunteers: A mg/kg Cohort 2 Healthy Volunteers: B mg/kg Cohort 3 Healthy Volunteers: C mg/kg Cohort 4 Healthy Volunteers: D mg/kg Final Cohort PBC/PSC Patients: the highest dose that was deemed safe and well tolerated in the Healthy Volunteer cohorts",
+                "interventionNames": [
+                  "Drug: PVT201"
+                ]
+              },
+              {
+                "label": "Placebo (normal saline, 0.9% sodium chloride)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "All Healthy Volunteer cohorts will be administered either PVT201 or placebo in a ratio of 2:1 PVT201:placebo. Patient receiving placebo will be administered an equivalent volume of normal saline as a single IV dose.\n\nThe PBC/PSC patients in the final cohort will not be administered placebo - all patients in this cohort will receive PVT201.",
+                "interventionNames": [
+                  "Other: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PVT201",
+                "description": "Navacims are a novel class of nano-particle-based therapeutics being developed for the treatment of autoimmune diseases. A navacim consists of an iron oxide core surrounded by dextran that has been linked to multiple copies of a major histocompatibility complex Class II molecule and peptide. The peptide representing a disease-associated autoantigen and its paired MHC II molecule are specific to each autoimmune disease, and will be recognized by the T-cell antigen receptor.\n\nPVT201 is a navacim that will be used to target human PDC-reactive effector T-cells in patients with primary biliary cholangitis (PBC), converting them to Type 1 regulatory cells.\n\nIV delivery of navacims in nonclinical models of PBC induced immune tolerance and attenuation of disease pathology without impairing normal immunity to vaccines or viral and bacterial infections.\n\nPVT201 will be administered intravenously.",
+                "armGroupLabels": [
+                  "PVT201"
+                ],
+                "otherNames": [
+                  "Navacim"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Placebo",
+                "description": "Participants randomized to placebo will be administered normal saline IV.",
+                "armGroupLabels": [
+                  "Placebo (normal saline, 0.9% sodium chloride)"
+                ],
+                "otherNames": [
+                  "normal saline",
+                  "0.9% NaCl"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include incidence, severity, and relationship of adverse events (AEs) and serious adverse events (SAEs) (including withdrawals due to AEs);",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in vital signs (temperature measured in degrees Celsius)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in vital signs (heart rate measured in beats per minute)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in vital signs (blood pressure measured in mmHg)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in clinical laboratory parameters (hematology)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in clinical laboratory parameters (serum chemistry including liver function tests).",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in clinical laboratory parameters (coagulation parameters).",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in clinical laboratory parameters (urinalysis).",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in electrocardiogram (ECG) parameters: PR Interval (msec)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in electrocardiogram (ECG) parameters: QRS Duration (msec)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in electrocardiogram (ECG) parameters: QT Interval (msec)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              },
+              {
+                "measure": "To evaluate the safety and tolerability of a single IV dose of PVT201 in healthy participants and in PBC/PSC patients.",
+                "description": "Safety endpoints include change from baseline in electrocardiogram (ECG) parameters: QTcF (msec)",
+                "timeFrame": "To be measured at Baseline, Day 1, Day 2, and Day 7 (~7 days)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include area under the concentration-time curve from 0 to time of last quantifiable concentration (AUClast).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include maximum concentrations (Cmax).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include time at which the maximum concentration is observed (tmax).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include (but are not limited to) apparent terminal elimination half-life (t1/2).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include (but are not limited to) total apparent body clearance (CL).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include area under the concentration-time curve from 0 to infinity (AUCinf).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              },
+              {
+                "measure": "To measure the pharmacokinetics (PK) of PVT201 in plasma following a single IV dose in healthy participants and in PBC/PSC patients.",
+                "description": "Pharmacokinetic parameters to be evaluated include (but are not limited to) apparent volume of distribution (Vz).",
+                "timeFrame": "Day 1: pre-dose and t= 5 min, 10 min, 15 min, 20 min, 30 min, 45 min, 1 hr, 2 hr, 4 hr, 6 hr, 8 hr, 12 hr; Day 2 = 24 hr; Day 7"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "HEALTHY VOLUNTEER ELIGIBILITY CRITERIA\n\nInclusion Criteria:\n\n1. Healthy male or female, aged between 18 and 65 years, inclusive at Screening.\n2. Body mass index (BMI) of 18.0 to 32.0 kg/m2, inclusive, with body weight \u2265 50.0 kg and \\< 120.0 kg.\n3. Carry the HLA DRB4\\*0101 or DRB4\\*0103 allele.\n4. Participant is medically healthy (in the opinion of the Investigator), as determined by pre-study medical history and without CS abnormalities.\n5. Female participants must be of non-child-bearing potential, or, if of child-bearing potential:\n\n   1. Must have a negative serum pregnancy test at the Screening visit and a negative urine pregnancy test on Day -1.\n   2. Must agree not to donate ova or attempt to become pregnant from the time of signing consent until at least 30 days after the dose of study drug.\n   3. If not exclusively in a same-sex relationship or abstinent as a committed lifestyle, must agree to use adequate contraception established at Screening until at least 30 days after the dose of study drug.\n6. Male participants must:\n\n   1. Agree not to donate sperm from the time of signing consent until at least 90 days after the dose of study drug.\n   2. If engaging in sexual intercourse with a female partner who could become pregnant, must agree to use adequate contraception from the time of signing consent until at least 90 days after the dose of study drug.\n\nExclusion Criteria:\n\n1. Any active infection that requires systemically absorbed antibiotic, antifungal, antiparasitic or antiviral medications.\n2. History of hypersensitivity reaction, anaphylaxis or other CS reactions or known allergy to the study drug or its ingredients including but not limited to dextran.\n3. History of any clinically significant disorder which, in the opinion of the Investigator would make implementation of the protocol or interpretation of study results difficult, or that would put the participant at risk by participating in the study.\n4. Participant has undergone splenectomy or thymectomy.\n5. Laboratory results at Screening that indicate inadequate renal function, with estimated creatinine clearance of \\< 60 mL/min/1.73m2.\n6. Liver function test results elevated more than 1.5-fold above the upper limit of normal for GGT, ALP, AST or ALT.\n7. Total bilirubin \\> 1.5-fold above the upper limit of normal.\n8. Use of any prescription medication within 14 days prior to the dose of study drug and/or over-the-counter medication/vitamins/supplements/herbal/plant-derived medications within 7 days prior to the dose of study drug.\n9. Concurrent enrollment in another clinical study, or participation in another clinical study within 30 days prior to Screening.\n10. Positive alcohol breath test at Screening, upon admission to the clinic on Day -1.\n11. Positive urine drugs of abuse test at Screening, upon admission to the clinic on Day -1.\n12. Participant has a positive cotinine test upon admission to the clinic on Day -1.\n13. Participant is breastfeeding/lactating or pregnant, or planning to breastfeed or become pregnant during the study.\n14. Positive Hepatitis B surface antigen (HBsAg), Hepatitis C (HepC) virus antibody, or human immunodeficiency (HIV) antibody tests.\n15. Known substance abuse or medical, psychological, or social conditions that in the opinion of the study doctor would make the participant unsuitable for this study, including inability to cooperate fully with the requirements of the study protocol or likelihood of noncompliance with any study requirements.\n\nPBC/PSC PATIENT ELIGIBILITY CRITERIA\n\nInclusion Criteria:\n\n1. Male or female, aged between 18 and 75 years, inclusive at Screening.\n2. Body mass index (BMI) of 18.0 to 35.0 kg/m2, inclusive, with body weight \u2265 50.0 kg and \\< 120.0 kg.\n3. Carry the HLA DRB4\\*0101 or DRB4\\*0103 allele.\n4. Participant is medically healthy (in the opinion of the Investigator), as determined by pre-study medical history and without CS abnormalities.\n5. Male or female with a diagnosis of primary biliary cholangitis (PBC) or primary sclerosing cholangitis (PSC).\n6. For subjects on any medication used to treat the symptoms of PBC or PSC (examples: UDCA, OCA, seladelpar), subjects must be on a stable dose for a minimum of 2 months prior to Day 1 and expected to stay on treatment for duration of study participation OR must have been off treatment for at least 2 months prior to Day 1.\n7. Subjects with inflammatory bowel disease (IBD) must have been on stable therapy \\> 2 months prior to Day 1.\n8. Female participants must be of non-child-bearing potential, or, if of child-bearing potential:\n\n   1. Must have a negative serum pregnancy test at the Screening visit and a negative urine pregnancy test on Day -1,\n   2. Must agree not to donate ova or attempt to become pregnant from the time of signing consent until at least 30 days after the dose of study drug,\n   3. If not exclusively in a same-sex relationship or abstinent as a committed lifestyle, must agree to use adequate contraception established at Screening until at least 30 days after the dose of study drug.\n9. Male participants must:\n\n   1. Agree not to donate sperm from the time of signing consent until at least 90 days after the dose of study drug,\n   2. If engaging in sexual intercourse with a female partner who could become pregnant, must agree to use adequate contraception from the time of signing consent until at least 90 days after the dose of study drug.\n\nExclusion Criteria:\n\n1. Current or a history of hepatic decompensation events.\n2. Subject is diagnosed with Gilbert's Syndrome.\n3. Subjects who have previously undergone liver transplantation.\n4. History of ileectomy, colostomy, colectomy, splenectomy, or thymectomy.\n5. Any active infection that requires systemically absorbed antibiotic, antifungal, antiparasitic or antiviral medications.\n6. Co-existing liver or biliary diseases, such as choledocholithiasis, acute or chronic hepatitis, autoimmune hepatitis, alcoholic liver disease, acute infection of bile duct system or gall bladder, history of gastrointestinal bleeding (secondary to portal hypertension), hepatorenal syndrome, cholangiocarcinoma diagnosed or suspected liver cancers.\n7. Presence of conditions that may cause non-hepatogenic ALP elevations (eg, Paget's disease) or conditions that may lead to a life expectancy of less than 2 years.\n8. History of active malignancy within the past year except for basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix that has been successfully treated.\n9. Positive Hepatitis B surface antigen (HBsAg), Hepatitis C (HepC) virus antibody, or human immunodeficiency (HIV) antibody tests.\n10. Laboratory Screening Results:\n\n    1. AST \\>5 x ULN,\n    2. ALT \\>5 x ULN,\n    3. ALP \\> 10 x ULN,\n    4. Total bilirubin \\> 1.5 x ULN,\n    5. Albumin \\< 35 g/L,\n    6. Total white blood cells (WBC) \\<3000 cells/mm3,\n    7. Absolute neutrophil count (ANC) \\<1500 cells/mm3,\n    8. Platelet count \\<130,000/mm3, unless on stable anticoagulants at the discretion of the investigator,\n    9. Prothrombin time (international normalized ratio, INR) \\>1.3,\n    10. Serum creatinine \\>175 \u00b5mol/L or creatinine clearance \\<50 mL/min.\n11. History of hypersensitivity reaction, anaphylaxis or other CS reactions or known allergy to the study drug or its ingredients including but not limited to dextran.\n12. Positive alcohol breath test at Screening, upon admission to the clinic on Day -1.\n13. Positive urine drugs of abuse test at Screening, upon admission to the clinic on Day -1.\n14. Participant has a positive cotinine test at Screening, upon admission to the clinic on Day -1.\n15. Participant is breastfeeding/lactating or pregnant, or planning to breastfeed or become pregnant during the study.\n16. Immunosuppressant therapies including methotrexate, azathioprine, or long-tern systemic corticosteroids within 2 months prior to Day 1.\n17. Treatment with any other investigational therapy or device within 6 weeks or within 5 half-lives, whichever is longer, prior to Day 1.\n18. Known substance abuse or medical, psychological, or social conditions other than PBC or PSC, or prior therapy that in the opinion of the PI would make the participant unsuitable for this study, including inability to cooperate fully with the requirements of the study protocol or likelihood of noncompliance with any study requirements.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "CMAX Clinical Research",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "zip": "5000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000077330",
+                "term": "Saline Solution"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000077324",
+                "term": "Crystalloid Solutions"
+              },
+              {
+                "id": "D007552",
+                "term": "Isotonic Solutions"
+              },
+              {
+                "id": "D012996",
+                "term": "Solutions"
+              },
+              {
+                "id": "D004364",
+                "term": "Pharmaceutical Preparations"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

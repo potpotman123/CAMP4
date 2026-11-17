@@ -1,0 +1,943 @@
+{
+  "asset": "AMT-130",
+  "query": "AMT-130 OR rAAV5-miHTT",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=AMT-130+OR+rAAV5-miHTT&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04120493",
+            "orgStudyIdInfo": {
+              "id": "CT-AMT-130-01"
+            },
+            "organization": {
+              "fullName": "UniQure Biopharma B.V.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Proof-of-Concept (POC) Study With AMT-130 in Adults With Early Manifest Huntington's Disease",
+            "officialTitle": "A Phase 1/2, Randomized, Double-Blind, Sham Control and Open-Label Study to Explore Safety, Tolerability, and Efficacy Signals of Multiple Doses of Striatally-Administered rAAV5-miHTT Total Huntingtin Gene (HTT) Lowering Therapy (AMT-130) in Early Manifest Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-10",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-09-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-06",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-09-30",
+            "studyFirstSubmitQcDate": "2019-10-07",
+            "studyFirstPostDateStruct": {
+              "date": "2019-10-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-10-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-10-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "UniQure Biopharma B.V.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is the first study of AMT-130 in patients with early manifest HD and is designed to establish safety and proof-of-concept (PoC). CT-AMT-130-01 is a Phase 1/2, multicenter, first-in-human (FIH) study. The first three cohorts of the study have completed enrollment, including the randomized, double-blind, sham-controlled cohorts. Cohort 4 is open-label.\n\nCohort 4 participants will receive high dose AMT-130.",
+            "detailedDescription": "AMT-130 is an investigational, single administration gene therapy intended to modify the disease course for HD. Preclinical studies have shown that AMT-130 lowers huntingtin protein and is associated with decreased progression of Huntington's Disease signs in animal models.\n\nCohort 1, 2, and 3 evaluated low dose and high dose AMT-130.\n\nCohort 4 will further evaluate the safety of high dose AMT-130 in participants with low striatal volume. All participants in Cohort 4 will receive high dose AMT-130 and will receive pre- and post-operative dexamethasone.\n\nCohorts 1 and 2 participants continue follow-up visits through 6 years after receipt of AMT-130. Cohorts 3 and 4 participants continue follow-up visits through 5 years after receipt of AMT-130."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ],
+            "keywords": [
+              "Gene therapy",
+              "AAV (adeno-associated virus)",
+              "serotype 5 AAV (adeno-associated virus)",
+              "serotype 5",
+              "Viral vector",
+              "miHTT",
+              "muHTT",
+              "Huntington's Disease (HD)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 43,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Low dose rAAV5-miHTT (6x10\\^12 gc/subject).\n\nNote: gc = genome copies",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "High dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              },
+              {
+                "label": "Cohorts 1, 2",
+                "type": "SHAM_COMPARATOR",
+                "description": "Imitation (sham) surgery",
+                "interventionNames": [
+                  "Other: Imitation (sham) surgery"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Low dose rAAV5-miHTT (6x10\\^12 gc/subject).\n\nHigh dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              },
+              {
+                "label": "Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "High dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "intra-striatal rAAV5-miHTT",
+                "description": "One time MRI-guided stereotaxic infusion of rAAV5-miHTT into the brain",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4"
+                ],
+                "otherNames": [
+                  "AMT-130"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Imitation (sham) surgery",
+                "description": "Simulated surgical procedure with skin incisions only; no intrastriatal injections and no burr holes through the skull",
+                "armGroupLabels": [
+                  "Cohorts 1, 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number and type of Adverse Events (AE)",
+                "description": "Safety will be assessed by adverse events (AEs) related to clinical safety laboratory tests, vital signs, electrocardiograms (ECGs), neurological and physical examinations, rAAV5 vector shedding, immunogenicity response (Cohorts 1, 2 \\& 3), suicidality risk \\[Columbia-Suicide Severity Rating Scale \\[C-SSRS)\\], changes in global cognitive functioning \\[Montreal Cognitive Assessment Scale (MoCA)\\] and MRI measures of edema, inflammation, volume loss and structural changes.",
+                "timeFrame": "12 months (Cohorts 1 & 2) and 12 months (Cohort 3)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Duration of persistence of AMT-130 in the brain",
+                "description": "Change over time in levels of AMT-130-derived Vector DNA Expression in the Cerebrospinal Fluid (CSF)",
+                "timeFrame": "Collected for duration of study through month 72 (Cohorts 1 & 2) and through month 16 (Cohorts 3 & 4)"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "CSF Mutant Protein (fM)",
+                "description": "Will be used as an exploratory biomarker to measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 72"
+              },
+              {
+                "measure": "CSF/Serum Neurofilament Light Chain (pg/mL)",
+                "description": "Will be used as an exploratory biomarker to measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 72"
+              },
+              {
+                "measure": "Unified Huntington Disease Rating Scale (UHDRS)",
+                "description": "The UHDRS will assess changes from baseline in summary scores of domains of motor function, cognitive function, behavioral function, and functional abilities.",
+                "timeFrame": "Collected for duration of study through month 72"
+              },
+              {
+                "measure": "Quantitative Motor (Q-Motor) Testing",
+                "description": "Q-Motor testing will measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 72 (Cohorts 1, 2 & 3)"
+              },
+              {
+                "measure": "Magnetic Resonance Imaging (MRI)",
+                "description": "MRI assessments will include whole brain volume, striatal region volumes, white matter volume, gray matter volume, ventricular volume, cortical thickness, and diffusion MRI measures.",
+                "timeFrame": "Collected for duration of study through month 72"
+              },
+              {
+                "measure": "Neuro-QoL Measures",
+                "description": "The Neuro-QoL is a brief, reliable, valid, standardized set of patient reported, Health Related Quality of Life (HRQoL) measures for people living with neurological conditions.",
+                "timeFrame": "Collected for duration of study through month 72"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Able and willing to provide written informed consent prior to the study and study-related procedure\n* Participants 25 to 65 years of age of both sexes\n* Cohorts 1, 2, \\& 4: Early manifest HD as defined by a UHDRS total functional capacity (TFC) score of 9 to 13 and EITHER a diagnostic confidence level (DCL) of 4 OR a DCL of 3 if the subject either meets the definition of multidimensional manifest HD (UHDRS question 80) or has cognitive symptoms\n* Cohort 3: Early manifest HD as defined by a UHDRS TFC score of \u2265 11 and EITHER a DCL of 4 or a DCL of 3 with either a positive \"Yes\" response to UHDRS Question 80 (multidimensional manifest diagnosis on motor, cognitive, behavioral, functional) or DSM5 criteria for cognitive disorder (Movement Disorder Society Task Force criteria).\n* HTT gene expansion testing with the presence of \u226540 CAG repeats\n* Striatal MRI volume requirements per hemisphere:\n* Cohorts 1, 2, \\& 3: Putamen \u22652.5 cm\\^3 (per side); Caudate \u22652.0 cm\\^3 (per side)\n* Cohort 4: Putamen \\<2.5 cm\\^3 (on either side); Caudate \\<2.0 cm\\^3 (on either side)\n* All HD concomitant medications (addressing motor, behavioral, and cognitive symptoms) must be stable for 3 months prior to Screening with no change in clinical symptoms requiring change in medication prior to anticipated administration procedure\n* Able and willing to comply with all procedures and the study visit schedule as outlined in the protocol\n* All female participants of childbearing potential (FOCP) must have a negative serum pregnancy test at Screening, (and Visit 1A, as appropriate), a negative pregnancy urine dipstick at Baseline, and not be breastfeeding. All FOCPs and sexually mature males must be compliant with a highly effective birth control method.\n\nExclusion Criteria:\n\n* Evidence of suicide risk\n* Receipt of an experimental agent within 60 days or five half-lives prior to Screening or anytime over the duration of this study.\n* Participation in an investigational trial or investigational paradigm (such as exercise/physical activity, cognitive therapy, brain stimulation) within 60 days prior to Screening or anytime over the duration of this study.\n* Presence of an implanted deep brain stimulation device, ventriculoperitoneal or other CSF shunt, or other implanted catheter\n* Any history of gene therapy, RNA or DNA targeted HD specific investigational agents, such as antisense oligonucleotides (ASOs), cell transplantation or any other experimental brain surgery.\n* Any contraindication to 3.0 Tesla MRI as per local guidelines\n* Brain and spinal pathology that may interfere with the surgical delivery of AMT-130 or represents a significant neurologic comorbid disorder\n* Any contraindication to lumbar puncture as per local guidelines\n* Malignancy within 5 years of Screening, except for basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix that has been successfully treated\n* Hospitalization for any major medical or surgical procedure involving general anesthesia within 12 weeks of Screening or planned during the study\n* Current or recurrent disease, (including pre-existing cardiovascular or pulmonary conditions) infection, or other significant concurrent medical condition or medications that could confound clinical and laboratory evaluations or could affect a participant's safety or their ability to undergo the neurosurgical procedure or comply with the procedures and study visit schedule\n* Known or suspected intolerance or hypersensitivity to the investigational product(s), closely-related compounds, or any of the stated ingredients\n* Any known allergy to gadoteridol (ProHance)\n* Screening laboratory values (as measured by the central laboratory): a. Alanine aminotransferase (ALT) \\>2 \u00d7 upper limit of normal (ULN) b. Aspartate aminotransferase (AST) \\>2 \u00d7 ULN c. Total bilirubin \\>2 \u00d7 ULN d. Alkaline phosphatase (ALP) \\>2 \u00d7 ULN e. Creatinine \\>1.5 \u00d7 ULN f. Platelet count \\<100,000/mm3g.Prothrombin time (PT) \\>1.2 \u00d7 ULN h. Partial thromboplastin time (PTT) \\>1.2 \u00d7 ULN\n* Known allergy, sensitivity, or other contraindication to medications in the immunosuppression regimen in this protocol.\n* Any participant with an active infection (e.g., coronavirus disease 2019 \\[COVID-19\\]) at Screening or at the time of treatment that requires medical intervention. Participants may rescreen, or if screened eligible and an open surgical slot is available, may receive treatment after recovery.\n* Cohort 4 ONLY: Inability to establish a safe trajectory to administer AMT-130 to the target structures, as assessed by neuroimaging.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "David H. Margolin, MD, PhD",
+                "affiliation": "uniQure, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Alabama at Birmingham",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35294-0111",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "University of Arizona (Surgical Site Only)",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "University of California, San Francisco",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94158",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              },
+              {
+                "facility": "CenExel Rocky Mountain Clinical Research",
+                "city": "Englewood",
+                "state": "Colorado",
+                "zip": "80113",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.64777,
+                  "lon": -104.98776
+                }
+              },
+              {
+                "facility": "Rush University Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Johns Hopkins University",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21287",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "University of Michigan Department of Neurology",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "Ohio State University",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43210",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "Vanderbilt University Medical Center",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "The University of Texas",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Virginia Commonwealth University VCU School of Medicine, Department of Neurology",
+                "city": "Richmond",
+                "state": "Virginia",
+                "zip": "23298",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.55376,
+                  "lon": -77.46026
+                }
+              },
+              {
+                "facility": "University of Washington Medical Center",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40235521",
+                "type": "DERIVED",
+                "citation": "Pala M, Yilmaz SG. Circular RNAs, miRNAs, and Exosomes: Their Roles and Importance in Amyloid-Beta and Tau Pathologies in Alzheimer's Disease. Neural Plast. 2025 Apr 8;2025:9581369. doi: 10.1155/np/9581369. eCollection 2025."
+              },
+              {
+                "pmid": "38489195",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: March 2024. J Huntingtons Dis. 2024;13(1):1-14. doi: 10.3233/JHD-240017."
+              },
+              {
+                "pmid": "36463457",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: November 2022. J Huntingtons Dis. 2022;11(4):351-367. doi: 10.3233/JHD-229006."
+              },
+              {
+                "pmid": "32250312",
+                "type": "DERIVED",
+                "citation": "Rodrigues FB, Wild EJ. Huntington's Disease Clinical Trials Corner: April 2020. J Huntingtons Dis. 2020;9(2):185-197. doi: 10.3233/JHD-200002."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C005703",
+                "term": "salicylhydroxamic acid"
+              },
+              {
+                "id": "D013514",
+                "term": "Surgical Procedures, Operative"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05243017",
+            "orgStudyIdInfo": {
+              "id": "CT-AMT-130-02"
+            },
+            "organization": {
+              "fullName": "UniQure Biopharma B.V.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy of AMT-130 in European Adults With Early Manifest Huntington's Disease",
+            "officialTitle": "A Phase Ib/II Randomized, Double-Blind Study to Explore Safety, Tolerability, and Efficacy Signals of Multiple Doses of Striatally-Administered rAAV5-miHTT Total Huntingtin Gene (HTT) Lowering Therapy (AMT 130) in Early Manifest Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-03",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-10-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-03",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-10-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-01",
+            "studyFirstSubmitQcDate": "2022-02-07",
+            "studyFirstPostDateStruct": {
+              "date": "2022-02-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-03-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-03-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "UniQure Biopharma B.V.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is the second study of AMT-130 in patients with early manifest HD and is designed as part of an integrated two-study phase I/II program under a single data safety monitoring board (DSMB) with staggered enrollment based upon continued demonstration of safety of AMT-130 administration.\n\nCohort 3 participants will receive either high or low dose (1:1 randomization). Participants enrolled in Cohort 3 will also receive an immunosuppression regimen consisting of dexamethasone, sirolimus, and rituximab.",
+            "detailedDescription": "The aim of the European study is to build upon the safety demonstrated in the first human dose (FHD) randomized, double blind, sham-controlled sequential dose escalation study (CT-AMT-130-01; clinicaltrials.gov NCT04120493) being conducted in the US and expand the number of patients exposed to the two doses to provide sufficient sample size for comparisons of safety and efficacy. CT-AMT-130-02 is a Phase Ib/II open-label (Cohorts 1 \\& 2), randomized (Cohort 3 only) sequential multiple dose study that will be conducted in approximately 5 to 8 European HD centers; 2 of these centers will serve as surgical sites. Both studies will share a common set of clinical, safety, imaging, and biomarker evaluations over 5 years of follow-up. The DSMB will evaluate safety and other parameters to enable the staggered treatment of patients within each of the dosing cohorts\n\nCohort 3 participants will receive either high or low dose AMT-130. Following completion of the Month 36 visit, they will be unblinded to their treatment arm. Cohort 3 will further evaluate the safety and exploratory efficacy data of low or high dose AMT-130. Cohort 3 participants will also receive pre and post-operative immunosuppressant therapies composed of dexamethasone, sirolimus, and rituximab."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "Gene therapy",
+              "AAV (adeno-associated virus)",
+              "serotype 5 AAV (adeno-associated virus)",
+              "serotype 5",
+              "Viral vector",
+              "miHTT",
+              "muHTT",
+              "Huntington's Disease (HD)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "The first cohort will be treated with low dose, and a total of 6 enrolled participants is anticipated. The second cohort will be treated with high dose, and a total of 9 enrolled participants is anticipated. The third cohort is randomized 1:1 high to low dose randomization.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 14,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Low dose AMT-130 (6 \u00d7 10\\^12 gc/subject)",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "High dose AMT-130 (6 \u00d7 10\\^13 gc/subject)",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Low dose AMT-130 (6 \u00d7 10\\^12 gc/subject)\n\nHigh dose AMT-130 (6 \u00d7 10\\^13 gc/subject)",
+                "interventionNames": [
+                  "Genetic: intra-striatal rAAV5-miHTT"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "intra-striatal rAAV5-miHTT",
+                "description": "One time MRI-guided stereotaxic infusion of rAAV5-miHTT into the brain",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3"
+                ],
+                "otherNames": [
+                  "AMT-130"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by Adverse Events",
+                "description": "Evaluation will be assessed by;\n\n\\- Type and incidence of Adverse Events (AEs)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by Vital Signs - Blood Pressure",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in blood pressure (mmHg)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by Vital Signs - Respiratory Rate",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in respiratory rate (BPM)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by Vital Signs - Heart Rate",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in heart rate (BPM)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by Electrocardiograms",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in electrocardiograms (ECGs) for any clinically significant abnormalities or clinically significant worsening. (normal or abnormal)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by changes documented in the neurological examinations",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in neurological examinations including mental status, cranial nerves, sensory, motor, fine motor, reflexes, and gait (normal or abnormal)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by changes documented in the physical examinations",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in physical examinations assessed by physical appearance, HEENT, Neck, Chest and Lungs, Cardiovascular, Abdomen, Musculoskeletal, and Genitourinary (normal or abnormal)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability by number of participants with clinically significant changes in laboratory tests - Clinical Chemistry",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in Clinical Chemistry laboratory tests with clinical significance.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by number of participants with clinically significant laboratory tests - hematology",
+                "description": "Evaluation will be assessed by;\n\n\\- Changes from baseline in hematology laboratory tests with clinical significance.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by number of participants with clinical significant laboratory tests - urinalysis",
+                "description": "Evaluation will be assessed by;\n\n\\- Change from baseline in routine urinalysis test with clinical significance.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability o by number of participants with clinical significant changes in cerebrospinal fluid (CSF) analysis",
+                "description": "Evaluation will be assessed by;\n\n\\- Change from baseline in CSF analysis with clinical significance.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by vector shedding",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in AAV5 vector shedding",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by laboratory testing serum and CSF for biomarkers",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in microglial activation (YKL-40) (pg/mL)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by laboratory testing serum and CSF for biomarkers",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in antibodies against AAV5 (g/L)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by laboratory testing serum and CSF for biomarkers",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in cytokines (pg/mL)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by laboratory testing serum and CSF for biomarkers",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in ELISpot",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by laboratory testing serum and CSF for biomarkers",
+                "description": "Evaluation will be assessed by;\n\n\\- Change over time in astroglial activation (GFAP) (pg/mL)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by cognitive assessment",
+                "description": "Evaluation will be assessed by;\n\n\\- Change from baseline to Day 14 and Month 1 in the Montreal Cognitive Assessment (MoCA)",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Evaluate the safety and tolerability of bilateral striatal delivery of AMT-130 as a total HTT gene lowering therapy in adult subjects with early manifest HD assessed by number of participants with changes in MRI",
+                "description": "Evaluation will be assessed by;\n\n\\- Change from baseline will be measured by edema, inflammation, volume loss, and structural changes as measured by the following MRI pulse sequences, T1, T2 and diffusion MRI (dMRI)",
+                "timeFrame": "6 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Duration of persistence of AMT-130 in the brain",
+                "description": "Change over time in levels of AMT-130-derived Vector DNA Expression in the Cerebrospinal Fluid (CSF)",
+                "timeFrame": "Collected for duration of study through month 60"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "CSF Mutant Protein (fM)",
+                "description": "Will be used as an exploratory biomarker to measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "CSF/Serum Neurofilament Light Chain (pg/mL)",
+                "description": "Will be used as an exploratory biomarker to measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Mean changes from baseline in summary scores for the Unified Huntington Disease Rating Scale (UHDRS)",
+                "description": "The UHDRS will assess changes from baseline in summary scores of domains of motor function, cognitive function, behavioral function, and functional abilities to capture the current disease status.",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Changes over time in Quantitative Motor (Q-Motor) Testing",
+                "description": "Q-Motor testing will measure disease progression and responsiveness to AMT-130 treatment.",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Changes over time in Neurological Disorders Quality of Life in Neurological Disorder Measures (Neuro-QoL)",
+                "description": "The Neuro-QoL is a brief, reliable, valid, standardized set of patient reported, Health Related Quality of Life (HRQoL) measures for people living with neurological conditions.",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Magnetic Resonance Imaging (MRI) - Brain Volumes",
+                "description": "MRI assessments will include whole brain volume, striatal region volumes, white matter volume, gray matter volume, ventricular volume(cm\\^3)",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Magnetic Resonance Imaging (MRI) - Cortical Thickness",
+                "description": "MRI assessments will include cortical thickness (mm)",
+                "timeFrame": "Collected for duration of study through month 60"
+              },
+              {
+                "measure": "Diffusion Magnetic Resonance Imaging (MRI)",
+                "description": "MRI assessments will include diffusion MRI measures mm2/s",
+                "timeFrame": "Collected for duration of study through month 60"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able and willing to provide written informed consent prior to the study and study-related procedure.\n2. Male and female participants 25-65 years of age.\n3. Cohorts 1 \\& 2:\n\n   1. a DCL of 4 OR\n   2. a DCL of 3 with either a positive (\"Yes\") response to the UHDRS Question 80 (multidimensional manifest diagnosis on motor, cognitive, behavioral, functional) or DSM5 criteria for cognitive disorder (American Psychiatric Association, 2013; MDS Task Force criteria).\n4. Cohort 3:\n\n   1. a DCL of 4 OR\n   2. a DCL of 3 with either a positive (\"Yes\") response to the UHDRS Question 80 (multidimensional manifest diagnosis on motor, cognitive, behavioral, functional) or DSM5 criteria for cognitive disorder (American Psychiatric Association, 2013; MDS Task Force criteria).\n5. HTT gene expansion testing with the presence of \u226540 CAG repeats (confirmed by genetic testing at central laboratory).\n6. Striatal MRI volume requirements per hemisphere:\n\n   1. Putamen \u22652.5 cm3 (per side)\n   2. Caudate \u22652.0 cm3 (per side)\n7. All HD concomitant medications (addressing motor, behavioral and cognitive symptoms) must be stable for 3 months prior to Screening with no change in clinical symptoms requiring change in medication prior to anticipated administration procedure.\n8. Able and willing to comply with all procedures and the study visit schedule as outlined in the protocol.\n9. All female participants of childbearing potential (FCOP) must have negative serum pregnancy test at Screening (and Visit 1A, as appropriate), a negative pregnancy urine dipstick at Baseline, and not be breastfeeding. All FOCPs and sexually mature males must be compliant with highly effective birth control method as outlined in Section 4.5.\n\nExclusion Criteria:\n\n1. Evidence of suicide risk, defined as:\n\n   1. Suicide attempt within 1 year prior to Screening (Visit 1/1A)\n   2. Suicidal ideation as defined by a positive response to question 5 on Columbia-Suicide Severity Rating Scale (C-SSRS) Suicidal Ideation Section within 60 days prior to Screening (Visit 1/1A)\n   3. Significant risk of suicide as judged by the Investigator\n2. Receipt of an experimental agent within 60 days or five half-lives prior to Screening or anytime over the duration of this study.\n3. Participation in an investigational trial or investigational paradigm (such as exercise/physical activity, cognitive therapy, brain stimulation, etc.) within 60 days prior to Screening or anytime over the duration of this study.\n4. Presence of an implanted deep brain stimulation device, ventriculoperitoneal or other CSF shunt, or other implanted catheter\n5. Any history of gene therapy, RNA or DNA targeted HD specific investigational agents, such as antisense oligonucleotides (ASOs), cell transplantation or any other experimental brain surgery.\n6. Any contraindication to lumbar puncture or 3.0 Tesla MRI as per local guidelines.\n7. Brain and spinal pathology that may interfere with the surgical delivery of AMT-130 or represents a significant neurologic comorbid disorder.\n8. Any contraindication to 3.0 Tesla MRI as per local guidelines\n9. Malignancy within 5 years of screening, except for basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix that has been successfully treated.\n10. Hospitalization for any major medical or surgical procedure involving general anesthesia within 12 weeks of Screening or planned during the study.\n11. Current or recurrent disease (including pre-existing cardiovascular or pulmonary conditions), infection, or other significant concurrent medical condition or medications that could confound clinical and laboratory evaluations or could affect a participant's safety or their ability to undergo a neurosurgical procedure (10+ hour surgical procedure) or comply with the procedures and study visit schedule.\n12. Known or suspected intolerance or hypersensitivity to the investigational product(s), closely related compounds, or any of the stated ingredients.\n13. Any known allergy to gadoteridol (ProHance).\n14. Screening laboratory values (as measured by the central laboratory):\n\n    1. Alanine aminotransferase (ALT) \\>2 \u00d7 upper limit of normal (ULN)\n    2. Aspartate aminotransferase (AST) \\>2 \u00d7 ULN\n    3. Total bilirubin \\>2 \u00d7 ULN\n    4. Alkaline phosphatase (ALP) \\>2 \u00d7 ULN\n    5. Creatinine \\>1.5 \u00d7 ULN\n    6. Platelet count \\<100,000/mm3\n    7. Prothrombin time (PT) \\>1.2 \u00d7 ULN\n    8. Partial thromboplastin time (PTT) \\>1.2 \u00d7 ULN\n15. Known immunocompromised status including participants who have undergone organ transplantation or who test positive at Screening for the human immunodeficiency virus (HIV); or who are at risk of pathogen reactivation if immunosuppressed, including participants who test positive at screening for hepatitis C virus antibody (anti-HCV), hepatitis C virus ribonucleic acid (HCV RNA), hepatitis B surface antigen (HBsAg) or hepatitis B core antibody (anti-HBc); or who have history of active tuberculosis or a positive tuberculosis blood test during screening. For participants with an indeterminate tuberculosis blood test result or positive tuberculosis test result, repeat testing is recommended.\n16. Known allergy, sensitivity, or other contraindication to immunosuppression regimens in this protocol.\n17. Any participant with an active infection (e.g., coronavirus disease 2019 \\[COVID-19\\]) at Screening or at the time of treatment that requires medical intervention. Participants may rescreen, or if screened eligible and an open surgical slot is available, may receive treatment after recovery.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "David Margolin, MD, PhD",
+                "affiliation": "UniQure Biopharma B.V.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Instytut Psychiatrii i Neurologii",
+                "city": "Warsaw",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Interventional Neuro Center",
+                "city": "Warsaw",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Cardiff University",
+                "city": "Cardiff",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "National Hospital for Neurology & Neurosurgery",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "38489195",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: March 2024. J Huntingtons Dis. 2024;13(1):1-14. doi: 10.3233/JHD-240017."
+              },
+              {
+                "pmid": "38058356",
+                "type": "DERIVED",
+                "citation": "Ma YM, Zhao L. Mechanism and Therapeutic Prospect of miRNAs in Neurodegenerative Diseases. Behav Neurol. 2023 Nov 23;2023:8537296. doi: 10.1155/2023/8537296. eCollection 2023."
+              },
+              {
+                "pmid": "36463457",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: November 2022. J Huntingtons Dis. 2022;11(4):351-367. doi: 10.3233/JHD-229006."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Germany"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

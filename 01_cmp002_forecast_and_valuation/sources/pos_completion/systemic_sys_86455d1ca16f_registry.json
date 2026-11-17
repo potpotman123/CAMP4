@@ -1,0 +1,384 @@
+{
+  "integrated_id": "systemic:sys_86455d1ca16f",
+  "asset": "Burlulipase",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=Burlulipase",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01710644",
+            "orgStudyIdInfo": {
+              "id": "NM-BL-101"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "207862",
+                "type": "OTHER",
+                "domain": "Parexel"
+              }
+            ],
+            "organization": {
+              "fullName": "Nordmark Arzneimittel GmbH & Co. KG",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Efficacy and Tolerability of NM-BL in Patients With Exocrine Pancreatic Insufficiency Due to Cystic Fibrosis",
+            "officialTitle": "A Randomized, Double-blind, Multicenter, Two-period Crossover Study to Assess the Efficacy and Tolerability of NM-BL (Burlulipase) in Patients With Exocrine Pancreatic Insufficiency Due to Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-05"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2014-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2014-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-10-17",
+            "studyFirstSubmitQcDate": "2012-10-17",
+            "studyFirstPostDateStruct": {
+              "date": "2012-10-19",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-04-04",
+            "dispFirstSubmitQcDate": "2016-05-04",
+            "dispFirstPostDateStruct": {
+              "date": "2016-06-06",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-06-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-06-07",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Nordmark Arzneimittel GmbH & Co. KG",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Parexel",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this Randomized, Double-blind, Multicenter, Two-period Crossover Study is to Assess the Efficacy and Tolerability of Burlulipase (NM-BL) in Patients with Exocrine Pancreatic Insufficiency due to Cystic Fibrosis"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Pancreatic Insufficiency",
+              "Cystic Fibrosis",
+              "Digestive System Diseases",
+              "Lung Diseases",
+              "Respiratory Tract Diseases"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 35,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Burlulipase",
+                "type": "EXPERIMENTAL",
+                "description": "Burlulipase orally, per meal",
+                "interventionNames": [
+                  "Drug: Burlulipase"
+                ]
+              },
+              {
+                "label": "Placebo (Caramel in sterile water)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo orally, per meal",
+                "interventionNames": [
+                  "Drug: Placebo (Caramel in sterile water)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Burlulipase",
+                "description": "Burlulipase oral solution will be taken with meals and snacks for 5 to 7 days",
+                "armGroupLabels": [
+                  "Burlulipase"
+                ],
+                "otherNames": [
+                  "NM-BL"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo (Caramel in sterile water)",
+                "description": "Placebo will be taken with meals and snacks for 5 to 7 days",
+                "armGroupLabels": [
+                  "Placebo (Caramel in sterile water)"
+                ],
+                "otherNames": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the efficacy of NM-BL compared to placebo in patients with Exocrine Pancreatic Insufficiency (EPI) due to CF, where the primary variable is coefficient of fat absorption (CFA%)",
+                "timeFrame": "72 hrs"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To evaluate the efficacy of NM-BL compared to placebo in patients with Exocrine Pancreatic Insufficiency (EPI)due to CF, where the primary variable is coefficient of nitrogen absorption (CNA%)",
+                "timeFrame": "72 hrs"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Symptomatology / Symptom Questionnaire",
+                "description": "Comparison gastrointestinal parameters, recorded by the patient/carer in the Symptom Questionnaire each day during the Treatment Periods",
+                "timeFrame": "7 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female patients aged \u226512 years from the date of informed consent\n* Confirmed diagnosis of CF at screening\n* Confirmed EPI by historical (within past 12 months) CFA \\<70% without use of PERTs or current fecal elastase \\<50 \u00b5g/g stool at screening\n* Currently receiving PERT with a commercially available pancreatic enzyme\n* Currently on stable treatment with proton pump inhibitors or H2 receptor antagonists\n* Clinically stable condition without evidence of acute respiratory disease or any other acute condition\n\nExclusion Criteria:\n\n* History of fibrosing colonopathy\n* History of significant bowel resection, in the opinion of the investigator, or solid organ transplant\n* History of being refractory to pancreatic enzyme replacement\n* Current diagnosis or history of distal intestinal obstruction syndrome\n* Current diagnosis of small intestinal bacterial overgrowth, ileus or acute abdomen\n* A body mass index percentile \\<10%",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Kristin Forssmann, MD",
+                "affiliation": "Nordmark Arzneimittel GmbH & Co. KG",
+                "role": "STUDY_DIRECTOR"
+              },
+              {
+                "name": "James E. Heubi, MD",
+                "affiliation": "Children's Hospital Medical Center, Cincinnati",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Nemours Children's Clinic",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32207",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Nemours Children's Clinic",
+                "city": "Pensacola",
+                "state": "Florida",
+                "zip": "32504",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.42131,
+                  "lon": -87.21691
+                }
+              },
+              {
+                "facility": "The University of Iowa",
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "facility": "Via Cristi Hospitals Wichita, Inc.",
+                "city": "Wichita",
+                "state": "Kansas",
+                "zip": "67214",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.69224,
+                  "lon": -97.33754
+                }
+              },
+              {
+                "facility": "Cincinnati Children's Hospital Medical Center",
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "facility": "University Hospitals Case Medical Center",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "The Children's Medical Center of Dayton",
+                "city": "Dayton",
+                "state": "Ohio",
+                "zip": "45404",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.75895,
+                  "lon": -84.19161
+                }
+              },
+              {
+                "facility": "Penn State Milton S. Hershey Medical Center",
+                "city": "Hershey",
+                "state": "Pennsylvania",
+                "zip": "17033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.28592,
+                  "lon": -76.65025
+                }
+              },
+              {
+                "facility": "West Virginia University Research Corporation",
+                "city": "Morgantown",
+                "state": "West Virginia",
+                "zip": "26506",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.62953,
+                  "lon": -79.9559
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "32761612",
+                "type": "DERIVED",
+                "citation": "Somaraju URR, Solis-Moya A. Pancreatic enzyme replacement therapy for people with cystic fibrosis. Cochrane Database Syst Rev. 2020 Aug 5;8(8):CD008227. doi: 10.1002/14651858.CD008227.pub4."
+              },
+              {
+                "pmid": "27297209",
+                "type": "DERIVED",
+                "citation": "Heubi JE, Schaeffer D, Ahrens RC, Sollo N, Strausbaugh S, Graff G, Jain R, Witte S, Forssmann K. Safety and Efficacy of a Novel Microbial Lipase in Patients with Exocrine Pancreatic Insufficiency due to Cystic Fibrosis: A Randomized Controlled Clinical Trial. J Pediatr. 2016 Sep;176:156-161.e1. doi: 10.1016/j.jpeds.2016.05.049. Epub 2016 Jun 11."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D010188",
+                "term": "Exocrine Pancreatic Insufficiency"
+              },
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C569050",
+                "term": "caramel coloring"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

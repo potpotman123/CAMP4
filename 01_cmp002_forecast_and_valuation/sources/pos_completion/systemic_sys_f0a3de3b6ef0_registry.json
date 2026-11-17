@@ -1,0 +1,366 @@
+{
+  "integrated_id": "systemic:sys_f0a3de3b6ef0",
+  "asset": "ALX009",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ALX-009",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02598999",
+            "orgStudyIdInfo": {
+              "id": "ALX-009-CL-038"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2014-002401-38",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2014",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2014"
+              }
+            ],
+            "organization": {
+              "fullName": "Alaxia SAS",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Dose Escalation Study of ALX-009 in Healthy Men and Cystic Fibrosis (CF) and Non-CF Bronchiectasis Patients",
+            "officialTitle": "Randomized, Double Blind, Placebo-controlled Study of the Safety, Tolerability and Pharmacokinetics After Single Ascending Doses or Multiple Ascending Doses of OSCN-, bLF or ALX-009 in Healthy Male and CF and Non-CF Bronchiectasis Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-01",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Financial issues",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-11",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2021-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2021-12",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2015-11-04",
+            "studyFirstSubmitQcDate": "2015-11-05",
+            "studyFirstPostDateStruct": {
+              "date": "2015-11-06",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2022-01-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-02-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Alaxia SAS",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase 1, randomized, double-blind, placebo-controlled study to evaluate the safety, tolerability and pharmacokinetics of a single ascending doses (SAD) and multiple ascending doses (MAD) of Hypothiocyanite (OSCN-), bovine lactoferrin (bLF) and their combination (ALX-009) in healthy male volunteers and patients suffering from cystic fibrosis (CF) and non-CF bronchiectasis (NCFBE).",
+            "detailedDescription": "Part I: SAD of OSCN- and bLF in healthy male volunteers (cohorts 1 to 3) - Part II: SAD and MAD of ALX-009 in healthy male volunteers (cohorts 4 and 5) - Part III: MAD of OSCN- and bLF in patients suffering from cystic fibrosis (cohort III-1) and in healthy volunteers (cohorts III-2 and III-3) - Part IV: MAD of ALX-009 in healthy volunteers (Part IVa - Cohorts IV-1a to IV-3a) and in patients (Part IVb - Cohorts IV-1b to IV-3b)"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis",
+              "Bronchiectasis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 92,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part I, SAD",
+                "type": "EXPERIMENTAL",
+                "description": "Single administration of OSCN- or bLF or Placebo in healthy male volunteers",
+                "interventionNames": [
+                  "Drug: OSCN-",
+                  "Drug: bLF",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part II, SAD and MAD",
+                "type": "EXPERIMENTAL",
+                "description": "Single and multiple administrations of ALX-009 or Placebo in healthy male volunteers",
+                "interventionNames": [
+                  "Drug: ALX-009",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part III, MAD",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple administrations of OSCN- or bLF or Placebo in CF patients in healthy volunteers",
+                "interventionNames": [
+                  "Drug: OSCN-",
+                  "Drug: bLF",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part IV, MAD",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple administrations of ALX-009 or Placebo in healthy volunteers and in patients (CF and NCFBE)",
+                "interventionNames": [
+                  "Drug: ALX-009",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ALX-009",
+                "description": "Solution for inhalation administered through nebulization",
+                "armGroupLabels": [
+                  "Part II, SAD and MAD",
+                  "Part IV, MAD"
+                ],
+                "otherNames": [
+                  "Association of OSCN- and bLF"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "OSCN-",
+                "description": "Solution for inhalation administered through nebulization",
+                "armGroupLabels": [
+                  "Part I, SAD",
+                  "Part III, MAD"
+                ],
+                "otherNames": [
+                  "Hypothiocyanite"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "bLF",
+                "description": "Solution for inhalation administered through nebulization",
+                "armGroupLabels": [
+                  "Part I, SAD",
+                  "Part III, MAD"
+                ],
+                "otherNames": [
+                  "bovine Lactoferrin"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Solution for inhalation administered through nebulization, Sodium Chloride 0.9%",
+                "armGroupLabels": [
+                  "Part I, SAD",
+                  "Part II, SAD and MAD",
+                  "Part III, MAD",
+                  "Part IV, MAD"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability: number of subjects who experience serious adverse events, adverse events, potential clinically significant changes in ECG, 24-holter, vital signs, physical examinations, laboratory tests, spirometry, O2 saturation (Part III only)",
+                "timeFrame": "Day (D) 8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximal concentration (Cmax) of bLF and SCN- in plasma, sputum and urine (for SCN- only)",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Area under the curve (AUC) of bLF and SCN- in plasma, sputum and urine (for SCN- only)",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "First time to reach Cmax (Tmax) of bLF and SCN- in plasma, sputum and urine (for SCN- only)",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration half life of bLF and SCN- in plasma, sputum and urine (for SCN- only)",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of anti-bLF antibodies in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of IL-1\u03b2 in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of IL-6 in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of IL-8 in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of IL-10 in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of TNF-\u03b1 in blood and sputum",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of SC5b-9 in blood",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "Concentration of total IgE in blood",
+                "timeFrame": "D8 post dosing for part I and D14 post dosing for parts II, III and IV"
+              },
+              {
+                "measure": "For patients only, quantitative assessment of different species in sputum",
+                "description": "Staphylococcus aureus, Staphylococcus aureus MRSA, Pseudomonas aeruginosa, Pseudomonas aeruginosa MDR, Haemophilus influenzae, Stenotrophomonas maltophilia, Achromobacter xylosoxidans, Burkholderia cepacia complex, Aspergillus fumigatus and Aspergillus terreus",
+                "timeFrame": "D7 post dosing"
+              },
+              {
+                "measure": "For patients only, volume of sputum over 24hours period",
+                "timeFrame": "D8 post dosing"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "For patients only, characterization of sputum microbiota using genomic technologies",
+                "timeFrame": "D14 post dosing"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male subject or\n* Patient suffering from cystic fibrosis defined as a positive sweat chloride test or CF-causing mutations, documented in the patient's medical record or patient suffering from non-CF and non COPD bronchiectasis with a diagnosis confirmed by a chest CT scan demonstrating bronchiectasis in 1 or more lobes documented in the patient's medical record\n* Aged between 18 and 50 years inclusive\n* Subject's Body Mass Index between 18 and 30 kg/m\u00b2\n* Subject with normal blood pressure, heart rate, ECG recording and laboratory parameters at the screening visit\n* Subject having given a written informed consent prior to selection\n* Subject covered by Health Insurance System and/ or in compliance with the recommendations of National Law in force relating to biomedical research\n\nSpecific Inclusion Criteria for patients:\n\n* FEV1 more than or equal to 60% of predicted normal value\n* Subject in a stable state (no exacerbation for 1 month or prescription of antibiotic by intravenous route)\n* Females of childbearing potential: commitment to consistently and correctly use an acceptable method of birth control for the duration of the trial and for 4 months after the last study drug administration / Female of non-childbearing potential: either surgically sterilized or at least 1 year postmenopausal\n\nExclusion Criteria:\n\n* Presence of cardiovascular, pulmonary, gastro-intestinal, hepatic, renal, metabolic, haematological, neurologic, psychiatric, systemic or infectious disease\n* Frequent headaches and/or migraines, recurrent nausea and/or vomiting\n* Symptomatic hypotension\n* Blood donation (including in the frame of a clinical trial) within 2 months before administration\n* General anaesthesia within 3 months before administration\n* Presence or history of drug hypersensitivity, or any allergic disease\n* Medical history of reactions to cow's milk proteins\n* Subject who can not be contacted in case of emergency\n* History or presence of drug or alcohol abuse\n* Positive Hepatitis B surface (HBs) antigen or anti Hepatitis C virus (HCV) antibody, or positive results for Human Immunodeficiency Virus (HIV) 1 or 2 tests\n* Subject who, in the judgement of the Investigator, is likely to be non-compliant or uncooperative during the study, or unable to cooperate because of a language problem, poor mental development.\n\nSpecific exclusion criteria for study Parts III and IV:\n\n* Known bronchial hyper-reactivity to drug inhalation\n* Known contra-indication to inhaled salbutamol\n* Subject with bronchial hyper-reactivity, defined by a positive response to bronchodilator with FEV1 increase \u2265 200 mL\n\nSpecific exclusion crtieria for patients:\n\n* Active allergic bronchopulmonary aspergillosis currently treated\n* Medical history of allergic bronchopulmonary aspergillosis in the past 2 years.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Isabelle Durieu, Prof., MD",
+                "affiliation": "Hospices Civils de Lyon",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Eurofins Optimed",
+                "city": "Grenoble",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.17869,
+                  "lon": 5.71479
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D001987",
+                "term": "Bronchiectasis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D001982",
+                "term": "Bronchial Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C014607",
+                "term": "hypothiocyanite ion"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

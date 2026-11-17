@@ -1,0 +1,1251 @@
+{
+  "integrated_id": "systemic:sys_6890ff08350a",
+  "asset": "KP104",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=KP104",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05490017",
+            "orgStudyIdInfo": {
+              "id": "KP104-101"
+            },
+            "organization": {
+              "fullName": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "To Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Escalating Single and Multiple Doses of KP104",
+            "officialTitle": "SYNERGY-1: A Phase 1 First-in-human, Randomized, Double Blind, Placebo-controlled Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Escalating Single and Multiple Doses of KP104 in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-12-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-05-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-09-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-08-04",
+            "studyFirstSubmitQcDate": "2022-08-04",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-03-01",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate safety, tolerability, immunogenicity, pharmacokinetics, pharmacodynamics, and efficacy of KP104 in healthy volunteers. The study will be conducted in 2 parts: Part 1, the single ascending dose (SAD) is the first in human (FIH) study of KP104 and Part 2, multiple ascending dose (MAD)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ],
+            "keywords": [
+              "KP104",
+              "Paroxysmal Nocturnal Hemoglobinuria",
+              "Single ascending Dose",
+              "Multiple Ascending Dose",
+              "First in Human",
+              "Complement Inhibitor",
+              "Healthy participants"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 80,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 3",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 4",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 5",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 6",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Single Ascending Dose Cohort 7",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 2: Multiple Ascending Dose Cohort 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 2: Multiple Ascending Dose Cohort 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 2: Multiple Ascending Dose Cohort 3",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part 2: Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "KP104",
+                "description": "Participants will receive KP104 intravenous (IV) dose approximately for 1 hour or subcutaneous (SC) dose.",
+                "armGroupLabels": [
+                  "Part 1: Single Ascending Dose Cohort 1",
+                  "Part 1: Single Ascending Dose Cohort 2",
+                  "Part 1: Single Ascending Dose Cohort 3",
+                  "Part 1: Single Ascending Dose Cohort 4",
+                  "Part 1: Single Ascending Dose Cohort 5",
+                  "Part 1: Single Ascending Dose Cohort 6",
+                  "Part 1: Single Ascending Dose Cohort 7",
+                  "Part 2: Multiple Ascending Dose Cohort 1",
+                  "Part 2: Multiple Ascending Dose Cohort 2",
+                  "Part 2: Multiple Ascending Dose Cohort 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Participants will receive matching placebo which is KP104 vehicle containing sodium phosphate, sodium chloride, and L-Lysine Hydrochloride (L-Lys-HCL).",
+                "armGroupLabels": [
+                  "Part 1: Placebo",
+                  "Part 2: Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants reporting Treatment Emergent Adverse Events (TEAEs)",
+                "description": "An Adverse event (AE) is defined as any unfavorable and unintended sign including an abnormal laboratory finding), symptom, or disease or any worsening of a pre-existing condition temporally associated with the use of a study drug, whether or not related to study drug. A TEAE is defined as any AE that started or worsened in severity on or after the first dose of study treatment.",
+                "timeFrame": "Up to Day 85"
+              },
+              {
+                "measure": "Number of participants reporting Treatment Emergent Serious Adverse Events (TESAEs)",
+                "description": "A TESAE is defined as any AE that started or worsened in severity on or after the first dose of study treatment.",
+                "timeFrame": "Up to Day 85"
+              },
+              {
+                "measure": "Number of participants with Dose-limiting toxicities (DLT)",
+                "description": "A DLT is defined as any adverse event considered by the investigator to be KP104-related with a severity greater than or equal to (\\>=) National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v5.0 Grade 3 which also represents a shift from baseline clinical status of \\> 1 NCI CTCAE grade. A hypersensitivity/administration reaction occurring with a severity of Grade 2 despite the use of pre-medications will also be designated as a DLT.",
+                "timeFrame": "Up to Day 85"
+              },
+              {
+                "measure": "Number of participants reporting AEs of Special interests (AESIs)",
+                "description": "An AE is defined as any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease or any worsening of a pre-existing condition temporally associated with the use of a study drug, whether or not related to study drug. Number of participants with AESIs including infections and local or systemic administration reactions will be assessed.",
+                "timeFrame": "Up to Day 85"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum concentration (Cmax) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Area under the concentration-time profile (AUC) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Change from baseline in total and free serum C5 levels",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Change from baseline in rabbit red blood cell (RBC) assay",
+                "timeFrame": "Baseline and up to Day 29"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Changes in serum free C5 levels to Minimum concentration (Cmin) correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in serum free C5 levels to AUC correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in C3b activity to Cmax correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in C3b activity to Cmin correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in C3b activity to AUC correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in rabbit RBC lysis to Cmax correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in rabbit RBC lysis to Cmin correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Changes in rabbit RBC lysis to AUC correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Immunogenicity of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Maximum tolerated dose (MTD) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Optimal biologic dose (OBD) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in laboratory values, electrocardiograms (ECGs), physical examinations, and vital signs",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Changes in serum free complement component C5 levels to Cmax correlation",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Dose optimization of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Systemic clearance (Cl) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Elimination half-life (t\u00bd) of KP104",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Change from baseline in complement component of C3b activity assay",
+                "timeFrame": "Baseline and up to Day 29"
+              },
+              {
+                "measure": "Absolute bioavailability of KP104 administered SC (F)",
+                "timeFrame": "Up to Day 29"
+              },
+              {
+                "measure": "Change from baseline in Factor H (FH) serum levels",
+                "timeFrame": "Baseline and up to Day 29"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Weight of \\> 40 kilograms (kg) and \\< 120 kg at Screening.\n* In good general health, determined by no clinically significant findings in the opinion of the Investigator from medical history, physical examination, 12-lead ECG, clinical laboratory findings, and vital signs at Screening and Check-in.\n* Hemoglobin, hematocrit, white blood cell count, absolute neutrophil count, and platelet count results within the normal range at the Screening Visit; participants with Gilbert's disease with associated abnormalities of liver function tests are eligible for enrollment. Tests may be repeated at the discretion of the Investigator to confirm abnormalities.\n* Creatinine clearance based on the Cockcroft-Gault equation of \\>= 80 milliliters per minute (ml/min).\n* Females of childbearing potential and males must practice effective contraception from Screening until 28 days after the end of study (EOS) visit.\n* Females of childbearing potential must have a negative pregnancy test at Screening and within 24 hours prior to dosing of study drug; for post-menopausal subjects, a blood sample will also be tested for follicle stimulating hormone to confirm post-menopausal status.\n\nExclusion Criteria:\n\n* Any clinically significant underlying illness in the opinion of the Investigator.\n* Any history or sign of significant chronic active or recurrent infection, or screening laboratory evidence consistent with a significant chronic active or recurrent infection requiring treatment with antibacterials, antivirals, or antifungals.\n* Treatment of any infection with IV (within 30 days of Screening) or oral (within 14 days of Screening) antibacterials, antivirals, or antifungals.\n* History of clinically significant hematologic or bone marrow disease or blood dyscrasias.\n* History of meningococcal infection.\n* History of tuberculosis.\n* History of asplenia (functional or anatomical).\n* Prior exposure to KP104.\n* Known allergy to penicillin antibiotics or history of allergy or contraindication to required prophylactic antibiotic therapy to be used during the study.\n* Known or suspected complement deficiency during screening.\n* Positive serology for Hepatitis B virus (HBV), hepatitis C virus (HCV) or human immunodeficiency virus (HIV) at Screening.\n* History of drug or alcohol abuse within 1 year of Screening in the opinion of the investigator, or a positive test for drugs of abuse or alcohol at Screening or Check-in.\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "CMAX Clinical Research",
+                "city": "Adelaide",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05517980",
+            "orgStudyIdInfo": {
+              "id": "KP104-203"
+            },
+            "organization": {
+              "fullName": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of KP104 to Treat Glomerulonephritis",
+            "officialTitle": "An Open-label, Phase 2 Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of KP104 in Subjects With IgA Nephropathy (IgAN) and Complement 3 Glomerulopathy (C3G)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-08-24",
+            "studyFirstSubmitQcDate": "2022-08-24",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the efficacy, safety, pharmacokinetics (PK), and pharmacodynamics (PD) of KP104 in participants with IgAN and C3G. The study will start with enrolling the IgAN cohort. Approximately 42 participants with IgAN will be enrolled in 2 stages: Stage 1 will be used to collect safety, immunogenicity, PK, and PD data to select the optimal biologic dose (OBD) of KP104 for IgAN, as well as to preliminarily explore the effect of KP104 on C3G. Stage 2 will be used to collect safety, immunogenicity, PK, PD, and efficacy data at the OBD dose of KP104 for IgAN and C3G. As soon as the OBD for IgAN is determined, eligible participants with C3G will be enrolled and dosed at the OBD for IgAN for a minimum of 48 weeks for weekly maintenance dosing and a minimum of 47 weeks for biweekly maintenance dosing. Approximately 10 participants with C3G will be enrolled."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Glomerulonephritis"
+            ],
+            "keywords": [
+              "KP104",
+              "Immunoglobulin A Nephropathy",
+              "Compliment-mediated Glomerulonephritis",
+              "Complement Inhibitor"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 52,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "IgAN Cohort Stage 1 Dose 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be randomized to receive weekly or biweekly maintenance doses of KP104 at Dose 1. Participants in Stage 1 will also have the opportunity to be switched to the OBD if they are still in the treatment period.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "C3G Cohort Stage 1 Dose 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be randomized to receive weekly or biweekly maintenance doses of KP104 at Dose 1. Participants in Stage 1 will also have the opportunity to be switched to the OBD if they are still in the treatment period.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "IgAN Cohort Stage 1 Dose 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be randomized to receive weekly or biweekly maintenance doses of KP104 at Dose 2. Participants in Stage 1 will also have the opportunity to be switched to the OBD if they are still in the treatment period.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "C3G Cohort Stage 1 Dose 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be randomized to receive weekly or biweekly maintenance doses of KP104 at Dose 2. Participants in Stage 1 will also have the opportunity to be switched to the OBD if they are still in the treatment period.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "IgAN Cohort Stage 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive weekly or biweekly maintenance doses of KP104 at the OBD.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "C3G Cohort Stage 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive weekly or biweekly maintenance doses of KP104 at the OBD.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "KP104",
+                "description": "Participants will receive loading and/or weekly maintenance subcutaneous (SC) doses of KP104.",
+                "armGroupLabels": [
+                  "C3G Cohort Stage 1 Dose 1",
+                  "C3G Cohort Stage 1 Dose 2",
+                  "C3G Cohort Stage 2",
+                  "IgAN Cohort Stage 1 Dose 1",
+                  "IgAN Cohort Stage 1 Dose 2",
+                  "IgAN Cohort Stage 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent change from Baseline in 24-hour urinary protein creatinine ratio (UPCR) at Week 24 (C3G) for participants in Stage 2",
+                "description": "The UPCR will be calculated as percent change in protein (Pr)/ Creatinine (Cr).",
+                "timeFrame": "Baseline and at Week 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of participants reporting Treatment-Emergent Adverse Events (TEAEs)",
+                "description": "An adverse event (AE) is defined as any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease or any worsening of a pre-existing condition temporally associated with the use of a study drug, whether or not related to study drug. A TEAE is defined as any AE that started or worsened in severity on or after the first dose of study treatment.",
+                "timeFrame": "Up to 56 Weeks"
+              },
+              {
+                "measure": "Number of participants reporting Treatment-Emergent Serious Adverse Events (TESAEs)",
+                "description": "A TESAE is defined as a serious AE (SAE) that started or worsened in severity on or after the first dose of study treatment.",
+                "timeFrame": "Up to 56 Weeks"
+              },
+              {
+                "measure": "Number of participants reporting AEs of Special Interest (AESIs)",
+                "description": "An AE is defined as any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease or any worsening of a pre-existing condition temporally associated with the use of a study drug, whether or not related to study drug. Number of participants with AESIs including infections and local or systemic administration reactions will be assessed.",
+                "timeFrame": "Up to 56 Weeks"
+              },
+              {
+                "measure": "Maximum concentration (Cmax) of KP104",
+                "description": "Blood samples will collected at indicated timepoints to assess Cmax.",
+                "timeFrame": "At Baseline (Day 1), Days 8, 15, 22, 29, 43, 57, 85, 169, 253, 337, 365 and 395"
+              },
+              {
+                "measure": "Trough concentration (Ctrough) of KP104 at steady state",
+                "description": "Blood samples will collected at indicated timepoints to assess Ctrough.",
+                "timeFrame": "At Baseline (Day 1), Days 8, 15, 22, 29, 43, 57, 85, 169, 253, 337, 365 and 395"
+              },
+              {
+                "measure": "Change from Baseline in estimated glomerular filtration rate (eGFR) at Week 24 (C3G) for participants in Stage 2",
+                "timeFrame": "Baseline and at Week 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Weight of \\>35 kilograms (kg) at Screening\n* Body mass index (BMI) of \\<35 kilograms per square meter (kg/m\\^2)\n* UPCR \\>1.0 grams per gram (g/g) by 24-hour urine collection at Screening\n* Documented diagnosis and clinical status of IgAN or C3G as follows:\n\nIgAN:\n\n* Diagnosis of IgAN verified by biopsy taken within the past 3 years prior to enrolment.\n* On stable regimen of angiotensin converting enzyme or angiotensin blocking agents for 12 weeks and/or sodium-glucose cotransporter-2 (SGLT2) inhibitors for 6 weeks at Screening\n\nC3G:\n\n* Diagnosis of C3G verified by biopsy taken within the past 3 years prior to enrolment.\n* On stable regimen of angiotensin converting enzyme or angiotensin blocking agents for 12 weeks and/or SGLT2 inhibitors for 6 weeks at Screening\n\n  * Females of childbearing potential and males must practice effective contraception from Screening until 28 days after the end of study (EOS) visit.\n  * Females of childbearing potential must have a negative pregnancy test at Screening and within 1 day prior to dosing of study drug\n\nExclusion Criteria:\n\n* Any clinically significant, poorly controlled underlying illness other than IgAN or C3G, as determined by the investigator\n* Treatment of any infection with IV (within 30 days of Screening) or oral (within 14 days of Screening) antibiotics, antivirals, or antifungals\n* History of infections with encapsulated organisms\n* History of untreated tuberculosis\n* Positive serology for hepatitis C virus (HCV) ribonucleic acid (RNA) or human immunodeficiency virus (HIV) at Screening\n* History of bone marrow or stem cell transplantation\n* Absolute neutrophil count (ANC) \\<500 cells per microliter (cells/\u03bcL)\n* eGFR \\<30 milliliters per minute per 1.73 square meter (mL/min/1.73 m\\^2) using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) formula\n* Presence of crescent formation in \\>50 percent (%) of glomeruli assessed on renal biopsy\n* Nephrotic syndrome defined as presence of substantial proteinuria (\\> 3.5 g/24 hours), hypoalbuminemia (\\< 30 grams per liter \\[g/L\\]), and edema/hyperlipidemia. Nephrotic range proteinuria alone is acceptable.\n* Rapidly progressive glomerulonephritis, defined as a fall in eGFR of \\> 30 mL/min/1.73 m\\^2 within 24 weeks prior to the Screening Visit\n* Receiving renal replacement therapy or anticipated to require renal replacement therapy during the duration of the study\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Study Director",
+                "role": "CONTACT",
+                "phone": "650-549-1400",
+                "email": "privacy@kirapharma.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University First Hospital",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Investigative Site #1",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05504187",
+            "orgStudyIdInfo": {
+              "id": "KP104-202"
+            },
+            "organization": {
+              "fullName": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Evaluate Safety, Tolerability and Pharmacodynamics of KP104 in Participants With Thrombotic Microangiopathy Secondary to Systemic Lupus Erythematosus",
+            "officialTitle": "An Open-label, Phase 2 Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of KP104 in Subjects With Thrombotic Microangiopathy Secondary to Systemic Lupus Erythematosus"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Sponsor Decision - terminated due to changes in company priorities and not related to safety concerns",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-03",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-03",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-04",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-08-15",
+            "studyFirstSubmitQcDate": "2022-08-15",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-04",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and efficacy of KP104 in participants with systemic lupus erythematosus (SLE)-Thrombotic microangiopathy (TMA). The study consists of 2 parts: Part 1 (Dose Optimization) and Part 2 (Proof of Concept). All participants will receive KP104 in combination with standard of care (SOC) for SLE-TMA."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Systemic Lupus Erythematosus"
+            ],
+            "keywords": [
+              "Systemic lupus erythematosus",
+              "Thrombotic microangiopathy",
+              "Dose Selection",
+              "Proof of Concept",
+              "KP-104"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1: Dose Optimization Cohort 1, Dose 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be administered with KP104 as a weekly maintenance dose for 24 Weeks. After the last participant completes 6 weeks of treatment, all available data, including safety, PK, PD, and modeling results, will be reviewed by the Internal Data Review Committee (IDRC) to determine Dosing Regimen 2",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Dose Optimization Cohort 2, Dose 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be administered with KP104 dose regimen 2 for 24 Weeks. After the last participant completes 6 weeks of treatment, all available data, including safety, PK, PD, and modeling results, will be reviewed by the IDRC to determine Dosing Regimen 3.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Dose Optimization Cohort 3, Dose 3",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be administered with KP104 dose regimen 3 for 24 Weeks. After the last participant completes 6 weeks of treatment, all available data, including safety, PK, PD, and modeling results, will be reviewed by IDRC to determine the Optimal biologic dose (OBD) for Part 2.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 2: OBD Cohort, Dose 4",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be administered with KP104 OBD for 24 Weeks.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "KP104",
+                "description": "KP104 will be administered.",
+                "armGroupLabels": [
+                  "Part 1: Dose Optimization Cohort 1, Dose 1",
+                  "Part 1: Dose Optimization Cohort 2, Dose 2",
+                  "Part 1: Dose Optimization Cohort 3, Dose 3",
+                  "Part 2: OBD Cohort, Dose 4"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Parts 1 and 2: Number of participants with Treatment-emergent adverse events (TEAEs), treatment-emergent serious adverse events (TESAEs) and Adverse events of special interest (AESIs)",
+                "timeFrame": "Up to 24 weeks"
+              },
+              {
+                "measure": "Part 2: Percent change from Baseline in platelet count",
+                "timeFrame": "Baseline (Day 1) and up to Week 12"
+              },
+              {
+                "measure": "Part 2: Percent change from Baseline in serum lactate dehydrogenase (LDH) levels",
+                "timeFrame": "Baseline (Day 1) and up to Week 12"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Meets criteria for SLE per the 2019 European League Against Rheumatism (EULAR)/American College of Rheumatology (ACR) criteria.\n* Decrease in platelet count to less than (\\<)150,000/microliters (mcL).\n* Abnormal renal function.\n* Females of childbearing potential with negative pregnancy test and males must agree to practice effective contraception from Screening until 28 days after the End of study (EOS) visit.\n* Willing and able to provide informed consent.\n* Evidence of microangiopathic hemolytic anemia\n\nExclusion Criteria:\n\n* Diagnosis of other TMA syndromes.\n* A renal biopsy within 7 days of screening that shows exclusively chronic changes of TMA.\n* Positive Coombs test at the time of TMA diagnosis.\n* Active or unresolved Neisseria meningitidis infection at screening.\n\nOnly key inclusion and exclusion criteria have been included.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008180",
+                "term": "Lupus Erythematosus, Systemic"
+              },
+              {
+                "id": "D057049",
+                "term": "Thrombotic Microangiopathies"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D013921",
+                "term": "Thrombocytopenia"
+              },
+              {
+                "id": "D001791",
+                "term": "Blood Platelet Disorders"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D000095542",
+                "term": "Cytopenia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05476887",
+            "orgStudyIdInfo": {
+              "id": "KP104-201"
+            },
+            "organization": {
+              "fullName": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "To Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of KP104",
+            "officialTitle": "An Open-label, Phase 2 Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of KP104 in Complement Inhibitor-na\u00efve Subjects With Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-11-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-02",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-25",
+            "studyFirstSubmitQcDate": "2022-07-25",
+            "studyFirstPostDateStruct": {
+              "date": "2022-07-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-25",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kira Pharmacenticals (US), LLC.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the safety, tolerability, immunogenicity, pharmacokinetics, pharmacodynamics, and efficacy of KP104 in complement inhibitor-na\u00efve participants with PNH. The study will be conducted in 2 parts. Part 1 is a dose-selection study to assess escalating doses and varying dose intervals of KP104. Part 2 is a proof-of-concept (POC) study assessing the efficacy of the optimal intravenous (IV) loading dose followed by the optimal maintenance dose and regimen of KP104. Participants who complete the Initial Treatment Period and demonstrate benefit from KP104 will be eligible for a 9-month open-label extension (OLE) treatment period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ],
+            "keywords": [
+              "KP104",
+              "Paroxysmal nocturnal hemoglobinuria",
+              "Complement Inhibitor",
+              "Dose Selection",
+              "Proof of Concept"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 35,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1: Dose escalation Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive escalating and varying dose intervals of KP104 every week.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Dose escalation Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive escalating and varying dose intervals of KP104 weekly or biweekly.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 1: Dose escalation Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive escalating and varying dose intervals of KP104 weekly or biweekly.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Part 2: Proof-of-concept Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive escalating and varying dose intervals of KP104 weekly or biweekly.",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              },
+              {
+                "label": "Open-label extension (OLE)",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive KP104, who benefit from KP104 treatment in Part 1 and 2",
+                "interventionNames": [
+                  "Drug: KP104"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "KP104",
+                "description": "KP104 intravenously (IV loading + subcutaneous \\[SC\\] maintenance every week \\[QW\\] or every 2 weeks \\[Q2W\\]) will be administered.",
+                "armGroupLabels": [
+                  "Open-label extension (OLE)",
+                  "Part 1: Dose escalation Cohort 1",
+                  "Part 1: Dose escalation Cohort 2",
+                  "Part 1: Dose escalation Cohort 3",
+                  "Part 2: Proof-of-concept Cohort 1"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1: Number of participants with Dose-limiting toxicities (DLT)",
+                "description": "A DLT is defined as any adverse event considered by the investigator to be KP104-related with a severity greater than or equal to (\\>=) National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v5.0 Grade 3 which also represents a shift from baseline clinical status of \\> 1 NCI CTCAE grade. A hypersensitivity/administration reaction occurring with a severity of Grade 2 despite the use of pre-medications will also be designated as a DLT.",
+                "timeFrame": "Up to Week 4"
+              },
+              {
+                "measure": "Part 2: Percentage of participants with >= 2 grams per deciliter (g/dL) increase in hemoglobin level from Baseline in the absence of transfusion for weekly dosing",
+                "description": "Blood samples will be collected for the analysis of increase in hemoglobin levels in the absence of transfusion.",
+                "timeFrame": "Baseline and at Week 12"
+              },
+              {
+                "measure": "Part 2: Percentage of participants with >= 2 g/dL increase in hemoglobin level from Baseline in the absence of transfusion for biweekly dosing",
+                "description": "Blood samples will be collected for the analysis of increase in hemoglobin levels in the absence of transfusion.",
+                "timeFrame": "Baseline and at Week 13"
+              },
+              {
+                "measure": "Open-label Extension (OLE): Number of participants reporting Treatment Emergent Adverse Events (TEAEs), treatment-emergent serious adverse events (TESAEs) and AEs of special interest (AESIs)",
+                "timeFrame": "Up to 9 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Part 2: Change from Baseline in serum lactate dehydrogenase (LDH) levels for weekly dosing",
+                "description": "Blood samples will be collected for the analysis of serum LDH.",
+                "timeFrame": "Baseline and at Week 12"
+              },
+              {
+                "measure": "Part 2: Change from Baseline in serum LDH levels for biweekly dosing",
+                "description": "Blood samples will be collected for the analysis of serum LDH.",
+                "timeFrame": "Baseline and at Week 13"
+              },
+              {
+                "measure": "Part 2: Change from Baseline in hemoglobin level for weekly dosing",
+                "description": "Blood samples will be collected for the analysis of hemoglobin level",
+                "timeFrame": "Baseline and at Week 12"
+              },
+              {
+                "measure": "Part 2: Change from Baseline in the hemoglobin level for biweekly dosing",
+                "description": "Blood samples will be collected for the analysis of hemoglobin level.",
+                "timeFrame": "Baseline and at Week 13"
+              },
+              {
+                "measure": "Part 2: Change from Baseline in red blood cell (RBC) transfusion dependence for weekly dosing",
+                "description": "The RBC transfusion dependence is the difference in the volume of RBC transfusions per month for the 3 months prior to initiation of investigational product versus the volume of RBC transfusions per month for each month on study.",
+                "timeFrame": "Baseline and at Week 12"
+              },
+              {
+                "measure": "Part 2: Change in RBC transfusion dependence for biweekly dosing",
+                "description": "The RBC transfusion difference is the difference in the volume of RBC transfusions per month for the 3 months prior to initiation of investigational product versus the volume of RBC transfusions per month for each month on study.",
+                "timeFrame": "Baseline and at Week 13"
+              },
+              {
+                "measure": "Part 1 and 2: Number of participants reporting TEAEs, TESAEs and AESIs",
+                "timeFrame": "Up to Week 13"
+              },
+              {
+                "measure": "Part 1 and 2: Concentration within one hour of end of infusion (CEOI) of KP104",
+                "timeFrame": "Up to Week 13"
+              },
+              {
+                "measure": "Part 1 and 2: Trough concentration (Ctrough) of KP104",
+                "timeFrame": "Up to Week 13"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nInitial Treatment Period:\n\n* Documented diagnosis of PNH confirmed by flow cytometry evaluation of white blood cells and red blood cells, with granulocyte or monocyte clone size of \\>= 10 percent (%) within 6 months of the Screening visit.\n* Presence of 1 or more PNH-related signs or symptoms within 3 months of initiation of Screening.\n* LDH \\>= 2.0 \u00d7 upper limit of normal (ULN) at screening.\n* Hemoglobin \\<= 10.0 g/dL at screening.\n* Females of childbearing potential and males must practice effective contraception from Screening until 28 days after the end of study (EOS) visit.\n* Females of childbearing potential must have a negative pregnancy test at Screening and within 24 hours prior to dosing of study drug.\n\nExtension Treatment Period (OLE):\n\n* Complete the 12-week (weekly dosing) or 13-week (biweekly dosing) Initial Treatment Period per the protocol.\n* Benefited from KP104 treatment and will continue benefiting from KP104 treatment per the investigator's judgement.\n* Willing to participate in Extension Treatment Period, able to comply with this protocol and be available for the entire duration of the study.\n\nExclusion Criteria:\n\nInitial Treatment Period:\n\n* Any clinically significant poorly controlled underlying illness other than PNH per discretion of investigators.\n* Treatment of any infection with IV (within 30 days of Screening) or oral (within 14 days of Screening) antibiotics, antivirals, or antifungals.\n* History of meningococcal infection.\n* History of untreated tuberculosis.\n* History of splenectomy\n* Positive serology for Hepatitis C Virus (HCV) ribonucleic acid (RNA) or human immunodeficiency virus (HIV) at Screening\n* History of bone marrow or stem cell transplantation\n* Absolute neutrophil count (ANC) \\<500 cells per microliter (cells/\u03bcL)\n* Reticulocyte count\\< 100 x 10\\^3 cells/\u03bcL\n* Platelet count\\< 30,000 cells/\u03bcL\n* History of systemic autoimmune disease\n* Estimated glomerular filtration rate (eGFR) \\<30 milliliters/minute/1.73 meter square (mL/min/1.73 m\\^2) calculated by Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation.\n\nExtension Treatment Period (OLE):\n\n* Women who are pregnant.\n* Women of childbearing potential and men with sexual partners of childbearing potential who are not using adequate contraception and who are not willing to use adequate contraception.\n* Any medical condition that, in the opinion of the investigator, may pose a safety risk to a participant in this study, or may interfere with study participation.\n\nOther protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital",
+                "city": "Beijing",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Jiangsu Province Hospital",
+                "city": "Nanjing",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 32.06167,
+                  "lon": 118.77778
+                }
+              },
+              {
+                "facility": "Chinese Academy of Medical Sciences Peking Union Medical College - Institute of Hematology Blood Diseases Hospital",
+                "city": "Tianjin",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "Henan Cancer Hospital",
+                "city": "Zhengzhou",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 34.75778,
+                  "lon": 113.64861
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "as_of": "2026-11-16",
+  "files": [
+    "data/pos_completion/completed_program_ledger.json",
+    "data/pos_completion/approval_horizon_results.json"
+  ],
+  "review_scope": "Independent final audit of normalized ledger and generated horizon output; no additional broad research.",
+  "status": "No material arithmetic or duplicate error found in requested10year genetic-CNS tiers.",
+  "checks": {
+    "unique_ledger_ids": true,
+    "denominator_lengths_match": true,
+    "unique_denominator_ids": true,
+    "unique_asset_clusters_in_cluster_outputs": true,
+    "approval_ids_subset_of_denominator": true,
+    "certain_approvals_lte_possible_lte_denominator": true,
+    "approval_date_after_entry_lower_and_before_cutoff": true,
+    "no_approval_unresolved_overlap": true,
+    "no_qualified_unresolved_FDA_hits": true
+  },
+  "ten_year_results": {
+    "selection": "entry_qualified and strict_entry_qualified; asset_cluster;2010_2024",
+    "genetic_CNS": {
+      "approvals": 5,
+      "denominator": 20,
+      "assets": [
+        "cerliponase_alfa",
+        "deutetrabenazine",
+        "elivaldogene_autotemcel",
+        "nusinersen",
+        "onasemnogene_abeparvovec"
+      ]
+    },
+    "genetic_CNS_genetic_medicine": {
+      "approvals": 3,
+      "denominator": 10,
+      "assets": [
+        "elivaldogene_autotemcel",
+        "nusinersen",
+        "onasemnogene_abeparvovec"
+      ]
+    },
+    "important_explanations": [
+      "Atidarsagene remains mature denominator but approval occurred after10years; do not mistake exclusion from10year numerator for lifetime failure.",
+      "Tofersen,risdiplam,ABO102 are10year maturity-boundary cases under supplied entry intervals; not omitted known approvals.",
+      "R2 includes symptomatic therapies such as deutetrabenazine; R3 removes this small molecule, so do not label R2 as first-DMT or novel-platform-only rate."
+    ]
+  },
+  "remaining_issue": {
+    "severity": "provenance_not_current_genetic_tier_arithmetic",
+    "detail": "Cluster success IDs currently identify representative row, which can differ from original co-developed member providing first approval. BB305 can show lovo-cel ID with beti-cel first approval date in calculation. Persist approval_event_source_id and aggregated event date/cluster_member_ids for auditability."
+  }
+}

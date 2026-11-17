@@ -1,0 +1,1118 @@
+{
+  "asset": "ETX101",
+  "query": "ETX101",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ETX101&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05419492",
+            "orgStudyIdInfo": {
+              "id": "ETX-DS-002"
+            },
+            "organization": {
+              "fullName": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Study to Evaluate the Safety and Efficacy of ETX101 in Infants and Children With SCN1A-Positive Dravet Syndrome",
+            "officialTitle": "ENDEAVOR: A Clinical Study to Evaluate the Safety and Efficacy of ETX101, an AAV9-Delivered Gene Therapy in Infants and Children With SCN1A-Positive Dravet Syndrome",
+            "acronym": "ENDEAVOR"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-05-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-06",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2034-06",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-10",
+            "studyFirstSubmitQcDate": "2022-06-10",
+            "studyFirstPostDateStruct": {
+              "date": "2022-06-15",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-23",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "ENDEAVOR is a Phase 1/2, 2-part, multicenter study to evaluate the safety and efficacy of ETX101 in participants with SCN1A-positive Dravet syndrome aged \u22656 to \\<36 months (Part 1A), aged \u226548 months to \\<18 years (Part 1B), and aged \u22656 to \\<48 months (Part 2). Part 1A follows an open-label, dose-escalation design, Part 1B follows an open-label design, and Part 2 is a randomized, double-blind, sham delayed-treatment control study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dravet Syndrome"
+            ],
+            "keywords": [
+              "Dravet",
+              "SCN1A",
+              "DEE",
+              "developmental and epileptic encephalopathy",
+              "Dravet Syndrome",
+              "SCN1A-positive",
+              "SCN1A+"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Part 1A and Part 1B are open-label with no blinding.\n\nPart 2 will be conducted in a double-blinded manner whereby all Primary Site Staff (including clinicians, research coordinators, neuropsychologists, pharmacists, and physical therapists), study participants and caregivers, Sponsor and Sponsor-designees will be blinded through the end of Week 52 following Day 1 for each participant. The Surgical Site Staff will be unblinded to treatment assignment.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 113,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1 (US Only)",
+                "type": "EXPERIMENTAL",
+                "description": "Part 1A will follow an open-label, rule-based, dose-escalation design and will evaluate up to 4 dose levels of ETX101. Part 1B will follow an open-label design and will evaluate 1 dose level of ETX101.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Part 2",
+                "type": "SHAM_COMPARATOR",
+                "description": "Part 2 will follow a double-blind (up through Week 52), randomized, sham delayed-treatment control design.\n\nThere will be 2 cohorts in Part 2. A single dose level of ETX101 will be evaluated in Part 2 and participants will be randomized 2:1 to study treatment or sham procedure with delayed treatment.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETX101",
+                "description": "ETX101 is a non-replicating, recombinant adeno-associated viral vector serotype 9 (rAAV9) comprising a GABAergic regulatory element (reGABA) and an engineered transcription factor that increases transcription of the SCN1A gene (eTFSCN1A). ETX101 is intended as a one-time intracerebroventricular (ICV) administration.",
+                "armGroupLabels": [
+                  "Part 1 (US Only)",
+                  "Part 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent change in monthly countable seizure frequency (MCSF) between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in Bayley-4 cognitive subdomain raw score at Week 52 (Key Secondary Endpoint for Part 2).",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Vineland-3 subdomain GSVs at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 subdomain GSVs at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of participants achieving \u2265 75% reduction in MCSF between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)."
+              },
+              {
+                "measure": "Proportion of participants achieving \u2265 50% reduction in MCSF between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)."
+              },
+              {
+                "measure": "Change from Baseline in the Vineland-3 Adaptive Behavior Composite standard score at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Vineland-3 subdomain raw scores at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 subdomain raw scores (excluding cognitive subdomain) at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of CGI-I responders, defined as participants with a CGI-I score of 1 (Very much improved) or 2 (Much improved), at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of CGI-S responders, defined as participants who either have a CGI-S score of 1 (Normal, not at all ill) or demonstrate a \u22652 point improvement from Baseline, at Week 52.",
+                "timeFrame": "From Baseline to Week 52."
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Safety Endpoint: Proportions of participants experiencing any treatment-emergent DLTs (for Part 1A only), AEs, serious adverse events (SAEs), related AEs, AEs with severity Grade \u2265 3, AEs resulting in study discontinuation, and AEs resulting in death.",
+                "timeFrame": "From Day 1 through Study Completion."
+              },
+              {
+                "measure": "Safety Endpoint: Proportion of participants experiencing SAEs leading to hospitalization.",
+                "timeFrame": "From Day 1 through Study Completion."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must be aged between \u22656 months and \\<36 months in Part 1A, \u226548 months and \\<18 years in Part 1B, \u22656 months and \\<48 months in Part 2.\n* Participant must have a predicted loss of function pathogenic or likely pathogenic SCN1A variant.\n* Participant must have experienced their first seizure between the ages of 1 and 15 months.\n* Participant must have a clinical diagnosis of Dravet syndrome or the treating clinician must have a high clinical suspicion of a diagnosis of Dravet syndrome.\n* Participant is receiving at least one prophylactic antiseizure medication.\n\nExclusion Criteria:\n\n* Participant has another genetic mutation or clinical comorbidity which could potentially confound the typical Dravet phenotype.\n* Participant has a known central nervous system structural and/or vascular abnormality (indicated by an MRI or CT scan of the brain).\n* Participant has an abnormality that may interfere with CSF distribution and/or has an existing ventriculoperitoneal shunt.\n* Participant has received sodium channel blockers during the Pre-Dosing Seizure Period.\n* Participant has experienced seizure freedom for a period of 4 consecutive weeks within the 90-day period prior to informed consent.\n* Participant has previously received gene or cell therapy.\n* Participant is currently enrolled in a clinical trial or receiving an investigational therapy.\n* Participant has clinically significant underlying liver disease.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Encoded Patient Advocacy",
+                "role": "CONTACT",
+                "phone": "+1 (650) 398-4301",
+                "email": "patientadvocacy@encoded.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Salvador Rico, M.D., Ph.D",
+                "affiliation": "Encoded Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "UCSF Benioff Children's Hospitals",
+                "status": "RECRUITING",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94158",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Adam Numis, MD",
+                    "role": "CONTACT",
+                    "email": "Adam.numis@ucsf.edu"
+                  },
+                  {
+                    "name": "Adam Numis",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              },
+              {
+                "facility": "Colorado Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kallie Dock",
+                    "role": "CONTACT",
+                    "phone": "720-777-5322",
+                    "email": "Kallie.dock@childrenscolorado.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "Nicklaus Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33155",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Matt Lallas",
+                    "role": "CONTACT",
+                    "phone": "305-662-8330",
+                    "email": "Matt.Lallas@nicklaushealth.org"
+                  },
+                  {
+                    "name": "Dainelys Pena Rodriguez",
+                    "role": "CONTACT",
+                    "phone": "786-624-3547",
+                    "email": "Dainelys.PenaRodriguez@nicklaushealth.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+                "status": "RECRUITING",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Jazmine Ibarra",
+                    "role": "CONTACT",
+                    "phone": "312-227-0967",
+                    "email": "jazibarra@luriechildrens.org"
+                  },
+                  {
+                    "name": "Linda Laux",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Mott Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Stephanie Rau",
+                    "role": "CONTACT",
+                    "phone": "734-232-8474",
+                    "email": "shatchew@med.umich.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "Mayo Clinic",
+                "status": "RECRUITING",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Bridget Neja",
+                    "role": "CONTACT",
+                    "phone": "507-266-9150",
+                    "email": "neja.bridget@mayo.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "NYU Langone Health",
+                "status": "NOT_YET_RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10016",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Comprehensive Epilepsy Center",
+                    "role": "CONTACT",
+                    "phone": "646-558-0800",
+                    "email": "CECResearchStudyInfo@nyulangone.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Duke Children's Hospital & Health Center",
+                "status": "RECRUITING",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27705",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Makenzi Buchanan",
+                    "role": "CONTACT",
+                    "phone": "919-613-1232",
+                    "email": "Makenzi.hayes@duke.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "Nationwide Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kaitlyn Brown",
+                    "role": "CONTACT",
+                    "phone": "614-722-2286",
+                    "email": "Kaitlyn.brown2@nationwidechildrens.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "Oregon Health and Science University (OHSU)",
+                "status": "RECRUITING",
+                "city": "Portland",
+                "state": "Oregon",
+                "zip": "97239",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Emily Stein",
+                    "role": "CONTACT",
+                    "phoneExt": "503-418-4349",
+                    "email": "steine@ohsu.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.52345,
+                  "lon": -122.67621
+                }
+              },
+              {
+                "facility": "Cook Children's Medical Center",
+                "status": "RECRUITING",
+                "city": "Fort Worth",
+                "state": "Texas",
+                "zip": "76104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Neurology Epilepsy Research",
+                    "role": "CONTACT",
+                    "phone": "(682) 885-2844",
+                    "email": "neuroepilepsyresearch@cookchildrens.org"
+                  },
+                  {
+                    "name": "Scott Perry",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.72541,
+                  "lon": -97.32085
+                }
+              },
+              {
+                "facility": "The Royal Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Melbourne",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Prof. Ingrid Scheffer",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Dr. Katherine Howell",
+                    "role": "CONTACT",
+                    "email": "neurology.department@rch.org.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Queen Elizabeth Hospital",
+                "status": "RECRUITING",
+                "city": "Glasgow",
+                "zip": "G51 4TF",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "Patricia Clark",
+                    "role": "CONTACT",
+                    "phone": "0141 232 7600",
+                    "email": "Patricia.Clark2@ggc.scot.nhs.uk"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Great Ormond Street Hospital",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "WC1N3JH",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "Helen Cross, MD",
+                    "role": "CONTACT",
+                    "email": "helen.cross10@nhs.net"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              },
+              {
+                "id": "C565810",
+                "term": "Generalized Epilepsy With Febrile Seizures Plus, Type 2"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06283212",
+            "orgStudyIdInfo": {
+              "id": "ETX-DS-005"
+            },
+            "organization": {
+              "fullName": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Study to Evaluate the Safety and Efficacy of ETX101, an AAV9-Delivered Gene Therapy in Children With SCN1A-positive Dravet Syndrome",
+            "officialTitle": "EXPEDITION: A Clinical Study to Evaluate the Safety and Efficacy of ETX101, an AAV9-Delivered Gene Therapy in Children With SCN1A-positive Dravet Syndrome",
+            "acronym": "UK Only"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-05-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2030-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-22",
+            "studyFirstSubmitQcDate": "2024-02-22",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-28",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-04",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "EXPEDITION is a Phase 1/2 study in the UK to evaluate the safety and efficacy of ETX101 in participants with SCN1A-positive Dravet Syndrome aged 6 to \\< 48 months. The study follows and open-label, dose-escalation design."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dravet Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort A",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort A will evaluate ETX101 dose level 1.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort B",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort B will evaluate ETX101 dose level 2.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort C",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort C will evaluate ETX101 dose level 3.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort D",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort D will evaluate ETX101 dose level 4.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETX101",
+                "description": "ETX101 is composed of a non-replicating, recombinant adeno-associated viral serotype 9 (rAAV9) vector used to deliver a GABAergic regulatory element (reGABA) and an engineered transcription factor that increases transcription of the SCN1A gene (eTFSCN1A)",
+                "armGroupLabels": [
+                  "Cohort A",
+                  "Cohort B",
+                  "Cohort C",
+                  "Cohort D"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent change in monthly countable seizure frequency (MCSF) between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in Bayley-4 cognitive subdomain raw score at Week 52",
+                "timeFrame": "Baseline to Week 52"
+              },
+              {
+                "measure": "Change from Baseline in Vineland-3 subdomain GSVs at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 subdomain GSVs at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of participants achieving \u2265 75% reduction in MCSF between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)."
+              },
+              {
+                "measure": "Proportion of participants achieving \u2265 50% reduction in MCSF between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period.",
+                "timeFrame": "Between the Pre-Dosing Seizure Period and the Post-Dosing Assessment Period (defined as Week 5 to Week 52)."
+              },
+              {
+                "measure": "Change from Baseline in the Vineland-3 Adaptive Behavior Composite standard score at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Vineland-3 subdomain raw scores at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 subdomain raw scores (excluding cognitive subdomain) at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of CGI-I responders, defined as participants with a CGI-I score of 1 (Very much improved) or 2 (Much improved), at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              },
+              {
+                "measure": "Proportion of CGI-S responders, defined as participants who either have a CGI-S score of 1 (Normal, not at all ill) or demonstrate a \u22652 point improvement from Baseline, at Week 52.",
+                "timeFrame": "Baseline to Week 52."
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Safety Endpoint: Proportions of participants experiencing any treatment-emergent DLTs, AEs, serious adverse events (SAEs), related AEs, AEs with severity Grade \u2265 3, AEs resulting in study discontinuation, and AEs resulting in death.",
+                "timeFrame": "From Day 1 through Study Completion."
+              },
+              {
+                "measure": "Safety Endpoint: Proportion of participants experiencing SAEs leading to hospitalization.",
+                "timeFrame": "From Day 1 through Study Completion."
+              },
+              {
+                "measure": "Safety Endpoint: Overall survival.",
+                "timeFrame": "From Day 1 through Study Completion."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant has a predicted loss of function pathogenic or likely pathogenic SCN1A variant\n* Participant must have experienced their first seizure between the age of 3 and 15 months\n* Participant must have a clinical diagnosis of Dravet syndrome or the treating clinician must have high clinical suspicion of a diagnosis of Dravet syndrome\n* Participant is receiving at least one prophylactic antiseizure medication\n\nExclusion Criteria:\n\n* Participant has another genetic mutation or clinical comorbidity which could potentially confound the typical Dravet phenotype\n* Participant has a known central nervous system structural and/or vascular abnormality (indicated by an MRI or CT scan of the brain).\n* Participant has an abnormality that may interfere with CSF distribution and/or has an existing ventriculoperitoneal shunt.\n* Participant is currently taking or has taken antiseizure medications (ASMs) at a therapeutic dose that are contraindicated in Dravet syndrome, including sodium channel blockers.\n* Participant has experienced seizure freedom for a period of 4 consecutive weeks within the 90-day period prior to informed consent.\n* Participant has previously received gene or cell therapy.\n* Participant is currently enrolled in a clinical trial or receiving an investigational therapy.\n* Participant has clinically significant underlying liver disease.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "maximumAge": "47 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Salvador Rico, M.D., Ph. D",
+                "affiliation": "Encoded Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Queen Elizabeth Hospital",
+                "city": "Glasgow",
+                "zip": "G51 4TF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Great Ormond Street Hospital",
+                "city": "London",
+                "zip": "WC1N3JH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Sheffield Children's Hospital",
+                "city": "Sheffield",
+                "zip": "S10 2TH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.38297,
+                  "lon": -1.4659
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06112275",
+            "orgStudyIdInfo": {
+              "id": "ETX-DS-004"
+            },
+            "organization": {
+              "fullName": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Study to Evaluate the Safety and Efficacy of ETX101, an AAV9-Delivered Gene Therapy in Children With SCN1A-positive Dravet Syndrome (Australia Only)",
+            "officialTitle": "WAYFINDER: A Clinical Study to Evaluate the Safety and Efficacy of ETX101, an AAV9-Delivered Gene Therapy in Children With SCN1A-positive Dravet Syndrome"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-09",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-02-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2030-09",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-09",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-25",
+            "studyFirstSubmitQcDate": "2023-10-30",
+            "studyFirstPostDateStruct": {
+              "date": "2023-11-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Encoded Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "WAYFINDER is a Phase 1/2 study in Australia to evaluate the safety and efficacy of ETX101 in participants with SCN1A-positive Dravet syndrome aged 6 to \\<84 months. The study follows an open-label, dose-escalation design."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dravet Syndrome"
+            ],
+            "keywords": [
+              "Dravet",
+              "SCN1A",
+              "DEE",
+              "developmental and epileptic encephalopathy",
+              "Dravet Syndrome",
+              "SCN1A-positive",
+              "SCN1A+"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 4,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort A",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort A will evaluate ETX101 dose level 1.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort B",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort B will evaluate ETX101 dose level 2.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort C",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort C will evaluate ETX101 dose level 3.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              },
+              {
+                "label": "Cohort D",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort D will evaluate ETX101 dose level 4.",
+                "interventionNames": [
+                  "Drug: ETX101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETX101",
+                "description": "ETX101 is composed of a non-replicating, recombinant adeno-associated viral serotype 9 (rAAV9) vector used to deliver a GABAergic regulatory element (reGABA) and an engineered transcription factor that increases transcription of the SCN1A gene (eTFSCN1A).",
+                "armGroupLabels": [
+                  "Cohort A",
+                  "Cohort B",
+                  "Cohort C",
+                  "Cohort D"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of participants experiencing any treatment-emergent adverse events (AEs), serious adverse events (SAEs), related AEs, AEs with severity Grade \u2265 3, AEs resulting in study discontinuation, and AEs with a fatal outcome.",
+                "timeFrame": "Day 1 through Study Completion, an average of 5 years"
+              },
+              {
+                "measure": "Percent change from Baseline in monthly countable seizure frequency (MCSF) at Week 52, with countable seizures defined as generalized tonic-clonic/clonic, focal motor with clearly observable clinical signs, tonic bilateral, and atonic seizures.",
+                "timeFrame": "Between the 8-week baseline period and the 48-week post-dosing assessment period (defined as Week 5 to Week 52 following administration of ETX101)"
+              },
+              {
+                "measure": "Proportion of participants free from episodes of prolonged seizures and/or status epilepticus at Week 52.",
+                "timeFrame": "Week 5 through Week 52"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of participants with \u2265 90% reduction in monthly countable seizure frequency (MCSF) from Baseline at Week 52.",
+                "timeFrame": "Between the 8-week baseline period and the 48-week post-dosing assessment period (defined as Week 5 to Week 52 following administration of ETX101)"
+              },
+              {
+                "measure": "Change from Baseline in the Vineland-Third Edition Expressive Communication raw score at Week 52.",
+                "timeFrame": "Baseline through Week 52. Higher scores correspond to better outcomes."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must have a predicted loss of function pathogenic or likely pathogenic SCN1A variant.\n* Participant must have experienced their first seizure between the ages of 3 and 15 months.\n* Participant must have a clinical diagnosis of Dravet syndrome or the treating clinician must have a high clinical suspicion of a diagnosis of Dravet syndrome.\n* Participant is receiving at least one prophylactic antiseizure medication.\n\nExclusion Criteria:\n\n* Participant has another genetic mutation or clinical comorbidity which could potentially confound the typical Dravet phenotype.\n* Participant has a known central nervous system structural and/or vascular abnormality (indicated by an MRI or CT scan of the brain).\n* Participant has an abnormality that may interfere with CSF distribution and/or has an existing ventriculoperitoneal shunt.\n* Participant is currently taking or has taken antiseizure medications (ASMs) at a therapeutic dose that are contraindicated in Dravet syndrome, including sodium channel blockers.\n* Participant has experienced seizure freedom for a period of 4 consecutive weeks within the 6-month period prior to informed consent.\n* Participant has previously received gene or cell therapy.\n* Participant is currently enrolled in a clinical trial or receiving an investigational therapy.\n* Participant has clinically significant underlying liver disease.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "maximumAge": "83 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Salvador Rico, M.D., Ph.D",
+                "affiliation": "Encoded Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Royal Children's Hospital",
+                "city": "Melbourne",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              },
+              {
+                "id": "C565810",
+                "term": "Generalized Epilepsy With Febrile Seizures Plus, Type 2"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

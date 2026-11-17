@@ -1,0 +1,237 @@
+{
+  "integrated_id": "systemic:sys_7141ac1cc8f2",
+  "asset": "\u03b2-globin restored autologous hematopoietic stem cells",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.id=NCT05745532",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05745532",
+            "nctIdAliases": [
+              "NCT04592458"
+            ],
+            "orgStudyIdInfo": {
+              "id": "SZ-101"
+            },
+            "organization": {
+              "fullName": "Shenzhen Hemogen",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy Evaluation of \u03b2-globin Restored Autologous Hematopoietic Stem Cells in \u03b2-thalassemia Major Patients",
+            "officialTitle": "Safety and Efficacy Evaluation of \u03b2-globin Restored Autologous Hematopoietic Stem Cells in \u03b2-thalassemia Major Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-12-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-05-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-12-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-16",
+            "studyFirstSubmitQcDate": "2023-02-24",
+            "studyFirstPostDateStruct": {
+              "date": "2023-02-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-11-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-11-29",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shenzhen Hemogen",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open label study to evaluate the safety and efficacy of \u03b2-globin Restored Autologous Hematopoietic Stem Cells in \u00df-Thalassemia Major Patients",
+            "detailedDescription": "We will recruit \u00df-thalassaemia major patients and collect their autologous hematopoietic stem cells, which will be modified with the LentiHBBT87Q system to restore \u03b2-globin expression. After conditioning, the autologous hematopoietic stem cells with restored \u03b2-globin will be reinfused to the patients and followed up for two years to collect data."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "\u03b2-thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Experimental",
+                "type": "EXPERIMENTAL",
+                "description": "Ten transfusion-dependent \u03b2-thalassaemia subjects aged 8-16 years will be reinfused with \u03b2-globin-restored autologous hematopoietic stem cells modified with LentiHBBT87Q.",
+                "interventionNames": [
+                  "Biological: \u03b2-globin restored autologous hematopoietic stem cells"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "\u03b2-globin restored autologous hematopoietic stem cells",
+                "description": "\u03b2-globin-restored autologous hematopoietic stem cells modified with LentiHBBT87Q",
+                "armGroupLabels": [
+                  "Experimental"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of adverse events (AEs) and serious adverse events (SAEs)",
+                "description": "The number and the percentage of adverse events related to transplantation in 100 days will be summarized according to NCI CTCAE 5.0",
+                "timeFrame": "0-100 days"
+              },
+              {
+                "measure": "Overall survival",
+                "description": "Number of patients alive through the whole trial will be record",
+                "timeFrame": "0-24 months"
+              },
+              {
+                "measure": "Proportion of engraftment",
+                "description": "Neutrophil count \\[ANC\\] \\>=500 /mm3 for 3 consecutive days and platelet count \\[PLT\\] \\>20,000/mm3 for7 consecutive days",
+                "timeFrame": "0-24 months"
+              },
+              {
+                "measure": "Replication competent lentivirus (RCL)",
+                "description": "The percentage of RCL should be negative in the 24 months after transplant",
+                "timeFrame": "0-24 months"
+              },
+              {
+                "measure": "Dynamics of viral integration sites (VIS)",
+                "description": "Evaluation of the percentage of participants without abnormal clonal proliferation and polyclonal engraftment . More than 1000 VIS retrieved from peripheral blood should be checked.",
+                "timeFrame": "0-24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The average Insertion copy number (VCN) in peripheral blood mononuclear cells",
+                "description": "The average insertion copy number (VCN) should be \u22650.1 in peripheral blood mononuclear cells",
+                "timeFrame": "18-24 Months"
+              },
+              {
+                "measure": "The expression level of exogenous adult hemoglobin",
+                "description": "Exogenous adult hemoglobin will be evaluated by globin chains and hemoglobin synthesis on peripheral blood by HPLC and the exogenous adult hemoglobin level is \u22652.0g/dL",
+                "timeFrame": "18-24 Months"
+              },
+              {
+                "measure": "Change from baseline in annualized frequency of packed RBC transfusions",
+                "description": "Compare the annualized number of pRBC transfusions before gene therapy with the Month 18 and Month 24 period after transplant, the percentage change will be recorded",
+                "timeFrame": "18-24 Months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 8-16 years old. Subject and/or subject's legal guardian fully understand and voluntarily sign informed consent;\n* Clinically diagnosed as transfusion-dependent \u03b2-thalassemia major;\n* With sufficient RBC infusion, subjects must maintain hemoglobin \u22659g/dL, serum ferritin threshold \u2264 3000 ng/mL and the liver iron overload mild or absent for at least 3 months before mobilization of hematopoietic stem cell;\n* Follow the arrangements for treatment and regular medical checks within two years post-transplantation\n\nExclusion Criteria:\n\n* The physical condition does not meet the requirements for hematopoietic stem cell mobilization and transplantation myeloablation;\n* Received gene therapy and allogeneic HSCT in the past.\n* Have an available HLA matched donor.\n* Enrolling in another clinical trial.\n* Other unsuitable conditions identified by doctors.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "8 Years",
+            "maximumAge": "16 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Haigang Sun",
+                "role": "CONTACT",
+                "phone": "13823168465",
+                "email": "sunhaigang@genomics.cn"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Chao Liu, PHD",
+                "affiliation": "Shenzhen Hemogen",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              },
+              {
+                "name": "Sixi Liu, Professor",
+                "affiliation": "Shenzhen Children's Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Shenzhen Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Shenzhen",
+                "state": "Guangdong",
+                "zip": "518083",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Haigang Sun",
+                    "role": "CONTACT",
+                    "phone": "13823168465",
+                    "email": "sunhaigang@genomics.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41693207",
+                "type": "DERIVED",
+                "citation": "Liu S, Chen Y, Li Y, Qian L, Dong G, Zhang Q, Zhou X, Guo H, Sun H, Lin Q, Yu J, Zeng X, Zou H, He J, Yao W, Ouyang W, Liu C. Safety and efficacy of hemobeglogene autotemcel(hemo-cel) gene therapy in five patients with transfusion-dependent beta-thalassemia. Mol Ther. 2026 May 6;34(5):2611-2620. doi: 10.1016/j.ymthe.2026.02.017. Epub 2026 Feb 14."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

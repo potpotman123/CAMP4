@@ -1,0 +1,3544 @@
+{
+  "integrated_id": "systemic:sys_088686ed3508",
+  "asset": "lanoracopan",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=lanoracopan+OR+MY008211A",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05828485",
+            "orgStudyIdInfo": {
+              "id": "MY008211-1-03"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Effect of Food on Pharmacokinetics of MY008211A Tablets in Healthy Adult Subjects",
+            "officialTitle": "A Single-dose, Open-label Clinical Study to Evaluate the Effect of Food on Pharmacokinetics of MY008211A Tablets in Healthy Adult Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-09-26",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-10-23",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-10-23",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-04-13",
+            "studyFirstSubmitQcDate": "2023-04-13",
+            "studyFirstPostDateStruct": {
+              "date": "2023-04-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-04-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-04-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This was a single-center, single-dose, open-label clinical study. 12 subjects were randomly assigned in a 1:1 ratio to one of the following dosing sequences (sequence 1: AB; Sequence 2: BA). Each dosing sequence consisted of two cycles, one dose per cycle, with a 5-day washout period between doses.",
+            "detailedDescription": "A: A single dose of MY008211A tablets was administered in the fasting state (fasting for at least 10 h with water as needed).\n\nB: A single dose of MY008211A tablets was administered after a standard high-fat, high-calorie fed."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Sequence 1 : AB",
+                "type": "EXPERIMENTAL",
+                "description": "6 subjects were given a single dose of MY008211A tablets in the fasting state and, after a 5-day washout period, a single dose of MY008211A tablet was administered after taking a standard high-fat and high-calorie fed.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Sequence 1 : BA",
+                "type": "EXPERIMENTAL",
+                "description": "6 subjects were given a single dose of MY008211A tablet after taking a standard high-fat and high-calorie fed and, after a 5-day washout period, a single dose of MY008211A tablet in the fasting state.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "A single dose of MY008211A tablet was administered after fasting and high-fat, high-calorie feeding",
+                "armGroupLabels": [
+                  "Sequence 1 : AB",
+                  "Sequence 1 : BA"
+                ],
+                "otherNames": [
+                  "no other name"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Maximum Plasma Concentration (Cmax)",
+                "description": "Maximum Plasma Concentration (Cmax) Of MY008211A tablets",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "The Maximum Plasma Concentration (Tmax)",
+                "description": "Time To Reach The Maximum Plasma Concentration (Tmax) Of MY008211A",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Area Under The Concentration Versus Time Curve (AUC)",
+                "description": "Area Under The Concentration Versus Time Curve (AUC) Of MY008211A",
+                "timeFrame": "up to 72 hours postdose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The incidence and severity of adverse events to assess safety and tolerability",
+                "description": "such as laboratory abnormalities",
+                "timeFrame": "up to 9 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18\u2264 age \u2264 45, male or female;\n2. Body weight: \u226550 kg for male, \u226545 kg for female; body mass index (BMI): 19.0-26.0 kg/m2 (inclusive);\n3. Informed consent will be signed before the trial, and the content, process and possible adverse reactions of the trial will be fully understood;\n4. The volunteers should be able to communicate well with the researchers and understand and comply with the requirements of the study.\n\nExclusion Criteria:\n\n1. Participants who were enrolled in a clinical trial or used a study drug within 3 months before administration of the study drug;\n2. Patients with chronic or active gastrointestinal diseases such as esophageal disease, gastritis, gastric ulcer, enteritis, active gastrointestinal bleeding, or gastrointestinal surgery within the past three years and still clinically relevant according to the investigator;\n3. Patients with definite diseases of the central nervous system, cardiovascular system, digestive system, respiratory system, urinary system, hematological system, metabolic system and other diseases that require medical intervention or are not suitable for clinical trial (such as psychiatric history);\n4. History of known or suspected immunodeficiency (e.g., history of frequent recurrent infections), inherited or acquired complement deficiency;\n5. Patients had a clear history of capsular microbial infection within 6 months before screening; Including but not limited to: Streptococcus pneumoniae, Bacillus anthracis, Salmonella, Salmonella typhi, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Neisseria meningitidis, Haemophilus influenzae, Legionella pneumophila infection history;\n6. Patients with previous or current history of TB infection;\n7. Active systemic bacterial, viral, or fungal infection within 14 days before administration of the study drug;\n8. Fever (\u2265 38 \u00b0 C) within 7 days before administration of the study drug;\n9. Those who have a history of allergy to the trial preparation and any of its components or related preparations, or to drugs, foods or other substances;\n10. Those who cannot tolerate intravenous puncture or have a history of syncope or needle sickness;\n11. Patients who underwent surgery within 6 months before the study drug is used, which will be judged by the investigators to affect the absorption, distribution, metabolism, and excretion of the study drug; Surgical procedures within 4 weeks before the use of the study drug; Or planned to undergo a surgical procedure during the trial;\n12. Who had taken any medicine (including Chinese herbal medicine, health products, etc.) within 14 days before administration of the study drug;\n13. Who received a vaccine or live attenuated vaccine within 14 days before administration of the study drug, or who plan to receive a vaccine during the trial;\n14. Who donated blood or lost a large amount of blood (\\> 400mL) within 3 months before administration of the study drug, received a blood transfusion or use of blood products, or intended to donate blood or blood components during or within 3 months after administration of the study drug;\n15. Drug abusers or had used hard drugs (e.g., cocaine, phencyhexidine, etc.) or soft drugs (e.g., cannabis) within 1 year before administration of the study drug;\n16. Smokers or had smoked more than 5 cigarettes per day in 3 months before study drug use, or will be unable to stop using any tobacco products during the study;\n17. Heavy drinkers, who drink at least twice a day or more than 14 times a week, or are avid binge drinkers (one drink is defined as 125mL of wine, 220mL of beer, or 50mL of liquor; Binge drinking is defined as 5 or more drinks in approximately 2 hours); Or unwillingness to stop drinking alcohol or any alcohol-based product during the trial;\n18. Those who have special requirements for diet and cannot abide by the uniform diet;\n19. Volunteers (or their partners) who plan to be pregnant or donate sperm or eggs during the trial to 3 months after the end of the trial, or who are unwilling to take one or more non-drug contraceptive measures (such as complete abstinence, condoms, contraceptive rings, surgical sterilization, etc.);\n20. Pregnant or lactating women; Or having unprotected sex within 2 weeks before using the study drug; Or oral contraceptive use within 30 days or long-acting estrogen or progestin injectable or implant use within 6 months before use of the study drug;\n21. Physical examination, electrocardiogram, chest X-ray, abdominal ultrasound, vital signs, laboratory examination abnormalities were clinically significant (subject to clinician's judgment);\n22. With positive uremic screening test;\n23. With positive alcohol breath test;\n24. Volunteers may not be able to complete the study for other reasons or have other reasons for not participating in the study as judged by the investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Wei feng, Ph.D",
+                "affiliation": "Wuhan Createrna Science and Technology Co., Ltd",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Third Hospital of Changsha",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "410011",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07926698",
+            "orgStudyIdInfo": {
+              "id": "20261008093031021"
+            },
+            "organization": {
+              "fullName": "The First Affiliated Hospital of Soochow University",
+              "class": "OTHER"
+            },
+            "briefTitle": "Lanoracopan to Prevent Acute GVHD Following Haploidentical Peripheral Blood Stem Cell Transplantation: A Prospective Multicenter Single-Arm Exploratory Study",
+            "officialTitle": "Lanoracopan for Prevention of Acute Graft-Versus-Host Disease After Haploidentical Peripheral Blood Stem Cell Transplantation: A Prospective, Multicenter, Single-Arm Exploratory Study"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-12-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-12-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-11-04",
+            "studyFirstSubmitQcDate": "2026-11-04",
+            "studyFirstPostDateStruct": {
+              "date": "2026-11-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-04",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "The First Affiliated Hospital of Soochow University",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a prospective, multicenter, open-label, single-arm exploratory study. Thirty adult patients with hematologic malignancies who are scheduled to receive haploidentical peripheral blood stem-cell transplantation with myeloablative conditioning will be enrolled.\n\nAll participants will receive standard anti-thymocyte globulin (ATG, total 7.5 mg/kg), standard graft-versus-host-disease (GVHD) prophylaxis (calcineurin inhibitor + mycophenolate mofetil + short-course methotrexate), plus lanoracopan 200 mg twice daily from day +1 to day +90 after stem-cell infusion. Lanoracopan is an approved complement alternative-pathway inhibitor being used off-label for GVHD prevention in this trial. Mandatory antibiotic prophylaxis against encapsulated bacterial pathogens will be given.\n\nThe primary goal is to evaluate the safety of lanoracopan in this transplant setting, including adverse events / serious adverse events, neutrophil and platelet engraftment, graft-failure rate, and infectious complications. The key secondary objective is to explore the cumulative incidence of grade II-IV acute GVHD at day 100 post-transplant. Additional secondary outcomes include chronic GVHD, TA-TMA, 1-year overall survival, disease-free survival, cumulative incidence of relapse, and non-relapse mortality. Exploratory biomarker assessments will be performed on plasma and serum samples.\n\nParticipants will be followed for 1 year after transplantation. No control group is included in this exploratory study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hematologic Malignancies",
+              "Haploidentical Peripheral Blood Stem Cell Transplantation",
+              "Acute Graft-Versus-Host Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "PREVENTION",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 30,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: Lanoracopan",
+                  "Drug: Anti-thymocyte globulin (ATG)",
+                  "Drug: Calcineurin inhibitor (Cyclosporine or Tacrolimus)",
+                  "Drug: Mycophenolate mofetil (MMF)",
+                  "Drug: Methotrexate"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Lanoracopan",
+                "description": "200 mg oral, twice daily, administered from post-transplant day +1 to day +90. Off-label use for prevention of acute graft-versus-host-disease.",
+                "armGroupLabels": [
+                  "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Anti-thymocyte globulin (ATG)",
+                "description": "Total dose 7.5 mg/kg, administered intravenously from pre-transplant day -5 to day -2.",
+                "armGroupLabels": [
+                  "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Calcineurin inhibitor (Cyclosporine or Tacrolimus)",
+                "description": "Standard-dose calcineurin inhibitor (either cyclosporine or tacrolimus) as part of routine GVHD prophylaxis.",
+                "armGroupLabels": [
+                  "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Mycophenolate mofetil (MMF)",
+                "description": "Mycophenolate mofetil given per local center routine for GVHD prophylaxis.",
+                "armGroupLabels": [
+                  "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Methotrexate",
+                "description": "Short-course methotrexate for standard GVHD prophylaxis after allogeneic stem-cell transplantation.",
+                "armGroupLabels": [
+                  "Lanoracopan Combined With ATG and Standard GVHD Prophylaxis"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety: Incidence and severity of adverse events (AEs) and serious adverse events (SAEs); neutrophil and platelet engraftment; graft-failure rate; infectious complications",
+                "description": "To evaluate the safety of lanoracopan for aGVHD prophylaxis. Assess the incidence and maximum grade of adverse events (AEs) and serious adverse events (SAEs) graded by CTCAE version 5.0; time to neutrophil engraftment, time to platelet engraftment; graft failure rate; incidence of infectious complications among participants.",
+                "timeFrame": "From study drug initiation (post-transplant day +1) up to 1 year after stem-cell transplantation"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Cumulative incidence of grade II-IV acute graft-versus-host disease (aGVHD)",
+                "description": "Key secondary endpoint. Cumulative incidence of grade II-IV aGVHD at day 100 after haploidentical peripheral blood stem-cell transplantation, estimated by cumulative incidence function with non-relapse mortality as competing event.",
+                "timeFrame": "100 days after stem-cell transplantation"
+              },
+              {
+                "measure": "Cumulative incidence of chronic graft-versus-host disease (cGVHD)",
+                "description": "Cumulative incidence of cGVHD within 1-year post-transplantation.",
+                "timeFrame": "Up to 1 year after stem-cell transplantation"
+              },
+              {
+                "measure": "One-year overall survival (OS), disease-free survival (DFS), cumulative incidence of relapse (CIR), non-relapse mortality (NRM)",
+                "description": "Evaluate 1-year OS, 1-year DFS, 1-year CIR and 1-year NRM after haploidentical peripheral blood stem-cell transplantation.",
+                "timeFrame": "Up to 1 year after stem-cell transplantation"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-70 years, any gender.\n2. Diagnosed with hematologic malignancy according to WHO 2022 guidelines and eligible for allogeneic hematopoietic stem-cell transplantation.\n3. Scheduled to receive haploidentical peripheral blood stem-cell transplantation.\n4. Receive myeloablative conditioning regimen.\n5. Eastern Cooperative Oncology Group (ECOG) performance status 0-2.\n6. Adequate major organ function: left-ventricular ejection fraction \u226550%; DLCO \u226550% predicted value; ALT/AST \u22643\u00d7ULN, total bilirubin \u22642\u00d7ULN; creatinine clearance \u226560 mL/min.\n7. Able to understand study requirements and provide written informed consent.\n\nExclusion Criteria:\n\n1. Prior allogeneic hematopoietic stem-cell transplantation.\n2. Active uncontrolled infection judged by investigator.\n3. Myocardial infarction or unstable angina within previous 6 months.\n4. Known hypersensitivity to lanoracopan or its excipients.\n5. Pregnant or breastfeeding female subjects.\n6. Concurrent participation in other investigational drug clinical trials with similar mechanism.\n7. Any other conditions that make the subject unsuitable for enrollment as judged by the investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "LIMIN LIU, MD",
+                "role": "CONTACT",
+                "phone": "+86-512-6778183",
+                "email": "Liminliu1006@163.com"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Individual participant-level data (IPD) will not be shared with external researchers. This is a single-arm exploratory study sponsored by a hospital. Aggregated study results will be published in peer-reviewed journals and presented at academic conferences, but raw individual-level participant data cannot be released due to participant privacy protection and institutional data management requirements."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D019337",
+                "term": "Hematologic Neoplasms"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000961",
+                "term": "Antilymphocyte Serum"
+              },
+              {
+                "id": "D065095",
+                "term": "Calcineurin Inhibitors"
+              },
+              {
+                "id": "D016572",
+                "term": "Cyclosporine"
+              },
+              {
+                "id": "D016559",
+                "term": "Tacrolimus"
+              },
+              {
+                "id": "D009173",
+                "term": "Mycophenolic Acid"
+              },
+              {
+                "id": "D008727",
+                "term": "Methotrexate"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D007106",
+                "term": "Immune Sera"
+              },
+              {
+                "id": "D000906",
+                "term": "Antibodies"
+              },
+              {
+                "id": "D007136",
+                "term": "Immunoglobulins"
+              },
+              {
+                "id": "D007162",
+                "term": "Immunoproteins"
+              },
+              {
+                "id": "D001798",
+                "term": "Blood Proteins"
+              },
+              {
+                "id": "D011506",
+                "term": "Proteins"
+              },
+              {
+                "id": "D000602",
+                "term": "Amino Acids, Peptides, and Proteins"
+              },
+              {
+                "id": "D012712",
+                "term": "Serum Globulins"
+              },
+              {
+                "id": "D005916",
+                "term": "Globulins"
+              },
+              {
+                "id": "D001688",
+                "term": "Biological Products"
+              },
+              {
+                "id": "D045424",
+                "term": "Complex Mixtures"
+              },
+              {
+                "id": "D004791",
+                "term": "Enzyme Inhibitors"
+              },
+              {
+                "id": "D045504",
+                "term": "Molecular Mechanisms of Pharmacological Action"
+              },
+              {
+                "id": "D020228",
+                "term": "Pharmacologic Actions"
+              },
+              {
+                "id": "D020164",
+                "term": "Chemical Actions and Uses"
+              },
+              {
+                "id": "D003524",
+                "term": "Cyclosporins"
+              },
+              {
+                "id": "D010456",
+                "term": "Peptides, Cyclic"
+              },
+              {
+                "id": "D047028",
+                "term": "Macrocyclic Compounds"
+              },
+              {
+                "id": "D011083",
+                "term": "Polycyclic Compounds"
+              },
+              {
+                "id": "D010455",
+                "term": "Peptides"
+              },
+              {
+                "id": "D018942",
+                "term": "Macrolides"
+              },
+              {
+                "id": "D007783",
+                "term": "Lactones"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D002208",
+                "term": "Caproates"
+              },
+              {
+                "id": "D000144",
+                "term": "Acids, Acyclic"
+              },
+              {
+                "id": "D002264",
+                "term": "Carboxylic Acids"
+              },
+              {
+                "id": "D005227",
+                "term": "Fatty Acids"
+              },
+              {
+                "id": "D008055",
+                "term": "Lipids"
+              },
+              {
+                "id": "D000630",
+                "term": "Aminopterin"
+              },
+              {
+                "id": "D011622",
+                "term": "Pterins"
+              },
+              {
+                "id": "D011621",
+                "term": "Pteridines"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06687174",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-IgAN-2-01"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Evaluate the Efficacy and Safety of MY008211A in Subjects with Primary Immunoglobulin a Nephropathy (IgAN)",
+            "officialTitle": "A Phase 2, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel Study to Evaluate the Efficacy and Safety of MY008211A in Subjects with Primary Immunoglobulin a Nephropathy (IgAN)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-31",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-06-15",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-01-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-11-11",
+            "studyFirstSubmitQcDate": "2024-11-11",
+            "studyFirstPostDateStruct": {
+              "date": "2024-11-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-11-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-11-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Efficacy and safety of MY008211A in IgAN patients",
+            "detailedDescription": "This was a multicenter, randomized, double-blind, dose-ranging, parallel-group study. Two doses of MY008211A (200mg, 400mg) were compared with placebo. The study comprised a screening period of this study for 90 days, an efficacy observation period for 24 weeks, a long-term study for 80 weeks, and a follow-up period for 2 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "IgA Nephropathy (IgAN)"
+            ],
+            "keywords": [
+              "kidney disease",
+              "Primary glomerular disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "The trial was a double-blind design.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 72,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "MY008211A 200 mg BID",
+                "type": "EXPERIMENTAL",
+                "description": "200 mg taken twice a day.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "MY008211A 400 mg BID",
+                "type": "EXPERIMENTAL",
+                "description": "400 mg taken twice a day.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Matching placebo to MY008211A taken twice a day.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets matched placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "MY008211A BID",
+                "armGroupLabels": [
+                  "MY008211A 200 mg BID",
+                  "MY008211A 400 mg BID"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets matched placebo",
+                "description": "Matching placebo to MY008211A taken twice a day.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The ratio of urine protein to creatinine concentration ratio (UPCR based on 24h urine collection, 24h-UPCR) relative to baseline at Week 12.",
+                "description": "Participants collected their urine over a 24-hour period.",
+                "timeFrame": "Week 12"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The ratio of 24 h-UPCR relative to baseline at each visit during treatment period except Week 12.",
+                "description": "Participants collected their urine over a 24-hour period.",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "The ratio of 24-hour urine protein excretion (24 h-UPE) relative to baseline at each visit during treatment period.",
+                "description": "Participants collected all of their urine over a 24-hour period.",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "The ratio of 24-hour urine albumin (24 h-UA) relative to baseline at each visit during treatment period.",
+                "description": "Participants collected all of their urine over a 24-hour period.",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "The ratio of 24-hour urine albumin to creatinine concentration ratio (24 h-UACR) relative to baseline at each visit during treatment period.",
+                "description": "Participants collected all of their urine over a 24-hour period.",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "Change from baseline in serum creatinine at each visit during treatment period.",
+                "description": "Serum creatinine",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "Change from baseline in estimated glomerular filtration rate (eGFR) at each visit during treatment period.",
+                "description": "eGFR was calculated according to the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI).",
+                "timeFrame": "up to 24 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Males or females \u2265 18 and \u2264 75 years of age at Screening.\n2. Estimated GFR(eGFR) \u226530 mL/min/1.73m2.\n3. Subjects with a biopsy-confirmed diagnosis of IgAN.\n4. Urine protein \u22650.75 g/24h from a 24h urine collection.\n5. All patients must have been on stable supportive care including a maximally tolerated dose or approved maximal dose of ACEi or ARB therapy for at least 90 days prior to the first administration of study drug.\n6. Subjects who received SGLT2i must have been on a stable treatment with the maximum allowed or tolerated dose prior to the first administration of study drug.\n7. Vaccination against Neisseria meningitidis(MenACWY) is required within 3 years.\n8. Vaccination for the prevention of S. pneumoniae is required within 5 years.\n\nExclusion Criteria:\n\n1. Systolic blood pressure \\>130 mm Hg or diastolic blood pressure \\>80 mm Hg.\n2. Presence of any secondary IgAN.\n3. Presence of rapidly progressive glomerulonephritis.\n4. Presence of other chronic kidney diseases.\n5. Patients with a diagnosis of type 1 or type 2 diabetes mellitus.\n6. A history of invasive infections caused by encapsulated bacteria, e.g., meningococci or pneumococci.\n7. Patients previously treated with immunosuppressive agents exposure within 90 days prior to start of study drug dosing.\n8. Patients previously treated with traditional Chinese medicine containing immunosuppressive ingredients within 90 days prior to start of study drug dosing.\n9. Patients who had been treated with any systemic corticosteroids within the 180 days before treatment \u226520 mg/d for primary IgAN indication.\n10. Patients who previously have received biologic agent or monoclonal antibodies prior to start of study drug dosing within 5 half-lives or 30 days (whichever is longer).\n11. Patients who have received live/attenuated vaccines within the 4 weeks prior to randomization, or plan to receive during the trial.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Donghui Li, PH.D.",
+                "role": "CONTACT",
+                "phone": "(+86)027-68788900",
+                "email": "lidonghui@createrna.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Hong Zhang, PH.D.",
+                "affiliation": "Peking University First Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University First Hospital",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100034",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hong Zhang, PH.D.",
+                    "role": "CONTACT",
+                    "phone": "(+86)-010-83572388",
+                    "email": "hongzh@bjmu.edu.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05642585",
+            "orgStudyIdInfo": {
+              "id": "MY008211-1-01"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Single-dose MY008211A in Healthy Adults",
+            "officialTitle": "A Phase I, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Doses Clinical Study to Evaluate the Safety, Tolerability and Pharmacokinetic/Pharmacodynamics Characteristics of MY008211A Tablets in Healthy Adult Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-05-27",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-06-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-06-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-11-30",
+            "studyFirstSubmitQcDate": "2022-11-30",
+            "studyFirstPostDateStruct": {
+              "date": "2022-12-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-09-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The trial is the first human trial. The safety, tolerability, PK and PD of MY008211A Tablets will be evaluated in healthy subjects.",
+            "detailedDescription": "This is a single ascending dose, randomized, double-blind study\uff0cwith 5 dose groups preset."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 63,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group 1: Dose1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 2: Dose2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 3: Dose3",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 4: Dose4",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 5: Dose5",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 6: Dose6",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group 7: Dose7",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "Single oral",
+                "armGroupLabels": [
+                  "Group 1: Dose1",
+                  "Group 2: Dose2",
+                  "Group 3: Dose3",
+                  "Group 4: Dose4",
+                  "Group 5: Dose5",
+                  "Group 6: Dose6",
+                  "Group 7: Dose7"
+                ],
+                "otherNames": [
+                  "no name"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Single oral",
+                "armGroupLabels": [
+                  "Group 1: Dose1",
+                  "Group 2: Dose2",
+                  "Group 3: Dose3",
+                  "Group 4: Dose4",
+                  "Group 5: Dose5",
+                  "Group 6: Dose6",
+                  "Group 7: Dose7"
+                ],
+                "otherNames": [
+                  "no name"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence and severity of adverse events to assess safety and tolerability",
+                "description": "such as laboratory abnormalities",
+                "timeFrame": "up to 21days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Plasma Concentration (Cmax) Of MY008211A tablets",
+                "description": "Maximum Plasma Concentration (Cmax)",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Time To Reach The Maximum Plasma Concentration (Tmax) Of MY008211A",
+                "description": "The Maximum Plasma Concentration (Tmax)",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Area Under The Concentration Versus Time Curve (AUC) Of MY008211A",
+                "description": "Area Under The Concentration Versus Time Curve (AUC)",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Half Life (t1/2) Of MY008211A",
+                "description": "Half Life (t1/2)",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Changes in serum C3 levels from baseline",
+                "description": "serum C3 levels",
+                "timeFrame": "up to 72 hours postdose"
+              },
+              {
+                "measure": "Changes in serum LDH levels from baseline",
+                "description": "serum LDH levels",
+                "timeFrame": "up to 72 hours postdose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1.18\u2264 age \u2264 45, male or female;\n\n2.Body weight: \u226550 kg for male, \u226545 kg for female; body mass index (BMI): 19.0-26.0 kg/m2 (inclusive);\n\n3.Informed consent will be signed before the trial, and the content, process and possible adverse reactions of the trial will be fully understood;\n\n4.The volunteers should be able to communicate well with the researchers and understand and comply with the requirements of the study.\n\nExclusion Criteria:\n\n1. Participants who were enrolled in a clinical trial or used a study drug within 3 months before administration of the study drug;\n2. Patients with chronic or active gastrointestinal diseases such as esophageal disease, gastritis, gastric ulcer, enteritis, active gastrointestinal bleeding, or gastrointestinal surgery within the past three years and still clinically relevant according to the investigator;\n3. Patients with definite diseases of the central nervous system, cardiovascular system, digestive system, respiratory system, urinary system, hematological system, metabolic system and other diseases that require medical intervention or are not suitable for clinical trial (such as psychiatric history);\n4. History of known or suspected immunodeficiency (e.g., history of frequent recurrent infections), inherited or acquired complement deficiency;\n5. Patients had a clear history of capsular microbial infection within 6 months before screening; Including but not limited to: Streptococcus pneumoniae, Bacillus anthracis, Salmonella, Salmonella typhi, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Neisseria meningitidis, Haemophilus influenzae, Legionella pneumophila infection history;\n6. Patients with previous or current history of TB infection;\n7. Active systemic bacterial, viral, or fungal infection within 14 days before administration of the study drug;\n8. Fever (\u2265 38 \u00b0 C) within 7 days before administration of the study drug;\n9. Those who have a history of allergy to the trial preparation and any of its components or related preparations, or to drugs, foods or other substances;\n10. Those who cannot tolerate intravenous puncture or have a history of syncope or needle sickness;\n11. Patients who underwent surgery within 6 months before the study drug is used, which will be judged by the investigators to affect the absorption, distribution, metabolism, and excretion of the study drug; Surgical procedures within 4 weeks before the use of the study drug; Or planned to undergo a surgical procedure during the trial;\n12. Who had taken any medicine (including Chinese herbal medicine, health products, etc.) within 14 days before administration of the study drug;\n13. Who received a vaccine or live attenuated vaccine within 14 days before administration of the study drug, or who plan to receive a vaccine during the trial;\n14. Who donated blood or lost a large amount of blood (\\> 400mL) within 3 months before administration of the study drug, received a blood transfusion or use of blood products, or intended to donate blood or blood components during or within 3 months after administration of the study drug;\n15. Drug abusers or had used hard drugs (e.g., cocaine, phencyhexidine, etc.) or soft drugs (e.g., cannabis) within 1 year before administration of the study drug;\n16. Smokers or had smoked more than 5 cigarettes per day in 3 months before study drug use, or will be unable to stop using any tobacco products during the study;\n17. Heavy drinkers, who drink at least twice a day or more than 14 times a week, or are avid binge drinkers (one drink is defined as 125mL of wine, 220mL of beer, or 50mL of liquor; Binge drinking is defined as 5 or more drinks in approximately 2 hours); Or unwillingness to stop drinking alcohol or any alcohol-based product during the trial;\n18. Those who have special requirements for diet and cannot abide by the uniform diet;\n19. Volunteers (or their partners) who plan to be pregnant or donate sperm or eggs during the trial to 3 months after the end of the trial, or who are unwilling to take one or more non-drug contraceptive measures (such as complete abstinence, condoms, contraceptive rings, surgical sterilization, etc.);\n20. Pregnant or lactating women; Or having unprotected sex within 2 weeks before using the study drug; Or oral contraceptive use within 30 days or long-acting estrogen or progestin injectable or implant use within 6 months before use of the study drug;\n21. Physical examination, electrocardiogram, chest X-ray, abdominal ultrasound, vital signs, laboratory examination abnormalities were clinically significant (subject to clinician's judgment);\n22. With positive uremic screening test;\n23. With positive alcohol breath test;\n24. Volunteers may not be able to complete the study for other reasons or have other reasons for not participating in the study as judged by the investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Third Hospital of Changsha",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "410011",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Trade secrets"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06050226",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-PNH-2-01"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of MY008211A in Adult Patients With Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+            "officialTitle": "A Multi-center, Randomized, Open-label, Phase 2 Study to Evaluate the Efficacy and Safety of MY008211A Tablets in Adult Patients With Paroxysmal Nocturnal Hemoglobinuria and Active Hemolysis."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-07-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-04-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-11-28",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-09-11",
+            "studyFirstSubmitQcDate": "2023-09-17",
+            "studyFirstPostDateStruct": {
+              "date": "2023-09-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-30",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to evaluate the efficacy of MY008211A in adult patients with PNH , showing signs of active hemolysis, in China.",
+            "detailedDescription": "The purpose of this study is to determine whether MY008211A is efficacious and safe for the treatment of PNH patients who are naive to complement inhibitor therapy, including anti-C5 antibody."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 34,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Arm1\uff1alow MY008211A dose",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive low MY008211A dose orally b.i.d",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Arm2\uff1ahigh MY008211A dose",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive high MY008211A dose orally b.i.d",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "The first 10 participants will be received low-dose MY008211A tablets, and the next 30 participants will be randomized to low-dose or high-dose treatment arms in a 1:2 ratio.",
+                "armGroupLabels": [
+                  "Arm1\uff1alow MY008211A dose",
+                  "Arm2\uff1ahigh MY008211A dose"
+                ],
+                "otherNames": [
+                  "MY008211A"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of participants achieving a sustained increase in hemoglobin levels of \u2265 20 g/L in the absence of red blood cell transfusion.",
+                "description": "Proportion of participants achieving a sustained increase from baseline in hemoglobin levels of \u2265 20 g/L assessed , in the absence of red blood cell transfusions",
+                "timeFrame": "up to 84 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of participants achieving sustained hemoglobin levels \u2265 120 g/L in the absence of red blood cell transfusions.",
+                "description": "Proportion of participants achieving sustained hemoglobin levels \u2265 120 g/L in absence of red blood cell transfusion",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Change from baseline in hemoglobin concentration.",
+                "description": "Change from baseline in hemoglobin concentration (g/L) in absence of red blood cell transfusion",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Change from baseline in serum LDH levels.",
+                "description": "Change from baseline in serum LDH levels (U/L)",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Change from baseline in Reticulocyte count.",
+                "description": "Change from baseline in Reticulocyte count (\u00d710\\^9/L)",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Changes from baseline in transfusion volume.",
+                "description": "The average number of red blood cells transfused per week",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Change in the level of PNH red cell clones.",
+                "description": "Change from baseline in the level of PNH red cell clones.",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Occurrences of AEs occurring between Day 1 and Day 84.",
+                "description": "Adverse Events (AEs)",
+                "timeFrame": "up to 84 days"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Changes from baseline in alternative complement pathway activity.",
+                "description": "Alternative complement pathway activity measured by the WIESLAB\u00ae kit.",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Change from baseline in plasma levels of the Bb fragment.",
+                "description": "Bb fragment cleaved by factor B of complement.",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Maximum Plasma Concentration (Cmax) Of MY008211A tablets",
+                "description": "PK parameters",
+                "timeFrame": "up to 84 days"
+              },
+              {
+                "measure": "Area Under The Concentration Versus Time Curve (AUC) Of MY008211A",
+                "description": "PK parameters",
+                "timeFrame": "up to 84 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants \u2265 18 years of age, BMI\u226518 kg/m2\uff0cwith a diagnosis of PNH confirmed by laboratory tests, according to the PNH diagnostic criteria in the Chinese Guidelines for the Diagnosis and Treatment of Rare Diseases (2019 edition) , and flow cytometry with clone size \u2265 10%.\n* Mean hemoglobin level \\<100 g/L.\n* LDH \\> 1.5 x Upper Limit of Normal (ULN)\n* Vaccination against Neisseria meningitidis infection is required prior to the start of study treatment. If not received previously, vaccination against Streptococcus pneumoniae and Haemophilus influenzae infections should be given.\n\nExclusion Criteria:\n\n* Patients with reticulocytes \\<100x10\\^9/L; platelets \\<30x10\\^9/L; neutrophils \\<0.5x10\\^9/L.\n* Were using a complement inhibitor before the first administration of MY008211A tablets or had discontinued a previous complement inhibitor for less than five half-lives or 120 days, whichever was the longest.\n* History of recurrent invasive infections caused by encapsulated organisms, e.g. meningococcus or pneumococcus.\n* Known or suspected hereditary complement deficiency\n* Previous bone marrow or hematopoietic stem cell transplantation.\n* Previous splenectomy.\n* A history of malignancy within 5 years before screening, except cured local basal cell carcinoma of the skin and carcinoma in situ of the cervix.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Fengkui Zhang, Ph.D",
+                "affiliation": "Blood Disease Hospital, Chinese Academy of Medical Sciences",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Institute of Hematology & Blood Disease Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06543459",
+            "orgStudyIdInfo": {
+              "id": "MY008211-1-07"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "To Evaluate the Effect of Single Oral Dose of MY008211A Tablets on QTc Interval in Healthy Subjects",
+            "officialTitle": "A Single-center, Randomized, Double-blind, Single Oral Dose, Placebo-controlled Study to Evaluate the Effect of MY008211A Tablets on QTc Interval in Healthy Chinese Adult Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-08",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-08-10",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-09-27",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2024-12-13",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-08-02",
+            "studyFirstSubmitQcDate": "2024-08-06",
+            "studyFirstPostDateStruct": {
+              "date": "2024-08-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-08-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-08-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Concentration-QT Interval Correction (C-QTc) study of MY008211A Tablets in Healthy Subjects",
+            "detailedDescription": "This is a single-center, randomized, double-blind, single oral dose, two groups, placebo-controlled study with 2 dose sequences preset"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group A, Sequence 1, Dose 1",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Group A, Sequence 2, Dose 2",
+                "type": "EXPERIMENTAL",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 7.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Group B, Sequence 1, Dose 1",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 1.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Group B, Sequence 2, Dose 2",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants randomized to receive MY008211A tablets or placebo on Day 7.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "Subjects of Group A receive MY008211A tablets on Day 1 of both Sequence, wash-out period is 6 Days at least.",
+                "armGroupLabels": [
+                  "Group A, Sequence 1, Dose 1",
+                  "Group A, Sequence 2, Dose 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Subjects of Group A receive placebo tablets on Day 1 of both Sequence, wash-out period is 6 Days at least.",
+                "armGroupLabels": [
+                  "Group B, Sequence 1, Dose 1",
+                  "Group B, Sequence 2, Dose 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "\u0394\u0394QTcF (Using Fridericia Formula as the Primary Method for QT Interval Correction)",
+                "description": "Placebo-corrected, baseline-adjusted QTc interval of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Cmax (Maximum plasma concentration)",
+                "description": "Cmax of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "Tmax (Time to maximum plasma concentration)",
+                "description": "Tmax of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "t1/2 (Terminal elimination half-life time)",
+                "description": "t1/2 of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "AUC0-t (Area under the plasma concentration-time curve from time 0 to the collection time t with the last measurable plasma concentration)",
+                "description": "AUC0-t of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "AUC0-\u221e (Area under the plasma concentration-time curve extrapolated from time 0 to infinity)",
+                "description": "AUC0-\u221e of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "CL/F (Apparent clearance)",
+                "description": "CL/F of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "Vz/F (Apparent volume of distribution)",
+                "description": "Vz/F of prodrug and active metabolite (if necessary)",
+                "timeFrame": "up to 2 weeks"
+              },
+              {
+                "measure": "The incidence and severity of adverse events to assess safety and tolerability",
+                "description": "such as laboratory abnormalities",
+                "timeFrame": "up to 3 weeks"
+              },
+              {
+                "measure": "Other Electrocardiogram (ECG) parameters",
+                "description": "Such as T-wave morphology or absence, U-wave presence and absence, HR, RR interval, PR interval, QRS wave complex",
+                "timeFrame": "up to 2 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Volunteers must be fully informed of this study and the content, process of the study and possible adverse events related to experimental drug will be fully understood, and voluntarily signed a written Informed Consent Form (ICF);\n2. 18\u2264 age \u2264 45 years old, male or female Chinese adult volunteers;\n3. Body weight: \u226550 kg for male, \u226545 kg for female; body mass index (BMI): 19.0-26.0 kg/m2 (inclusive) at screening;\n4. Volunteers should be able to communicate well with the investigator, understand and comply with the requirements of the study.\n\nExclusion Criteria:\n\n1. The investigator judges that there are other disease or medical conditions that are clinical significant or may prevent the volunteer from following the study protocol and completing the study, abnormal including but not limited to central nervous system, cardiovascular system, digestive system, respiratory system, urinary system, hematological system, immune system, mental system, endocrine and metabolic system;\n2. Volunteers with chronic or active gastrointestinal diseases such as esophageal disease, gastritis, gastric ulcer, enteritis, active gastrointestinal bleeding, or gastrointestinal surgery within the past three years and judged by the investigator to have clinical significance at present;\n3. Volunteers with torsades de pointes (TDP) or other risk factors for malignant arrhythmias, or short QT syndrome, long QT syndrome, sudden unexplained death or drowning in youth (\u2264 40 years old), or a family history of a first-degree relative (i.e., biological parent, sibling, or child) of sudden infant death syndrome, or other heart disease that the investigators determined was not suitable for inclusion;\n4. Volunteers with hyperkalemia, hypokalemia, hypermagnesia, hypomagnesemia, hypercalcemia or hypocalcemia and judged by the investigator to have clinical significance;\n5. History of known or suspected immunodeficiency (e.g., history of frequent recurrent infections), inherited or acquired complement deficiency\uff1b\n6. Volunteers who underwent surgery within 6 months pre-dose, which judged by the investigator to affect the absorption, distribution, metabolism, and excretion of the experimental drug(e.g. cholecystectomy, except appendicitis surgery); Surgical procedures within 4 weeks pre-dose or planned to undergo a surgical procedure during the trial;\n7. Volunteers who had a clear history of capsular microbial infection within 6 months before screening; Including but not limited to: Streptococcus pneumoniae, Bacillus anthracis, Salmonella, Salmonella typhi, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Neisseria meningitidis, Haemophilus influenzae, Legionella pneumophila infection history;\n8. Volunteers with previous or current history of TB infection or with positive lymphobacteria culture + interferon test\uff1b\n9. Active systemic bacterial, viral, or fungal infection within 14 days pre-dose;\n10. Fever (\u2265 38 \u2103) within 7 days pre-dose;\n11. Volunteers with a history of clinically significant drug allergy or allergic disease (such as asthma, urticaria, eczematous dermatitis, etc.), or a possible or clear allergy to the experimental drug (including similar drugs) or any excipients thereof as judged by the investigator;\n12. Volunteers with clinical significant examination abnormalities which judged by the investigator such as vital signs, physical examination, routine laboratory tests (can reviewable, including: blood routine, reticulocyte count, procalcitonin + myoglobin, blood biochemical + hypersensitive C-reactive protein, urine routine, coagulation function + plasma D-Dimer determination), chest X-ray, abdominal ultrasound at screening or baseline\uff1b\n13. Volunteers with 12-ECG examination and reviewable result such as QTcF\u2265450 ms or PR interval \u2265200ms or QRS wave complex \u2265120ms or clinical significant abnormality ECG which judged by the investigator at screening or baseline or pre-dose\uff1b\n14. Volunteers who administrated any other clinical study drug or enrolled in any Interventional clinical trial within 3 months before screening\uff1b\n15. Volunteers who donated blood or lost blood (\u2265 400mL) within 3 months pre-dose, received a blood transfusion or use of blood products within 4 weeks pre-dose, or intended to donate blood or blood components during or within 3 months after study;\n16. Volunteers who had taken any medicine or OTC medicine or Chinese herbal medicine or food supplement (including vitamins, health foods, etc.) other non-drug therapeutic factors that affect drug absorption, distribution, metabolism and excretion;\n17. Volunteers who received a vaccine or live attenuated vaccine within 14 days pre-dose, or who plan to receive a vaccine during the study;\n18. Volunteers with difficulty in blood collection or cannot tolerate intravenous puncture;\n19. Volunteers with a history of drug use or substance abuse or with positive urine drug abuse screening test;\n20. Volunteers with any positive result of virological test;\n21. Volunteers who drink more than 14 units a week (one unit is defined as 360mL of beer or 45mL of liquor or 150mL of wine) within 3 months before screening or with positive result of alcohol breath test or unwillingness to stop drinking alcohol or any alcohol-based product during the study\uff1b\n22. Volunteers who smoke more than 5 cigarettes per day(or use a significant amount of nicotine products) within 3 months before screening or will be unable to stop using any tobacco products during the study or with positive result of urine nicotine test\uff1b\n23. Volunteers who habitual consumption of grapefruit juice or excessive amounts of tea, coffee and/or caffeinated beverages and will be unable to stop use during the study, or consume any food or drink containing chocolate, caffeine, or rich in xanthines within 48h pre-dose\uff1b\n24. Volunteers who have special requirements for diet and cannot abide by the uniform diet\uff1b\n25. Volunteers (or their partners) who plan to be pregnant or donate sperm or eggs during the study to 3 months after the end of the study, or who are unwilling to take one or more non-drug contraceptive measures (such as complete abstinence, condoms, contraceptive rings, surgical sterilization, etc.);\n26. Volunteers of pregnant or lactating women; or having unprotected sex within 2 weeks pre-dose; or oral contraceptive use within 30 days or long-acting estrogen or progestin injectable or implant use within 6 months pre-dose; or with positive blood pregnancy test pre-dose;\n27. Volunteers have other reasons for not fit for participating in the study as judged by the investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yuhui Hu, master",
+                "role": "CONTACT",
+                "phone": "021-51158605",
+                "phoneExt": "86",
+                "email": "huyuhui@createrna.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Haiyan Li, PhD",
+                "affiliation": "PI",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University Third Hospital",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100089",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Haiyan Li, PhD",
+                    "role": "CONTACT",
+                    "phone": "010-68966677-8509",
+                    "phoneExt": "86",
+                    "email": "haiyanli1027@hotmail.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Trade secrets"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05828472",
+            "orgStudyIdInfo": {
+              "id": "MY008211-1-02"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Multiple Ascending Doses MY008211A in Healthy Adults",
+            "officialTitle": "A Phase I, Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Doses Clinical Study to Evaluate the Safety, Tolerability and Pharmacokinetic Characteristics of MY008211A Tablets in Healthy Adult Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-01-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-06-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-06-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-04-13",
+            "studyFirstSubmitQcDate": "2023-04-13",
+            "studyFirstPostDateStruct": {
+              "date": "2023-04-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-09-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single-center, randomized, double-blind, placebo-controlled, dose-escalation, and multiple-dose study to evaluate safety, tolerability, PK and PD of MY008211A Tablets in healthy subjects.",
+            "detailedDescription": "MY008211A Tablets, low/moderate/high dose orally, continually 7 days"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group 1\uff1aDose1",
+                "type": "EXPERIMENTAL",
+                "description": "8 subjects received Dose 1 of MY008211A Tablets, and 2 subjects received placebo, continually 7 days",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: MY008211A tablets matched placebo"
+                ]
+              },
+              {
+                "label": "Group 2\uff1aDose2",
+                "type": "EXPERIMENTAL",
+                "description": "8 subjects received Dose 2 of MY008211A Tablets, and 2 subjects received placebo, continually 7 days",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: MY008211A tablets matched placebo"
+                ]
+              },
+              {
+                "label": "Group 3\uff1aDose3",
+                "type": "EXPERIMENTAL",
+                "description": "8 subjects received Dose 2 of MY008211A Tablets, and 2 subjects received placebo, continually 7 days",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: MY008211A tablets matched placebo"
+                ]
+              },
+              {
+                "label": "Group 4: Dose4",
+                "type": "EXPERIMENTAL",
+                "description": "8 subjects received Dose 4 of MY008211A Tablets, and 2 subjects received placebo, continually 7 days",
+                "interventionNames": [
+                  "Drug: MY008211A tablets",
+                  "Drug: MY008211A tablets matched placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "MY008211A tablets, low/moderate/high dose orally, for 7 days",
+                "armGroupLabels": [
+                  "Group 1\uff1aDose1",
+                  "Group 2\uff1aDose2",
+                  "Group 3\uff1aDose3",
+                  "Group 4: Dose4"
+                ],
+                "otherNames": [
+                  "no other name"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets matched placebo",
+                "description": "MY008211A tablets matched placebo, low/moderate/high dose orally, for 7 days",
+                "armGroupLabels": [
+                  "Group 1\uff1aDose1",
+                  "Group 2\uff1aDose2",
+                  "Group 3\uff1aDose3",
+                  "Group 4: Dose4"
+                ],
+                "otherNames": [
+                  "placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence and severity of adverse events to assess safety and tolerability",
+                "description": "such as laboratory abnormalities",
+                "timeFrame": "up to 31 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Plasma Concentration (Cmax) Of MY008211A tablets",
+                "description": "Maximum Plasma Concentration (Cmax)",
+                "timeFrame": "up to 10 days"
+              },
+              {
+                "measure": "Time To Reach The Maximum Plasma Concentration (Tmax) Of MY008211A",
+                "description": "Maximum Plasma Concentration (Tmax)",
+                "timeFrame": "up to 10 days"
+              },
+              {
+                "measure": "Area Under The Concentration Versus Time Curve (AUC) Of MY008211A",
+                "description": "Area Under The Concentration Versus Time Curve (AUC)",
+                "timeFrame": "up to 10 days"
+              },
+              {
+                "measure": "Half Life (t1/2) Of MY008211A",
+                "description": "Half Life (t1/2)",
+                "timeFrame": "up to 10 days"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Changes in serum LDH levels from baseline",
+                "description": "serum LDH levels",
+                "timeFrame": "up to 10 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18\u2264 age \u2264 45, male or female;\n2. Body weight: \u226550 kg for male, \u226545 kg for female; body mass index (BMI): 19.0-26.0 kg/m2 (inclusive);\n3. Informed consent will be signed before the trial, and the content, process and possible adverse reactions of the trial will be fully understood;\n4. ACYW135 meningococcal vaccine, pneumococcal vaccine were voluntarily administered at least 2 weeks before MY008211A tablet administration\n5. The volunteers should be able to communicate well with the researchers and understand and comply with the requirements of the study.\n\nExclusion Criteria:\n\n1. Participants who were enrolled in a clinical trial or used a study drug within 3 months before administration of the study drug;\n2. Patients with chronic or active gastrointestinal diseases such as esophageal disease, gastritis, gastric ulcer, enteritis, active gastrointestinal bleeding, or gastrointestinal surgery within the past three years and still clinically relevant according to the investigator;\n3. Patients with definite diseases of the central nervous system, cardiovascular system, digestive system, respiratory system, urinary system, hematological system, metabolic system and other diseases that require medical intervention or are not suitable for clinical trial (such as psychiatric history);\n4. History of known or suspected immunodeficiency (e.g., history of frequent recurrent infections), inherited or acquired complement deficiency;\n5. Patients had a clear history of capsular microbial infection within 6 months before screening; Including but not limited to: Streptococcus pneumoniae, Bacillus anthracis, Salmonella, Salmonella typhi, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Neisseria meningitidis, Haemophilus influenzae, Legionella pneumophila infection history;\n6. Patients with previous or current history of TB infection;\n7. Active systemic bacterial, viral, or fungal infection within 14 days before administration of the study drug;\n8. Fever (\u2265 38 \u00b0 C) within 7 days before administration of the study drug;\n9. Those who have a history of allergy to the trial preparation and any of its components or related preparations, or to drugs, foods or other substances;\n10. Those who cannot tolerate intravenous puncture or have a history of syncope or needle sickness;\n11. Patients who underwent surgery within 6 months before the study drug is used, which will be judged by the investigators to affect the absorption, distribution, metabolism, and excretion of the study drug; Surgical procedures within 4 weeks before the use of the study drug; Or planned to undergo a surgical procedure during the trial;\n12. Who had taken any medicine (including Chinese herbal medicine, health products, etc.) within 14 days before administration of the study drug;\n13. Who received a vaccine or live attenuated vaccine within 14 days before administration of the study drug, or who plan to receive a vaccine during the trial;\n14. Who donated blood or lost a large amount of blood (\\> 400mL) within 3 months before administration of the study drug, received a blood transfusion or use of blood products, or intended to donate blood or blood components during or within 3 months after administration of the study drug;\n15. Drug abusers or had used hard drugs (e.g., cocaine, phencyhexidine, etc.) or soft drugs (e.g., cannabis) within 1 year before administration of the study drug;\n16. Smokers or had smoked more than 5 cigarettes per day in 3 months before study drug use, or will be unable to stop using any tobacco products during the study;\n17. Heavy drinkers, who drink at least twice a day or more than 14 times a week, or are avid binge drinkers (one drink is defined as 125mL of wine, 220mL of beer, or 50mL of liquor; Binge drinking is defined as 5 or more drinks in approximately 2 hours); Or unwillingness to stop drinking alcohol or any alcohol-based product during the trial;\n18. Those who have special requirements for diet and cannot abide by the uniform diet;\n19. Volunteers (or their partners) who plan to be pregnant or donate sperm or eggs during the trial to 3 months after the end of the trial, or who are unwilling to take one or more non-drug contraceptive measures (such as complete abstinence, condoms, contraceptive rings, surgical sterilization, etc.);\n20. Pregnant or lactating women; Or having unprotected sex within 2 weeks before using the study drug; Or oral contraceptive use within 30 days or long-acting estrogen or progestin injectable or implant use within 6 months before use of the study drug;\n21. Physical examination, electrocardiogram, chest X-ray, abdominal ultrasound, vital signs, laboratory examination abnormalities were clinically significant (subject to clinician's judgment);\n22. With positive uremic screening test;\n23. With positive alcohol breath test;\n24. Volunteers may not be able to complete the study for other reasons or have other reasons for not participating in the study as judged by the investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Wei feng, Ph.D",
+                "affiliation": "Wuhan Createrna Science and Technology Co., Ltd",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Third Hospital of Changsha",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "410011",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07625618",
+            "orgStudyIdInfo": {
+              "id": "MY008211-1-09"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Pharmacokinetic and Safety Study of MY008211A Tablets in Subjects With Impaired or Normal Hepatic Function",
+            "officialTitle": "A Pharmacokinetic and Safety Study of MY008211A Tablets in Subjects With Impaired or Normal Hepatic Function"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-09-20",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-12-28",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-12-28",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-05-09",
+            "studyFirstSubmitQcDate": "2026-05-28",
+            "studyFirstPostDateStruct": {
+              "date": "2026-06-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-04",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a single-center, non-randomized, open-label, parallel, single-dose study to evaluate the PK profile and safety of MY008211A Tablets in subjects with hepatic impairment.",
+            "detailedDescription": "This study is a single-center, non-randomized, open-label, parallel, single-dose study to evaluate the PK profile and safety of MY008211A Tablets in subjects with hepatic impairment.\n\nIt is planned to enroll 24 subjects, male or female. A total of 3 treatment groups will be set up: normal hepatic function group, mild hepatic impairment (Child-Pugh A) group, moderate hepatic impairment (Child-Pugh B) group, with 8 subjects in each group. Each subject will take a single oral dose of 400 mg MY008211A Tablets under fasting conditions.\n\nThis study will first enroll subjects in Group A (mild hepatic impairment) and Group B (moderate hepatic impairment). Age, gender and body weight will not be matched between subjects in Groups A and B; after enrollment for Groups A and B is completed, subjects will be enrolled in Group C (normal hepatic function) as control subjects matched with the hepatic impairment subjects (Group A + Group B):\n\nSubjects who sign the informed consent form (ICF) will be screened according to the inclusion/exclusion criteria. Eligible subjects will be admitted to the Clinical Research Unit (CRU) on Day -1 (D-1). On D1, they will take a single oral dose of 400 mg MY008211A Tablets under fasting conditions and will be discharged after completing the observations and drop-out examinations on D4. They will receive a telephone follow-up on D11.\n\nDuring the study, sample collection, recording of adverse events (AEs), concomitant medication/non-drug therapy, physical examination, vital signs, ECG, and clinical laboratory tests will be performed according to the protocol requirements."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hepatic Insufficiency (MeSH ID: D048550)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "PREVENTION",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "normal hepatic function group",
+                "type": "EXPERIMENTAL",
+                "description": "Each subject will take a single oral dose of 400 mg MY008211A Tablets under fasting conditions.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "mild hepatic impairment (Child-Pugh A) group",
+                "type": "EXPERIMENTAL",
+                "description": "Each subject will take a single oral dose of 400 mg MY008211A Tablets under fasting conditions.",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "moderate hepatic impairment (Child-Pugh B) group",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "Each subject will take a single oral dose of 400 mg MY008211A Tablets under fasting conditions.",
+                "armGroupLabels": [
+                  "mild hepatic impairment (Child-Pugh A) group",
+                  "moderate hepatic impairment (Child-Pugh B) group",
+                  "normal hepatic function group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Cmax",
+                "description": "maximum concentration",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "AUC0-last",
+                "description": "area under the plasma concentration-time curve from 0 to the last quantifiable time point",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "AUC0-inf",
+                "description": "area under the plasma concentration-time curve from 0 to infinity",
+                "timeFrame": "up to 12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Tmax",
+                "description": "time to reach maximum concentration",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "CL/F",
+                "description": "apparent clearance",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "Vz/F",
+                "description": "apparent volume of distribution",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "t1/2",
+                "description": "terminal half-life",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "body temperature",
+                "description": "Measure the body temperature of the subjects, using degrees Celsius as the unit.",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "IU/L or mIU/mL of HCG in the blood of reproductive-aged women",
+                "description": "The blood human chorionic gonadotropin (HCG) pregnancy test will measure the concentration of HCG in the blood of reproductive-aged women to determine if they are pregnant. The units in the report will be presented in IU/L (international units per liter) and/or mIU/mL.",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "12-lead ECG",
+                "description": "Evaluate QT interval, PR interval, etc.",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "adverse events and serious adverse events",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "Pulse",
+                "description": "Measure the pulse of the subjects, expressing it in units of beats per minute.",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "Blood pressure",
+                "description": "Measure the systolic and diastolic blood pressure of the subjects, with the unit of mm/hg.",
+                "timeFrame": "up to 12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Voluntarily participate in the clinical study and sign the written ICF, be able to understand the procedures and methods of this study, and be able to complete the entire study process according to the study requirements;\n* Age 18 to 70 years (inclusive) on the day of signing the ICF, male or female;\n* Body weight: \u2265 50 kg for males, \u2265 45 kg for females; body mass index (BMI): 18.0-32.0 kg/m2 (both inclusive);\n* Subjects (including their partners) have no birth plan from screening until 3 months after the administration of the investigational product and voluntarily take contraceptive measures, and have no plans to donate sperm or eggs;\n* Glomerular filtration rate (calculated using the CKD-EPI formula) \u2265 60 mL/min;\n\nExclusion Criteria:\n\n* Known or suspected history of immunodeficiency (e.g., history of frequent recurrent infections), hereditary or acquired complement deficiency;\n* Clear history of capsular microbial infection within 6 months before screening, including but not limited to Streptococcus pneumoniae, Bacillus anthracis, Salmonella, Salmonella typhi, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Neisseria meningitidis, Haemophilus influenzae and Legionella pneumophila.\n* Subjects who have a previous history of tuberculosis infection or are currently suffering from tuberculosis infection;\n* Active systemic bacterial, viral or fungal infections within 14 days before administration;\n* Fever (\u2265 38\u00b0C) within 7 days before administration;\n* Subjects suspected of having a history of allergy to any component of the investigational product, or with allergic constitution (allergic to multiple drugs and foods, and judged by the investigator to be clinically significant);\n* Those who have previously undergone surgery that, as judged by the investigator, will affect drug absorption, distribution, metabolism and excretion; or those who have undergone surgery within 4 weeks prior to screening; or those who plan to undergo surgery during the study;\n* Those who cannot tolerate venipuncture or with a history of blood phobia and acupuncture syncope;",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "YaNan Wang, PHD",
+                "affiliation": "The First Hospital of Jilin University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Hospital of Jilin University",
+                "city": "Jilin City",
+                "state": "Changchun",
+                "zip": "130000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 43.84652,
+                  "lon": 126.5608
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "The company's business decision"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D048550",
+                "term": "Hepatic Insufficiency"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06933914",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-PNH-2-03"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Safety and Tolerability of MY008211A Tablets in Patients With Paroxysmal Nocturnal Hemoglobinuria",
+            "officialTitle": "An Open Label, Multicenter Study to Evaluate the Long-term Safety and Tolerability of MY008211A Tablets in Patients With PNH Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-04-11",
+            "studyFirstSubmitQcDate": "2025-04-11",
+            "studyFirstPostDateStruct": {
+              "date": "2025-04-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-04-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-04-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, single-arm, open-label study to characterize long-term safety and tolerability of MY008211A tablets and to provide access to MY008211A tablets to patients with PNH who have completed Phase 2 or 3 studies with MY008211A tablets.",
+            "detailedDescription": "The purpose of this open-label, single arm, multicenter study is to evaluate the long-term safety, tolerability and efficacy of MY008211A tablets in patients with PNH and to provide access to patients who have completed (without tapering down) Phase 2 and Phase 3 trials and derived benefit from MY008211A treatment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 120,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "MY008211A tablets",
+                "type": "EXPERIMENTAL",
+                "description": "MY008211A tablets 400mg BID",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "Participants will receive MY008211A at a dose of 400 mg orally b.i.d",
+                "armGroupLabels": [
+                  "MY008211A tablets"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of participants with adverse events, safety laboratory parameters, vital signs, ECG.",
+                "description": "Safety evaluations including but not limited to adverse events, laboratory parameters, vital signs, ECG through End of Study visit every 12 weeks.",
+                "timeFrame": "About 100 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of participants achieving sustained hemoglobin levels \u2265 120 g/L in the absence of red blood cell transfusions",
+                "description": "Proportion of participants achieving sustained hemoglobin levels \u2265 120 g/L in the absence of red blood cell transfusions evaluated every 12 weeks.",
+                "timeFrame": "About 100 weeks"
+              },
+              {
+                "measure": "Change From Baseline in Hemoglobin",
+                "description": "Change in hemoglobin concentration from baseline in patients without RBC transfusion every 12 weeks.",
+                "timeFrame": "About 100 weeks"
+              },
+              {
+                "measure": "The proportion of patients without RBC transfusion.",
+                "description": "The proportion of patients without RBC transfusion.",
+                "timeFrame": "About 100 weeks"
+              },
+              {
+                "measure": "The Clinical BTH Rate",
+                "description": "The Clinical BTH Rate",
+                "timeFrame": "About 100 weeks"
+              },
+              {
+                "measure": "The Major Adverse Vascular Events Rate",
+                "description": "The Major Adverse Vascular Events Rate",
+                "timeFrame": "About 100 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients who have previously received and completed MY008211A study treatment, and are judged by the investigator to have treatment benefit and may benefit from continued treatment of MY008211A.\n2. Prior vaccinations against Neisseria meningitidis, Streptococcus pneumoniae and Haemophilus influenzae infections.\n\nExclusion Criteria:\n\n1. History of recurrent invasive infections caused by encapsulated organisms, e.g. meningococcus or pneumococcus.\n2. Known or suspected hereditary complement deficiency.\n3. Any comorbidity or medical condition (including but not limited to any active systemic bacterial, viral or fungal infection or malignancy) that, in the opinion of the investigator, could put the subject at increased risk or potentially confound study data.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Wuhan Createrna Science and Technology Co.,Ltd",
+                "role": "CONTACT",
+                "phone": "027-68788900",
+                "email": "lcyxzx@createrna.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Chinese Academy of Medical Sciences Hematology Hospital (Institute of Hematology, Chinese Academy of Medical Sciences)",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Fengkui Zhang, PhD",
+                    "role": "CONTACT",
+                    "phone": "022-23909095"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06932744",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-PNH-3-02"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety and Efficacy of MY008211A in Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients Who Are Naive to Complement Inhibitor Therapy",
+            "officialTitle": "A Randomized, Multicenter, Active-comparator Controlled, Open-label Trial to Evaluate Efficacy and Safety of MY008211A Tablets in PNH Patients Who Are Naive to Complement Inhibitor Therapy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-08-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-12-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-12-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-04-10",
+            "studyFirstSubmitQcDate": "2025-04-16",
+            "studyFirstPostDateStruct": {
+              "date": "2025-04-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-05-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-05-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to evaluate the efficacy of MY008211A compared to eculizumab in PNH patients.",
+            "detailedDescription": "This is a multi-center, randomized, open-label, active comparator-controlled, parallel group study. The purpose of this study is to determine whether MY008211A compared to eculizumab is efficacious and safe for the treatment of PNH patients who were naive to complement inhibitor therapy."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Haemoglobinuria (PNH)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 66,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "MY008211A tablets",
+                "type": "EXPERIMENTAL",
+                "description": "MY008211A tablets 400mg BID",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Eculizumab",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Eculizumab Injection",
+                "interventionNames": [
+                  "Drug: Eculizumab Injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "Participants will receive MY008211A at a dose of 400 mg orally b.i.d for 24 weeks",
+                "armGroupLabels": [
+                  "MY008211A tablets"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Eculizumab Injection",
+                "description": "Eculizumab Injection for 24 weeks",
+                "armGroupLabels": [
+                  "Eculizumab"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The proportion of Participants With Sustained Hemoglobin Levels of \u2265 120 g/L in the Absence of Red Blood Cell Transfusions",
+                "description": "The proportion of patients with sustained hemoglobin levels \u2265 120 g/L among those without RBC transfusion (defined as no red blood cell infusion after D14 to D168).",
+                "timeFrame": "between Day 126 and Day 168"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The proportion of subjects with an increase in hemoglobin concentration \u2265 20 g/L from baseline among subjects who do not receive RBC transfusion",
+                "description": "Proportion of participants achieving a sustained increase from baseline in hemoglobin levels of \u2265 20 g/L assessed among those without RBC transfusion (defined as no red blood cell infusion after D14 to D168).",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The proportion of patients with LDH < 1.5 ULN among those without RBC transfusion.",
+                "description": "The proportion of patients with hemolysis controlled (defined as LDH \\< 1.5 ULN) among those without RBC transfusion",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "Change (Expressed as Percentages) in LDH level from baseline",
+                "description": "Change (Expressed as Percentages) in LDH level from baseline",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "Change in reticulocyte count from baseline",
+                "description": "Change in reticulocyte count from baseline",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The proportion of patients without RBC transfusion",
+                "description": "The proportion of patients without RBC transfusion",
+                "timeFrame": "between Day 14 and Day 168"
+              },
+              {
+                "measure": "Change in FACIT-F score from baseline",
+                "description": "Change from baseline in FACIT-Fatigue scores. The FACIT-Fatigue is a 13-item questionnaire with support for its validity and reliability in PNH that assesses patient self-reported fatigue and its impact on daily activities and function. All FACIT scales are scored so that a high score is better. As each of the 13 items of the FACIT-F Scale ranges from 0-4, the range of possible scores is 0-52, with 0 being the worst possible score and 52 the best.",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The Clinical BTH Rate",
+                "description": "The Clinical BTH Rate",
+                "timeFrame": "between Day 1 and Day 168"
+              },
+              {
+                "measure": "The Major Adverse Vascular Events Rate",
+                "description": "The Major Adverse Vascular Events Rate",
+                "timeFrame": "between Day 1 and Day 168"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female participants \u2265 18 years of age and BMI \u2265 18.0 kg/m2 with a diagnosis of PNH confirmed by high-sensitivity flow cytometry with clone size \u2265 10%.\n2. Mean hemoglobin level \\<100 g/L at screening.\n3. LDH \\> 1.5 x Upper Limit of Normal (ULN) at screening.\n4. Vaccination against Neisseria meningitidis infection is required prior to the start of study treatment. If not received previously, vaccination against Streptococcus pneumoniae and Haemophilus influenzae infections should be given.\n\nExclusion Criteria:\n\n1. Patients with reticulocytes \\<100x10\\^9/L; platelets \\<30x10\\^9/L; neutrophils \\<0.5x10\\^9/L.\n2. History of recurrent invasive infections caused by encapsulated organisms,e.g. meningococcus or pneumococcus.\n3. Known or suspected hereditary complement deficiency.\n4. Previous bone marrow or hematopoietic stem cell transplantation.\n5. Previous splenectomy.\n6. A history of malignancy within 5 years before screening, except cured local basal cell carcinoma of the skin and carcinoma in situ of the cervix.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Wuhan Createrna Science and Technology Co.,Ltd",
+                "role": "CONTACT",
+                "phone": "027-68788900",
+                "phoneExt": "+86",
+                "email": "lcyxzx@createrna.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital, Chinese Academy of Medical Sciences",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100032",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Bing Han, PhD",
+                    "role": "CONTACT",
+                    "phone": "010-69155027",
+                    "email": "Hanbing_Li@sina.com.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Chinese Academy of Medical Sciences Hematology Hospital",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Fengkui Zhang, PhD",
+                    "role": "CONTACT",
+                    "phone": "022-23909095"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C481642",
+                "term": "eculizumab"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06932471",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-PNH-3-01"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety and Efficacy of MY008211A in Patients With Residual Anemia Despite Anti-C5 Antibody Treatment",
+            "officialTitle": "A Multicenter, Single-arm, Open-label Phase III Study to Evaluate Efficacy and Safety of MY008211A Tablets in Patients With PNH and Residual Anemia, Despite Treatment With Anti-C5 Antibody."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-08-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-12-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-12-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-04-09",
+            "studyFirstSubmitQcDate": "2025-04-09",
+            "studyFirstPostDateStruct": {
+              "date": "2025-04-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-05-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-05-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to evaluate the efficacy of MY008211A in PNH patients with residual anemia despite treatment with anti-C5 antibody.",
+            "detailedDescription": "This is a multicenter, single-arm, open-label phase III clinical trial. The purpose of this study is to determine whether MY008211A is efficacious and safe for the treatment of PNH patients Who Are Still Anemia After Anti-C5 Antibody Treatment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "MY008211A tablets",
+                "type": "EXPERIMENTAL",
+                "description": "MY008211A tablets 400mg BID",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "MY008211A tablets Participants will receive MY008211A at a dose of 400 mg orally b.i.d",
+                "armGroupLabels": [
+                  "MY008211A tablets"
+                ],
+                "otherNames": [
+                  "MY008211A"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The proportion of Participants With Sustained Hemoglobin Levels of \u2265 120 g/L in the Absence of Red Blood Cell Transfusions (defined as no red blood cell infusion after D14 to D168)",
+                "description": "The proportion of patients with sustained hemoglobin levels \u2265 120 g/L among those without RBC transfusion.",
+                "timeFrame": "between Day 126 and Day 168"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The proportion of subjects with an increase in hemoglobin concentration \u2265 20 g/L from baseline among subjects who do not receive RBC transfusion (defined as no red blood cell infusion after D14 to D168)",
+                "description": "Proportion of participants achieving a sustained increase from baseline in hemoglobin levels of \u2265 20 g/L assessed among those without RBC transfusion.",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "Change From Baseline in Hemoglobin",
+                "description": "Change in hemoglobin concentration from baseline in patients without RBC transfusion.",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The proportion of patients with LDH < 1.5 ULN among those without RBC transfusion.",
+                "description": "The proportion of patients with hemolysis controlled (defined as LDH \\< 1.5 ULN) among those without RBC transfusion.",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "Change (Expressed as Percentages) in LDH level from baseline",
+                "description": "Change (Expressed as Percentages) in LDH level from baseline",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "Change in reticulocyte count from baseline",
+                "description": "Change in reticulocyte count from baseline",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The proportion of patients without RBC transfusion",
+                "description": "The proportion of patients without RBC transfusion.",
+                "timeFrame": "between Day 14 and Day 168"
+              },
+              {
+                "measure": "Change in FACIT-F score from baseline",
+                "description": "Change in FACIT-Fatigue score from baseline. The FACIT-Fatigue is a 13-item questionnaire with support for its validity and reliability in PNH that assesses patient self-reported fatigue and its impact on daily activities and function. All FACIT scales are scored so that a high score is better. As each of the 13 items of the FACIT-F Scale ranges from 0-4, the range of possible scores is 0-52, with 0 being the worst possible score and 52 the best.",
+                "timeFrame": "between Day 126 and Day 168"
+              },
+              {
+                "measure": "The Clinical BTH Rate",
+                "description": "The Clinical BTH Rate",
+                "timeFrame": "between Day 1 and Day 168"
+              },
+              {
+                "measure": "The Major Adverse Vascular Events Rate",
+                "description": "The Major Adverse Vascular Events Rate",
+                "timeFrame": "between Day 1 and Day 168"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female participants \u2265 18 years of age and BMI \u2265 18.0 kg/m2 with a diagnosis of PNH confirmed by high-sensitivity flow cytometry with clone size \u2265 10%.\n2. Stable regimen of anti-C5 antibody treatment for at least 6 months before treatment, and Hb was still \\< 100 g/L.\n3. The average hemoglobin level of at least two tests in 4 months before screening \\< 100 g/L.\n4. The average hemoglobin level of two tests in the central laboratory during screening \\< 100 g/L.\n5. Vaccination against Neisseria meningitidis infection is required prior to the start of study treatment. If not received previously, vaccination against Streptococcus pneumoniae and Haemophilus influenzae infections should be given.\n\nExclusion Criteria:\n\n1. Patients with reticulocytes \\<100x10\\^9/L; platelets \\<30x10\\^9/L; neutrophils \\<0.5x10\\^9/L.\n2. History of recurrent invasive infections caused by encapsulated organisms,e.g. meningococcus or pneumococcus.\n3. Known or suspected hereditary complement deficiency.\n4. Previous bone marrow or hematopoietic stem cell transplantation.\n5. Previous splenectomy.\n6. A history of malignancy within 5 years before screening, except cured local basal cell carcinoma of the skin and carcinoma in situ of the cervix.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Wuhan Createrna Science and Technology Co.,Ltd",
+                "role": "CONTACT",
+                "phone": "027-68788900",
+                "email": "lcyxzx@createrna.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking Union Medical College Hospital (PUMCH).",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100032",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Bing Han, PhD",
+                    "role": "CONTACT",
+                    "phone": "010-69155027",
+                    "email": "Hanbing_Li@sina.com.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06134414",
+            "orgStudyIdInfo": {
+              "id": "MY008211A-PNH-2-01-F"
+            },
+            "organization": {
+              "fullName": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety and Efficacy of MY008211A in in Patients With Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+            "officialTitle": "A Multi-center, Randomized, Parallel, Open-label Clinical Phase II Study, to Evaluate the Efficacy and Safety of MY008211A in Adult Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients With Signs of Active Hemolysis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-12",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-10",
+            "studyFirstSubmitQcDate": "2023-11-10",
+            "studyFirstPostDateStruct": {
+              "date": "2023-11-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-29",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wuhan Createrna Science and Technology Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to evaluate the efficacy of MY008211A in adult patients with PNH, showing signs of active hemolysis.",
+            "detailedDescription": "The purpose of this study is to determine whether MY008211A is efficacious and safe for the treatment of PNH patients who are na\u00efve to complement inhibitor therapy, including anti-C5 antibody."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Arm 1 MY008211A low dose",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive MY008211A at a dose of 400 mg orally b.i.d",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              },
+              {
+                "label": "Arm 2 MY008211A high dose",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive MY008211A at a dose of 600 mg orally b.i.d",
+                "interventionNames": [
+                  "Drug: MY008211A tablets"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "MY008211A tablets",
+                "description": "dose 1 (400 mg BID) and dose 2 (600 mg BID) in a 1:1 ratio by central randomization",
+                "armGroupLabels": [
+                  "Arm 1 MY008211A low dose",
+                  "Arm 2 MY008211A high dose"
+                ],
+                "otherNames": [
+                  "MY008211A"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The proportion of subjects with an increase in hemoglobin concentration \u2265 20 g/L from baseline among subjects who do not receive RBC transfusion after 4 weeks of dosing",
+                "description": "Proportion of participants achieving a sustained increase from baseline in hemoglobin levels of \u2265 20 g/L assessed , in the absence of red blood cell transfusions",
+                "timeFrame": "Day 70"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The proportion of patients with an increase in hemoglobin \u2265 20 g/L from baseline among those without RBC transfusion",
+                "description": "The proportion of patients with an increase in hemoglobin \u2265 20 g/L from baseline among those without RBC transfusion",
+                "timeFrame": "Day14, 21, 28, 42, 56"
+              },
+              {
+                "measure": "The proportion of patients with hemoglobin \u2265 120 g/L among those without RBC transfusion",
+                "description": "The proportion of patients with hemoglobin \u2265 120 g/L among those without RBC transfusion",
+                "timeFrame": "Day14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Change in hemoglobin concentration from baseline in patients without RBC transfusion",
+                "description": "Change in hemoglobin concentration from baseline in patients without RBC transfusion",
+                "timeFrame": "Day14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Change in LDH level from baseline",
+                "description": "Change in LDH level from baseline",
+                "timeFrame": "Day7, 14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "The proportion of patients with hemolysis controlled",
+                "description": "The proportion of patients with hemolysis controlled (defined as LDH \\< 1.5 ULN)",
+                "timeFrame": "Day7, 14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Change in reticulocyte count from baseline in patients without RBC transfusion",
+                "description": "Change in reticulocyte count from baseline in patients without RBC transfusion",
+                "timeFrame": "Day7, 14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Change in indirect bilirubin level from baseline",
+                "description": "Change in indirect bilirubin level from baseline",
+                "timeFrame": "Day7, 14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "The proportion of patients without RBC transfusion",
+                "description": "The proportion of patients without RBC transfusion",
+                "timeFrame": "Day14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Change in the average weekly amount of RBC transfused during the efficacy observation period",
+                "description": "Change in the average weekly amount of RBC transfused during the efficacy observation period compared with that pre-dose",
+                "timeFrame": "Day70"
+              },
+              {
+                "measure": "Change From Baseline in FACIT-Fatigue Questionnaire",
+                "description": "Change from baseline in FACIT-Fatigue scores. The FACIT-Fatigue is a 13-item questionnaire with support for its validity and reliability in PNH that assesses patient self-reported fatigue and its impact on daily activities and function. All FACIT scales are scored so that a high score is better. As each of the 13 items of the FACIT-F Scale ranges from 0-4, the range of possible scores is 0-52, with 0 being the worst possible score and 52 the best.",
+                "timeFrame": "Day7, 14, 21, 28, 42, 56 and 70"
+              },
+              {
+                "measure": "Changes from baseline in alternative complement pathway activity",
+                "description": "Alternative complement pathway activity measured by the WIESLAB\u00ae kit.",
+                "timeFrame": "Day14, 28, 56 and 70"
+              },
+              {
+                "measure": "Change in the amount of fragment Bb of CFB in plasma from baseline",
+                "description": "Bb fragment cleaved by factor B of complement.",
+                "timeFrame": "Day14, 28, 56 and 70"
+              },
+              {
+                "measure": "Change in the level of PNH RBC clones from baseline in patients without RBC transfusion.",
+                "description": "Change from baseline in the level of PNH red cell clones.",
+                "timeFrame": "Day70"
+              },
+              {
+                "measure": "Incidence of Adverse Events (AEs) between Day 1 and Day 70",
+                "description": "Adverse Events (AEs)",
+                "timeFrame": "Day 70"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants \u2265 18 years of age and BMI \u2265 18.0 kg/m2 with a diagnosis of PNH confirmed by high-sensitivity flow cytometry with clone size \u2265 10%.\n* Mean hemoglobin level \\<100 g/L.\n* LDH \\> 1.5 x Upper Limit of Normal (ULN).\n* Vaccination against Neisseria meningitidis infection is required prior to the start of study treatment. If not received previously, vaccination against Streptococcus pneumoniae and Haemophilus influenzae infections should be given.\n\nExclusion Criteria:\n\n* Patients with reticulocytes \\<100x10\\^9/L; platelets \\<30x10\\^9/L; neutrophils \\<0.5x10\\^9/L.\n* Were using a complement inhibitor before the first administration of MY008211A tablets or had discontinued a previous complement inhibitor for less than five half-lives or 120 days, whichever was the longest.\n* History of recurrent invasive infections caused by encapsulated organisms, e.g. meningococcus or pneumococcus.\n* Known or suspected hereditary complement deficiency.\n* Previous bone marrow or hematopoietic stem cell transplantation.\n* Previous splenectomy.\n* A history of malignancy within 5 years before screening, except cured local basal cell carcinoma of the skin and carcinoma in situ of the cervix.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaoni Li, Ph.D",
+                "role": "CONTACT",
+                "phone": "021-51158605",
+                "email": "lixiaoni@createrna.com"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07788105",
+            "orgStudyIdInfo": {
+              "id": "K11574"
+            },
+            "organization": {
+              "fullName": "Peking Union Medical College Hospital",
+              "class": "OTHER"
+            },
+            "briefTitle": "Efficacy and Safety of Lanoracopan in the Treatment of PNH",
+            "officialTitle": "Efficacy and Safety of Lanoracopan Hydrochloride in the Treatment of Paroxysmal Nocturnal Hemoglobinuria: A Prospective, Single-Center Real-World Study"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-08",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-09",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-08-23",
+            "studyFirstSubmitQcDate": "2026-08-23",
+            "studyFirstPostDateStruct": {
+              "date": "2026-08-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-08-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-08-26",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Bing Han",
+              "investigatorTitle": "Professor",
+              "investigatorAffiliation": "Peking Union Medical College Hospital"
+            },
+            "leadSponsor": {
+              "name": "Peking Union Medical College Hospital",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study aimed to evaluate the efficacy and safety of Lanoracopan Hydrochloride in the treatment of Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+            "detailedDescription": "In Chinese multicenter phase 3 trials, lanoracopan 400 mg BID was evaluated over 24 weeks. In the active-controlled study (N=66, complement-na\u00efve), the proportion achieving Hb \u2265120 g/L was 50.0% (lanoracopan) versus 9.09% (eculizumab). In the single-arm study (N=20, C5 inhibitor-inadequate responders), 70% reached Hb \u2265120 g/L, and 100% had Hb increase \u226520 g/L from baseline. No treatment-discontinuation due to AEs, no severe breakthrough hemolysis, no major vascular events, no encapsulated bacterial infections, and no deaths were reported across both studies. These data demonstrate superior hemoglobin correction and favorable short-term safety. However, long-term real-world effectiveness and safety profiles stratified by prior treatment (C5 inhibitors vs. other factor B inhibitors) remain uncharacterized. This observational study will enroll a diverse cohort to capture durability of Hb response, transfusion independence rate, incidence of breakthrough hemolysis and thrombosis, and adverse event patterns over extended follow-up, providing evidence to guide therapy switching and sequencing in clinical practice."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria, PNH"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "COHORT",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 90,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Lanoracopan Hydrochloride",
+                "description": "400mg bid",
+                "otherNames": [
+                  "MY008211A"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "rate of adverse events (AEs)",
+                "description": "According to CTCAE V5.0",
+                "timeFrame": "During treatment, an average of 24 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of subjects maintaining Hb \u2265120 g/L",
+                "description": "During the treatment observation period, assess the proportion of subjects maintaining Hb \u2265120 g/L every 12 weeks without red blood cell transfusion",
+                "timeFrame": "12 weeks, 24 weeks"
+              },
+              {
+                "measure": "changes in hemoglobin (Hb) levels",
+                "description": "During the treatment observation period, evaluate changes in Hb levels every 12 weeks without red blood cell transfusion.",
+                "timeFrame": "12 weeks, 24 weeks"
+              },
+              {
+                "measure": "incidence of clinically significant hemolysis",
+                "description": "During the treatment observation period, assess the incidence of clinically significant hemolysis every 12 weeks.",
+                "timeFrame": "12 weeks, 24 weeks"
+              },
+              {
+                "measure": "proportion of subjects experiencing a major adverse vascular event (MAVE)",
+                "description": "During the treatment observation period, assess the proportion of subjects experiencing a MAVE every 12 weeks.",
+                "timeFrame": "12 weeks, 24 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-75 years.\n2. Diagnosis of paroxysmal nocturnal hemoglobinuria (PNH) meeting any of the following conditions:\n\n   * Newly diagnosed PNH with active hemolysis (hemoglobin \\[Hb\\] \\<100 g/L, lactate dehydrogenase \\[LDH\\] \\>1.5\u00d7upper limit of normal \\[ULN\\]);\n   * Receiving a stable regimen of complement C5 monoclonal antibody (eculizumab) at standard dose and interval for \u22653 months, with Hb still \\<120 g/L despite treatment;\n   * Intolerant to eculizumab therapy;\n   * Receiving standard iptacopan therapy for \u22653 months, with Hb still \\<120 g/L;\n   * Intolerant to iptacopan therapy.\n   * Currently receiving standard lanoracopan therapy (patients who have completed lanoracopan clinical trials).\n3. Vaccination against meningococcal infection (quadrivalent conjugate vaccine, MenACWY) is required prior to the first dose of study drug (Day 1). If not vaccinated within 3 years prior to Day 1, vaccination must be administered at least 14 days before Day 1; if administered within 14 days before Day 1, antibiotic prophylaxis against meningococcal infection is required until 14 days post-vaccination.\n4. Vaccination against pneumococcal infection is required prior to Day 1. If not vaccinated within 5 years prior to Day 1, vaccination must be administered at least 14 days before Day 1; if administered within 14 days before Day 1, antibiotic prophylaxis against pneumococcal infection is required until 14 days post-vaccination.\n5. Willing and able to provide written informed consent and comply with study procedures.\n\nExclusion Criteria:\n\n1. Previous bone marrow or hematopoietic stem cell transplantation.\n2. Previous splenectomy.\n3. Known or suspected hereditary complement deficiency.\n4. History of recurrent invasive infections caused by encapsulated organisms, e.g. meningococcus or pneumococcus.\n5. A history of malignancy within 5 years before screening, except cured local basal cell carcinoma of the skin and carcinoma in situ of the cervix.\n6. Severe concurrent illness, including severe renal disease (e.g., dialysis), advanced cardiac disease (NYHA class IV), severe pulmonary hypertension (WHO class IV), or unstable thrombotic events, judged unsuitable for participation by the investigator.\n7. Any other condition that, in the investigator's opinion, may interfere with study conduct, increase subject risk, or preclude safe participation and completion, including concomitant disease, treatment, procedure, surgery, or clinically significant laboratory abnormality.\n8. Pregnant or breastfeeding women.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients who visited Peking Union Medical College Hospital",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Bing Han",
+                "role": "CONTACT",
+                "phone": "+86 13601059938",
+                "email": "hanbing_li@sina.com.cn"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

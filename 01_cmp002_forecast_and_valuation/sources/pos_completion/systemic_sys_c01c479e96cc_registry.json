@@ -1,0 +1,291 @@
+{
+  "integrated_id": "systemic:sys_c01c479e96cc",
+  "asset": "HGP1206",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=HGP1206",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01864863",
+            "orgStudyIdInfo": {
+              "id": "HM-BOTAN-101"
+            },
+            "organization": {
+              "fullName": "Hanmi Pharmaceutical Company Limited",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "To Compare the Pharmacokinetics of Traclear 62.5 mg Tablets and HGP1206 125mg 1 Tablet in Healthy Male Volunteers",
+            "officialTitle": "An Open-label, Randomized, Single-dose, 2-way Crossover Study to Compare the Pharmacokinetics of Traclear 62.5 mg 2 Tablets and HGP1206 125mg 1 Tablet in Healthy Male Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-04"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-05-20",
+            "studyFirstSubmitQcDate": "2013-05-29",
+            "studyFirstPostDateStruct": {
+              "date": "2013-05-30",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-10-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-10-21",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hanmi Pharmaceutical Company Limited",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to compare the pharmacokinetics of two Traclear 62.5 mg tablets and one HGP1206 125 mg tablet in healthy male volunteers.",
+            "detailedDescription": "An Open-label, Randomized, Single-dose, 2-way Crossover Study to Compare the Pharmacokinetics and safety of Traclear 62.5 mg Tablets and HGP1206 125mg Tablet in Healthy Male Volunteers."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Pulmonary Arterial Hypertension"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 28,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Test\u2192Reference",
+                "type": "EXPERIMENTAL",
+                "description": "HGP1206 125 mg 1 tablet \u2192 Traclear 62.5 mg 2 tablets",
+                "interventionNames": [
+                  "Drug: HGP1206",
+                  "Drug: Traclear"
+                ]
+              },
+              {
+                "label": "Reference\u2192Test",
+                "type": "EXPERIMENTAL",
+                "description": "Traclear 62.5 mg 2 tablets \u2192 HGP1206 125 mg 1 tablet",
+                "interventionNames": [
+                  "Drug: HGP1206",
+                  "Drug: Traclear"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "HGP1206",
+                "description": "One Bosentan 125 mg tablet",
+                "armGroupLabels": [
+                  "Reference\u2192Test",
+                  "Test\u2192Reference"
+                ],
+                "otherNames": [
+                  "Bosentan 125 mg"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Traclear",
+                "description": "Two Bosentan 62.5 mg tablets",
+                "armGroupLabels": [
+                  "Reference\u2192Test",
+                  "Test\u2192Reference"
+                ],
+                "otherNames": [
+                  "Traclear 62.5 mg"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AUClast",
+                "timeFrame": "0-24h"
+              },
+              {
+                "measure": "Cmax",
+                "timeFrame": "0-24h"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Tmax",
+                "timeFrame": "0~24h"
+              },
+              {
+                "measure": "AUCinf",
+                "timeFrame": "0~24h"
+              },
+              {
+                "measure": "t1/2",
+                "timeFrame": "0~24h"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male\n* Age between 20 and 55\n* Signed informed consent\n\nExclusion Criteria:\n\n* Has a history of Primary pulmonary hypertension to investigational product ingredients\n* Hypotension or hypertension",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "20 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Wooseong Huh, MD, PhD",
+                "affiliation": "Samsung Medical Center",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Samsung medical center",
+                "city": "Seoul",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000077300",
+                "term": "Bosentan"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000096926",
+                "term": "Benzenesulfonamides"
+              },
+              {
+                "id": "D013449",
+                "term": "Sulfonamides"
+              },
+              {
+                "id": "D000577",
+                "term": "Amides"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D001555",
+                "term": "Benzene Derivatives"
+              },
+              {
+                "id": "D006841",
+                "term": "Hydrocarbons, Aromatic"
+              },
+              {
+                "id": "D006844",
+                "term": "Hydrocarbons, Cyclic"
+              },
+              {
+                "id": "D006838",
+                "term": "Hydrocarbons"
+              },
+              {
+                "id": "D013450",
+                "term": "Sulfones"
+              },
+              {
+                "id": "D013457",
+                "term": "Sulfur Compounds"
+              },
+              {
+                "id": "D011743",
+                "term": "Pyrimidines"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

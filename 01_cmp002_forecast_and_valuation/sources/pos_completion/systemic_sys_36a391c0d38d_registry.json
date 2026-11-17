@@ -1,0 +1,2713 @@
+{
+  "integrated_id": "systemic:sys_36a391c0d38d",
+  "asset": "ST-400 Investigational product",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ST-400",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05145062",
+            "orgStudyIdInfo": {
+              "id": "LTS16653"
+            },
+            "organization": {
+              "fullName": "Sangamo Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long - Term Follow Up of Sickle Cell Disease and Beta-thalassemia Subjects Previously Exposed to BIVV003 or ST-400.",
+            "officialTitle": "An Observational Long-term Safety and Efficacy Follow-up Study After Ex-vivo Gene Therapy With BIVV003 in Participants With Severe Sickle Cell Disease (SCD) or With ST-400 in Participants With Transfusion-dependent Beta-thalassemia (TDT) With Autologous Hematopoietic Stem Cell Transplant"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-12-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2038-07-14",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2038-07-14",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-22",
+            "studyFirstSubmitQcDate": "2021-11-22",
+            "studyFirstPostDateStruct": {
+              "date": "2021-12-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-07",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Sangamo Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Primary Objectives:\n\nLong-term safety of BIVV003 in participants with severe sickle cell disease (SCD) and ST- 400 in participants with transfusion-dependent beta-thalassemia (TDT)\n\nSecondary Objectives:\n\n* Long-term efficacy of the biological treatment effect of BIVV003 in SCD\n* Long-term efficacy of the clinical treatment effect of BIVV003 on SCD-related clinical events\n* Long-term efficacy of the biological treatment effect of ST-400 in TDT\n* Long-term efficacy of the clinical treatment effect of ST-400 in TDT",
+            "detailedDescription": "The total study duration is up to 15 years of follow-up post BIVV003 and/or ST-400 infusion."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Blood and Lymphatic Diseases"
+            ],
+            "keywords": [
+              "Sickle Cell Disease (SCD), Beta-thalassemia (TDT)"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "COHORT",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BIVV003 Cohort",
+                "description": "All participants treated in parent and future studies with BIVV003",
+                "interventionNames": [
+                  "Drug: BIVV003"
+                ]
+              },
+              {
+                "label": "ST-400 Cohort",
+                "description": "All participants treated in parent studies with ST-400",
+                "interventionNames": [
+                  "Drug: ST-400"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BIVV003",
+                "description": "Solution for intravenous administration",
+                "armGroupLabels": [
+                  "BIVV003 Cohort"
+                ],
+                "otherNames": [
+                  "SAR445136"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ST-400",
+                "description": "Solution for intravenous administration",
+                "armGroupLabels": [
+                  "ST-400 Cohort"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Events",
+                "description": "Number of participants with serious adverse events and adverse events related to BIVV003 or ST-400, including new malignancy, new incidence or exacerbation of neurologic or rheumatologic or autoimmune or hematologic disorder, or new incidence of infection potentially related to BIVV003 or ST-400",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "Overall Survival",
+                "description": "Duration from first dose of study medication to death",
+                "timeFrame": "Up to 15 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in hemoglobin levels",
+                "description": "Long-term change in levels of hemoglobin F, hemoglobin S and total hemoglobin (BIVV003 cohort), long term change in levels of hemoglobin F and total hemoglobin (ST-400 cohort)",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "Change in hemolysis markers",
+                "description": "Long-term change in markers of hemolysis, including reticulocyte count, lactate dehydrogenase, haptoglobin, and serum bilirubin, over time in the BIVV003 cohort",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "Frequency of severe vaso-occlusive crises",
+                "description": "Percentage of participants with severe vaso-occlusive crises, including acute pain crisis, acute chest syndrome, priapism, and splenic sequestration, in the BIVV003 cohort",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "Frequency and severity of SCD-related clinical events",
+                "description": "Percentage of participants with SCD-related clinical events (e.g., acute renal failure, acute stroke) in the BIVV003 cohort",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "Red blood cell transfusions",
+                "description": "Number and total volume of red blood transfusions in the BIVV003 and ST-400 cohorts",
+                "timeFrame": "Up to 15 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Received treatment with BIVV003 or ST-400 in one of the parent studies (ACT16222, ST- 400-01) or any future studies with BIVV003\n* Capable of giving signed informed consent (and if applicable assent)\n\nExclusion Criteria:\n\n* Unable to comply with study visit schedule or study procedures\n* Any other reason that, in the opinion of the Investigator or Medical Monitor, would render the participant unsuitable for participation in the study The above information is not intended to contain all considerations relevant to a potential participation in a clinical trial.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ],
+            "studyPopulation": "All participants who received BIVV003 in one of the primary parent or future studies or ST-400 in the ST-400-01 parent study and agree to participate.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Monitor",
+                "affiliation": "Sangamo Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "UCSF Benioff Children's Hospital",
+                "city": "Oakland",
+                "state": "California",
+                "zip": "94609",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.80437,
+                  "lon": -122.2708
+                }
+              },
+              {
+                "facility": "University of California Davis Health System",
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "facility": "Children's Healthcare of Atlanta",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30329",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Karmanos Cancer Institute",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48201",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "Henry Ford Health System",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008206",
+                "term": "Lymphatic Diseases"
+              },
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03432364",
+            "orgStudyIdInfo": {
+              "id": "ST-400-01"
+            },
+            "organization": {
+              "fullName": "Sangamo Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Assess the Safety, Tolerability, and Efficacy of ST-400 for Treatment of Transfusion-Dependent Beta-thalassemia (TDT)",
+            "officialTitle": "A Phase 1/2, Open-label, Single-arm Study to Assess the Safety, Tolerability, and Efficacy of ST-400 Autologous Hematopoietic Stem Cell Transplant for Treatment of Transfusion-Dependent Beta-thalassemia (TDT)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-03-29",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-11-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-11-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-02-01",
+            "studyFirstSubmitQcDate": "2018-02-07",
+            "studyFirstPostDateStruct": {
+              "date": "2018-02-14",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2023-08-28",
+            "resultsFirstSubmitQcDate": "2023-11-20",
+            "resultsFirstPostDateStruct": {
+              "date": "2023-12-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-12-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Sangamo Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single-arm, multi-site, single-dose, Phase 1/2 study to assess ST-400 in 6 subjects with transfusion-dependent \u03b2-thalassemia (TDT) who are \u226518 and \u226440 years of age. ST-400 is a type of investigational therapy that consists of gene edited cells. ST-400 is composed of the patient's own blood stem cells which are genetically modified in the laboratory using Sangamo's zinc finger nuclease (ZFN) technology to disrupt a precise and specific sequence of the enhancer of the BCL11A gene (which normally suppresses fetal hemoglobin production in erythrocytes). This process is intended to boost fetal hemoglobin (HbF), which can substitute for reduced or absent adult (defective) hemoglobin. ST-400 is then infused back into the patient after receiving conditioning chemotherapy to make room for the new cells in the bone marrow, with the aim of producing new erythrocytes with increased amounts of HbF. The primary objective is to understand safety and tolerability of ST-400, and secondary objectives are to assess the effects on HbF levels and transfusion requirements.",
+            "detailedDescription": "Once consented, study participants will progress through the following stages:\n\n* Screening: in-person visit at the study site to confirm eligibility for proceeding\n* Collection: autologous (self) blood stem cells are harvested at the study site, also known as apheresis\n* Manufacturing of ST-400: no study participant activities expected\n* Infusion: conditioning chemotherapy, followed by infusion of ST-400, occurs at the study site\n* Follow-up: follow up at the study site to monitor for safety and effectiveness of the study"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Transfusion Dependent Beta-thalassemia"
+            ],
+            "keywords": [
+              "Beta thalassemia",
+              "Beta-thalassemia",
+              "Thalassemia major",
+              "Cooley's anemia",
+              "ZFN mediated genome editing",
+              "zinc finger nuclease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ST-400 Investigational product",
+                "type": "EXPERIMENTAL",
+                "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene",
+                "interventionNames": [
+                  "Genetic: ST-400 Investigational product"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "ST-400 Investigational product",
+                "description": "Single dose of ST-400 following chemotherapy conditioning with busulfan",
+                "armGroupLabels": [
+                  "ST-400 Investigational product"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs) up to 156 Weeks After the ST-400 Infusion",
+                "description": "Safety and tolerability assessed by number of participants with Adverse Events (AEs) and Serious Adverse Events (SAEs) up to 156 weeks after the ST-400 infusion",
+                "timeFrame": "Up to 156 weeks after the ST-400 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Clinical Laboratory Measurement of Hemoglobin (Hb) Fractions (A and F in g/dL)",
+                "description": "Change from baseline clinical laboratory measurement of Hb fractions (A and F in g/dL) \\[Time Frame: Up to 156 weeks after ST-400 infusion\\]",
+                "timeFrame": "Baseline, Weeks 26, 52, and 156 after ST-400 infusion"
+              },
+              {
+                "measure": "Clinical Laboratory Measurements of Percent (%) HbF",
+                "description": "Change from baseline percent (%) HbF \\[Time Frame: Up to 156 weeks after ST-400 infusion\\]",
+                "timeFrame": "Baseline, Weeks 26, 52, and 156 after ST-400 infusion"
+              },
+              {
+                "measure": "Annualized Frequency of Packed RBC Transfusions",
+                "description": "Calculation of annualized frequency and volume of packed red blood cell (PRBC) transfusions after ST-400 infusion transfusion support in the 2 years prior to screening",
+                "timeFrame": "From Baseline (2 years prior to screening/consent), to ST-400 Infusion (Day 0), after hematopoietic reconstitution and up to 156 weeks (post ST-400 infusion)"
+              },
+              {
+                "measure": "Annualized Volume (mL) of Packed RBC Transfusions",
+                "description": "Historical baseline defined as transfusion support in the 2 years prior to screening.",
+                "timeFrame": "From Baseline (2 years prior to screening/consent), to ST-400 Infusion (Day 0), after hematopoietic reconstitution and up to 156 weeks (post ST-400 infusion)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Informed Consent\n2. Clinical diagnosis of TDT with \u2265 8 documented RBC transfusion events per year on an annualized basis in the 2-years prior to screening\n3. Confirmed beta-thalassemia diagnosis by molecular genetic testing\n4. Clinically stable and eligible to receive conditioning chemotherapy\n5. Able and willing to use an effective method of contraception from the signing of the informed consent and for one year following ST-400 infusion.\n\nExclusion Criteria:\n\n1. Previous history of autologous or allogeneic blood stem cell transplantation or solid organ transplantation\n2. Pregnant or breastfeeding female\n3. Medical contraindication to mobilization, apheresis, or conditioning\n4. Significant liver, lung, heart, or kidney dysfunction\n5. Diagnosis of HIV or evidence of active HBV or HCV\n6. History of significant bleeding disorder or uncontrolled seizures\n7. History of active malignancy in past 5 years (non-melanoma skin cancer or cervical cancer in situ permitted) any history of hematologic malignancy, or family history of cancer predisposition syndrome without negative testing result in the study candidate.\n8. Currently participating in another clinical trial using an investigational study medication, or recent participation in such a trial\n9. Previous treatment with gene therapy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "40 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Monitor",
+                "affiliation": "Sangamo Therapeutics, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of California, Los Angeles",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095-1678",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "UCSF Benioff Children's Hospital Oakland",
+                "city": "Oakland",
+                "state": "California",
+                "zip": "94609",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.80437,
+                  "lon": -122.2708
+                }
+              },
+              {
+                "facility": "Children's Healthcare of Atlanta",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30322",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Dana-Farber Boston Children's Cancer and Blood Disorders Center",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02116",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "34175041",
+                "type": "DERIVED",
+                "citation": "Brusson M, Miccio A. Genome editing approaches to beta-hemoglobinopathies. Prog Mol Biol Transl Sci. 2021;182:153-183. doi: 10.1016/bs.pmbts.2021.01.025. Epub 2021 Mar 1."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "recruitmentDetails": "The original enrollment goal was six subjects were to be enrolled in the Phase 1/2 study ST-400-01, but 5 subjects were enrolled and dosed. One subject from the 5 dosed withdrew consent prior to completing the study. Subjects who received treatment with ST-400 were asked to participate in a separate observational long-term safety study.",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "ST-400 Investigational Product",
+                "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+              }
+            ],
+            "periods": [
+              {
+                "title": "Primary (ST-400 Infusion up to Week 52 )",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Follow Up (Weeks 52-156 Post Infusion)",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "4"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Withdrawal by Subject",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "populationDescription": "The study population comprise male and non-pregnant, non-lactating female subjects with TDT between 18 and 40 years old, who are willing and able to undergo autologous HSCT.",
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "ST-400 Investigational Product",
+                "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "5"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "28.4",
+                            "spread": "7.77"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "title": "Sex",
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "4"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Region of Enrollment",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "participants",
+                "classes": [
+                  {
+                    "title": "United States",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Hemoglobin A (g/dL) at Baseline",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "g/dL",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "11.040",
+                            "spread": "0.6006"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Hemoglobin F (g/dL) at Baseline",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "g/dL",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0.169",
+                            "spread": "0.0835"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Hemoglobin F Percentage at Baseline",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "Percentage",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1.48",
+                            "spread": "0.760"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs) up to 156 Weeks After the ST-400 Infusion",
+                "description": "Safety and tolerability assessed by number of participants with Adverse Events (AEs) and Serious Adverse Events (SAEs) up to 156 weeks after the ST-400 infusion",
+                "populationDescription": "All subjects who received the ST-400 infusion",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "participants",
+                "timeFrame": "Up to 156 weeks after the ST-400 infusion",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "ST-400 Investigational Product",
+                    "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene. Single dose of ST-400 following chemotherapy conditioning with busulfan."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Incidence of non-serious adverse events",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Incidence of serious adverse events",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Clinical Laboratory Measurement of Hemoglobin (Hb) Fractions (A and F in g/dL)",
+                "description": "Change from baseline clinical laboratory measurement of Hb fractions (A and F in g/dL) \\[Time Frame: Up to 156 weeks after ST-400 infusion\\]",
+                "populationDescription": "Hb fractions (A and F in g/dL) Change from Baseline to Week 26, Week 52 and Week 156 in Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "g/dL",
+                "timeFrame": "Baseline, Weeks 26, 52, and 156 after ST-400 infusion",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "ST-400 Investigational Product",
+                    "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Hemoglobin A (g/dL) Change from Baseline to Week 26",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-3.648",
+                            "spread": "2.0401"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin A (g/dL) Change from Baseline to Week 52",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-3.227",
+                            "spread": "2.0789"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin A (g/dL) Change from Baseline to Week 156",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-0.281",
+                            "spread": "1.5834"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin F (g/dL) Change from Baseline to Week 26",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.025",
+                            "spread": "1.0898"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin F (g/dL) Change from Baseline to Week 52",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.405",
+                            "spread": "0.2851"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin F (g/dL) Change from Baseline to Week 156",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.502",
+                            "spread": "0.2936"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Clinical Laboratory Measurements of Percent (%) HbF",
+                "description": "Change from baseline percent (%) HbF \\[Time Frame: Up to 156 weeks after ST-400 infusion\\]",
+                "populationDescription": "Change Percent (%) HbF from Baseline to Week 26, Week 52 and Week 156 in Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "Percentage of Hemoglobin F",
+                "timeFrame": "Baseline, Weeks 26, 52, and 156 after ST-400 infusion",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "ST-400 Investigational Product",
+                    "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Week 26",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "12.83",
+                            "spread": "14.282"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Week 52",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "5.30",
+                            "spread": "3.188"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Week 156",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "4.35",
+                            "spread": "3.040"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Annualized Frequency of Packed RBC Transfusions",
+                "description": "Calculation of annualized frequency and volume of packed red blood cell (PRBC) transfusions after ST-400 infusion transfusion support in the 2 years prior to screening",
+                "populationDescription": "Annualized Frequency of Blood Product Transfusion in Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "PRBC transfusions/year",
+                "timeFrame": "From Baseline (2 years prior to screening/consent), to ST-400 Infusion (Day 0), after hematopoietic reconstitution and up to 156 weeks (post ST-400 infusion)",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "ST-400 Investigational Product",
+                    "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Baseline transfusion support 2 years prior to screening/consent",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "17.393",
+                            "spread": "5.4350"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "At ST-400 Infusion (Day 0)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "21.518",
+                            "spread": "4.8806"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "After hematopoietic reconstitution (up to 156 weeks after ST-400 infusion)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "19.665",
+                            "spread": "5.6716"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Annualized Volume (mL) of Packed RBC Transfusions",
+                "description": "Historical baseline defined as transfusion support in the 2 years prior to screening.",
+                "populationDescription": "Blood Product Annualized Total Volume Transfused in Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "mL/year",
+                "timeFrame": "From Baseline (2 years prior to screening/consent), to ST-400 Infusion (Day 0), after hematopoietic reconstitution and up to 156 weeks (post ST-400 infusion)",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "ST-400 Investigational Product",
+                    "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene\n\nST-400 Investigational product: Single dose of ST-400 following chemotherapy conditioning with busulfan"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Baseline transfusion support 2 years prior to screening/consent",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "10295.984",
+                            "spread": "4063.3661"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "At ST-400 infusion (Day 0)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "7453.191",
+                            "spread": "4204.3456"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "After hematopoietic reconstitution (up to 156 weeks after ST-400 infusion)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "7068.788",
+                            "spread": "4480.8901"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Participants with adverse events data collected from ICF signed through participant's last study visit, up to 156 weeks",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "ST-400 Investigational Product",
+                "description": "ST-400 Investigational product is composed of autologous CD34+ hematopoietic stem/progenitor cells that are genetically modified ex vivo at the erythroid-specific enhancer of the BCL11A gene. Single dose of ST-400 following chemotherapy conditioning with busulfan.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 5,
+                "seriousNumAffected": 3,
+                "seriousNumAtRisk": 5,
+                "otherNumAffected": 5,
+                "otherNumAtRisk": 5
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Drug withdrawal syndrome",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypersensitivity",
+                "organSystem": "Immune system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Pneumonia",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Febrile neutropenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Anaemia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 8,
+                    "numAffected": 4,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Neutropenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 13,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Thrombocytopenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 9,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Leukopenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 8,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Sinus tachycardia",
+                "organSystem": "Cardiac disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Tachycardia",
+                "organSystem": "Cardiac disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 4,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Palpitations",
+                "organSystem": "Cardiac disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Constipation",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 7,
+                    "numAffected": 4,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Stomatitis",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 8,
+                    "numAffected": 4,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Diarrhoea",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Nausea",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 12,
+                    "numAffected": 5,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Abdominal pain",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Abdominal pain upper",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Gastrooesophageal reflux disease",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Haemoperitoneum",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "COVID-19",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Viral upper respiratory tract infection",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Bacterial sepsis",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Coxsackie viral infection",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Influenza",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Pneumonia",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Respiratory syncytial virus infection",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Sinusitis",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Upper respiratory tract infection",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Arthralgia",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 10,
+                    "numAffected": 5,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Back pain",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Pain in extremity",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Flank pain",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Myalgia",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Osteoporosis",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Insomnia",
+                "organSystem": "Psychiatric disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 6,
+                    "numAffected": 5,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Depression",
+                "organSystem": "Psychiatric disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Anxiety",
+                "organSystem": "Psychiatric disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Fatigue",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Non-cardiac chest pain",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Peripheral swelling",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypokalaemia",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypophosphataemia",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Iron overload",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Decreased appetite",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dehydration",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Fluid overload",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vitamin D deficiency",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hyperaesthesia",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Migraine",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Restless legs syndrome",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Procedural pain",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Road traffic accident",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Infusion related reaction",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Post-traumatic pain",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Transfusion reaction",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Traumatic haematoma",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vaccination complication",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Platelet count decreased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 10,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "White blood cell count decreased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 7,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hepatic enzyme increased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Lymphocyte count decreased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Neutrophil count decreased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Epistaxis",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypoxia",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Bradypnoea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Laryngeal inflammation",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Alopecia",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dry skin",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Rash",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Skin hyperpigmentation",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Skin hypopigmentation",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Stasis dermatitis",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dry eye",
+                "organSystem": "Eye disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vision blurred",
+                "organSystem": "Eye disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypersensitivity",
+                "organSystem": "Immune system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypertension",
+                "organSystem": "Vascular disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypotension",
+                "organSystem": "Vascular disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Cholelithiasis",
+                "organSystem": "Hepatobiliary disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dysuria",
+                "organSystem": "Renal and urinary disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Ovarian cyst ruptured",
+                "organSystem": "Reproductive system and breast disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Leukocytosis",
+                "organSystem": "Blood and lymphatic system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dyspepsia",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vomiting",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Incision site pain",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vascular access site haemorrhage",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vascular access site pain",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "International normalised ratio increased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hyperglycaemia",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hyperuricaemia",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Hypomagnesaemia",
+                "organSystem": "Metabolism and nutrition disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Bone pain",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Dysgeusia",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Haematuria",
+                "organSystem": "Renal and urinary disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Cough",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "limitationsAndCaveats": {
+              "description": "Due to the limited sample size of 5 subjects, the study results presented are primarily descriptive in nature."
+            },
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+              "title": "Medical Monitor",
+              "organization": "Sangamo Therapeutics, Inc.",
+              "email": "clinicaltrials@sangamo.com",
+              "phone": "(510) 307-7266"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2021-04-09",
+                "uploadDate": "2023-08-09T16:51",
+                "filename": "Prot_000.pdf",
+                "size": 2293175
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2021-12-20",
+                "uploadDate": "2023-08-09T19:20",
+                "filename": "SAP_001.pdf",
+                "size": 498241
+              },
+              {
+                "typeAbbrev": "ICF",
+                "hasProtocol": false,
+                "hasSap": false,
+                "hasIcf": true,
+                "label": "Informed Consent Form",
+                "date": "2020-05-14",
+                "uploadDate": "2023-08-09T16:55",
+                "filename": "ICF_002.pdf",
+                "size": 428070
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "firstMcpInfo": {
+                "postDateStruct": {
+                  "date": "2023-09-28",
+                  "type": "ACTUAL"
+                }
+              }
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      }
+    ]
+  }
+}

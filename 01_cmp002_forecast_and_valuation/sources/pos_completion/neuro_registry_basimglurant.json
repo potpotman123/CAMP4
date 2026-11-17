@@ -1,0 +1,4249 @@
+{
+  "asset": "basimglurant",
+  "query": "RO4917523",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=RO4917523&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01750957",
+            "orgStudyIdInfo": {
+              "id": "NP28571"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2011-004349-42",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of RO4917523 in Pediatric Patients With Fragile X Syndrome",
+            "officialTitle": "A Randomized, Parallel Group, Double-Blind, Placebo-Controlled, Safety and Exploratory Efficacy and Pharmacokinetic, Study of RO4917523 in Pediatric Patients With Fragile X Syndrome"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-02"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2014-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2014-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-12-11",
+            "studyFirstSubmitQcDate": "2012-12-13",
+            "studyFirstPostDateStruct": {
+              "date": "2012-12-17",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-08-09",
+            "dispFirstSubmitQcDate": "2016-08-09",
+            "dispFirstPostDateStruct": {
+              "date": "2016-08-11",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-08-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-08-11",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This randomized, double-blind, placebo-controlled, parallel-arm study will evaluate the safety and exploratory efficacy and pharmacokinetics of RO4917523 in pediatric patients with fragile X syndrome. Patients will be randomized to receive one of 2 dose levels of RO4917523 or placebo orally daily for 12 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Fragile X Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 47,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "RO4917523 Dose A",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "RO4917523 Dose B",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "orally daily, 12 weeks",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Dose A orally daily, 12 weeks",
+                "armGroupLabels": [
+                  "RO4917523 Dose A"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Dose B orally daily, 12 weeks",
+                "armGroupLabels": [
+                  "RO4917523 Dose B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety: Incidence of adverse events",
+                "timeFrame": "15 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Efficacy: Neuropsychological/behavioral assessment scales (ADAMS/Clinical Global Impressions CGI-S, CGI-I/ GBAS/Aberrant Behavior Checklist ABC/Repeatable Battery for the Assessment of Neuropsychological Status RBANS/VAS behavior)",
+                "timeFrame": "15 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics: Clearance (CL/F)",
+                "timeFrame": "up to Week 12"
+              },
+              {
+                "measure": "Pharmacokinetics: Volume of distribution at steady-state (Vss/F)",
+                "timeFrame": "up to Week 12"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Children and adolescents, 5 to 13 years of age\n* Diagnosis of fragile X syndrome based on prior DNA testing confirming Fragile X Mental Retardation 1 (FMR1) full mutation and qualifying scores on the ABC and CGI-S\n\nExclusion Criteria:\n\n* Previous treatment with another mGlu5 receptor antagonist within the prior 3 months\n* Participation in a clinical trial involving an investigational drug (unapproved) or non-drug treatment within the prior 6 weeks or 5 times the half-life (whichever is longer) before the start of this study\n* Any uncontrolled, unstable clinically significant psychiatric condition other than fragile X syndrome\n* History of suicidal behavior\n* Other protocol defined inclusion/exclusion criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "5 Years",
+            "maximumAge": "13 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Long Beach",
+                "state": "California",
+                "zip": "90806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.76696,
+                  "lon": -118.18923
+                }
+              },
+              {
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92108",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "city": "Washington D.C.",
+                "state": "District of Columbia",
+                "zip": "20020",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.89511,
+                  "lon": -77.03637
+                }
+              },
+              {
+                "city": "Decatur",
+                "state": "Georgia",
+                "zip": "30033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.77483,
+                  "lon": -84.29631
+                }
+              },
+              {
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              },
+              {
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68198-4160",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10029",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "city": "Media",
+                "state": "Pennsylvania",
+                "zip": "19063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.91678,
+                  "lon": -75.38769
+                }
+              },
+              {
+                "city": "Greenwood",
+                "state": "South Carolina",
+                "zip": "29646",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.1954,
+                  "lon": -82.16179
+                }
+              },
+              {
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37212",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78258",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98145",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005600",
+                "term": "Fragile X Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D025064",
+                "term": "Sex Chromosome Disorders"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT00809562",
+            "orgStudyIdInfo": {
+              "id": "NP22022"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of RO4917523 in Patients With Treatment Resistant Depression",
+            "officialTitle": "An Exploratory Fixed Dose Randomized Double Blind Parallel-group Placebo-controlled Study of the Safety and of the Therapeutic Effects of Ro 4917523 in Patients With Treatment- Resistant Depression"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2009-03"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-02",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2008-12-16",
+            "studyFirstSubmitQcDate": "2008-12-16",
+            "studyFirstPostDateStruct": {
+              "date": "2008-12-17",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-11-01",
+            "dispFirstSubmitQcDate": "2016-11-01",
+            "dispFirstPostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will evaluate the safety, tolerability and efficacy of RO4917523, in comparison to placebo, in patients with treatment-resistant depression. Following a washout period from existing anti-depressant medication, cohorts of patients will be randomized to receive daily oral RO4917523 at up to five different doses (according to the safety and tolerability observed at the lower doses during the study), or placebo. The anticipated time on study treatment is 10 days (in an inpatient unit), and the target sample size is \\<100 individuals."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Depression"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 46,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "2",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "po daily for 10 days",
+                "armGroupLabels": [
+                  "2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "orally daily for 10 days, cohorts receiving up to 5 different doses (according to safety and tolerability)",
+                "armGroupLabels": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability: Adverse events, ECGs, laboratory parameters,vital signs",
+                "timeFrame": "Throughout study"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Efficacy: MADRS score",
+                "timeFrame": "From baseline to day 10"
+              },
+              {
+                "measure": "Symptoms of treatment-resistant depression",
+                "timeFrame": "Throughout study"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* adult patients, 18-65 years of age;\n* recurrent major depressive disorder, without psychotic features;\n* at least 3 lifetime treatment failures, at least 2 of which must have occurred within the current depressive episode;\n* baseline minimal severity defined by a HAM-D score of 18 or above;\n* willing to be hospitalized for at least 16 consecutive days.\n\nExclusion Criteria:\n\n* history of bipolar disorder, schizoaffective disorder or schizophrenia;\n* history of psychosis, including psychotic depression;\n* significant past or present neurological disorder, including seizures, stroke and/or head trauma.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Oceanside",
+                "state": "California",
+                "zip": "92056",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.19587,
+                  "lon": -117.37948
+                }
+              },
+              {
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92103",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06511",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "city": "Shreveport",
+                "state": "Louisiana",
+                "zip": "71115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.52515,
+                  "lon": -93.75018
+                }
+              },
+              {
+                "city": "Flowood",
+                "state": "Mississippi",
+                "zip": "39232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.30959,
+                  "lon": -90.13898
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10029",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065-4870",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "Pittsburgh",
+                "state": "Pennsylvania",
+                "zip": "15213",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003863",
+                "term": "Depression"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001526",
+                "term": "Behavioral Symptoms"
+              },
+              {
+                "id": "D001519",
+                "term": "Behavior"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01015430",
+            "orgStudyIdInfo": {
+              "id": "NP22578"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study With RO4917523 in Patients With Fragile X Syndrome",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Pharmacokinetic, Safety and Tolerability, and Exploratory Efficacy and Pharmacodynamic Effects Study of RO4917523 in Adult Patients With Fragile X Syndrome."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2009-11"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2009-11-17",
+            "studyFirstSubmitQcDate": "2009-11-17",
+            "studyFirstPostDateStruct": {
+              "date": "2009-11-18",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-07-06",
+            "dispFirstSubmitQcDate": "2016-07-06",
+            "dispFirstPostDateStruct": {
+              "date": "2016-07-11",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This randomized, double-blind multiple ascending dose study will evaluate the safety and tolerability, pharmacokinetics and efficacy of RO4917523 in patients with Fragile X Syndrome. The patients will be randomized to receive either active drug or placebo. The anticipated time on study treatment is 6 weeks. The target sample size is \\<100 patients."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Fragile X Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo (for RO4917523 ascending doses)",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo (for RO4917523 ascending doses)",
+                  "Drug: Placebo (for RO4917523 fixed dose)"
+                ]
+              },
+              {
+                "label": "Placebo (for RO4917523 fixed dose)",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo (for RO4917523 ascending doses)",
+                  "Drug: Placebo (for RO4917523 fixed dose)"
+                ]
+              },
+              {
+                "label": "RO4917523 ascending doses",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "RO4917523 fixed dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo (for RO4917523 ascending doses)",
+                "description": "Placebo daily po",
+                "armGroupLabels": [
+                  "Placebo (for RO4917523 ascending doses)",
+                  "Placebo (for RO4917523 fixed dose)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo (for RO4917523 fixed dose)",
+                "description": "Placebo daily po",
+                "armGroupLabels": [
+                  "Placebo (for RO4917523 ascending doses)",
+                  "Placebo (for RO4917523 fixed dose)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "RO4917523 ascending doses daily po",
+                "armGroupLabels": [
+                  "RO4917523 ascending doses"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "RO4917523 fixed dose daily po",
+                "armGroupLabels": [
+                  "RO4917523 fixed dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety, Tolerability and Pharmacokinetics: AEs, laboratory parameters",
+                "timeFrame": "AEs throughout study; laboratory assessments: days 1, 8, 15, 29, 43"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Efficacy: Behavior and cognition assessments",
+                "timeFrame": "Every 2 weeks throughout study"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients, 18 to 50 years of age\n* Fragile X Syndrome\n* IQ less than 75\n* Reliable caregiver\n\nExclusion Criteria:\n\n* Current psychosis or presumption of psychosis\n* History of suicidal behavior or considered a high suicidal risk\n* Severe self-injurious behavior\n* Any unstable medical condition other than Fragile X Syndrome (e.g. hypertension, diabetes)\n* Current seizure disorder",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "city": "Decatur",
+                "state": "Georgia",
+                "zip": "30033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.77483,
+                  "lon": -84.29631
+                }
+              },
+              {
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "city": "Indianapolis",
+                "state": "Indiana",
+                "zip": "46202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.76838,
+                  "lon": -86.15804
+                }
+              },
+              {
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005600",
+                "term": "Fragile X Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D025064",
+                "term": "Sex Chromosome Disorders"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01517698",
+            "orgStudyIdInfo": {
+              "id": "NP27936"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of RO4917523 in Patients With Fragile X Syndrome",
+            "officialTitle": "A Randomized, Double-blind, 12-week, Parallel Group, Placebo-controlled Study of Efficacy and Safety of RO4917523 in Patients With Fragile X Syndrome."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2012-05"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2014-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2014-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-01-20",
+            "studyFirstSubmitQcDate": "2012-01-24",
+            "studyFirstPostDateStruct": {
+              "date": "2012-01-25",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-07-06",
+            "dispFirstSubmitQcDate": "2016-07-06",
+            "dispFirstPostDateStruct": {
+              "date": "2016-07-11",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-07-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-07-11",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This multi-center, randomized, double-blind, placebo-controlled, parallel-group study will investigate the efficacy and safety of RO4917523 in adolescent and adult patients with fragile X syndrome. Patients will be randomized to receive oral doses of 0.5 mg or 1.5 mg of RO4917523, or matching placebo once daily. The anticipated time on study treatment is 12 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Fragile X Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 185,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "RO4917523 0.5 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523 0.5 mg"
+                ]
+              },
+              {
+                "label": "RO4917523 1.5 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523 1.5 mg"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "placebo to RO4917523 orally once a day for 12 weeks",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523 0.5 mg",
+                "description": "0.5 mg orally once a day for 12 weeks",
+                "armGroupLabels": [
+                  "RO4917523 0.5 mg"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523 1.5 mg",
+                "description": "1.5 mg orally once a day for 12 weeks",
+                "armGroupLabels": [
+                  "RO4917523 1.5 mg"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in Anxiety Depression and Mood Scale (ADAMS) total score",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Safety (incidence of adverse events)",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in Social Responsiveness Scale (SRS)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Change in Clinical Global Impressions Scale - Improvement (CGI-I)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Change in Clinical Global Impressions Scale - Severity of Illness (CGI-S)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Change in Aberrant Behavior Checklist total score",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Change in Aberrant Behavior Checklist factor scores",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Change in Anxiety Depression and Mood Scale (ADAMS) factor scores",
+                "timeFrame": "12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult and adolescent patients, 14-50 years of age\n* Diagnosis of fragile X syndrome with a confirmed fragile X mental retardation 1 (FMR1) full mutation and qualifying scores on the Aberrant Behavior Checklist (ABC) and CGI-S\n* Patients must agree to either remain completely abstinent or to use two effective contraceptive methods during and 3 weeks after the study\n\nExclusion Criteria:\n\n* Previous treatment with another metabotropic glutamate (mGLU) receptor antagonist within 18 months or with RO4917523\n* Participation in a clinical trial involving an investigational (unapproved) drug within 3 months or 5 times the half-life (whichever is longer) before start of this study\n* Any uncontrolled, unstable clinically significant psychiatric condition other than fragile X syndrome\n* History of suicidal behavior",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "14 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Phoenix",
+                "state": "Arizona",
+                "zip": "85006",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.44838,
+                  "lon": -112.07404
+                }
+              },
+              {
+                "city": "Long Beach",
+                "state": "California",
+                "zip": "90806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.76696,
+                  "lon": -118.18923
+                }
+              },
+              {
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "city": "Washington D.C.",
+                "state": "District of Columbia",
+                "zip": "20010",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.89511,
+                  "lon": -77.03637
+                }
+              },
+              {
+                "city": "Decatur",
+                "state": "Georgia",
+                "zip": "30033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.77483,
+                  "lon": -84.29631
+                }
+              },
+              {
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242-1083",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01655",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10029",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "Staten Island",
+                "state": "New York",
+                "zip": "10314",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.56233,
+                  "lon": -74.13986
+                }
+              },
+              {
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27710",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "city": "Media",
+                "state": "Pennsylvania",
+                "zip": "19063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.91678,
+                  "lon": -75.38769
+                }
+              },
+              {
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78258",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98145",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "city": "Bah\u00eda Blanca",
+                "zip": "8000",
+                "country": "Argentina",
+                "geoPoint": {
+                  "lat": -38.7176,
+                  "lon": -62.26545
+                }
+              },
+              {
+                "city": "Caba",
+                "zip": "1425",
+                "country": "Argentina"
+              },
+              {
+                "city": "Caba",
+                "zip": "C1126AAB",
+                "country": "Argentina"
+              },
+              {
+                "city": "Brampton",
+                "state": "Ontario",
+                "zip": "L6Y 1M5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.68341,
+                  "lon": -79.76633
+                }
+              },
+              {
+                "city": "Sherbrooke",
+                "state": "Quebec",
+                "zip": "J1H 5N4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.40008,
+                  "lon": -71.89908
+                }
+              },
+              {
+                "city": "Santiago",
+                "country": "Chile",
+                "geoPoint": {
+                  "lat": -33.45694,
+                  "lon": -70.64827
+                }
+              },
+              {
+                "city": "Valpara\u00edso",
+                "zip": "2340000",
+                "country": "Chile",
+                "geoPoint": {
+                  "lat": -33.036,
+                  "lon": -71.62963
+                }
+              },
+              {
+                "city": "Bordeaux",
+                "zip": "33076",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 44.84124,
+                  "lon": -0.58046
+                }
+              },
+              {
+                "city": "Bron",
+                "zip": "69003",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.73865,
+                  "lon": 4.91303
+                }
+              },
+              {
+                "city": "Dijon",
+                "zip": "21079",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.31344,
+                  "lon": 5.01391
+                }
+              },
+              {
+                "city": "Marseille",
+                "zip": "13385",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "city": "Montpellier",
+                "zip": "34295",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "city": "Tours",
+                "zip": "37044",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.39484,
+                  "lon": 0.70398
+                }
+              },
+              {
+                "city": "Aguascalientes",
+                "zip": "20030",
+                "country": "Mexico",
+                "geoPoint": {
+                  "lat": 21.88262,
+                  "lon": -102.2843
+                }
+              },
+              {
+                "city": "M\u00e9xico",
+                "zip": "04530",
+                "country": "Mexico",
+                "geoPoint": {
+                  "lat": 31.00435,
+                  "lon": -108.15213
+                }
+              },
+              {
+                "city": "Lima",
+                "zip": "Lima 33",
+                "country": "Peru",
+                "geoPoint": {
+                  "lat": -12.04318,
+                  "lon": -77.02824
+                }
+              },
+              {
+                "city": "Lima",
+                "country": "Peru",
+                "geoPoint": {
+                  "lat": -12.04318,
+                  "lon": -77.02824
+                }
+              },
+              {
+                "city": "San Cugat Del Valles",
+                "state": "Barcelona",
+                "zip": "08195",
+                "country": "Spain"
+              },
+              {
+                "city": "Donostia / San Sebastian",
+                "state": "Guipuzcoa",
+                "zip": "20009",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.31283,
+                  "lon": -1.97499
+                }
+              },
+              {
+                "city": "Madrid",
+                "state": "Madrid",
+                "zip": "28040",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "city": "Madrid",
+                "state": "Madrid",
+                "zip": "28046",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "city": "Torremolinos",
+                "state": "Malaga",
+                "zip": "29620",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 36.62035,
+                  "lon": -4.49976
+                }
+              },
+              {
+                "city": "El Palmar. Murcia",
+                "state": "Murcia",
+                "zip": "30120",
+                "country": "Spain"
+              },
+              {
+                "city": "Gothenburg",
+                "zip": "411 19",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 57.70716,
+                  "lon": 11.96679
+                }
+              },
+              {
+                "city": "Belfast",
+                "zip": "BT12 6AB",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "city": "Dundee",
+                "zip": "DD1 9SY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 56.46913,
+                  "lon": -2.97489
+                }
+              },
+              {
+                "city": "Edinburgh",
+                "zip": "EH10 5HF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "city": "Glasgow",
+                "zip": "GS 8SJ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "city": "London",
+                "zip": "W1W 7EJ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "city": "Manchester",
+                "zip": "M13 9WL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005600",
+                "term": "Fragile X Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D025064",
+                "term": "Sex Chromosome Disorders"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01045083",
+            "orgStudyIdInfo": {
+              "id": "BP22651"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Ability of Functional Magnetic Resonance Imaging (fMRI) to Detect and Characterize the Effects of Two Marketed Centrally Active Drugs, Placebo, and RO4917523 in Healthy Volunteers",
+            "officialTitle": "Randomized, Observer-blind, Placebo-controlled, Four-way Cross-over Study to Study the Ability of Functional Magnetic Resonance Imaging (fMRI) of the Brain to Detect and Characterize the Effects of Single Doses of a Selective Serotonin Reuptake Inhibitor (Escitalopram [Lexapro&#61650;]), a Dopamine"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2010-01"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2010-01-06",
+            "studyFirstSubmitQcDate": "2010-01-07",
+            "studyFirstPostDateStruct": {
+              "date": "2010-01-08",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an exploratory study to evaluate the usefulness of fMRI as a biomarker to characterize the response to three centrally active drugs and placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "DIAGNOSTIC",
+              "maskingInfo": {
+                "masking": "SINGLE",
+                "whoMasked": [
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 25,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523",
+                  "Drug: escitalopram",
+                  "Drug: methylphenidate",
+                  "Drug: placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Oral single dose",
+                "armGroupLabels": [
+                  "1"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "escitalopram",
+                "description": "Oral single dose",
+                "armGroupLabels": [
+                  "1"
+                ],
+                "otherNames": [
+                  "Lexapro"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "methylphenidate",
+                "description": "Oral single dose",
+                "armGroupLabels": [
+                  "1"
+                ],
+                "otherNames": [
+                  "Ritalin"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "placebo",
+                "description": "Oral single dose",
+                "armGroupLabels": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the ability of fMRI to detect and characterize the effect of the three drugs on brain activity at rest and during emotional stimuli",
+                "timeFrame": "8 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To evaluate the ability of other behavioural paradigms/scales to detect drug effects",
+                "timeFrame": "8 weeks"
+              },
+              {
+                "measure": "To correlate the fMRI measures with the clinical/behavioral measures",
+                "timeFrame": "8 weeks"
+              },
+              {
+                "measure": "To investigate the safety of single doses of RO4917523 in healthy volunteers",
+                "timeFrame": "8 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients, 18 to 45 years of age\n* In good general health\n* Weight of \\&#x2265;120 lbs (55 kg) and a body mass index (BMI) between 18 to 30kg/m\u00b2\n* Males and females with reproductive potential: willing to use a reliable method of contraception\n\nExclusion Criteria:\n\n* Evidence of clinically significant disease\n* Medical or surgical condition that could alter the absorption, metabolism, or elimination of drugs\n* Family history of sudden death or ventricular arrhythmia\n* History of any psychiatric disorder and/or marked anxiety\n* History of glaucoma\n* History (including family) of motor tic or diagnosis of Tourette's syndrome\n* Active suicide ideation\n* Contraindication to MRI",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "La Jolla",
+                "state": "California",
+                "zip": "92093",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              },
+              {
+                "id": "D000089983",
+                "term": "Escitalopram"
+              },
+              {
+                "id": "D008774",
+                "term": "Methylphenidate"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D011437",
+                "term": "Propylamines"
+              },
+              {
+                "id": "D000588",
+                "term": "Amines"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D009570",
+                "term": "Nitriles"
+              },
+              {
+                "id": "D001572",
+                "term": "Benzofurans"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              },
+              {
+                "id": "D010648",
+                "term": "Phenylacetates"
+              },
+              {
+                "id": "D000146",
+                "term": "Acids, Carbocyclic"
+              },
+              {
+                "id": "D002264",
+                "term": "Carboxylic Acids"
+              },
+              {
+                "id": "D010880",
+                "term": "Piperidines"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01592890",
+            "orgStudyIdInfo": {
+              "id": "BP27854"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2011-004597-28",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of The Excretion Balance, Pharmacokinetics and Metabolism of A Single Oral Dose of [14C]-Labeled RO4917523 in Healthy Male Volunteers",
+            "officialTitle": "Single-centre, Open-label Study Investigating the Excretion Balance, Pharmacokinetics and Metabolism of a Single Dose of 14C-labeled RO4917523 and an Intravenous Tracer Dose of 13C-labeled RO4917523 in Healthy Male Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2012-04"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-05-04",
+            "studyFirstSubmitQcDate": "2012-05-04",
+            "studyFirstPostDateStruct": {
+              "date": "2012-05-07",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This single-center, open-label study will assess the excretion balance, pharmacokinetics and metabolism of oral \\[14C\\]-labeled RO4917523 in healthy male volunteers. Subjects will receive a single oral dose of \\[14C\\]-labeled RO4917523 and an intravenous tracer dose of \\[13C\\]-labeled RO4917523 on Day 1. In-clinic period will be up to 18 Days. Anticipated time on study is up to 15 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "[14C]-labeled RO4917523",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "\\[14C\\]-labeled RO4917523, single oral dose",
+                "armGroupLabels": [
+                  "[14C]-labeled RO4917523"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "\\[13C\\]-labeled RO4917523, single intravenous tracer dose",
+                "armGroupLabels": [
+                  "[14C]-labeled RO4917523"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Elimination: urinary and fecal recovery of total radioactivity",
+                "timeFrame": "Pre-dose and up to approximately Day 18 post-dose"
+              },
+              {
+                "measure": "Plasma concentrations of RO4917523",
+                "timeFrame": "Pre-dose and up to approximately Day 18 post-dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Metabolites of RO4917523 in plasma/urine/blood pellet/feces based on radioactive metabolic profiling",
+                "timeFrame": "Pre-dose and up to approximately Day 18 post-dose"
+              },
+              {
+                "measure": "Absolute bioavailability: Area under the concentration-time curve (AUC)",
+                "timeFrame": "Pre-dose and up to approximately Day 18 post-dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male adults, 18 to 65 years of age inclusive\n* Body mass index (BMI) 18.0 to 32.0 kg/m2\n* Healthy, as judged by a physician on the basis of a medical history, general physical examination, laboratory tests, vital signs and 12-lead ECG\n* Medical history without major pathology\n* Agree to use two effective methods of contraception with their partners, including one barrier method (e.g. condom) throughout the study and for up to 3 months after the last dose of study drug\n\nExclusion Criteria:\n\n* History of relevant drug and or food allergies\n* Smoking (within 60 days prior to drug administration until the follow-up visit)\n* History of alcohol abuse or drug addiction (including soft drugs like cannabis products)\n* Participation in a drug study within 60 days preceding first administration of study drug; participation in more than 3 other drug studies within 10 months preceding the first administration of study drug\n* Infrequent bowel movements (less than once per 2 days)\n* Participation in another ADME study with a radiation burden \\>0,1 mSv in the period of 1 years before the start of the study\n* Positive screen for drugs of abuse\n* Average intake of more than 24 units of alcohol per week\n* Positive for hepatitis B, hepatitis C or HIV infection",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Zuidlaren",
+                "zip": "9471 GP",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 53.09417,
+                  "lon": 6.68194
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01368926",
+            "orgStudyIdInfo": {
+              "id": "BP25713"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Pharmacokinetic Study of RO4917523 in Healthy Japanese and Caucasian Subjects",
+            "officialTitle": "A Double-Blind, Randomized, Placebo-Controlled Study Evaluating the Pharmacokinetics, Safety and Tolerability of RO4917523 Conducted in 2 Phases: a Single-Dose, Cross-Over Administration to Healthy Japanese Subjects and a Multiple-Dose Administration to Healthy Japanese and Caucasian Subjects."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-06"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-05-27",
+            "studyFirstSubmitQcDate": "2011-06-07",
+            "studyFirstPostDateStruct": {
+              "date": "2011-06-08",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This double-blind, randomized, placebo-controlled, 2-Part study will evaluate the pharmacokinetics and safety of RO4917523 in healthy Japanese and Caucasian volunteers. In Part 1, healthy Japanese volunteers will be randomized to receive 2 oral doses of either RO4917523 or placebo, with a washout period of 21 days between dosing. In Part 2, healthy Japanese and Caucasian volunteers will be randomized in cohorts to receive either RO4917523 or placebo orally daily for 14 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 42,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523",
+                  "Drug: placebo"
+                ]
+              },
+              {
+                "label": "Part 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523",
+                  "Drug: placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "single oral doses",
+                "armGroupLabels": [
+                  "Part 1"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "multiple oral doses",
+                "armGroupLabels": [
+                  "Part 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "placebo",
+                "description": "oral doses",
+                "armGroupLabels": [
+                  "Part 1",
+                  "Part 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1: Pharmacokinetics: Area under the concentration - time curve (AUC) (single/multiple oral dose in healthy Japanese subjects)",
+                "timeFrame": "approximately 12 weeks"
+              },
+              {
+                "measure": "Part 2: Comparison of pharmacokinetics (area under the concentration - time curve [AUC]) between healthy Caucasian and Japanese subjects after 14 days of daily oral dosing",
+                "timeFrame": "approximately 9 weeks"
+              },
+              {
+                "measure": "Safety: Incidence of adverse events in Japanese an Caucasian subjects",
+                "timeFrame": "approximately 21 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy Japanese (Part 1 + 2) or Caucasian (Part 2) adults, 18- 50 years of age\n* Japanese subjects must have Japanese parents and grandparents who were born in Japan\n* Caucasian subjects must have 4 Caucasian grandparents\n* Body mass index (BMI) 18.5 to 26 kg/m2, and a body weight of at least 45 kg\n* Non-smoker for at least 90 days prior to dosing Day 1\n\nExclusion Criteria:\n\n* Participation in a clinical trial with an investigational drug within 90 days prior to dosing Day 1. (Volunteers having participated in Part 1 will not be allowed to participate in Part 2 and vice versa)\n* History or evidence of any clinically significant disease or disorder\n* Pregnant or lactating women\n* Positive for hepatitis B, hepatitis C or HIV\n* Positive drug screen test, positive cotinine test and/or positive alcohol test\n* Any confirmed significant allergic reactions to any drug, or multiple allergies in the judgement of the investigator",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10016",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01483469",
+            "orgStudyIdInfo": {
+              "id": "BP27890"
+            },
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Human Proof of Concept Study for [11C]-RO5011232 as Radiotracer and Study of the Binding of RO4917523 to Human mGlu5 Brain Receptor at Steady-State in Healthy Volunteers",
+            "officialTitle": "Human Proof of Concept Positron Emission Tomography Study to Investigate [11C]-RO5011232 as a Radiotracer for Brain mGlu5 Receptor Occupancy and to Investigate the Binding of RO4917523 to Human mGlu5 Brain Receptor at Steady-state."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-12"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-11-29",
+            "studyFirstSubmitQcDate": "2011-11-29",
+            "studyFirstPostDateStruct": {
+              "date": "2011-12-01",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This open label, non-randomized, parallel group study will evaluate \\[11C\\]-RO5011232 as radiotracer for brain mGlu5 receptor occupancy and investigate the binding of RO49917523 to human mGlu5 brain receptor at steady-state in healthy volunteers. In Parts I, II and III, positron emission tomography (PET) assessments of specific uptake of the radiotracer and whole body dosimetry will be made after intravenous injection of \\[11C\\]-RO5011232. In Part IV, subjects will receive RO4917523 orally daily for 14 days while receiving three single intravenous bolus injections of \\[11C\\]-RO5011232. The anticipated time on study treatment is up to 4 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 56,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Concept Proof",
+                "type": "ACTIVE_COMPARATOR",
+                "interventionNames": [
+                  "Drug: RO5011232"
+                ]
+              },
+              {
+                "label": "Receptor Occupancy",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523",
+                  "Drug: RO5011232"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "orally daily, 14 days",
+                "armGroupLabels": [
+                  "Receptor Occupancy"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO5011232",
+                "description": "\\[11C\\]-RO5011232 intravenously",
+                "armGroupLabels": [
+                  "Concept Proof",
+                  "Receptor Occupancy"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part I: mGlu5 receptor binding of [11C]-RO5011232 radiotracer in human brain, assessed by positron emission tomography (PET)",
+                "timeFrame": "approximately 6 months"
+              },
+              {
+                "measure": "Part II: Dosimetry/radiation safety of [11C]-RO5011232 assessments by whole body PET scan",
+                "timeFrame": "approximately 6 months"
+              },
+              {
+                "measure": "Part III: Measurement of test-retest precision of PET images of regions of interest in the human brain",
+                "timeFrame": "approximately 6 months"
+              },
+              {
+                "measure": "Part IV: Correlation between RO4917523 plasma concentration and R04917523 binding to mGlu5 receptor in brain",
+                "timeFrame": "approximately 6 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Safety of [11C]-RO5011232 administered intravenously at microdose level: Incidence of adverse events",
+                "timeFrame": "approximately 6 months"
+              },
+              {
+                "measure": "Part IV: In vitro binding potential (reference region with no specific binding of radiotracer) assessed by PET",
+                "timeFrame": "approximately 6 months"
+              },
+              {
+                "measure": "Part IV: Safety of 14-day treatment with RO4917523: Incidence of adverse events",
+                "timeFrame": "approximately 6 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male and female volunteers as determined by medical history, physical examination, 12-lead ECG, and routine clinical laboratory measurements\n* Age 18 to 65 years inclusive\n* Body mass index (BMI) between 18 to30 kg/m2 inclusive and body weight at least 50 kg\n* Appropriate body size (less than 195 cm \\[6 feet and 5 inches\\]) in order to accommodate the whole body scanning\n\nExclusion Criteria:\n\n* History of or presence of clinically significant psychiatric condition, as evaluated by a psychiatrist before enrolment\n* History of head trauma with prolonged loss of consciousness (\\>10 minutes) or any neurological condition or a history of migraine headaches\n* Contraindications to MRI procedures (Part I, III and IV)\n* Subjects suffering from claustrophobia or who would be unable to undergo magnetic resonance imaging (MRI) or PET scanning\n* Positive pregnancy test at screening or on any day preceding a PET scan\n* Lactating women\n* Positive for hepatitis B, hepatitis C or HIV infection\n* Any history of alcohol or drug abuse within the last 6 months\n* Regular smoker or nicotine user (\\>10 cigarettes per day)\n* Participation in an investigational drug or device study within three months prior to screening",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21224",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21225",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01629368",
+            "orgStudyIdInfo": {
+              "id": "BP28256"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2012-000771-16",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Effect of Carbamazepine on the Pharmacokinetics of RO4917523 in Healthy Volunteers",
+            "officialTitle": "A Single-Center, Open-Label, One-Sequence, Crossover Study to Investigate the Effects of Multiple Doses of Carbamazepine on the Pharmacokinetics of a Single Dose RO4917523 in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2012-06"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-06-25",
+            "studyFirstSubmitQcDate": "2012-06-25",
+            "studyFirstPostDateStruct": {
+              "date": "2012-06-27",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This single-center, open-label, cross-over study will evaluate the effect of carbamazepine on the pharmacokinetics of RO4917523 in healthy volunteers. Healthy volunteers will receive a single dose of RO4917523 alone and in combination with multiple doses of carbamazepine in a cross-over design. The anticipated time on study treatment is 40 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Dosing Period 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "Dosing Period 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: Carbamazepine",
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Carbamazepine",
+                "description": "Multiple doses of carbamazepine",
+                "armGroupLabels": [
+                  "Dosing Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Single dose of RO4917523",
+                "armGroupLabels": [
+                  "Dosing Period 1",
+                  "Dosing Period 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics: Area under the concentration time curve",
+                "timeFrame": "Period 1: Pre-dose and up to Day 14, Period 2: Pre-dose and up to Day 29"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Safety: incidence of adverse events",
+                "timeFrame": "6 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteers, 18-65 years of age inclusive\n* Non-smokers\n* Body mass index (BMI) between 18 and 30 mg/m2 inclusive\n* Women who are not menopausal or surgically sterile agree to use two adequate methods of contraception\n\nExclusion Criteria:\n\n* Evidence of any active or chronic disease\n* History of any significant disease (e.g., cardiovascular, hepatic, renal) or cancer\n* History or presence of clinically significant psychiatric condition\n* Any condition or disease that would render the volunteer unsuitable for the study, place the volunteer at undue risk or interfere with the ability of the volunteer to complete the study",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Rennes",
+                "zip": "35042",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.11109,
+                  "lon": -1.67431
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002220",
+                "term": "Carbamazepine"
+              },
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003984",
+                "term": "Dibenzazepines"
+              },
+              {
+                "id": "D006575",
+                "term": "Heterocyclic Compounds, 3-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01437657",
+            "orgStudyIdInfo": {
+              "id": "NP25620"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2011-001436-33",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "MARIGOLD Study: A Study of RO4917523 Versus Placebo as Adjunctive Therapy in Patients With Major Depressive Disorder and an Inadequate Response to Ongoing Antidepressant Therapy",
+            "officialTitle": "A Randomized, Double-blind, Parallel-group Study of the Safety and Efficacy of RO4917523 Versus Placebo, as Adjunctive Therapy in Patients With Major Depressive Disorder With Inadequate Response to Ongoing Antidepressant Treatment"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-10"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-09-20",
+            "studyFirstSubmitQcDate": "2011-09-20",
+            "studyFirstPostDateStruct": {
+              "date": "2011-09-21",
+              "type": "ESTIMATED"
+            },
+            "dispFirstSubmitDate": "2016-07-06",
+            "dispFirstSubmitQcDate": "2016-07-06",
+            "dispFirstPostDateStruct": {
+              "date": "2016-07-11",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This randomized, double-blind, placebo-controlled, parallel group study will evaluate the safety and efficacy of RO4917523 as adjunctive therapy in patients with major depressive disorder and an inadequate response to ongoing antidepressant therapy. Anticipated time on study treatment is 6 weeks with a 3-week follow-up."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Major Depressive Disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 319,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Matching RO4917523 placebo orally daily, 6 weeks",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "RO4917523 0.5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "0.5 mg orally daily, 6 weeks",
+                "interventionNames": [
+                  "Drug: RO4917523 0.5 mg"
+                ]
+              },
+              {
+                "label": "RO4917523 1.5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "1.5 mg orally daily, 6 weeks",
+                "interventionNames": [
+                  "Drug: RO4917523 1.5 mg"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Matching RO4917523 placebo orally daily, 6 weeks",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523 0.5 mg",
+                "description": "0.5 mg orally daily, 6 weeks",
+                "armGroupLabels": [
+                  "RO4917523 0.5 mg"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523 1.5 mg",
+                "description": "1.5 mg orally daily, 6 weeks",
+                "armGroupLabels": [
+                  "RO4917523 1.5 mg"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in Montgomery Asberg Depression Rating Scale (MADRS)",
+                "timeFrame": "From baseline to Week 6"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in Clinical Global Impression Score - Severity (CGI-S)",
+                "timeFrame": "From baseline to Week 6"
+              },
+              {
+                "measure": "Change in Clinical Global Impression Score - Improvement (CGI-I)",
+                "timeFrame": "From baseline to Week 6"
+              },
+              {
+                "measure": "Safety: Incidence of adverse events",
+                "timeFrame": "approximately 2 years"
+              },
+              {
+                "measure": "Proportion of patients exhibiting remission (MADRS </= 10) after 6 weeks of treatment",
+                "timeFrame": "approximately 2 years"
+              },
+              {
+                "measure": "Proportion of patients exhibiting response (reduction in MADRS >/= 50% of baseline score) after 6 weeks of treatment",
+                "timeFrame": "approximately 2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patient, 18 to 70 years of age at time of informed consent\n* Major depressive disorder without psychotic features as defined by DSM-IV-TR criteria\n* Inadequate response to ongoing antidepressant treatment, as defined by protocol\n* Body mass index (BMI) 18 to 38 kg/m2 inclusive\n\nExclusion Criteria:\n\n* Currently receiving treatment with a combination of antidepressants (two or more), or an adjunctive potentiating treatment as defined by protocol\n* Previously received RO4917523\n* History of failure, or utilization during the current episode of Electroconvulsive Therapy (ECT) or repetitive Transcranial Magnetic Stimulation (rTMS)\n* History of use at any time of Vagus Nerve Stimulation (VNS) or Deep Brain Stimulation (DBS)\n* Current or past history of bipolar disorder (e.g. manic, hypomanic, or mixed episodes)\n* Pregnant or lactating women",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72223",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "city": "Costa Mesa",
+                "state": "California",
+                "zip": "92626",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.64113,
+                  "lon": -117.91867
+                }
+              },
+              {
+                "city": "Garden Grove",
+                "state": "California",
+                "zip": "92845",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.77391,
+                  "lon": -117.94145
+                }
+              },
+              {
+                "city": "Oceanside",
+                "state": "California",
+                "zip": "92056",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.19587,
+                  "lon": -117.37948
+                }
+              },
+              {
+                "city": "Orange",
+                "state": "California",
+                "zip": "92868",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.78779,
+                  "lon": -117.85311
+                }
+              },
+              {
+                "city": "Riverside",
+                "state": "California",
+                "zip": "92506",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.95335,
+                  "lon": -117.39616
+                }
+              },
+              {
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92102",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92103",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92121",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "city": "Santa Ana",
+                "state": "California",
+                "zip": "92705",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.74557,
+                  "lon": -117.86783
+                }
+              },
+              {
+                "city": "Wildomar",
+                "state": "California",
+                "zip": "92595",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.59891,
+                  "lon": -117.28004
+                }
+              },
+              {
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30328",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "city": "Libertyville",
+                "state": "Illinois",
+                "zip": "60048",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.28308,
+                  "lon": -87.95313
+                }
+              },
+              {
+                "city": "Naperville",
+                "state": "Illinois",
+                "zip": "60563",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.78586,
+                  "lon": -88.14729
+                }
+              },
+              {
+                "city": "Oak Brook",
+                "state": "Illinois",
+                "zip": "60523",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.83281,
+                  "lon": -87.92895
+                }
+              },
+              {
+                "city": "Shreveport",
+                "state": "Louisiana",
+                "zip": "71115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.52515,
+                  "lon": -93.75018
+                }
+              },
+              {
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21285",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "city": "Las Vegas",
+                "state": "Nevada",
+                "zip": "89102",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.17497,
+                  "lon": -115.13722
+                }
+              },
+              {
+                "city": "Marlton",
+                "state": "New Jersey",
+                "zip": "08053",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.89122,
+                  "lon": -74.92183
+                }
+              },
+              {
+                "city": "Brooklyn",
+                "state": "New York",
+                "zip": "11201",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.6501,
+                  "lon": -73.94958
+                }
+              },
+              {
+                "city": "Cedarhurst",
+                "state": "New York",
+                "zip": "11516",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.62288,
+                  "lon": -73.7243
+                }
+              },
+              {
+                "city": "Oklahoma City",
+                "state": "Oklahoma",
+                "zip": "73112",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.46756,
+                  "lon": -97.51643
+                }
+              },
+              {
+                "city": "Norristown",
+                "state": "Pennsylvania",
+                "zip": "19403",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.1215,
+                  "lon": -75.3399
+                }
+              },
+              {
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19139",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "city": "Pittsburgh",
+                "state": "Pennsylvania",
+                "zip": "15213",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                }
+              },
+              {
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38119",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              },
+              {
+                "city": "Kirkland",
+                "state": "Washington",
+                "zip": "98033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.68149,
+                  "lon": -122.20874
+                }
+              },
+              {
+                "city": "Santiago",
+                "zip": "7500710",
+                "country": "Chile",
+                "geoPoint": {
+                  "lat": -33.45694,
+                  "lon": -70.64827
+                }
+              },
+              {
+                "city": "Santiago",
+                "zip": "7580307",
+                "country": "Chile",
+                "geoPoint": {
+                  "lat": -33.45694,
+                  "lon": -70.64827
+                }
+              },
+              {
+                "city": "Temuco",
+                "zip": "4781151",
+                "country": "Chile",
+                "geoPoint": {
+                  "lat": -38.73628,
+                  "lon": -72.59738
+                }
+              },
+              {
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "city": "Berlin",
+                "zip": "12203",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "city": "Freiburg im Breisgau",
+                "zip": "79104",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 47.9959,
+                  "lon": 7.85222
+                }
+              },
+              {
+                "city": "Hanover",
+                "zip": "30159",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.37052,
+                  "lon": 9.73322
+                }
+              },
+              {
+                "city": "Mainz",
+                "zip": "55131",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.98185,
+                  "lon": 8.28008
+                }
+              },
+              {
+                "city": "Wiesbaden",
+                "zip": "65185",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.08601,
+                  "lon": 8.24435
+                }
+              },
+              {
+                "city": "Ch\u016b\u014dku",
+                "zip": "260-8670",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 33.63867,
+                  "lon": 130.67068
+                }
+              },
+              {
+                "city": "Hokkaido",
+                "zip": "060-8648",
+                "country": "Japan"
+              },
+              {
+                "city": "Hy\u014dgo",
+                "zip": "659-0093",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 43.36667,
+                  "lon": 144.43333
+                }
+              },
+              {
+                "city": "Kanagawa",
+                "zip": "216-8511",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 37.58333,
+                  "lon": 139.91667
+                }
+              },
+              {
+                "city": "Kanagawa",
+                "zip": "252-0303",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 37.58333,
+                  "lon": 139.91667
+                }
+              },
+              {
+                "city": "Kita-ku",
+                "zip": "114-0024",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.75264,
+                  "lon": 139.73348
+                }
+              },
+              {
+                "city": "Kurayoshi-shi",
+                "zip": "682-0023",
+                "country": "Japan"
+              },
+              {
+                "city": "Kyoto",
+                "zip": "618-8421",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.02107,
+                  "lon": 135.75385
+                }
+              },
+              {
+                "city": "Osaka",
+                "zip": "569-1041",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.69379,
+                  "lon": 135.50107
+                }
+              },
+              {
+                "city": "Shinjuku-ku",
+                "zip": "160-8582",
+                "country": "Japan"
+              },
+              {
+                "city": "Tokyo",
+                "zip": "100-0006",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "107-0052",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "151-0053",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "157-8577",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "162-0821",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "162-8666",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "170-0002",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Tokyo",
+                "zip": "187-8551",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.6895,
+                  "lon": 139.69171
+                }
+              },
+              {
+                "city": "Aguascalientes",
+                "zip": "20127",
+                "country": "Mexico",
+                "geoPoint": {
+                  "lat": 21.88262,
+                  "lon": -102.2843
+                }
+              },
+              {
+                "city": "Le\u00f3n",
+                "zip": "37000",
+                "country": "Mexico",
+                "geoPoint": {
+                  "lat": 25.60187,
+                  "lon": -103.47698
+                }
+              },
+              {
+                "city": "Monterrey",
+                "zip": "64060",
+                "country": "Mexico",
+                "geoPoint": {
+                  "lat": 25.68435,
+                  "lon": -100.31721
+                }
+              },
+              {
+                "city": "Be\u0142chat\u00f3w",
+                "zip": "97-400",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 51.36883,
+                  "lon": 19.35671
+                }
+              },
+              {
+                "city": "Bialystok",
+                "zip": "15-464",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 53.13333,
+                  "lon": 23.16433
+                }
+              },
+              {
+                "city": "Bialystok",
+                "zip": "15-879",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 53.13333,
+                  "lon": 23.16433
+                }
+              },
+              {
+                "city": "Choroszcz",
+                "zip": "16-070",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 53.14332,
+                  "lon": 22.98889
+                }
+              },
+              {
+                "city": "Kielce",
+                "zip": "25-411",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 50.87033,
+                  "lon": 20.62752
+                }
+              },
+              {
+                "city": "Lodz",
+                "zip": "91-229",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 51.77058,
+                  "lon": 19.47395
+                }
+              },
+              {
+                "city": "Tuszyn",
+                "zip": "95-080",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 51.60949,
+                  "lon": 19.53009
+                }
+              },
+              {
+                "city": "Bucharest",
+                "zip": "030442",
+                "country": "Romania",
+                "geoPoint": {
+                  "lat": 44.43225,
+                  "lon": 26.10626
+                }
+              },
+              {
+                "city": "Bucharest",
+                "zip": "031723",
+                "country": "Romania",
+                "geoPoint": {
+                  "lat": 44.43225,
+                  "lon": 26.10626
+                }
+              },
+              {
+                "city": "Constan\u021ba",
+                "zip": "900002",
+                "country": "Romania",
+                "geoPoint": {
+                  "lat": 44.18073,
+                  "lon": 28.63432
+                }
+              },
+              {
+                "city": "Craiova",
+                "zip": "200620",
+                "country": "Romania",
+                "geoPoint": {
+                  "lat": 44.31667,
+                  "lon": 23.8
+                }
+              },
+              {
+                "city": "Targouiste",
+                "zip": "130086",
+                "country": "Romania"
+              },
+              {
+                "city": "T\u00e2rgu Mure\u015f",
+                "zip": "540139",
+                "country": "Romania",
+                "geoPoint": {
+                  "lat": 46.54245,
+                  "lon": 24.55747
+                }
+              },
+              {
+                "city": "Saint Petersburg",
+                "zip": "190121",
+                "country": "Russia",
+                "geoPoint": {
+                  "lat": 59.93863,
+                  "lon": 30.31413
+                }
+              },
+              {
+                "city": "Saint Petersburg",
+                "zip": "192019",
+                "country": "Russia",
+                "geoPoint": {
+                  "lat": 59.93863,
+                  "lon": 30.31413
+                }
+              },
+              {
+                "city": "Keelung",
+                "zip": "20445",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 25.13089,
+                  "lon": 121.74094
+                }
+              },
+              {
+                "city": "Taichung",
+                "zip": "40447",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 24.1469,
+                  "lon": 120.6839
+                }
+              },
+              {
+                "city": "Taipei",
+                "zip": "00112",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 25.05306,
+                  "lon": 121.52639
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "27304433",
+                "type": "DERIVED",
+                "citation": "Quiroz JA, Tamburri P, Deptula D, Banken L, Beyer U, Rabbia M, Parkar N, Fontoura P, Santarelli L. Efficacy and Safety of Basimglurant as Adjunctive Therapy for Major Depression: A Randomized Clinical Trial. JAMA Psychiatry. 2016 Jul 1;73(7):675-84. doi: 10.1001/jamapsychiatry.2016.0838."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003865",
+                "term": "Depressive Disorder, Major"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003866",
+                "term": "Depressive Disorder"
+              },
+              {
+                "id": "D019964",
+                "term": "Mood Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01873508",
+            "orgStudyIdInfo": {
+              "id": "NP28738"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2013-000502-28",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Three Modified-Release Formulations of RO4917523 in Healthy Volunteers",
+            "officialTitle": "A Single-center, Open Label, Randomized Cross-over Study to Compare 3 Modified-release Formulations With Different Release Profiles of RO4917523 Along With a Reference Intravenous Microdose Infusion"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2015-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-06"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-08",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-06-06",
+            "studyFirstSubmitQcDate": "2013-06-06",
+            "studyFirstPostDateStruct": {
+              "date": "2013-06-10",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2015-09-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2015-09-10",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This single-center, open label, randomized, 3-period cross-over study will compare 3 modified-release formulations of RO4917523 in healthy volunteers. Subjects will be randomized to one of six sequences to receive single oral doses of RO4917523 slow, target and fast release modified release (MR) capsules along with a reference intravenous microdose with the target capsule. A washout period of at least 21 days will occur between treatments."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Fast release MR capsule",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "Slow release MR capsule",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "Target release MR capsule",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Fast release MR capsule, single dose",
+                "armGroupLabels": [
+                  "Fast release MR capsule"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Target release MR capsule, single dose",
+                "armGroupLabels": [
+                  "Target release MR capsule"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Slow release MR capsule, single dose",
+                "armGroupLabels": [
+                  "Slow release MR capsule"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "\\[13C\\]-labeled tracer dose i.v.",
+                "armGroupLabels": [
+                  "Target release MR capsule"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics: Area under the concentration-time curve (AUC)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Maximum concentration (Cmax)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics: Time to maximum plasma concentration (tmax)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Elimination half-life (t1/2)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Elimination rate constant: (kel)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Absolute bioavailability (F)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Total body clearance (CL)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Pharmacokinetics: Volume of distribution (Vd)",
+                "timeFrame": "Pre-dose and up to 144 hours post-dose"
+              },
+              {
+                "measure": "Safety: Incidence of adverse events",
+                "timeFrame": "approximately 13 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male and female volunteers, 18 - 55 years of age inclusive Healthy status will be defined by absence in evidence of any active or chronic disease following a detailed medical and surgical history and a complete physical examination\n* Body mass index (BMI) of 18 to 30 kg/m2, inclusive, and body weight of at least 50 kg\n* Females of child-bearing potential must agree to use effective contraception as defined by protocol\n* Non-smoker for at least 90 days prior to dosing on Day 1\n\nExclusion Criteria:\n\n* History or presence of a clinically significant psychiatric condition as defined by protocol\n* Participation in an clinical study with an investigational drug within 60 days or 5 times the half-life (whichever is longer) preceding first administration of study drug. Participation in more than 3 other drug studies within 10 months preceding first administration of study drug.\n* Clinically significant disease or disorder\n* Personal or family history of long QT syndrome or sudden death\n* Any suspicion or history of alcohol and/or other substance abuse or dependence in the last 6 months\n* Subject likely to need concomitant medication during the study (including for dental conditions), except for hormonal contraception or HRT\n* Pregnant or lactating women, or women who intend to become pregnant during the course of the study\n* Positive for hepatitis B, hepatitis C or HIV infection\n* Any confirmed significant allergic reactions against any drug, or multiple allergies",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Marlton",
+                "state": "New Jersey",
+                "zip": "08053",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.89122,
+                  "lon": -74.92183
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Netherlands"
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01665404",
+            "orgStudyIdInfo": {
+              "id": "BP28250"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2012-000772-42",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Effect of Fluvoxamine on the Pharmacokinetics of RO4917523 in Healthy Volunteers",
+            "officialTitle": "A Single-Center, Open-Label, One-Sequence, Crossover Study to Investigate the Effects of Multiple Doses of Fluvoxamine on the Pharmacokinetics of a Single Dose RO4917523 in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2012-07"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-08-13",
+            "studyFirstSubmitQcDate": "2012-08-13",
+            "studyFirstPostDateStruct": {
+              "date": "2012-08-15",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-11-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-11-02",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This single-center, open-label, cross-over study will evaluate the effect of fluvoxamine on the pharmacokinetics of RO4917523 in healthy volunteers. Healthy volunteers will receive a single dose of RO4917523 alone and in combination with multiple doses of fluvoxamine in a cross-over design. The anticipated time on study treatment is 40 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Dosing Period 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: RO4917523"
+                ]
+              },
+              {
+                "label": "Dosing Period 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: Fluvoxamine",
+                  "Drug: RO4917523"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Fluvoxamine",
+                "description": "Multiple doses of fluvoxamine",
+                "armGroupLabels": [
+                  "Dosing Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO4917523",
+                "description": "Single dose of RO4917523",
+                "armGroupLabels": [
+                  "Dosing Period 1",
+                  "Dosing Period 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics: Area under the concentration time curve",
+                "timeFrame": "Period 1: Pre-dose and up to Day 14, Period 2: pre-dose and up to Day 26"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Safety: incidence of adverse events",
+                "timeFrame": "9 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteers, 18-65 years of age inclusive\n* Non-smokers\n* Body mass index (BMI) between 18 and 30 mg/m2 inclusive\n* Women who are not menopausal or surgically sterile agree to use two adequate methods of contraception\n\nExclusion Criteria:\n\n* Evidence of any active or chronic disease\n* History of any significant disease (e.g., cardiovascular, hepatic, renal) or cancer History or presence of clinically significant psychiatric condition\n* Any condition or disease that would render the volunteer unsuitable for the study, place the volunteer at undue risk or interfere with the ability of the volunteer to complete the study",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Rennes",
+                "zip": "35042",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.11109,
+                  "lon": -1.67431
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016666",
+                "term": "Fluvoxamine"
+              },
+              {
+                "id": "C000596770",
+                "term": "2-chloro-4-(1-(4-fluorophenyl)-2,5-dimethyl-1H-imidazol-4-ylethynyl)pyridine"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010091",
+                "term": "Oximes"
+              },
+              {
+                "id": "D006898",
+                "term": "Hydroxylamines"
+              },
+              {
+                "id": "D000588",
+                "term": "Amines"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

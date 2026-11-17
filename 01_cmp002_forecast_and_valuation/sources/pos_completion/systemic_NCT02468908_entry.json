@@ -1,0 +1,338 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02468908",
+      "orgStudyIdInfo": {
+        "id": "MOL-001"
+      },
+      "organization": {
+        "fullName": "Savara Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Inhaled Molgramostim (rhGM-CSF) in Healthy Adult Subjects",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Single-Centre, Single Ascending Dose and Multiple Ascending Dose Study of the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Molgramostim When Administered by Inhalation to Healthy Adult Subjects"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-06-03",
+      "studyFirstSubmitQcDate": "2015-06-08",
+      "studyFirstPostDateStruct": {
+        "date": "2015-06-11",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-02-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Savara Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Celerion",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized, double-blind, placebo-controlled, single ascending (SAD), and multiple ascending dose (MAD) study conducted at a single clinical site within the UK. Healthy male and female subjects (on non-child bearing potential) will be enrolled to investigate single inhaled doses of molgramostim at 3 dose levels (Part 1) and multiple inhaled doses at 2 dose levels (Part 2). The 2 doses in the multiple ascending dose regimens will be administered once daily (QD) for 6 consecutive days. The clinical indication for inhaled molgramostim is the treatment of respiratory diseases such as aPAP, bronchiectasis and cystic fibrosis. The Clinical trial will involve 42 healthy participants. The trial is expected to last approximately 4 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Alveolar Proteinosis",
+        "Bronchiectasis",
+        "Cystic Fibrosis",
+        "Acute Respiratory Distress Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 42,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Molgramostim nebuliser solution, inhaled",
+          "type": "EXPERIMENTAL",
+          "description": "Single dose 150, 300 and 600 ug, multiple dose 300 and 600 ug for 6 days",
+          "interventionNames": [
+            "Drug: Molgramostim"
+          ]
+        },
+        {
+          "label": "Nebuliser solution, inhaled",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Inhaled nebuliser solution",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Molgramostim",
+          "armGroupLabels": [
+            "Molgramostim nebuliser solution, inhaled"
+          ],
+          "otherNames": [
+            "Granulocyte Macrophage-Colony Stimulating Factor (rhGM-CSF)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Nebuliser solution, inhaled"
+          ],
+          "otherNames": [
+            "Nebuliser solution"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number and severity of treatment-emergent Adverse Events (AEs) following single and multiple inhaled doses of molgramostim",
+          "timeFrame": "1-6 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PK parameters: Area under the plasma concentration time curve (AUC), Peak Peak Plasma concentration - Cmax, Time to reach maximum observed serum concentration - tmax",
+          "timeFrame": "1-6 days"
+        },
+        {
+          "measure": "PK parameters: Apparent terminal elimination rate constant - k(el) and Apparent terminal elimination rate constant - t(1/2)",
+          "timeFrame": "1-6 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Development of antibodies to rhGM-CSF",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Change from baseline in Whole Blood Celle Count (WBCC)",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "Change from baseline in exhaled fraction of Nitric Oxide (FeNO) measurements",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "Change from baseline in QT/QTc intervals",
+          "timeFrame": "7 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Healthy, adult, male or female, 18- 55 years of age, inclusive, at screening.\n2. Life-long non smoker who has not used nicotine containing products.\n3. Body mass index (BMI) \u2265 18.5 and \u2264 32.0 kg/m2 at screening.\n4. Medically healthy with no clinically significant medical history, physical examination, laboratory profiles, spirometry, vital signs, or ECGs, as deemed by the PI.\n5. Females must be of non-child bearing potential who must have undergone one of the following sterilization procedures at least 6 months prior to dosing in Part 1 or prior to the first dose in Part 2:\n\n   * hysteroscopic sterilization;\n   * bilateral tubal ligation or bilateral salpingectomy;\n   * hysterectomy;\n   * bilateral oophorectomy; or be postmenopausal with amenorrhea for at least 1 year prior to dosing in Part 1 or prior to the first dose in Part 2, and FSH serum levels consistent with postmenopausal status as per PI's judgment.\n6. A non vasectomized, male subject must agree to use a condom with spermicide or abstain from sexual intercourse during the study until 90 days beyond the last dose of study medication. (No restrictions are required for a vasectomized male provided his vasectomy has been performed 4 months or more prior to study start. A male who has been vasectomized less than 4 months prior to study start must follow the same restrictions as a non vasectomized male).\n7. If male must agree not to donate sperm from dosing in Part 1 or from the first dose in Part 2, until 90 days following last dose.\n8. Understands the study procedures in the informed consent form (ICF), and be willing and able to comply with the protocol.\n\nExclusion Criteria:\n\n1. Subject is mentally or legally incapacitated or has significant emotional problems at the time of screening visit or expected during the conduct of the study.\n2. History or presence of clinically significant medical condition(s) (including ongoing active infections) or psychiatric condition(s) or disease(s) in the opinion of the PI.\n3. History of any illness that, in the opinion of the PI, might confound the results of the study or poses an additional risk to the subject by their participation in the study.\n4. Abnormal spirometry test results, in the opinion of the PI.\n5. History of severe or unexplained adverse reactions during aerosol delivery of any medicinal product.\n6. History or presence of alcoholism or drug abuse within the past 2 years prior to screening.\n7. History or presence of hypersensitivity or idiosyncratic reaction to molgramostim or to related compounds (i.e., Growgen\u00ae, Leucomax\u00ae, Leukine\u00ae, Topleucon\u2122).\n8. Clinically significant history or presence of ECG abnormalities such as second- or third degree atrioventricular block, evidence, or family history of prolonged QT syndrome.\n9. Allergy to bandaids, adhesive dressing, or medical tape.\n10. Positive urine drug at screening or check in.\n11. Positive alcohol test at check-in.\n12. Drink alcohol in excess of 21 units per week for males or 14 units per week for females, with one unit = 150 mL of wine or 360 mL of beer or 45 mL of 45% alcohol.\n13. Positive urine cotinine at screening and check-in.\n14. Positive results at screening for HIV, HBsAg, or HCV.\n15. Seated blood pressure is less than 90/40 mmHg or greater than 140/90 mmHg at screening.\n16. Seated heart rate is lower than 45 bpm or higher than 99 bpm at screening.\n17. QTcF interval is \\>430 msec (males) or \\>450 msec (females) at screening or deemed clinically abnormal by the PI.\n18. Unable to refrain from or anticipates the use of:\n\n    * Any drug, including prescription and non prescription medications, herbal remedies, or vitamin supplements beginning 14 days prior to dosing in Part 1 or prior to the first dose in Part 2, and throughout the study. Hormone replacement therapy (HRT) is not permitted in this study and within 3 months prior to screening. During the study paracetamol (up to 2 g per 24 hours) may be administered at the discretion of the PI.\n    * Any drugs known to be significant inducers of CYP enzymes and/or P gp, including St. John's Wort, for 28 days prior to dosing in Part 1 or prior to the first dose in Part 2, and throughout the study. Appropriate sources will be consulted by the PI or designee to confirm lack of PK/PD interaction with study drug.\n19. Have been on a diet incompatible with the on study diet, in the opinion of the PI, within the 28 days prior to the first dose of study drug, and throughout the study.\n20. Haemoglobin or total WBC outside the normal range at screening.\n21. Donation of blood or plasma within 90 days prior to dosing in Part 1 or prior to the first dose in Part 2.\n22. Donation of bone marrow within the last 6 months prior to dosing in Part 1 or prior to the first dose in Part 2.\n23. Participation in another clinical trial within 90 days prior to dosing in Part 1 or prior to the first dose in Part 2.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Johnston Steward, MD",
+          "affiliation": "Celerion",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Celerion",
+          "city": "Belfast",
+          "zip": "BT9 6AD",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.59682,
+            "lon": -5.92541
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40973220",
+          "type": "DERIVED",
+          "citation": "Trapnell BC, Carey BC, Robinson BR. Pharmacokinetics and pharmacodynamics of inhaled molgramostim in healthy people. BMJ Open Respir Res. 2025 Sep 18;12(1):e002832. doi: 10.1136/bmjresp-2024-002832."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-16"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011649",
+          "term": "Pulmonary Alveolar Proteinosis"
+        },
+        {
+          "id": "D001987",
+          "term": "Bronchiectasis"
+        },
+        {
+          "id": "D003550",
+          "term": "Cystic Fibrosis"
+        },
+        {
+          "id": "D012128",
+          "term": "Respiratory Distress Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D010182",
+          "term": "Pancreatic Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D007232",
+          "term": "Infant, Newborn, Diseases"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C082430",
+          "term": "molgramostim"
+        },
+        {
+          "id": "D003115",
+          "term": "Colony-Stimulating Factors"
+        },
+        {
+          "id": "C082856",
+          "term": "regramostim"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006023",
+          "term": "Glycoproteins"
+        },
+        {
+          "id": "D006001",
+          "term": "Glycoconjugates"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D016298",
+          "term": "Hematopoietic Cell Growth Factors"
+        },
+        {
+          "id": "D016207",
+          "term": "Cytokines"
+        },
+        {
+          "id": "D036341",
+          "term": "Intercellular Signaling Peptides and Proteins"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

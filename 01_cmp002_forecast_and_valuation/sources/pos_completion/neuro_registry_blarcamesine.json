@@ -1,0 +1,4008 @@
+{
+  "asset": "blarcamesine",
+  "query": "ANAVEX2-73",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ANAVEX2-73&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03790709",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-AD-004"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "ANAVEX2-73 for Treatment of Early Alzheimer's Disease",
+            "officialTitle": "A Phase 2b/3, Double-Blind, Randomized, Placebo-Controlled 48-week Safety and Efficacy Trial of ANAVEX2-73 for the Treatment of Early Alzheimer's Disease (AD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-07-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-06-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-06-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-12-24",
+            "studyFirstSubmitQcDate": "2018-12-31",
+            "studyFirstPostDateStruct": {
+              "date": "2019-01-02",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-07-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-07-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Anavex Australia Pty Ltd.",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Anavex Germany GmbH",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Anavex Canada Ltd.",
+                "class": "UNKNOWN"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Phase 2b/3 48-week study to evaluate the effects of ANAVEX2-73 on cognition and function after 48 weeks of daily treatment. Additional outcome measures include refined measures of sleep, behavioral and psychological symptoms typically observed in AD, changes in daily functioning of participants and changes in caregiver burden, as well as changes in quality of life measures of both, patients and caregivers during treatment with ANAVEX2-73.",
+            "detailedDescription": "This is a Phase 2b/3 48-week study to evaluate the effects of ANAVEX2-73 on cognition and function after 48 weeks of daily treatment. Additional outcome measures include refined measures of sleep, behavioral and psychological symptoms typically observed in AD, changes in daily functioning of participants and changes in caregiver burden, as well as changes in quality of life measures of both, patients and caregivers during treatment with ANAVEX2-73. In addition, safety assessments, pharmacokinetic (PK) assessments and collections of CSF and blood markers of AD pathophysiology before and after treatment will be performed."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Randomized 1:1:1 to two different ANAVEX2-73 doses or placebo",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "There will be blinding procedures for this study. Capsules will be indistinguishable from active ingridient containing capsules.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 509,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "High dose ANAVEX2-73",
+                "type": "EXPERIMENTAL",
+                "description": "High dose active once daily orally",
+                "interventionNames": [
+                  "Drug: High dose ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Mid dose ANAVEX2-73",
+                "type": "EXPERIMENTAL",
+                "description": "Mid dose active once daily orally",
+                "interventionNames": [
+                  "Drug: Mid dose ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Placebo oral capsule",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo dose once daily orally",
+                "interventionNames": [
+                  "Drug: Placebo oral capsule"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "High dose ANAVEX2-73",
+                "description": "Oral capsule",
+                "armGroupLabels": [
+                  "High dose ANAVEX2-73"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Mid dose ANAVEX2-73",
+                "description": "Oral capsule",
+                "armGroupLabels": [
+                  "Mid dose ANAVEX2-73"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo oral capsule",
+                "description": "Oral capsule",
+                "armGroupLabels": [
+                  "Placebo oral capsule"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "ADAS-Cog (Alzheimer Disease Assessment Scale-Cognition)",
+                "description": "Reduction in cognitive decline assessed from baseline over 48 weeks with ANAVEX2-73 compared to placebo using the Alzheimer Disease Assessment Scale-Cognition (ADAS-Cog)",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "ADCS-ADL (Activities of Daily Living)",
+                "description": "Reduction in decline of the ability to perform daily activities assessed from baseline over 48 weeks with ANAVEX2-73 compared to placebo using the Activities of Daily Living Scale (ADCS-ADL)",
+                "timeFrame": "48 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "CDR-SB (Clinical Dementia Rating Scale Sum of Boxes)",
+                "description": "Reduction in cognitive decline assessed from baseline over 48 weeks with ANAVEX2-73 compared with placebo using the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB)",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.03",
+                "description": "Assess the safety and tolerability of ANAVEX2-73 compared to placebo",
+                "timeFrame": "48 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Number of participants with change of brain volume assessed by MRI",
+                "description": "To evaluate the effect of ANAVEX2-73 on structural and Arterial Spin Labeling (ASL) MRI scan assessments characteristic for AD pathophysiology compared to placebo over a 48-week treatment duration",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "Blood assessment",
+                "description": "Blood assessment from baseline and compared to placebo at +48 weeks: Abeta40, Abeta42, T-tau, NFL, YKL-40, BACE1 concentration",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "CSF assessment",
+                "description": "Changes in CSF parameters (Abeta40, Abeta42, T-tau, P-tau, NFL, YKL-40, neurogranin, BACE1 concentration) characteristic for AD pathophysiology from baseline and compared to placebo at\n\n+48 weekstreatment differences within subgroups will be performed",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "Number of participants with pre-specified genetic variants",
+                "description": "AD relevant pre-specified genetic variants will be assessed. Statistical testing of treatment differences within subgroups will be performed",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "RSCAQ sleep score",
+                "description": "To evaluate whether ANAVEX2-73 improves sleep continuity as assessed on a serial basis (weeks 0, 4, 12, 24, 36, and 48) with a questionnaire that assess reported sleep continuity (RSCAQ)",
+                "timeFrame": "Weeks 0, 4, 12, 24, 36, and 48"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged 60 to 85 years, inclusive, with a NIA-AA diagnosis of mild cognitive impairment (MCI) due to AD or early stage mild dementia due to AD. AD diagnosis should be made by an appropriately qualified medical specialist and AD pathology should be confirmed by either:\n\n  1. Historical records of amyloid CSF assessment or\n  2. Historical records of amyloid PET scan or\n  3. If neither historical records are available, then AD pathological diagnosis confirmation should be offered at screening:\n\n  i. CSF collection or ii. Amyloid PET iii. Past medical records of MRI or CT are optional.\n* Mini Mental State Examination (MMSE) score between 20-28, inclusive.\n* Free Recall score \u226417 or Total Recall score \\<40 on the Free and Cued Selective Reminding Test (FCSRT).\n* Participants are either outpatients, or residents of an assisted-living facility. Participant has a designated study partner, who spends at least 10hrs per week with the participant, in order that assessments e.g. carer burden instruments are completed with true knowledge of the participant.\n* No suicidal ideation of type 4 or 5 in the Columbia Suicide Severity Rating Scale (C-SSRS) in the past 3 months (i.e. active suicidal thought(s) with intent but without specific plan, or active suicidal thought(s) with plan and intent) OR suicidal behavior in the past 2 years (i.e. actual attempt, interrupted attempt, aborted attempt, or preparatory acts or behavior).\n* Confirmation from the participant that, if of childbearing potential is not pregnant through urine pregnancy testing.\n\nExclusion Criteria:\n\n* Patients who have a progressive medical or neurological condition that in the opinion of the investigator would interfere with the conduct of the study. Exception: If diagnosed with seizures, must be on stable anti-seizure medication for at least 3 months prior to screening.\n* Current clinically significant systemic illness that is likely to result in deterioration of the patient's condition or affect the patient's safety during the study.\n* History or clinically evident stroke or clinically significant carotid or vertebrobasilar stenosis or plaque.\n* History of neurologic (e.g. stroke, traumatic brain injury) or psychiatric condition that the investigator deems may interfere with interpretability of data.\n* History of untreated thyroid disorder, Type 1 diabetes, and insulin dependent or uncontrolled Type II diabetes, as determined by the investigator (e.g. non-insulin-controlled Type II diabetes, whose HbA1c value is higher than 8.0%).\n* Body Mass Index (BMI) \\> 30.\n* History of clinical hepatic dysfunction.\n* Current symptomatic and unstable/uncontrolled gastrointestinal, hepatic, renal, respiratory, cardiovascular, metabolic, immunological, hematological or hormonal disorders.\n* Indication of liver disease, defined by serum levels of ALT (SGPT), AST (SGOT), or alkaline phosphatase above 3x upper limit of normal (ULN) as determined during screening.\n* Significant history of drug addiction (with the exception of nicotine dependence) or abuse (including alcohol, as defined in DSM-V or in the opinion of the investigator) within the last two years prior to informed consent, or a positive urine drug screen for cocaine, opioid, phencyclidine (PCP), amphetamine or marijuana at screening. Prescription medication yielding a positive drug screen are acceptable except for tricyclic antidepressants (e.g. Amitriptyline, Amoxapine, Desipramine, (Norpramin) Doxepin, Imipramine (Tofranil), Nortriptyline (Pamelor), Protriptyline (Vivactil), Trimipramine (Surmontil)).\n* Clinically significant infection within the last 30 days prior screening (e.g., chronic persistent or acute infection, urinary tract infections (UTI)).\n* Treatment with immunosuppressive medications (e.g., systemic corticosteroids) within the last 90 days (topical and nasal corticosteroids and inhaled corticosteroids for asthma are permitted) or chemotherapeutic agents for malignancy within the last 3 years.\n* Myocardial infarction within the last year.\n* History of cancer within the last 3 years, with the exception of basal cell carcinoma and non-metastatic squamous cell carcinoma of the skin and prostate cancer with currently normal PSA.\n* Other clinically significant abnormality on physical, neurological, laboratory, or electrocardiogram (ECG) examination (e.g., atrial fibrillation) that could compromise the study or be detrimental to the participant.\n* Hemoglobin \\< 11 g/dL.\n* Have any contraindication to MRI scanning, including cardiac pacemaker/defibrillator, ferromagnetic metal implants (e.g., in skull and cardiac devices or severe claustrophobia).\n* Smoking \\> 1 pack of cigarettes per day (as assessed for the 30 days prior to screening).\n* Alcohol use of more than 2 drinks per day.\n* Current use of over-the-counter (OTC) supplements or nutraceuticals unless they are on stable dose for at least 3 months prior to screening and are documented in the eCRF.\n* Use of over the counter (OTC) or prescription medication for sleep on 2 or more occasions per week.\n* Being treated with psychoactive medications on a stable dose for less than 3 month.\n* Any prior exposure to ANAVEX2-73.\n* Individuals enrolled in previous AD clinical trial involving an investigational drug treatment less than 3 months ago (longer than 3 month ago allowed).\n* Any known hypersensitivity to any of the excipients contained in the study drug formulation.\n* Any other criteria (such as a clinically significant screening blood test result), which in the opinion of the Investigator causes the participant not to qualify for the study.\n* Evidence of cerebrovascular dementia with a Hachinski score of 4 or more.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "60 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Central Coast Neurosciences Research",
+                "city": "Central Coast",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.42979,
+                  "lon": 151.37144
+                }
+              },
+              {
+                "facility": "Hornsby (Northern Sydney Health)",
+                "city": "Hornsby",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.70244,
+                  "lon": 151.09931
+                }
+              },
+              {
+                "facility": "KaRa MINDS",
+                "city": "Macquarie Park",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.78105,
+                  "lon": 151.12757
+                }
+              },
+              {
+                "facility": "St Vincent Hospital Sydney",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "University of Sydney",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Gold Coast Memory Disorders Clinic",
+                "city": "Southport",
+                "state": "Quennsland",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.96724,
+                  "lon": 153.39796
+                }
+              },
+              {
+                "facility": "The Royal Adelaide Hospital (RAH) and The Queen Elizabeth Hospital (TQEH)",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              },
+              {
+                "facility": "Penninsula Therapeutic and Research Group",
+                "city": "Frankston",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -38.14458,
+                  "lon": 145.12291
+                }
+              },
+              {
+                "facility": "Geelong Private Medical Centre",
+                "city": "Geelong",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -38.14711,
+                  "lon": 144.36069
+                }
+              },
+              {
+                "facility": "Delmont Private Hospital",
+                "city": "Glen Iris",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86667,
+                  "lon": 145.06667
+                }
+              },
+              {
+                "facility": "Hammond Care",
+                "city": "Malvern",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Alfred Health",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Austin Health",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Monash Alfred Psychiatry Research Centre",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Royal Melbourne Hospital (RMH)",
+                "city": "Parkville",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.78333,
+                  "lon": 144.95
+                }
+              },
+              {
+                "facility": "McCusker",
+                "city": "Nedlands",
+                "state": "Western Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -31.98184,
+                  "lon": 115.8073
+                }
+              },
+              {
+                "facility": "Healthy Brain Aging Labs Uni of Calgary",
+                "city": "Calgary",
+                "state": "Alberta",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "University of British Columbia Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Vancouver Island Health Authority",
+                "city": "Victoria",
+                "state": "British Columbia",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 48.4359,
+                  "lon": -123.35155
+                }
+              },
+              {
+                "facility": "True North Clinical Research",
+                "city": "Halifax",
+                "state": "Nova Scotia",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 44.64269,
+                  "lon": -63.57688
+                }
+              },
+              {
+                "facility": "True North Clinical Research",
+                "city": "Kentville",
+                "state": "Nova Scotia",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.0771,
+                  "lon": -64.49605
+                }
+              },
+              {
+                "facility": "Parkwood Institute",
+                "city": "London",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 42.98339,
+                  "lon": -81.23304
+                }
+              },
+              {
+                "facility": "Bruyere Continuing Care",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Kawartha Centre",
+                "city": "Peterborough",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 44.30012,
+                  "lon": -78.31623
+                }
+              },
+              {
+                "facility": "Bay Crest Health Sciences",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Toronto Memory Program",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Toronto Western Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "University of Ulm, Memory Clinic",
+                "city": "Ulm",
+                "state": "Baden-Wurttemberg",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Bayreuth Clinic, Hohe Warte Hospital",
+                "city": "Bayreuth",
+                "state": "Bavaria",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.94782,
+                  "lon": 11.57893
+                }
+              },
+              {
+                "facility": "Technical University of Munich, School of Medicine",
+                "city": "M\u00fcnchen",
+                "state": "Bavaria",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.69668,
+                  "lon": 13.46314
+                }
+              },
+              {
+                "facility": "Central Institute of Mental Health",
+                "city": "Mannheim",
+                "state": "Hesse",
+                "country": "Germany"
+              },
+              {
+                "facility": "Goettingen University Medicine, Clinic for Psychiatry and Psychotherapy",
+                "city": "G\u00f6ttingen",
+                "state": "Lower Saxony",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.53443,
+                  "lon": 9.93228
+                }
+              },
+              {
+                "facility": "University Hospital, Bonn",
+                "city": "Bonn",
+                "state": "North Rhine-Westphalia",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Clinic for Psychiatry and Psychotherapy",
+                "city": "Mainz",
+                "state": "Rhineland-Palatinate",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.98185,
+                  "lon": 8.28008
+                }
+              },
+              {
+                "facility": "Charite University Medicine",
+                "city": "Berlin",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "'s-Hertogenbosch",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.69917,
+                  "lon": 5.30417
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "Amsterdam",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.37403,
+                  "lon": 4.88969
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "Zwolle",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.5125,
+                  "lon": 6.09444
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Teesside",
+                "state": "County Teesside",
+                "country": "United Kingdom"
+              },
+              {
+                "facility": "University of Edinburgh",
+                "city": "Edinburgh",
+                "state": "Scotland",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Glasgow Memory Clinic",
+                "city": "Glasgow",
+                "state": "Scotland",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "Guildford",
+                "state": "Surrey",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.23536,
+                  "lon": -0.57427
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Barnsley",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.55,
+                  "lon": -1.48333
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "Birmingham",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Blackpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.81667,
+                  "lon": -3.05
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Cannock",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.69045,
+                  "lon": -2.03085
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Leeds",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.79648,
+                  "lon": -1.54785
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Liverpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.41058,
+                  "lon": -2.97794
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Imperial College",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "King's College",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "Plymouth",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.37153,
+                  "lon": -4.14305
+                }
+              },
+              {
+                "facility": "Southern Health NHS Foundation Trust",
+                "city": "Southampton",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.90395,
+                  "lon": -1.40428
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02244541",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-002"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 2a Dose Finding, PK/PD and 12 Month Exploratory Efficacy Study of ANAVEX2-73 in Patients With Alzheimer's Disease",
+            "officialTitle": "Phase 2a Study of ANAVEX2-73 Adaptive-Trial-Design With Repeated Doses, MTD Finding, Pharmacodynamic and Bioavailability Evaluation in Patients With Mild to Moderate Alzheimer's Disease With a 12-Month Open Label Follow-Up Period",
+            "acronym": "ANAVEX"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-12",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2015-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2016-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2014-08-31",
+            "studyFirstSubmitQcDate": "2014-09-17",
+            "studyFirstPostDateStruct": {
+              "date": "2014-09-19",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2018-11-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-11-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of this Phase 2a study is to evaluate the maximal tolerated dose of ANAVEX2-73 in patients with AD in a repeated-dose administration scheme, with the secondary objectives being to explore the relationship between dosing regimen and pharmacodynamics efficacy outcomes and to evaluate the bioavailability of the oral form used and to explore the relationship of ANAVEX2-73 as add-on therapy to AD standard of care.",
+            "detailedDescription": "This is a Phase 2a study consisting of two parts, PART A and PART B. The first part (PART A) is a simple randomised, open-label, 2-period, cross-over, adaptive design study lasting for each participant up to 36 days.\n\nThe second part (PART B) is an open-label extension for an additional period of 52 weeks, so as to establish a longer drug effect for the participants who wish to continue on oral daily dose.\n\nThe complete timeline of the study includes the screening assessments within 28 days prior to simple randomisation and initiation of the study. The first administration of study medication will occur after all baseline and screening procedures have been passed (baseline is defined as pre-dosing period timeframe day -28 to day -1). No study procedures will be undertaken until a current informed consent form has been signed by each participant or their respective carer or responsible person.\n\nThe design of the first part (PART A) of the study involves two periods, two administration routes and two dose levels: In one period the intravenous (iv) form will be given and in the other period the oral dose will be given. The first period will involve 12 administrations (either oral or iv) and the second period will involve 11 administrations (either oral or iv).\n\nThe very first administration in the first period is intended as a full pharmacokinetic (PK) screen over the first 48 hours (Day 1 to Day 3). After that, 11 daily administrations complete the first period (Day 3 to Day 13). After a wash-out period of 11 days, the second period of the study starts, involving again 11 daily administrations. Therefore, the first part (PART A) of the study is scheduled to be completed in 36 days.\n\nThe study design asks for 32 participants, 16 males and 16 female participants. All participants have the option to go on to the second part (PART B) of the study, the extended open-label study exploring the cognitive effect of the drug for another 52 weeks where the oral form will be exclusively administered.\n\nSafety and tolerability will be constantly assessed throughout the study, starting from the first dose of study medication."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer's Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Anavex2-73 oral then the Anavex2-73 intravenous formulation",
+                "type": "EXPERIMENTAL",
+                "description": "Participants first receive Anavex2-73 hard gelatin capsule each morning with a light breakfast for 11 days. After a washout period of 11 days they then receive the Anavex2-73 intravenous formulation each morning with a light breakfast for 11 days.",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73 Oral",
+                  "Drug: ANAVEX2-73 Intravenous"
+                ]
+              },
+              {
+                "label": "Anavex2-73 intravenous then the Anavex2-73 oral formulation",
+                "type": "EXPERIMENTAL",
+                "description": "Participants first receive Anavex2-73 intravenous formulation each morning with a light breakfast for 11 days. After a washout period of 11 days then they receive the Anavex2-73 hard gelatin capsule each morning with a light breakfast for 11 days.",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73 Oral",
+                  "Drug: ANAVEX2-73 Intravenous"
+                ]
+              },
+              {
+                "label": "Anavex2-73 30 mg oral formulation",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive the 30 mg Anavex2-73 hard gelatin capsule orally once daily for 52 weeks.",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73 Oral"
+                ]
+              },
+              {
+                "label": "Anavex2-73 50 mg oral formulation",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive the 50 mg Anavex2-73 hard gelatin capsule orally once daily for 52 weeks.",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73 Oral"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73 Oral",
+                "armGroupLabels": [
+                  "Anavex2-73 intravenous then the Anavex2-73 oral formulation",
+                  "Anavex2-73 oral then the Anavex2-73 intravenous formulation"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73 Intravenous",
+                "armGroupLabels": [
+                  "Anavex2-73 intravenous then the Anavex2-73 oral formulation",
+                  "Anavex2-73 oral then the Anavex2-73 intravenous formulation"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73 Oral",
+                "description": "30 mg hard gelatin capsule",
+                "armGroupLabels": [
+                  "Anavex2-73 30 mg oral formulation"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73 Oral",
+                "description": "50 mg hard gelatin capsule",
+                "armGroupLabels": [
+                  "Anavex2-73 50 mg oral formulation"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To determine maximum tolerated dose of Anavex2-73.",
+                "timeFrame": "36 Days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "PK sampling- blood test results",
+                "timeFrame": "First part (PART A), first period (hours): 1, 48, 264; second period (hours): 1, 72, 264; extension period (PART B): Week 1, 12 and 26."
+              },
+              {
+                "measure": "Mini-mental state examination score (MMSE)",
+                "timeFrame": "Baseline, and during the extension period at Week 1, 12, 26, 36, 48, and 52"
+              },
+              {
+                "measure": "Score from ADCS-ADL (Alzheimer's Disease Co-operative Study - Activities of Daily Living Inventory)",
+                "timeFrame": "Baseline, and during the extension period at Week 1, 12, 26, 36, 48, and 52"
+              },
+              {
+                "measure": "Cogstate Brief Battery (CBB) Score and International Shopping List Task (ISLT) Score",
+                "timeFrame": "At baseline, Day 1, 2, 6, 9, 12 of Period 1 and Day 1, 2, 6, 9, 12 of Period 2 and during the extension period at Week 12, 36, 48, and 52."
+              },
+              {
+                "measure": "Electroencephalographic activity, including event-related potentials (EEG/ERP)",
+                "timeFrame": "baseline, Day 1, 5, 11 of Period 1 and Day 1, 5, 11 of Period 2 and, Week 12, 36, 48, and 52 of the extension period"
+              },
+              {
+                "measure": "Hamilton Psychiatric Rating Scale for Depression (HAM-D) Score",
+                "timeFrame": "Baseline at Period 1"
+              },
+              {
+                "measure": "Rosen Modified Hachinski Ischemic Score (RM/HIS10)",
+                "timeFrame": "Baseline at period 1"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Main Inclusion Criteria:\n\n1. Diagnosis of Probable AD in accordance with NINCDS-ADRDA criteria.\n2. A brain CT or MRI scan performed within last 12 months from day of screening consistent with the clinical diagnosis of probable AD.\n3. Age from 55 to 85 years inclusive.\n4. MMSE score of 16-28 inclusive.\n5. Rosen Modified Hachinski Ischemic score \\<=4.\n6. Community dwelling with caregiver who has regular contact with the subject for at least 10 hours per week and is able to oversee the patient's compliance with study medication and participate in the patient's clinical assessment and is capable of accompanying the participant on all clinic visits.\n7. Fluency in English.\n8. Be able to read, write, speak clearly for the cognitive tests, with eyesight and hearing sufficient to enable completion of the cognitive tests.\n9. Receiving stable doses of medications for the treatment of non-excluded medical conditions for at least 30 days prior to screening.\n\nMain Exclusion Criteria:\n\n1. Dementia other than AD such as AIDS, CJD, LBD, CVD, Progressive Supranuclear Palsy, Multiple cerebral infarcts, or normal pressure hydrocephalus.\n2. Other neurodegenerative diseases, including Parkinson's disease and Huntington's disease, or cerebral tumour.\n3. Current presence of a clinically significant major psychiatric disorder according to the criteria of the DSM-IV, or symptom that could affect the participant's ability to complete the study). HAM-D score \\>12.\n4. Current clinically significant systemic illness that is likely to result in deterioration of the patient's condition or affect the patient's safety during the study.\n5. Any other criteria which in the opinion of the Investigator causes the participant not to qualify for the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "55 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Stephen Macfarlane",
+                "affiliation": "Caulfield Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Melbourne Health - The Royal Melbourne Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3050",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Austin Health - Heidelberg Repatriation Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3084",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Caulfield Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3162",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Nucleus Network- Centre for Clinical Studies",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "St. Vincent's Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03774459",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-PDD-001"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "ANAVEX2-73 Study in Parkinson's Disease Dementia",
+            "officialTitle": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ANAVEX2-73 for Cognitive Impairment in Patients With Parkinson's Disease With Dementia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-07-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-09-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2020-09-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-12-08",
+            "studyFirstSubmitQcDate": "2018-12-11",
+            "studyFirstPostDateStruct": {
+              "date": "2018-12-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-10-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-10-22",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Anavex Germany GmbH",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ANAVEX2-73 for Cognitive Impairment in Patients with Parkinson's Disease with Dementia (PDD)",
+            "detailedDescription": "This is a Phase 2, multicenter, randomized, double-blind, placebo-controlled, parallel-group, three-arm, 14-week study in PD patients with dementia. The study includes a 2 week Screening / Baseline Observation Period and a 14-week Treatment Period (including a 2 week Titration Period), and a 2-week Safety Follow-Up Period"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Parkinsons Disease With Dementia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 132,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "High dose ANAVEX2-73",
+                "type": "EXPERIMENTAL",
+                "description": "High dose ANAVEX2-73",
+                "interventionNames": [
+                  "Drug: High dose ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Mid dose ANAVEX2-73",
+                "type": "EXPERIMENTAL",
+                "description": "Mid dose ANAVEX2-73",
+                "interventionNames": [
+                  "Drug: Mid dose ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Placebo oral capsule",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo oral capsule",
+                "interventionNames": [
+                  "Drug: Placebo oral capsule"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "High dose ANAVEX2-73",
+                "description": "Active oral capsule",
+                "armGroupLabels": [
+                  "High dose ANAVEX2-73"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Mid dose ANAVEX2-73",
+                "description": "Active oral capsule",
+                "armGroupLabels": [
+                  "Mid dose ANAVEX2-73"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo oral capsule",
+                "description": "Placebo oral capsule",
+                "armGroupLabels": [
+                  "Placebo oral capsule"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Cognitive Drug Research (CDR) Computerized Assessment System Continuity of Attention",
+                "description": "Change from Baseline to End of Treatment in Continuity of Attention as measured by Cognitive Drug Research (CDR) Computerized Assessment System Continuity of Attention test",
+                "timeFrame": "14 weeks"
+              },
+              {
+                "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+                "description": "Assess the safety and tolerability of ANAVEX2-73 compared to placebo",
+                "timeFrame": "14 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "MDS-UPDRS Part III Total Score (Motor Scores)",
+                "description": "Change from baseline to End of Treatment as measured by MDS-UPDRS Part III Total Score (Motor Scores)",
+                "timeFrame": "14 weeks"
+              },
+              {
+                "measure": "SDS-CL-25",
+                "description": "Incidence of sleep disorders symptoms (SDS-CL-25)",
+                "timeFrame": "14 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of idiopathic Parkinson's disease (PD) consistent with the UK Parkinson's Disease Society Brain Bank diagnostic criteria.\n* Diagnosis of probable PD dementia (PDD) according to the Movement Disorder Society Task Force clinical diagnostic criteria.\n* Montreal Cognitive Assessment (MoCA) score of 13 to 23, inclusive, at Screening.\n* Male or female and aged \u2265 50 years.\n* Caregivers and subjects (or legal representative) must understand and have signed approved informed consent.\n* Caregivers and subjects (or legal representative) must be able to understand study requirements and be willing to follow instructions.\n* Stable regimen of anti-Parkinson's disease medications (including levodopa, dopamine agonists, MAO-B inhibitors, or the COMT inhibitor entacapone), which has been stable for at least 4 weeks prior to Baseline.\n* Treatment with cholinesterase inhibitor (rivastigmine, donepezil and galantamine (Exelon\u00ae, Aricept\u00ae, or Reminyl\u00ae) will be permitted, provided the dose has been stable for a minimum of 8 weeks prior to randomization.\n* Subjects with history of depression on antidepressant medications will be allowed if depression is controlled and they have been on a stable daily dose of the antidepressant for \u22658 weeks before Baseline.\n* Contraception:\n\n  * Women of childbearing potential must use an acceptable method of contraception starting 4 weeks prior to study drug administration and for a minimum of 4 weeks after study completion. Otherwise, women must be postmenopausal (at least one year absence of vaginal bleeding or spotting) as confirmed by FSH greater than or equal to 40 mIU/mL or 40 IU/L or be surgically sterile.\n  * Men with a potentially fertile partner must have had a vasectomy or be willing to use an acceptable method of contraception for the duration of the study and for 3 months after study drug discontinuation.\n\nExclusion Criteria:\n\n* History of any significant neurologic or psychiatric disorder other than PD that can contribute to cognitive impairment.\n* Any other condition or clinically significant abnormal findings like severe co-morbidities e.g. history of stroke, poor kidney or liver function on the physical or neurological examination, medical and psychiatric history, at screening or at baseline that, in the opinion of the Investigator, would make the subject unsuitable for the study.\n* Potential symptomatic causes of cognitive impairment including but not limited to\n\n  1. abnormal thyroid function test at screening (TSH)\n  2. abnormal B12 level at screening\n  3. MRI findings (by history) pointing to a potential symptomatic cause of cognitive dysfunction, including significant vascular changes, or communicating hydrocephalus.\n* Treatment with memantine or amantadine. If appropriate the drugs can be discontinued for a minimum of 4 weeks prior to randomization.\n* Use of over the counter (OTC) or prescription medication for sleep on 2 or more occasions per week (less than that is allowed).\n* History of depression as measured by Beck Depression Inventory score \\>17 at screening.\n* Treatment with any other investigational drug or device within 4 weeks prior to screening.\n* Smoking \\> 1 pack of cigarettes per day (as assessed for the 4 weeks prior to screening).\n* Women who are pregnant or lactating.\n* Known allergy or sensitivity to ANAVEX2-73 or any of its components.\n* Suicidal ideation on the Columbia Suicide Severity Rating Scale (C-SSRS) of type 4 or type 5, or any suicidal behavior, in the past 6 months. Type 4 indicates active suicidal ideation with some intent to act, without a specific plan. Type 5 indicates active suicidal ideation with a specific plan and intent.\n* Use of centrally acting anticholinergic drugs during the 4 weeks before randomization.\n* Medications used for overactive bladder will be allowed provided that the regimen has been stable 4 weeks prior to randomization.\n* Treatment with any dopamine receptor blocking medications with the exception of low dose quetiapine (\u226450 mg/day). Pimavanserin (\u226434 mg/day) will be allowed.\n* History of neurosurgical intervention (e.g., deep brain stimulation) for PD.\n* Unpredictable motor fluctuations that would interfere with administering cognitive assessments in the ON state.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "KaRa MINDS",
+                "city": "Macquarie Park",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.78105,
+                  "lon": 151.12757
+                }
+              },
+              {
+                "facility": "Hammond Health",
+                "city": "Malvern",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Hospital Cruces Bilbao",
+                "city": "Barakaldo",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.29639,
+                  "lon": -2.98813
+                }
+              },
+              {
+                "facility": "Hospital de la Santa Creu i Sant Pau",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Mutua Terrasa",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario Vall d'Hebron",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario de Burgos",
+                "city": "Burgos",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.34106,
+                  "lon": -3.70184
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta del Mar",
+                "city": "Cadiz",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 36.52672,
+                  "lon": -6.2891
+                }
+              },
+              {
+                "facility": "Hospital del Henares",
+                "city": "Coslada",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.42378,
+                  "lon": -3.56129
+                }
+              },
+              {
+                "facility": "Hospital General Universitario de Elche",
+                "city": "Elche",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 38.26218,
+                  "lon": -0.70107
+                }
+              },
+              {
+                "facility": "Hospital Arquitecto Marcide",
+                "city": "Ferrol",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.48451,
+                  "lon": -8.23293
+                }
+              },
+              {
+                "facility": "Hospital Santa Caterina",
+                "city": "Girona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.98311,
+                  "lon": 2.82493
+                }
+              },
+              {
+                "facility": "Clinica Ruber Internacional",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Cl\u00ednica Universidad de Navarra (CUN) - Sede Madrid- Servicio de Neurolog\u00eda -",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Cl\u00ednico San Carlos",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital de La Princesa",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital General Universitario Gregorio Mara\u00f1\u00f3n",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Infanta Le\u00f3nor",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta de Hierro",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Ram\u00f3n y Cajal",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital HM Puerta del Sur",
+                "city": "M\u00f3stoles",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.32234,
+                  "lon": -3.86496
+                }
+              },
+              {
+                "facility": "Hospital Universitario Central de Asturias (HUCA)",
+                "city": "Oviedo",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.36029,
+                  "lon": -5.84476
+                }
+              },
+              {
+                "facility": "Cl\u00ednica Universidad de Navarra (CUN)",
+                "city": "Pamplona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.81687,
+                  "lon": -1.64323
+                }
+              },
+              {
+                "facility": "Hospital de Santiago de Compostela",
+                "city": "Santiago de Compostela",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.88052,
+                  "lon": -8.54569
+                }
+              },
+              {
+                "facility": "Hospital Universitario Virgen del Roc\u00edo",
+                "city": "Seville",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03941444",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-RS-002"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "ANAVEX2-73 Study in Patients With Rett Syndrome",
+            "officialTitle": "A Double-Blind, Randomized, Placebo-Controlled, Safety and Efficacy Study of ANAVEX2-73 in Patients With Rett Syndrome",
+            "acronym": "AVATAR"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-05-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2021-09-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2021-09-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-05-06",
+            "studyFirstSubmitQcDate": "2019-05-06",
+            "studyFirstPostDateStruct": {
+              "date": "2019-05-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-01-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-01-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "ANAVEX2-73-RS-002 is a Phase 3, double-blind, randomized, placebo-controlled dose escalation safety, tolerability and efficacy study in patients 18 years and older with RTT using endpoints including multiple clinical and exploratory molecular and biochemical measures.",
+            "detailedDescription": "This Phase 3 safety, tolerability and efficacy study is designed as a double-blind, randomized, placebo-controlled study.\n\nThis is a 7-week placebo-controlled study of ANAVEX2-73 oral solution for the treatment of patients with RTT 18 years or older. A voluntary option will be offered for all patients to continue a 48-week open label extension."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Rett Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "36 participants: 3 PK open-label followed by 33 double-blind, randomized, placebo-controlled",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 33,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active arm",
+                "type": "EXPERIMENTAL",
+                "description": "ANAVEX2-73 liquid oral solution",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Placebo arm",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo liquid oral solution",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "Active arm"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "Placebo arm"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "RSBQ",
+                "description": "Drug exposure-dependent response of the Rett Syndrome Behaviour Questionnaire (RSBQ) Total score",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Incidence of Adverse Events",
+                "description": "Incidence of Adverse Events",
+                "timeFrame": "7 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "CGI-I",
+                "description": "Drug exposure-dependent response of the Clinical Global Impression of Improvement Scale (CGI-I) score",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "description": "Drug exposure-dependent response of the Anxiety, Depression, and Mood Scale (ADAMS)",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Maximum Plasma Concentration [Cmax] of ANAVEX2-73",
+                "description": "PK of ANAVEX2-73 and metabolite",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Area Under the Curve [AUC] of ANAVEX2-73",
+                "description": "PK of ANAVEX2-73 and metabolite",
+                "timeFrame": "7 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "description": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Seizure Frequency via seizure diary",
+                "description": "Seizure Frequency via seizure diary",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Genetic variant SIGMAR1, COMT",
+                "description": "Genetic variant SIGMAR1, COMT",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Glutamate Plasma Concentration",
+                "description": "Glutamate Plasma Concentration",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "GABA Plasma Concentration",
+                "description": "GABA Plasma Concentration",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Lipid panel",
+                "description": "Significant laboratory findings",
+                "timeFrame": "7 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged \u2265 18 years, inclusive.\n* Diagnosis of classic RTT, according to 2010 criteria (Neul et al., 2010), and a MECP2 mutation.\n* Current pharmacological treatment regimen, including supplements, has been stable for at least 4 weeks.\n* If on antiepileptic drugs (AEDs), 1-4 AEDs allowed. Treatment must be stable (drug, dose, interval of administration) for 30 days prior to enrollment.\n* If the subject is already receiving stable non-pharmacologic educational, behavioral, and/or dietary interventions, participation in these programs must have been continuous during the 90 days prior to the screening visit and subjects or their parent/caregiver/legally authorized representative (LAR) will not electively initiate new or modify ongoing interventions for the duration of the study. 'Study duration' is defined as lasting from the screening visit until the treatment is terminated. For participants in the 16-21 years range, typical school vacations are not considered modifications of stable programming.\n* Ability to keep accurate seizure diaries or have caregiver who can keep accurate seizure diaries.\n* Confirmation from the participant that, if of childbearing potential is not pregnant through urine pregnancy testing. Female patients of childbearing potential and at risk for pregnancy must agree to abstinence.\n* Prior to the conduct of study-specific procedures, the subject's parent/caregiver/LAR must provide written informed consent. If applicable, the research team\n\nExclusion Criteria:\n\n* Patients who have a progressive medical or neurological condition that in the opinion of the Investigator would interfere with the conduct of the study.\n* Current clinically significant systemic illness that is likely to result in deterioration of the patient's condition or affect the patient's safety during the study.\n* History of clinically evident stroke or clinically significant carotid or vertebrobasilar stenosis or plaque or other history of neurologic (e.g., head trauma with loss of consciousness) or psychiatric condition that the Investigator deems may interfere with interpretability of data.\n* Indication of liver disease, defined by serum levels of ALT (SGPT), AST (SGOT), or alkaline phosphatase above 3x upper limit of normal (ULN) as determined during screening.\n* Treatment with immunosuppressive medications (e.g., systemic corticosteroids) within the last 90 days (topical and nasal corticosteroids and inhaled corticosteroids for asthma are permitted) or chemotherapeutic agents for malignancy within the last 3 years.\n* Other clinically significant abnormality on physical, neurological, laboratory, or electrocardiogram (ECG) examination (e.g., atrial fibrillation) that could compromise the study or be detrimental to the participant.\n* Any known hypersensitivity to any of the excipients contained in the study drug or placebo formulation.\n* Other co-morbid or chronic illness beyond that known to be associated with RTT.\n* Subjects who plan to initiate or change pharmacologic or nonpharmacologic intervention during the course of the study.\n* Subjects taking another investigational drug currently or within the last 30 days.\n* Any other criteria (such as a clinically significant screening blood test result), which in the opinion of the Investigator could interfere with the study conduct or outcome.\n* Subjects on potent CYP3A4 and CYP2C19 inhibitors and inducers.\n* Patients with hepatic and renal impairment.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "HammondCare",
+                "city": "Greenwich",
+                "state": "New South Wales",
+                "zip": "2065",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.83954,
+                  "lon": 151.183
+                }
+              },
+              {
+                "facility": "Mater Misericordiae Ltd",
+                "city": "South Brisbane",
+                "state": "Queensland",
+                "zip": "4101",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.48034,
+                  "lon": 153.02049
+                }
+              },
+              {
+                "facility": "Royal Melbourne Hospital (RMH)",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3050",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "The Alfred Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3181",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "The Keogh Institute for Medical Research",
+                "city": "Nedlands",
+                "state": "Western Australia",
+                "zip": "6009",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -31.98184,
+                  "lon": 115.8073
+                }
+              },
+              {
+                "facility": "King's College of London",
+                "city": "London",
+                "state": "UK",
+                "zip": "SE5 8AF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Manchester CGM, St. Mary's Hospital",
+                "city": "Manchester",
+                "state": "UK",
+                "zip": "M13 9WL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015518",
+                "term": "Rett Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04314934",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-AD-EP-004"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "OLE of Phase 2b/3 Study ANAVEX2-73-AD-004",
+            "officialTitle": "Open Label Extension Study for Patients With Early Alzheimer's Disease (AD) Enrolled in Study ANAVEX2-73-AD-004",
+            "acronym": "ATTENTION-AD"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-10-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-06-14",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-06-14",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-12-12",
+            "studyFirstSubmitQcDate": "2020-03-17",
+            "studyFirstPostDateStruct": {
+              "date": "2020-03-19",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-08-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-08-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Anavex Australia Pty Ltd.",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Anavex Germany GmbH",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase 2b/3 open-label extension study to evaluate the effects of ANAVEX2-73 on safety and effficacy of daily treatment.",
+            "detailedDescription": "This is a Phase 2b/3 open-label extension study to evaluate the effects of ANAVEX2-73 on safety and effficacy of daily treatment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 300,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active",
+                "type": "EXPERIMENTAL",
+                "description": "ANAVEX2-73",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73",
+                "description": "Oral capsules",
+                "armGroupLabels": [
+                  "Active"
+                ],
+                "otherNames": [
+                  "Blarcamesine"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.03",
+                "description": "To continue assessing the safety and tolerability of ANAVEX2-73",
+                "timeFrame": "96 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "ADAS-Cog (Alzheimer Disease Assessment Scale-Cognition)",
+                "description": "Change from baseline to week 96 in cognition according to the Alzheimer Disease Assessment Scale-Cognition (ADAS-Cog)",
+                "timeFrame": "96 weeks"
+              },
+              {
+                "measure": "ADCS-ADL (Activities of Daily Living)",
+                "description": "Change from baseline to week 96 in ability to perform daily activities according to the Alzheimer's Disease Cooperative Study-Activities of Daily Living Scale (ADCS-ADL)",
+                "timeFrame": "96 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Previous completion of participation in the ANAVEX2-73-AD-004 double-blind study.\n* Participants may be either outpatients, or residents of an assisted-living facility.\n* Participants must have a designated study partner, who spends at least 10hrs per week with the participant, in order that assessments e.g. carer burden instruments are completed with true knowledge of the participant.\n* No suicidal ideation of type 4 or 5 in the Columbia Suicide Severity Rating Scale (C-SSRS) in the past 3 months (i.e. active suicidal thought(s) with intent but without specific plan, or active suicidal thought(s) with plan and intent) OR suicidal behavior in the past 2 years (i.e. actual attempt, interrupted attempt, aborted attempt, or preparatory acts or behavior).\n* Confirmation from the participant that, if of childbearing potential is not pregnant through urine pregnancy testing.\n\nExclusion Criteria:\n\n* Adverse events (AEs) from the previous study (ANAVEX2-73-AD-004) that have not resolved, are moderate or severe, judged to be possibly related or related to study drug, and considered by the investigator to be a contraindication to extension study participation\n* Any condition or laboratory abnormality that would make the subject, in the judgment of the investigator, unsuitable for the study\n* Significant history of drug addiction (with the exception of nicotine dependence) or abuse (including alcohol, as defined in DSM-V or in the opinion of the investigator) within the last two years prior to informed consent, or a positive urine drug screen for cocaine, opioid, phencyclidine (PCP), amphetamine or marijuana at screening. Prescription medication yielding a positive drug screen are acceptable except for tricyclic antidepressants (e.g. Amitriptyline, Amoxapine, Desipramine, (Norpramin) Doxepin, Imipramine (Tofranil), Nortriptyline (Pamelor), Protriptyline (Vivactil), Trimipramine (Surmontil)).\n* Any known hypersensitivity to any of the excipients contained in the study drug formulation.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "55 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Central Coast Neurosciences Research",
+                "city": "Central Coast",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.42979,
+                  "lon": 151.37144
+                }
+              },
+              {
+                "facility": "Hornsby (Northern Sydney Health)",
+                "city": "Hornsby",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.70244,
+                  "lon": 151.09931
+                }
+              },
+              {
+                "facility": "Sydney",
+                "city": "Hornsby",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.70244,
+                  "lon": 151.09931
+                }
+              },
+              {
+                "facility": "KaRa MINDS",
+                "city": "Macquarie Park",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.78105,
+                  "lon": 151.12757
+                }
+              },
+              {
+                "facility": "Sydney",
+                "city": "Macquarie Park",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.78105,
+                  "lon": 151.12757
+                }
+              },
+              {
+                "facility": "Sydney",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "University of Sydney",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Sydney",
+                "city": "Sydney",
+                "state": "NEW",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Gold Coast",
+                "city": "Gold Coast",
+                "state": "Queensland",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -28.00029,
+                  "lon": 153.43088
+                }
+              },
+              {
+                "facility": "Gold Coast Memory Disorders Clinic",
+                "city": "Southport",
+                "state": "Quennsland",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.96724,
+                  "lon": 153.39796
+                }
+              },
+              {
+                "facility": "Adelaide",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Belmont",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -38.17485,
+                  "lon": 144.34276
+                }
+              },
+              {
+                "facility": "Geelong Private Medical Centre",
+                "city": "Geelong",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -38.14711,
+                  "lon": 144.36069
+                }
+              },
+              {
+                "facility": "Delmont Private Hospital",
+                "city": "Glen Iris",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86667,
+                  "lon": 145.06667
+                }
+              },
+              {
+                "facility": "Hammond Care",
+                "city": "Malvern",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Malvern",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Austin Health",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Melbourne N.",
+                "state": "Victoria",
+                "country": "Australia"
+              },
+              {
+                "facility": "McCusker",
+                "city": "Nedlands",
+                "state": "Western Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -31.98184,
+                  "lon": 115.8073
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Delmont",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -41.75636,
+                  "lon": 147.16723
+                }
+              },
+              {
+                "facility": "Hammond Health",
+                "city": "Malvern",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Melbourne",
+                "city": "Melbourne E.",
+                "country": "Australia"
+              },
+              {
+                "facility": "Healthy Brain Aging Labs Uni of Calgary",
+                "city": "Calgary",
+                "state": "Alberta",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "Bruyere Continuing Care",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Kawartha Centre",
+                "city": "Peterborough",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 44.30012,
+                  "lon": -78.31623
+                }
+              },
+              {
+                "facility": "Bay Crest Health Sciences",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Toronto Memory Program",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "University of Ulm, Memory Clinic",
+                "city": "Ulm",
+                "state": "Baden-Wurttemberg",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Bayreuth Clinic, Hohe Warte Hospital",
+                "city": "Bayreuth",
+                "state": "Bavaria",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.94782,
+                  "lon": 11.57893
+                }
+              },
+              {
+                "facility": "Technical University of Munich, School of Medicine",
+                "city": "M\u00fcnchen",
+                "state": "Bavaria",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.69668,
+                  "lon": 13.46314
+                }
+              },
+              {
+                "facility": "Central Institute of Mental Health",
+                "city": "Mannheim",
+                "state": "Hesse",
+                "country": "Germany"
+              },
+              {
+                "facility": "Goettingen University Medicine, Clinic for Psychiatry and Psychotherapy",
+                "city": "G\u00f6ttingen",
+                "state": "Lower Saxony",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.53443,
+                  "lon": 9.93228
+                }
+              },
+              {
+                "facility": "University Hospital, Bonn",
+                "city": "Bonn",
+                "state": "North Rhine-Westphalia",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Clinic for Psychiatry and Psychotherapy",
+                "city": "Mainz",
+                "state": "Rhineland-Palatinate",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.98185,
+                  "lon": 8.28008
+                }
+              },
+              {
+                "facility": "Charite University Medicine",
+                "city": "Berlin",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "'s-Hertogenbosch",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.69917,
+                  "lon": 5.30417
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "Amsterdam",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.37403,
+                  "lon": 4.88969
+                }
+              },
+              {
+                "facility": "Brain Research Center",
+                "city": "Zwolle",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.5125,
+                  "lon": 6.09444
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Teesside",
+                "state": "County Teesside",
+                "country": "United Kingdom"
+              },
+              {
+                "facility": "Glasgow Memory Clinic",
+                "city": "Glasgow",
+                "state": "Scotland",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "Guildford",
+                "state": "Surrey",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.23536,
+                  "lon": -0.57427
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Barnsley",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.55,
+                  "lon": -1.48333
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Blackpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.81667,
+                  "lon": -3.05
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Cannock",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.69045,
+                  "lon": -2.03085
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Leeds",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.79648,
+                  "lon": -1.54785
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Liverpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.41058,
+                  "lon": -2.97794
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Imperial College",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "MAC Clinical Research",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              },
+              {
+                "facility": "Cognition Health",
+                "city": "Plymouth",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.37153,
+                  "lon": -4.14305
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "39800452",
+                "type": "DERIVED",
+                "citation": "Macfarlane S, Grimmer T, Teo K, O'Brien TJ, Woodward M, Grunfeld J, Mander A, Brodtmann A, Brew BJ, Morris P, Short C, Kurrle S, Lai R, Bharadwaj S, Drysdale P, Sturm J, Lewis SJG, Barton D, Kalafatis C, Sharif S, Perry R, Mannering N, MacSweeney JE, Pearson S, Evans C, Krishna V, Thompson A, Munisamy M, Bhatt N, Asher A, Connell S, Lynch J, Rutgers SM, Dautzenberg PL, Prins N, Oschmann P, Frolich L, Tacik P, Peters O, Wiltfang J, Henri-Bhargava A, Smith E, Pasternak S, Frank A, Chertkow H, Ingram J, Hsiung GR, Brittain R, Tartaglia C, Cohen S, Villa LM, Gordon E, Jubault T, Guizard N, Tucker A, Kaufmann WE, Jin K, Chezem WR, Missling CU, Sabbagh MN. Blarcamesine for the treatment of Early Alzheimer's Disease: Results from the ANAVEX2-73-AD-004 Phase IIB/III trial. J Prev Alzheimers Dis. 2025 Jan;12(1):100016. doi: 10.1016/j.tjpad.2024.100016. Epub 2025 Jan 1."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03758924",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-RS-001"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of ANAVEX2-73 in Patients With Rett Syndrome",
+            "officialTitle": "A Double-Blind, Randomized, Placebo-Controlled, Dose Titration Study of ANAVEX2-73 in Patients With Rett Syndrome"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-01",
+            "overallStatus": "COMPLETED",
+            "startDateStruct": {
+              "date": "2019-02-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-10-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2020-10-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-11-25",
+            "studyFirstSubmitQcDate": "2018-11-28",
+            "studyFirstPostDateStruct": {
+              "date": "2018-11-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-01-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-01-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "International Rett Syndrome Foundation",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Phase 2 safety, tolerability and efficacy study is designed as a double-blind, randomized, placebo-controlled study.\n\n7-week placebo-controlled study of ANAVEX2-73 oral solution for the treatment of patients with RTT 18 years or older. A voluntary option will be offered for all patients who meet the exposure criteria for ANAVEX2-73 to continue a 12-week open label extension.",
+            "detailedDescription": "This Phase 2 safety, tolerability and efficacy study is designed as a double-blind, randomized, placebo-controlled study.\n\nThis is a 7-week placebo-controlled study of ANAVEX2-73 oral solution for the treatment of patients with RTT 18 years or older. A voluntary option will be offered for all patients who meet the exposure criteria for ANAVEX2-73 to continue a 12-week open label extension."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Rett Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "31 participants: 6 PK open-label followed by 25 double-blind, randomized, placebo-controlled",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Double-Blind, Randomized, Placebo-Controlled",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 31,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active arm",
+                "type": "EXPERIMENTAL",
+                "description": "Week 0-7: Take 1 ml orally of the product daily (solution of ANAVEX2-73)",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73"
+                ]
+              },
+              {
+                "label": "Placebo arm",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Week 0-7: Take 1 ml orally of the product daily (placebo)",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "Active arm"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "Placebo arm"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Adverse Events",
+                "description": "Incidence of Adverse Events",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Maximum Plasma Concentration [Cmax] of ANAVEX2-73",
+                "description": "PK of ANAVEX2-73 and metabolite",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Area Under the Curve [AUC] of ANAVEX2-73",
+                "description": "PK of ANAVEX2-73 and metabolite",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Lipid panel",
+                "description": "Significant laboratory findings",
+                "timeFrame": "7 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "RSBQ",
+                "description": "Change from baseline to End of Treatment (EOT) in the Rett Syndrome Behaviour Questionnaire (RSBQ). Total score and a pre-specified subset of the RSBQ",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "CGI-I",
+                "description": "Change from baseline to End of Treatment (EOT) in the Clinical Global Impression Improvement Scale (CGI-I) score. Total score and a pre-specified subset of the CGI-I",
+                "timeFrame": "7 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "description": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "description": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Visual Analog Scale (VAS)",
+                "description": "Visual Analog Scale (VAS)",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Seizure Frequency via seizure diary",
+                "description": "Seizure Frequency via seizure diary",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Genetic variant SIGMAR1, COMT",
+                "description": "Pre-specified endpoint",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "Glutamate Plasma Concentration",
+                "description": "Biomarker",
+                "timeFrame": "7 weeks"
+              },
+              {
+                "measure": "GABA Plasma Concentration",
+                "description": "Biomarker",
+                "timeFrame": "7 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged \u2265 18 years, inclusive.\n* Diagnosis of classic RTT, according to 2010 criteria (Neul et al., 2010), and a MECP2 mutation.\n* Current pharmacological treatment regimen, including supplements, has been stable for at least 4 weeks.\n* If on antiepileptic drugs (AEDs), 1-4 AEDs allowed. Treatment must be stable (drug, dose, interval of administration) for 30 days prior to enrollment.\n* Ability to keep accurate seizure diaries or have caregiver who can keep accurate seizure diaries.\n* Confirmation from the participant that, if of childbearing potential is not pregnant through urine pregnancy testing. Female patients of childbearing potential and at risk for pregnancy must agree to abstinence.\n* Prior to the conduct of study-specific procedures, the subject's parent/caregiver/LAR must provide written informed consent. If applicable, the research team must attempt to obtain consent from both parents.\n\nExclusion Criteria:\n\n* Patients who have a progressive medical or neurological condition that in the opinion of the Investigator would interfere with the conduct of the study.\n* Current clinically significant systemic illness that is likely to result in deterioration of the patient's condition or affect the patient's safety during the study.\n* History of clinically evident stroke or clinically significant carotid or vertebrobasilar stenosis or plaque or other history of neurologic (e.g., head trauma with loss of consciousness) or psychiatric condition that the Investigator deems may interfere with interpretability of data.\n* Indication of liver disease, defined by serum levels of ALT (SGPT), AST (SGOT), or alkaline phosphatase above 3x upper limit of normal (ULN) as determined during screening.\n* Treatment with immunosuppressive medications (e.g., systemic corticosteroids) within the last 90 days (topical and nasal corticosteroids and inhaled corticosteroids for asthma are permitted) or chemotherapeutic agents for malignancy within the last 3 years.\n* Other clinically significant abnormality on physical, neurological, laboratory, or electrocardiogram (ECG) examination (e.g., atrial fibrillation) that could compromise the study or be detrimental to the participant.\n* Any known hypersensitivity to any of the excipients contained in the study drug or placebo formulation.\n* Other co-morbid or chronic illness beyond that known to be associated with RTT.\n* Subjects who plan to initiate or change pharmacologic or nonpharmacologic intervention during the course of the study.\n* Subjects on potent CYP 3A4 and CYP2C19 inhibitors and inducers.\n* Subjects taking another investigational drug currently or within the last 30 days.\n* Any other criteria (such as a clinically significant screening blood test result), which in the opinion of the Investigator could interfere with the study conduct or outcome.\n* Patients with hepatic and renal impairment.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Walter Kaufmann, MD",
+                "affiliation": "Emory University SOM",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "UAB | The University of Alabama at Birmingham",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35294",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "UC Davis University of California - Davis MIND Institute",
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "facility": "Rush University Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Washington University in St. Louis | Saint Louis Children's Hospital",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Cincinnati Children's Hospital Medical Center",
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "facility": "Greenwood Genetic Center",
+                "city": "Greenwood",
+                "state": "South Carolina",
+                "zip": "29646",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.1954,
+                  "lon": -82.16179
+                }
+              },
+              {
+                "facility": "Baylor College of Medicine",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015518",
+                "term": "Rett Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04575259",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-PDD-EP-001"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "OLE Study for Patients With Parkinson's Disease With Dementia Enrolled in Study ANAVEX2-73-PDD-001",
+            "officialTitle": "Open Label Extension Study for Patients With Parkinson's Disease With Dementia Enrolled in Study ANAVEX2-73-PDD-001"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-10-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-05-31",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-06-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-09-29",
+            "studyFirstSubmitQcDate": "2020-09-29",
+            "studyFirstPostDateStruct": {
+              "date": "2020-10-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-07-29",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-08-01",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Anavex Australia Pty Ltd.",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Anavex Germany GmbH",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase 2 open-label extension study to evaluate the effects of ANAVEX2-73 on safety and efficacy of daily treatment.",
+            "detailedDescription": "This is a Phase 2 open-label extension study to evaluate the effects of ANAVEX2-73 on safety and efficacy of daily treatment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Parkinson Disease Dementia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 132,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ANAVEX2-73 Active",
+                "type": "EXPERIMENTAL",
+                "description": "Oral capsules",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73",
+                "description": "Oral capsules",
+                "armGroupLabels": [
+                  "ANAVEX2-73 Active"
+                ],
+                "otherNames": [
+                  "Blarcamesine"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.03",
+                "description": "To continue assessing the safety and tolerability of ANAVEX2-73",
+                "timeFrame": "48 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "RSBDQ (REM Sleep Behavior Disorder Screening Questionnaire)",
+                "description": "Change from baseline to End of Treatment as measured by RSBDQ",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "MDS-UPDRS Part III Total Score (Motor Scores)",
+                "description": "Change from baseline to End of Treatment as measured by MDS-UPDRS Part III Total Score (Motor Scores)",
+                "timeFrame": "48 weeks"
+              },
+              {
+                "measure": "MoCA (Montreal Cognitive Assessment)",
+                "description": "Change from baseline to End of Treatment as measured by MoCA",
+                "timeFrame": "48 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Microbiota",
+                "description": "Change from baseline to End of Treatment as measured by microbiota",
+                "timeFrame": "48 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Previous completion of participation in the ANAVEX2-73-PDD-001 study.\n* Caregivers and subjects (or legal representative) must understand and have signed approved informed consent.\n* Caregivers and subjects (or legal representative) must be able to understand study requirements and be willing to follow instructions.\n* Stable regimen of anti-Parkinson's disease medications (including levodopa, dopamine agonists, MAO-B inhibitors, or the COMT inhibitor entacapone), which has been stable for at least 4 weeks prior to Baseline.\n* Treatment with cholinesterase inhibitor (rivastigmine, donepezil and galantamine (Exelon\u00ae, Aricept\u00ae, or Reminyl\u00ae) will be permitted, provided the dose has been stable for a minimum of 8 weeks prior to joining this study.\n* Subjects with history of depression on antidepressant medications will be allowed if depression is controlled and they have been on a stable daily dose of the antidepressant for \u22658 weeks before Baseline.\n* Contraception: Women of childbearing potential must use an acceptable method of contraception starting 4 weeks prior to study drug administration and for a minimum of 4 weeks after study completion. Otherwise, women must be postmenopausal (at least one year absence of vaginal bleeding or spotting) as confirmed by FSH greater than or equal to 40 mIU/mL or 40 IU/L or be surgically sterile.\n* Men with a potentially fertile partner must have had a vasectomy or be willing to use an acceptable method of contraception for the duration of the study and for 3 months after study drug discontinuation.\n\nExclusion Criteria:\n\n* History of any significant neurologic or psychiatric disorder other than PD that can contribute to cognitive impairment.\n* Any other condition or clinically significant abnormal findings on the physical or neurological examination, medical and psychiatric history, at screening or at baseline that, in the opinion of the Investigator, would make the subject unsuitable for the study.\n* Potential symptomatic causes of cognitive impairment including but not limited to\n* abnormal thyroid function test at screening (TSH)\n* abnormal B12 level at screening\n* MRI findings (by history) pointing to a potential symptomatic cause of cognitive dysfunction, including significant vascular changes, or communicating hydrocephalus.\n* Treatment with memantine or amantadine. If appropriate the drugs can be discontinued for a minimum of 4 weeks prior to enrollment.\n* History of depression as measured by Beck Depression Inventory score \\>17 at screening.\n* Treatment with any other investigational drug or device within 4 weeks prior to screening.\n* Smoking \\> 1 pack of cigarettes per day (as assessed for the 4 weeks prior to screening).\n* Women who are pregnant or lactating.\n* Known allergy or sensitivity to ANAVEX2-73 or any of its components.\n* Suicidal ideation on the Columbia Suicide Severity Rating Scale (C-SSRS) of type 4 or type 5, or any suicidal behavior, in the past 6 months. Type 4 indicates active suicidal ideation with some intent to act, without a specific plan. Type 5 indicates active suicidal ideation with a specific plan and intent.\n* Use of centrally acting anticholinergic drugs during the 4 weeks before enrollment.\n* Medications used for overactive bladder will be allowed provided that the regimen has been stable 4 weeks prior to enrollment.\n* Treatment with any dopamine receptor blocking medications with the exception of low dose quetiapine (\u226450 mg/day). Pimavanserin (\u226434 mg/day) will be allowed.\n* History of neurosurgical intervention (e.g., deep brain stimulation) for PD.\n* Unpredictable motor fluctuations that would interfere with administering cognitive assessments in the ON state.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "KaRa MINDS",
+                "city": "Macquarie Park",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.78105,
+                  "lon": 151.12757
+                }
+              },
+              {
+                "facility": "Hammond Care",
+                "city": "Malvern",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "Hospital Mutua Terrasa",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario Vall d'Hebron",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital del Henares",
+                "city": "Coslada",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.42378,
+                  "lon": -3.56129
+                }
+              },
+              {
+                "facility": "Cl\u00ednica Universidad de Navarra (CUN) - Sede Madrid- Servicio de Neurolog\u00eda -",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Cl\u00ednico San Carlos",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta de Hierro",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Central de Asturias (HUCA)",
+                "city": "Oviedo",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.36029,
+                  "lon": -5.84476
+                }
+              },
+              {
+                "facility": "Hospital Universitario Virgen del Roc\u00edo",
+                "city": "Seville",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04304482",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-RS-003"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "ANAVEX2-73 Study in Pediatric Patients With Rett Syndrome",
+            "officialTitle": "ANAVEX2-73-RS-003 is a Phase 2/3, Double-blind, Randomized, Placebo-controlled Safety and Efficacy Study in Pediatric Patients With RTT",
+            "acronym": "EXCELLENCE"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-07-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-06-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-06-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-03-08",
+            "studyFirstSubmitQcDate": "2020-03-08",
+            "studyFirstPostDateStruct": {
+              "date": "2020-03-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-08-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Anavex Australia Pty Ltd.",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Anavex Germany GmbH",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+          },
+          "descriptionModule": {
+            "briefSummary": "ANAVEX2-73-RS-003 is a Phase 2/3, double-blind, randomized, placebo-controlled dose escalation safety, tolerability and efficacy study in patients 5-17 years of age with RTT using endpoints including multiple clinical and exploratory molecular and biochemical measures.",
+            "detailedDescription": "This Phase 2/3 efficacy study is designed as a double-blind, randomized, placebo-controlled study.\n\nThis is a 12-week placebo-controlled study of ANAVEX2-73 oral solution for the treatment of patients with RTT 5-17 years of age. A voluntary option will be offered for all patients who meet the exposure criteria for ANAVEX2-73 to continue a 48-week open label extension."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Rett Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 92,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ANAVEX2-73 Active",
+                "type": "EXPERIMENTAL",
+                "description": "ANAVEX2-73 liquid oral solution",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73 oral liquid"
+                ]
+              },
+              {
+                "label": "ANAVEX2-73 Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo liquid oral solution",
+                "interventionNames": [
+                  "Drug: Placebo oral liquid"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73 oral liquid",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "ANAVEX2-73 Active"
+                ],
+                "otherNames": [
+                  "Blarcamesine"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo oral liquid",
+                "description": "Liquid oral solution",
+                "armGroupLabels": [
+                  "ANAVEX2-73 Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "RSBQ",
+                "description": "Change from baseline to End of Treatment (EOT) in the Rett Syndrome Behaviour Questionnaire (RSBQ) Total score",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Incidents of Adverse Events",
+                "description": "Change from baseline to End of Treatment (EOT)",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "CGI-I",
+                "description": "Change from baseline to End of Treatment (EOT) in the Clinical Global Impression Improvement Scale (CGI-I) score",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "description": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Motor Behavioral Assessment-7 dynamic pediatric items (MBA-Ped7)",
+                "description": "Motor Behavioral Assessment-7 dynamic pediatric items (MBA-Ped7)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "description": "Children's Sleep Habits Questionnaire (CSHQ)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Seizure Frequency via seizure diary",
+                "description": "Seizure Frequency via seizure diary",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Incidence of Adverse Events",
+                "description": "Incidence of Adverse Events",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "RSBQ Emotional Factor-Pediatric (subset of the RSBQ)",
+                "description": "RSBQ Emotional Factor-Pediatric (subset of the RSBQ)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Rett Syndrome Caregiver Inventory Assessment (RTT CIA)",
+                "description": "Rett Syndrome Caregiver Inventory Assessment (RTT CIA)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Child Health Questionnaire-Parent Form 50 (CHQ-PF50)",
+                "description": "Child Health Questionnaire-Parent Form 50 (CHQ-PF50)",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Glutamate Plasma Concentration",
+                "description": "Glutamate Plasma Concentration",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "GABA Plasma Concentration",
+                "description": "GABA Plasma Concentration",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Genetic variant SIGMAR1, COMT",
+                "description": "Genetic variant SIGMAR1, COMT",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Maximum Plasma Concentration [Cmax]",
+                "description": "Number of participants with treatment-related adverse events as assessed by CTCAE v5.0",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Maximum Plasma Concentration [Cmax] relationship with RSBQ",
+                "description": "Number of participants with positive Maximum Plasma Concentration \\[Cmax\\] relationship with RSBQ",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Other Amino Acid Plasma concentrations",
+                "description": "Other Amino Acid Plasma concentrations",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Measure of gene DNA variants and gene RNA expressions",
+                "description": "Number of participants with active dose compared gene DNA variants and gene RNA expressions",
+                "timeFrame": "12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged \u2265 5 years to 17 (inclusive).\n* Diagnosis of classic RTT, according to 2010 criteria, and a MECP2 mutation.\n* Post-regression stage, defined as \u2265 6 months since last loss of spoken language or motor (fine or gross) skills.\n* Clinical Global Impression - Severity (CGI-S) score of 4 or greater at Screening.\n* Current pharmacological treatment regimen, including supplements, has been stable for at least 4 weeks.\n* If on AEDs, 1-4 AEDs allowed. Treatment must be stable (drug, dose, interval of administration) for 30 days prior to enrollment.\n* If the subject is already receiving stable non-pharmacologic educational, behavioral, and/or dietary interventions, participation in these programs must have been continuous during the 90 days prior to the screening visit and subjects or their parent/caregiver/LAR will not electively initiate new or modify ongoing interventions for the duration of the study.\n* The subject's caregiver/LAR is English-speaking and has sufficient language skills to complete the caregiver assessments and has the ability to keep accurate seizure diaries.\n* If participant is a woman of childbearing potential (WOCBP#), a negative urine or serum pregnancy test is required to confirm she is not pregnant.\n* Prior to the conduct of study-specific procedures, the subject's parent/caregiver/LAR must provide written informed consent. If applicable, the research team must attempt to obtain consent from both parents.\n\nExclusion Criteria:\n\n* Patients who have a progressive medical or neurological condition that in the opinion of the Investigator would interfere with the conduct of the study.\n* Current clinically significant systemic illness that is likely to result in deterioration of the patient's condition or affect the patient's safety during the study.\n* History or clinically evident neurologic (e.g., head trauma with loss of consciousness) or psychiatric condition that the Investigator deems may interfere with interpretability of data.\n* Indication of liver disease, defined by serum levels of ALT (SGPT), AST (SGOT), or alkaline phosphatase above 3x upper limit of normal (ULN) as determined during screening.\n* Treatment with immunosuppressive medications (e.g., systemic corticosteroids) within the last 90 days (topical and nasal corticosteroids and inhaled corticosteroids for asthma are permitted) or chemotherapeutic agents for malignancy within the last 3 years.\n* Other clinically significant abnormality on physical, neurological, laboratory, or electrocardiogram (ECG) examination (e.g., long QT) that could compromise the study or be detrimental to the participant.\n* Any known hypersensitivity to any of the excipients contained in the study drug or placebo formulation.\n* Other co-morbid or chronic illness beyond that known to be associated with RTT.\n* Subjects who plan to initiate or change pharmacologic or nonpharmacologic intervention during the course of the study.\n* Subjects taking another investigational drug currently or within the last 30 days.\n* Any other criteria (such as a clinically significant screening blood test result), which in the opinion of the Investigator could interfere with the study conduct or outcome.\n* Treatment with strong inhibitors or inducers of CYP3A4 or CYP2C19 is not stable (drug, dose) for 30 days prior to screening. Although these medications are not excluded, caution is advised when enrolling participants on potent CYP3A4 or CYP2C19 inducers or inhibitors (see respective section).\n* Patients with hepatic and renal impairment.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "5 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Children's Hospital at Westmead",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Queensland Children's Hospital",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "zip": "4101",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.46794,
+                  "lon": 153.02809
+                }
+              },
+              {
+                "facility": "Austin Health",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3084",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Alberta Children's Hospital",
+                "city": "Calgary",
+                "state": "Alberta",
+                "zip": "T3B 6A8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "British Columbia Children's Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6H 3V4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Children's Hospital LHSC",
+                "city": "London",
+                "state": "Ontario",
+                "zip": "N6A 5W9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 42.98339,
+                  "lon": -81.23304
+                }
+              },
+              {
+                "facility": "Holland Bloorview Kids Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5H 3W4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Royal Hospital for Children",
+                "city": "Edinburgh",
+                "zip": "EH16 4TJ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Evelina London Children's Hospital",
+                "city": "London",
+                "zip": "SE1 7EH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "King's College of London",
+                "city": "London",
+                "zip": "SE5 8AF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Manchester CGM, St Mary's Hospital",
+                "city": "Manchester",
+                "zip": "M13 9WL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              },
+              {
+                "facility": "Nottingham University Hospital NHS Trust",
+                "city": "Nottingham",
+                "zip": "NG7 2UH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.9536,
+                  "lon": -1.15047
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "33395098",
+                "type": "DERIVED",
+                "citation": "Heussler HS. Emerging Therapies and challenges for individuals with Angelman syndrome. Curr Opin Psychiatry. 2021 Mar 1;34(2):123-128. doi: 10.1097/YCO.0000000000000674."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015518",
+                "term": "Rett Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02756858",
+            "orgStudyIdInfo": {
+              "id": "ANAVEX2-73-003"
+            },
+            "organization": {
+              "fullName": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Extension Study of ANAVEX2-73 in Patients With Mild to Moderate Alzheimer's Disease",
+            "officialTitle": "An Extension Study of ANAVEX2-73 in Patients With Mild to Moderate Alzheimer's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-03"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2020-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-03-08",
+            "studyFirstSubmitQcDate": "2016-04-27",
+            "studyFirstPostDateStruct": {
+              "date": "2016-04-29",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2021-01-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-01-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anavex Life Sciences Corp.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This open label extension study is designed to provide continued access to ANAVEX 2-73 for eligible subjects with mild to moderate Alzheimer's Disease who have previously participated in the Anavex sponsored study ANAVEX2-73-002."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer's Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 21,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ANAVEX2-73 Oral as assigned in ANAVEX2-73-002",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ANAVEX2-73"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ANAVEX2-73",
+                "armGroupLabels": [
+                  "ANAVEX2-73 Oral as assigned in ANAVEX2-73-002"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+                "description": "Safety",
+                "timeFrame": "Up to 208 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Score from MMSE (Mini-mental state examination score)",
+                "description": "Exploratory Efficacy",
+                "timeFrame": "Baseline; Weeks: 13, 26, 39, 52, 65, 78, 91, 104, 117, 130, 143, 156, 169, 182, 195, 208"
+              },
+              {
+                "measure": "Score from ADCS-ADL (Alzheimer's Disease Co-operative Study - Activities of Daily Living Inventory)",
+                "description": "Exploratory Efficacy",
+                "timeFrame": "Baseline; Weeks: 13, 26, 39, 52, 65, 78, 91, 104, 117, 130, 143, 156, 169, 182, 195, 208"
+              },
+              {
+                "measure": "HAM-D Score (Hamilton Psychiatric Rating Scale for Depression)",
+                "description": "Exploratory Efficacy",
+                "timeFrame": "Baseline; Weeks: 13, 26, 39, 52, 65, 78, 91, 104, 117, 130, 143, 156, 169, 182, 195, 208"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Previous exposure to ANAVEX2-73 via participation in Phase 2a Study of ANAVEX2-73 Adaptive-Trial-Design With Repeated Doses, MTD Finding, Pharmacodynamic and Bioavailability Evaluation in Patients With Mild to Moderate Alzheimer's Disease With a 12-Month Open Label Follow-Up Period (ANAVEX2-73-002)\n\nExclusion Criteria:\n\n* Have not previously participated Phase 2a Study of ANAVEX2-73 Adaptive-Trial-Design With Repeated Doses, MTD Finding, Pharmacodynamic and Bioavailability Evaluation in Patients With Mild to Moderate Alzheimer's Disease With a 12-Month Open Label Follow-Up Period (ANAVEX2-73-002)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "55 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Melbourne Health - The Royal Melbourne Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3050",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Austin Health - Heidelberg Repatriation Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3084",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Caulfield Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3162",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Nucleus Network- Centre for Clinical Studies",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "St. Vincent's Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "32318621",
+                "type": "DERIVED",
+                "citation": "Hampel H, Williams C, Etcheto A, Goodsaid F, Parmentier F, Sallantin J, Kaufmann WE, Missling CU, Afshar M. A precision medicine framework using artificial intelligence for the identification and confirmation of genomic biomarkers of response to an Alzheimer's disease therapy: Analysis of the blarcamesine (ANAVEX2-73) Phase 2a clinical study. Alzheimers Dement (N Y). 2020 Apr 19;6(1):e12013. doi: 10.1002/trc2.12013. eCollection 2020."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Study results will be presented at a scientific conference and/or published."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C568535",
+                "term": "tetrahydro-N, N-dimethyl-2,2-diphenyl-3-furanmethanamine hydrochloride"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

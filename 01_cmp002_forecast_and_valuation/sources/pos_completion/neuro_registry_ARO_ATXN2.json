@@ -1,0 +1,470 @@
+{
+  "asset": "ARO-ATXN2",
+  "query": "ARO-ATXN2",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ARO-ATXN2&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06672445",
+            "orgStudyIdInfo": {
+              "id": "AROATXN2-1001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "UTN U111-1308 5875",
+                "type": "OTHER",
+                "domain": "WHO"
+              },
+              {
+                "id": "2024-514763-25",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Arrowhead Pharmaceuticals",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of ARO-ATXN2 Injection in Adults With Spinocerebellar Ataxia Type 2",
+            "officialTitle": "A Phase 1 Placebo-Controlled Dose Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ATXN2 in Adult Subjects With Spinocerebellar Ataxia Type 2"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-11-01",
+            "studyFirstSubmitQcDate": "2024-11-01",
+            "studyFirstPostDateStruct": {
+              "date": "2024-11-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-25",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-29",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Arrowhead Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+          },
+          "descriptionModule": {
+            "briefSummary": "Adult participants with spinocerebellar ataxia type 2 (SCA2) who carry \u226533 cytosine, adenine, guanine (CAG) repeats in the ATXN2 gene, and who have met all protocol eligibility criteria will be randomized to receive a single dose of ARO-ATXN2 or placebo and be evaluated for safety, tolerability, pharmacokinetic (PK) and pharmacodynamic (PD) parameters."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinocerebellar Ataxia Type 2"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ARO-ATXN2",
+                "type": "EXPERIMENTAL",
+                "description": "ARO-ATXN2 Injection",
+                "interventionNames": [
+                  "Drug: ARO-ATXN2 Injection"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "(0.9% NaCl)",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ARO-ATXN2 Injection",
+                "description": "single dose of ARO-ATXN2 by intrathecal (IT) administration",
+                "armGroupLabels": [
+                  "ARO-ATXN2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "calculated volume to match active treatment by IT administration",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Treatment -Emergent Adverse Events (TEAEs) Over Time",
+                "timeFrame": "Through End of Study (EOS), Day 253"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics (PK) of ARO-ATXN2: Maximum Observed Plasma Concentration (Cmax)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Time to Maximum Observed Plasma Concentration (Tmax)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Area Under the Plasma Concentration Versus Time Curve from Zero to 24 Hours (AUC0-24)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Area Under the Plasma Concentration Versus Time Curve from Zero to the Last Quatifiable Plasma Concentration (AUClast)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Area Under the Plasma Concentration Versus Time Curve from Zero to Infinity (AUCinf)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Elimination Half-life (t1/2)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Apparent Systemic Clearance (CL/F)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Recovery of Unchanged Drug Excreted in Urine (Ae)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "PK of ARO-ATXN2: Renal Clearance (CLr)",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "Percentage of Administered Drug Recovered in Urine",
+                "timeFrame": "Through 24 hours post-dose"
+              },
+              {
+                "measure": "Change from Baseline in Total Protein in Cerebral Spinal Fluid (CSF) Over Time",
+                "timeFrame": "Baseline through End of Study (EOS), Day 253"
+              },
+              {
+                "measure": "Change from Baseline in Glucose in CSF Over Time",
+                "timeFrame": "Baseline through End of Study (EOS), Day 253"
+              },
+              {
+                "measure": "Change from Baseline in Cell Count in CSF Over Time",
+                "timeFrame": "Baseline through End of Study (EOS), Day 253"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Non-pregnant, non-lactating\n* Diagnosis of symptomatic SCA2 and \u226533 CAG repeats in the ATXN2 gene based on source verifiable medical records or genetic testing at Screening\n* Scale of Assessment and Rating of Ataxia (SARA) score \u226414\n* Subjects of childbearing potential must agree to use highly effective contraception in addition to a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later. Subjects must not donate sperm or eggs during the study and for at least 90 days following the end of the study or last dose of study drug whichever is later\n\nExclusion Criteria:\n\n* Uncontrolled hypertension (blood pressure \\>160/100 mmHg)\n* History of having received stem cell therapy\n* Clinically significant cardiac, liver, or renal disease\n* Human immunodeficiency virus (HIV) infection (seropositive at Screening)\n* Seropositive for hepatitis B (HBV) or hepatitis C (HCV) at Screening\n* Intellectual disability or significant behavioral neuropsychiatric manifestation\n* Any contraindications to lumbar puncture, including INR \\>1.4, platelet count \\<100,000, and use of anticoagulant or antiplatelet medications that cannot be safely interrupted\n* Presence of an implanted shunt for drainage of CSF or an implanted central nervous system (CNS) catheter\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Research Site 8",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2170",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Research Site 7",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3004",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Research Site 2",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X 0C1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Research Site 1",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H3A 2B4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Research Site 9",
+                "city": "Edmonton",
+                "zip": "8440",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 53.55014,
+                  "lon": -113.46871
+                }
+              },
+              {
+                "facility": "Research Site 15",
+                "city": "Paris",
+                "zip": "75651",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Research Site 13",
+                "city": "T\u00fcbingen",
+                "state": "Baden-Wurttemberg",
+                "zip": "72026",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.52266,
+                  "lon": 9.05222
+                }
+              },
+              {
+                "facility": "Research Site 14",
+                "city": "Ulm",
+                "state": "Baden-Wurttemberg",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Research Site 16",
+                "city": "Milan",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "Research Site 4",
+                "city": "Auckland",
+                "zip": "0622",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -36.84853,
+                  "lon": 174.76349
+                }
+              },
+              {
+                "facility": "Research Site 3",
+                "city": "Christchurch",
+                "zip": "8011",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -43.53333,
+                  "lon": 172.63333
+                }
+              },
+              {
+                "facility": "Research Site 10",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Research Site 11",
+                "city": "Barcelona",
+                "zip": "08036",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Research Site 12",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "Research Site 5",
+                "city": "Kaohsiung City",
+                "zip": "833401",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 22.61626,
+                  "lon": 120.31333
+                }
+              },
+              {
+                "facility": "Research Site 6",
+                "city": "Taipei",
+                "zip": "112201",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 25.05306,
+                  "lon": 121.52639
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D020754",
+                "term": "Spinocerebellar Ataxias"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002524",
+                "term": "Cerebellar Ataxia"
+              },
+              {
+                "id": "D002526",
+                "term": "Cerebellar Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D013132",
+                "term": "Spinocerebellar Degenerations"
+              },
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D001259",
+                "term": "Ataxia"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

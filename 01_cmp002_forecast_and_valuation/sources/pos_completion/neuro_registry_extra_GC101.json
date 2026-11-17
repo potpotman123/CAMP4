@@ -1,0 +1,1176 @@
+{
+  "asset": "GC101",
+  "query": "GC101 AND spinal",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=GC101+AND+spinal&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06971094",
+            "orgStudyIdInfo": {
+              "id": "JLJY-GC101-SMA-011"
+            },
+            "organization": {
+              "fullName": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy Evaluation of GC101 Gene Therapy Via Intrathecal (IT) Injectionin the Treatment of Patients With Type 2 Spinal Muscular Atrophy (SMA) - Phase III",
+            "officialTitle": "A Multicenter, Randomized, Open-Label, Standard-of-Care-Controlled, Phase III Clinical Trial to Evaluate the Safety and Efficacy of Intrathecal (IT) Injection of GC101 Adeno-Associated Virus Injection in the Treatment of Patients With Type 2 Spinal Muscular Atrophy (SMA)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-05-27",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-05-06",
+            "studyFirstSubmitQcDate": "2025-05-06",
+            "studyFirstPostDateStruct": {
+              "date": "2025-05-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial employs a multicenter, randomized, open-label, standard-of-care-controlled design and plans to enroll 50 patients with Type 2 SMA aged 2 to 12 years who have previously received nusinersen. The primary objective of the trial is to evaluate the efficacy of GC101 in treating Type 2 SMA. The secondary objectives are to assess the efficacy, safety, and pharmacokinetic (PK) profile of GC101 in treating Type 2 SMA.",
+            "detailedDescription": "The trial is divided into two groups: one group will receive a single intrathecal injection of GC101 at a dose of 1.2E+14 vg per person and discontinue their previous standard-of-care treatment with nusinersen; the other group will continue their previous standard-of-care treatment with nusinersen. Participants will be randomly assigned to the trial group or the control group in a 1:1 ratio."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "SMA - Spinal Muscular Atrophy"
+            ],
+            "keywords": [
+              "SMA, type II, AAV gene therapy",
+              "Genecradle"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "This trial employs a multicenter, randomized, open-label, standard-of-care-controlled design and plans to enroll 50 patients with Type 2 SMA aged 2 to 12 years who have previously received treatment. The trial consists of two groups: one group will receive a single intrathecal injection of GC101 at a dose of 1.2E+14 vg per person and discontinue their previous standard-of-care treatment with nusinersen; the other group will continue their previous standard-of-care treatment with nusinersen. Participants will be randomly assigned to the trial group or the control group in a 1:1 ratio.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 50,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GC101",
+                "type": "EXPERIMENTAL",
+                "description": "single dose of GC101 at dosage of 1.2E+14 vg per person via intrathecal injection",
+                "interventionNames": [
+                  "Genetic: GC101 adeno-associated virus injection"
+                ]
+              },
+              {
+                "label": "Control",
+                "type": "NO_INTERVENTION",
+                "description": "Participants will continue to receive treatment according to their previous standard-of-care regimen with nusinersen."
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "GC101 adeno-associated virus injection",
+                "description": "Self-complementary recombinant adeno-associated viral vector (scAAV) containing a single-stranded transgene encoding a codon-optimized human SMN1 gene",
+                "armGroupLabels": [
+                  "GC101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "HFMSE score change from baseline",
+                "description": "HFMSE Motor Function Assessment (Hammersmith Functional Motor Scale Expanded) is a standardized tool specifically designed to evaluate motor function in patients with spinal muscular atrophy (SMA). It includes 33 test items covering actions such as head control, sitting, standing, walking, stair climbing, jumping, as well as balance and coordination, providing a comprehensive assessment of motor function in the trunk and limbs. The maximum total score is 66 points, with higher scores indicating better motor capabilities.",
+                "timeFrame": "52 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "HFMSE score change from baseline",
+                "timeFrame": "26 weeks"
+              },
+              {
+                "measure": "The proportion of participants with an increase in HFMSE score of \u22653 points from baseline.",
+                "description": "Minimal clinically important differences (MCID) were defined as an HFMSE score improvement of \u22653 points.",
+                "timeFrame": "26 and 52 weeks"
+              },
+              {
+                "measure": "Changes in WHO-MGRS motor milestones from baseline.",
+                "description": "WHO-MGRS (World Health Organization Multicenter Growth Reference Study) motor development milestones include:\n\nSitting without support Standing with support Crawling on hands and knees Walking with support Standing alone Walking alone",
+                "timeFrame": "26 and 52 weeks"
+              },
+              {
+                "measure": "RULM score change from baseline.",
+                "description": "RULM Motor Function Assessment (Revised Upper Limb Module) is a standardized tool designed to evaluate upper limb function in patients with spinal muscular atrophy (SMA). A maximum total score is 37 points. Higher scores indicate better upper limb performance.",
+                "timeFrame": "26 and 52 weeks"
+              },
+              {
+                "measure": "SMAIS score change from baseline.",
+                "description": "Spinal Muscular Atrophy Independence Scale \uff08SMAIS\uff09is a patient- and caregiver-reported outcome measure designed to assess the level of assistance required by individuals with Type 2 and non-ambulant Type 3 spinal muscular atrophy (SMA) to perform activities of daily living. Higher scores indicate greater independence, with a range from 0 to 44",
+                "timeFrame": "26 and 52 weeks"
+              },
+              {
+                "measure": "The incidence of adverse events (AEs), serious adverse events (SAEs), and adverse events of special interest (AESIs).",
+                "timeFrame": "52 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with a confirmed diagnosis of Type 2 5q-SMA through clinical phenotype and genetic testing.\n* Patients who have been receiving regular treatment with nusinersen for more than one year prior to screening.\n* Patients who have not received treatment with risdiplam within 2 months prior to screening and have no plans to receive risdiplam treatment within 12 months after enrollment.\n* Patients who can sit independently but cannot walk independently at the time of screening (according to the definitions of independent sitting and walking in the WHO-MGRS motor milestones scale), and have an HFMSE score of \u226510 points.\n* Patients and/or their legal guardians are able to understand and are willing to comply with the requirements and procedures of the trial protocol, and voluntarily participate and sign the informed consent form\n\nExclusion Criteria:\n\n* Patients with serum anti-AAV9 neutralizing antibody titers \\> 1:50 at the time of screening.\n* Patients who have received nusinersen treatment within 2 months prior to enrollment.\n* Patients with any medical conditions that may affect the interpretation of study results or pose a risk to the safety of the participants, including but not limited to organ dysfunction of any cause, acute infectious diseases, primary/acquired immunodeficiency diseases, severe cardiovascular/cerebrovascular diseases, gastrointestinal diseases, diabetes, known epilepsy, meningitis, seizure or convulsion history, or a family history of psychiatric disorders; and those with cerebrospinal fluid circulation disorders.\n* Patients with severe liver injury/hepatic insufficiency of any cause, including but not limited to alanine aminotransferase (ALT), aspartate aminotransferase (AST) \u22653 times the upper limit of normal (ULN); total bilirubin (TBil) \u22651.5 times the ULN.\n* Patients deemed by the investigator to have contraindications to glucocorticoid use, such as severe hypertension, diabetes, systemic infectious diseases, fungal infections, glaucoma, osteoporosis, peptic ulcer disease, tuberculosis, etc.\n* Patients with contraindications to lumbar puncture or intrathecal injection therapy.\n* Patients with any medical conditions that may affect the assessment of motor function, such as severe scoliosis, severe joint contracture deformities, planned spinal correction surgery during the trial period, severe osteoporosis, or a history of fractures.\n* Patients positive for hepatitis B surface antigen (HBsAg), human immunodeficiency virus (HIV) antibodies, hepatitis C virus (HCV) antibodies, or syphilis antibodies.\n* Patients who have received vaccinations within 2 weeks prior to dosing.\n* Patients who have previously received gene therapy or participated in any clinical trial within 3 months prior to screening.\n* Patients deemed by the investigator to be unsuitable for participation in this study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "maximumAge": "12 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Seventh Medical Center of Chinese PLA General Hospital",
+                "city": "Beijing",
+                "zip": "100700",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Children's Medical Center of Peking University First Hospital",
+                "city": "Beijing",
+                "zip": "102699",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Beijing Children's Hospital, Capital Medical University",
+                "city": "Beijing",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "National Children's Medical Center\uff0cShanghai Jiaotong University",
+                "city": "Shanghai",
+                "zip": "200127",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "Shenzhen Children's Hospital",
+                "city": "Shenzhen",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "Children's Hospital of Soochow University",
+                "city": "Suzhou",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.30408,
+                  "lon": 120.59538
+                }
+              },
+              {
+                "facility": "Wuhan Children's Hospital, Tongji Medical College, Huazhong University of Science & Technology",
+                "city": "Wuhan",
+                "zip": "430015",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05824169",
+            "orgStudyIdInfo": {
+              "id": "JLJY-GC101-SMA-001"
+            },
+            "organization": {
+              "fullName": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 1 Patients",
+            "officialTitle": "A Multi-center, Open Label, Single-arm, Dose Ascending Clinical Trial for Evaluation of Safety and Efficacy of Gene Therapy Drug GC101 in the Treatment of Spinal Muscular Atrophy (SMA) Type 1 Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-02-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-10",
+            "studyFirstSubmitQcDate": "2023-04-10",
+            "studyFirstPostDateStruct": {
+              "date": "2023-04-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study will evaluate safety and efficacy of intrathecal delivery of GC101 gene therapy drug as a treatment of spinal muscular atrophy Type 1 (SMA 1) patients.",
+            "detailedDescription": "The purpose of this trial is to evaluate safety and efficacy of gene therapy drug GC101 in SMA 1 patients. Open-label, dose-escalation clinical trial of GC101 will be conducted in multiple centers in China.\n\nGC101 will be administrated intrathecally. Short-term safety will be evaluated in 52 weeks and enter long-term follow-up study of 5 years at will. Patients will be tested at baseline and followed up on various time points.\n\nThe primary analysis for efficacy will be assessed when all patients reach 18 months of age on the motor milestone of sit unassisted for at least 10 seconds."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy"
+            ],
+            "keywords": [
+              "Type 1"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 18,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Low dosage group",
+                "type": "EXPERIMENTAL",
+                "description": "2.4x10\\^14 vg/person of GC101 delivered one-time intrathecally (n=3)",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              },
+              {
+                "label": "High dosage group",
+                "type": "EXPERIMENTAL",
+                "description": "4.8x10\\^14 vg/person of GC101 delivered one-time intrathecally (n=3)",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "GC101",
+                "description": "Self-complementary AAV9 carrying a codon-optimized SMN coding sequence(coSMN1) driven by CMV enhancer and chicken \u03b2-actin promoter",
+                "armGroupLabels": [
+                  "High dosage group",
+                  "Low dosage group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability]",
+                "description": "Frequency of treatment-related adverse events (AEs), serious adverse events (SAEs), and changes from baseline in relevant clinical laboratory tests",
+                "timeFrame": "when patient reaches 18 months of age"
+              },
+              {
+                "measure": "Proportion of patients treated with GC101 who achieve motor milestone of sit unassisted for at least 10 seconds at 18 months of age",
+                "timeFrame": "when patient reaches 18 months of age"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Ability to thrive",
+                "description": "Ability to thrive is defined as the following at 18 months of age: does not receive nutrition through mechanical support or other non-oral method; maintains weight",
+                "timeFrame": "when patient reaches 18 months of age"
+              },
+              {
+                "measure": "Changes from baseline Children's hospital of Philadelphia Infant Test of Neuromuscular Disorders (CHOP-INTEND) score",
+                "description": "CHOP INTEND score ranges from 0 to 64 with higher scores indicating higher motor function",
+                "timeFrame": "when patient reaches 18 months of age"
+              },
+              {
+                "measure": "Proportion of event-free survival patients",
+                "timeFrame": "when patient reaches 14 months of age"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Proportion of patients who achieve the World Health Organization (WHO) Multicenter Growth Reference Study (MGRS) motor milestones",
+                "description": "WHO MGRS gross motor milestones and performance criteria included sitting without support for at least 10 seconds, Hands-and-knees crawling at least three in a row, standing with assistance for at least 10 seconds, walking with assistance at least five steps, standing alone for at least 10 seconds, and walking alone.",
+                "timeFrame": "when patient reaches 18 months of age"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Six months of age and younger on day of vector infusion with Type 1 SAM as defined by the following features:\n\n  * Diagnosis of SMA based on gene mutation analysis with bi-allelic SMN1 mutations (deletion or point mutations) and 2 copies of SMN2;\n  * Onset of disease before 6 months of age\n* The patient's legal guardian(s) must be able to understand the purpose and risks of the study and voluntarily provide signed and dated informed consent prior to any study-related procedures being performed.\n\nExclusion Criteria:\n\n* Patient who has participated in a previous gene therapy research trials;\n* Patient who has received Nusinersen and Risdiplam treatment;\n* Patient who has AAV9 neutralizing antibody titer \u22651:200;\n* Patient who requires non-invasive ventilatory support averaging\u226516 hours/day;\n* Patient with a point mutation in SMN2 (c.859G\\>C);\n* Patient who requires non-invasive ventilatory support averaging\u226516 hours/day at screening;\n* Patient who use invasive ventilatory support or pulse oximetry \\< 95% saturation while awake and calm at screening;\n* Patient who is positive for human immunodeficiency virus (HIV) antibody, hepatitis B surface antigen, hepatitis C antibody, or treponema pallidum antibody;\n* Abnormal laboratory values considered clinically significant, including gamma-glutamyl transferase(GGT), Aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin \\> 3x upper limit of normal (ULN), Hemoglobin (Hgb)\\< 110 or \\>150 g/L, platelet \\<183x10\\^9/L or 614x10\\^9/L;\n* Class IV patient based on Modified Ross Heart Failure Classification for Children;\n* Patient with a history of glucocorticoid allergy;\n* Contraindication that would interfere with the lumbar puncture procedures;\n* Presence of an untreated active infection requiring systemic antiviral therapy at any time during the screening period;\n* Vaccination less than 2 weeks before infusion of vector;\n* Patient who has any concurrent clinically significant major disease or any other condition that, in the opinion of the Investigator, makes the subject unsuitable for participation in the study.\n\nNote: Other protocol defined inclusion/exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "0 Months",
+            "maximumAge": "6 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "GeneCradle, Inc. China",
+                "role": "CONTACT",
+                "phone": "86-13501380583",
+                "email": "ind@bj-genecradle.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Peking University\uff0c First Hospital, Department of Pediatrics",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yanbin Fan",
+                    "role": "CONTACT",
+                    "phone": "86-13126582705",
+                    "email": "fanyanbin0323@163.com"
+                  },
+                  {
+                    "name": "Hui Xiong",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Bayi Children's Hospital, Seventh Medical Center, PLA general hospital",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100700",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiuwei Ma",
+                    "role": "CONTACT",
+                    "phone": "86-1361111080",
+                    "email": "pony007@vip.sina.com"
+                  },
+                  {
+                    "name": "Zhicun Feng",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Shengjing Hospital of China Medical University",
+                "status": "RECRUITING",
+                "city": "Shenyang",
+                "zip": "110004",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Ping Ma",
+                    "role": "CONTACT",
+                    "phone": "86-15501095755",
+                    "email": "maping@joinn-lab.com"
+                  },
+                  {
+                    "name": "Hua Wang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.79222,
+                  "lon": 123.43278
+                }
+              },
+              {
+                "facility": "Children's Hospital of Soochow University",
+                "status": "RECRUITING",
+                "city": "Suzhou",
+                "zip": "215025",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaoyan Shi",
+                    "role": "CONTACT",
+                    "phone": "86-13913532943",
+                    "email": "314054161@qq.com"
+                  },
+                  {
+                    "name": "Jihong Tang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.30408,
+                  "lon": 120.59538
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06421831",
+            "orgStudyIdInfo": {
+              "id": "JLJY-GC101-SMA-010"
+            },
+            "organization": {
+              "fullName": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 3 Patients",
+            "officialTitle": "A Multi-center, Open Label, Single-arm, Dose Ascending Clinical Trial for Evaluation of Safety and Efficacy of Gene Therapy Drug GC101 in the Treatment of Spinal Muscular Atrophy (SMA) Type 3 Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-05-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-10",
+            "studyFirstSubmitQcDate": "2024-05-14",
+            "studyFirstPostDateStruct": {
+              "date": "2024-05-20",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-07-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study will evaluate safety and efficacy of intrathecal delivery of GC101 gene therapy drug as a treatment of spinal muscular atrophy Type 3 (SMA 3) patients.",
+            "detailedDescription": "The purpose of this trial is to evaluate safety and efficacy of gene therapy drug GC101 in SMA 3 patients. Open-label, dose-escalation clinical trials of GC101 will be conducted in multiple centers in China.\n\nGC101 will be administrated intrathecally. Short-term safety will be evaluated in 52 weeks and enter long-term follow-up study of 5 years at will. Patients will be tested at baseline and followed up at various time points.\n\nThe primary analysis for efficacy will be assessed at 12 months after treatment with GC101 on the changes from baseline HFMSE (Hammersmith Functional Motor Scale Expanded) and RULM\uff08Revised Upper Limb Module) scores for patients of age \u2265 6 years old."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy Type 3"
+            ],
+            "keywords": [
+              "SMA type 3"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 21,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "single dose cohort",
+                "type": "EXPERIMENTAL",
+                "description": "1.2x10\\^14 vg/person of GC101 delivered one-time intrathecally",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "GC101",
+                "description": "Self-complementary AAV9 carrying a codon-optimized SMN coding sequence(coSMN1) driven by CMV enhancer and chicken \u03b2-actin promoter",
+                "armGroupLabels": [
+                  "single dose cohort"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Treatment-Emergent Adverse Events",
+                "description": "Frequency of treatment-related adverse events (AEs), serious adverse events (SAEs), and changes from baseline in relevant clinical laboratory tests",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline on Hammersmith Functional Motor Scale - Expanded (HFMSE) scores at Month 12",
+                "description": "HFMSE consists of 33 activities that can be scored one of three ways: 0 for unable to perform, 1 for performs with modification/adaptation, and 2 for performs without modification.",
+                "timeFrame": "52 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The proportion of patients whose HFMSE improvement \u2265 3 points at Month 12",
+                "description": "HFMSE \u22653 points\uff1aminimal clinically important differences (MCID) were considered for the outcomes:",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline on Revised Upper Limb Module (RULM) scores at Month 12",
+                "description": "RULM is a 20-item evaluation of upper limb function primarily used for those with SMA who are non-ambulatory (young children through adults).",
+                "timeFrame": "52 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "The proportion of patients whose Clinical Global Impression (CGI) is improved at Month 12",
+                "description": "The Clinical Global Impressions (CGI) is a widely used assessment tool in clinical practice, particularly for evaluating the severity of a patient's illness and the effectiveness of treatments. The CGI consists of two primary components:\n\nCGI-Severity (CGI-S): This scale measures how ill a patient is at a given time, with scores ranging from 1 (normal, not at all ill) to 7 (among the most extremely ill patients). It reflects the clinician's overall view of the patient's mental health status based on all available information, including symptoms, behavior, and functional impairments experienced in the past week.\n\nCGI-Improvement (CGI-I): This scale rates the change in the patient's condition compared to a baseline state, prior to the initiation of treatment. It uses a seven-point scale where 1 indicates \"very much improved\" and 7 indicates \"very much worse.\" The CGI-I captures the overall change in the patient's clinical state since the start of treatment.",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "The proportion of patients whose Motor Function Measure (MFM) is improved or maintained at Month 12",
+                "description": "The Motor Function Measure (MFM) is a validated scale specifically designed to assess motor function in individuals with neuromuscular disorders like Spinal Muscular Atrophy (SMA). It consists of 32 items that are scored on a 4-point Likert scale, reflecting a person's maximum ability to perform tasks without assistance.",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of Forced Vital Capacity (FVC) at Month 12 ( for patients > 6 years)",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of Forced Expiratory Volume in 1 Second (FEV1) at Month 12 ( for patients > 6 years)",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of Maximal Inspiratory Pressure (MIP) at Month 12 ( for patients > 6 years)",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of Maximal Expiratory Pressure (MEP) at Month 12 ( for patients > 6 years)",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of 6 minutes walk test (6MWT) at Month 12 (for ambulatory patients)",
+                "description": "The 6MWT is used for ambulatory participants with SMA and measures the total distance walked in 6 minutes.",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline of SMA Independence Scale (SMAIS) at Month 12",
+                "description": "The SMA Independence Scale (SMAIS) is a self-reported questionnaire to assess the amount of assistance patients require to perform daily activities. Higher SMAIS scores indicate greater independence.\n\n(range: 0-44).",
+                "timeFrame": "52 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u22652 years of age on the day of signing the informed consent form;\n* Genetic and clinical diagnosis of type 3 SMA with bi-allelic deletion of SMN1 of 5qSMA;\n* Hammersmith Functional Motor Scale - Expanded (HFMSE) score is between 10 and 54 at screening;\n* Female patients of childbearing age who are pregnant or lactating, as well as all enrolled patients \uff08both male and female), should take effective contraceptive measures within 6 months after the treatment;\n* Patients or patient's legal guardian(s) must be able to understand the purpose and risks of the study and voluntarily provide signed and dated informed consent prior to any study-related procedures being performed.\n\nExclusion Criteria:\n\n* Patient who has participated in any previous gene therapy research trials;\n* Patient who has AAV9 neutralizing antibody titer \u22651:200;\n* Patient who has received Nusinersen within 120 days and Risdiplam within 15 days before treatment;\n* Patient who requires invasive or non-invasive ventilatory support averaging\u226516 hours/day at screening;\n* SMN2 copy numbers \\>4\uff1b\n* Patient who needs nasal or gastric tube feeding for eating;\n* Patient who is positive for human immunodeficiency virus (HIV) antibody, hepatitis B surface antigen, hepatitis C antibody, or treponema pallidum antibody;\n* Known allergy or hypersensitivity to prednisolone or other glucocorticosteroids or their excipients\n* Severe contractures at screening that interfere with either the ability to attain/demonstrate functional measures or with the ability to receive intrathecal (IT) dosing;\n* Patient who has other serious diseases, such as severe cardiovascular and cerebrovascular diseases, digestive system diseases, urinary system diseases, endocrine system diseases, hematological diseases, immune system diseases, nervous system diseases (including but not limited to epilepsy, meningitis, history of convulsions or seizures, cerebrospinal fluid circulation disorders), and mental illnesses, etc.;\n* Patient with previous injuries (such as upper or lower limb fractures) or surgical operations that have not fully recovered or reached a stable state;\n* Vaccination no longer than 2 weeks before treatment;\n* Patient who has any other condition that, in the opinion of the investigator, makes the subject unsuitable for participation in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "GeneCradle, Inc China",
+                "role": "CONTACT",
+                "phone": "+8613501380583",
+                "email": "ind@bj-genecradle.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Beijing Tiantan Hospital, Capital Medical University",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Kang Zhang",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Zaiqiang Zhang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Yajie Wang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D014897",
+                "term": "Spinal Muscular Atrophies of Childhood"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              },
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05901987",
+            "orgStudyIdInfo": {
+              "id": "JLJY-GC101-SMA-003"
+            },
+            "organization": {
+              "fullName": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 2 Patients",
+            "officialTitle": "A Multi-center, Open Label, Single-arm, Dose Ascending Clinical Trial for Evaluation of Safety and Efficacy of Gene Therapy Drug GC101 in the Treatment of Spinal Muscular Atrophy (SMA) Type 2 Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-04-22",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2028-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-04",
+            "studyFirstSubmitQcDate": "2023-06-04",
+            "studyFirstPostDateStruct": {
+              "date": "2023-06-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-06-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-07-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GeneCradle Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study will evaluate safety and efficacy of intrathecal delivery of GC101 gene therapy drug as a treatment of spinal muscular atrophy Type 2 (SMA 2) patients.",
+            "detailedDescription": "The purpose of this trial is to evaluate safety and efficacy of gene therapy drug GC101 in SMA 2 patients. Open-label, dose-escalation clinical trial of GC101 will be conducted in multiple centers in China.\n\nGC101 will be administrated intrathecally. Short-term safety will be evaluated in 52 weeks and enter long-term follow-up study of 5 years at will. Patients will be tested at baseline and followed up on various time points.\n\nThe primary analysis for efficacy will be assessed at 12 months after treatment with GC101 on the motor milestone of stand unassisted for at least 3 seconds for patients of age between 6 and 24 months, or changes from baseline HFMSE scores for patients of age between 24 and 60 months."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "SMA II"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 33,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Low dosing group",
+                "type": "EXPERIMENTAL",
+                "description": "1.2x10\\^14 vg/person of GC101 delivered one-time intrathecally (n=3)",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              },
+              {
+                "label": "Medium dosing group",
+                "type": "EXPERIMENTAL",
+                "description": "2.4x10\\^14 vg/person of GC101 delivered one-time intrathecally (n=3)",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              },
+              {
+                "label": "High dosing group",
+                "type": "EXPERIMENTAL",
+                "description": "4.8x10\\^14 vg/person of GC101 delivered one-time intrathecally (n=3)",
+                "interventionNames": [
+                  "Genetic: GC101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "GC101",
+                "description": "Self-complementary AAV9 carrying a codon-optimized SMN coding sequence(coSMN1) driven by CMV enhancer and chicken \u03b2-actin promoter",
+                "armGroupLabels": [
+                  "High dosing group",
+                  "Low dosing group",
+                  "Medium dosing group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Treatment-Emergent Adverse Events",
+                "description": "Frequency of treatment-related adverse events (AEs), serious adverse events (SAEs), and changes from baseline in relevant clinical laboratory tests",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Proportion of patients who can stand unassisted for at least 3 seconds at Month 12",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Change from baseline on Hammersmith Functional Motor Scale - Expanded (HFMSE) scores at Month 12",
+                "description": "HFMSE consists of 33 activities that can be scored one of three ways: 0 for unable to perform, 1 for performs with modification/adaptation, and 2 for performs without modification.",
+                "timeFrame": "52 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of patients treated with GC101 who achieve motor milestone of walk alone for 5 steps at Month 12",
+                "timeFrame": "52 weeks"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Change from baseline in independent ventilatory support time at Month 12",
+                "timeFrame": "52 weeks"
+              },
+              {
+                "measure": "Number of patients whose HFMSE scores improve more than 3 at Month 12",
+                "timeFrame": "52 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Between 6 months and 60 months of age on day of signing informed consent form;\n* Patient with SMA Type 2 as defined by the following features:\n\n  * Diagnosis of SMA based on gene mutation analysis with bi-allelic SMN1 mutations (deletion or point mutations) and 2 copies of SMN\n  * Onset of disease between 6 and 18 months of age\n* Patient who can sit alone but never be able to stand or walk alone ;\n* The patient's legal guardian(s) must be able to understand the purpose and risks of the study and voluntarily provide signed and dated informed consent prior to any study-related procedures being performed.\n\nExclusion Criteria:\n\n* Patient who has participated in any previous gene therapy research trials;\n* Patient who has received Nusinersen within 4 months and Risdiplam within 15 days before treatment;\n* Patient who has AAV9 neutralizing antibody titer \u22651:200;\n* Patient with a point mutation in SMN2 (c.859G\\>C);\n* Patient who requires non-invasive ventilatory support averaging\u226512 hours/day at screening, or use invasive ventilatory support or pulse oximetry \\< 95% saturation while awake and calm at screening;\n* Patient who is positive for human immunodeficiency virus (HIV) antibody, hepatitis B surface antigen, hepatitis C antibody, or treponema pallidum antibody;\n* Abnormal laboratory values considered clinically significant, including gamma-glutamyl transferase(GGT), Aspartate aminotransferase (AST), alanine aminotransferase (ALT), bilirubin \\> 3x upper limit of normal (ULN), Hemoglobin (Hgb)\\< 110 or \\>150 g/L, platelet \\<lower limit of normal (LLN);Class IV patient based on Modified Ross Heart Failure Classification for Children;\n* Patient with a history of glucocorticoid allergy;\n* Contraindication that would interfere with the lumbar puncture procedures;\n* Presence of an untreated active infection requiring systemic antiviral therapy at any time during the screening period;\n* Vaccination less than 2 weeks before infusion of vector;\n* Patient who has any concurrent clinically significant major disease or any other condition that, in the opinion of the Investigator, makes the subject unsuitable for participation in the study.\n\nNote: Other protocol defined inclusion/exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "maximumAge": "60 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking University\uff0c First Hospital, Department of Pediatrics",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Bayi Children's Hospital, Seventh Medical Center, PLA general hospital",
+                "city": "Beijing",
+                "zip": "100700",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "West China Second University Hospital, Sichuan University",
+                "city": "Chengdu",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "Children's Hospital of Chongqing Medical University",
+                "city": "Chongqing",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 29.56026,
+                  "lon": 106.55771
+                }
+              },
+              {
+                "facility": "Tongji Medical college of Huazhong University of Science&Technology, Affiliated Children's Hospital",
+                "city": "Wuhan",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D014897",
+                "term": "Spinal Muscular Atrophies of Childhood"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              },
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

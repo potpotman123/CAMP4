@@ -1,0 +1,517 @@
+{
+  "asset": "RG7800",
+  "query": "RO6885247",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=RO6885247&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02240355",
+            "orgStudyIdInfo": {
+              "id": "BP29420"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2014-002246-41",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2014",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2014"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of RO6885247 in Adult and Pediatric Patients With Spinal Muscular Atrophy (MOONFISH)",
+            "officialTitle": "A Multicenter, Randomized, Double Blind, Placebo Controlled, Multiple Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of RO6885247 Following 12 Weeks of Treatment in Adult and Pediatric Patients With Spinal Muscular Atrophy (MOONFISH)."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-12",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "There was an unexpected toxicology finding observed in the 39 week monkey study. Dosing was suspended, the study was put on hold and eventually terminated.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-11"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2015-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2015-07",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2014-09-11",
+            "studyFirstSubmitQcDate": "2014-09-11",
+            "studyFirstPostDateStruct": {
+              "date": "2014-09-15",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-12-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-12-22",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "This multicenter, randomized, double-blind, 12-week, placebo-controlled multiple dose study will investigate the safety and tolerability of RO6885247 in adult and pediatric patients with spinal muscular atrophy (SMA)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Muscular Atrophy, Spinal"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 9,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1",
+                "type": "EXPERIMENTAL",
+                "description": "Up to 2 cohorts of patients, within each cohort patients will receive either RO6885247 or placebo once daily for 12 weeks",
+                "interventionNames": [
+                  "Drug: RO6885247",
+                  "Drug: placebo"
+                ]
+              },
+              {
+                "label": "Part 2",
+                "type": "EXPERIMENTAL",
+                "description": "1 cohort of patients, within each cohort patients will receive either RO6885247 or placebo once daily for 12 weeks",
+                "interventionNames": [
+                  "Drug: RO6885247",
+                  "Drug: placebo"
+                ]
+              },
+              {
+                "label": "Part 3",
+                "type": "EXPERIMENTAL",
+                "description": "1 cohort of patients, within each cohort patients will receive RO6885247 once daily for 12 weeks or 20 weeks",
+                "interventionNames": [
+                  "Drug: RO6885247"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RO6885247",
+                "description": "oral solution",
+                "armGroupLabels": [
+                  "Part 1",
+                  "Part 2",
+                  "Part 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "placebo",
+                "description": "oral solution",
+                "armGroupLabels": [
+                  "Part 1",
+                  "Part 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety: Incidence of adverse events (AEs)",
+                "timeFrame": "Up to 20 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics: RO6885247 plasma concentrations",
+                "timeFrame": "Up to 16 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics: RO6885247 exposure, area under the concentration-time curve (AUC-tau, over the 24-hour dosing interval)",
+                "timeFrame": "Up to 12 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics: SMN protein levels in blood",
+                "timeFrame": "Up to 20 weeks"
+              },
+              {
+                "measure": "Effect of RO6885247 on muscle electrophysiology, as assessed by Compound Muscle Action Potential (CMAP)",
+                "timeFrame": "Up to 20 weeks"
+              },
+              {
+                "measure": "Effect of RO6885247 on Electrical Impedance Myography",
+                "timeFrame": "Up to 20 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics: In vivo splicing modification of SMN2 mRNA in blood",
+                "timeFrame": "Up to 20 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and females, aged 2 to 55 years inclusive or below 7 months inclusive\n* Confirmed diagnosis of 5q-autosomal recessive SMA (Types 1 to 3), for patients aged 7 months or below clinical symptoms attributable to type 1 SMA and 2 SMN2 copies\n* Able and willing to provide informed consent and to comply with the study protocol. Alternatively, a legally authorized representative must be able to consent for the patient and assent must be given by the subject wherever possible.\n* Female patients of childbearing potential and male patients with a female partner of childbearing potential must agree with the required contraceptive methods as defined per protocol.\n* For patients aged 7 months or below, Gestational age of 37 to 42 weeks and not considered small for gestational age at birth\n\nExclusion Criteria:\n\n* Concomitant or previous participation in any investigational drug or device study within 90 days prior to screening\n* Concomitant or previous participation in a SMN2-targeting antisense oligonucleotide study within 12 months prior to screening\n* Concomitant or previous participation at any time in a gene therapy study\n* For patients aged 2-55 years, hospitalization for pulmonary event within the last 2 months or planned at the time of screening\n* Surgery for scoliosis in the last 6 months from screening or planned within 6 months from screening\n* Unstable gastrointestinal, renal, hepatic, endocrine or cardiovascular system disease\n* Clinically relevant ECG abnormalities at screening or baseline; personal or family history (first degree relatives) of congenital long QT syndrome\n* Clinically significant abnormalities in laboratory test results at screening\n* Any concomitant disease or condition that could interfere with the conduct of the study, or pose an unacceptable risk to the subject in this study\n* Use of prohibited medications as per protocol within 90 days prior to randomization. Patients who are on inhaled corticosteroids, administered either through a nebulizer or an inhaler, are allowed.\n* Recently initiated treatment (within \\<6 months prior to randomization) with oral salbutamol or another beta2-adrenergic agonist taken orally is not allowed. Patients who have been on oral salbutamol (or another beta2-adrenergic agonist) for at least 6 months before randomization are allowed. Use of inhaled beta2-adrenergic agonists is allowed.\n* For patients aged 7 months or below, patients requiring invasive ventilation or tracheostomy, presence of non-SMA related morbidities",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Stanford",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.42411,
+                  "lon": -122.16608
+                }
+              },
+              {
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32827",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611-2605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5G 1X8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "city": "Montreal",
+                "state": "Quebec",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Ch Pitie Salpetriere; Institut de Myologie",
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Policlinico Agostino Gemelli; Dipartimento di Neuropsichiatria Infantile",
+                "city": "Rome",
+                "state": "Lazio",
+                "zip": "00168",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 41.89193,
+                  "lon": 12.51133
+                }
+              },
+              {
+                "city": "Rome",
+                "state": "Lazio",
+                "zip": "00168",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 41.89193,
+                  "lon": 12.51133
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS Istituto Neurologico \"Carlo Besta\"; UO di Neurologia dello Sviluppo",
+                "city": "Milan",
+                "state": "Lombardy",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "city": "Milan",
+                "state": "Lombardy",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "UMC Utrecht; Polkliniek Neuromusculaire ziekten",
+                "city": "Utrecht",
+                "zip": "3584 CX",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "city": "Utrecht",
+                "zip": "3584 CX",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "Drottning Silvias Barn- och ungdomssjukhus; Kliniken f\u00f6r barnmedicin",
+                "city": "Gothenburg",
+                "zip": "41685",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 57.70716,
+                  "lon": 11.96679
+                }
+              },
+              {
+                "city": "Gothenburg",
+                "zip": "41685",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 57.70716,
+                  "lon": 11.96679
+                }
+              },
+              {
+                "facility": "Universit\u00e4ts-Kinderspitalbeider Basel_Abteilung f\u00fcr Neuro- und Entwicklungsp\u00e4diatrie",
+                "city": "Basel",
+                "zip": "4005",
+                "country": "Switzerland",
+                "geoPoint": {
+                  "lat": 47.55839,
+                  "lon": 7.57327
+                }
+              },
+              {
+                "city": "Basel",
+                "zip": "4005",
+                "country": "Switzerland",
+                "geoPoint": {
+                  "lat": 47.55839,
+                  "lon": 7.57327
+                }
+              },
+              {
+                "facility": "Hacettepe University, School of Medicine; Pediatrics Department; Pediatrics Child Neurology Unit",
+                "city": "Ankara",
+                "zip": "06100",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 39.91987,
+                  "lon": 32.85427
+                }
+              },
+              {
+                "city": "Ankara",
+                "zip": "06100",
+                "country": "Turkey (T\u00fcrkiye)",
+                "geoPoint": {
+                  "lat": 39.91987,
+                  "lon": 32.85427
+                }
+              },
+              {
+                "facility": "UCL; GAP Unit, Institute of Child Health, UCL",
+                "city": "London",
+                "zip": "WC1N 1EH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "city": "London",
+                "zip": "WC1N 1EH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "MRC Neuromuscular Centre - Institute of Genetic Medicine",
+                "city": "Newcastle upon Tyne",
+                "zip": "NE1 3BZ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.97328,
+                  "lon": -1.61396
+                }
+              },
+              {
+                "city": "Newcastle upon Tyne",
+                "zip": "NE1 3BZ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.97328,
+                  "lon": -1.61396
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Czechia"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000708227",
+                "term": "RG7800"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

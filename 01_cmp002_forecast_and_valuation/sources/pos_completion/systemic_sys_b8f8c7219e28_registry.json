@@ -1,0 +1,872 @@
+{
+  "integrated_id": "systemic:sys_b8f8c7219e28",
+  "asset": "[11C]-GSK2256098 500 MBq",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.id=NCT02551653",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02551653",
+            "orgStudyIdInfo": {
+              "id": "204746"
+            },
+            "organization": {
+              "fullName": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Positron Emission Tomography (PET) Study to Evaluate Biodistribution of [11C]-GSK2256098 in Healthy Subjects and Idiopathic Pulmonary Arterial Hypertension (PAH) Patients",
+            "officialTitle": "A Microdose Study to Evaluate the Biodistribution of [11C]-GSK2256098 in the Lungs and Heart of Healthy Subjects and Idiopathic Pulmonary Arterial Hypertension (PAH) Patients Using Positron Emission Tomography (PET)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-11-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-03-14",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-03-14",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2015-09-14",
+            "studyFirstSubmitQcDate": "2015-09-14",
+            "studyFirstPostDateStruct": {
+              "date": "2015-09-16",
+              "type": "ESTIMATED"
+            },
+            "resultsFirstSubmitDate": "2018-03-09",
+            "resultsFirstSubmitQcDate": "2018-08-14",
+            "resultsFirstPostDateStruct": {
+              "date": "2018-08-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-10-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2018-11-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Pulmonary arterial hypertension (PAH) involves the narrowing of blood vessels connected to and within the lungs. Focal adhesion kinase (FAK) is a focal adhesion-associated protein kinase involved in cellular adhesion and spreading processes which leads to stiffening and thickening of blood vessels in lungs. This further increases the blood pressure within the lungs and impairs their blood flow. This study aims to demonstrate biodistribution of FAK inhibitor, GSK2256098, in cardiopulmonary sites i.e. heart and lung tissues. The uptake of 11C-radiolabelled GSK2256098 within the lung and / or heart of healthy subjects and idiopathic pulmonary arterial hypertension (iPAH) patients will be assessed using Positron Emission Tomography (PET). Based on study results the decision as to whether a follow-on phase 2 trial should be initiated to investigate the therapeutic utility of GSK2256098 in iPAH will be decided. Sufficient number of subjects will be screened (up to 30 days prior to scan) to enrol 12 healthy subjects and 12 PAH patients in the study. Enrolled subjects will receive a microdose of \\[11C\\]-GSK2256098 on a scanning day which will be followed by the follow-up visit (2-4 weeks post-last dose)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hypertension, Pulmonary"
+            ],
+            "keywords": [
+              "Idiopathic Pulmonary Arterial Hypertension",
+              "Biodistribution",
+              "Positron Emission Tomography",
+              "[11C]-GSK2256098",
+              "Healthy subjects"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "[11C]-GSK2256098",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will receive single IV bolus injection of \\[11C\\]-GSK2256098 over about 30 seconds. Each unit dose will contain up to 500 millibecquerel (MBq) of \\[11C\\]-GSK2256098 with maximum \\[11C\\]-GSK2256098 mass \\<=10 microgram (mcg).",
+                "interventionNames": [
+                  "Drug: [11C]-GSK2256098 500 MBq"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "[11C]-GSK2256098 500 MBq",
+                "description": "\\[11C\\]-GSK2256098 injection will be provided as IV infusion, 20 mL, containing up to 5% ethanol in saline.",
+                "armGroupLabels": [
+                  "[11C]-GSK2256098"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Volume of Distribution of Radiolabeled GSK2256098 Measured by PET Scan",
+                "description": "The PET scan was acquired to measure the uptake of radiolabeled GSK2256098 in the heart and lungs, assessed as the volume of distribution (VT). The analysis was performed on Safety Population which comprised of all participants who received a microdose of study treatment.",
+                "timeFrame": "Day 1"
+              },
+              {
+                "measure": "Standardized Uptake Values (SUV) of Radiolabeled GSK2256098 Measured by PET Scan",
+                "description": "The PET scan was acquired to measure the uptake of radiolabeled GSK2256098 in the heart and lungs, assessed as the mean standardized uptake value (SUV) averaged over the 60 minute period between 30 and 90 minutes. The analysis was performed on Safety Population which comprised of all participants who received a microdose of study treatment.",
+                "timeFrame": "Day 1"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nInclusion criteria for healthy volunteers\n\n\\- Healthy subjects enrolled between 40 to 70 years inclusive at the time of signing the informed consent. Healthy subjects will be recruited to be age (+/-5 years) and gender matched to idiopathic PAH patients.\n\n* Healthy as determined by the investigator or medically qualified designee based on a medical evaluation including medical history, physical examination, laboratory tests and cardiac monitoring.\n* Normal spirometry at Screening (forced expiratory volume in 1 second \\[FEV1\\] and forced vital capacity \\[FVC\\] \\>= 80% of predicted - measurements to be taken in triplicate and the highest value must be \\>= 80% of predicted).\n* A subject with a clinical abnormality or laboratory parameter(s) outside the reference range for the population being studied may be included only if the investigator, in consultation with the medical monitor if deemed necessary, agree and document that the finding is unlikely to introduce additional risk factors and will not interfere with the study procedures.\n* Subject is ambulant and capable of attending for PET- computed tomography (CT) imaging.\n* A negative Allen's test in at least one arm for arterial blood sampling (indicating adequate collateral circulation to the hand from both the radial and ulnar arteries).\n* Body weight \\>=50 kg and body mass index (BMI) within the range 18.5 - 35 kilogram/meter\\^2 (kg/m\\^2) (inclusive).\n* Male or Female A. Males: Male subjects with female partners of child bearing potential must comply with the following contraception requirements from the time of first dose of study medication until 3 months after the scan. In addition, they must not plan to father a child, or donate sperm, for 3 months after the scan.\n\n  1. Vasectomy with documentation of azoospermia.\n  2. Male condom plus partner use of one of the contraceptive options below:\n\n     \u2022 Contraceptive subdermal implant\n     * Intrauterine device or intrauterine system\n     * Oral Contraceptive, either combined or progestogen alone Injectable progestogen\n     * Contraceptive vaginal ring\n     * Percutaneous contraceptive patches\n\n     B. Females:\n\n  a. Non-reproductive potential defined as: Pre-menopausal females with one of the following; i) Documented tubal ligation ii) Documented hysteroscopic tubal occlusion procedure with follow-up confirmation of bilateral tubal occlusion iii) Hysterectomy iv) Documented Bilateral Oophorectomy Postmenopausal defined as 12 months of spontaneous amenorrhea in questionable cases a blood sample with simultaneous follicle stimulating hormone (FSH) and estradiol levels consistent with menopause. Females on hormone replacement therapy (HRT) and whose menopausal status is in doubt will be required to use one of the highly effective contraception methods if they wish to continue their HRT during the study. Otherwise, they must discontinue HRT to allow confirmation of post-menopausal status prior to study enrolment.\n* Capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the consent form and in this protocol.\n\nInclusion criteria for PAH Patients:\n\n* PAH patients enrolled between 40 to 70 years inclusive at the time of signing the informed consent.\n* Subjects medically diagnosed with idiopathic and inherited PAH, and clinically Functional Class II-IV.\n* Subject is ambulant and capable of attending for PET-CT imaging.\n* A negative Allen's test in at least one arm for arterial blood sampling (indicating adequate collateral circulation to the hand from both the radial and ulnar arteries).\n* Body weight \\>=50 kg and BMI within the range 18.5 - 35 kg/m\\^2 (inclusive).\n* Male or Female\n\nA. Males:\n\n1. Male subjects with female partners of child bearing potential must comply with the following contraception requirements from scan until 3 months after the last dose of study medication. In addition, they must not plan to father a child, or donate sperm, for 3 months after the scan.\n2. Vasectomy with documentation of azoospermia.\n3. Male condom plus partner use of one of the contraceptive options below:\n\n   * Contraceptive subdermal implant\n   * Intrauterine device or intrauterine system\n   * Oral Contraceptive, either combined or progestogen alone Injectable progestogen\n   * Contraceptive vaginal ring\n   * Percutaneous contraceptive patches\n\nB. Females: A female subject of non-child bearing potential is eligible to participate if she is not pregnant (as confirmed by a negative urine human chorionic gonadotrophin \\[hCG\\] test), not lactating, and at least one of the following conditions applies:\n\na. Non-reproductive potential defined as:\n\nPre-menopausal females with one of the following:\n\ni) Documented tubal ligation ii) Documented hysteroscopic tubal occlusion procedure with follow-up confirmation of bilateral tubal occlusion iii) Hysterectomy iv) Documented Bilateral Oophorectomy Postmenopausal defined as 12 months of spontaneous amenorrhea in questionable cases a blood sample with simultaneous FSH and estradiol levels consistent with menopause. Females on HRT and whose menopausal status is in doubt will be required to use one of the highly effective contraception methods if they wish to continue their HRT during the study. Otherwise, they must discontinue HRT to allow confirmation of post-menopausal status prior to study enrolment.\n\n* Capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the consent form and in this protocol.\n\nExclusion Criteria:\n\nExclusion criteria for Healthy Volunteer Subjects\n\n* Presence or history, of any significant or uncontrolled medical condition which in the opinion of the investigator would increase the potential risk to the subject or affect the study outcomes.\n* Previous pulmonary embolus\n* Current or chronic history of intrinsic liver disease, or known hepatic or biliary abnormalities, including coagulation abnormalities (with the exception of Gilbert's syndrome).\n* Established diagnosis of systemic hypertension or known Left Ventricular Hypertrophy (LVH).\n* Estimated GFR \\<60 milliliter/minute (mL/min) based on clinical chemistry.\n* Use of prohibited medication as mentioned in protocol.\n* Current smoker or a history of smoking within 6 months of Screening, or a total pack year history of \\>5 pack years.\n\n\\[number of pack years = (number of cigarettes per day/20) x number of years smoked\\]\n\n* Subjects that do not wish to consume alcohol by intravenous (IV) administration for personal reasons.\n* The subject has a positive pre-study drug/alcohol screen. A minimum list of drugs that will be screened for include cannabinoids, amphetamines, barbiturates, cocaine and opiates. The detection of drugs (e.g. benzodiazepines, opiates) taken for a legitimate medical purpose would not necessarily be an exclusion to study participation. The detection of alcohol would not be an exclusion at screening but would need to be negative pre-dose and during the study.\n* History of regular alcohol consumption within 6 months of the study defined as:\n\nFor United Kingdom (UK) sites: an average weekly intake of \\>21 units for males or \\>14 units for females. One unit is equivalent to 8 gram (g) of alcohol: a half-pint (approximately 240 mL) of beer, 1 glass (125 mL) of wine or 1 (25 mL) measure of spirits.\n\n* History of sensitivity to heparin or heparin-induced thrombocytopenia.\n* History of sensitivity to any of the study medications, or components thereof or a history of drug or other allergy that, in the opinion of the investigator or Medical Monitor, contraindicates their participation.\n* Subject with QT duration corrected for heart rate by Fridericia's formula (QTcF) of \\>450 milliseconds (msec) (or QTcF of \\> 480 msec in subjects with Bundle Branch Block) or other 12-lead electrocardiogram (ECG) abnormalities (with the exception of right bundle-branch block) which, in the opinion of the investigator, is clinically significant (e.g. LVH) in that they may increase safety risk or affect study outcomes.\n* Have donated blood or have taken part in a study of an experimental medicine in the last 3 months, or plan to do so in the 3 months after this study.\n* Have had a serious reaction to any medicine .\n* Unable or unfit to undergo PET scans, or found to be unsuitable for PET scanning in the opinion of the Investigator.\n* History of or suffers from claustrophobia or subject feels unable to lie flat and still on their back for a period of up to 2 hours in the PET/CT scanner.\n* Previous inclusion in a research and/or medical protocol involving nuclear medicine, PET or radiological investigations or occupational exposure resulting in radiation exposure greater than 10 millisievert (mSv) over the past 3 years or greater than 10 mSv in a single year including the proposed study. Clinical exposure from which the subject receives a direct benefit is not included in these calculations\n\nExclusion criteria for PAH Patients\n\n* Presence of any uncontrolled co-morbid condition (e.g. unstable coronary artery disease or systemic hypertension) which in the opinion of the investigator would increase the potential risk to the subject.\n* Airways or interstitial lung disease, including adult asthma, chronic obstructive pulmonary disease (COPD), emphysema, bronchiectasis, pulmonary fibrosis orchronic thromboembolic disease.\n* Current or chronic history of intrinsic liver disease(with the exception of Gilbert's syndrome).\n* LVH on 2D-Echocardogram in the past 12 months\n* Estimated glomerular filtration rate (GFR) \\<40 mL/min based on clinical chemistry.\n* Change in PAH medication within 28 days of scanning.\n* A syncopal episode within 28 days of scanning.\n* Subjects who require continuous oxygen.\n* Use of prohibited medication\n* Current smoker or a history of smoking within 6 months of Screening, or a total pack year history of \\>5 pack years.\n\n\\[number of pack years = (number of cigarettes per day/20) x number of years smoked\\]\n\n* Subjects that do not wish to consume alcohol by IV administration for personal reasons.\n* The subject has a positive pre-study drug/alcohol screen. A minimum list of drugs that will be screened for include cannabinoids, amphetamines, barbiturates, cocaine and opiates. The detection of drugs (e.g. benzodiazepines, opiates) taken for a legitimate medical purpose would not necessarily be an exclusion to study participation. The detection of alcohol would not be an exclusion at screening but would need to be negative pre-dose and during the study.\n* History of regular alcohol consumption within 6 months of the study defined as: For UK sites: an average weekly intake of \\>21 units for males or \\>14 units for females. One unit is equivalent to 8 g of alcohol: a half-pint (approximately 240 mL) of beer, 1 glass (125 mL) of wine or 1 (25 mL) measure of spirits.\n* History of sensitivity to heparin or heparin-induced thrombocytopenia.\n* History of sensitivity to any of the study medications, or components thereof or a history of drug or other allergy that, in the opinion of the investigator or Medical Monitor, contraindicates their participation.\n* Subject with QTcF of \\>450 msec (or QTcF of \\> 480 msec in subjects with Bundle Branch Block) or other 12-lead ECG abnormalities (with the exception of right bundle-branch block) which, in the opinion of the investigator is clinically significant in that they may increase safety risk.\n* Have donated blood or have taken part in a study of an experimental medicine in the last 3 months, or plan to do so in the 3 months after this study.\n* Have had a serious reaction to any medicine.\n* Unable or unfit to undergo PET scans, or found to be unsuitable for PET scanning in the opinion of the Investigator.\n* History of or suffers from claustrophobia or subject feels unable to lie flat and still on their back for a period of up to 2 hours in the PET/CT scanner.\n* Previous inclusion in a research and/or medical protocol involving nuclear medicine, PET or radiological investigations or occupational exposure resulting in radiation exposure greater than 10 mSv over the past 3 years or greater than 10 mSv in a single year including the proposed study. Clinical exposure from which the subject receives a direct benefit is not included in these calculations.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "GSK Clinical Trials",
+                "affiliation": "GlaxoSmithKline",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "GSK Investigational Site",
+                "city": "London",
+                "zip": "NW10 7EW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "GSK Investigational Site",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "preAssignmentDetails": "A total of 14 participants were screened, of which 4 participants were screen failures. Remaining 10 participants were included in the study.",
+            "recruitmentDetails": "Healthy volunteers and participants with Pulmonary Arterial Hypertension (PAH) were included in this study to evaluate the bio-distribution of \\[11C\\]- GSK2256098 in the lungs and heart using Positron Emission Tomography (PET).",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "PAH Participants",
+                "description": "Participants received one microdose that is (i.e.) less than 10 micrograms of radiolabeled GSK2256098 in a 20 milliliter (mL) volume, via intravenous (IV) route. A PET scan was performed immediately after the IV administration."
+              },
+              {
+                "id": "FG001",
+                "title": "Healthy Volunteers",
+                "description": "Participants received one microdose i.e. less than 10 micrograms of radiolabeled GSK2256098 in a 20 mL volume, via IV route. A PET scan was performed immediately after the IV administration."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "PAH Participants",
+                "description": "Participants received one microdose that is (i.e.) less than 10 micrograms of radiolabeled GSK2256098 in a 20 milliliter (mL) volume, via intravenous (IV) route. A PET scan was performed immediately after the IV administration."
+              },
+              {
+                "id": "BG001",
+                "title": "Healthy Volunteers",
+                "description": "Participants received one microdose i.e. less than 10 micrograms of radiolabeled GSK2256098 in a 20 mL volume, via IV route. A PET scan was performed immediately after the IV administration."
+              },
+              {
+                "id": "BG002",
+                "title": "Total",
+                "description": "Total of all reporting groups"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "5"
+                  },
+                  {
+                    "groupId": "BG001",
+                    "value": "5"
+                  },
+                  {
+                    "groupId": "BG002",
+                    "value": "10"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "Years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "63.2",
+                            "spread": "5.81"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "64.0",
+                            "spread": "7.00"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "63.6",
+                            "spread": "6.08"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "6"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race/Ethnicity, Customized",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "title": "White Heritage",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Missing",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Volume of Distribution of Radiolabeled GSK2256098 Measured by PET Scan",
+                "description": "The PET scan was acquired to measure the uptake of radiolabeled GSK2256098 in the heart and lungs, assessed as the volume of distribution (VT). The analysis was performed on Safety Population which comprised of all participants who received a microdose of study treatment.",
+                "populationDescription": "Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "Milliliter per cubic centimeter(mL/cm^3)",
+                "timeFrame": "Day 1",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "PAH Participants",
+                    "description": "Participants received one microdose that is (i.e.) less than 10 micrograms of radiolabeled GSK2256098 in a 20 milliliter (mL) volume, via intravenous (IV) route. A PET scan was performed immediately after the IV administration."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Healthy Volunteers",
+                    "description": "Participants received one microdose i.e. less than 10 micrograms of radiolabeled GSK2256098 in a 20 mL volume, via IV route. A PET scan was performed immediately after the IV administration."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Heart, left ventricular wall",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.0811",
+                            "spread": "0.14769"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1.3027",
+                            "spread": "0.18754"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Heart, right ventricular wall",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.8117",
+                            "spread": "0.15253"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.5571",
+                            "spread": "0.12824"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lung",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.0858",
+                            "spread": "0.02364"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.0904",
+                            "spread": "0.01592"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "0.832",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.682",
+                    "ciUpperLimit": "0.979",
+                    "otherAnalysisDescription": "Volume of Distribution - Heart, Left Ventricular Wall: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  },
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "1.472",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "1.113",
+                    "ciUpperLimit": "1.891",
+                    "otherAnalysisDescription": "Volume of Distribution - Heart, Right Ventricular Wall: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  },
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "0.958",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.692",
+                    "ciUpperLimit": "1.241",
+                    "otherAnalysisDescription": "Volume of Distribution - Lung: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Standardized Uptake Values (SUV) of Radiolabeled GSK2256098 Measured by PET Scan",
+                "description": "The PET scan was acquired to measure the uptake of radiolabeled GSK2256098 in the heart and lungs, assessed as the mean standardized uptake value (SUV) averaged over the 60 minute period between 30 and 90 minutes. The analysis was performed on Safety Population which comprised of all participants who received a microdose of study treatment.",
+                "populationDescription": "Safety Population",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "Grams per milliliter (g/mL)",
+                "timeFrame": "Day 1",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "PAH Participants",
+                    "description": "Participants received one microdose that is (i.e.) less than 10 micrograms of radiolabeled GSK2256098 in a 20 milliliter (mL) volume, via intravenous (IV) route. A PET scan was performed immediately after the IV administration."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "Healthy Volunteers",
+                    "description": "Participants received one microdose i.e. less than 10 micrograms of radiolabeled GSK2256098 in a 20 mL volume, via IV route. A PET scan was performed immediately after the IV administration."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "5"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "5"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Heart, left ventricular wall",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.0738",
+                            "spread": "0.04931"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1.0697",
+                            "spread": "0.20070"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Heart, right ventricular wall",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.0143",
+                            "spread": "0.10994"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.9689",
+                            "spread": "0.19018"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lung",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.2988",
+                            "spread": "0.05150"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.2891",
+                            "spread": "0.06851"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "1.013",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.846",
+                    "ciUpperLimit": "1.189",
+                    "otherAnalysisDescription": "Mean Standardized Uptake Values - Heart, Left Ventricular Wall: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  },
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "1.056",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.853",
+                    "ciUpperLimit": "1.269",
+                    "otherAnalysisDescription": "Mean Standardized Uptake Values - Heart, Right Ventricular Wall: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  },
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Mean Ratio",
+                    "paramValue": "1.047",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.786",
+                    "ciUpperLimit": "1.340",
+                    "otherAnalysisDescription": "Mean Standardized Uptake Values - Lung: The mean ratio was calculated using the posterior distribution of the ratio of group means (PAH subjects to Healthy Volunteers). The 95% confidence interval is a 95% Bayesian credible interval based on the highest posterior density interval."
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Serious adverse events (SAEs) and non-serious adverse events (AEs) were collected on Day 1 and up to 4 Weeks post-dose.",
+            "description": "The analysis was performed on Safety Population.",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "PAH Participants",
+                "description": "Participants received one microdose that is (i.e.) less than 10 micrograms of radiolabeled GSK2256098 in a 20 milliliter (mL) volume, via intravenous (IV) route. A PET scan was performed immediately after the IV administration.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 5,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 5,
+                "otherNumAffected": 0,
+                "otherNumAtRisk": 5
+              },
+              {
+                "id": "EG001",
+                "title": "Healthy Volunteers",
+                "description": "Participants received one microdose i.e. less than 10 micrograms of radiolabeled GSK2256098 in a 20 mL volume, via IV route. A PET scan was performed immediately after the IV administration.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 5,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 5,
+                "otherNumAffected": 3,
+                "otherNumAtRisk": 5
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Nausea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 20.0",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 5
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Vomiting",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 20.0",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 5
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 5
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 20.0",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 5
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 1,
+                    "numAtRisk": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "OTHER",
+              "restrictiveAgreement": true,
+              "otherDetails": "GSK agreements may vary with individual investigators, but will not prohibit any investigator from publishing. GSK supports the publication of results from all centers of a multi-center trial but requests that reports based on single-site data not precede the primary publication of the entire clinical trial."
+            },
+            "pointOfContact": {
+              "title": "GSK Response Center",
+              "organization": "GlaxoSmithKline",
+              "email": "GSKClinicalSupportHD@gsk.com",
+              "phone": "866-435-7343"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2016-04-22",
+                "uploadDate": "2018-10-15T13:40",
+                "filename": "Prot_002.pdf",
+                "size": 588760
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2016-10-04",
+                "uploadDate": "2018-10-15T13:41",
+                "filename": "SAP_003.pdf",
+                "size": 3419946
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D065627",
+                "term": "Familial Primary Pulmonary Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D006973",
+                "term": "Hypertension"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      }
+    ]
+  }
+}

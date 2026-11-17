@@ -1,0 +1,1233 @@
+{
+  "integrated_id": "systemic:sys_5c775d7662c1",
+  "asset": "ETD001",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ETD001",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04926701",
+            "orgStudyIdInfo": {
+              "id": "ET-ENAC-01"
+            },
+            "organization": {
+              "fullName": "Enterprise Therapeutics Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A First in Human Study to Evaluate the Safety, Tolerability and Pharmacokinetics of Single and Multiple Ascending Doses of Inhaled ETD001 in Healthy Subjects",
+            "officialTitle": "A First in Human Randomised, Double Blind, Placebo-controlled, Two-part Study to Evaluate the Safety, Tolerability and Pharmacokinetics of Single and Multiple Ascending Doses (SAD and MAD) of Inhaled ETD001 in Healthy Male and Female Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-06-11",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-03-22",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-03-22",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-06-10",
+            "studyFirstSubmitQcDate": "2021-06-10",
+            "studyFirstPostDateStruct": {
+              "date": "2021-06-15",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-03-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-03-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Enterprise Therapeutics Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a first in human study of ETD001 a new drug being developed for the treatment of cystic fibrosis. The study is a randomised, placebo-controlled, double-blind interventional study to assess the safety, tolerability and pharmacokinetics of single and multiple ascending doses of inhaled ETD001in healthy male and female subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 98,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Single ascending dose",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose of inhaled ETD001/placebo on one occasion",
+                "interventionNames": [
+                  "Drug: ETD001 single dose",
+                  "Drug: Placebo single dose"
+                ]
+              },
+              {
+                "label": "Multiple ascending dose (7 days)",
+                "type": "EXPERIMENTAL",
+                "description": "Daily doses of ETD001/placebo for 7 consecutive days",
+                "interventionNames": [
+                  "Drug: ETD001 multiple twice daily doses",
+                  "Drug: Placebo multiple twice daily doses",
+                  "Drug: ETD001 multiple once daily doses",
+                  "Drug: Placebo multiple once daily doses"
+                ]
+              },
+              {
+                "label": "Multiple ascending dose (14 days)",
+                "type": "EXPERIMENTAL",
+                "description": "Daily doses of ETD001/placebo for 14 consecutive days",
+                "interventionNames": [
+                  "Drug: ETD001 multiple twice daily doses",
+                  "Drug: Placebo multiple twice daily doses"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETD001 single dose",
+                "description": "Single ascending doses of inhaled ETD001",
+                "armGroupLabels": [
+                  "Single ascending dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo single dose",
+                "description": "Single doses of inhaled placebo",
+                "armGroupLabels": [
+                  "Single ascending dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ETD001 multiple twice daily doses",
+                "description": "Ascending doses of inhaled ETD001 administered twice daily",
+                "armGroupLabels": [
+                  "Multiple ascending dose (14 days)",
+                  "Multiple ascending dose (7 days)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo multiple twice daily doses",
+                "description": "Doses of inhaled placebo administered twice daily",
+                "armGroupLabels": [
+                  "Multiple ascending dose (14 days)",
+                  "Multiple ascending dose (7 days)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ETD001 multiple once daily doses",
+                "description": "Doses of inhaled ETD001 administered once daily",
+                "armGroupLabels": [
+                  "Multiple ascending dose (7 days)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo multiple once daily doses",
+                "description": "Doses of inhaled placebo administered once daily",
+                "armGroupLabels": [
+                  "Multiple ascending dose (7 days)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants reporting one or more treatment emergent adverse event (TEAE)",
+                "timeFrame": "Baseline to Week 8"
+              },
+              {
+                "measure": "Number of participants who discontinue due to an adverse event (AE)",
+                "timeFrame": "Baseline to Week 8"
+              },
+              {
+                "measure": "Number of participants who meet the markedly abnormal criteria for 12-lead ECG assessment at least once post dose",
+                "timeFrame": "Baseline to Week 8"
+              },
+              {
+                "measure": "Number of participants who meet the markedly abnormal criteria for vital signs assessments at least once post dose",
+                "timeFrame": "Baseline to Week 8"
+              },
+              {
+                "measure": "Number of participants who meet the markedly abnormal criteria for laboratory assessments at least once post dose",
+                "timeFrame": "Baseline to Week 8"
+              },
+              {
+                "measure": "Number of participants who meet the markedly abnormal criteria for spirometry assessments at least once post dose",
+                "timeFrame": "Baseline to Week 8"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Plasma concentrations of ETD001",
+                "description": "Blood levels of ETD001 measured after dosing",
+                "timeFrame": "Day 1 pre-dose and at multiple time-points (up to 14 days) post final dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and females using suitable methods of contraception, or females of non-childbearing potential\n* Consent to study participation\n* Body weight \u2265 50 kg and body mass index 19 - 30 kg/m2\n* Vital sign assessments within the normal ranges\n* Healthy as determined following physical and laboratory examinations at screening visit\n* Spirometry readings (FEV1 and FVC) to be \u2265 80% of predicted value\n\nExclusion Criteria:\n\n* Acute or chronic illness detected at the screening visit\n* Respiratory tract infection within 4 weeks of the screening visit\n* Use of prescribed or OTC medication within 14 days of the screening visit\n* History of regular alcohol use over the recommended limits within 6 months of screening, or history/evidence of alcohol or drug abuse\n* Smoker or use of tobacco products within 6 months of screening\n* Abnormal blood or urine laboratory test results at screening\n* Recent participation (within 3 months) in another clinical trial\n* Current, or history of, allergy that may be contraindicated",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Niyati Prasad, MD",
+                "affiliation": "Enterprise Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Hammersmith Medicines Research",
+                "city": "London",
+                "zip": "NW10 7EW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07891416",
+            "orgStudyIdInfo": {
+              "id": "ETD-001-201"
+            },
+            "organization": {
+              "fullName": "Etern Therapeutics Wuxi Limited",
+              "class": "OTHER"
+            },
+            "briefTitle": "Phase II Clinical Study on Preliminary Efficacy and Safety of ETD-001 Gel for Hypertrophic Scars",
+            "officialTitle": "A Phase II, Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Preliminary Efficacy and Safety of ETD-001 Gel for the Treatment of Hypertrophic Scars"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2027-02-28",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-10-08",
+            "studyFirstSubmitQcDate": "2026-10-16",
+            "studyFirstPostDateStruct": {
+              "date": "2026-10-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-23",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Etern Therapeutics Wuxi Limited",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A randomized, double-blind, placebo-controlled multiple dosing study to evaluate the preliminary efficacy and safety of ETD-001 gel for hypertrophic scars. Subjects will be assigned to 3 groups: ETD-001 Dose Group 1, ETD-001 Dose Group 2, and placebo group."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hypertrophic Scars"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 90,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ETD-001 gel dose1",
+                "type": "EXPERIMENTAL",
+                "description": "ETD-001 gel",
+                "interventionNames": [
+                  "Drug: ETD-001 gel"
+                ]
+              },
+              {
+                "label": "ETD-001 gel dose2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ETD-001 gel"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Other: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETD-001 gel",
+                "description": "Topical investigational gel, multiple daily application on hypertrophic scar lesions for scheduled treatment period.",
+                "armGroupLabels": [
+                  "ETD-001 gel dose1"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ETD-001 gel",
+                "description": "Topical investigational gel (higher concentration), multiple daily application on hypertrophic scar lesions for scheduled treatment period.",
+                "armGroupLabels": [
+                  "ETD-001 gel dose2"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Placebo",
+                "description": "Matched topical placebo gel, identical appearance and administration regimen, applied on hypertrophic scar lesions",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To Evaluate the Preliminary Efficacy of ETD-001 Gel in the Treatment of Hypertrophic Scars \uff1aChange from Baseline in Modified Vancouver Scar Scale (mVSS) Score",
+                "timeFrame": "4~12weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To Evaluate the safety of ETD-001 Gel in the Treatment of Hypertrophic Scars by CTCAE6.0",
+                "timeFrame": "4~12weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. Participants with hypertrophic scars aged \u226518 years and \\<65 years at randomization, with no restriction on sex.\n\n  2\\. Subjects experienced burn, surgery, trauma or other events within 6 months prior to screening; the wound has healed and scar formation (linear or extensively growing hypertrophic scar) confirmed by investigator assessment.\n\n  3\\. The target treatment scar selected upon investigator judgment meets the morphological characteristics of hypertrophic scar: the scar rises above normal skin tissue, confined within the lesion area, and the subject reports no obvious spontaneous scar regression recently.\n\n  4\\. The modified Vancouver Scar Scale (mVSS) score of the target scar is between 7 and 15, inclusive.\n\nExclusion Criteria:\n\n* 1\\. The target scar is located on the head and face, both hands, genitals, or areas with severely limited joint movement.\n\n  2\\. Subjects who received systemic or intralesional corticosteroids (triamcinolone acetonide, betamethasone, etc.), immunosuppressants, chemotherapeutic agents (5-fluorouracil, bleomycin, mitomycin C, etc.), biological products (botulinum toxin, hyaluronidase, interferon, etc.) for scar treatment within 2 months prior to dosing.\n\n  3\\. Subjects who received scar treatments including laser, radiotherapy, cryotherapy, compression therapy within 2 months prior to dosing.\n\n  4\\. Subjects with local infection on the hypertrophic target scar at screening, or with systemic infection.\n\n  5\\. Subjects diagnosed with keloid, atrophic scar or scar carcinoma. 6. Subjects with previous or current clinically significant diseases including but not limited to diseases of digestive, cardiovascular, respiratory, urinary, musculoskeletal, endocrine, immune, neuropsychiatric, hematological systems, or history of malignant tumors, who are judged by the investigator to be unsuitable for enrollment.\n  1. Subjects with syphilis (positive treponema pallidum antibody), AIDS (positive HIV antibody), active hepatitis C (positive HCV antibody), or active hepatitis B (positive HBsAg). Non-active HBsAg carriers and hepatitis B patients treated with stable condition (HBV DNA \\< 500 IU/mL) are eligible for enrollment; HBV DNA will be monitored periodically per investigator's recommendation during the study. Subjects with positive HCV-Ab may be enrolled if HCV RNA is negative, and HCV RNA will be monitored periodically per investigator's recommendation during the study.\n  2. Uncontrolled hypertension within 1 month prior to screening (systolic blood pressure \u2265160 mmHg or diastolic blood pressure \u2265100 mmHg in sitting position despite optimal antihypertensive therapy).\n  3. Any of the following laboratory abnormalities at screening: ALT or AST \\> 3 \u00d7 ULN; total serum bilirubin \\> 1.5 \u00d7 ULN; serum creatinine \\> 1.5 \u00d7 ULN; creatinine clearance \\< 60 mL/min; hemoglobin (Hb) \\< 80 g/L; platelet (PLT) \\<75.0 \u00d710\u2079/L; fasting plasma glucose (FPG) \u22657.0 mmol/L (126 mg/dL); HbA1c \u22656.5%.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "qian guo NA",
+                "role": "CONTACT",
+                "phone": "86-15093195020",
+                "email": "qian.guo@eternbio.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine",
+                "city": "Shanghai",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "yan liu Chief Physician",
+                    "role": "CONTACT",
+                    "phone": "86-18917762771",
+                    "email": "rjliuyan@126.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Individual participant data (IPD) will not be shared with other researchers. Study aggregate results may be published in peer-reviewed journals."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017439",
+                "term": "Cicatrix, Hypertrophic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002921",
+                "term": "Cicatrix"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06478706",
+            "orgStudyIdInfo": {
+              "id": "ET-ENAC-03"
+            },
+            "organization": {
+              "fullName": "Enterprise Therapeutics Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Two-Part Study to Evaluate the Efficacy, Safety, Tolerability and Pharmacokinetics of Repeat Doses of Inhaled ETD001 in People With Cystic Fibrosis",
+            "officialTitle": "A Randomised, Double-Blind, Placebo Controlled, Two-Part Study to Evaluate the Efficacy, Safety, Tolerability and Pharmacokinetics of a Repeat Dose of Inhaled ETD001 in People With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-06-26",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-11-14",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-11-14",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-06-18",
+            "studyFirstSubmitQcDate": "2024-06-24",
+            "studyFirstPostDateStruct": {
+              "date": "2024-06-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Enterprise Therapeutics Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is the first to give ETD001 to people with CF. The study will be run in two parts. Part A will assess if ETD001 is safe to give to people with CF, and Part B will assess if ETD001 improves lung function. The study drug is taken twice a day, in Part A it is taken for 7 days and in Part B for 28 days. In Part B there will be a separate period where dummy medicine is given for 28 days so the treatments can be compared.\n\nIn Part A participants will receive 13 doses of either ETD001 or placebo, 8 people will take part. Participants will take up to 56 days to finish the study and make 5 outpatient visits.\n\nIn Part B participants will receive 55 doses of ETD001 and 55 doses of placebo, 32 people will take part. Participants will take up to 140 days to finish the study and will make 8 outpatient visits.\n\nStudy assessments include physical examinations, vital signs, heart traces, blood/urine samples, breathing tests and health questionnaires."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 57,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part A - 7 day treatment period - parallel group",
+                "type": "EXPERIMENTAL",
+                "description": "Twice daily doses of ETD001/placebo for 6 days, single dose on Day 7",
+                "interventionNames": [
+                  "Drug: ETD001",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Part B - 2 x 28 day treatment period - crossover",
+                "type": "EXPERIMENTAL",
+                "description": "Two treatment periods of twice daily doses of ETD001/placebo for 27 days, single dose on Day 28 separated by a period of 28 days",
+                "interventionNames": [
+                  "Drug: ETD001",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ETD001",
+                "description": "Twice daily doses",
+                "armGroupLabels": [
+                  "Part A - 7 day treatment period - parallel group",
+                  "Part B - 2 x 28 day treatment period - crossover"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Twice daily doses",
+                "armGroupLabels": [
+                  "Part A - 7 day treatment period - parallel group",
+                  "Part B - 2 x 28 day treatment period - crossover"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part A: Safety and tolerability of repeat inhaled doses of ETD001 monitored by assessment of adverse events",
+                "description": "Incidence of treatment emergent adverse events(AE)/serious AE), withdrawals due to AE",
+                "timeFrame": "28 days"
+              },
+              {
+                "measure": "Part B: Effect of repeat inhaled doses of ETD001 on percent predicted forced expiratory volume in 1 second (ppFEV1)",
+                "description": "Change in ppFEV1 measured by spirometry from baseline to Day 28 (for either Treatment Period 1 or Treatment Period 2), compared to placebo",
+                "timeFrame": "Treatment Period 1 & 2 - Day 1 (pre-dose, 1, 2 & 4 hours post dose), Day 14 (pre-dose, 1 & 2 hours post), Day 28 (at 0, 1, 2 & 4 hours post dose)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Part A: Characterisation of plasma pharmacokinetics (PK)",
+                "description": "Peak plasma concentration and time observed (Cmax \\& Tmax) of ETD001 following dosing.",
+                "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 2, 4 & 6 hours)"
+              },
+              {
+                "measure": "Part A: Characterisation of plasma pharmacokinetics (PK)",
+                "description": "Area under the concentration versus time curve from time 0 to last quantifiable concentration (AUC(0-t)) of ETD001 following dosing.",
+                "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 2, 4 & 6 hours, Day 7 (pre-dose), Day 28 (single sample)"
+              },
+              {
+                "measure": "Part A: Characterisation of plasma pharmacokinetics (PK)",
+                "description": "Area under the concentration versus time curve within a dosing interval (AUC(0-tau)) of ETD001 following dosing.",
+                "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 2, 4 & 6 hours, Day 7 (pre-dose)"
+              },
+              {
+                "measure": "Part A: Characterisation of plasma pharmacokinetics (PK)",
+                "description": "Area under the concentration versus time curve from time 0 to infinity (AUC(inf)) of ETD001 following dosing.",
+                "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 2, 4 & 6 hours, Day 7 (pre-dose) Day 28 (single sample)"
+              },
+              {
+                "measure": "Part A: Characterisation of plasma pharmacokinetics (PK)",
+                "description": "Apparent terminal rate constant and apparent terminal half life (\u03bbz, T1/2) of ETD001 following dosing.",
+                "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 2, 4 & 6 hours, Day 7 (pre-dose), Day 28 (single sample)"
+              },
+              {
+                "measure": "Part A: Characterisation of urine PK",
+                "description": "Amount ETD001 excreted in urine (Ae)",
+                "timeFrame": "Day 1 (0 - 6 hours)"
+              },
+              {
+                "measure": "Part A: Characterisation of urine PK",
+                "description": "Fraction of ETD001 dose excreted (Fe)",
+                "timeFrame": "Day 1 (0 - 6 hours)"
+              },
+              {
+                "measure": "Part A: Characterisation of urine PK",
+                "description": "Renal clearance of ETD001 (CLr)",
+                "timeFrame": "Day 1 (0 - 6 hours)"
+              },
+              {
+                "measure": "Part B: Effect of repeat inhaled doses of ETD001 on other lung function assessments",
+                "description": "Relative change in ppFEV1, absolute change in FVC, FEV1/FVC ratio and FEF25-75 measured by spirometry, from baseline to Day 28 (for either Treatment Period 1 or Treatment Period 2), compared to placebo",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (pre-dose, 1, 2 & 4 hours), Day 14 (pre-dose, 1 & 2 hours), Day 28 (pre-dose, 1, 2 & 4 hours)"
+              },
+              {
+                "measure": "Part B: Safety and tolerability of repeat inhaled doses of ETD001 monitored by assessment of adverse events",
+                "description": "Incidence of treatment emergent adverse events(AE)/serious AE), withdrawals due to AE",
+                "timeFrame": "105 days"
+              },
+              {
+                "measure": "Part B: Effect of repeat inhaled doses of ETD001 on the quality of life questionnaire, the Cystic Fibrosis Questionnaire (revised) (CFQ-R)",
+                "description": "Change in CFQ-R (respiratory domain) from baseline to Day 28 (for either Treatment Period 1 or Treatment Period 2), compared to placebo",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 & Day 28 (pre-dose)"
+              },
+              {
+                "measure": "Part B: Characterisation of plasma PK",
+                "description": "Population PK characteristics and model generated individual PK parameters (Cmax \\& Tmax)",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (0 & 1 hour), Day 14 (0 & 2 hours), Day 28 (0 & 4 hours), Follow up (Day 105) 1 sample"
+              },
+              {
+                "measure": "Part B: Characterisation of plasma PK",
+                "description": "Population PK characteristics and model generated individual PK parameters (AUC(0-t))",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (0 & 1 hour), Day 14 (0 & 2 hours), Day 28 (0 & 4 hours), Follow up (Day 105) 1 sample"
+              },
+              {
+                "measure": "Part B: Characterisation of plasma PK",
+                "description": "Population PK characteristics and model generated individual PK parameters (AUC(0-tau))",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (0 & 1 hour), Day 14 (0 & 2 hours), Day 28 (0 & 4 hours), Follow up (Day 105) 1 sample"
+              },
+              {
+                "measure": "Part B: Characterisation of plasma PK",
+                "description": "Population PK characteristics and model generated individual PK parameters (AUC(0-inf))",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (0 & 1 hour), Day 14 (0 & 2 hours), Day 28 (0 & 4 hours), Follow up (Day 105) 1 sample"
+              },
+              {
+                "measure": "Part B: Characterisation of plasma PK",
+                "description": "Population PK characteristics and model generated individual PK parameters (\u03bbz, T1/2)",
+                "timeFrame": "Treatment Period 1 & 2; Day 1 (0 & 1 hour), Day 14 (0 & 2 hours), Day 28 (0 & 4 hours), Follow up (Day 105) 1 sample"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male \\& female \u2265 18 years of age, who fit one of the following criteria:\n\nWomen of childbearing potential using permitted contraception a minimum of 28 days before dosing until completion of the final follow up visit; Women of non-childbearing potential; Men using contraception from the time of the first dose, until completion of the final follow up visit;\n\n* Confirmed diagnosis of CF\n* FEV1 \u2265 40% and \u2264 90% of predicted normal for age, gender, and height\n* Able to reproducibly perform spirometry manoeuvres\n* Clinically stable CF lung disease\n* Routine CF therapy has not changed within 28 days prior to screening.\n* Provided written informed consent.\n* Body mass index (BMI) \\> 16 and \\< 30 kg/m2\n\nExclusion Criteria:\n\n* Abnormal liver function\n* Abnormal renal function\n* History of solid organ transplant\n* Chest x-ray within the past 12 months with abnormalities suggesting unstable pulmonary disease other than CF\n* Received CFTR modulator therapy in the 60 days before screening\n* Changes in bronchodilator, corticosteroid or other anti-inflammatory medications 14 days before screening\n* Unable to withhold use of long-acting bronchodilators 24 hours or short-acting bronchodilators 6 hours before spirometry assessments\n* Unable to withhold use of anti-cholinergics within 24 hours of spirometry\n* Started dornase alfa, hypertonic saline, or other airway clearing therapy less than 28 days before screening\n* Using inhaled antibiotics for less than 2 complete cycles and unable to complete the entire study during the off or on cycle.\n* Changes in inhaled or oral antibiotic use within 14 days of screening\n* Taking oral corticosteroids in excess of 10 mg/day or 20 mg every other day within 14 days of screening\n* Use of diuretics, or renin-angiotensin aldosterone system antihypertensive drugs , drospirenone, or trimethoprim in the 28 days before screening\n* Presence of co-morbidities and medical history in the opinion of the investigator, may pose additional risk by participating in the study, or may confound the results of the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Renu Gupta, MD",
+                "affiliation": "Enterprise Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Hospices Civils de Lyon",
+                "city": "Lyon",
+                "zip": "69495",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.74906,
+                  "lon": 4.84789
+                }
+              },
+              {
+                "facility": "CHU de Montpellier",
+                "city": "Montpellier",
+                "zip": "34295",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "facility": "H\u00f4pital Cochin",
+                "city": "Paris",
+                "zip": "75014",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "H\u00f4pitaux de Toulouse",
+                "city": "Toulouse",
+                "zip": "31059",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.60426,
+                  "lon": 1.44367
+                }
+              },
+              {
+                "facility": "Charit\u00e9 Universtaetsmedizin",
+                "city": "Berlin",
+                "zip": "13353",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "CF-Studienzentrum Universit\u00e4tsklinikum K\u00f6ln",
+                "city": "Cologne",
+                "zip": "50924",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.93333,
+                  "lon": 6.95
+                }
+              },
+              {
+                "facility": "Westdeutsches Lungenzentrum am Universit\u00e4tsklinikum",
+                "city": "Essen",
+                "zip": "45239",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.45657,
+                  "lon": 7.01228
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Frankfurt",
+                "city": "Frankfurt",
+                "zip": "60590",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.68333,
+                  "lon": 10.53333
+                }
+              },
+              {
+                "facility": "IKF Pneumologie",
+                "city": "Frankfurt",
+                "zip": "60596",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.68333,
+                  "lon": 10.53333
+                }
+              },
+              {
+                "facility": "LMU Kinikum",
+                "city": "Munich",
+                "zip": "80336",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.13743,
+                  "lon": 11.57549
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Universitaria Meyer",
+                "city": "Florence",
+                "zip": "50139",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 43.77925,
+                  "lon": 11.24626
+                }
+              },
+              {
+                "facility": "IRCCS Istituto Giannina Gaslini",
+                "city": "Genova",
+                "zip": "16147",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.21604,
+                  "lon": 11.87211
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS Ca' Granda- Ospedale Maggiore Policlinico",
+                "city": "Milan",
+                "zip": "20122",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "Ospedale Pediatrico Bambino Ges\u00f9",
+                "city": "Roma",
+                "zip": "00165",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Universitaria Integrata Verona",
+                "city": "Verona",
+                "zip": "37126",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.43854,
+                  "lon": 10.9938
+                }
+              },
+              {
+                "facility": "Belfast Health and Social Care Trust",
+                "city": "Belfast",
+                "zip": "BT9 7AB",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "facility": "Royal Papworth Hospital",
+                "city": "Cambridge",
+                "zip": "CB2 0AY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              },
+              {
+                "facility": "All Wales Adult CF Centre",
+                "city": "Cardiff",
+                "zip": "CF64 2XX",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "Queen Elizabeth University Hospital West of Scotland CF Service",
+                "city": "Glasgow",
+                "zip": "G51 4TR",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Royal Brompton Hospital",
+                "city": "London",
+                "zip": "SW3 6LL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Southampton General Hospital",
+                "city": "Southampton",
+                "zip": "SO16 6YD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.90395,
+                  "lon": -1.40428
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07674862",
+            "orgStudyIdInfo": {
+              "id": "ETD-001-101-A"
+            },
+            "organization": {
+              "fullName": "Etern Therapeutics Wuxi Limited",
+              "class": "OTHER"
+            },
+            "briefTitle": "Safety, Tolerability and Pharmacokinetics of ETD-001 Gel",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Single and Multiple Ascending Dose Phase I Clinical Trial to Evaluate the Safety, Tolerability and Pharmacokinetics of ETD-001 Gel in Healthy Chinese Subjects",
+            "acronym": "ETD-001 gel"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-03-16",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-07-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-08-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-06-17",
+            "studyFirstSubmitQcDate": "2026-06-26",
+            "studyFirstPostDateStruct": {
+              "date": "2026-06-30",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Etern Therapeutics Wuxi Limited",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single-center, randomized, double-blind, placebo-controlled Phase I clinical study, which comprises two parts: Single Ascending Dose (SAD) and Multiple Ascending Dose (MAD) in healthy subjects.Three dose groups are pre-scheduled for the SAD part. After the safety and tolerability of subjects in the second SAD dose group are confirmed, the MAD part will be initiated upon evaluation by the Safety Review Committee (SRC). Four dose groups are tentatively planned for the MAD part.Each dose group will enroll 8 subjects, who will be randomized at a 6:2 ratio to receive either ETD-001 gel or placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Safety Issues"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 56,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ETD-001 gel",
+                "type": "EXPERIMENTAL",
+                "description": "QD\uff0ctopical administration",
+                "interventionNames": [
+                  "Drug: Dose 1",
+                  "Drug: dose 2",
+                  "Drug: dose 3"
+                ]
+              },
+              {
+                "label": "PLACEBO",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "QD\uff0ctopical administration",
+                "interventionNames": [
+                  "Drug: Dose 1",
+                  "Drug: dose 2",
+                  "Drug: dose 3"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Dose 1",
+                "description": "low dose",
+                "armGroupLabels": [
+                  "ETD-001 gel",
+                  "PLACEBO"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "dose 2",
+                "description": "middle dose",
+                "armGroupLabels": [
+                  "ETD-001 gel",
+                  "PLACEBO"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "dose 3",
+                "description": "high dose",
+                "armGroupLabels": [
+                  "ETD-001 gel",
+                  "PLACEBO"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the safety and tolerability of ETD-001 in healthy Chinese subjects.",
+                "description": "Number of participants with treatment-related adverse events as assessed by CTCAE v6.0",
+                "timeFrame": "Up to Day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To evaluate the pharmacokinetic characteristics of ETD-001 gel in healthy Chinese subjects.",
+                "description": "Area Under Concentration-time \\[ AUC\\] of ETD-001cgel",
+                "timeFrame": "Up to Day 21"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n\\-\n\nSubjects meeting any of the following exclusion criteria will be excluded from this trial:\n\n1. Fully understand the purpose, nature and methodology of the trial, as well as potential adverse reactions, and voluntarily sign the informed consent form.\n2. Healthy male or female Chinese subjects aged between 18 and 60 years inclusive (age determined on the date of signing the informed consent form).\n3. Body Mass Index (BMI) ranging from 19 to 26 kg/m\u00b2 inclusive; male subjects shall weigh no less than 50 kg, and female subjects no less than 45 kg.\n4. No skin rupture, lesions (including skin lesions caused by dermatoses), redness, rash, pigmentation, tattoos, excessive hair or abnormal warmth at the intended application site.\n5. Subjects are deemed to be in good general health by the investigator based on medical history, physical examination, vital signs, 12-lead electrocardiogram, laboratory tests (blood routine, urine routine, blood biochemistry) and viral serology results (all findings are normal or abnormalities are clinically insignificant).\n6. Female subjects must be non-pregnant and non-lactating. All subjects, regardless of gender, must agree to use medically approved effective contraception from the screening period until 6 months after the last dose. They shall not donate sperm or ova during the study period and within 6 months after the last dose.\n\nExclusion Criteria:\n\n1. Subjects who are allergic to the investigational drug or any of its excipients; those with allergic diathesis (e.g., allergy to two or more types of drugs, foods or pollen); or those with severe systemic allergic diseases (e.g., severe asthma, allergic rhinitis, etc.).\n2. Subjects with clinically significant abnormal medical conditions or factors, including but not limited to metabolic, hepatic, renal, hematological, pulmonary, cardiovascular, gastrointestinal, urological, endocrine, neurological and psychiatric diseases, or other conditions deemed inappropriate for participation in this study by the investigator.\n3. Subjects who have taken or are expected to take any prescription drugs, over-the-counter medications, vitamin products, health supplements or traditional 4.Chinese medicinal preparations within 14 days prior to the first dose, or within 5 half-lives of the study drug (whichever is longer); or those who have consumed foods or beverages that may induce or inhibit hepatic metabolic enzymes (e.g., grapefruit) within 7 days before dosing.\n\nSubjects with abnormal liver or renal function:\n\n1. Total Bilirubin (TBIL) \\> 1.5 \u00d7 ULN;\n2. AST or ALT \u2265 1.5 \u00d7 ULN;\n3. Blood Urea Nitrogen (BUN) and Creatinine (CRE) \\> 1.5 \u00d7 ULN. 5.Subjects with confirmed positive test results for hepatitis B, hepatitis C, Human Immunodeficiency Virus (HIV) or syphilis at screening.\n\n   6.Subjects with a history of drug abuse within the past five years, those who have used illicit drugs within 3 months prior to screening, or those with a positive drug abuse screening result at baseline.\n\n   7.Subjects consuming more than 14 units of alcohol per week within 3 months prior to screening (1 alcohol unit = 360 mL beer, or 45 mL spirits with 40% alcohol content, or 150 mL wine); those who have consumed alcoholic products within 48 hours before receiving the investigational drug; or those with a positive breath alcohol test at baseline.\n\n   8.Subjects smoking more than 5 cigarettes per day or habitually using nicotine-containing products within 3 months prior to screening.\n\n   9.Subjects who have ingested any foods or beverages containing caffeine or xanthine or their metabolites (e.g., coffee, tea, chocolate) within 48 hours prior to the first dose.\n\n   10.Subjects who have received blood or blood products, or donated/lost more than 400 mL of blood within 3 months prior to the first dose; or those who plan to donate blood during the trial and within 3 months after trial completion.\n\n   11.Subjects who have participated in another clinical trial and taken other investigational products within 30 days prior to the first dose, or within 5 half-lives of the study drug (whichever is longer).\n\n   12.Subjects who have suffered from clinically significant severe illnesses or undergone major surgery within 28 days prior to the first dose, or who are expected to receive major surgery during the trial.\n\n   13.Subjects with difficult venous access or a history of needle phobia or hemophobia.\n\n   14.Female subjects with a positive pregnancy test at screening or baseline, who are breastfeeding or planning to become pregnant.\n\n   15.Subjects with a history of chronic skin diseases (e.g., eczema, psoriasis, etc.).\n\n   16.Any other conditions that, in the investigator's judgment, may prevent the subject from giving informed consent or complying with the trial protocol, or may compromise trial results or the subject's personal safety if the subject participates in the trial.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "16 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Hangzhou",
+                "city": "Hangzhou",
+                "state": "Zhejiang",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.29365,
+                  "lon": 120.16142
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

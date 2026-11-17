@@ -1,0 +1,1661 @@
+{
+  "asset": "selisistat",
+  "query": "SEN0014196",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=SEN0014196&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01485952",
+            "orgStudyIdInfo": {
+              "id": "S015-004"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "CTA Number: 2010-021563-32",
+                "type": "OTHER_GRANT",
+                "domain": "European Commission 7th Framework Programme"
+              }
+            ],
+            "organization": {
+              "fullName": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Exploratory Clinical Trial in Early Stage Huntington's Disease Patients With SEN0014196",
+            "officialTitle": "An Exploratory Clinical Trial in Early Stage Huntington's Disease Patients to Assess Pharmacokinetics, Candidate Pharmacodynamic Measures of Target Engagement and Disease Modulation as Well as Acute Phenotypical Effects Following Multiple Oral Doses of SEN0014196.",
+            "acronym": "PADDINGTON"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2015-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-03"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-11-29",
+            "studyFirstSubmitQcDate": "2011-12-02",
+            "studyFirstPostDateStruct": {
+              "date": "2011-12-06",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2015-11-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2015-11-25",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Seventh Framework Programme",
+                "class": "OTHER"
+              },
+              {
+                "name": "European Huntington's Disease Network",
+                "class": "NETWORK"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of this study is to provide biological samples from patients with Huntington's disease to allow characterisation of the pharmacological mechanism of action of SEN0014196.",
+            "detailedDescription": "This study will establish the acute phenotypical and biological effects of repeated dose application of SEN0014196 in patients with Huntington's disease, providing biomaterials for biomarker studies (levels of circulating huntingtin, acetylation status of mutant huntingtin, innate immune markers, transcriptional profiles). Evaluation of phenotypic effects will include UHDRS scores, total functional capacity. Safety assessments will include ECG, vital signs, laboratory safety tests and physical examination."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "Huntington Disease",
+              "Basal Ganglia Diseases",
+              "Brain Diseases",
+              "Central Nervous System Diseases",
+              "Nervous System Diseases",
+              "Dementia",
+              "Chorea",
+              "Dyskinesias",
+              "Movement Disorders",
+              "Heredodegenerative Disorders, Nervous System",
+              "Neurodegenerative Diseases",
+              "Genetic Diseases, Inborn",
+              "Cognition Disorders",
+              "Mental Disorders"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 55,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SEN0014196 (Low Dose)",
+                "type": "EXPERIMENTAL",
+                "description": "10 mg, once daily administration (immediate release capsule)",
+                "interventionNames": [
+                  "Drug: SEN0014196 (Low Dose)"
+                ]
+              },
+              {
+                "label": "SEN0014196 (High dose)",
+                "type": "EXPERIMENTAL",
+                "description": "100 mg, once daily administration (immediate release capsule)",
+                "interventionNames": [
+                  "Drug: SEN0014196 (High Dose)"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Once daily (immediate release capsule)",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SEN0014196 (Low Dose)",
+                "description": "10 mg once daily administration (immediate release capsule)",
+                "armGroupLabels": [
+                  "SEN0014196 (Low Dose)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196 (High Dose)",
+                "description": "100 mg once daily administration (immediate release capsule)",
+                "armGroupLabels": [
+                  "SEN0014196 (High dose)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Once daily administration (immediate release capsule)",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To determine the change from baseline of a series of pharmacodynamic markers in peripheral blood mononuclear cells",
+                "description": "Collection of peripheral blood mononuclear cells for biomarker investigations, specifically acetylation status of mutant huntingtin, levels of circulating huntingtin, innate immune markers and transcriptional profiles",
+                "timeFrame": "Baseline, Day 7, Day 14, Follow-Up"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To determine the safety and tolerability following repeated doses of SEN0014196 over two weeks at two dose levels in patients with Huntington's disease",
+                "description": "Safety assessments will include ECG, vital signs, laboratory safety tests, and physical and neurological examination. Tolerability will include type and frequency of adverse events.",
+                "timeFrame": "Baseline, Day 7, Day 14, Follow-up"
+              },
+              {
+                "measure": "To determine the pharmacokinetics of repeated doses of SEN0014196 at two dose levels when administered over two weeks in patients with Huntington's disease",
+                "description": "The following parameters will be assessed: maximum observed plasma concentration (Cmax), time of maximum observed plasma concentration(tmax), AUC from time zero to the length of the dosing interval (tau) (AUC0-\u03c4), AUC from time zero to the last quantifiable concentration (AUC0-last), AUC from time zero to infinity (AUC0-\u221e), terminal elimination half-life (t1/2), and terminal elimination rate constant (\u03bbz). Gender differences. Dose proportionality.",
+                "timeFrame": "Baseline, Day 14"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with early Huntington's Disease (age: 18 to 70 years), i.e. genetically confirmed (CAG repeat length \u226536) HD, motor signs of HD (motor score of the UHDRS \\> 5) and a TFC of \u22657.\n* All patients will have a body weight greater than 50 kg.\n* Female subjects must be surgically sterile or post-menopausal, no spontaneous menstruation for at least one year before the first dose, non-lactating and have a negative urine pregnancy test. Male subjects participating in the trial and their female contraception from the time of taking the first dose of the study drug until three months after taking the last dose. This must include a condom or other barrier method.\n* All subjects must be capable of providing written informed consent.\n* Subjects must have no clinically significant and relevant history that could affect the conduct of the study and evaluation of the data, as ascertained by the Investigator through detailed medical history and screening assessments.\n\nExclusion Criteria:\n\n* Participation in a study of an investigational drug within 30 days of the baseline visit.\n* Subjects with presence of psychosis and/or confusional states.\n* Subjects with clinically significant laboratory or ECG abnormalities at Screening.\n* Subjects with clinically relevant hematological, hepatic, cardiac or renal disease.\n* A medical history of infection with human immunodeficiency virus, hepatitis C and/or hepatitis B.\n* Any relevant condition, behaviour, laboratory value or concomitant medication which, in the opinion of the Investigator, makes the subject unsuitable for entry into the study.\n* Subjects who have previously received histone deacetylase inhibitors e.g. vorinostat or have participated in a clinical trial using compound suspected of interfering with protein acetylation status.\n* A history of malignancy of any type within 2 years prior to screening. A history of surgically excised nonmelanoma skin cancers is permitted.\n* Subjects with a significant history of drug allergy as determined by the Investigator.\n* Subjects who have a significant history of alcoholism or drug/chemical abuse as determined by the Investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Bernhard G Landwehrmeyer, MD, PhD",
+                "affiliation": "European Huntington's Disease Network",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Universit\u00e4tsklinik Ulm, Neurologie",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C550547",
+                "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01521832",
+            "orgStudyIdInfo": {
+              "id": "S015-001"
+            },
+            "organization": {
+              "fullName": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Escalating Dose Study in Healthy Volunteers With SEN0014196",
+            "officialTitle": "A Phase I, Randomised, Double-Blind, Placebo-Controlled, Two-Part Study Consisting of Single and Multiple Oral Dose Escalation to Determine, Safety, Tolerability and Pharmacokinetics of SEN0014196"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2012-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2009-10"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2010-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2010-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-01-13",
+            "studyFirstSubmitQcDate": "2012-01-30",
+            "studyFirstPostDateStruct": {
+              "date": "2012-01-31",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2012-02-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2012-02-07",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a trial in healthy volunteers to study the safety, tolerability and pharmacokinetics of single and multiple escalating doses of SEN0014196."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 88,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Dose Group A",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group B",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group C",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group D",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group E",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group F",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group H",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group I",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group J",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group K",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Dose Group L",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "5 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group A"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "25 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group B"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "75 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group C"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "150 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group D"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "300 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group E"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "600 mg single oral dose",
+                "armGroupLabels": [
+                  "Dose Group F"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "300 mg single oral dose (females)",
+                "armGroupLabels": [
+                  "Dose Group H"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "100 mg multiple oral dose",
+                "armGroupLabels": [
+                  "Dose Group I"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "300 mg multiple oral dose",
+                "armGroupLabels": [
+                  "Dose Group J"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "100 mg BID multiple oral dose",
+                "armGroupLabels": [
+                  "Dose Group K"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "100 mg BID multiple oral dose (females)",
+                "armGroupLabels": [
+                  "Dose Group L"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability of ascending single and multiple oral doses of SEN0014196 in healthy male and female subjects.",
+                "description": "Vital signs, cardiovascular and neurological function, laboratory safety parameters. Type and frequancy of adverse events.",
+                "timeFrame": "Up to 7 days after single dose and up to 10 days following multiple dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Single and multiple dose pharmacokinetics of SEN0014196",
+                "description": "Basic pharmacokinetic parameters (Cmax, AUC, accumulation ratio, gender differences).",
+                "timeFrame": "Up to 96 hours following single dose and up to 48 hours following multiple dose."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects in Groups A to G and Groups I to K will be males of any ethnic origin between 18 and 55 years of age and with a body mass index (BMI) between 18 and 31 kg/m2 inclusive. Subjects in Groups H and L will be females of any ethnic origin between 18 and 65 years of age and with a body mass index (BMI) between 18 and 31 kg/m2 inclusive. All subjects will have a body weight greater than 50 kg. For Group H, women will be of non-childbearing potential, defined as follows: Female subjects 50 years of age or less must be surgically sterile or post-menopausal (defined as at least two years post cessation of menses and/or follicular stimulating hormone \\>18 mIU/mL and serum oestradiol \\<110 pmol/L), non-lactating and have a negative serum pregnancy test Female subjects of more than 51 years of age must be surgically sterile or post-menopausal (defined by a value of follicular stimulating hormone \\>18 mIU/mL and no spontaneous menstruation for at least one year before the first dose), non-lactating and have a negative serum pregnancy test.\n* Subjects must be in good health, as determined by a medical history, physical examination, 12-lead electrocardiogram (ECG) and clinical laboratory evaluations Note: congenital non-haemolytic hyperbilirubinaemia is not acceptable and serum potassium must be within the normal reference ranges (confirmed by repeat analysis).\n* Subjects will have given their written informed consent to participate in the study and to abide by the study restrictions.\n\nExclusion Criteria:\n\n* Male subjects or Female subjects in Group H who are not, or whose partners are not willing to use appropriate contraception (such as condom) with spermicidal foam/gel/film/cream/suppository) from the time of the first dose until 3 months after the final dosing occasion. Female subjects in Group L who are not, willing to use appropriate contraception (such as condom) with spermicidal foam/gel/film/cream/suppository) from the time of screening until 3 months after the final dosing occasion, who have not had a menstrual period in the 28 days before the first dose.\n* Subjects who have received any prescribed systemic or topical medication within 14 days of the first dose administration (for female subjects, stable hormone replacement therapy is acceptable) unless in the opinion of the Investigator the medication will not interfere with the study procedures or compromise safety.\n* Subjects who have used any non-prescribed systemic or topical medication (including herbal remedies) within 7 days of the first dose administration (with the exception of vitamin/mineral supplements) unless in the opinion of the Investigator the medication will not interfere with the study procedures or compromise safety.\n* Subjects who have received any medications, including St John's Wort, known to chronically alter drug absorption or elimination processes within 30 days of the first dose administration unless in the opinion of the Investigator the medication will not interfere with the study procedures or compromise safety\n* Subjects who are still participating in a clinical study (e.g. attending follow-up visits) or who have participated in a clinical study involving administration of an investigational drug (new chemical entity) in the past 3 months, where possible this will be confirmed using The Over Volunteering Protection Service (TOPS).\n* Subjects who have donated any blood, plasma or platelets in the 2 months prior to screening or who have made donations on more than two occasions within the 12 months preceding the first dose administration.\n* Subjects with a significant history of drug allergy as determined by the Investigator.\n* Subjects who have any clinically significant allergic disease (excluding non-active hayfever) as determined by the Investigator.\n* Subjects who have a supine blood pressure and supine pulse rate higher than 140/90 mmHg and 100 beats per minute (bpm), respectively, or lower than 90/50 mmHg and 40 bpm, respectively, confirmed by a repeat assessment.\n* Subjects who consume more than 28 units (males) or more than 21 units (females) of alcohol per week or who have a significant history of alcoholism or drug/chemical abuse as determined by the Investigator (one unit of alcohol equals \u00bd pint \\[285 mL\\] of beer or lager, one glass \\[125 mL\\] of wine, or 1/6 gill \\[25 mL\\] of spirits).\n* Subjects with a positive urine drug screen or alcohol breath test result at screening or first admission. Or a history of substance abuse in the last 12 months prior to the start of the study.\n* Subjects who smoke more than 5 cigarettes or the equivalent in tobacco per day.\n* Subjects with, or with a history of, any clinically significant neurological, gastrointestinal, renal, hepatic, cardiovascular, psychiatric, respiratory, metabolic, endocrine, haematological or other major disorders as determined by the Investigator.\n* Subjects with, or with a family history of Huntington's Disease\n* Subjects who have previously received histone deacetylase inhibitors e.g. vorinostat (Zolinza\u00ae) or have participated in a clinical trial using a histone deacetylase inhibitor.\n* Subjects who have had a clinically significant illness within 4 weeks of the start of dose administration as determined by the Investigator\n* Subjects who are known to have serum hepatitis, or who are carriers of the hepatitis B surface antigen (HBsAg) or hepatitis C antibody, or who have a positive result to the test for HIV antibodies.\n* Subjects who have an abnormality in the 12-lead ECG that, in the opinion of the investigator, increases the risk of participating in the study, such as QTcF interval \\>450 msec (male) or greater than 470msec (female), or with sinus rhythm with PR interval \\<110 msec or \\>240 msec, confirmed by a repeat ECG.\n* Subjects who, in the opinion of the Investigator, should not participate in the study.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Joseph A Chiesa, MD",
+                "affiliation": "Covance",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Covance Clinical Research Unit",
+                "city": "Leeds",
+                "zip": "LS2 9LH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.79648,
+                  "lon": -1.54785
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "25223836",
+                "type": "DERIVED",
+                "citation": "Westerberg G, Chiesa JA, Andersen CA, Diamanti D, Magnoni L, Pollio G, Darpo B, Zhou M. Safety, pharmacokinetics, pharmacogenomics and QT concentration-effect modelling of the SirT1 inhibitor selisistat in healthy volunteers. Br J Clin Pharmacol. 2015 Mar;79(3):477-91. doi: 10.1111/bcp.12513."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C550547",
+                "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01521585",
+            "orgStudyIdInfo": {
+              "id": "S015-002"
+            },
+            "organization": {
+              "fullName": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase II Safety and Tolerability Study With SEN0014196",
+            "officialTitle": "A Double-blind, Placebo-controlled Study in Huntington's Disease Patients to Determine the Safety and Tolerability of SEN0014196"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2015-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-11"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-01-26",
+            "studyFirstSubmitQcDate": "2012-01-26",
+            "studyFirstPostDateStruct": {
+              "date": "2012-01-30",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2015-11-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2015-11-25",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The principal aim of this study is to obtain safety and tolerability data when SEN0014196 is administered orally over 12 weeks to male and female patients with Huntington's Disease."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 144,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SEN0014196 50 mg oral tablet",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "SEN0014196 200 mg oral tablet",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Placebo tablet",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "50 mg oral once daily tablet",
+                "armGroupLabels": [
+                  "SEN0014196 50 mg oral tablet"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "200 mg oral once daily tablet",
+                "armGroupLabels": [
+                  "SEN0014196 200 mg oral tablet"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "oral once daily tablet",
+                "armGroupLabels": [
+                  "Placebo tablet"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability",
+                "description": "Adverse event (AE) reporting, 12-lead electrocardiogram (ECG), vital signs, physical examination findings, and laboratory safety tests. Suicide risk (Columbia Suicide Severity Rating Scale,C-SSRS).",
+                "timeFrame": "12 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Short-term clinical effects",
+                "description": "Global Clinical Impression (GCI, patient and clinician-based), UHDRS, Total Motor Scale (UHDRS-TMS), Functional Assessment, Independence Scale Assessment, Problem Behaviours Assessment, Cognitive Battery (Symbol Digit Modalities Test, Stroop Word Test, Verbal fluency, Mini-Mental State Examination \\[MMSE\\]).",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Modulation of candidate pharmacodynamic markers",
+                "description": "Acetylation status of mutant huntingtin, levels of soluble huntingtin.",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "Pharmacokinetic profile",
+                "timeFrame": "12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Genetically confirmed, manifest HD (CAG repeat length \u2265 36) and motor signs of HD (including motor score of the UHDRS \u2265 5).\n* Clinical Stages I to III (Total Functional Capacity Subscale Score \\[TFC\\] of \u2265 3).\n* Patients must be anticipated to be ambulatory and able to attend outpatient visits for the duration of the study.\n* Patients must be aged \u2265 30 years and \u2264 70 years.\n* Body mass index between 18 and 31 kg/m2 inclusive, and a body weight greater than 50 kg.\n* Patients must be able to give informed consent or have a legal representative who can consent on their behalf. Patients must be able to comply with trial procedures.\n* Patients must have no clinically significant and relevant medical or psychiatric history that could affect the conduct of the study and evaluation of the data, as ascertained by the Investigator through detailed medical history and screening assessments.\n* Male patients must agree to use condoms during the entire duration of the study and for 3 months following the last dose of study drug.\n* Females of childbearing potential (last menses less than 1 year prior to enrolment).\n\nExclusion Criteria:\n\n* Participation in a study with an investigational drug within 30 days of the Baseline Visit.\n* Any prior or concomitant use of Class I or Class II histone deacetylase (HDAC) inhibitors such as Zolinza\u00ae/vorinostat or belinostat.\n* Clinical evidence of significant or unstable medical illness in the Investigator's judgement, including screening transaminases (AST or ALT) \u2265 3 times the upper limit of normal (ULN), or an estimated GFR \\< 60 mL/min, or unexplained proteinuria or microscopic haematuria in an uncontaminated sample obtained at Screening and confirmed on repeat testing.\n* QTcF interval \\>450 ms in men and \\>470 ms in women or PR \\>220 ms, or other clinically relevant abnormal ECG findings\n* Women who are pregnant or breastfeeding.\n* Clinically significant abnormalities in the screening laboratory studies which, in the opinion of the Investigator, would interfere with participation in the study.\n* Current evidence or history (within 1 year of baseline) of psychosis, hallucinations or delusions, including major depression with psychotic features, as defined in the DSM-IV-TR. Patients currently experiencing mild depression, or moderate depression which is adequately and appropriately treated in the judgment of the Investigator, can participate if depression is not expected to interfere with study participation.\n* Suicide risk, as determined by meeting any of the following criteria:\n\n  * A suicide attempt within the past year or suicidal ideation within 60 days of the Baseline Visit (Day 1).\n  * Significant risk of suicide, as judged by the Principal Investigator, based on the psychiatric interview or information collected in the C-SSRS.\n* Current diagnosis or history (within 1 year of baseline) of any alcohol or substance abuse (except nicotine and caffeine-related disorders) as defined in the DSM-IV-TR.\n* Known allergy to any ingredient in the study drug (active and/or placebo).\n* A history of malignancy of any type within 2 years prior to screening. A history of surgically excised non-melanoma skin cancers is permitted.\n* Any relevant condition, behaviour, laboratory value, or concomitant medication which, in the opinion of the Investigator, makes the patient unsuitable for entry into the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "30 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Ralf Reilmann, MD",
+                "affiliation": "Dept. of Neurology, University of M\u00fcnster - Germany",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Dept. of Neurology, University of M\u00fcnster",
+                "city": "M\u00fcnster",
+                "zip": "48149",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.96236,
+                  "lon": 7.62571
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "The European Huntington's Disease Network",
+                "url": "http://www.euro-hd.net/html/network"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C550547",
+                "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04184323",
+            "orgStudyIdInfo": {
+              "id": "BL5280"
+            },
+            "organization": {
+              "fullName": "Wake Forest University Health Sciences",
+              "class": "OTHER"
+            },
+            "briefTitle": "SIRT-1 Antagonism for Endometrial Receptivity",
+            "officialTitle": "SIRT1-1 Antagonist Therapy Before Embryo Transfer to Improve Endometrial Receptivity and Life Pregnancy Rates",
+            "acronym": "SAFER"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-11",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Lack of funding",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2023-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-11-27",
+            "studyFirstSubmitQcDate": "2019-12-02",
+            "studyFirstPostDateStruct": {
+              "date": "2019-12-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-11-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-11-17",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Wake Forest University Health Sciences",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Progesterone resistance is mediated through epigenetic modification through SirT1 activation and is thought to contribute to infertility and progression of endometriosis. Endometriosis is a leading cause of unexplained IVF failure secondary to inflammatory changes that induce SirT1. The current study is designed to investigate a small molecule inhibitor of SirT1, in the clinical setting of In Vitro Fertilization and Embryo Transfer. The SAFER trial will compare EX-527 to placebo in a randomized, double-blind trial. Primary endpoints include Live Birth Rate (LBR) and secondary outcomes include pregnancy rate (PR), miscarriage rate (MR) and implantation failure rate.",
+            "detailedDescription": "The SAFER Trial will enroll women with unexplained failure after embryo transfer with euploid embryos. Subjects must have existing euploid embryos for transfer and test positive for SirT1 testing on endometrial biopsy. To qualify, they must be 18 to 40 years of age, have a normal uterine cavity, no serious systemic diseases (diabetes, lupus, cancer, etc) and be willing to be randomized to treatment with a SirT1 inhibitor, EX-527 or placebo. The medication will be provided and administered for 5 days prior to embryo transfer, after progesterone therapy is begun. The drug will be stopped 24 hr before embryo transfer. Standard protocols will be used including administration of progesterone, checking hCG 8 days after transfer, ultrasound monitoring of pregnancy and pregnancy outcomes recording, with Live Birth Rate (LBR) being the primary outcome of interest. We expect to enroll 30 women, with 15 subjects per arm. The goal of this study is to demonstrate efficacy for a specific inhibitor of SirT1 as a primary treatment of defects in endometrial receptivity due to endometriosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Endometriosis",
+              "Uterine Diseases",
+              "Endometrial Diseases",
+              "Infertility Unexplained",
+              "Infertility; Female, Nonimplantation"
+            ],
+            "keywords": [
+              "endometriosis",
+              "SIRT1",
+              "Progesterone resistance"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Double blind, placebo controlled comparison of SirT1 inhibitor treatment for implantation failure associated with endometriosis",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "Drug and placebo will be prepared in color coded capsules. Randomization will be performed using computer-generated lists assigned sequentially upon recruitment.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "EX-527",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "The drug will be administered daily for 5 days beginning with the start of progesterone therapy and ended 24 hours before embryo transfer",
+                "interventionNames": [
+                  "Drug: EX-527 (Selisistat)"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "The placebo will be administered daily for 5 days beginning with the start of progesterone therapy and ended 24 hours before embryo transfer",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EX-527 (Selisistat)",
+                "description": "EX-527 is a specific inhibitor of the histone deacetylase Sirtuin-1 (SirT1). It is being given to reverse the effects of endometriosis, namely progesterone resistance, that is thought to interfere with the establishment of pregnancy in women with endometriosis",
+                "armGroupLabels": [
+                  "EX-527"
+                ],
+                "otherNames": [
+                  "SEN0014196"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "We will use the same vehicle for producing the active drug such as maltose without any hormones or active components",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Live birth rate",
+                "description": "The number of successful pregnancies ending in live birth at the conclusion of the study divided by the number of embryo transfers in each group",
+                "timeFrame": "9 months to 2 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pregnancy rate",
+                "description": "The number of subjects with a demonstrated pregnancy based on elevated and sustained hCG levels divided by the number of embryo transfers per group",
+                "timeFrame": "9 months to 2 years"
+              },
+              {
+                "measure": "Miscarriage rate",
+                "description": "The number of sustained pregnancies lost divided by the number of pregnancies in each group",
+                "timeFrame": "9 months to 2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Must test positive for SIRT1 on mid-luteal endometrial biopsy\n* Prior failed embryo transfer with euploid embryos\n* Have at least one euploid embryo for transfer\n\nExclusion Criteria:\n\n* systemic illness affecting kidneys or liver; chronic headache or severe migraine\n* Endometritis, hydrosalpinges, and known adenomyosis\n* Uterine septum, uterine fibroids, endometrial polyps",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "genderBased": true,
+            "genderDescription": "Pregnancy is a required end point",
+            "minimumAge": "18 Years",
+            "maximumAge": "40 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Bruce A Lessey, MD, PhD",
+                "affiliation": "Wake Forest University Health Sciences",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Wake Forest School of Medicine",
+                "city": "Winston-Salem",
+                "state": "North Carolina",
+                "zip": "27157",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "25223836",
+                "type": "BACKGROUND",
+                "citation": "Westerberg G, Chiesa JA, Andersen CA, Diamanti D, Magnoni L, Pollio G, Darpo B, Zhou M. Safety, pharmacokinetics, pharmacogenomics and QT concentration-effect modelling of the SirT1 inhibitor selisistat in healthy volunteers. Br J Clin Pharmacol. 2015 Mar;79(3):477-91. doi: 10.1111/bcp.12513."
+              },
+              {
+                "pmid": "28754906",
+                "type": "BACKGROUND",
+                "citation": "Yoo JY, Kim TH, Fazleabas AT, Palomino WA, Ahn SH, Tayade C, Schammel DP, Young SL, Jeong JW, Lessey BA. KRAS Activation and over-expression of SIRT1/BCL6 Contributes to the Pathogenesis of Endometriosis and Progesterone Resistance. Sci Rep. 2017 Jul 28;7(1):6765. doi: 10.1038/s41598-017-04577-w."
+              },
+              {
+                "pmid": "30610661",
+                "type": "BACKGROUND",
+                "citation": "Likes CE, Cooper LJ, Efird J, Forstein DA, Miller PB, Savaris R, Lessey BA. Medical or surgical treatment before embryo transfer improves outcomes in women with abnormal endometrial BCL6 expression. J Assist Reprod Genet. 2019 Mar;36(3):483-490. doi: 10.1007/s10815-018-1388-x. Epub 2019 Jan 4."
+              },
+              {
+                "pmid": "29126613",
+                "type": "BACKGROUND",
+                "citation": "Almquist LD, Likes CE, Stone B, Brown KR, Savaris R, Forstein DA, Miller PB, Lessey BA. Endometrial BCL6 testing for the prediction of in vitro fertilization outcomes: a cohort study. Fertil Steril. 2017 Dec;108(6):1063-1069. doi: 10.1016/j.fertnstert.2017.09.017. Epub 2017 Nov 7."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The demographic data, group assignment, and outcome data for each subject will be shared with other researchers including embryo grade, stage, pregnancy results (pregnant, not pregnant, miscarriage, ongoing pregnancy, Live birth)",
+            "infoTypes": [
+              "STUDY_PROTOCOL",
+              "SAP",
+              "CSR"
+            ],
+            "timeFrame": "After completion of the study that includes live birth data"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004715",
+                "term": "Endometriosis"
+              },
+              {
+                "id": "D014591",
+                "term": "Uterine Diseases"
+              },
+              {
+                "id": "D007246",
+                "term": "Infertility"
+              },
+              {
+                "id": "C564871",
+                "term": "Progesterone Resistance"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005831",
+                "term": "Genital Diseases, Female"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D000091662",
+                "term": "Genital Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C550547",
+                "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01485965",
+            "orgStudyIdInfo": {
+              "id": "S015-007"
+            },
+            "organization": {
+              "fullName": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Open-label Food Effect Study With SEN0014196 in Subjects With Huntington Disease",
+            "officialTitle": "A Phase 1b, Open-label, Parallel-group Study in Subjects With Huntington Disease to Assess the Safety, Tolerability, and Fed/Fasted Pharmacokinetics of Repeated Oral Doses of SEN0014196"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2013-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-11"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2012-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-12",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-11-29",
+            "studyFirstSubmitQcDate": "2011-12-05",
+            "studyFirstPostDateStruct": {
+              "date": "2011-12-06",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2013-03-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2013-03-20",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Siena Biotech S.p.A.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary purpose of this study is to assess the effect of food upon the pharmacokinetics (PK) of SEN0014196 in subjects with Huntington disease (HD).",
+            "detailedDescription": "In addition to the pharmacokinetic endpoints, the study will assess the safety and tolerability of 100 mg once daily (qd) doses of SEN0014196 over 14 days in subjects with HD and explore potential biomarkers for use in subsequent Phase 2/3 studies."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ],
+            "keywords": [
+              "Huntington Disease",
+              "Basal Ganglia Diseases",
+              "Brain Diseases",
+              "Central Nervous System Diseases",
+              "Nervous System Diseases",
+              "Dementia",
+              "Chorea",
+              "Dyskinesias",
+              "Movement Disorders",
+              "Heredodegenerative Disorders, Nervous System",
+              "Neurodegenerative Diseases",
+              "Genetic Diseases, Inborn",
+              "Cognition Disorders",
+              "Mental Disorders"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 26,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Fasted condition",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects in the Fasted group will take study drug after an overnight fast (since at least midnight). Additionally, on PK assessment days, no food will be allowed for at least 4 hours after study drug administration.",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              },
+              {
+                "label": "Fed condition",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects in the Fed group will take study drug within 30 minutes after starting breakfast; these subjects will otherwise maintain their normal eating schedule.",
+                "interventionNames": [
+                  "Drug: SEN0014196"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SEN0014196",
+                "description": "100 mg, immediate release tablets, once daily administration",
+                "armGroupLabels": [
+                  "Fasted condition",
+                  "Fed condition"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To determine the effect of food on the repeated dose pharmacokinetics of SEN0014196 at 100 mg once daily in subjects with Huntington's disease",
+                "description": "The effect of food on the PK of SEN0014196 will be evaluated for the following parameters: maximum observed plasma concentration (Cmax), time of maximum observed plasma concentration(tmax), AUC from time zero to the length of the dosing interval (tau) (AUC0-\u03c4), AUC from time zero to the last quantifiable concentration (AUC0-last), AUC from time zero to infinity (AUC0-\u221e), terminal elimination half-life (t1/2), and terminal elimination rate constant (\u03bbz).",
+                "timeFrame": "14 Days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacodynamics",
+                "description": "The following PD biomarkers will be assessed: soluble huntingtin levels and huntingtin acetylation status (by enzyme-linked immunosorbent assay \\[ELISA\\] and liquid chromatography-tandem mass spectrometry \\[LC-MS/MS\\]).",
+                "timeFrame": "14 Days"
+              },
+              {
+                "measure": "To determine the safety and tolerability of repeated doses of SEN0014196 at 100 mg once daily in subjects with Huntington's disease",
+                "description": "Safety assessments include: AEs, ECGs, vital signs, body weight and height, clinical laboratory evaluations (serum biochemistry and hematology), urinalysis, physical and neurological examinations, C-SSRS, and UHDRS.",
+                "timeFrame": "14 Days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects with early to mid HD, i.e., genetically confirmed HD (cytosine, adenine, guanine \\[CAG\\] codon repeat length \u2265 36), motor signs of HD, and a Total Functional Capacity Subscale Score (TFC) \u2265 7\n* Body mass index between 18 and 31 kg/m2 inclusive\n* All subjects must have a body weight greater than 50 kg\n* Female subjects must be surgically sterile, postmenopausal, or willing to practice a highly effective method of contraception. All female participants must be nonlactating and nonpregnant. Male subjects must agree to use a reliable method of birth control during the study and for 3 months after the last dose of study drug.\n* Capable of providing informed consent\n* MMSE \u226524\n* Subjects must have a live-in competent observer\n\nExclusion Criteria:\n\n* Participation in a study or received an investigational drug within 30 days of the Baseline Visit\n* Any prior or concomitant use of compounds suspected of interfering with protein acetylation\n* Any concomitant use of medications that are known inhibitors of CYP450 enzymes or substrates of CYP1A2 at the time of enrollment\n* Suicide risk, as determined by meeting either of the following criteria: a) a suicide attempt within the past year or suicidal ideation within 60 days of the Screening Visit; b) Significant risk of suicide, as judged by the Investigator\n* Subjects with MMSE \\< 24\n* Subjects with presence of clinically significant psychosis and/or confusional states, in the opinion of the Investigator\n* Subjects with clinically significant laboratory or ECG abnormalities at Screening or Baseline\n* Subjects with clinically relevant hematologic, hepatic, cardiac, or renal disease\n* Subjects with a current or past (within the last 12 months) history of epilepsy or seizures\n* A medical history of infection with human immunodeficiency virus, hepatitis C, and/or hepatitis B\n* Subjects with a history of substance abuse within the past 12 months\n* Female subjects who are pregnant or breastfeeding\n* Known allergy to any ingredient in the study drug\n* A history of malignancy of any type within 2 years prior to Screening. A history of surgically-excised nonmelanoma skin cancers is permitted.\n* Any relevant condition, behavior, laboratory value, or concomitant medication which, in the opinion of the Investigator, makes the subject unsuitable for entry into the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Francis O Walker, MD",
+                "affiliation": "Wake Forest University Health Sciences",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of California San Diego",
+                "city": "La Jolla",
+                "state": "California",
+                "zip": "92037-0706",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                }
+              },
+              {
+                "facility": "University of California Davis Medical Center",
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95655",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "facility": "Washington University",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "University of Rochester",
+                "city": "Rocherster",
+                "state": "New York",
+                "zip": "14627",
+                "country": "United States"
+              },
+              {
+                "facility": "Wake Forest School of Medicine",
+                "city": "Winston-Salem",
+                "state": "North Carolina",
+                "zip": "27157-1078",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                }
+              },
+              {
+                "facility": "University of Texas Southwestern Medical Center",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75390-8527",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "Baylor College of Medicine",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C550547",
+                "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

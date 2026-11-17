@@ -1,0 +1,1585 @@
+{
+  "integrated_id": "systemic:sys_c348ab7a37d2",
+  "asset": "BRL-101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=BRL-101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06314529",
+            "orgStudyIdInfo": {
+              "id": "2022-LTF-BHC001"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Follow-up Study of BHC001 for TDT",
+            "officialTitle": "Long-term Follow-up Study of BHC001 in the Treatment of Transfusion-dependent \u03b2-thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-12-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2036-12-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2037-05-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-06",
+            "studyFirstSubmitQcDate": "2024-03-11",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-03-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "The 923rd Hospital of Joint Logistics Support Force of People's Liberation Army",
+                "class": "OTHER"
+              },
+              {
+                "name": "Xiangya Hospital of Central South University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Observe long-term safety risk and long-term efficacy after intravenous infusion of BHC001 in TDT subjects.",
+            "detailedDescription": "Observe long-term delayed safety risks such as emerging neoplasms, emerging haematological disorders, and long-term efficacy after intravenous infusion of BHC001 in TDT subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Thalassemia, Beta"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "CASE_ONLY",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "description": "All patients who have received BRL-101",
+                "interventionNames": [
+                  "Other: Assessments"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "Assessments",
+                "description": "Safety and efficacy assessments",
+                "armGroupLabels": [
+                  "BRL-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of hematologic malignancies",
+                "description": "Such as new lymphoma, leukemia, MDS, etc.",
+                "timeFrame": "Up to 15 years post-drug product infusion"
+              },
+              {
+                "measure": "Frequency, grade, and relationship of SAEs",
+                "description": "Frequency, grade, and relationship to BRL-101 of SAEs following BRL-101 reinfusion",
+                "timeFrame": "Within 2 years to 5years after BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of written informed consent for this study by subjects, or as applicable, subject's parent(s)/legal guardian(s)\n2. Treated with BRL-101 for therapy of transfusion-dependent \u03b2-thalassemia.\n\nExclusion Criteria:\n\n\\- There are no exclusion criteria for this study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "5 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "Subjects with transfusion-dependent \u03b2-thalassemia who have been treated with BHC001.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaochen Wang, PhD",
+                "role": "CONTACT",
+                "phone": "021-64340008",
+                "email": "xcwang@brlmed.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Xiaochen Wang, PhD",
+                "affiliation": "Bioray Laboratories",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The 923rd Hospital of Joint Logistics Support Force of People's Liberation Army",
+                "status": "RECRUITING",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xinhua Zhang, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Xiangya Hospital of Central South University",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "510510",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Bin Fu, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05577312",
+            "orgStudyIdInfo": {
+              "id": "2022-BRL-101"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy Evaluation of BRL-101 in Subjects With Transfusion-Dependent \u03b2-Thalassemia",
+            "officialTitle": "A Phase 1/2 Clinical Study to Evaluate the Safety and Efficacy of Single Dose Intravenous Infusion of BRL-101 in Subjects With Transfusion-Dependent \u03b2-Thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-11-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-10-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-07-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-09",
+            "studyFirstSubmitQcDate": "2022-10-09",
+            "studyFirstPostDateStruct": {
+              "date": "2022-10-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Xiangya Hospital of Central South University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Chinese Academy of Medical Sciences",
+                "class": "OTHER"
+              },
+              {
+                "name": "Nanfang Hospital, Southern Medical University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+                "class": "OTHER"
+              },
+              {
+                "name": "The 923rd Hospital of Joint Logistics Support Force of People's Liberation Army",
+                "class": "OTHER"
+              },
+              {
+                "name": "Shenzhen Children's Hospital",
+                "class": "OTHER_GOV"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a non-randomized, open label, multi-site, single-dose, phase 1/2 study in subjects with Transfusion-Dependent \u03b2-Thalassemia (TDT). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (BRL-101)",
+            "detailedDescription": "This clinical trial is a multi-center, single-arm, single-dose, open-label study without dose escalation. The proposed dose is \u2265 3 \u00d7 106 CD34 + cells/kg administered as a single intravenous infusion. The primary objective of Phase 1 is to explore the safety of the study drug in different age groups. For subjects of each age group, myeloablative conditioning and dosing of the remaining subjects was initiated only after completion of dosing and safety observations and assessments in sentinel subjects. The Phase 2 primary objective was to determine the effectiveness of BRL-101 administered intravenously to patients with TDT."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ],
+            "keywords": [
+              "Transfusion-Dependent \u03b2-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "type": "EXPERIMENTAL",
+                "description": "BRL-101 (autologous CD34+ hHSPCs modified with CRISPR-Cas9 at the erythroid lineage-specific enhancer of the BCL11A gene). Subjects will receive a single infusion of BRL-101.",
+                "interventionNames": [
+                  "Drug: BRL-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BRL-101",
+                "description": "CD34 + autologous hematopoietic stem and progenitor cells edited at the BCL11A enhancer site",
+                "armGroupLabels": [
+                  "BRL-101"
+                ],
+                "otherNames": [
+                  "BRL-101 autologous hematopoietic stem and progenitor cells injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of stem cell engrafted subjects",
+                "description": "Stem cell engraftment was defined as an absolute peripheral blood neutrophil count of \u2265 0.5 \u00d7 109/L for 3 consecutive days within 42 days following BRL-101 intravenous infusion.",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Defined as Day 1 of absolute peripheral blood neutrophil count \u2265 0.5 \u00d7 109/L for 3 consecutive days",
+                "timeFrame": "Up to 12 Months After BRL-101 Infusion"
+              },
+              {
+                "measure": "Frequency, severity, and relationship to BRL-101 of adverse events over 12 months following BRL-101 infusion",
+                "description": "Adverse events assessed according to NCI-CTCAE v5.0 criteria",
+                "timeFrame": "Up to 12 Months After BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Fully understand and voluntarily sign informed consent. 3-35years old. At least one legal guardian and/or Subjects to sign informed consent.\n* Clinically diagnosed as \u03b2-thalassemia major, phenotypes including \u03b20\u03b20, \u03b2+\u03b2+, \u03b2+\u03b20, \u03b2E\u03b20 genotype.\n* Subjects with no affection with HIV, TP, HBV, HCV, CMV and EBV.\n* Subjects body condition eligible for autologous stem cell transplant.\n\nKey Exclusion Criteria:\n\n* Subjects acceptable for allogeneic hematopoietic stem cell transplantation and have an available fully matched related donor.\n* Active bacterial, viral, or fungal infection.\n* Treated with erythropoietin prior 3 months.\n* Immediate family member with any known hematological tumor.\n* Subjects with severe psychiatric disorders to be unable to cooperate.\n* Prior hematopoietic stem cell transplant (HSCT).\n\nOther protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Rongmei Liang, PhD",
+                "affiliation": "Bioray Laboratories",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Nanfang Hospital, Southern Medical University",
+                "city": "Guangzhou",
+                "state": "Guangdong",
+                "zip": "510510",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 23.11667,
+                  "lon": 113.25
+                }
+              },
+              {
+                "facility": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen Universit",
+                "city": "Guanzhou",
+                "state": "Guangdong",
+                "zip": "510006",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 23.06828,
+                  "lon": 113.37117
+                }
+              },
+              {
+                "facility": "Shenzhen Children 's Hospital",
+                "city": "Shenzhen",
+                "state": "Guangdong",
+                "zip": "510006",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "No. 923 Hospital of Joint Support Force of Chinese People 's Liberation Army Hospital",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Xiangya Hospital of Central South University",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "510510",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "Chinese Academy of Medical Sciences",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06287099",
+            "orgStudyIdInfo": {
+              "id": "2023-BRL-101-SCD"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Clinical Study of BRL-101 in the Treatment of Sickle Cell Disease",
+            "officialTitle": "Clinical Study on the Safety and Efficacy of a Single Intravenous Dose of CRISPR/Cas9-Edited Autologous CD34+ Hematopoietic Stem/Progenitor Cells (BRL-101) in the Treatment of Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-04-20",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-10-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-05-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-23",
+            "studyFirstSubmitQcDate": "2024-02-23",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-03-19",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Nanfang Hospital, Southern Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center, non-randomized, open label, single-dose study in subjects with Sickle Cell Disease (SCD). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (BRL-101).",
+            "detailedDescription": "This clinical trial is a single-arm, single-dose, single center, open-label study without dose escalation. The primary objective is to explore the safety of the study drug in SCD. Myeloablative conditioning and administration for the remaining subjects can only be started after the first subject completes dosing and safety observation and assessment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hHSPCs modified with CRISPR-Cas9 at the BCL11A gene. Subjects will receive a single infusion of BRL-101.",
+                "interventionNames": [
+                  "Drug: BRL-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BRL-101",
+                "description": "Subjects will receive a single infusion of BRL-101.",
+                "armGroupLabels": [
+                  "BRL-101"
+                ],
+                "otherNames": [
+                  "Autologous hematopoietic stem and progenitor cells injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of stem cell engrafted subjects",
+                "description": "Stem cell engraftment was defined as an absolute peripheral blood neutrophil count of \u2265 0.5 \u00d7 109/L for 3 consecutive days following BRL-101 intravenous infusion.",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Defined as Day 1 of absolute peripheral blood neutrophil count \u2265 0.5 \u00d7 109/L for 3 consecutive days",
+                "timeFrame": "Within 42 Days After BRL-201 Infusion"
+              },
+              {
+                "measure": "Frequency, severity, and relationship to BRL-101 of adverse events over 12 months following BRL-101 infusion.",
+                "description": "Adverse events assessed according to NCI-CTCAE v5.0 criteria",
+                "timeFrame": "Within 12 Months After BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Fully understood this study and voluntarily signed the written informed consent form.\n2. Aged between 3 and 35 years.\n3. Be diagnosed with Sickle Cell Disease (SCD), with a genotype of \u03b2S/\u03b2S, \u03b2S/\u03b2+ or \u03b2S/\u03b20.\n4. A Lansky/Karnofsky Performance Status (LPS) score of \u226580.\n5. Suitable for autologous hematopoietic stem cell transplantation.\n6. Have good compliance and are willing to adhere to visit schedules, trial protocols, laboratory tests, and other trial procedures.\n7. Agree to participating in long-term follow-up studies.\n8. Subjects of childbearing potential must use effective contraception for at least 6 months following cell reinfusion during the study.\n\nExclusion Criteria:\n\n\\-\n\nSubjects meeting any of the following criteria are not eligible for enrolment in the study:\n\n1. Known contraindications, intolerance, or hypersensitivity to hematopoietic stem cell mobilizers, busulfan injection, or dimethyl sulfoxide (DMSO) or study drug-related components.\n2. Eligible for allogeneic hematopoietic stem cell transplantation and have found HLA-identical donors.\n3. Prior allo-HSCT, gene therapy or gene editing therapy.\n4. Clinically significant and active bacterial, viral, fungal, or parasitic infection as determined by the investigator.\n5. HbF level \\>15.0%, irrespective of concomitant treatment with HbF inducing treatments such as HU.\n6. Treatment with regular RBC transfusions that, in the opinion of the investigator, cannot be interrupted after engraftment.\n7. More than 10 unplanned hospitalizations or emergency department visits related to SCD in the 1 year before screening and the investigator considered this to be a significant chronic pain rather than an acute pain crisis.\n8. A history of clinically significant transcranial Doppler (TCD) test abnormalities or test abnormalities in the opinion of the investigator.\n9. History of untreated Moyamoya disease or presence of Moyamoya disease at screening that in the opinion of the investigator puts the subjects at the risk of bleeding.\n10. The subject has participated in other clinical studies and used drugs within 3 months before screening.\n11. White blood cell count \\< 3 \u00d7 109/L and/or platelet count \\< 100 \u00d7 109/L not due to hypersplenism as judged by the investigator.\n12. INR \\> 1.5\u00d7ULN, APTT \\> 1.5\u00d7ULN.\n13. Creatinine \\> 1.5 \u00d7 ULN or endogenous creatinine clearance \\< 60 ml/min (calculated according to the Cockcroft-Gault formula, see Appendix 3).\n14. ALT or AST\\> 3\u00d7ULN, or direct bilirubin value \\> 2.5\u00d7ULN.\n15. Severe iron overload with serum ferritin \u2265 5000 ng/ml, liver iron \\> 15 mg Fe/g dry weight (or liver MRIT2\\* \\< 1.4 ms or \\> 588 Hz), or heart MRI-T2\\* \\< 10 ms.\n16. LVEF \\< 50%.\n17. DLco \\< 50% predicted (corrected haemoglobin or/and alveolar volume) or forced vital capacity (FVC) (measured/predicted) \\< 60% (For children for whom DLco could not be determined), or abnormal blood gas analysis (for younger children with undetectable ventilatory function only).\n18. Hepatitis B virus surface antigen (HBsAg) positive or HBV-DNA positive; hepatitis C virus (HCV) antibody positive; human immunodeficiency virus (HIV) antibody positive; syphilis (TP) -specific antibody positive; Epstein-Barr virus EBV-DNA positive; cytomegalovirus CMV-DNA positive.\n19. History of a significant bleeding disorder.\n20. History or family history of malignancy or myeloproliferative disorder.\n21. Any prior or current cardiovascular system diseases, such as congestive heart failure, arrhythmia, myocardial disease, valvular heart disease or pulmonary hypertension; cirrhosis, liver fibrosis or active hepatitis; central nervous system diseases or mental illness.\n22. Presence of immune dysfunction or endocrine disorders, such as insulin-dependent diabetes mellitus, hyperthyroidism, or insufficiency.\n23. Pregnant or breastfeeding females.\n24. Any condition that, in the opinion of the investigator, would make participation in this clinical study inappropriate.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaoqin Feng, PhD",
+                "role": "CONTACT",
+                "phone": "020-61641921",
+                "email": "fxq126126@126.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Xiaoqin Feng, PhD",
+                "affiliation": "Nanfang Hospital, Southern Medical University",
+                "role": "STUDY_CHAIR"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06300723",
+            "orgStudyIdInfo": {
+              "id": "2024-BRL-101-SCD-01"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Clinical Study of BRL-101 in Severe SCD",
+            "officialTitle": "Clinical Study to Evaluate the Safety and Efficacy of Single Dose Intravenous Infusion of CRISPR/Cas9-edited Autologous CD34 + Hematopoietic Stem/Progenitor Cells (BRL-101) in the Treatment of Severe Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-07-29",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-03-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-06-15",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-03",
+            "studyFirstSubmitQcDate": "2024-03-03",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-29",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-07-31",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center, non-randomized, open label, single-dose study in subjects with Sickle Cell Disease (SCD). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (BRL-101).",
+            "detailedDescription": "This clinical trial is a single-arm, single-dose, single center, open-label study without dose escalation. The primary objective is to explore the safety of the study drug in SCD. Myeloablative conditioning and administration for the remaining subjects can only be started after the first subject completes dosing and safety observation and assessment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 3,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hHSPCs modified with CRISPR-Cas9 at the BCL11A gene. Subjects will receive a single infusion of BRL-101.",
+                "interventionNames": [
+                  "Drug: BRL-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BRL-101",
+                "description": "CD34 + autologous hematopoietic stem and progenitor cells edited at the BCL11A gene.",
+                "armGroupLabels": [
+                  "BRL-101"
+                ],
+                "otherNames": [
+                  "Autologous hematopoietic stem and progenitor cells injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of stem cell engrafted subjects",
+                "description": "Stem cell engraftment was defined as an absolute peripheral blood neutrophil count of \u2265 0.5 \u00d7 109/L for 3 consecutive days following BRL-101 intravenous infusion",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Defined as Day 1 of absolute peripheral blood neutrophil count \u2265 0.5 \u00d7 109/L for 3 consecutive days",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Frequency, severity, and relationship to BRL-101 of adverse events over 12 months following BRL-101 infusion",
+                "description": "Adverse events assessed according to NCI-CTCAE v5.0 criteria",
+                "timeFrame": "Up to 12 Months After BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n\\-\n\nSubjects must meet all the following inclusion criteria to be eligible for enrolment into the study:\n\n1. Subject (or their legally authorized representative or guardian) will sign and date an informed consent form (ICF) and, where applicable, an assent form.\n2. Subjects 3 to 35 years of age, inclusive, on the date of informed consent.\n3. Clinically confirmed severe SCD, genotypes include: \u03b2S/\u03b2S, \u03b2S/\u03b2 + or \u03b2S/\u03b20. Severe SCD is defined as having at least 2 VOC events per year during the 2 years prior to screening and requiring appropriate supportive care, including a pain management program, HU therapy (if indicated).\n4. Karnofsky performance status of \u226580% for subjects \u226516 years of age. Lansky performance status of \u226580% for subjects \\<16 years of age (see Appendix 1 and 2).\n5. Eligible for autologous stem cell transplant as per investigator's judgment.\n6. Willing and able to comply with scheduled visits, treatment plan, laboratory tests, contraceptive guidelines, and other study procedures.\n7. Willing to participate in an additional long-term follow-up study after completion of this study .\n8. Subjects of childbearing potential must use effective contraception for at least 6 months after BRL-101 infusion during the study.\n\nExclusion Criteria:\n\n\\-\n\nSubjects meeting any of the following criteria are not eligible for enrolment in the study:\n\n1. Known contraindications, intolerance, or hypersensitivity to hematopoietic stem cell mobilizers, busulfan injection, or dimethyl sulfoxide (DMSO) or study drug-related components.\n2. Eligible for allogeneic hematopoietic stem cell transplantation and have found HLA-identical donors.\n3. Prior allo-HSCT, gene therapy or gene editing therapy.\n4. Clinically significant and active bacterial, viral, fungal, or parasitic infection as determined by the investigator.\n5. HbF level \\>15.0%, irrespective of concomitant treatment with HbF inducing treatments such as HU.\n6. Treatment with regular RBC transfusions that, in the opinion of the investigator, cannot be interrupted after engraftment.\n7. More than 10 unplanned hospitalizations or emergency department visits related to SCD in the 1 year before screening and the investigator considered this to be a significant chronic pain rather than an acute pain crisis.\n8. A history of clinically significant transcranial Doppler (TCD) test abnormalities or test abnormalities in the opinion of the investigator.\n9. History of untreated Moyamoya disease or presence of Moyamoya disease at Screening that in the opinion of the investigator puts the subjects at the risk of bleeding.\n10. the subject has participated in other clinical studies and used drugs within 3 months before screening.\n11. White blood cell count \\< 3 \u00d7 109/L and/or platelet count \\< 100 \u00d7 109/L not due to hypersplenism as judged by the investigator.\n12. INR \\> 1.5\u00d7ULN, APTT \\> 1.5\u00d7ULN.\n13. Creatinine \\> 1.5 \u00d7 ULN or endogenous creatinine clearance \\< 60 ml/min (calculated according to the Cockcroft-Gault formula, see Appendix 3).\n14. ALT or AST\\> 3\u00d7ULN, or direct bilirubin value \\> 2.5\u00d7ULN.\n15. Severe iron overload with serum ferritin \u2265 5000 ng/ml, liver iron \\> 15 mg Fe/g dry weight (or liver MRIT2\\* \\< 1.4 ms or \\> 588 Hz), or heart MRI-T2\\* \\< 10 ms.\n16. LVEF \\< 50%.\n17. DLco \\< 50% predicted (corrected haemoglobin or/and alveolar volume) or forced vital capacity (FVC) (measured/predicted) \\< 60% (For children for whom DLco could not be determined), or abnormal blood gas analysis (for younger children with undetectable ventilatory function only).\n18. Hepatitis B virus surface antigen (HBsAg) positive or HBV-DNA positive; hepatitis C virus (HCV) antibody positive; human immunodeficiency virus (HIV) antibody positive; syphilis (TP) -specific antibody positive; Epstein-Barr virus EBV-DNA positive; cytomegalovirus CMV-DNA positive.\n19. History of a significant bleeding disorder.\n20. History or family history of malignancy or myeloproliferative disorder.\n21. Any prior or current cardiovascular system diseases, such as congestive heart failure, arrhythmia, myocardial disease, valvular heart disease or pulmonary hypertension; cirrhosis, liver fibrosis or active hepatitis; central nervous system diseases or mental illness.\n22. Presence of immune dysfunction or endocrine disorders, such as insulin-dependent diabetes mellitus, hyperthyroidism, or insufficiency.\n23. Pregnant or breastfeeding females.\n24. Any condition that, in the opinion of the investigator, would make participation in this clinical study inappropriate.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Yongrong Lai, phD",
+                "affiliation": "First Affiliated Hospital of Guangxi Medical University",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06287086",
+            "orgStudyIdInfo": {
+              "id": "2024-BRL-101-SCD"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Clinical Study on the Safety and Efficacy of BRL-101 in the Treatment of Sickle Cell Disease",
+            "officialTitle": "Clinical Study on the Safety and Efficacy of a Single Intravenous Dose of CRISPR/Cas9-Edited Autologous CD34+ Hematopoietic Stem/Progenitor Cells (BRL-101) in the Treatment of Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-06-14",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-08-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-06-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-23",
+            "studyFirstSubmitQcDate": "2024-02-23",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-06-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Chinese Academy of Medical Sciences",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center, non-randomized, open label, single-dose study in subjects with Sickle Cell Disease (SCD). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (BRL-101)",
+            "detailedDescription": "This clinical trial is a single-arm, single-dose, single center, open-label study without dose escalation. The primary objective is to explore the safety of the study drug in SCD. Myeloablative conditioning and administration for the remaining subjects can only be started after the first subject completes dosing and safety observation and assessment."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "type": "EXPERIMENTAL",
+                "description": "BRL-101 (autologous CD34+ hHSPCs modified with CRISPR-Cas9 at the BCL11A gene. Subjects will receive a single infusion of BRL-101.",
+                "interventionNames": [
+                  "Drug: BRL-101 autologous hematopoietic stem and progenitor cells injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BRL-101 autologous hematopoietic stem and progenitor cells injection",
+                "description": "CD34 + autologous hematopoietic stem and progenitor cells edited at the BCL11A gene.",
+                "armGroupLabels": [
+                  "BRL-101"
+                ],
+                "otherNames": [
+                  "BRL-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of stem cell engrafted subjects",
+                "description": "Stem cell engraftment was defined as an absolute peripheral blood neutrophil count of \u2265 0.5 \u00d7 109/L for 3 consecutive days following BRL-101 intravenous infusion.",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Defined as Day 1 of absolute peripheral blood neutrophil count \u2265 0.5 \u00d7 109/L for 3 consecutive days",
+                "timeFrame": "Within 42 Days After BRL-101 Infusion"
+              },
+              {
+                "measure": "Frequency, severity, and relationship to BRL-101 of adverse events over 12 months following BRL-101 infusion..",
+                "description": "Adverse events assessed according to NCI-CTCAE v5.0 criteria",
+                "timeFrame": "Within 12 Months After BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nSubjects must meet all the following inclusion criteria to be eligible for enrolment into the study:\n\n1. Subject (or their legally authorized representative or guardian) will sign and date an informed consent form (ICF) and, where applicable, an assent form.\n2. Subjects 3 to 35 years of age, inclusive, on the date of informed consent.\n3. Clinically confirmed severe SCD, genotypes include: \u03b2S/\u03b2S, \u03b2S/\u03b2 + or \u03b2S/\u03b20. Severe SCD is defined as having at least 2 VOC events per year during the 2 years prior to screening and requiring appropriate supportive care, including a pain management program, HU therapy (if indicated).\n4. Karnofsky performance status of \u226580% for subjects \u226516 years of age. Lansky performance status of \u226580% for subjects \\<16 years of age (see Appendix 1 and 2).\n5. Eligible for autologous stem cell transplant as per investigator's judgment.\n6. Willing and able to comply with scheduled visits, treatment plan, laboratory tests, contraceptive guidelines, and other study procedures.\n7. Willing to participate in an additional long-term follow-up study after completion of this study (Study 2022-LTF-BRL-101).\n8. Subjects of childbearing potential must use effective contraception for at least 6 months after BRL-101 infusion during the study.\n\nExclusion Criteria\n\nSubjects meeting any of the following criteria are not eligible for enrolment in the study:\n\n1. Known contraindications, intolerance, or hypersensitivity to hematopoietic stem cell mobilizers, busulfan injection, or dimethyl sulfoxide (DMSO) or study drug-related components.\n2. Eligible for allogeneic hematopoietic stem cell transplantation and have found HLA-identical donors.\n3. Prior allo-HSCT, gene therapy or gene editing therapy.\n4. Clinically significant and active bacterial, viral, fungal, or parasitic infection as determined by the investigator.\n5. HbF level \\>15.0%, irrespective of concomitant treatment with HbF inducing treatments such as HU.\n6. Treatment with regular RBC transfusions that, in the opinion of the investigator, cannot be interrupted after engraftment.\n7. More than 10 unplanned hospitalizations or emergency department visits related to SCD in the 1 year before screening and the investigator considered this to be a significant chronic pain rather than an acute pain crisis.\n8. A history of clinically significant transcranial Doppler (TCD) test abnormalities or test abnormalities in the opinion of the investigator.\n9. History of untreated Moyamoya disease or presence of Moyamoya disease at Screening that in the opinion of the investigator puts the subjects at the risk of bleeding.\n10. the subject has participated in other clinical studies and used drugs within 3 months before screening.\n11. White blood cell count \\< 3 \u00d7 109/L and/or platelet count \\< 100 \u00d7 109/L not due to hypersplenism as judged by the investigator.\n12. INR \\> 1.5\u00d7ULN, APTT \\> 1.5\u00d7ULN.\n13. Creatinine \\> 1.5 \u00d7 ULN or endogenous creatinine clearance \\< 60 ml/min (calculated according to the Cockcroft-Gault formula, see Appendix 3).\n14. ALT or AST\\> 3\u00d7ULN, or direct bilirubin value \\> 2.5\u00d7ULN.\n15. Severe iron overload with serum ferritin \u2265 5000 ng/ml, liver iron \\> 15 mg Fe/g dry weight (or liver MRIT2\\* \\< 1.4 ms or \\> 588 Hz), or heart MRI-T2\\* \\< 10 ms.\n16. LVEF \\< 50%.\n17. DLco \\< 50% predicted (corrected haemoglobin or/and alveolar volume) or forced vital capacity (FVC) (measured/predicted) \\< 60% (For children for whom DLco could not be determined), or abnormal blood gas analysis (for younger children with undetectable ventilatory function only).\n18. Hepatitis B virus surface antigen (HBsAg) positive or HBV-DNA positive; hepatitis C virus (HCV) antibody positive; human immunodeficiency virus (HIV) antibody positive; syphilis (TP) -specific antibody positive; Epstein-Barr virus EBV-DNA positive; cytomegalovirus CMV-DNA positive.\n19. History of a significant bleeding disorder.\n20. History or family history of malignancy or myeloproliferative disorder.\n21. Any prior or current cardiovascular system diseases, such as congestive heart failure, arrhythmia, myocardial disease, valvular heart disease or pulmonary hypertension; cirrhosis, liver fibrosis or active hepatitis; central nervous system diseases or mental illness.\n22. Presence of immune dysfunction or endocrine disorders, such as insulin-dependent diabetes mellitus, hyperthyroidism, or insufficiency.\n23. Pregnant or breastfeeding females.\n24. Any condition that, in the opinion of the investigator, would make participation in this clinical study inappropriate.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Jun shi, PhD",
+                "role": "CONTACT",
+                "phone": "13752253515",
+                "email": "shijun@ihcams.ac.cn"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Jun shi, PhD",
+                "affiliation": "Chinese Academy of Medical Sciences",
+                "role": "STUDY_CHAIR"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06298630",
+            "orgStudyIdInfo": {
+              "id": "2022-LTF-BRL-101"
+            },
+            "organization": {
+              "fullName": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Follow-up Study of BRL-101 for TDT",
+            "officialTitle": "Long-term Follow-up Study of BRL-101 in the Treatment of Transfusion-dependent \u03b2-thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-08",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2038-08-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2038-10-15",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-01",
+            "studyFirstSubmitQcDate": "2024-03-01",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-07",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bioray Laboratories",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Xiangya Hospital of Central South University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Chinese Academy of Medical Sciences",
+                "class": "OTHER"
+              },
+              {
+                "name": "Nanfang Hospital, Southern Medical University",
+                "class": "OTHER"
+              },
+              {
+                "name": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+                "class": "OTHER"
+              },
+              {
+                "name": "The 923rd Hospital of Joint Logistics Support Force of People's Liberation Army",
+                "class": "OTHER"
+              },
+              {
+                "name": "Shenzhen Children's Hospital",
+                "class": "OTHER_GOV"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Observe long-term safety risk and long-term efficacy after intravenous infusion of BRL-101 in TDT subjects.",
+            "detailedDescription": "Observe long-term delayed safety risks such as emerging neoplasms, emerging haematological disorders, and long-term efficacy after intravenous infusion of BRL-101 in TDT subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Thalassemia, Beta"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "CASE_ONLY",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 45,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BRL-101",
+                "description": "All patients who have received BRL-101",
+                "interventionNames": [
+                  "Other: Assessments"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "Assessments",
+                "description": "Safety and efficacy assessments",
+                "armGroupLabels": [
+                  "BRL-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of hematologic malignancies",
+                "description": "Such as new lymphoma, leukemia, MDS, etc.",
+                "timeFrame": "Up to 15 years post-drug product infusion"
+              },
+              {
+                "measure": "Frequency, grade, and relationship of SAEs",
+                "description": "Frequency, grade, and relationship to BRL-101 of SAEs following BRL-101 reinfusion.",
+                "timeFrame": "Within 2 years to 5years after BRL-101 Infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of written informed consent for this study by subjects, or as applicable, subject's parent(s)/legal guardian(s)\n2. Treated with BRL-101 for therapy of transfusion-dependent \u03b2-thalassemia.\n\nExclusion Criteria:\n\n\\- There are no exclusion criteria for this study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "Subjects with transfusion-dependent \u03b2-thalassemia who have been treated with BRL-101.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Rongmei Liang, phD",
+                "role": "CONTACT",
+                "phone": "021-64340008",
+                "email": "rongmeiliang@brlmed.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Rongmei Liang, PhD",
+                "affiliation": "Bioray Laboratories",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Nanfang Hospital, Southern Medical University",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Guangzhou",
+                "state": "Guangdong",
+                "zip": "510006",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 23.11667,
+                  "lon": 113.25
+                }
+              },
+              {
+                "facility": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Guangzhou",
+                "state": "Guangdong",
+                "zip": "510006",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jianpei Fang, phD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 23.11667,
+                  "lon": 113.25
+                }
+              },
+              {
+                "facility": "Shenzhen Children 's Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Shenzhen",
+                "state": "Guangdong",
+                "zip": "510006",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Sixi Liu, phD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "No. 923 Hospital of Joint Support Force of Chinese People 's Liberation Army Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xinhua Zhang, phD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Xiangya Hospital of Central South University",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "510510",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Bin Fu, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "Tianjin Institute of Hematology",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300000",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jun shi, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "The First Affiliated Hospital of GUANGXI MEDICAL UNIVERSITY",
+                "status": "RECRUITING",
+                "city": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yongrong Lai, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.09142,
+                  "lon": 120.24205
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

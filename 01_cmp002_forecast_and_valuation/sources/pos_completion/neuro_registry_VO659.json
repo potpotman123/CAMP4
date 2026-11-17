@@ -1,0 +1,695 @@
+{
+  "asset": "VO659",
+  "query": "VO659",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=VO659&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05822908",
+            "orgStudyIdInfo": {
+              "id": "VO659-CT01"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-514328-18-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Vico Therapeutics B. V.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety and Pharmacokinetics Trial of VO659 in SCA1, SCA3 and HD",
+            "officialTitle": "A Phase 1/2a, Open-label Trial to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Ascending Doses of Intrathecally Administered VO659 in Participants With Spinocerebellar Ataxia Types 1, 3 and Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-02-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-04-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-10-15",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-01",
+            "studyFirstSubmitQcDate": "2023-04-07",
+            "studyFirstPostDateStruct": {
+              "date": "2023-04-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-08-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-08-19",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Vico Therapeutics B. V.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this first-in-human clinical trial is to assess the safety and tolerability of four doses of a new study drug called VO659 in people with genetic disorders called spinocerebellar ataxia type 1, type 3 or Huntington's disease. Another aim is to determine the concentrations of the study drug in the cerebral spinal fluid and blood after single and multiple doses. Study drug will be administered by lumbar intrathecal bolus injections.",
+            "detailedDescription": "Spinocerebellar ataxia types 1 and 3 (SCA1 and SCA3), as well as Huntington's disease (HD) are severely debilitating, monogenic, neurodegenerative diseases that presently have no treatments to slow or stop clinical progression. Preclinical data suggest that VO659 may be a disease-modifying therapy in these disorders through its binding to the expansion of CAG repeats in the RNA transcripts of the causative genes, thus interfering with RNA translation and reducing the intracellular level of the harmful mutant proteins.\n\nThe present trial is the first-in-human (FiH) evaluation of VO659. This is an open-label, multiple ascending dose, multi-centre phase 1/2a trial investigate the safety, tolerability and pharmacokinetics and explore the pharmacodynamics of intrathecally administered study drug VO659.\n\nThe trial population comprises generally ambulatory participants with mild to moderate SCA1 or SCA3, or early manifest HD. Participants are assigned to dose-ascending treatment cohorts based on the order of enrolment. Dose-escalation is planned in up to five dose levels. Dose-level cohorts one and two will comprise participants with SCA3 only, and from dose-level cohorts three onwards participants with SCA1, SCA3 and HD will be enrolled.\n\nThe total duration of trial participation for each participant in Dose-level Cohorts 1-3 is up to approximately 45 weeks, consisting of a screening period of up to 6 weeks, a 14-week dosing period, and a 25-week post-dosing period.\n\nThe total duration of trial participation for each participant in Dose-level Cohort 4 is up to approximately 58 weeks, consisting of a screening period of up to 7 weeks, a 26-week dosing period, and a 25-week post dosing period. The total duration of trial participation for each participant in Dose-level Cohort 5 is up to approximately 58 weeks, consisting of a screening period of up to 7 weeks, a single dosing followed by a 51-week period of non-dosing, observational visits (split into a 26-week 'dosing period' and a 25-week 'post-dosing period' for consistency in the SoA with Dose-level Cohort 4)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinocerebellar Ataxia Type 1",
+              "Spinocerebellar Ataxia Type 3",
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "hereditary ataxia",
+              "Machado-Joseph Disease (MJD)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Multiple ascending dose design",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 68,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 10 mg of the trial IMP VO659 will be administered intrathecally four times on Day 1, Day 29, Day 57 and Day 85 within the planned dosing blocks. The total duration of trial participation for each participant is up to approximately 42 weeks, consisting of a screening period of up to 6 weeks, a 13-week dosing period and a 23-week post-dosing period.",
+                "interventionNames": [
+                  "Drug: VO659"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 20 mg of the trial IMP VO659 will be administered intrathecally four times on Day 1, Day 29, Day 57 and Day 85 within the planned dosing blocks. The total duration of trial participation for each participant is up to approximately 42 weeks, consisting of a screening period of up to 6 weeks, a 13-week dosing period and a 23-week post-dosing period.",
+                "interventionNames": [
+                  "Drug: VO659"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 40 mg of the trial IMP VO659 will be administered intrathecally four times on Day 1, Day 29, Day 57 and Day 85 within the planned dosing blocks. The total duration of trial participation for each participant is up to approximately 42 weeks, consisting of a screening period of up to 6 weeks, a 13-week dosing period and a 23-week post-dosing period.",
+                "interventionNames": [
+                  "Drug: VO659"
+                ]
+              },
+              {
+                "label": "Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 20 or 40 mg of the trial IMP VO659 will be randomly assigned and will be administered intrathecally. For Dose-level Cohort 4, the dosing period consists of 3 dosing blocks for participants in the 3x20 mg treatment arm (Days -1 to 3; Days 84-87; and Days 168-171) and 2 dosing blocks for participants in the 2x40 mg treatment arm (Days -1 to 3; and Days 168-171).\n\nThe total duration of trial participation for each participant in Dose-level Cohort 4 is up to approximately 58 weeks, consisting of a screening period of up to 7 weeks, a 26-week dosing period, and a 25-week post dosing period.",
+                "interventionNames": [
+                  "Drug: VO659"
+                ]
+              },
+              {
+                "label": "Cohort 5",
+                "type": "EXPERIMENTAL",
+                "description": "A dose of 60 mg of the trial IMP VO659 will be administered intrathecally once on day 1.\n\nThe total duration of trial participation for each participant in Dose-level Cohort 5 is up to approximately 58 weeks, consisting of a screening period of up to 7 weeks, a single dosing followed by a 51-week period of non-dosing, observational visits.",
+                "interventionNames": [
+                  "Drug: VO659"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "VO659",
+                "description": "VO659 is an antisense oligonucleotide targeting CAG repeats in mRNA transcripts",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4",
+                  "Cohort 5"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence & dose relationships of treatment-related AEs, SAEs, AEs of special interest (AESI), severe events (NCI- CTCAE Grade 3 or higher).",
+                "description": "As measured in each dose group and overall. Unit of measurement: proportion",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Vital signs",
+                "description": "temperature in centigrade, heart rate in beats per minute (BPM), systolic and diastolic blood pressure blood pressure, respiratory rate in breaths per minute",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Body weight",
+                "description": "In kilograms",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Electrocardiogram (ECG) RR interval",
+                "description": "In milliseconds (ms)",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Electrocardiogram (ECG) - PR interval",
+                "description": "In milliseconds (ms)",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Electrocardiogram (ECG) - QTc interval",
+                "description": "In milliseconds (ms)",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - white blood cell count",
+                "description": "In cells/mL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - hemoglobin",
+                "description": "In g/dL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - platelets",
+                "description": "In cells/cL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - prothrombin time (PT)",
+                "description": "In seconds",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - activated partial thromboplastin clotting time (aPTT)",
+                "description": "In seconds",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - international normalised ratio (INR)",
+                "description": "as a ration",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - blood urea nitrogen",
+                "description": "In mg/dL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - carbon dioxide",
+                "description": "In mEq/L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - creatinine",
+                "description": "In mg/dL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - glucose",
+                "description": "In mg/dL",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - chloride",
+                "description": "In mEq/L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - potassium",
+                "description": "In mEq/L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Laboratory safety parameters in blood - sodium",
+                "description": "In mEq/L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "white blood cell (WBC) count in cerebrospinal fluid (CSF)",
+                "description": "1/\u00b5L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Protein levels in cerebrospinal fluid (CSF)",
+                "description": "in g/L",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Structural imaging assessment of any new abnormalities",
+                "description": "Structural MRI sequences to assess safety as qualitatively assessed by a trained neuroradiologist (3D T1 weighted, 3D T2weighted-FLAIR and susceptibility-weighted imaging (SWI) sequences)",
+                "timeFrame": "Day 0-253"
+              },
+              {
+                "measure": "Percentage of participants with suicidal ideation or behaviour, as assessed by the Columbia suicide severity rating scale (C-SSRS).",
+                "description": "The C-SSRS is a structured tool to assess suicidal ideation and behavior. Four constructs are measured: severity of ideation, intensity of ideation, behavior, and lethality of actual suicide attempts. Binary (yes/no) data are collected for 10 categories, and composite endpoints based on the categories are followed over time to monitor patient safety.",
+                "timeFrame": "Day 0-253"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Concentrations of VO659 in cerebrospinal fluid (CSF)",
+                "description": "in \u00b5g/mL",
+                "timeFrame": "_Day 1, 29, 57, 85, 120, 204, 253"
+              },
+              {
+                "measure": "Concentrations of VO659 in plasma",
+                "description": "in \u00b5g/mL",
+                "timeFrame": "_Day 1, 29, 57, 85, 120, 204, 253"
+              },
+              {
+                "measure": "Maximum plasma concentration (Cmax) for VO659",
+                "description": "in \u00b5g/mL",
+                "timeFrame": "Day 1, Day 85"
+              },
+              {
+                "measure": "Time to maximum plasma concentration (Tmax) for VO659",
+                "description": "in days",
+                "timeFrame": "Day 1, Day 85]"
+              },
+              {
+                "measure": "Area under the plasma concentration time curve for VO659 from time 0 to last quantifiable concentration of (AUC0-t)",
+                "description": "\u00b5g\\*h/L",
+                "timeFrame": "Days 1, 2, 8, Days 85, 86, 92]"
+              },
+              {
+                "measure": "Terminal half-life (t1/2) of VO659 in plasma",
+                "description": "In days",
+                "timeFrame": "Days 1, 2, 8"
+              },
+              {
+                "measure": "Terminal half-life (t1/2) of VO659 in cerebrospinal fluid (CSF)",
+                "description": "in days",
+                "timeFrame": "Day 1 through Day 253"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Main Inclusion Criteria:\n\n* Provide written informed consent (signed and dated). Patients should be assessed for their ability to give informed consent using the Evaluation to Sign Consent tool.\n* Is \u226525 and \u226460 years of age inclusive, of any gender, at the time of signing the informed consent.\n* Have SCA1, SCA3 or HD meeting one of the following criteria:\n\n  1. SCA1 and SCA3: mild to moderate disease with a Scale for Assessment and Rating of Ataxia (SARA) score of \u22653 and \u226418\n  2. HD: early manifest, Stage I disease with a Total Functional Capacity (TFC) Score of \u226511 and \u226413 and a Unified Huntington's Disease Rating Scale (UHDRS) Diagnostic Confidence Level (DCL) of 4.\n* Have genetically confirmed disease, defined by increased cytosine, adenine, and guanine (CAG) repeat length in the disease-causing allele by direct DNA testing. For each indication the requirements are:\n\n  1. SCA1: \u226541 contiguous, uninterrupted CAG repeats in the ATXN1 gene\n  2. SCA3: \u226561 repeats in the ATXN3 gene\n  3. HD: \u226540 CAG repeats in the HTT gene.\n* Please note there will be additional inclusion criteria\n\nMain Exclusion Criteria:\n\n* Have any condition that would prevent participation in trial assessments.\n* Have one or more pathogenic mutation(s) in another polyQ disease gene, i.e., ATXN2, CACNA1A, ATXN7, TBP, AR, and ATN1, plus either ATXN3 and HTT (for patients with SCA1), ATXN1 and HTT (for participants with SCA3), or ATXN1 and ATXN3 (for participants with HD), in addition to the disease-causing mutation in the ATXN1 (patients with SCA1), ATXN3 (patients with SCA3) or HTT (patients with HD) gene.\n* Have clinical diagnosis of moderate or severe chronic migraines or history of the post-lumbar-puncture headache of moderate or severe intensity requiring hospitalisation or blood patch.\n* Have a brain, spinal or systemic disorder that would interfere with the LP process, CSF circulation, or safety assessments.\n* Have history of bleeding diathesis or coagulopathy, platelet count less than the lower limit of normal unless stable and assessed by the investigator and the Medical Monitor to be not clinically significant.\n* Have uncompensated cardiovascular disorder, any past or present cardiac arrhythmia, QTcF values on screening ECG of \\>470 ms, familial history of long QT syndrome or sudden unexpected death.\n* Have a history of attempted suicide, suicidal ideation with a plan that required hospital admission and/or change in level of care within 12 months prior to screening.\n* Have medical, psychiatric, or other conditions that, in the judgement of the investigator, may compromise the patient's ability to understand the patient information sheet, to give informed consent, to comply with all trial requirements, or to complete the trial.\n* Prior treatment with an antisense oligonucleotide (including siRNA).\n* Pregnant or breast-feeding (lactating) women or women who plan to become pregnant or breast-feed during the trial.\n* Unable to undergo and tolerate MRI scans.\n* Please note there will be additional exclusion criteria",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Chief Medical Officer",
+                "role": "CONTACT",
+                "phone": "+31 71 2036800",
+                "email": "info@vicotx.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Chief Medical Officer",
+                "affiliation": "VICO Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Rigshospitalet",
+                "status": "RECRUITING",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "contacts": [
+                  {
+                    "name": "Lena Hjermind, Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "Centre Hospitalier Universitaire d\u00c1ngers",
+                "status": "RECRUITING",
+                "city": "Angers",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Christophe Verny, Prof.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.47156,
+                  "lon": -0.55202
+                }
+              },
+              {
+                "facility": "CHU Gui de Chauliac Montpellier- Expert Center of Neurogenetic diseases, Department of Neurology",
+                "status": "RECRUITING",
+                "city": "Montpellier",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Cecilia Marelli, Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "facility": "Universtiry Hospitals Pitie Salpetriere - Charles foix - Paris",
+                "status": "RECRUITING",
+                "city": "Paris",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Alexandra Durr, Prof. Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Katholisches Klinikum Bochum",
+                "status": "RECRUITING",
+                "city": "Bochum",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Carsten Saft, Prof.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.48165,
+                  "lon": 7.21648
+                }
+              },
+              {
+                "facility": "Deutsches Zentrum fur Neurodegenerative Erkrankungen (DZNE)",
+                "status": "RECRUITING",
+                "city": "Bonn",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Jennifer Faber, Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Universitatsklinikum Essen - Neurologie",
+                "status": "RECRUITING",
+                "city": "Essen",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Tim Hagenacker, Prof.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.45657,
+                  "lon": 7.01228
+                }
+              },
+              {
+                "facility": "Universitatsklinikum T\u00fcbingen",
+                "status": "RECRUITING",
+                "city": "T\u00fcbingen",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Ludger Scholz, Prof Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 48.52266,
+                  "lon": 9.05222
+                }
+              },
+              {
+                "facility": "Meir Medical Center",
+                "status": "RECRUITING",
+                "city": "Kfar Saba",
+                "country": "Israel",
+                "contacts": [
+                  {
+                    "name": "Nirit Lev, Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.175,
+                  "lon": 34.90694
+                }
+              },
+              {
+                "facility": "Sourmansky Medical Center",
+                "status": "RECRUITING",
+                "city": "Tel Aviv",
+                "country": "Israel",
+                "contacts": [
+                  {
+                    "name": "Tanya Gurevich, Prof.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.08088,
+                  "lon": 34.78057
+                }
+              },
+              {
+                "facility": "Leiden University Medical Center LUMC",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Leiden",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.15833,
+                  "lon": 4.49306
+                }
+              },
+              {
+                "facility": "Radbout University Medical Centre",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Nijmegen",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.8425,
+                  "lon": 5.85278
+                }
+              },
+              {
+                "facility": "University College London Hospitals NHS Foundation",
+                "status": "RECRUITING",
+                "city": "London",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "Paola Giunti, Prof.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "John Radcliffe Hospital",
+                "status": "RECRUITING",
+                "city": "Oxford",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "Richard Armstrong, Dr.",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "38615323",
+                "type": "DERIVED",
+                "citation": "Bonsor M, Ammar O, Schnoegl S, Wanker EE, Silva Ramos E. Polyglutamine disease proteins: Commonalities and differences in interaction profiles and pathological effects. Proteomics. 2024 Jun;24(12-13):e2300114. doi: 10.1002/pmic.202300114. Epub 2024 Apr 14."
+              },
+              {
+                "pmid": "38489195",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: March 2024. J Huntingtons Dis. 2024;13(1):1-14. doi: 10.3233/JHD-240017."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Poland"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D020754",
+                "term": "Spinocerebellar Ataxias"
+              },
+              {
+                "id": "D017827",
+                "term": "Machado-Joseph Disease"
+              },
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D013132",
+                "term": "Spinocerebellar Degenerations"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002524",
+                "term": "Cerebellar Ataxia"
+              },
+              {
+                "id": "D002526",
+                "term": "Cerebellar Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D001259",
+                "term": "Ataxia"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

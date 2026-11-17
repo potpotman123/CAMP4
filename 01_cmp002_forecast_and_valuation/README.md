@@ -9,19 +9,20 @@
 | Sell-side context and assumption audit | Eight original reports and extracted text saved; inherited Street data available |
 | Reverse DCF | To build: observed EV, development/operating costs, timeline, financing context and sales implied by valuation |
 | Independent worldwide revenue forecast | To build: epidemiology, diagnosis, eligibility, uptake, paid exposure, net pricing and country access |
-| KPI and PoS comparator research | Expanded adjudication: 518 mapped records; 418 provisional reference records. All 606 priority buckets dispositioned. Lifetime PoS estimation remains incomplete; other KPI audits pending |
+| KPI and PoS comparator research | Completed second review of all 449 assigned histories; 316 included records / 310 asset clusters. Five-, eight- and ten-year approval calculations and sensitivities saved. CMP-002 lifetime PoS remains judgmental; other KPI audits pending |
 | Post-LOE / terminal-value analysis | Needham arithmetic decomposition recorded; independent durability assumptions still to research |
 | Explain the valuation gap | Pending independent model and reverse DCF |
 
 ## Start here
 
-- **Latest: [expanded PoS adjudication and decision memo](reports/pos_expanded_adjudication_2026-11-16.txt)**, [searchable evidence ledger](reports/pos_adjudication_2026-11-16.html), and [nested reference results](data/pos_adjudication/nested_reference_results.json). Counts tighten 418 → 117 → 54 → four closest peers; these are provisional reference sets, **not calibrated PoS estimates**. [Current handoff](context/pos_adjudication_handoff_2026-11-16.txt).
+- **Latest: [completed panel findings and PoS interpretation](reports/pos_completed_panel_findings_2026-11-16.txt)**, [calculated approval horizons and every denominator](data/pos_completion/approval_horizon_results.json), [reviewed ledger](data/pos_completion/completed_program_ledger.json), and [method](protocol/pos_completed_panel_method_2026-11-16.txt). All 449 assigned histories reviewed. Included asset clusters tighten **310 → 81 → 48 → four closest ASOs**. Ten-year mature samples give 21/74, 5/20 and 3/10 approvals; these are horizon observations, **not CMP-002 lifetime PoS**. [Current handoff](context/pos_completion_handoff_2026-11-16.txt).
+- **Historical preliminary inventory:** [expanded adjudication](reports/pos_expanded_adjudication_2026-11-16.txt) and its [source-linked ledger](reports/pos_adjudication_2026-11-16.html) remain frozen. Their 418 retained / 333 unresolved presentation is superseded by the completed review and separate entry, development-status and approval fields.
 - **Correction:** the old `novel_target_at_entry` flag did not establish absence of prior human target exposure. Unsupported flags are now unknown; the earlier uniform novel-target characterization is superseded. The earlier 20% central case remains judgmental, with no evidence here that it is statistically preferable to Needham’s 25%.
 
 - **[Public-source pilot and broader discovery results](reports/pos_pilot_and_broad_universe_2026-11-16.txt)**: eight-program linkage pilot; 6,407-trial inventory across 48 rare-disease search terms; FDA local matching; [review queue](data/pos_nested/candidate_review_queue.json). This is not yet an adjudicated program denominator or an empirical PoS estimate.
 
 
-- **Current direction: [independent nested-cohort rebuild](protocol/pos_nested_cohort_reset_2026-11-16.txt).** Recalculate the broad rate from a common universe and progressively filter it. The earlier odds sensitivity is a scenario tool, not completion of this empirical analysis.
+- **Historical design: [independent nested-cohort rebuild](protocol/pos_nested_cohort_reset_2026-11-16.txt).** The latest completed-panel method above implements finite-horizon calculations; the earlier odds sensitivity remains a scenario tool.
 
 
 - **[Three-tier PoS synthesis](reports/pos_three_tier_synthesis_2026-11-16.txt)**: frozen [four closest biological/clinical peers](data/pos_synthesis/closest_biological_clinical_peers_2026-11-16.json), broader 16-asset genetic CNS set, published benchmark anchors and explicit odds sensitivities. No fitted posterior or empirically calibrated blend claimed.

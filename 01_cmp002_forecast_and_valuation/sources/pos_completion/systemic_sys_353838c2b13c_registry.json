@@ -1,0 +1,1359 @@
+{
+  "integrated_id": "systemic:sys_353838c2b13c",
+  "asset": "9MW3011",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=9MW3011+OR+MWTX-003",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06772766",
+            "orgStudyIdInfo": {
+              "id": "9MW3011-C04"
+            },
+            "organization": {
+              "fullName": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Multiple Ascending Dose Study of 9MW3011 in Patients With Non-transfusion-dependent \u03b2-thalassemia",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Multiple Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of 9MW3011 in Patients With Non-transfusion-dependent \u03b2- Thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-01-09",
+            "studyFirstSubmitQcDate": "2025-01-09",
+            "studyFirstPostDateStruct": {
+              "date": "2025-01-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-01-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-01-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a phase Ib, randomized, double-blind, placebo-controlled, multiple ascending dose study . The objectives of the study are to evaluate the safety , tolerability, pharmacokinetics(PK), pharmacodynamics(PD), and immunogenicity of 9MW3011 in patients with non-transfusion-dependent \u03b2- thalassemia .",
+            "detailedDescription": "A total of 40 subjects diagnosed with non-transfusion-dependent \u03b2-thalassemia will be enrolled in this study and assigned into four dosage cohorts. In each cohort, subjects will be randomized in a 4:1 ratio to receive 9MW3011 or placebo via intravenous infusion."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "9MW3011 or placebo (Randomized 4:1)",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "9MW3011 or placebo (Randomized 4:1)",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "9MW3011 or placebo (Randomized 4:1)",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "9MW3011 or placebo (Randomized 4:1)",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "9MW3011",
+                "description": "Ascending IV doses administered per protocol",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "9MW3011 placebo",
+                "description": "Ascending IV doses administered per protocol",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Event(including serious adverse event)",
+                "description": "The incidence of Adverse Events(AEs)and Serious Adverse Events(SAEs)from treatment until the last scheduled follow-up visit",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Number of subjects with abnormal vital signs",
+                "description": "Vital signs measurements will include pulse rate, respiration rate, blood pressure (systolic and diastolic blood pressure) and body temperature.",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant results from physical examination",
+                "description": "The physical examinations will include examination of the following: skin and mucous membranes, lymph nodes, head and neck, chest, abdomen, musculoskeletal, nervous system, and other sites of note elicited from the subject.",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant 12-lead electrocardiogram (ECG) parameters",
+                "description": "The examination indicators include heart rate, PR, QRS, uncorrected QT, and QTcF(corrected by Fridericia formula).",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant clinical laboratory results",
+                "description": "Clinical laboratory tests include hematology, urinalysis, blood chemistry, coagulation function.",
+                "timeFrame": "up to day 169"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Concentration of 9MW3011 in serum",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "PD-parameters-hepcidin",
+                "description": "Change from baseline in hepcidin levels",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "PD-parameters-serum iron",
+                "description": "Change from baseline in serum iron levels",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Anti-drug antibody(ADA)",
+                "description": "The incidence of ADA",
+                "timeFrame": "up to day 169"
+              },
+              {
+                "measure": "Liver iron concentration(LIC)",
+                "description": "Change from baseline in LIC",
+                "timeFrame": "up to day 169"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Male and female subjects aged 18 to 65 years (inclusive)\n2. Subject must have a documented genetic diagnosis of \u03b2-thalassemia or hemoglobin E/ \u03b2-thalassemia\n3. Subjects must meet the criteria for non-transfusion-dependent thalassemia\n4. Subjects must have a baseline hemoglobin level between 70-100 g/L(inclusive), based on 2 consecutive measurements taken at least 1 week apart within 4 weeks before randomization\n5. Subjects must have evidence of iron overload during screening\n6. Subject must have performance status: Eastern Cooperative Oncology Group (ECOG) performance score of 0 to 1\n7. Subjects must fully understand the study procedures and methods, voluntarily participate in the trial, and sign an informed consent form\n\nKey Exclusion Criteria:\n\n1. Subjects diagnosed with alpha-thalassemia\n2. Subjects diagnosed with HbS/beta-thalassemia or transfusion-dependent beta-thalassemia\n3. Subjects exhibit severe iron overload at the time of screening\n4. In addition to thalassemia, subjects have any other forms of anemia and hematological disorders that the investigator assesses may compromise safety or influence study outcomes\n5. Combined with any significant systemic diseases or psychiatric disorders\n6. Subjects have New York Heart Association (NYHA) Class III-IV heart failure and other cardiovascular diseases within 6 months prior to screening or currently present\n7. During the screening or baseline period, subjects exhibiting a QTcF interval of \u2265450ms for males and \u2265470ms for females on a 12-lead electrocardiogram (ECG), or presenting an abnormal 12-lead ECG with clinical significance\n8. Uncontrolled hypertension before screening\n9. A history of malignant neoplasm occurring within the last five years\n10. Severe infection requiring hospitalization or intravenous antimicrobial therapy, or uncontrolled systemic bacterial, fungal, or viral active infection\n11. Subject have received concomitant treatment that was not permitted by the protocol\n12. Subjects whose hematological parameters did not meet the inclusion criteria during screening\n13. Subjects with a history of substance abuse, as well as those who yield positive results on substance abuse screening\n14. Subjects who are unable to undergo MRI scans\n15. Pregnant or lactating women\n16. Subjects presenting any other factors deemed unsuitable for participation assessed by the investigator",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yongrong Lai",
+                "role": "CONTACT",
+                "phone": "+8607715356304",
+                "email": "laiyongrong@hotmail.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The first Affiliated Hospital of Guangxi Medical University",
+                "status": "RECRUITING",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "zip": "530021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yongrong Lai",
+                    "role": "CONTACT",
+                    "phone": "+8607715356304",
+                    "email": "laiyongrong@hotmail.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Hainan General Hospital",
+                "status": "RECRUITING",
+                "city": "Haikou",
+                "state": "Hainan",
+                "zip": "570311",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Guyun Wang",
+                    "role": "CONTACT",
+                    "phone": "+86089868642117",
+                    "email": "wangguyun@126.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 20.03421,
+                  "lon": 110.34651
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06752746",
+            "orgStudyIdInfo": {
+              "id": "9MW3011-C03"
+            },
+            "organization": {
+              "fullName": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of 9MW3011 in Patients With Polycythemia Vera",
+            "officialTitle": "A Phase Ib, Multicenter, Randomized, Open-Label, Dose Escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of 9MW3011 in Patients With Polycythemia Vera"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-03-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-08-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-06-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-12-23",
+            "studyFirstSubmitQcDate": "2024-12-23",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-31",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-05-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-05-11",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to assess the safety, tolerability, pharmacokinetics, pharmacodynamics and immunogenicity of 9MW3011 in Chinese patients with Polycythemia Vera\uff08PV\uff09.",
+            "detailedDescription": "The multiple dose fo the starting dose cohorts will comprise 3 dose cohorts of 8 PV subjects each.In each cohort, subjects will receive 9MW3011 via intravenous infusion.A decision on whether to proceed with case expansion and dose escalation will be based on the safety and PK-PD data."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Polycythemia Vera"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 108,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Experimental: Open-label 9MW3011 Dose1",
+                "type": "EXPERIMENTAL",
+                "description": "Drug: 9MW3011 9MW3011 for multiple dose via intravenous infusion",
+                "interventionNames": [
+                  "Drug: 9MW3011"
+                ]
+              },
+              {
+                "label": "Experimental: Open-label 9MW3011 Dose2",
+                "type": "EXPERIMENTAL",
+                "description": "Drug: 9MW3011 9MW3011 for multiple dose via intravenous infusion",
+                "interventionNames": [
+                  "Drug: 9MW3011"
+                ]
+              },
+              {
+                "label": "Experimental: Open-label 9MW3011 Dose3",
+                "type": "EXPERIMENTAL",
+                "description": "Drug: 9MW3011 9MW3011 for multiple dose via intravenous infusion",
+                "interventionNames": [
+                  "Drug: 9MW3011"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "9MW3011",
+                "description": "Multiple dose",
+                "armGroupLabels": [
+                  "Experimental: Open-label 9MW3011 Dose1",
+                  "Experimental: Open-label 9MW3011 Dose2",
+                  "Experimental: Open-label 9MW3011 Dose3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Event",
+                "description": "Incidence of adverse events",
+                "timeFrame": "Up to 141 or 197 days"
+              },
+              {
+                "measure": "Vital sign",
+                "description": "Incidence of treatment-emergent clinically abnormal vital signs",
+                "timeFrame": "Up to 141 or 197 days"
+              },
+              {
+                "measure": "Physical examination",
+                "description": "Incidence of treatment-emergent clinically abnormal physical examinations",
+                "timeFrame": "Up to 141 or 197 days"
+              },
+              {
+                "measure": "12-lead electrocardiogram (ECG)",
+                "description": "Incidence of treatment-emergent clinically significant 12-lead electrocardiograms (ECGs)",
+                "timeFrame": "Up to 141 or 197 days"
+              },
+              {
+                "measure": "Laboratory test result",
+                "description": "Incidence of treatment-emergent clinically significant laboratory test results",
+                "timeFrame": "Up to 141 or 197 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Cmax",
+                "description": "Plasma maximum measured drug concentration",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Tmax",
+                "description": "Time of maximum concentration",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "AUC0-\u03c4",
+                "description": "Area under the plasma concentration-time curve during a dosage interval\uff08\u03c4\uff09",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "AUC0-t",
+                "description": "Area under the concentration-time curve from dosing to the last measurable time point",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "AUC0-\u221e",
+                "description": "Area under the concentration-time curve from dosing to infinity",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "\u03bbz",
+                "description": "Terminal elimination rate constant",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "t1/2z",
+                "description": "The terminal elimination half-life",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "MRT",
+                "description": "Mean residence time",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Vss",
+                "description": "Volume of Distribution at Steady State",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "CLss",
+                "description": "Steady-state clearance",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "DF",
+                "description": "Fluctuation percentage",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Ctrough",
+                "description": "Trough Concentration",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Rac(AUC)",
+                "description": "Accumulation ratio calculated from the AUC\u03c4,ss and AUC\u03c4 after single dosing",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Rac(cmax)",
+                "description": "Accumulation ratio calculated from the Cmax,ss and Cmax after single dosing",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Hepcidin",
+                "description": "Change from baseline in hepcidin levels",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Serum iron",
+                "description": "Change from baseline in serum iron levels",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Transferrin saturation (TSAT)",
+                "description": "Change from baseline in transferrin saturation (TSAT) levels",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Anti-drug antibodies(ADA)",
+                "description": "The incidence of ADA",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              },
+              {
+                "measure": "Hematocrit (HCT)",
+                "description": "Change from baseline in HCT levels",
+                "timeFrame": "Day1 to Day 141 or 197"
+              },
+              {
+                "measure": "Myeloproliferative Neoplasm Symptom Assessment Form Total Symptom Score\uff08MPN-SAF TSS\uff09",
+                "description": "Change from baseline in MPN-SAF TSS score",
+                "timeFrame": "Day 1 to Day 141 or 197"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female patients aged 18 years or older at the time of screening.\n2. A confirmed diagnosis of PV according to the revised 2016 World Health Organization criteria and are resistant to or intolerant of hydroxyurea or Interferon alpha.\n3. Have a treatment history for PV with resistance or intolerance to hydroxyurea or Interferon alpha.\n4. Subjects receiving hydroxyurea, Interferon alpha, or ruxolitinib must complete a washout period before administration of the investigational drug.\n5. Must agree to adhere to appropriate contraception requirements during the study period.\n6. All female subjects with fertility capacity tested negative for blood pregnancy.\n7. Voluntarily participate in clinical trials and agrees to participate in the study by giving written informed consent.\n\nExclusion Criteria:\n\n1. The spleen is palpable at least 5 centimeters below the left costal margin upon palpation at baseline.\n2. Heart failure, unstable angina pectoris, myocardial infarction, and other thrombotic diseases within the 6 months prior to screening.\n3. Abnormal QTc interval of electrocardiogram within the 6 months prior to screening.\n4. Uncontrolled hypertension prior to screening.\n5. Any non-PV myeloproliferative neoplasms (MPN).\n6. Blast cells and blast granulocytes in the peripheral blood within the 3 months prior to screening.\n7. Hematological indicators do not meet the requirements at the time of screening.\n8. Known positive for active hepatitis B, hepatitis C, syphilis or human immunodeficiency virus (HIV) infection.\n9. History of invasive malignancies within the last 5 years.\n10. Severe infection or uncontrolled active infection.\n11. Other hematological and lymphatic system diseases or any diseases causing hemolysis or erythrocyte instability.\n12. Other systemic diseases or a family history of systemic diseases, may affect the subject's safety or any other diseases and physiological conditions that may affect the results of the study, judged by the investigator.\n13. Specific history of allergies.\n14. Subjects who have used monoclonal antibodies within the 6 months prior to screening.\n15. Patients who have received vaccinations within 6 weeks prior to screening.\n16. Subjects who have received other antitumor therapeutic drugs for PV prior to screening.\n17. Chronic diseases requiring treatment with systemic glucocorticoids or other immunosuppressants.\n18. History of drug abuse or illicit drug use within 3 months prior to screening.\n19. Participation in other clinical trials within 3 months prior to screening.\n20. Planned elective surgery during the study.\n21. History of surgery within 3 months prior to screening.\n22. Intolerable iron deficiency-related symptoms judged by the investigator prior to the first dosing.\n23. Pregnant or lactating females; women of reproductive age who are not using effective contraception.\n24. Individuals directly associated with the research and/or their immediate family members.\n25. Other factors which may potentially affect the assessment of the study results by the investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Affiliated Cancer Hospital of Zhengzhou University and Henan Cancer Hospital",
+                "status": "RECRUITING",
+                "city": "Zhengzhou",
+                "state": "Henan",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Zhou",
+                    "role": "CONTACT",
+                    "phone": "13939068863",
+                    "email": "papertigerhu@163.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.75778,
+                  "lon": 113.64861
+                }
+              },
+              {
+                "facility": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+                "status": "RECRUITING",
+                "city": "Wuhan",
+                "state": "Hubei",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Zhang",
+                    "role": "CONTACT",
+                    "phone": "15871818568",
+                    "email": "Zhangmin35@aliyun.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              },
+              {
+                "facility": "The First Affiliated Hospital of Nanchang University",
+                "status": "RECRUITING",
+                "city": "Nanchang",
+                "state": "Jiangxi",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Wang",
+                    "role": "CONTACT",
+                    "phone": "13798127917",
+                    "email": "wangjieyu19@aliyun.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.68396,
+                  "lon": 115.85306
+                }
+              },
+              {
+                "facility": "Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiao",
+                    "role": "CONTACT",
+                    "phone": "022-23909184",
+                    "email": "zjxiao@ihcames.ac.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "The Second Hospital of Tianjin Medical University",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Bai",
+                    "role": "CONTACT",
+                    "phone": "13820525296",
+                    "email": "janebai86@126.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "The First Affiliated Hospital, Zhejiang University School of Medicine",
+                "status": "RECRUITING",
+                "city": "Hangzhou",
+                "state": "Zhejiang",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Huang",
+                    "role": "CONTACT",
+                    "phone": "13588010568",
+                    "email": "househuang@zju.edu.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.29365,
+                  "lon": 120.16142
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D011087",
+                "term": "Polycythemia Vera"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019046",
+                "term": "Bone Marrow Neoplasms"
+              },
+              {
+                "id": "D019337",
+                "term": "Hematologic Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009196",
+                "term": "Myeloproliferative Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06050915",
+            "orgStudyIdInfo": {
+              "id": "DISC-3405-101"
+            },
+            "organization": {
+              "fullName": "Disc Medicine, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of DISC-3405 in Healthy Volunteers",
+            "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled Single and Multiple Ascending Dose Study to Evaluate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity Characteristics of DISC-3405 in Adult Healthy Male and Female Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-10-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-07-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-07-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-09-07",
+            "studyFirstSubmitQcDate": "2023-09-18",
+            "studyFirstPostDateStruct": {
+              "date": "2023-09-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-12-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-12-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Disc Medicine, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This phase 1 study will assess the safety, tolerability, pharmacokinetics, pharmacodynamics and immunogenicity of DISC-3405 in adult male and female healthy volunteers.",
+            "detailedDescription": "Each enrolled subject will receive one single or multiple doses of DISC-3405 or placebo. During the study, subjects will be evaluated for safety and tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and immunogenicity of DISC-3405. In the single ascending dose (SAD) phase, a sentinel group of two subjects will be dosed first: one with DISC-3405, and the other with placebo; the randomization and blinding will be maintained. The remaining subjects for the cohort will be dosed at least 24 hours after the last sentinel dosing following approval from the principal investigator.\n\nSubsequent multiple ascending dose (MAD) cohorts will only enroll after a sufficient safety observation period for the SAD cohort, accordingly there will be no sentinel participants for cohorts in MAD.\n\nDISC-3405 or placebo will be administered as an IV infusion or subcutaneous injection. Subjects will have end-of-study (EOS) follow-up visits on Day 99 after the last administration."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteer"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 64,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Single Ascending Dose of DISC-3405",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: DISC-3405"
+                ]
+              },
+              {
+                "label": "Single Ascending Dose of Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Multiple Ascending Dose of DISC-3405",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: DISC-3405"
+                ]
+              },
+              {
+                "label": "Multiple Ascending Dose of Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "DISC-3405",
+                "description": "DISC-3405 is administered as a single dose IV infusion or subcutaneous injection",
+                "armGroupLabels": [
+                  "Single Ascending Dose of DISC-3405"
+                ],
+                "otherNames": [
+                  "9MW3011"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "DISC-3405",
+                "description": "DISC-3405 is administered in multiple ascending doses as an IV infusion or subcutaneous injection",
+                "armGroupLabels": [
+                  "Multiple Ascending Dose of DISC-3405"
+                ],
+                "otherNames": [
+                  "9MW3011"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo is administered as a single dose IV infusion or subcutaneous injection",
+                "armGroupLabels": [
+                  "Single Ascending Dose of Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo is administered in multiple ascending doses as an IV infusion or subcutaneous injection",
+                "armGroupLabels": [
+                  "Multiple Ascending Dose of Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of adverse events",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent clinically abnormal physical exam",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent clinically significant laboratory test results",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent clinically significant electrocardiograms (ECGs)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent clinically abnormal vital signs",
+                "timeFrame": "up to 99 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Plasma maximum measured drug concentration (Cmax)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Time of maximum concentration (Tmax)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Area under the concentration-time curve from dosing to the last measurable time point (AUC0-t)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Area under the concentration-time curve from dosing to infinity (AUC0-\u221e)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Drug elimination half-life (T\u00bd el)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Volume of plasma cleared (CL)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Trough Concentration (Ctrough)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Volume of Distribution (Vd)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Elimination rate constant (Kel)",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Change from baseline of hepcidin levels",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Change from baseline in transferrin saturation (TSAT) levels",
+                "timeFrame": "up to 99 days"
+              },
+              {
+                "measure": "Change from baseline of serum iron levels",
+                "timeFrame": "up to 99 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male and female subjects, non-smokers, ages 18-65 (inclusive) at the time of signing the informed consent\n* No clinically significant medical history and in good health as determined by detailed medical history\n* Body mass index (BMI) 18.0 - 33.0 kg/m2 (inclusive) and body weight \u2265 50.0 kg for males and \u2265 45.0 kg for females\n\nExclusion Criteria:\n\n* History of severe infection within 4 weeks prior to administration; signs and symptoms of any active infection regardless of severity within 2 weeks prior to administration.\n* History of hypersensitivity to similar drugs to DISC-3405 or their excipients.\n* Use of any prescription drugs, herbal supplements, or nonprescription drugs, including oral anti-histamines (for seasonal allergies), within 1 month or 5 half-lives (whichever is longer) prior to study drug administration, or dietary supplements within 1 week prior to study drug administration, unless, in the opinion of the Investigator and Sponsor, the medication will not interfere with the study. Over-the-counter multivitamins will not be permitted. If needed, paracetamol/acetaminophen (up to 2 grams daily) may be used but must be documented in the Concomitant medications/Significant non-drug therapies page of the source data. Any questions of concomitant medications should be directed to the Sponsor.\n* Participation in a clinical research study involving the administration of an investigational or marketed drug or device within 30 days prior to the first dosing, administration of a biological product in the context of a clinical research study within 90 days prior to the first dosing, or concomitant participation in an investigational study involving no drug or device administration.\n* Donation of plasma within 7 days prior to dosing or donation or loss of 500 mL or more of whole blood within 8 weeks prior to dosing\n* Pregnant, or nursing females.\n* A history of clinically significant psychiatric and psychological condition that, in the judgment of the investigator, may interfere with the planned treatment and follow-up, affect subject compliance, or place the subject at high risk from treatment-related complications\n* Abnormal and clinically significant ECG (QT-interval corrected according to Fridericia's formula \\[QTcF\\] \\> 450 msec).\n* Clinically significant abnormal vital signs at screening (systolic blood pressure \\[SBP\\] \\<90 mmHg or \u2265140 mmHg; diastolic blood pressure \\[DBP\\] \\<50 mmHg or \u226590 mmHg; heart rate \\<50 beats per minute \\[bpm\\] or \\>100 bpm).\n* Clinically significant abnormal laboratory test results or positive serology test results for hepatitis b surface antigen (HBsAg), hepatitis C virus (HCV) antibody, or human immunodeficiency virus (HIV) antigen and antibody at screening.\n* Immunization with a live or attenuated vaccine is prohibited within 4 weeks prior to study drug administration. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g., FluMist\u00ae) or live attenuated vaccines and are not allowed.\n* Receipt of an immunoglobulin or blood product 90 days prior to dosing\n* History of significant alcohol abuse within one year prior to screening or regular use of alcohol within six months prior to the screening visit \\[more than 7 units for women or 14 units for men of alcohol per week (1 unit = 340 mL of beer 5%, 140 mL of wine 12%, or 45 mL of distilled alcohol 40%)\\] or taking a product containing alcohol 2 days prior to dosing, or positive alcohol breath test at screening.\n* History of significant drug abuse within one year prior to screening or use of soft drugs (such as marijuana) within 3 months prior to the screening visit or hard drugs \\[such as cocaine, phencyclidine (PCP), crack, opioid derivatives including heroin, and amphetamine derivatives\\] within 1 year prior to screening.\n* Positive urine drug screen, including a cotinine test at screening and on Day -1.\n* Active infection with COVID-19. Subjects who have quarantined and are no longer deemed infectious may enroll. Subjects who received a COVID-19 vaccine within 4 weeks prior to dosing, or plan to receive COVID-19 vaccine during the time of their study participation",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Will Savage, MD PhD",
+                "affiliation": "Disc Medicine",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Celerion",
+                "city": "Lincoln",
+                "state": "Nebraska",
+                "zip": "68502",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.8,
+                  "lon": -96.66696
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06389942",
+            "orgStudyIdInfo": {
+              "id": "9MW3011-2022-CP101"
+            },
+            "organization": {
+              "fullName": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Single Ascending Dose Study of 9MW3011 in Chinese Healthy Subject",
+            "officialTitle": "A Single-center, Randomized, Double-Blind, Placebo-Controlled Phase 1 Single Ascending Dose Study to Evaluate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Immunogenicity Characteristics of 9MW3011 in Healthy Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-03-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-05-31",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-05-31",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-02-25",
+            "studyFirstSubmitQcDate": "2024-04-25",
+            "studyFirstPostDateStruct": {
+              "date": "2024-04-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-12-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-12-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Mabwell (Shanghai) Bioscience Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The objectives of the study are to evaluate the safety , tolerability, pharmacokinetics, pharmacodynamics and immunogenicity of single ascending intravenous (IV) doses of 9MW3011 in Chinese healthy volunteers.",
+            "detailedDescription": "The single ascending dose(SAD) study will comprise 6 dose cohorts of 8 healthy volunteers each. In each cohort, subjects will be randomized in a 6:2 ratio to receive 9MW3011 or placebo via intravenous infusion."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 48,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "9MW3011 Dose 1",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "9MW3011 Dose 2",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "9MW3011 Dose 3",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "9MW3011 Dose 4",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "9MW3011 Dose 5",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              },
+              {
+                "label": "9MW3011 Dose 6",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending IV doses administered per protocol",
+                "interventionNames": [
+                  "Drug: 9MW3011",
+                  "Drug: 9MW3011 placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "9MW3011",
+                "description": "Single dose intravenously on day 1",
+                "armGroupLabels": [
+                  "9MW3011 Dose 1",
+                  "9MW3011 Dose 2",
+                  "9MW3011 Dose 3",
+                  "9MW3011 Dose 4",
+                  "9MW3011 Dose 5",
+                  "9MW3011 Dose 6"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "9MW3011 placebo",
+                "description": "Single dose intravenously on day 1",
+                "armGroupLabels": [
+                  "9MW3011 Dose 1",
+                  "9MW3011 Dose 2",
+                  "9MW3011 Dose 3",
+                  "9MW3011 Dose 4",
+                  "9MW3011 Dose 5",
+                  "9MW3011 Dose 6"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Event(including serious adverse event)",
+                "description": "The incidence of AEs and SAEs from treatment until the last scheduled follow-up visit",
+                "timeFrame": "up to day 99"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of subjects with abnormal vital signs",
+                "description": "Vital signs measurements will include pulse rate, respiration rate, blood pressure (systolic and diastolic blood pressure) and body temperature.",
+                "timeFrame": "up to day 99"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant results from physical examination",
+                "description": "The physical examinations will include examination of the following: skin and mucous membranes, lymph nodes, head and neck, chest, abdomen, musculoskeletal, nervous system, and other sites of note elicited from the subject.",
+                "timeFrame": "up to day 99"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant 12-lead electrocardiogram (ECG) parameters",
+                "description": "The examination indicators include heart rate, PR, QRS, uncorrected QT, and QTcF(corrected by Fridericia formula).",
+                "timeFrame": "up to day 99"
+              },
+              {
+                "measure": "Number of subjects with abnormal clinically significant clinical laboratory results",
+                "description": "Clinical laboratory tests include hematology, urinalysis, blood chemistry, coagulation function.",
+                "timeFrame": "up to day 99"
+              },
+              {
+                "measure": "Cmax",
+                "description": "The peak concentration",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "AUC0-t",
+                "description": "The area under the concentration-time curve from zero to the last time point",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "AUC0-\u221e",
+                "description": "The area under the concentration-time curve from zero to infinity",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "Tmax",
+                "description": "The time to reach peak concentration",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "\u03bbz",
+                "description": "Terminal elimination rate constant",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "t1/2z",
+                "description": "The terminal elimination half-life",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "Vz",
+                "description": "The volume of distribution",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "CL",
+                "description": "Clearance",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "MRT",
+                "description": "Mean residence time",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "Pharmacodynamic(PD)parameters-hepcidin",
+                "description": "Change from baseline in hepcidin levels",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "PD parameters-serum iron",
+                "description": "Change from baseline in serum iron levels",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "PD parameters-TSAT",
+                "description": "Change from baseline in transferrin saturation(TSAT) levels",
+                "timeFrame": "up to day 85"
+              },
+              {
+                "measure": "Anti-drug antibodies(ADA)",
+                "description": "The incidence of ADA",
+                "timeFrame": "up to day 85"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female subjects aged 18 to 65 years (including 18 and 65 years).\n2. Weight\u226550.0 kg for males, or weight\u226545.0 kg for females, and body mass index (BMI) in the range of 19.0 \\~ 26.0 kg/m2 (including cut-off value).\n3. Being judged by the investigator to be eligible based on medical history, physical examination, laboratory tests and test related items of inspection or no clinically significant mild abnormalities.\n4. Volunteered to participate in this clinical trial, capable of giving written informed consent.\n\nExclusion Criteria:\n\n1. Nervous/mental, respiratory system, cardiovascular system, digestive system, blood and lymphatic system, endocrine system, skeletal and muscular system , immune system, urinary system diseases , or a family history of severe systemic diseases (including cardiovascular system, digestive system, urinary system, etc.), may affect the health status of the subjects or any other diseases and physiological conditions that may affect the results of the study , judged by the investigator.\n2. Currently suffering from iron deficiency/Iron deficiency anemia, taking iron supplements and complicated with other diseases related to abnormal iron metabolism.\n3. Subjects who have a history of allergies to monoclonal antibodies or any drug components; those who have a history of allergies to excipients of 9MW3011.\n4. Subjects who have lost blood or donated blood \u2265200mL within 3 months before screening, or those who plan to donate blood within 3 months.\n5. Positive for hepatitis B virus surface antigen and/or hepatitis B virus e antigen, hepatitis C virus antibody, human immunodeficiency virus antibody, or treponema pallidum antibody.\n6. Subjects who is inappropriate to participate in the trial due to any reasons as determined by the investigator.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "PKUcare Luzhong Hospital",
+                "city": "Zibo",
+                "state": "Shandong",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 36.79056,
+                  "lon": 118.06333
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

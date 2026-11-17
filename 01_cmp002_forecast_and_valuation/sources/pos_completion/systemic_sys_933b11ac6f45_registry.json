@@ -1,0 +1,586 @@
+{
+  "integrated_id": "systemic:sys_933b11ac6f45",
+  "asset": "RSP-1502",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=RSP-1502",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06016088",
+            "orgStudyIdInfo": {
+              "id": "RESPIR-102"
+            },
+            "organization": {
+              "fullName": "Respirion Pharmaceuticals Pty Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Double-Blind, Active-Controlled, Multiple-Ascending Dose Study of Aerosolized RSP-1502 in Subjects With CF and Chronic PA Lung Infection",
+            "officialTitle": "A Double-Blind, Active-Controlled, Multiple-Ascending Dose, Phase 1b/2a Study of Aerosolized RSP-1502 Delivered Via the PARI LC Plus\u00ae Nebulizer in Subjects With Cystic Fibrosis and Chronic Pseudomonas Aeruginosa Lung Infection"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-04-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-04-15",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-06-22",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-08-21",
+            "studyFirstSubmitQcDate": "2023-08-24",
+            "studyFirstPostDateStruct": {
+              "date": "2023-08-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Respirion Pharmaceuticals Pty Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A double-blind, active-controlled, multiple-ascending dose, safety study of aerosolized RSP-1502 in subjects with cystic fibrosis Pseudomonas aeruginosa lung infection.",
+            "detailedDescription": "This dose escalation safety study will evaluate several doses of RSP-1502 or active control administered by inhalation for 14 days. Following determination of the MTD, a dose expansion cohort will receive RSP-1502 at the MTD versus active control administered by inhalation for 14 days. All subjects will be followed for 14 days after completion of dosing."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis Lung",
+              "Respiratory Infections, Recurrent, Chronic",
+              "Pseudomonas Aeruginosa"
+            ],
+            "keywords": [
+              "Pseudomonas aeruginosa",
+              "cystic fibrosis",
+              "pulmonary infection",
+              "tobramycin",
+              "lung infection",
+              "EDTA",
+              "edetate calcium disodium"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 71,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "RSP-1502",
+                "type": "EXPERIMENTAL",
+                "description": "Cohorts 1-4 will receive RSP-1502 (300 mg tobramycin plus an ascending dose of CaEDTA).\n\nCohort 5 will receive 300 mg tobramycin + CaEDTA at the MTD.",
+                "interventionNames": [
+                  "Drug: RSP-1502"
+                ]
+              },
+              {
+                "label": "Active Control",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "\u2022 Tobramycin Inhalation Solution 300 mg.",
+                "interventionNames": [
+                  "Drug: Tobramycin inhalation solution"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "RSP-1502",
+                "description": "RSP-1502 is a sterile, preservative free solution to be administered by inhalation via a nebulizer. Each dose of RSP-1502 contains the active components tobramycin (300 mg) and CaEDTA in a 5 mL solution.",
+                "armGroupLabels": [
+                  "RSP-1502"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Tobramycin inhalation solution",
+                "description": "Tobramycin inhalation solution is 300 mg tobramycin in 5 mL solution.",
+                "armGroupLabels": [
+                  "Active Control"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Treatment-emergent adverse events",
+                "timeFrame": "Day 1 through Day 28"
+              },
+              {
+                "measure": "Treatment-emergent serious adverse events",
+                "timeFrame": "Day 1 through Day 28"
+              },
+              {
+                "measure": "Changes in post-dose spirometry",
+                "description": "Forced expiratory volume in 1 second",
+                "timeFrame": "Day 1, Day 2, and Day 14"
+              },
+              {
+                "measure": "Pulmonary exacerbations",
+                "description": "A period of treatment with intravenous antibiotics in the hospital and/or at home",
+                "timeFrame": "Day 1 through Day 28"
+              },
+              {
+                "measure": "Changes in post-dose electrocardiogram results",
+                "description": "PR interval, QRS interval, QT interval",
+                "timeFrame": "Day 1, Day 2, and Day 14"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetic parameters for CaEDTA",
+                "timeFrame": "Day 1, Day 2, Day 14, and Day 28"
+              },
+              {
+                "measure": "Pharmacokinetic parameters for tobramycin",
+                "timeFrame": "Day 1, Day 2, Day 14, and Day 28"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Pharmacodynamic parameters",
+                "description": "Biomarkers in sputum",
+                "timeFrame": "Day 1, Day 14, and Day 28"
+              },
+              {
+                "measure": "Microbiology parameters",
+                "description": "Change from baseline in Pseudomonas aeruginosa CFUs",
+                "timeFrame": "Day 1 to Day 14; Day 1 to Day 28"
+              },
+              {
+                "measure": "Change from baseline in spirometry",
+                "description": "Forced expiratory volume in 1 second (absolute change; change in % predicted)",
+                "timeFrame": "Day 1 to Day 28"
+              },
+              {
+                "measure": "Change from baseline in CFQ-R Respiratory Symptoms Score",
+                "timeFrame": "Day 1 to Day 28"
+              },
+              {
+                "measure": "Change from baseline in Chronic Respiratory Infection Symptom Score",
+                "timeFrame": "Day 1 to Day 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Males or females aged \u226518 years of age for cohorts 1-4; males or females \u226512 years of age for cohort 5.\n* Diagnosis of CF based on the following: historical positive sweat chloride value \u2265 60 mEq/L, and/or genotype with two identifiable mutations consistent with CF, accompanied by one or more clinical features consistent with the CF phenotype.\n* History of P. aeruginosa-positive sputum cultures or throat swabs with at least 50% positive in the 2 years preceding screening.\n* P. aeruginosa-positive sputum culture at screening.\n* Forced expiratory volume in 1 second (FEV1) \u2265 30 and \u2264 120% predicted per Global Lung Function Initiative (GLI) equation, pre- or post-bronchodilator.\n* Must be able to withhold all other inhaled tobramycin from Day -28 to Day 28 of study participation. Must be able to withhold all other inhaled antibiotics from Day -14 to Day 28.\n* Medically stable with no evidence of significant new or acute respiratory symptoms within 30 days prior to screening.\n* Hematology, clinical chemistry, and urinalysis results with no clinically significant abnormalities that would interfere with the study assessments at screening as determined by the investigator.\n* Female subjects of childbearing potential, defined as not surgically sterile or at least 2 years postmenopausal, must agree to use one of the following forms of contraception from screening through the Day 28 visit: hormonal (oral, implant, or injection) begun \\> 30 days prior to screening, barrier (condom, diaphragm with spermicide), intrauterine device, or vasectomized partner (6 months minimum).\n* Male subjects must show documentation of infertility or agree to use condoms during study participation.\n* Must be able to communicate with site personnel and to understand and voluntarily sign the Informed Consent Form, and be capable and willing to complete all study visits and perform all study required procedures.\n\nExclusion Criteria:\n\n* A history of previous allergy or sensitivity to components of RSP 1502.\n* A history of intolerance to inhaled tobramycin (TOBI\u00ae, BETHKIS\u00ae, TOBI\u00ae Podhaler\u00ae, tobramycin inhalation solution).\n* eGFR \\< 40 mL/min, or serum total bilirubin \\> 2X or serum transaminases \\> 3X the upper limit of normal range at screening.\n* Currently taking other medications with known nephrotoxic, neurotoxic, or ototoxic potential (subjects receiving inhaled tobramycin in conjunction with low dose azithromycin prior to study participation without evidence of ototoxicity may continue taking low dose azithromycin during the study).\n* Currently taking ethacrynic acid, furosemide, urea, or intravenous mannitol.\n* Lung infection with organisms associated with a more rapid decline in pulmonary status (including, but not limited to, Burkholderia cenocepacia, Burkholderia dolosa, and Mycobacterium abscessus). For subjects who have had a history of a positive culture, the investigator will apply the following criteria to establish whether the subject is free of infection with such organisms:\n\n  1. The subject has not had a respiratory tract culture positive for these organisms within the 12 months before the date of informed consent.\n  2. The subject has had at least 2 respiratory tract cultures negative for such organisms within the 12 months before the date of informed consent, with the first and last of these separated by at least 3 months, and the most recent one within the 6 months before the date of informed consent.\n* Consistent inability to produce sputum and unwillingness to perform sputum induction.\n* Any acute upper or lower respiratory tract infection or pulmonary exacerbation requiring changes in therapy (including systemic antibiotics), or other significant clinical/laboratory/radiological/spirometric sign of unstable or unexpectedly deteriorating respiratory disease within 30 days prior to the first study drug administration.\n* Initiation or adjustment of chronic airway medications (eg, inhaled corticosteroids; chronic suppressive antibacterial treatment) or airway clearance regimen (eg, nebulized saline, rhDNase, initiation of mechanical vest or handheld airway clearance device) within 28 days prior to screening. Individuals can be rescreened 28 days after these agents/therapies have been established for at least 28 days.\n* Is immunocompromised due to illness, or solid or hematological organ transplant.\n* Requires systemic prednisone (or equivalent) \\> 10 mg daily.\n* Vaping or smoking tobacco or any other substance within 1 month prior to screening and anticipated inability to refrain from vaping or smoking throughout the study.\n* Female subjects who are pregnant, lactating, or have a positive urine human chorionic gonadotropin (pregnancy) test, as determined by laboratory testing.\n* HIV positive.\n* Active Hepatitis B or C.\n* History of recreational drug or alcohol use/abuse which in the opinion of the investigator will compromise the patient's ability to comply with the study protocol.\n* Participation in a clinical study with administration of an investigational drug product within the previous 30 days, or five half-lives of the previously administered investigational product.\n* Has any other medical condition(s) which, in the opinion of the Principal Investigator, would jeopardize the safety of the study subject or impact the validity of the study results.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Tucson Cystic Fibrosis Center",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85750",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "Center for Cystic Fibrosis at Keck Medical Center of USC",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Stanford University Medical Center",
+                "city": "Palo Alto",
+                "state": "California",
+                "zip": "94305",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.44188,
+                  "lon": -122.14302
+                }
+              },
+              {
+                "facility": "Augusta University",
+                "city": "Augusta",
+                "state": "Georgia",
+                "zip": "30912",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.47097,
+                  "lon": -81.97484
+                }
+              },
+              {
+                "facility": "The Cystic Fibrosis Institute",
+                "city": "Northfield",
+                "state": "Illinois",
+                "zip": "60093",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.09975,
+                  "lon": -87.7809
+                }
+              },
+              {
+                "facility": "Tulane University",
+                "city": "New Orleans",
+                "state": "Louisiana",
+                "zip": "70118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.95465,
+                  "lon": -90.07507
+                }
+              },
+              {
+                "facility": "The Minnesota Cystic Fibrosis Center",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55403",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63130",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Columbia University Cystic Fibrosis Program",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10027",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Rainbow Babies and Children's Hospital / University Hospitals Cleveland Medical Center",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Nationwide Children's Hospital",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "University of Pennsylvania",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Dell Children's Medical Center of Central Texas",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78723",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "Royal Prince Albert Hospital",
+                "city": "Camperdown",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.88965,
+                  "lon": 151.17642
+                }
+              },
+              {
+                "facility": "Westmead Hospital",
+                "city": "Westmead",
+                "state": "New South Wales",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.80383,
+                  "lon": 150.98768
+                }
+              },
+              {
+                "facility": "Queensland Children's Hospital",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.46794,
+                  "lon": 153.02809
+                }
+              },
+              {
+                "facility": "The Prince Charles Hospital",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.46794,
+                  "lon": 153.02809
+                }
+              },
+              {
+                "facility": "Royal Adelaide Hospital",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              },
+              {
+                "facility": "The Alfred Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "The Royal Children's Hospital",
+                "city": "Parkville",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.78333,
+                  "lon": 144.95
+                }
+              },
+              {
+                "facility": "Lung Institute of Western Australia",
+                "city": "Nedlands",
+                "state": "Western Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -31.98184,
+                  "lon": 115.8073
+                }
+              },
+              {
+                "facility": "The Kids Research Institute Australia, Perth Children's Hospital",
+                "city": "Perth",
+                "state": "Western Australia",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -31.95224,
+                  "lon": 115.8614
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D012141",
+                "term": "Respiratory Tract Infections"
+              },
+              {
+                "id": "D012008",
+                "term": "Recurrence"
+              },
+              {
+                "id": "D000092122",
+                "term": "Bronchiolitis Obliterans Syndrome"
+              },
+              {
+                "id": "D011552",
+                "term": "Pseudomonas Infections"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D007239",
+                "term": "Infections"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D000092124",
+                "term": "Organizing Pneumonia"
+              },
+              {
+                "id": "D001989",
+                "term": "Bronchiolitis Obliterans"
+              },
+              {
+                "id": "D001988",
+                "term": "Bronchiolitis"
+              },
+              {
+                "id": "D001991",
+                "term": "Bronchitis"
+              },
+              {
+                "id": "D001982",
+                "term": "Bronchial Diseases"
+              },
+              {
+                "id": "D008173",
+                "term": "Lung Diseases, Obstructive"
+              },
+              {
+                "id": "D006086",
+                "term": "Graft vs Host Disease"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D016905",
+                "term": "Gram-Negative Bacterial Infections"
+              },
+              {
+                "id": "D001424",
+                "term": "Bacterial Infections"
+              },
+              {
+                "id": "D001423",
+                "term": "Bacterial Infections and Mycoses"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

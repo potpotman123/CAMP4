@@ -1,0 +1,4466 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06003426",
+      "orgStudyIdInfo": {
+        "id": "IM027-068"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-503697-21",
+          "type": "OTHER",
+          "domain": "EU CTR"
+        },
+        {
+          "id": "2023",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2023"
+        }
+      ],
+      "organization": {
+        "fullName": "Bristol-Myers Squibb",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Efficacy, Safety, and Tolerability of BMS-986278 in Participants With Idiopathic Pulmonary Fibrosis",
+      "officialTitle": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Phase 3 Study to Evaluate the Efficacy, Safety, and Tolerability of BMS-986278 in Participants With Idiopathic Pulmonary Fibrosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-10-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-15",
+      "studyFirstSubmitQcDate": "2023-08-15",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bristol-Myers Squibb",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of BMS-986278 in participants with Idiopathic Pulmonary Fibrosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Idiopathic Pulmonary Fibrosis"
+      ],
+      "keywords": [
+        "BMS-986278",
+        "LPA1 antagonist",
+        "IPF",
+        "Pulmonary fibrosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1255,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BMS-986278 Dose 1",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: BMS-986278"
+          ]
+        },
+        {
+          "label": "BMS-986278 Dose 2",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: BMS-986278"
+          ]
+        },
+        {
+          "label": "BMS-986278 Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: BMS-986278 Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BMS-986278",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "BMS-986278 Dose 1",
+            "BMS-986278 Dose 2"
+          ],
+          "otherNames": [
+            "Admilparant"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "BMS-986278 Placebo",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "BMS-986278 Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants that experience spontaneous syncopal events",
+          "description": "Cohort 1",
+          "timeFrame": "At approximately 4 weeks"
+        },
+        {
+          "measure": "Absolute change from baseline in forced vital capacity (FVC) measured in mL",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants who discontinued treatment due to any low BP-related Adverse Events",
+          "description": "Cohort 1",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Disease progression",
+          "description": "Cohort 2\n\nDisease progression will be measured by the time to first disease progression event in at least 1 of the following parameters:\n\n* Absolute percent predicted forced vital capacity (ppFVC) decline of \u2265 10% from baseline\n* Acute exacerbation of pulmonary fibrosis\n* Respiratory-related hospitalization\n* All-cause mortality",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Change from baseline in Living with Pulmonary Fibrosis Questionnaire (L-PF) cough domain score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in L-PF dyspnea domain score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in walking distance measured in 6-minute walk test (6MWT)",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Time to the first occurrence of any of the components of the composite endpoint: time to first acute exacerbation of pulmonary fibrosis, first Respiratory-related hospitalization, or all-cause mortality",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Time to absolute percent ppFVC decline of \u2265 10% from baseline",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Time to first acute exacerbation of pulmonary fibrosis",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Time to first Respiratory-related hospitalization",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Time to first pulmonary fibrosis-related hospitalization",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Time to death",
+          "description": "Cohort 2",
+          "timeFrame": "Up to approximately 3 years"
+        },
+        {
+          "measure": "Change from baseline in L-PF fatigue domain score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in L-PF impacts module score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in cough numeric rating scale (NRS)",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in EuroQol 5 Dimension 5 Level (EQ-5D-5L) health utility index score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in EQ-5D-5L visual analog scale score",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Rate of decline from baseline in FVC (mL)",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Rate of decline in ppFVC from baseline",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change in ppFVC from baseline",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Proportion of participants with absolute decline in ppFVC \u226510%",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Proportion of participants with relative decline in ppFVC \u226510%",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in single-breath diffusing capacity of the lung for carbon monoxide (DLCO SB) (corrected for hemoglobin) (mL/min/mm Hg)",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change in percent predicted single breath diffusing capacity of the lung for carbon monoxide (ppDLCO SB) (corrected for hemoglobin) from baseline",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Change from baseline in quantitative lung fibrosis (QLF) score via high-resolution computed tomography (HRCT)",
+          "description": "Cohort 2",
+          "timeFrame": "Up to Week 52"
+        },
+        {
+          "measure": "Number of participants with Adverse Events (AEs)",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with Serious AEs (SAEs)",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with AEs leading to early discontinuation of investigational medicinal product (IMP)",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with AEs related to IMP",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of treatment-emergent deaths",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with clinical laboratory abnormalities",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with electrocardiogram (ECG) abnormalities",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        },
+        {
+          "measure": "Number of participants with vital sign abnormalities",
+          "description": "Cohorts 1 and 2",
+          "timeFrame": "Up to 28 days after last dose"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Subjects with IPF aged \u2265 40 years at the time of signing the informed consent.\n* Diagnosis of IPF within 7 years prior to screening that is supported by centrally read chest high-resolution computed tomography (HRCT) obtained at screening and verification of usual interstitial pneumonia.\n* If on pirfenidone or nintedanib, participants must have been on a stable dose for at least 90 days prior to screening.\n* If not currently on pirfenidone or nintedanib, participants must not have received either of these medications within 28 days prior to screening.\n* Women who are of childbearing potential must have a highly effective form of contraception and must provide a negative urine/serum pregnancy test.\n* Men who are sexually active with women of childbearing potential agree to use male barrier contraception.\n\nExclusion Criteria\n\n* History of stroke or transient ischemic attack within 3 months prior to screening.\n* Participants who exhibit symptoms of heart failure at rest.\n* Participants who have a current malignancy or a previous malignancy with less than 2 years free of recurrence or a biopsy that is suspicious for malignancy and the possibility of malignancy cannot be reasonably excluded following additional clinical, laboratory, or other diagnostic evaluations.\n* Other protocol-defined Inclusion/Exclusion criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bristol-Myers Squibb",
+          "affiliation": "Bristol-Myers Squibb",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Local Institution - 0189",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Local Institution - 0361",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85013-4220",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Local Institution - 0396",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037-1027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Local Institution - 0193",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033-5313",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Local Institution - 0398",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095-3075",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Local Institution - 0389",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868-3201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Local Institution - 0405",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Local Institution - 0185",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143-2202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Local Institution - 0186",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Local Institution - 0363",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Local Institution - 0194",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Local Institution - 0175",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Local Institution - 0151",
+          "city": "Newark",
+          "state": "Delaware",
+          "zip": "19713-1337",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.68372,
+            "lon": -75.74966
+          }
+        },
+        {
+          "facility": "Local Institution - 0367",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007-2113",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Local Institution - 0101",
+          "city": "Brandon",
+          "state": "Florida",
+          "zip": "33511-5706",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.9378,
+            "lon": -82.28592
+          }
+        },
+        {
+          "facility": "Local Institution - 0436",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33765",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Local Institution - 0425",
+          "city": "DeBary",
+          "state": "Florida",
+          "zip": "32713-1817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.88305,
+            "lon": -81.30868
+          }
+        },
+        {
+          "facility": "Local Institution - 0079",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "Local Institution - 0352",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "Local Institution - 0370",
+          "city": "Kissimmee",
+          "state": "Florida",
+          "zip": "34746-4654",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.30468,
+            "lon": -81.41667
+          }
+        },
+        {
+          "facility": "Local Institution - 0502",
+          "city": "Leesburg",
+          "state": "Florida",
+          "zip": "34748-5077",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.81082,
+            "lon": -81.87786
+          }
+        },
+        {
+          "facility": "Local Institution - 0153",
+          "city": "Loxahatchee Groves",
+          "state": "Florida",
+          "zip": "33411",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.68368,
+            "lon": -80.27977
+          }
+        },
+        {
+          "facility": "Local Institution - 0187",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34471",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Local Institution - 0418",
+          "city": "Pensacola",
+          "state": "Florida",
+          "zip": "32503-2670",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          }
+        },
+        {
+          "facility": "Local Institution - 0206",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33704",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "Local Institution - 0364",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Local Institution - 0372",
+          "city": "Dublin",
+          "state": "Georgia",
+          "zip": "31021-2561",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.54044,
+            "lon": -82.90375
+          }
+        },
+        {
+          "facility": "Local Institution - 0178",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Local Institution - 0183",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612-3841",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Local Institution - 0058",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Local Institution - 0085",
+          "city": "Maywood",
+          "state": "Illinois",
+          "zip": "60153-3328",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.8792,
+            "lon": -87.84312
+          }
+        },
+        {
+          "facility": "Local Institution - 0325",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61637-0001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "Local Institution - 0180",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "522242-1009",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "Local Institution - 0204",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "Local Institution - 0393",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202-1332",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Local Institution - 0354",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21201-1544",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Local Institution - 0380",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Local Institution - 0040",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02135-2907",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Local Institution - 0472",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109-5000",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Local Institution - 0096",
+          "city": "Chesterfield",
+          "state": "Missouri",
+          "zip": "63017-3425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.66311,
+            "lon": -90.57707
+          }
+        },
+        {
+          "facility": "Local Institution - 0174",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110-1010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Local Institution - 0154",
+          "city": "Mount Kisco",
+          "state": "New York",
+          "zip": "10549-3417",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.20426,
+            "lon": -73.72708
+          }
+        },
+        {
+          "facility": "Local Institution - 0433",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Local Institution - 0366",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28412",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "Local Institution - 0368",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Local Institution - 0201",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267-0595",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Local Institution - 0197",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Local Institution - 0417",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43608-2603",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Local Institution - 0181",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104-5417",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Local Institution - 0373",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74133",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Local Institution - 0021",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239-3011",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Local Institution - 0067",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033-2360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Local Institution - 0406",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104-5161",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Local Institution - 0388",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107-5109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Local Institution - 0199",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19140-5103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Local Institution - 0202",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Local Institution - 0346",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096-3432",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        },
+        {
+          "facility": "Local Institution - 0375",
+          "city": "Anderson",
+          "state": "South Carolina",
+          "zip": "29621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.50344,
+            "lon": -82.65013
+          }
+        },
+        {
+          "facility": "Local Institution - 0188",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Local Institution - 0400",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Local Institution - 0073",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75235-5351",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Local Institution - 0377",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75245-2017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Local Institution - 0039",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030-4202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Local Institution - 0097",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Local Institution - 0029",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75069",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Local Institution - 0048",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229-4404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Local Institution - 0027",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Local Institution - 0184",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Local Institution - 0191",
+          "city": "Everett",
+          "state": "Washington",
+          "zip": "98208-6526",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.97898,
+            "lon": -122.20208
+          }
+        },
+        {
+          "facility": "Local Institution - 0362",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Local Institution - 0131",
+          "city": "Mar del Plata",
+          "state": "Buenos Aires",
+          "zip": "7600",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -38.00042,
+            "lon": -57.5562
+          }
+        },
+        {
+          "facility": "Local Institution - 0019",
+          "city": "Buenos Aires",
+          "state": "B",
+          "zip": "C1426ABO",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Local Institution - 0172",
+          "city": "Caba",
+          "state": "B",
+          "zip": "C1425FVH",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Local Institution - 0170",
+          "city": "Florida",
+          "state": "B",
+          "zip": "1602",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.53258,
+            "lon": -58.49078
+          }
+        },
+        {
+          "facility": "Local Institution - 0286",
+          "city": "Mar del Plata",
+          "state": "B",
+          "zip": "7600",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -38.00042,
+            "lon": -57.5562
+          }
+        },
+        {
+          "facility": "Local Institution - 0485",
+          "city": "Quilmes, Provincia de Buenos Aires",
+          "state": "B",
+          "zip": "1878",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.72065,
+            "lon": -58.25454
+          }
+        },
+        {
+          "facility": "Local Institution - 0290",
+          "city": "San Juan Bautista",
+          "state": "B",
+          "zip": "1853",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.80896,
+            "lon": -58.27623
+          }
+        },
+        {
+          "facility": "Local Institution - 0288",
+          "city": "Ciudad Aut\u00f3noma Buenos Aires",
+          "state": "C",
+          "zip": "1181",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Local Institution - 0287",
+          "city": "Godoy Cruz",
+          "state": "M",
+          "zip": "5501",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.92533,
+            "lon": -68.84428
+          }
+        },
+        {
+          "facility": "Local Institution - 0013",
+          "city": "Mendoza",
+          "state": "M",
+          "zip": "5500",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.88946,
+            "lon": -68.84582
+          }
+        },
+        {
+          "facility": "Local Institution - 0356",
+          "city": "Mendoza",
+          "state": "M",
+          "zip": "M5500",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.88946,
+            "lon": -68.84582
+          }
+        },
+        {
+          "facility": "Local Institution - 0330",
+          "city": "Rosario",
+          "state": "S",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Local Institution - 0169",
+          "city": "San Miguel de Tucum\u00e1n",
+          "state": "T",
+          "zip": "T4000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -26.81601,
+            "lon": -65.21051
+          }
+        },
+        {
+          "facility": "Local Institution - 0218",
+          "city": "C\u00f3rdoba",
+          "state": "X",
+          "zip": "X5003DCE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Local Institution - 0283",
+          "city": "Buenos Aires",
+          "zip": "C1056ABJ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Local Institution - 0173",
+          "city": "Santa Fe",
+          "zip": "3000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.64881,
+            "lon": -60.70868
+          }
+        },
+        {
+          "facility": "Local Institution - 0209",
+          "city": "Camperdown",
+          "state": "New South Wales",
+          "zip": "2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "Local Institution - 0239",
+          "city": "Westmead",
+          "state": "New South Wales",
+          "zip": "2145",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.80383,
+            "lon": 150.98768
+          }
+        },
+        {
+          "facility": "Local Institution - 0210",
+          "city": "Brisbane",
+          "state": "Queensland",
+          "zip": "4032",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.46794,
+            "lon": 153.02809
+          }
+        },
+        {
+          "facility": "Local Institution - 0229",
+          "city": "Greenslopes",
+          "state": "Queensland",
+          "zip": "4120",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.50815,
+            "lon": 153.04951
+          }
+        },
+        {
+          "facility": "Local Institution - 0421",
+          "city": "South Brisbane",
+          "state": "Queensland",
+          "zip": "4101",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48034,
+            "lon": 153.02049
+          }
+        },
+        {
+          "facility": "Local Institution - 0309",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "zip": "5000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Local Institution - 0443",
+          "city": "Box Hill",
+          "state": "Victoria",
+          "zip": "3128",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.81887,
+            "lon": 145.12545
+          }
+        },
+        {
+          "facility": "Local Institution - 0420",
+          "city": "Frankston",
+          "state": "Victoria",
+          "zip": "3199",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -38.14458,
+            "lon": 145.12291
+          }
+        },
+        {
+          "facility": "Local Institution - 0419",
+          "city": "Murdoch",
+          "state": "Western Australia",
+          "zip": "6150",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.06987,
+            "lon": 115.83757
+          }
+        },
+        {
+          "facility": "Local Institution - 0385",
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Local Institution - 0458",
+          "city": "Salzburg",
+          "state": "Salzburger Land",
+          "zip": "5020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.79941,
+            "lon": 13.04399
+          }
+        },
+        {
+          "facility": "Local Institution - 0409",
+          "city": "Linz",
+          "state": "Upper Austria",
+          "zip": "4020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Local Institution - 0025",
+          "city": "Vienna",
+          "zip": "1130",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Local Institution - 0459",
+          "city": "Vienna",
+          "zip": "1210",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Local Institution - 0332",
+          "city": "Yvoir",
+          "state": "Namur",
+          "zip": "5530",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.3279,
+            "lon": 4.88059
+          }
+        },
+        {
+          "facility": "Local Institution - 0075",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Local Institution - 0345",
+          "city": "Kortrijk",
+          "zip": "8500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.82803,
+            "lon": 3.26487
+          }
+        },
+        {
+          "facility": "Local Institution - 0038",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Local Institution - 0046",
+          "city": "Li\u00e8ge",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "Local Institution - 0084",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "zip": "30130-100",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Local Institution - 0098",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "zip": "30380 090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Local Institution - 0490",
+          "city": "Barra Mansa",
+          "state": "Rio de Janeiro",
+          "zip": "27323-240",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.54417,
+            "lon": -44.17139
+          }
+        },
+        {
+          "facility": "Local Institution - 0359",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "zip": "20950-003",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Local Institution - 0304",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-074",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Local Institution - 0049",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90160-093",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Local Institution - 0307",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "91010-004",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Local Institution - 0089",
+          "city": "Blumenau",
+          "state": "Santa Catarina",
+          "zip": "89030-100",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -26.91944,
+            "lon": -49.06611
+          }
+        },
+        {
+          "facility": "Local Institution - 0054",
+          "city": "Santo Andr\u00e9",
+          "state": "S\u00e3o Paulo",
+          "zip": "09060-870",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.66389,
+            "lon": -46.53833
+          }
+        },
+        {
+          "facility": "Local Institution - 0305",
+          "city": "S\u00e3o Bernardo do Campo",
+          "state": "S\u00e3o Paulo",
+          "zip": "09715-090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.69389,
+            "lon": -46.565
+          }
+        },
+        {
+          "facility": "Local Institution - 0024",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "04023-062",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Local Institution - 0486",
+          "city": "S\u00e3o Paulo",
+          "zip": "01327-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Local Institution - 0062",
+          "city": "Sherwood Park",
+          "state": "Alberta",
+          "zip": "T8H 0N2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.51684,
+            "lon": -113.3187
+          }
+        },
+        {
+          "facility": "Local Institution - 0100",
+          "city": "Kelowna",
+          "state": "British Columbia",
+          "zip": "V1Y 3H5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.88307,
+            "lon": -119.48568
+          }
+        },
+        {
+          "facility": "Local Institution - 0061",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 1M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Local Institution - 0171",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6Z 1Y6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Local Institution - 0103",
+          "city": "Burlington",
+          "state": "Ontario",
+          "zip": "L7N 3V2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.38621,
+            "lon": -79.83713
+          }
+        },
+        {
+          "facility": "Local Institution - 0216",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8N 4A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Local Institution - 0044",
+          "city": "Owen Sound",
+          "state": "Ontario",
+          "zip": "N4K 6M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.56717,
+            "lon": -80.94349
+          }
+        },
+        {
+          "facility": "Local Institution - 0213",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5T 3A9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Local Institution - 0426",
+          "city": "Greenfield Park",
+          "state": "Quebec",
+          "zip": "J4V 2H1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.48649,
+            "lon": -73.46223
+          }
+        },
+        {
+          "facility": "Local Institution - 0434",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0C1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Local Institution - 0215",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Local Institution - 0495",
+          "city": "Saint-Charles-Borrom\u00e9e",
+          "state": "Quebec",
+          "zip": "J6E 2B4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.05007,
+            "lon": -73.46586
+          }
+        },
+        {
+          "facility": "Local Institution - 0053",
+          "city": "Trois-Rivi\u00e8res",
+          "state": "Quebec",
+          "zip": "G8T 7A1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Local Institution - 0478",
+          "city": "Trois-Rivi\u00e8res",
+          "state": "Quebec",
+          "zip": "G9S4P3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Local Institution - 0503",
+          "city": "Concepci\u00f3n",
+          "state": "Biobio",
+          "zip": "4070280",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -36.82699,
+            "lon": -73.04977
+          }
+        },
+        {
+          "facility": "Local Institution - 0437",
+          "city": "Curic\u00f3",
+          "state": "Maule Region",
+          "zip": "3440000",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -34.98279,
+            "lon": -71.23943
+          }
+        },
+        {
+          "facility": "Local Institution - 0211",
+          "city": "Talca",
+          "state": "Maule Region",
+          "zip": "3466706",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -35.4232,
+            "lon": -71.64974
+          }
+        },
+        {
+          "facility": "Local Institution - 0068",
+          "city": "Santiago",
+          "state": "RM",
+          "zip": "7620157",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Local Institution - 0214",
+          "city": "Santiago",
+          "state": "RM",
+          "zip": "8320000",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Local Institution - 0051",
+          "city": "Quillota",
+          "state": "Valparaiso",
+          "zip": "2260000",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -32.88341,
+            "lon": -71.24882
+          }
+        },
+        {
+          "facility": "Local Institution - 0263",
+          "city": "Hefei",
+          "state": "AH",
+          "zip": "230001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Local Institution - 0222",
+          "city": "Hefei",
+          "state": "AH",
+          "zip": "230022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Local Institution - 0410",
+          "city": "Hefei",
+          "state": "Anhui",
+          "zip": "230601",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Local Institution - 0238",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100020",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Local Institution - 0470",
+          "city": "Beijing",
+          "state": "BJ",
+          "zip": "100050",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Local Institution - 0257",
+          "city": "Beijing",
+          "state": "BJ",
+          "zip": "100730",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Local Institution - 0242",
+          "city": "Guangzhou",
+          "state": "GD",
+          "zip": "510515",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Local Institution - 0480",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510230",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Local Institution - 0295",
+          "city": "Shenzhen",
+          "state": "Guangdong",
+          "zip": "518036",
+          "country": "China",
+          "geoPoint": {
+            "lat": 22.54554,
+            "lon": 114.0683
+          }
+        },
+        {
+          "facility": "Local Institution - 0492",
+          "city": "Shenzhen Shi",
+          "state": "Guangdong",
+          "zip": "518020",
+          "country": "China"
+        },
+        {
+          "facility": "Local Institution - 0294",
+          "city": "Zhengzhou",
+          "state": "HA",
+          "zip": "450003",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Local Institution - 0360",
+          "city": "Zhengzhou",
+          "state": "HA",
+          "zip": "450052",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Local Institution - 0233",
+          "city": "Shijiazhuang",
+          "state": "HE",
+          "zip": "050000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Local Institution - 0482",
+          "city": "Yichang Shi",
+          "state": "HE",
+          "zip": "443099",
+          "country": "China"
+        },
+        {
+          "facility": "Local Institution - 0369",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Local Institution - 0252",
+          "city": "Wuhan",
+          "state": "HUB",
+          "zip": "430060",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Local Institution - 0424",
+          "city": "Suzhou",
+          "state": "Jiangsu",
+          "zip": "215006",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.30408,
+            "lon": 120.59538
+          }
+        },
+        {
+          "facility": "Local Institution - 0262",
+          "city": "Wuxi",
+          "state": "Jiangsu",
+          "zip": "214023",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.56887,
+            "lon": 120.28857
+          }
+        },
+        {
+          "facility": "Local Institution - 0483",
+          "city": "Xuzhou",
+          "state": "JS",
+          "zip": "221002",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          }
+        },
+        {
+          "facility": "Local Institution - 0431",
+          "city": "Nanchang",
+          "state": "JX",
+          "zip": "330019",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Local Institution - 0479",
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "zip": "110044",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Local Institution - 0241",
+          "city": "Shenyang",
+          "state": "LN",
+          "zip": "110001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Local Institution - 0292",
+          "city": "Shenyang",
+          "state": "LN",
+          "zip": "110004",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Local Institution - 0255",
+          "city": "Shanghai",
+          "state": "SH",
+          "zip": "200030",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Local Institution - 0230",
+          "city": "Shanghai",
+          "state": "SH",
+          "zip": "201112",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Local Institution - 0243",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Local Institution - 0391",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "zip": "300052",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Local Institution - 0365",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "zip": "300222",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Local Institution - 0488",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Local Institution - 0351",
+          "city": "Ningbo",
+          "state": "Zhejiang",
+          "zip": "315010",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.87819,
+            "lon": 121.54945
+          }
+        },
+        {
+          "facility": "Local Institution - 0249",
+          "city": "Hangzhou",
+          "state": "ZJ",
+          "zip": "310006",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Local Institution - 0244",
+          "city": "Changsha",
+          "zip": "410011",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "facility": "Local Institution - 0371",
+          "city": "Chengdu",
+          "zip": "610072",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Local Institution - 0258",
+          "city": "Guangzhou",
+          "zip": "510080",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Local Institution - 0237",
+          "city": "Hohhot",
+          "zip": "010010",
+          "country": "China",
+          "geoPoint": {
+            "lat": 40.81056,
+            "lon": 111.65222
+          }
+        },
+        {
+          "facility": "Local Institution - 0403",
+          "city": "Jinan",
+          "zip": "250012",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Local Institution - 0358",
+          "city": "Nanjing",
+          "zip": "210008",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Local Institution - 0266",
+          "city": "Shanghai",
+          "zip": "200040",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Local Institution - 0408",
+          "city": "Shanghai",
+          "zip": "200233",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Local Institution - 0232",
+          "city": "Shanghai",
+          "zip": "200433",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Local Institution - 0261",
+          "city": "Shijiazhuang",
+          "zip": "050051",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Local Institution - 0374",
+          "city": "Xi'an",
+          "zip": "710100",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "Local Institution - 0297",
+          "city": "Medell\u00edn",
+          "state": "ANT",
+          "zip": "050021",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 6.245,
+            "lon": -75.57151
+          }
+        },
+        {
+          "facility": "Local Institution - 0291",
+          "city": "Bogot\u00e1",
+          "state": "DC",
+          "zip": "110111",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Local Institution - 0278",
+          "city": "Floridablanca",
+          "state": "Santander Department",
+          "zip": "681004",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 7.06222,
+            "lon": -73.08644
+          }
+        },
+        {
+          "facility": "Local Institution - 0268",
+          "city": "Santiago de Cali",
+          "state": "VAC",
+          "zip": "760046",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 2.48713,
+            "lon": -76.57295
+          }
+        },
+        {
+          "facility": "Local Institution - 0138",
+          "city": "Bogot\u00e1",
+          "zip": "11031",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Local Institution - 0279",
+          "city": "Manizales",
+          "zip": "17001",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 5.0668,
+            "lon": -75.50684
+          }
+        },
+        {
+          "facility": "Local Institution - 0064",
+          "city": "Aarhus",
+          "state": "Central Jutland",
+          "zip": "8200",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Local Institution - 0010",
+          "city": "Odense C",
+          "state": "Region Syddanmark",
+          "zip": "5000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.40841,
+            "lon": 10.39538
+          }
+        },
+        {
+          "facility": "Local Institution - 0036",
+          "city": "Hellerup",
+          "zip": "2900",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.73204,
+            "lon": 12.57093
+          }
+        },
+        {
+          "facility": "Local Institution - 0350",
+          "city": "Turku",
+          "state": "Laensi-Suomen Laeaeni",
+          "zip": "20521",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "facility": "Local Institution - 0328",
+          "city": "Helsinki",
+          "zip": "00290",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Local Institution - 0047",
+          "city": "Bron",
+          "state": "Auvergne-Rh\u00f4ne-Alpes",
+          "zip": "69677",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "Local Institution - 0322",
+          "city": "Grenoble",
+          "state": "Auvergne-Rh\u00f4ne-Alpes",
+          "zip": "38043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Local Institution - 0083",
+          "city": "Nantes",
+          "state": "Pays de la Loire Region",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Local Institution - 0334",
+          "city": "Marseille",
+          "state": "Provence-Alpes-C\u00f4te d'Azur Region",
+          "zip": "13015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Local Institution - 0012",
+          "city": "Angers",
+          "zip": "49933",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Local Institution - 0066",
+          "city": "Bobigny",
+          "zip": "93000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.90982,
+            "lon": 2.45012
+          }
+        },
+        {
+          "facility": "Local Institution - 0321",
+          "city": "Brest",
+          "zip": "29609",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Local Institution - 0052",
+          "city": "Dijon",
+          "zip": "21000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Local Institution - 0022",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Local Institution - 0342",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "Local Institution - 0023",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Local Institution - 0339",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Local Institution - 0050",
+          "city": "Freiburg I. Breisgau",
+          "state": "Baden-Wurttemberg",
+          "zip": "79106",
+          "country": "Germany"
+        },
+        {
+          "facility": "Local Institution - 0272",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Local Institution - 0042",
+          "city": "M\u00fcnnerstadt",
+          "state": "Bavaria",
+          "zip": "97702",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.24636,
+            "lon": 10.20187
+          }
+        },
+        {
+          "facility": "Local Institution - 0313",
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Local Institution - 0041",
+          "city": "Immenhausen",
+          "state": "Hesse",
+          "zip": "34376",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.42763,
+            "lon": 9.48017
+          }
+        },
+        {
+          "facility": "Local Institution - 0026",
+          "city": "Marburg",
+          "state": "Hesse",
+          "zip": "35037",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.80904,
+            "lon": 8.77069
+          }
+        },
+        {
+          "facility": "Local Institution - 0092",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45239",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Local Institution - 0320",
+          "city": "Cologne",
+          "state": "Northwest",
+          "zip": "50678",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Local Institution - 0349",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "12351",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Local Institution - 0003",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "14165",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Local Institution - 0037",
+          "city": "Ahrensburg",
+          "zip": "22926",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.67661,
+            "lon": 10.23705
+          }
+        },
+        {
+          "facility": "Local Institution - 0004",
+          "city": "Coswig",
+          "zip": "01640",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.13204,
+            "lon": 13.58312
+          }
+        },
+        {
+          "facility": "Local Institution - 0383",
+          "city": "Heidelberg",
+          "zip": "69126",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Local Institution - 0017",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Local Institution - 0347",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Local Institution - 0314",
+          "city": "Marousi",
+          "state": "Attica",
+          "zip": "15125",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.05,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Local Institution - 0318",
+          "city": "Pylaia-Chortiatis",
+          "state": "B",
+          "zip": "570 10",
+          "country": "Greece"
+        },
+        {
+          "facility": "Local Institution - 0110",
+          "city": "Athens",
+          "zip": "12462",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Local Institution - 0108",
+          "city": "Corfu",
+          "zip": "491 00",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62441,
+            "lon": 19.92016
+          }
+        },
+        {
+          "facility": "Local Institution - 0102",
+          "city": "Larissa",
+          "zip": "413 34",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "Local Institution - 0109",
+          "city": "Rio",
+          "zip": "26504",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.29558,
+            "lon": 21.78504
+          }
+        },
+        {
+          "facility": "Local Institution - 0018",
+          "city": "Budapest",
+          "zip": "1083",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Local Institution - 0343",
+          "city": "Gy\u0151r",
+          "zip": "9024",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.68333,
+            "lon": 17.63512
+          }
+        },
+        {
+          "facility": "Local Institution - 0430",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "zip": "380060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Local Institution - 0282",
+          "city": "Surat",
+          "state": "Gujarat",
+          "zip": "395010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.19594,
+            "lon": 72.83023
+          }
+        },
+        {
+          "facility": "Local Institution - 0264",
+          "city": "Belagavi",
+          "state": "Karnataka",
+          "zip": "590010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 15.85212,
+            "lon": 74.50447
+          }
+        },
+        {
+          "facility": "Local Institution - 0386",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "zip": "462001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.25469,
+            "lon": 77.40289
+          }
+        },
+        {
+          "facility": "Local Institution - 0395",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "044009",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Local Institution - 0414",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Local Institution - 0275",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Local Institution - 0498",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Local Institution - 0457",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Local Institution - 0285",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110017",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Local Institution - 0429",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110029",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Local Institution - 0428",
+          "city": "Mohali",
+          "state": "Punjab",
+          "zip": "160062",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.67995,
+            "lon": 76.72211
+          }
+        },
+        {
+          "facility": "Local Institution - 0289",
+          "city": "Jaipur",
+          "state": "Rajasthan",
+          "zip": "302023",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.91962,
+            "lon": 75.78781
+          }
+        },
+        {
+          "facility": "Local Institution - 0477",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "zip": "226003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.83928,
+            "lon": 80.92313
+          }
+        },
+        {
+          "facility": "Local Institution - 0247",
+          "city": "Dehradun",
+          "state": "Uttarakhand",
+          "zip": "248001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.32443,
+            "lon": 78.03392
+          }
+        },
+        {
+          "facility": "Local Institution - 0225",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700014",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Local Institution - 0256",
+          "city": "Bangalore",
+          "zip": "560034",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Local Institution - 0228",
+          "city": "Lucknow",
+          "zip": "226006",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.83928,
+            "lon": 80.92313
+          }
+        },
+        {
+          "facility": "Local Institution - 0168",
+          "city": "Drogheda",
+          "state": "LH",
+          "zip": "A92 VW28",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.71889,
+            "lon": -6.34778
+          }
+        },
+        {
+          "facility": "Local Institution - 0497",
+          "city": "Dublin",
+          "zip": "D04 T6F4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Local Institution - 0117",
+          "city": "Dublin",
+          "zip": "D15 X40D",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Local Institution - 0331",
+          "city": "Haifa",
+          "state": "HA",
+          "zip": "3436212",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Local Institution - 0348",
+          "city": "Haifa",
+          "zip": "3109601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Local Institution - 0113",
+          "city": "Jerusalem",
+          "zip": "91120",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Local Institution - 0319",
+          "city": "Petah Tikva",
+          "zip": "4941492",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.0888,
+            "lon": 34.88666
+          }
+        },
+        {
+          "facility": "Local Institution - 0035",
+          "city": "Rehovot",
+          "zip": "7661041",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.89415,
+            "lon": 34.8095
+          }
+        },
+        {
+          "facility": "Local Institution - 0090",
+          "city": "Tel Aviv",
+          "zip": "64239",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Local Institution - 0329",
+          "city": "Bologna",
+          "state": "BO",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Local Institution - 0326",
+          "city": "Modena",
+          "state": "Emilia-Romagna",
+          "zip": "41125",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Local Institution - 0034",
+          "city": "Florence",
+          "state": "FI",
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "Local Institution - 0119",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Local Institution - 0127",
+          "city": "Pisa",
+          "state": "PI",
+          "zip": "56126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "Local Institution - 0005",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Local Institution - 0095",
+          "city": "Ancona",
+          "zip": "60126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          }
+        },
+        {
+          "facility": "Local Institution - 0118",
+          "city": "Bergamo",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "Local Institution - 0057",
+          "city": "Foggia",
+          "zip": "71122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.45845,
+            "lon": 15.55188
+          }
+        },
+        {
+          "facility": "Local Institution - 0126",
+          "city": "Forl\u00ec",
+          "zip": "47121",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.22177,
+            "lon": 12.04144
+          }
+        },
+        {
+          "facility": "Local Institution - 0069",
+          "city": "Milan",
+          "zip": "20142",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Local Institution - 0121",
+          "city": "Monza",
+          "zip": "20900",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "Local Institution - 0323",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Local Institution - 0125",
+          "city": "Palermo",
+          "zip": "90127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Local Institution - 0122",
+          "city": "Pavia",
+          "zip": "27100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "facility": "Local Institution - 0120",
+          "city": "Sassari",
+          "zip": "7100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.72586,
+            "lon": 8.55552
+          }
+        },
+        {
+          "facility": "Local Institution - 0114",
+          "city": "Siena",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Local Institution - 0107",
+          "city": "Chiba",
+          "state": "Chiba",
+          "zip": "2608677",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "Local Institution - 0088",
+          "city": "Fukuoka",
+          "state": "Fukuoka",
+          "zip": "8108563",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Local Institution - 0442",
+          "city": "Fukuoka",
+          "state": "Fukuoka",
+          "zip": "812-8582",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Local Institution - 0129",
+          "city": "Koriyama-shi",
+          "state": "Fukushima",
+          "zip": "9630197",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0059",
+          "city": "Naka-gun",
+          "state": "Gunma",
+          "zip": "3191113",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0355",
+          "city": "Hiroshima",
+          "state": "Hirohima-ken",
+          "zip": "734-8530",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.4,
+            "lon": 132.45
+          }
+        },
+        {
+          "facility": "Local Institution - 0132",
+          "city": "Sapporo",
+          "state": "Hokkaido",
+          "zip": "0608543",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          }
+        },
+        {
+          "facility": "Local Institution - 0031",
+          "city": "Himeji-Shi",
+          "state": "Hy\u014dgo",
+          "zip": "670-8520",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0030",
+          "city": "Kobe",
+          "state": "Hy\u014dgo",
+          "zip": "6500047",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.6913,
+            "lon": 135.183
+          }
+        },
+        {
+          "facility": "Local Institution - 0353",
+          "city": "Matsusaka-shi",
+          "state": "Mie-ken",
+          "zip": "515-8544",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0077",
+          "city": "Nagasaki",
+          "state": "NGS",
+          "zip": "852-8501",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.75,
+            "lon": 129.88333
+          }
+        },
+        {
+          "facility": "Local Institution - 0106",
+          "city": "Ginowan-Shi",
+          "state": "Okinawa",
+          "zip": "901-2214",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0299",
+          "city": "Osakasayama-shi",
+          "state": "Osaka",
+          "zip": "589-8511",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0274",
+          "city": "Sakai",
+          "state": "OSK",
+          "zip": "591-8555",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.58216,
+            "lon": 135.46653
+          }
+        },
+        {
+          "facility": "Local Institution - 0123",
+          "city": "Hamamatsu",
+          "state": "Shizuoka",
+          "zip": "431-3192",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.7,
+            "lon": 137.73333
+          }
+        },
+        {
+          "facility": "Local Institution - 0105",
+          "city": "Bunky\u014d City",
+          "state": "TKY",
+          "zip": "1138431",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.5331,
+            "lon": 139.4217
+          }
+        },
+        {
+          "facility": "Local Institution - 0009",
+          "city": "Shimotsuge-shi",
+          "state": "Tochigi",
+          "zip": "329-0498",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0124",
+          "city": "Bunkyo-Ku",
+          "state": "Tokyo",
+          "zip": "113-8519",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0226",
+          "city": "Bunkyo-ku",
+          "state": "Tokyo",
+          "zip": "113-8603",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0302",
+          "city": "Mitaka-shi",
+          "state": "Tokyo",
+          "zip": "181-8611",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0251",
+          "city": "Shinjuku-Ku",
+          "state": "Tokyo",
+          "zip": "160-0023",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0301",
+          "city": "Fukuoka",
+          "zip": "830-0011",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Local Institution - 0111",
+          "city": "Iizuka-shi",
+          "zip": "820-8505",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0130",
+          "city": "Izumo-Shi",
+          "zip": "693-8501",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0011",
+          "city": "Kamogawa-Shi",
+          "zip": "296-0041",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0086",
+          "city": "Kumamoto",
+          "zip": "861-4101",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.80589,
+            "lon": 130.69181
+          }
+        },
+        {
+          "facility": "Local Institution - 0033",
+          "city": "Minatoku",
+          "zip": "105-8470",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.57237,
+            "lon": 130.59341
+          }
+        },
+        {
+          "facility": "Local Institution - 0300",
+          "city": "Minatoku",
+          "zip": "105-8471",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.57237,
+            "lon": 130.59341
+          }
+        },
+        {
+          "facility": "Local Institution - 0045",
+          "city": "Nagoya",
+          "zip": "466-8550",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        },
+        {
+          "facility": "Local Institution - 0015",
+          "city": "Seto",
+          "zip": "489-8642",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.23333,
+            "lon": 137.1
+          }
+        },
+        {
+          "facility": "Local Institution - 0074",
+          "city": "Shinjyu-Ku",
+          "zip": "162-8655",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0056",
+          "city": "Tenri-Shi",
+          "zip": "632-8552",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0128",
+          "city": "Tokyo",
+          "zip": "143-8541",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Local Institution - 0298",
+          "city": "Yokohama",
+          "zip": "236-0051",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.43333,
+            "lon": 139.65
+          }
+        },
+        {
+          "facility": "Local Institution - 0260",
+          "city": "Yoshida-Gun",
+          "zip": "910-1193",
+          "country": "Japan"
+        },
+        {
+          "facility": "Local Institution - 0324",
+          "city": "Metepec",
+          "state": "Edo de Mexico",
+          "zip": "52170",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.25195,
+            "lon": -99.60473
+          }
+        },
+        {
+          "facility": "Local Institution - 0382",
+          "city": "Morelia",
+          "state": "Michoac\u00e1n",
+          "zip": "58260",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.70078,
+            "lon": -101.18443
+          }
+        },
+        {
+          "facility": "Local Institution - 0167",
+          "city": "Oaxaca City",
+          "state": "Oaxaca",
+          "zip": "68020",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 17.06025,
+            "lon": -96.72544
+          }
+        },
+        {
+          "facility": "Local Institution - 0394",
+          "city": "Rotterdam",
+          "state": "South Holland",
+          "zip": "3061BC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Local Institution - 0379",
+          "city": "Amsterdam",
+          "zip": "1081 BT",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Local Institution - 0152",
+          "city": "Heerlen",
+          "zip": "6419 PC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.88365,
+            "lon": 5.98154
+          }
+        },
+        {
+          "facility": "Local Institution - 0456",
+          "city": "Nieuwegein",
+          "zip": "3430 EM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "Local Institution - 0220",
+          "city": "Lima",
+          "state": "LIM",
+          "zip": "33",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Local Institution - 0144",
+          "city": "San Miguel",
+          "state": "LIM",
+          "zip": "15088",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -15.47798,
+            "lon": -70.12498
+          }
+        },
+        {
+          "facility": "Local Institution - 0007",
+          "city": "Lima",
+          "zip": "31",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Local Institution - 0143",
+          "city": "Bydgoszcz",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "85-065",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        },
+        {
+          "facility": "Local Institution - 0145",
+          "city": "Bydgoszcz",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "85-079",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        },
+        {
+          "facility": "Local Institution - 0147",
+          "city": "Bialystok",
+          "state": "Podlaskie Voivodeship",
+          "zip": "15-044",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Local Institution - 0333",
+          "city": "Gdansk",
+          "state": "Pomeranian Voivodeship",
+          "zip": "80-952",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Local Institution - 0306",
+          "city": "Olsztyn",
+          "state": "Warmian-Masurian Voivodeship",
+          "zip": "10-357",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.78376,
+            "lon": 20.49272
+          }
+        },
+        {
+          "facility": "Local Institution - 0159",
+          "city": "Lodz",
+          "zip": "90-153",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Local Institution - 0002",
+          "city": "Faro",
+          "zip": "8000-386",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 37.01869,
+            "lon": -7.92716
+          }
+        },
+        {
+          "facility": "Local Institution - 0139",
+          "city": "Lisbon",
+          "zip": "1169-024",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Local Institution - 0142",
+          "city": "Lisbon",
+          "zip": "1350-345",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Local Institution - 0028",
+          "city": "Lisbon",
+          "zip": "1769-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Local Institution - 0134",
+          "city": "Loures",
+          "zip": "2674-514",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.83091,
+            "lon": -9.16845
+          }
+        },
+        {
+          "facility": "Local Institution - 0137",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Local Institution - 0165",
+          "city": "Porto",
+          "zip": "4200-319",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Local Institution - 0158",
+          "city": "Vila Nova de Gaia",
+          "zip": "4434-502",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.12401,
+            "lon": -8.61241
+          }
+        },
+        {
+          "facility": "Local Institution - 0198",
+          "city": "Guaynabo",
+          "state": "PR",
+          "zip": "968",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.35745,
+            "lon": -66.111
+          }
+        },
+        {
+          "facility": "Local Institution - 0240",
+          "city": "Goyang-si",
+          "state": "Gyeonggi-do",
+          "zip": "10380",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.65639,
+            "lon": 126.835
+          }
+        },
+        {
+          "facility": "Local Institution - 0271",
+          "city": "Goyang-si",
+          "state": "Gyeonggi-do",
+          "zip": "10475",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.65639,
+            "lon": 126.835
+          }
+        },
+        {
+          "facility": "Local Institution - 0224",
+          "city": "Jongno-gu",
+          "state": "Seoul",
+          "zip": "03080",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0276",
+          "city": "Yongsan-gu",
+          "state": "Seoul",
+          "zip": "4401",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0441",
+          "city": "Dong-gu",
+          "state": "Ulsan",
+          "zip": "44033",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0404",
+          "city": "Bucheon-si",
+          "zip": "14584",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.49889,
+            "lon": 126.78306
+          }
+        },
+        {
+          "facility": "Local Institution - 0227",
+          "city": "Bucheonsi Weonmigu",
+          "zip": "14647",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0440",
+          "city": "Busan",
+          "zip": "47392",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        },
+        {
+          "facility": "Local Institution - 0284",
+          "city": "Donggu",
+          "zip": "44033",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.866,
+            "lon": 127.34942
+          }
+        },
+        {
+          "facility": "Local Institution - 0250",
+          "city": "Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.58944,
+            "lon": 126.76917
+          }
+        },
+        {
+          "facility": "Local Institution - 0231",
+          "city": "Haeundae-Gu",
+          "zip": "48108",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0246",
+          "city": "Iksansi",
+          "zip": "54538",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0269",
+          "city": "Incheon",
+          "zip": "21565",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          }
+        },
+        {
+          "facility": "Local Institution - 0265",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Local Institution - 0221",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Local Institution - 0273",
+          "city": "Suwon, Gyeonggi-do",
+          "zip": "16499",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Local Institution - 0093",
+          "city": "Santander",
+          "state": "CB",
+          "zip": "39008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "Local Institution - 0140",
+          "city": "Santiago de Compostela",
+          "state": "C",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Local Institution - 0099",
+          "city": "Madrid",
+          "state": "M",
+          "zip": "28006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0065",
+          "city": "Madrid",
+          "state": "M",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0161",
+          "city": "Madrid",
+          "state": "M",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0149",
+          "city": "Majadahonda",
+          "state": "M",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Local Institution - 0135",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Local Institution - 0341",
+          "city": "Barcelona",
+          "zip": "08907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Local Institution - 0166",
+          "city": "Girona",
+          "zip": "17001",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Local Institution - 0496",
+          "city": "Madrid",
+          "zip": "28027",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0338",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0155",
+          "city": "Madrid",
+          "zip": "28822",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Local Institution - 0146",
+          "city": "Oviedo",
+          "zip": "33011",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.36029,
+            "lon": -5.84476
+          }
+        },
+        {
+          "facility": "Local Institution - 0335",
+          "city": "Pamplona",
+          "zip": "31008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Local Institution - 0160",
+          "city": "Basel",
+          "state": "Canton of Basel-City",
+          "zip": "4031",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        },
+        {
+          "facility": "Local Institution - 0461",
+          "city": "Bern",
+          "state": "Canton of Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Local Institution - 0473",
+          "city": "Geneva",
+          "state": "Canton of Geneva",
+          "zip": "1205",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          }
+        },
+        {
+          "facility": "Local Institution - 0491",
+          "city": "Changhua",
+          "state": "CHA",
+          "zip": "500",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.0692,
+            "lon": 120.5512
+          }
+        },
+        {
+          "facility": "Local Institution - 0481",
+          "city": "Kaohsiung City",
+          "state": "Kao-Hsiung",
+          "zip": "83301",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Local Institution - 0484",
+          "city": "Taichung",
+          "state": "TXG",
+          "zip": "40447",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Local Institution - 0235",
+          "city": "Douliu Shi",
+          "state": "YUN",
+          "zip": "640",
+          "country": "Taiwan"
+        },
+        {
+          "facility": "Local Institution - 0259",
+          "city": "Kaohsiung City",
+          "zip": "807",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Local Institution - 0270",
+          "city": "New Taipei City",
+          "zip": "220",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.06199,
+            "lon": 121.45703
+          }
+        },
+        {
+          "facility": "Local Institution - 0267",
+          "city": "Taichung",
+          "zip": "40705",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Local Institution - 0254",
+          "city": "Taipei",
+          "zip": "100",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Local Institution - 0236",
+          "city": "Taipei",
+          "zip": "112",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Local Institution - 0176",
+          "city": "G\u00fcm\u00fc\u015fhane",
+          "state": "G\u00fcm\u00fc\u015fhane Province",
+          "zip": "29000",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 40.46001,
+            "lon": 39.47176
+          }
+        },
+        {
+          "facility": "Local Institution - 0177",
+          "city": "Ankara",
+          "zip": "6590",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Local Institution - 0150",
+          "city": "Bursa",
+          "zip": "16059",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 40.19559,
+            "lon": 29.06013
+          }
+        },
+        {
+          "facility": "Local Institution - 0205",
+          "city": "Izmir",
+          "zip": "35100",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Local Institution - 0207",
+          "city": "Izmir",
+          "zip": "35110",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Local Institution - 0196",
+          "city": "Maltepe",
+          "zip": "34844",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 40.93567,
+            "lon": 29.15507
+          }
+        },
+        {
+          "facility": "Local Institution - 0200",
+          "city": "Pasaport",
+          "zip": "35210",
+          "country": "Turkey (T\u00fcrkiye)"
+        },
+        {
+          "facility": "Local Institution - 0344",
+          "city": "Topkap\u0131",
+          "zip": "34093",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.08969,
+            "lon": 38.69334
+          }
+        },
+        {
+          "facility": "Local Institution - 0378",
+          "city": "Birmingham",
+          "state": "BIR",
+          "zip": "B9 5SS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          }
+        },
+        {
+          "facility": "Local Institution - 0415",
+          "city": "Bristol",
+          "state": "BST",
+          "zip": "BS10 5NB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "Local Institution - 0402",
+          "city": "Cambridge",
+          "state": "Cambridgeshire",
+          "zip": "CB2 0AY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          }
+        },
+        {
+          "facility": "Local Institution - 0164",
+          "city": "Dundee",
+          "state": "DND",
+          "zip": "DD1 9SY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 56.46913,
+            "lon": -2.97489
+          }
+        },
+        {
+          "facility": "Local Institution - 0072",
+          "city": "Edinburgh",
+          "state": "EDH",
+          "zip": "EH16 4SA",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "Local Institution - 0337",
+          "city": "London",
+          "state": "Greater London",
+          "zip": "SW3 6HP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Local Institution - 0407",
+          "city": "Oxford",
+          "state": "Oxfordshire",
+          "zip": "OX3 7LE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          }
+        },
+        {
+          "facility": "Local Institution - 0336",
+          "city": "Peterborough",
+          "state": "PTE",
+          "zip": "PE3 9GZ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.57364,
+            "lon": -0.24777
+          }
+        },
+        {
+          "facility": "Local Institution - 0416",
+          "city": "Cottingham",
+          "state": "Yorkshire and the Humber",
+          "zip": "HU16 5JQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.50243,
+            "lon": -0.7554
+          }
+        },
+        {
+          "facility": "Local Institution - 0411",
+          "city": "Birmingham",
+          "zip": "B15 2WB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          }
+        },
+        {
+          "facility": "Local Institution - 0438",
+          "city": "Leeds",
+          "zip": "LS9 7TF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "BMS Clinical Trial Information",
+          "url": "https://www.bms.com/researchers-and-partners/clinical-trials-and-research.html"
+        },
+        {
+          "label": "BMS Clinical Trial Patient Recruiting",
+          "url": "https://www.bmsclinicaltrials.com/us/en/clinical-trials/NCT06003426.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "BMS will provide access to individual anonymized participant data upon request from qualified researchers, and subject to certain criteria. Additional information regarding Bristol Myer Squibb's data sharing policy and process can be found at https://www.bms.com/researchers-and-partners/clinical-trials-and-research.html",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "timeFrame": "See Plan Description",
+      "accessCriteria": "See Plan Description",
+      "url": "https://www.bms.com/researchers-and-partners/clinical-trials-and-research.html"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-16",
+      "removedCountries": [
+        "Czechia",
+        "Malaysia",
+        "Thailand"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054990",
+          "term": "Idiopathic Pulmonary Fibrosis"
+        },
+        {
+          "id": "D011658",
+          "term": "Pulmonary Fibrosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017563",
+          "term": "Lung Diseases, Interstitial"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

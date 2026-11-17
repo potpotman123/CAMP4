@@ -1,0 +1,3087 @@
+{
+  "asset": "votoplam",
+  "query": "PTC518",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=PTC518&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06254482",
+            "orgStudyIdInfo": {
+              "id": "PTC518-CNS-004-HD"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2023-504628-24-00",
+                "type": "OTHER",
+                "domain": "EU CT Number"
+              },
+              {
+                "id": "CHTT227A12201",
+                "type": "OTHER",
+                "domain": "Novartis"
+              },
+              {
+                "id": "2023",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2023"
+              }
+            ],
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Extension Study to Evaluate the Long-Term Safety and Efficacy of Votoplam in Participants With Huntington's Disease (HD)",
+            "officialTitle": "A Phase 2b, Double-Blind, Randomized Extension Study to Evaluate the Long-Term Safety and Efficacy of Votoplam in Participants With Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-07-16",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-07-16",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-02",
+            "studyFirstSubmitQcDate": "2024-02-02",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary goal of this study is to evaluate the long-term safety and pharmacodynamic effects of votoplam in participants with HD.",
+            "detailedDescription": "Participants who completed the Treatment Period in the parent Phase 2a Study PTC518-CNS-002-HD (NCT05358717), fulfilled the enrollment criteria, and chose to enroll in this extension study will undergo baseline evaluations and be assessed for 54 additional months.\n\nAll participants will receive active votoplam in this extension study. Participants who received votoplam in the parent Study PTC518-CNS-002-HD will continue at the same dose level they received in that study in a blinded fashion (5, 10 milligrams \\[mg\\]). Participants who received placebo in the parent Study PTC518-CNS-002-HD will be allocated to a votoplam dose level according to the same dosing group in which they were previously randomized (5, 10 mg)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "Neurodegenerative disorder",
+              "Rare disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 144,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Votoplam 5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive Votoplam 5 mg tablets once daily orally for 48 months.",
+                "interventionNames": [
+                  "Drug: Votoplam"
+                ]
+              },
+              {
+                "label": "Votoplam 10 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive votoplam 10 mg tablets once daily orally for 48 months.",
+                "interventionNames": [
+                  "Drug: Votoplam"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Votoplam",
+                "description": "Votoplam will be administered per dose and schedule specified in the arm.",
+                "armGroupLabels": [
+                  "Votoplam 10 mg",
+                  "Votoplam 5 mg"
+                ],
+                "otherNames": [
+                  "HTT227 / PTC518"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+                "timeFrame": "Baseline up to Month 54"
+              },
+              {
+                "measure": "Blood Total Huntingtin Protein (tHTT) Levels",
+                "timeFrame": "Baseline up to Month 52"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change From Baseline in Caudate Volume as Assessed Via Volumetric Magnetic Resonance Imaging (vMRI) at Month 48",
+                "timeFrame": "Baseline, Month 48"
+              },
+              {
+                "measure": "Change From Baseline in Composite Unified Huntington's Disease Rating Scale (cUHDRS) Scores at Month 48",
+                "timeFrame": "Baseline, Month 48"
+              },
+              {
+                "measure": "Cerebrospinal Fluid (CSF) Mutant Huntingtin Protein (mHTT) Levels",
+                "timeFrame": "Baseline up to Month 48"
+              },
+              {
+                "measure": "Blood mHTT Protein Levels",
+                "timeFrame": "Baseline up to Month 52"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant who has completed the Treatment Period in Study PTC518-CNS-002-HD.\n\nExclusion Criteria:\n\n* Participants who have not previously completed the Treatment Period in Study PTC518-CNS-002-HD.\n\nNote: Other inclusion and exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Clayton",
+                "zip": "3168",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Westmead",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.80383,
+                  "lon": 150.98768
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Innsbruck",
+                "zip": "6020",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 47.26266,
+                  "lon": 11.39454
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Ottawa",
+                "zip": "K1Y 4E9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Angers",
+                "zip": "49100",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.47156,
+                  "lon": -0.55202
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Marseille",
+                "zip": "13385",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Bochum",
+                "zip": "44791",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.48165,
+                  "lon": 7.21648
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "M\u00fcnster",
+                "zip": "48149",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.96236,
+                  "lon": 7.62571
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Bologna",
+                "zip": "40139",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.49381,
+                  "lon": 11.33875
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Milan",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "San Giovanni Rotondo",
+                "zip": "71013",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 41.70643,
+                  "lon": 15.7277
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Leiden",
+                "zip": "2333 ZA",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.15833,
+                  "lon": 4.49306
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Christchurch",
+                "zip": "8011",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -43.53333,
+                  "lon": 172.63333
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Barakaldo",
+                "zip": "48903",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.29639,
+                  "lon": -2.98813
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Barcelona",
+                "zip": "8025",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Burgos",
+                "zip": "90550",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.34106,
+                  "lon": -3.70184
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Madrid",
+                "zip": "28034",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Birmingham",
+                "zip": "B15 2FG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Cardiff",
+                "zip": "CF14 4XW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "London",
+                "zip": "WC1N 3BG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Manchester",
+                "zip": "M13 9WL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D035583",
+                "term": "Rare Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05358717",
+            "orgStudyIdInfo": {
+              "id": "PTC518-CNS-002-HD"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2021-003852-18",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Safety and Efficacy of PTC518 in Participants With Huntington's Disease (HD)",
+            "officialTitle": "A Phase 2A, Randomized, Placebo-Controlled, Dose-Ranging Study to Evaluate the Safety and Efficacy of PTC518 in Subjects With Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-06-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-02-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-07-31",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-04-27",
+            "studyFirstSubmitQcDate": "2022-04-27",
+            "studyFirstPostDateStruct": {
+              "date": "2022-05-03",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2025-12-19",
+            "resultsFirstSubmitQcDate": "2025-12-19",
+            "resultsFirstPostDateStruct": {
+              "date": "2026-01-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary goal of this study is to evaluate the safety and pharmacodynamic effects of PTC518 compared with placebo in participants with HD.",
+            "detailedDescription": "Participants will first be randomized to Part A or Part B or Parts D or E in a 1:1 randomization ratio, depending on their Huntington's disease Integrated Staging System (HD-ISS) staging criteria and then to active treatment (PTC518 5 mg in Parts A and D and 10 mg in Parts B and E) or matching placebo within each part in a 2:1 ratio of active treatment to placebo. A Drug Safety Monitoring Board (DSMB) Charter will undertake an unblinded review of safety data from the 5 and 10 mg dosing groups and provide a recommendation on when Parts C and F (with a 20 mg active treatment arm) can be initiated. At that time, participants will be randomized to any study Part that is currently open for enrollment, and then to either active treatment or placebo (in a 2:1 ratio) within that Part.\n\nParticipants who complete this study and agree to participate in a long-term extension (LTE) study, will be enrolled in a separate LTE study PTC518-CNS-004-HD (NCT06254482)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "Neurodegenerative disorder",
+              "Rare disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 159,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTC518 5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive PTC518 5 milligrams (mg) tablets once daily orally for 12 months.",
+                "interventionNames": [
+                  "Drug: PTC518"
+                ]
+              },
+              {
+                "label": "PTC518 10 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive PTC518 10 mg tablets once daily orally for 12 months.",
+                "interventionNames": [
+                  "Drug: PTC518"
+                ]
+              },
+              {
+                "label": "PTC518 20 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive PTC518 20 mg tablets once daily orally for 12 months.",
+                "interventionNames": [
+                  "Drug: PTC518"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will receive placebo matching to PTC518 tablets once daily orally for 12 months.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTC518",
+                "description": "PTC518 will be administered per dose and schedule specified in the arm.",
+                "armGroupLabels": [
+                  "PTC518 10 mg",
+                  "PTC518 20 mg",
+                  "PTC518 5 mg"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo matching to PTC518 will be administered per schedule specified in the arm.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+                "description": "An adverse event (AE) was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. A TEAE was defined as an AE that had an onset date or date of worsening on or after the first dose of study drug. A summary of other non-serious AEs and all serious adverse events (SAEs), regardless of causality is located in the 'Reported AE section'.",
+                "timeFrame": "Baseline up to Month 18"
+              },
+              {
+                "measure": "Percent Change From Baseline in Geometric Mean Blood tHTT Protein at Month 3",
+                "description": "Least square (LS) mean and 95% confidence interval (CI) were calculated using mixed-model repeated measures (MMRM). The blood tHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "timeFrame": "Baseline, Month 3"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Percent Change From Baseline in Caudate Volume as Assessed Via Volumetric Magnetic Resonance Imaging (vMRI) at Month 12",
+                "description": "LS mean and standard error (SE) were calculated using MMRM.",
+                "timeFrame": "Baseline, Month 12"
+              },
+              {
+                "measure": "Change From Baseline in Composite Unified Huntington's Disease Rating Scale (cUHDRS) Scores at Month 12",
+                "description": "cUHDRS includes the Total Functional Capacity (range, 0-13; higher score means better functioning), Total Motor Score (range, 0-124; higher score means worse motor severity), Symbol Digit Modality Test (range, 0-110, correctly paired numbers-symbols in 90 seconds; higher score means better cognitive performance), and Stroop Word Reading (range, 0-no max value, correctly read colour words in 45 seconds; higher score means better cognitive performance) scores. The total score for the cUHDRS ranges from approximately 3 to 18, where higher scores indicated better functioning. LS mean and SE were calculated using analysis of covariance (ANCOVA) model.",
+                "timeFrame": "Baseline, Month 12"
+              },
+              {
+                "measure": "Percent Change From Baseline in Geometric Mean Blood tHTT Protein at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The blood tHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "timeFrame": "Baseline, Month 12"
+              },
+              {
+                "measure": "Percent Change From Baseline in Cerebrospinal Fluid (CSF) Mutant Huntingtin Protein (mHTT) at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The CSF mHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "timeFrame": "Baseline, Month 12"
+              },
+              {
+                "measure": "Percent Change From Baseline in Blood mHTT Protein at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The blood mHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "timeFrame": "Baseline, Month 12"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Genetically confirmed HD diagnosis with a cytosine-adenine-guanine (CAG) repeat length from 40 to 50, inclusive\n\nEligibility for HD-ISS Stage 2 Group (Parts A, B, and C):\n\n* A Unified Huntington's Disease Rating Scale (UHDRS)-Independence Scale (IS) score of 100\n* A UHDRS Total Functional Capacity (TFC) score of 13\n* A score between 0.18 and 4.93 inclusive on the normed version of the HD prognostic index (PINHD)\n\nEligibility for HD-ISS Mild Stage 3 Group (Parts D, E, and F):\n\n* A UHDRS Total Functional Capacity (TFC) score of 11 or 12, or a UHDRS TFC score of 13 with an UHDRS IS score of \\<100\n\nKey Exclusion Criteria:\n\n* Receipt of an experimental agent within 90 days or 5 half-lives prior to Screening or anytime over the duration of this study, ribonucleic acid (RNA)- or deoxyribonucleic acid (DNA)-targeted HD-specific investigational agents such as antisense oligonucleotides, cell transplantation, or any other experimental brain surgery\n* Any history of gene therapy exposure for the treatment of HD\n* Participation in an investigational study or investigational paradigm (such as exercise/physical activity, cognitive therapy, brain stimulation, etc) within 90 days prior to Screening or anytime over the duration of this study\n* Any medical history of brain or spinal disease that would interfere with the lumbar puncture process safety assessments\n* Any medical history or condition that would interfere with the ability to complete the protocol-specified assessments (for example, implanted shunt, conditions precluding magnetic resonance imaging \\[MRI\\] scans)\n* Pregnancy, planning on becoming pregnant during the course of the study or within 6 months of end of treatment, or currently breastfeeding\n\nNote: Other inclusion and exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of California, San Diego",
+                "city": "La Jolla",
+                "state": "California",
+                "zip": "92037",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                }
+              },
+              {
+                "facility": "Vanderbilt University Medical Center",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37212",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "The University of Texas Health Science Center at Houston; McGovern Medical School",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "University of Washington Department of Neurology",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "facility": "Monash Health",
+                "city": "Clayton",
+                "zip": "3168",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              },
+              {
+                "facility": "Westmead Hospital",
+                "city": "Sydney",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Medical University Innsbruck",
+                "city": "Innsbruck",
+                "zip": "6020",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 47.26266,
+                  "lon": 11.39454
+                }
+              },
+              {
+                "facility": "The Ottawa Hospital, Parkinson's and Movement Disorders Clinic",
+                "city": "Ottawa",
+                "zip": "K1Y 4E9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Centre Hospitalier Universitaire d'Angers",
+                "city": "Angers",
+                "zip": "49100",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.47156,
+                  "lon": -0.55202
+                }
+              },
+              {
+                "facility": "H\u00f4pital Universitaire de Marseille H\u00f4pital de la Timone",
+                "city": "Marseille",
+                "zip": "13385",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Brain and Spine Institute Paris",
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Charite University Medicine Berlin",
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Ruhr-Univ. Bochum St. Joseph-Hospital",
+                "city": "Bochum",
+                "zip": "44791",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.48165,
+                  "lon": 7.21648
+                }
+              },
+              {
+                "facility": "George-Huntington-Institut",
+                "city": "M\u00fcnster",
+                "zip": "48149",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.96236,
+                  "lon": 7.62571
+                }
+              },
+              {
+                "facility": "Ulm University, UKU, Dep. of Neurology",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Irccs Istituto Delle Scienze Neurologiche Di Bologna Uoc Clinica Neurologica",
+                "city": "Bologna",
+                "zip": "40139",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.49381,
+                  "lon": 11.33875
+                }
+              },
+              {
+                "facility": "IRCCS Carlo Besta Neurological Institutte",
+                "city": "Milan",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "IRCCS Casa Sollievo della Sofferenza Research Hospital",
+                "city": "San Giovanni Rotondo",
+                "zip": "71013",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 41.70643,
+                  "lon": 15.7277
+                }
+              },
+              {
+                "facility": "Leiden University Medical Center",
+                "city": "Leiden",
+                "zip": "2333 ZA",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.15833,
+                  "lon": 4.49306
+                }
+              },
+              {
+                "facility": "University of Otago, New Zealand Brain Research Institute",
+                "city": "Christchurch",
+                "zip": "8011",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -43.53333,
+                  "lon": 172.63333
+                }
+              },
+              {
+                "facility": "Hospital Universitario Cruces",
+                "city": "Barakaldo",
+                "zip": "48903",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 43.29639,
+                  "lon": -2.98813
+                }
+              },
+              {
+                "facility": "Hospital de la Santa Creu I Sant Pau",
+                "city": "Barcelona",
+                "zip": "8025",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario Burgos",
+                "city": "Burgos",
+                "zip": "90550",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 42.34106,
+                  "lon": -3.70184
+                }
+              },
+              {
+                "facility": "Hospital Ram\u00f3n y Cajal",
+                "city": "Madrid",
+                "zip": "28034",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "The Barbery National Centre for Mental Health",
+                "city": "Birmingham",
+                "zip": "B15 2FG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Cardiff University Schools of Medicine and Biosciences",
+                "city": "Cardiff",
+                "zip": "CF10 3AX",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "UCL Queen Square Institute of Neurology National Hospital for Neurology and Neurosurgery",
+                "city": "London",
+                "zip": "WC1N 3BG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Manchester University NHS Foundation Trust",
+                "city": "Manchester",
+                "zip": "M13 9WL",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "38489195",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: March 2024. J Huntingtons Dis. 2024;13(1):1-14. doi: 10.3233/JHD-240017."
+              },
+              {
+                "pmid": "36463457",
+                "type": "DERIVED",
+                "citation": "Estevez-Fraga C, Tabrizi SJ, Wild EJ. Huntington's Disease Clinical Trials Corner: November 2022. J Huntingtons Dis. 2022;11(4):351-367. doi: 10.3233/JHD-229006."
+              }
+            ]
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "preAssignmentDetails": "Participants were randomized to receive placebo, PTC518 5 milligrams (mg), or PTC518 10 mg. While the Independent Data Monitoring Committee authorized opening of the 20 mg dosing arm, the sponsor elected not to open PTC518 20 mg dosing arm for enrollment.",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+              },
+              {
+                "id": "FG001",
+                "title": "PTC518 5 mg",
+                "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+              },
+              {
+                "id": "FG002",
+                "title": "PTC518 10 mg",
+                "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "53"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "52"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "54"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Received at Least 1 Dose of Study Drug",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "53"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "52"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "54"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "51"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "47"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "51"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "3"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Adverse Event",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Death",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Withdrawal by Subject",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Study Paused by Sponsor in United States",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "populationDescription": "Intent-to-treat (ITT) Population included all randomized participants who took at least 1 dose of the study drug.",
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+              },
+              {
+                "id": "BG001",
+                "title": "PTC518 5 mg",
+                "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+              },
+              {
+                "id": "BG002",
+                "title": "PTC518 10 mg",
+                "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+              },
+              {
+                "id": "BG003",
+                "title": "Total",
+                "description": "Total of all reporting groups"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "53"
+                  },
+                  {
+                    "groupId": "BG001",
+                    "value": "52"
+                  },
+                  {
+                    "groupId": "BG002",
+                    "value": "54"
+                  },
+                  {
+                    "groupId": "BG003",
+                    "value": "159"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "48.6",
+                            "spread": "9.59"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "49.2",
+                            "spread": "9.04"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "47.8",
+                            "spread": "9.10"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "48.5",
+                            "spread": "9.20"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "33"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "29"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "88"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "20"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "71"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "6"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "51"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "49"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "53"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "153"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "52"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "47"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "52"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "151"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "7"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "SECONDARY",
+                "title": "Percent Change From Baseline in Caudate Volume as Assessed Via Volumetric Magnetic Resonance Imaging (vMRI) at Month 12",
+                "description": "LS mean and standard error (SE) were calculated using MMRM.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "LEAST_SQUARES_MEAN",
+                "dispersionType": "Standard Error",
+                "unitOfMeasure": "percent change",
+                "timeFrame": "Baseline, Month 12",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "4.42",
+                            "spread": "0.413",
+                            "lowerLimit": "0.413"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "4.99",
+                            "spread": "0.413",
+                            "lowerLimit": "0.413"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "5.74",
+                            "spread": "0.391",
+                            "lowerLimit": "0.391"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+                "description": "An adverse event (AE) was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. A TEAE was defined as an AE that had an onset date or date of worsening on or after the first dose of study drug. A summary of other non-serious AEs and all serious adverse events (SAEs), regardless of causality is located in the 'Reported AE section'.",
+                "populationDescription": "Safety Population included all randomized participants who received at least 1 dose of the study drug, with participants grouped according to the treatment they received.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline up to Month 18",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "46"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "43"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "49"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Percent Change From Baseline in Geometric Mean Blood tHTT Protein at Month 3",
+                "description": "Least square (LS) mean and 95% confidence interval (CI) were calculated using mixed-model repeated measures (MMRM). The blood tHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percent change",
+                "timeFrame": "Baseline, Month 3",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-1.40",
+                            "spread": "-7.25",
+                            "lowerLimit": "-7.25",
+                            "upperLimit": "4.82"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "-17.36",
+                            "spread": "-22.36",
+                            "lowerLimit": "-22.36",
+                            "upperLimit": "-12.05"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "-28.67",
+                            "spread": "-32.74",
+                            "lowerLimit": "-32.74",
+                            "upperLimit": "-24.36"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG001"
+                    ],
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "< 0.0001",
+                    "statisticalMethod": "Mixed Models Analysis",
+                    "paramType": "LS Mean Difference",
+                    "paramValue": "-15.97",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "-23.59",
+                    "ciUpperLimit": "-8.34"
+                  },
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "< 0.0001",
+                    "statisticalMethod": "Mixed Models Analysis",
+                    "paramType": "LS Mean Difference",
+                    "paramValue": "-27.28",
+                    "ciPctValue": "95",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "-34.45",
+                    "ciUpperLimit": "-20.10"
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Change From Baseline in Composite Unified Huntington's Disease Rating Scale (cUHDRS) Scores at Month 12",
+                "description": "cUHDRS includes the Total Functional Capacity (range, 0-13; higher score means better functioning), Total Motor Score (range, 0-124; higher score means worse motor severity), Symbol Digit Modality Test (range, 0-110, correctly paired numbers-symbols in 90 seconds; higher score means better cognitive performance), and Stroop Word Reading (range, 0-no max value, correctly read colour words in 45 seconds; higher score means better cognitive performance) scores. The total score for the cUHDRS ranges from approximately 3 to 18, where higher scores indicated better functioning. LS mean and SE were calculated using analysis of covariance (ANCOVA) model.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "LEAST_SQUARES_MEAN",
+                "dispersionType": "Standard Error",
+                "unitOfMeasure": "units on a scale",
+                "timeFrame": "Baseline, Month 12",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-0.64",
+                            "spread": "0.168",
+                            "lowerLimit": "0.168"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "-0.61",
+                            "spread": "0.176",
+                            "lowerLimit": "0.176"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "-0.92",
+                            "spread": "0.164",
+                            "lowerLimit": "0.164"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Percent Change From Baseline in Geometric Mean Blood tHTT Protein at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The blood tHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percent change",
+                "timeFrame": "Baseline, Month 12",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "8.19",
+                            "spread": "1.99",
+                            "lowerLimit": "1.99",
+                            "upperLimit": "14.76"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "-14.18",
+                            "spread": "-19.25",
+                            "lowerLimit": "-19.25",
+                            "upperLimit": "-8.79"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "-28.44",
+                            "spread": "-32.45",
+                            "lowerLimit": "-32.45",
+                            "upperLimit": "-24.18"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Percent Change From Baseline in Cerebrospinal Fluid (CSF) Mutant Huntingtin Protein (mHTT) at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The CSF mHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percent change",
+                "timeFrame": "Baseline, Month 12",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "-15.64",
+                            "spread": "-26.71",
+                            "lowerLimit": "-26.71",
+                            "upperLimit": "-2.90"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "-23.68",
+                            "spread": "-33.97",
+                            "lowerLimit": "-33.97",
+                            "upperLimit": "-11.78"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "-23.28",
+                            "spread": "-32.84",
+                            "lowerLimit": "-32.84",
+                            "upperLimit": "-12.35"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Percent Change From Baseline in Blood mHTT Protein at Month 12",
+                "description": "LS mean and 95% CI were calculated using MMRM. The blood mHTT protein value was log-transformed before fitting the MMRM model. The LS means from MMRM model were back-transformed to present geometric mean percent changes.",
+                "populationDescription": "ITT Population included all randomized participants who took at least 1 dose of the study drug.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percent change",
+                "timeFrame": "Baseline, Month 12",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to PTC518 tablets once daily (QD) orally for 12 months."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "PTC518 5 mg",
+                    "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "PTC518 10 mg",
+                    "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "53"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "52"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "54"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "13.89",
+                            "spread": "6.33",
+                            "lowerLimit": "6.33",
+                            "upperLimit": "21.98"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "-14.11",
+                            "spread": "-19.99",
+                            "lowerLimit": "-19.99",
+                            "upperLimit": "-7.79"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "-28.20",
+                            "spread": "-32.89",
+                            "lowerLimit": "-32.89",
+                            "upperLimit": "-23.20"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Baseline up to Month 18",
+            "description": "Safety Population included all randomized participants who received at least 1 dose of the study drug, with participants grouped according to the treatment they received.",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to PTC518 tablets QD orally for 12 months.",
+                "deathsNumAffected": 1,
+                "deathsNumAtRisk": 53,
+                "seriousNumAffected": 4,
+                "seriousNumAtRisk": 53,
+                "otherNumAffected": 32,
+                "otherNumAtRisk": 53
+              },
+              {
+                "id": "EG001",
+                "title": "PTC518 5 mg",
+                "description": "Participants received 5 mg tablet of PTC518 QD orally for 12 months.",
+                "deathsNumAffected": 1,
+                "deathsNumAtRisk": 52,
+                "seriousNumAffected": 1,
+                "seriousNumAtRisk": 52,
+                "otherNumAffected": 34,
+                "otherNumAtRisk": 52
+              },
+              {
+                "id": "EG002",
+                "title": "PTC518 10 mg",
+                "description": "Participants received 10 mg tablet of PTC518 QD orally for 12 months.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 54,
+                "seriousNumAffected": 2,
+                "seriousNumAtRisk": 54,
+                "otherNumAffected": 41,
+                "otherNumAtRisk": 54
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Bone marrow oedema",
+                "organSystem": "Blood and lymphatic system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Atrial fibrillation",
+                "organSystem": "Cardiac disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Vestibular disorder",
+                "organSystem": "Ear and labyrinth disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Inguinal hernia",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Drowning",
+                "organSystem": "General disorders and administration site conditions",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Femur fracture",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Road traffic accident",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Wrist fracture",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Lymphopenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Constipation",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Diarrhoea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 5,
+                    "numAffected": 4,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 6,
+                    "numAffected": 5,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Nausea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 5,
+                    "numAffected": 3,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 5,
+                    "numAffected": 1,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Vomiting",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Fatigue",
+                "organSystem": "General disorders and administration site conditions",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "COVID-19",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Influenza",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 12,
+                    "numAffected": 9,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 7,
+                    "numAffected": 7,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 12,
+                    "numAffected": 9,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Nasopharyngitis",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 14,
+                    "numAffected": 9,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 8,
+                    "numAffected": 6,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 15,
+                    "numAffected": 8,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Upper respiratory tract infection",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 4,
+                    "numAffected": 3,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Fall",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 7,
+                    "numAffected": 5,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 10,
+                    "numAffected": 8,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 16,
+                    "numAffected": 11,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Post lumbar puncture syndrome",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 4,
+                    "numAffected": 3,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 5,
+                    "numAffected": 5,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 6,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Skin abrasion",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 6,
+                    "numAffected": 4,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Back pain",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 4,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 10,
+                    "numAffected": 9,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 12,
+                    "numAffected": 8,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Dizziness",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 4,
+                    "numAffected": 3,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 9,
+                    "numAffected": 7,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 30,
+                    "numAffected": 8,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 19,
+                    "numAffected": 13,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Paraesthesia",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Tension headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Depressed mood",
+                "organSystem": "Psychiatric disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Oropharyngeal pain",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 5,
+                    "numAffected": 5,
+                    "numAtRisk": 54
+                  }
+                ]
+              },
+              {
+                "term": "Hypertension",
+                "organSystem": "Vascular disorders",
+                "sourceVocabulary": "MedDRA 27.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 53
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 52
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 54
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "OTHER",
+              "restrictiveAgreement": true,
+              "otherDetails": "The Sponsor can review results and/or communications prior to public release and can embargo communications regarding trial results for a period that is up to 180 days from the time submitted to the sponsor for review. The sponsor may consult with the PI to require changes to the communication or extend the embargo."
+            },
+            "pointOfContact": {
+              "title": "Patient Advocacy",
+              "organization": "PTC Therapeutics, Inc.",
+              "email": "medinfo@ptcbio.com",
+              "phone": "1-866-562-4620"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2023-10-05",
+                "uploadDate": "2025-12-19T16:17",
+                "filename": "Prot_000.pdf",
+                "size": 988610
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2025-03-17",
+                "uploadDate": "2025-12-19T16:17",
+                "filename": "SAP_001.pdf",
+                "size": 720164
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D035583",
+                "term": "Rare Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      }
+    ]
+  }
+}

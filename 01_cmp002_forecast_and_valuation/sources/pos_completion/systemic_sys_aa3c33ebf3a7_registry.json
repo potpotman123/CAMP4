@@ -1,0 +1,1379 @@
+{
+  "integrated_id": "systemic:sys_aa3c33ebf3a7",
+  "asset": "PTR-01",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=PTR-01",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05143190",
+            "orgStudyIdInfo": {
+              "id": "PTR-01-003"
+            },
+            "organization": {
+              "fullName": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Extension Study to PTR-01-002 (A Study in Recessive Dystrophic Epidermolysis Bullosa (RDEB) Patients Previously Treated With PTR-01)",
+            "officialTitle": "A Phase 2b Open-Label Study of PTR-01 in Recessive Dystrophic Epidermolysis Bullosa (RDEB) Patients Previously Treated With PTR-01 in Study PTR-01-002"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-12-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-06-20",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-08-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-11-09",
+            "studyFirstSubmitQcDate": "2021-11-19",
+            "studyFirstPostDateStruct": {
+              "date": "2021-12-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-11-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-11-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Phoenix Tissue Repair, a BridgeBio company",
+                "class": "UNKNOWN"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A sub-set of patients who participated in PTR-01-002 will be enrolled in an open-label study, if they meet the study eligibility criteria.",
+            "detailedDescription": "Protocol PTR-01-003 is a 4-part Phase 2, open-label study of PTR-01 in patients who satisfactorily completed study PTR-01-002 and meet current enrollment criteria.\n\nIn Part 1, patients will be monitored monthly for up to 2 months with patient-reported and Investigator assessments. In Part 2, patients will receive a dose of 3.0 mg/kg every week for a total of 4 doses. This will be followed by Part 3 in which patients will receive a dose of 3.0 mg/kg monthly for a total of 5 additional doses. At the end of each dosing period, efficacy assessments will be performed. During Part 4, patients will be evaluated at Months 1 and 3 after completion of dosing to assess the durability of wound healing and other efficacy parameters. Safety will be assessed continuously throughout the study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "Dystrophic Epidermolysis Bullosa",
+              "Epidermolysis Bullosa",
+              "RDEB",
+              "EB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Phase 2 open-label",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE",
+                "maskingDescription": "Open-label"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 2,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTR-01",
+                "type": "EXPERIMENTAL",
+                "description": "All patients will receive a PTR-01 dose of 3.0 mg/kg once weekly every week for a total of 4 doses, followed by a dose of 3.0 mg/kg once monthly for a total of 5 doses.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTR-01",
+                "description": "Intravenous recombinant collagen 7",
+                "armGroupLabels": [
+                  "PTR-01"
+                ],
+                "otherNames": [
+                  "Recombinant collagen 7 (rC7)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Sustained wound healing",
+                "description": "Change in a majority of target lesions of at least 2 levels using a 7-point (1-7) Global Impression of Change instrument (7 being the worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent adverse events",
+                "description": "Safety and tolerability, as assessed by treatment-emergent adverse events",
+                "timeFrame": "Up to 246 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Delivery of recombinant collagen 7 (PTR-01) to skin",
+                "description": "Amount of recombinant collagen 7 (PTR-01) incorporation to skin as compared to normal human skin assessed by immunofluorescence using NC1 \\& NC2 antibody staining",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Formation of anchoring fibrils",
+                "description": "Formation of new anchoring fibrils as measured by electron microscopy",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in wound surface area",
+                "description": "Wound surface area of lesions as assessed by medical photography using the Canfield RUBI 3D imaging system",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in skin integrity, as assessed by suction blister time",
+                "description": "Change in skin integrity, as assessed by suction blister time",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in skin integrity, as assessed by time to re-blistering",
+                "description": "Change in skin integrity, as assessed by time to re-blistering",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in itch severity, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) itch domains",
+                "description": "Severity of itch, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) itch domains, maximum score of 5 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in the impact of itch on quality of life",
+                "description": "Change in the impact of itch on quality of life, as assessed by the Pruritus-Specific Quality of Life Instrument (ItchyQoL), maximum score of 110 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in pain severity, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) pain domains",
+                "description": "Change in pain severity, as assessed by Patient-Reported Outcome Measurement Information System (PROMIS) pain domains, maximum score of 5 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in pain severity, as assessed by the Instrument for Scoring Clinical Outcomes for Research of Epidermolysis Bullosa (iscorEB)",
+                "description": "Change in pain severity, as assessed by the Instrument for Scoring Clinical, maximum score of 234 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change of dysphagia, as assessed using the Brief Esophageal Dysphagia Questionnaire",
+                "description": "Change of dysphagia, as assessed using the Brief Esophageal Dysphagia Questionnaire, maximum score is 40 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Stabilization of dysphagia, as assessed using the Brief Esophageal Dysphagia Instrument",
+                "description": "Stabilization of dysphagia, as assessed using the Brief Esophageal Dysphagia Instrument, maximum score of 40 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in corneal symptoms",
+                "description": "Change of corneal symptoms (eye symptoms), as assessed by the Epidermolysis Bullosa Eye Disease Index (EB-EDI), maximum score of 100 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Stabilization of corneal symptoms",
+                "description": "Stabilization of corneal symptoms (eye symptoms), as assessed by the Epidermolysis Bullosa Eye Disease Index (EB-EDI), maximum score of 100 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (hemoglobin)",
+                "description": "Change of nutritional markers, as assessed by hemoglobin",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (hematocrit)",
+                "description": "Change of nutritional markers, as assessed by hematocrit",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (total protein/albumin)",
+                "description": "Change of nutritional markers, as assessed by total protein/albumin",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (Fe/TIBC)",
+                "description": "Change of nutritional markers, as assessed by total Fe/TIBC",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (C-reactive protein)",
+                "description": "Change of nutritional markers, as assessed by total C-reactive protein",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in Investigator Global Impressions of Change (IGIC)",
+                "description": "Global impressions of change, as assessed through IGIC (1-7), 7 being worst",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in Investigator Patient Impressions of Change (PGIC)",
+                "description": "Global impressions of change, as assessed through PGIC (1-7), 7 being worst",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in overall quality of life, as assessed by the Quality of Life in Epidermolysis Bullosa (QOLEB) questionnaire",
+                "description": "Change in overall quality of life, as assessed by the Quality of Life in Epidermolysis Bullosa (QOLEB) questionnaire maximum score is 67 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in overall health",
+                "description": "Change in overall disability, as assessed by the Health Assessment Questionnaire or Children's Health Assessment Questionnaire (HAQ/CHAQ) maximum score is 3 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in mental health",
+                "description": "Change in mental health, as assessed by the Patient-Reported Outcomes Measurement Information System (PROMIS) mental health domains, maximum score is 5 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in social function",
+                "description": "Change in social functioning, as assessed by the Patient-Reported Outcomes Measurement Information System (PROMIS) social function domains, maximum score is 4 (worst)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in amount of wound care",
+                "description": "Change in amount of wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in time for wound care",
+                "description": "Change in time for wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in cost of wound care",
+                "description": "Change in cost of wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in overall patient impression of quality of life",
+                "description": "Change in overall anecdotal quality of life, as assessed by one-on-one patient interviews",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Change in overall patient impression of disability",
+                "description": "Change in overall anecdotal disability, as assessed by one-on-one patient interviews",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Effect of anti-drug antibodies (ADA) on pharmacokinetics parameter Cmax",
+                "description": "Correlate ADA with Cmax",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Effect of anti-drug antibodies (ADA) on pharmacokinetics parameter Tmax",
+                "description": "Correlate ADA with Tmax",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Effect of anti-drug antibodies (ADA) on pharmacokinetics parameter Area Under the Curve (AUC)",
+                "description": "Correlate ADA with Area Under the Curve (AUC)",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Effect of anti-drug antibodies (ADA) on pharmacokinetics parameter of clearance of PTR-01",
+                "description": "Correlate ADA with clearance of PTR-01",
+                "timeFrame": "Up to 246 days"
+              },
+              {
+                "measure": "Effect of anti-drug antibodies (ADA) on pharmacokinetics parameter of PTR-01 half-life",
+                "description": "Correlate ADA with PTR-01 half-life",
+                "timeFrame": "Up to 246 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing to provide informed consent form, or if 12 to \\<18 years of age, legal guardian has provided informed consent form and the minor has signed an assent form acknowledging that they understand and agree to study procedures.\n2. Has satisfactorily completed participation in PTR-01-002.\n3. Agrees to use contraception as follows:\n\n   * For women of childbearing potential (WOCBP) agrees to use highly effective contraceptive (including abstinence) methods from Screening, through the study, and for at least 10 weeks after the last dose of study drug. Non-childbearing potential is defined as a female who meets either of the following criteria: age \u226550 years and no menses for at least 1 year or documented hysterectomy, bilateral tubal ligation, or bilateral oophorectomy.\n   * For males, agrees to use a condom with any WOCBP sexual partner from Day 1 of study treatment, through the study, and at least 10 weeks after the last dose of study drug.\n4. Be willing and able to comply with this protocol.\n\nExclusion Criteria:\n\n1. Has known systemic hypersensitivity to any of the inactive ingredients in PTR-01.\n2. Has previously had an anaphylactic reaction to PTR-01.\n3. Is pregnant or nursing.\n4. Has received in the last six months any investigational gene therapy product or in the last three months any non-gene therapy investigational products (other than PTR-01).\n5. Is anticipated to receive new regimens of antibiotics or other anti-infectives during the trial.\n6. Has any other medical or personal condition that, in the opinion of the Investigator, may potentially compromise the safety or compliance of the",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Dan Rudin, MD",
+                "affiliation": "Phoenix Tissue Repair",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "Columbia University Irving Medical Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              },
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04599881",
+            "orgStudyIdInfo": {
+              "id": "PTR-01-002"
+            },
+            "organization": {
+              "fullName": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of PTR-01 in Recessive Dystrophic Epidermolysis Bullosa",
+            "officialTitle": "A Phase 2 Open-Label Study of PTR-01 in Patients With Recessive Dystrophic Epidermolysis Bullosa (RDEB)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-10-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2021-08-28",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2021-09-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-10-08",
+            "studyFirstSubmitQcDate": "2020-10-21",
+            "studyFirstPostDateStruct": {
+              "date": "2020-10-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-09-14",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-09-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Protocol PTR-01-002 is a 3-part Phase 2, open-label study of PTR-01. While new patients will be enrolled, priority will be given to patients that satisfactorily completed study PTR-01-001.",
+            "detailedDescription": "Protocol PTR-01-002 is a 3-part Phase 2, open-label study of PTR-01. While new patients will be enrolled, priority will be given to patients that satisfactorily completed study PTR-01-001.\n\nIn Part 1, patients will receive a dose of 3.0 mg/kg every week for a total of 4 doses. This will be followed by Part 2 in which patients will receive a dose of 3.0 mg/kg every other week for a total of 7 doses. In Part 3, patients will be followed for 12 weeks. No investigational therapy will be administered during this time. At the end of each dosing period, an efficacy assessment will be performed. Safety will be assessed continuously throughout the study.\n\nFollowing the end of Part 3, patients may be eligible for a potential long-term extension to further refine the dosing regimen, depending upon study drug availability."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "RDEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Open-label study",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE",
+                "maskingDescription": "Open-label"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTR-01 3 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "All patients will receive a PTR-01 dose of 3.0 mg/kg once weekly every week for a total of 4 doses, followed by a dose of 3.0 mg/kg every other week for a total of 7 doses.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTR-01",
+                "description": "IV recombinant collagen 7 at 3 mg/kg given weekly for 4 doses, followed by bi-weekly for 7 doses",
+                "armGroupLabels": [
+                  "PTR-01 3 mg/kg"
+                ],
+                "otherNames": [
+                  "Recombinant collagen 7",
+                  "rC7"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Wound healing",
+                "description": "Change in a majority of target lesions of at least 2 levels using a 7-point (1-7) Global Impression of Change instrument (7 being the worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Incidence of treatment-emergent adverse events",
+                "description": "Safety and tolerability, as assessed by treatment-emergent adverse events",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Incidence of infusion-associated reactions",
+                "description": "Safety and tolerability, as assessed by infusion-associated reactions (IAR)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Incidence of anti-drug antibodies (ADA)",
+                "description": "Safety and tolerability, as assessed by immunogenicity through anti-drug antibody (ADA) testing",
+                "timeFrame": "Up to 162 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Delivery of PTR-01 to skin",
+                "description": "PTR-01 incorporation by immunofluorescence using NC1 \\& NC2 staining, by dose frequency period",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Formation of anchoring fibrils",
+                "description": "Formation of new anchoring fibrils as measured by electron microscopy",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in wound surface area, as assessed by wound imaging",
+                "description": "Wound area of target lesions, as assessed by wound imaging",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in wound surface area, as assessed by Investigator Global Impression of Change (IGIC)",
+                "description": "Wound area of target lesions, as assessed by IGIC",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in total body wound surface area",
+                "description": "Change in total body wound surface area, using Rule of Nines",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in skin integrity, as assessed by suction blister time",
+                "description": "Change in skin integrity, as assessed by suction blister time",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in skin integrity, as assessed by time to re-blistering",
+                "description": "Change in skin integrity, as assessed by time to re-blistering",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in itch severity, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) itch domains",
+                "description": "Severity of itch, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) itch domains",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in itch severity, as assessed by the Instrument for Scoring Clinical Outcomes for Research of Epidermolysis Bullosa (iscorEB)",
+                "description": "Severity of itch, as assessed by Instrument for Scoring Clinical Outcomes for Research of Epidermolysis Bullosa (iscorEB), maximum score of 234 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in the impact of itch on quality of life",
+                "description": "Change in the impact of itch on quality of life, as assessed by the Pruritus-Specific Quality of Life Instrument (ItchyQoL), maximum score of 110 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in pain severity, as assessed by modified Patient-Reported Outcome Measurement Information System (PROMIS) pain domains",
+                "description": "Change in pain severity, as assessed by Patient-Reported Outcome Measurement Information System (PROMIS) pain domains",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in pain severity, as assessed by the Instrument for Scoring Clinical Outcomes for Research of Epidermolysis Bullosa (iscorEB)",
+                "description": "Change in pain severity, as assessed by the Instrument for Scoring Clinical, maximum score of 234 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in the impact of pain on quality of life",
+                "description": "Change in the impact of pain on quality of life, as assessed by the Instrument for Scoring Clinical Outcomes for Research of Epidermolysis Bullosa (iscorEB) instrument, maximum score of 234 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change of dysphagia, as assessed using the Brief Esophageal Dysphagia Questionnaire",
+                "description": "Change of dysphagia, as assessed using the Brief Esophageal Dysphagia Questionnaire, maximum score is 40 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in dysphagia, as assessed by volume of oral nutritional intake",
+                "description": "Change of dysphagia, as assessed by volume of oral nutritional intake, using patient interview and diary, maximum score is 40 (worst)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Stabilization of dysphagia, as assessed using the Brief Esophageal Dysphagia Scale",
+                "description": "Stabilization of dysphagia, as assessed using the Brief Esophageal Dysphagia Scale",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Stabilization of dysphagia, as assessed by volume oral nutritional intake",
+                "description": "Stabilization of dysphagia, as assessed by volume oral nutritional intake, using patient interview and diary",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in corneal symptoms",
+                "description": "Change of corneal symptoms (eye symptoms), as assessed by the Epidermolysis Bullosa Eye Disease Index (EB-EDI)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Stabilization of corneal symptoms",
+                "description": "Stabilization of corneal symptoms (eye symptoms), as assessed by the Epidermolysis Bullosa Eye Disease Index (EB-EDI)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (hemoglobin/hematocrit)",
+                "description": "Change of nutritional markers, as assessed by hemoglobin/hematocrit",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (total protein/albumin)",
+                "description": "Change of nutritional markers, as assessed by total protein/albumin",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (iron/TIBC)",
+                "description": "Change of nutritional markers, as assessed by iron/TIBC",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of change in nutritional markers (C-reactive protein)",
+                "description": "Change of nutritional markers, as assessed by C-reactive protein",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of stabilization of nutritional markers (hemoglobin/hematocrit)",
+                "description": "Stabilization of nutritional markers, as assessed by hemoglobin/hematocrit",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of stabilization of nutritional markers (total protein/albumin)",
+                "description": "Stabilization of nutritional markers, as assessed by total protein/albumin",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of stabilization of nutritional markers (iron/TIBC)",
+                "description": "Stabilization of nutritional markers, as assessed by iron/TIBC",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Rate of stabilization of nutritional markers (C-reactive protein)",
+                "description": "Stabilization of nutritional markers, as assessed by C-reactive protein",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in Investigator Global Impressions of Change (IGIC)",
+                "description": "Global impressions of change, as assessed through IGIC (1-7), 7 being worst",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in Investigator Patient Impressions of Change (PGIC)",
+                "description": "Global impressions of change, as assessed through PGIC (1-7), 7 being worst",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in disease activity and scarring",
+                "description": "Change in disease activity and scarring, as assessed by the Epidermolysis Bullosa Disease Activity and Scarring Index (EBDASI)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in overall quality of life, as assessed by the Quality of Life in Epidermolysis Bullosa (QOLEB) questionnaire",
+                "description": "Change in overall quality of life, as assessed by the Quality of Life in Epidermolysis Bullosa (QOLEB) questionnaire",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in overall health",
+                "description": "Change in overall disability, as assessed by the Health Assessment Questionnaire or Children's Health Assessment Questionnaire (HAQ/CHAQ)",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in mental health",
+                "description": "Change in mental health and social functioning, as assessed by the Patient-Reported Outcomes Measurement Information System (PROMIS) mental health domains",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in social function",
+                "description": "Change in mental health and social functioning, as assessed by the Patient-Reported Outcomes Measurement Information System (PROMIS) social function domains",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in amount of wound care",
+                "description": "Change in amount of wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in time for wound care",
+                "description": "Change in time for wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 162 daysUp to 162 days"
+              },
+              {
+                "measure": "Change in cost of wound care",
+                "description": "Change in cost of wound care, as assessed by patient interviews",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in overall patient impression of quality of life",
+                "description": "Change in overall quality of life, as assessed by patient interviews",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Change in overall patient impression of disability",
+                "description": "Change in overall disability, as assessed by patient interviews",
+                "timeFrame": "Up to 162 days"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Genotype/phenotype relationships",
+                "description": "Correlation between genotype (genetic mutation) and severity of disease",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Impact of pharmacokinetics on safety outcomes",
+                "description": "Correlate Cmax and Area Under the Curve (AUC) with treatment emergent adverse events, infusion associated reactions and immune-mediated reactions",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Impact of pharmacokinetics on efficacy outcomes",
+                "description": "Correlate Cmax and AUC with wound healing",
+                "timeFrame": "Up to 162 days"
+              },
+              {
+                "measure": "Impact of pharmacokinetics on pharmacodynamic outcomes",
+                "description": "Correlate Cmax and AUC with suction blister time, C7 immunofluorescence on biopsy and formation of anchoring fibrils by electron microscopy",
+                "timeFrame": "Up to 162 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPatients must meet all of the following criteria to be eligible for study participation in the three month run in period of the study:\n\n1. Willing to provide informed consent form, or if 12 to \\<18 years of age, legal guardian has provided informed consent form and the minor has signed an assent form acknowledging that they understand and agree to study procedures.\n2. Has a diagnosis of RDEB based on genetic analysis and consistent with a recessive inheritance pattern.\n3. Has deficient C7 staining at the dermal-epidermal junction (DEJ) by IF.\n4. Agrees to use contraception as follows:\n\n   For women of childbearing potential (WOCBP) agrees to use highly effective contraceptive (including abstinence) methods from Screening, through the study, and for at least 10 weeks after the last dose of study drug. Non-childbearing potential is defined as a female who meets either of the following criteria: age \u226550 years and no menses for at least 1 year or documented hysterectomy, bilateral tubal ligation, or bilateral oophorectomy.\n\n   For males, agrees to use a condom with any WOCBP sexual partner from Day 1 of study treatment, through the study, and at least 10 weeks after the last dose of study drug.\n5. Be willing and able to comply with this protocol.\n\nExclusion Criteria:\n\nPatients with any of the following will be excluded from participation in the study:\n\n1. Has known systemic hypersensitivity to any of the inactive ingredients in PTR-01.\n2. Has previously had an anaphylactic reaction to PTR-01.\n3. Is pregnant or nursing.\n4. Has received in the last six months any investigational gene therapy product or in the last three months any non-gene therapy investigational products.\n5. Is anticipated to receive new regimens of antibiotics or other anti-infectives during the trial.\n6. Has any other medical or personal condition that, in the opinion of the Investigator, may potentially compromise the safety or compliance of the patient, or may preclude the patient's",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              }
+            ]
+          }
+        },
+        "annotationSection": {
+          "annotationModule": {
+            "unpostedAnnotation": {
+              "unpostedResponsibleParty": "Phoenix Tissue Repair, Inc.",
+              "unpostedEvents": [
+                {
+                  "type": "RELEASE",
+                  "date": "2022-11-15"
+                },
+                {
+                  "type": "UNRELEASE",
+                  "date": "2022-11-16"
+                },
+                {
+                  "type": "RELEASE",
+                  "date": "2022-11-16"
+                },
+                {
+                  "type": "UNRELEASE",
+                  "date": "2022-11-17"
+                }
+              ]
+            }
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2022-11-15",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2022-11-15",
+                  "unreleaseDate": "2022-11-16"
+                },
+                {
+                  "releaseDate": "2022-11-16",
+                  "unreleaseDate": "2022-11-17"
+                },
+                {
+                  "releaseDate": "2022-11-17",
+                  "resetDate": "2022-12-15",
+                  "mcpReleaseN": 3
+                }
+              ]
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03752905",
+            "orgStudyIdInfo": {
+              "id": "PTR-01-001"
+            },
+            "organization": {
+              "fullName": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 1/2 Trial of PTR-01 in Adult Patients With Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+            "officialTitle": "A Phase 1/2 Randomized, Saline-Controlled, Single-Blind, Multiple Ascending Dose, Dose-Escalation, Multi-Center Trial of PTR-01 in Adult Patients With Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+            "acronym": "PTR-01-001"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-01-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-11-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2020-11-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-11-19",
+            "studyFirstSubmitQcDate": "2018-11-21",
+            "studyFirstPostDateStruct": {
+              "date": "2018-11-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-03-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-03-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Phoenix Tissue Repair, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Protocol PTR-01-001 is a Phase 1/2 study of PTR-01.\n\nThe study is divided into an up to 4-week Screening Period, a 10-week Treatment Period and an 8-week Follow-up Period.\n\nCohorts 1, 2, 3 and 4 will consist of 2, 4, 3 and 3 patients respectively. Each cohort will consist of patients divided into two groups (Group 1 and Group 2) randomized in a 1:1 ratio. Patients in Group 1 will receive three doses of active drug followed by 3 doses of saline control. Patients in Group 2 will receive three doses of saline control followed by 3 doses of active drug.\n\nCohort 1 patients randomized to Group 1 will receive 3 doses of active treatment (PTR-01) at a dose of 0.1 mg/kg followed by 3 doses of saline control for a total of 6 doses. Cohort 1 patients randomized to Group 2 will receive 3 doses of saline control followed by 3 doses of active treatment (PTR-01) at a dose of 0.1 mg/kg for a total of 6 doses.",
+            "detailedDescription": "Protocol PTR-01-001 is a saline-controlled, single and repeat dose, dose-escalation, crossover study designed to determine the safety, tolerability, tissue kinetics, pharmacodynamics and preliminary efficacy of PTR 01.\n\nThe study is divided into three periods: an up to 4-week Screening Period, a 10-week Treatment Period and an 8-week Follow-up Period. During the Screening Period and Follow-up Period there will be no study drug treatment.\n\nDuring the Treatment Period a total of 3 doses of PTR-01 and 3 doses of saline control will be administered to patients for a total of 6 doses over a 10-week period in three cohorts dosed at 0.1, 0.3, 1.0 and 3.0 mg/kg (active drug). Twelve patients with a diagnosis of RDEB and a history of at least one chronic wound will be enrolled. Those patients who do not have documentation of genetic analysis and IF staining will have blood for genetic analysis and a biopsy for IF staining prior to enrollment (both required).\n\nCohorts 1, 2, 3 and 4 will consist of 2, 4, 3 and 3 patients respectively. Each cohort will consist of patients divided into two groups (Group 1 and Group 2) randomized in a 1:1 ratio. Patients will receive doses 2 weeks apart. Patients in Group 1 will receive three doses of active drug followed by 3 doses of saline control. Patients in Group 2 will receive three doses of saline control followed by 3 doses of active drug. This cross-over design will yield a total of 14 patients all of whom will receive active drug and saline control.\n\nPrior to randomization, patients will complete a Screening Period to assess the extent and impact of skin disease involvement and the chronicity of at least one wound. Only patients who meet all of the eligibility criteria will be randomized for treatment.\n\nCohort 1 patients randomized to Group 1 will receive 3 doses of active treatment (PTR-01) at a dose of 0.1 mg/kg followed by 3 doses of saline control for a total of 6 doses. Cohort 1 patients randomized to Group 2 will receive 3 doses of saline control followed by 3 doses of active treatment (PTR-01) at a dose of 0.1 mg/kg for a total of 6 doses. After the last patient in Cohort 1 has received their third dose and safety labs for all patients have been reviewed by the Data Safety Monitoring Board (DSMB), the next cohort may be enrolled. This same schedule and safety review process will be followed for all subsequent dosing cohorts, with Cohort 2, Cohort 3 and Cohort 4 receiving 0.3, 1.0 and 3.0 mg/kg respectively.\n\nEfficacy assessments will be performed prior to first dose of therapy (at the end of the Screening Period), after the last dose of study drug in Period 1, after the last dose of study drug in Period 2 of the Treatment Period and 2 weeks (Day 85) after the last dose of study drug (at the end of the Follow-up Period)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "RDEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "Randomized, Saline-Controlled, Single-Blind, Multiple Ascending Dose, Dose-Escalation, Multi-Center",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Single-blind",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PTR-01 0.1 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "Three intravenous infusions of PTR-01 at 0.1 mg/kg with doses 2 weeks apart.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              },
+              {
+                "label": "PTR-01 0.3 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "Three intravenous infusions of PTR-01 at 0.3 mg/kg with doses 2 weeks apart.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              },
+              {
+                "label": "PTR-01 1.0 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "Three intravenous infusions of PTR-01 at 1.0 mg/kg with doses 2 weeks apart.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              },
+              {
+                "label": "Normal Saline",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Saline control to mimic PTR-01.",
+                "interventionNames": [
+                  "Drug: Normal saline"
+                ]
+              },
+              {
+                "label": "PTR-01 3.0 mg/kg",
+                "type": "EXPERIMENTAL",
+                "description": "Three intravenous infusions of PTR-01 at 3.0 mg/kg with doses 2 weeks apart.",
+                "interventionNames": [
+                  "Drug: PTR-01"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PTR-01",
+                "description": "Recombinant human collagen 7 (rC7)",
+                "armGroupLabels": [
+                  "PTR-01 0.1 mg/kg",
+                  "PTR-01 0.3 mg/kg",
+                  "PTR-01 1.0 mg/kg",
+                  "PTR-01 3.0 mg/kg"
+                ],
+                "otherNames": [
+                  "Recombinant human collagen 7 (rC7)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Normal saline",
+                "description": "Saline control",
+                "armGroupLabels": [
+                  "Normal Saline"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of treatment-emergent adverse events",
+                "description": "The primary endpoint of this study is safety and tolerability, as assessed by treatment-emergent adverse events, infusion-associated reactions (IAR) and immunogenicity",
+                "timeFrame": "Up to Day 127"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To measure the peak serum concentration (Cmax) of PTR-01",
+                "description": "Pharmacokinetic parameter estimates of Cmax",
+                "timeFrame": "Pre-dose, 15 minutes, 60 minutes, 2 hours, 4 hours, 8 hours and 24 hours post-dose"
+              },
+              {
+                "measure": "To measure the time to peak concentration (Tmax) of PTR-01",
+                "description": "Pharmacokinetic parameter estimates of Tmax",
+                "timeFrame": "Pre-dose, 15 minutes, 60 minutes, 2 hours, 4 hours, 8 hours and 24 hours post-dose"
+              },
+              {
+                "measure": "To measure the area under the curve (AUC) of PTR-01",
+                "description": "Pharmacokinetic parameter estimates of AUC",
+                "timeFrame": "Pre-dose, 15 minutes, 60 minutes, 2 hours, 4 hours, 8 hours and 24 hours post-dose"
+              },
+              {
+                "measure": "To measure the clearance of PTR-01",
+                "description": "Pharmacokinetic parameter estimates of clearance",
+                "timeFrame": "Pre-dose, 15 minutes, 60 minutes, 2 hours, 4 hours, 8 hours and 24 hours post-dose"
+              },
+              {
+                "measure": "To measure the half-life (t1/2) of PTR-01",
+                "description": "Pharmacokinetic parameter estimates of t1/2",
+                "timeFrame": "Pre-dose, 15 minutes, 60 minutes, 2 hours, 4 hours, 8 hours and 24 hours post-dose"
+              },
+              {
+                "measure": "Change from Baseline in rC7",
+                "description": "Change in rC7 on skin biopsy by immunofluorescence (IF)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in anchoring fibrils",
+                "description": "Change in anchoring fibrils on skin biopsy by electron microscopy (EM)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Duration of rC7 residence in tissue",
+                "description": "Duration of rC7 residence in tissue by skin biopsy",
+                "timeFrame": "Screening and Day 127"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Change from Baseline in suction blister time",
+                "description": "Change from Baseline in suction blister time (as compared to placebo and historical controls)",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in target wound size",
+                "description": "Change from Baseline in target wound size (percent healing from Baseline)",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in healing of up to 5 chronic wounds",
+                "description": "Change in healing of up to 5 wounds that chronically heal and reopen",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in wound surface area",
+                "description": "Change from Baseline in wound surface area",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in patient reported outcomes as assessed by the Leuven Itch Scale (LIS)",
+                "description": "Change from Baseline in patient reported outcomes",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in patient reported outcomes as assessed by the pruritus-specific quality-of-life instrument (\"ItchyQoL\")",
+                "description": "Change from Baseline in patient reported outcomes",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in patient reported outcomes as assessed by the Quality of Life in Epidermolysis Bullosa (QOLEB) Questionnaire",
+                "description": "Change from Baseline in patient reported outcomes",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in patient reported outcomes as assessed by the full Health Assessment Questionnaire (HAQ)",
+                "description": "Change from Baseline in patient reported outcomes",
+                "timeFrame": "Baseline and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the Investigator Global Assessment",
+                "description": "Change from Baseline in the Investigator Global Assessment (IGA)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker albumin",
+                "description": "Change from Baseline in biochemical markers of disease (albumin)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker iron",
+                "description": "Change from Baseline in biochemical markers of disease (iron)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker total iron binding capacity",
+                "description": "Change from Baseline in biochemical markers of disease (total iron binding capacity)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker hemoglobin",
+                "description": "Change from Baseline in biochemical markers of disease (hemoglobin)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker hematocrit",
+                "description": "Change from Baseline in biochemical markers of disease (hematocrit)",
+                "timeFrame": "Screening and Day 127"
+              },
+              {
+                "measure": "Change from Baseline in the biochemical marker total protein",
+                "description": "Change from Baseline in biochemical markers of disease (total protein)",
+                "timeFrame": "Screening and Day 127"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Be at least 16 years of age.\n2. Has signed the current approved informed consent form.\n3. Has a diagnosis of RDEB based on genetic analysis and consistent with a recessive inheritance pattern.\n4. Has deficient C7 staining at the dermal-epidermal junction (DEJ) by IF.\n5. Has at least 1 unhealed wound 10-200 cm2 for at least 6 weeks at the Screening Visit.\n6. Agrees to use contraception as follows:\n\n   * For women of childbearing potential (WOCBP) agrees to use highly effective contraceptive (including abstinence) methods from Screening, through the study, and for at least 10 weeks after the last dose of study drug. Non-childbearing potential is defined as a female who meets either of the following criteria: age \u226550 years and no menses for at least 1 year or documented hysterectomy, bilateral tubal ligation, or bilateral oophorectomy (see Section 7.4.1.2 for details on the definition of non-childbearing potential).\n   * For males, agrees to use a condom with any WOCBP sexual partner from Day 1 of study treatment, through the study, and at least 10 weeks after the last dose of study drug.\n7. Be willing and able to comply with this protocol.\n\nExclusion Criteria:\n\n1. Has known systemic hypersensitivity to any of the inactive ingredients in PTR-01.\n2. Is pregnant or nursing.\n3. Has received in the last six months any investigational gene therapy product or in the last three months any non-gene therapy investigational products.\n4. Is anticipated to receive new regimens of antibiotics or other anti-infectives during the trial.\n5. Has any other medical or personal condition that, in the opinion of the Investigator, may potentially compromise the safety or compliance of the patient, or may preclude the patient's successful completion of the clinical study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "16 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Theresa Podrebarac, MD",
+                "affiliation": "Phoenix Tissue Repair",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "Thomas Jefferson Univeristiy",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19107",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Sponsor website",
+                "url": "http://phoenixtissuerepair.com"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "There are currently no plans to share individual participant data with other researchers."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000077330",
+                "term": "Saline Solution"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000077324",
+                "term": "Crystalloid Solutions"
+              },
+              {
+                "id": "D007552",
+                "term": "Isotonic Solutions"
+              },
+              {
+                "id": "D012996",
+                "term": "Solutions"
+              },
+              {
+                "id": "D004364",
+                "term": "Pharmaceutical Preparations"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "integrated_id": "systemic:sys_cc8fbeb275b0",
+  "asset": "PM359",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=PM359",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06559176",
+            "orgStudyIdInfo": {
+              "id": "Prime-0101"
+            },
+            "organization": {
+              "fullName": "Prime Medicine, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Safety and Efficacy of Prime Editing (PM359) in Participants With p47phox Autosomal Recessive Chronic Granulomatous Disease (CGD )",
+            "officialTitle": "A Phase 1/2 Study Evaluating Gene Therapy by Transplantation of Autologous CD34+ Stem Cells Modified Ex Vivo Using Prime Editing (PM359) in Participants With Autosomal Recessive Chronic Granulomatous Disease Due to Mutations in the NCF1 Gene"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2030-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-02",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-11",
+            "studyFirstSubmitQcDate": "2024-08-16",
+            "studyFirstPostDateStruct": {
+              "date": "2024-08-19",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-31",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-04-06",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Prime Medicine, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label, single-arm, multicenter Phase 1/2 study evaluating the safety and efficacy of gene therapy by transplantation of Prime Edited autologous CD34+ stem cells modified ex vivo (PM359) in participants with autosomal recessive Chronic Granulomatous Disease (CGD) caused by mutations in the NCF1 (Neutrophil Cytosolic Factor 1) gene.",
+            "detailedDescription": "Chronic Granulomatous Disease (CGD) is a rare genetic disease affecting the white blood cells, leading to failure of innate immunity against a variety of human pathogens and is also associated with autoimmune and inflammatory conditions. Approximately 20-25% of people with CGD inherit a mutation commonly known as \"delGT\" in both copies of the NCF1 gene, which encodes the p47phox protein.\n\nThis study seeks to understand the safety and efficacy of a new gene editing technology, known as Prime Editing, in participants with autosomal recessive CGD caused by the delGT mutation in NCF1. Autologous CD34+ cells are collected from the participant via mobilization and apheresis, shipped to a central manufacturing facility and modified using Prime Editing to 'correct' the delGT mutation causing p47phox CGD. After manufacture, the Prime Edited stem cells (PM359) will be shipped to the study site, where they will be infused back into the participant following a preparative procedure known as conditioning.\n\nThe study will initially enroll adult participants (aged \u2265 18) and plans to then move into adolescents aged 12 - 17, followed by children aged 6 - 11.\n\nThe study is currently enrolling a limited number of participants by invitation. Treating physicians or patients may contact cgdtrial@primemedicine.com to inquire about potential participation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Chronic Granulomatous Disease",
+              "Granulomatous Disease, Chronic"
+            ],
+            "keywords": [
+              "Granulomatous Disease, Chronic",
+              "Chronic Granulomatous Disease",
+              "Autosomal Recessive Chronic Granulomatous Disease",
+              "Genetic Therapy",
+              "Gene Therapy",
+              "Gene Editing",
+              "Genome Editing",
+              "Stem Cell Transplantation",
+              "Transplantation, Stem Cell",
+              "Hematopoietic Stem Cell Transplantation",
+              "Transplantation, Hematopoietic Stem Cell"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PM359",
+                "type": "EXPERIMENTAL",
+                "description": "PM359 is an autologous CD34+ hematopoietic stem cell (HSC) suspension that is Prime Edited at the NCF1 locus resulting in expression of the p47phox protein.",
+                "interventionNames": [
+                  "Biological: PM359"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "PM359",
+                "description": "Single dose of PM359 administered autologously by intravenous (I.V.) infusion following myeloablative conditioning with busulfan",
+                "armGroupLabels": [
+                  "PM359"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety of administration of PM359, as quantified by frequency of adverse events (AEs) after drug product infusion",
+                "timeFrame": "PM359 infusion through Month 12 after PM359 infusion"
+              },
+              {
+                "measure": "Percentage of participants with sustained reconstitution of NADPH oxidase activity in neutrophils",
+                "timeFrame": "At Month 6 and Month 12 after PM359 infusion, as compared to baseline"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Frequency of all drug product-related AEs, \u2265 Grade 3 AEs, and serious adverse events (SAEs)",
+                "timeFrame": "Signing of ICF through Month 36 following PM359 infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "timeFrame": "From PM359 infusion through engraftment, typically within 2-3 weeks but assessed up to 36 months"
+              },
+              {
+                "measure": "Transplant related mortality",
+                "timeFrame": "From PM359 infusion, assessed at 100 Days and 1 Year post-PM359 infusion"
+              },
+              {
+                "measure": "Overall survival",
+                "timeFrame": "From PM359 infusion, assessed at 1 Year and 3 Years post-PM359 infusion"
+              },
+              {
+                "measure": "Incidence of acute graft-versus-host disease (GvHD)",
+                "timeFrame": "From PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Incidence of graft failure or rejection",
+                "timeFrame": "From PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Durability of multi-lineage hematopoietic cell reconstitution",
+                "timeFrame": "Assessed at 12, 24 and 36 months following PM359 infusion"
+              },
+              {
+                "measure": "Percentage of participants with clinical evidence of malignancy, pre-malignancy or myelodysplasia",
+                "timeFrame": "From PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Percentage of participants with sustained reconstitution of NADPH oxidase activity",
+                "timeFrame": "Assessed at Month 6 and Month 12 after PM359 infusion"
+              },
+              {
+                "measure": "Percentage of participants with sustained reconstitution of NADPH oxidase activity",
+                "timeFrame": "Assessed at Months 3, 18, 24 and 36 after PM359 infusion"
+              },
+              {
+                "measure": "Reconstitution of NADPH oxidase activity in peripheral granulocytes, as measured by DHR assay",
+                "timeFrame": "Months 1, 2, 3, 6, 12, 18, 24, and 36 after PM359 infusion"
+              },
+              {
+                "measure": "Frequency of new or worsening severe bacterial or fungal infections requiring anti-microbial therapy, as compared to baseline",
+                "timeFrame": "From Month 6 following PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Frequency of any new or worsening moderate or greater CGD associated infection requiring anti-microbial therapy with confirmed microbiology demonstrating bacterial or fungal origin consistent with CGD-related pathology, as compared to baseline",
+                "timeFrame": "From Month 6 following PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Frequency of autoimmune or inflammatory, non-infectious processes consistent with CGD, with symptom severity moderate or greater, as compared to baseline",
+                "timeFrame": "From 1 Year following PM359 infusion through Month 36"
+              },
+              {
+                "measure": "Resolution of pre-existing active infections (defined as infection present at time of study enrollment and ongoing at time of PM359 infusion) following PM359 infusion",
+                "timeFrame": "From PM359 infusion until resolution of active infection, assessed up to Month 36"
+              },
+              {
+                "measure": "Resolution of pre-existing autoimmune or inflammatory (non-infectious) processes (defined as autoimmune or inflammatory processes present at time of study enrollment and ongoing at time of PM359 infusion) following PM359 infusion",
+                "timeFrame": "From PM359 infusion until resolution of autoimmune or inflammatory process, assessed up to Month 36"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Autosomal recessive Chronic Granulomatous Disease due to the delGT mutation in NCF1 causing dysfunction of p47phox\n* Treated and followed for at least the past 2 years in a specialized center\n* Willingness to participate in this study as well as a long-term follow-up study with the understanding that the total participation is 15 years\n* At least 1 prior severe CGD-related infection OR an ongoing severe CGD-related infection requiring therapy or that is refractory to standard therapy; OR an autoimmune or inflammatory condition related to CGD that is active or requiring therapy to maintain remission.\n\nExclusion Criteria:\n\n* For participants younger than 16 years of age: known, willing, and available 10/10 (A,B,C,DR,DQ) HLA-matched related donor (10/10 MRD)\n* Active bacteremia or fungemia\n* Ongoing inflammatory condition that is \u2265 CTCAE v5.0 Grade 3 despite high-dose steroids (\u2265 0.5 mg/kg/day of prednisone and/or equivalent).\n* Any contraindication which in the opinion of the transplant physician would make the participant ineligible to undergo autologous HSCT, including, but not limited to:\n\n  1. Contraindication to mobilization and apheresis, including severe allergic reaction to receipt of any medication or other drug substance required for mobilization and apheresis (e.g., G-CSF, plerixafor) or PM359 manufacture (e.g., DMSO).\n  2. Contraindication to receipt of the conditioning agent, busulfan.\n* Positive for presence of human immunodeficiency virus (HIV)-1 or HIV-2, or active infection with hepatitis B virus (HBV), or hepatitis C virus (HCV).\n* Inadequate organ function, including known chronic advanced end-organ damage which in the opinion of the investigator would put the participant at risk for undergoing HSCT\n* Prior or current malignancy or myeloproliferative disorder (excluding Stage 1 or lower, fully treated/excised malignant and pre-malignant disease of the skin, cervix or colon).\n* Any other condition that, in the opinion of the Investigator, may compromise the safety or compliance of the participant or would preclude the participant from successful study completion, including Participant/Parent/Guardian unable or unwilling to comply with the protocol requirements.\n* Pregnancy or breastfeeding in a postpartum female or absence of adequate contraception for fertile participants. Females of childbearing potential and non-sterile male participants who are or may become sexually active with female partners of childbearing potential are required to use highly effective contraception from Screening through at least 12 months after drug product infusion.\n* Participation in another clinical study with an investigational drug within 30 days of Screening or at least 5 times the half-life of the investigational drug (whichever is longer), or any prior receipt of gene therapy or hematopoietic stem cell transplant.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of California Los Angeles Medical Center",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90027",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "NIH Clinical Center",
+                "city": "Bethesda",
+                "state": "Maryland",
+                "zip": "20892",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.98067,
+                  "lon": -77.10026
+                }
+              },
+              {
+                "facility": "The Children's Hospital at Tristar Medical Group/Sarah Cannon Center for Blood Cancers",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "CHU - Sainte Justine Hospital",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H3T 1C5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "University College of London Hospital",
+                "city": "London",
+                "state": "England",
+                "zip": "NW1 2PG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "31634902",
+                "type": "BACKGROUND",
+                "citation": "Anzalone AV, Randolph PB, Davis JR, Sousa AA, Koblan LW, Levy JM, Chen PJ, Wilson C, Newby GA, Raguram A, Liu DR. Search-and-replace genome editing without double-strand breaks or donor DNA. Nature. 2019 Dec;576(7785):149-157. doi: 10.1038/s41586-019-1711-4. Epub 2019 Oct 21."
+              },
+              {
+                "pmid": "41358590",
+                "type": "DERIVED",
+                "citation": "Gori JL, Haddad E, Frangoul H, Kohn DB, Morris EC, Martin BN, Deary BA, Nickerson M, Scholz RL, Fernandez I, Leveille K, De Ravin SS, Kang EM, Pierzynski M, Estwick T, Littel P, Kuhns DB, Long Priel DA, Teira P, Turvey S, Arnold J, Evans MD, McManus M, Carpenter B, Waterman DP, Anzalone AV, Petrusich A, Osuna CE, O'Malley TT, Stewart-Ornstein J, Heath JM, Nehilla BJ, Asmal M, Malech HL. Prime Editing for p47phox-Deficient Chronic Granulomatous Disease. N Engl J Med. 2026 Mar 26;394(12):1195-1203. doi: 10.1056/NEJMoa2509807. Epub 2025 Dec 7."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "No plans to make IPD available to other researchers."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006105",
+                "term": "Granulomatous Disease, Chronic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010585",
+                "term": "Phagocyte Bactericidal Dysfunction"
+              },
+              {
+                "id": "D007960",
+                "term": "Leukocyte Disorders"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007153",
+                "term": "Immunologic Deficiency Syndromes"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D002908",
+                "term": "Chronic Disease"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

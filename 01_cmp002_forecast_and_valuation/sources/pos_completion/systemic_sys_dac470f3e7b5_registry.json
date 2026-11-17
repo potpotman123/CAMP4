@@ -1,0 +1,318 @@
+{
+  "integrated_id": "systemic:sys_dac470f3e7b5",
+  "asset": "TBX-1400",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=TBX-1400",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02860559",
+            "orgStudyIdInfo": {
+              "id": "TBX-1400-001"
+            },
+            "organization": {
+              "fullName": "Taiga Biotechnologies, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Early Efficacy Study of TBX-1400 in Patients With Severe Combined Immunodeficiency",
+            "officialTitle": "Safety and Early Efficacy Study of TBX-1400 in Patients With Severe Combined Immunodeficiency"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-10",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-08",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-02",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2024-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-07-26",
+            "studyFirstSubmitQcDate": "2016-08-04",
+            "studyFirstPostDateStruct": {
+              "date": "2016-08-09",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2020-10-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-10-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Taiga Biotechnologies, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study of stem cell transplantation with TBX-1400 in pediatric subjects with severe combined immunodeficiency (SCID).\n\nThe donor cells are exposed to a protein that has been shown in the laboratory to improve the ability of the donor cells to make blood and immune cells after transplant. Exposure of the donor cells to this protein does not modify the genes in the cells in any way.\n\nThis study has two goals. The first goal is to find out if transplant with TBX-1400 is safe. The second goal is to find out what effects TBX-1400 stem cells have on time to engraftment in pediatric subjects with SCID. The study hypothesis is that TBX-1400 cells will shorten the time to immune reconstitution after transplant."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Severe Combined Immunodeficiency"
+            ],
+            "keywords": [
+              "Hematopoietic Stem Cell Transplantation",
+              "Severe Combined Immunodeficiency"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "TBX-1400 treatment",
+                "type": "EXPERIMENTAL",
+                "description": "Single intravenous infusion of TBX-1400",
+                "interventionNames": [
+                  "Biological: TBX-1400"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "TBX-1400",
+                "description": "Hematopoietic stem cells transplantation",
+                "armGroupLabels": [
+                  "TBX-1400 treatment"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Adverse Events following transplant with TBX-1400",
+                "description": "Adverse events from subject or parent reporting or other assessments",
+                "timeFrame": "Two years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Transplant Engraftment",
+                "description": "Assessment of transplant engraftment will include analysis of T-cells , B-cells and Natural Killer cells",
+                "timeFrame": "Up to Day 180"
+              },
+              {
+                "measure": "Chimerism",
+                "description": "Assessment of chimerism will include analysis of T-cells , B-cells and Natural Killer cells",
+                "timeFrame": "Up to Day 180"
+              },
+              {
+                "measure": "Absolute numbers of T-cells",
+                "timeFrame": "Days 30 to 360"
+              },
+              {
+                "measure": "T-cell receptor excision circles (TREC)",
+                "timeFrame": "Days 30 to 360."
+              },
+              {
+                "measure": "Kappa-deleting recombination excision circles (KREC)",
+                "timeFrame": "Days 30 to 360."
+              },
+              {
+                "measure": "Immunoglobulin (Ig) levels",
+                "timeFrame": "Days 30 to 360."
+              },
+              {
+                "measure": "Immunoglobulin G (IgG) titers to pneumococcal antigens in 13-valent vaccine",
+                "timeFrame": "Sixty days after final immunization"
+              },
+              {
+                "measure": "T-cell responses to anti-CD3 and phytohemagglutinin (PHA)",
+                "timeFrame": "Days 30, 60, 90, 120, and 180."
+              },
+              {
+                "measure": "Number of infections following transplant",
+                "timeFrame": "Two years"
+              },
+              {
+                "measure": "Number of days granulocyte colony stimulating factor (G-CSF) was administered",
+                "timeFrame": "Up to 1 year"
+              },
+              {
+                "measure": "Number of days to specific cell counts and last packed red blood cell (PRBC) transfusion",
+                "timeFrame": "Up to 2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent of the subject's legally authorized representative (in most cases, this will be the parent or parents),\n* Age 1 month to 4 years,\n* SCID, leaky SCID with \\<100 TRECs, or Omenn syndrome requiring stem cell transplant with conditioning therapy (patients with decreased T-cell numbers by flow cytometry, decreased TREC, and decreased in vitro responses to T cell mitogens will be eligible regardless of B-cell and/or natural killer (NK) cell function),\n* Identified donor (9 or 10/10 Human Leukocyte Antigen (HLA)-matched unrelated or haplocompatible relative),\n* Eligible patients must have adequate physical function to tolerate the conditioning regimen and hematopoietic stem cell transplantation (HSCT), as measured by:\n\n  * Renal function: serum creatinine \u22643x upper limit of normal for age,\n  * Hepatic function: adequate synthetic function as indicated by a serum fibrinogen at or above the normal limit for the child's age,\n  * Cardiac function: fractional shortening \u226530% as determined by echocardiography. (For subjects with a fractional shortening value of exactly 30%, if conditioning is delayed for any reason, a repeat echocardiogram is to be performed before the conditioning regimen is initiated to confirm the subject's continued eligibility for participation in the study.)\n\nExclusion Criteria:\n\n* Lack of investigational review board (IRB) approval of the study at the treating institution,\n* Lack of consent by the child's legal guardians (Israeli law requires consent by both parents),\n* Adenosine deaminase (ADA) deficiency,\n* The patient has a brother/sister who is a matching and available donor and who was approved to be a donor in accordance with the law and regulations,\n* End-stage organ failure that precludes ability to tolerate the transplant procedure or conditioning,\n* Serum creatinine \\>3 times upper limit of normal for age,\n* Inadequate cardiac function, i.e., fractional shortening \u226530% as determined by echocardiography (for subjects with a fractional shortening value of exactly 30%, if conditioning is delayed for any reason, a repeat echocardiogram must be performed to confirm the subject's eligibility for participation in the study),\n* Inadequate hepatic synthetic function indicated by serum fibrinogen below normal for the child's age or signs of hepatic failure,\n* Major congenital abnormalities that adversely affect survival,\n* Expected survival \\<4 weeks despite transplant.\n\nThe following are NOT exclusion criteria:\n\n* The administration of supplemental oxygen,\n* The presence of infection per se, because patients with SCID frequently have infections with routine pathogens as well as opportunistic infections. Antibiotic, antifungal and antiviral prophylaxis therapy will be used as clinically indicated. Because transplantation is required for control of infections, subjects may be enrolled in the study even though infection is present although acute infections should be controlled prior to initiating transplant conditioning. Adjudication of controlled infection will be performed by the physician(s) treating the patient together with the clinical Principal Investigator of the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Month",
+            "maximumAge": "4 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Yosef Refaeli, Dr.",
+                "role": "CONTACT",
+                "phone": "+1-720-859-3547",
+                "email": "refaeli@taigabiotech.com"
+              },
+              {
+                "name": "Brian Turner, Dr.",
+                "role": "CONTACT",
+                "phone": "+1-720-859-3547",
+                "email": "turner@taigabiotech.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Hadassah Medical Center (Ein Kerem site)",
+                "city": "Jerusalem",
+                "country": "Israel",
+                "contacts": [
+                  {
+                    "name": "Polina Stepensky, Dr.",
+                    "role": "CONTACT",
+                    "phone": "+972-2-6779095",
+                    "email": "polina@hadassah.org.il"
+                  },
+                  {
+                    "name": "Hila Yosef",
+                    "role": "CONTACT",
+                    "phone": "+972-2-6777511",
+                    "email": "hilay@hadassah.org.il"
+                  },
+                  {
+                    "name": "Polina Stepensky, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.76904,
+                  "lon": 35.21633
+                }
+              },
+              {
+                "facility": "Schneider Children's Medical Center",
+                "city": "Petah Tikva",
+                "zip": "4920235",
+                "country": "Israel",
+                "contacts": [
+                  {
+                    "name": "Jerry Stein, Dr.",
+                    "role": "CONTACT",
+                    "phone": "+972-3-9253657",
+                    "email": "jstein@clalit.org.il"
+                  },
+                  {
+                    "name": "Shoshana Hanimov",
+                    "role": "CONTACT",
+                    "phone": "+972-3-9253507",
+                    "email": "shoshanaha1@clalit.org.il"
+                  },
+                  {
+                    "name": "Jerry Stein, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.0888,
+                  "lon": 34.88666
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016511",
+                "term": "Severe Combined Immunodeficiency"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000081207",
+                "term": "Primary Immunodeficiency Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D049914",
+                "term": "DNA Repair-Deficiency Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D007153",
+                "term": "Immunologic Deficiency Syndromes"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

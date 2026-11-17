@@ -1,0 +1,622 @@
+{
+  "integrated_id": "systemic:sys_8415115c4b4b",
+  "asset": "OTQ923",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=OTQ923",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04443907",
+            "orgStudyIdInfo": {
+              "id": "CADPT03A12101"
+            },
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety and Efficacy of Genome-edited Hematopoietic Stem and Progenitor Cells in Sickle Cell Disease (SCD)",
+            "officialTitle": "A First-in-patient Phase I/II Clinical Study to Investigate the Safety, Tolerability and Efficacy of Genome-edited Hematopoietic Stem and Progenitor Cells in Subjects With Severe Complications of Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "The decision of early termination was made due to business reasons and was not a consequence of any safety concern.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-08-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-01-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-01-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-04-29",
+            "studyFirstSubmitQcDate": "2020-06-19",
+            "studyFirstPostDateStruct": {
+              "date": "2020-06-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study evaluated a genome-edited, autologous, hematopoietic stem and progenitor cell (HSPC) product - OTQ923 to reduce the biologic activity of BCL11A, increasing fetal hemoglobin (HbF) and reducing complications of sickle cell disease.",
+            "detailedDescription": "CADPT03A12101 was a multicenter, multi-part, first-in-human, proof-of-concept, open label non-randomized, clinical study in Sickle Cell Disease (SCD) subjects. This study included apheresis of mobilized hematopoietic stem and progenitor cells (HSPCs), ex vivo CRISPR/Cas9-mediated genome editing and expansion, followed by myeloablative conditioning and autologous hematopoietic stem cell transplant (HSCT) with follow-up for a minimum of one year and up to two years.\n\nThe study was divided into the following parts:\n\n* Part A - Adult subjects were dosed with OTQ923.\n* Part B - Assessment of OTQ923 in pediatric patients, however Part B was not opened."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "Gene therapy",
+              "genome-edited hematopoietic stem and progenitor cellular therapy",
+              "sickle cell",
+              "autologous transplant",
+              "BCL11A"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE",
+                "maskingDescription": "The is an open-label study."
+              }
+            },
+            "enrollmentInfo": {
+              "count": 4,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "OTQ923",
+                "type": "EXPERIMENTAL",
+                "description": "Single intravenous infusion of OTQ923 Part A - Adults treated with OTQ923; Part B - Children age 2-17 treated with OTQ923 based on review of data from Part A by Health agency after a formal interim analysis.",
+                "interventionNames": [
+                  "Biological: OTQ923"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "OTQ923",
+                "description": "Single intravenous infusion of OTQ923 cell suspension",
+                "armGroupLabels": [
+                  "OTQ923"
+                ],
+                "otherNames": [
+                  "Adult Part A"
+                ]
+              },
+              {
+                "type": "BIOLOGICAL",
+                "name": "OTQ923",
+                "description": "Single intravenous infusion of OTQ923, based on review of data from Part A by Health agencies after a formal interim analysis",
+                "armGroupLabels": [
+                  "OTQ923"
+                ],
+                "otherNames": [
+                  "Children 2-17 years old - Part B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with adverse events and serious adverse events",
+                "description": "Number of participants with adverse events (AEs) and serious adverse events (SAEs), including changes from baseline in vital signs, electrocardiograms and laboratory results qualifying and reported as AEs.",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Fetal hemoglobin (HbF) expression 6 months after hematopoietic stem cell transplant (HSCT)",
+                "description": "Assessment of HbF expression will be done by measuring total fetal hemoglobin over time.",
+                "timeFrame": "at 6 months"
+              },
+              {
+                "measure": "Time to reach absolute neutrophil count (ANC) \u2265500/\u03bcL for 3 consecutive days",
+                "description": "Time to engraftment is defined as first of 3 consecutive days when an absolute neutrophil count (ANC) \u2265500/\u03bcL after receiving OTQ923 was reached.",
+                "timeFrame": "up to 24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Durability of hematologic engraftment",
+                "description": "Engraftment durability/persistence by measuring the proportion of alleles with on-target CRISPR modification in peripheral blood (total white blood cells (WBC)) and bone marrow over time up to 24 months",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Proportion of subject to achieve 30% of total HbF at 12 months",
+                "description": "Assessment of HbF expression will be done by measuring total fetal hemoglobin over time.",
+                "timeFrame": "12 months"
+              },
+              {
+                "measure": "Time to achieve 30% total HbF",
+                "description": "Assessment of HbF expression will be done by measuring total fetal hemoglobin over time.",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Time to peak total HbF",
+                "description": "Assessment of HbF expression will be done by measuring total fetal hemoglobin over time.",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Percentage of edited WBC and bone marrow cells by time points",
+                "description": "Assessment of in vivo cellular kinetics",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Number of participants with treatment induced anti-Cas9 humoral and cellular immunogenicity",
+                "description": "To evaluate presence of pre-existing or treatment induced anti-Cas9 humoral and cellular immunogenicity",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Overall Survival",
+                "description": "To evaluate the overall survival which is defined as the time from date of start of treatment to date of death to any cause.",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Transplant-related mortality",
+                "description": "Assessment of mortality",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Evaluation of effect on patient-reported outcomes from baseline and post-HSCT with age appropriate patient reported measures",
+                "description": "Determine health status following instruments ASCQ-ME emotional impact",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Number of participants with change from baseline of annualized VOC rate by 65%",
+                "description": "The annualized rate at baseline will be compared to that of vaso-occlusive crises (VOC) at 12 months.",
+                "timeFrame": "Baseline, 12 months"
+              },
+              {
+                "measure": "Number of participants with change from baseline of annualized SCD complications (aggregate of VOC, ACS, priapism and stroke) and if relevant, rate of transfusion by 65%",
+                "description": "The annualized rate at baseline will be compared to that of aggregate Sickle Cell Disease (SCD) complications (VOC, acute chest syndrome (ACS), priapism, and stroke) and transfusions at 12 months.",
+                "timeFrame": "Bseline, 12 months"
+              },
+              {
+                "measure": "Evaluation of effect on patient-reported outcomes from baseline and post-HSCT with age appropriate patient reported measures",
+                "description": "Determine health status following instruments PROMIS fatique",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Evaluation of effect on patient-reported outcomes from baseline and post-HSCT with age appropriate patient reported measures",
+                "description": "Determine health status following instruments PROMIS physical functioning",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Evaluation of effect on patient-reported outcomes from baseline and post-HSCT with age appropriate patient reported measures",
+                "description": "Determine health status following instruments ASCQ-ME sleep impact",
+                "timeFrame": "up to 24 months"
+              },
+              {
+                "measure": "Evaluation of effect on patient-reported outcomes from baseline and post-HSCT with age appropriate patient reported measures",
+                "description": "Determine health status following instruments ASCQ-ME pain impact",
+                "timeFrame": "up to 24 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female subjects age 2-40 years inclusive\n2. Confirmed diagnosis of sickle cell disease with globin typing (e.g. HbSS, HbSC, HbS/\u03b20-thalassemia or others)\n3. Performance status \\>70% (Karnofsky for subjects \\>16 years of age and Lansky for subjects \\<16 years of age)\n4. At least one of the following indicators of disease severity as defined in the protocol - Vaso-occlusive pain crisis, Acute chest syndrome, Recurrent priapism, prior stroke, receive chronic transfusions, Red cell alloimmunization\n5. Subjects, who have failed, not tolerated or refused hydroxyurea therapy.\n\nExclusion Criteria:\n\n1. Available matched related donor for HSCT\n2. Clinically significant active infection\n3. Seropositive for HIV or HTLV\n4. Active known malignancy, myelodysplasia, abnormal cytogenetics or immunodeficiency\n5. Prior HSCT or gene therapy\n6. Known hepatic cirrhosis, bridging hepatic fibrosis or active hepatitis\n7. Protocol defined iron overload\n8. Cerebrovascular procedure within one year, including pial synangiosis for Moyamoya\n9. Severe or progressive arteriopathy or cerebrovascular disease, including Moyamoya\n\nOther protocol defined inclusion/exclusion criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "maximumAge": "40 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Chicago",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60637",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Memorial Sloan Kettering Cancer Ctr",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "St Jude Children's Research Hospital",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38105-3678",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "38866240",
+                "type": "DERIVED",
+                "citation": "Ligon JA, Cupit-Link MC, Yu C, Levine J, Foley T, Rotz S, Sharma A, Gomez-Lobo V, Shah NN. Pediatric Cancer Immunotherapy and Potential for Impact on Fertility: A Need for Evidence-Based Guidance. Transplant Cell Ther. 2024 Aug;30(8):737-749. doi: 10.1016/j.jtct.2024.06.006. Epub 2024 Jun 10."
+              },
+              {
+                "pmid": "37646679",
+                "type": "DERIVED",
+                "citation": "Sharma A, Boelens JJ, Cancio M, Hankins JS, Bhad P, Azizy M, Lewandowski A, Zhao X, Chitnis S, Peddinti R, Zheng Y, Kapoor N, Ciceri F, Maclachlan T, Yang Y, Liu Y, Yuan J, Naumann U, Yu VWC, Stevenson SC, De Vita S, LaBelle JL. CRISPR-Cas9 Editing of the HBG1 and HBG2 Promoters to Treat Sickle Cell Disease. N Engl J Med. 2023 Aug 31;389(9):820-832. doi: 10.1056/NEJMoa2215643."
+              },
+              {
+                "pmid": "36975201",
+                "type": "DERIVED",
+                "citation": "Sharma A, Young A, Carroll Y, Darji H, Li Y, Mandrell BN, Nelson MN, Owens CL, Irvine M, Caples M, Jerkins LP, Unguru Y, Hankins JS, Johnson LM. Gene therapy in sickle cell disease: Attitudes and informational needs of patients and caregivers. Pediatr Blood Cancer. 2023 Jun;70(6):e30319. doi: 10.1002/pbc.30319. Epub 2023 Mar 28."
+              },
+              {
+                "pmid": "36860093",
+                "type": "DERIVED",
+                "citation": "Persaud Y, Mandrell BN, Sharma A, Carroll Y, Irvine M, Olufadi Y, Kang G, Hijano DR, Rai P, Hankins JS, Johnson LM. Attitudes toward COVID-19 vaccine among pediatric patients with sickle cell disease and their caregivers. Pediatr Blood Cancer. 2023 May;70(5):e30274. doi: 10.1002/pbc.30274. Epub 2023 Mar 1."
+              },
+              {
+                "pmid": "36123234",
+                "type": "DERIVED",
+                "citation": "Bhoopalan SV, Yen JS, Levine RM, Sharma A. Editing human hematopoietic stem cells: advances and challenges. Cytotherapy. 2023 Mar;25(3):261-269. doi: 10.1016/j.jcyt.2022.08.003. Epub 2022 Sep 17."
+              }
+            ],
+            "seeAlsoLinks": [
+              {
+                "label": "CADPT03A12101 Clinical Trial Results Form",
+                "url": "https://www.novctrd.com/ctrdweb/trialresult/trialresults/pdf?trialResultId=18388"
+              },
+              {
+                "label": "A Plain Language Trial Summary is available on www.novctrd.com",
+                "url": "https://www.novctrd.com/ctrdweb/patientsummary/patientsummaries?patientSummaryId=3121"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Novartis is committed to sharing access to patient-level data and supporting clinical documents from eligible studies with qualified external researchers. Requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to protect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Italy"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06155500",
+            "orgStudyIdInfo": {
+              "id": "CADPT03A12001"
+            },
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Follow-up (LTFU) of Patients Treated With Genome-edited Autologous Hematopoietic Stem and Progenitor Cells (HSPC)",
+            "officialTitle": "Long-term Follow-up (LTFU) of Patients Treated With Genome-edited Autologous Hematopoietic Stem and Progenitor Cells (HSPC)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-04-16",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2039-01-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2039-01-11",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-24",
+            "studyFirstSubmitQcDate": "2023-11-24",
+            "studyFirstPostDateStruct": {
+              "date": "2023-12-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "CADPT03A12001 is a prospective, multi-center study that is designed to follow all enrolled patients who have received treatment with OTQ923 for long-term safety and efficacy.",
+            "detailedDescription": "This study is monitoring patients treated with OTQ923, an investigational drug product of ex vivo genome-edited autologous hematopoietic stem and progenitor cells (HSPCs) that induces fetal hemoglobin (HbF) production, for a total of 15 years following infusion to monitor long-term safety and efficacy."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "Gene therapy",
+              "genome-edited hematopoietic stem and progenitor cellular therapy",
+              "sickle cell",
+              "autologous transplant",
+              "BCL11A"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 4,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "OTQ923",
+                "type": "EXPERIMENTAL",
+                "description": "Patients were administered OTQ923 while enrolled on the treatment protocol (CADPT03A12101). Patients enrolled on this LTFU study will not be administered any study treatment.",
+                "interventionNames": [
+                  "Biological: OTQ923"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "OTQ923",
+                "description": "There is no treatment allocation. Patients administered were OTQ923 while enrolled on the treatment protocol CADPT03A12101 (NCT04443907)",
+                "armGroupLabels": [
+                  "OTQ923"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with delayed adverse events that are suspected to be related to previous OTQ923 therapy",
+                "description": "Number of participants with delayed adverse events including new secondary malignancies, new incidence or exacerbation of a prior autoimmune disorder, new incidence or exacerbation of a prior rheumatologic disorder, new hematologic disorder, and other adverse events considered to be related to OTQ923 therapy.",
+                "timeFrame": "Up to 15 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Persistence of fetal hemoglobin expression",
+                "description": "Assessment of fetal hemoglobin (HbF) expression persistence in peripheral blood will be done by assessing hemoglobin fractionation",
+                "timeFrame": "Up to 15 years"
+              },
+              {
+                "measure": "WBC chimerism in peripheral blood",
+                "description": "Concern for loss of engraftment by monitoring the WBC chimerism annually. Modified white blood cells (WBCs) measured by droplet digital PCR (ddPCR) and NGS will be performed annually through year 5 with subsequent samples stored and run annually in the event of concern for loss of engraftment",
+                "timeFrame": "5 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients must have received gene therapy treatment from the parent treatment protocol (CADPT03A12101).\n2. Patients must provide informed consent prior to their entry into this study.\n\nExclusion Criteria:\n\n1\\. Completion of less than 1 year of safety follow-up in the treatment protocol (CADPT03A12101).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "100 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Novartis Pharmaceuticals",
+                "affiliation": "Novartis Pharmaceuticals",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Chicago",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60637",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Memorial Sloan Kettering Cancer Ctr",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "St Jude Childrens Research Hospital",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "asset": "TTX-381",
+  "query": "TTX-381",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=TTX-381&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05791864",
+            "orgStudyIdInfo": {
+              "id": "TTX-381-1102"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2025-521175-31-00",
+                "type": "CTIS"
+              },
+              {
+                "id": "2021-000173-92",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2025",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2025"
+              }
+            ],
+            "organization": {
+              "fullName": "Tern Therapeutics, LLC",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Registrational Study of TTX-381 to Treat Vision Loss in CLN2 Disease",
+            "officialTitle": "A First-in-Human, Open-Label, Dose-Escalation Study to Evaluate the Safety and Tolerability of Gene Therapy With TTX-381 for the Ocular Manifestations Associated With Neuronal Ceroid Lipofuscinosis Type 2 (CLN2) Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-05-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2031-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-17",
+            "studyFirstSubmitQcDate": "2023-03-17",
+            "studyFirstPostDateStruct": {
+              "date": "2023-03-30",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Tern Therapeutics, LLC",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a registrational, first-in-human, open-label, dose escalation and expansion study evaluating the safety, tolerability and effectiveness of TTX-381, administered by injection under the retina, for the treatment of eye problems caused by CLN2 (Batten disease). The study includes dose escalation and expansion groups evaluating treatment in one or both eyes. Participants are followed for 5 years after treatment to assess safety and clinical outcomes.",
+            "detailedDescription": "This is a registrational, first-in-human, open-label, dose escalation and expansion study of TTX-381, a gene therapy for the potential treatment of ocular manifestations of CLN2 (Batten disease). TTX-381 is being studied as a potential treatment for the eye and vision problems associated with neuronal ceroid lipofuscinosis type 2 (CLN2) disease.\n\nChildren with CLN2 disease have a non-working gene (set of instructions) that causes an enzyme called tripeptidyl-peptidase 1 (TPP1) to be missing or not work properly in their bodies. Without enough TPP1, cells cannot break down certain materials, causing them to build up and damage cells, particularly the central nervous system (the brain and spine) and retina (eyes). This can lead to seizures, changes in development and thinking and vision loss.\n\nThe study includes dose-escalation and expansion cohorts evaluating treatment in one or both eyes. In participants receiving treatment in one eye, the untreated fellow eye serves as the control because CLN2-related eye disease progresses similarly in both eyes. In the bilateral treatment cohort, both eyes receive TTX-381.\n\nParticipants will be followed in this study for 5 years after TTX-381 administration."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Neuronal Ceroid Lipofuscinosis Type 2"
+            ],
+            "keywords": [
+              "CLN2",
+              "Batten Disease",
+              "Gene Therapy",
+              "Adeno-associated virus",
+              "AAV"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Participants are enrolled sequentially into dose-escalation and expansion cohorts. Cohorts 1 and 2 evaluate unilateral administration of TTX-381 at different dose levels. Cohort 3 is an expansion cohort evaluating unilateral administration at the selected dose, and Cohort 4 evaluates bilateral administration of TTX-381. Progression between cohorts is based on protocol-defined safety review and study milestones.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "SINGLE",
+                "maskingDescription": "The study is open-label. To minimize the effect of potential bias, wherever possible, endpoints will be measured or interpreted by masked evaluators.",
+                "whoMasked": [
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 26,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1: Dose Level 1",
+                "type": "EXPERIMENTAL",
+                "description": "2\u00d710\\^10 GC/eye",
+                "interventionNames": [
+                  "Genetic: TTX-381"
+                ]
+              },
+              {
+                "label": "Cohort 2: Dose Level 2",
+                "type": "EXPERIMENTAL",
+                "description": "6\u00d710\\^10 GC/eye",
+                "interventionNames": [
+                  "Genetic: TTX-381"
+                ]
+              },
+              {
+                "label": "Cohort 3: Expansion Cohort",
+                "type": "EXPERIMENTAL",
+                "description": "2\u00d710\\^10 GC/eye",
+                "interventionNames": [
+                  "Genetic: TTX-381"
+                ]
+              },
+              {
+                "label": "Cohort 4: Bilateral Administration",
+                "type": "EXPERIMENTAL",
+                "description": "2\u00d710\\^10 GC/eye administered once per eye",
+                "interventionNames": [
+                  "Genetic: TTX-381"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "TTX-381",
+                "description": "Gene Therapy (AAV9.CB7.hCLN2): One time subretinal dose in study eye",
+                "armGroupLabels": [
+                  "Cohort 1: Dose Level 1",
+                  "Cohort 2: Dose Level 2",
+                  "Cohort 3: Expansion Cohort"
+                ]
+              },
+              {
+                "type": "GENETIC",
+                "name": "TTX-381",
+                "description": "Gene Therapy (AAV9.CB7.hCLN2): One time subretinal dose in each eye",
+                "armGroupLabels": [
+                  "Cohort 4: Bilateral Administration"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety and tolerability of TTX-381 through Day 360",
+                "description": "Safety and tolerability will be assessed based on ocular and systemic adverse events and serious adverse events following administration of TTX-381.- ALL REGIONS",
+                "timeFrame": "360 days"
+              },
+              {
+                "measure": "Rate of change in area of Ellipsoid Zone (EZ) loss through Day 180",
+                "description": "The rate of change in area of EZ loss will be assessed using spectral-domain optical coherence tomography (SD-OCT). - US",
+                "timeFrame": "Day 180"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area of EZ Loss at Day 180 and Day 360",
+                "description": "To evaluate the effect of TTX-381 on area of EZ loss as measured by SD-OCT- UK/EU",
+                "timeFrame": "Day 180, Day 360"
+              },
+              {
+                "measure": "Central subfield photoreceptor layer thickness",
+                "description": "To evaluate the effect of TTX-381 on central subfield photoreceptor layer thickness as measured by SD-OCT; Day 180- UK/EU and Day 360- All Regions",
+                "timeFrame": "Day 180, Day 360"
+              },
+              {
+                "measure": "TTX-381 transgene product (tripeptidyl peptidase 1 [TPP1]) Aqueous Humor (AH) Concentration \u226478 ng/ml",
+                "description": "The proportion of treated eyes with TPP1 concentration in aqueous humor greater than or equal to 78 ng/mL will be assessed. - US",
+                "timeFrame": "Day 90"
+              },
+              {
+                "measure": "TTX-381 transgene product (tripeptidyl peptidase 1 [TPP1]) Aqueous Humor (AH) Concentration",
+                "description": "TTX-381 transgene product (tripeptidyl peptidase 1 \\[TPP1\\]) will be measured in aqueous humor. - UK/EU",
+                "timeFrame": "Day 90 & Day 360"
+              },
+              {
+                "measure": "Vector Shedding",
+                "description": "To evaluate shedding of TTX-381 in urine and tears Secondary- UK/EU Exploratory-US",
+                "timeFrame": "Day 360"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nParticipants must meet all of the following criteria:\n\n* Biallelic CLN2 mutations.\n* Decreased leukocyte TPP1 activity.\n* Clinical signs or symptoms consistent with CLN2 disease, such as developmental delay or decline, seizures, vision loss, or an older sibling with confirmed CLN2 diagnosis.\n* Currently receiving biweekly ICV ERT treatment with cerliponase alfa.\n* Age \u226524 month and \u226484 months at screening\n* In the phase of accelerated decline in CRT with the following baseline retinal criteria confirmed by the central reading center:\n\n  1. CRT \u2264210 \u03bcm and\n  2. CRT \u2265140 \u03bcm in both eyes and\n* Is willing and able to comply with the protocol and 5-year visit schedule.\n\nWritten informed consent must be provided by the participants parent(s) or legally authorized representative(s)\n\nExclusion Criteria:\n\nParticipants will be excluded if any of the following criteria apply:\n\n* Any ocular or systemic condition that, in the investigator's opinion, would prevent administration or evaluation of TTX-381, interfere with interpretation of participant safety or study results or make the participant unsuitable for the study. (eg, significant lens or corneal opacities, glaucoma, amblyopia, gross retinal anatomical abnormality, etc).\n* Difference in CRT measurement between the right and left eye \\>10\u03bcm at screening\n* Prior Grade 3 or 4 hypersensitivity reaction, to ICV cerliponase alfa infusion. (eg, bronchospasm and hypotension requiring intravenous treatment, cardiac dysfunction, anaphylaxis)\n* Any contraindication that would prevent continued administration of ICV cerliponase alfa, including ventriculo-peritoneal shunt, acute intracerebroventricular access device leakage, device failure, or device-related infection.\n* Prior participation in a gene therapy study.\n* Prior participation in another ocular clinical trial, except an intravitreal cerliponase alfa trial where a subject has received a maximum of 3 injections and the PI, Medical Monitor, and Sponsor all agree that he/she can safely and successfully participate in the study after a washout period of 3 or more months.\n* Prior intraocular injections of any kind, except prior treatment with an maximum of 3 ICV injections of cerliponase alfa if at least 3 months have passed since last injection.\n* Participation in a nonocular clinical study with an investigational drug within 6 months prior to screening, except for intracerebroventricular cerliponase alfa.\n* Ocular surgery within 6 months prior to screening.\n* Prior bone marrow transplant.\n* Use of the following medications within the 30 days prior to treatment: gemfibrozil, mycophenolate, prednisone or other steroids for the intended purpose of treating NCL (Steroid treatment for asthma is not excluded),\n* Known sensitivity or contraindications to medications planned for use in the peri-operative period.\n* Contraindications to systemic immunosuppression.\n* Severe renal insufficiency as determined by an estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m2, based on creatinine, at Screening\n* Severe hepatic insufficiency as determined by alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 3 \u00d7 upper limit of normal (ULN) or total bilirubin \\> 1.5 \u00d7 ULN at Screening Visit 1, unless the subject has a previously known history of Gilbert's syndrome and a fractionated bilirubin that shows conjugated bilirubin \\< 35% of total bilirubin.\n* Mutations in another CLN gene.\n* Mutation in another gene associated with inherited retinal disease.\n* Contraindications to intraocular surgery (eg, severe coagulopathy).\n* Positive urine pregnancy test at Screening (applying only to females of childbearing potential).\n* Any other condition that would not allow the potential participant to complete follow-up examinations during the study or, in the opinion of the investigator, makes the potential participant unsuitable for the study.\n* The participant had a positive polymerase chain reaction (PCR) viral test for severe acute respiratory syndrome coronavirus 2 (SARS-CoV2 PCR) within the last 4 weeks before signing the informed consent form (ICF) or has persistent coronavirus disease (COVID-19) symptoms regardless of when the last SARS-CoV2 PCR viral test was performed or when the infection occurred.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "24 Months",
+            "maximumAge": "84 Months",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Tern Therapeutics Patient Advocacy",
+                "role": "CONTACT",
+                "phone": "202-644-8488",
+                "email": "patientadvocacy@terntx.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University Medical Center Hamburg-Eppendorf (UKE)- Childrens Hospital",
+                "status": "RECRUITING",
+                "city": "Hamburg",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Prof. Dr. med. Angela Schulz",
+                    "role": "CONTACT",
+                    "phone": "+49 (0)40 7410-20440",
+                    "email": "ncl-sprechstunde@uke.de"
+                  },
+                  {
+                    "name": "Prof. Dr. med. Angela Schulz",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 53.55073,
+                  "lon": 9.99302
+                }
+              },
+              {
+                "facility": "Greater Ormond Street Hospital",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "Wc1N 3JH",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "role": "CONTACT",
+                    "email": "research.ophthalmology@gosh.nhs.uk"
+                  },
+                  {
+                    "name": "Robert Henderson, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009472",
+                "term": "Neuronal Ceroid-Lipofuscinoses"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

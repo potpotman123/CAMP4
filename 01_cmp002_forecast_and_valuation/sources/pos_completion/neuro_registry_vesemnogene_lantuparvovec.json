@@ -1,0 +1,429 @@
+{
+  "asset": "vesemnogene_lantuparvovec",
+  "query": "vesemnogene lantuparvovec",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=vesemnogene+lantuparvovec&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07265232",
+            "orgStudyIdInfo": {
+              "id": "HR 25-02"
+            },
+            "organization": {
+              "fullName": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Real World Clinical Effectiveness & Safety of Vesemnogene Lantuparvovec for Spinal Muscular Atrophy (SMA) in Low-middle Income Countries (LMIC).",
+            "officialTitle": "Real World Clinical Effectiveness & Safety of Vesemnogene Lantuparvovec for Spinal Muscular Atrophy (SMA) in Low-middle Income Countries (LMIC)."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Study withdrawn prior to participant enrollment following a reassessment of the clinical development plan.",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-10-15",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2030-10-15",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-10-15",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-11-21",
+            "studyFirstSubmitQcDate": "2025-12-02",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-22",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study objective is to determine the real-world safety and effectiveness of Vesemnogene lantuparvovec for the treatment of SMA.\n\nThe specific objectives are:\n\n* To determine clinical effectiveness of Vesemnogene lantuparvovec therapy for SMA as evaluated by developmental gross motor milestone and survival.\n* To describe the safety profile of Vesemnogene therapy for SMA as evaluated by adverse events reporting and laboratory tests, and monitoring of Adverse events of special interest.",
+            "detailedDescription": "This is an observational study designed to determine the real-world safety and effectiveness of Vesemnogene lantuparvovec therapy for SMA. Potential patients with genetic diagnosis of SMA will be evaluated for eligibility to undergo available gene therapies. Following the administration of Vesemnogene therapy, patient will be monitored for toxicity and response to treatment. No subjects will be withdrawn from the study, and subjects could freely drop out from the study anytime, simply by not showing up."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy (SMA)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "The selected dose inchildren \u2265 6 months of age",
+                "type": "EXPERIMENTAL",
+                "description": "Administration the selected dose of Vesemnogene Lantuparvovec in children \\> 6 months of age",
+                "interventionNames": [
+                  "Biological: vesemnogene lantuparvovec"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "vesemnogene lantuparvovec",
+                "description": "Exploratory study evaluating the safety and efficacy of vesemnogene lantuparvovec in patients with SMA.",
+                "armGroupLabels": [
+                  "The selected dose inchildren \u2265 6 months of age"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Numbers of participants with adverse events (AEs), serious adverse events (SAEs)",
+                "description": "Participants are monitored for safety from baseline up to the end of the follow-up period.",
+                "timeFrame": "Baseline up to 5 years old"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in developmental gross motor milestones achieved according to WHO criteria",
+                "description": "For patients with SMA, the percentage of participants who are able to preserve ambulatory function.",
+                "timeFrame": "Baseline up to 5 years old"
+              },
+              {
+                "measure": "Event-free Survival until the 5th year or the last follow-up",
+                "description": "Event-free survival was defined as the number of participants who did not die, did not require permanent ventilation and did not withdraw from the study until the 5th year or the last follow-up.",
+                "timeFrame": "Baseline up to 5 vears old"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing and able to give written informed consent for participation in the study.\n2. Genetic confirmation of SMA (biallelic deletion or mutation of SMN1).\n3. SMA clinical phenotype and condition, that in the opinion of the treating physician, treatment with Vesemnogene will likely be beneficial.\n4. Absence of contraindications for spinal tap procedure or administration of intrathecal therapy.\n5. Total AAV antibody titres \\< 1:20 as determined by ELISA assay.\n6. Normal liver function (AST/ALT \\< 3XULN, Bilirubin \\<3.0 mg/dL).\n7. Unable to access or failure to respond to currently available curative treatments for SMA.\n\nExclusion Criteria:\n\nNone",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Tzu chi hospital",
+                "city": "Jakarta",
+                "state": "Indonesia",
+                "zip": "14470",
+                "country": "Indonesia",
+                "geoPoint": {
+                  "lat": -6.21462,
+                  "lon": 106.84513
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06288230",
+            "orgStudyIdInfo": {
+              "id": "LT01-101"
+            },
+            "organization": {
+              "fullName": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Open Label Study of Gene Therapy Product (Vesemnogene Lantuparvovec) in Spinal Muscular Atrophy",
+            "officialTitle": "Study of AAV-hSMN1 (Vesemnogene Lantuparvovec) Gene Therapy in Subjects With Progressive Spinal Muscular Atrophy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-20",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-10-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-10-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-18",
+            "studyFirstSubmitQcDate": "2024-02-24",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lantu Biopharma",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an interventional study to evaluate safety and efficacy of AAV-hSMN1 in spinal muscular atrophy patients.",
+            "detailedDescription": "Study duration per participant is approximately 25 months including an approximately 30-day screening/baseline period, an approximately 24-month study observation period including 1 treatment day, and an approximately 24-month follow-up period. Patients will be stratified in two groups, those \\< 24 months of age at time of dosing and those \u2265 24 months of age at time of dosing. This study will be conducted in 2 stages:\n\nStage 1: dose escalting study in children \\<24 months of age. Stage 2: the selecetd dose from Stage 1 in children \u2265 24 months of age.\n\nPatients will be tested at baseline and return for follow-up visits twice a week through the first month post dose, and followed by visits at months 2, 3, 6 12, 18 and 24 post infusion. Unscheduled visits may occur if the investigator determines that they are necessary.\n\nFor patients enrolled from overseas, follow-up visits with patient's own paediatrician together with remote virtual visits are allowed."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Stage 1: Dose A in children < 24 months of age",
+                "type": "EXPERIMENTAL",
+                "description": "Dose escalting study: Administration Dose A of Vesemnogene Lantuparvovec in children \\< 24 months of age",
+                "interventionNames": [
+                  "Biological: vesemnogene lantuparvovec"
+                ]
+              },
+              {
+                "label": "Stage 1: Dose B in children < 24 months of age",
+                "type": "EXPERIMENTAL",
+                "description": "Dose escalting study: Administration Dose B of Vesemnogene Lantuparvovec in children \\< 24 months of age",
+                "interventionNames": [
+                  "Biological: vesemnogene lantuparvovec"
+                ]
+              },
+              {
+                "label": "Stage 2: The selected dose in children \u2265 24 months of age",
+                "type": "EXPERIMENTAL",
+                "description": "Administration the selected dose of Vesemnogene Lantuparvovec in children \u2265 24 months of age",
+                "interventionNames": [
+                  "Biological: vesemnogene lantuparvovec"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "vesemnogene lantuparvovec",
+                "description": "Exploratory study evaluating the safety and efficacy of vesemnogene lantuparvovec in patients with SMA.",
+                "armGroupLabels": [
+                  "Stage 1: Dose A in children < 24 months of age",
+                  "Stage 1: Dose B in children < 24 months of age",
+                  "Stage 2: The selected dose in children \u2265 24 months of age"
+                ],
+                "otherNames": [
+                  "AAV-hSMN1"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Numbers of participants with adverse events (AEs), serious adverse events (SAEs)",
+                "description": "Participants are monitored for safety from baseline up to the end of the follow-up period.",
+                "timeFrame": "Baseline up to 24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in developmental gross motor milestones achieved according to WHO criteria",
+                "description": "For patients with SMA, the percentage of participants who are able to preserve ambulatory function.",
+                "timeFrame": "Baseline up to 24 months"
+              },
+              {
+                "measure": "Change from baseline in CHOP-INTEND in children <24 months of age",
+                "description": "The CHOP-INTEND contains 16 items rated from 0 to 4. Total scores range from 0-64. Higher scores indicate higher levels of motor ability.",
+                "timeFrame": "Baseline up to 24 months"
+              },
+              {
+                "measure": "Change from baseline in Hammersmith Functional Motor Scale - Expanded (HFMSE) in children \u2265 24 months of age",
+                "description": "The HFMSE contains 33 items rated from 0 (unable to perform) to 2 (performs without modification/adaptation/compensation). Total scores range from 0-66. Higher scores indicate higher levels of motor ability.",
+                "timeFrame": "Baseline up to 24 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of SMA based on gene mutation analysis with bi-allelic survival motor neuron (SMN1) mutations (deletion or point mutations).\n* Patients or Parent(s)/legal guardian(s) willing and able to complete the informed consent process and comply with study procedures and visit schedule.\n\nExclusion Criteria:\n\n* Anti-AAV9 antibody titers \\>1:20 as determined by Enzyme-linked Immunosorbent Assay (ELISA) binding immunoassay.\n* Active viral infection (includes HIV or serology positive for hepatitis B or C).\n* Use of invasive ventilatory support (tracheotomy with positive pressure) or pulse oximetry \\<95% saturation.\n* Concomitant illness and any drug that in the opinion of the investigator creates unnecessary risks for gene transfer.\n* Clinically significant abnormal laboratory values.\n* Participation in a recent SMA treatment clinical trial that in the opinion of the PI creates unnecessary risks for gene transfer.\n* Patient with signs of aspiration based on a swallowing test and unwilling to use an alternative method to oral feeding.\n* For children \u2265 24 months of age, contraindications for spinal tap procedure or administration of intrathecal therapy or presence of an implanted shunt for the drainage of CSF or an implanted central venous (CNS) catheter.\n* For children \u2265 24 months of age, severe contractures as determined by Physical Therapist(s) at screening that interfere with either the ability to attain/demonstrate functional measures or interferes with ability to receive dosing.\n* For children \u2265 24 months of age, severe scoliosis (defined as \u2265 50\u00b0 curvature of spine) evident on X-ray examination.\n* For children \u2265 24 months of age, previous, planned or expected scoliosis repair surgery/procedure within 1 year of dose administration.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Kunming Hope of Health Hospital",
+                "city": "Kunming",
+                "state": "Yunnan",
+                "zip": "650200",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 25.03889,
+                  "lon": 102.71833
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

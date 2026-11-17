@@ -1,0 +1,1140 @@
+{
+  "asset": "atidarsagene_autotemcel",
+  "query": "OTL-200",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=OTL-200&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03392987",
+            "orgStudyIdInfo": {
+              "id": "205756"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2017-001730-26",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2017",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2017"
+              }
+            ],
+            "organization": {
+              "fullName": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety and Efficacy Study of Cryopreserved OTL-200 for Treatment of Metachromatic Leukodystrophy (MLD)",
+            "officialTitle": "A Single Arm, Open Label, Clinical Study of Cryopreserved Autologous CD34+ Cells Transduced With Lentiviral Vector Containing Human ARSA cDNA (OTL-200), for the Treatment of Early Onset Metachromatic Leukodystrophy (MLD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-01-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-04-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-03-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-12-12",
+            "studyFirstSubmitQcDate": "2018-01-02",
+            "studyFirstPostDateStruct": {
+              "date": "2018-01-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-03-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Ospedale San Raffaele",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "OTL-200 is autologous CD34+ cells transduced with lentiviral vector containing human arylsulfatase A (ARSA) complementary deoxyribonucleic acid (cDNA) used for the treatment of MLD. MLD is an autosomal recessive lysosomal storage disorder (LSD) characterized by severe and progressive demyelination affecting the central and peripheral nervous system. This study will assess safety and efficacy of treatment using cryopreserved formulation of OTL-200 in pediatric subjects with pre-symptomatic Early Onset MLD (Late Infantile (LI) to Early Juvenile (EJ) MLD) and early symptomatic EJ MLD."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lysosomal Storage Disease",
+              "Metachromatic Leukodystrophy"
+            ],
+            "keywords": [
+              "OTL-200",
+              "Cryopreserved formulation",
+              "Gene therapy",
+              "Metachromatic leukodystrophy",
+              "MLD",
+              "Previously GSK2696274"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "This will be a single arm study. All subjects will receive OTL-200 gene therapy and will be followed up for 5 years post-gene therapy.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "OTL-200 gene therapy",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible subjects will receive intravenous (IV) infusion of OTL-200 gene therapy. Subjects will also receive conditioning regimen with busulfan.",
+                "interventionNames": [
+                  "Genetic: OTL-200"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "OTL-200",
+                "description": "OTL-200 is an autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with lentiviral vector that encodes for the human ARSA cDNA sequence",
+                "armGroupLabels": [
+                  "OTL-200 gene therapy"
+                ],
+                "otherNames": [
+                  "Previously GSK2696274"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in Gross Motor Function Measure (GMFM) score",
+                "description": "GMFM will evaluate subject's ability to perform specific tasks in different positions. The scoring range is between 100 percent and 0 percent, with 0 percent corresponding to loss of all voluntary movement.",
+                "timeFrame": "At 24 months post gene-therapy"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in Gross Motor Function Measure (GMFM) score",
+                "description": "GMFM will evaluate subject's ability to perform specific tasks in different positions. The scoring range is between 100 percent and 0 percent, with 0 percent corresponding to loss of all voluntary movement.",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in Gross Motor Function Classification (GMFC)-MLD score",
+                "description": "GMFC-MLD will evaluate the change in motor function according to seven clinically relevant levels of walking, sitting, locomotion, trunk and head control. The scoring range is from 0 (walking without support with quality of performance normal for age) to 6 (loss of any locomotion as well as loss of any head and trunk control).",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in neurological examinations",
+                "description": "Neurological examinations will be performed to identify any signs and symptoms of MLD disease.",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in Nerve Conduction Velocity (NCV)",
+                "description": "NCV will be assessed by electroneurography which is a technique used to test and quantify the nerve conduction and impulse propagation along motor and sensory peripheral nerves.",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in total score for brain magnetic resonance (MR) imaging",
+                "description": "Brain MR will be assessed using modified Loes score where normal brain has a score of zero and increasing score reflects worsening disease and demyelination.",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in neurocognitive function (Intelligence Quotient [IQ])",
+                "description": "Standardized, age-appropriate IQ tests will be administered.",
+                "timeFrame": "At 24 months and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Engraftment measured by percent Lentiviral (LV) positive clonogenic progenitors in bone marrow",
+                "description": "Engraftment of transduced cells will be determined by measuring the percentage of hematopoietic colony-forming cells harboring the integrated vector by quantitative polymerase chain reaction (qPCR).",
+                "timeFrame": "At Day 30 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Vector copy number (VCN) level in bone marrow mononuclear cells",
+                "description": "Engraftment of transduced cells will be determined by measuring the VCN per genome in bone marrow-derived cells.",
+                "timeFrame": "At Day 30 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "VCN level in peripheral blood mononuclear cell (PBMCs)",
+                "description": "Engraftment of transduced cells will be determined by measuring the VCN per genome in PBMCs.",
+                "timeFrame": "At Day 60 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in Arylsulfatase A (ARSA) activity in total PBMCs",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating total PBMCs post-treatment.",
+                "timeFrame": "At Day 60 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in ARSA activity in PB CD15+ cells",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating CD15+ cells post-treatment.",
+                "timeFrame": "At Day 60 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in ARSA activity in PB CD14+ cells",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating CD14+ cells post-treatment.",
+                "timeFrame": "At Day 60 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Change in ARSA activity in cerebrospinal fluid (CSF)",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in the Central Nervous System (CNS) post-treatment.",
+                "timeFrame": "At Day 90 and multiple visits up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Safety and tolerability as measured by recording of adverse events (AEs), including conditioning regimen related toxicity and AEs, and non-conditioning related AEs",
+                "description": "An AE is any untoward medical occurrence in a clinical study subjects, temporally associated with the use of a study treatment, whether or not considered related to the study treatment. Any untoward event resulting in death, life threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, congenital anomaly/birth defect or any other situation according to medical or scientific judgment will be categorized as an serious adverse event (SAE).",
+                "timeFrame": "Up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Safety and tolerability as measured by number of subjects not achieving hematological recovery (i.e., engraftment failure)",
+                "description": "Hematological recovery will be defined as reconstitution of absolute neutrophil count (ANC ) \\> 500 neutrophils per microliter, associated with evidence of bone marrow recovery by Day 60.",
+                "timeFrame": "By Day 60 post-gene therapy"
+              },
+              {
+                "measure": "Safety and tolerability as measured by incidences and titers of anti-ARSA antibodies",
+                "description": "Serum samples will be collected for anti-ARSA antibody analysis.",
+                "timeFrame": "Up to 5 years post-gene therapy"
+              },
+              {
+                "measure": "Safety and tolerability as measured by absence of abnormal clonal proliferation (ACP)",
+                "description": "Malignancy or ACP due to insertional oncogenesis will be evaluated using different tests and procedures.",
+                "timeFrame": "Up to 5 years post gene-therapy"
+              },
+              {
+                "measure": "Safety and tolerability as measured by absence of replication competent lentivirus (RCL)",
+                "description": "Molecular monitoring of RCL will be carried out using an enzyme-linked immunosorbent assay (ELISA) test for serum human immunodeficiency virus (HIV) p24 antigen. A positive HIV p24 test result is subject to second level testing including: a) DNA PCR for vesicular stomatitis virus G (VSV-G) envelope (PBMC), and b) reverse transcription (RT)-PCR for serum HIV-pol ribonucleic acid (RNA) (plasma).",
+                "timeFrame": "baseline, 1, 3, 6, and 12 months, then once a year up to 5 years post gene-therapy"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Documented biochemical and molecular diagnosis of MLD, based on ARSA activity below the normal range and identification of two disease-causing ARSA alleles, either known or novel mutations. Novel mutations will be analyzed with in silico prediction tools and excluded from being known common polymorphisms. In the case of a novel mutation(s), a 24-hour urine collection must show elevated sulfatide levels.\n* Eligible subjects must have EITHER\n\n  1. an older sibling affected by MLD (index case), whose age of symptom onset was \\<=6 years of age (i.e., had not celebrated 7th birthday). Subjects will be classified as LI, EJ or intermediate LI/EJ based on age of symptom onset in the index case and their ARSA genotype; LI: symptom onset in index case \\<=30 months of age and genotype typically 0/0; EJ: symptom onset in index case \\>30 months and \\<= 6 years of age with genotype typically 0/R; Intermediate LI/EJ: symptom onset in index case \\<= 6 years of age but unable to unambiguously characterize index case as LI or EJ OR\n  2. if MLD is diagnosed in a pre-symptomatic child without an older affected sibling, (e.g.) incidentally or via newborn screening) and the totality of the data available to the investigator strongly suggest that the subject has an early onset variant of MLD likely to benefit from gene therapy, and the subject is \\<=6 years of age (i.e., has not celebrated 7th birthday), the subject may be considered eligible after discussion and approval by the Orchard medical monitor.\n* Parental/guardian signed and dated informed consent.\n\nExclusion Criteria:\n\n* If LI MLD variant, clinical manifestations of the disease defined as EITHER of the following:\n\n  * delay in expected achievement of independent standing or independent walking, together with abnormal signs at neurological evaluation\n  * Or documented neurological signs and symptoms of MLD associated with cognitive, motor, or behavioural functional impairment or regression (substantiated by neurological examination and/or neuropsychological tests appropriate for age).\n\nIf EJ MLD variant, symptoms of MLD resulting in the loss of capacity of walking independently as defined by a GMFC level \u22652 or symptoms consistent with cognitive impairment as defined by an IQ\\<85 using age-appropriate neurocognitive instruments.\n\nNOTE: The following will not be exclusionary if present alone:\n\n* Seizures\n* Signs of the disease revealed at instrumental evaluations (Electroneurography \\[ENG\\] and brain MR)\n\n  * Documented HIV infection (positive HIV RNA and/or anti-p24 antibodies).\n  * Malignant neoplasia (except local skin cancer) or a documented history of hereditary cancer syndrome. Subjects with a prior successfully treated malignancy and a sufficient follow-up to exclude recurrence (based on oncologist opinion) can be included after discussion and approval by the Medical monitor.\n  * Myelodysplasia, cytogenetic alterations characteristic of myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML), or other serious hematological disorders.\n  * Subjects currently enrolled in other interventional trials.\n  * Has previously undergone allogeneic hematopoietic stem cell transplantation and has evidence of residual cells of donor origin.\n  * Previous gene therapy.\n  * Has symptomatic herpes zoster, not responsive to specific treatment. Subjects with a recent history of herpes zoster may be included in the study. In such cases, inclusion, additional monitoring and treatment of the condition must be discussed and approved by the medical monitor.\n  * Evidence of active tuberculosis (TB) based upon medical examination, chest imaging and TB testing i.e. QuantiFERON-TB Gold test and microbiological evidence. Subjects with latent tuberculosis, as documented by medical history and/or TB testing may be included in the study if receiving antibiotic prophylaxis (e.g. isoniazid). Inclusion, monitoring and treatment of TB in such subjects must be discussed and approved by the medical monitor.\n  * Acute or chronic stable Hepatitis B as evidenced by positive Hepatitis B surface antigen (HBsAg) test result at screening or within 3 months prior to onset of conditioning and/or positive hepatitis B virus (HBV) DNA. Subjects with positive Hepatitis B core antibody due to prior resolved disease may be enrolled, only if a confirmatory negative Hepatitis B surface antigen and negative Hepatitis B DNA test are obtained. Inclusion, monitoring and treatment of hepatitis in such subjects must be discussed and approved by the medical monitor.\n  * Presence of positive Hepatitis C RNA test result at screening; subjects who have previously tested positive for antibodies against hepatitis C can be treated, provided they demonstrate absence of ongoing infection using a nucleic acid test with a limit of quantification of \\<=15 international units/milliliter (IU/mL). Negative test results are required on at least 3 sequential occasions over a period of at least 4 weeks, after completion of treatment for hepatitis C, with the final test conducted no more than 3 days prior to cell harvest. Inclusion, monitoring and treatment of hepatitis in such subjects must be discussed and approved by the medical monitor.\n  * End-organ dysfunction, severe active infection not responsive to treatment, or other severe disease or clinical condition which, in the judgment of the investigator, would make the subject inappropriate for entry into this study. In addition to the potential infections the PI should consider testing for other transmissible infectious agents listed in the European Union (EU) Cell and Tissue Directive as clinically appropriate and results discussed with the medical monitor prior to cell harvest.\n  * Subjects with alanine transferase (ALT) \\>2x upper limit of normal (ULN) or total bilirubin \\>1.5xULN may be included only after discussed and agreed with the medical monitor and considered in the context of the criterion for excluding subjects with other severe disease.\n  * Isolated elevation of total bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35 percent of total.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "6 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Orchard Clinical Trials",
+                "affiliation": "Orchard Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Ospedale San Raffaele - Telethon Institute for Gene Therapy (OSR-TIGET)",
+                "city": "Milan",
+                "zip": "20132",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40267426",
+                "type": "DERIVED",
+                "citation": "Fumagalli F, Calbi V, Gallo V, Zambon AA, Recupero S, Ciotti F, Sarzana M, Fraschini M, Scarparo S, De Mattia F, Miglietta S, Pierini C, Soncini M, Morena F, Montini E, Barzaghi F, Consiglieri G, Ferrua F, Migliavacca M, Tucci F, Fratini ES, Ippolito A, Silvani P, Calvi MR, Clerici A, Corti A, Facchini M, Locatelli S, Sangalli M, Zancan S, Miotto F, Natali Sora MG, Baldoli C, Martino S, Cordoba-Claros A, Moro SL, Gollop ND, Abate J, Yarzi MN, Nutkins P, Shenker A, Calissano M, Brooks J, Richardson A, Campbell L, Filippi M, Naldini L, Cicalese MP, Ciceri F, Bernardo ME, Aiuti A. Long-Term Effects of Atidarsagene Autotemcel for Metachromatic Leukodystrophy. N Engl J Med. 2025 Apr 24;392(16):1609-1620. doi: 10.1056/NEJMoa2405727."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016464",
+                "term": "Lysosomal Storage Diseases"
+              },
+              {
+                "id": "D007966",
+                "term": "Leukodystrophy, Metachromatic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D020279",
+                "term": "Hereditary Central Nervous System Demyelinating Diseases"
+              },
+              {
+                "id": "D020739",
+                "term": "Brain Diseases, Metabolic, Inborn"
+              },
+              {
+                "id": "D001928",
+                "term": "Brain Diseases, Metabolic"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D052516",
+                "term": "Sulfatidosis"
+              },
+              {
+                "id": "D013106",
+                "term": "Sphingolipidoses"
+              },
+              {
+                "id": "D020140",
+                "term": "Lysosomal Storage Diseases, Nervous System"
+              },
+              {
+                "id": "D056784",
+                "term": "Leukoencephalopathies"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04283227",
+            "orgStudyIdInfo": {
+              "id": "OTL-200-07"
+            },
+            "organization": {
+              "fullName": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "OTL-200 in Patients With Late Juvenile Metachromatic Leukodystrophy (MLD)",
+            "officialTitle": "An Open Label, Non-randomized Trial to Evaluate the Safety and Efficacy of a Single Infusion of OTL-200 in Patients With Late Juvenile (LJ) Metachromatic Leukodystrophy (MLD)."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-01-17",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-01-15",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2032-04-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-02-13",
+            "studyFirstSubmitQcDate": "2020-02-24",
+            "studyFirstPostDateStruct": {
+              "date": "2020-02-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Ospedale San Raffaele",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "OTL-200 is a cryopreserved dispersion for infusion containing autologous CD34+ cell enriched population that contains haematopoietic stem and progenitor cells (HSPC) transduced ex vivo using a lentiviral vector encoding the human arylsulfatase A (ARSA) gene. MLD is an autosomal recessive lysosomal storage disorder (LSD) characterized by severe and progressive demyelination affecting the central and peripheral nervous system. The aim of this clinical study is to assess the pharmacodynamic effect and long-term clinical efficacy and safety of OTL-200 in Late Juvenile MLD patients."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lysosomal Storage Diseases",
+              "Metachromatic Leukodystrophy"
+            ],
+            "keywords": [
+              "OTL-200",
+              "Cryopreserved formulation",
+              "Gene therapy",
+              "MLD",
+              "late juvenile",
+              "atidarsagene autotemcel"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "All eligible subjects will receive intravenous (IV) infusion of OTL-200 gene therapy. Subjects will also receive conditioning regimen with busulfan.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "OTL-200 Gene Therapy",
+                "type": "EXPERIMENTAL",
+                "description": "OTL-200 is an autologous CD34+ cell enriched population that contains hematopoietic stem and progenitor cells (HSPC) transduced ex vivo using a lentiviral vector encoding the human arylsulfatase A (ARSA) gene.",
+                "interventionNames": [
+                  "Genetic: OTL-200"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "OTL-200",
+                "description": "All subjects will receive OTL-200 gene therapy and will be followed up for 8 years following treatment with OTL-200.",
+                "armGroupLabels": [
+                  "OTL-200 Gene Therapy"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluation of OTL-200 Arylsulfatase A (ARSA) activity levels in Cerebrospinal Fluid (CSF)",
+                "description": "Change from baseline in ARSA activity levels in CSF",
+                "timeFrame": "24 months after treatment"
+              },
+              {
+                "measure": "Evaluation of OTL-200 on the neuronal metabolite ratio of N-acetyl-aspartate (NAA) to creatine (Cr) in white matter regions of the brain",
+                "description": "Change from baseline in neuronal metabolite ratio of N-acetyl-aspartate (NAA) to creatine (Cr) in white matter regions of interest of the brain",
+                "timeFrame": "24 months after treatment"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in ARSA activity levels in CSF from baseline",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in the Central Nervous System (CNS) post-treatment",
+                "timeFrame": "multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change from baseline in neuronal metabolite ratio of NAA: Cr in white matter regions of interest of the brain",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in neuronal metabolite ratio of NAA to Cr in white matter regions of interest of the brain post-treatment",
+                "timeFrame": "multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change from baseline in ARSA levels in total peripheral blood mononuclear cells (PBMCs)",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating total PBMCs post-treatment",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change from baseline in ARSA levels in PB CD14+",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating CD14+ post-treatment",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change from baseline in ARSA levels in PB CD15+",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in circulating CD15+ post-treatment",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Neuronal metabolite ratios as compared to baseline, siblings and/or untreated historical controls (may include but not limited to Cho:Cr, mIns:Cr, Lac: Cr, Cho: NAA, NAA: H2O, Cho: H2O, mIns: H2O, Lac: H2O) in white matter regions of interest",
+                "description": "Measured to assess the pharmacodynamic activity of OTL-200 in neuronal metabolite ratios in white matter regions of interest of the brain post-treatment compared to siblings and/or untreated historical controls",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Engraftment as measured by percent lentiviral positive (%LV+) in bone marrow (BM) progenitors",
+                "description": "Engraftment of transduced cells will be determined by measuring the percentage of hematopoietic colony-forming cells harboring the integrated vector by quantitative polymerase chain reaction (qPCR).",
+                "timeFrame": "At D30 and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Vector copy number (VCN) in BM mononuclear cells",
+                "description": "Engraftment of transduced cells will be determined by measuring the VCN per genome in BM-derived cells.",
+                "timeFrame": "At D30 and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "VCN in Peripheral blood PBMCs",
+                "description": "Engraftment of transduced cells will be determined by measuring the VCN per genome in PBMCs.",
+                "timeFrame": "At D60 and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change in severity scale for brain magnetic resonance imaging (MRI)",
+                "description": "Brain MRI will be assessed using modified Loes Score and demyelination load on T1w, T2w and FLAIR imaging.",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change in neurocognitive function",
+                "description": "Neurocognitive assessments will use Bayley Scale of Infant and Toddler Development (BSID), Wechsler Preschool and Primary Scale of Intelligence (WPPSI), Wechsler Intelligence Scale for Children (WISC), or Wechsler Adult Intelligence Scale (WAIS) according to the age of the participant to encompass performance, verbal, full scale IQ measures, processing speed and working memory indices",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy as compared to baseline"
+              },
+              {
+                "measure": "Change in full neurological clinical examination (NCE)",
+                "description": "Neurological examinations will be performed to evaluate the effect of OTL-200 on the onset or progression of MLD disease.",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change in Gross Motor Function Classification (GMFC)-MLD",
+                "description": "GMFC-MLD will evaluate the change in motor function according to seven clinically relevant levels of walking, sitting, locomotion, trunk and head control. The scoring range is from 0 (walking without support with quality of performance normal for age) to 6 (loss of any locomotion as well as loss of any head and trunk control).",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Change in NCV",
+                "description": "NCV will be assessed by electroneurography which is a technique used to test and quantify the nerve conduction and impulse propagation along motor and sensory peripheral nerves.",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Vineland Adaptive Behavior Scale (VABS)",
+                "description": "VABS will assess the individual's ability to undertake daily activities appropriate for their age group.",
+                "timeFrame": "24 months and multiple visits up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Conditioning regimen related toxicity and AEs",
+                "description": "To evaluate the safety and tolerability of the HSPC GT procedure.",
+                "timeFrame": "up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Non-conditioning related AEs",
+                "description": "To evaluate the safety and tolerability of OTL-200.",
+                "timeFrame": "up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Hematological reconstitution",
+                "description": "Hematological reconstitution defined as absolute neutrophil count \\[ANC\\] \u2265 500/\u00b5L and platelet count \u226520,000 platelets/\u03bcL with associated evidence of BM recovery",
+                "timeFrame": "By Day 60 post-gene therapy"
+              },
+              {
+                "measure": "Incidence of infusion related reactions",
+                "description": "To evaluate the safety and tolerability of the HSPC GT procedure.",
+                "timeFrame": "up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Immune response (e.g. anti-ARSA antibodies)",
+                "description": "Plasma samples will be collected for anti-ARSA antibody analysis",
+                "timeFrame": "up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Abnormal Clonal Proliferation (ACP)",
+                "description": "Malignancy or ACP due to insertional oncogenesis will be evaluated using different tests and procedures.",
+                "timeFrame": "up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Replication Competent Lentivirus (RCL",
+                "description": "Molecular monitoring of RCL will be assessed via enzyme-linked immunosorbent assay (ELISA) test for serum human immunodeficiency virus (HIV) p24 antigen. A positive HIV p24 test result is subject to second level testing including: a) DNA PCR for vesicular stomatitis virus G (VSV-G) envelope (PBMC), and b) reverse transcription (RT)-PCR for serum HIV-pol ribonucleic acid (RNA) (plasma).",
+                "timeFrame": "baseline, 1, 3, 6, and 12 months, then once a year up to 8 years post gene-therapy"
+              },
+              {
+                "measure": "Integration Site analysis findings",
+                "description": "Detailed analysis of LV integrations will be performed on PB and BM cells, to monitor the nature and distribution of Integration Sites",
+                "timeFrame": "6, 12 months, then once a year up to 8 years post gene-therapy"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nAll the following criteria need to be met:\n\n* Documented biochemical and molecular diagnosis of MLD, based on ARSA activity below the normal range and identification of two disease-causing ARSA alleles. Novel mutations will be analyzed with in silico prediction tools and excluded from being known common polymorphisms. In the case of a novel mutation(s), a 24-hour urine collection must show elevated sulfatide levels.\n* 0/R or R/R genotype or a genotype recognized as associated with the LJ variant of MLD.\n* a) If symptomatic: age at disease onset between \u22657 and \\<17 years of age (i.e. before their 17th birthday). OR\n* b) If pre-symptomatic: participant must be \\<17 years of age at treatment (i.e. before their 17th birthday) AND must have a sibling with a diagnosis of late-juvenile MLD variant based on age at disease onset (\u22657 and \\<17 years of age i.e. before sibling's 17th birthday), with biochemical and molecular diagnosis.\n* Normal cognitive function as defined by an IQ\u226585 on age appropriate cognitive scales.\n* a) If the participant is \\<7 years (i.e. before their 7th birthday): normal motor milestones achievement, normal gross motor function according to chronological age and normal neurological examination (if applicable based on the age of the subject, GMFC-MLD = 0) OR b) If participant is \u22657 years: normal gross motor function or mild gross motor function impairment, defined by a GMFC-MLD 0 or 1 (i.e. patient is able to walk independently).\n\nNOTE: The following will not be exclusionary if present alone: 1.) Seizures 2.) Signs of the disease revealed at instrumental evaluations (Electroneurography \\[ENG\\] and brain MR)\n\n* If applicable, participant willing and capable of compliance with contraceptive use requirements.\n* Participant (or if applicable, parent/legal guardian) providing signed informed consent or assent as applicable\n\nExclusion Criteria:\n\n* Documented HIV infection (positive HIV RNA and/or anti-p24 antibodies).\n* Malignant neoplasia (except localised skin cancer) or a documented history of hereditary cancer syndrome. Participants with a prior successfully treated malignancy and a sufficient follow-up to exclude recurrence (based on oncologist opinion) can be included after discussion and approval by the Medical Monitor.\n* Myelodysplasia, cytogenetic alterations characteristic of myelodysplastic syndrome (MDS) and acute myeloid leukaemia (AML) or other serious haematological disorders.\n* Patients currently enrolled in other interventional trials\n* Has previously undergone allogeneic HSPC gene therapy (HSPC-GT) and has evidence of residual cells of donor origin.\n* Previous gene therapy.\n* Has symptomatic herpes zoster, not responsive to specific treatment. NOTE: Participants with a recent history of herpes zoster may be included in the study. In such cases, inclusion, additional monitoring and treatment of the condition must be discussed and approved by the Medical Monitor.\n* Evidence of active tuberculosis (TB) based upon medical examination, chest imaging and TB testing. Participants with latent tuberculosis, as documented by medical history and/or TB testing may be included in the study if receiving antibiotic prophylaxis (e.g. isoniazid). Inclusion, monitoring and treatment of TB in such participants must be discussed and approved by the Medical Monitor.\n* Acute or chronic stable Hepatitis B (HBV) as evidenced by positive Hepatitis B surface antigen (HBsAg) test result at screening or within 3 months prior to onset of conditioning and/or positive HBV DNA. NOTE: Participants with positive Hepatitis B core antibody due to prior resolved disease may be enrolled, only if a confirmatory negative HBsAg and negative Hepatitis B DNA test are obtained. Inclusion, monitoring and treatment of hepatitis in such participants must be discussed and approved by the Medical Monitor.\n* Presence of positive Hepatitis C RNA test result at screening. NOTE: Patients who have previously tested positive for antibodies to hepatitis C can be treated, provided they demonstrate absence of ongoing infection using a nucleic acid test with a limit of quantification of \u226415 international units/ml. Negative test results are required on at least 3 sequential occasions over a period of at least 4 weeks, after completion of treatment for Hepatitis C, with the final test conducted no more than 3 days prior to cell harvest. Inclusion, monitoring and treatment of hepatitis in such participants must be discussed and approved by the Medical Monitor.\n* End-organ dysfunction, severe active infection not responsive to treatment, or other severe disease or clinical condition which, in the judgment of the investigator, would make the participant inappropriate for entry into this study.\n* In addition to the potential infections tested per protocol, the PI should consider testing for other transmissible infectious agents listed in the European Union (EU) Cell and Tissue Directive as clinically appropriate and results must be discussed with the Orchard medical monitor prior to stem cell harvest.\n* Participants with alanine transferase (ALT) \\>2x upper limit of normal (ULN) or total bilirubin \\>1.5xULN may be included only after discussed and agreed with the Orchard medical monitor and considered in the context of the criterion for excluding participants with other severe disease. Isolated elevation of total bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35% of total.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Orchard Clinical Trials",
+                "affiliation": "Orchard Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Ospedale San Raffaele - Telethon Institute for Gene Therapy (OSR-TIGET)",
+                "city": "Milan",
+                "zip": "20132",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016464",
+                "term": "Lysosomal Storage Diseases"
+              },
+              {
+                "id": "D007966",
+                "term": "Leukodystrophy, Metachromatic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D020279",
+                "term": "Hereditary Central Nervous System Demyelinating Diseases"
+              },
+              {
+                "id": "D020739",
+                "term": "Brain Diseases, Metabolic, Inborn"
+              },
+              {
+                "id": "D001928",
+                "term": "Brain Diseases, Metabolic"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D052516",
+                "term": "Sulfatidosis"
+              },
+              {
+                "id": "D013106",
+                "term": "Sphingolipidoses"
+              },
+              {
+                "id": "D020140",
+                "term": "Lysosomal Storage Diseases, Nervous System"
+              },
+              {
+                "id": "D056784",
+                "term": "Leukoencephalopathies"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01560182",
+            "orgStudyIdInfo": {
+              "id": "201222"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "Eudract 2009-017349-77",
+                "type": "OTHER",
+                "domain": "IRCCS San Raffaele"
+              }
+            ],
+            "organization": {
+              "fullName": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Gene Therapy for Metachromatic Leukodystrophy (MLD)",
+            "officialTitle": "A Phase I/II Clinical Trial of Hematopoietic Stem Cell Gene Therapy for the Treatment of Metachromatic Leukodystrophy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2010-04-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-04-09",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-09-19",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2012-03-16",
+            "studyFirstSubmitQcDate": "2012-03-21",
+            "studyFirstPostDateStruct": {
+              "date": "2012-03-22",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2025-12-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Orchard Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Ospedale San Raffaele",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This Phase I/II clinical trial consists of the application of lentiviral vector-based gene therapy to patients affected by Metachromatic Leukodystrophy (MLD), a rare inherited Lysosomal Storage Disorder (LSD) resulting from mutations in the gene encoding the Arylsulfatase A (ARSA) enzyme. The medicinal product consists of autologous CD34+ hematopoietic stem/progenitor cells in which a functional ARSA cDNA is introduced by means of 3rd generation VSV-G pseudotyped lentiviral vectors."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lysosomal Storage Disease",
+              "Metachromatic Leukodystrophy"
+            ],
+            "keywords": [
+              "OTL-200",
+              "Metachromatic Leukodystrophy",
+              "Gene Therapy",
+              "MLD",
+              "Previously GSK2696274"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "OTL-200 Gene Therapy",
+                "type": "EXPERIMENTAL",
+                "description": "CD34+ cells transduced ex vivo with lentiviral vector encoding ARSA cDNA",
+                "interventionNames": [
+                  "Genetic: OTL-200 Gene Therapy"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "OTL-200 Gene Therapy",
+                "description": "Autologous hematopoietic stem/progenitor cells collected from the bone marrow and transduced ex vivo with a Lentiviral vector encoding the human ARSA cDNA",
+                "armGroupLabels": [
+                  "OTL-200 Gene Therapy"
+                ],
+                "otherNames": [
+                  "Previously GSK2696274"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Improvement of Gross Motor Function Measure (GMFM) score",
+                "description": "An improvement of 10% of the total GMFM score in treated patients, when compared to the GMFM scores in the historical control MLD population, evaluated 24 months after treatment.",
+                "timeFrame": "24 months after treatment"
+              },
+              {
+                "measure": "Increase of residual Arylsulfatase A (ARSA) activity",
+                "description": "A significant increase of residual ARSA activity as compared to pre- treatment values, measured in total Peripheral Blood Mononuclear Cells (PBMCs)",
+                "timeFrame": "24 months after treatment"
+              },
+              {
+                "measure": "Conditioning regimen-related safety",
+                "description": "The absence of engraftment failure or delayed hematopoietic reconstitution (prolonged aplasia), defined as Absolute Neutrophil Count (ANC)\\<500/\u00b5l, with no evidence of Bone Marrow (BM) recovery, requiring cellular back-up administration.",
+                "timeFrame": "at +60 days after transplantation"
+              },
+              {
+                "measure": "Conditioning regimen-related toxicity",
+                "description": "The absence of regimen related toxicity, as determined by a surveillance of adverse events (AEs) (NCI \u22652) and laboratory parameters (NCI \u22653) that will be applied in the short- and long-term follow-up of the treated patients in order to assess the degree of morbidity associated to the conditioning regimen",
+                "timeFrame": "3 years after treatment"
+              },
+              {
+                "measure": "The short-term safety and tolerability of lentiviral-transduced cell infusion",
+                "description": "It will be evaluated on the basis of AEs reporting and monitoring of the systemic reactions to cell infusion (fever, tachycardia, nausea and vomiting, joint pain, skin rash). Evaluation will also consist of the absence of Serious Adverse Reactions (SARs) within 48 hours after infusion.",
+                "timeFrame": "48 hours after treatment infusion"
+              },
+              {
+                "measure": "The long-term safety of lentiviral-transduced cell infusion",
+                "description": "Absence of Replication Competent Lentivirus: Assessed via enzyme-linked immunosorbent assay (ELISA) test for serum human immunodeficiency virus (HIV) p24 antigen. Positive HIV p24 test result is subject to second level testing including: a) DNA PCR for vesicular stomatitis virus G (VSV-G) envelope (PBMC) and b) reverse transcription (RT) PCR for HIV-pol ribonucleic acid (RNA) (plasma).",
+                "timeFrame": "baseline, 1, 3, 6, and 12 months after treatment, then once a year"
+              },
+              {
+                "measure": "The long-term safety of lentiviral-transduced cell infusion",
+                "description": "Absence of Abnormal Clonal Proliferation: monitored by clinical and laboratory surveillance, TCR V\u03b2 repertoire analysis, and bone marrow examination.",
+                "timeFrame": "baseline, 3, 6 and 12 months after treatment, then once a year"
+              },
+              {
+                "measure": "The long-term safety of lentiviral-transduced cell infusion",
+                "description": "Lentiviral vector integration site analysis will also be performed",
+                "timeFrame": "6 and 12 months after treatment, then once a year"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "The absence of immune responses against the transgene (immunoblot analyses).",
+                "description": "Even if immune responses against the functional ARSA enzyme are not expected, treated subjects will be monitored for anti-ARSA antibodies on a defined schedule.",
+                "timeFrame": "baseline, 3, 6, and 12 months after treatment, then once a year"
+              },
+              {
+                "measure": "Nerve Conduction Velocity (NCV) Index for Electroneurography (ENG) and total brain MRI score.",
+                "description": "The NCV Index and the total brain MRI score will be compared to scores observed in the historical control MLD population.\n\nGross Motor Function Classification for MLD (GMFC-MLD) levels at different ages compared to the historical control MLD population.",
+                "timeFrame": "24 months after treatment"
+              },
+              {
+                "measure": "Transduced cell engraftment",
+                "description": "Transduced cell engraftment above 4% in bone marrow-derived clonogenic progenitor cells, assessed as the percentage of LV-positive colonies. Vector copy number (VCN) per cell in total PBMC, total BM, and peripheral blood (PB) and bone marrow (BM) cell subpopulations will also be evaluated.",
+                "timeFrame": "12 months after treatment"
+              },
+              {
+                "measure": "IQ measurement above 55",
+                "description": "The measurement of an IQ above 55 (threshold for severe cognitive impairment) at neuro-psychological testings",
+                "timeFrame": "24, 30 and 36 months after treatment"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Pre-symptomatic MLD patients with the late infantile variant;\n* Pre- or early-symptomatic MLD patients with the early juvenile variant;\n* Patients for whom parental/guardian signed informed consent has been obtained.\n\nExclusion Criteria:\n\n* HIV RNA and/or HCV RNA and/or HBV DNA positive patients;\n* Patients affected by neoplastic diseases;\n* Patients with cytogenetic alterations typical of MDS/AML;\n* Patients with end-organ functions or any other severe disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study;\n* Patients enrolled in other trials/other therapeutic approaches that might become available;\n* Patient who underwent allogeneic hematopoietic stem cell transplantation in the previous six months;\n* Patient who underwent allogenic hematopoietic stem cell transplantation with evidence of residual cells of donor origin.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "7 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Orchard Clinical Trials",
+                "affiliation": "Orchard Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Ospedale San Raffaele - Telethon Institute for Gene Therapy (OSR-TIGET)",
+                "city": "Milan",
+                "zip": "20132",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "17080200",
+                "type": "BACKGROUND",
+                "citation": "Biffi A, Capotondo A, Fasano S, del Carro U, Marchesini S, Azuma H, Malaguti MC, Amadio S, Brambilla R, Grompe M, Bordignon C, Quattrini A, Naldini L. Gene therapy of metachromatic leukodystrophy reverses neurological damage and deficits in mice. J Clin Invest. 2006 Nov;116(11):3070-82. doi: 10.1172/JCI28873."
+              },
+              {
+                "pmid": "18786133",
+                "type": "BACKGROUND",
+                "citation": "Biffi A, Cesani M, Fumagalli F, Del Carro U, Baldoli C, Canale S, Gerevini S, Amadio S, Falautano M, Rovelli A, Comi G, Roncarolo MG, Sessa M. Metachromatic leukodystrophy - mutation analysis provides further evidence of genotype-phenotype correlation. Clin Genet. 2008 Oct;74(4):349-57. doi: 10.1111/j.1399-0004.2008.01058.x. Epub 2008 Sep 11."
+              },
+              {
+                "pmid": "23845948",
+                "type": "BACKGROUND",
+                "citation": "Biffi A, Montini E, Lorioli L, Cesani M, Fumagalli F, Plati T, Baldoli C, Martino S, Calabria A, Canale S, Benedicenti F, Vallanti G, Biasco L, Leo S, Kabbara N, Zanetti G, Rizzo WB, Mehta NA, Cicalese MP, Casiraghi M, Boelens JJ, Del Carro U, Dow DJ, Schmidt M, Assanelli A, Neduva V, Di Serio C, Stupka E, Gardner J, von Kalle C, Bordignon C, Ciceri F, Rovelli A, Roncarolo MG, Aiuti A, Sessa M, Naldini L. Lentiviral hematopoietic stem cell gene therapy benefits metachromatic leukodystrophy. Science. 2013 Aug 23;341(6148):1233158. doi: 10.1126/science.1233158. Epub 2013 Jul 11."
+              },
+              {
+                "pmid": "15085191",
+                "type": "BACKGROUND",
+                "citation": "Biffi A, De Palma M, Quattrini A, Del Carro U, Amadio S, Visigalli I, Sessa M, Fasano S, Brambilla R, Marchesini S, Bordignon C, Naldini L. Correction of metachromatic leukodystrophy in the mouse model by transplantation of genetically modified hematopoietic stem cells. J Clin Invest. 2004 Apr;113(8):1118-29. doi: 10.1172/JCI19205."
+              },
+              {
+                "pmid": "17845130",
+                "type": "BACKGROUND",
+                "citation": "Capotondo A, Cesani M, Pepe S, Fasano S, Gregori S, Tononi L, Venneri MA, Brambilla R, Quattrini A, Ballabio A, Cosma MP, Naldini L, Biffi A. Safety of arylsulfatase A overexpression for gene therapy of metachromatic leukodystrophy. Hum Gene Ther. 2007 Sep;18(9):821-36. doi: 10.1089/hum.2007.048."
+              },
+              {
+                "pmid": "19606494",
+                "type": "BACKGROUND",
+                "citation": "Cesani M, Capotondo A, Plati T, Sergi LS, Fumagalli F, Roncarolo MG, Naldini L, Comi G, Sessa M, Biffi A. Characterization of new arylsulfatase A gene mutations reinforces genotype-phenotype correlation in metachromatic leukodystrophy. Hum Mutat. 2009 Oct;30(10):E936-45. doi: 10.1002/humu.21093."
+              },
+              {
+                "pmid": "40267426",
+                "type": "DERIVED",
+                "citation": "Fumagalli F, Calbi V, Gallo V, Zambon AA, Recupero S, Ciotti F, Sarzana M, Fraschini M, Scarparo S, De Mattia F, Miglietta S, Pierini C, Soncini M, Morena F, Montini E, Barzaghi F, Consiglieri G, Ferrua F, Migliavacca M, Tucci F, Fratini ES, Ippolito A, Silvani P, Calvi MR, Clerici A, Corti A, Facchini M, Locatelli S, Sangalli M, Zancan S, Miotto F, Natali Sora MG, Baldoli C, Martino S, Cordoba-Claros A, Moro SL, Gollop ND, Abate J, Yarzi MN, Nutkins P, Shenker A, Calissano M, Brooks J, Richardson A, Campbell L, Filippi M, Naldini L, Cicalese MP, Ciceri F, Bernardo ME, Aiuti A. Long-Term Effects of Atidarsagene Autotemcel for Metachromatic Leukodystrophy. N Engl J Med. 2025 Apr 24;392(16):1609-1620. doi: 10.1056/NEJMoa2405727."
+              },
+              {
+                "pmid": "35065785",
+                "type": "DERIVED",
+                "citation": "Fumagalli F, Calbi V, Natali Sora MG, Sessa M, Baldoli C, Rancoita PMV, Ciotti F, Sarzana M, Fraschini M, Zambon AA, Acquati S, Redaelli D, Attanasio V, Miglietta S, De Mattia F, Barzaghi F, Ferrua F, Migliavacca M, Tucci F, Gallo V, Del Carro U, Canale S, Spiga I, Lorioli L, Recupero S, Fratini ES, Morena F, Silvani P, Calvi MR, Facchini M, Locatelli S, Corti A, Zancan S, Antonioli G, Farinelli G, Gabaldo M, Garcia-Segovia J, Schwab LC, Downey GF, Filippi M, Cicalese MP, Martino S, Di Serio C, Ciceri F, Bernardo ME, Naldini L, Biffi A, Aiuti A. Lentiviral haematopoietic stem-cell gene therapy for early-onset metachromatic leukodystrophy: long-term results from a non-randomised, open-label, phase 1/2 trial and expanded access. Lancet. 2022 Jan 22;399(10322):372-383. doi: 10.1016/S0140-6736(21)02017-1."
+              },
+              {
+                "pmid": "27289174",
+                "type": "DERIVED",
+                "citation": "Sessa M, Lorioli L, Fumagalli F, Acquati S, Redaelli D, Baldoli C, Canale S, Lopez ID, Morena F, Calabria A, Fiori R, Silvani P, Rancoita PM, Gabaldo M, Benedicenti F, Antonioli G, Assanelli A, Cicalese MP, Del Carro U, Sora MG, Martino S, Quattrini A, Montini E, Di Serio C, Ciceri F, Roncarolo MG, Aiuti A, Naldini L, Biffi A. Lentiviral haemopoietic stem-cell gene therapy in early-onset metachromatic leukodystrophy: an ad-hoc analysis of a non-randomised, open-label, phase 1/2 trial. Lancet. 2016 Jul 30;388(10043):476-87. doi: 10.1016/S0140-6736(16)30374-9. Epub 2016 Jun 8."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016464",
+                "term": "Lysosomal Storage Diseases"
+              },
+              {
+                "id": "D007966",
+                "term": "Leukodystrophy, Metachromatic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D020279",
+                "term": "Hereditary Central Nervous System Demyelinating Diseases"
+              },
+              {
+                "id": "D020739",
+                "term": "Brain Diseases, Metabolic, Inborn"
+              },
+              {
+                "id": "D001928",
+                "term": "Brain Diseases, Metabolic"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D052516",
+                "term": "Sulfatidosis"
+              },
+              {
+                "id": "D013106",
+                "term": "Sphingolipidoses"
+              },
+              {
+                "id": "D020140",
+                "term": "Lysosomal Storage Diseases, Nervous System"
+              },
+              {
+                "id": "D056784",
+                "term": "Leukoencephalopathies"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

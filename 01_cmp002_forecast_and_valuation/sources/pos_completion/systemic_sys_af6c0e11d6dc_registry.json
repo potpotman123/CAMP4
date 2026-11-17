@@ -1,0 +1,504 @@
+{
+  "integrated_id": "systemic:sys_af6c0e11d6dc",
+  "asset": "CNP-104",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=CNP-104",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05104853",
+            "orgStudyIdInfo": {
+              "id": "CNP-104-5.001"
+            },
+            "organization": {
+              "fullName": "COUR Pharmaceutical Development Company, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Evaluate the Safety, Tolerability, PDs, and Efficacy of CNP-104 in Subjects With Primary Biliary Cholangitis",
+            "officialTitle": "A Phase 2a Double Blind, Placebo Controlled Study to Evaluate the Safety, Tolerability, Pharmacodynamics, and Efficacy of CNP-104 in Subjects Ages 18-75 With Primary Biliary Cholangitis Who Are Unresponsive to UDCA and/or OCA"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-01-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-01-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-01-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-10-22",
+            "studyFirstSubmitQcDate": "2021-10-22",
+            "studyFirstPostDateStruct": {
+              "date": "2021-11-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-03-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "COUR Pharmaceutical Development Company, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a Phase 2a First-in-Human (FIH) clinical trial to assess the safety, tolerability, pharmacodynamics (PD), and efficacy of multiple ascending doses of CNP-104. The study consists of a 120 day primary study followed by a 20 month long-term safety and durability of response follow-up period.",
+            "detailedDescription": "Subjects ages 18-75 with primary biliary cholangitis will be screened up to 14 days prior to enrollment into the study. Screening will be completed to assess eligibility, obtain vital signs, collect laboratory samples and PD measurements, and to receive a FibroScan for liver fibrosis. Subjects will additionally complete an initial PBC-40 assessment and begin an Itch Diary, a questionnaire and scoring system to be completed by the patient every morning and evening through Day 120 and then monthly through end of study.\n\nSubjects who meet all inclusion and no exclusion criteria after completing the screening visit will be enrolled in the study. Subjects will be randomized on Day 1 in a 1:1 ratio to receive either CNP-104 or Placebo (0.9% Sodium Chloride USP) by intravenous (IV) infusion. Subjects will be administered CNP-104 or Placebo on Day 1 and on Day 8. This study was originally designed with 2 cohorts, Cohort 1 comprised of 6 subjects randomized 1:1 to placebo or 4 mg/kg, and Cohort 2 comprised of up to 34 subjects randomized 1:1 to placebo or 8 mg/kg. Under Protocol Amendment 6 (v7.0), the remaining subjects for Cohort 2 (approximately 16) will be randomized 1:3:1 to placebo, 4 mg/kg, and 8 mg/kg respectively.\n\nSubjects will remain in the clinic on Day 1 and Day 8 from the time of admission (prior to administration of CNP-104 or Placebo) through the final procedure conducted 4 hours post-dose that same day unless an infusion reaction, or other adverse event, requires an extended duration of monitoring. Subjects will be discharged if safety parameters are acceptable to the investigator.\n\nSeven days after the second administration of CNP-104 or Placebo, subjects must return to the clinic for collection of safety labs, PD measurements, and assessment of AEs and medication changes.\n\nSubjects will continue to be followed for 2 years to assess safety, pharmacodynamics, and immunogenicity during the Post-Dosing period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cholangitis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 42,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "4 mg/Kg CNP-104",
+                "type": "EXPERIMENTAL",
+                "description": "200 mL intravenous infusion on Day 1 and Day 8: 4 mg/Kg CNP-104",
+                "interventionNames": [
+                  "Drug: CNP-104"
+                ]
+              },
+              {
+                "label": "8 mg/Kg CNP-104",
+                "type": "EXPERIMENTAL",
+                "description": "200 mL intravenous infusion on Day 1 and Day 8: 8 mg/Kg CNP-104",
+                "interventionNames": [
+                  "Drug: CNP-104"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "200 mL intravenous infusion on Day 1 and Day 8: Placebo",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "CNP-104",
+                "description": "CNP-104 is comprised of PDC-E2 peptide dispersed within a negatively charged polymer matrix of poly (lactic-co-glycolic acid) (PLGA) particles at a target concentration of \\~1 \u03bcg of PDC-E2 peptide per mg of PLGA particles.",
+                "armGroupLabels": [
+                  "4 mg/Kg CNP-104",
+                  "8 mg/Kg CNP-104"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "CNP-104 Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency of Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                "description": "Frequency tables will be presented by treatment group for all AEs and SAEs by System Organ Class (SOC) and Preferred Term (PT). Frequency tables will also be produced by treatment group for AEs leading to discontinuation from TP and study, by severity, and by causality. No formal statistical testing will be done",
+                "timeFrame": "through Study Completion, an average of 720 Days"
+              },
+              {
+                "measure": "Laboratory safety assessments (hematology, serum chemistry, coagulation panel, urinalysis).",
+                "description": "Frequency tables of each assessment abnormalities by grade and treatment will be presented. No formal statistical testing will be done.",
+                "timeFrame": "through Study Completion, an average of 720 Days"
+              },
+              {
+                "measure": "Serum Cytokines (TNF-\u03b1, IL-4, IL-6, IL-10, IL-1\u03b2, MCP-1, MIP-1\u03b1, IFN-\u03b3)",
+                "description": "Frequency tables will be presented by treatment group. No formal statistical testing will be done",
+                "timeFrame": "through CNP-Dosing Period, an average of 15 Days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To assess the change from baseline in Serum Alkaline Phosphatase (ALP) levels, for safety only",
+                "description": "Change from baseline in ALP levels at Day 60 and Day 720",
+                "timeFrame": "through Visit 6, an average of 60 Days and Visit 16, an average of 720 Days"
+              },
+              {
+                "measure": "To assess the change from baseline in AMA",
+                "description": "Change from baseline in AMA between placebo and CNP-104 at Day 90 and Day 720",
+                "timeFrame": "through Visit 7, an average of 90 Days and Visit 16, an average of 720 Days"
+              },
+              {
+                "measure": "To assess the change from baseline in liver fibrosis by FibroScan",
+                "description": "Change from baseline in liver fibrosis by FibroScan between placebo and CNP-104 at Day 90 and Day 720",
+                "timeFrame": "through Visit 7, an average of 90 Days and Visit 16, an average of 720 Days"
+              },
+              {
+                "measure": "To assess the change from baseline in modified PBC-40 score",
+                "description": "Change from baseline in modified PBC-40 score between placebo and CNP-104 at Day 60 and Day 720",
+                "timeFrame": "through Visit 6, an average of 60 Days and Visit 16, an average of 720 Days"
+              },
+              {
+                "measure": "To assess the change from baseline in Weekly Mean Itch Score",
+                "description": "Change from baseline in Weekly Mean Itch Score between placebo and CNP-104 at Day 60 and Day 720",
+                "timeFrame": "through Visit 6, an average of 60 Days and Visit 16, an average of 720 D"
+              },
+              {
+                "measure": "To assess the change from baseline in liver enzymes (Albumin, Bilirubin (total and direct), ALT, AST, GGT)",
+                "description": "Change from baseline in liver enzymes at Days 60 and 720",
+                "timeFrame": "through Visit 6, an average of 60 Days and Visit 16, an average of 720 Days"
+              },
+              {
+                "measure": "To assess the change in antigen specific CD4+ and CD8+ T cells",
+                "description": "Change from baseline in antigen specific CD4+ and CD8+ T at Days 60 and 720",
+                "timeFrame": "through Visit 6, an average of 60 Days and Visit 16, an average of 720 Days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects who are willing and able to provide Institutional Review Board (IRB) approved written informed consent and privacy language as per national regulations.\n2. Men and non-pregnant women, ages 18-75 years inclusive.\n3. Subjects with a PBC diagnosis as demonstrated by the presence of 2 or more of the following 3 diagnostic factors:\n\n   1. Alkaline phosphatase \\> 1.5\u00d7 ULN for at least 6 months\n   2. Positive AMA titer or, if AMA negative or in low titer (\\<1:40), positive PBC-specific antibodies (anti-GP210 and/or anti-SP100 and/or antibodies against the major M2 components \\[PDC-E2, 2-oxo-glutaric acid dehydrogenase complex\\])\n   3. Liver biopsy findings consistent with PBC\n4. Subjects who are unresponsive to UDCA and/or OCA after 6 months of treatment at a stable dose as measured by ALP \\> 1.5\u00d7 ULN.\n5. For subjects on any medication used to treat the symptoms of PBC (ex. UDCA, OCA, seladelpar), subjects must be on a stable dose for a minimum of 3 months prior to enrollment and must agree not to change their dose through study Day 60 unless reviewed by the medical monitor and approved by the site investigator.\n6. Subjects with ALP \\> 1.5\u00d7 ULN.\n7. Subjects with AST and ALT \\< 5\u00d7 ULN.\n8. Subjects with hemoglobin \u2265 10 g/dL.\n9. Subjects with total bilirubin \\< 2\u00d7 ULN.\n10. Men and women of child-bearing potential (WOCBP) must agree to practice a highly effective method of contraception that may include, but is not limited to, abstinence, sex only with persons of the same sex, monogamous relationship with vasectomized partner, vasectomy, hysterectomy, bilateral tubal ligation, licensed hormonal methods, intrauterine device (IUD) beginning at the time of screening through Day 90.\n11. Female subjects who agree not to donate ova starting at initial screening and through Day 90.\n12. Male subjects who agree to not donate sperm starting at screening and through Day 90.\n\nExclusion Criteria:\n\n1. Subjects with a Class B or Class C Child-Pugh score.\n2. Subjects with concomitant liver diseases including chronic viral hepatitis B or C, autoimmune hepatitis, PSC, alcoholic liver disease, Wilson's disease, hemochromatosis, or Gilbert's syndrome.\n3. Subjects who have previously undergone liver transplantation.\n4. Subjects with decompensated liver disease as defined by the presence or history of any of the following:\n\n   * MELD score \\> 15\n   * Hepatic encephalopathy\n   * Ascites\n   * Hepatorenal syndrome or serum creatinine \\> 2 mg/dL\n   * Total Bilirubin \\> 3.0 mg/dL\n   * INR \\>1.8 unless on anticoagulation such as Coumadin\n   * History of variceal hemorrhage\n5. Subjects with a history of cerebrovascular accident in the past 12 months.\n6. Subjects with history of myocardial infarction, as defined by any of the following criteria:\n\n   * Development of pathological Q waves with or without symptoms\n   * Imaging evidence of a region of loss of viable myocardium that is thinned and fails to contract, in the absence of a non-ischemic cause\n   * Pathological findings of a healed or healing myocardial\n7. Subjects with chronic kidney disease, as defined by estimated glomerular filtration rate (eGFR) \\< 60 mL/min/1.73 m2 for at least 3 months (per CKD EPI Equation - 2021).\n8. Subjects with uncontrolled diabetes, as defined by HbA1c \\> 7%.\n9. Subjects who have used the following medications:\n\n   * Methotrexate within 90 days of screening.\n   * Immunotherapy drugs unless approved by the medical monitor.\n10. Subjects with a history of tuberculosis or positive PPD skin test.\n11. Subjects who have received administration of any live vaccine (other than intranasal Influenza) within 28 days or subunit vaccine within 14 days prior to screening or are planning to receive any vaccination before Day 90.\n12. Subjects who have used systemic steroids within 3 months prior to screening.\n13. Subjects with laboratory test results at screening or prior to study dosing that are outside the normal limits and considered by the Investigator to be clinically significant.\n\n    Note: This criterion does not apply to liver function tests. Additionally, clinically significant laboratory test results at screening that are related to the condition (PBC) are acceptable as long as all inclusion and no other exclusion criteria are met.\n14. Subjects with positive test results for hepatitis B surface antigen (HBsAg), hepatitis C virus (HCV) antibody, or human immunodeficiency virus (HIV) antigen/antibody as determined at screening.\n15. Subjects with a history of or currently active immune disorders other that PBC (including autoimmune disease) unless the condition, after discussion with the Medical Monitor, has been deemed to be acceptable for the subject's participation in this study.\n16. Subjects with a history of or current active diseases requiring immunosuppressive drugs (including azathioprine, prednisone, prednisolone, budesonide, cyclosporine, tacrolimus, methotrexate, or mycophenolate mofetil) unless the condition, after discussion with the Medical Monitor, has been deemed to be acceptable for the subject's participation in this study.\n17. Subjects with a clinical history of significant cardiovascular disease as determined by the Investigator.\n18. Subjects with a complication or medical history of malignancy within past 5 years which, in the Investigator's opinion, makes the subject unsuitable for study participation.\n19. Subjects who, in the Investigator's opinion, will be unable to adhere to study procedures.\n20. Subjects who have received an investigational therapy other than CNP-104 within 28 days or 5 half-lives, whichever is longer, prior to screening.\n21. Subjects with any condition which, in the Investigator's opinion, makes the subject unsuitable for study participation.\n22. Known sensitivity to any components of CNP-104.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Christopher Bowlus, MD",
+                "affiliation": "UC Davis",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Southern California Research Center",
+                "city": "Coronado",
+                "state": "California",
+                "zip": "92118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.68589,
+                  "lon": -117.18309
+                }
+              },
+              {
+                "facility": "OM Research",
+                "city": "Lancaster",
+                "state": "California",
+                "zip": "93534",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.69804,
+                  "lon": -118.13674
+                }
+              },
+              {
+                "facility": "University of California Davis Health",
+                "city": "Sacramento",
+                "state": "California",
+                "zip": "95817",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.58157,
+                  "lon": -121.4944
+                }
+              },
+              {
+                "facility": "Peak Gastroenterology Associates",
+                "city": "Colorado Springs",
+                "state": "Colorado",
+                "zip": "80907",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.83388,
+                  "lon": -104.82136
+                }
+              },
+              {
+                "facility": "Yale School of Medicine",
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06520",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "facility": "University of Florida - Hepatology Research",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "Mayo Clinic Florida",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32224",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Florida Research Institute",
+                "city": "Lakewood Rch",
+                "state": "Florida",
+                "zip": "34211-4930",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 27.3863,
+                  "lon": -82.4332
+                }
+              },
+              {
+                "facility": "GI PROS Research",
+                "city": "Naples",
+                "state": "Florida",
+                "zip": "34102",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.14234,
+                  "lon": -81.79596
+                }
+              },
+              {
+                "facility": "Cleveland Clinic - Florida",
+                "city": "Weston",
+                "state": "Florida",
+                "zip": "33331",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.10037,
+                  "lon": -80.39977
+                }
+              },
+              {
+                "facility": "Digestive Healthcare of Georgia",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30309",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "University of Chicago Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60637",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Henry Ford Health System",
+                "city": "Novi",
+                "state": "Michigan",
+                "zip": "48377",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.48059,
+                  "lon": -83.47549
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine in St. Louis",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Montefiore Medical Center",
+                "city": "The Bronx",
+                "state": "New York",
+                "zip": "10467",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.84985,
+                  "lon": -73.86641
+                }
+              },
+              {
+                "facility": "Duke University Medical Center",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27710",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "Texas Liver Institute",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78215",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "University of Virginia",
+                "city": "Charlottesville",
+                "state": "Virginia",
+                "zip": "22903",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.02931,
+                  "lon": -78.47668
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40439725",
+                "type": "DERIVED",
+                "citation": "Klatzkow H, Bhavsar-Burke I, Pearson M, Wentworth BJ. Primary Biliary Cholangitis in 2025: A New Frontier. Am J Gastroenterol. 2025 Dec 1;120(12):2746-2749. doi: 10.14309/ajg.0000000000003559. Epub 2025 May 29. No abstract available."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

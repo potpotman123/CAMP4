@@ -1,0 +1,284 @@
+{
+  "integrated_id": "systemic:sys_d852264e910d",
+  "asset": "Prostacyclin Receptor Agonist",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.id=NCT05427162",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05427162",
+            "orgStudyIdInfo": {
+              "id": "CR109201"
+            },
+            "organization": {
+              "fullName": "Actelion",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Single and Multiple Doses of Different Formulations of a Prostacyclin Receptor Agonist",
+            "officialTitle": "Open-Label, Randomized Study to Evaluate Safety, Tolerability, and Pharmacokinetics of Single and Multiple Doses of Different Formulations of an IP Receptor Agonist"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-06-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-12-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-12-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-06-16",
+            "studyFirstSubmitQcDate": "2022-06-16",
+            "studyFirstPostDateStruct": {
+              "date": "2022-06-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-03-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-03-30",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Actelion",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of the study is to assess safety and tolerability of prostacyclin receptor agonist formulation in treatment period 1 and with different formulation of prostacyclin receptor agonist in treatment period 2."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Pulmonary Arterial Hypertension"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 88,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Prostacyclin Receptor Agonist",
+                "type": "EXPERIMENTAL",
+                "description": "Participants in Cohort 1-7 will receive multiple doses of prostacyclin receptor agonist of formulation 1 in treatment period 1, followed by a single dose of various other formulations (formulation 2, 3, and 4) in treatment period 2. Cohort 7 will be optional. Doses in Cohorts 4, 5, 6 and cohort 7 will be based on PK, safety and tolerability data of previous 3 cohorts (preceding cohorts).",
+                "interventionNames": [
+                  "Drug: Prostacyclin Receptor Agonist"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Prostacyclin Receptor Agonist",
+                "description": "Prostacyclin receptor agonist will be administered.",
+                "armGroupLabels": [
+                  "Prostacyclin Receptor Agonist"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Treatment-emergent Adverse Events (TEAEs)",
+                "description": "An adverse event is any untoward medical event that occurs in a participant administered an investigational product, and it does not necessarily indicate only events with clear causal relationship with the relevant investigational product. TEAEs are defined as AEs with onset or worsening on or after date of first dose of study treatment.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Number of Participants With Serious TEAEs",
+                "description": "A SAE is an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Serious TEAEs are defined as serious events between administration of study drug and after the last dose that were absent before treatment or that worsen relative to pretreatment state.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Number of Participants with TEAEs by Severity",
+                "description": "Number of participants with TEAEs by severity will be evaluated. An assessment of severity grade will be made using the following general categorical descriptors, such as Mild (Awareness of symptoms that are easily tolerated, causing minimal discomfort, and not interfering with everyday activities), Moderate (Sufficient discomfort is present to cause interference with normal activity), and Severe (Extreme distress, causing significant impairment of functioning or incapacitation, and prevents normal everyday activities).",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Number of Participants with TEAEs Leading to Discontinuation",
+                "description": "Number of participants with TEAEs leading to discontinuation will be reported.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Number of Participants With Change from Baseline in Clinical Laboratory Values",
+                "description": "Number of participants with change from baseline in clinical laboratory values (chemistry, hematology, and urinalysis) will be evaluated.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Number of Participants With Injection Site Reactions",
+                "description": "Number of participants with injection site reactions will be evaluated.",
+                "timeFrame": "Up to 114 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Treatment Period 1: Maximum Observed Plasma Concentration of Prostacyclin Receptor Agonist at Steady State (Cmax[ss])",
+                "description": "Cmax(ss) is the maximum observed plasma concentration of prostacyclin receptor agonist at steady state, during treatment period 1.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 1: Time to Reach Maximum Observed Plasma Concentration of Prostacyclin Receptor Agonist at Steady State (Tmax[ss])",
+                "description": "Tmax(ss) is the actual sampling time to reach maximum observed plasma concentration of prostacyclin receptor agonist at steady state, during treatment period 1.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 1: Area Under the Curve From Time Zero to tau of Prostacyclin Receptor Agonist at Steady State (AUC[0-tau{ss}])",
+                "description": "AUC(0-tau\\[ss\\]) is defined as area under the curve from time 0 to tau hours post dose of prostacyclin receptor agonist at steady state, during treatment period 1.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 1: Plasma Concentration at the End of One Dose Interval of Prostacyclin Receptor Agonist at Steady State (Ctrough[ss])",
+                "description": "Ctrough(ss) is the plasma concentration at the end of one dose interval of prostacyclin receptor agonist at steady state, during treatment period 1.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 2: Maximum Observed Plasma Concentration (Cmax) of Prostacyclin Receptor Agonist",
+                "description": "Cmax is the maximum observed plasma concentration of prostacyclin receptor agonist, during treatment period 2.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 2: Time to Reach Maximum Observed Plasma Concentration (Tmax) of Prostacyclin Receptor Agonist",
+                "description": "Tmax is the actual sampling time to reach maximum observed plasma concentration of prostacyclin receptor agonist, during treatment period 2.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 2: Area Under the Plasma Concentration-time Curve from time Zero to time t (AUC[0-t]) of Prostacyclin Receptor Agonist",
+                "description": "Area under the plasma concentration-time curve from time zero to time t of the last measured concentration above the limit of concentration of prostacyclin receptor agonist, during treatment period 2.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 2: Area Under the Plasma Concentration Time Curve From Time Zero to Infinite Time (AUC [0-infinity]) of Prostacyclin Receptor Agonist",
+                "description": "AUC (0-infinity) is the area under the plasma concentration-time curve from time zero to infinite time calculated as the sum of AUC (0-last) and C (0-last)/ lambda(z)\u037e wherein AUC (0-last) is area under the plasma concentration time curve from time zero to last quantifiable time, C(0-last) is the last observed quantifiable concentration of prostacyclin receptor agonist, and lambda (z) is elimination rate constant, during treatment period 2.",
+                "timeFrame": "Up to 114 days"
+              },
+              {
+                "measure": "Treatment Period 2: Area Under the Plasma Concentration-time Curve From Zero to Time 24 Hours (AUC [0-24h]) of Prostacyclin Receptor Agonist",
+                "description": "AUC (0-24h) is the area under the plasma concentration-time curve from zero to time 24 hours, during treatment period 2.",
+                "timeFrame": "Predose up to 24 hours post dose"
+              },
+              {
+                "measure": "Treatment Period 2: Area Under the Plasma Concentration-time Curve From Zero to Day 14 (AUC [0-Day 14]) of Prostacyclin Receptor Agonist",
+                "description": "AUC (0-Day 14) is the area under the plasma concentration-time curve from zero to Day 14, during treatment period 2.",
+                "timeFrame": "Up to Day 14"
+              },
+              {
+                "measure": "Treatment Period 2: Area Under the Plasma Concentration-time Curve From Zero to Day 28 (AUC [0-Day 28]) of Prostacyclin Receptor Agonist",
+                "description": "AUC (0-Day 28) is the area under the plasma concentration-time curve from zero to Day 28, during treatment period 2.",
+                "timeFrame": "Up to Day 28"
+              },
+              {
+                "measure": "Treatment Period 2: Plasma Concentration of Prostacyclin Receptor Agonist at Day 14 (C[Day 14])",
+                "description": "C(Day 14) is the plasma concentration of prostacyclin receptor agonist at Day 14, during treatment period 2",
+                "timeFrame": "Up to Day 14"
+              },
+              {
+                "measure": "Treatment Period 2: Plasma Concentration of Prostacyclin Receptor Agonist at Day 28 (C[Day 28])",
+                "description": "C(Day 28) is the plasma concentration of prostacyclin receptor agonist at Day 28, during treatment period 2.",
+                "timeFrame": "Up to Day 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Otherwise, healthy as deemed by the investigator on the basis of physical examination, medical history, vital signs, and 12-lead electrocardiograms (ECG) performed at Screening and Day -1 of oral treatment period\n* Otherwise, healthy medically stable on the basis of clinical laboratory tests performed at screening. If the results of the serum chemistry panel, blood coagulation, hematology, or urinalysis are outside the normal reference ranges, the participant may be included only if the investigator judges the abnormalities or deviations from normal to be not clinically significant or to be appropriate and reasonable for the population under study. This determination must be recorded in the participant's source documents and initialed by the investigator\n* Body mass index (BMI) within the range 18.0 to 32.0 kilograms per meter square (kg/m\\^2) (inclusive) and body weight not less than 50 kilograms (kg) at screening\n* All female participants must have a negative highly sensitive serum (beta-human chorionic gonadotropin \\[beta-hCG\\]) at screening\n* A male participant must agree not to donate sperm for the purpose of reproduction during the study and for a minimum of 90 days after receiving the last dose of study intervention\n\nExclusion Criteria:\n\n* Known allergies, hypersensitivity, anaphylaxis, or intolerance to prostacyclin receptor agonist or drugs of the same class, or any excipient (including poloxamer and polysorbate) of the drug formulation(s)\n* Clinically significant abnormal physical examination, vital signs, or 12-lead ECG (QTc greater than or equal to \\[\\>=\\]450 milliseconds \\[msec\\] for men and \\>=460 msec for women. QT corrected according to Bazett's formula \\[QTcB\\]) as assessed by the Investigator at Screening or Day -1 of oral treatment period\n* History of malignancy within 3 years before screening (exceptions are squamous and basal cell carcinomas of the skin\n* Positive serologic testing for human immunodeficiency virus (HIV), hepatitis B surface antigen (hBsAg), hepatitis C virus (HCV), active coronavirus disease 2019 (COVID-19) infection\n* A history of repeated (more than once over the last 30 days) fainting due to cardiac cause, collapse, syncope, orthostatic hypotension, or vasovagal reactions",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Actelion Pharmaceuticals Ltd. Clinical Trials",
+                "affiliation": "Actelion",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Celerion",
+                "city": "Tempe",
+                "state": "Arizona",
+                "zip": "85283",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.41477,
+                  "lon": -111.90931
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The data sharing policy of the Janssen Pharmaceutical Companies of Johnson \\& Johnson is available at www.janssen.com/clinical-trials/transparency. As noted on this site, requests for access to the study data can be submitted through Yale Open Data Access (YODA) Project site at yoda.yale.edu",
+            "url": "http://www.janssen.com/clinical-trials/transparency"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

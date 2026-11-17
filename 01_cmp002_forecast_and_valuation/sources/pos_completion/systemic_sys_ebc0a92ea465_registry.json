@@ -1,0 +1,659 @@
+{
+  "integrated_id": "systemic:sys_ebc0a92ea465",
+  "asset": "SCD-101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=SCD-101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02380079",
+            "orgStudyIdInfo": {
+              "id": "INVX-SCD-101-11"
+            },
+            "organization": {
+              "fullName": "Invenux, LLC",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Dose-Escalation Study of SCD-101 in Sickle Cell Disease",
+            "officialTitle": "Part A: Phase IB, Single Site, Dose-Escalation of SCD-101 and Part B: Randomized, Double-Blind, Placebo-Controlled Crossover of SCD-101 in Adults With Homozygous Sickle Cell Disease or S/Beta 0 Thalassemia."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-03",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2023-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2015-02-23",
+            "studyFirstSubmitQcDate": "2015-03-04",
+            "studyFirstPostDateStruct": {
+              "date": "2015-03-05",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-03-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-03-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Invenux, LLC",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "State University of New York - Downstate Medical Center",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine the safety and clinical effects of SCD-101 when given to adults with sickle cell disease.",
+            "detailedDescription": "This is single site, dose- escalation study of SCD-101 in participants with homozygous sickle cell disease (S/S) or S/beta 0 Thalassemia. All participants will be monitored for safety, tolerability, and dose-limiting toxicities.\n\nThe study is divided into two parts. Part A is an open-label, non-randomized, non-placebo-controlled dose escalation study with a 28-day treatment phase and 14-day follow-up phase with five cohorts . Part B is a randomized, placebo-controlled, confirmatory 2x2 crossover cohort with a 28 day washout between periods, and a 28-day follow-up phase."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease",
+              "Sickle-Beta Zero Thalassemia"
+            ],
+            "keywords": [
+              "Homozygous Sickle Cell Disease S/Beta 0 Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "2x2 crossover",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 60,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SCD-101",
+                "type": "EXPERIMENTAL",
+                "description": "SCD-101 dosed TID for 28-days",
+                "interventionNames": [
+                  "Drug: SCD-101"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo dosed TID for 28-days",
+                "interventionNames": [
+                  "Drug: SCD-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SCD-101",
+                "description": "Administered as gelatin capsules",
+                "armGroupLabels": [
+                  "Placebo",
+                  "SCD-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Determine the safety, tolerability, and dose limiting toxicities of escalating doses of SCD-101, assessed by frequency and severity of adverse events (AEs), and changes in vital signs, 12-lead ECGs and laboratory assessments as compared to baseline",
+                "timeFrame": "From the time the participant is administered the first dose through the final follow-up (18 weeks)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change in hemoglobin form base line",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change in percent reticulocytes from baseline",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change from baseline in red blood cell hemolysis as measured by lactate dehydrogenase (LDH) and indirect bilirubin.",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change from baseline in fatigue as measured by the PROMIS fatigue questionnaire",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change from baseline in the percent of venous circulating sickle red blood cells",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Determine the effect of escalating doses of SCD-101 on the mean change from baseline in functional capacity as measured by the 6-Minute Walk Test",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean change from baseline in sleep interference as measured by the PROMIS sleep interference questionnaire",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean change from baseline in pain interference as measured by the PROMIS pain interference questionnaire",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean change from baseline in patient reported daily pain as measured by a Numeric Rating Scale (NRS 0-10)",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean change from baseline in analgesic usage as measured by patient medication diary",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean:change from baseline in exercise and sleep activity as measured by wrist actigraphy",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              },
+              {
+                "measure": "Part B: Exploratory Outcome Measure the mean:change from baseline in plasma inflammatory cytokines as measured by ELISA",
+                "timeFrame": "From the time the participant is accessed at baseline through the final follow-up (18 weeks)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female, 18-55 years of age\n2. Homozygous sickle cell disease or S/beta 0 thalassemia\n3. Hemoglobin F \u226410%\n4. Hemoglobin \u2265 6.0 g/dL and \u2264 9.5 g/dL\n5. Female participants of child bearing potential and male participants whose partner is a female of child bearing potential must be willing to use approved contraception during the trial and for 3 months following the end of treatment. Only barrier methods or complete abstinence are acceptable for this study. Participants using hormonal contraception (including morning-after-pill) and IUD are excluded unless willing/able to change to an acceptable form of contraception.\n6. Ability to adhere to the study visit schedule and other protocol requirements\n7. Ability to understand and the willingness to sign an informed consent document\n\nExclusion Criteria:\n\n1. Red blood cell transfusion within 3 months of enrollment\n2. Hydroxyurea treatment within 6 months of enrollment\n3. Painful or other acute sickle cell event that required a hospitalization within 4-weeks of enrollment\n4. AST and/or ALT \\>3x upper limit of normal and/or creatinine \\>2x upper limit of normal or any other significant renal or hepatic impairment\n5. Estimated creatinine clearance (CrCl) \\< 60 mL/min (Cockcroft- Gault formula) at screening.\n6. QTc interval of \\>470 msec at trial entry and participant with congenital long QT syndrome.\n7. No other significant sickle cell or non-sickle cell illness that would confound the results of the trial\n8. Any condition that, in the view of the investigator, places the participant at risk because of participation in the trial, or may influence the result of the trial or the participant's ability to participate in the trial\n9. Participant pregnant or nursing an infant or planning pregnancy during the course of the trial\n10. History of allergic reactions attributed to sorghum or compounds of similar chemical or biologic composition (such as Nicosan, Niprisan, Jobelyn or Xickle).\n11. Other investigational drug use within 3 months of enrollment\n12. PROMIS Fatigue Questionnaire 8a T-score \u02c2 44.3",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "John Muthu, MD",
+                "affiliation": "King's County Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "King's County Hospital",
+                "city": "Brooklyn",
+                "state": "New York",
+                "zip": "11203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.6501,
+                  "lon": -73.94958
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "11515714",
+                "type": "BACKGROUND",
+                "citation": "Wambebe C, Khamofu H, Momoh JA, Ekpeyong M, Audu BS, Njoku OS, Bamgboye EA, Nasipuri RN, Kunle OO, Okogun JI, Enwerem MN, Audam JG, Gamaniel KS, Obodozie OO, Samuel B, Fojule G, Ogunyale O. Double-blind, placebo-controlled, randomised cross-over clinical trial of NIPRISAN in patients with Sickle Cell Disorder. Phytomedicine. 2001 Jul;8(4):252-61. doi: 10.1078/0944-7113-00040."
+              },
+              {
+                "pmid": "12100171",
+                "type": "BACKGROUND",
+                "citation": "Iyamu EW, Turner EA, Asakura T. In vitro effects of NIPRISAN (Nix-0699): a naturally occurring, potent antisickling agent. Br J Haematol. 2002 Jul;118(1):337-43. doi: 10.1046/j.1365-2141.2002.03593.x."
+              },
+              {
+                "pmid": "12956772",
+                "type": "BACKGROUND",
+                "citation": "Iyamu EW, Turner EA, Asakura T. Niprisan (Nix-0699) improves the survival rates of transgenic sickle cell mice under acute severe hypoxic conditions. Br J Haematol. 2003 Sep;122(6):1001-8. doi: 10.1046/j.1365-2141.2003.04536.x."
+              },
+              {
+                "type": "BACKGROUND",
+                "citation": "Swift, RA, Nathan, S, Tripathi, P, Chen, Q, Asakura,T (2009, September). Research Preview on Improving Nicosan\u2122/Xickle\u2122: A Phyto-Medicine for the Treatment of Sickle Cell Disease. Paper presented at the meeting of the Sickle Cell Disease Association of America, Orlando, FL."
+              },
+              {
+                "pmid": "28096387",
+                "type": "DERIVED",
+                "citation": "Li Q, Henry ER, Hofrichter J, Smith JF, Cellmer T, Dunkelberger EB, Metaferia BB, Jones-Straehle S, Boutom S, Christoph GW, Wakefield TH, Link ME, Staton D, Vass ER, Miller JL, Hsieh MM, Tisdale JF, Eaton WA. Kinetic assay shows that increasing red cell volume could be a treatment for sickle cell disease. Proc Natl Acad Sci U S A. 2017 Jan 31;114(5):E689-E696. doi: 10.1073/pnas.1619054114. Epub 2017 Jan 17."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07401823",
+            "orgStudyIdInfo": {
+              "id": "6058-SCD-102"
+            },
+            "organization": {
+              "fullName": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Open-Label Extension Study to Pioneer Study 6058-SCD-101",
+            "officialTitle": "An Open-Label Extension Study to Evaluate Long-Term Safety and Tolerability of Pociredir in Participants With Sickle Cell Disease (SCD) Who Have Participated in a Pociredir Study"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Sponsor Decision",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-03-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-06-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-07-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-01-28",
+            "studyFirstSubmitQcDate": "2026-02-06",
+            "studyFirstPostDateStruct": {
+              "date": "2026-02-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label study to evaluate the safety and tolerability of long-term treatment with pociredir without a comparator in participants with SCD who have previously been treated and shown benefit with pociredir in feeder study 6058-SCD-101 (NCT05169580). Participants in this study will receive once daily doses of pociredir for up to 48 months.",
+            "detailedDescription": "The first dose of study drug will be administered on Day 1 in the clinic and participants will continue at home dosing once daily (QD). Dosing will occur in the clinic on days where there are clinic visits. Treatment Period clinic visits are planned every other week through Week 12 (Weeks 2, 4, 6, 8, 10, and 12), monthly through Week 24 (Weeks 16, 20, and 24), and then every 12 weeks from Week 24 through Week 192. A final follow-up visit (Week 196) will occur 4 weeks after the final dose of study drug at Week 192.\n\nParticipants will receive pociredir at the dose level they received in Study 6058-SCD-101 through Week 192, unless data from that study indicates a change to a different optimized dose."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "FTX-6058",
+              "Pociredir",
+              "Fetal hemoglobin",
+              "Sickle Cell Disease",
+              "Open-label",
+              "Anemia, Sickle Cell",
+              "Hematologic diseases"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Pociredir",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive Pociredir orally once daily (QD)",
+                "interventionNames": [
+                  "Drug: Pociredir"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Pociredir",
+                "description": "Pociredir Oral Capsules will be administered",
+                "armGroupLabels": [
+                  "Pociredir"
+                ],
+                "otherNames": [
+                  "FTX-6058"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants reporting Treatment Emergent Adverse Events (TEAEs)",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in 12-lead Electrocardiogram (ECGs)",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in Vital signs",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in Clinical laboratory tests",
+                "description": "Laboratory assessments including hematology, coagulation, serum chemistry and electrolytes, lipid panel, SCD characterization, serology, urinalysis and pregnancy tests will be performed.",
+                "timeFrame": "Up to Week 196"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in percent Fetal hemoglobin (HbF)",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in percent Reticulocytes",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Red cell distribution width",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Unconjugated bilirubin",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Lactate dehydrogenase (LDH)",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Haptoglobin",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Reticulocyte count",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Number of participants reporting SCD-related complications",
+                "timeFrame": "Up to Week 192"
+              },
+              {
+                "measure": "Annualized rate of Vaso-occlusive episode (VOE)",
+                "timeFrame": "through end of month 48"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants aged \u226518 years and older must have previously participated in and successfully completed Study 6058-SCD-101.\n* Participant has signed and dated the informed consent form (ICF) before any study-specific procedures are performed and is willing and able to comply with the study procedures and restrictions.\n* Participants who meet all other inclusion and exclusion criteria for this study, and per Investigator's recommendation may continue standard of care as indicated with the exception of hydroxyurea (HU). Participants may continue crizanlizumab, and/or L-glutamine, but must be on a stable dose for at least 6 months.\n* Participants, who if female and of childbearing potential, agree to use 2 effective methods of contraception, 1 of which must be highly effective, or practice abstinence starting at the time of the ICF signing to 90 days after the last dose of study drug, and, who if male, should use condoms or practice abstinence from the time of ICF signing to 90 days after the last dose of study drug.\n* Documented HbF benefit, as judged by the Investigator, from prior study.\n* Participant must meet both of the following laboratory values during Screening:\n\n  1. Absolute neutrophil count \u2265 1.5 \u00d7 10\\^9/liter,\n  2. Platelets \u2265 80 \u00d7 10\\^9/liter\n* Absolute reticulocyte count during Screening \\> 100 \u00d7 10\\^9/liter.\n\nExclusion Criteria:\n\n* Major surgery, serious illness (acute or chronic), infection (clinically significant bacterial, fungal, parasitic or viral infection which requires therapy), fever not resolved within 3 days of onset and requiring treatment, significant bleeding, cerebrovascular accident, or seizure within 14 days prior to signing the ICF and 14 days prior to starting study drug.\n* Sickle cell complication requiring more than 24-hour care from a medical provider in hospital or emergency care setting in the 14 days prior to starting study drug.\n* Use of medications that are moderate or strong inducers or inhibitors of cytochrome P450 (CYP) 3A4 or CYP2C8, inhibit P-glycoprotein, breast cancer resistance protein, or multidrug and toxin extrusion protein 2-K, or are substrates of CYP2B6 within 14 days prior to first dose of study drug or anticipated need for any of these medications during the study.\n* Participation in any other study with an investigational agent other than pociredir within the past 60 days prior to the first dose of study drug.\n* History of bone marrow transplant or hematopoietic stem cell transplant or gene therapies.\n* Vaccination in the previous 7 days prior to the first dose of study drug.\n\nNote: Other protocol specified criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Arkansas for Medical Sciences",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "University of California, Los Angeles",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Our Lady of the Lake Hospital",
+                "city": "Baton Rouge",
+                "state": "Louisiana",
+                "zip": "70808",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.44332,
+                  "lon": -91.18747
+                }
+              },
+              {
+                "facility": "Boston Medical Center",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Queens Hospital Cancer Center",
+                "city": "Jamaica",
+                "state": "New York",
+                "zip": "11432",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.69149,
+                  "lon": -73.80569
+                }
+              },
+              {
+                "facility": "Jacobi Medical Center",
+                "city": "The Bronx",
+                "state": "New York",
+                "zip": "10461",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.84985,
+                  "lon": -73.86641
+                }
+              },
+              {
+                "facility": "University of Texas Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Inova Schar Cancer Institute",
+                "city": "Fairfax",
+                "state": "Virginia",
+                "zip": "22031",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.84622,
+                  "lon": -77.30637
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

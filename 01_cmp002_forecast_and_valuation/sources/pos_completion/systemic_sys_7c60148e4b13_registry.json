@@ -1,0 +1,1760 @@
+{
+  "integrated_id": "systemic:sys_7c60148e4b13",
+  "asset": "EA5",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=EA5",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07256301",
+            "orgStudyIdInfo": {
+              "id": "C-EA5-2401"
+            },
+            "organization": {
+              "fullName": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase Ib, Multicenter, Open-Label Study of Multiple-Dose EA5 in Adults With Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+            "officialTitle": "A Multicenter, Open-Label, Phase Ib Clinical Trial to Evaluate the Safety, Pharmacokinetic, and Pharmacodynamic Profiles of Multiple Doses of the Humanized Monoclonal Antibody EA5 in Adult Patients With Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-01-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-08-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-11-20",
+            "studyFirstSubmitQcDate": "2025-11-20",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, open-label, Phase Ib clinical trial designed to evaluate the safety, pharmacokinetics (PK), and pharmacodynamics (PD) of multiple doses of the humanized monoclonal antibody EA5 in adult patients with paroxysmal nocturnal hemoglobinuria (PNH).",
+            "detailedDescription": "This is a multicenter, open-label, Phase Ib clinical trial designed to evaluate the safety, pharmacokinetics (PK), and pharmacodynamics (PD) of multiple doses of the humanized monoclonal antibody EA5 in adult patients with paroxysmal nocturnal hemoglobinuria (PNH). The study plans to enroll 24-26 PNH patients. The primary objective is to assess the incidence and severity of adverse events (AEs) from baseline to Week 14.The treatment period is divided into a Loading Phase (Day 1 to Day 14) and a Maintenance Phase (Day 15 to Day 85). During the maintenance phase, patients will be assigned to one of three dose cohorts: Cohort 1/Cohort 1' (900 mg, IV, Q4W), Cohort 2/Cohort 2' (1200 mg, IV, Q4W), and Cohort 3 (1400 mg, IV, Q4W). Cohorts 1-3 are for patients previously naive to complement inhibitor therapy, while Cohorts 1'-2' are for patients recently naive to complement inhibitor therapy."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "PNH - Paroxysmal Nocturnal Hemoglobinuria"
+            ],
+            "keywords": [
+              "EA5\u3001PNH\u3001Paroxysmal Nocturnal Hemoglobinuria\u3001C5 complement inhibitor"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1 and Cohort 1'",
+                "type": "EXPERIMENTAL",
+                "description": "Participants were administered EA5 900 milligram (mg) on Day 1 and Day 8, EA5 900 mg on Day 15, and then EA5 900 mg every 4 weeks for 2 doses.",
+                "interventionNames": [
+                  "Biological: EA5"
+                ]
+              },
+              {
+                "label": "Cohort 2 and Cohort 2'",
+                "type": "EXPERIMENTAL",
+                "description": "Participants were administered EA5 900 milligram (mg) on Day 1 and Day 8, EA5 1200 mg on Day 15, and then EA5 1200 mg every 4 weeks for 2 doses.",
+                "interventionNames": [
+                  "Biological: EA5"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Participants were administered EA5 900 milligram (mg) on Day 1 and Day 8, EA5 1400 mg on Day 15, and then EA5 1400 mg every 4 weeks for 2 doses.",
+                "interventionNames": [
+                  "Biological: EA5"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "EA5",
+                "description": "All treatments were given as IV infusions.",
+                "armGroupLabels": [
+                  "Cohort 1 and Cohort 1'",
+                  "Cohort 2 and Cohort 2'",
+                  "Cohort 3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+                "description": "TEAEs were defined as AEs that occurred on or after the date and time of study drug administration, or those that first occurred before dosing but worsened in frequency or severity after study drug administration. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+                "timeFrame": "Baseline up to Week 14"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Observed Serum Concentration (Cmax) of EA5",
+                "description": "Blood samples were collected for analysis of Cmax",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Time To Maximum Observed Serum Concentration (Tmax) of EA5",
+                "description": "Blood samples were collected for analysis of Tmax",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero To The Time of The Last Quantifiable Concentration (AUC0-t) of EA5",
+                "description": "Blood samples were collected for analysis of AUC0-t",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero (Dosing) To Infinity (AUCinf) of EA5",
+                "description": "Blood samples were collected for analysis of AUCinf",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Terminal Elimination Rate Constant (\u03bbz) of Serum EA5",
+                "description": "Blood samples were collected for analysis of \u03bbz",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Terminal Elimination Half-life (t\u00bd) of Serum EA5",
+                "description": "Blood samples were collected for analysis of t\u00bd",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Total Clearance (CL) of EA5",
+                "description": "Blood samples were collected for analysis of CL",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Percent Change From Baseline in Free Complement Component 5 (C5)",
+                "description": "Blood samples were collected for analysis of free C5 concentrations.",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Percent Change From Baseline in Total Complement C5",
+                "description": "Blood samples were collected for analysis of total C5 concentrations.",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Percent Change From Baseline in determination of terminal complement activity in serum",
+                "description": "Blood samples were collected for analysis of determination of terminal complement activity",
+                "timeFrame": "Baseline up to Week 14"
+              },
+              {
+                "measure": "Percentage of Participants With Positive Anti-Drug Antibody (ADA)",
+                "description": "Blood samples were collected to evaluate antibody response through development of ADAs.",
+                "timeFrame": "Baseline up to Week 14"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female subjects aged \u226518 years.\n* Body weight between 40 kg and 100 kg (inclusive) at screening.\n* Patients diagnosed with PNH, confirmed by flow cytometry demonstrating a PNH clone size (glycosylphosphatidylinositol-anchored protein-deficient granulocytes or monocytes) of \u226510% in peripheral blood, and meeting one of the following criteria:\n\n  * a) Previously naive to complement inhibitor therapy; or\n  * b) Previously treated with a complement inhibitor, which has been discontinued for \u22655 half-lives prior to screening.\n* Lactate dehydrogenase (LDH) level \u22651.5 times the upper limit of normal (ULN) at screening.\n* Presence of one or more of the following PNH-related signs or symptoms within 3 months prior to screening: fatigue, hemoglobinuria, abdominal pain, shortness of breath (dyspnea), anemia (hemoglobin \\<10 g/dL), history of major thrombotic event (including thrombosis), dysphagia, or erectile dysfunction; or a history of packed red blood cell (pRBC) transfusion due to PNH.\n* Vaccination against Neisseria meningitidis(serogroups A, C, W, Y) within \\<3 years prior to the initiation of study treatment; OR if not previously vaccinated, receipt of the meningococcal vaccine (MPV-ACYW) at least 14 days prior to the first dose of the investigational product. If the vaccine is administered within 14 days before dosing, antibiotic prophylaxis must be provided until 2 weeks post-vaccination.\n* Vaccination against Streptococcus pneumoniaeaccording to national vaccination recommendations (e.g., ACIP guidelines). OR if not previously vaccinated, receipt of the pneumococcal vaccine at least 14 days prior to the first dose of the investigational product. If the vaccine is administered within 14 days before dosing, antibiotic prophylaxis must be provided until 2 weeks post-vaccination.\n* For patients receiving concomitant therapies (e.g., immunosuppressants, corticosteroids, iron supplements, anticoagulants, erythropoiesis-stimulating agents): the dose must have been stable for \u226528 days prior to the first dose of the investigational product.\n* Platelet count \u226530 \u00d7 10\\^9/L at screening (without transfusion support within 7 days), and absolute neutrophil count (ANC) \u22650.5 \u00d7 10\\^9/L (without short-acting granulocyte colony-stimulating factor (G-CSF) within 14 days or long-acting G-CSF within 28 days).\n* Adequate liver function, defined as alanine aminotransferase (ALT) \u22643 \u00d7 ULN, OR both direct bilirubin and alkaline phosphatase (ALP) \u22642 \u00d7 ULN at screening.\n* Adequate renal function, defined as serum creatinine \u22642.5 \u00d7 ULN and an estimated creatinine clearance \u226530 mL/min as calculated by the Cockcroft-Gault formula.\n* Male subjects must agree to use effective contraception (including vasectomy, abstinence, or condom) from screening until 6 months after the final study intervention. Women of childbearing potential (WOCBP) must have a negative blood pregnancy test at screening and baseline. During the study and for 6 months thereafter, all subjects and their partners must agree to use effective contraceptive measures (Note: contraceptive measures include both pharmacological and non-pharmacological methods).\n* Ability to understand the procedures and methods of the study, willingness to provide written informed consent, and commitment to strictly adhere to the clinical study protocol to complete the study.\n\nExclusion Criteria:\n\n* History of allogeneic bone marrow transplantation.\n* History of Neisseria meningitidisinfection within 6 months prior to screening and before the first dose.\n* Known or suspected immunodeficiency (e.g., history of frequent or recurrent infections).\n* Known or suspected hereditary complement deficiency.\n* Evidence of active tuberculosis (TB) within 6 months prior to screening, or a history of active TB without having completed an appropriate, documented course of treatment; OR chest X-ray (posteroanterior and lateral) or CT scan findings during the 3 months prior to screening or during the screening period that suggest the presence of active TB infection.\n* History of major surgery (Grade 3 or 4 surgery) within 3 months prior to the first dose.\n* Presence of an autoimmune disease, OR use of systemic immunosuppressive/immunomodulatory agents (including, but not limited to, methotrexate, cyclosporine, mycophenolate, tacrolimus, penicillamine, sulfasalazine, hydroxychloroquine, azathioprine, cyclophosphamide) for the treatment of inflammatory diseases within 12 weeks or 5 half-lives (whichever is longer) prior to screening.\n* Active systemic bacterial, viral, or fungal infection within 14 days prior to the first dose; OR requirement for hospitalization or intravenous antibiotic therapy for an infection between 28 days prior to screening and the first dose; OR requirement for oral antibiotic therapy for an infection between 14 days prior to screening and the first dose.\n* Occurrence of fever (\u226538\u00b0C) within 7 days prior to the first drug administration.\n* Administration of any live-attenuated vaccine within 1 month prior to the first dose.\n* History of malignancy within 5 years prior to screening and before the first dose, with the following exceptions: patients with any malignancy that has been treated with curative intent and who have been disease-free and off treatment for \\>5 years prior to the first dose may be enrolled. Patients with a history of basal cell carcinoma, squamous cell carcinoma of the skin, or carcinoma in situof the cervix that has been cured with no evidence of recurrence at any time prior to the first dose may be enrolled. Patients with a history of low-grade, early-stage prostate cancer (Gleason score \u22646, Stage 1 or 2) not requiring treatment at any time prior to the first dose may be enrolled.\n* History of allergy to any component of EA5, including a history of hypersensitivity to human, humanized, or murine monoclonal antibodies, or known hypersensitivity to any excipient of the product.\n* Any contraindication to receiving the meningococcal vaccination and/or antibiotic prophylaxis (e.g., beta-lactam antibiotics, ciprofloxacin) as required by the study protocol.\n* Participation in another interventional therapeutic clinical trial involving an investigational drug or receipt of any experimental therapy within 3 months (or within 5 half-lives of the investigational agent, whichever is longer) prior to screening.\n* History of drug abuse within 12 months prior to screening, as judged by the investigator.\n* Alcohol abuse, or regular alcohol consumption exceeding 14 units per week within 6 months prior to screening (1 unit of alcohol \u2248 360 mL of beer, or 45 mL of 40% spirits, or 150 mL of wine).\n* Splenectomy performed within \u22646 months prior to screening.\n* Positive for hepatitis C virus (HCV) antibody at screening (except for those with a negative HCV RNA result), positive for human immunodeficiency virus (HIV) antibody, positive for anti-Treponema pallidumantibody (TP-Ab) (except for those with a negative RPR or TRUST test), OR positive for hepatitis B virus (HBV) surface antigen (HBsAg) (except for those with an HBV DNA level \u22641000 IU/mL).\n* History of or ongoing cryoglobulinemia at the time of screening.\n* History of myelodysplastic syndromes (MDS), with a Revised International Prognostic Scoring System (IPSS-R) risk category of Intermediate, High, or Very High.\n* Any other condition that, in the opinion of the investigator, renders the subject unsuitable for participation in the trial.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Fengkui zhang, Dr.",
+                "role": "CONTACT",
+                "phone": "+86-022-23909999",
+                "email": "zhfk@hotmail.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Fengkui Zhang, Dr.",
+                "affiliation": "The Institute of Hematology & Blood Diseases Hospital (Chinese Academy of Medical Sciences)",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              },
+              {
+                "name": "Hongyan Tong, Dr.",
+                "affiliation": "The First Affiliated Hospital, Zhejiang University School of Medicine, Chengzhan Campus",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Institute of Hematology & Blood Diseases Hospital (Chinese Academy of Medical Sciences)",
+                "status": "RECRUITING",
+                "city": "Tianjin",
+                "state": "Tianjin Municipality",
+                "zip": "300020",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Fengkui Zhang, Dr.",
+                    "role": "CONTACT",
+                    "phone": "+86-022-23909999",
+                    "email": "zhfk@hotmail.com"
+                  },
+                  {
+                    "name": "Fengkui Zhang, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.14222,
+                  "lon": 117.17667
+                }
+              },
+              {
+                "facility": "The First Affiliated Hospital, Zhejiang University School of Medicine, Chengzhan Campus",
+                "status": "RECRUITING",
+                "city": "Hangzhou",
+                "state": "Zhejiang",
+                "zip": "310009",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hongyan Tong, Dr.",
+                    "role": "CONTACT",
+                    "phone": "+86-0571-56181000",
+                    "email": "hongyantong@yahoo.com.cn"
+                  },
+                  {
+                    "name": "Hongyan Tong, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.29365,
+                  "lon": 120.16142
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07818291",
+            "orgStudyIdInfo": {
+              "id": "C-EA5-2502"
+            },
+            "organization": {
+              "fullName": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Open-label, Dose-escalation Phase Ib Study of EA5 Injection in Adults With Anti-AChR Antibody-Positive Generalized Myasthenia Gravis",
+            "officialTitle": "An Open-label, Dose-escalation Phase Ib Clinical Trial to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of Multiple Doses of EA5 Humanized Monoclonal Antibody in Adult Patients With Anti-AChR Antibody-Positive Generalized Myasthenia Gravis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-09-15",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-09-01",
+            "studyFirstSubmitQcDate": "2026-09-08",
+            "studyFirstPostDateStruct": {
+              "date": "2026-09-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase Ib, open-label, dose-escalation, single-center/multicenter study to evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and preliminary efficacy of multiple doses of EA5 (a humanized anti-complement C5 monoclonal antibody) in adult participants with anti-AChR antibody-positive generalized myasthenia gravis (gMG) who have not previously received complement inhibitor therapy. Approximately 18 participants will be enrolled. The study consists of a screening period (Day -42 to Day -1), a loading period (Day 1 to Day 14), a treatment observation period (Day 15/Week 3 to Day 99/Week 15), and an end-of-study visit (up to Day 155/Week 23). All participants receive a loading does , then are assigned to one of three maintenance dose cohorts: Cohort 1 (Low Dose), Cohort 2 (MID Dose), and Cohort 3 (High Dose). The primary objective is to assess safety and tolerability. Secondary objectives include preliminary efficacy, PK, PD (complement inhibition), and immunogenicity."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Generalized Myasthenia Gravis (gMG)"
+            ],
+            "keywords": [
+              "EA5",
+              "Generalized Myasthenia Gravis",
+              "Complement C5 Inhibitor",
+              "Phase Ib",
+              "Anti-AChR"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 18,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Administration of low-dose EA5",
+                "type": "EXPERIMENTAL",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              },
+              {
+                "label": "Administration of mid-dose EA5",
+                "type": "EXPERIMENTAL",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              },
+              {
+                "label": "Administration of high-dose EA5",
+                "type": "EXPERIMENTAL",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 4 weeks(Q4W).",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EA5",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "armGroupLabels": [
+                  "Administration of low-dose EA5"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "EA5",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "armGroupLabels": [
+                  "Administration of mid-dose EA5"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "EA5",
+                "description": "First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 4 weeks(Q4W).",
+                "armGroupLabels": [
+                  "Administration of high-dose EA5"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence and Severity of Treatment Emergent Adverse Events (TEAEs)",
+                "timeFrame": "Baseline up to Week 14"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change and percentage change from baseline in MG-ADL total score.",
+                "description": "The proportion of participants who achieve the Myasthenia Gravis Activities of Daily Living Profile (MG-ADL) response , along with the 2-sided 95% CI",
+                "timeFrame": "Weeks 2, 4, 8, and 12"
+              },
+              {
+                "measure": "Change and percentage change from baseline in QMG total score.",
+                "description": "The mean change of quantitative myasthenia gravis (QMG) total score\uff0calong with 2-sided 95% CI",
+                "timeFrame": "Weeks 2, 4, 8, and 12"
+              },
+              {
+                "measure": "Change and percentage change from baseline in MGC total score.",
+                "description": "The mean change of myasthenia gravis composite (MGC) total score, along with 2-sided 95% CI",
+                "timeFrame": "Weeks 2, 4, 8, and 12"
+              },
+              {
+                "measure": "Change and percentage change from baseline in MG-QoL15r scale.",
+                "description": "The mean change of revised Myasthenia Gravis Quality of Life 15-Item Scale (MG-QoL 15r scale), along with 2-sided 95% CI",
+                "timeFrame": "Weeks 2, 4, 8, and 12]"
+              },
+              {
+                "measure": "Proportion of participants achieving MG-ADL response without rescue therapy.",
+                "description": "MG-ADL response defined as a decrease of \u22653 points after treatment.",
+                "timeFrame": "Weeks 2, 4, 8, and 12"
+              },
+              {
+                "measure": "Proportion of participants achieving an improvement of 4, 5, 6, 7, and \u22658 points from baseline in QMG total score without rescue therapy.",
+                "timeFrame": "Weeks 2, 4, 8, and 12"
+              },
+              {
+                "measure": "Maximum Observed Serum Concentration (Cmax) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero To The Time of The Last Quantifiable Concentration (AUC0-t) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Area Under the Concentration-Time Curve from Time Zero to Infinity (AUC0-\u221e) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Minimum Steady-State Concentration (Cmin,ss) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Maximum Steady-State Concentration (Cmax,ss) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Average Steady-State Concentration (Cav.ss) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Steady-State Trough Concentration (Ctrough,ss) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Time to Maximum Steady-State Concentration (Tmax,ss) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Area Under the Concentration-Time Curve over One Dosing Interval at Steady State (AUC0-\u03c4) of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Degree of Fluctuation of EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Serum total complement hemolytic activity (CH50",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Serum total C5 concentration",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Serum free C5 concentration",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Concentrations of plasma soluble C5b-9 (sC5b-9)",
+                "description": "Concentration of plasma soluble Complement 5b-9 (sC5b-9)",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Anti-acetylcholine receptor antibody (AChR-Ab) titer",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Incidence of anti-drug antibodies (ADA) against the humanized monoclonal antibody EA5",
+                "timeFrame": "Baseline up to Week 23"
+              },
+              {
+                "measure": "Incidence of Incidence of neutralizing antibodies (NAb) against the humanized monoclonal antibody EA5",
+                "timeFrame": "Baseline up to Week 23"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female aged \u226518 years.\n2. Diagnosis of myasthenia gravis (MG) confirmed by:\n\n   1. positive serology for anti-acetylcholine receptor (AChR) antibody at screening; and\n   2. any one of the following: abnormal neuromuscular transmission confirmed by repetitive nerve stimulation; history of positive anticholinesterase test (e.g., neostigmine test); or improvement in MG signs after oral cholinesterase inhibitors as assessed by the treating physician.\n3. Body weight between 40 kg and 100 kg (inclusive) at screening.\n4. MGFA clinical classification Class II to IVa at screening.\n5. MG-ADL total score \u22655 at screening, with more than 50% of the total score from non-ocular symptoms.\n6. For participants receiving immunosuppressive therapy (IST) (e.g., azathioprine \\[AZA\\], mycophenolate mofetil \\[MMF\\], methotrexate \\[MTX\\], cyclophosphamide \\[CY\\]): treatment for \u22656 months prior to screening and stable dose for \u22652 months (calculated as 30 days per month).\n7. For participants receiving other IST (e.g., cyclosporine \\[CsA\\], tacrolimus \\[TAC\\]): treatment for \u22653 months prior to screening and stable dose for \u22651 month.\n8. For participants receiving corticosteroid therapy at enrollment: stable dose (not exceeding 30 mg/day prednisone acetate or equivalent) for \u226528 days prior to screening.\n9. For participants receiving cholinesterase inhibitor therapy: stable dose for \u226514 days prior to screening.\n10. At screening, laboratory tests must meet: (a) Alanine aminotransferase (ALT) and Aspartate aminotransferase (AST) \\<1.5\u00d7ULN; (b) serum total bilirubin \\<1.5\u00d7ULN (\\<3\u00d7ULN for confirmed Gilbert's syndrome); (c) Hemoglobin \u2265100 g/dL; (d) Platelet count \\>75\u00d710\u2079/L; (e) International normalized ratio (INR) and activated partial thromboplastin time (aPTT) \\<1.5\u00d7ULN; (f) serum creatinine \\<1.5\u00d7ULN and eGFR \\>90 mL/min/1.73m\u00b2; (g) basically normal immune function as assessed by the investigator (lymphocyte count \u22651\u00d7LLN, IgG \u22651\u00d7LLN).\n11. To reduce the risk of meningococcal infection (Neisseria meningitidis): participants must be vaccinated at least 14 days prior to the first dose of study drug if not vaccinated within the valid coverage period; if vaccinated within 14 days before dosing, antibiotic prophylaxis must be provided until 2 weeks post-vaccination (penicillin V potassium recommended; cefaclor or other antibiotics may be used if penicillin is unavailable or the participant is allergic; fluoroquinolones and macrolides are not recommended).\n12. To reduce the risk of pneumococcal infection: vaccination against Streptococcus pneumoniae is required; if previously vaccinated, vaccination may be waived during screening; if not previously vaccinated, vaccination must be given at least 14 days prior to the first dose (antibiotic prophylaxis as described in item 11).\n13. For females of childbearing potential: serum \u03b2-HCG pregnancy test must be negative at screening; effective and reliable contraception must be used during the study and for at least 6 months after discontinuation of study intervention (women of childbearing potential are defined as premenopausal women who have not undergone sterilization; menopause is defined as amenorrhea for \u226512 months without alternative medical measures; FSH \\>40 mIU/mL confirms menopause).\n14. Male participants must agree to use effective contraceptive measures (vasectomy, abstinence, condom use) throughout the study period (from screening to 6 months after study completion); female participants of childbearing potential must have negative blood pregnancy tests at screening and baseline, and female participants, male participants, and their sexual partners must agree to use contraceptive measures during the study and for 6 months after completion (both pharmacological and non-pharmacological methods are acceptable).\n15. Capable of understanding the study procedures and methods, willing to sign the Informed Consent Form (ICF), and able to strictly adhere to the clinical study protocol to complete the study.\n\nExclusion Criteria:\n\n1. Presence of untreated thymic epithelial tumors (including all types of thymoma or thymic carcinoma), extrathymic germ cell tumor, or other malignant mediastinal masses at the screening visit; or, as judged by the investigator, presence of thymic cysts or other space-occupying lesions requiring immediate intervention.\n2. History of thymectomy or any other thymic surgery within 12 months prior to screening, or planned thymectomy during the trial period.\n3. Prior history of thymic tumor is permitted for enrollment only if the subject meets all criteria in either of the following risk groups:\n\nLow recurrence risk group: Subjects with histopathologically confirmed thymoma of Masaoka-Koga stages I-II (WHO types A, AB, B1, or B2) who meet all of the following criteria are eligible for enrollment in this study:\n\n1. Curative treatment (e.g., R0 surgical resection) completed \u2265 12 months prior to the screening visit;\n2. No clinical evidence of recurrence within 12 months prior to screening;\n3. No radiological evidence of recurrence confirmed by contrast-enhanced chest CT or MRI within 6 months prior to randomization.\n\nHigh recurrence risk group: Subjects with histopathologically confirmed thymic carcinoma (WHO type C) or Masaoka-Koga stages III-IV thymoma (including WHO type B3) who meet all of the following criteria are eligible for enrollment:\n\n1. Curative treatment (surgery with or without radiotherapy/chemotherapy and other combined-modality therapy) completed \\> 5 years prior to the screening visit;\n2. No clinical evidence of recurrence within 5 years;\n3. No evidence of recurrence or distant metastasis confirmed by contrast-enhanced chest CT or MRI within 6 months prior to randomization.\n\n   \\[Note: If a participant cannot provide complete original histopathology reports or Masaoka-Koga staging records, they must be evaluated according to the high recurrence risk group criteria (i.e., treatment completed \\> 5 years with no evidence of recurrence).\\]\n4. Weakness involving only ocular or periorbital muscles (MGFA Class I).\n5. Occurrence of MG crisis (MGFA Class V) within 6 months prior to screening.\n6. Known positive serology for muscle-specific receptor tyrosine kinase (MuSK) or lipoprotein receptor-related protein 4 (LRP4), or negative results for both anti-AChR and anti-MuSK antibodies.\n7. Pregnant, lactating, or planning to become pregnant during the study period.\n8. Any systemic bacterial infection or other infection deemed clinically significant by the investigator, or requiring intravenous antibiotic therapy within 28 days prior to the first dose.\n9. Positive for hepatitis C virus (HCV) antibody at screening (except for those with negative HCV RNA); positive for human immunodeficiency virus (HIV) antibody; positive for anti-Treponema pallidum antibody (TP-Ab) (except for those with negative RPR or TRUST); or positive for hepatitis B virus (HBV) surface antigen (HBsAg) and/or HBV core antibody (HBcAb) with HBV-DNA above the upper limit of detection.\n10. History of Neisseria meningitidis infection or unresolved meningococcal disease within 6 months prior to screening up to first dose.\n11. Body temperature \u226538\u00b0C within 7 days prior to first treatment.\n12. Use of intravenous immunoglobulin (IVIg) within 4 weeks prior to first treatment.\n13. Use of plasma exchange or immunoadsorption within 4 weeks prior to first treatment.\n14. Prior use of complement inhibitors (e.g., eculizumab, ravulizumab, crovalimab, or other complement inhibitors).\n15. Use of telitacicept or other B-cell stimulating factor inhibitors within 3 months or 5 half-lives prior to screening (whichever is longer); use of rituximab, ocrelizumab, or other B-cell depletion therapies within 6 months prior to screening.\n16. Use of human neonatal Fc receptor (FcRn) inhibitors within a period less than 5 half-lives prior to the first dose of study drug.\n17. History of suicide attempt within the past 12 months, or suicidal ideation or behavior at screening, as assessed by the Columbia-Suicide Severity Rating Scale (C-SSRS).\n18. Participation in any other investigational drug study or exposure to other investigational drugs, devices, or procedures within 30 days prior to screening (investational drugs for complement inhibitors, B-cell depletion therapies, and FcRn inhibitors are governed by exclusion criteria 12, 13, and 14, respectively).\n19. Suspected allergy to any excipient of the product.\n20. Any medical condition that, in the opinion of the investigator, may interfere with the participant's participation in the study, pose any additional risk to the participant, or interfere with the assessment of the participant.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Jianying Xi, Doctor",
+                "role": "CONTACT",
+                "phone": "021-52889999",
+                "email": "xijianying@fudan.edu.cn"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Beijing Hospital",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100730",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jian Yin, Master",
+                    "role": "CONTACT",
+                    "phone": "010-85132266",
+                    "email": "M13611177824@163.com"
+                  },
+                  {
+                    "name": "Jian Yin, Master",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Xin Wang, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Huashan Hospital, Fudan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200040",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jianying Xi, Dr.",
+                    "role": "CONTACT",
+                    "phone": "021-52889999",
+                    "email": "xijianying@fudan.edu.cn"
+                  },
+                  {
+                    "name": "Jianying Xi, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Xiaojie Wu, Dr.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009157",
+                "term": "Myasthenia Gravis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020361",
+                "term": "Paraneoplastic Syndromes, Nervous System"
+              },
+              {
+                "id": "D009423",
+                "term": "Nervous System Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D010257",
+                "term": "Paraneoplastic Syndromes"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D020511",
+                "term": "Neuromuscular Junction Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07256288",
+            "orgStudyIdInfo": {
+              "id": "C-EA5-2301"
+            },
+            "organization": {
+              "fullName": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase Ia Study of the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Single Doses of EA5 in Healthy Adult Subjects",
+            "officialTitle": "A Single-Center, Double-Blind, Placebo-Controlled, Dose-Escalating Phase Ia Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetic/Pharmacodynamic Characteristics of EA5 in a Single Dose in Adult Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-05-31",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-08-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-08-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-11-20",
+            "studyFirstSubmitQcDate": "2025-11-20",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single-center, double-blind, placebo-controlled, dose-escalating Phase Ia clinical study designed to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of a single dose of EA5 in healthy adult subjects.",
+            "detailedDescription": "The study plans to enroll up to 28 subjects. Its primary purpose is to conduct a preliminary assessment of the exposure, safety, and pharmacokinetic profile of EA5 in humans, thereby informing the confirmation or adjustment of the formal trial design. The trial is structured into a pilot phase and a formal phase, encompassing a total of five planned dose cohorts: the pilot trial involves two dose groups (90 mg and 180 mg), each with 2 subjects receiving the active drug; the formal trial consists of three dose groups (360 mg, 720 mg, and 1440 mg), where participants are randomized in a 3:1 ratio (6 subjects receiving the active drug EA5 and 2 subjects receiving placebo per cohort), administered via intravenous (IV) infusion.A 57-day observation period was performed for safety, pharmacokinetic, and pharmacodynamic assessments after study drug administration. Antidrug antibody (ADA) levels were monitored in study participants for the duration of the 57-day follow-up period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteers"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 28,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "EA5 90mg",
+                "type": "EXPERIMENTAL",
+                "description": "EA5 was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              },
+              {
+                "label": "EA5 180mg",
+                "type": "EXPERIMENTAL",
+                "description": "EA5 was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              },
+              {
+                "label": "EA5 360mg",
+                "type": "EXPERIMENTAL",
+                "description": "EA5 was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "EA5 720mg",
+                "type": "EXPERIMENTAL",
+                "description": "EA5 was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "EA5 1440mg",
+                "type": "EXPERIMENTAL",
+                "description": "EA5 was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo was administered intravenously.",
+                "interventionNames": [
+                  "Drug: EA5"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EA5",
+                "description": "All doses of EA5 were administered by IV infusion, using programmable IV infusion pump and IV sets with in-line filters.",
+                "armGroupLabels": [
+                  "EA5 1440mg",
+                  "EA5 180mg",
+                  "EA5 360mg",
+                  "EA5 720mg",
+                  "EA5 90mg",
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "All doses of placebo were administered by IV infusion, using programmable IV infusion pump and IV sets with in-line filters.",
+                "armGroupLabels": [
+                  "EA5 1440mg",
+                  "EA5 360mg",
+                  "EA5 720mg"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+                "description": "TEAEs were defined as AEs that occurred on or after the date and time of study drug administration, or those that first occurred before dosing but worsened in frequency or severity after study drug administration. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+                "timeFrame": "Baseline up to Day 57"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Observed Serum Concentration (Cmax) of EA5",
+                "description": "Blood samples were collected for analysis of Cmax",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Time To Maximum Observed Serum Concentration (Tmax) of EA5",
+                "description": "Blood samples were collected for analysis of Tmax",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero To The Time of The Last Quantifiable Concentration (AUC0-t) of EA5",
+                "description": "Blood samples were collected for analysis of AUC0-t",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero (Dosing) To Infinity (AUCinf) of EA5",
+                "description": "Blood samples were collected for analysis of AUCinf",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Terminal Elimination Rate Constant (\u03bbz) of Serum EA5",
+                "description": "Blood samples were collected for analysis of \u03bbz",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Terminal Elimination Half-life (t\u00bd) of Serum EA5",
+                "description": "Blood samples were collected for analysis of t\u00bd",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Total Clearance (CL) of EA5",
+                "description": "Blood samples were collected for analysis of CL",
+                "timeFrame": "30 minutes predose, 5 minutes, 1, 2, 6, 24, hours postdose, then at Days 3, 4, 8, 15, 29, 43, 57"
+              },
+              {
+                "measure": "Percent Change From Baseline in Free Complement Component 5 (C5)",
+                "description": "Blood samples were collected for analysis of free C5 concentrations.",
+                "timeFrame": "Baseline, Day 57"
+              },
+              {
+                "measure": "Percent Change From Baseline in Total Complement C5",
+                "description": "Blood samples were collected for analysis of total C5 concentrations.",
+                "timeFrame": "Baseline, Day 57"
+              },
+              {
+                "measure": "Percent Change From Baseline in determination of terminal complement activity in serum",
+                "description": "Blood samples were collected for analysis of determination of terminal complement activity",
+                "timeFrame": "Baseline, Day 57"
+              },
+              {
+                "measure": "Percentage of Participants With Positive Anti-Drug Antibody (ADA)",
+                "description": "lood samples were collected to evaluate antibody response through development of ADAs.",
+                "timeFrame": "Baseline up to Day 57"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy subjects aged 18 to 55 years (inclusive), regardless of gender.\n* Body weight \u226550 kg (male) or \u226545 kg (female), and a body mass index (BMI) between 18 and 28 kg/m\u00b2 (inclusive).\n* Must have received the meningococcal polysaccharide vaccine MenACWY (containing serogroups A, C, W, and Y) at least two weeks prior to dosing.\n* Subjects must be able to communicate effectively with the investigator and are expected to comply with the study procedures as defined in the protocol.\n* Subjects must be in good general health, as judged by the investigator based on medical history, physical examination, vital signs, electrocardiogram (ECG), chest X-ray, abdominal ultrasound, and laboratory test results.\n* Male subjects agree to use effective contraception (vasectomy, abstinence, or condom) from screening until 6 months after the final study intervention. Female subjects must have a negative blood pregnancy test at screening and baseline. Throughout the study and for 6 months thereafter, all subjects and their partners (if of childbearing potential) must use highly effective non-pharmacological contraception.\n* Subjects must provide written informed consent voluntarily before any study-specific procedures are performed.\n* Systolic and diastolic blood pressure must be within the normal range, or exhibit abnormalities deemed clinically insignificant by the investigator.\n\nExclusion Criteria:\n\n* History of severe drug allergy; or a clear history of allergy and/or known allergy to the investigational product or any of its excipients, which in the opinion of the investigator, renders the subject unsuitable for participation in the study.\n* Prior history of splenectomy.\n* History of pulmonary tuberculosis.\n* Congenital or acquired complement deficiency (e.g., hypocomplementemia).\n* Any contraindication to antibiotic prophylaxis (e.g., beta-lactam antibiotics, ciprofloxacin) for meningococcal infection\n* Positive test for hepatitis C virus (HCV) antibody, human immunodeficiency virus (HIV) antibody, treponemal antibody (TP-Ab), or hepatitis B virus (HBV) surface antigen (HBsAg) at screening\n* Presence of symptoms or a significant history of any major disease, including but not limited to cardiac, hepatic, renal, other acute or chronic gastrointestinal or respiratory diseases; hematological, endocrine, neurological, psychiatric disorders; or any other disease or physiological condition that could interfere with the interpretation of the study results.\n* Participation in any clinical trial involving an investigational drug or medical device within 3 months prior to screening, or within 5 half-lives of the previous investigational drug prior to screening (whichever is longer)\n* Blood loss or donation \\> 400 mL within 3 months prior to screening, or \\> 200 mL within 4 weeks prior to screening, or intention to donate blood during the study period\n* Average cigarette smoking of \u22655 cigarettes per day within 3 months prior to the study\n* Alcohol abuse or regular alcohol consumption exceeding 14 units per week within 6 months prior to screening (1 unit \u2248 360 mL beer, 45 mL 40% spirits, or 150 mL wine), or a positive alcohol breath test at screening.\n* History of drug abuse or a positive urine drug screen at screening\n* Undergone surgery or received blood or blood product transfusion within 1 month prior to screening\u3002\n* Administration of any live or live-attenuated vaccine within 1 month prior to the first dose\u3002\n* Use of any prescription drugs, over-the-counter medications, herbal medicines, or vitamins within 14 days or 5 half-lives (whichever is longer) prior to screening\u3002\n* Presence of any active infection (viral, bacterial, or fungal), including herpes zoster or herpes simplex, within 14 days prior to dosing.\n* History of fever (\u226538\u00b0C) within 7 days prior to the first dose.\n* Female subjects who are pregnant or lactating, or who have engaged in unprotected sexual intercourse within 14 days prior to the study.\n* Inability to complete the study for any other reason, or considered by the investigator to be unsuitable for inclusion.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Wei Hu, Professor",
+                "affiliation": "The Second Hospital of Anhui Medical University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Second Affiliated Hospital of Anhui Medical University",
+                "city": "Hefei",
+                "state": "Anhui",
+                "zip": "230601",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.86389,
+                  "lon": 117.28083
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02472288",
+            "orgStudyIdInfo": {
+              "id": "2015008"
+            },
+            "organization": {
+              "fullName": "Kyunghee University",
+              "class": "OTHER"
+            },
+            "briefTitle": "Electroacupuncture on Post-stroke Urinary Retention",
+            "officialTitle": "Multicenter, Randomised Controlled Trial of Electroacupuncture Versus Sham Electroacupuncture for Urinary Retention of Poststroke Patients: a Study Protocol"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-08",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Difficulty in enrolling participants",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2015-04"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2016-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2016-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2015-06-09",
+            "studyFirstSubmitQcDate": "2015-06-10",
+            "studyFirstPostDateStruct": {
+              "date": "2015-06-15",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-08-29",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-08-31",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "PRINCIPAL_INVESTIGATOR",
+              "investigatorFullName": "Lee Eui-ju",
+              "investigatorTitle": "Professor",
+              "investigatorAffiliation": "Kyunghee University"
+            },
+            "leadSponsor": {
+              "name": "Kyunghee University",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Daejeon University",
+                "class": "OTHER"
+              },
+              {
+                "name": "DongGuk University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study aimed to evaluate the effectiveness of adjuvant electroacupuncture therapy for the post-stroke patients with urinary retention under conventional treatments, compared with sham electroacupuncture."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Urinary Retention",
+              "Stroke, Complication"
+            ],
+            "keywords": [
+              "urinary retention",
+              "poststroke",
+              "electroacupuncture",
+              "randomized controlled trial",
+              "effectiveness",
+              "safety"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 25,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Electroacupuncture (EA) group",
+                "type": "EXPERIMENTAL",
+                "description": "1. Electroacupuncture therapy (10 sessions in total, 5 per a week, 2 weeks)\n2. BL31, BL32, BL33, and BL34 (total 8 acupoints, bilateral)\n3. 20 minutes duration, middle frequency (30 Hz) of electrical stimulation\n4. conventional treatments permitted",
+                "interventionNames": [
+                  "Device: Electroacupuncture (EA)"
+                ]
+              },
+              {
+                "label": "Sham group",
+                "type": "SHAM_COMPARATOR",
+                "description": "1. Non-penetrating Park sham electroacupuncture treatment (10 sessions in total, 5 per a week, 2 weeks)\n2. BL31, BL32, BL33, and BL34 (total 8 acupoints on the right and left sides)\n3. 20 minutes duration, undelivered electrostimulation of middle frequency (30 Hz)\n4. conventional treatments permitted",
+                "interventionNames": [
+                  "Device: Sham electroacupuncture"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DEVICE",
+                "name": "Electroacupuncture (EA)",
+                "description": "The EA group receives 10 sessions of EA therapy (5 per a week, 2 weeks). After inserting needles by 5-10 mm (stainless steel, 0.25 mm in diameter and 4.0 mm in length, Dong Bang Acupuncture Inc., Korea) using the Park sham guide tube on the 8 points (BL31, BL32, BL33, and BL34, bilateral sides), de qi response is elicited. The electrical stimulation is then presented for 20 minutes by middle frequency (30 Hz) (STN-111, Stratek, Korea). Conventional treatments (western/traditional herbal medications, rehabilitation, or acupuncture without electro-stimulation for stroke, and western/traditional herbal medications or acupuncture without electro-stimulation for urinary retention) are allowed during the intervention period. The practitioner should have over 1-year clinical experiences.",
+                "armGroupLabels": [
+                  "Electroacupuncture (EA) group"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Sham electroacupuncture",
+                "description": "The patients in sham group receive totally 10 sessions of the sham EA (5 sessions per a week, for 2 weeks). Non-penetrating needles of Park sham device are implemented on the bilateral points of BL31, BL32, BL33, and BL34 (total 8 acupoints). Then, the electro-stimulation is presented for 20 minutes by middle frequency (30 Hz) (STN-111, Stratek, Korea), even though the electrical stimulation is not delivered through the skin. Conventional treatments for stroke and urinary retention along with EAT are not eliminated. It is also necessary for the practitioner with more than 1-year experiences on the clinical field.",
+                "armGroupLabels": [
+                  "Sham group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change of daily PVR (Postvoid Residual) urine ratios between the baseline and the endpoint",
+                "description": "* daily PVR ratio = daily PVR urine volume / (daily PVR urine volume + self voiding volume)\n* Baseline measurement: daily PVR ratio for 24 hours on the day before the first intervention day Endpoint measurement: daily PVR ratio for 24 hours within 3 days after the last intervention day\n* If more than 7 sessions of EA or sham EA are completed and urinary tract is not infected at the end, then the urine volume is measured on the next day of the last intervention.\n* If more than 7 sessions of EA or sham EA are completed and urinary tract is infected at the end, then the urine volume is measured on the 3rd day of the last intervention after anti-infection treatment is carried out for 48 hours.",
+                "timeFrame": "Day 0 (baseline), Day 14(endpoint)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Urinary tract infection (UTI)",
+                "description": "After 7-10 sessions of the EA or sham EA, patients get urinalysis to figure out whether UTI exists. If a patient has UTI, he/she gets antibiotics for 48 hours. When no UTI is found with reexamination of urinalysis, then daily PVR is going to be assessed and included in the final ITT (Intention To Treat) analysis. Otherwise, the data from the patients will be included only in the PP (Per Protocol) analysis.",
+                "timeFrame": "Day 14(endpoint)"
+              },
+              {
+                "measure": "Korean version of Qualiveen Questionnaire (K-QQ)",
+                "description": "* The disease-specific QoL (quality of life) assessment scale for neurogenic bladder\n* Consisting of 30 items and each item is scored by 0 to 4. (The higher score in K-QQ is, the lower QoL of the patients is.)\n* The reliability and validity of K-QQ has been acquired in the previous studies.\n* If more than 7 sessions of EA or sham EA are completed and urinary tract is not infected at the end, then K-QQ is measured on the next day of the last intervention.\n* If more than 7 sessions of EA or sham EA are completed and urinary tract is infected at the end, then K-QQ is measured on the 3rd day of the last intervention after anti-infection treatment is carried out for 48 hours.",
+                "timeFrame": "Day 0 (baseline), Day 14(endpoint)"
+              },
+              {
+                "measure": "Korean version of International Prostate Symptom Scale (K-IPSS)",
+                "description": "* Assessment tool for symptoms in lower urinary tract\n* Consisting of 7 items (0 to 5 scores)\n* If more than 7 sessions of EA or sham EA are completed and urinary tract is not infected at the end, then K-IPSS is measured on the next day of the last intervention.\n* If more than 7 sessions of EA or sham EA treatment are completed and urinary tract is infected at the end, then K-IPSS is measured on the 3rd day of the last intervention after anti-infection treatment is carried out for 48 hours.",
+                "timeFrame": "Day 0 (baseline), Day 14(endpoint)"
+              },
+              {
+                "measure": "Blinding Index (BI)",
+                "description": "* Assessment of patients' blinding\n* Patients are asked which group you think you belong to during the study, and they selects one of the options, EA group, sham group, or Not knowing.",
+                "timeFrame": "Day 14(endpoint)"
+              },
+              {
+                "measure": "Frequencies of urination and urinary incontinence",
+                "description": "* Record of the frequencies of urination and urinary incontinence by urinary diary\n* 1 day before the first intervention and another day after the last intervention\n* Mean change between post- and pre-treatments in EA group comparing with the sham group",
+                "timeFrame": "Day 0 (baseline), Day 14(endpoint)"
+              },
+              {
+                "measure": "Adverse events",
+                "description": "* Ask any adverse events after EA or sham interventions and record them in case report forms\n* Evaluate the severity, seriousness, and relevance to the study",
+                "timeFrame": "Every treatment visit (5 times during Day 1~Day 7 & 5 times during Day 8~Day 14)"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Diabetes mellitus (DM) and benign prostatic hyperplasia (BPH)",
+                "description": "Check of diabetes mellitus (DM) and benign prostatic hyperplasia (BPH) in medical history.",
+                "timeFrame": "Day 0 (baseline)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* male or female aged over 19\n* Patients diagnosed with stroke (cerebral hemorrhage or infarction) based on the CT or MRI examination\n* Those whose onset is within 2 years\n* Those who have urinary retention after stroke onset (every PVR result is equal or more than 100ml on the 2 consecutive tests)\n* Those who signed on the informed consent form\n\nExclusion Criteria:\n\n* Patients who have any bleeding disorders based on medical history hearing\n* Patients who have ever had any medical procedures or surgeries for peripheral vascular diseases based on medical history hearing\n* Patients who have any psychiatry disorders based on medical history hearing\n* Patients who have any severe diseases in lower urinary tract symptom based on medical history hearing\n* Patients who have any acute or chronic infectious diseases in lower urinary tract symptom based on medical history hearing\n* Acute stage stroke patients (onset within 1 week) whose Glasgow Coma Scale \u2264 8\n* Patients who have fear about acupuncture\n* Patients who have changed medications for urinary retention or relevant symptoms, such as urinary incontinence drugs or diuretics, within 3 days\n* Female who diagnosed with pregnancy by urinalysis\n* Those who primary or sub investigators judge not to be suitable for the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Euiju Lee, Ph.D.",
+                "affiliation": "Kyunghee University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Cheonan Korean Medicine Hospital of the Daejeon University",
+                "city": "Cheonan",
+                "state": "Chungcheongnam-do",
+                "zip": "331-958",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 36.8065,
+                  "lon": 127.1522
+                }
+              },
+              {
+                "facility": "Dongguk University Ilsan Oriental Hospital",
+                "city": "Goyang-si",
+                "state": "Gyeonggi-do",
+                "zip": "410-773",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.65639,
+                  "lon": 126.835
+                }
+              },
+              {
+                "facility": "Kyung Hee University Korean Medicine Hospital",
+                "city": "Seoul",
+                "zip": "156-853",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "11083349",
+                "type": "BACKGROUND",
+                "citation": "Kong KH, Young S. Incidence and outcome of poststroke urinary retention: a prospective study. Arch Phys Med Rehabil. 2000 Nov;81(11):1464-7. doi: 10.1053/apmr.2000.9630."
+              },
+              {
+                "pmid": "16181941",
+                "type": "BACKGROUND",
+                "citation": "Wu J, Baguley IJ. Urinary retention in a general rehabilitation unit: prevalence, clinical outcome, and the role of screening. Arch Phys Med Rehabil. 2005 Sep;86(9):1772-7. doi: 10.1016/j.apmr.2005.01.012."
+              },
+              {
+                "pmid": "20167912",
+                "type": "BACKGROUND",
+                "citation": "Wu P, Mills E, Moher D, Seely D. Acupuncture in poststroke rehabilitation: a systematic review and meta-analysis of randomized trials. Stroke. 2010 Apr;41(4):e171-9. doi: 10.1161/STROKEAHA.109.573576. Epub 2010 Feb 18."
+              },
+              {
+                "pmid": "10753993",
+                "type": "BACKGROUND",
+                "citation": "Brittain KR, Perry SI, Peet SM, Shaw C, Dallosso H, Assassa RP, Williams K, Jagger C, Potter JF, Castleden CM. Prevalence and impact of urinary symptoms among community-dwelling stroke survivors. Stroke. 2000 Apr;31(4):886-91. doi: 10.1161/01.str.31.4.886."
+              },
+              {
+                "pmid": "2916918",
+                "type": "BACKGROUND",
+                "citation": "Garrett VE, Scott JA, Costich J, Aubrey DL, Gross J. Bladder emptying assessment in stroke patients. Arch Phys Med Rehabil. 1989 Jan;70(1):41-3."
+              },
+              {
+                "pmid": "20708280",
+                "type": "BACKGROUND",
+                "citation": "Mizrahi EH, Waitzman A, Arad M, Blumstein T, Adunksy A. Bladder management and the functional outcome of elderly ischemic stroke patients. Arch Gerontol Geriatr. 2011 Sep-Oct;53(2):e125-8. doi: 10.1016/j.archger.2010.07.007. Epub 2010 Aug 12."
+              },
+              {
+                "pmid": "11291687",
+                "type": "BACKGROUND",
+                "citation": "Mustonen S, Ala-Houhala IO, Tammela TL. Long-term renal dysfunction in patients with acute urinary retention. Scand J Urol Nephrol. 2001 Feb;35(1):44-8. doi: 10.1080/00365590151030804."
+              },
+              {
+                "pmid": "11554277",
+                "type": "BACKGROUND",
+                "citation": "Curtis LA, Dolan TS, Cespedes RD. Acute urinary retention and urinary incontinence. Emerg Med Clin North Am. 2001 Aug;19(3):591-619. doi: 10.1016/s0733-8627(05)70205-4."
+              },
+              {
+                "pmid": "23542501",
+                "type": "BACKGROUND",
+                "citation": "Smith MD, Seth JH, Fowler CJ, Miller RF, Panicker JN. Urinary retention for the neurologist. Pract Neurol. 2013 Oct;13(5):288-91. doi: 10.1136/practneurol-2012-000478. Epub 2013 Mar 29."
+              },
+              {
+                "pmid": "17970787",
+                "type": "BACKGROUND",
+                "citation": "Datta SN, Chaliha C, Singh A, Gonzales G, Mishra VC, Kavia RB, Kitchen N, Fowler CJ, Elneil S. Sacral neurostimulation for urinary retention: 10-year experience from one UK centre. BJU Int. 2008 Jan;101(2):192-6. doi: 10.1111/j.1464-410X.2007.07282.x. Epub 2007 Oct 26."
+              },
+              {
+                "pmid": "20934242",
+                "type": "BACKGROUND",
+                "citation": "Kessler TM, La Framboise D, Trelle S, Fowler CJ, Kiss G, Pannek J, Schurch B, Sievert KD, Engeler DS. Sacral neuromodulation for neurogenic lower urinary tract dysfunction: systematic review and meta-analysis. Eur Urol. 2010 Dec;58(6):865-74. doi: 10.1016/j.eururo.2010.09.024. Epub 2010 Oct 1."
+              },
+              {
+                "pmid": "21140719",
+                "type": "BACKGROUND",
+                "citation": "Herr-Wilbert IS, Imhof L, Hund-Georgiadis M, Wilbert DM. Assessment-guided therapy of urinary incontinence after stroke. Rehabil Nurs. 2010 Nov-Dec;35(6):248-53. doi: 10.1002/j.2048-7940.2010.tb00055.x."
+              },
+              {
+                "pmid": "19678782",
+                "type": "BACKGROUND",
+                "citation": "Tong Y, Jia Q, Sun Y, Hou Z, Wang Y. Acupuncture in the treatment of diabetic bladder dysfunction. J Altern Complement Med. 2009 Aug;15(8):905-9. doi: 10.1089/acm.2009.0062."
+              },
+              {
+                "pmid": "23152677",
+                "type": "BACKGROUND",
+                "citation": "Yu KW, Lin CL, Hung CC, Chou EC, Hsieh YL, Li TM, Chou LW. Effects of electroacupuncture on recent stroke inpatients with incomplete bladder emptying: a preliminary study. Clin Interv Aging. 2012;7:469-74. doi: 10.2147/CIA.S37531. Epub 2012 Nov 8."
+              },
+              {
+                "pmid": "4136544",
+                "type": "BACKGROUND",
+                "citation": "Teasdale G, Jennett B. Assessment of coma and impaired consciousness. A practical scale. Lancet. 1974 Jul 13;2(7872):81-4. doi: 10.1016/s0140-6736(74)91639-0. No abstract available."
+              },
+              {
+                "pmid": "24484576",
+                "type": "BACKGROUND",
+                "citation": "Rowe TA, Juthani-Mehta M. Diagnosis and management of urinary tract infection in older adults. Infect Dis Clin North Am. 2014 Mar;28(1):75-89. doi: 10.1016/j.idc.2013.10.004. Epub 2013 Dec 8."
+              },
+              {
+                "pmid": "25335150",
+                "type": "BACKGROUND",
+                "citation": "Grigoryan L, Trautner BW, Gupta K. Diagnosis and management of urinary tract infections in the outpatient setting: a review. JAMA. 2014 Oct 22-29;312(16):1677-84. doi: 10.1001/jama.2014.12842."
+              },
+              {
+                "pmid": "15020033",
+                "type": "BACKGROUND",
+                "citation": "Bang H, Ni L, Davis CE. Assessment of blinding in clinical trials. Control Clin Trials. 2004 Apr;25(2):143-56. doi: 10.1016/j.cct.2003.10.016."
+              },
+              {
+                "pmid": "7512657",
+                "type": "BACKGROUND",
+                "citation": "Sagnier PP, MacFarlane G, Richard F, Botto H, Teillac P, Boyle P. Results of an epidemiological survey using a modified American Urological Association symptom index for benign prostatic hyperplasia in France. J Urol. 1994 May;151(5):1266-70. doi: 10.1016/s0022-5347(17)35229-1."
+              },
+              {
+                "pmid": "27072880",
+                "type": "DERIVED",
+                "citation": "Shin S, Lee J, Yoo J, Lim SM, Lee E. Electroacupuncture versus sham electroacupuncture for urinary retention in poststroke patients: study protocol for a multicenter, randomized controlled trial. Trials. 2016 Apr 12;17:197. doi: 10.1186/s13063-016-1315-3."
+              }
+            ],
+            "seeAlsoLinks": [
+              {
+                "label": "The Linguistic Validation and Reliability of the Korean Version 'Qualiveen Questionnaire'. Annals of Rehabilitation Medicine. 2010 Oct;34(5):524-43. (in Korean)",
+                "url": "http://www.komci.org/GSResult.php?RID=0041JKARM%2F2010.34.5.524&DT=6"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016055",
+                "term": "Urinary Retention"
+              },
+              {
+                "id": "D020521",
+                "term": "Stroke"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D014555",
+                "term": "Urination Disorders"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D002561",
+                "term": "Cerebrovascular Disorders"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015671",
+                "term": "Electroacupuncture"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003131",
+                "term": "Combined Modality Therapy"
+              },
+              {
+                "id": "D013812",
+                "term": "Therapeutics"
+              },
+              {
+                "id": "D015670",
+                "term": "Acupuncture Therapy"
+              },
+              {
+                "id": "D000529",
+                "term": "Complementary Therapies"
+              },
+              {
+                "id": "D004599",
+                "term": "Electric Stimulation Therapy"
+              },
+              {
+                "id": "D026741",
+                "term": "Physical Therapy Modalities"
+              },
+              {
+                "id": "D012046",
+                "term": "Rehabilitation"
+              },
+              {
+                "id": "D004561",
+                "term": "Transcutaneous Electric Nerve Stimulation"
+              },
+              {
+                "id": "D000698",
+                "term": "Analgesia"
+              },
+              {
+                "id": "D000760",
+                "term": "Anesthesia and Analgesia"
+              },
+              {
+                "id": "D000758",
+                "term": "Anesthesia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07632976",
+            "orgStudyIdInfo": {
+              "id": "C-EA5-2501"
+            },
+            "organization": {
+              "fullName": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase I, Dose Escalation, Open-label, Multicenter Study of EA5 Injection in Adults With APS and Recurrent Thrombosis",
+            "officialTitle": "A Phase I, Dose Escalation, Open-label, Multicenter Clinical Study to Evaluate the Safety, Tolerability, Preliminary Efficacy, Pharmacodynamics, and Pharmacokinetics of EA5 Injection in Adult Participants With Antiphospholipid Syndrome (APS) and Recurrent Thrombosis Under Standard-of-Care Background Therapy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-05-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-09-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-05-28",
+            "studyFirstSubmitQcDate": "2026-06-02",
+            "studyFirstPostDateStruct": {
+              "date": "2026-06-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-02",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shanghai Lanyi Therapeutics Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase I, open-label, dose escalation, multicenter study to evaluate the safety, tolerability, preliminary efficacy, pharmacodynamics (PD), and pharmacokinetics (PK) of EA5 injection in adult participants with Antiphospholipid Syndrome (APS) and recurrent thrombosis who are receiving standard-of-care antithrombotic therapy. Approximately 12 participants will be enrolled. The whole study treatment cycle was 24 weeks. Administration of low-dose EA5: First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W). Administration of high-dose EA5: First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).The primary objective is to assess safety and tolerability. Secondary objectives include evaluation of preliminary efficacy, immunogenicity, PK, PD (complement inhibition), and APS-related biomarker changes."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Antiphospholipid Syndrome (APS)",
+              "Thrombosis"
+            ],
+            "keywords": [
+              "EA5",
+              "Antiphospholipid Syndrome(APS),",
+              "Recurrent Thrombosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Queue 1: Administration of low-dose EA5 First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "interventionNames": [
+                  "Biological: EA5"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "Queue 2: Administration of high-dose EA5 First, administer the loading dose regimen intravenously, then maintain administration subcutaneously every 2 weeks(Q2W).",
+                "interventionNames": [
+                  "Biological: EA5"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "EA5",
+                "description": "Administer the loading dose regimen intravenously, then maintain administration subcutaneously",
+                "armGroupLabels": [
+                  "Cohort 1"
+                ]
+              },
+              {
+                "type": "BIOLOGICAL",
+                "name": "EA5",
+                "description": "Administer the loading dose regimen intravenously, then maintain administration subcutaneously",
+                "armGroupLabels": [
+                  "Cohort 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+                "description": "TEAEs were defined as AEs that occurred on or after the date and time of study drug administration, or those that first occurred before dosing but worsened in frequency or severity after study drug administration. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+                "timeFrame": "Baseline up to Week28"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of participants with adjudicated thrombotic events during the treatment period (including venous, arterial, and small-vessel thrombotic events)",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Number of adjudicated thrombotic events per participant",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Change in annualized thrombosis event rate compared to baseline (the 5-year period prior to treatment)",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Change in platelet count from baseline at each visit",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Situations requiring adjustment of antithrombotic treatment regimen during the treatment period",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Change in levels of sC5b-9 before and after dosing",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Change in levels of free C5 before and after dosing",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Incidence of anti-drug antibodies (ADA) against the humanized monoclonal antibody EA5",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Maximum Observed Serum Concentration (Cmax) of EA5",
+                "description": "Blood samples were collected for analysis of Cmax",
+                "timeFrame": "Baseline up to Week28"
+              },
+              {
+                "measure": "Time To Maximum Observed Serum Concentration (Tmax) of EA5",
+                "description": "Blood samples were collected for analysis of Tmax",
+                "timeFrame": "Baseline up to Week 28"
+              },
+              {
+                "measure": "Area Under The Serum Concentration Versus Time Curve From Time Zero To The Time of The Last Quantifiable Concentration (AUC0-t) of EA5",
+                "description": "Blood samples were collected for analysis of AUC0-t",
+                "timeFrame": "Baseline up to Week 28"
+              },
+              {
+                "measure": "Terminal Elimination Rate Constant (\u03bbz) of Serum EA5",
+                "description": "Blood samples were collected for analysis of \u03bbz",
+                "timeFrame": "Baseline up to Week 28"
+              },
+              {
+                "measure": "Terminal Elimination Half-life (t\u00bd) of Serum EA5",
+                "description": "Blood samples were collected for analysis of t\u00bd",
+                "timeFrame": "Baseline up to Week 28"
+              },
+              {
+                "measure": "Total Clearance (CL) of EA5",
+                "description": "Blood samples were collected for analysis of CL",
+                "timeFrame": "Baseline up to Week 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participants must be \u226518 years of age at the time of signing the Informed Consent Form (ICF).\n2. Participants diagnosed with Antiphospholipid Syndrome (APS) according to the 2023 EULAR/ACR classification criteria, with at least two of the three antiphospholipid antibodies positive: anticardiolipin antibody (aCL), anti-\u03b22-glycoprotein I antibody (anti-\u03b22GPI), and lupus anticoagulant (LA).\n3. Experienced \u22652 thrombotic events within the past 5 years under antithrombotic prophylactic therapy, confirmed by objective imaging.\n4. Stable antithrombotic treatment regimen for at least 6 months prior to screening (dose adjustment of warfarin to achieve a stable INR is permitted).\n5. Vaccination against Neisseria meningitidis (MPV-ACYW) within \\<3 years prior to initiation of study treatment; OR if not previously vaccinated, receipt of the meningococcal vaccine (MPV-ACYW) at least 14 days prior to the first dose of the investigational product. If the vaccine is administered within 14 days before dosing, antibiotic prophylaxis must be provided until 2 weeks post-vaccination.\n6. Vaccination against Streptococcus pneumoniae according to national vaccination recommendations (e.g., Advisory Committee on Immunization Practices \\[ACIP\\] guidelines). OR if not previously vaccinated, receipt of the pneumococcal vaccine at least 14 days prior to the first dose of the investigational product. If the vaccine is administered within 14 days before dosing, antibiotic prophylaxis must be provided until 2 weeks post-vaccination.\n7. Use of contraception by men and women should be consistent with local regulations regarding contraceptive methods for clinical trial participants.\n\n(1)Male Participants: Male participants must agree to use effective contraception during the treatment period and for at least 6 months after the last dose of the study intervention, and to refrain from donating sperm during this time.\n\n(2)Female Participants: Non-pregnant, non-lactating female participants are eligible to participate if they meet at least one of the following conditions: use of an effective or acceptable contraceptive method during the treatment period and for at least 6 months after the last dose of the study drug.\n\nCapable of understanding the study procedures and methods, willing to sign the ICF, and able to strictly adhere to the clinical study protocol to complete the study.\n\nExclusion Criteria:\n\n1. History of malignancy within 5 years prior to screening and before administration (except for localized skin basal cell carcinoma, squamous cell carcinoma, or cervical carcinoma in situ that have undergone curative local treatment with no evidence of metastasis in the past 3 years).\n2. Thrombosis with other definite etiologies, such as malignancy, hereditary thrombophilia, thrombotic microangiopathy, etc.\n3. History of catastrophic antiphospholipid syndrome (i.e., progressive thrombosis in multiple \\[3 or more\\] organs occurring within 1 week, involving critical organs such as the brain, kidneys, liver, or heart leading to failure, with pathological confirmation of small vessel thrombosis).\n4. Presence of active bleeding or high risk of bleeding, such as gastrointestinal bleeding, intracranial bleeding, respiratory tract bleeding, coagulation disorders, etc.\n5. History of major surgery within 1 month prior to screening or requiring major elective surgery during the trial period.\n6. History of immunodeficiency, including a positive test for human immunodeficiency virus (HIV) antibody, or having other acquired or congenital immunodeficiency diseases.\n7. Comorbid with systemic autoimmune diseases (e.g., systemic lupus erythematosus, systemic sclerosis, etc.).\n8. Unresolved meningococcal infection.\n9. Positive for hepatitis C virus (HCV) antibody at screening (except for those with a negative HCV RNA result), positive for human immunodeficiency virus (HIV) antibody, positive for anti-Treponema pallidumantibody (TP-Ab) (except for those with a negative RPR or TRUST test), OR positive for hepatitis B virus (HBV) surface antigen (HBsAg) (except for those with an HBV DNA level \u2264 1000 IU/mL).\n10. Presence of active infection requiring systemic therapy within 4 weeks prior to the first use of the investigational product (including herpes zoster, active tuberculosis, active Treponema palliduminfection, and fungal infections requiring systemic therapy).\n11. Participants with severe hepatic or renal impairment: Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \u2265 3 times the upper limit of normal (ULN); total bilirubin \u2265 2 times ULN; serum creatinine \u2265 2.5 times ULN, OR calculated creatinine clearance \u2264 30 mL/min according to the Cockcroft-Gault formula.\n12. Receipt of other interventional therapy or participation in another clinical study within 30 days prior to the first use of the investigational product or within 5 half-lives of this investigational product (whichever is longer).\n13. Prior use of complement C3 or C5 targeted therapy.\n14. History of allergy to any component of EA5, including hypersensitivity to human, humanized, or murine monoclonal antibodies, or known hypersensitivity to any ingredient of the product.\n15. Any disease that, in the opinion of the investigator or sponsor, may increase participant risk or confound study outcomes. Including, but not limited to, significant circulatory, respiratory, urinary, endocrine system diseases, etc.\n16. Female participants who are pregnant or breastfeeding.\n17. Any other condition for which the investigator considers the participant unsuitable to enter this clinical study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Peking University People's Hospital",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100044",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016736",
+                "term": "Antiphospholipid Syndrome"
+              },
+              {
+                "id": "D013927",
+                "term": "Thrombosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D016769",
+                "term": "Embolism and Thrombosis"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

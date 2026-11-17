@@ -1,0 +1,4634 @@
+{
+  "asset": "clemizole",
+  "query": "EPX-100",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=EPX-100&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05066217",
+            "orgStudyIdInfo": {
+              "id": "EPX-100-003"
+            },
+            "organization": {
+              "fullName": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Efficacy and Safety Study of Clemizole HCl in Patients With Lennox-Gastaut Syndrome",
+            "officialTitle": "Multicenter, Randomized, Double-blind, Placebo-controlled Trial of Clemizole HCl as Adjunctive Therapy in Patients With Lennox-Gastaut Syndrome"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-04-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-11-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-11-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-09-23",
+            "studyFirstSubmitQcDate": "2021-09-23",
+            "studyFirstPostDateStruct": {
+              "date": "2021-10-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Harmony Biosciences Management, Inc.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, Phase 3, randomized, double-blind, placebo-controlled study designed to evaluate the efficacy and safety of clemizole HCL (EPX-100) as adjunctive therapy in children and adult participants with Lennox-Gastaut syndrome (LGS).",
+            "detailedDescription": "This is a multicenter, Phase 3, randomized, double-blind, placebo-controlled study designed to evaluate the efficacy and safety of clemizole HCl as adjunctive therapy in children and adult participants with LGS.\n\nThe study will consist of an Observational Period, a Double-Blind (DB) Period, and an optional Open-Label Extension (OLE) Period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lennox Gastaut Syndrome"
+            ],
+            "keywords": [
+              "Lennox Gastaut Syndrome",
+              "Lennox-Gastaut Syndrome",
+              "LGS",
+              "Clemizole HCl",
+              "Seizure"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Patients are randomized 1:1 to clemizole HCl (EPX-100) or placebo.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 260,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will receive their first dose of study drug following randomization.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Double-blind clemizole HCl",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive their first dose of study drug following randomization.",
+                "interventionNames": [
+                  "Drug: Clemizole HCl"
+                ]
+              },
+              {
+                "label": "Open-label clemizole HCl",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants who complete the DB Period will have the option to continue in the OLE Period, during which they will receive clemizole HCl for up to 3 years.",
+                "interventionNames": [
+                  "Drug: Clemizole HCl"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Clemizole HCl",
+                "description": "Clemizole HCl will be administered as an oral solution.",
+                "armGroupLabels": [
+                  "Double-blind clemizole HCl",
+                  "Open-label clemizole HCl"
+                ],
+                "otherNames": [
+                  "EPX-100"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo will be administered as an oral solution.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent Change in CMMS-28",
+                "description": "Percent change in CMMS-28 from the Baseline Period through the end of the DB Period",
+                "timeFrame": "From Baseline Period up to 16 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of Participants with \u226550% Reduction in CMMS-28",
+                "description": "Proportion of participants with \u226550% reduction in CMMS-28 from the Baseline Period through the end of the DB Period",
+                "timeFrame": "From Baseline Period up to 16 weeks"
+              },
+              {
+                "measure": "Percent Change in CMMS-28 Seizure-free Days",
+                "description": "Percent change in CMMS-28 seizure-free days from the Baseline Period through the end of the DB Period",
+                "timeFrame": "From Baseline Period up to 16 weeks"
+              },
+              {
+                "measure": "Clinical Global Impression of Change (CGI-C) Score",
+                "description": "CGI-C score at the end of the DB Period",
+                "timeFrame": "Week 16"
+              },
+              {
+                "measure": "Caregiver Global Impression of Change (CaGI-C) Score",
+                "description": "CaGI-C score at the end of the DB Period",
+                "timeFrame": "Week 16"
+              },
+              {
+                "measure": "Caregiver Global Impression of Change in Seizure Intensity/Duration (CaGI-CSID) Score",
+                "description": "CaGI-CSID score at the end of the DB Period",
+                "timeFrame": "Week 16"
+              },
+              {
+                "measure": "Change in Quality of Life Inventory (QI)-Disability Score",
+                "description": "Change in QI-disability score from Baseline to the end of the DB Period",
+                "timeFrame": "From Baseline Period up to 16 weeks"
+              },
+              {
+                "measure": "Percent Change per 28 Days in the Number of Seizure Free Days",
+                "description": "Percent change per 28 days in the number of seizure-free days (based on all seizure types) from the Baseline Period through the end of the DB Period",
+                "timeFrame": "From Baseline Period up to 16 weeks"
+              },
+              {
+                "measure": "Percent Change in CMMS-28",
+                "description": "Percent change in CMMS-28 from the Baseline Period through the end of the DB Maintenance Phase only",
+                "timeFrame": "From Baseline Period up to 12 weeks"
+              },
+              {
+                "measure": "Proportion of Participants with \u226550% Reduction in CMMS-28",
+                "description": "Proportion of participants with \u226550% reduction in CMMS-28 from the Baseline Period through the end of the DB Maintenance Phase only",
+                "timeFrame": "From Baseline Period up to 12 weeks"
+              },
+              {
+                "measure": "Incidence of Treatment-Emergent Adverse Events (TEAEs)",
+                "description": "Incidence of TEAEs will be compared among the treatment groups",
+                "timeFrame": "From the first dose administration of study drug up to end of the study, approximately up to 172 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Males or females, ages \u22652 to \u226455 years, at the time of Screening.\n2. Participant/parent/legal authorized representative (LAR) willing and able to give written informed consent/assent.\n3. Diagnosis of LGS, including:\n\n   * Evidence of at least one type of countable major motor seizure.\n   * History of electroencephalogram (EEG) consistent with LGS (abnormal background activity, and one of the following: 1) slow spike-wave discharges \\[\\<2.5 Hz\\], or 2) paroxysmal fast activity during sleep).\n   * Abnormal cognitive development.\n   * Onset of seizures at 11 years of age or younger.\n\nKey Exclusion Criteria:\n\n1. Known sensitivity, allergy, or previous exposure to clemizole HCl.\n2. Known history of long QT syndrome or any significant history of a serious abnormality of the electrocardiogram (ECG) (e.g., recent myocardial infarction, clinically significant arrhythmia).\n3. Family history of sudden cardiac death, unexplained death, or death from a primary dysrhythmia potentially associated with QT prolongation in any family member.\n4. Seizures secondary to illicit drug or alcohol use, infection, neoplasm, demyelinating disease, degenerative neurological disease, or progressive central nervous system disease, metabolic illness, recent anoxic episode within the last 6 months requiring resuscitation, or progressive degenerative disease or any other condition, which in the opinion of the investigator, could affect seizure control.\n5. Epilepsy surgery planned during the study or epilepsy surgery within 6 months prior to Screening.\n6. Concomitant use of fenfluramine.\n7. Prior or concomitant use of lorcaserin.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Juby Philip",
+                "role": "CONTACT",
+                "phone": "(302) 559-4320",
+                "email": "clinicaltrials@harmonybiosciences.com"
+              },
+              {
+                "name": "Cindy Sandy",
+                "role": "CONTACT",
+                "phone": "(317) 258-7262",
+                "email": "clinicaltrials@harmonybiosciences.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Amit Ray, MD",
+                "affiliation": "Harmony Biosciences Management, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Arkansas Children's Hospital",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "UC Irvine Medical Center",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Orange",
+                "state": "California",
+                "zip": "92868",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.78779,
+                  "lon": -117.85311
+                }
+              },
+              {
+                "facility": "University of Miami Miller School of Medicine",
+                "status": "RECRUITING",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33136",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Brett Alonso Cardenas",
+                    "role": "CONTACT",
+                    "phone": "305-243-3100",
+                    "email": "bac301@med.miami.edu"
+                  },
+                  {
+                    "name": "Kamil Detyniecki, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "AdventHealth Innovation Tower",
+                "status": "RECRUITING",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32804",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Holly Skinner, DO",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "facility": "Rare Disease Research",
+                "status": "SUSPENDED",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "34746",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "facility": "Pediatric Neurology and Epilepsy Specialists",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Winter Park",
+                "state": "Florida",
+                "zip": "32789",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.6,
+                  "lon": -81.33924
+                }
+              },
+              {
+                "facility": "Re:Cognition Health",
+                "status": "RECRUITING",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Antonio Iglesias, MD",
+                    "role": "CONTACT",
+                    "phone": "312-971-3318",
+                    "email": "aiglesias@re-cognitionhealth.com"
+                  },
+                  {
+                    "name": "Antonio Iglesias, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Norton Children's Medical Center",
+                "status": "RECRUITING",
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Madeline McGinty-Holmes",
+                    "role": "CONTACT",
+                    "phone": "502-629-5568",
+                    "email": "madeline.mcginty-holmes@louisville.edu"
+                  },
+                  {
+                    "name": "Jaime Shoup, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "facility": "Henry Ford Hospital",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "Minnesota Epilepsy Group, P.A.",
+                "status": "RECRUITING",
+                "city": "Roseville",
+                "state": "Minnesota",
+                "zip": "55102",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Sarah Ellis, MD",
+                    "role": "CONTACT",
+                    "phone": "651-377-8319",
+                    "email": "sellis@mnepilepsy.net"
+                  },
+                  {
+                    "name": "Stephanie Ahrens, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.00608,
+                  "lon": -93.15661
+                }
+              },
+              {
+                "facility": "Children's Nebraska",
+                "status": "RECRUITING",
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68114",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Sookyong Koh, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "773-929-4445",
+                    "email": "skoh@childrensnebraska.org"
+                  },
+                  {
+                    "name": "Sookyong Koh",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "facility": "Tekton Research",
+                "status": "RECRUITING",
+                "city": "Marlboro",
+                "state": "New Jersey",
+                "zip": "07746",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Aimee Kinlan",
+                    "role": "CONTACT",
+                    "phone": "626-218-8294",
+                    "email": "aimee.kinlan@tektonresearch.com"
+                  },
+                  {
+                    "name": "Amor Mehta, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.31539,
+                  "lon": -74.24626
+                }
+              },
+              {
+                "facility": "NYU Comprehensive Epilepsy Center - BRANY - PPDS",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10016-4852",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Dana Price",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Weill Cornell Medicine/New York Presbyterian Hospital",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10021",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Lundy Santil",
+                    "role": "CONTACT",
+                    "phone": "800-785-3150",
+                    "phoneExt": "Ext. 198",
+                    "email": "ludny.saintil@thermofisher.com"
+                  },
+                  {
+                    "name": "Asim Shahid",
+                    "role": "CONTACT",
+                    "email": "los9075@med.cornell.edu"
+                  },
+                  {
+                    "name": "Asim Shahid, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Atrium Health STRIVE Research",
+                "status": "RECRUITING",
+                "city": "Charlotte",
+                "state": "North Carolina",
+                "zip": "28207",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Jessica Lindley",
+                    "role": "CONTACT",
+                    "email": "Jessica.Lindley@atriumhealth.org"
+                  },
+                  {
+                    "name": "Ravi Singh, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.22709,
+                  "lon": -80.84313
+                }
+              },
+              {
+                "facility": "On-Site Clinical Solution",
+                "status": "RECRUITING",
+                "city": "Charlotte",
+                "state": "North Carolina",
+                "zip": "28211",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Ludny Saintil",
+                    "role": "CONTACT",
+                    "phone": "800-785-3150",
+                    "phoneExt": "198",
+                    "email": "ludny.santil@thermofischer.com"
+                  },
+                  {
+                    "name": "Robert Nahouraii",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.22709,
+                  "lon": -80.84313
+                }
+              },
+              {
+                "facility": "Duke University Medical Center",
+                "status": "RECRUITING",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27705",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Muhammad Zafar, MD",
+                    "role": "CONTACT",
+                    "email": "muhammad.zafar@duke.edu"
+                  },
+                  {
+                    "name": "Muhammad Zafar, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "PPD Virtual-Science 37, Inc.",
+                "status": "RECRUITING",
+                "city": "Morrisville",
+                "state": "North Carolina",
+                "zip": "27560",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Victoria Taylor",
+                    "role": "CONTACT",
+                    "phone": "615-707-9148",
+                    "email": "victoria.taylor@science37.com"
+                  },
+                  {
+                    "name": "Antonio Iglesias, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.82348,
+                  "lon": -78.82556
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "status": "RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Eric Marsh, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Children's Health Specialty Center",
+                "status": "RECRUITING",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75235",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Charuta Joshi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "UTHealth Houston",
+                "status": "RECRUITING",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Antoinette Bernal-Tent",
+                    "role": "CONTACT",
+                    "phone": "713-500-7105",
+                    "email": "Antoinette.BernalTent@uth.tmc.edu"
+                  },
+                  {
+                    "name": "Mary Koenig, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Clinical Neurosciences Center",
+                "status": "RECRUITING",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84132",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Angela Peters, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              },
+              {
+                "facility": "Xiangya Hospital Central South University",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "410008",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jing Peng",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "Children's Hospital of Shanghai",
+                "status": "RECRUITING",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200062",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Simei Wang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "Peking University First Hospital - Changqiao Campus",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yuwu Jiang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Peking University First Hospital - Daxing Campus",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yuwu Jiang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Beijing Children's Hospital, Capital Medical University - PIN",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100045",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hui Xiong",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "The First Hospital of Jilin University",
+                "status": "RECRUITING",
+                "city": "Changchun",
+                "zip": "130021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jianmin Liang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.88,
+                  "lon": 125.32278
+                }
+              },
+              {
+                "facility": "Hunan Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "zip": "410007",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Sai Yang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "West China Second University Hospital, Sichuan University - Huaxi Campus",
+                "status": "RECRUITING",
+                "city": "Chengdu",
+                "zip": "610041",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Rong Luo",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "Chengdu Women's and Children's Central Hospital",
+                "status": "RECRUITING",
+                "city": "Chengdu",
+                "zip": "610073",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Li Yan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "Children's Hospital of Chongqing Medical University",
+                "status": "RECRUITING",
+                "city": "Chongqing",
+                "zip": "400014",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Li Jiang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.56026,
+                  "lon": 106.55771
+                }
+              },
+              {
+                "facility": "The Second Affiliated Hospital of Guangzhou Medical University",
+                "status": "RECRUITING",
+                "city": "Guangzhou",
+                "zip": "510260",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaorong Liu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 23.11667,
+                  "lon": 113.25
+                }
+              },
+              {
+                "facility": "The Affiliated Hospital of Guizhou Medical University",
+                "status": "RECRUITING",
+                "city": "Guiyang",
+                "zip": "550004",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Rong Ai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 26.58333,
+                  "lon": 106.71667
+                }
+              },
+              {
+                "facility": "Qilu Hospital of Shandong University",
+                "status": "RECRUITING",
+                "city": "Jinan",
+                "zip": "250012",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Baomin Li",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.66833,
+                  "lon": 116.99722
+                }
+              },
+              {
+                "facility": "Jiangxi Provincial Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Nanchang",
+                "zip": "330006",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yong Chen",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.68396,
+                  "lon": 115.85306
+                }
+              },
+              {
+                "facility": "Shenzhen Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Shenzhen",
+                "zip": "518000",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Dezhi Cao",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "Wuhan Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Wuhan",
+                "zip": "430015",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Dan Sun",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              },
+              {
+                "facility": "The Second Affiliated Hospital of Xi'an Jiaotong University",
+                "status": "RECRUITING",
+                "city": "Xi'an",
+                "zip": "710004",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Lin Yang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.25833,
+                  "lon": 108.92861
+                }
+              },
+              {
+                "facility": "Xuzhou Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Xuzhou",
+                "zip": "221006",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaoming Liu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.20442,
+                  "lon": 117.28386
+                }
+              },
+              {
+                "facility": "Debreceni Egyetem Klinikai Kozpont Nagyerdei Campus",
+                "status": "RECRUITING",
+                "city": "Debrecen",
+                "state": "Hajd\u00fa-Bihar",
+                "zip": "4032",
+                "country": "Hungary",
+                "contacts": [
+                  {
+                    "name": "Monika Bessenyei",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.53167,
+                  "lon": 21.62444
+                }
+              },
+              {
+                "facility": "Yashoda Hospitals Hitec City",
+                "status": "RECRUITING",
+                "city": "Hyderabad",
+                "state": "Andhra Pradesh",
+                "zip": "500081",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Lokesh Lingappa",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ]
+              },
+              {
+                "facility": "Nizams Institute of Medical Sciences",
+                "status": "RECRUITING",
+                "city": "Hyderabad",
+                "state": "Andhra Pradesh",
+                "zip": "500082",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Surya Prabha Turaga",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ]
+              },
+              {
+                "facility": "Royal Institute of Child Neurosciences",
+                "status": "RECRUITING",
+                "city": "Ahmedabad",
+                "state": "Gujarat",
+                "zip": "380054",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Nitish Vora",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 23.02579,
+                  "lon": 72.58727
+                }
+              },
+              {
+                "facility": "Saachi Children Hospital",
+                "status": "RECRUITING",
+                "city": "Surat",
+                "state": "Gujarat",
+                "zip": "395002",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Ritesh Shah",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 21.19594,
+                  "lon": 72.83023
+                }
+              },
+              {
+                "facility": "Aster Malabar Institute of Medical Sciences Ltd",
+                "status": "RECRUITING",
+                "city": "Calicut",
+                "state": "Kerala",
+                "zip": "673016",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Smilu Mohanlal",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 11.24802,
+                  "lon": 75.7804
+                }
+              },
+              {
+                "facility": "IRCCS Azienda Ospedaliera Metropolitan",
+                "status": "RECRUITING",
+                "city": "Genoa",
+                "state": "Liguria",
+                "zip": "16132",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Flavio Villani",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.40478,
+                  "lon": 8.94439
+                }
+              },
+              {
+                "facility": "IRCCS Istituto Giannina Gaslini",
+                "status": "RECRUITING",
+                "city": "Genoa",
+                "state": "Liguria",
+                "zip": "16147",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Maria Margherita Mancardi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.40478,
+                  "lon": 8.94439
+                }
+              },
+              {
+                "facility": "IRCCS Istituto Neurologico Mediterraneo Neuromed",
+                "status": "RECRUITING",
+                "city": "Pozzilli",
+                "state": "Molise",
+                "zip": "86077",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Alfredo D'Aniello",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.51142,
+                  "lon": 14.06252
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Universitaria Renato Dulbecco - AO Mater Domini",
+                "status": "RECRUITING",
+                "city": "Catanzaro",
+                "zip": "88100",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Antonio Gambardella",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.88247,
+                  "lon": 16.60086
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliero Universitaria A Meyer",
+                "status": "RECRUITING",
+                "city": "Florence",
+                "zip": "50139",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Renzo Guerrini",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.77925,
+                  "lon": 11.24626
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS Istituto Neurologico Carlo Besta",
+                "status": "RECRUITING",
+                "city": "Milan",
+                "zip": "20133",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Giuseppe Didato",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "Fondazione Istituto Neurologico Nazionale Casimiro Mondino IRCCS",
+                "status": "RECRUITING",
+                "city": "Pavia",
+                "zip": "27100",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Elena Tartara",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.19205,
+                  "lon": 9.15917
+                }
+              },
+              {
+                "facility": "Centrum Medyczne Plejady Magdalena Celinska",
+                "status": "RECRUITING",
+                "city": "Krakow",
+                "state": "Lesser Poland Voivodeship",
+                "zip": "30-363",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Marta Zolnowska, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.06143,
+                  "lon": 19.93658
+                }
+              },
+              {
+                "facility": "Premium Clinic Wroc\u0142aw Centrum Medyczne",
+                "status": "RECRUITING",
+                "city": "Wroclaw",
+                "state": "Lower Silesian Voivodeship",
+                "zip": "50-414",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Monika Sluzewska-Niedzwiedz",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.10286,
+                  "lon": 17.03006
+                }
+              },
+              {
+                "facility": "Neurosphera",
+                "status": "RECRUITING",
+                "city": "Warsaw",
+                "state": "Masovian Voivodeship",
+                "zip": "02-829",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Beata Zwolinska",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Centrul National Clinic De Recuperare Neuropsihomotorie Copii Robanescu-Padure",
+                "status": "RECRUITING",
+                "city": "Bucharest",
+                "zip": "041408",
+                "country": "Romania",
+                "contacts": [
+                  {
+                    "name": "Madalina Leanca",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.43225,
+                  "lon": 26.10626
+                }
+              },
+              {
+                "facility": "Emergency University Hospital",
+                "status": "RECRUITING",
+                "city": "Bucharest",
+                "zip": "050098",
+                "country": "Romania",
+                "contacts": [
+                  {
+                    "name": "Ioana Raluca Mindruta",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.43225,
+                  "lon": 26.10626
+                }
+              },
+              {
+                "facility": "Sf. Maria Children Emergency Clinical Hospital Iasi",
+                "status": "RECRUITING",
+                "city": "Ia\u0219i",
+                "zip": "700309",
+                "country": "Romania",
+                "contacts": [
+                  {
+                    "name": "Ioana Grigore",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.16667,
+                  "lon": 27.6
+                }
+              },
+              {
+                "facility": "Childrens University Hospital",
+                "status": "RECRUITING",
+                "city": "Belgrade",
+                "zip": "11000",
+                "country": "Serbia",
+                "contacts": [
+                  {
+                    "name": "Dimitrije Nikolic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.80401,
+                  "lon": 20.46513
+                }
+              },
+              {
+                "facility": "Mother and Child Health Care Institute of Serbia Dr Vukan Cupic",
+                "status": "RECRUITING",
+                "city": "Belgrade",
+                "zip": "11000",
+                "country": "Serbia",
+                "contacts": [
+                  {
+                    "name": "Biljana Vucetic Tadic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.80401,
+                  "lon": 20.46513
+                }
+              },
+              {
+                "facility": "University Clinical Center Nis",
+                "status": "RECRUITING",
+                "city": "Ni\u0161",
+                "zip": "18 000",
+                "country": "Serbia",
+                "contacts": [
+                  {
+                    "name": "Tatjana Tosic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.32472,
+                  "lon": 21.90333
+                }
+              },
+              {
+                "facility": "Children and Youth Health Care Institute of Vojvodina",
+                "status": "RECRUITING",
+                "city": "Novi Sad",
+                "zip": "21000",
+                "country": "Serbia",
+                "contacts": [
+                  {
+                    "name": "Tatjana Redzek Mudrinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.25167,
+                  "lon": 19.83694
+                }
+              },
+              {
+                "facility": "Hospital de La Santa Creu i Sant Pau",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08025",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Alba Sierra-Marcos",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario Vall d'Hebron - PPDS",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Manuel Toledo Argany",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Infantil Universitario Ni\u00f1o Jesus - PIN",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28009",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Victor Soto Insuga",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Regional Universitario de Malaga - Hospital General",
+                "status": "RECRUITING",
+                "city": "M\u00e1laga",
+                "zip": "29010",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Pedro Serrano",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.72016,
+                  "lon": -4.42034
+                }
+              },
+              {
+                "facility": "Hospital Universitario de Navarra",
+                "status": "RECRUITING",
+                "city": "Pamplona",
+                "zip": "31008",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Sergio Aguilera Albesa",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.81687,
+                  "lon": -1.64323
+                }
+              },
+              {
+                "facility": "Centro de Neurologia Avanzada",
+                "status": "RECRUITING",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Juan Jes\u00fas Rodr\u00edguez Uranga, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "Eskisehir Osmangazi Universitesi Saglik Uygulama ve Arastirma Hastanesi",
+                "status": "RECRUITING",
+                "city": "Odunpazari",
+                "state": "Eski\u015fehir",
+                "zip": "26040",
+                "country": "Turkey (T\u00fcrkiye)",
+                "contacts": [
+                  {
+                    "name": "Kursat Carman",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.76821,
+                  "lon": 30.53538
+                }
+              },
+              {
+                "facility": "Karadeniz Teknik Universitesi Farabi Hastanesi",
+                "status": "RECRUITING",
+                "city": "Ortahisar",
+                "zip": "61080",
+                "country": "Turkey (T\u00fcrkiye)",
+                "contacts": [
+                  {
+                    "name": "Ali Cansu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.62214,
+                  "lon": 34.86583
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D065768",
+                "term": "Lennox Gastaut Syndrome"
+              },
+              {
+                "id": "D012640",
+                "term": "Seizures"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07879170",
+            "orgStudyIdInfo": {
+              "id": "EPX-100-CL-106"
+            },
+            "organization": {
+              "fullName": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Single and Multiple Ascending Dose Study of EPX-100 in Healthy Adult Participants",
+            "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Two-Part Study to Assess the Safety and Pharmacokinetics of Ascending Single and Multiple Doses of EPX-100 in Healthy Adult Participants"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-08-05",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-09-28",
+            "studyFirstSubmitQcDate": "2026-10-13",
+            "studyFirstPostDateStruct": {
+              "date": "2026-10-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Harmony Biosciences Management, Inc.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A study to evaluate the safety and tolerability of single and multiple ascending doses of EPX-100 in healthy adult participants.",
+            "detailedDescription": "This is a two-part study. Part 1 is a randomized, double-blind, placebo-controlled study to evaluate the safety, tolerability, and pharmacokinetics (PK) of EPX-100 following single ascending doses (SAD). Part 2 is a randomized, double-blind, placebo- and positive-controlled (active comparator) study to evaluate the safety, tolerability, and PK of EPX-100 following multiple ascending doses (MAD). In addition, cardiac liability will be evaluated in each cohort."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Participants"
+            ],
+            "keywords": [
+              "Multiple Ascending Dose",
+              "Single Ascending Dose"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 88,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1 SAD: EPX-100",
+                "type": "EXPERIMENTAL",
+                "description": "Sequential cohorts of participants will receive a single ascending dose of EPX-100.",
+                "interventionNames": [
+                  "Drug: EPX-100"
+                ]
+              },
+              {
+                "label": "Part 1 SAD: Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will receive a single dose of EPX-100-matching placebo.",
+                "interventionNames": [
+                  "Drug: EPX-100-Matching Placebo"
+                ]
+              },
+              {
+                "label": "Part 2 MAD: Treatment Arm",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive EPX-100 twice daily on Days 1 to 13, and a morning dose of EPX-100 on Day 14. Moxifloxacin-matching placebo will be administrated on Days 1 and 15. Participants will also receive a single dose of EPX-100-matching placebo on the morning of Days -1 and 15.",
+                "interventionNames": [
+                  "Drug: EPX-100",
+                  "Drug: EPX-100-Matching Placebo",
+                  "Drug: Moxifloxacin-Matching Placebo"
+                ]
+              },
+              {
+                "label": "Part 2 MAD: Control Arm",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "Participants will receive moxifloxacin or moxifloxacin-matching placebo on the morning of Day 1 then will cross over to the alternate treatment on the morning of Day 15.\n\nEPX-100-matching placebo will be administered twice daily on Days 1 to 13 with a morning dose on Day 14. Participants will also receive a single dose of EPX-100-matching placebo on the morning of Days -1 and 15.",
+                "interventionNames": [
+                  "Drug: EPX-100-Matching Placebo",
+                  "Drug: Moxifloxacin",
+                  "Drug: Moxifloxacin-Matching Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EPX-100",
+                "description": "Oral solution",
+                "armGroupLabels": [
+                  "Part 1 SAD: EPX-100",
+                  "Part 2 MAD: Treatment Arm"
+                ],
+                "otherNames": [
+                  "clemizole",
+                  "clemizole hydrochloride (HCL)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "EPX-100-Matching Placebo",
+                "description": "Oral Solution",
+                "armGroupLabels": [
+                  "Part 1 SAD: Placebo",
+                  "Part 2 MAD: Control Arm",
+                  "Part 2 MAD: Treatment Arm"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Moxifloxacin",
+                "description": "Over-encapsulated tablet",
+                "armGroupLabels": [
+                  "Part 2 MAD: Control Arm"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Moxifloxacin-Matching Placebo",
+                "description": "Capsule",
+                "armGroupLabels": [
+                  "Part 2 MAD: Control Arm",
+                  "Part 2 MAD: Treatment Arm"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Treatment Emergent Adverse Events (TEAEs) in Part 1 SAD",
+                "timeFrame": "Part 1 SAD: up to Day 18"
+              },
+              {
+                "measure": "Number of Participants with TEAEs in Part 2 MAD",
+                "timeFrame": "Part 2 MAD: up to Day 31"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area Under the concentration-time curve (AUC), From Time 0 to The Last Observed Nonzero Concentration (AUC0-last) of EPX-100 and Metabolites in Plasma",
+                "timeFrame": "Part 1 SAD: up to Day 4, Part 2 MAD: up to Day 17"
+              },
+              {
+                "measure": "AUC0-last of EPX-100 and Metabolites in Urine",
+                "timeFrame": "Part 1 SAD: up to Day 4"
+              },
+              {
+                "measure": "Maximum Observed Concentration (Cmax) of EPX-100 and Metabolites in Plasma",
+                "timeFrame": "Part 1 SAD: up to Day 4, Part 2 MAD: up to Day 17"
+              },
+              {
+                "measure": "Cmax of EPX-100 and Metabolites in Urine",
+                "timeFrame": "Part 1 SAD: up to Day 4"
+              },
+              {
+                "measure": "Change from Baseline in Electrocardiogram (ECG) QT Interval Corrected According to the Method of Fridericia (QTcF)",
+                "timeFrame": "Part 2 MAD: Baseline and up to Day 16"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Continuous nonsmoker who has not used nicotine- or tobacco-containing products for at least 3 months prior to (first) dosing.\n* Body mass index \u226518.0 and \u226432.0 kilograms per square meter(kg/m\\^2) at the Screening visit (defined as within 28 days prior to dosing).\n* Medically healthy with no clinically significant medical history, physical examination findings, clinical laboratory profiles, vital signs, and electrocardiograms (ECGs), as deemed by the Principal Investigator (PI) or designee.\n* Part 2 only: No clinically significant history and presence of ECG findings as judged by the PI or designee at the Screening visit and at Check-In.\n\nExclusion Criteria:\n\n* History of cholecystectomy.\n* Has a family history of sudden cardiac death, unexplained death, or death from a primary dysrhythmia potentially associated with QT prolongation in any family member.\n* History of any illness that, in the opinion of the PI or designee, might confound the results of the study or poses an additional risk to the participant by their participation in the study.\n* History of seizure (excluding simple febrile seizure), epilepsy, severe head injury, multiple sclerosis, or other known neurological conditions that the PI or designee considers to be clinically significant.\n* History of presence of ventricular dysfunction or risk factors for Torsades de Pointes (e.g., heart failure, cardiomyopathy, family history of Long QT Syndrome or sudden unexpected cardiac death at a young age).\n* Part 2 only: history or presence of sick sinus syndrome, second or third degree atrioventricular block, myocardial infarction, pulmonary congestion, symptomatic or significant cardiac arrhythmia, prolonged QTcF interval, or conduction abnormalities.\n\nNote: Additional inclusion/exclusion criteria may apply, per protocol.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Clinical Trials Administrator",
+                "role": "CONTACT",
+                "phone": "see email",
+                "email": "clinicaltrials@harmonybiosciences.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Robert Faulkner, PhD",
+                "affiliation": "Epygenix Therapeutics, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Celerion",
+                "status": "RECRUITING",
+                "city": "Tempe",
+                "state": "Arizona",
+                "zip": "85283",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.41477,
+                  "lon": -111.90931
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C084582",
+                "term": "clemizole"
+              },
+              {
+                "id": "D000077266",
+                "term": "Moxifloxacin"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D024841",
+                "term": "Fluoroquinolones"
+              },
+              {
+                "id": "D042462",
+                "term": "4-Quinolones"
+              },
+              {
+                "id": "D015363",
+                "term": "Quinolones"
+              },
+              {
+                "id": "D011804",
+                "term": "Quinolines"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04462770",
+            "orgStudyIdInfo": {
+              "id": "EPX-100-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-518628-57-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of EPX-100 (Clemizole Hydrochloride) in Participants With Dravet Syndrome",
+            "officialTitle": "A 20-Week Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial of EPX-100 (Clemizole Hydrochloride) as Adjunctive Therapy in Children and Adult Participants With Dravet Syndrome (ARGUS Trial)",
+            "acronym": "ARGUS"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-09-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-04",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-07-06",
+            "studyFirstSubmitQcDate": "2020-07-06",
+            "studyFirstPostDateStruct": {
+              "date": "2020-07-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-29",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Harmony Biosciences Management, Inc.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a multicenter, Phase 3, randomized, double-blind, placebo-controlled study designed to evaluate the efficacy and safety of clemizole hydrochloride (EPX-100) as adjunctive therapy in children and adult participants with Dravet syndrome (DS).",
+            "detailedDescription": "The study consists of an Observational Phase, a Double-blind Phase consisting of a dose titration and a maintenance period and an optional Open-Label Extension (OLE) Phase."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dravet Syndrome"
+            ],
+            "keywords": [
+              "Clemizole hydrochloride",
+              "Convulsive seizure",
+              "Pediatric epilepsy",
+              "Dravet syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Patients are randomized 1:1 to clemizole HCl (EPX-100) or placebo.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 150,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Double-blind Phase: Clemizole HCl",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive clemizole HCl twice a day (BID).",
+                "interventionNames": [
+                  "Drug: Clemizole HCl"
+                ]
+              },
+              {
+                "label": "Double-blind Phase: Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will receive matching placebo BID.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "OLE Phase: Clemizole HCl",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive clemizole HCL BID.",
+                "interventionNames": [
+                  "Drug: Clemizole HCl"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Clemizole HCl",
+                "description": "Clemizole HCl will be administered as an oral solution.",
+                "armGroupLabels": [
+                  "Double-blind Phase: Clemizole HCl",
+                  "OLE Phase: Clemizole HCl"
+                ],
+                "otherNames": [
+                  "EPX-100"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Flavor- and color-matching placebo will be administered as an oral solution.",
+                "armGroupLabels": [
+                  "Double-blind Phase: Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent Change in Countable Motor Seizures Per 28 Days (CMS-28) in the Titration Plus Maintenance Periods Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              },
+              {
+                "measure": "European Union: Percent Change in CMS-28 in the Maintenance Period Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Percentage of Participants with >=50% reduction in CMS-28 Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              },
+              {
+                "measure": "Number of Countable Motor Seizure-free Days Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              },
+              {
+                "measure": "Clinical Global Impression of Improvement - Clinician (CGII-C) Score",
+                "timeFrame": "Week 16"
+              },
+              {
+                "measure": "Clinical Global Impression of Improvement - Participant/Caregiver (CGII-P) Score",
+                "timeFrame": "Week 16"
+              },
+              {
+                "measure": "Percent Change in All Seizures Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              },
+              {
+                "measure": "Incidence of Rescue Anti-epileptic Drug (AED) Use Relative to Baseline",
+                "timeFrame": "From Baseline up to Week 16"
+              },
+              {
+                "measure": "Number of Participants with Treatment-Emergent Adverse Events (TEAEs)",
+                "timeFrame": "From Baseline up to Week 18"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Male and female participants 2 years and older at time of consent.\n2. Participant or parent/legally authorized representative (LAR) willing and able to provide written informed consent and assent (if applicable) prior to initiation of any study related procedures.\n3. Clinical diagnosis of DS. Participants must have seizures which are not completely controlled by AEDs with the following criteria:\n\n   * Onset of seizures prior to 18 months of age,\n   * Normal development at onset,\n   * History of at least one type of countable motor seizure (CMS),\n   * Brain MRI without cortical malformation (not including mild atrophy associated with the natural progression of DS),\n   * Genetic mutation of the SCN1A gene must be documented.\n\nKey Exclusion Criteria:\n\n1. Known sensitivity, allergy, or previous exposure to clemizole HCl.\n2. Exposure to any investigational drug or device \\<90 days prior to Screening or plans to participate in another drug or device trial at any time during the study.\n3. Seizures secondary to illicit drug (this includes concomitant use of tetrahydrocannabinol \\[THC\\] and nonprescription cannabidiol preparations) or alcohol use, infection, neoplasm, demyelinating disease, degenerative neurological disease, or central nervous system disease deemed progressive, metabolic illness, or progressive degenerative disease.\n4. Concurrent use of lorcaserin. Note: Prior use of lorcaserin is permitted if at least 30 days have passed since the last dose.\n5. Concurrent use of fenfluramine.\n6. Epilepsy surgery planned during the study or epilepsy surgery within 6 months prior to Screening.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Krystle Rapchak",
+                "role": "CONTACT",
+                "phone": "+1 (312) 847-1289",
+                "email": "clinicaltrials@harmonybiosciences.com"
+              },
+              {
+                "name": "Eric Bauer",
+                "role": "CONTACT",
+                "email": "clinicaltrials@harmonybiosciences.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Amit Ray, MD",
+                "affiliation": "Harmony Biosciences Management, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Alabama at Birmingham",
+                "status": "RECRUITING",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35233",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kathryn Lalor, MD",
+                    "role": "CONTACT",
+                    "phone": "205-586-4464",
+                    "email": "klalor@uabmc.edu"
+                  },
+                  {
+                    "name": "Kathryn Lalor, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "Arkansas Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72202",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Debopam Samanta, MD",
+                    "role": "CONTACT",
+                    "phone": "501-364-1850",
+                    "email": "dsamanta@uams.edu"
+                  },
+                  {
+                    "name": "Debopam Samanta, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "Children's Hospital of Los Angeles",
+                "status": "TERMINATED",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90027",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "University of California Irvine",
+                "status": "RECRUITING",
+                "city": "Orange",
+                "state": "California",
+                "zip": "92868",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Madeline Pak",
+                    "role": "CONTACT",
+                    "phone": "714-456-8413",
+                    "email": "mspak@hs.uci.edu"
+                  },
+                  {
+                    "name": "Marie Wencel",
+                    "role": "CONTACT",
+                    "email": "mwencel@hs.usci.edu"
+                  },
+                  {
+                    "name": "David King-Stephens, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.78779,
+                  "lon": -117.85311
+                }
+              },
+              {
+                "facility": "UCSF Medical Center",
+                "status": "TERMINATED",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94158",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              },
+              {
+                "facility": "Yale School of Medicine - Yale-New Haven Hospital",
+                "status": "RECRUITING",
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06511",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Aline Herlopian, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "facility": "The Nemours Foundation",
+                "status": "TERMINATED",
+                "city": "Wilmington",
+                "state": "Delaware",
+                "zip": "19803",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.74595,
+                  "lon": -75.54659
+                }
+              },
+              {
+                "facility": "Rare Disease Research FL",
+                "status": "TERMINATED",
+                "city": "Kissimmee",
+                "state": "Florida",
+                "zip": "34746",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.30468,
+                  "lon": -81.41667
+                }
+              },
+              {
+                "facility": "Pediatric Neurology and Epilepsy Specialists",
+                "status": "RECRUITING",
+                "city": "Winter Park",
+                "state": "Florida",
+                "zip": "32789",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Alex Rivera",
+                    "role": "CONTACT",
+                    "phone": "407-293-1122",
+                    "phoneExt": "121",
+                    "email": "ariveradelvalle@pediatricneurologyandepilepsy.com"
+                  },
+                  {
+                    "name": "Kathryn Bruner",
+                    "role": "CONTACT",
+                    "email": "kathryn.skilesbruner@pediatricneurologyandepilepsy.com"
+                  },
+                  {
+                    "name": "Ronald Davis, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.6,
+                  "lon": -81.33924
+                }
+              },
+              {
+                "facility": "Clinical Integrative Research Center of Atlanta (CIRCA)",
+                "status": "WITHDRAWN",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30328",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+                "status": "TERMINATED",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Norton Children's Research Institute",
+                "status": "RECRUITING",
+                "city": "Louisville",
+                "state": "Kentucky",
+                "zip": "40202",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Katie Harris",
+                    "role": "CONTACT",
+                    "phone": "502-629-5820",
+                    "phoneExt": "50920",
+                    "email": "katherine.bellamy@louisville.edu"
+                  },
+                  {
+                    "name": "Ines Roy",
+                    "role": "CONTACT",
+                    "email": "ines.roy@nortonhealthcare.org"
+                  },
+                  {
+                    "name": "Dylan Brock, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.25424,
+                  "lon": -85.75941
+                }
+              },
+              {
+                "facility": "University of Michigan- Mott Children's Hospital",
+                "status": "TERMINATED",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "Children's Nebraska",
+                "status": "RECRUITING",
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68114",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Kym Abraham",
+                    "role": "CONTACT",
+                    "phone": "402-559-2977",
+                    "email": "kabraham@unmc.edu"
+                  },
+                  {
+                    "name": "Malayna Unkel",
+                    "role": "CONTACT",
+                    "phone": "402-559-0686"
+                  },
+                  {
+                    "name": "Sookyong Koh, MD, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "facility": "Northeast Regional Epilepsy Group",
+                "status": "WITHDRAWN",
+                "city": "Hackensack",
+                "state": "New Jersey",
+                "zip": "07601",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.88593,
+                  "lon": -74.04347
+                }
+              },
+              {
+                "facility": "Neurology Center for Epilepsy and Seizures",
+                "status": "RECRUITING",
+                "city": "Marlboro",
+                "state": "New Jersey",
+                "zip": "07746",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Aimee Kinlan",
+                    "role": "CONTACT",
+                    "phone": "732-201-6179",
+                    "email": "Amy.Kinlan@tektonresearch.com"
+                  },
+                  {
+                    "name": "Amor Mehta, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.31539,
+                  "lon": -74.24626
+                }
+              },
+              {
+                "facility": "Weill Cornell Medical Center",
+                "status": "TERMINATED",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10021",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Northwell Health - Lenox Hill Hospital",
+                "status": "WITHDRAWN",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10075",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Duke University Health System",
+                "status": "RECRUITING",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27710",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Amanda Fristoe",
+                    "role": "CONTACT",
+                    "phone": "919-613-0767",
+                    "email": "amanda.fristoe@duke.edu"
+                  },
+                  {
+                    "name": "Muhammad Zafar, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "Science 37",
+                "status": "RECRUITING",
+                "city": "Morrisville",
+                "state": "North Carolina",
+                "zip": "27560",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.82348,
+                  "lon": -78.82556
+                }
+              },
+              {
+                "facility": "Wake Forest Baptist Medical Center",
+                "status": "RECRUITING",
+                "city": "Winston-Salem",
+                "state": "North Carolina",
+                "zip": "27157",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Tonya Woosley",
+                    "role": "CONTACT",
+                    "phone": "336-716-8940",
+                    "email": "twoosley@wakehealth.edu"
+                  },
+                  {
+                    "name": "Gautam S Popli, MD, MBA",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                }
+              },
+              {
+                "facility": "Cincinnati Children's Hospital Medical Center",
+                "status": "RECRUITING",
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45229",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Samantha Ballard, BSN, RN, CPN",
+                    "role": "CONTACT",
+                    "phone": "513-803-3177",
+                    "email": "samantha.ballard@cchmc.org"
+                  },
+                  {
+                    "name": "Jessica Michael",
+                    "role": "CONTACT",
+                    "email": "jessica.michael@cchmc.org"
+                  },
+                  {
+                    "name": "Gewalin Aungaroon, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "facility": "Cleveland Clinic",
+                "status": "RECRUITING",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44195",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Honglian Huang, PhD",
+                    "role": "CONTACT",
+                    "phone": "216-445-2366",
+                    "email": "huangh2@ccf.org"
+                  },
+                  {
+                    "name": "Elia Pestana Knight, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Nationwide Children's Hospital",
+                "status": "WITHDRAWN",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "The Children's Hospital of Philadelphia",
+                "status": "RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Rashmi Risbud, Mbio",
+                    "role": "CONTACT",
+                    "phone": "215-419-3212",
+                    "email": "risbudr@chop.edu"
+                  },
+                  {
+                    "name": "Eric Marsh, MD, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Le Bonheur Children's Hospital",
+                "status": "TERMINATED",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38103",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              },
+              {
+                "facility": "Child Neurology Consultants of Austin",
+                "status": "RECRUITING",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78757",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Victoria Henderson, BS",
+                    "role": "CONTACT",
+                    "phone": "210-416-4163",
+                    "email": "Victoria.Henderson@childneurotx.com"
+                  },
+                  {
+                    "name": "Talitha Durgin",
+                    "role": "CONTACT",
+                    "email": "talitha.durgin@childneurotx.com"
+                  },
+                  {
+                    "name": "Karen Keough, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "UT Southwestern/Children's Health",
+                "status": "WITHDRAWN",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75207",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "University of Utah",
+                "status": "RECRUITING",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84112",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Laura Beeler, BS",
+                    "role": "CONTACT",
+                    "phone": "801-585-2121",
+                    "email": "laura.beeler@hsc.utah.edu"
+                  },
+                  {
+                    "name": "Daniel Ashman",
+                    "role": "CONTACT",
+                    "email": "daniel.ashman@hsc.utah.edu"
+                  },
+                  {
+                    "name": "Angela Peters, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              },
+              {
+                "facility": "Seattle Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98105",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Laurie Guidry, RN",
+                    "role": "CONTACT",
+                    "phone": "206-987-0058",
+                    "email": "laurie.guidry@seattlechildrens.org"
+                  },
+                  {
+                    "name": "Alex Collins",
+                    "role": "CONTACT",
+                    "email": "alex.collins@seattlechildrens.org"
+                  },
+                  {
+                    "name": "Russell P Saneto, DO, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "facility": "Medical College of Wisconsin, Children's Wisconsin",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milwaukee",
+                "state": "Wisconsin",
+                "zip": "53266",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Adriane Mueller",
+                    "role": "CONTACT",
+                    "phone": "414-266-7543",
+                    "email": "admueller@mcw.edu"
+                  },
+                  {
+                    "name": "Avantika Singh",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.0389,
+                  "lon": -87.90647
+                }
+              },
+              {
+                "facility": "Fundaci\u00f3n Para La Lucha Contra Las Enfermedades Neurol\u00f3gicas de La Infancia - FLENI",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Buenos Aires",
+                "country": "Argentina",
+                "contacts": [
+                  {
+                    "name": "Walter Silva",
+                    "role": "CONTACT",
+                    "phone": "5491138310315",
+                    "email": "whsilva@fleni.org.ar"
+                  },
+                  {
+                    "name": "Walter Silva",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -34.61315,
+                  "lon": -58.37723
+                }
+              },
+              {
+                "facility": "Conci Carpinella - Santa Rosa N\u00b0 748",
+                "status": "NOT_YET_RECRUITING",
+                "city": "C\u00f3rdoba",
+                "country": "Argentina",
+                "contacts": [
+                  {
+                    "name": "Hector Martinez",
+                    "role": "CONTACT",
+                    "phone": "5493517473258",
+                    "email": "hectorariel_martinez@hotmail.com"
+                  },
+                  {
+                    "name": "Hector Martinez",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -31.40648,
+                  "lon": -64.18853
+                }
+              },
+              {
+                "facility": "Instituto Privado Kremer",
+                "status": "NOT_YET_RECRUITING",
+                "city": "C\u00f3rdoba",
+                "country": "Argentina",
+                "contacts": [
+                  {
+                    "name": "Carlos Deabato",
+                    "role": "CONTACT",
+                    "phone": "0351 3303166",
+                    "email": "deabatoarg@gmail.com"
+                  },
+                  {
+                    "name": "Carlos Deabato",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -31.40648,
+                  "lon": -64.18853
+                }
+              },
+              {
+                "facility": "Instituto M\u00e9dico Rivarola (GIEN SRL)",
+                "status": "NOT_YET_RECRUITING",
+                "city": "San Luis",
+                "country": "Argentina",
+                "contacts": [
+                  {
+                    "name": "Pablo Lopez",
+                    "role": "CONTACT",
+                    "phone": "(54115) 239-6010",
+                    "email": "pabloadrian.lopez@swissmedical.com.ar"
+                  },
+                  {
+                    "name": "Pablo Lopez",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -33.2914,
+                  "lon": -66.32467
+                }
+              },
+              {
+                "facility": "Hospital Universit\u00e1rio da Universidade Estadual de Campinas - UNICAMP",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Campinas",
+                "country": "Brazil",
+                "contacts": [
+                  {
+                    "name": "Fernando Cendes",
+                    "role": "CONTACT",
+                    "phone": "(55193) 521-7372",
+                    "email": "fcendes@unicamp.br"
+                  },
+                  {
+                    "name": "Fernando Cendes",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -22.90556,
+                  "lon": -47.06083
+                }
+              },
+              {
+                "facility": "Fundacao Faculdade Regional de Medicina de Sao Jose Do Rio Preto Hospital de Base - PPDS",
+                "status": "NOT_YET_RECRUITING",
+                "city": "S\u00e3o Jos\u00e9 do Rio Preto",
+                "country": "Brazil",
+                "contacts": [
+                  {
+                    "name": "Lucia Neves Marques",
+                    "role": "CONTACT",
+                    "phone": "55 17 99608-4244",
+                    "email": "luciahelenanevesmarques@gmail.com"
+                  },
+                  {
+                    "name": "Lucia Neves Marques",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -20.81972,
+                  "lon": -49.37944
+                }
+              },
+              {
+                "facility": "Hospital S\u00e3o Paulo da Universidade Federal de Sao Paulo - Escola Paulista de Medicina UNIFESP-EPM",
+                "status": "NOT_YET_RECRUITING",
+                "city": "S\u00e3o Paulo",
+                "country": "Brazil",
+                "contacts": [
+                  {
+                    "name": "Laura Maria Guilhoto",
+                    "role": "CONTACT",
+                    "phone": "(55115) 579-2581",
+                    "email": "lauragui@gmail.com"
+                  },
+                  {
+                    "name": "Laura Maria Guilhoto",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -23.5475,
+                  "lon": -46.63611
+                }
+              },
+              {
+                "facility": "Instituto de Psiquiatria HC FMUSP",
+                "status": "NOT_YET_RECRUITING",
+                "city": "S\u00e3o Paulo",
+                "country": "Brazil",
+                "contacts": [
+                  {
+                    "name": "Kette Dualibi Ramos Valente",
+                    "role": "CONTACT",
+                    "phone": "551126616518",
+                    "email": "kette.valente@hc.fm.usp.br"
+                  },
+                  {
+                    "name": "Kette Dualibi Ramos Valente",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -23.5475,
+                  "lon": -46.63611
+                }
+              },
+              {
+                "facility": "UBC Children's Hospital Research Institute",
+                "status": "RECRUITING",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6H 3V1",
+                "country": "Canada",
+                "contacts": [
+                  {
+                    "name": "Dora Xiong",
+                    "role": "CONTACT",
+                    "phone": "604-875-2345",
+                    "phoneExt": "6728",
+                    "email": "dora.xiong@cw.bc.ca"
+                  },
+                  {
+                    "name": "Vanessa Diamond, MD",
+                    "role": "CONTACT",
+                    "email": "vanessa.diamond@cw.bc.ca"
+                  },
+                  {
+                    "name": "Mary Connolly, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Children's Hospital of Eastern Ontario Research Institute Inc.",
+                "status": "RECRUITING",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K1H 8L1",
+                "country": "Canada",
+                "contacts": [
+                  {
+                    "name": "Sarah Healy, MSc",
+                    "role": "CONTACT",
+                    "phone": "613-737-7600",
+                    "phoneExt": "1605",
+                    "email": "shealy@cheo.on.ca"
+                  },
+                  {
+                    "name": "Aristhana Kathiresu",
+                    "role": "CONTACT",
+                    "email": "AKathiresu@cheo.on.ca"
+                  },
+                  {
+                    "name": "Katherine Muir, MD, FRCPC",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "The Hospital for Sick Children",
+                "status": "RECRUITING",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5G 1X8",
+                "country": "Canada",
+                "contacts": [
+                  {
+                    "name": "Laura MacDougall, PhD, CCRP",
+                    "role": "CONTACT",
+                    "phone": "416-813-7996",
+                    "email": "laura.macdougall@sickkids.ca"
+                  },
+                  {
+                    "name": "Elizabeth Donner, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Toronto Western Hospital, University Health Network",
+                "status": "RECRUITING",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5T 2S8",
+                "country": "Canada",
+                "contacts": [
+                  {
+                    "name": "Sarah Iskandarani, MD",
+                    "role": "CONTACT",
+                    "phone": "416-603-5800",
+                    "phoneExt": "5906",
+                    "email": "sarah.iskandarani@uhn.ca"
+                  },
+                  {
+                    "name": "Quratulain Zulfiqar",
+                    "role": "CONTACT",
+                    "email": "quaratulain.zulfiqar_ali@uhn.ca"
+                  },
+                  {
+                    "name": "Danielle M Andrade, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Beijing Children's Hospital, Capital Medical University - PIN",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "100045",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Hui Xiong",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Peking University First Hospital - Daxing Campus",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "state": "Beijing Municipality",
+                "zip": "102627",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yuwu Jiang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Children's Hospital of Chongqing Medical University",
+                "status": "RECRUITING",
+                "city": "Chongqing",
+                "state": "Chongqing Municipality",
+                "zip": "400014",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Li Jiang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.56026,
+                  "lon": 106.55771
+                }
+              },
+              {
+                "facility": "The Second Affiliated Hospital of Guangzhou Medical University",
+                "status": "RECRUITING",
+                "city": "Guangzhou",
+                "state": "Guangdong",
+                "zip": "510260",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaorong Liu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 23.11667,
+                  "lon": 113.25
+                }
+              },
+              {
+                "facility": "Shenzhen Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Shenzhen",
+                "state": "Guangdong",
+                "zip": "518000",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Dezhi Cao",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "The Affiliated Hospital of Guizhou Medical University",
+                "status": "RECRUITING",
+                "city": "Guiyang",
+                "state": "Guizhou",
+                "zip": "550004",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Rong Ai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 26.58333,
+                  "lon": 106.71667
+                }
+              },
+              {
+                "facility": "Wuhan Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Wuhan",
+                "state": "Hubei",
+                "zip": "430015",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Dan Sun",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              },
+              {
+                "facility": "Hunan Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "state": "Hunan",
+                "zip": "10007",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Sai Yang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "Xiangya Hospital Central South University",
+                "status": "RECRUITING",
+                "city": "Changsha",
+                "state": "Hunan",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jing Peng",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.19874,
+                  "lon": 112.97087
+                }
+              },
+              {
+                "facility": "Xuzhou Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Xuzhou",
+                "state": "Jiangsu",
+                "zip": "221006",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaoming Liu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.20442,
+                  "lon": 117.28386
+                }
+              },
+              {
+                "facility": "Jiangxi Provincial Children's Hospital - Donghu Campus",
+                "status": "RECRUITING",
+                "city": "Nanchang",
+                "state": "Jiangxi",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yong Chen",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.68396,
+                  "lon": 115.85306
+                }
+              },
+              {
+                "facility": "The First Hospital of Jilin University",
+                "status": "RECRUITING",
+                "city": "Changchun",
+                "state": "Jilin",
+                "zip": "130021",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Jianmin Liang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.88,
+                  "lon": 125.32278
+                }
+              },
+              {
+                "facility": "The Second Affiliated Hospital of Xi'an Jiaotong University",
+                "status": "RECRUITING",
+                "city": "Xi'an",
+                "state": "Shaanxi",
+                "zip": "710004",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Lin Yang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.25833,
+                  "lon": 108.92861
+                }
+              },
+              {
+                "facility": "Qilu Hospital of Shandong University",
+                "status": "RECRUITING",
+                "city": "Jinan",
+                "state": "Shandong",
+                "zip": "250012",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Baomin Li",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.66833,
+                  "lon": 116.99722
+                }
+              },
+              {
+                "facility": "Children's Hospital of Shanghai - Ludinglu Campus",
+                "status": "RECRUITING",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "200062",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Simei Wang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "West China Second University Hospital, Sichuan University - Huaxi Campus",
+                "status": "RECRUITING",
+                "city": "Chengdu",
+                "state": "Sichuan",
+                "zip": "610041",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Rong Luo",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "Chengdu Women's and Children's Central Hospital",
+                "status": "RECRUITING",
+                "city": "Chengdu",
+                "state": "Sichuan",
+                "zip": "610073",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Li Yan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "The Children's Hospital Zhejiang University School of Medicine - Hubin Campus",
+                "status": "RECRUITING",
+                "city": "Hangzhou",
+                "state": "Zhejiang",
+                "zip": "310052",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Zhefeng Yuan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.29365,
+                  "lon": 120.16142
+                }
+              },
+              {
+                "facility": "Tbilisi State Medical University, Givi Zhvania Academic, Clinic of Pediatry",
+                "status": "RECRUITING",
+                "city": "Tbilisi",
+                "zip": "0159",
+                "country": "Georgia",
+                "contacts": [
+                  {
+                    "name": "Tinatin Nadiradze, MD",
+                    "role": "CONTACT",
+                    "phone": "+995558320502",
+                    "email": "t.nadiradze@tsmu.edu"
+                  },
+                  {
+                    "name": "Sophia Bakhtadze, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "Medi Club Georgia LLC",
+                "status": "RECRUITING",
+                "city": "Tbilisi",
+                "zip": "0160",
+                "country": "Georgia",
+                "contacts": [
+                  {
+                    "name": "Tamar Gachechiladze, MD",
+                    "role": "CONTACT",
+                    "phone": "+995598357909",
+                    "email": "tamogachechiladze@yahoo.com"
+                  },
+                  {
+                    "name": "Gia Melikishvili, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "Institute of Neurology and Neuropsychology LTD",
+                "status": "RECRUITING",
+                "city": "Tbilisi",
+                "zip": "0186",
+                "country": "Georgia",
+                "contacts": [
+                  {
+                    "name": "Sopiko Digmelashvili, MD",
+                    "role": "CONTACT",
+                    "phone": "+995551516066",
+                    "email": "sopikodigmelashvili@gmail.com"
+                  },
+                  {
+                    "name": "David Kvernadze, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "Semmelweis University",
+                "status": "RECRUITING",
+                "city": "Budapest",
+                "zip": "1094",
+                "country": "Hungary",
+                "contacts": [
+                  {
+                    "name": "Andrasne Korodi",
+                    "role": "CONTACT",
+                    "phone": "+06208258208",
+                    "email": "Korodi.kata@gmail.com"
+                  },
+                  {
+                    "name": "Kristof Farkas, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.49835,
+                  "lon": 19.04045
+                }
+              },
+              {
+                "facility": "University of Debrecen",
+                "status": "RECRUITING",
+                "city": "Debrecen",
+                "zip": "4032",
+                "country": "Hungary",
+                "contacts": [
+                  {
+                    "name": "Monika Bessenyei, MD",
+                    "role": "CONTACT",
+                    "phone": "+0036709450368",
+                    "email": "besenyei.monika@med.unideb.hu"
+                  },
+                  {
+                    "name": "M\u00f3nika Bessenyei, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.53167,
+                  "lon": 21.62444
+                }
+              },
+              {
+                "facility": "Rainbow Children's Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Hyderabad",
+                "state": "Andhra Pradesh",
+                "zip": "500034",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Ramesh Konanki",
+                    "role": "CONTACT",
+                    "phone": "7386668959",
+                    "email": "drkonankiramesh@rainbowhospitals.in"
+                  },
+                  {
+                    "name": "Ramesh Konanki",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ]
+              },
+              {
+                "facility": "Yashoda Hospitals Hitec City",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Hyderabad",
+                "state": "Andhra Pradesh",
+                "zip": "500081",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Shameer Basha Shaik",
+                    "role": "CONTACT",
+                    "phone": "+91- 9966596459",
+                    "email": "research2.bnj@rainbowhospitals.in"
+                  },
+                  {
+                    "name": "Katakam Deepthi",
+                    "role": "CONTACT",
+                    "email": "researchneuroscience3@gmail.com"
+                  },
+                  {
+                    "name": "Lokesh Lingappa",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ]
+              },
+              {
+                "facility": "Saachi Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Surat",
+                "state": "Gujarat",
+                "zip": "395002",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Honey Patel",
+                    "role": "CONTACT",
+                    "phone": "73833-33348",
+                    "email": "honey.patel@visaferesearch.com"
+                  },
+                  {
+                    "name": "Ritesh Shah",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 21.19594,
+                  "lon": 72.83023
+                }
+              },
+              {
+                "facility": "KLES Dr Prabhakar Kore Hospital and Medical Research Centre",
+                "status": "RECRUITING",
+                "city": "Belagavi",
+                "state": "Karnataka",
+                "zip": "590010",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Jyoti Guruputranavar",
+                    "role": "CONTACT",
+                    "phone": "+91- 76195 48224",
+                    "email": "guruputranavarjyoti@gmail.com"
+                  },
+                  {
+                    "name": "Mahesh Kamate",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 15.85212,
+                  "lon": 74.50447
+                }
+              },
+              {
+                "facility": "National Institute of Mental Health and Neurosciences (NIMHANS)",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "zip": "560029",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Ajay Asranna",
+                    "role": "CONTACT",
+                    "phone": "91-8943612626",
+                    "email": "ajayasranna@gmail.com"
+                  },
+                  {
+                    "name": "Ajay Asranna",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 12.97194,
+                  "lon": 77.59369
+                }
+              },
+              {
+                "facility": "Amrita Institute of Medical Sciences & Research Center",
+                "status": "RECRUITING",
+                "city": "Kochi",
+                "state": "Kerala",
+                "zip": "682041",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Deepa Gijesh",
+                    "role": "CONTACT",
+                    "phone": "+919995184399",
+                    "email": "deepagijesh@aims.amrita.edu"
+                  },
+                  {
+                    "name": "Nithya Kumar",
+                    "role": "CONTACT",
+                    "email": "nithyankumar2@gmail.com"
+                  },
+                  {
+                    "name": "Vinayan K. P.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 9.93988,
+                  "lon": 76.26022
+                }
+              },
+              {
+                "facility": "KEM Hospital Research Centre",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Pune",
+                "state": "Maharashta",
+                "zip": "411011",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Aishwarya Patil",
+                    "role": "CONTACT",
+                    "phone": "+91- 98999476422",
+                    "email": "aishwaryauttampatil@gmail.com"
+                  },
+                  {
+                    "name": "Nandan Yardi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 18.51957,
+                  "lon": 73.85535
+                }
+              },
+              {
+                "facility": "Jaslok Hospital & Research Centre",
+                "status": "RECRUITING",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "zip": "400026",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Pradnya Shinde",
+                    "role": "CONTACT",
+                    "phone": "+919757138607",
+                    "email": "pradnyashinde2210@gmail.com"
+                  },
+                  {
+                    "name": "Anita Hegde",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 19.07283,
+                  "lon": 72.88261
+                }
+              },
+              {
+                "facility": "Central India Cardiology Hospital and Research Institute",
+                "status": "RECRUITING",
+                "city": "Nagpur",
+                "state": "Maharashtra",
+                "zip": "440015",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Krutika Satokar",
+                    "role": "CONTACT",
+                    "phone": "+919359723117",
+                    "email": "Krutika@hrapl.in"
+                  },
+                  {
+                    "name": "Amarjeet Wagh",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 21.14631,
+                  "lon": 79.08491
+                }
+              },
+              {
+                "facility": "SRCC Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Mah\u0101lakshmi",
+                "state": "Mumbai",
+                "zip": "400034",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Vijetha Shetty",
+                    "role": "CONTACT",
+                    "phone": "+91- 8291207577",
+                    "email": "drgadgilexecutiveassistant@gmail.com"
+                  },
+                  {
+                    "name": "Pradnya Gadgil",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 20.94422,
+                  "lon": 75.72024
+                }
+              },
+              {
+                "facility": "All India Institute of Medical Sciences (AIIMS)",
+                "status": "RECRUITING",
+                "city": "New Delhi",
+                "state": "National Capital Territory of Delhi",
+                "zip": "110029",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "Shailly Katoch",
+                    "role": "CONTACT",
+                    "phone": "+919878507624",
+                    "email": "katochshailly@gmail.com"
+                  },
+                  {
+                    "name": "Sheffali Gulati",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 28.62137,
+                  "lon": 77.2148
+                }
+              },
+              {
+                "facility": "Christian Medical College",
+                "status": "RECRUITING",
+                "city": "Vellore",
+                "state": "Tamil Nadu",
+                "zip": "632004",
+                "country": "India",
+                "contacts": [
+                  {
+                    "name": "G Ponezhil",
+                    "role": "CONTACT",
+                    "phone": "+918124235630",
+                    "email": "argustrialpnucmc@gmail.com"
+                  },
+                  {
+                    "name": "Maya Thomas",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 12.9184,
+                  "lon": 79.13255
+                }
+              },
+              {
+                "facility": "University Clinical Center in Gdansk, Division of Developmental Neurology",
+                "status": "RECRUITING",
+                "city": "Gdansk",
+                "zip": "80-952",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Angelika Kami\u0144ska",
+                    "role": "CONTACT",
+                    "phone": "+48 58 349 23 31",
+                    "email": "ankaminska@uck.gda.pl"
+                  },
+                  {
+                    "name": "Maria Mazuriewicz-Be\u0142dzi\u0144ska, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 54.35227,
+                  "lon": 18.64912
+                }
+              },
+              {
+                "facility": "Medical Centre Plejady",
+                "status": "RECRUITING",
+                "city": "Krakow",
+                "zip": "30-363",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Anna Mackowicz",
+                    "role": "CONTACT",
+                    "phone": "+48 50 107 68 35",
+                    "email": "anna.mackowicz@plejady.com.pl"
+                  },
+                  {
+                    "name": "Marta \u017bo\u0142nowska, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.06143,
+                  "lon": 19.93658
+                }
+              },
+              {
+                "facility": "Institute of Mother and Child",
+                "status": "RECRUITING",
+                "city": "Warsaw",
+                "zip": "01-211",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Zuzanna Kuczer",
+                    "role": "CONTACT",
+                    "phone": "+48608338848",
+                    "email": "zuzanna.kuczer@imid.med.pl"
+                  },
+                  {
+                    "name": "El\u017cbieta Stawicka, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Hospital Infantil Universitario Ni\u00f1o Jes\u00fas",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "state": "Madrid Provincia",
+                "zip": "28009",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Nuria Ventosino",
+                    "role": "CONTACT",
+                    "phone": "+346620708323",
+                    "phoneExt": "7351",
+                    "email": "nuria.ventosino@salud.madrid.org"
+                  },
+                  {
+                    "name": "Victor Soto, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital de la Santa Creu i Sant Pau",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08025",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Angela Fraga",
+                    "role": "CONTACT",
+                    "phone": "+34633160818",
+                    "email": "AFraga@santpau.cat"
+                  },
+                  {
+                    "name": "Marc Alegre",
+                    "role": "CONTACT",
+                    "email": "MAlegreH@santpau.cat"
+                  },
+                  {
+                    "name": "Alba Sierra, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Cardiff and Vale University Health Board",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Cardiff",
+                "zip": "CF14 4XW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "Great Ormond Street Hospital For Children",
+                "status": "COMPLETED",
+                "city": "London",
+                "zip": "WC1N 1EH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Sheffield Children's Hospital",
+                "status": "COMPLETED",
+                "city": "Sheffield",
+                "zip": "S102TH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.38297,
+                  "lon": -1.4659
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Romania"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              },
+              {
+                "id": "D012640",
+                "term": "Seizures"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07824193",
+            "orgStudyIdInfo": {
+              "id": "EPX-100-CL-101"
+            },
+            "organization": {
+              "fullName": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Drug-drug Interaction Study of Clemizole (EPX-100) in Healthy Participants",
+            "officialTitle": "A Phase 1, 3-Part Study to Evaluate the Effect of CYP3A4 Inhibition and Induction on the Pharmacokinetics of Clemizole and the Effect of Clemizole on the Pharmacokinetics of CYP2C19, CYP3A4, and CYP2B6 Substrates in Healthy Participants"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-01-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-04-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-04-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-09-11",
+            "studyFirstSubmitQcDate": "2026-09-11",
+            "studyFirstPostDateStruct": {
+              "date": "2026-09-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-17",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Harmony Biosciences Management, Inc.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a 3-part, drug-drug interaction study in healthy participants. Each part is designed as a 2-period, fixed-sequence and can be conducted concurrently.\n\nPart 1 will assess the effect of itraconazole on the pharmacokinetics (PK) of EPX-100. Part 2 will assess the effect of phenytoin on the PK of EPX-100. Part 3 will assess the effect of EPX-100 on the PK of omeprazole, midazolam, and bupropion."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Drug Drug Interaction"
+            ],
+            "keywords": [
+              "Healthy Volunteers"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 54,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1 - Itraconazole",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment A (Period 1): EPX-100 on Day 1.\n\nTreatment B (Period 2): itraconazole twice daily (BID) on Day 1; then once daily (QD) on Days 2-5, with EPX-100 administered approximately 2 hours after itraconazole dosing on Day 5.",
+                "interventionNames": [
+                  "Drug: EPX-100",
+                  "Drug: Itraconazole"
+                ]
+              },
+              {
+                "label": "Part 2 - Phenytoin",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment C (Period 1): EPX-100 on Day 1. Treatment D (Period 2): phenytoin three times daily (TID) on Days 1 to Day 14, with EPX-100 coadministered on the morning of Day 14.",
+                "interventionNames": [
+                  "Drug: EPX-100",
+                  "Drug: Phenytoin"
+                ]
+              },
+              {
+                "label": "Part 3 - Omeprazole, Midazolam, and Bupropion",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment E (Period 1): omeprazole on Day 1; midazolam on Day 2; bupropion on Day 3.\n\nTreatment F (Period 2): EPX-100 BID on Days 1-18 with omeprazole coadministered on the morning of Day 12; midazolam coadministered on the morning of Day 14; bupropion coadministered on the morning of Day 15.",
+                "interventionNames": [
+                  "Drug: EPX-100",
+                  "Drug: Omeprazole",
+                  "Drug: Midazolam",
+                  "Drug: Bupropion"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EPX-100",
+                "description": "Oral solution",
+                "armGroupLabels": [
+                  "Part 1 - Itraconazole",
+                  "Part 2 - Phenytoin",
+                  "Part 3 - Omeprazole, Midazolam, and Bupropion"
+                ],
+                "otherNames": [
+                  "Clemizole hydrochloride"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Itraconazole",
+                "description": "Oral solution",
+                "armGroupLabels": [
+                  "Part 1 - Itraconazole"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Phenytoin",
+                "description": "Phenytoin sodium extended-release capsules",
+                "armGroupLabels": [
+                  "Part 2 - Phenytoin"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Omeprazole",
+                "description": "Delayed-release capsule",
+                "armGroupLabels": [
+                  "Part 3 - Omeprazole, Midazolam, and Bupropion"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Midazolam",
+                "description": "Midazolam hydrochloride (HCl) syrup",
+                "armGroupLabels": [
+                  "Part 3 - Omeprazole, Midazolam, and Bupropion"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Bupropion",
+                "description": "Bupropion HCl tablets",
+                "armGroupLabels": [
+                  "Part 3 - Omeprazole, Midazolam, and Bupropion"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Area Under The Concentration-time Curve (AUC), from Time 0 to the Last Observed Non-zero Concentration (AUC0-t) Of EPX-100",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC From Time 0 extrapolated to infinity (AUC0-inf) of EPX-100",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "Maximum Observed Concentration (Cmax) of EPX-100",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC0-t of Omeprazole",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC0-inf of Omeprazole",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "Cmax of Omeprazole",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC0-t of Midazolam",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC0-inf of Midazolam",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "Cmax of Midazolam",
+                "timeFrame": "Up to Day 15"
+              },
+              {
+                "measure": "AUC0-t of Bupropion",
+                "timeFrame": "Up to Day 19"
+              },
+              {
+                "measure": "AUC0-inf of Bupropion",
+                "timeFrame": "Up to Day 19"
+              },
+              {
+                "measure": "Cmax of Bupropion",
+                "timeFrame": "Up to Day 19"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Participants with Treatment Emergent Adverse Events",
+                "timeFrame": "Up to 12 Weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy, adult, male or female, 18-55 years of age, inclusive, at the screening visit\n* Continuous non-smoker who has not used nicotine- and tobacco-containing products for at least 3 months prior to the first dosing.\n* Body mass index \u226518.0 and \u226432.0 kilograms per square meter(kg/m\\^2) within 28 days prior to first dosing.\n\nExclusion Criteria:\n\n* Is mentally or legally incapacitated or has significant emotional problems at the time of the screening visit or expected during the conduct of the study.\n* History or presence of clinically significant medical or psychiatric condition or disease in the opinion of the Investigator or designee.\n* History of any illness that, in the opinion of the Investigator or designee, might confound the results of the study or poses an additional risk to the participant by their participation in the study.\n\nNote: Additional inclusion/exclusion criteria may apply, per protocol",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Amit Ray, MD, MBA, FAES, FAAN",
+                "affiliation": "Epygenix",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Celerion",
+                "city": "Tempe",
+                "state": "Arizona",
+                "zip": "85283",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.41477,
+                  "lon": -111.90931
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017964",
+                "term": "Itraconazole"
+              },
+              {
+                "id": "D010672",
+                "term": "Phenytoin"
+              },
+              {
+                "id": "D009853",
+                "term": "Omeprazole"
+              },
+              {
+                "id": "D008874",
+                "term": "Midazolam"
+              },
+              {
+                "id": "D016642",
+                "term": "Bupropion"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D014230",
+                "term": "Triazoles"
+              },
+              {
+                "id": "D001393",
+                "term": "Azoles"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              },
+              {
+                "id": "D010879",
+                "term": "Piperazines"
+              },
+              {
+                "id": "D006827",
+                "term": "Hydantoins"
+              },
+              {
+                "id": "D048289",
+                "term": "Imidazolidines"
+              },
+              {
+                "id": "D007093",
+                "term": "Imidazoles"
+              },
+              {
+                "id": "D053799",
+                "term": "2-Pyridinylmethylsulfinylbenzimidazoles"
+              },
+              {
+                "id": "D013454",
+                "term": "Sulfoxides"
+              },
+              {
+                "id": "D013457",
+                "term": "Sulfur Compounds"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D011725",
+                "term": "Pyridines"
+              },
+              {
+                "id": "D001562",
+                "term": "Benzimidazoles"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D001569",
+                "term": "Benzodiazepines"
+              },
+              {
+                "id": "D001552",
+                "term": "Benzazepines"
+              },
+              {
+                "id": "D011427",
+                "term": "Propiophenones"
+              },
+              {
+                "id": "D007659",
+                "term": "Ketones"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04069689",
+            "orgStudyIdInfo": {
+              "id": "EPX-100-002"
+            },
+            "organization": {
+              "fullName": "Epygenix",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety and Pharmacokinetics of Oral Doses of EPX-100 in Healthy Subjects.",
+            "officialTitle": "A Phase I, Placebo-Controlled, Double-Blind, 2-Period Study to Assess Safety and Pharmacokinetics of Escalating Single and Multiple Oral Doses of EPX-100 in Fasting Healthy Subjects and Following a High-Fat Meal"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-08-29",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-11-27",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-11-27",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-08-22",
+            "studyFirstSubmitQcDate": "2019-08-23",
+            "studyFirstPostDateStruct": {
+              "date": "2019-08-28",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-09-10",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-09-19",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Epygenix",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a placebo-controlled, double-blind, 2-period study in 3 sequential groups of 8 healthy subjects each. The safety and pharmacokinetics of escalating single and multiple oral doses of EPX-100 will be assessed in fasting healthy subjects and following a high-fat meal.",
+            "detailedDescription": "This is a placebo-controlled, double-blind, 2-period study in 3 sequential groups of 8 healthy subjects each. Subjects will be admitted on two occasions to the clinical research center: Day -1 for 14 days and discharged on Day 13 and then re-admitted on Day 19 for 3 days and discharged on Day 21. Subjects will fast after midnight on the day of each admission.\n\nOn Day 1 of study of the low-dose group (cohort 1), subjects will be randomized to a single dose of 20 mg EPX-100 (N=6) or placebo (N=2) in the morning and then remain fasting for 4 hours after dosing. Safety will be assessed and blood samples will be obtained to calculate PK at the following time points: 0, 0.5, 1, 2, 4, 6, 8, 12, 18, and 24 hours following the first dose of EPX-100 or placebo. The subjects will remain in the study research center for daily 8 AM (\u00b1 2 hours) blood samples for 5 consecutive days (Days 3 - 7; one blood sample per day). On Days 8 - 11, subjects will be administered 20 mg EPX-100 or placebo twice daily (BID) at least one hour prior to the morning meal and at least 2 hours after the evening meal (approximately 12 hours apart). A single dose of 20 mg EPX-100 or placebo will be administered on Day 12 in the fasting state and subjects will remain fasting for 4 hours after dosing. Blood samples will be drawn at the following time points: 0, 0.5, 1, 2, 4, 6, 8, 12, 18, and 24 hours to determine multiple-dose PK. After a washout period of at least one week following the last dose of EPX-100 or placebo, subjects will return to the clinical research center on Day 19 and safety will be assessed. On Day 20, subjects will ingest a high-fat morning meal over 30 minutes; thereafter, the subject will receive a single dose of 20 mg EPX- 100 or placebo at 30 minutes after the start of the meal. Blood samples will be drawn at the following time points: 0, 0.5, 1, 2, 4, 6, 8, 12, 18, and 24 hours after the administration of study drug to determine the PK of EPX-100 in the fed state. Once the 20 mg dose level of EPX-100 is evaluated and the Safety Review Committee (SRC) determines it is safe to escalate to the next dose level, subsequent groups of 8 subjects each will be administered 40 mg (cohort 2) and 80 mg (cohort 3) (N=6 active drug, N=2 matching placebo) EPX-100 and follow the same study procedures as the low-dose group (cohort 1).\n\nThroughout the study period, subjects will undergo cardiac assessments, safety assessments, and PK sampling."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dravet Syndrome"
+            ],
+            "keywords": [
+              "Clemizole"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 24,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "EPX-100",
+                "type": "EXPERIMENTAL",
+                "description": "Single and multiple doses of 20, 40, 80mg of EPX-100 (Clemizole Hydrochloride)",
+                "interventionNames": [
+                  "Drug: EPX-100 (Clemizole Hydrochloride)"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Single and multiple doses of 20, 40, 80mg of placebo",
+                "interventionNames": [
+                  "Drug: Placebos"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "EPX-100 (Clemizole Hydrochloride)",
+                "description": "EPX-100 (Clemizole Hydrochloride)",
+                "armGroupLabels": [
+                  "EPX-100"
+                ],
+                "otherNames": [
+                  "Clemizole Hydrochloride",
+                  "Clemizole HCL"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebos",
+                "description": "Placebo to match EPX-100",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Treatment-emergent adverse events (TEAEs)",
+                "description": "To evaluate the safety of single and multiple escalating doses of oral EPX-100 in healthy subjects.",
+                "timeFrame": "21 days"
+              },
+              {
+                "measure": "Serial ECGs - QTcF Interval",
+                "description": "To evaluate the safety of single and multiple escalating doses of oral EPX-100 in healthy subjects.",
+                "timeFrame": "21 days"
+              },
+              {
+                "measure": "Physical Examinations Including Actual Body Weight",
+                "description": "To evaluate the safety of single and multiple escalating doses of oral EPX-100 in healthy subjects.",
+                "timeFrame": "21 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Plasma Concentrations of EPX-100 in Fasting State",
+                "description": "Determine the pharmacokinetic (PK) profile of single and multiples doses of 20 mg, 40 mg, and 80 mg twice daily of EPX-100.",
+                "timeFrame": "13 days"
+              },
+              {
+                "measure": "Plasma Concentration of EPX-100 following a High-Fat Meal",
+                "description": "Determine the PK profile of a single dose of EPX-100 in the fasting state compared with after a high-fat meal.",
+                "timeFrame": "24 hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent prior to any study-related procedures\n2. Male or female subjects 18 to 50 years of age inclusive\n3. Subject's body mass index (BMI) is \u2264 30 kg/m2\n4. Female subjects of childbearing potential must not be pregnant or lactating with a negative serum human chorionic gonadotropin (HCG) pregnancy test result at Screening, Day -1, or Day 19.\n5. Female subjects of childbearing potential and male subjects must use an adequate method of contraception from Screening until completion of the study. Acceptable methods of contraception are barrier methods (male condom, female condom, diaphragm, cervical cap, spermicide, or intrauterine device \\[IUD\\]), surgical sterility (documented doctor's report of vasectomy, hysterectomy, and/or bilateral oophorectomy), oral hormonal contraceptives, hormonal IUD, and/or postmenopausal status (defined as at least 1 year without menses as demonstrated by medical history or subject report).\n6. Subject is in good health as determined by vital signs, medical history, physical exam, and safety laboratory analyses at Screening and during the study.\n\nExclusion Criteria:\n\n1. Subject has used an investigational product within 30 days prior to enrollment or during the study.\n2. Subject has used prescription or non-prescription drugs (including vitamins, minerals, and herbal/plant-derived preparations) within 2 weeks of enrollment (excluding oral hormonal contraceptives, hormonal IUD, hormone replacement therapy, and acetaminophen) unless deemed acceptable by the Investigator in consultation with the Sponsor.\n3. Subject has a positive drug and/or alcohol test at Screening, Day -1, or Day 19.\n4. Subject has a history of drug or alcohol abuse within 2 years before Screening.\n5. Subject is unable to abstain from ingesting alcohol, caffeine, grapefruit or grapefruit juice, pomelo or pomelo juice, or Seville oranges or Seville orange juice for 72 hours prior to dosing and throughout the dosing periods.\n6. Concurrent use of substances, including drugs, known to interfere with EPX-100, including moderate or severe inducers or inhibitors of CYP3A4 and CYP2D6.\n7. The subject has a clinically significant history of endocrinologic, hematologic, hepatic, immunologic, metabolic, urologic, pulmonary, neurologic, dermatologic, psychiatric, renal, and/or other major diseases or malignancy.\n8. Subject has evidence of any of the following cardiac conduction abnormalities:\n\n   1. QTcF interval \\>430 msec for males and \\>450 msec for females\n   2. PR interval \u2a7e 200 msec\n   3. Evidence of second- or third-degree atrioventricular block (AVB)\n   4. Electrocardiographic evidence of complete left bundle branch block (LBBB), complete right bundle branch block (RBBB), or incomplete LBBB\n   5. Intraventricular conduction delay with QRS duration \\>120 msec\n   6. Heart rate \\<40 bpm\n   7. Pathological Q waves (defined as \\>40 msec or depth \\>0.4-0.5 mV)\n   8. Evidence of ventricular pre-excitation.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Hahn-Jun Lee, Ph.D.",
+                "affiliation": "Epygenix Therapeutics, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "TKL Research",
+                "city": "Fair Lawn",
+                "state": "New Jersey",
+                "zip": "07410",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.94038,
+                  "lon": -74.13181
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

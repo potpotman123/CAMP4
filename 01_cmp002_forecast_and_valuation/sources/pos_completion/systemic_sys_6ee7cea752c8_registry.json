@@ -1,0 +1,2669 @@
+{
+  "integrated_id": "systemic:sys_6ee7cea752c8",
+  "asset": "ADX038",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ADX-038",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05876312",
+            "orgStudyIdInfo": {
+              "id": "ADX-038-101"
+            },
+            "organization": {
+              "fullName": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, PK and PD of ADX-038 in Healthy Participants and Paroxysmal Nocturnal Hemoglobinuria (PNH) Patients",
+            "officialTitle": "A Phase 1, Randomized, Double Blind, Placebo-Controlled, Single Ascending Dose Study in Healthy Participants Followed by a Phase 2a Open Label Study in Participants With PNH and Residual Anemia to Evaluate the Safety, Tolerability, PK and PD of ADX-038",
+            "acronym": "PNH"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-03-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-07-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-17",
+            "studyFirstSubmitQcDate": "2023-05-17",
+            "studyFirstPostDateStruct": {
+              "date": "2023-05-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "ADARx Australia Pty Ltd",
+                "class": "UNKNOWN"
+              },
+              {
+                "name": "Novotech (Australia) Pty Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The first-in-human Phase 1/Phase 2a study described herein will evaluate the safety, tolerability, pharmacokinetics (PK) and pharmacodynamics (PD) of ADX-038 in both healthy participants (HP) and in patients with paroxysmal nocturnal hemoglobinuria (PNH).",
+            "detailedDescription": "The clinical study described in this protocol is a Phase 1/Phase 2a study evaluating safety, tolerability, PK, and PD of ADX-038.\n\nThe study consists of 2 parts:\n\n1. Phase 1 - Randomized, double-blind, placebo-controlled, parallel group, single ascending dose (SAD) in HP with up to 5 dose cohorts.\n2. Phase 2a - Open label, single-arm (ADX-038), 2 dose study in participants with paroxysmal nocturnal hemoglobinuria (PNH) and residual anemia on a standard-of-care (SOC) anti-C5 regimen of ravulizumab or eculizumab."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Paroxysmal Nocturnal Hemoglobinuria (PNH)"
+            ],
+            "keywords": [
+              "siRNA",
+              "PNH"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Model Description",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "Masking is only applicable to Phase 1 in HP. Phase 2a is open label and there is no masking.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 50,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Phase 1 - Active ADX-038 administered to HP",
+                "type": "EXPERIMENTAL",
+                "description": "For each cohort in Phase 1 (SAD), 8 participants will be randomized in a 3:1 ratio; 6 participants to active (ADX-038): 2 participants to control (matched placebo). Randomization will be on Day 1. Initially, 2 sentinel participants (1 active and 1 placebo) will be randomized and dosed. The sentinel participants will be evaluated for safety. The investigator's assessment and the independent medical monitor will decide upon the randomization and dosing of the 6 remaining participants (5 active and 1 placebo) according to the randomization schedule.",
+                "interventionNames": [
+                  "Drug: ADX-038"
+                ]
+              },
+              {
+                "label": "Phase 1- Placebo administered to HP",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "For each cohort in Phase 1 (SAD), 8 participants will be randomized in a 3:1 ratio; 6 participants to active (ADX-038): 2 participants to control (matched placebo). Randomization will be on Day 1. Initially, 2 sentinel participants (1 active and 1 placebo) will be randomized and dosed. The sentinel participants will be evaluated for safety. The investigator's assessment and the independent medical monitor will decide upon the randomization and dosing of the 6 remaining participants (5 active and 1 placebo) according to the randomization schedule.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Phase 2a - ADX-038 administered to PNH participants",
+                "type": "EXPERIMENTAL",
+                "description": "This will be initiated at the dose level determined by the Safety Review Committee from SAD in HPs. The treatment of PNH participants is an open-label study.",
+                "interventionNames": [
+                  "Drug: ADX-038"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ADX-038",
+                "description": "siRNA duplex oligonucleotide",
+                "armGroupLabels": [
+                  "Phase 1 - Active ADX-038 administered to HP",
+                  "Phase 2a - ADX-038 administered to PNH participants"
+                ],
+                "otherNames": [
+                  "siRNA"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Saline",
+                "armGroupLabels": [
+                  "Phase 1- Placebo administered to HP"
+                ],
+                "otherNames": [
+                  "Saline"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety in Healthy Volunteers",
+                "description": "To evaluate the safety and tolerability of ADX-038 in HVs by incidence, relationship, and severity of adverse events and serious adverse events",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Safety in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate the safety and tolerability of ADX-038 by incidence, relationship, and treatment-emergent adverse events and serious adverse events.",
+                "timeFrame": "365 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics in Healthy Participants",
+                "description": "To characterize the Pharmacokinetics of ADX-038 in HPs by measuring the Maximum observed plasma concentration (Cmax)",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Healthy Participants",
+                "description": "Change from base in plasma concentrations over time in Complement factor B (CFB) protein via assay measurement",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Evaluate the changes in hemoglobin concentrations",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize the changes in serum concentration of complement factor B (CFB) protein and complement alternative pathway activity level.",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Healthy Participants",
+                "description": "Change in complement alternative pathway activity via assay measurement",
+                "timeFrame": "365 days"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Immune Response in Healthy Participants",
+                "description": "Anti-polyethylene glycol (PEG) antibody titers and anti-drug antibody titers",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Healthy Participants",
+                "description": "Change in complement classical pathway activity via assay measurement",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Safety in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate the change from baseline in follow up visits for safety assesments",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Clinical Effect in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Look at time (number of days) from dosing (Day 1) to diminished therapeutics effect (DTE)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in lactate dehydrogenase (LDH) (U/L)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Effects on Hemolysis in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate incidence of clinical breakthrough hemolysis, blood transfusions and Incidence of major adverse vascular events (MAVEs)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacokinetics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize PK parameters of ADX-038 by plasma C(max)",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Pharmacodynamics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize changes in complement classical pathway activity level",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Immune Response in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Determine Anti-PEG and anti-drug antibody titers",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in serum free hemoglobin",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in Haptoglobin Concentrations",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in Reticulocyte Counts (%)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in Bilirubin (umol/L)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Efficacy in Paroxysmal Nocturnal Hemoglobinuria Participants",
+                "description": "Evaluate changes in Aspartate aminotransferase (U/L)",
+                "timeFrame": "365 days"
+              },
+              {
+                "measure": "Pharmacokinetics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize PK parameters of ADX-038 by plasma AUC (0-infinity)",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Pharmacokinetics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize PK parameters of ADX-038 by plasma AUC(0-last)",
+                "timeFrame": "8 days"
+              },
+              {
+                "measure": "Pharmacokinetics in Paraxysmal Nocturnal Hemoglobinuria",
+                "description": "Characterize PK parameters of ADX-038 by plasma T(max)",
+                "timeFrame": "8 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Phase 1 Key Inclusion Criteria\n\n* 18 to 55 years of age\n* Participants who are healthy as determined by medical evaluation\n* History of recent meningococcal, pneumococcal and Haemophilus influenzae type B vaccinations or willing to be vaccinated\n* Screening tests negative for illicit drug, nicotine, and alcohol use\n\nPhase 1 Key Exclusion Criteria\n\n* History of any significant medical conditions, except for completely excised non-melanoma skin cancer or low grade cervical intraepithelial neoplasia without evidence of recurrence within the prior 3 months\n* Any viral, bacterial, parasitic, or fungal infection within the prior 30 days\n* Frequent respiratory, nasopharyngeal or ear infections (more than 5 infections per year)\n* History of environmental exposure or sick contact that increase the risk of meningococcal, pneumococcal and/or Haemophilus influenza type B infections\n* Complement deficiency or immunodeficiency syndrome\n* Major surgery or significant traumatic injury within the prior 3 months\n* History of anaphylaxis or hypersensitivity reactions\n* History of penicillin allergy\n* History of splenectomy\n* History of alcohol abuse or illicit drug use\n* Donated plasma within the prior 7 days\n* Donated blood or loss more than 400 milliliters of blood (excluding blood volume drawn at screening) within the prior 90 days\n* Screening estimated creatinine clearance of less than 60 milliliters per minute\n* Screening hematology, serum chemistry, or coagulation parameters that are outside the normal range\n* Screening vital signs that are abnormal per protocol specification\n* Screening electrocardiogram findings that are clinically significant\n* Pregnant or lactating females\n* Use of prescription (except for contraceptives and study-related prophylactic antibiotics) or over-the counter medications (except for paracetamol or ibuprofen) or vitamins/supplements within the prior 7 days\n* Use of medications that may reduce the effectiveness of hormonal contraceptives within the prior 28 days\n* Use of an investigational therapeutics within the prior 30 days or within the expected washout (at least 5 half-lives)\n* Unwilling or unable to adhere to study-related prophylactic antibiotics requirements\n\nPhase 2a Key Inclusion Criteria\n\n* at least 18 years of age\n* Diagnosis of paroxysmal nocturnal hemoglobinuria based on documented clone size\n* Hemoglobin concentration of less than 12 gram per deciliter\n* History of recent meningococcal, pneumococcal and Haemophilus influenzae type b vaccinations or willing to be vaccinated\n* On a stable anti-C5 regimen for greater than or equal to 12 weeks prior to Day 1\n\nPhase 2a Key Exclusion Criteria\n\n* Any viral, bacterial, parasitic, or fungal infection within the prior 14 days\n* HIV, active hepatitis C or hepatitis B infection\n* History of meningococcal or tuberculosis infection\n* History of malignancy in the past 5 years, except for completely excised non-melanoma skin cancer or low grade cervical intraepithelial neoplasia with no evidence of recurrence within the prior 3 months\n* Complement deficiency syndrome\n* History of hematopoietic stem cell transplantation\n* History of splenectomy\n* Inflammatory bowel disease, systemic lupus erythematosus, rheumatoid arthritis, or chronic liver disease\n* Clinically significant and uncontrolled medical conditions including, but not limited to, thromboembolic disease, acute coronary syndrome, and diabetes\n* Pregnant or lactating females\n* Use of an investigational therapeutics within the prior 30 days or within the expected washout period (at lest 5 half-lives)\n* Abstain from alcohol consumption for 48 hrs before day of dosing and restrict to no more than an average of 14 standard drinks per week",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Stephanie Leyva",
+                "role": "CONTACT",
+                "phone": "877-232-7974",
+                "email": "info@adarx.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Nucleus Network Brisbane",
+                "status": "COMPLETED",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "zip": "4006",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.46794,
+                  "lon": 153.02809
+                }
+              },
+              {
+                "facility": "Peter MacCallum Cancer Centre",
+                "status": "COMPLETED",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Royal Melbourne Hospital",
+                "status": "RECRUITING",
+                "city": "Parkville",
+                "state": "Victoria",
+                "zip": "3052",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Jeff Szer, MD",
+                    "role": "CONTACT",
+                    "phone": "+61385595000",
+                    "email": "PCCTU.HaemA@petermac.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.78333,
+                  "lon": 144.95
+                }
+              },
+              {
+                "facility": "Richmond Pharmacology Ltd",
+                "status": "COMPLETED",
+                "city": "London",
+                "state": "London",
+                "zip": "SE1 1YR",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006457",
+                "term": "Hemoglobinuria, Paroxysmal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D034741",
+                "term": "RNA, Small Interfering"
+              },
+              {
+                "id": "D012965",
+                "term": "Sodium Chloride"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D016372",
+                "term": "RNA, Antisense"
+              },
+              {
+                "id": "D016375",
+                "term": "Antisense Elements (Genetics)"
+              },
+              {
+                "id": "D009706",
+                "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+              },
+              {
+                "id": "D012313",
+                "term": "RNA"
+              },
+              {
+                "id": "D009696",
+                "term": "Nucleic Acids"
+              },
+              {
+                "id": "D058727",
+                "term": "RNA, Small Untranslated"
+              },
+              {
+                "id": "D022661",
+                "term": "RNA, Untranslated"
+              },
+              {
+                "id": "D002712",
+                "term": "Chlorides"
+              },
+              {
+                "id": "D006851",
+                "term": "Hydrochloric Acid"
+              },
+              {
+                "id": "D017606",
+                "term": "Chlorine Compounds"
+              },
+              {
+                "id": "D007287",
+                "term": "Inorganic Chemicals"
+              },
+              {
+                "id": "D017670",
+                "term": "Sodium Compounds"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06989359",
+            "orgStudyIdInfo": {
+              "id": "ADX-038-201"
+            },
+            "organization": {
+              "fullName": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 2 Study of ADX-038 in Complement-Mediated Kidney Disease",
+            "officialTitle": "A Phase 2 Study to Assess ADX-038 in Participants With Complement-Mediated Kidney Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+              "date": "2025-08-28",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-06",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-05-22",
+            "studyFirstSubmitQcDate": "2025-05-22",
+            "studyFirstPostDateStruct": {
+              "date": "2025-05-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-20",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This Phase 2 study is designed to assess the safety, efficacy, pharmacokinetics (PK) and pharmacodynamics (PD) of ADX-038 in adults with complement-mediated kidney diseases."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "IgAN",
+              "C3G",
+              "Complement-mediated Kidney Disease",
+              "IgA Nephropathy (IgAN)",
+              "IC-MPGN"
+            ],
+            "keywords": [
+              "IgA Nephropathy",
+              "IgAN",
+              "C3G",
+              "IC-MPGN",
+              "complement-mediated kidney disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 45,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ADX-038 Dose Level 1 - IgAN",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038 Dose Level 1"
+                ]
+              },
+              {
+                "label": "ADX-038 Dose Level 1 - C3G",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038 Dose Level 1"
+                ]
+              },
+              {
+                "label": "ADX-038 Dose Level 2 - IgAN",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038 Dose Level 2"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ADX-038 Dose Level 2",
+                "description": "siRNA duplex oligonucleotide",
+                "armGroupLabels": [
+                  "ADX-038 Dose Level 2 - IgAN"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "ADX-038 Dose Level 1",
+                "description": "siRNA duplex oligonucleotide",
+                "armGroupLabels": [
+                  "ADX-038 Dose Level 1 - C3G",
+                  "ADX-038 Dose Level 1 - IgAN"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the safety and tolerability of ADX-038",
+                "description": "Incidence and severity of TEAEs",
+                "timeFrame": "Length of study - 36 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Mean eGFR greater than or equal to 30 mL/min/1.73m2\n* Clinical evidence of active kidney disease\n* Treated with supportive care including an ACE inhibitor or ARB if applicable\n* Willing to receive required vaccinations\n* Primary diagnosis of IgAN, C3G or IC-MPGN confirmed by a kidney biopsy\n\nExclusion Criteria:\n\n* Hereditary or acquired complement deficiency\n* Kidney transplant or renal replacement therapy\n* History of solid organ transplant\n* Other kidney disease\n* History of recurrent invasive infections\n* Received complement inhibitor treatments\n* Active systemic viral, bacterial, or fungal infection\n* Abnormal liver function",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Tracy Nguyen",
+                "role": "CONTACT",
+                "phone": "877-232-7974",
+                "email": "info@adarx.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Arezoo Mirad, MD",
+                "affiliation": "ADARx Pharmaceuticals, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "WITHDRAWN",
+                "city": "Doral",
+                "state": "Florida",
+                "zip": "33122",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.81954,
+                  "lon": -80.35533
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33127",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "WITHDRAWN",
+                "city": "Pembroke Pines",
+                "state": "Florida",
+                "zip": "33029",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.00315,
+                  "lon": -80.22394
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Iowa City",
+                "state": "Iowa",
+                "zip": "52242",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.66113,
+                  "lon": -91.53017
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "WITHDRAWN",
+                "city": "Shreveport",
+                "state": "Louisiana",
+                "zip": "71101",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.52515,
+                  "lon": -93.75018
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Shelby",
+                "state": "Michigan",
+                "zip": "48315",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.67087,
+                  "lon": -83.03298
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Great Neck",
+                "state": "New York",
+                "zip": "11021",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.80066,
+                  "lon": -73.72846
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43210",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Dakota Dunes",
+                "state": "South Dakota",
+                "zip": "57049",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.48749,
+                  "lon": -96.48642
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "WITHDRAWN",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75230",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77027",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Liverpool",
+                "state": "New South Wales",
+                "zip": "2170",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.91938,
+                  "lon": 150.92588
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Wollongong",
+                "state": "New South Wales",
+                "zip": "2500",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.424,
+                  "lon": 150.89345
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Sydney",
+                "zip": "NSW 2139",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Woolloongabba",
+                "zip": "QLD 4102",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.48855,
+                  "lon": 153.03655
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Hong Kong",
+                "zip": "2500",
+                "country": "Hong Kong",
+                "geoPoint": {
+                  "lat": 22.27832,
+                  "lon": 114.17469
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Shatin",
+                "country": "Hong Kong",
+                "geoPoint": {
+                  "lat": 22.38333,
+                  "lon": 114.18333
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Bergamo",
+                "zip": "24020",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.69601,
+                  "lon": 9.66721
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Bologna",
+                "zip": "40138",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.49381,
+                  "lon": 11.33875
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Pavia",
+                "zip": "27100",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.19205,
+                  "lon": 9.15917
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "W\u014fnju",
+                "state": "Gangwon-do",
+                "zip": "26426",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.35139,
+                  "lon": 127.94528
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Gyeonggi-do",
+                "state": "Gurogu",
+                "zip": "16499",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.58944,
+                  "lon": 126.76917
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "state": "Gurogu",
+                "zip": "08308",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Cheonan",
+                "zip": "31151",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 36.8065,
+                  "lon": 127.1522
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Daegu",
+                "zip": "42601",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 35.87102,
+                  "lon": 128.60121
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Gyeonggi-do",
+                "zip": "05278",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.58944,
+                  "lon": 126.76917
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "02841",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "03080",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "03722",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "05278",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28040",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28041",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Seville",
+                "zip": "41009",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Kaohsiung City",
+                "zip": "833401",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 22.61626,
+                  "lon": 120.31333
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "New Taipei City",
+                "zip": "110",
+                "country": "Taiwan",
+                "geoPoint": {
+                  "lat": 25.06199,
+                  "lon": 121.45703
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Leicester",
+                "state": "BC",
+                "zip": "LE5 4PW",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.6386,
+                  "lon": -1.13169
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Newcastle upon Tyne",
+                "zip": "UK, NE7 7DN",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.97328,
+                  "lon": -1.61396
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06990269",
+            "orgStudyIdInfo": {
+              "id": "ADX-038-202"
+            },
+            "organization": {
+              "fullName": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 2 Study of ADX-038 in Participants With Geographic Atrophy",
+            "officialTitle": "A Phase 2, Randomized, Masked, Placebo-Controlled Study of Subcutaneously Administered ADX-038 in Participants With Geographic Atrophy (GA) Secondary to Age-Related Macular Degeneration (AMD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+              "date": "2025-11-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2030-02-28",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-08-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-05-22",
+            "studyFirstSubmitQcDate": "2025-05-22",
+            "studyFirstPostDateStruct": {
+              "date": "2025-05-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Phase 2 study is designed to assess the efficacy of ADX-038 compared with placebo in participants with GA secondary to AMD. Safety, pharmacokinetics (PK), and pharmacodynamics (PD) will also be assessed."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Geographic Atrophy Secondary to Age-related Macular Degeneration"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Randomized, Masked, Placebo-Controlled",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 240,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active - ADX-038",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038"
+                ]
+              },
+              {
+                "label": "Placebo - Saline",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ADX-038",
+                "description": "siRNA duplex oligonucleotide",
+                "armGroupLabels": [
+                  "Active - ADX-038"
+                ],
+                "otherNames": [
+                  "siRNA"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Saline",
+                "armGroupLabels": [
+                  "Placebo - Saline"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the effect of ADX-038 on the preservation of the EZ layer",
+                "description": "Rate of change in the area of total EZ loss in the study eye from baseline to Month 12",
+                "timeFrame": "12 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical diagnosis of GA of the macula secondary to AMD\n* GA lesions between 2.5 and 12.5 mm2 at screening\n* Sufficiently clear ocular media, adequate pupillary dilation and fixation to permit quality fundus imaging in the study eye as described in the protocol\n* Willing and able to comply with clinic visits and study-related procedures, including completion of the full series of meningococcal vaccinations and pneumococcal vaccination required per protocol\n\nExclusion Criteria:\n\n* Has GA secondary to causes other than AMD\n* Has active ocular disease that compromises or confounds visual function\n* History of surgery for retinal detachment\n* Has ocular condition other than GA secondary to AMD\n* Use of intravitreal complement inhibitors in study eye\n* Hereditary or acquired complement deficiency\n* Active viral, bacterial or fungal infection\n* Liver injury as evidenced by abnormal liver function tests\n* Donating blood\n* History of choroidal neovascularization in the study eye",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "60 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Nali Castillo",
+                "role": "CONTACT",
+                "phone": "877-232-7974",
+                "email": "info@adarx.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Wendy Murahashi",
+                "affiliation": "ADARx Pharmaceuticals, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Gilbert",
+                "state": "Arizona",
+                "zip": "85297",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.35283,
+                  "lon": -111.78903
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Phoenix",
+                "state": "Arizona",
+                "zip": "85020",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.44838,
+                  "lon": -112.07404
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Bakersfield",
+                "state": "California",
+                "zip": "93309",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.37329,
+                  "lon": -119.01871
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Beverly Hills",
+                "state": "California",
+                "zip": "90211",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.07362,
+                  "lon": -118.40036
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Huntington Beach",
+                "state": "California",
+                "zip": "93647",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.6603,
+                  "lon": -117.99923
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Poway",
+                "state": "California",
+                "zip": "92064",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.96282,
+                  "lon": -117.03586
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Riverside",
+                "state": "California",
+                "zip": "92505",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.95335,
+                  "lon": -117.39616
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Walnut Creek",
+                "state": "California",
+                "zip": "94598",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.90631,
+                  "lon": -122.06496
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Wildwood",
+                "state": "Florida",
+                "zip": "34785",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.86542,
+                  "lon": -82.04058
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Hagerstown",
+                "state": "Maryland",
+                "zip": "21740",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.64176,
+                  "lon": -77.71999
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Reno",
+                "state": "Nevada",
+                "zip": "89502",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.52963,
+                  "lon": -119.8138
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "WITHDRAWN",
+                "city": "Erie",
+                "state": "Pennsylvania",
+                "zip": "16505",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.12922,
+                  "lon": -80.08506
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78705",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Bellaire",
+                "state": "Texas",
+                "zip": "77401",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.70579,
+                  "lon": -95.45883
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75231",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "McAllen",
+                "state": "Texas",
+                "zip": "78503",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.20341,
+                  "lon": -98.23001
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Round Rock",
+                "state": "Texas",
+                "zip": "78681",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.50826,
+                  "lon": -97.6789
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78340",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "The Woodlands",
+                "state": "Texas",
+                "zip": "77384",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.15799,
+                  "lon": -95.48938
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "St. George",
+                "state": "Utah",
+                "zip": "84790",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.10415,
+                  "lon": -113.58412
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Albury",
+                "state": "New South Wales",
+                "zip": "2640",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -36.07482,
+                  "lon": 146.92401
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Hurstville",
+                "state": "New South Wales",
+                "zip": "2220",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.9677,
+                  "lon": 151.10149
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Parramatta",
+                "state": "New South Wales",
+                "zip": "2150",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.8178,
+                  "lon": 151.00348
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Sutherland",
+                "state": "New South Wales",
+                "zip": "2232",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.031,
+                  "lon": 151.05532
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "East Melbourne",
+                "state": "Victoria",
+                "zip": "3002",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.81667,
+                  "lon": 144.9879
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Rowville",
+                "state": "Victoria",
+                "zip": "3178",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.93333,
+                  "lon": 145.23333
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Malvern",
+                "zip": "VIC 3144",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.86259,
+                  "lon": 145.02811
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Sydney",
+                "zip": "NWS 2000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Graz",
+                "state": "Styria",
+                "zip": "8036",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 47.06733,
+                  "lon": 15.44197
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Innsbruck",
+                "state": "Tyrol",
+                "zip": "6020",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 47.26266,
+                  "lon": 11.39454
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Vienna",
+                "zip": "1090",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 48.20849,
+                  "lon": 16.37208
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Vienna",
+                "zip": "1140",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 48.20849,
+                  "lon": 16.37208
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Edmonton",
+                "state": "Alberta",
+                "zip": "T5H 0X5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 53.55014,
+                  "lon": -113.46871
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V5Z 1M9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "London",
+                "state": "Ontario",
+                "zip": "N6A4V2",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 42.98339,
+                  "lon": -81.23304
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K1H 8L6",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K2B 7E9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M3C 0G9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M8X 2X3",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Prague",
+                "zip": "100 34",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 50.08804,
+                  "lon": 14.42076
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Prague",
+                "zip": "140 00",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 50.08804,
+                  "lon": 14.42076
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Praha Klanovice",
+                "zip": "12808",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 50.0974,
+                  "lon": 14.66915
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Bonn",
+                "state": "North Rhine-Westphalia",
+                "zip": "53127",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Sulzbach",
+                "state": "Saarland",
+                "zip": "66280",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.29882,
+                  "lon": 7.05696
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Cologne",
+                "zip": "50937",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.93333,
+                  "lon": 6.95
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Giessen",
+                "zip": "35392",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.58727,
+                  "lon": 8.67554
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Mainz",
+                "zip": "55122",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.98185,
+                  "lon": 8.28008
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "M\u00fcnchen",
+                "zip": "80336",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.60698,
+                  "lon": 13.31243
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "M\u00fcnster",
+                "zip": "48149",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.96236,
+                  "lon": 7.62571
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "T\u00fcbingen",
+                "zip": "72076",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.52266,
+                  "lon": 9.05222
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "P\u00e9cs",
+                "state": "Baranya",
+                "zip": "7621",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 46.07617,
+                  "lon": 18.22814
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Budapest",
+                "zip": "1085",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.49835,
+                  "lon": 19.04045
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Budapest",
+                "zip": "1106",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.49835,
+                  "lon": 19.04045
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Budapest",
+                "zip": "1133",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.49835,
+                  "lon": 19.04045
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Debrecen",
+                "zip": "4032",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.53167,
+                  "lon": 21.62444
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milan",
+                "state": "MI",
+                "zip": "20132",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Roma",
+                "state": "RM",
+                "zip": "00168",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milan",
+                "zip": "20121",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milan",
+                "zip": "20122",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milan",
+                "zip": "20142",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Novara",
+                "zip": "28100",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.44694,
+                  "lon": 8.62118
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Padova",
+                "zip": "35128",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.38225,
+                  "lon": 11.14261
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Coimbra",
+                "zip": "3000-548",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 40.20686,
+                  "lon": -8.41996
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Coimbra",
+                "zip": "3004-561",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 40.20686,
+                  "lon": -8.41996
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Coimbra",
+                "zip": "3030-163",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 40.20686,
+                  "lon": -8.41996
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Porto",
+                "zip": "4200-319",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 41.1485,
+                  "lon": -8.61097
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Barcelona",
+                "zip": "08022",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Barcelona",
+                "zip": "08908",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Madrid",
+                "zip": "28040",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Valencia",
+                "zip": "46004",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 39.47391,
+                  "lon": -0.37966
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Olten",
+                "state": "Canton of Solothurn",
+                "zip": "4600",
+                "country": "Switzerland",
+                "geoPoint": {
+                  "lat": 47.34999,
+                  "lon": 7.90329
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Basel",
+                "zip": "4031",
+                "country": "Switzerland",
+                "geoPoint": {
+                  "lat": 47.55839,
+                  "lon": 7.57327
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Bern",
+                "zip": "3010",
+                "country": "Switzerland",
+                "geoPoint": {
+                  "lat": 46.94809,
+                  "lon": 7.44744
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Liverpool",
+                "state": "BC",
+                "zip": "L7 8XP",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.41058,
+                  "lon": -2.97794
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Dorchester",
+                "state": "Dorset",
+                "zip": "DT1 2JY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.71667,
+                  "lon": -2.43333
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Wolverhampton",
+                "state": "West Midlands",
+                "zip": "WV10 0QP",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.58547,
+                  "lon": -2.12296
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "NW10 7NS",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "SW17 0QT",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Sunderland",
+                "zip": "SR1 3AE",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.90465,
+                  "lon": -1.38222
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D034741",
+                "term": "RNA, Small Interfering"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D016372",
+                "term": "RNA, Antisense"
+              },
+              {
+                "id": "D016375",
+                "term": "Antisense Elements (Genetics)"
+              },
+              {
+                "id": "D009706",
+                "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+              },
+              {
+                "id": "D012313",
+                "term": "RNA"
+              },
+              {
+                "id": "D009696",
+                "term": "Nucleic Acids"
+              },
+              {
+                "id": "D058727",
+                "term": "RNA, Small Untranslated"
+              },
+              {
+                "id": "D022661",
+                "term": "RNA, Untranslated"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07522099",
+            "orgStudyIdInfo": {
+              "id": "ADX-038-204"
+            },
+            "organization": {
+              "fullName": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Chinese Adults With Kidney Disease",
+            "officialTitle": "A Phase 2 Study to Assess ADX-038 in Chinese Adults With Complement-Mediated Kidney Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-05-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-07-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2029-01-21",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-02-27",
+            "studyFirstSubmitQcDate": "2026-04-08",
+            "studyFirstPostDateStruct": {
+              "date": "2026-04-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-02",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "ADARx Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase 2 study to assess the safety, efficacy, pharmacokinetics (PK) and pharmacodynamics of ADX-038 in adults with complement-mediated kidney diseases. The study will enroll Chinese adults with IgA nephropathy, complement 3 glomerulopathy (C3G) and immune complex membranoproliferative glomerulonephritis (IC-MPGN). The study will evaluate ADX-038 administered alone (Part A) and in combination with telitacicept (Part B)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Immunoglobulin A Nephropathy (IgAN)",
+              "Complement 3 Glomerulopathy (C3G)",
+              "IC-MPGN"
+            ],
+            "keywords": [
+              "IgAN",
+              "C3G",
+              "IC-MPGN",
+              "complement mediated kidney diseases",
+              "IgA Nephropathy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 30,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part A - ADX-038 Monotherapy",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038"
+                ]
+              },
+              {
+                "label": "Part B - ADX-038 Combination Therapy",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: ADX-038",
+                  "Drug: Telitacicept"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ADX-038",
+                "description": "siRNA duplex oligonucleotide",
+                "armGroupLabels": [
+                  "Part A - ADX-038 Monotherapy",
+                  "Part B - ADX-038 Combination Therapy"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Telitacicept",
+                "description": "fusion protein",
+                "armGroupLabels": [
+                  "Part B - ADX-038 Combination Therapy"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate the safety and tolerability of ADX-038 as a monotherapy and in combination with telitacicept",
+                "description": "Evaluate the proportion of patients with treatment emergent adverse events (TEAEs) with ADX-038 and telitacicept versus those on ADX-038 alone.",
+                "timeFrame": "Part A - 24 Months and Part B - 15 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Mean eGFR greater than or equal to 30 mL/min/1.73m2\n* Clinical evidence of active kidney disease\n* Treated with supportive care including an ACE inhibitor or ARB if applicable\n* Willing to receive required vaccinations\n* Primary diagnosis of IgAN, C3G or IC-MPGN confirmed by a kidney biopsy\n\nExclusion Criteria:\n\n* Previous kidney transplant or major solid organ transplant\n* Required renal replacement therapy for more than 72 hours\n* Rapidly progressive glomerular nephritis or acute kidney injury\n* History of recurrent invasive infection\n* Current or previous use of C5 or CFB inhibitors (such as eculizumab, ravulizumab or iptacopan)\n* Active TB, HIV or other systemic infection\n* Abnormal liver function",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Stephanie Leyva",
+                "role": "CONTACT",
+                "phone": "877-232-7974",
+                "email": "info@adarx.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Arezoo Mirad",
+                "affiliation": "ADARx Pharmaceuticals",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Shenzhen",
+                "state": "Guangdong",
+                "zip": "518100",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.54554,
+                  "lon": 114.0683
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Guiyang",
+                "state": "Guizhou",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 26.58333,
+                  "lon": 106.71667
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Zhengzhou",
+                "state": "Henan",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 34.75778,
+                  "lon": 113.64861
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Baotou",
+                "state": "Inner Mongolia",
+                "zip": "014000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 40.6516,
+                  "lon": 109.84389
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Wuxi",
+                "state": "Jiangsu",
+                "zip": "214000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.56887,
+                  "lon": 120.28857
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Yantai",
+                "state": "Shandong",
+                "zip": "264008",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 37.47649,
+                  "lon": 121.44081
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Shandong",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 40.28464,
+                  "lon": 120.48412
+                }
+              },
+              {
+                "facility": "ADARx Clinical Site",
+                "status": "RECRUITING",
+                "city": "Shanghai",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D005922",
+                "term": "Glomerulonephritis, IGA"
+              },
+              {
+                "id": "D015432",
+                "term": "Glomerulonephritis, Membranoproliferative"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000722462",
+                "term": "telitacicept"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

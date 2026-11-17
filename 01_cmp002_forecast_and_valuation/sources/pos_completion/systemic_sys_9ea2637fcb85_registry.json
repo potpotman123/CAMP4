@@ -1,0 +1,2627 @@
+{
+  "integrated_id": "systemic:sys_9ea2637fcb85",
+  "asset": "SPX-101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=SPX-101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05231733",
+            "orgStudyIdInfo": {
+              "id": "CP21001"
+            },
+            "organization": {
+              "fullName": "SparX Biotech(Jiangsu) Co., Ltd.",
+              "class": "OTHER"
+            },
+            "briefTitle": "Study of SPX-101 in Subjects With Advanced or Refractory Solid Tumors",
+            "officialTitle": "A Phase 1, Open-label Study to Evaluate Safety, Tolerability, Pharmacokinetics and Efficacy of an Anti-Claudin 18.2 Antibody SPX-101 in Patients With Advanced or Refractory Solid Tumors"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "WITHDRAWN",
+            "whyStopped": "Re-prioritized development strategy for this target",
+            "startDateStruct": {
+              "date": "2022-05-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-04-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2024-08-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-01-27",
+            "studyFirstSubmitQcDate": "2022-02-08",
+            "studyFirstPostDateStruct": {
+              "date": "2022-02-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-31",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "SparX Biotech(Jiangsu) Co., Ltd.",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Phase 1, Open-label Study to Evaluate Safety, Tolerability, Pharmacokinetics and Efficacy of an anti-Claudin 18.2 Antibody SPX-101 in Patients with Advanced or Refractory Solid Tumors",
+            "detailedDescription": "This is an open-label, dose escalation study to evaluate the safety, tolerability, pharmacokinetics, and anti-tumor activity of various doses of SPX-101 in patients with advanced or refractory solid tumors.\n\nThis study will determine the maximum tolerated dose (MTD) or maximum administered dose (MAD) and select the recommended Phase2 dose (RP2D).\n\nUp to five dose levels will be explored (1, 3, 9, 18, 30 mg/kg dose levels) depending on the number and intensity of observed toxicities.\n\nA total of up to 27 patients will be enrolled in this study. Subjects will receive SPX-101 by IV infusion in 60-minutes\uff08\u00b115 minutes\uff09on Day 1 of the first cycle (3 weeks), and will be evaluated for DLTs in 3 weeks (DLT window). After the first cycle, subjects will continue the treatment at the assigned dose level."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Solid Tumors"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SPX-101",
+                "type": "EXPERIMENTAL",
+                "description": "A total of up to 27 patients will be enrolled in this study. Subjects will receive SPX-101 by IV infusion in 60-minutes\uff08\u00b115 minutes\uff09on Day 1 of the first cycle (3 weeks), and will be evaluated for DLTs in 3 weeks (DLT window). After the first cycle, subjects will continue the treatment at the assigned dose level.",
+                "interventionNames": [
+                  "Biological: SPX-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "SPX-101",
+                "description": "Subjects will receive SPX-101 on Day 1 of the first cycle, and will be evaluated for DLTs in the following 3 weeks. After the first cycle, subjects will continue treatment at dosing intervals as determined by safety and PK results. All patients will continue treatment until disease progression, development of unacceptable toxicity, or until in the opinion of the investigator the patient is no longer benefiting from therapy, or at patient discretion (maximum duration: 2 years).",
+                "armGroupLabels": [
+                  "SPX-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To determine the maximum tolerated dose (MTD) or maximum administered dose (MAD), and select the recommended Phase 2 dose (RP2D).",
+                "description": "First-cycle dose limiting toxicities (DLTs). Adverse events as characterized by type, frequency, severity (as graded by NCI Common Terminology Criteria for Adverse Events (CTCAE) v.5.0), timing, seriousness and relationship to study therapy.",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To determine the safety and tolerability of SPX-101 in patients with solid tumors",
+                "description": "First-cycle dose limiting toxicities (DLTs). Adverse events as characterized by type, frequency, severity (as graded by NCI Common Terminology Criteria for Adverse Events (CTCAE) v.5.0), timing, seriousness and relationship to study therapy.",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "To measure Area Under Curve (AUC)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To measure plasma clearance rate (CL)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To measure minimum concentration (Cmin)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To measure maximum concentration (Cmax)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To measure half-life (T1/2)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To measure apparent volume of distribution (Vd)",
+                "description": "characterization of the pharmacokinetics (PK)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To assess Anti-Drug Antibody (ADA)",
+                "description": "evaluating Immunogenicity",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "Objective response rate (ORR), as assessed by Response Evaluation Criteria in Solid Tumor (RECIST) version1.1",
+                "description": "To evaluate antitumor efficacy",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "Disease control rate (DCR), as assessed by Response Evaluation Criteria in Solid Tumor (RECIST) version1.1",
+                "description": "To evaluate antitumor efficacy",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "Duration of response (DOR), as assessed by Response Evaluation Criteria in Solid Tumor (RECIST) version1.1",
+                "description": "To evaluate antitumor efficacy",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "Progression free survival (PFS), as assessed by Response Evaluation Criteria in Solid Tumor (RECIST) version1.1.",
+                "description": "To evaluate antitumor efficacy",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "To evaluate the capability of SPX-101 to induce immune effector-activity (ADCC)",
+                "description": "Immune effector-activating capacity: Antibody-Dependent Cell-mediated Cytotoxicity (ADCC)",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              },
+              {
+                "measure": "To evaluate the potential cytokine release induced by SPX-101, the activation of T cells including CD4+T and CD8+T cells will be analyzed",
+                "description": "CD4+T and CD8+T cells",
+                "timeFrame": "The analysis will extend through 28 days after the last administration of study drug."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Metastatic, refractory or recurrent disease of advanced solid tumors proven by histology, except for lung cancer.\n* Subjects should not be eligible for curative surgery, and must have disease progression after treatment with available therapies that are known to confer clinical benefit or who are intolerant to or ineligible for standard treatment. There is no limit to the number of prior treatment regimens.\n* Aged \u226518 years.\n* Written informed consent.\n* Eastern Cooperative Oncology Group performance status 0 to 2.\n* Life expectancy \\>3 months.\n* Adequate hepatic function; bilirubin \\<1.5 x upper limit of normal (ULN), aspartate aminotransferase (AST), and alanine aminotransferase (ALT) \\<2.5 x ULN (5 x ULN if liver metastases was present).\n* Adequate renal function; Cockcroft-Gault calculated creatine clearance (CrCl) or 24 hour urine CrCl \u2265 30 mL/min.\n* Adequate hematological function: absolute neutrophil count \u22651.5 x 109/L; platelets \u2265100 x 109/L; hemoglobin \u22659 g/dL (this can be post-transfusion).\n* Women of childbearing potential (last menstruation \\<2 years prior to enrolment): negative blood serum pregnancy test (human chorionic gonadotropin) at screening phase and use of a highly effective method of contraception during the treatment phase and for 4 months after the last infusion of the study medication.\n* Male patients whose sexual partners are women of childbearing potential must use condoms during the treatment phase and for 6 months after the last infusion of the study medication.\n* The female partners of the male patients must also apply contraceptive methods.\n\nExclusion Criteria:\n\n* Prior severe allergic reaction or intolerance to a monoclonal antibody, including humanized or chimeric antibodies. Prior severe allergic reaction or intolerance to any excipient in the formulations of the SPX-101 injection.\n* Prior treatment with a claudin 18.2 Antibody\n* Anti-tumor or radiotherapy treatment within 3 weeks of the start of study treatment (day 1 of cycle 1; a 2-week interval is allowed if palliative radiotherapy is given for peripheral bone metastases and the patient is recovered from acute toxicity).\n* Use of other investigational agents or devices concurrently or within 4 weeks prior to study initiation (day 1 of cycle 1).\n* Known human immunodeficiency virus infection or known symptomatic hepatitis (A, B, and/or C).\n* Untreated or symptomatic central nervous system (CNS) metastases, leptomeningeal disease, or spinal cord compression.\n* Clinically significant cardiac disease. History of myocardial infarction or hospitalization for congestive heart failure within 12 months of enrolment.\n* Other clinically significant disease or comorbidity which may adversely affect the safe delivery of treatment within this study, including, but not limited to, any of the following: ongoing or active infection that required parenteral antibiotics, uncontrolled hypertension, clinically significant cardiac arrhythmia, or unstable angina pectoris.\n* Psychiatric illness or social situations that would preclude study compliance.\n* Pregnancy or breastfeeding.\n* Gastric bleeding within the last 2 weeks; symptomatic peptic ulcer.\n* Prior or current active autoimmune disease that required management with immunosuppression. This includes inflammatory bowel disease, systemic vasculitis, scleroderma, psoriasis, hemolytic anemia, immune-mediated thrombocytopenia, rheumatoid arthritis, systemic lupus erythematosus, Sjogren's syndrome, sarcoidosis, or other rheumatologic disease. Asthma and chronic obstructive pulmonary disease that did not require daily systemic corticosteroids is acceptable.\n* Sinusoidal obstruction syndrome, formerly known as veno-occlusive disease, if present, should be stable or improving.\n* Subject has Fridericia-corrected QT interval (QTcF) \\> 450 msec for males and \\> 470 msec for females on 12-lead electrocardiogram (ECG) at screening based on local testing.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03229252",
+            "orgStudyIdInfo": {
+              "id": "SPX-101-CF-201"
+            },
+            "organization": {
+              "fullName": "Spyryx Biosciences, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "An Efficacy and Safety Study of SPX-101 Inhalation Solution in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled Phase II Study to Evaluate the Efficacy and Safety of SPX-101 Inhalation Solution in Subjects With Cystic Fibrosis (HOPE-1 Study: Hydration for Optimal Pulmonary Effectiveness)",
+            "acronym": "(HOPE-1)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2019-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-08-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-06-20",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-06-20",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-07-14",
+            "studyFirstSubmitQcDate": "2017-07-24",
+            "studyFirstPostDateStruct": {
+              "date": "2017-07-25",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2019-08-26",
+            "resultsFirstSubmitQcDate": "2019-12-06",
+            "resultsFirstPostDateStruct": {
+              "date": "2019-12-30",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2019-12-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2019-12-30",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Spyryx Biosciences, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "28-Day double-blinded efficacy and safety trial of SPX-101 Inhalation Solution in adult subjects with cystic fibrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Double-Blind",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 91,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo Inhalation solution twice daily for 28 days.",
+                "interventionNames": [
+                  "Drug: Placebo Inhalation Solution"
+                ]
+              },
+              {
+                "label": "SPX-101 Low Dose",
+                "type": "EXPERIMENTAL",
+                "description": "Inhalation solution twice daily for 28 days.",
+                "interventionNames": [
+                  "Drug: SPX-101"
+                ]
+              },
+              {
+                "label": "SPX-101 High Dose",
+                "type": "EXPERIMENTAL",
+                "description": "Inhalation solution twice daily for 28 days.",
+                "interventionNames": [
+                  "Drug: SPX-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo Inhalation Solution",
+                "description": "Normal Saline Inhalation Solution",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SPX-101",
+                "description": "SPX-101 Inhalation Solution",
+                "armGroupLabels": [
+                  "SPX-101 High Dose",
+                  "SPX-101 Low Dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in Percent Predicted FEV1",
+                "timeFrame": "Baseline and Day 28"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Participants With Adverse Events",
+                "timeFrame": "Day 1 through Day 28"
+              },
+              {
+                "measure": "Change From Baseline Through Day 28 in Clinical Laboratory Tests",
+                "description": "Chemistry, Hematology, Urinalysis",
+                "timeFrame": "Day 1 through Day 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of cystic fibrosis\n* ppFEV1 (percent predicted FEV1) between 50.0% and 80.0%\n* Stable CF Lung Disease\n* Males and non-pregnant, non-lactating females\n\nExclusion Criteria:\n\n* Significant unstable co-morbidities within 28 days of screening\n* Has received an investigational drug within 28 days of screening",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Calgary Heritage Medical Research Center",
+                "city": "Calgary",
+                "state": "Alberta",
+                "zip": "T2N 1N4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "Ottawa Hospital Research Institute/Institut de Recherche de l'Hospital d'Ottawa",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K1H 8L6",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Saint Michael's Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5B1W8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Hospices Civils de Lyon (HCL)",
+                "city": "Pierre-B\u00e9nite",
+                "state": "Auvergne-Rh\u00f4ne-Alpes",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.70359,
+                  "lon": 4.82424
+                }
+              },
+              {
+                "facility": "Centre Hospitalier Universitaire Brest",
+                "city": "Roscoff",
+                "state": "Brittany Region",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.72381,
+                  "lon": -3.98709
+                }
+              },
+              {
+                "facility": "CHU de Rouen",
+                "city": "Rouen",
+                "state": "Haute-Normandie",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 49.44313,
+                  "lon": 1.09932
+                }
+              },
+              {
+                "facility": "CHU de Montpellier",
+                "city": "Montpellier",
+                "state": "Languedoc-Roussillon",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "facility": "CHU de Angers",
+                "city": "Angers",
+                "state": "Pays de la Loire Region",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.47156,
+                  "lon": -0.55202
+                }
+              },
+              {
+                "facility": "Hopital Pasteur",
+                "city": "Nice",
+                "state": "Provence-Alpes-C\u00f4te d'Azur Region",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.70313,
+                  "lon": 7.26608
+                }
+              },
+              {
+                "facility": "Assistance Publique-H\u00f4pitaux de Paris H\u00f4pital Cochin",
+                "city": "Paris",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Istituto Giannina Gaslini Ospedale Pediatrico",
+                "city": "Genoa",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.40478,
+                  "lon": 8.94439
+                }
+              },
+              {
+                "facility": "Hospital de Santa Maria",
+                "city": "Lisbon",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 38.72509,
+                  "lon": -9.1498
+                }
+              },
+              {
+                "facility": "Belfast Health and Social Care Trust",
+                "city": "Belfast",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.59682,
+                  "lon": -5.92541
+                }
+              },
+              {
+                "facility": "Heart of England NHS Foundation Trust",
+                "city": "Birmingham",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "University Hospitals Bristol NHS Foundation Trust",
+                "city": "Bristol",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.45523,
+                  "lon": -2.59665
+                }
+              },
+              {
+                "facility": "Western General Hospital - NHS Lothian",
+                "city": "Edinburgh",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Royal Devon and Exeter NHS Foundation Trust",
+                "city": "Exeter",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.7236,
+                  "lon": -3.52751
+                }
+              },
+              {
+                "facility": "NHS Greater Glasgow and Clyde",
+                "city": "Glasgow",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "The Leeds Teaching Hospitals NHS Trust",
+                "city": "Leeds",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.79648,
+                  "lon": -1.54785
+                }
+              },
+              {
+                "facility": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
+                "city": "Liverpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.41058,
+                  "lon": -2.97794
+                }
+              },
+              {
+                "facility": "Barts Health NHS Trust Saint Bartholomews Hospital",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Royal Brompton and Harefield NHS Foundation Trust",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "University Hospital of South Manchester NHS Foundation Trust",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.48095,
+                  "lon": -2.23743
+                }
+              },
+              {
+                "facility": "Newcastle Upon Tyne Hospitals",
+                "city": "Newcastle upon Tyne",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.97328,
+                  "lon": -1.61396
+                }
+              },
+              {
+                "facility": "Nottingham University Hospitals NHS Trust",
+                "city": "Nottingham",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.9536,
+                  "lon": -1.15047
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "Placebo",
+                "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution"
+              },
+              {
+                "id": "FG001",
+                "title": "SPX-101 Low Dose (60mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+              },
+              {
+                "id": "FG002",
+                "title": "SPX-101 High Dose (120mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "31"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "15"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "45"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "29"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "15"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "39"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "6"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "Placebo",
+                "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution"
+              },
+              {
+                "id": "BG001",
+                "title": "SPX-101 Low Dose (60mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+              },
+              {
+                "id": "BG002",
+                "title": "SPX-101 High Dose (120mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+              },
+              {
+                "id": "BG003",
+                "title": "Total",
+                "description": "Total of all reporting groups"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "31"
+                  },
+                  {
+                    "groupId": "BG001",
+                    "value": "15"
+                  },
+                  {
+                    "groupId": "BG002",
+                    "value": "45"
+                  },
+                  {
+                    "groupId": "BG003",
+                    "value": "91"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Categorical",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "<=18 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Between 18 and 65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "31"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "15"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "45"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "91"
+                          }
+                        ]
+                      },
+                      {
+                        "title": ">=65 years",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "30.8",
+                            "spread": "7.82"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "33.7",
+                            "spread": "8.62"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "31.9",
+                            "spread": "8.49"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "31.8",
+                            "spread": "8.25"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "11"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "22"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "37"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "20"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "11"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "23"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "54"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "29"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "14"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "43"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "86"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "12"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "44"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "82"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "7"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Region of Enrollment",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "participants",
+                "classes": [
+                  {
+                    "title": "Canada",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "16"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Italy",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "United Kingdom",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "14"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "15"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "36"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "France",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "12"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "13"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "27"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Portugal",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "8"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Change in Percent Predicted FEV1",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "change from baseline in ppFEV1",
+                "timeFrame": "Baseline and Day 28",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "SPX-101 Low Dose (60mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "SPX-101 High Dose (120mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "31"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "15"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "45"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.633",
+                            "spread": "6.3302"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.800",
+                            "spread": "6.5049"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0.890",
+                            "spread": "6.7061"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Adverse Events",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Day 1 through Day 28",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "SPX-101 Low Dose (60mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "SPX-101 High Dose (120mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "31"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "15"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "45"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "20"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "11"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "30"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Change From Baseline Through Day 28 in Clinical Laboratory Tests",
+                "description": "Chemistry, Hematology, Urinalysis",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Day 1 through Day 28",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "SPX-101 Low Dose (60mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "SPX-101 High Dose (120mg BID)",
+                    "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "31"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "15"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "45"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Blood Electrolytes (Potassium) Low",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blood Electrolytes (Potassium) Normal",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "29"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "13"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "40"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Blood Electrolytes (Potassium) High",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "28 Days",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "Placebo",
+                "description": "Placebo Inhalation solution twice daily for 28 days.\n\nPlacebo Inhalation Solution: Normal Saline Inhalation Solution",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 31,
+                "seriousNumAffected": 1,
+                "seriousNumAtRisk": 31,
+                "otherNumAffected": 20,
+                "otherNumAtRisk": 31
+              },
+              {
+                "id": "EG001",
+                "title": "SPX-101 Low Dose (60mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 15,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 15,
+                "otherNumAffected": 10,
+                "otherNumAtRisk": 15
+              },
+              {
+                "id": "EG002",
+                "title": "SPX-101 High Dose (120mg BID)",
+                "description": "Inhalation solution twice daily for 28 days.\n\nSPX-101: SPX-101 Inhalation Solution",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 45,
+                "seriousNumAffected": 3,
+                "seriousNumAtRisk": 45,
+                "otherNumAffected": 29,
+                "otherNumAtRisk": 45
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Infective Pulmonary Exacerbation of Cystic Fibrosis",
+                "organSystem": "Infections and infestations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Intestinal Obstuction",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Cough and Dyspnea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Tachycardia",
+                "organSystem": "Cardiac disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 45
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Cough",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 6,
+                    "numAffected": 6,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 6,
+                    "numAffected": 6,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Sputum Increased",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Wheezing",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 7,
+                    "numAffected": 4,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Bronchospasm",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 5,
+                    "numAffected": 5,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Dyspnea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Epistaxis",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Nasal Congestion",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Lower Respiratory Tract Congestion",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Increased Viscosity of Bronchial Secretion",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Sputum Discolored",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Infective Pulmonary Exacerbation of Cystic Fibrosis",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Nasopharyngitis",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Upper Respiratory Tract Infection",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Diarrhea",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Constipation",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Frequent Bowel Movements",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Tongue Coated",
+                "organSystem": "Gastrointestinal disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Dysgeusia",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Migraine",
+                "organSystem": "Nervous system disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Chest Discomfort",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 3,
+                    "numAffected": 2,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Fatigue",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Pyrexia",
+                "organSystem": "General disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Forced Expiratory Volume Decreased",
+                "organSystem": "Investigations",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 45
+                  }
+                ]
+              },
+              {
+                "term": "Eczema",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 31
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 15
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 45
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "limitationsAndCaveats": {
+              "description": "No Limitations or Caveats"
+            },
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+              "title": "Dr. Rob Tarran",
+              "organization": "Spyryx Biosciences",
+              "email": "rtarran@spyryxbio.com",
+              "phone": "919-966-7052"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2018-05-14",
+                "uploadDate": "2019-08-26T13:51",
+                "filename": "Prot_000.pdf",
+                "size": 1032903
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2019-07-09",
+                "uploadDate": "2019-08-26T13:52",
+                "filename": "SAP_001.pdf",
+                "size": 476739
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03056989",
+            "orgStudyIdInfo": {
+              "id": "SPX-101-CF-102"
+            },
+            "organization": {
+              "fullName": "Spyryx Biosciences, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety Study of SPX-101 Inhalation Solution in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Phase 1, Single-Center, Open-Label Safety Study of SPX-101 Inhalation Solution in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-05-31",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-08-02",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-08-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-02-15",
+            "studyFirstSubmitQcDate": "2017-02-16",
+            "studyFirstPostDateStruct": {
+              "date": "2017-02-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2017-09-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-09-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Spyryx Biosciences, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Ascending dose, 7-day, open label safety trial of SPX-101 Inhalation Solution in adult subjects with cystic fibrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "SPX-101 Low Dose",
+                "type": "EXPERIMENTAL",
+                "description": "Inhalation Solution twice daily for 7 days.",
+                "interventionNames": [
+                  "Drug: SPX-101"
+                ]
+              },
+              {
+                "label": "SPX-101 Mid Dose",
+                "type": "EXPERIMENTAL",
+                "description": "Inhalation Solution twice daily for 7 days.",
+                "interventionNames": [
+                  "Drug: SPX-101"
+                ]
+              },
+              {
+                "label": "SPX-101 High Dose",
+                "type": "EXPERIMENTAL",
+                "description": "Inhalation Solution twice daily for 7 days.",
+                "interventionNames": [
+                  "Drug: SPX-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "SPX-101",
+                "description": "Inhalation solution twice daily for 7 days.",
+                "armGroupLabels": [
+                  "SPX-101 High Dose",
+                  "SPX-101 Low Dose",
+                  "SPX-101 Mid Dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants with adverse events",
+                "timeFrame": "Day 1 through Day 15"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Relative change from baseline through Day 8 in percent predicted FEV1",
+                "timeFrame": "Screening and Day 1 through Day 8"
+              },
+              {
+                "measure": "Change from baseline through Day 8 in clinical laboratory tests",
+                "description": "Chemistry, Hematology, Urinalysis",
+                "timeFrame": "Screening and Day 1 through Day 8"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of CF\n* FEV1 \u2265 40% predicted normal\n* Stable CF lung disease\n* Non-pregnant, non-lactating females\n\nExclusion Criteria:\n\n* Significant unstable co-morbidities within 28 days of screening as judged by the Investigator.\n* Has received an investigational drug within the past 30 days",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Elizabeth Tullis, MD",
+                "affiliation": "Unity Health Toronto",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Saint Michael's Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5B1W8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "31302339",
+                "type": "DERIVED",
+                "citation": "Couroux P, Farias P, Rizvi L, Griffin K, Hudson C, Crowder T, Tarran R, Tullis E. First clinical trials of novel ENaC targeting therapy, SPX-101, in healthy volunteers and adults with cystic fibrosis. Pulm Pharmacol Ther. 2019 Oct;58:101819. doi: 10.1016/j.pupt.2019.101819. Epub 2019 Jul 11."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

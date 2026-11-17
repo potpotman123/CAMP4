@@ -1,0 +1,2191 @@
+{
+  "asset": "NMD670",
+  "query": "NMD670",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=NMD670&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06414954",
+            "orgStudyIdInfo": {
+              "id": "NMD670-02-0002"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2023-507539-40",
+                "type": "OTHER",
+                "domain": "EUCTR"
+              },
+              {
+                "id": "2023",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2023"
+              }
+            ],
+            "organization": {
+              "fullName": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy of 3 Dose Levels of NMD670 in Adult Patients With Myasthenia Gravis",
+            "officialTitle": "A Phase 2b, Randomised, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of 3 Dose Levels of NMD670 Over 21 Days in Adult Patients With AChR/MuSK-Ab+ Myasthenia Gravis",
+            "acronym": "SYNAPSE-MG"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-05-16",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-10",
+            "studyFirstSubmitQcDate": "2024-05-10",
+            "studyFirstPostDateStruct": {
+              "date": "2024-05-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-08-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-08-21",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This Phase 2 proof-of-concept, dose range finding study aims to evaluate the safety and efficacy of 3 dose levels of NMD670 vs placebo in adult patients with MG with antibodies against AChR or MuSK, administered twice a day (BID) for 21 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Myasthenia Gravis",
+              "Myasthenia Gravis, MuSK"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 84,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NMD670 high dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NMD670"
+                ]
+              },
+              {
+                "label": "NMD670 mid dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NMD670"
+                ]
+              },
+              {
+                "label": "NMD670 low dose",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NMD670"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NMD670",
+                "description": "Tablets taken twice a day for 21 days",
+                "armGroupLabels": [
+                  "NMD670 high dose",
+                  "NMD670 low dose",
+                  "NMD670 mid dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Tablets taken twice a day for 21 days",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline to day 21 in QMG total score for NMD670 vs placebo",
+                "description": "Scale goes from 0-39 and higher score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline to day 21 in MG-ADL total score for NMD670 vs placebo",
+                "description": "Scale goes from 0-24 and higher score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in MGC total score for NMD670 vs placebo",
+                "description": "Scale goes from 0-50 and higher score indicate worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in MG-QOL15r for NMD670 vs placebo",
+                "description": "Scale goes from 0-30 and higher score indicate worse quality of life",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in Neuro-QoL Fatigue Short Form",
+                "description": "Scale goes from 8-40 and higher score indicate worse symptomalogy",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Incidence of treatment emergent adverse event",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of serious treatment emergent adverse events",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on physical examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on safety laboratory parameters",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant vital signs abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant ECG abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of Suicidal Ideation or Suicidal Behavior",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on opthalmological examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "From screening (day -28 to day -1) until follow up (day 28)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must be a male or female being 18 or more, at the time of signing the informed consent\n* Diagnosis of MG, MGFA class II, III or IV\n* Documented positive AChR or MuSK antibody test.\n* Participant must be able to swallow tablets\n* Body mass index between 18 and 35 kg/m2, inclusive, at screening, and with a minimum weight of 40 kg\n* Contraceptive use by men and women must be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n* Participant is capable of and has given signed informed consent\n\nExclusion Criteria:\n\n* Known medical or psychological condition(s) or risk factor that, in the opinion of the Investigator, might interfere with the patient's full participation in the study, pose any additional risk for the patient, or confound the assessment of the patient or outcome of the study\n* Participants with other significant clinical and/or laboratory safety findings that may interfere with the conduction or interpretation of the study\n* Participants that received treatment with an investigational medical product within 30 days or 5 half-lives of the medication, whichever is longer prior to Day 1\n* Participants with history of poor compliance with relevant MG therapy\n* Female patients who plan to become pregnant during the study or are currently pregnant or breastfeeding",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "NMD Pharma A/S",
+                "role": "CONTACT",
+                "phone": "contact@nmdpharma.com",
+                "email": "contact@nmdpharma.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Profound Research LLC",
+                "status": "WITHDRAWN",
+                "city": "Carlsbad",
+                "state": "California",
+                "zip": "92011",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.15809,
+                  "lon": -117.35059
+                }
+              },
+              {
+                "facility": "University of California Irvine Medical Center",
+                "status": "RECRUITING",
+                "city": "Irvine",
+                "state": "California",
+                "zip": "92868",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Siddhant Partap",
+                    "role": "CONTACT",
+                    "phone": "650-224-2637",
+                    "email": "spratap1@hs.uci.edu"
+                  },
+                  {
+                    "name": "Ali Amer Habib",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.66946,
+                  "lon": -117.82311
+                }
+              },
+              {
+                "facility": "University of Colorado Neuromuscular Division",
+                "status": "RECRUITING",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Alexis Shepardson",
+                    "role": "CONTACT",
+                    "phone": "303-724-4644",
+                    "email": "neuroresearch@cuanschutz.edu"
+                  },
+                  {
+                    "name": "Stacy Dixon, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "SFM Clinical Research, LLC",
+                "status": "RECRUITING",
+                "city": "Boca Raton",
+                "state": "Florida",
+                "zip": "33487",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Gabrielle DeMaria",
+                    "role": "CONTACT",
+                    "phone": "(561) 939-0333"
+                  },
+                  {
+                    "name": "Marc Feinberg, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 26.35869,
+                  "lon": -80.0831
+                }
+              },
+              {
+                "facility": "Neuromuscular Research Division | University of South Florida",
+                "status": "RECRUITING",
+                "city": "Tampa",
+                "state": "Florida",
+                "zip": "33612",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Jessica Shaw",
+                    "role": "CONTACT",
+                    "phone": "813-974-9413",
+                    "email": "jessshaw@usf.edu"
+                  },
+                  {
+                    "name": "Tuan H Vu",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 27.94752,
+                  "lon": -82.45843
+                }
+              },
+              {
+                "facility": "Augusta University, Neuroscience Center",
+                "status": "RECRUITING",
+                "city": "Augusta",
+                "state": "Georgia",
+                "zip": "30912",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Brandy Quarles",
+                    "role": "CONTACT",
+                    "phone": "706-721-0390",
+                    "email": "neuromuscular_research@augusta.edu"
+                  },
+                  {
+                    "name": "Michael Rivner",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.47097,
+                  "lon": -81.97484
+                }
+              },
+              {
+                "facility": "NextGen Precision Health",
+                "status": "RECRUITING",
+                "city": "Columbia",
+                "state": "Missouri",
+                "zip": "65212",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Neetha Gali",
+                    "role": "CONTACT",
+                    "phone": "(573) 882-3065",
+                    "email": "ngdcd@health.missouri.edu"
+                  },
+                  {
+                    "name": "David Arnold",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.95171,
+                  "lon": -92.33407
+                }
+              },
+              {
+                "facility": "The University of North Carolina at Chapel Hill",
+                "status": "RECRUITING",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27599",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Manisha Chopra",
+                    "role": "CONTACT",
+                    "phone": "1-919-843-7857",
+                    "email": "chopram@neurology.unc.edu"
+                  },
+                  {
+                    "name": "James Howard",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              },
+              {
+                "facility": "The Ohio State University",
+                "status": "RECRUITING",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43221",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Lischele Watkins,, MACPR",
+                    "role": "CONTACT",
+                    "phone": "614-293-1737",
+                    "email": "Lischele.Watkins@osumc.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "University of Oregon",
+                "status": "RECRUITING",
+                "city": "Portland",
+                "state": "Oregon",
+                "zip": "97239",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Katie Lewis",
+                    "role": "CONTACT",
+                    "phone": "503-494-5236",
+                    "email": "lewiskat@ohsu.edu"
+                  },
+                  {
+                    "name": "Nizar Chahin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.52345,
+                  "lon": -122.67621
+                }
+              },
+              {
+                "facility": "Semmes Murphey Clinic",
+                "status": "WITHDRAWN",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38120",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              },
+              {
+                "facility": "UZ Leuven",
+                "status": "WITHDRAWN",
+                "city": "Leuven",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "Aarhus University Hospital",
+                "status": "RECRUITING",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "contacts": [
+                  {
+                    "name": "Josefine Nielsen",
+                    "role": "CONTACT",
+                    "phone": "+45 23 88 25 83",
+                    "email": "josenl@rm.dk"
+                  },
+                  {
+                    "name": "Henning Andersen",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 56.15674,
+                  "lon": 10.21076
+                }
+              },
+              {
+                "facility": "Rigshospitalet University of Copenhagen",
+                "status": "RECRUITING",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "contacts": [
+                  {
+                    "name": "Nicolai Preisler",
+                    "role": "CONTACT",
+                    "phone": "+45 3545 9473",
+                    "email": "nicolai.rasmus.preisler@regionh.dk"
+                  },
+                  {
+                    "name": "Nicolai Preisler",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "Centre de r\u00e9f\u00e9rence des maladies neuromusculaires AOC-CHU de Bordeaux - H\u00f4pital Pellegrin",
+                "status": "RECRUITING",
+                "city": "Bordeaux",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Zahra Hamzi",
+                    "role": "CONTACT",
+                    "phone": "+33 7 67 02 63 35",
+                    "email": "zahra.hamzi@chu-bordeaux.fr"
+                  },
+                  {
+                    "name": "Guilhem Sole",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.84124,
+                  "lon": -0.58046
+                }
+              },
+              {
+                "facility": "Centre de R\u00e9f\u00e9rence des Maladies Neuromusculaires et de la SLA",
+                "status": "RECRUITING",
+                "city": "Marseille",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Shahram Attarian",
+                    "role": "CONTACT",
+                    "phone": "+33 0491386579",
+                    "email": "Shahram.ATTARIAN@ap-hm.fr"
+                  },
+                  {
+                    "name": "Shahram Attarian",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Centre Hospitalier Universitaire de Nantes - H\u00f4tel Dieu Centre de R\u00e9f\u00e9rence des Maladies Neuromusculaires Rares -",
+                "status": "RECRUITING",
+                "city": "Nantes",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Yann Pereon",
+                    "role": "CONTACT",
+                    "phone": "+33 2 40 08 37 04",
+                    "email": "Yann.Pereon@univ-nantes.fr"
+                  },
+                  {
+                    "name": "Yann Pereon",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 47.21725,
+                  "lon": -1.55336
+                }
+              },
+              {
+                "facility": "CHU de Nice",
+                "status": "RECRUITING",
+                "city": "Nice",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Prof. Sabrina Sacconi",
+                    "role": "CONTACT",
+                    "phone": "+33492037267",
+                    "email": "sacconi.s@chu-nice.fr"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.70313,
+                  "lon": 7.26608
+                }
+              },
+              {
+                "facility": "Unit\u00e9 de Recherche Clinique NeuroSciences",
+                "status": "RECRUITING",
+                "city": "Nice",
+                "country": "France",
+                "contacts": [
+                  {
+                    "name": "Saskia Bresch",
+                    "role": "CONTACT",
+                    "phone": "+33 04 92 03 89 05",
+                    "email": "bord.m@chu-nice.fr"
+                  },
+                  {
+                    "name": "Saskia Bresch",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.70313,
+                  "lon": 7.26608
+                }
+              },
+              {
+                "facility": "JSC Curatio",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Tbilisi",
+                "country": "Georgia",
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "LTD David Tatishvili Health Center",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Tbilisi",
+                "country": "Georgia",
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "Ltd New Hospitals",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Tbilisi",
+                "country": "Georgia",
+                "geoPoint": {
+                  "lat": 41.69143,
+                  "lon": 44.83412
+                }
+              },
+              {
+                "facility": "ASST Papa Giovanni XXIII (Azienda Ospedaliera Papa Giovanni XXIII)",
+                "status": "RECRUITING",
+                "city": "Bergamo",
+                "zip": "21127",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Manlio Sgarzi",
+                    "role": "CONTACT",
+                    "phone": "+393356462101",
+                    "email": "msgarzi@asst-pg23.it"
+                  },
+                  {
+                    "name": "Manlio Sgarzi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.69601,
+                  "lon": 9.66721
+                }
+              },
+              {
+                "facility": "IRCCS Istituo delle Scienze neurologiche di Bologna, UOC Clinica neurologica Ospedale",
+                "status": "RECRUITING",
+                "city": "Bologna",
+                "zip": "40139",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Prof. Rocco Liguori",
+                    "role": "CONTACT",
+                    "phone": "+390514966917",
+                    "email": "Rocco.liguori@unibo.it"
+                  },
+                  {
+                    "name": "Prof. Rocco Liguori",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.49381,
+                  "lon": 11.33875
+                }
+              },
+              {
+                "facility": "IRCCS Ospedale Policlinico San Martino",
+                "status": "RECRUITING",
+                "city": "Genova",
+                "zip": "16132",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Dr. Marina Grandis",
+                    "role": "CONTACT",
+                    "phone": "+390103537562",
+                    "email": "mgrandis@neurologia.unige.it"
+                  },
+                  {
+                    "name": "Dr. Marina Grandis",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 45.21604,
+                  "lon": 11.87211
+                }
+              },
+              {
+                "facility": "IRCCS Fondazione Istituto Neurologico Carlo Besta, Dipartimento di Ricerca e Sviluppo clinico",
+                "status": "RECRUITING",
+                "city": "Milan",
+                "zip": "20133",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Carlo Antozzi",
+                    "role": "CONTACT",
+                    "phone": "+ 39 3356157625",
+                    "email": "carlo.antozzi@istituto-besta.it"
+                  },
+                  {
+                    "name": "Carlo Antozzi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "DIMER, IRCCS, Ospedale San Raffaele",
+                "status": "RECRUITING",
+                "city": "Milan",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Dr.ssa Claudia Panciroli",
+                    "role": "CONTACT",
+                    "phoneExt": "390226439376",
+                    "email": "PANCIROLI.CLAUDIA@hsr.it"
+                  },
+                  {
+                    "name": "Dr. Fazio Raffaella",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "Centro Sclerosi Multipla Napoli - AOU Vanvitelli",
+                "status": "RECRUITING",
+                "city": "Naples",
+                "zip": "80138",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Alvino Bisecco",
+                    "role": "CONTACT",
+                    "phone": "+39 0815665252",
+                    "email": "alvino.bisecco@unicampania.it"
+                  },
+                  {
+                    "name": "Alvino Bisecco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.85216,
+                  "lon": 14.26811
+                }
+              },
+              {
+                "facility": "AOU Pisana",
+                "status": "RECRUITING",
+                "city": "Pisa",
+                "zip": "56126",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Maestr Tassoni",
+                    "role": "CONTACT",
+                    "phone": "+ 39050995519",
+                    "email": "m.maestri@ao-pisa.toscana.it"
+                  },
+                  {
+                    "name": "Michelangelo Maestri Tassoni",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.70853,
+                  "lon": 10.4036
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Sant'Andrea - Universita di Roma La Sapienza",
+                "status": "RECRUITING",
+                "city": "Roma",
+                "zip": "00189",
+                "country": "Italy",
+                "contacts": [
+                  {
+                    "name": "Matteo Garibaldi",
+                    "role": "CONTACT",
+                    "phone": "+390633775937",
+                    "email": "Matteo.garibaldi@uniroma1.it"
+                  },
+                  {
+                    "name": "Matteo Garibaldi",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Leiden Universitair Medisch Centrum (LUMC)",
+                "status": "RECRUITING",
+                "city": "Leiden",
+                "zip": "2333",
+                "country": "Netherlands",
+                "contacts": [
+                  {
+                    "name": "Jan Verschuuren",
+                    "role": "CONTACT",
+                    "email": "Myasthenie@Lumc.nl"
+                  },
+                  {
+                    "name": "Jan Verschuuren",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 52.15833,
+                  "lon": 4.49306
+                }
+              },
+              {
+                "facility": "Neurologia \u015al\u0105ska Centrum Medyczne",
+                "status": "RECRUITING",
+                "city": "Katowice",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Marek Smilowski",
+                    "role": "CONTACT",
+                    "phone": "+48500282494",
+                    "email": "Marek.smilowski2@gmail.com"
+                  },
+                  {
+                    "name": "Dr. Marek Smilowski",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.2597,
+                  "lon": 19.02173
+                }
+              },
+              {
+                "facility": "Szpital Specjalistyczny im. Ludwika Rydygiera w Krakowie sp.z o.o",
+                "status": "RECRUITING",
+                "city": "Krakow",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Jan Kubicki",
+                    "role": "CONTACT",
+                    "phone": "+48 12 6468 778",
+                    "email": "badaniakliniczne@rydygierkrakow.pl"
+                  },
+                  {
+                    "name": "Ryszard Nowak",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 50.06143,
+                  "lon": 19.93658
+                }
+              },
+              {
+                "facility": "Centrum Medyczne Hope Clinic",
+                "status": "RECRUITING",
+                "city": "Lublin",
+                "zip": "20701",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Dr. Sebastian Szklener",
+                    "role": "CONTACT",
+                    "phone": "48 666165103",
+                    "email": "sebastianszklener@gmail.com"
+                  },
+                  {
+                    "name": "Dr. Sebastian Szklener",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.25058,
+                  "lon": 22.57009
+                }
+              },
+              {
+                "facility": "Galen Clinic",
+                "status": "RECRUITING",
+                "city": "Lublin",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Urszula Chyrchel-Paszkiewicz",
+                    "role": "CONTACT",
+                    "phone": "+ 48602102105",
+                    "email": "pgluchyrchel@gmail.com"
+                  },
+                  {
+                    "name": "Dr. Chyrchel-Paszkiewicz Urszula",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.25058,
+                  "lon": 22.57009
+                }
+              },
+              {
+                "facility": "NeuroCor Banaszkiewicz, Tomaszewski Lekarze Sp\u00f3\u0142ka Partnerska",
+                "status": "RECRUITING",
+                "city": "My\u015blenice",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Krzysztof Banaszkiewicz",
+                    "role": "CONTACT",
+                    "phone": "+48691776505",
+                    "email": "badania@neurocor.pl"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 49.83383,
+                  "lon": 19.9383
+                }
+              },
+              {
+                "facility": "Centrum Medyczne Neuro Protect",
+                "status": "RECRUITING",
+                "city": "Warsaw",
+                "country": "Poland",
+                "contacts": [
+                  {
+                    "name": "Grudniak Mariusz",
+                    "role": "CONTACT",
+                    "phone": "+48 22 699 60 15",
+                    "email": "mariusz.grudniak@neuroprotect.pl"
+                  },
+                  {
+                    "name": "Dr. Grudniak Mariusz",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "University Clinical Center of Serbia, Neurology Clinic",
+                "status": "WITHDRAWN",
+                "city": "Belgrade",
+                "country": "Serbia",
+                "geoPoint": {
+                  "lat": 44.80401,
+                  "lon": 20.46513
+                }
+              },
+              {
+                "facility": "University Clinical Center Nis, Neurology Clinic",
+                "status": "RECRUITING",
+                "city": "Ni\u0161",
+                "country": "Serbia",
+                "contacts": [
+                  {
+                    "name": "Gordana Djordjevic",
+                    "role": "CONTACT",
+                    "phone": "+381631094549",
+                    "email": "gordanadjor@gmail.com"
+                  },
+                  {
+                    "name": "Gordana Djordjevic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.32472,
+                  "lon": 21.90333
+                }
+              },
+              {
+                "facility": "Hosp\u00ectal Universitari Vall d'Hebr\u00f3n",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "country": "Spain",
+                "contacts": [
+                  {
+                    "name": "Consuelo Garcia",
+                    "role": "CONTACT",
+                    "email": "consuelo.garcia@vhir.org"
+                  },
+                  {
+                    "name": "Raul Juntas Morales",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41224659",
+                "type": "DERIVED",
+                "citation": "Moss KR, Darvishi FB, Badawi Y, Fish LA, Funke JR, Pedersen TH, Robitaille R, Arnold WD, Burgess RW, Meriney SD, Nishimune H, Saxena S. The Neuromuscular Junction: A Shared Vulnerability in Aging and Disease. J Neurosci. 2025 Nov 12;45(46):e1353252025. doi: 10.1523/JNEUROSCI.1353-25.2025."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009157",
+                "term": "Myasthenia Gravis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020361",
+                "term": "Paraneoplastic Syndromes, Nervous System"
+              },
+              {
+                "id": "D009423",
+                "term": "Nervous System Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D010257",
+                "term": "Paraneoplastic Syndromes"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D020511",
+                "term": "Neuromuscular Junction Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05794139",
+            "orgStudyIdInfo": {
+              "id": "NMD670-02-0001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2022-002301-24",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy of NMD670 in Ambulatory Adult Patients With Type 3 Spinal Muscular Atrophy",
+            "officialTitle": "A Phase 2, Randomised, Double-blind, Placebo-controlled, 2-way Crossover Study to Evaluate the Efficacy, Safety, and Tolerability of NMD670 in Ambulatory Adults With Type 3 Spinal Muscular Atrophy",
+            "acronym": "SYNAPSE-SMA"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-09-21",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-05-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-05-18",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-03-15",
+            "studyFirstSubmitQcDate": "2023-03-29",
+            "studyFirstPostDateStruct": {
+              "date": "2023-04-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-02",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the efficacy, safety, tolerability and pharmacokinetics of NMD670 in the treatment of ambulatory adults with spinal muscular atrophy type 3"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Spinal Muscular Atrophy"
+            ],
+            "keywords": [
+              "Transmission Enhancer",
+              "Neuromuscular Junction Transmission",
+              "ClC-1"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "2-way crossover",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 52,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Experimental drug followed by placebo",
+                "interventionNames": [
+                  "Drug: NMD670",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "Placebo followed by experimental drug",
+                "interventionNames": [
+                  "Drug: NMD670",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NMD670",
+                "description": "Tablets",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Tablets",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline in 6 minute walk test (6MWT) total distance versus placebo",
+                "description": "Distance walked (meters)",
+                "timeFrame": "Baseline to day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in muscle strength versus placebo",
+                "description": "Handgrip, knee flexor, elbow flexor, elbow extension and should abduction (Newton)",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline in 6 minute walk test (6MWT) fatigue index versus placebo",
+                "description": "percentage change in distance walked in 6th minute compared to 1st minute",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline in Revised Hammersmith Scale (RHS) versus placebo",
+                "description": "Total score. Scale goes from 0-69 and higher score indicates improvement of symptoms",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline in jitter versus placebo",
+                "description": "Jitter (micro seconds) assessed with single fiber EMG",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline in blocking versus placebo",
+                "description": "Blocking (%) assessed with single fiber EMG",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Incidence of treatment emergent adverse events",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of serious treatment emergent adverse events",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on physical examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on safety laboratory parameters",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant vital signs abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant ECG abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of Suicidal Ideation or Suicidal Behavior",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on opthalmological examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participants with a clinical diagnosis of Type 3 SMA.\n2. Participants who are ambulatory, defined as being able to walk at least 50 metres without walking aids at screening during the 6-minute walk test.\n3. Participant with genetic confirmation of diagnosis (e.g., homozygous deletion or compound heterozygous deletion and mutation of survival of motor neuron 1 gene \\[SMN1\\])\n4. Participant with 3 to 5 copies of survival of motor neuron 2 gene \\[SMN2\\].\n5. Participant has a body mass index (BMI) within the range 19-35 kg/m2 (inclusive).\n6. Participant is male or female.\n7. Contraceptive use by men and women must be consistent with local regulations regarding the methods of contraception for those participating in clinical studies.\n8. Participant is capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in the protocol.\n\nExclusion Criteria:\n\n1. Participants with prior surgery or fixed deformity (scoliosis, contractures) which would restrict ability to perform study-related tasks.\n2. Participants with other significant disease that may interfere with the interpretation of study data (e.g., other neuromuscular or muscular diseases).\n3. Participants with other significant clinical and/or laboratory safety findings that may interfere with the conduction or interpretation of the study\n4. Participants received treatment with an investigational medical product (IMP) within 30 days (or 5 half-lives of the medication, whichever is longer) prior to Day 1.\n5. Participants with history of poor compliance with relevant SMA therapy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "UCLA David Geffen School Of Medicine - Neurology",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Stanford University Medical Center",
+                "city": "Palo Alto",
+                "state": "California",
+                "zip": "94304",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.44188,
+                  "lon": -122.14302
+                }
+              },
+              {
+                "facility": "University of Kansas Medical Center",
+                "city": "Kansas City",
+                "state": "Kansas",
+                "zip": "66160",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.11417,
+                  "lon": -94.62746
+                }
+              },
+              {
+                "facility": "The Johns Hopkins Medicine, Spinal Muscular Atrophy Center",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21287",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Roy Blunt NextGen Precision Health Institute",
+                "city": "Columbia",
+                "state": "Missouri",
+                "zip": "65212",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.95171,
+                  "lon": -92.33407
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Rare Disease Research - Raleigh-Durham",
+                "city": "Hillsborough",
+                "state": "North Carolina",
+                "zip": "27278",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.07542,
+                  "lon": -79.09973
+                }
+              },
+              {
+                "facility": "The Ohio State University Wexner Medical Center",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43210",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "Neurology Rare Disease Center",
+                "city": "Denton",
+                "state": "Texas",
+                "zip": "76208",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.21484,
+                  "lon": -97.13307
+                }
+              },
+              {
+                "facility": "UZ Leuven - Neurochirurgie Campus Gasthuisberg",
+                "city": "Leuven",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "CHR de la Citadelle - Neurologie",
+                "city": "Li\u00e8ge",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.63373,
+                  "lon": 5.56749
+                }
+              },
+              {
+                "facility": "Heritage Medical Research Clinic",
+                "city": "Calgary",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "Genge Partners Inc.",
+                "city": "Montreal",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Aarhus Universitetshospital, Neurologisk Afdeling",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 56.15674,
+                  "lon": 10.21076
+                }
+              },
+              {
+                "facility": "Rigshospitalet - Neurologisk Afdeling",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "Charite - Campus Virchow-Klinikum (CVK)",
+                "city": "Berlin",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Universit\u00e4tsklinikum Essen - Klinik F\u00fcr Neurologie",
+                "city": "Essen",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.45657,
+                  "lon": 7.01228
+                }
+              },
+              {
+                "facility": "Istituto Giannina Gaslini, IRCCS",
+                "city": "Genova",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.21604,
+                  "lon": 11.87211
+                }
+              },
+              {
+                "facility": "Istituto Neurologico C. Besta, Fondazione IRCCS",
+                "city": "Milan",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "Ospedale Niguarda, ASST Grande Ospedale Metropolitano Niguarda",
+                "city": "Milan",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "AOU Citt\u00e0 della Salute e della Scienza di Torino",
+                "city": "Torino",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.88856,
+                  "lon": 11.99138
+                }
+              },
+              {
+                "facility": "Universitair Medisch Centrum Utrecht, locatie Academisch Zie - Neurology",
+                "city": "Utrecht",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "Hospital Universitari Vall D Hebron",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Materno Infantil La Paz",
+                "city": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario y Polit\u00e9cnico La Fe",
+                "city": "Valencia",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 39.47391,
+                  "lon": -0.37966
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41224659",
+                "type": "DERIVED",
+                "citation": "Moss KR, Darvishi FB, Badawi Y, Fish LA, Funke JR, Pedersen TH, Robitaille R, Arnold WD, Burgess RW, Meriney SD, Nishimune H, Saxena S. The Neuromuscular Junction: A Shared Vulnerability in Aging and Disease. J Neurosci. 2025 Nov 12;45(46):e1353252025. doi: 10.1523/JNEUROSCI.1353-25.2025."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009134",
+                "term": "Muscular Atrophy, Spinal"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06482437",
+            "orgStudyIdInfo": {
+              "id": "NMD670-02-0003"
+            },
+            "organization": {
+              "fullName": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Efficacy of NMD670 in Adult Patients With Type 1 and Type 2 Charcot-Marie-Tooth Disease",
+            "officialTitle": "A Phase 2a, Randomised, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of NMD670 Over 21 Days in Ambulatory Adult Patients With Type 1 and Type 2 Charcot-Marie-Tooth Disease",
+            "acronym": "SYNAPSE-CMT"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-09-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-10-28",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-11-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-06-25",
+            "studyFirstSubmitQcDate": "2024-06-25",
+            "studyFirstPostDateStruct": {
+              "date": "2024-07-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-11-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "NMD Pharma A/S",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This Phase 2a study aims to evaluate the efficacy, safety and tolerability of NMD670 vs placebo administered twice a day (BID) for 21 days in ambulatory adult patients with Charcot-Marie-Tooth disease type 1 and type 2."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Charcot-Marie-Tooth Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 81,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NMD670",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: NMD670"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NMD670",
+                "description": "Tablets taken twice daily for 21 days",
+                "armGroupLabels": [
+                  "NMD670"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Tablets taken twice daily for 21 days",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline to day 21 in 6-minute walk test total distance for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline to day 21 in CMT Functional Outcome Measure Total Score and Individual Items for NMD670 vs placebo",
+                "description": "CMT Functional Outcome Meausre is a 12-item scale. Scale goes from 0-100 and a higher score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in the time to complete the 10MW/RT for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in 6-minute walk test fatigue index for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in Overall Neuropathy Limitation Scale total score and individual items for NMD670 vs placebo",
+                "description": "The Overall Neuropathy Limitation Scale consists of an arm and a leg scale. Scale goes from 0-12 and a higher score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in CMT Health Index total score and individual domains for NMD670 vs placebo",
+                "description": "The CMT Health Index has 18 domains. Scale goes from 0-100 and a higher score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in SF-36 total score and individual domains for NMD670 vs placebo",
+                "description": "The SF-36 has 8 domains. Scale goes from 0-100 and a lower score indicates worse symptomatology",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Change from baseline to day 21 in jitter and blocking for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Incidence of treatment emergent adverse events",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of serious treatment emergent adverse events",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on physical examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on safety laboratory parameters",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant vital signs abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant ECG abnormalities",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of Suicidal Ideation or Suicidal Behavior",
+                "description": "Summarised per treatment",
+                "timeFrame": "Over 21 days of dosing"
+              },
+              {
+                "measure": "Incidence of clinically significant abnormalities on opthalmological examinations",
+                "description": "Summarised per treatment",
+                "timeFrame": "From screening (day -28 to day -1) until follow up (day 28)]"
+              },
+              {
+                "measure": "Proportion of participants with clinically meaningful change from baseline in CMT-FOM total score and individual items for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Proportion of participants with clinically meaningful change from baseline in 10MW/RT for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Proportion of participants with clinically meaningful change from baseline in ONLS total score for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Proportion of participants with clinically meaningful change from baseline in CMT-HI total score and individual domains for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              },
+              {
+                "measure": "Proportion of participants with clinically meaningful change from baseline in SF-36 total score and individual domains for NMD670 vs placebo",
+                "timeFrame": "Baseline to day 21"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female participants must be 18 to 70 years inclusive at the time of signing the ICF.\n* Diagnosis of CMT type 1 or 2 confirmed by genetic testing.\n* Body mass index between 18 and 35 kg/m2, inclusive, at screening, and with a minimum weight of 40 kg\n* Contraceptive use by men and women must be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n* Participant is capable of and has given signed informed consent\n\nExclusion Criteria:\n\n* Participants with other significant disease that may interfere with the interpretation of study data (e.g., other neuromuscular diseases) and/or ability to complete the tests, in the opinion of the Investigator.\n* Participants with laboratory test result abnormalities at screening considered clinically significant by the Investigator.\n* Participants who have received treatment with another IMP within 30 days (or 5 half-lives of the medication, whichever is longer) prior to day 1.\n* Participants with history of poor compliance with relevant therapy in the opinion of the Investigator.\n* Female participants who plan to become pregnant during the study or are currently pregnant or breastfeeding.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Kansas Medical Center, Department of Neurology",
+                "city": "Kansas City",
+                "state": "Kansas",
+                "zip": "66160",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.11417,
+                  "lon": -94.62746
+                }
+              },
+              {
+                "facility": "Mass General Neurology",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "NextGen Precision Health",
+                "city": "Columbia",
+                "state": "Missouri",
+                "zip": "65211",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.95171,
+                  "lon": -92.33407
+                }
+              },
+              {
+                "facility": "Columbia University Medical Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "University of Rochester Neuromuscular Disease Center",
+                "city": "Rochester",
+                "state": "New York",
+                "zip": "14642",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.15478,
+                  "lon": -77.61556
+                }
+              },
+              {
+                "facility": "OSU Department of Neurology Division of Neuromuscular Diseases",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43221",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              },
+              {
+                "facility": "National Neuromuscular research Institute, PLLC",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78759",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "Providence Medical Research Center",
+                "city": "Spokane",
+                "state": "Washington",
+                "zip": "99204",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.65966,
+                  "lon": -117.42908
+                }
+              },
+              {
+                "facility": "University Hospitals Leuven, Department of Neurology",
+                "city": "Leuven",
+                "zip": "3000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "CHR de la Citadelle- Site Citadelle Neurolgie Boulevard du 12eme de Ligne 1",
+                "city": "Li\u00e8ge",
+                "zip": "4000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.63373,
+                  "lon": 5.56749
+                }
+              },
+              {
+                "facility": "Aarhus University Hospital",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 56.15674,
+                  "lon": 10.21076
+                }
+              },
+              {
+                "facility": "Rigshospitalet, Department of Neurology",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "CHU Marseille, Reference centre for neuromuscular diseases and ALS Department of Neuromuscular Diseases",
+                "city": "Marseille",
+                "zip": "13005",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Laboratoire d'Explorations Fonctionnelles, CHU Nantes",
+                "city": "Nantes",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.21725,
+                  "lon": -1.55336
+                }
+              },
+              {
+                "facility": "Centre Hospitalier Universitaire De Nice",
+                "city": "Nice",
+                "zip": "06001",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.70313,
+                  "lon": 7.26608
+                }
+              },
+              {
+                "facility": "Institut de Myologie Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re",
+                "city": "Paris",
+                "zip": "75651",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Bic\u00eatre University Hospital",
+                "city": "Paris",
+                "zip": "94275",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Hospital Universitari Vall d'Hebron",
+                "city": "Barcelona",
+                "zip": "8035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitari i Politecnic La Fe de Valencia",
+                "city": "Valencia",
+                "zip": "46026",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 39.47391,
+                  "lon": -0.37966
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41224659",
+                "type": "DERIVED",
+                "citation": "Moss KR, Darvishi FB, Badawi Y, Fish LA, Funke JR, Pedersen TH, Robitaille R, Arnold WD, Burgess RW, Meriney SD, Nishimune H, Saxena S. The Neuromuscular Junction: A Shared Vulnerability in Aging and Disease. J Neurosci. 2025 Nov 12;45(46):e1353252025. doi: 10.1523/JNEUROSCI.1353-25.2025."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002607",
+                "term": "Charcot-Marie-Tooth Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D015417",
+                "term": "Hereditary Sensory and Motor Neuropathy"
+              },
+              {
+                "id": "D009421",
+                "term": "Nervous System Malformations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D011115",
+                "term": "Polyneuropathies"
+              },
+              {
+                "id": "D010523",
+                "term": "Peripheral Nervous System Diseases"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

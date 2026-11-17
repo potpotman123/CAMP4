@@ -1,0 +1,1660 @@
+{
+  "integrated_id": "systemic:sys_b480244d8250",
+  "asset": "EB101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=EB-101+OR+prademagene",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04227106",
+            "orgStudyIdInfo": {
+              "id": "EB-101-CL-301"
+            },
+            "organization": {
+              "fullName": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 3, Open-label Clinical Trial of EB-101 for the Treatment of Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+            "officialTitle": "VIITAL: A Phase 3 Study of EB-101 for the Treatment of Recessive Dystrophic Epidermolysis Bullosa (RDEB)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-01-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-10-18",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-10-18",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-01-10",
+            "studyFirstSubmitQcDate": "2020-01-10",
+            "studyFirstPostDateStruct": {
+              "date": "2020-01-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-12-02",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-12-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this trial is to evaluate safety and efficacy of surgical application of EB-101 (autologous, gene-corrected keratinocyte sheets) as a treatment of recessive dystrophic epidermolysis bullosa (RDEB).",
+            "detailedDescription": "Recessive dystrophic epidermolysis bullosa (RDEB) is an ultra-rare, severe inherited blistering skin disease caused by the absence of a protein known as type 7 collagen (C7). There is no approved treatment for RDEB. Only supportive care is currently possible.\n\nThis open-label, controlled study will evaluate the efficacy and safety of EB-101 for the treatment of large, chronic, RDEB wounds. The study intervention consists of one-time surgical application of gene-corrected keratinocyte sheets (EB-101) for the treatment of RDEB wound sites in up to approximately 10-15 participants. A single EB-101 sheet is able to provide healing to a wound area up to approximately 40cm2. Up to 6 (six) EB-101 sheets may be applied to each patient, depending on the area of existing wounds. The co-primary endpoints of the study are: 1) the proportion of RDEB wound sites with greater than or equal to 50% healing from baseline, comparing treated with untreated wound sites at Week 24 (Month 6) as determined by direct investigator assessment; and 2) pain reduction associated with wound dressing change assessed by the mean differences in scores of the Wong-Baker FACES scale between treated and untreated wounds at Week 24 (Month 6). Patient-reported outcomes and safety will also be collected throughout the study.\n\nThe primary analysis for efficacy will be assessed when all patients reach Week 24. Safety and efficacy assessments will be conducted at regular intervals and completed when last patient reaches Week 26 post-treatment.\n\nUpon completion of the study period, patients will be monitored annually as per standard of care for up to 15 years."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Epidermolysis Bullosa",
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "chronic wounds"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 11,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "EB-101",
+                "type": "EXPERIMENTAL",
+                "description": "One-time surgical application of EB-101 on up to 6 chronic, RDEB wounds",
+                "interventionNames": [
+                  "Biological: EB-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "EB-101",
+                "description": "autologous RDEB keratinocytes isolated from skin biopsies and transduced with a recombinant retrovirus containing a full-length COL7A1 expression cassette for C7",
+                "armGroupLabels": [
+                  "EB-101"
+                ],
+                "otherNames": [
+                  "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets [LEAES]"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Wound Healing",
+                "description": "Proportion of RDEB wound sites with \u226550% healing from Baseline in treated versus untreated wounds",
+                "timeFrame": "24 weeks post-treatment"
+              },
+              {
+                "measure": "Pain Reduction",
+                "description": "Associated with wound dressing change assessed by the mean differences in scores of the Wong-Baker FACES scale between treated and untreated wounds",
+                "timeFrame": "24 weeks post-treatment"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical diagnosis of RDEB;\n* Age 6 years or older, willing and able to give consent/assent;\n* If under the age of 18, guardian(s) is/are willing and able to give consent;\n* Positive expression of the non-collagenous region 1 of the type 7 collagen protein (NC1+) in the skin;\n* Two confirmed RDEB C7 mutations with recessive inheritance patterns (or confirmation that parents don't have any evidence of dominant disease);\n* At least 40 cm2 areas of chronically wounded area on the trunk and/or extremities suitable for EB-101 application (open erosions);\n* Able to undergo adequate anesthesia during EB-101 application;\n* Must have at least two matched, eligible wound sites (one pair);\n\n  * Wound sites must:\n\n    * Have an area \u226520 cm2,\n    * Present for \u22656 months, and\n    * Stage 2 wound;\n* Women of childbearing potential must use a reliable birth control method throughout the duration of the study and for 6 months post treatment;\n* Negative pregnancy test;\n* Must be on stable pain medication regimen at least 30 days prior to Screening\n\nExclusion Criteria:\n\n* Medical instability limiting ability to travel to the study site;\n* The presence of medical illness expected to complicate participation and/or compromise the safety of this technique, such as active infection with human immunodeficiency virus (HIV), hepatitis B or hepatitis C;\n* Evidence of immune response to C7 by indirect immunofluorescence (IIF);\n* Evidence of systemic infection;\n* Current evidence or a history of squamous cell carcinoma (SCC) in the area that will undergo EB-101 application;\n* Active drug or alcohol addiction;\n* Hypersensitivity to vancomycin or amikacin;\n* Receipt of chemical or biological study product for the specific treatment of RDEB in the past 3 months;\n* Positive pregnancy test or breast-feeding;\n* Clinically significant medical or laboratory abnormalities as determined by the Principal Investigator;\n* Inability to properly follow protocol and protect keratinocyte sheet sites, as determined by the Principal Investigator;\n* Grade 3 clinical event or laboratory abnormality at Day 0. Abnormalities such as esophageal strictures, anemia, low albumin, and pain/itch are expected in RDEB patients. These abnormalities will not exclude a participant; and\n* Inability to culture participant's keratinocytes.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Jean Tang, MD",
+                "affiliation": "Stanford University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "University of Massachusetts Medical School",
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40570869",
+                "type": "DERIVED",
+                "citation": "Tang JY, Marinkovich MP, Wiss K, McCarthy D, Truesdale A, Chiou AS, Eid E, McIntyre JK, Bailey I, Furukawa LK, Gorell ES, Harris N, Khosla RK, Peter Lorenz H, Lu Y, Nazaroff J, Grachev ID, Moore AJ. Prademagene zamikeracel for recessive dystrophic epidermolysis bullosa wounds (VIITAL): a two-centre, randomised, open-label, intrapatient-controlled phase 3 trial. Lancet. 2025 Jul 12;406(10499):163-173. doi: 10.1016/S0140-6736(25)00778-0. Epub 2025 Jun 23."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2023-10-10",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2023-10-10",
+                  "resetDate": "2023-11-02",
+                  "mcpReleaseN": 5
+                }
+              ]
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05708677",
+            "orgStudyIdInfo": {
+              "id": "EB-101-LT-001"
+            },
+            "organization": {
+              "fullName": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Long-Term Extension Study for Participants Previously Treated With EB-101 for the Treatment of RDEB",
+            "officialTitle": "A Long-Term Extension Study for Participants Previously Treated With EB-101 for the Treatment of Recessive Dystrophic Epidermolysis Bullosa (RDEB)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "startDateStruct": {
+              "date": "2021-02-09",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2036-02",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2036-08",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-01-23",
+            "studyFirstSubmitQcDate": "2023-01-23",
+            "studyFirstPostDateStruct": {
+              "date": "2023-02-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-17",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Long-Term Extension Study for Participants Previously Treated with EB-101 for the Treatment of Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+            "detailedDescription": "This is an open-label, long-term, follow-up study in participants from prior interventional trials involving surgical application of gene-corrected keratinocyte sheets (EB-101) for the treatment of RDEB wound sites. Up to 22 participants will be enrolled in this study, with follow-up through at least 5 years post treatment. Patient-reported outcomes and safety will be assessed throughout the study, and where applicable, compared to Baseline of the preceding interventional EB-101 trial. Upon completion, participants will transfer to an annual monitoring program for additional 10 years of phone visits."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "RDEB"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "COHORT",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 22,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Long-Term Extension",
+                "description": "This study will follow one group of participants who were enrolled in a previous EB-101 study.",
+                "interventionNames": [
+                  "Biological: EB-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "EB-101",
+                "description": "This is non-interventional and follows patients treated with EB-101",
+                "armGroupLabels": [
+                  "Long-Term Extension"
+                ],
+                "otherNames": [
+                  "pz-cel"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Wound Closure",
+                "description": "Proportion of RDEB wounds with healing \u226550%, \u226575%, and 100% at all clinic visits up to Month 54 as determined by direct investigator assessment.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Pain Severity Scale (Wong-Baker FACES)",
+                "description": "Change in pain assessed by Wong-Baker FACES scale at all clinic visits up to Month 54. The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Itch Severity Scale",
+                "description": "Longitudinal change of Itch severity scores assessed at all clinic visits up to Week 54. The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Zarit Burden Interview Scale",
+                "description": "Longitudinal change of Zarit Burden Interview Short Form (ZBI-12) for caregiver scores related to wound care, assessed at all clinic visits up to Month 54. The minimum score value is 0 and the maximum score value is 4, with the higher scores being the worse outcome.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Quality of Life in Epidermolysis Bullosa",
+                "description": "Quality of Life in Epidermolysis Bullosa (QOLEB) responses will be assessed at all clinic visits up to Month 54.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Caregiver Global Impression of Change for Pain Scale",
+                "description": "Caregiver Global Impression of Change for Pain (CrGI-Pain) scores assessed at all clinic visits up to Month 54. The minimum score value is 1 and the maximum score value is 7, with the higher scores being the worse outcome.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Wound Infection and Adverse Events",
+                "description": "The number of participants and wounds that have an infection or any related adverse event.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "The number of treatment-emergent adverse events.",
+                "description": "The number of treatment-emergent adverse events.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Serious Adverse Events",
+                "description": "The number of participants and wounds that result in hospitalization (serious adverse event \\[SAE\\]).",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Incidence of squamous cell carcinoma.",
+                "description": "Incidence of squamous cell carcinoma.",
+                "timeFrame": "5 years"
+              },
+              {
+                "measure": "Replication-competent retrovirus (RCR) status",
+                "description": "Replication-competent retrovirus (RCR) status",
+                "timeFrame": "5 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing and able to give consent/assent;\n* If under the age of 18, guardian(s) is/are willing and able to give consent;\n* Prior study treatment with EB-101.\n\nExclusion Criteria:\n\n* Inability to properly follow protocol as determined by the Principal Investigator",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patient with previous EB-101 treatment",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Angela Iheanacho, MS",
+                "affiliation": "Abeona Therapeutics, Inc",
+                "role": "STUDY_DIRECTOR"
+              },
+              {
+                "name": "Sarah Abdelwahab, MD",
+                "affiliation": "Abeona Therapeutics, Inc",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "University of Massachusetts Medical School",
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07717736",
+            "orgStudyIdInfo": {
+              "id": "Pz-cel-CL-402"
+            },
+            "organization": {
+              "fullName": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 4 Master Protocol for Patients Prescribed Prademagene Zamikeracel for the Treatment of Wounds",
+            "officialTitle": "Phase 4 Master Protocol for Patients Prescribed Prademagene Zamikeracel for the Treatment of Wounds"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-11",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2031-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2032-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-07-16",
+            "studyFirstSubmitQcDate": "2026-07-16",
+            "studyFirstPostDateStruct": {
+              "date": "2026-07-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-08-04",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-08-06",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The Master Protocol includes 3 studies (Study A, Study B, and Study C) that will evaluate pz-cel and related processes in the post-marketing setting.\n\nStudy A investigates the efficacy and safety of non-conforming pz-cel in patients with Recessive Dystrophic Epidermolysis Bullosa (RDEB).\n\nStudy B enables the collection of additional biopsy samples from patients receiving treatment with pz-cel.\n\nStudy C assesses the efficacy and safety of pz-cel in patient populations not represented in the VIITAL clinical trial (NCT04227106).",
+            "detailedDescription": "The Master Protocol includes 3 studies (Study A, Study B, and Study C) that will evaluate pz-cel (LZRSE-COL7A1 gene-corrected cellular sheets with type VII collagen \\[C7\\] expression) and related processes in the post-marketing setting.\n\nPz-cel is a genetically engineered autologous cell therapy indicated for the treatment of wounds associated with RDEB. Pz-cel is composed of autologous keratinocytes from patients with mutations in the collagen type VII alpha 1 chain (COL7A1) gene, which have been transduced ex vivo with the Moloney leukemia virus-derived retroviral vector (LZRSE)-COL7A1. The gene-corrected cellular sheets express functional C7.\n\nThe pz-cel sheets are a one-time surgical application to debrided and cauterized wound beds of the corresponding patients with DEB. The COL7A1 transgene integrates into the host cell genome, resulting in durable expression and secretion of collagen protein, which addresses the underlying mechanism of the disease.\n\nStudy A is an open-label, non-randomized study in patients who are expected to receive gene-corrected cellular sheets (pz-cel) for the treatment of RDEB wound sites in the post-marketing setting and whose manufactured patient-specific batch of pz-cel intended for commercial treatment did not meet commercial release criteria, but had no safety concerns associated with its use. This study will allow surgical application of such non-conforming pz-cel when the benefit of application outweighs the risks. All patients will be followed through 24 weeks after treatment and may be eligible for further follow-up after Week 24. Patients will be evaluated at their Screening visit (30 days before surgery), at Day 0 (Surgery day), by phone on Week 4 (Month 1) and by Telehealth or Clinic Visit at Week 12 (Month 3) and Week 24 (Month 6).\n\nStudy B is a study to collect additional biopsy samples from patients who are expected to receive treatment with pz-cel in the post-marketing setting. The additional biopsy samples are being collected to support pz-cel product optimization. Patients receiving treatment with pz-cel can consent to have 2 additional 8-mm biopsies for use in the pz-cel assay and process development as well as in the optimization of the pz-cel manufacturing processes. The study will consist of Screening (in-person or via phone and eConsent), a pre-surgery biopsy and an End of Study Phone call 10-14 days after biopsy.\n\nStudy C is an open-label, non-randomized study in patients who are prescribed gene-corrected cellular sheets (pz-cel) in the post-marketing setting and who are part of a patient population not represented in the VIITAL Clinical Trial (NCT04227106). This study will enable patients with wounds that could benefit from treatment with pz-cel, especially those requiring special access for application of pz-cel, to receive pz-cel. All patients will be followed through 24 weeks after treatment and may be eligible for further follow-up after Week 24. Patients will be evaluated at their Screening visit (25-60 days before surgery), at Day -1 (one day prior to surgery), at Day 0 (Surgery Day), by phone on Week 4 (Month 1) and by Telehealth or Clinic Visit at Week 12 (Month 3) and Week 24 (Month 6)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Epidermolysis Bullosa (EB)",
+              "Recessive Dystrophic Epidermolysis Bullosa (RDEB)",
+              "Dystrophic Epidermolysis Bullosa (DEB)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE4"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 100,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Study A",
+                "type": "EXPERIMENTAL",
+                "description": "Clinical Evaluation of Prademagene Zamikeracel (Pz-cel) Treatment in Patients With Recessive Dystrophic Epidermolysis Bullosa (RDEB) Who Were Prescribed Pz-cel and Received Non-conforming Pz-cel in the Post-marketing Setting",
+                "interventionNames": [
+                  "Biological: Non-conforming pz-cel surgical application to RDEB wounds"
+                ]
+              },
+              {
+                "label": "Study B",
+                "type": "OTHER",
+                "description": "Tissue Collection Study for Patients Undergoing Biopsies for Treatment With Prademagene Zamikeracel (Pz-cel)",
+                "interventionNames": [
+                  "Procedure: Additional biopsies"
+                ]
+              },
+              {
+                "label": "Study C",
+                "type": "EXPERIMENTAL",
+                "description": "Post-Marketing Pz-cel Access Study in Dystrophic Epidermolysis Bullosa (DEB) Evaluating Patient Populations Not Represented in the VIITAL Clinical Trial (NCT04227106)",
+                "interventionNames": [
+                  "Biological: Pz-cel surgical application to DEB wounds"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "Non-conforming pz-cel surgical application to RDEB wounds",
+                "description": "Non-conforming pz-cel is pz-cel intended for commercial treatment that did not meet commercial release criteria, but had no safety concerns associated with its use.",
+                "armGroupLabels": [
+                  "Study A"
+                ]
+              },
+              {
+                "type": "PROCEDURE",
+                "name": "Additional biopsies",
+                "description": "Additional biopsy samples from patients who are expected to receive treatment with pz-cel in the post-marketing setting.",
+                "armGroupLabels": [
+                  "Study B"
+                ]
+              },
+              {
+                "type": "BIOLOGICAL",
+                "name": "Pz-cel surgical application to DEB wounds",
+                "description": "This intervention is for patients requiring special access for application of pz-cel.",
+                "armGroupLabels": [
+                  "Study C"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Study A - Wound Healing \u226550%",
+                "description": "Proportion of RDEB wounds with healing \u226550% from Baseline at Week 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "From Baseline at Week 24 (Month 6)"
+              },
+              {
+                "measure": "Study A - Pain Severity Scale (Wong-Baker FACES)",
+                "description": "Pain reduction assessed by the Wong-Baker FACES Pain Rating Scale (for patients \u22656 years of age) at Week 24 (Month 6). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Week 24 (Month 6)"
+              },
+              {
+                "measure": "Study C - Wound Healing \u226550%",
+                "description": "Proportion of wounds with healing \u226550% from Baseline at Week 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "From Baseline at Week 24 (Month 6)"
+              },
+              {
+                "measure": "Study C - Pain Severity Scale (Wong-Baker FACES)",
+                "description": "Pain reduction assessed by Wong-Baker FACES Pain Rating Scale (for patients \u22656 years old) at Week 24 (Month 6). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Week 24 (Month 6)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Study A - Wound Healing \u226550%",
+                "description": "Proportion of RDEB wounds with \u226550% healing at Week 12 (Month 3) as determined by direct Investigator assessment.",
+                "timeFrame": "At Week 12 (Month 3)"
+              },
+              {
+                "measure": "Study A - Wound Healing \u226575%",
+                "description": "Proportion of RDEB wounds with \u226575% healing at Weeks 12 (Month 3) and 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              },
+              {
+                "measure": "Study A - Wound Healing Complete",
+                "description": "Proportion of RDEB wounds with complete healing (i.e., re-epithelialization with no drainage or erosion and presence of only minor crusting) at Weeks 12 (Month 3) and 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              },
+              {
+                "measure": "Study A - Pain Severity Scale (Wong-Baker FACES)",
+                "description": "Pain reduction assessed by the Wong-Baker FACES Pain Rating Scale (for patients \u22656 years of age) at Week 12 (Month 3). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Week 12 (Month 3)"
+              },
+              {
+                "measure": "Study A - Worst Itch Severity Scale",
+                "description": "Change in scores of Worst Itch Numeric Rating Scale (WI-NRS; for patients \u22656 years of age) assessed at Weeks 12 (Month 3) and 24 (Month 6). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              },
+              {
+                "measure": "Study C - Wound Healing \u226550%",
+                "description": "Proportion of DEB wounds with \u226550% healing at Week 12 (Month 3) as determined by direct Investigator assessment.",
+                "timeFrame": "At Week 12 (Month 3)"
+              },
+              {
+                "measure": "Study C - Wound Healing \u226575%",
+                "description": "Proportion of DEB wounds with \u226575% healing at Weeks 12 (Month 3) and 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              },
+              {
+                "measure": "Study C - Wound Healing Complete",
+                "description": "Proportion of DEB wounds with complete healing (i.e., re-epithelialization with no drainage or erosion and presence of only minor crusting) at Weeks 12 (Month 3) and 24 (Month 6) as determined by direct Investigator assessment.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              },
+              {
+                "measure": "Study C - Pain Severity Scale (Wong-Baker FACES)",
+                "description": "Pain reduction assessed by the Wong-Baker FACES Pain Rating Scale (for patients \u22656 years of age) at Week 12 (Month 3). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Week 12 (Month 3)"
+              },
+              {
+                "measure": "Study C - Worst Itch Severity Scale",
+                "description": "Change in scores of WI-NRS (for patients \u22656 years of age) assessed at Weeks 12 (Month 3) and 24 (Month 6). The minimum score value is 0 and the maximum score value is 10, with the higher scores being the worse outcome.",
+                "timeFrame": "At Weeks 12 (Month 3) and 24 (Month 6)"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Study A - The number of treatment-related cutaneous malignancies.",
+                "description": "The number and incidence of treatment-related cutaneous malignancies.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study A - The number of treatment-emergent adverse events (AEs) and serious adverse events (SAEs)",
+                "description": "The number and incidence of treatment-emergent adverse events (AEs) and serious adverse events (SAEs) related to pz-cel.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study A - The number of positive replication-competent retrovirus (RCR) testing results",
+                "description": "The number and incidence of positive replication-competent retrovirus (RCR) testing results required for AEs and SAEs where retroviral infection is a consideration.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study A - The number of all treatment-emergent AEs and SAEs.",
+                "description": "The number and incidence of all treatment-emergent AEs and SAEs.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study C - The number of treatment-related cutaneous malignancies.",
+                "description": "The number and incidence of treatment-related cutaneous malignancies.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study C - The number of treatment-emergent AEs and SAEs",
+                "description": "The number and incidence of treatment-emergent AEs and SAEs related to pz-cel.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study C - The number of positive RCR testing results required for AEs and SAEs",
+                "description": "The number and incidence of positive RCR testing results required for AEs and SAEs where retroviral infection is a consideration.",
+                "timeFrame": "From enrollment to Week 24"
+              },
+              {
+                "measure": "Study C - The number of all treatment-emergent AEs and SAEs.",
+                "description": "The number and incidence of all treatment-emergent AEs and SAEs.",
+                "timeFrame": "From enrollment to Week 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Study A\n\nInclusion Criteria\n\n1. Willing and able to provide informed consent/assent; if under the age of 18, guardian(s) is (are) willing and able to provide consent.\n2. Patients who are expected to receive pz-cel manufactured as intended for commercial treatment; however, the final manufactured product was non-conforming and therefore did not meet commercial release criteria.\n3. All women of childbearing potential should discuss reproductive and breastfeeding plans and precautions with the treating physician in accordance with the considerations for special populations in the United States Prescribing Information (USPI).\n\nExclusion Criteria\n\n1. Inability to adequately follow the protocol and ensure the protection of cellular sheet sites, as determined by the Investigator.\n2. Hypersensitivity to vancomycin or amikacin.\n3. The presence of medical illness expected to complicate participation and/or compromise the safety of this technique, such as, but not limited to, active infection with human immunodeficiency virus (HIV), hepatitis B, or hepatitis C.\n4. Evidence of systemic infection.\n5. Current evidence of squamous cell carcinoma (SCC) in the area that will undergo pz-cel application.\n6. Grade 3 clinical event or laboratory abnormality prior to pz-cel treatment, with the exception of abnormalities such as esophageal strictures, anemia, low albumin, and pain/itch, which are expected in patients with severe DEB.\n7. Any other circumstance where the Investigator believes that it is not appropriate for the patient to participate in the study.\n\nStudy B\n\nInclusion Criteria\n\n1. Willing and able to provide informed consent/assent; if under the age of 18, guardian(s) is (are) willing and able to provide consent.\n2. Patients who are expected to receive treatment with pz-cel and are receiving a biopsy prior to pz-cel application in the post-marketing setting.\n\nExclusion Criteria\n\n1\\. Any circumstance where the Investigator believes that the patient may not be appropriate for participation in the study.\n\nStudy C\n\nInclusion Criteria:\n\n1. Willing and able to provide informed consent/assent; if under the age of 18, guardian(s) is (are) willing and able to provide consent.\n2. Patients who were prescribed pz-cel for commercial treatment but require special access defined in the protocol for treatment to occur.\n3. All women of childbearing potential must have a negative urine pregnancy test and agree to use a reliable birth control method throughout the duration of the study.\n\nExclusion Criteria:\n\n1. Inability to properly follow protocol assessments and protect cellular sheet sites as determined by the Investigator.\n2. Currently enrolled in an interventional clinical trial involving an investigational medicinal product to treat DEB or receipt of the investigational therapy within the 3 months prior to pz-cel application.\n3. Breastfeeding.\n4. The presence of medical illness expected to complicate participation and/or compromise the safety of this technique, such as, but not limited to, active infection with human immunodeficiency virus (HIV), hepatitis B, or hepatitis C.\n5. Evidence of systemic infection.\n6. Current evidence or a history of SCC in the area that will undergo pz-cel application.\n7. Active drug or alcohol addiction.\n8. Hypersensitivity to vancomycin or amikacin.\n9. Grade 3 clinical event or laboratory abnormality prior to pz-cel treatment, with the exception of abnormalities such as esophageal strictures, anemia, low albumin, and pain/itch, which are expected in patients with severe DEB.\n10. Any other circumstance where the Investigator believes that it is not appropriate for the patient to participate in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Angela Iheanacho",
+                "role": "CONTACT",
+                "phone": "646-813-7166",
+                "email": "aiheanacho@abeonatherapeutics.com"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05725018",
+            "orgStudyIdInfo": {
+              "id": "EB-101-CL-302"
+            },
+            "organization": {
+              "fullName": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 3b Study for the Treatment of Dystrophic Epidermolysis Bullosa (DEB) in New and Previously EB-101 Treated Patients",
+            "officialTitle": "A Phase 3b Study for the Treatment of Dystrophic Epidermolysis Bullosa (DEB) in New and Previously EB-101 Treated Patients"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-06",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-04-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-09-30",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-09-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-01-23",
+            "studyFirstSubmitQcDate": "2023-02-02",
+            "studyFirstPostDateStruct": {
+              "date": "2023-02-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-06-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-06-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+          },
+          "descriptionModule": {
+            "briefSummary": "To evaluate and further characterize the safety of EB-101 (LZRSE-Col7A1 gene-corrected keratinocyte sheets with type VII collagen \\[C7\\] expression) for the treatment of large, chronic DEB wounds in new and previously EB-101 treated patients 12 months and older.",
+            "detailedDescription": "A multicenter, open-label, single-arm Phase 3b safety study of one-time surgical application of up to 12 autologous, LZRSE-Col7A1 gene-corrected keratinocyte sheets with C7 expression (EB-101) for the treatment of large, chronic DEB wounds in each of approximately 10-12 patients. Patients enrolled will also contribute biopsies to support manufacturing requirements. All patients will be followed through 24 weeks post-treatment.\n\nPatients will be evaluated at their Screening Visit (D -60 to D -25), a phone call approximately 14 days after screening, and at Baseline (Day -1) prior to treatment on Day 0. Patients will remain in the hospital, or other suitable inpatient medical facility that will allow appropriate immobilization of treated wounds, as determined by the Investigator, for observation for up to 7 days (\u00b12 days) following treatment. They will be evaluated by phone on Day 14; by telehealth visits on Weeks 4, 8, and 18; and by clinic visits on Weeks 12 and 24."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Epidermolysis Bullosa",
+              "Recessive Dystrophic Epidermolysis Bullosa",
+              "RDEB"
+            ],
+            "keywords": [
+              "Chronic wounds"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "EB-101 Surgical application of RDEB wounds",
+                "type": "EXPERIMENTAL",
+                "description": "New or Previously Treated RDEB Patients",
+                "interventionNames": [
+                  "Biological: EB-101 Surgical application of RDEB wounds"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "EB-101 Surgical application of RDEB wounds",
+                "description": "EB-101 autologous RDEB keratinocytes isolated from skin biopsies and transduced with a recombinant retrovirus containing a full-length COL7A1 expression cassette for C7\n\nOther Names:\n\n\u2022 LZRSE-Col7A1 Engineered Autologous Epidermal Sheets \\[LEAES\\]",
+                "armGroupLabels": [
+                  "EB-101 Surgical application of RDEB wounds"
+                ],
+                "otherNames": [
+                  "pz-cel"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety Endpoint (number of treatment-related and treatment-emergent adverse events (AEs) and serious adverse events (SAEs)",
+                "description": "The number of treatment-related and treatment-emergent adverse events (TEAEs), treatment-emergent wound adverse events (TEWAEs), and serious adverse events (SAEs), including systemic and wound-specific adverse events.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Safety Endpoint (number of patients and wounds that have an infection or any related adverse event.)",
+                "description": "The number of patients and wounds that have an infection or any related adverse event (AE).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Safety Endpoint (number of patients and wounds that result in hospitalization (serious adverse event )",
+                "description": "The number of patients and wounds that result in hospitalization (SAE).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Safety Endpoint (Incidence of squamous cell carcinoma)",
+                "description": "The incidence of squamous cell carcinoma (SCC).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Safety Endpoint RCR status",
+                "description": "Replication-competent retrovirus (RCR) status.",
+                "timeFrame": "6 months"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Proportion of RDEB wounds with \u226550%, \u226575%, and complete",
+                "description": "Proportion of RDEB wounds with \u226550%, \u226575%, and complete (i.e., re epithelialization with no drainage or erosion and presence of only minor crusting) healing at Weeks 12 and 24, as determined by direct Investigator assessment.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Extent of pain reduction assessed by the Wong-Baker FACES scale",
+                "description": "Extent of pain reduction assessed by the Wong-Baker FACES scale (for patients ages \u22656 years old) at Weeks 8, 12, and 24.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Longitudinal change in scores of Worst Itch Numeric Rating Scale",
+                "description": "Longitudinal change in scores of Worst Itch Numeric Rating Scale (WI-NRS; for patients ages \u22656 years old) scores assessed at Weeks 8, 12, and 24",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Longitudinal change of Zarit Burden Interview Short Form",
+                "description": "Longitudinal change of Zarit Burden Interview Short Form (ZBI-12) for caregiver scores related to wound care, assessed at Weeks 12 and 24 (for all ages).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Change in Quality of Life in Epidermolysis Bullosa",
+                "description": "Change in Quality of Life in Epidermolysis Bullosa (QOLEB) scores assessed at Week 24 compared with pretreatment Baseline scores (completed by patients \u226511 years old or with guidance for patients 8 to 10 years old). If patient is \\<8 years old, QOLEB should be completed by a legal guardian.",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Change in Caregiver Global Impression of Pain",
+                "description": "Change in Caregiver Global Impression of Pain (CrGI-Pain) scores assessed at Weeks 8, 12, and 24 compared with pretreatment Baseline (for all ages).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Comparison of how non-collagenous region 1 of the collagen VII molecule",
+                "description": "Comparison of how non-collagenous region 1 of the collagen VII molecule (NC1) status relates to wound healing and safety profile (if applicable).",
+                "timeFrame": "6 months"
+              },
+              {
+                "measure": "Comparison of how circulating C7 antibody status relates to wound healing and safety profile",
+                "description": "Comparison of how circulating C7 antibody status relates to wound healing and safety profile (if applicable).",
+                "timeFrame": "6 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of DEB.\n2. Age 12 months and older.\n3. Willing and able to give consent/assent; if under the age of 18 years, guardian(s) is/are willing and able to give consent.\n4. (This inclusion criterion was deleted as of Amendment 1.)\n5. Confirmation of DEB diagnosis (either dominant \\[DDEB\\] or recessive \\[RDEB\\] forms) by genetic testing.\n6. Able to undergo adequate anesthesia during EB-101 treatment.\n7. All women of childbearing potential must have a negative urine pregnancy test and use a reliable birth control method throughout the duration of the study.\n8. On stable pain medication regimen for at least 30 days prior to Screening (and through Baseline).\n9. Must have at least one wound site that meets all of the following criteria:\n\n   1. An area \u226520 cm2,\n   2. Present for \u22656 months, and\n   3. Stage 2 wound defined as an open skin wound with partial thickness loss of dermis that has not extended through the dermis into subcutaneous tissue.\n10. For patients with RDEB, they must have had Vyjuvek exposure by the time of screening or positive anti-C7 antibodies at baseline.\n11. Patients must be willing to discontinue Vyjuvek and Filsuvez use on EB-101 treated sites until completion of the Week 24 visit.\n\nExclusion Criteria:\n\n1. Medical instability limiting ability to travel to the study site or undergo EB-101 treatment.\n2. The presence of medical illness expected to complicate participation and/or compromise the safety of this technique, such as active infection with human immunodeficiency virus (HIV), hepatitis B, or hepatitis C.\n3. (This exclusion criterion was deleted as of Amendment 3.)\n4. Evidence of systemic infection.\n5. Current evidence or a history of SCC in the area that will undergo EB-101 application.\n6. Active drug or alcohol addiction.\n7. Hypersensitivity to vancomycin or amikacin.\n8. Receipt of chemical or biological investigational therapy for the specific treatment of DEB in the 3 months prior to EB-101 application.\n9. Breast-feeding.\n10. Inability to properly follow protocol assessments and protect keratinocyte sheet sites as determined by the PI.\n11. Grade 3 clinical event or laboratory abnormality at Day 0. Abnormalities such as esophageal strictures, anemia, low albumin, and pain/itch are expected in severe DEB patients, and these abnormalities will not exclude a patient.\n12. Unwillingness or inability to provide 4 skin biopsies, or patient's keratinocytes cannot be manufactured for use in EB-101 application.\n13. Any other circumstance where the PI believes that the patient may not be appropriate for participation in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Months",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Angela Iheanacho, MS",
+                "affiliation": "Abeona Therapeutics, Inc",
+                "role": "STUDY_DIRECTOR"
+              },
+              {
+                "name": "Sarah Abdelwahab, MD",
+                "affiliation": "Abeona Therapeutics, Inc",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Stanford University",
+                "city": "Redwood City",
+                "state": "California",
+                "zip": "94063",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.48522,
+                  "lon": -122.23635
+                }
+              },
+              {
+                "facility": "University of Massachusetts Medical School",
+                "city": "Worcester",
+                "state": "Massachusetts",
+                "zip": "01605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.26259,
+                  "lon": -71.80229
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2026-04-07",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2026-04-07",
+                  "resetDate": "2026-04-28",
+                  "mcpReleaseN": 6
+                }
+              ]
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03183934",
+            "orgStudyIdInfo": {
+              "id": "ALLO-ASC-EB-102"
+            },
+            "organization": {
+              "fullName": "Anterogen Co., Ltd.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Follow-up Study to Evaluate the Efficacy and Safety of ALLO-ASC-DFU in ALLO-ASC-EB-101 Clinical Trial",
+            "officialTitle": "A Follow-up Study to Evaluate the Efficacy and Safety for the Patients With ALLO-ASC-DFU Treatment in Phase 1/2 Clinical Trial of ALLO-ASC-EB-101"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-12-08",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2018-04-20",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-04-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-06-08",
+            "studyFirstSubmitQcDate": "2017-06-08",
+            "studyFirstPostDateStruct": {
+              "date": "2017-06-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-08-25",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Anterogen Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label follow up study to evaluate the safety for the subjects with ALLO-ASC-DFU treatment in phase 1/2 clinical trial(ALLO-ASC-EB-101) for 24 months.",
+            "detailedDescription": "This is an open-label follow up study to evaluate the efficacy and safety for the subjects with ALLO-ASC-DFU treatment in phase 1/2 clinical trial (ALLO-ASC-EB-101) for 24 months.\n\nALLO-ASC-DFU is a hydrogel sheet containing allogenic adipose-derived mesenchymal stem cells. Adipose-derived stem cells have anti-inflammatory effect and release growth factors such as vascular endothelial growth factor(VEGF) and hepatocyte growth factor (HGF), which can enhance wound healing and regeneration of new tissue, finally may provide a new option in treating a Dystrophic Epidermolysis Bullosa."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Dystrophic Epidermolysis Bullosa"
+            ],
+            "keywords": [
+              "Epidermolysis Bullosa",
+              "Stem cell"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "CASE_ONLY",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 2,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "ALLO-ASC-DFU",
+                "description": "ALLO-ASC-DFU is a hydrogel sheet containing allogenic adipose-derived mesenchymal stem cells. Adipose-derived stem cells have anti-inflammatory effect and release growth factors such as vascular endothelial growth factor(VEGF) and hepatocyte growth factor (HGF), which can enhance wound healing and regeneration of new tissue, finally may provide a new option in treating a Dystrophic Epidermolysis Bullosa.\n\nThis study is a follow-up study without intervention.\n\nOther Names:\n\nAllogenic adipose-derived mesenchymal stem cells"
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety assessed by clinically measured abnormality of laboratory tests and adverse events",
+                "description": "Number of Participants with Adverse Events as a Measure of Safety and Tolerability.",
+                "timeFrame": "Every time of visit for follow up to 24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area of re-epithelization",
+                "description": "Time taken to re-epithelization",
+                "timeFrame": "Every time of visit for follow up to 24 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects who are treated with ALLO-ASC-DFU sheet in phase 1/2 clinical trial of ALLO-ASC-EB-101.\n2. A subject who is willing to follow the protocol and provide informed consent on screening, given that the information with respect to the clinical trial is provided.\n\nExclusion Criteria:\n\n1\\. Subjects who are considered not suitable for the study by the principal investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "Subject is enrolled who are treated with ALLO-ASC-DFU sheet in phase 1/2 clinical trial of ALLO-ASC-EB-101",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Su Chan Kim, PhD",
+                "affiliation": "Gangnam Severence Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Gangnam Severence Hospital",
+                "city": "Seoul",
+                "zip": "135-720",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              },
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07700966",
+            "orgStudyIdInfo": {
+              "id": "Pz-cel-RY-401"
+            },
+            "organization": {
+              "fullName": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Long-Term Safety Follow-up Registry for Patients Who Received Treatment With Prademagene Zamikeracel for Recessive Dystrophic Epidermolysis Bullosa (RDEB) in the Post-Marketing Setting",
+            "officialTitle": "A Long-Term Safety Follow-up Registry for Patients Who Received Treatment With Prademagene Zamikeracel for Recessive Dystrophic Epidermolysis Bullosa (RDEB) in the Post-Marketing Setting"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-07-25",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2045-04",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2045-04",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-07-08",
+            "studyFirstSubmitQcDate": "2026-07-08",
+            "studyFirstPostDateStruct": {
+              "date": "2026-07-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Abeona Therapeutics, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this observational study is to evaluate the long-term safety and wound healing durability (up to 15 years) for participants with Recessive Dystrophic Epidermolysis Bullosa (RDEB) who were treated with pz-cel. The main questions it aims to answer are:\n\n* The long-term safety profile of pz-cel.\n* The wound healing durability of pz-cel.\n* The occurrence of all malignancies after treatment with pz-cel, regardless of type or location, in individuals who received pz-cel treatment for RDEB in the post-marketing setting.\n\nParticipants will then be followed annually up to 15 years post-treatment. Assessments will occur via remote data collection. If the participants provider determines an office visit is necessary after the first year, some of this data can be collected in person as well. Annual assessments will include, but are not limited to:\n\n* Review of Adverse Events (AEs), Serious Adverse Events (SAEs), hospitalizations, and any evidence of malignancies and potential retroviral infection\n* Wound-healing durability data collection via the modified Caregiver Global Impression of Change for Wound Healing\n* Any changes in concomitant medications and procedures."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Recessive Dystrophic Epidermolysis Bullosa"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "15 Years",
+            "designInfo": {
+              "observationalModel": "CASE_ONLY",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 250,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Patients with RDEB who received pz-cel treatment in the post-marketing setting",
+                "interventionNames": [
+                  "Combination Product: Prademagene Zamikeracel"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "COMBINATION_PRODUCT",
+                "name": "Prademagene Zamikeracel",
+                "description": "ZEVASKYN\u00ae (prademagene zamikeracel) is a type of gene therapy made from your own skin cells that is surgically applied to treat wounds in both children and adults who have recessive dystrophic epidermolysis bullosa (RDEB).",
+                "armGroupLabels": [
+                  "Patients with RDEB who received pz-cel treatment in the post-marketing setting"
+                ],
+                "otherNames": [
+                  "EB-101",
+                  "Pz-cel"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The number and incidence of treatment-related malignancies.",
+                "timeFrame": "From enrollment to 15 years post-treatment"
+              },
+              {
+                "measure": "The number and incidence of treatment-emergent SAEs, including systematic and wound specific SAEs",
+                "timeFrame": "From enrollment to 15 years post-treatment"
+              },
+              {
+                "measure": "The number and incidences of treatment-related SAEs related to pz-cel, including systematic and wound-specific SAEs.",
+                "timeFrame": "From enrollment to 15 years post-treatment"
+              },
+              {
+                "measure": "The number and incidence of positive RCR testing results required for AEs and SAEs where retroviral infection is a consideration",
+                "timeFrame": "From enrollment to 15 years post-treatment"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Categorical impression of change in wound healing over time via the modified Caregiver Global Impression of Change for Wound Healing (mCrGI-WH)",
+                "timeFrame": "Yearly, from 1- year post-treatment to 15- years post-treatment"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing and able to give consent/assent; if under the age of 18, guardian(s) is(are) willing and able to give consent.\n* Patients who received treatment with prademagene zamikeracel in the post-marketing setting.\n\nExclusion Criteria:\n\n\u2022 Inability to properly follow the protocol as determined by the Principal Investigator (PI).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "RDEB patients who received pz-cel treatment",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Angela Iheanacho",
+                "role": "CONTACT",
+                "phone": "646-813-7166",
+                "email": "aiheanacho@abeonatherapeutics.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Lucile Packard Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Palo Alto",
+                "state": "California",
+                "zip": "94304",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Thomas Buschbacher",
+                    "role": "CONTACT",
+                    "phone": "650-313-0354",
+                    "email": "tbusch@stanford.edu"
+                  },
+                  {
+                    "name": "Joyce Teng",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.44188,
+                  "lon": -122.14302
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "status": "RECRUITING",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Matthew Brien",
+                    "role": "CONTACT",
+                    "phone": "7207770802",
+                    "email": "matthew.brien@childrenscolorado.org"
+                  },
+                  {
+                    "name": "Anna Bruckner",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "Ann & Robert H. Lurie Children's Hospital of Chicago - Department of Dermatology",
+                "status": "RECRUITING",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Alyssa Appleman",
+                    "role": "CONTACT",
+                    "phone": "3125035927",
+                    "email": "alyssa.appleman@northwestern.edu"
+                  },
+                  {
+                    "name": "Amy Paller",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "University of Texas Medical Branch",
+                "status": "RECRUITING",
+                "city": "Galveston",
+                "state": "Texas",
+                "zip": "77555",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Lindsay Allen",
+                    "role": "CONTACT",
+                    "phone": "4092662678",
+                    "email": "listurm@utmb.edu"
+                  },
+                  {
+                    "name": "Lindy Ross",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.30135,
+                  "lon": -94.7977
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016108",
+                "term": "Epidermolysis Bullosa Dystrophica"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004820",
+                "term": "Epidermolysis Bullosa"
+              },
+              {
+                "id": "D012868",
+                "term": "Skin Abnormalities"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D003095",
+                "term": "Collagen Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D012872",
+                "term": "Skin Diseases, Vesiculobullous"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "integrated_id": "systemic:sys_34a6c08b18b3",
+  "asset": "GS-5737",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=GS-5737",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01840735",
+            "orgStudyIdInfo": {
+              "id": "GS-US-234-0117"
+            },
+            "organization": {
+              "fullName": "Gilead Sciences",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 1b Safety, Tolerability, and PK Study to Assess GS-5737 in Subjects With CF",
+            "officialTitle": "A Phase 1b, Randomized, Double-Blind, Placebo-Controlled, Single Dose Study to Assess the Safety, Tolerability, and Pharmacokinetics of GS-5737 in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2014-08",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-05"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-07",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-04-15",
+            "studyFirstSubmitQcDate": "2013-04-23",
+            "studyFirstPostDateStruct": {
+              "date": "2013-04-26",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2014-08-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2014-08-12",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Gilead Sciences",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will determine the safety, tolerability, and pharmacokinetics of a single dose of GS-5737 administered with a 2.8% saline solution vehicle in adult subjects with CF."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "CF",
+              "Cystic Fibrosis",
+              "PK"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GS-5737",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "The GS-5737 85 \u03bcg dose is contained in 4 mL of 10 mM citrate buffer, pH 5.0 in 2.8% (w/v) saline.",
+                "interventionNames": [
+                  "Drug: GS-5737"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "The vehicle (placebo) control contains 10 mM citrate buffer, pH 5.0 in 2.8% (w/v) saline in 4 mL.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GS-5737",
+                "armGroupLabels": [
+                  "GS-5737"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Peak Plasma Concentration (Cmax) of GS-5737",
+                "timeFrame": "1 day"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Males or females, \u2265 18 years of age, at Screening\n* Diagnosis of CF as determined by the 1997 CF Consensus Conference criteria, with at least 1 of the following: Documented sweat chloride \u2265 60 mEq/L by quantitative pilocarpine iontophoresis test OR Abnormal nasal transepithelial potential difference (NPD) test OR Two well-characterized, disease-causing genetic mutations in the CF transmembrane conductance regulator (CFTR) gene AND 1 or more accompanying clinical features consistent with CF\n* FEV1 \u2265 40% and \u2264 90% predicted\n* BMI \u2265 19 and \u2264 30 kg/m2\n* Clinically stable with no evidence of significant new or acute respiratory symptoms\n* Chest radiograph without significant acute findings; or chest radiograph, CT, or MRI obtained and interpreted within 90 days prior to enrollment, without acute findings and no significant intercurrent illness; chronic, stable findings are allowed\n* History of lifetime smoking \\< 5 pack-years (ie, 1 pack per day x 1 year =\n\n  1 pack-year) and non-smokers of at least 60 days duration prior to Screening\n* Estimated creatinine clearance \u2265 80 mL/min at Screening\n* Negative drug tests; including alcohol\n* Hepatitis B, C, \\& HIV Negative\n* Surgically sterile or \u2265 12 months post-menopausal\n* Non-pregnant females\n\nExclusion Criteria:\n\n* Experienced symptoms of recent acute upper or lower respiratory tract infection or acute pulmonary exacerbation requiring treatment within 2 weeks prior to Screening\n* Plasma potassium \u2265 5 mEq/L\n* Changes in chronic azithromycin use, bronchodilator (BD), dornase alfa, HS, physiotherapy technique or regimen, antibiotics or corticosteroid medications within 28 days prior to Screening\n* History of sputum or throat swab culture yielding Burkholderia species within 2 years of Screening",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Compass Research Phase 1, LLC",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01793649",
+            "orgStudyIdInfo": {
+              "id": "GS-US-234-0103"
+            },
+            "organization": {
+              "fullName": "Gilead Sciences",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 1 Study to Characterize the Effect of GS-5737 Enhancement of Mucociliary Clearance (MCC) in Healthy Subjects",
+            "officialTitle": "A Phase 1, Randomized, Double-Blind, Cross-Over, Vehicle-Controlled, Single-Dose Study To Characterize The Effect of GS-5737 Enhancement of Mucociliary Clearance (MCC) In Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2014-03",
+            "overallStatus": "TERMINATED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2012-10"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-06",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-02-14",
+            "studyFirstSubmitQcDate": "2013-02-14",
+            "studyFirstPostDateStruct": {
+              "date": "2013-02-15",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2014-03-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2014-03-20",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Gilead Sciences",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a randomized, double-blind, cross-over, vehicle-controlled study to determine whether GS-5737 in 2.8% saline accelerates mucociliary clearance (MCC) in healthy subjects, compared to vehicle of 2.8% saline alone."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis",
+              "Chronic Obstructive Pulmonary Disease"
+            ],
+            "keywords": [
+              "Respiratory health",
+              "Cystic Fibrosis",
+              "Chronic Obstructive Pulmonary Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 7,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cross-Over Sequence 1",
+                "type": "EXPERIMENTAL",
+                "description": "85 \u03bcg GS-5737 in 2.8% saline or 2.8% saline alone (blinded)",
+                "interventionNames": [
+                  "Drug: GS-5737"
+                ]
+              },
+              {
+                "label": "Cross-Over Sequence 2",
+                "type": "EXPERIMENTAL",
+                "description": "2.8% saline alone or 85 \u03bcg GS-5737 in 2.8% saline (blinded)",
+                "interventionNames": [
+                  "Drug: GS-5737"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GS-5737",
+                "description": "A single dose of GS-5737 in 2.8% saline",
+                "armGroupLabels": [
+                  "Cross-Over Sequence 1",
+                  "Cross-Over Sequence 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Area under the curve of MCC from Whole Lung Compartment",
+                "description": "The primary endpoint of this study will be the calculated area under the curve of MCC from the whole lung compartment, assessed through 60 minutes post isotope dosing (AUC-60min), which will provide a description of the MCC curve.",
+                "timeFrame": "4 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Area under the curve of MCC from Central and Peripheral Lung",
+                "description": "This outcome measure will be the calculated area under the cuve of MCC from the central and peripheral lung assessed through 60 minutes post isotope dosing (AUC60min).",
+                "timeFrame": "4 weeks or duration of study"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Safety and tolerability of GS-5737",
+                "description": "Adverse events, airway reactivity, pulse oximetry, physical examination, and clinical laboratory test findings, urine and plasma potassium levels, 12-lead ECG abnormalities and interval measurements, and vital sign measurements will be used to assess this outcome measure.",
+                "timeFrame": "4 weeks or duration of study"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Body mass index (BMI) from \u2265 19 to \u2264 30 kg/m2\n* Normal ECG, with no history or evidence of myocardial infarction, QT prolongation, or ventricular arrhythmias\n* Normal (or abnormal but not clinically significant) blood pressure (BP) and heart rate(HR)\n* History of lifetime smoking \\< 5 pack-years (ie, 1 pack per day x 1 year = 1 pack-year)and non-smokers of at least 60 days duration prior to Screening\n* Negative screening tests for drugs of abuse (including alcohol)\n* Hepatitis B (HBV) surface antigen negative\n* Hepatitis C (HCV) antibody negative\n* HIV-1, 2 antibody negative\n* Male subjects who are sexually active must be willing to use highly effective contraception from the Baseline Visit through completion of the study and continuing for at least 90 days from the date of the last dose of study drug\n* Male subjects must refrain from sperm donation from the Baseline Visit through completion of the study and continuing for at least 90 days from the date of the last dose of study drug\n* Females of childbearing potential must have a negative serum pregnancy test\n* Females of childbearing potential must agree to utilize protocol recommended highly effective contraception methods from Screening throughout the duration of study treatment and for 30 days following the last dose of study drug\n\nExclusion Criteria:\n\n* Female subjects who are pregnant or lactating\n* History of anaphylactic reaction to any drug\n* Have previously participated in an investigational trial involving administration of any investigational compound within 30 days prior to the study drug dosing\n* Presence or history of extrinsic allergy requiring treatment; hay fever is allowed unless it is active or has required treatment within the previous 2 months\n* Have donated blood within 56 days of study dosing\n* Presence or history of any pulmonary diseases (ie, asthma, emphysema, chronic bronchitis, chronic obstructive pulmonary disease (COPD), cystic fibrosis (CF), bronchiectasis, interstitial lung disease)\n* Major surgery within 6 months of Screening\n* Experienced symptoms of recent acute upper or lower respiratory tract infection requiring treatment within the 2 weeks prior to Screening\n* Have had any radiation in the past year that would cause the subject exceed recommended limits by participating in this study protocol",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Mark Bresnik, M.D.",
+                "affiliation": "Gilead Sciences",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Investigational Site",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27599",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              },
+              {
+                "id": "D029424",
+                "term": "Pulmonary Disease, Chronic Obstructive"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              },
+              {
+                "id": "D008173",
+                "term": "Lung Diseases, Obstructive"
+              },
+              {
+                "id": "D002908",
+                "term": "Chronic Disease"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

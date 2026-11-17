@@ -1,0 +1,439 @@
+{
+  "integrated_id": "systemic:sys_fd613d7c5f39",
+  "asset": "nula-cel Drug Product",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=nula-cel+OR+GPH101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04819841",
+            "orgStudyIdInfo": {
+              "id": "KMAU-001-001"
+            },
+            "organization": {
+              "fullName": "Kamau Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Gene Correction in Autologous CD34+ Hematopoietic Stem Cells (HbS to HbA) to Treat Severe Sickle Cell Disease",
+            "officialTitle": "A Phase I/II Study of Nula-cel in Autologous CD34+ Hematopoietic Stem Cells to Convert HbS to HbA for Treating Severe Sickle Cell Disease",
+            "acronym": "Restore"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-11-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-03-24",
+            "studyFirstSubmitQcDate": "2021-03-25",
+            "studyFirstPostDateStruct": {
+              "date": "2021-03-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-02",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kamau Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a first-in-human, single-arm, open-label Phase I/II study of nula-cel in approximately 15 participants, diagnosed with severe Sickle Cell Disease. The primary objective is to evaluate safety of the treatment in this patient population, as well as preliminary efficacy and pharmacodynamic data.",
+            "detailedDescription": "Participants diagnosed with severe SCD will receive nula-cel via IV infusion following myeloablative conditioning in an autologous HSCT setting."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "sickle cell disease",
+              "sickle cell anemia",
+              "gene correction",
+              "gene therapy",
+              "CRISPR"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 15,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "nula-cel Drug Product",
+                "type": "EXPERIMENTAL",
+                "description": "nula-cel Drug Product is a human autologous CRISPR-Cas9 edited and sickle mutation-corrected HSPC product.",
+                "interventionNames": [
+                  "Genetic: nula-cel Drug Product"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "nula-cel Drug Product",
+                "description": "nula-cel is administered via IV infusion following a myeloablative conditioning regimen",
+                "armGroupLabels": [
+                  "nula-cel Drug Product"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Proportion of patients who reach neutrophil engraftment",
+                "timeFrame": "42 days post-infusion"
+              },
+              {
+                "measure": "Incidence rate of treatment-related mortality",
+                "timeFrame": "100 days post-infusion"
+              },
+              {
+                "measure": "Incidence rate of treatment-related mortality",
+                "timeFrame": "12 months post-infusion"
+              },
+              {
+                "measure": "Overall survival",
+                "timeFrame": "24 months post-infusion"
+              },
+              {
+                "measure": "Frequency and severity of AEs/SAEs",
+                "timeFrame": "24 months post-infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Time to neutrophil engraftment",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Evaluation of gene correction levels in peripheral myeloid cells",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Evaluation of adult Hgb as a percentage of total Hgb",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Evaluation of HbS as a percentage of total Hgb",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Total Hgb without disease-indicated transfusion support",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Change in annualized packed red blood cell (pRBC) transfusion requirements (volume and frequency) for SCD indications",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Proportion of participants with complete resolution of severe vaso-occlusive crises (sVOCs)",
+                "timeFrame": "over time, from 6 months to 18 months post-infusion"
+              },
+              {
+                "measure": "Incidence rate of any sVOCs",
+                "timeFrame": "over time, from 6 months to study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Proportion of participants achieving HbS <50% for at least 3 months",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              },
+              {
+                "measure": "Evaluation of globin chain expression compared to baseline",
+                "timeFrame": "through study completion, up to 24 months post-infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u226512 to \u2264 40 years\n* Severe disease, as defined by having experienced at least one of the following SCD-related events despite appropriate supportive care measures:\n* recurrent severe VOC (\u2265 4 episodes in the preceding 2 years)\n* ACS (\u2265 2 episodes in the prior 2 years with at least one episode in the past year)\n* Lansky/Karnofsky performance status of \u2265 80\n\nExclusion Criteria:\n\n* Available 10/10 HLA-matched sibling donor\n* Prior HSCT or gene therapy\n* Prior or current malignancy or myeloproliferative or a significant coagulation or immunodeficiency disorder\n* Clinically significant and active bacterial, viral, fungal or parasitic infection\n* Pregnancy or breastfeeding in a postpartum female\n* Presence of a chromosomal abnormality/mutation that may put the participant at an increased risk for MDS or AML per investigator's judgment",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Restore Clinical Study Support",
+                "role": "CONTACT",
+                "phone": "650-442-2283",
+                "email": "RestoreStudySupport@kamautx.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Matthew Porteus, MD, PhD",
+                "affiliation": "Kamau Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Children's Hospital Los Angeles",
+                "status": "RECRUITING",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90027",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Bridget Bailey",
+                    "role": "CONTACT",
+                    "phone": "323-361-7382",
+                    "email": "brbailey@chla.usc.edu"
+                  },
+                  {
+                    "name": "Ashley Gray, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Lucile Packard Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Palo Alto",
+                "state": "California",
+                "zip": "94304",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Stanford Intake Team",
+                    "role": "CONTACT",
+                    "email": "scgt_clinical_trials_office@lists.stanford.edu"
+                  },
+                  {
+                    "name": "Kat Joseph, BSN, RN",
+                    "role": "CONTACT",
+                    "phone": "650-725-9032",
+                    "email": "kjoseph3@stanford.edu"
+                  },
+                  {
+                    "name": "May Chien, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "David Shyr, MD",
+                    "role": "SUB_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.44188,
+                  "lon": -122.14302
+                }
+              },
+              {
+                "facility": "Washington University",
+                "status": "RECRUITING",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Maggie Nash",
+                    "role": "CONTACT",
+                    "phone": "314-273-5936",
+                    "email": "nashm@wustl.edu"
+                  },
+                  {
+                    "name": "John F Dipersio, MD, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Columbia University Irving Medical Center",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Camila Barros",
+                    "role": "CONTACT",
+                    "phone": "212-342-3884",
+                    "email": "cb4149@cumc.columbia.edu"
+                  },
+                  {
+                    "name": "Elizabeth Shelton",
+                    "role": "CONTACT",
+                    "email": "eas2304@cumc.columbia.edu"
+                  },
+                  {
+                    "name": "Marcus Mapara, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Monica Bhatia, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Memorial Sloan Kettering",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Maria Paes Pena",
+                    "role": "CONTACT",
+                    "email": "paespem@mskcc.org"
+                  },
+                  {
+                    "name": "Jaap Jan Boelens, MD, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Nationwide Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Columbus",
+                "state": "Ohio",
+                "zip": "43205",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Dalena Sanderson",
+                    "role": "CONTACT",
+                    "email": "Dalena.Sanderson@nationwidechildrens.org"
+                  },
+                  {
+                    "name": "Lauren Rayman",
+                    "role": "CONTACT",
+                    "email": "lauren.rayman2@nationwidechildrens.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.96118,
+                  "lon": -82.99879
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

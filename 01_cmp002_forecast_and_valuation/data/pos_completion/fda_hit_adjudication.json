@@ -1,0 +1,97 @@
+[
+  {
+    "id": "systemic:sys_0bfbf88afa2f",
+    "canonical_asset": "pozelimab",
+    "aliases": [
+      "REGN3918",
+      "pozelimab-bbfg",
+      "Veopoz"
+    ],
+    "target_indication": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+    "as_of": "2026-11-16",
+    "FDA_any_indication_ever_approved": true,
+    "FDA_any_indication_first_approval_date": "2023-08-18",
+    "FDA_approved_other_indication": "CD55-deficient protein-losing enteropathy (CHAPLE disease), age1year and older",
+    "FDA_target_indication_ever_approved": false,
+    "FDA_target_indication_approval_date": null,
+    "inventory_hit_adjudication": "real_molecule_approval_wrong_target_indication",
+    "adjudication_complete": true,
+    "reason": "The inventory hit is BLA761339/Veopoz for CHAPLE, not PNH. Current label remains CHAPLE only. The PNH pozelimab/cemdisiran combination is still investigational in the October30,2026 sponsor pipeline and10Q, which expects phase3results in4Q2026. Do not count CHAPLE success as PNH success or rescue this row with later-indication approval.",
+    "evidence": [
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761339Orig1s000Approv.pdf",
+        "source_date": "2023-08-18",
+        "source_type": "FDA approval letter",
+        "supports": "Original approval date and CHAPLE-only approved indication."
+      },
+      {
+        "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a8d6f10e-9430-450a-a3dd-b538f9b2a308&type=display",
+        "source_date": "2025-12-04",
+        "source_type": "Current sponsor prescribing information hosted by NIH DailyMed",
+        "supports": "Section1 indication is CHAPLE only; no PNH indication."
+      },
+      {
+        "url": "https://www.regeneron.com/science/investigational-pipeline",
+        "source_date": "2026-10-30",
+        "source_type": "Sponsor current pipeline",
+        "supports": "PNH pozelimab+cemdisiran remains investigational."
+      },
+      {
+        "url": "https://investor.regeneron.com/static-files/976f8d36-6416-4dab-bf38-d54b47e5da1f",
+        "source_date": "2026-10-30",
+        "source_type": "Sponsor10Q",
+        "supports": "PNH phase3data expected4Q2026; no approvedPNH commercialization."
+      }
+    ],
+    "source_snapshots": [
+      "sources/pos_completion/neuro_fda_hit_1.json",
+      "sources/pos_completion/neuro_fda_hit_3.json"
+    ],
+    "remaining_uncertainty": "A negative target-indication adjudication through cutoff is based on current label, matched FDA approval and current sponsor development disclosure; it is not a statement that the molecule has never been FDA approved."
+  },
+  {
+    "id": "systemic:sys_d1cd7fcbd645",
+    "canonical_asset": "zilucoplan",
+    "aliases": [
+      "RA101495",
+      "zilucoplan sodium",
+      "Zilbrysq"
+    ],
+    "target_indication": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+    "as_of": "2026-11-16",
+    "FDA_any_indication_ever_approved": true,
+    "FDA_any_indication_first_approval_date": "2023-10-17",
+    "FDA_approved_other_indication": "Generalized myasthenia gravis (gMG) in adults who are anti-acetylcholine receptor antibody positive",
+    "FDA_target_indication_ever_approved": false,
+    "FDA_target_indication_approval_date": null,
+    "inventory_hit_adjudication": "real_molecule_approval_wrong_target_indication",
+    "adjudication_complete": true,
+    "reason": "The inventory hit is NDA216834/Zilbrysq for adult antiAChRpositive gMG, not PNH. FDA October2026label retains gMG-only indication. Sponsor registry states UCB no longer pursuesPNH. Do not convert the PNH program into a success using gMG approval.",
+    "evidence": [
+      {
+        "url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-zilbrysq",
+        "source_date": "2023-10-17",
+        "source_type": "FDA original approval snapshot",
+        "supports": "Original approval date and gMG indication."
+      },
+      {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216834s015lbl.pdf",
+        "source_date": "2026-10",
+        "source_type": "FDA current prescribing information",
+        "supports": "Section1 remains adult antiAChRpositive gMG; October2026changes are dosing/administration and autoinjector."
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT03225287",
+        "source_date": "2023-09-28",
+        "source_type": "Sponsor registry attestation",
+        "supports": "UCB explicitly decided no longer to pursuePNH, not merely an inference from trial termination."
+      }
+    ],
+    "source_snapshots": [
+      "sources/pos_completion/neuro_fda_hit_2.json",
+      "sources/pos_completion/neuro_fda_hit_3.json",
+      "sources/pos_completion/systemic_sys_d1cd7fcbd645_registry.json"
+    ],
+    "remaining_uncertainty": "PNH discontinuation exact decision day remains unknown; this does not affect the target-indication FDA nonapproval classification."
+  }
+]

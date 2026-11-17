@@ -1,0 +1,2094 @@
+{
+  "integrated_id": "systemic:sys_a5e742ea1e70",
+  "asset": "AG-946",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=AG-946+OR+tebapivat",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06924970",
+            "orgStudyIdInfo": {
+              "id": "AG946-C-003"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-519746-70-01",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Dose-Finding Study of Tebapivat to Assess Efficacy, and Safety in Participants With Sickle Cell Disease (SCD)",
+            "officialTitle": "A Phase 2, Double-blind, Randomized, Placebo-Controlled, Multicenter, Dose- Finding, Efficacy, and Safety Study of Tebapivat in Participants With Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-05-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-05-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2027-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-04-10",
+            "studyFirstSubmitQcDate": "2025-04-10",
+            "studyFirstPostDateStruct": {
+              "date": "2025-04-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to compare the effect of tebapivat versus placebo on anemia and to detect a dose-response for hemoglobin (Hb) response in participants with SCD."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 59,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Tebapivat 2.5 milligrams (mg)",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 2.5 mg tebapivat orally, once daily (QD) for 12-weeks in the double-blind (DB) period. Participants who complete the DB Period will be eligible to receive the same dose in the Open-Label Extension (OLE) period for up to 52 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Tebapivat 5.0 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 5.0 mg tebapivat orally, QD, for 12-weeks in the DB period. Participants who complete the DB Period will be eligible to receive the same dose in the OLE period for up to 52 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Tebapivat 7.5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 7.5 mg tebapivat orally, QD, for 12-weeks in the DB period. Participants who complete the DB Period will be eligible to receive the same dose in the OLE period for up to 52 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Tebapivat Matched Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will receive a matched placebo, orally, QD, for 12-weeks in the DB period. Participants who complete the DB Period will be randomized in 1:1:1 to receive tebapivat 2.5 mg QD, tebapivat 5.0 mg QD, or tebapivat 7.5 mg QD in the OLE period for up to 52 weeks",
+                "interventionNames": [
+                  "Drug: Tebapivat",
+                  "Drug: Tebapivat Matched Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Tebapivat",
+                "description": "Oral tablets.",
+                "armGroupLabels": [
+                  "Tebapivat 2.5 milligrams (mg)",
+                  "Tebapivat 5.0 mg",
+                  "Tebapivat 7.5 mg",
+                  "Tebapivat Matched Placebo"
+                ],
+                "otherNames": [
+                  "AG-946"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Tebapivat Matched Placebo",
+                "description": "Oral tablets.",
+                "armGroupLabels": [
+                  "Tebapivat Matched Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Participants With Hb Response",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                "timeFrame": "Up to Week 72"
+              },
+              {
+                "measure": "Average Change From Baseline in Hb Concentration",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Indirect Bilirubin",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Lactate Dehydrogenase (LDH)",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Absolute Reticulocyte Count",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Percent Reticulocytes",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Erythropoietin",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Patient Reported Outcomes Measurement Information System\u00ae (PROMIS) Fatigue 13a Short Form Score",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in PROMIS Pain Intensity 1a Score",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Average Change From Baseline in Adult Sickle Cell Quality of Life Measurement Information System (ASCQ-Me) Pain Impact Score",
+                "timeFrame": "Baseline, Week 10 through Week 12"
+              },
+              {
+                "measure": "Plasma Concentration of Tebapivat",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              },
+              {
+                "measure": "Maximum (Peak) Concentration (Cmax) of Tebapivat",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              },
+              {
+                "measure": "Time to Cmax (tmax) of Tebapivat",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              },
+              {
+                "measure": "Area Under the Concentration-time Curve From Time Zero to the Time of Last Quantifiable Concentration (AUC0-t) of Tebapivat",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              },
+              {
+                "measure": "Whole Blood Concentrations of 2,3-Diphosphoglycerate (2,3-DPG)",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              },
+              {
+                "measure": "Whole Blood Concentrations of Adenosine Triphosphate (ATP)",
+                "timeFrame": "Pre-dose and at multiple timepoints post-dose up to Week 8"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Documented diagnosis of SCD (HbSS, HbSC \\[combined heterozygosity for hemoglobins S and C\\], sickle hemoglobin \\[HbS\\]/\u03b20-thalassemia, HbS/\u03b2+-thalassemia, or other sickle cell syndrome variants).\n* Hemoglobin \u22655.5 and \u226410.5 grams per decilitre (g/dL). Hemoglobin concentration must be based on an average of at least 2 Hb concentration measurements (separated by \u22657 days) collected during the screening period.\n* If taking hydroxyurea, the hydroxyurea dose must be stable for at least 90 days before randomization. Discontinuation of hydroxyurea requires a 90-day washout before providing informed consent.\n\nKey Exclusion Criteria:\n\n* Receiving regularly scheduled red blood cell (RBC) transfusion therapy (also termed chronic, prophylactic, or preventative transfusion); episodic transfusion in response to worsened anemia or vaso-occlusive crisis (VOC) is permitted. Additionally, a participant who requires episodic transfusion(s) may not have received a transfusion(s) within 60 days before providing informed consent or during the screening period.\n* \\>10 sickle cell pain crisis (SCPCs) in the 12 months before providing informed consent.\n* Receiving anabolic steroids that have not been stopped for at least 4 weeks before randomization. Testosterone replacement therapy to treat hypogonadism is allowed; the testosterone dose and preparation must be stable for \u226510 weeks before randomization.\n* Hospitalized for an SCPC and/or other vaso-occlusive event within 14 days before providing informed consent or within 14 days before randomization. If an SCPC occurs during the screening period, the screening period may be extended with Medical Monitor approval.\n* Receiving treatment with voxelotor, crizanlizumab, or L-glutamine within 90 days before randomization.\n* Platelet count \\<lower limit of normal (LLN) for the local laboratory or \\<150\u00d7109/liter (L) (whichever is lower) during screening. Platelet transfusions received within 28 days before consent or during screening.\n* Receiving treatment with hematopoietic stimulating agents within 90 days before randomization.\n* Prior exposure to gene therapy or prior bone marrow or stem cell transplantation, including any conditioning regimen.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "16 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "UConn Health",
+                "city": "Farmington",
+                "state": "Connecticut",
+                "zip": "06030-0001",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.71982,
+                  "lon": -72.83204
+                }
+              },
+              {
+                "facility": "MedStar Washington Hospital Center",
+                "city": "Washington D.C.",
+                "state": "District of Columbia",
+                "zip": "20010",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.89511,
+                  "lon": -77.03637
+                }
+              },
+              {
+                "facility": "Emory-Children's Center/ Children's Healthcare of Atlanta: Arthur M. Blank Hospital",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30322",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Henry Ford Health System",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "Children's Hospital of Michigan",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48304",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "Icahn School of Medicine at Mt. Sinai",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10029",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "University of Pittsburgh Medical Center",
+                "city": "Pittsburgh",
+                "state": "Pennsylvania",
+                "zip": "15232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                }
+              },
+              {
+                "facility": "Prisma Health Cancer Institute - Farris Road",
+                "city": "Greenville",
+                "state": "South Carolina",
+                "zip": "29605",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.85262,
+                  "lon": -82.39401
+                }
+              },
+              {
+                "facility": "University of Texas Health Science Center of Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Fred Hutchinson Cancer Center, University of Washington",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "facility": "CHR de la Citadelle",
+                "city": "Li\u00e8ge",
+                "state": "Wallonne",
+                "zip": "4000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.63373,
+                  "lon": 5.56749
+                }
+              },
+              {
+                "facility": "CHU Montreal",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X 3E4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "H\u00f4pital Edouard Herriot, CHU de Lyon",
+                "city": "Lyon",
+                "state": "Auvergne-Rh\u00f4ne-Alpes",
+                "zip": "69003",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 45.74906,
+                  "lon": 4.84789
+                }
+              },
+              {
+                "facility": "Institut Universitaire du Cancer de Toulouse - Oncopole",
+                "city": "Toulouse",
+                "state": "Midi Pyrenees",
+                "zip": "31059",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.60426,
+                  "lon": 1.44367
+                }
+              },
+              {
+                "facility": "CHU H\u00f4pital Henri Mondor",
+                "city": "Cr\u00e9teil",
+                "state": "\u00cele-de-France Region",
+                "zip": "94010",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.79266,
+                  "lon": 2.46569
+                }
+              },
+              {
+                "facility": "St. James Hospital",
+                "city": "Dublin",
+                "state": "Leinster",
+                "zip": "D08 A978",
+                "country": "Ireland",
+                "geoPoint": {
+                  "lat": 53.33306,
+                  "lon": -6.24889
+                }
+              },
+              {
+                "facility": "Amsterdam Universitair Medisch Centrum, Locatie AMC",
+                "city": "Amsterdam",
+                "state": "North Holland",
+                "zip": "1105AZ",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.37403,
+                  "lon": 4.88969
+                }
+              },
+              {
+                "facility": "Erasmus MC",
+                "city": "Rotterdam",
+                "state": "South Holland",
+                "zip": "3015 GD",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.9225,
+                  "lon": 4.47917
+                }
+              },
+              {
+                "facility": "Universitair Medisch Centrum Utrecht",
+                "city": "Utrecht",
+                "zip": "3584 CX",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "University College London",
+                "city": "London",
+                "zip": "WC1E 6BT",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05490446",
+            "orgStudyIdInfo": {
+              "id": "AG946-C-002"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2022-500609-42-00",
+                "type": "OTHER",
+                "domain": "EU-CTR"
+              }
+            ],
+            "organization": {
+              "fullName": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of Tebapivat (AG-946) in Participants With Anemia Due to Lower-Risk Myelodysplastic Syndromes (LR-MDS)",
+            "officialTitle": "A Phase 2a/2b, Open-label, Proof of Concept (Phase 2a) and Open-label (Phase 2b), Multicenter, Efficacy, and Safety Study of AG-946 in Participants With Anemia Due to Lower-Risk Myelodysplastic Syndromes"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-11-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-03-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2029-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-26",
+            "studyFirstSubmitQcDate": "2022-08-04",
+            "studyFirstPostDateStruct": {
+              "date": "2022-08-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-25",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This purpose of this study is to establish proof of concept of tebapivat in participants with LR-MDS in Phase 2a and to evaluate the effect of tebapivat on transfusion independence (TI) in participants with LR-MDS in phase 2b."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Myelodysplastic Syndromes"
+            ],
+            "keywords": [
+              "Anemia",
+              "Lower-Risk Myelodysplastic Syndromes"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 87,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Core Period: Phase 2a - Tebapivat 5 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 5 milligrams (mg) tebapivat orally, once daily for up to 16 weeks. At the discretion of the investigator, participants who complete the Core Period will be eligible to receive the same dose in Extension Period for up to 156 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Core Period: Phase 2b - Tebapivat 10 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 10 mg tebapivat, orally, once daily for up to 24 weeks. At the discretion of the investigator, participants who complete the Core Period will be eligible to receive the same dose in Extension Period for up to 156 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Core Period: Phase 2b - Tebapivat 15 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 15 mg tebapivat, orally, once daily for up to 24 weeks. At the discretion of the investigator, participants who complete the Core Period will be eligible to receive the same dose in Extension Period for up to 156 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              },
+              {
+                "label": "Core Period: Phase 2b - Tebapivat 20 mg",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive 20 mg tebapivat, orally, once daily for up to 24 weeks. At the discretion of the investigator, participants who complete the Core Period will be eligible to receive the same dose in Extension Period for up to 156 weeks.",
+                "interventionNames": [
+                  "Drug: Tebapivat"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Tebapivat",
+                "description": "Tebapivat Tablet",
+                "armGroupLabels": [
+                  "Core Period: Phase 2a - Tebapivat 5 mg",
+                  "Core Period: Phase 2b - Tebapivat 10 mg",
+                  "Core Period: Phase 2b - Tebapivat 15 mg",
+                  "Core Period: Phase 2b - Tebapivat 20 mg"
+                ],
+                "otherNames": [
+                  "AG-946"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Phase 2a: Proportion of Participants With Hemoglobin (Hb) Response",
+                "description": "Hb response is defined as a \u22651.5-grams per deciliter (g/dL) increase from baseline in the average Hb concentration from Week 8 through Week 16.",
+                "timeFrame": "Baseline, Week 8 through Week 16"
+              },
+              {
+                "measure": "Phase 2a: Proportion of Participants With Transfusion Independence During the Core Period",
+                "description": "Transfusion Independence is defined as transfusion-free for \u22658 consecutive weeks during the Core Period (participants With Low Transfusion Burden \\[LTB\\] only).",
+                "timeFrame": "Up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants With Transfusion Independence",
+                "description": "Transfusion independence, defined as transfusion-free for \u22658 consecutive weeks (TI8) during the Core Period.",
+                "timeFrame": "Up to 24 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Phase 2a: Proportion of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), and AEs Leading to Discontinuation During the Core Period",
+                "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product that does not necessarily have a causal relationship with this treatment. An SAE is any AE or suspected adverse reaction that results in death, is immediately life-threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, results in congenital anomaly/birth defect, or is considered an important medical event.",
+                "timeFrame": "Up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2a: Proportion of Participants With Laboratory Abnormalities During the Core Period",
+                "timeFrame": "Up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2a: Proportion of Participants With Hb 1.0+ Response",
+                "description": "Hb 1.0+ response is defined as a \u22651.0-g/dL increase from baseline in the average Hb concentration from Week 8 through Week 16",
+                "timeFrame": "Baseline, Week 8 through Week 16"
+              },
+              {
+                "measure": "Phase 2a: Change From Baseline in Hb Concentration During the Core Period",
+                "timeFrame": "Baseline up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2a: Proportion of Participants With \u22651.5-g/dL increase From Baseline in the Hb Concentration at \u22652 Consecutive Time Points From Week 8 through Week 16",
+                "timeFrame": "Baseline, Week 8 through Week 16"
+              },
+              {
+                "measure": "Phase 2a: Change from Baseline in Total Transfused Red Blood Cell (RBC) Units During the Core Period",
+                "timeFrame": "Baseline up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2a: Proportion of Participants With \u226550% Reduction in Total Transfused RBC Units for \u22658 Consecutive Weeks During the Core Period Compared With Baseline",
+                "timeFrame": "Baseline up to 16 weeks"
+              },
+              {
+                "measure": "Phase 2a: Plasma Concentration of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Maximum (Peak) Concentration (Cmax) of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Time to Cmax (tmax) of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Area Under the Concentration-time Curve From 0 to t Hours (AUC0-t) of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Area Under the Concentration-time Curve From 0 to the End of the Dosing Interval (AUC0-\u03c4) of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Apparent Terminal Elimination Half-life (t\u00bd) of Tebapivat During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Whole Blood Concentrations of 2,3-diphosphoglycerate (2,3-DPG) During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2a: Whole Blood Concentrations of Adenosine Triphosphate (ATP) During the Core Period",
+                "timeFrame": "Day 1 and Week 8 (\u226460 minutes predose and 0.5, 1, 2, 3, 4, 6, and 8 hours postdose) and at Weeks 2, 4, 12, and 16 (\u226460 minutes predose)"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), and AEs Leading to Discontinuation During the Core Period",
+                "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product that does not necessarily have a causal relationship with this treatment. An SAE is any AE or suspected adverse reaction that results in death, is immediately life-threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, results in congenital anomaly/birth defect, or is considered an important medical event.",
+                "timeFrame": "Up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants With Laboratory Abnormalities During the Core Period",
+                "timeFrame": "Up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Change From Baseline in Hb Concentration During the Core Period",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Change From Baseline in Total Transfused RBC Units From Week 8 Through Week 24",
+                "timeFrame": "Baseline, Week 8 through Week 24"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants With \u226550% Reduction in Total Transfused RBC Units for \u22658 Consecutive Weeks During the Core Period Compared With Baseline",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Time to First TI8 During the Core Period",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants Who Become Transfusion-free for \u226512 Consecutive Weeks (TI12) During the Core Period",
+                "timeFrame": "Up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Proportion of Participants With \u226550% Reduction in Total Transfused RBC Units for \u226512 Consecutive Weeks During the Core Period Compared With Baseline",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Time to First TI12 During the Core Period",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Duration of Transfusion Independence (TI)",
+                "description": "The duration of TI will be calculated as the number of days in the longest transfusion-free period starting on or after the start of study treatment through the end of the Core Period.",
+                "timeFrame": "Baseline up to 24 weeks"
+              },
+              {
+                "measure": "Phase 2b: Plasma Concentration of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Maximum (Peak) Concentration (Cmax) of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Time to Cmax (tmax) of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Area Under the Concentration-time Curve From 0 to t Hours (AUC0-t) of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Area Under the Concentration-time Curve From 0 to the End of the Dosing Interval (AUC0-\u03c4) of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Apparent Terminal Elimination Half-life (t\u00bd) of Tebapivat During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Whole Blood Concentrations of 2,3-diphosphoglycerate (2,3-DPG) During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              },
+              {
+                "measure": "Phase 2b: Whole Blood Concentrations of Adenosine Triphosphate (ATP) During the Core Period",
+                "timeFrame": "Predose and multiple time points post dose from Day 1 up to Week 20"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPhase 2a\n\n1. At least 18 years of age at the time of providing informed consent;\n2. Documented diagnosis of myelodysplastic syndromes (MDS) according to World Health Organization (WHO) classification (Arber et al, 2016), that meets Revised International Prognostic Scoring System (IPSS-R) classification of lower-risk disease (risk score: \u22643.5) and \\<5% blasts as determined by the participant's bone marrow biopsy/aspirate during the Screening Period;\n3. Nontransfused or with low transfusion burden (LTB), based on transfusion history from the participant's medical record, according to revised International Working Group (IWG) 2018 criteria:\n\n   * Nontransfused (NTD): \\<3 red blood cell (RBC) units in the 16-week period before administration of the first dose of study drug and no transfusions in the 8-week period before administration of the first dose of study drug, or\n   * LTB: 3 to 7 RBC units in the 16-week period before administration of the first dose of study drug and \\<4 RBC units in the 8-week period before administration of the first dose of study drug;\n4. A hemoglobin (Hb) concentration \\<11.0 grams per deciliter (g/dL) during the 4-week Screening Period;\n5. Eastern Cooperative Oncology Group (ECOG) Performance Status score of 0, 1, or 2;\n6. If taking iron chelation therapy, the iron chelation therapy dose must have been stable and started \u226556 days before administration of the first dose of study drug;\n7. Women of childbearing potential (WOCBP) must be abstinent of sexual activities that may result in pregnancy as part of their usual lifestyle or agree to use a highly effective method of contraception from the time of providing informed consent, throughout the study, and for 28 days after the last dose of study drug; if the highly effective method of contraception is hormonal contraception, then an acceptable barrier method must also be used. Men with partners who are WOCBP must be abstinent of sexual activities that may result in pregnancy as part of their usual lifestyle or agree to use a condom from the time of providing informed consent throughout the study and for 28 days after the last dose of study drug;\n8. Written informed consent from the participant before any study-related procedures are conducted and willing to comply with all study procedures for the duration of the study.\n\nPhase 2b\n\n1. At least 18 years of age at the time of providing informed consent;\n2. Documented diagnosis of MDS according to WHO classification (Arber et al, 2016), that meets IPSS-R classification of lower-risk disease (risk score: \u22643.5) and \\<5% blasts as determined by the participant's bone marrow biopsy/aspirate during the Screening Period;\n3. With LTB, or high transfusion burden (HTB), based on transfusion history from the participant's medical record, according to revised IWG 2018 criteria:\n\n   1. LTB: 3 to 7 RBC units from at least 2 transfusion episodes in the 16-week period before administration of the first dose of study drug AND \\<4 RBC units in the 8-week period before administration of the first dose of study drug, or\n   2. HTB: \u22658 RBC units in the 16-week period before administration of the first dose of study drug AND \u22654 RBC units in the 8-week period before administration of the first dose of study drug\n\n   If a participant's transfusion burden does not fall into either the LTB or HTB category, as defined per IWG 2018 criteria, then the transfusion burden will be categorized based on their transfusion history in the 16-week period before administration of the first dose of study drug.\n4. Pretransfusion Hb concentration available for a minimum of 2 and at least half (50%) of the transfusions received in the 16-week period before administration of the first dose of study drug\n5. A Hb concentration \\<10.0 g/dL during the 4-week Screening Period;\n6. Up to 2 prior therapies including erythropoiesis-stimulating agents (ESAs) (eg, erythropoietin \\[EPO\\], EPO + granulocyte colony-stimulating factor \\[G-CSF\\]) and/or luspatercept;\n7. ECOG Performance Status score of 0, 1, or 2;\n8. If taking iron chelation therapy, the iron chelation therapy dose must have been stable and started \u226556 days before administration of the first dose of study drug;\n9. WOCBP must be abstinent of sexual activities that may result in pregnancy as part of their usual lifestyle or agree to use a highly effective, from the time of providing informed consent throughout the study and for 28 days after the last dose of study drug; if the highly effective method of contraception is hormonal contraception, then an acceptable barrier method must be used. Men with partners who are WOCBP must be abstinent of sexual activities that may result in pregnancy as part of their usual lifestyle or agree to use a condom from the time of providing informed consent throughout the study and for 28 days after the last dose of study drug;\n10. Written informed consent from the participant before any study-related procedures are conducted and willing to comply with all study procedures for the duration of the study.\n\nExclusion Criteria:\n\nPhase 2a\n\n1. Known history of acute myeloid leukemia (AML);\n2. Secondary MDS, defined as MDS that is known to have arisen as a result of chemical injury or treatment with chemotherapy and/or radiation for other diseases;\n3. Prior exposure to a pyruvate kinase activator and/or disease-modifying agents for underlying MDS:\n\n   * Immunomodulatory drugs (IMiDs) such as lenalidomide; at the Investigator's discretion and in consultation with the Medical Monitor, participants who received \u22641 week of treatment with IMiDs may not be excluded, provided their last dose was \u22658 weeks before administration of the first dose of study drug\n   * Hypomethylating agents (HMAs); at the Investigator's discretion and in consultation with the Medical Monitor, participants who received \u22642 doses of HMAs may not be excluded, provided that their last dose was \u22658 weeks before administration of the first dose of study drug\n   * Isocitrate dehydrogenase (IDH) inhibitors\n   * Immunosuppressive therapy (IST)\n   * Allogeneic or autologous stem cell transplant;\n4. Currently receiving treatment with ESAs\u00b1G-CSF and/or luspatercept. Treatment with ESAs\u00b1G-CSF must have been stopped for \u226528 days before administration of the first dose of study drug; treatment with luspatercept must have been stopped for \u226565 days before administration of the first dose of study drug;\n5. History of active and/or uncontrolled cardiac or pulmonary disease within 6 months before providing informed consent, including but not limited to:\n\n   * New York Heart Association Class III or IV heart failure or clinically significant dysrhythmia\n   * Myocardial infarction, unstable angina pectoris, or unstable hypertension; high risk thrombosis; hemorrhagic, embolic, or thrombotic stroke; deep venous thrombosis; or pulmonary or arterial embolism\n   * Heart rate-corrected QT interval using Fridericia's method of \u2265470 milliseconds for female participants and \u2265450 milliseconds for male participants, except for right or left bundle branch block\n   * Severe pulmonary fibrosis as defined by severe hypoxia, evidence of right-sided heart failure, and radiographic pulmonary fibrosis \\>50%\n   * Severe pulmonary hypertension as defined by severe symptoms associated with hypoxia, right-sided heart failure, and oxygen indicated;\n6. History of hepatobiliary disorders, as defined by:\n\n   * Serum aspartate aminotransferase (AST) \\>2.5 \u00d7 upper limit of normal (ULN) (unless due to hemolysis and/or hepatic iron deposition) and alanine aminotransferase (ALT) \\>2.5 \u00d7 ULN (unless due to hepatic iron deposition)\n   * Serum bilirubin \\>ULN, if the elevation is associated with clinically symptomatic choledocholithiasis, cholecystitis, biliary obstruction, or hepatocellular disease;\n7. Renal dysfunction, as defined by an estimated glomerular filtration rate (eGFR) \\<45 milliliters per minute (mL/min)/1.73 m\\^2;\n8. Active infection requiring systemic antimicrobial therapy at the time of providing informed consent. If antimicrobial therapy is required during the Screening Period, screening procedures should not be performed while antimicrobial therapy is being administered, and the last dose of antimicrobial therapy must be administered \u22657 days before administration of the first dose of study drug;\n9. Major surgery within 12 weeks before administration of the first dose of study drug. Participants must have completely recovered from any previous surgery before administration of the first dose of study drug;\n10. For any malignancy except MDS: History of malignancy (active or treated) \u22645 years before providing informed consent for nonmelanomatous skin cancer in situ, cervical carcinoma in situ, or breast carcinoma in situ;\n11. Positive test for hepatitis C virus (HCV) antibody (Ab) with evidence of active HCV infection, or positive test for hepatitis B surface antigen (HBsAg);\n12. Positive test for HIV-1 Ab or HIV-2 Ab;\n13. Absolute neutrophil count (ANC) \\<500/microliter (\u03bcL) (0.5 \u00d7 10\\^9/L);\n14. Platelet count \u226475,000/\u03bcL during Screening (75 \u00d7 10\\^9/L) platelet transfusions within 28 days before Screening or during Screening;\n15. Nonfasting triglyceride concentration \\>500 mg/dL;\n16. Receiving inhibitors of P-glycoprotein (P-gp) that have not been stopped for \u22655 days or a time frame equivalent to 5 half-lives (whichever is longer) before administration of the first dose of study drug;\n17. Current enrollment or past participation (within 4 weeks or a time frame equivalent to 5 half-lives of the investigational study drug before administration of the first dose of study drug or, whichever is longer) in any other clinical study involving an investigational treatment or device;\n18. Known allergy to tebapivat or its excipients;\n19. Pregnant or breastfeeding;\n20. Any medical, hematologic, psychological, or behavioral condition(s) or prior or current therapy that, in the opinion of the Investigator, may confer an unacceptable risk to participating in the study and/or could confound the interpretation of the study data. Also excluded are:\n\n    * Participants who are institutionalized by regulatory or court order;\n    * Participants with any condition(s) that could create undue influence (including but not limited to incarceration, involuntary psychiatric confinement, and financial or familial affiliation with the Investigator or Sponsor).\n\nPhase 2b\n\n1. Known history of AML;\n2. Secondary MDS, defined as MDS that is known to have arisen as a result of chemical injury or treatment with chemotherapy and/or radiation for other diseases;\n3. Prior exposure to a pyruvate kinase activator, including exposure to tebapivat in the Phase 2a part of this study, and/or disease-modifying agents for underlying MDS:\n\n   * Imetelstat; at the Investigator's discretion and in consultation with the Medical Monitor, participants who received \u22642 doses of imetelstat may not be excluded, provided that their last dose was \u22658 weeks before administration of the first dose of study drug\n   * IMiDs such as lenalidomide; at the Investigator's discretion and in consultation with the Medical Monitor, participants who received \u22641 week of treatment with IMiDs may not be excluded, provided their last dose was \u22658 weeks before administration of the first dose of study drug\n   * HMAs; at the Investigator's discretion and in consultation with the Medical Monitor, participants who received \u22642 doses of HMAs may not be excluded, provided that their last dose was \u22658 weeks before administration of the first dose of study drug\n   * IDH inhibitors\n   * IST\n   * Allogeneic or autologous stem cell transplant;\n4. Currently receiving treatment with ESAs\u00b1G-CSF and/or luspatercept. Treatment with ESAs\u00b1G-CSF must have been stopped for \u226528 days before administration of the first dose of study drug; treatment with luspatercept must have been stopped for \u226565 days before administration of the first dose of study drug;\n5. History of active and/or uncontrolled cardiac or pulmonary disease within 6 months before providing informed consent, including but not limited to:\n\n   * New York Heart Association Class III or IV heart failure or clinically significant dysrhythmia\n   * Myocardial infarction, unstable angina pectoris, or unstable hypertension; high risk thrombosis; hemorrhagic, embolic, or thrombotic stroke; deep venous thrombosis; or pulmonary or arterial embolism\n   * Heart rate-corrected QT interval using Fridericia's method of \u2265470 milliseconds for female participants and \u2265450 milliseconds for male participants, except for right or left bundle branch block\n   * Severe pulmonary fibrosis as defined by severe hypoxia, evidence of right-sided heart failure, and radiographic pulmonary fibrosis \\>50%\n   * Severe pulmonary hypertension as defined by severe symptoms associated with hypoxia, right-sided heart failure, and oxygen indicated\n6. History of hepatobiliary disorders, as defined by:\n\n   * Serum AST \\>2.5 \u00d7 ULN (unless due to hemolysis and/or hepatic iron deposition) and ALT \\>2.5 \u00d7 ULN (unless due to hepatic iron deposition)\n   * Serum bilirubin \\>ULN, if the elevation is associated with clinically symptomatic choledocholithiasis, cholecystitis, biliary obstruction, or hepatocellular disease\n7. Renal dysfunction, as defined by an eGFR \\<45 mL/min/1.73 m\\^2;\n8. Active infection requiring systemic antimicrobial therapy at the time of providing informed consent. If antimicrobial therapy is required during the Screening Period, screening procedures should not be performed while antimicrobial therapy is being administered, and the last dose of antimicrobial therapy must be administered \u22657 days before administration of the first dose of study drug;\n9. Major surgery within 12 weeks before administration of the first dose of study drug. Participants must have completely recovered from any previous surgery before administration of the first dose of study drug;\n10. For any malignancy except MDS: History of malignancy (active or treated) \u22645 years before providing informed consent, except for nonmelanomatous skin cancer in situ, cervical carcinoma in situ, or breast carcinoma in situ.;\n11. Positive test for HCV Ab with evidence of active HCV infection, or positive test for HBsAg;\n12. Positive test for HIV-1 Ab or HIV-2 Ab;\n13. ANC \\<500/\u03bcL (0.5 \u00d7 10\\^9/L);\n14. Platelet count \\< 75,000/\u03bcL (75 \u00d7 10\\^9 /L) during Screening; platelet transfusions within 28 days before Screening or during Screening;\n15. Nonfasting triglyceride concentration \\>500 mg/dL;\n16. Receiving inhibitors of P-gp that have not been stopped for \u22655 days or a time frame equivalent to 5 half-lives (whichever is longer) beforeadministration of the first dose of study drug;\n17. Current enrollment or past participation (within 4 weeks or a time frame equivalent to 5 half-lives of the investigational study drug before administration of the first dose of study drug or, whichever is longer) in any other clinical study involving an investigational treatment or device;\n18. Known allergy to tebapivat or its excipients;\n19. Pregnant or breastfeeding;\n20. Any medical, hematologic, psychological, or behavioral condition(s) or prior or current therapy that, in the opinion of the Investigator, may confer an unacceptable risk to participating in the study and/or could confound the interpretation of the study data. Also excluded are:\n\n    * Participants who are institutionalized by regulatory or court order\n    * Participants with any condition(s) that could create undue influence (including but not limited to incarceration, involuntary psychiatric confinement, and financial or familial affiliation with the Investigator or Sponsor).\n21. Known clinically significant anemia due to iron, vitamin B12, or folate deficiencies, autoimmune or hereditary hemolytic anemia, hypothyroidism, or any type of known clinically significant bleeding.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Medical Affairs",
+                "affiliation": "Agios Pharmaceuticals, Inc.",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Innovative Clinical Research Institute Whittier",
+                "city": "Lakewood",
+                "state": "California",
+                "zip": "90805",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.85363,
+                  "lon": -118.13396
+                }
+              },
+              {
+                "facility": "David Geffen School of Medicine at UCLA",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90024",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Emad Ibrahim, MD, Inc.",
+                "city": "Redlands",
+                "state": "California",
+                "zip": "92373",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05557,
+                  "lon": -117.18254
+                }
+              },
+              {
+                "facility": "Smilow Cancer Hospital at Yale New Haven",
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06510",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "facility": "Mayo Clinic Jacksonville - PPDS",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32224",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Edward H. Kaplan MD & Associates",
+                "city": "Skokie",
+                "state": "Illinois",
+                "zip": "60076",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.03336,
+                  "lon": -87.73339
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Memorial Sloan Kettering Cancer Center",
+                "city": "Long Island City",
+                "state": "New York",
+                "zip": "11101",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.74482,
+                  "lon": -73.94875
+                }
+              },
+              {
+                "facility": "Duke Adult Blood and Marrow Clinic",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27705",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              },
+              {
+                "facility": "Monash Health, Monash Medical Centre",
+                "city": "Clayton",
+                "state": "Victoria",
+                "zip": "3168",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              },
+              {
+                "facility": "Ordensklinikum Linz GmbH Elisabethinen",
+                "city": "Linz",
+                "state": "Upper Austria",
+                "zip": "4020",
+                "country": "Austria",
+                "geoPoint": {
+                  "lat": 48.30639,
+                  "lon": 14.28611
+                }
+              },
+              {
+                "facility": "Fakultni nemocnice Ostrava",
+                "city": "Ostrava",
+                "zip": "708 52",
+                "country": "Czechia",
+                "geoPoint": {
+                  "lat": 49.83465,
+                  "lon": 18.28204
+                }
+              },
+              {
+                "facility": "H\u00f4pital de La Conception",
+                "city": "Marseille",
+                "state": "Bouches-du-Rh\u00f4ne",
+                "zip": "13010",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "CHU Angers",
+                "city": "Angers",
+                "state": "Maine-et-Loire",
+                "zip": "49933",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.47156,
+                  "lon": -0.55202
+                }
+              },
+              {
+                "facility": "CHRU Lille",
+                "city": "Lille",
+                "zip": "59037",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 50.63391,
+                  "lon": 3.05512
+                }
+              },
+              {
+                "facility": "H\u00f4pital Saint Louis",
+                "city": "Paris",
+                "zip": "75475",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Medizinische Hochschule Hannover",
+                "city": "Hanover",
+                "state": "Lower Saxony",
+                "zip": "30625",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.37052,
+                  "lon": 9.73322
+                }
+              },
+              {
+                "facility": "Universitatsklinikum Dusseldorf",
+                "city": "D\u00fcsseldorf",
+                "state": "North Rhine-Westphalia",
+                "zip": "40225",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.22319,
+                  "lon": 6.77927
+                }
+              },
+              {
+                "facility": "Universitatsklinikum Leipzig",
+                "city": "Leipzig",
+                "state": "Saxony",
+                "zip": "04103",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "University Hospital of Alexandroupolis",
+                "city": "Alexandroupoli",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 40.84995,
+                  "lon": 25.87644
+                }
+              },
+              {
+                "facility": "Attikon University General Hospital",
+                "city": "Athens",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 37.98376,
+                  "lon": 23.72784
+                }
+              },
+              {
+                "facility": "University General Hospital of Patras",
+                "city": "P\u00e1trai",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 38.2462,
+                  "lon": 21.73508
+                }
+              },
+              {
+                "facility": "Hippokration Hospital",
+                "city": "Thessaloniki",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 40.64072,
+                  "lon": 22.93493
+                }
+              },
+              {
+                "facility": "Shaare Zedek Medical Center",
+                "city": "Jerusalem",
+                "zip": "9103102",
+                "country": "Israel",
+                "geoPoint": {
+                  "lat": 31.76904,
+                  "lon": 35.21633
+                }
+              },
+              {
+                "facility": "Tel Aviv Sourasky Medical Center PPDS",
+                "city": "Tel Aviv",
+                "country": "Israel",
+                "geoPoint": {
+                  "lat": 32.08088,
+                  "lon": 34.78057
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS C\u00e0 Granda Ospedale Maggiore Policlinico",
+                "city": "Milan",
+                "state": "Lombardy",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS Policlinico San Matteo di Pavia",
+                "city": "Pavia",
+                "state": "Lombardy",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.19205,
+                  "lon": 9.15917
+                }
+              },
+              {
+                "facility": "Istituto Clinico Humanitas",
+                "city": "Rozzano",
+                "state": "Lombardy",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.38193,
+                  "lon": 9.1559
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Ordine Mauriziano di Torino",
+                "city": "Turin",
+                "state": "Piedmont",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.07049,
+                  "lon": 7.68682
+                }
+              },
+              {
+                "facility": "Fondazione PTV Policlinico Tor Vergata",
+                "city": "Roma",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "MTZ Clinical Research Powered by PRATIA - PPDS",
+                "city": "Warsaw",
+                "state": "Masovian Voivodeship",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Pratia Onkologia Katowice - PRATIA - PPDS",
+                "city": "Katowice",
+                "state": "Silesian Voivodeship",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 50.2597,
+                  "lon": 19.02173
+                }
+              },
+              {
+                "facility": "SPZOZ MiSWiA z Warminsko-Mazurskim Centrum Onkologii w Olsztynie",
+                "city": "Olsztyn",
+                "state": "Warmian-Masurian Voivodeship",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 53.78376,
+                  "lon": 20.49272
+                }
+              },
+              {
+                "facility": "Kyungpook National University Hospital",
+                "city": "Daegu",
+                "zip": "41944",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 35.87102,
+                  "lon": 128.60121
+                }
+              },
+              {
+                "facility": "Asan Medical Center - PPDS",
+                "city": "Seoul",
+                "zip": "05505",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "The Catholic University of Korea, Seoul St. Mary's Hospital",
+                "city": "Seoul",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "C.H. Regional Reina Sofia - PPDS",
+                "city": "C\u00f3rdoba",
+                "zip": "14004",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.89155,
+                  "lon": -4.77275
+                }
+              },
+              {
+                "facility": "Hospital Universitario La Paz - PPDS",
+                "city": "Madrid",
+                "zip": "28046",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario HM Sanchinarro - CIOCC",
+                "city": "Madrid",
+                "zip": "28050",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Complejo Asistencial Universitario de Salamanca - H. Clinico",
+                "city": "Salamanca",
+                "zip": "37007",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.96882,
+                  "lon": -5.66388
+                }
+              },
+              {
+                "facility": "Hospital Universitario Virgen del Rocio - PPDS",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "Aberdeen Royal Infirmary - PPDS",
+                "city": "Aberdeen",
+                "state": "Aberdeen City",
+                "zip": "AB25 2ZN",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 57.14369,
+                  "lon": -2.09814
+                }
+              },
+              {
+                "facility": "Western General Hospital Edinburgh - PPDS",
+                "city": "Edinburgh",
+                "zip": "EH24 2XU",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.95206,
+                  "lon": -3.19648
+                }
+              },
+              {
+                "facility": "Kings College Hospital",
+                "city": "London",
+                "zip": "SE5 9RS",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Churchill Hospital-NHS Oxford",
+                "city": "Oxford",
+                "zip": "OX3 7LE",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009190",
+                "term": "Myelodysplastic Syndromes"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001855",
+                "term": "Bone Marrow Diseases"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06745271",
+            "orgStudyIdInfo": {
+              "id": "AG946-C-004"
+            },
+            "organization": {
+              "fullName": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Determine How Tebapivat is Absorbed, Broken Down, and Removed From the Body and the Extent to Which Tebapivat is Made Available in the Body in Healthy Participants",
+            "officialTitle": "A Phase I, Open-label Study to Evaluate the Absorption, Metabolism, and Excretion and to Assess the Absolute Bioavailability Following a Single Oral Dose of [14C]-Tebapivat and Concomitant Single Intravenous Microdose of [13C2,15N3]-Tebapivat to Healthy Male Participants"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-20",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-02-21",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-02-21",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-12-17",
+            "studyFirstSubmitQcDate": "2024-12-17",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-20",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-03-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-03-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary purpose of this study is to determine the routes, rates of elimination, mass balance of total radioactivity and metabolite profiles following a single oral dose of \\[14C\\]-tebapivat. To characterize the PK of tebapivat and \\[13C2,15N3\\]-tebapivat and determine the absolute bioavailability following single oral dose of \\[14C\\]-tebapivat relative to single intravenous microdose of \\[13C2,15N3\\]-tebapivat to healthy male participants."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Participants"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "[14C]-tebapivat and [13C2,15N3]-tebapivat",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive a single oral dose of 10 milligrams (mg) \\[14C\\]-tebapivat containing 200 microcurie \\[\u03bcCi\\] of radiocarbon in a capsule followed by a single intravenous (IV) microdose of 0.1 mg \\[13C2,15N3\\]-tebapivat on Day 1.",
+                "interventionNames": [
+                  "Drug: [14C]-tebapivat",
+                  "Drug: [13C2,15N3]-tebapivat"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "[14C]-tebapivat",
+                "description": "Oral Capsule",
+                "armGroupLabels": [
+                  "[14C]-tebapivat and [13C2,15N3]-tebapivat"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "[13C2,15N3]-tebapivat",
+                "description": "Intravenous Solution",
+                "armGroupLabels": [
+                  "[14C]-tebapivat and [13C2,15N3]-tebapivat"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of Radioactive Dose Excreted in Urine Over a Time Interval (feut1-t2) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Percentage of Radioactive Dose Excreted in Feces Over a Time Interval (fef t1-t2) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Cumulative Percentage of Radioactive Dose Excreted in Urine Over a Time Interval (Cum feut1-t2) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Cumulative Percentage of Radioactive Dose Excreted in Feces Over a Time Interval (Cum fef t1-t2) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Percentage of Total Radioactivity in Total Excreta (Feces + Urine) (Cum fe) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Amount of Drug Excreted in Urine (Aeu) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Cumulative Amount of Drug Excreted in Urine (Cum Aeu) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Renal Clearance (CLR) of [14C]-Tebapivat",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Area Under the Concentration-Time Curve (AUC) From Time 0 to 168 Hours Postdose (AUC0-168) in Plasma for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 7"
+              },
+              {
+                "measure": "AUC0-168 in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 7"
+              },
+              {
+                "measure": "AUC From Time 0 to the Time of the Last Quantifiable Concentration (AUC0-t) in Plasma for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "AUC0-t in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "AUC Extrapolated to Infinity (AUC0-inf) in Plasma for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "(AUC0-inf) in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Maximum Observed Plasma Concentration (Cmax) for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Cmax in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Time to Reach Cmax (Tmax) for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Tmax in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Terminal Elimination Half-Life (t1/2) in Plasma for [14C]-Tebapivat and [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "T1/2 in Plasma and Whole Blood for Total Radioactivity",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Ratio of AUC0-inf for Tebapivat to AUC0-inf for Total Radioactivity in Plasma",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Ratio of AUC0-inf for Total Radioactivity in Whole Blood to AUC0-inf for Total Radioactivity in Plasma",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Total Clearance Following IV Administration (CL) of [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Apparent Volume of Distribution During the Terminal Phase Following IV Administration (Vz) of [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Apparent Volume of Distribution at Steady State Following IV Administration (Vss) of [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Ratio of Dose-Normalized AUC0-inf of Oral Administration of [14C]-Tebapivat Relative to IV Administration of [13C2,15N3]-Tebapivat",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Quantitation of Major Metabolites of [14C]-Tebapivat in Plasma After Oral Administration",
+                "description": "Quantification of major metabolites of \\[14C\\]-tebapivat in plasma.",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Quantitation of Major Metabolites of [14C]-Tebapivat in Excreta After Oral Administration",
+                "description": "Quantification of major metabolites of \\[14C\\]-tebapivat in excreta.",
+                "timeFrame": "Up to Day 42"
+              },
+              {
+                "measure": "Identification of Chemical Structure of Major Metabolites of [14C]-Tebapivat in Plasma After Oral Administration",
+                "description": "Identification of the chemical structures of major metabolites of \\[14C\\]-tebapivat in plasma.",
+                "timeFrame": "Up to Day 21"
+              },
+              {
+                "measure": "Identification of Chemical Structure of Major Metabolites of [14C]-Tebapivat in Excreta After Oral Administration",
+                "description": "Identification of the chemical structures of major metabolites of \\[14C\\]-tebapivat in excreta.",
+                "timeFrame": "Up to Day 42"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Participants with Adverse Events (AEs) by Type, Severity, and Relationship to Study Drug",
+                "timeFrame": "Up to Day 28"
+              },
+              {
+                "measure": "Number of Participants With Clinically Significant Change From Baseline in Clinical Laboratory Assessments",
+                "timeFrame": "Baseline up to Day 28"
+              },
+              {
+                "measure": "Number of Participants With Clinically Significant Change From Baseline in Abnormal 12-Lead Electrocardiogram (ECG) Parameters",
+                "timeFrame": "Baseline up to Day 28"
+              },
+              {
+                "measure": "Number of Participants With Clinically Significant Change From Baseline in Abnormal Vital Signs Measurements",
+                "timeFrame": "Baseline up to Day 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male, of any race, between 18 and 55 years of age, inclusive.\n\n   a. Males must agree to use contraception.\n2. Body mass index between 18.0 and 30.0 kilograms per meter square (kg/m2), inclusive, and a body weight between 50 and 100 kilograms (kg), inclusive.\n3. In good health, as determined by no clinically significant findings from medical history, 12-lead ECG and vital signs measurements, and clinical laboratory evaluations (congenital nonhemolytic hyperbilirubinemia \\[e.g., suspicion of Gilbert's syndrome based on total and direct bilirubin\\] is not acceptable) at screening and check-in, and from the physical examination at check-in, as assessed by the investigator or designee.\n4. History of a minimum of 1 bowel movement per day.\n5. Able to comprehend and are willing to sign the informed consent form (ICF) and abide by the study restrictions.\n\nExclusion Criteria:\n\n1. Significant history or clinical manifestation of any metabolic, allergic, dermatological, hepatic, renal, hematological, pulmonary, cardiovascular, gastrointestinal, neurological, respiratory, endocrine, or psychiatric disorder, as determined by the investigator or designee.\n2. History of significant hypersensitivity, intolerance, or allergy to any drug compound, food, or other substance, as determined by the investigator or designee.\n3. History of stomach or intestinal surgery or resection that would potentially alter absorption and/or excretion of orally administered drugs (uncomplicated appendectomy and hernia repair are allowed; cholecystectomy is not allowed).\n4. Positive hepatitis panel and/or positive human immunodeficiency virus test. Participants whose results are compatible with prior immunization may be included.\n5. Administration of any vaccine within 30 days prior to dosing.\n6. Use or intend to use any medications/products known to alter drug absorption, metabolism, and excretion (AME) processes, including St. John's wort, within 30 days prior to dosing, considered to potentially impact participant safety or the objectives of the study, as determined by the investigator or designee.\n7. Use or intend to use any prescription medications/products within 14 days or 5 half-lives (whichever is longer) prior to dosing, considered to potentially impact participant safety or the objectives of the study, as determined by the investigator or designee.\n8. Use or intend to use any slow release medications/products considered to still be active within 14 days or 5 half-lives (whichever is longer) prior to dosing, considered to potentially impact participant safety or the objectives of the study, as determined by the investigator or designee.\n9. Use or intend to use any nonprescription medications/products including vitamins, minerals, and phytotherapeutic/herbal/plant-derived preparations within 7 days prior to dosing, considered to potentially impact participant safety or the objectives of the study, as determined by the investigator or designee.\n10. Participation in a clinical study involving administration of an IMP (new chemical entity) in the past 30 days or 5 half-lives of that drug (if known) prior to dosing, whichever is longer.\n11. Have previously completed or withdrawn from this study or any other study investigating tebapivat and have previously received tebapivat.\n12. Participants who have previously been dosed in \\>1 radiolabeled drug study in the last 12 months. For participants who have previously been dosed in 1 radiolabeled drug study within the last 12 months, the previous radiolabeled dose must be at least 6 months prior to check-in at the clinical research unit (CRU). The total 12 month exposure from this study and a maximum of 1 other previous radiolabeled study must be within the Code of Federal Regulations (CFR) recommended levels considered safe, per United States (US) Title 21 CFR 361.1.\n13. Alcohol consumption of \\>21 units per week. One unit of alcohol equals 12 ounces (oz) (360 milliliters (mL)) beer, 1\u00bd oz (45 mL) liquor, or 5 oz (150 mL) wine.\n14. Positive urine drug screen at screening or positive alcohol test result or positive urine drug screen at check-in.\n15. History of alcoholism or drug/chemical abuse within 2 years prior to check-in.\n16. Use of tobacco- or nicotine-containing products within 3 months prior to check-in, or positive cotinine at screening or check-in.\n17. Receipt of blood products within 2 months prior to check-in.\n18. Donation of blood from 3 months prior to screening, plasma from 2 weeks prior to screening, or platelets from 6 weeks prior to screening.\n19. Poor peripheral venous access.\n20. Participants with exposure to significant diagnostic or therapeutic radiation (e.g., serial X-ray, computed tomography scan, barium meal) or current employment in a job requiring radiation exposure monitoring within 12 months prior to check-in.\n21. Participants who, in the opinion of the investigator or designee, should not participate in this study.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "genderBased": true,
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Taha El-Shahat",
+                "city": "Madison",
+                "state": "Wisconsin",
+                "zip": "53704",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.07305,
+                  "lon": -89.40123
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04536792",
+            "orgStudyIdInfo": {
+              "id": "AG946-C-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2020-000691-38",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AG-946 in Healthy Volunteers and in Participants With Sickle Cell Disease",
+            "officialTitle": "A Phase 1 Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AG-946 in Healthy Volunteers and in Subjects With Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-07-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-12-19",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-12-19",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-07-15",
+            "studyFirstSubmitQcDate": "2020-08-27",
+            "studyFirstPostDateStruct": {
+              "date": "2020-09-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-04-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Agios Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of the study is to assess the safety and tolerability of AG-946 in healthy volunteers after oral administration of single ascending doses (SAD) and multiple ascending doses (MAD) of AG-946 over 14 or up to 28 days of dosing, and to identify a range of doses that are safe and pharmacologically active in participants with sickle cell disease. The SAD and MAD parts of the study will be randomized and double-blinded, and will assess the safety, pharmacokinetics (PK), and pharmacodynamics (PD) of AG-946 as well as the effect of food (SAD only) on the pharmacokinetics (PK) of AG-946. The sickle cell disease (SCD) part of the study will be non-randomized and open-label, and is designed to identify 1 or more safe and tolerable dose(s) of AG-946 with potential activity in the treatment of participants with sickle cell disease (SCD)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteers",
+              "Anemia, Sickle Cell"
+            ],
+            "keywords": [
+              "Sickle Cell Disease",
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 122,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1: Single Ascending Dose (SAD) Phase",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive a range of doses of AG-946 or placebo, orally, once on Day 1. AG-946 will be given under fasted or fed conditions.",
+                "interventionNames": [
+                  "Drug: AG-946",
+                  "Drug: AG-946 Matched Placebo"
+                ]
+              },
+              {
+                "label": "Part 2: Multiple Ascending Dose (MAD) Phase",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive a range of doses of AG-946 or placebo, orally, once daily (QD) for 14 days or using an alternative dosing regimen for up to 28 days under fasted conditions.",
+                "interventionNames": [
+                  "Drug: AG-946",
+                  "Drug: AG-946 Matched Placebo"
+                ]
+              },
+              {
+                "label": "Part 3: Sickle Cell Disease (SCD) Phase",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive a range of selected ascending doses of AG-946, orally, QD or using an alternative dosing regimen for 28 days.",
+                "interventionNames": [
+                  "Drug: AG-946"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "AG-946",
+                "description": "AG-946, oral encapsulated coated-granules or tablets.",
+                "armGroupLabels": [
+                  "Part 1: Single Ascending Dose (SAD) Phase",
+                  "Part 2: Multiple Ascending Dose (MAD) Phase",
+                  "Part 3: Sickle Cell Disease (SCD) Phase"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "AG-946 Matched Placebo",
+                "description": "AG-946 matched-placebo, oral encapsulated sugar spheres or tablets.",
+                "armGroupLabels": [
+                  "Part 1: Single Ascending Dose (SAD) Phase",
+                  "Part 2: Multiple Ascending Dose (MAD) Phase"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "SAD and MAD: Number of Participants Who Experienced at Least One Adverse Event (AE), by Severity",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49"
+              },
+              {
+                "measure": "SAD and MAD: Number of Participants Who Experienced at Least One AE Related to the Study Drug",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49"
+              },
+              {
+                "measure": "SAD and MAD: Number of Participants Who Experienced at Least One Serious Adverse Event (SAE)",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49"
+              },
+              {
+                "measure": "SAD and MAD: Number of Participants With Clinically Significant Laboratory Abnormalities, by Severity",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49"
+              },
+              {
+                "measure": "SAD and MAD: Number of Participants With Clinically Significant Changes in Vital Signs and in Electrocardiogram (ECG) Parameters",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49"
+              },
+              {
+                "measure": "SCD: Number of Participants Who Experienced at Least One AE, by Severity",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Number of Participants Who Experienced at Least One AE Related to the Study Drug",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Number of Participants Who Experienced at Least One SAE",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Number of Participants With Clinically Significant Laboratory Abnormalities, by Severity",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Number of Participants With Clinically Significant Changes in Vital Signs and in ECG Parameters",
+                "timeFrame": "Up to Day 56"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Observed Concentration (Cmax) of AG-946",
+                "description": "Cmax will be determined under fasted and fed conditions in SAD and under fasted conditions only in MAD and SCD.",
+                "timeFrame": "SAD: Up to Day 8; MAD: Up to Day 49; SCD: Up to Day 56"
+              },
+              {
+                "measure": "Time to Reach Maximum Observed Concentration (Tmax) of AG-946",
+                "description": "Tmax will be determined under fasted and fed conditions in SAD and under fasted conditions only in MAD and SCD.",
+                "timeFrame": "SAD: Up to Day 8; MAD: Up to Day 49; SCD: Up to Day 56"
+              },
+              {
+                "measure": "Area Under the Plasma Concentration-Time Curve from Time Zero to Last Quantifiable Concentration (AUC0-t), Time Curve from Time Zero to Infinity (AUC0-\u221e), and Time Curve from Time Zero to Time tau Over the Dosing Interval (AUC0-\u03c4) for AG-946",
+                "description": "AUC0-t, AUC0-\u221e, and AUC0-\u03c4 will be determined under fasted and fed conditions in SAD and under fasted conditions only in MAD and SCD.",
+                "timeFrame": "SAD: Up to Day 8; MAD: Up to Day 49; SCD: Up to Day 56"
+              },
+              {
+                "measure": "SAD: Apparent Clearance (CL/F) for AG-946",
+                "description": "CL/F will be determined under fasted and fed conditions.",
+                "timeFrame": "SAD: Up to Day 8"
+              },
+              {
+                "measure": "SAD: Apparent Volume of Distribution (Vd/F) for AG-946",
+                "description": "V/F will be determined under fasted and fed conditions.",
+                "timeFrame": "SAD: Up to Day 8"
+              },
+              {
+                "measure": "SAD: Total Amount of Drug Excreted in Urine from Time 0 to Time T (Aet) and from Time t1 to Time t2 (Aet1-t2) for AG-946 Under Fasted and Fed Conditions",
+                "timeFrame": "Up to Day 3"
+              },
+              {
+                "measure": "SAD: Percentage Dose of Drug Excreted in Urine from Time 0 to Time t (fet) and from Time t1 to Time t2 (fet1-t2) for AG-946 Under Fasted and Fed Conditions",
+                "timeFrame": "Up to Day 3"
+              },
+              {
+                "measure": "SAD: Renal Clearance (CLr) for AG-946 Under Fasted and Fed Conditions",
+                "timeFrame": "Up to Day 3"
+              },
+              {
+                "measure": "Changes in the Concentration of 2,3-diphosphoglycerate (2,3-DPG) and Adenosine Triphosphate (ATP) in Whole Blood",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49; SCD: Up to Day 56"
+              },
+              {
+                "measure": "Area Under the Effect Curve (AUEC) from Time zero to t for 2,3-DPG and ATP",
+                "timeFrame": "SAD: Up to Day 13; MAD: Up to Day 49; SCD: Up to Day 56"
+              },
+              {
+                "measure": "SAD: Relative Bioavailability Comparing Fasted to Fed Conditions Determined from the PK Parameters of AG-946",
+                "timeFrame": "SAD: Up to Day 8"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Hemoglobin (Hb)",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Direct Bilirubin",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Lactate Dehydrogenase (LDH)",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Haptoglobin",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Reticulocytes",
+                "timeFrame": "Up to Day 56"
+              },
+              {
+                "measure": "SCD: Change From Baseline in Erythropoietin",
+                "timeFrame": "Up to Day 56"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nSAD and MAD\n\n* Participant is a healthy male or a female of nonchildbearing potential aged 18 to 55 years inclusive at the time of consent;\n* Participant is able to understand and provide informed consent before the conduct of any protocol-specific screening procedures;\n* Participant is willing and able to complete all study assessments and procedures;\n* Participant has a bodyweight \u226550 kilograms (kg) and body mass index \u226518.5 and \u226432 kilograms per square meter (kg/m\\^2) at screening;\n* Participant is in good general health with no clinically significant deviations from normal in screening medical history, physical examination, vital signs, or electrocardiogram (ECGs);\n* Male participants must agree to be abstinent as part of their usual lifestyle or use contraception up to 90 days after last dose of study treatment;\n* Participant is a non-smoker and has not used nicotine-containing products for at least 3 months prior to screening;\n* Participant is willing to refrain from caffeine- or xanthene-containing products (eg, coffee, tea, cola, chocolate) for 48 hours before the first dose of study treatment through 7 days after the last dose of study treatment;\n* Participant is willing to refrain from marijuana- or cannabinol-containing products for 7 days before admission through the final visit;\n* Participant is willing to refrain from strenuous exercise starting 72 hours before admission through the final visit;\n* Participant is willing to refrain from use of alcohol starting 7 days prior to admission through final visit;\n* Participant agrees not to donate blood products for duration of study participation;\n* Male participants must agree not to donate sperm for duration of study and for 90 days after the last dose.\n\nExclusion Criteria:\n\nSAD and MAD\n\n* Participant has previously enrolled in this study or has received an investigational drug with 3 months or 5 half-lives of the drug, whichever is longer, before the first dose of study treatment;\n* Participant has previously received AG-946, except for participants who are dosing in the fed portion of the food-effect group;\n* Participant has a heart rate-corrected QT interval (QTc) interval using Fridericia correction method (QTcF) \\>450 milliseconds (ms) at screening;\n* Participant has used over-the-counter medication (excluding routine vitamins) within 7 days of the first dose of study treatment, unless agreed as not clinically relevant;\n* Participant has used acetaminophen greater than 2 grams (g) in any 24-hour period up to 48 hours before the first dose of study treatment;\n* Participants has clinically relevant screening laboratory tests results outside the normal range;\n* Participant has a history of any relevant cardiovascular, renal, hepatic, chronic respiratory, or gastrointestinal disease; or hematologic, lymphatic, neurologic, endocrine, psychiatric, musculoskeletal, genitourinary, immunologic, dermatologic, or connective tissue disease or disorders;\n* Participant has a history of serious mental illness, that includes, but is not limited to schizophrenia, bipolar disorder, or major depression;\n* Participant has a history of any primary malignancy, except for basal cell or squamous cell carcinomas of the skin or cervical carcinoma in situ or other malignancies that have been curatively treated and with no evidence of disease for at least 5 years before screening;\n* Participant has had surgery within 6 months before the first dose of study treatment;\n* Participant has a preexisting condition that interferes with normal gastrointestinal anatomy or motility, and/or hepatic and/or renal function that could interfere with the absorption, metabolism, and/or excretion of the study treatment or has previously undergone cholecystectomy;\n* Participant has systolic blood pressure (BP) \u2265140 mm Hg or a diastolic BP of \u226590 mm Hg after 10 minutes rest at screening or before the first dosing of study treatment;\n* Participant has medical or psychological condition deemed by the Investigator to be likely to interfere with the volunteer's ability to provide informed consent, cooperate, and/or participate in the study;\n* Participant has a known allergy to any of the excipients or components of the study treatment;\n* Participant tests positive for hepatitis B surface antigen (HBsAg), hepatitis C virus (HCV) antibody (Ab), or human immunodeficiency virus (HIV) infection -1 or -2 Ab;\n* Participant has donated blood, had blood loss of more than 500 milliliters (mL), or has received transfusion of blood or plasma within 3 months before screening;\n* Participant has a history of illicit drug abuse or alcoholism within the last 1 year before screening;\n* Participant has consumed more than 21 units of alcohol a week within the last 1 year before screening;\n* Participant has used prescription drugs within 2 weeks or 5 half-lives (whichever is longer) before the first dose of study treatment;\n* Participant has a positive screen for drugs of abuse or urinary cotinine \\>200 nanograms per milliliter (ng/mL) at screening or admission; or a positive screen for alcohol (via urine analysis) at admission;\n* Participant cannot communicate reliably with the Investigator;\n* Participant cannot or is unlikely to cooperate with the requirements of the study;\n* Participant has any conditions that, in the judgment of the Investigator, would make the volunteer unsuitable for enrollment or could interfere with the volunteer's participation in, or completion of, the study;\n* Participant has known glucose-6-phosphate dehydrogenase (G6PD) deficiency or G6PD activity below the lower limit of the normal range at the screening visit.\n\nInclusion Criteria:\n\nSCD\n\n* Participant is a male or female aged 18 to 70 years inclusive at the time of consent;\n* Participant has documented sickle cell anemia;\n* Provided informed consent before the conduct of any protocol-specific screening procedures;\n* If the participant is taking hydroxyurea (HU), L-glutamine, and/or crizanlizumab, the dose(s) must have been stable for at least 3 months before the first dose of AG-946;\n* Participant must start or continue to take folic acid in the equivalent of at least 0.8 milligrams per day (mg/day) orally for the duration of the study, unless the Investigator considers dietary folic acid intake to be adequate;\n* Participant has adequate organ function;\n* Female participants who are of childbearing potential, must have negative pregnancy test during screening;\n* Female participants who are of childbearing potential and male participants who have partners who are females of childbearing potential, must agree to be abstinent as part of their usual lifestyle or agree to use contraception from the time of providing informed consent to 28 days for women and 90 days for men after the last dose of AG-946;\n* Participant must be willing to comply with all study procedures for the duration of the study.\n\nExclusion Criteria:\n\nSCD\n\n* Participant is a candidate for potentially curative treatment with bone marrow transplantation, and for whom participation in this study would delay or preclude such definitive treatment;\n* Participant has documented history of pyruvate kinase deficiency (PKD) or red blood cell-specific form of pyruvate kinase (PKLR) mutation;\n* Participant has had more than 6 vaso-occlusive crisis (VOCs) within the past 12 months that required a hospital, emergency room, or clinic visit;\n* Participant is receiving regularly scheduled red blood cell (RBC) transfusion therapy, and/or has received a transfusion within the past 3 months before the first dose of AG-946;\n* Participant is currently receiving treatment with voxelotor or any other agent intended to increase hemoglobin (Hb)-oxygen affinity;\n* Participant has a significant medical condition that confers an unacceptable risk to participating in the study, and/or that could confound the interpretation of the study data as follows:\n\n  1. Poorly controlled hypertension (defined as systolic BP \\>150 millimeters of mercury (mm Hg) or diastolic BP \\>90 mm Hg) refractory to medical management\n  2. Any history of congestive heart failure; myocardial infarction; unstable angina pectoris; hemorrhagic, embolic, or thrombotic stroke; or recent venous thrombosis or pulmonary or arterial embolism\n  3. Cardiac dysrhythmias judged as clinically significant by the Investigator\n  4. QTcF \\>450 milliseconds (ms), unless related to right or left bundle branch block\n  5. Clinically symptomatic cholelithiasis or cholecystitis\n  6. History of drug-induced cholestatic hepatitis\n  7. Iron overload sufficiently severe to result in a clinical diagnosis by the Investigator of cardiac, hepatic, or pancreatic dysfunction\n  8. Have a diagnosis of any other congenital or acquired blood disorder, or any other hemolytic process as defined by a positive direct antiglobulin test, except for mild alloimmunization as a consequence of transfusion therapy\n  9. Positive test for HBsAg, or positive test for HCV Ab with evidence of active virus infection\n  10. Positive test for HIV-1 or -2 Ab\n  11. Active infection requiring the use of parenteral antimicrobial agents or Grade \u22653 in severity\n  12. Diabetes mellitus judged to be under poor control by the Investigator or requiring \\>2 antidiabetic agents, including insulin\n  13. History of any primary malignancy, except for curatively treated nonmelanoma skin cancer, cervical or breast carcinoma in situ, prostate cancer, or other primary tumor treated with curative intent, no known active disease present, and no treatment administered during the last 3 years before Screening\n  14. Unstable extramedullary hematopoiesis that could pose a risk of imminent neurologic compromise\n  15. Current or recent history of a psychiatric disorder\n* Participant is currently enrolled in another therapeutic clinical trial involving ongoing therapy with any investigational or marketed product or placebo;\n* Participant has had exposure to any investigational drug within 3 months or 5 half-lives of the drug, whichever is longer, before the first dose of AG-946;\n* Participant has had exposure to any investigational device or invasive procedure within 3 months before the first dose of AG-946;\n* Participant has a history of major surgery within 6 months of providing informed consent;\n* Participant has had a prior bone marrow or stem cell transplant;\n* Participant is currently pregnant or breastfeeding;\n* Participant has received medications that are strong inhibitors of permeability-glycoprotein (P-gp) within 5 days or a time frame equivalent to 5 half-lives (whichever is longer) before the first dose of AG-946;\n* Participant has received hematopoietic stimulating agents within 28 days before the first dose of AG-946;\n* Participant has a known allergy to any of the excipients found in AG-946.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of California San Diego",
+                "city": "La Jolla",
+                "state": "California",
+                "zip": "92037",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02114",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Boston Medical Center",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "New York Presbyterian Hospital - Weill Cornell Medicine",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "University of Pittsburgh Medical Center",
+                "city": "Pittsburgh",
+                "state": "Pennsylvania",
+                "zip": "15213",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                }
+              },
+              {
+                "facility": "PPD Development, LP",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78744",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "Texas Oncology-Baylor Charles A. Sammons Cancer Center - USOR",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75246",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "University of Texas Health Science Center of Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Rigshospitalet, Department of Hematology",
+                "city": "Copenhagen",
+                "zip": "2100",
+                "country": "Denmark",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                }
+              },
+              {
+                "facility": "Hospital Universitario Vall d'Hebron - PPDS",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

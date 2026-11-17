@@ -1,0 +1,476 @@
+{
+  "integrated_id": "systemic:sys_8618364b58ba",
+  "asset": "CB-280",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=CB-280",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04279769",
+            "orgStudyIdInfo": {
+              "id": "CX-280-202"
+            },
+            "organization": {
+              "fullName": "Calithera Biosciences, Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Evaluate the Safety of CB-280 in Patients With Cystic Fibrosis",
+            "officialTitle": "A Phase 1b Randomized, Double-blind, Placebo-Controlled Trial to Evaluate the Safety of CB-280 in Patients With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-07-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2021-11-23",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2021-11-23",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-02-10",
+            "studyFirstSubmitQcDate": "2020-02-19",
+            "studyFirstPostDateStruct": {
+              "date": "2020-02-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-04-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-04-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Calithera Biosciences, Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a phase 1b multiple ascending dose escalation study to evaluate the safety and tolerability of arginase inhibitor CB-280 in subjects with cystic fibrosis.",
+            "detailedDescription": "Study CX-280-202 is a Phase 1b, randomized, double-blind, placebo-controlled, multiple ascending dose escalation study of CB-280 in adult subjects with cystic fibrosis and chronic infection with Pseudomonas aeruginosa. The study will evaluate the safety, pharmacokinetics, pharmacodynamics, and biological activity of CB-280 in approximately 32 adult patients with cystic fibrosis. There are four planned sequential dose escalation cohorts of 8 subjects each, randomized 6:2 to receive CB-280 or matched placebo at doses of 50 mg, 100 mg, 200 mg, or 400 mg administered twice daily for 14 days. Intermediate dose levels may be evaluated based on emerging safety data at the planned dose levels."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "Arginase inhibitor",
+              "CB-280"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "CB-280 twice daily at 50 mg for 14 days",
+                "interventionNames": [
+                  "Drug: CB-280"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "CB-280 twice daily at 100 mg for 14 days",
+                "interventionNames": [
+                  "Drug: CB-280"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "CB-280 twice daily at 200 mg for 14 days",
+                "interventionNames": [
+                  "Drug: CB-280"
+                ]
+              },
+              {
+                "label": "Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "CB-280 twice daily at 400 mg for 14 days",
+                "interventionNames": [
+                  "Drug: CB-280"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo twice daily for 14 days",
+                "interventionNames": [
+                  "Drug: Placebos"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "CB-280",
+                "description": "CB-280, oral capsule administered twice daily at the assigned dose level for 14 days",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebos",
+                "description": "Placebo oral capsule administrated twice daily at the assigned dose level for 14 days",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Determine the safety and tolerability of CB-280 in adult cystic fibrosis patients: incidence and severity of adverse event (AEs) assessed by Common Terminology Criteria for Adverse Events, version 5 (CTCAE v5.0)",
+                "timeFrame": "Start of treatment to Day 28"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics of plasma CB-280 measured by Peak Plasma Concentration (Cmax)",
+                "timeFrame": "Day 14"
+              },
+              {
+                "measure": "Pharmacokinetics of plasma CB-280 measured by area under the plasma concentration versus time curve, from time 0 to the last observed non-zero concentration (AUC 0-t)",
+                "timeFrame": "Day 14"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written Informed Consent in accordance with federal, local, and institutional guidelines\n2. Confirmed diagnosis of cystic fibrosis\n3. Male or female subjects \u2265 18 years on the date of informed consent\n4. Percent predicted FEV1 of 40-90% at screening per Global Lung Function Initiative (GLI) equation\n5. Clinically stable with no significant changes in health status within 28 days prior to Day 1\n6. Chronic lung infection with P. aeruginosa defined as at least one positive culture in the last two years and more than 50% of cultures positive since then\n7. Stable cystic fibrosis medication regimen for at least 28 days inclusive of CFTR modulators prior to Day 1\n8. Hemoglobin \\> 10 g/dL at screening\n9. Glomerular filtration rate \\> 50 mL/min/1.73 m2 at screening\n10. Normal liver function at screening\n\nExclusion Criteria:\n\n1. History of any comorbidity that, in the opinion of the Investigator, might pose an additional risk in administering study drug to the subject or confound the results of the study\n2. Lung infection with organisms associated with a more rapid decline in pulmonary status (including, but not limited to, Burkholderia cenocepacia, Burkholderia dolosa, and Mycobacterium abscessus)\n3. Unable to receive study medication per os (PO)\n4. Females who are pregnant, have a positive pregnancy test at screening, or are nursing (lactating)\n\nOther protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Emil T Kuriakose, MD",
+                "affiliation": "Calithera Bioscience",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Arkansas for Medical Sciences",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "Long Beach Memorial Medical Center",
+                "city": "Long Beach",
+                "state": "California",
+                "zip": "90806",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.76696,
+                  "lon": -118.18923
+                }
+              },
+              {
+                "facility": "University of Florida",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "The Cystic Fibrosis Institute",
+                "city": "Glenview",
+                "state": "Illinois",
+                "zip": "60025",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.06975,
+                  "lon": -87.78784
+                }
+              },
+              {
+                "facility": "Indiana University",
+                "city": "Indianapolis",
+                "state": "Indiana",
+                "zip": "46202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.76838,
+                  "lon": -86.15804
+                }
+              },
+              {
+                "facility": "University of Kansas Medical Center",
+                "city": "Kansas City",
+                "state": "Kansas",
+                "zip": "66160",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.11417,
+                  "lon": -94.62746
+                }
+              },
+              {
+                "facility": "Johns Hopkins University",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21287",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital, Brigham & Women's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Billings Clinic",
+                "city": "Billings",
+                "state": "Montana",
+                "zip": "59101",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 45.78329,
+                  "lon": -108.50069
+                }
+              },
+              {
+                "facility": "New York Medical College at Westchester Medical Center",
+                "city": "Hawthorne",
+                "state": "New York",
+                "zip": "10532",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.10732,
+                  "lon": -73.79597
+                }
+              },
+              {
+                "facility": "UNC Marsico Clinical Research Center",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27514",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              },
+              {
+                "facility": "University Hospitals Cleveland Medical Center",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Hershey Medical Center Pennsylvania State University",
+                "city": "Hershey",
+                "state": "Pennsylvania",
+                "zip": "17033",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.28592,
+                  "lon": -76.65025
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "University of Utah",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zip": "84132",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.76078,
+                  "lon": -111.89105
+                }
+              },
+              {
+                "facility": "Vermont Lung Center at the University of Vermont Medical Center",
+                "city": "Colchester",
+                "state": "Vermont",
+                "zip": "05446",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.54394,
+                  "lon": -73.14791
+                }
+              },
+              {
+                "facility": "Virginia Commonwealth University",
+                "city": "Richmond",
+                "state": "Virginia",
+                "zip": "23219",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.55376,
+                  "lon": -77.46026
+                }
+              },
+              {
+                "facility": "University of Calgary",
+                "city": "Calgary",
+                "state": "Alberta",
+                "zip": "T2N 4N1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "St. Pauls' Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6Z1Y6",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "McGill University Health Center",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H4A 3J1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

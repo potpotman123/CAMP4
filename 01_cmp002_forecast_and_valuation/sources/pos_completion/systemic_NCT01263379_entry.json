@@ -1,0 +1,2969 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01263379",
+      "orgStudyIdInfo": {
+        "id": "SU-10202010-7130"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AR055914",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AR055914"
+        },
+        {
+          "id": "RAC Protocol # 0701-827",
+          "type": "OTHER",
+          "domain": "NIH Recombinant DNA Advisory Committee"
+        },
+        {
+          "id": "eProtocol 14563",
+          "type": "OTHER",
+          "domain": "Stanford Institutional Review Board"
+        }
+      ],
+      "organization": {
+        "fullName": "Abeona Therapeutics, Inc",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Gene Transfer for Recessive Dystrophic Epidermolysis Bullosa",
+      "officialTitle": "A Phase 1/2A Single Center Trial of Gene Transfer for Recessive Dystrophic Epidermolysis Bullosa (RDEB) Using the Drug LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-10-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-12-15",
+      "studyFirstSubmitQcDate": "2010-12-17",
+      "studyFirstPostDateStruct": {
+        "date": "2010-12-20",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2023-04-18",
+      "resultsFirstSubmitQcDate": "2023-06-19",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-07-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Abeona Therapeutics, Inc",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+          "class": "NIH"
+        },
+        {
+          "name": "Stanford University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial will create a skin graft, which the investigators call \"LEAES,\" using the patient's own skin cells that have been genetically engineered in the lab to express a missing protein called type VII collagen. The corrected cells will be transplanted back to the patient.",
+      "detailedDescription": "The research project involves gene transfer into keratinocytes, which are the majority of the cells in the outer layer of skin. In this gene transfer trial we plan to biopsy some skin tissue, grow the cells in a skin cell culture (sterile dishes with special fluid that allows cells to grow and multiply) and then infect the cells with a virus that we have genetically engineered to insert the correct type VII collagen gene. The cells should then make type VII collagen.\n\nThe process of inserting the correct type VII collagen gene into cells is called \"gene transfer.\" The virus used is called a \"retrovirus.\" The virus is made so that it only delivers the type VII collagen gene and it should not spread to other parts of the body. During the study we will check for growth of the virus.\n\nAfter cells have received gene transfer, we will grow the cells in culture into a sheet of cells that look like a plastic film. We plan to graft the sheet to wounds. Grafting means we will take cells from the culture and stitch them to the patient's skin."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Epidermolysis Bullosa Dystrophica",
+        "Epidermolysis Bullosa"
+      ],
+      "keywords": [
+        "gene transfer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LEAES treatment",
+          "type": "EXPERIMENTAL",
+          "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)",
+          "interventionNames": [
+            "Biological: LZRSE-Col7A1 Engineered Autologous Epidermal Sheets"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets",
+          "description": "This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein.",
+          "armGroupLabels": [
+            "LEAES treatment"
+          ],
+          "otherNames": [
+            "LEAES"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Wounds by Healing Category Per Investigator Visual Assessment",
+          "description": "The graft site was clinically evaluated by the investigator with a global score of: 1) 100% to 75% healed, 2) 74% to 50% healed, 3) 49% or less healed with 100% meaning completely healed.",
+          "timeFrame": "3, 6, 12 and 24 months post grafting"
+        },
+        {
+          "measure": "Percentage Surface Area of Wound Healing",
+          "description": "Percentage of wound area will be obtained using the Canfield system. Changes in dimensions between visits as well as changes in dimensions from baseline will be recorded. Dimensions of untreated wounded skin will be used for comparison",
+          "timeFrame": "3, 6 and 12 months post grafting"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number Participants Positive for NC2 Epitope as a Measure of Duration of Type VII Collagen Production",
+          "description": "Skin biopsies were obtained to evaluate expression of type VII collagen, NC2 epitope, using immuno-electron microscopy and immuno-fluorescent light microscopy.",
+          "timeFrame": "3 months, 6 months, 12 months, 24 months post-grafting"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of Participants With Presence of Anchoring Fibrils (AF)",
+          "description": "Skin biopsies were obtained to observe physical development of the anchoring fibrils using electron microscopy",
+          "timeFrame": "3 months, 6 months, 12 months and 24 months post grafting"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of recessive dystrophic epidermolysis bullosa (RDEB)\n2. 13 years old or older and willing and able to give assent/consent\n3. Confirmation of RDEB diagnosis by immunofluorescence (IF) and electron microscopy (EM)\n4. NC1\\[+\\] and mAb LH24 antibody staining negative\n5. RDEB type VII collagen mutations in subject and carrier parents confirmed\n6. At least 100 to 200 cm2 areas of open erosions on the trunk and/or extremities suitable for skin grafting\n7. Able to undergo adequate anesthesia to allow grafting procedures to take place.\n\nExclusion Criteria:\n\n1. Medical instability limiting ability to travel to Stanford University Medical Center\n2. The presence of medical illness expected to complicate participation and/or compromise the safety of this technique, such as active infection with HIV, hepatitis B or hepatitis C, as determined by hepatitis B surface antigen screening, detection of hepatitis C antibodies, or positive result of hepatitis C polymerase chain reaction (PCR) analysis.\n3. Antibodies to type VII collagen associated antigens\n4. Active infection in the area that will undergo grafting\n5. Evidence of systemic infection\n6. Current evidence or a history of squamous cell carcinoma in the area that will undergo grafting\n7. Active drug or alcohol addiction\n8. Hypersensitivity to vancomycin or amikacin\n9. Receipt of chemical or biological study product for the specific treatment of RDEB in the past six months\n10. Positive pregnancy test or breast-feeding\n11. Clinically significant abnormalities (Grade 2 or higher on the National Cancer Institute \\[NCI\\] toxicity scale) on laboratory tests performed prior to grafting, except for the following specific exclusionary laboratory threshold results, subject to approval or exemption by the EB physician:\n\n    * Albumin \\< 2.5 g/dL\n    * Leukocytes \\> 20K/uL\n    * Hemoglobin \\< 7.5 g/dL. Low hemoglobin will be treated at the discretion of the investigators and the EB physician.\n    * Additional exceptions may be made at the discretion of the investigators and the EB physician.\n12. Clinically significant abnormalities (Grade 2 or higher on the NCI toxicity scale) identified through medical history and physical examination on Day 0, with the following exceptions:\n\n    * Anorexia, can enroll up to Grade 4 (inclusive)\n    * Constipation, can enroll up to Grade 2 (inclusive)\n    * Dysphagia, can enroll up to Grade 4 (inclusive)\n    * Keratitis, can enroll up to Grade 4 (inclusive)\n    * Bone pain, can enroll up to Grade 2 (inclusive)\n    * Additional exceptions may be made at the discretion of the investigators and the EB physician.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "13 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jean Tang, MD, PhD",
+          "affiliation": "Stanford University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stanford University, School of Medicine, Dept of Dermatology",
+          "city": "Redwood City",
+          "state": "California",
+          "zip": "94063",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.48522,
+            "lon": -122.23635
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36253825",
+          "type": "DERIVED",
+          "citation": "So JY, Nazaroff J, Iwummadu CV, Harris N, Gorell ES, Fulchand S, Bailey I, McCarthy D, Siprashvili Z, Marinkovich MP, Tang JY, Chiou AS. Long-term safety and efficacy of gene-corrected autologous keratinocyte grafts for recessive dystrophic epidermolysis bullosa. Orphanet J Rare Dis. 2022 Oct 17;17(1):377. doi: 10.1186/s13023-022-02546-9."
+        },
+        {
+          "pmid": "31578311",
+          "type": "DERIVED",
+          "citation": "Eichstadt S, Barriga M, Ponakala A, Teng C, Nguyen NT, Siprashvili Z, Nazaroff J, Gorell ES, Chiou AS, Taylor L, Khuu P, Keene DR, Rieger K, Khosla RK, Furukawa LK, Lorenz HP, Marinkovich MP, Tang JY. Phase 1/2a clinical trial of gene-corrected autologous cell therapy for recessive dystrophic epidermolysis bullosa. JCI Insight. 2019 Oct 3;4(19):e130554. doi: 10.1172/jci.insight.130554."
+        },
+        {
+          "pmid": "27802546",
+          "type": "DERIVED",
+          "citation": "Siprashvili Z, Nguyen NT, Gorell ES, Loutit K, Khuu P, Furukawa LK, Lorenz HP, Leung TH, Keene DR, Rieger KE, Khavari P, Lane AT, Tang JY, Marinkovich MP. Safety and Wound Outcomes Following Genetically Corrected Autologous Epidermal Grafts in Patients With Recessive Dystrophic Epidermolysis Bullosa. JAMA. 2016 Nov 1;316(17):1808-1817. doi: 10.1001/jama.2016.15588."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Safety and Wound Outcomes Following Genetically Corrected Autologous Epidermal Grafts in Patients With Recessive Dystrophic Epidermolysis Bullosa.",
+          "url": "https://www.ncbi.nlm.nih.gov/pubmed/27802546"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Results will be submitted to scientific journals for publication and presented at scientific meetings.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "Study protocol is attached to this submission and will be available per ClinicalTrials.gov timeline."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "12 participants signed informed consent, 7 were allocated to the treatment arm.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "LEAES Treatment",
+          "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "LEAES Treatment",
+          "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Wounds by Healing Category Per Investigator Visual Assessment",
+          "description": "The graft site was clinically evaluated by the investigator with a global score of: 1) 100% to 75% healed, 2) 74% to 50% healed, 3) 49% or less healed with 100% meaning completely healed.",
+          "populationDescription": "The 7 participants who were determined to be eligible to receive LEAES cell sheets received 6 cell sheets to 6 wounds, each which were analyzed in this study as the primary endpoint.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "wounds",
+          "timeFrame": "3, 6, 12 and 24 months post grafting",
+          "typeUnitsAnalyzed": "wounds",
+          "denomUnitsSelected": "wounds",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            },
+            {
+              "units": "wounds",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "42"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "3 months",
+              "categories": [
+                {
+                  "title": "Global Score of 100% to 75%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 74% to 50%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 49% or less",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "6 months",
+              "categories": [
+                {
+                  "title": "Global Score of 100% to 75%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 74% to 50%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 49% or less",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "12 months",
+              "categories": [
+                {
+                  "title": "Global Score of 100% to 75%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 74% to 50%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 49% or less",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "24 months",
+              "categories": [
+                {
+                  "title": "Global Score of 100% to 75%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 74% to 50%",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Global Score of 49% or less",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage Surface Area of Wound Healing",
+          "description": "Percentage of wound area will be obtained using the Canfield system. Changes in dimensions between visits as well as changes in dimensions from baseline will be recorded. Dimensions of untreated wounded skin will be used for comparison",
+          "populationDescription": "The Canfield Imaging System was implemented after the first 2 participants received LEAES. Tattoos were not used when placing tattoos for these first 2 participants. Therefore, measurements using the Canfield Imaging System was not possible.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of wound area",
+          "timeFrame": "3, 6 and 12 months post grafting",
+          "typeUnitsAnalyzed": "Wounds",
+          "denomUnitsSelected": "Wounds",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "3 Months Post LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+            },
+            {
+              "id": "OG001",
+              "title": "6 Months Post LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)"
+            },
+            {
+              "id": "OG002",
+              "title": "12 Months Post LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "5"
+                }
+              ]
+            },
+            {
+              "units": "Wounds",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "30"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "GT04, Wound A",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT04, Wound B",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT04, Wound C",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT04, Wound D",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "97.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT04, Wound E",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT04, Wound Z - induced",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "90"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound A",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "90.6"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "78.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound B",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "81.6"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "66.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound C",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "91.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound D",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "93.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "85.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "87.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound E",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "74.6"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "75.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT05, Wound Z - induced",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound A",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "93.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound B",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "89.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound C",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound D",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96.67"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound E",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "89.45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "94.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT07, Wound F",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "97"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "95"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound A",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound B",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "81"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound C",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound D",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound E",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT08, Wound F",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48.8"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound A",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "85"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound B",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound C",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "78.56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound D",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "82"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "78.67"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound E",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "98.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GT09, Wound F",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "units": "Wounds",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "78.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number Participants Positive for NC2 Epitope as a Measure of Duration of Type VII Collagen Production",
+          "description": "Skin biopsies were obtained to evaluate expression of type VII collagen, NC2 epitope, using immuno-electron microscopy and immuno-fluorescent light microscopy.",
+          "populationDescription": "The 7 participants who were determined to be eligible to receive LEAES cell sheets received 6 cell sheets to 6 wounds, each which were analyzed in this study as the primary endpoint.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months, 6 months, 12 months, 24 months post-grafting",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "3 months",
+              "categories": [
+                {
+                  "title": "Positive for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "6 months",
+              "categories": [
+                {
+                  "title": "Positive for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "12 months",
+              "categories": [
+                {
+                  "title": "Positive for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "24 months",
+              "categories": [
+                {
+                  "title": "Positive for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for NC2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants With Presence of Anchoring Fibrils (AF)",
+          "description": "Skin biopsies were obtained to observe physical development of the anchoring fibrils using electron microscopy",
+          "populationDescription": "The 7 participants who were determined to be eligible to receive LEAES cell sheets received 6 cell sheets to 6 wounds, each which were analyzed in this study as the primary endpoint.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months, 6 months, 12 months and 24 months post grafting",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "LEAES Treatment",
+              "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "3 months",
+              "categories": [
+                {
+                  "title": "Positive for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "6 months",
+              "categories": [
+                {
+                  "title": "Positive for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "12 months",
+              "categories": [
+                {
+                  "title": "Positive for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "24 months",
+              "categories": [
+                {
+                  "title": "Positive for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative for AFs",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not done",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "2 years post receiving LEAES cell sheets",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "LEAES Treatment",
+          "description": "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets (LEAES)\n\nLZRSE-Col7A1 Engineered Autologous Epidermal Sheets: This trial will create a graft, which we call \"LEAES\", of the patient's own skin that has been genetically engineered in our lab to express this missing protein.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 7,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 7,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 7
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Neoplasms benign, malignant and unspecified, squamous cell carcinoma",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 2,
+              "numAtRisk": 7
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Wound infection",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 6,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 3,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "PAIN OF WOUND SITES",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Wound complication",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Wound drainage",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Postoperative hemorrhage",
+          "organSystem": "Surgical and medical procedures",
+          "sourceVocabulary": "CTCAE (Unspecified)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Chief Medical Officer",
+        "organization": "Abeona Therapeutics",
+        "email": "clinicalresults@abeonatherapeutics.com",
+        "phone": "(216) 282-8150"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2017-05-13",
+          "uploadDate": "2023-06-19T15:05",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 628515
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-16"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016108",
+          "term": "Epidermolysis Bullosa Dystrophica"
+        },
+        {
+          "id": "D004820",
+          "term": "Epidermolysis Bullosa"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012868",
+          "term": "Skin Abnormalities"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D012873",
+          "term": "Skin Diseases, Genetic"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D003095",
+          "term": "Collagen Diseases"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D012872",
+          "term": "Skin Diseases, Vesiculobullous"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

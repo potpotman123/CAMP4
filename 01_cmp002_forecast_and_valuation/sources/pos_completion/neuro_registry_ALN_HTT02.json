@@ -1,0 +1,506 @@
+{
+  "asset": "ALN-HTT02",
+  "query": "ALN-HTT02",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ALN-HTT02&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06585449",
+            "orgStudyIdInfo": {
+              "id": "ALN-HTT02-001"
+            },
+            "organization": {
+              "fullName": "Alnylam Pharmaceuticals",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate ALN-HTT02 in Adult Patients With Huntington's Disease",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled Study, to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intrathecally Administered Single Ascending Doses of ALN-HTT02 in Adult Patients With Huntington's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-07-05",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-07-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-09-03",
+            "studyFirstSubmitQcDate": "2024-09-03",
+            "studyFirstPostDateStruct": {
+              "date": "2024-09-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Alnylam Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the safety, tolerability, pharmacodynamics (PD) and pharmacokinetics (PK) of single or repeat doses of ALN-HTT02."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ],
+            "keywords": [
+              "siRNA",
+              "ALN-HTT02",
+              "Intrathecal",
+              "HD-ISS Stage 2",
+              "HD-ISS early Stage 3",
+              "Neurodegenerative disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 66,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ALN-HTT02",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will be administered a single dose of ALN-HTT02 during the Double-blind Part of the study. Participants who received ALN-HTT02 in the Double-blind part of the study will not receive an additional dose during the Open-label Part of the study. Participants have the option to receive repeat doses of ALN-HTT02 in the Open-label Extension (OLE) Part of the study.",
+                "interventionNames": [
+                  "Drug: ALN-HTT02"
+                ]
+              },
+              {
+                "label": "Placebo + ALN-HTT02",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants will be administered a single dose of placebo during the Double-blind Part of the study. Participants will have the option to receive a single dose of ALN-HTT02 during the Open-label Part of the study. Participants have the option to receive repeat doses of ALN-HTT02 in the OLE Part of the study.",
+                "interventionNames": [
+                  "Drug: ALN-HTT02",
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ALN-HTT02",
+                "description": "ALN-HTT02 will be administered intrathecally",
+                "armGroupLabels": [
+                  "ALN-HTT02",
+                  "Placebo + ALN-HTT02"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo will be administered intrathecally",
+                "armGroupLabels": [
+                  "Placebo + ALN-HTT02"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency of Adverse Events (AEs) in the Double-blind Part of the Study",
+                "timeFrame": "Up to 12 months"
+              },
+              {
+                "measure": "Frequency of AEs in the Open-label Part of the Study",
+                "timeFrame": "Up to 12 months"
+              },
+              {
+                "measure": "Frequency of AEs in the OLE Part of the Study",
+                "timeFrame": "Up to 36 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in Levels of Mutant Huntingtin (mHTT) in Cerebrospinal Fluid (CSF)",
+                "timeFrame": "Baseline up to Month 12 in the Double-blind Part of the study; Baseline up to Month 12 in the Open-label Part of the study ; Baseline up to Month 36 in the OLE Part of the study"
+              },
+              {
+                "measure": "Concentrations of ALN-HTT02 in Plasma",
+                "description": "Area Under the Plasma Concentration-time Curve (AUC) Maximum Observed Plasma Concentration (Cmax) Time to Maximum Plasma Concentration (Tmax)",
+                "timeFrame": "Up to Month 12 in the Double-blind Part of the study; Up to Month 12 in the Open-label Part of the study; Up to Month 36 in the OLE Part of the study"
+              },
+              {
+                "measure": "Concentrations of ALN-HTT02 in Cerebrospinal Fluid (CSF)",
+                "timeFrame": "Up to Month 12 in the Double-blind Part of the study; Up to Month 12 in the Open-label Part of the study ; Up to Month 36 in the OLE Part of the study"
+              },
+              {
+                "measure": "Concentrations of ALN-HTT02 in Urine",
+                "description": "Fractional Excretion of ALN-HTT02",
+                "timeFrame": "Up to Month 12 in the Double-blind Part of the study; Up to Month 12 in the Open-label Part of the study; Up to Month 36 in the OLE Part of the study"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n* Has stage 2 or early Stage 3 Huntington's disease (HD), per the Huntington's Disease Integrated Staging System (HD-ISS)\n\nExclusion Criteria\n\n* Has significant structural or degenerative neurologic disease other than Huntington's Disease (HD) at screening\n* Has primary or secondary immune compromise at screening due to infections, medical conditions, or chronic therapies\n* Has alanine aminotransferase or aspartate aminotransferase \\>2\u00d7 upper limit of normal (ULN)\n* Has an estimated glomerular filtration rate (eGFR) of \\<60 mL/min/1.73m\\^2 at screening\n* Has received an investigational agent within the last 1 year or 5 half-lives (if known)\n\nNote: other protocol defined inclusion / exclusion criteria apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "25 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Alnylam Clinical Trial Information Line",
+                "role": "CONTACT",
+                "phone": "1-877-ALNYLAM",
+                "email": "clinicaltrials@alnylam.com"
+              },
+              {
+                "name": "Alnylam Clinical Trial Information Line",
+                "role": "CONTACT",
+                "phone": "1-877-256-9526",
+                "email": "clinicaltrials@alnylam.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Medical Director",
+                "affiliation": "Alnylam Pharmaceuticals",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Edmonton",
+                "zip": "T6G 2B7",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 53.55014,
+                  "lon": -113.46871
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Montreal",
+                "zip": "H2W 1T8",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Ottawa",
+                "zip": "K1Y4E9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Vancouver",
+                "zip": "V6T 2B5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Berlin",
+                "zip": "10117",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Bochum",
+                "zip": "44791",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.48165,
+                  "lon": 7.21648
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Bonn",
+                "zip": "53127",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Dresden",
+                "zip": "01307",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.05089,
+                  "lon": 13.73832
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "M\u00fcnster",
+                "zip": "48149",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.96236,
+                  "lon": 7.62571
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Taufkirchen",
+                "zip": "84416",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.0486,
+                  "lon": 11.61701
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Birmingham",
+                "zip": "B15 2TT",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Cambridge",
+                "zip": "CB2 0PY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Cardiff",
+                "zip": "CF103AX",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.48,
+                  "lon": -3.18
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Glasgow",
+                "zip": "G51 4TF",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Greater Manchester",
+                "zip": "M13 9WL",
+                "country": "United Kingdom"
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "WC1N 3BG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Oxford",
+                "zip": "OX3 9DU",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "status": "RECRUITING",
+                "city": "Plymouth",
+                "zip": "PL6 8DH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.37153,
+                  "lon": -4.14305
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

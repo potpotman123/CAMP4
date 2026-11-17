@@ -1,0 +1,2823 @@
+{
+  "integrated_id": "systemic:sys_48047b16514a",
+  "asset": "CS101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=CS-101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06479616",
+            "orgStudyIdInfo": {
+              "id": "CS-101-04"
+            },
+            "organization": {
+              "fullName": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            },
+            "briefTitle": "A Long-term Follow-up Study in Participants Who Received CS-101",
+            "officialTitle": "A Long-term Follow-up Study Evaluating the Safety and Efficacy of Subjects With \u03b2-thalassemia Treated With Base-edited Autologous Hematopoietic Stem Cell (CS-101) Transplantation"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-06-18",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-06",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-24",
+            "studyFirstSubmitQcDate": "2024-06-24",
+            "studyFirstPostDateStruct": {
+              "date": "2024-06-28",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-26",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-03 (NCT06065189)",
+            "detailedDescription": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-03 (NCT06065189) .\n\nSubjects in the CS-101-03 study will be entered into long-term follow-up of this study up to 2 years post-infusion at the completion of the last (6-month) follow-up visit after treatment with CS-101 Injection."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "NA"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "long term follow up",
+                "type": "EXPERIMENTAL",
+                "description": "All participants who complete CS-101-03(NCT0606518) studie after CS-101 infusion will be asked to participate in this long-term follow-up study.",
+                "interventionNames": [
+                  "Genetic: CS-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-101",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "armGroupLabels": [
+                  "long term follow up"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of SAEs and CS-101 related AES as assessed by CTCAE v5.0",
+                "description": "CommonTerminology Criteria for Adverse Events\uff08CTCAE\uff09has 5 levels of AE determination, increasing in severity as the level increases",
+                "timeFrame": "Signing of informed consent up to 2 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of all-cause death",
+                "timeFrame": "Signing of informed consent up to 2 years post CS-101 infusion"
+              },
+              {
+                "measure": "New malignancies and hematologic disorders",
+                "description": "Based on ICD-11",
+                "timeFrame": "Signing of informed consent up to 2 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of achieving transfusion independence for at least 12 consecutive months",
+                "timeFrame": "From 3 months after last RBC transfusion up to 2 years post CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "timeFrame": "up to 2 years post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "timeFrame": "up to 2 years post-CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood and bone marrow Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "description": "Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "timeFrame": "up to 2 years post-CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants (or his or her legally appointed and authorized representative or guardian) must sign and date informed consent form (ICF) and, where applicable, an assent form\n* Participants must have received CS-101 infusion in last IIT study\n\nExclusion Criteria:\n\n* There are no exclusion criteria",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaowen Zhai, M.D.",
+                "role": "CONTACT",
+                "phone": "+86-021-64931126",
+                "email": "zhaixiaowendy@163.com"
+              },
+              {
+                "name": "Zifeng Li, M.S.",
+                "role": "CONTACT",
+                "phone": "+86-13920704768",
+                "email": "zfli18@fudan.edu.cn"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Xiaowen Zhai, M.D.",
+                "affiliation": "Children's Hospital of Fudan University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Children's Hospital of Fudan University",
+                "status": "RECRUITING",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "201102",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Zifeng Li, M.S.",
+                    "role": "CONTACT",
+                    "phone": "+86-13920704768",
+                    "email": "zfli18@fudan.edu.cn"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05768932",
+            "orgStudyIdInfo": {
+              "id": "TTK-CS-101"
+            },
+            "organization": {
+              "fullName": "SillaJen, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "BAL0891 in Patients With Advanced Solid Tumors or Relapsed or Refractory Acute Myeloid Leukemia",
+            "officialTitle": "A Phase 1 Study of BAL0891 as Monotherapy and in Combination With Chemotherapy or Tislelizumab in Patients With Advanced Solid Tumors or Relapsed or Refractory Acute Myeloid Leukemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+              "date": "2022-12-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-24",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12-24",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-01-29",
+            "studyFirstSubmitQcDate": "2023-03-02",
+            "studyFirstPostDateStruct": {
+              "date": "2023-03-15",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "SillaJen, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a multiple cohort, multicenter, open-label Phase 1 study with dose-escalation substudies investigating intravenous (IV) BAL0891 as monotherapy, and in combination with tislelizumab or paclitaxel, to determine the safety and tolerability of increasing doses of BAL0891 in patients with advanced solid tumors or relapsed or refractory acute myeloid leukemia. An adaptive model-based design will be used to guide the dose escalation. Subject assignment to Substudy 1, 2, 3 and 4 will be finalized following approval from the investigator and sponsor.\n\nThe dose-expansion stage will be conducted with the RP2D to further evaluate the preliminary anti-tumor activity, safety, and tolerability in metastatic TNBC and GC.",
+            "detailedDescription": "Substudy 1 (monotherapy dose-escalation cohorts) This study will be initiated with enrollment into Substudy 1 and will estimate the safety, tolerability, PK, and PD of increasing doses of BAL0891 in patients with advanced solid tumors. The starting dose will be 5 mg based on the GLP (Good Laboratory Practice) toxicology studies. Dose escalation will comprise a dose range from a dose of 5 mg up to a maximum absolute dose of 480 mg, with eight nominal dose levels (DLs) of 5 / 10 / 20 / 40 / 80 / 160 / 320 / 480 mg. Intra-patient dose escalations are only allowed for patients enrolled in single-patient DL Cohorts 1.1, 1.2, and 1.3. From DL Cohort 1.4 onwards, the projected maximum dose-escalation factor will be two-fold; if the DL cohort investigates an increased dose, dosing of the patients within the cohort must be separated by at least 7 days. For cohorts in which doses are not increased (including backfill enrollment), patients may be enrolled concurrently.\n\nBAL0891 will be administered intravenously (IV) on Day (D) 1 and D8 every 3 weeks (Q3W); for the schedule of assessments of Regimen A. Alternative 21-day or 28-day dosing regimens may be investigated; for the schedule of assessments of Regimens B-D.\n\nSubstudies 2 and 3 (dose-escalation cohorts for combination regimens) Enrollment into Substudies 2 and 3 may commence as early as first signs of expected target toxicity and/or efficacy with Regimen A (or an alternative monotherapy regimen) have been observed, or alternatively, once the MTD of BAL0891 monotherapy has been assessed. Patients enrolled into Substudies 2 and 3 will be treated with increasing doses of BAL0891 in combination with tislelizumab or paclitaxel, respectively, and dose escalation of both BAL0891 and tislelizumab/paclitaxel if required will use the same cumulative BLRM-EWOC model as Substudy 1. The starting dose of BAL0891 in combination with tislelizumab or paclitaxel will be a safe DL determined in Substudy 1 but not higher than approximately half the MTD. Backfill enrollment of up to a total of 30 additional patients for both substudies (who may be enrolled concurrently) may be used to better estimate the RP2D for each combination if required.\n\nSubstudy 4 (dose escalation cohort for monotherapy in r/r AML) Substudy 4 will evaluate BAL0891 monotherapy in patients with relapsed/refractory AML (r/r AML) using the same BLRM-EWOC model and study design described for Substudy 1. BAL0891 will be administered intravenously on Day 1 and Day 8 every three weeks (Regimen A; see Table 13 for schedule of assessments). Dose exploration will proceed until the highest planned dose level (DL) is determined to be safe and tolerable, or the MTD/RP2D is identified.\n\nEach DL cohort will enroll three patients, with DLT observation required before advancing to the next DL. From DL2 onward, the projected maximum dose-escalation factor will be two-fold, with concurrent enrollment allowed for cohorts without dose increases. Backfill enrollment may be conducted to refine the RP2D and further characterize safety, efficacy and PD.\n\nPart 2 : Dose expansion The commencement of the dose expansion stage will follow the determination of the RP2D achieved during the dose-escalation phase. This stage will consist of four cohorts, each comprising 24 patients who have previously undergone at least one systemic regimen for advanced or metastatic disease. Specifically, two cohorts will be allocated for TNBC, investigating BAL0891 both as a monotherapy and in combination with Paclitaxel. Additionally, two cohorts will be designated for GC, investigating the outcomes of BAL0891 as a monotherapy and in combination with Paclitaxel."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Advanced Solid Tumor",
+              "TNBC - Triple-Negative Breast Cancer",
+              "Gastric Cancer",
+              "Leukemia Acute Myeloid Leukemia (AML)"
+            ],
+            "keywords": [
+              "carcinoma",
+              "paclitaxel",
+              "BAL0891",
+              "tislelizumab"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 260,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Part 1: Substudy 1, Dose-escalation substudy of BAL0891 monotherapy",
+                "type": "EXPERIMENTAL",
+                "description": "Increasing doses of BAL0891 will be administered IV on D1 and D8 Q3W (Regimen A). BAL0891 will be investigated in a dose range of 5-480 mg with Regimen A. Optionally, and based on cumulative safety, PK, and PD data, BAL0891 may be administered on D1 Q3W (Regimen B), D1 and D15 Q4W (Regimen C), or on D1, D8, and D15 Q4W (Regimen D).",
+                "interventionNames": [
+                  "Drug: BAL0891"
+                ]
+              },
+              {
+                "label": "Part 1: Substudy 2, Dose-escalation substudy of BAL0891 in combination with tislelizumab",
+                "type": "EXPERIMENTAL",
+                "description": "Increasing doses of BAL0891 will be administrated IV on D1 and D15 with tislelizumab administration on D8 Q3W. The starting dose of BAL0891 for combination will be at approximately 50% of the BAL0891 monotherapy MTD determined in Substudy 1 and tislelizumab dose will be 200mg IV.",
+                "interventionNames": [
+                  "Drug: BAL0891",
+                  "Combination Product: Tislelizumab"
+                ]
+              },
+              {
+                "label": "Part 1: Substudy 3, Dose-escalation substudy of BAL0891 in combination with paclitaxel",
+                "type": "EXPERIMENTAL",
+                "description": "Paclitaxel will be dosed at 70 mg/m2 on D1, D8, and D15 Q4W, with an option to use 80 mg/m2 (either instead of, or after exploring, 70 mg/m2) if the cumulative data collected at that time support a higher dose of paclitaxel.",
+                "interventionNames": [
+                  "Drug: BAL0891",
+                  "Combination Product: Paclitaxel"
+                ]
+              },
+              {
+                "label": "Part 2 : Dose expansion, cohorts 1 TNBC (BAL0891 monotherapy)",
+                "type": "EXPERIMENTAL",
+                "description": "BAL0891 will be administered intravenously on D1 and D8, Q3W for cohorts 1. The investigation will focus on the RP2D determined during the dose escalation phase of the study. Specifically, cohorts 1 will utilize the RP2D established in substudy 1 of the dose escalation phase.",
+                "interventionNames": [
+                  "Drug: BAL0891"
+                ]
+              },
+              {
+                "label": "Part 2 : Dose expansion, cohorts 2 GC (BAL0891 monotherapy)",
+                "type": "EXPERIMENTAL",
+                "description": "BAL0891 will be administered intravenously on D1 and D8, Q3W for cohorts 2. The investigation will focus on the RP2D determined during the dose escalation phase of the study. Specifically, cohorts 2 will utilize the RP2D established in substudy 1 of the dose escalation phase.",
+                "interventionNames": [
+                  "Drug: BAL0891"
+                ]
+              },
+              {
+                "label": "Part 2 : Dose expansion, cohorts 3 TNBC (BAL0891 + Paclitaxel)",
+                "type": "EXPERIMENTAL",
+                "description": "BAL0891 will be administered intravenously on D1 and D15, Q4W for cohorts 3 . The investigation will focus on the RP2D determined during the dose escalation phase of the study. Specifically, cohorts 3 will utilize the RP2D established in substudy 3 of the dose escalation phase.",
+                "interventionNames": [
+                  "Drug: BAL0891",
+                  "Combination Product: Paclitaxel"
+                ]
+              },
+              {
+                "label": "Part 2 : Dose expansion, cohorts 4 GC (BAL0891 + Paclitaxel)",
+                "type": "EXPERIMENTAL",
+                "description": "BAL0891 will be administered intravenously on D1 and D15, Q4W for cohorts 4. The investigation will focus on the RP2D determined during the dose escalation phase of the study. Specifically, cohorts 4 will utilize the RP2D established in substudy 3 of the dose escalation phase.",
+                "interventionNames": [
+                  "Drug: BAL0891",
+                  "Combination Product: Paclitaxel"
+                ]
+              },
+              {
+                "label": "Part 1: Substudy 4, Dose-escalation substudy of BAL0891 monotherapy in r/r AML",
+                "type": "EXPERIMENTAL",
+                "description": "BAL0891 will be administered intravenously on Day 1 and Day 8 every three weeks (Regimen A). Dose exploration will proceed until the highest planned dose level (DL) is determined to be safe and tolerable, or the MTD/RP2D is identified.",
+                "interventionNames": [
+                  "Drug: BAL0891"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BAL0891",
+                "description": "BAL0891 is a dual inhibitor of threonine tyrosine kinase (TTK) and polo-like kinase 1 (PLK1)",
+                "armGroupLabels": [
+                  "Part 1: Substudy 1, Dose-escalation substudy of BAL0891 monotherapy",
+                  "Part 1: Substudy 2, Dose-escalation substudy of BAL0891 in combination with tislelizumab",
+                  "Part 1: Substudy 3, Dose-escalation substudy of BAL0891 in combination with paclitaxel",
+                  "Part 1: Substudy 4, Dose-escalation substudy of BAL0891 monotherapy in r/r AML",
+                  "Part 2 : Dose expansion, cohorts 1 TNBC (BAL0891 monotherapy)",
+                  "Part 2 : Dose expansion, cohorts 2 GC (BAL0891 monotherapy)",
+                  "Part 2 : Dose expansion, cohorts 3 TNBC (BAL0891 + Paclitaxel)",
+                  "Part 2 : Dose expansion, cohorts 4 GC (BAL0891 + Paclitaxel)"
+                ],
+                "otherNames": [
+                  "TTK-CS-101"
+                ]
+              },
+              {
+                "type": "COMBINATION_PRODUCT",
+                "name": "Tislelizumab",
+                "description": "Tislelizumab a humanized IgG4 anti-PD-1 monoclonal antibody",
+                "armGroupLabels": [
+                  "Part 1: Substudy 2, Dose-escalation substudy of BAL0891 in combination with tislelizumab"
+                ]
+              },
+              {
+                "type": "COMBINATION_PRODUCT",
+                "name": "Paclitaxel",
+                "description": "Paclitaxel is a natural product with antitumor activity",
+                "armGroupLabels": [
+                  "Part 1: Substudy 3, Dose-escalation substudy of BAL0891 in combination with paclitaxel",
+                  "Part 2 : Dose expansion, cohorts 3 TNBC (BAL0891 + Paclitaxel)",
+                  "Part 2 : Dose expansion, cohorts 4 GC (BAL0891 + Paclitaxel)"
+                ],
+                "otherNames": [
+                  "Taxol"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Part 1: Number of Participants With Adverse Events as a Measure of Safety and Tolerability",
+                "description": "Safety is collected through summaries of AE(Adverse Event)s, safety laboratory evaluations, PK evaluations, physical examinations, vital signs, and ECGs using CTCAE v5.0.",
+                "timeFrame": "After first dose, up to 2 years"
+              },
+              {
+                "measure": "Part 1: Number of Participants With the DLT (Dose-limiting toxicity)s as a Measure of maximum tolerated dose (MTD) and/or the recommended Phase 2 dose (RP2D)",
+                "description": "DLTs are collected through BLRM-EWOC.",
+                "timeFrame": "After first dose and within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 2: Overall response rate (ORR) for all subjects",
+                "description": "The proportion of patients with confirmed complete response (CR) or partial response (PR) by RECIST 1.1/iRECIST (substudy 2 only) during the dose expansion phase.",
+                "timeFrame": "Every 3 months (\u00b114 days) after first dose, up to 2 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Part 1: Pharmacokinetics (PK) parameters for all subjects",
+                "description": "The area under the plasma concentration-time curve (AUC) by PK Sampling",
+                "timeFrame": "Within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 1: Absolute neutrophil count (ANC) for all subjects",
+                "description": "Duration of neutropenia by PD Sampling",
+                "timeFrame": "Within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 1, 2: Overall response rate (ORR) for all subjects",
+                "description": "The proportion of patients with confirmed complete response (CR) or partial response (PR) by RECIST 1.1",
+                "timeFrame": "Every 3 months (\u00b114 days) after first dose, up to 2 years"
+              },
+              {
+                "measure": "Part 1, 2: Disease control rate (DCR) for all subjects",
+                "description": "The proportion of patients with confirmed CR, PR or stable disease (SD) by RECIST 1.1",
+                "timeFrame": "Within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 1, 2: Progression-free survival (PFS) for all subjects",
+                "description": "Measured from patient enrollment to disease progression date",
+                "timeFrame": "Within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 1, 2: Overall survival (OS) for all subjects",
+                "description": "Measured from from patient enrollment to time of death",
+                "timeFrame": "Within 7 days of End of Treatment, up to 2 years"
+              },
+              {
+                "measure": "Part 2: Safety evaluations for all subjects",
+                "description": "Safety evaluations is focusing on key clinical evlauations such treatment-emergent adverse events (TEAE) using CTCAE v5.0.",
+                "timeFrame": "After first dose, up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints CR + CRh Rate (Substudy 4)",
+                "description": "Proportion of patients achieving Complete Remission (CR) or CR with partial hematologic recovery (CRh) per European LeukemiaNet (ELN) 2022 guidelines.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Duration of Remission (DoR) (Substudy 4)",
+                "description": "Time from first documented CR/CRh until relapse or death.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Transfusion Independence (TI) (Substudy 4)",
+                "description": "Proportion of patients achieving red blood cell (RBC) and platelet transfusion independence for \u226556 consecutive days.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints CR/CRh without Measurable Residual Disease (MRD) (Substudy 4)",
+                "description": "Proportion of patients achieving CR/CRh and MRD negativity.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Composite Complete Remission (CRc) Rate (Substudy 4)",
+                "description": "Proportion of patients achieving CR, CRh, or CR with incomplete hematologic recovery (CRi).",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Overall Response Rate (ORR) (Substudy 4)",
+                "description": "Proportion of patients achieving CR, CRh, CRi, or Partial Remission (PR).",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Overall Survival (OS) (Substudy 4)",
+                "description": "Time from first dose of BAL0891 to death from any cause.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Event-Free Survival (EFS) (Substudy 4)",
+                "description": "Time from first dose of BAL0891 to disease progression, relapse, or death.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: Efficacy Endpoints Time to Response (TTR) (Substudy 4)",
+                "description": "Time from first dose of BAL0891 to first documented response.",
+                "timeFrame": "Up to 2 years"
+              },
+              {
+                "measure": "Part 1: QTcF Interval Analysis",
+                "description": "Analysis of QTcF interval data collected during BAL0891 monotherapy and the relationship between BAL0891 exposure and QTcF interval prolongation.",
+                "timeFrame": "From first dose to 30 days post last dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "1.1. Inclusion criteria: Substudy 1, 2, 3 and Dose expansion Each patient must meet all the following inclusion criteria.\n\n1. Informed consent signed by the patient prior to any study-related procedure indicating that they understand the purpose of, and procedures required for, the study, and are willing to participate in the study.\n2. Male or female aged \u226518 years (or \u2265 19 years according to local regulatory guidelines) at the time of screening.\n3. Patients with incurable advanced/metastatic solid tumor disease refractory to or intolerant of existing therapy known to provide clinical benefit for their condition.\n\n   Note: Patients with non-CNS tumors participating during dose escalation may have inactive CNS metastasis, defined as 4 weeks after either brain metastasis resection or radiation, and a) all residual neurological symptoms resolved to grade \u2264 2; b) on stable doses of dexamethasone, if applicable; and c) follow-up imaging shows no new lesions appearing.\n4. Patients enrolled in Dose Expansion only\n\n   \u2022 TNBC cohorts i. Must have histologically confirmed breast adenocarcinoma that is unresectable, loco-regional, or metastatic.\n\n   ii. Must have source data documented pathologically confirmed triple negative breast cancer, defined as both of the following.\n   1. Estrogen receptor (ER) and progesterone receptor (PgR) negative: \\<1% of tumor cell nuclei are immunoreactive in the presence of evidence that the sample can express ER or PgR (positive intrinsic controls)\n   2. Human epidermal growth factor receptor 2 (HER2) negative as per American Society of Clinical Oncology/College of American Pathologists guidelines\n\n      * IHC 0 or 1 fluorescence in situ hybridization (FISH) negative (or equivalent negative test)\n      * Patients with IHC 2 must have a negative by FISH (or equivalent negative test) iii. Patients with a history of different breast cancer phenotypes (i.e., ER/PgR/HER2 Positive) must obtain pathological confirmation of triple-negative disease in at least one of the current sites of metastasis.\n\n   iv. Must have progression on or after therapy containing anthracycline and/or a taxane. Subjects must have received anthracycline and/or a taxane based regimen or other chemotherapy / targeted therapy regimen if anthracycline or taxane was contraindicated or another available approved targeted agent was contraindicated. At time of enrolment, patients must have progressed on, be intolerant of, or be ineligible for, all available standard of care therapies with proven benefit.\n\n   \u2022 GC cohort i. Must have a histologically or cytologically confirmed diagnosis of gastric or gastroesophageal junction adenocarcinoma.\n\n   ii. Must have progression on or after therapy containing platinum/fluoropyrimidine. Subjects must have received platinum-based chemotherapy or other chemotherapy regimen if platinum-based chemotherapy was contraindicated or another available approved targeted agent unless the targeted agent was contraindicated. At time of enrolment, patients must have progressed on, be intolerant of, or be ineligible for, all available standard of care therapies with proven benefit.\n\n   iii. Documentation of HER2/neu status. Patients who are HER2/neu-positive must be treated with a HER2/neu inhibitor, and subjects should have progressed on or be intolerant to the targeted therapy or subjects must have received other chemotherapy regimen if HER2/neu inhibitor was contraindicated or another available approved targeted agent unless the targeted agent was contraindicated. At time of enrolment, patients must have progressed on, be intolerant of, or be ineligible for, all available standard of care therapies with proven benefit.\n\n   iv. Subjects must/should have received no more than 3 lines of prior therapy for the advanced disease (if a subject progressed within 6 months of completing adjuvant therapy, this would count as a prior line of therapy).\n5. For patients enrolled in Substudy 3 or cohort 3 and 4, if a taxane (i.e., paclitaxel or docetaxel) was administered as part of the previous regimen, PD must have occurred \\> 12 months from the end of the previous treatment. (Patients who received a taxane in previous treatments without reaching PD may enroll without the 12-month waiting period.)\n6. Patients enrolled in Dose Expansion only, patient must have undergone a minimum of 1 prior systemic regimen for advanced or metastatic disease. (Korea only, patients must have received the second line standard of care treatment as per the regulations of the respective country. Patients who are unsuitable to receive the standard of care second line treatment will be eligible for enrollment)\n7. Eastern Cooperative Oncology Group performance status (ECOG PS) 0or-1\n8. For patients enrolled from DL1.4 of Substudy 1 onwards and for all patients in Substudies 2 and 3 and all four dose expansion cohorts, measurable tumor disease per Response Evaluation Criteria in Solid Tumors 1.1 criteria (RECIST 1.1), i.e., a minimum of one target lesion.\n9. Adequate organ functions as indicated by the following Screening visit local laboratory values:\n\n   1. Hemoglobin \u2265 9 g/dL (criterion must be met without erythropoietin dependency and without packed red blood cell transfusion within the last 4 weeks)\n   2. ANC \u2265 2.0 \u00d7 109/L; criterion must be met without growth factor (e.g., G-CSF, GM CSF, etc.) administration within the last 2 weeks\n   3. Platelets \u2265 100 \u00d7 109/L\n   4. Total bilirubin \u2264 1.5 \u00d7 ULN\n   5. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) baseline levels \u2264 1.5 \u00d7 ULN, with the option for AST/ALT \u2264 3.0 \u00d7 ULN, or \u2264 5.0 \u00d7 ULN for patients with liver metastasis, upon accumulating evidence for the absence of liver toxicity in biologically active DLs\n   6. Albumin \u2265 2.8 g/dL\n   7. CLCR \u2265 50 mL/min (as calculated by the Cockcroft-Gault formula), or eGFR \u2265 50 mL/min/1.73 m\u00b2 (MDRD equation or CKD-EPI equation)\n   8. For women of childbearing potential, negative serum human chorionic gonadotropin (hCG)\n10. Men/women of child-producing/bearing potential must agree to: avoid impregnating a partner or becoming pregnant, respectively, during the study, and for at least 6 months after the last dose of either investigational drug, and comply with the contraception requirements.\n\n1.2. Inclusion criteria: Substudy 4 Each patient must meet all the following inclusion criteria.\n\n1. Informed consent signed by the patient prior to any study-related procedure indicating that they understand the purpose of, and procedures required for, the study, and are willing to participate in the study.\n2. Male or female aged \u226518 years (or \u2265 19 years according to local regulatory guidelines) at the time of screening.\n3. Eastern Cooperative Oncology Group performance status (ECOG PS) 0-2.\n4. Estimated life expectancy of at least 8 weeks\n5. AML either de novo or secondary as any subtype diagnosed according to the WHO 2022 classification system \\[except acute promyelocytic leukemia (APL)\\] who either:\n\n   Relapse/refractory (R/R) acute myeloid leukemia (AML) defined as those who have also failed or are not appropriate for any approved standard-of-care (SOC) therapies, or hematopoietic stem cell transplant (HSCT) with reappearance of \u2265 5% blasts in the bone marrow.\n6. Relapsed AML is defined as having 5% or more leukemic blasts in the bone marrow, reappearance of leukemic blasts in peripheral blood (in at least two peripheral blood samples taken at least one week apart), or the development of new extramedullary disease.\n7. WBC, peripheral blood leukocyte count\u2264 25,000/\u00b5L and blast count \u2264 25,000/\u00b5L prior to initiation of therapy\n\n   1. Hydroxyurea is allowed during screening and prior to day 1 of study treatment to keep the blast count \u226425,000/\u00b5L; hydroxyurea is to be ceased 24 hours prior to study therapy.\n   2. Hydroxyurea may be used for up to 28 days in the initial treatment cycle if needed, to keep the white blood cell (WBC) count \u226425,000/\u00b5L. However, no other anti-leukemic treatments, apart from the study drug, are allowed during this period.\n   3. Leukapheresis is allowed to maintain blast count \u226425,000/\u00b5L\n8. Adequate organ functions as indicated by the following Screening visit local laboratory values:\n\n   1. CLCR \u2265 60 mL/min (as calculated by the Cockcroft-Gault formula), or eGFR \u2265 60 mL/min/1.73 m\u00b2 (MDRD equation or CKD-EPI equation)\n   2. Total bilirubin \u2264 1.5 \u00d7 ULN (unless considered due to leukemic organ involvement), or, Direct bilirubin \u2264 ULN for subjects with total bilirubin levels \\> 1.5 ULN\n   3. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) baseline levels \u2264 3.0 \u00d7 ULN\n   4. Albumin \u2265 2.5 g/dL\n   5. International Normalized Ratio (INR) or Prothrombin Time (PT) \u22641.5 X ULN unless subject is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants\n   6. Activated Partial Thromboplastin Time (aPTT) \u22641.5 X ULN unless subject is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants\n9. Men/women of child-producing/bearing potential must agree to: avoid impregnating a partner or becoming pregnant, respectively, during the study, and for at least 6 months after the last dose of either investigational drug, and comply with the contraception requirements.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "SillaJen Inc.",
+                "role": "CONTACT",
+                "phone": "02-368-2600",
+                "email": "patient_inquiry@sillajen.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "SillaJen Inc.",
+                "affiliation": "SillaJen, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Yale New Haven Hospital",
+                "status": "RECRUITING",
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06510",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Yale New Haven Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "facility": "University of Miami Health System",
+                "status": "RECRUITING",
+                "city": "Coral Gables",
+                "state": "Florida",
+                "zip": "33146",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "University of Miami Health System",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 25.72149,
+                  "lon": -80.26838
+                }
+              },
+              {
+                "facility": "Winship Cancer Institute / Emory University",
+                "status": "RECRUITING",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30322",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Winship Cancer Institute / Emory University",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "University of Michigan",
+                "status": "RECRUITING",
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "zip": "48109",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "University of Michigan",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.27756,
+                  "lon": -83.74088
+                }
+              },
+              {
+                "facility": "New York Medicine-New York-Presbyterian Hospital",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10021",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "New York Medicine-New York-Presbyterian Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Montefiore Medical Center - Montefiore Hospital",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10467",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Montefiore Medical Center - Montefiore Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Montefiore Medical Center",
+                "status": "RECRUITING",
+                "city": "The Bronx",
+                "state": "New York",
+                "zip": "10461",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Montefiore Medical Center",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.84985,
+                  "lon": -73.86641
+                }
+              },
+              {
+                "facility": "OHSU Knight Cancer Institute",
+                "status": "COMPLETED",
+                "city": "Portland",
+                "state": "Oregon",
+                "zip": "97239",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 45.52345,
+                  "lon": -122.67621
+                }
+              },
+              {
+                "facility": "Mary Crowley Cancer Research",
+                "status": "COMPLETED",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75230",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "Baylor University Medical Center",
+                "status": "RECRUITING",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75246",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Baylor University Medical Center",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "The University of Texas MD Anderson Cancer Center",
+                "status": "RECRUITING",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "The University of Texas MD Anderson Cancer Center",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "The Catholic University of Korea, Seoul St. Mary's Hospital",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "06591",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "The Catholic University of Korea, Seoul St. Mary's Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Asan Medical Center",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "Asan Medical Center",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Korean University Anam Hospital",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "Korean University Anam Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Samsung Medical Center",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "Samsung Medical Center",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Seoul National University Hospital",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "Seoul National University Hospital",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Severance Hospital, Yonsei University Health System",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "Severance Hospital, Yonsei University Health System",
+                    "role": "CONTACT"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D064726",
+                "term": "Triple Negative Breast Neoplasms"
+              },
+              {
+                "id": "D013274",
+                "term": "Stomach Neoplasms"
+              },
+              {
+                "id": "D015470",
+                "term": "Leukemia, Myeloid, Acute"
+              },
+              {
+                "id": "D002277",
+                "term": "Carcinoma"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001943",
+                "term": "Breast Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D001941",
+                "term": "Breast Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D005770",
+                "term": "Gastrointestinal Neoplasms"
+              },
+              {
+                "id": "D004067",
+                "term": "Digestive System Neoplasms"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D005767",
+                "term": "Gastrointestinal Diseases"
+              },
+              {
+                "id": "D013272",
+                "term": "Stomach Diseases"
+              },
+              {
+                "id": "D007951",
+                "term": "Leukemia, Myeloid"
+              },
+              {
+                "id": "D007938",
+                "term": "Leukemia"
+              },
+              {
+                "id": "D009370",
+                "term": "Neoplasms by Histologic Type"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D009375",
+                "term": "Neoplasms, Glandular and Epithelial"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000707970",
+                "term": "tislelizumab"
+              },
+              {
+                "id": "D017239",
+                "term": "Paclitaxel"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D043823",
+                "term": "Taxoids"
+              },
+              {
+                "id": "D043822",
+                "term": "Cyclodecanes"
+              },
+              {
+                "id": "D003516",
+                "term": "Cycloparaffins"
+              },
+              {
+                "id": "D006840",
+                "term": "Hydrocarbons, Alicyclic"
+              },
+              {
+                "id": "D006844",
+                "term": "Hydrocarbons, Cyclic"
+              },
+              {
+                "id": "D006838",
+                "term": "Hydrocarbons"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D004224",
+                "term": "Diterpenes"
+              },
+              {
+                "id": "D013729",
+                "term": "Terpenes"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06685536",
+            "orgStudyIdInfo": {
+              "id": "CS-101-13"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Long-term Follow-up Study in Participants Who Received CS-101",
+            "officialTitle": "A Long-term Follow-up Study Evaluating the Safety and Efficacy of Subjects With \u03b2-thalassemia Treated With Base-edited Autologous Hematopoietic Stem Cell (CS-101) Transplantation"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-01-18",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2039-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2039-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-11-07",
+            "studyFirstSubmitQcDate": "2024-11-10",
+            "studyFirstPostDateStruct": {
+              "date": "2024-11-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-06 (NCT06024876),No investigational drug product will be administered in the study.",
+            "detailedDescription": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-06 (NCT06024876). Subjects in the CS-101-06 study will be entered into long-term follow-up of this study up to 15 years post-infusion at the completion of the last (12-month) followup visit after treatment with CS-101 Injection."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "OTHER",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "Safety and efficacy assessments",
+                "description": "Safety evaluations,disease-specific assessments,and assessments to monitor for long-term complications of autologous transplant"
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of SAEs and CS-101 related AES as assessed by CTCAE v5.0",
+                "description": "CommonTerminology Criteria for Adverse Events#CTCAE#has 5 levels of AE determination, increasing in severity as the level increases",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "New malignancies and hematologic disorders",
+                "description": "Based on ICD-11",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of all-cause death",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of achieving transfusion independence for at least 12 consecutive months",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood Proportion of alleles with intended genetic modification in",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in bone marrow Proportion of alleles with intended genetic modification in",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Change in F-Cell concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants (or his or her legally appointed and authorized representative or guardian) must sign and date informed consent form (ICF) and, where applicable, an assent form\n* Participants must have received CS-101 infusion in last study\n\nExclusion Criteria:\n\n* There are no exclusion criteria",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "Subject with \u03b2-thalassemia treated with CS-101 infusion in last study",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Yongrong Lai, M.D.",
+                "affiliation": "First Affiliated Hospital of Guangxi Medical University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D012449",
+                "term": "Safety"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000056",
+                "term": "Accident Prevention"
+              },
+              {
+                "id": "D000059",
+                "term": "Accidents"
+              },
+              {
+                "id": "D011634",
+                "term": "Public Health"
+              },
+              {
+                "id": "D004778",
+                "term": "Environment and Public Health"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06024876",
+            "orgStudyIdInfo": {
+              "id": "CS-101-06"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Study Evaluating the Safety and Efficacy of CS-101 in Treating Subjects With \u03b2-thalassemia",
+            "officialTitle": "A Clinical Study Evaluating the Safety and Efficacy of Ex-vivo tBE Edited Autologous Hematopoietic Stem Progenitor Cells (CS-101) in Treating Subjects With \u03b2-thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-26",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-07-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-07-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-08-23",
+            "studyFirstSubmitQcDate": "2023-08-29",
+            "studyFirstPostDateStruct": {
+              "date": "2023-09-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-101 in treating \u03b2-thalassemia.",
+            "detailedDescription": "CS-101 is an autologous CD34+ cell suspension, edited by ex vivo base editing technology, which modifies the BCL11A binding site in HBG promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of fetal hemoglobin(HbF) in the blood, compensating for the function of missing adult hemoglobin HbA to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-101",
+                "type": "EXPERIMENTAL",
+                "description": "CS-101: Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "interventionNames": [
+                  "Biological: CS-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "CS-101",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "armGroupLabels": [
+                  "CS-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of adverse events(AEs\uff09as assessed by CTCAE v5.0",
+                "timeFrame": "From signing informed consent to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to neutrophil and platelet engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days\uff1b Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/L on three different days and without platelet transfusion in the past 7 days\uff1b",
+                "timeFrame": "Days post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects with engraftment",
+                "description": "Subjects with engraftment is defined as neutrophil engrafted",
+                "timeFrame": "within 42 days post-CS-101infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "timeFrame": "From baseline to 100 days post-CS-101 infusion"
+              },
+              {
+                "measure": "All-cause mortality",
+                "timeFrame": "From signing informed consent to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving transfusion independence for at least 6 consecutive months",
+                "timeFrame": "From 3 months up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to last red blood cell(RBC) transfusion",
+                "timeFrame": "Days post-CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "description": "Total hemoglobin concentration change from baseline to 12 months post-CS-101 infusion",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "description": "fetal hemoglobin concentration change from baseline to 12 months post-CS-101 infusion",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood and bone marrow",
+                "description": "Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria\uff1a\n\n* 6 to 35 years old(inclusive) male or female subjects at the time of informed consenting\n* Diagnosis of \u03b2-thalassemia, genotypes include but are not limited to \u03b2+\u03b20\uff0c\u03b2E\u03b20\uff0c\u03b20\u03b20, etc\n* History of at least\u22658 units/year of packed RBC transfusions in the prior 12 months prior to the screening period\n* Generally in good condition, Karnofsky performance score\u226560 points for subjects\u226516 years old at the time of autologous hematopoietic stem cell collection, or Lansky Play-Performance score\u226560 points for subjects under 16 years old, or equivalent clinical evaluation as the investigator site's common practice\n\nKey Exclusion Criteria:\n\n* Treatment with other investigational medications or other experimental interventions 30 days prior to signing informed consent or within 6 half-lives of the drug, whichever is longer.\n* Subjects who have received or are receiving thalidomide and/or Luspatercept, when their drug-drug interaction on the efficacy and safety of CS-101 cannot be ruled out, unless at least there are 3 test results showing the total hemoglobin level before transfusion is below 9g/dL in the past 6 months before screening.\n* Previously received allogeneic hematopoietic stem cell transplantation or gene(edited) therapy.\n* Subjects have available related fully matching donors and are eligible and prepared for allogeneic hematopoietic stem cell transplantation.\n* Those with active infections, including but not limited to: HIV, hepatitis B, hepatitis C, cytomegalovirus, Epstein-Barr virus and treponema pallidum test positive, or known tuberculosis, parasitic infection, etc. who are judged by the investigator to be unsuitable to participate in this study.\n* Echocardiography results with ejection fraction below 45%.\n* Advanced liver disease, defined as\uff1a\n\nAspartate aminotransferase (AST), alanine aminotransferase (ALT) \\>3 \u00d7 upper limit of normal (ULN) or:\n\nBaseline International Normalized Ratio (INR) \\>1.5 \u00d7 ULN.\n\n* MRI during the screening period showed heavy iron overload and is judged by the investigator to be unable to participate in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Yongrong Lai, M.D.",
+                "affiliation": "First Affiliated Hospital of Guangxi Medical University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41951736",
+                "type": "DERIVED",
+                "citation": "Lai Y, Liu R, Wang L, Ma XK, Li Y, Yang G, Shi L, Guo YL, Wei Z, Zhou X, Xu W, Hou Y, Miccio A, Yang B, Mou X, Yang L, Chen J. Clinical application of base editing for treating beta-thalassaemia. Nature. 2026 May;653(8115):923-932. doi: 10.1038/s41586-026-10342-9. Epub 2026 Apr 8."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06291961",
+            "orgStudyIdInfo": {
+              "id": "CS-101-01"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety and Efficacy Study Evaluating CS-101 in Subjects With \u03b2-Thalassemia Major",
+            "officialTitle": "A Single-arm, Open-label Phase I Clinical Trial to Evaluate the Safety, Tolerability, Efficacy, Pharmacokinetics and Pharmacodynamic Profile of a Single Dose of CS-101 Injection in Subjects With \u03b2-thalassemia Major"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-04-18",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-11-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-11-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-02-23",
+            "studyFirstSubmitQcDate": "2024-03-01",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-101 in treating patients with \u03b2-thalassemia major anemia.",
+            "detailedDescription": "CS-101 is an autologous CD34+(Cluster of differentiation 34) cell suspension, edited by in vitro base editing technology, which modifies the BCL11A(B-cell lymphoma/leukemia 11A) binding site in HBG(Hemoglobin Subunit Gamma) promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of HbF(fetal hemoglobin) in the blood, compensating for the function of missing HbA(adult hemoglobin) to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia Major"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 9,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-101 injection",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "interventionNames": [
+                  "Genetic: CS-101 injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-101 injection",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "armGroupLabels": [
+                  "CS-101 injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AEs(Adverse Events) and SAEs(Serious Adverse Events) after CS-101 infusion",
+                "description": "Frequency and severity of adverse events(AEs\uff09as assessed by CTCAE(Common Terminology Criteria for Adverse Events)v5.0",
+                "timeFrame": "From signing informed consent to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Overall survival rate",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects with engraftment",
+                "description": "Subjects with engraftment is defined as neutrophil engrafted",
+                "timeFrame": "Within 42 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days.",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "description": "Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/L on three different days and without platelet transfusion.",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "description": "Incidence of transplant-related mortality(Transplant-related mortality events defined as deaths assessed by the investigator as potentially transplant-related)",
+                "timeFrame": "From baseline to 100 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "description": "Fetal hemoglobin(HbF) concentration from baseline to 9 months post-CS-101 infusion",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "description": "Total hemoglobin concentration change from baseline to 9 months post-CS-101 infusion",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Chimerism level in Peripheral blood and bone marrow",
+                "description": "Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "timeFrame": "Up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving transfusion independence for at least 6 consecutive months",
+                "description": "Maintaining transfusion independence for at least 6 consecutive months while maintaining a weighted mean hemoglobin\u22659 g/dL Proportion of subjects",
+                "timeFrame": "From CS-101 infusion up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving fetal hemoglobin(HbF) increase\u22652.0 g/dL",
+                "description": "Fetal hemoglobin(HbF) concentration increase\u22652.0 g/dL within 2 months post-CS-101 infusion",
+                "timeFrame": "Up to 2 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving fetal hemoglobin(HbF) increase\u22657.0 g/dL",
+                "description": "Fetal hemoglobin(HbF) concentration increase\u22657.0 g/dL within 6 months post-CS-101 infusion",
+                "timeFrame": "Up to 6 months post-CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 12 to 35 years old(inclusive) male or female subjects at the time of informed consenting. For minors, their legal representative is required to sign the informed consent form, besides, if the subjects aged 8 years or older, they should provide a signed and dated.\n* Diagnosis of \u03b2-thalassemia major.\n* Generally in good condition, Karnofsky performance score\u226560 points for subjects\u226516 years old, or Lansky Play-Performance score\u226560 points for subjects under 16 years old.\n* For female subjects of childbearing potential: use effective contraceptive measures from the start of screening and agree to continue using such measures for contraception throughout the study\n* For male subjects who have a potential ability to father a child: use condoms or other methods continuously from the start of mobilization to ensure effective contraception for sexual partners during the study period\n\nExclusion Criteria:\n\n* Treatment with other investigational medications or other experimental interventions 30 days prior to signing informed consent or within 6 half-lives of the drug, whichever is longer\n* Subjects who have received or are receiving thalidomide and/or Luspatercept in the past 6 months before screening\n* Previously received allogeneic hematopoietic stem cell transplantation or gene(edited) therapy\n* Subjects have available related fully matching donors and are eligible and prepared for allogeneic hematopoietic stem cell transplantation\n* Patients with coexisting \u03b1-thalassemia and more than 2 deletions or non-deletional mutations in the \u03b1-globin chain coding genes\n* Known to be allergic to drugs used during autologous hematopoietic stem cell transplantation (including but not limited to granulocyte colony-stimulating factor, busulfan, dextran), excipients(such as dimethyl sulfoxide), or instruments(such as intravenous catheters) as determined by the investigator are deemed unsuitable to participate in this study\n* Those with positive results in HIV, cytomegalovirus, Epstein-Barr virus and treponema pallidum test, active infection of hepatitis B, hepatitis C, or known tuberculosis, parasitic infection, etc. Hepatitis B stabilized on medication(HBV-DNA test negative) and cured hepatitis C(HCV-RNA test negative) can be considered acceptable.\n* Echocardiography shows ejection fraction below 45%\n* Laboratory indicators, defined as\uff1aAspartate aminotransferase(AST), alanine aminotransferase(ALT) \\>3\u00d7 upper limit of normal(ULN) or Baseline International Normalized Ratio(INR)\\>1.5\u00d7ULN.\n* MRI during the screening period shows severe cardiac iron overload and other conditions, and are judged by the investigator to be intolerable or inappropriate for autologous hematopoietic stem cell transplantation\n* Patients with past/present history of cancer\n* Known neurological disorders, psychological problems or mental illness, and is judged by the investigator to be unable to cooperate with the study procedures\n* Known history of uncontrolled epileptic seizures and is judged by the investigator to be unfit to participate in this study\n* The investigators determined that a non-hypersplenism-induced white blood cell count of\\<3\u00d710\\^9/L, and/or a platelet count of\\<100\u00d710\\^9/L.\n* Known history of other serious cardiovascular, pulmonary, renal diseases, digestive tract conditions, liver diseases and / or other conditions, etc., and are judged by the investigator to be intolerable or inappropriate for autologous hematopoietic stem cell mobilization, collection, and myeloablative conditioning and infusion\n* Pregnant or lactating women",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Yaliang Li",
+                "affiliation": "CorrectSequence Therapeutics Co., Ltd",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Children's Hospital of Fudan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "Ruijin Hospital Shanghai JiaoTong University School of Medicine",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07489196",
+            "orgStudyIdInfo": {
+              "id": "CS-101-09"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 2 Safety and Efficacy Study Evaluating CS-101 in Participants With \u03b2-Thalassemia Major",
+            "officialTitle": "A Single-arm, Open-label Phase II Clinical Trial: Evaluating the Safety and Efficacy of a Single Dose of CS-101 Injection in Participants With \u03b2-thalassemia Major"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-03",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-04-05",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-01-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-07-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-03-19",
+            "studyFirstSubmitQcDate": "2026-03-19",
+            "studyFirstPostDateStruct": {
+              "date": "2026-03-24",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-03-19",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-03-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-101 in treating patients with \u03b2-Thalassemia Major",
+            "detailedDescription": "CS-101 is an autologous CD34+(Cluster of differentiation 34) cell suspension, edited by ex vivo base editing technology, which modifies the BCL11A binding site in HBG(Hemoglobin Subunit Gamma) promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of HbF(fetal hemoglobin) in the blood, compensating for the function of missing HbA(adult hemoglobin) to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "\u03b2-thalassemia Major"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-101 injection",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "interventionNames": [
+                  "Genetic: CS-101 injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-101 injection",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by ex vivo base editing technique",
+                "armGroupLabels": [
+                  "CS-101 injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AEs(Adverse Events) and SAEs(Serious Adverse Events) after CS-101 infusion",
+                "description": "Frequency and severity of adverse events(AEs\uff09as assessed by CTCAE(Common Terminology Criteria for Adverse Events)v5.0",
+                "timeFrame": "Up to 16 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Overall survival",
+                "timeFrame": "Up to 16 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of Subjects with engraftment",
+                "description": "Subjects with engraftment is defined as neutrophil engrafted",
+                "timeFrame": "Within 42 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "timeFrame": "Up to 16 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "timeFrame": "Up to 16 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "timeFrame": "Up to 100 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving transfusion independence for at least 12 consecutive months",
+                "description": "Maintaining transfusion independence for at least 12 consecutive months while maintaining a weighted mean hemoglobin\u226590g/L",
+                "timeFrame": "Up to 16 months post-CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of subjects achieving transfusion independence for at least 6 consecutive months",
+                "description": "Maintaining transfusion independence for at least 6 consecutive months while maintaining a weighted mean hemoglobin\u226590g/L",
+                "timeFrame": "Up to 16 months post CS-101 Infusion"
+              },
+              {
+                "measure": "Changes in targeted editing efficiency in peripheral blood nucleated cells over time",
+                "timeFrame": "Up to 16 months post CS-101 infusion"
+              },
+              {
+                "measure": "Changes in targeted editing efficiency in bone marrow nucleated cells over time",
+                "timeFrame": "Up to 16 months post CS-101 infusion"
+              },
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "timeFrame": "Up to 16 months post CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "timeFrame": "Up to 16 months post CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Voluntarily signed informed consent. Male or female participants aged 12 to 35 years (inclusive). The participant or their legally authorized representative must sign the informed consent. If the participant is under 18 years of age, their legally authorized representative must also sign the informed consent.\n* Diagnosed with \u03b2-thalassemia major (transfusion-dependent). Received at least 8 units of red blood cell transfusions within 12 months prior to screening, and documented hemoglobin level \u2264 70 g/L pre-transfusion.\n* Good general condition: Karnofsky score (\u226516 years of age) \u2265 60, or Lansky Play-Performance score (\\<16 years of age) \u2265 60.\n* For females of childbearing potential: From the start of the screening, highly effective contraception or complete abstinence (if this is their usual lifestyle), and agree to maintain such contraception throughout the study.\n* For males of childbearing potential: Use condoms or other methods to ensure effective contraception for sexual partners continuously from mobilization through the study period.\n\nExclusion Criteria:\n\n* Received other investigational products or other experimental interventions within 30 days prior to signing informed consent or within 6 elimination half-lives of the drug (whichever is longer).\n* Received or is receiving thalidomide, hydroxyurea, and/or luspatercept within 3 months prior to screening.\n* Previous received allogeneic hematopoietic stem cell transplantation, gene therapy, or gene-editing therapy; or participants who can be maintained with standard therapy.\n* Participants with a matched sibling donor, or with a matched unrelated / haploidentical related donor and judged by the investigator to have no high-risk factors for allogeneic hematopoietic stem cell transplantation.\n* Participants with coexisting \u03b1-thalassemia with more than 2 \u03b1-globin chain gene deletions or non-deletional mutations.\n* Known hypersensitivity to drugs used during autologous hematopoietic stem cell transplantation, excipients, or devices, judged by the investigator to be ineligible for this study.\n* Infection with HIV, cytomegalovirus, Epstein-Barr virus, or Treponema pallidum during screening; active HBV or HCV infection (participants with stable hepatitis B after treatment (HBV-DNA negative) and cured hepatitis C (HCV-RNA negative) may be included). Known active bacterial, viral, fungal, or parasitic infection.\n* Echocardiographic ejection fraction \\< 50%.\n* Laboratory abnormalities: AST or ALT \\> 3 \u00d7 upper limit of normal (ULN); or International normalized ratio (INR) \\> 1.5 \u00d7 ULN.\n* Cardiac severe iron overload detected by MRI during screening, judged by the investigator to be unsuitable for hematopoietic stem cell transplantation.\n* Current or history of malignancy.\n* Participants with known neurological consciousness disorders, psychological problems, or psychiatric diseases judged by the investigator to be unable to comply with study procedures.\n* Participants with known history of uncontrolled seizures judged by the investigator to be ineligible for this study.\n* Uncontrolled bleeding disorders.\n* Leukocyte count \\< 3 \u00d7 10\u2079/L and/or platelet count \\< 100 \u00d7 10\u2079/L not due to hypersplenism.\n* Participants with other severe cardiovascular, pulmonary, renal, gastrointestinal, hepatic diseases, and/or other organ disorders judged by the investigator to be ineligible for this study.\n* Pregnant or lactating females; females of childbearing potential with a positive serum pregnancy test.\n* Received live or live-attenuated vaccine within 90 days prior to myeloablation.\n* Participants with autoimmune diseases",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Xiaokai Li",
+                "role": "CONTACT",
+                "phone": "+86 18686610731",
+                "email": "xiaokai.li@correctsequence.com"
+              },
+              {
+                "name": "Yaliang Li",
+                "role": "CONTACT",
+                "phone": "+8618621046122",
+                "email": "yaliang.li@correctsequence.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Yongrong Lai",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Yongrong Lai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              },
+              {
+                "facility": "Children's Hospital of Fudan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Xiaowen Zhai",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Xiaowen Zhai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "Ruijin Hospital Shanghai JiaoTong University School of Medicine",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "country": "China",
+                "contacts": [
+                  {
+                    "name": "Saijuan Chen",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Weili Zhao",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06717932",
+            "orgStudyIdInfo": {
+              "id": "CS-101-05"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Follow-up Study to Evaluate the Long-term Safety and Efficacy in Participants Who Received CS-101 Injection",
+            "officialTitle": "A Long-term Follow-up Study Evaluating the Safety and Efficacy of Subjects With \u03b2-thalassemia Treated With CS-101 Transplantation"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-05-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2039-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2039-11",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-12-01",
+            "studyFirstSubmitQcDate": "2024-12-01",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-08",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-01 (NCT06291961),No investigational drug product will be administered in the study.",
+            "detailedDescription": "This is a study to evaluate the long-term safety and efficacy of CS-101 in participants who received CS-101 in study CS -101-01 (NCT06291961). Subjects in the CS-101-01 study will be entered into long-term follow-up of this study up to 15 years post-infusion at the completion of the last (12-month) follow up visit after treatment with CS-101 Injection."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "OTHER",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Safety and efficacy assessments",
+                "description": "Safety evaluations,disease-specific assessments,and assessments to monitor for long-term complications of autologous transplant"
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of SAEs and CS-101 related AES as assessed by CTCAE v5.0",
+                "description": "CommonTerminology Criteria for Adverse Events#CTCAE#has 5 levels of AE determination, increasing in severity as the level increases",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of all-cause death",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of achieving transfusion independence for at least 12 consecutive months",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood Proportion of alleles with intended genetic modification in",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in bone marrow Proportion of alleles with intended genetic modification in",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              },
+              {
+                "measure": "Change in F-Cell concentration over time",
+                "timeFrame": "Through 15 years post CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must have received CS-101 infusion in CS-101-01 study\n* Participants (or his or her legally appointed and authorized representative or guardian) must sign and date informed consent form (ICF) and, where applicable, an assent form\n\nExclusion Criteria:\n\n* There are no exclusion criteria",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "Subject with \u03b2-thalassemia treated with CS-101 infusion in CS-101-01 study",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06065189",
+            "orgStudyIdInfo": {
+              "id": "CS-101-03"
+            },
+            "organization": {
+              "fullName": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            },
+            "briefTitle": "Base-edited Autologous Hematopoietic Stem Cell Transplantation in Treating Patients With \u03b2-thalassemia Major",
+            "officialTitle": "Evaluation and Promotion of Key Technologies of Base-edited Autologous Hematopoietic Stem Cell Transplantation in Treating Patients With \u03b2-thalassemia Major"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-11-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-08-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-08-12",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-09-27",
+            "studyFirstSubmitQcDate": "2023-09-27",
+            "studyFirstPostDateStruct": {
+              "date": "2023-10-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Children's Hospital of Fudan University",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "CorrectSequence Therapeutics Co., Ltd",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of base-edited autologous hematopoietic stem cell transplantation(CS-101) in treating patients with \u03b2-thalassemia major.",
+            "detailedDescription": "CS-101 is an autologous CD34+ cell suspension modified by ex vivo base editing technology, removing the inhibitory effect of BCL11A on the \u03b3-globin coding gene, inducing the production of \u03b3-globin chains, increasing the concentration of fetal hemoglobin (HbF) in the blood, compensating for the loss of adult hemoglobin (HbA) to treat transfusion-dependent type/ Major \u03b2 - thalassemia. The therapy addresses two major challenges in the treatment of the disease: lack of matching donors and graft-versus-host responses commonly seen in allogeneic hematopoietic stem cell transplantation.\n\nThe study consists of the following five phases:\n\nScreening phase: Sign informed consent, complete screening assessments, and confirm the eligibility for enrollment; Baseline: check the subject's baseline status; Mobilization, collection and manufacturing phase: mobilize, collect autologous CD34+ cells and manufacture, release and transport CS-101 product; Conditioning and treatment phase: including myeloablation and CS-101 product infusion; Follow-up phase: 180 days post-infusion."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 2,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-101 injection",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+(cluster of differentiation 34) hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "interventionNames": [
+                  "Biological: CS-101 injection"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "CS-101 injection",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "armGroupLabels": [
+                  "CS-101 injection"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of adverse events(AEs) as assessed by CTCAE v5.0",
+                "timeFrame": "From signing informed consent to 180 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of engraftment",
+                "description": "Subjects with engraftment is defined as neutrophil engrafted",
+                "timeFrame": "within 42 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to neutrophil and platelet engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days; Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/L on three different days and without platelet transfusion",
+                "timeFrame": "Days post-CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of transplant-related death",
+                "timeFrame": "baseline to 100 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of all-cause death",
+                "timeFrame": "From signing informed consent to 180 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Occurrence of achieving transfusion reduction for at least 3 consecutive months",
+                "timeFrame": "From 3 months post -CS-101 infusion to 3 months post -CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Occurrence of achieving transfusion independence for at least 3 consecutive months",
+                "timeFrame": "From 3 months up to 180 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to last red blood cell(RBC) transfusion",
+                "timeFrame": "Days post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "timeFrame": "up to 180 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "timeFrame": "up to 180 days post-CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood and bone marrow",
+                "description": "Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "timeFrame": "up to 180 days post-CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 3 to 17 years old(inclusive) male or female subjects at the time of informed consenting\n* Diagnosis of \u03b2-thalassemia, genotypes include but are not limited to \u03b2+\u03b20, \u03b2E\u03b20, \u03b20\u03b20, etc\n* Generally in good condition, Karnofsky performance score\u226560 points for subjects\u226516 years old at the time of autologous hematopoietic stem cell collection, or Lansky Play-Performance score\u226560 points for subjects under 16 years old, or equivalent clinical evaluation as the investigator site's common practice\n* For female subjects of childbearing potential: use effective contraceptive measures for at least 1 month prior to screening and agree to continue using such measures for contraception throughout the study\n* For male subjects who have a potential ability to father a child: use condoms or other methods continuously from the start of mobilization to ensure effective contraception for sexual partners during the study period\n\nExclusion Criteria:\n\n* Treatment with other investigational medications or other experimental interventions 30 days prior to signing informed consent or within 6 half-lives of the drug, whichever is longer.\n* Subjects who have received or are receiving thalidomide and/or Luspatercept, when their drug-drug interaction on the efficacy and safety of CS-101 cannot be ruled out, unless at least there are 3 test results showing the total hemoglobin level before transfusion is below 9g/dL in the past 6 months before screening.\n* Previously received allogeneic hematopoietic stem cell transplantation or gene(edited) therapy.\n* Subjects have available related fully matching donors and are eligible and prepared for allogeneic hematopoietic stem cell transplantation.\n* Subjects with coexisting \u03b1-thalassemia and more than 2 deletions or non-deletional mutations in the \u03b1-globin chain coding genes.\n* Known to be allergic to drugs used during autologous hematopoietic stem cell transplantation (including but not limited to granulocyte colony-stimulating factor, busulfan, dextran), excipients(such as dimethyl sulfoxide), or instruments(such as intravenous catheters) as determined by the investigator are deemed unsuitable to participate in this study.\n* Those with active infections, including but not limited to: HIV, hepatitis B, hepatitis C, cytomegalovirus, Epstein-Barr virus and treponema pallidum test positive, or known tuberculosis, parasitic infection, etc. who are judged by the investigator to be unsuitable to participate in this study\n* Echocardiography results with ejection fraction below 45%\n* Subjects who are febrile (temperature over 37.3\u00b0 C) should be held back from enrolment.\n* Advanced liver disease, defined as aspartate aminotransferase (AST), alanine aminotransferase (ALT) \\>3 \u00d7 upper limit of normal (ULN) or baseline International Normalized Ratio (INR) \\>1.5 \u00d7 ULN\n* MRI during the screening period showed heavy iron overload and is judged by the investigator to be unable to participate in the study.\n* Patients with past/present history of cancer\n* Known neurological disorders, psychological problems or mental illness, and is judged by the investigator to be unable to cooperate with the study procedures\n* Known history of uncontrolled epileptic seizures and is judged by the investigator to be unfit to participate in this study\n* Known history of other serious cardiovascular, pulmonary, renal diseases, digestive tract conditions, liver diseases and / or other conditions, etc., and are judged by the investigator to be intolerable or inappropriate for autologous hematopoietic stem cell mobilization, collection, and myeloablative conditioning and infusion\n* Pregnant or lactating women",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Xiaowen Zhai, M.D.",
+                "affiliation": "Children's Hospital of Fudan University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Children's Hospital of Fudan University",
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "zip": "201102",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "42705233",
+                "type": "DERIVED",
+                "citation": "Liu R, Lai Y, Wang L, Qian X, Ma XK, Li Y, Yang G, Shi L, Li Z, Wei J, Wei Z, Wang H, Zhou X, Yu L, Yang B, Zhai X, Mou X, Yang L, Chen J. Clinical base editing for beta-hemoglobinopathies across different genetic backgrounds. Cell Stem Cell. 2026 Sep 7:S1934-5909(26)00310-3. doi: 10.1016/j.stem.2026.08.009. Online ahead of print."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06328764",
+            "orgStudyIdInfo": {
+              "id": "CS-101-11"
+            },
+            "organization": {
+              "fullName": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "CS-101 in Patients With \u03b2-thalassemia",
+            "officialTitle": "A Clinical Study Evaluating the Safety and Efficacy of Autologous Peripheral Blood Hematopoietic Stem and Progenitor Cells (CS-101) Modified by Ex Vivo Base Editing to Induce \u03b3-Globin Production in Treating Patients With \u03b2-Thalassemia"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "ENROLLING_BY_INVITATION",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-03-19",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-07-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-07-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-19",
+            "studyFirstSubmitQcDate": "2024-03-19",
+            "studyFirstPostDateStruct": {
+              "date": "2024-03-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CorrectSequence Therapeutics Co., Ltd",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "First Affiliated Hospital of Guangxi Medical University",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this open label, single-arm clinical study is to learn about the safety and efficacy of CS-101 in treating \u03b2-thalassemia.",
+            "detailedDescription": "CS-101 is an autologous CD34+ cell suspension, edited by in vitro base editing technology, which modifies the BCL11A binding site in HBG promoter, so that it loses the ability to bind to BCL11A, which can re-induce the production of \u03b3-globin chain and increase the concentration of fetal hemoglobin(HbF) in the blood, compensating for the function of missing adult hemoglobin HbA to achieve clinical cure. The therapy addresses two major challenges in the current treatment of the disease: lack of matching donors and graft-versus-host diseases in allogeneic hematopoietic stem cell transplantation."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Beta-Thalassemia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CS-101",
+                "type": "EXPERIMENTAL",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "interventionNames": [
+                  "Genetic: CS-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "CS-101",
+                "description": "Autologous CD34+ hematopoietic stem cell suspension modified by in vitro base editing technique",
+                "armGroupLabels": [
+                  "CS-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency and severity of adverse events(AEs\uff09as assessed by CTCAE v5.0",
+                "timeFrame": "From signing informed consent to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to neutrophil and platelet engraftment",
+                "description": "Time to neutrophil engraftment is defined as first day of 3 consecutive measurements of absolute neutrophil count\u22650.5\u00d710\\^9/L on three different days\uff1b Time to platelet engraftment is defined as first day of 3 consecutive measurements of absolute platelet count\u226520\u00d710\\^9/L on three different days and without platelet transfusion\uff1b",
+                "timeFrame": "Days post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects with engraftment",
+                "description": "Subjects with engraftment is defined as neutrophil engrafted",
+                "timeFrame": "within 42 days post-CS-101infusion"
+              },
+              {
+                "measure": "Incidence of transplant-related mortality",
+                "timeFrame": "From baseline to 100 days post-CS-101 infusion"
+              },
+              {
+                "measure": "All-cause mortality",
+                "timeFrame": "From signing informed consent to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Proportion of subjects achieving transfusion independence for at least 6 consecutive months",
+                "timeFrame": "From 3 months up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Time to last red blood cell(RBC) transfusion",
+                "timeFrame": "Days post-CS-101 infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in total hemoglobin(Hb) concentration over time",
+                "description": "Total hemoglobin concentration change from baseline to 12 months post-CS-101 infusion",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Change in fetal hemoglobin(HbF) concentration over time",
+                "description": "\u03b3-globin concentration change from baseline to 12 months post-CS-101 infusion",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              },
+              {
+                "measure": "Chimerism level in Peripheral blood and bone marrow",
+                "description": "Proportion of alleles with intended genetic modification in peripheral blood leukocytes and bone marrow over time",
+                "timeFrame": "up to 12 months post-CS-101 infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 6 to 35 years old(inclusive) male or female subjects at the time of informed consenting Diagnosis of \u03b2-thalassemia, genotypes include but are not limited to \u03b2+\u03b20\uff0c\u03b2E\u03b20\uff0c\u03b20\u03b20, etc History of at least\u22658 units/year of packed RBC transfusions in the prior 12 months prior to the screening period Generally in good condition, Karnofsky performance score\u226560 points for subjects\u226516 years old at the time of autologous hematopoietic stem cell collection, or Lansky Play-Performance score\u226560 points for subjects under 16 years old, or equivalent clinical evaluation as the investigator site's common practice\n\nExclusion Criteria:\n\n* Treatment with other investigational medications or other experimental interventions 30 days prior to signing informed consent or within 6 half-lives of the drug, whichever is longer.\n\nSubjects who have received or are receiving thalidomide and/or Luspatercept, when their drug-drug interaction on the efficacy and safety of CS-101 cannot be ruled out, unless at least there are 3 test results showing the total hemoglobin level before transfusion is below 9g/dL in the past 6 months before screening.\n\nPreviously received allogeneic hematopoietic stem cell transplantation or gene(edited) therapy.\n\nSubjects have available related fully matching donors and are eligible and prepared for allogeneic hematopoietic stem cell transplantation.\n\nThose with active infections, including but not limited to: HIV, hepatitis B, hepatitis C, cytomegalovirus, Epstein-Barr virus and treponema pallidum test positive, or known tuberculosis, parasitic infection, etc. who are judged by the investigator to be unsuitable to participate in this study.\n\nEchocardiography results with ejection fraction below 45%. Advanced liver disease, defined as\uff1a\n\nAspartate aminotransferase (AST), alanine aminotransferase (ALT) \\>3 \u00d7 upper limit of normal (ULN) or:\n\nBaseline International Normalized Ratio (INR) \\>1.5 \u00d7 ULN.\n\nMRI during the screening period showed heavy iron overload and is judged by the investigator to be unable to participate in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Yongrong Lai, M.D.",
+                "affiliation": "First Affiliated Hospital of Guangxi Medical University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The First Affiliated Hospital of Guangxi Medical University",
+                "city": "Nanning",
+                "state": "Guangxi",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 22.81667,
+                  "lon": 108.31667
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "42705233",
+                "type": "DERIVED",
+                "citation": "Liu R, Lai Y, Wang L, Qian X, Ma XK, Li Y, Yang G, Shi L, Li Z, Wei J, Wei Z, Wang H, Zhou X, Yu L, Yang B, Zhai X, Mou X, Yang L, Chen J. Clinical base editing for beta-hemoglobinopathies across different genetic backgrounds. Cell Stem Cell. 2026 Sep 7:S1934-5909(26)00310-3. doi: 10.1016/j.stem.2026.08.009. Online ahead of print."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

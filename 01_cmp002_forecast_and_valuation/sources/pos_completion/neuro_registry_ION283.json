@@ -1,0 +1,336 @@
+{
+  "asset": "ION283",
+  "query": "ION283",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ION283&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06609889",
+            "orgStudyIdInfo": {
+              "id": "STU-2024-0411"
+            },
+            "organization": {
+              "fullName": "University of Texas Southwestern Medical Center",
+              "class": "OTHER"
+            },
+            "briefTitle": "A Safety and Efficacy of Intrathecally Administered ION283 in Patients With Lafora Disease",
+            "officialTitle": "A Phase 1/2 Open Label Study to Evaluate the Safety and Efficacy of Intrathecally Administered ION283 in Patients With Lafora Disease",
+            "acronym": "Lafora"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+              "date": "2024-12-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-08-10",
+            "studyFirstSubmitQcDate": "2024-09-19",
+            "studyFirstPostDateStruct": {
+              "date": "2024-09-24",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR_INVESTIGATOR",
+              "investigatorFullName": "Berge Minassian",
+              "investigatorTitle": "Professor & Division Chief (Pediatrics-Neurology)",
+              "investigatorAffiliation": "University of Texas Southwestern Medical Center"
+            },
+            "leadSponsor": {
+              "name": "Berge Minassian",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Elpida Therapeutics SPC",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will test the safety and efficacy of multiple doses of ION283 administered as intrathecal (IT) injections by lumbar puncture (LP). All subjects will receive ION283. The dose level of 15 mg will be studied in all subjects.",
+            "detailedDescription": "A Phase 1/2 Open Label Study to Evaluate the Safety and Efficacy of Intrathecally Administered ION283 in Patients with Lafora Disease\n\nA single cohort will be evaluated in the study:\n\nN=10\n\n\u2022 Initial dose of 15 mg ION283 intrathecal bolus (ITB) injection every 12 weeks.\n\nThe study consists of 2 periods:\n\n* Screening Period: 4 weeks\n* Open label Treatment Period: 24 months"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lafora Disease"
+            ],
+            "keywords": [
+              "Lafora Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ION283 Arm",
+                "type": "EXPERIMENTAL",
+                "description": "Open label evaluation of ION283. All subjects with Lafora disease enrolled in this study will receive ION283.",
+                "interventionNames": [
+                  "Genetic: ION283"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "ION283",
+                "description": "Anti-sense Oligonucleotide therapy that includes intrathecal (IT) injections by lumbar puncture (LP) with dose level of 15 mg.",
+                "armGroupLabels": [
+                  "ION283 Arm"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Safety of ION283 as assessed by the number of participants with Treatment related AEs",
+                "description": "Safety of ION283 will be assessed by the number of participants with Treatment related Adverse Events (AEs) which will be listed according to the severity (mild, moderate, severe) as assessed by the Investigator.\n\nA dose limiting toxicity (DLT) is defined as any \u2265 Grade 3 (severe, life-threatening, disabling, or fatal) AND related to the Study Drug. The occurrence of (i) DLTs in 2 patients following administration or (ii) a single serious adverse event (SAE) that is life threatening and related to Study Drug will result in termination of further dosing and the dose tested will be considered to be dose limiting.",
+                "timeFrame": "2 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Efficacy of ION283 as measured by Lafora Disease Performance Scale",
+                "description": "A change from baseline at 2 years in Lafora Disease performance Scale scores will be assessed. The Lafora Disease Performance Scale assesses disease severity across 6 domains (seizures, myoclonus, ambulation, cognition, speech, function/activity of daily living). For each domain, a score between 3 (best performance) and 0 (worst performance) is assigned. The scores of each domain are added up to a total score.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Pediatric Evaluation of Disability Inventory Scale",
+                "description": "A change from baseline at 2 years in Pediatric Evaluation of Disability Inventory (PEDI) Scale scores will be assessed. The PEDI measures abilities in three functional domains: daily activities, mobility and social/cognitive. The PEDI's responsibility domain measures the extent to which the caregiver or child takes responsibility for managing complex, multi-step life tasks. Possible scores range from 0-100 where higher scores indicate better outcome.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Parent Global Impression of Change Scale",
+                "description": "A change from baseline at 2 years in Parent Global Impression of Change (PGI) Scale scores will be assessed. The PGI scale is a single, self-administered questionnaire reflects a patient's belief about the efficacy of treatment (i.e., how their condition has changed since a certain point in time after treatment). Possible scores range from 0-5 where higher scores indicate better outcome.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Clinical Global Impression of Change Scale",
+                "description": "A change from baseline at 2 years in Clinical Global Impression of Change (CGI) Scale scores will be assessed. The CGI scale is a seven-point scale that clinicians use to assess how much a patient's illness has improved or worsened since the beginning of treatment. Possible scores range from 1-7 where lower scores indicate better outcome.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Quality of Life in Childhood Epilepsy questionnaire",
+                "description": "A change from baseline at 2 years in score scales of the Quality of Life in Childhood Epilepsy (QOLCE-55) questionnaires will be assessed. Possible scores range from 0-100 where higher scores reflect higher quality of life. QOLCE-55 is a parent proxy QoL questionnaire for children with epilepsy. It will be used throughout the study for patients who are 5 to 10 years old at Screening. Subject who progress to the next age category over the course of the study will continue to be evaluated according to the initial testing instrument.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Quality of Life in Epilepsy for Adolescents questionnaire",
+                "description": "A change from baseline at 2 years in score scales of the Quality of Life in Epilepsy (QOLIE-AD48) for Adolescents questionnaires will be assessed. Possible scores range from 0-100 where higher scores reflect higher quality of life. QOLIE-AD48 is a survey of health-related QoL for adolescents with epilepsy. It will be used throughout the study by patients who are 11 to 17 years of age at Screening.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by Patient-Weighted Quality of Life in Epilepsy inventory questionnaire",
+                "description": "A change from baseline at 2 years in score scales of the Patient-Weighted Quality of Life in Epilepsy inventory (QOLIE-31P) (version 2) questionnaires will be assessed. Possible scores range from 0-100 where higher scores reflect higher quality of life.\n\nQOLIE-31P (version 2) is a survey of health-related QoL for adults. It will be used throughout the study by patients who are 18 years of age or older at Screening.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by change in frequency of seizures from baseline",
+                "description": "The change in frequency of seizures \\[for Tonic Clonic Seizures (TCS) and status Epilepticus\\] from baseline at 2 years would be assessed.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by change in EEG recordings from baseline: Background rhythms (posterior dominant rhythm)",
+                "description": "The change in Electroencephalogram (EEG) activity (i.e., frequency of background/ posterior dominant EEG rhythms) from baseline at 2 years would be assessed.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by change in EEG recordings from baseline: Background rhythms ( normal versus abnormal sleep physiology to include presence of sleep spindles)",
+                "description": "The change in Electroencephalogram (EEG) activity (i.e., frequency of background EEG rhythms-normal versus abnormal sleep physiology to include presence of sleep spindles) from baseline at 2 years would be assessed.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by change in EEG recordings from baseline: Electrographic seizures on EEG",
+                "description": "The change in Electroencephalogram (EEG) activity (i.e., frequency of Electrographic seizures) from baseline at 2 years would be assessed.",
+                "timeFrame": "Baseline, 2 years"
+              },
+              {
+                "measure": "Efficacy of ION283 as measured by change in EEG recordings from baseline: Epileptiform discharges",
+                "description": "The change in Electroencephalogram (EEG) activity (i.e., counts of epileptiform discharges) from baseline at 2 years would be assessed.",
+                "timeFrame": "Baseline, 2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nGeneral Inclusion Criteria\n\n* Must give written informed consent (and assent if indicated by patient's age and in accordance with local requirements) and be willing/able to comply with all study requirements.\n* Aged 10-18 (inclusive) years old at the time of informed consent.\n* Non-pregnant and non-lactating females\n* All male participants and women of childbearing potential must refrain from sperm/egg donation from the time of signing the informed consent/assent form until at least 12 weeks (approximately 5 half-lives of ION283) after the dose of Study Drug.\n* For participants engaged in sexual relations of childbearing potential, highly effective contraception must be used from the time of signing the informed consent/assent form until at least 12 weeks (approximately 5 half-lives of ION283) after receiving Study Drug.\n\nTarget Inclusion Criteria\n\n* Genetically confirmed diagnosis of Lafora disease before or at enrollment (documented pathogenic mutations in known causative genes (EPM2A/laforin, EPM2B/NHLRC1/malin)\n* Must have LDPS score \u2265 9 and LDPS motor subscore of \u2265 2 (independent ambulation- walking 10 steps independently)\n\nExclusion Criteria\n\n* Clinically significant abnormalities in medical history (e.g., previous stroke within 6 months of Screening, major surgery within 3 months of Screening) or physical examination\n* Platelet count \\< 80,000/mm3 or any other clinically significant laboratory abnormalities that would render a patient unsuitable for inclusion.\n* History of bleeding diathesis or coagulopathy\n* Active infection requiring systemic antiviral or antimicrobial therapy that will not be completed prior to Study Day 1\n* Unwillingness to comply with study procedures, including follow-up, as specified by this protocol, or unwillingness to cooperate fully with the Investigator\n* Contraindication or unwillingness to undergo lumbar puncture\n* Known history of, or positive test for human immunodeficiency virus (HIV), hepatitis C or chronic hepatitis B\n* Moderate-to-severe hepatic impairment or renal impairment.\n* Malignancy within 5 years, except for basal or squamous cell carcinoma of the skin, carcinoma in situ of the cervix that has been successfully treated or benign pediatric tumors. Patients with a history of other malignancies that have been treated with curative intent and which have no recurrence within 5 years may also be eligible if approved by the Sponsor's Medical Monitor\n* Uncontrolled hypertension defined as:\n\nfor patients \\< 13 years old, BP \u2265 95th percentile + 12 mmHg, or \u2265 140/90 mmHg, whichever is lower for patients \u2265 13 years old, BP \u2265 140/90 mmHg\n\n* Previous treatment with an oligonucleotide (including small interfering ribonucleic acid \\[siRNA\\]) within 4 months of Screening if single dose received, or within 12 months of Screening if multiple doses received; or history of hypersensitivity to ION283 or its excipients; or history of hypersensitivity to any ASO. This exclusion criterion does not apply to COVID-19 mRNA vaccinations\n* History of alcohol or drug abuse within 12 months of Screening, or current drug or alcohol abuse\n* Has enrolled in any clinical trial or used any investigational agent or device, or has participated in any investigational procedure, within the 30 days, or within 5 half-lives of investigational agent, whichever is longer, before screening or does so concurrently with this study\n* Use of antiplatelet or anticoagulant therapy within the 14 days prior to Screening (with the exception of aspirin \u2264 mg/day) or anticipated use during the study, including but not limited to clopidogrel, dipyridamole, warfarin, dabigatran, rivaroxaban, and apixaban",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "10 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Kristy Riddle, RN, BSN",
+                "role": "CONTACT",
+                "phone": "214-456-9501",
+                "email": "LDRecruiting@utsouthwestern.edu"
+              },
+              {
+                "name": "Ben Eckert, BA",
+                "role": "CONTACT",
+                "email": "LDRecruiting@utsouthwestern.edu"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Berge Minassian, MD",
+                "affiliation": "University of Texas Southwestern Medical Center",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Childrens Health",
+                "status": "RECRUITING",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75235",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Berge Minassian, MD",
+                    "role": "CONTACT",
+                    "email": "LDRecruiting@utsouthwestern.edu"
+                  },
+                  {
+                    "name": "Ben Eckert",
+                    "role": "CONTACT",
+                    "email": "LDRecruiting@utsouthwestern.edu"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "40258565",
+                "type": "DERIVED",
+                "citation": "Wu J, Lynn TC, Nitschke S, Mitra S, Minassian BA. Lithium exacerbates Lafora body formation in the Epm2a-/- Lafora disease mouse model. Neurosci Lett. 2025 May 29;856-858:138250. doi: 10.1016/j.neulet.2025.138250. Epub 2025 Apr 19."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D020192",
+                "term": "Lafora Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020191",
+                "term": "Myoclonic Epilepsies, Progressive"
+              },
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              },
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

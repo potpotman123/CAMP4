@@ -1,0 +1,313 @@
+{
+  "asset": "CKD-504",
+  "query": "CKD-504",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=CKD-504&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03713892",
+            "orgStudyIdInfo": {
+              "id": "175MAD17021"
+            },
+            "organization": {
+              "fullName": "Chong Kun Dang Pharmaceutical",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "CKD-504 in SAD and MAD in Healthy Korean and Caucasian Adult Male and Female Subjects",
+            "officialTitle": "Phase I Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety, Tolerability, PK, PD of CKD-504 in Single SAD and MAD in Healthy Korean and Caucasian Adult Male and Female Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-02",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-05-23",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2020-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2020-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-10-17",
+            "studyFirstSubmitQcDate": "2018-10-18",
+            "studyFirstPostDateStruct": {
+              "date": "2018-10-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-02-21",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-02-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chong Kun Dang Pharmaceutical",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "To assess the safety, tolerability, pharmacokinetics (PK) and pharmacodynamics (PD) of single and multiple ascending oral doses of CKD-504 compared to placebo in healthy Korean and Caucasian adult subjects"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 88,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "CKD-504",
+                "type": "EXPERIMENTAL",
+                "description": "investigational Drug",
+                "interventionNames": [
+                  "Drug: CKD-504"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "investigational Drug",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "CKD-504",
+                "description": "orally administered once with investigational drug assigned on 1d morning with 240 mL of water",
+                "armGroupLabels": [
+                  "CKD-504"
+                ],
+                "otherNames": [
+                  "HDAC inhibitor"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "orally administered",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Cmax of CKD-504",
+                "description": "Peak Plasma Concentration (Cmax) of CKD-504",
+                "timeFrame": "Day1, Day2, Day3, Day4"
+              },
+              {
+                "measure": "AUC of CKD-504",
+                "description": "Area under the plasma concentration versus time curve (AUC) of CKD-504",
+                "timeFrame": "Day1, Day2, Day3, Day4"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy adult Korean or Caucasian aged 19 to 45 (inclusive) years, at the time of screening.\n* Subjects weighing \u2265 50 kg with BMI between 18 and 27 kg/m2 (inclusive) at screening visit.\n* Subjects who agreed to voluntarily participate in this study and comply with all the protocol requirements by signing informed consent form after being informed of the nature of this study and understanding all aspects of this study.\n* Subjects who were deemed as eligible subjects by investigators on their physical examination, laboratory findings, and medical examination by interview.\n\nExclusion Criteria:\n\n* Subjects with a history of hypersensitivities to the drug, including investigational drugs or other drugs or with a history of clinically significant hypersensitivities.\n* Subjects with a history of drug abuse or a positive urine screening for drug abuse.\n* Subjects who have participated and taken investigational drug in any other clinical trial (including bioequivalence study) within three months prior to study drug administration.\n* Subjects who have donated a unit of whole blood within 60 days or blood components within 30 days prior to study drug administration.\n* Subjects judged ineligible for the study after a review of the clinical laboratory results by the investigator or for other reasons.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Min Ji Song",
+                "role": "CONTACT",
+                "phone": "82-2-3149-7853",
+                "email": "songmj@ckdpharm.com"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Kyung-Sang Yu",
+                "affiliation": "Seoul National University Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Seoul National University Hospital",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "country": "South Korea",
+                "contacts": [
+                  {
+                    "name": "In-Jin Jang",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "In-Jin Jang",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000722332",
+                "term": "CKD-504"
+              },
+              {
+                "id": "D056572",
+                "term": "Histone Deacetylase Inhibitors"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004791",
+                "term": "Enzyme Inhibitors"
+              },
+              {
+                "id": "D045504",
+                "term": "Molecular Mechanisms of Pharmacological Action"
+              },
+              {
+                "id": "D020228",
+                "term": "Pharmacologic Actions"
+              },
+              {
+                "id": "D020164",
+                "term": "Chemical Actions and Uses"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

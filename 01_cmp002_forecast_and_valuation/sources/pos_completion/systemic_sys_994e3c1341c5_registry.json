@@ -1,0 +1,665 @@
+{
+  "integrated_id": "systemic:sys_994e3c1341c5",
+  "asset": "BI 3720931",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=BI+3720931",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06962852",
+            "orgStudyIdInfo": {
+              "id": "1504-0003"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2023-504909-37-00",
+                "type": "REGISTRY",
+                "domain": "CTIS"
+              },
+              {
+                "id": "U1111-1291-2932",
+                "type": "REGISTRY",
+                "domain": "WHO - International Clinical Trials Registry Platform (ICTRP)"
+              },
+              {
+                "id": "2023",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2023"
+              }
+            ],
+            "organization": {
+              "fullName": "Boehringer Ingelheim",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Long-term Study to Monitor the Health Status of People With Cystic Fibrosis Who Took Part in a Previous Study With BI 3720931 (Lenticlair\u2122-ON)",
+            "officialTitle": "A Clinical Trial to Evaluate the Long-term Safety and Durability of Efficacy of BI 3720931, an Inhaled Lentiviral Vector Gene Therapy, After Single Dose Administration in a Previous Clinical Trial, in People With Cystic Fibrosis Rolled-over From a Previous Clinical Trial With BI 3720931 (Lenticlair\u2122-ON)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-04",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-05-20",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2040-10-29",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2040-10-29",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-04-30",
+            "studyFirstSubmitQcDate": "2025-04-30",
+            "studyFirstPostDateStruct": {
+              "date": "2025-05-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-04-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-04-14",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Boehringer Ingelheim",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is for people with cystic fibrosis who took part in a previous study with a medicine called BI 3720931. The main purpose of this study is to monitor the long-term health of participants who were treated with BI 3720931 in the previous study. Participants in this study do not receive additional treatment with BI 3720931.\n\nParticipants who previously took BI 3720931 are in this study for 15 years. Participants who previously took placebo are in the study only until it is disclosed that they were in the placebo group, after which they stop. Participants who previously took BI 3720931 visit the study site about 20 times. Participants visit once every 3 months during the first 2 years.\n\nAfter that, they visit once a year. During study visits, doctors check the health of the participants and note any health problems that could have been caused by BI 3720931. They also do lung function tests to see if BI 3720931 helps people with cystic fibrosis in the long term."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "The trial is intended to assess 2 different objectives: long-term safety over 15 years and durability of efficacy over at least 2 years of BI 3720931 after single dose administration in a previous clinical trial in trial participants with cystic fibrosis (CF).",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "All trial participants",
+                "type": "EXPERIMENTAL",
+                "description": "All trial participants who have received at least one dose of BI 3720931 or matching placebo in a previous trial with BI 3720931.\n\nTrial participants who received placebo in the previous trial do not need to be followed for 15 years; once the treatment in the previous trial has been unblinded, their participation in this trial is then terminated.",
+                "interventionNames": [
+                  "Genetic: BI 3720931"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "BI 3720931",
+                "description": "BI 3720931",
+                "armGroupLabels": [
+                  "All trial participants"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Occurrence of treatment-emergent delayed adverse events (AEs)",
+                "description": "Treatment-emergent delayed AEs are defined as new malignancies, new serious neurologic disorders, new serious rheumatologic or autoimmune disorders, new serious hematologic disorders, or new serious potentially product-related infections, until 15 years from enrolment",
+                "timeFrame": "up to 15 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Time to loss of efficacy defined as the drop to below 5% (absolute) above baseline in forced expiratory volume in 1 second, percent of predicted value (FEV1pp)",
+                "timeFrame": "up to 15 years"
+              },
+              {
+                "measure": "Time to first pulmonary exacerbation (PEX) from last dosing",
+                "timeFrame": "up to 15 years"
+              },
+              {
+                "measure": "Occurrence of AEs up to 2 years after enrolment",
+                "timeFrame": "up to 2 years"
+              },
+              {
+                "measure": "Occurrence of serious adverse events (SAEs) throughout the study",
+                "timeFrame": "up to 15 years"
+              },
+              {
+                "measure": "Occurrence of replication-competent lentivirus (RCL) throughout the study",
+                "timeFrame": "up to 15 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria:\n\n1. Trial participants who participated in a previous BI sponsored trial with BI 3720931 and have received any dose of BI 3720931, or matching placebo\n2. Signed and dated written informed consent in accordance with International Council for Harmonisation (ICH)-Good Clinical Practice (GCP) and local legislation prior to admission to the trial\n\nThere are no exclusion criteria for enrolment into the trial.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "H\u00f4pital Gui de Chauliac",
+                "city": "Montpellier",
+                "zip": "34295",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "facility": "Osp. Pediatrico Bambin Ges\u00f9",
+                "city": "Roma",
+                "zip": "00165",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Universitair Medisch Centrum Utrecht",
+                "city": "Utrecht",
+                "zip": "3584 CX",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "Hospital Universitari Vall d'Hebron",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Royal Brompton Hospital",
+                "city": "London",
+                "zip": "SW3 6JY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Related Info",
+                "url": "https://www.clinicalstudies.boehringer-ingelheim.com/msw/datatransparency"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Clinical studies sponsored by Boehringer Ingelheim, phases I to IV, interventional and non-interventional, are in scope for sharing of the raw clinical study data and clinical study documents. Exceptions might apply, e.g. studies in products where Boehringer Ingelheim is not the license holder; studies regarding pharmaceutical formulations and associated analytical methods, and studies pertinent to pharmacokinetics using human biomaterials; studies conducted in a single center or targeting rare diseases (in case of low number of patients and therefore limitations with anonymization).\n\nFor more details refer to: https://www.clinicalstudies.boehringer-ingelheim.com/msw/datasharing"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06515002",
+            "orgStudyIdInfo": {
+              "id": "1504-0001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2023-503281-23-00",
+                "type": "REGISTRY",
+                "domain": "CTIS"
+              },
+              {
+                "id": "U1111-1291-0800",
+                "type": "REGISTRY",
+                "domain": "WHO International Clinical Trials Registry Platform (ICTRP)"
+              },
+              {
+                "id": "1504.1",
+                "type": "OTHER",
+                "domain": "Sponsor ID"
+              },
+              {
+                "id": "2023",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2023"
+              }
+            ],
+            "organization": {
+              "fullName": "Boehringer Ingelheim",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Test How Well BI 3720931 is Tolerated and Whether it Improves Lung Function in People With Cystic Fibrosis (Lenticlair\u2122 1)",
+            "officialTitle": "A Seamless Phase I/II Trial With an Initial Open-label Dose Escalation Part and a Subsequent Randomised, Double-blind, Placebo-controlled Expansion Part to Evaluate the Safety, Tolerability, and Efficacy of a Single Dose of BI 3720931, an Inhaled Lentiviral Vector Gene Therapy, in Adult People With Cystic Fibrosis Who Are Ineligible for CFTR Modulators (Lenticlair 1)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-04",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Sponsor decision",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-04",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-02-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-02-03",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-07-18",
+            "studyFirstSubmitQcDate": "2024-07-18",
+            "studyFirstPostDateStruct": {
+              "date": "2024-07-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-04-14",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-04-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Boehringer Ingelheim",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is open to adult men with cystic fibrosis and adult women with cystic fibrosis who cannot have children. People with cystic fibrosis can join if they are not eligible to receive cystic fibrosis transmembrane conductance regulator modulator therapy (CFTR-MT). The purpose of this study is to find out how well a medicine called BI 3720931 is tolerated and whether it improves lung function in people with cystic fibrosis. In this study, BI 3720931 is given to humans for the first time.\n\nThis study has two phases. In Phase 1, participants are put in one of 3 groups, one group after the other. Each group gets a different dose of BI 3720931. Group 1 starts with the lowest dose, followed by group 2 with the middle and group 3 with the high dose. In Phase 2, participants are put into 3 groups by chance, but at the same time. 2 groups get different doses of BI 3720931 selected based on results of Phase 1, and 1 group gets placebo. All study participants get only 1 dose of BI 3720931 or placebo and they use a special inhaler to take the study medicine. The placebo inhaler looks like the BI 3720931 inhaler but does not contain any medicine. During the study, participants continue taking their usual medicines.\n\nDoctors closely monitor participants' health at the study site for the first 3 days after receiving BI 3720931. Participants visit their doctors regularly thereafter. The doctors check the health of the participants and note any health problems that could have been caused by BI 3720931. Study participants regularly do a standard lung function test to measure how well their lungs are working. Participants, in either Phase 1 or Phase 2, are in the study for 7 months. After completion of this study, participants will take part in a long-term follow-up study (1504-0003)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "The open-label dose escalation part, Phase I, will study the safety and efficacy of single doses of three different dose levels of BI 3720931 in trial participants with cystic fibrosis (CF).\n\nPhase II will be a double-blind, placebo-controlled, dose expansion part with 3 arms: first arm investigating Phase II dose 1, second arm investigating Phase II dose 2, and third arm for placebo.\n\nAn interim analysis of the safety and efficacy data from Phase I will be used for the decision making to move to Phase II and the selection of doses in Phase II.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Phase I: open-label Phase II: double-blind",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 5,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Phase I: Dose group 1 (low dose)",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: BI 3720931",
+                  "Device: Inhaler"
+                ]
+              },
+              {
+                "label": "Phase I: Dose group 2 (medium dose)",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: BI 3720931",
+                  "Device: Inhaler"
+                ]
+              },
+              {
+                "label": "Phase I: Dose group 3 (high dose)",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: BI 3720931",
+                  "Device: Inhaler"
+                ]
+              },
+              {
+                "label": "Phase II: Dose group 1",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: BI 3720931",
+                  "Device: Inhaler"
+                ]
+              },
+              {
+                "label": "Phase II: Dose group 2",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Genetic: BI 3720931",
+                  "Device: Inhaler"
+                ]
+              },
+              {
+                "label": "Phase II: Placebo group",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo",
+                  "Device: Inhaler"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "GENETIC",
+                "name": "BI 3720931",
+                "description": "BI 3720931",
+                "armGroupLabels": [
+                  "Phase I: Dose group 1 (low dose)",
+                  "Phase I: Dose group 2 (medium dose)",
+                  "Phase I: Dose group 3 (high dose)",
+                  "Phase II: Dose group 1",
+                  "Phase II: Dose group 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Phase II: Placebo group"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Inhaler",
+                "description": "Inhaler for application of BI 3720931 and placebo",
+                "armGroupLabels": [
+                  "Phase I: Dose group 1 (low dose)",
+                  "Phase I: Dose group 2 (medium dose)",
+                  "Phase I: Dose group 3 (high dose)",
+                  "Phase II: Dose group 1",
+                  "Phase II: Dose group 2",
+                  "Phase II: Placebo group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Phase I: Occurrence of any drug-related, treatment-emergent adverse events (AE) up to Week 24 after drug administration",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "Phase II: Absolute change from baseline in forced expiratory volume in 1 second, percent of predicted value (FEV1pp) at Week 8 after drug administration",
+                "timeFrame": "at baseline, at week 8"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Phase I: Occurrence of treatment response defined as change from baseline \u22655% in FEV1pp, comparing the mean of 3 pre-treatment FEV1pp measured in the screening period with the mean of 3 post-treatment FEV1pp-values at Weeks 4, 6, and 8",
+                "timeFrame": "up to 12 weeks"
+              },
+              {
+                "measure": "Phase I: Absolute change from baseline in FEV1pp at Week 24 after drug administration",
+                "timeFrame": "at baseline, at week 24"
+              },
+              {
+                "measure": "Phase I: Occurrence of any dose limiting toxicities (DLTs) up to Week 24 after drug administration",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "Phase II: Absolute change from baseline in FEV1pp at Week 24 after drug administration",
+                "timeFrame": "at baseline, at week 24"
+              },
+              {
+                "measure": "Phase II: Occurrence of any serious adverse events (SAEs) up to Week 24 after drug administration",
+                "timeFrame": "up to 24 weeks"
+              },
+              {
+                "measure": "Phase II: Occurrence of any drug-related, treatment-emergent AEs up to Week 24 after drug administration",
+                "timeFrame": "up to 24 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key inclusion criteria:\n\n* Cystic fibrosis (CF)-pulmonary phenotype and a confirmed diagnosis of CF:\n\n  * Positive sweat chloride \u226560 mmol/L by pilocarpine iontophoresis OR\n  * Genotype with 2 identifiable CF-causing mutations accompanied by one or more clinical features if sweat chloride testing is between 30 and 59 mmol/L\n* Trial participants who are not eligible for treatment with cystic fibrosis transmembrane conductance regulator modulator therapy (CFTRmt) due to their genotype with 2 identified CFTR-mutations (including Class I CFTR gene mutations) and are also not expected to become eligible during the trial according to investigator\u00b4s opinion\n* Trial participants able to perform acceptable spirometric maneuvers according to American Thoracic Society/European Respiratory Society 2019 standards\n* Forced expiratory volume in 1 second, percent of predicted value (FEV1pp) \u226550% and \u2264100% of predicted normal at Visit 1. Predicted value based on Global Lung Initiative lung function reference equations\n* Stable CF disease with no pulmonary exacerbation 4 weeks prior to the screening visit and during the screening period and stable drug- and non-drug therapy for CF in the 4 weeks prior to dosing Further inclusion criteria apply.\n\nKey exclusion criteria:\n\n* Trial participants not eligible for CFTRmt based on contraindications (e.g. liver failure) or who needed to withdraw CFTRmt due to intolerability are not appropriate candidates for this Phase I/II trial\n* Trial participants requiring chronic use of systemic corticosteroids or immunosuppressants to treat another condition Further exclusion criteria apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "H\u00f4pital Gui de Chauliac",
+                "city": "Montpellier",
+                "zip": "34295",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.61093,
+                  "lon": 3.87635
+                }
+              },
+              {
+                "facility": "Osp. Pediatrico Bambin Ges\u00f9",
+                "city": "Roma",
+                "zip": "00165",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Universitair Medisch Centrum Utrecht",
+                "city": "Utrecht",
+                "zip": "3584 CX",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "Hospital Universitari Vall d'Hebron",
+                "city": "Barcelona",
+                "zip": "08035",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Royal Brompton Hospital",
+                "city": "London",
+                "zip": "SW3 6JY",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Related Info",
+                "url": "https://www.clinicalstudies.boehringer-ingelheim.com/msw/datatransparency"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Clinical studies sponsored by Boehringer Ingelheim, phases I to IV, interventional and non-interventional, are in scope for sharing of the raw clinical study data and clinical study documents. Exceptions might apply, e.g. studies in products where Boehringer Ingelheim is not the license holder; studies regarding pharmaceutical formulations and associated analytical methods, and studies pertinent to pharmacokinetics using human biomaterials; studies conducted in a single center or targeting rare diseases (in case of low number of patients and therefore limitations with anonymization).\n\nFor more details refer to: https://www.clinicalstudies.boehringer-ingelheim.com/msw/datasharing"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009330",
+                "term": "Nebulizers and Vaporizers"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004864",
+                "term": "Equipment and Supplies"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

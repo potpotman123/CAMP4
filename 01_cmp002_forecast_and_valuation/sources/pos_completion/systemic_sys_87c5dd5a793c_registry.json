@@ -1,0 +1,688 @@
+{
+  "integrated_id": "systemic:sys_87c5dd5a793c",
+  "asset": "ARCT-032",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=ARCT-032",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05712538",
+            "orgStudyIdInfo": {
+              "id": "ARCT-032-01"
+            },
+            "organization": {
+              "fullName": "Arcturus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, and Pharmacokinetics of ARCT-032 in Healthy Adult Subjects and Adults With Cystic Fibrosis.",
+            "officialTitle": "A Study in Two Parts: (Phase 1) A Randomized, Double-blinded, Placebo--controlled, Single-ascending-dose Study in Healthy Adult Subjects and (Phase 1b) an Open-label, Nested, Divided-dose Study in Adults With Cystic Fibrosis to Assess the Safety, Tolerability, and Pharmacokinetics of ARCT-032"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-11",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-02-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-07-29",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-07-29",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-01-26",
+            "studyFirstSubmitQcDate": "2023-01-26",
+            "studyFirstPostDateStruct": {
+              "date": "2023-02-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-11-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-11-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Arcturus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Novotech CRO",
+                "class": "UNKNOWN"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Determine the safety, tolerability and pharmacokinetics of single doses of ARCT-032 in healthy adult subjects (Phase 1) and of two doses in Adults with Cystic Fibrosis (Phase 1b).",
+            "detailedDescription": "Phase 1 of this study is a single ascending dose, first-in-human study to determine the safety, tolerability, and pharmacokinetics (PK) of ARCT-032. After screening, healthy adult participants will be randomized 3:1 to inhale a single dose of nebulized ARCT-032 or placebo. There are 4 planned sequential dose cohorts. After dosing, participants will have follow-up assessments over a 4-week period.\n\nPhase 1b in adults with cystic fibrosis will enroll after Phase 1 is completed and safety data are reviewed. Phase 1b is an open-label, two-dose study in adults with cystic fibrosis to assess the safety, tolerability, and pharmacokinetics of ARCT-032. After completion of screening, each participants will inhale two doses of nebulized ARCT-032 two days apart. Participants will have follow-up assessments over a 4-week period."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "Cystic Fibrosis, CF"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Double-blind, placebo controlled (Phase 1 only)",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "maskingDescription": "Participant and investigator masking only applies to Phase 1 healthy volunteers only. For Phase 1b, there is no masking, None (Open Label) should be applied.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "ARCT-032, Healthy Adults",
+                "type": "EXPERIMENTAL",
+                "description": "Ascending single doses of ARCT-032 administered to healthy adults via nebulizer",
+                "interventionNames": [
+                  "Drug: ARCT-032"
+                ]
+              },
+              {
+                "label": "Placebo, Healthy Adults",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Single doses of 0.9% Saline administered to healthy adults via nebulizer",
+                "interventionNames": [
+                  "Other: Placebo"
+                ]
+              },
+              {
+                "label": "ARCT-032,. Adults with Cystic Fibrosis",
+                "type": "EXPERIMENTAL",
+                "description": "Two doses of ARCT-032 administered to adults with Cystic Fibrosis via nebulizer",
+                "interventionNames": [
+                  "Drug: ARCT-032"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ARCT-032",
+                "description": "ARCT-032 is messenger RNA (mRNA) coding for cystic fibrosis transmembrane conductance regulator (CFTR) protein, formulated in a lipid nanoparticle (LNP).",
+                "armGroupLabels": [
+                  "ARCT-032, Healthy Adults",
+                  "ARCT-032,. Adults with Cystic Fibrosis"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Placebo",
+                "description": "Normal saline",
+                "armGroupLabels": [
+                  "Placebo, Healthy Adults"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence, severity and dose-relationship of AEs",
+                "description": "Safety and tolerability of ARCT-032 assessed by determining the incidence, severity and dose-relationship of AEs by dose",
+                "timeFrame": "4 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change in plasma area under the curve after single dose of ARCT-032",
+                "description": "Area under the plasma concentration versus time curve (AUC) from time zero to the last quantifiable time point",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "Maximum observed plasma concentration (Cmax) after single dose of ARCT-032",
+                "description": "The maximum observed plasma concentration (Cmax)",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "Time at which Cmax occurred after single dose of ARCT-032",
+                "description": "The time at which Cmax occurred (Tmax)",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "AUC0-inf after single dose (Phase 1) or two doses (Phase 1b) of ARCT-032",
+                "description": "AUC from time zero extrapolated to infinity",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "T1/2 after single dose (Phase 1) or two doses (Phase 1b) of ARCT-032",
+                "description": "Terminal half-life",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "CL after single dose (Phase 1) or two doses (Phase 1b) of ARCT-032",
+                "description": "Total body clearance, calculated as dose divided by AUC0-inf",
+                "timeFrame": "Up to 2 Weeks"
+              },
+              {
+                "measure": "Vss after single dose (Phase 1) or two doses (Phase 1b) of ARCT-032",
+                "description": "Volume of distribution",
+                "timeFrame": "Up to 2 Weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Phase 1: Healthy males or females aged 18 to 65 years at the time of informed consent.\n\n   Phase 1b: Males or females aged 18 to 65 years with confirmed diagnosis of CF documented in subject's medical record\n2. Body weight between 40-100Kg and body mass index between 16-35 kg/m2\n3. Phase 1: Forced expiratory volume (FEV1) at screening \\>85% of predicted value for age, sex, and height.\n\n   Phase 1b: FEV1 at screening between 50% and 100% of predicted value\n4. Surgically sterile or using an acceptable contraceptive method from the time of signing the informed consent form until at least 30 days after the last dose of study drug.\n5. Phase 1b only: Subjects with CF on CFTR modulator therapy must be on a stable regimen for at least 2 months prior to screening.\n\nKey Exclusion Criteria:\n\n1. History of illness or condition that might pose an additional risk or may confound study results.\n2. Pregnant or lactating (breast feeding)\n3. History of severe allergic reaction to a liposomal product\n4. Clinically significant abnormalities in Screening laboratory results\n5. Known history of or positive test for human immunodeficiency virus (HIV), hepatitis C or chronic hepatitis B\n6. Treatment with another investigational drug, biological agent, or device within 30 days of screening, or 5 half-lives of investigational drug, whichever is longer\n7. Drug or alcohol abuse within the past year\n8. History of moderate to heavy smoking or vaping (\\>10 cigarettes/sessions per day) within 6 months prior to the dose of study drug. Participants must be willing to refrain from smoking or vaping within 1 week of dosing through Day 15\n9. Systemic or inhaled corticosteroids within 3 months prior to screening (Phase 1 only).\n10. Have any other conditions, which, in the opinion of the Investigator or Sponsor would make the subject unsuitable for inclusion, or could interfere with the subject participating in or completing the Study",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Program Director",
+                "affiliation": "Arcturus Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "New Zealand Clinical Research",
+                "city": "Christchurch",
+                "zip": "8011",
+                "country": "New Zealand",
+                "geoPoint": {
+                  "lat": -43.53333,
+                  "lon": 172.63333
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06747858",
+            "orgStudyIdInfo": {
+              "id": "ARCT-032-02"
+            },
+            "organization": {
+              "fullName": "Arcturus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability and Efficacy Study of ARCT-032 in People With Cystic Fibrosis",
+            "officialTitle": "A Phase 2, Open-label, Multiple Ascending-Dose Study to Evaluate the Safety, Tolerability and Efficacy of ARCT-032 in People With Cystic Fibrosis",
+            "acronym": "LunairCF"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-12",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-06",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-06",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-12-17",
+            "studyFirstSubmitQcDate": "2024-12-20",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-24",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Arcturus Therapeutics, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "ARCT-032-02 is a Phase 2, open-label, multicenter, multiple-ascending dose study of ARCT-032 in adults with CF who are not eligible for CFTR modulator therapy or are not taking CFTR modulators due to drug intolerance, poor response, or lack of access to modulators.",
+            "detailedDescription": "This is an open-label, multiple-ascending dose study of ARCT-032 in adults with CF who are not on CFTR modulator therapy. After successful screening, eligible participants enrolled in cohorts 1-3 will receive nebulized ARCT-032 daily for 4 weeks and then will be followed for safety for a total of 12 weeks. In cohort 4, eligible participants will receive nebulized ARCT-032 for 12 weeks and will then be followed for safety for an additional 12 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis",
+              "CFTR Gene Mutation"
+            ],
+            "keywords": [
+              "CFTR",
+              "mRNA"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Multiple ascending dose",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 33,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "Dose Level A of ARCT-032, inhaled daily for 28 days",
+                "interventionNames": [
+                  "Biological: ARCT-032"
+                ]
+              },
+              {
+                "label": "Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "Dose Level B of ARCT-032, inhaled daily for 28 days",
+                "interventionNames": [
+                  "Biological: ARCT-032"
+                ]
+              },
+              {
+                "label": "Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Dose Level C of ARCT-032, inhaled daily for 28 days",
+                "interventionNames": [
+                  "Biological: ARCT-032"
+                ]
+              },
+              {
+                "label": "Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "Dose level B or C of ARCT-032, inhaled once daily for 12 weeks",
+                "interventionNames": [
+                  "Biological: ARCT-032"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "ARCT-032",
+                "description": "CFTR mRNA formulated in lipid nanoparticles",
+                "armGroupLabels": [
+                  "Cohort 1",
+                  "Cohort 2",
+                  "Cohort 3",
+                  "Cohort 4"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence, severity and dose relationship of adverse events",
+                "description": "Safety and tolerability of ARCT-032 assess by determining incidence, severity and dose-relationship of AEs by dose level",
+                "timeFrame": "Cohorts 1-3: 16 weeks and Cohort 4: 24 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics - Plasma Concentration",
+                "description": "Plasma concentration of ARCT-032 mRNA and lipid components",
+                "timeFrame": "Up to 6 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics--Lung Function",
+                "description": "Change from baseline in FEV1",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics--Cystic Fibrosis Quality of Life Questionnaire-Revised (CFQ-R)",
+                "description": "Change from baseline in CFQ-R RSS (Respiratory Symptoms Scale) Score. Overall CFQ-R score ranges from 0-100, with higher scores indicating better health.",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "High Resolution Computed Chromatography",
+                "description": "Changes from baseline to end of treatment in chest-HRCT-scan scores (e.g., airway wall thickness, air trapping, and mucus plugging scores)",
+                "timeFrame": "12 weeks"
+              },
+              {
+                "measure": "EQ-5D-5L (Cohort 4 only)",
+                "description": "Change from baseline to end of treatment (Day 84) in EQ-5D-5L questionnaire scores",
+                "timeFrame": "12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Confirmed diagnosis of Cystic Fibrosis\n2. Not eligible for CFTR modulator therapy or not taking CFTR modulators for at least 60 days prior to dosing (e.g. due to intolerance, poor response, or lack of access to modulators)\n3. FEV1 between 40% to 100% (cohorts 1-3) and 45% to 90% (cohort 4, inclusive) of predicted value for age, sex and height\n\nExclusion Criteria:\n\n1. History of illness or medical condition that might pose an additional risk or may confound study results\n2. Recent moderate or severe hemoptysis\n3. Recent major surgery\n4. Solid organ or hematologic transplant\n5. Requirement of supplemental oxygen while awake or \\> 2L per minute while sleeping.\n6. Chronic maintenance systemic corticosteroids exceeding equivalent of daily 15 mg oral prednisone or 30 mg every other day\n7. Adequate liver and kidney function as determined by lab tests",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Clinical Trial Disclosure Manager Central Email Box",
+                "role": "CONTACT",
+                "phone": "858-900-2660",
+                "email": "CFclinicaltrials@arcturusrx.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Arizona",
+                "status": "RECRUITING",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "University of Arkansas for Medical Sciences",
+                "status": "RECRUITING",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "Children's Hospital of Los Angeles",
+                "status": "RECRUITING",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90027",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Children's National Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Washington D.C.",
+                "state": "District of Columbia",
+                "zip": "20010",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.89511,
+                  "lon": -77.03637
+                }
+              },
+              {
+                "facility": "Joe DiMaggio Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Hollywood",
+                "state": "Florida",
+                "zip": "33021",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 26.0112,
+                  "lon": -80.14949
+                }
+              },
+              {
+                "facility": "The Cystic Fibrosis Institute",
+                "status": "ACTIVE_NOT_RECRUITING",
+                "city": "Northfield",
+                "state": "Illinois",
+                "zip": "60093",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.09975,
+                  "lon": -87.7809
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine",
+                "status": "RECRUITING",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63144",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Cleveland Clinic Foundation",
+                "status": "RECRUITING",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "status": "RECRUITING",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "Vanderbilt University Medical Center",
+                "status": "RECRUITING",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "UT Health San Antonio",
+                "status": "RECRUITING",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78229",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "Seattle Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

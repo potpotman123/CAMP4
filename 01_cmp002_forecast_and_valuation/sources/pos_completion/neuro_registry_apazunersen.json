@@ -1,0 +1,2540 @@
+{
+  "asset": "apazunersen",
+  "query": "GTX-102",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=GTX-102&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07157254",
+            "orgStudyIdInfo": {
+              "id": "GTX-102-CL210"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-519393-39-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Safety and Efficacy Study of GTX-102 in Subjects With Deletion- or Nondeletion-type Angelman Syndrome (AS)",
+            "officialTitle": "A Phase 2, Open-label, Basket Study Investigating the Safety and Efficacy of GTX-102 in Adult and Pediatric Subjects With Deletion- or Nondeletion-type Angelman Syndrome",
+            "acronym": "Aurora"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Lack of efficacy",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-10-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-08-21",
+            "studyFirstSubmitQcDate": "2025-08-28",
+            "studyFirstPostDateStruct": {
+              "date": "2025-09-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main goal of the study is to evaluate the safety and efficacy of GTX-102 in participants with Angelman syndrome.",
+            "detailedDescription": "This basket study is designed to evaluate safety and efficacy of GTX-102 in participants with Angelman syndrome across genotypes and age groups. The study consists of subprotocols A, B, C and D. All subprotocols are open-label and follow the same design which includes a Screening, Loading and Maintenance period. Subprotocols A, B and C are single arm only. In subprotocol D, participants are randomized 2:1 to a GTX-102 group or a No Treatment group. The No Treatment group follows the same schedule of events as all other groups after completion of the No Treatment period. Participants from all the subprotocols have the option to continue treatment in a long-term extension study following their end of study visit."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Angelman Syndrome"
+            ],
+            "keywords": [
+              "Angelman Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 55,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Subprotocol A GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants with deletion-type Angelman syndrome, \u22651 to \\<4 years of age will receive increasing doses of GTX-102 via intrathecal (IT) injection until the target dose is achieved. Dosing occurs every 3 months (Q3M) thereafter.",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "Subprotocol B GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants with paternal uniparental disomy (UPD)/imprinting center defect (ICD) Angelman syndrome, \u22654 to \\<18 years of age will receive increasing doses of GTX-102 via IT injection until the target dose is achieved. Dosing occurs Q3M thereafter.",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "Subprotocol C GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants with all genotypes of Angelman syndrome, \u226518 to \\<65 years of age will receive increasing doses of GTX-102 via IT injection until the target dose is achieved. Dosing occurs Q3M thereafter.",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "Subprotocol D GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants with mutation-type Angelman syndrome, \u22654 to \\<18 years of age will receive increasing doses of GTX-102 via IT injection until the target dose is achieved. Dosing occurs Q3M thereafter.",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "Subprotocol D No Intervention then GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants with mutation-type Angelman syndrome, \u22654 to \\<18 years of age will receive no treatment during the initial period. At the end of the no treatment period, participants will receive increasing doses of GTX-102 via IT injection until the target dose is achieved. Dosing occurs Q3M thereafter.",
+                "interventionNames": [
+                  "Other: No intervention",
+                  "Drug: GTX-102"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "No intervention",
+                "description": "During the no treatment period participants do not receive any study drug",
+                "armGroupLabels": [
+                  "Subprotocol D No Intervention then GTX-102"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GTX-102",
+                "description": "antisense oligonucleotide",
+                "armGroupLabels": [
+                  "Subprotocol A GTX-102",
+                  "Subprotocol B GTX-102",
+                  "Subprotocol C GTX-102",
+                  "Subprotocol D GTX-102",
+                  "Subprotocol D No Intervention then GTX-102"
+                ],
+                "otherNames": [
+                  "apazunersen"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Subprotocol A/B/C/D: Number of Participants with Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs), Severe Events, and Events Related to Investigational Product, Procedure, and Premedication",
+                "timeFrame": "Up to Day 506"
+              },
+              {
+                "measure": "Subprotocol A Only: Bayley-4 Cognitive Without Caregiver Input Raw Score Change from Baseline at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/D Only: Multidomain Responder Index (MDRI) Net Response at Day 338",
+                "description": "The following assessments will be included to calculate the MDRI net response: Bayley-4 Cognitive and Receptive Communication, Aberrant Behavior Checklist- Community (ABC-C) Hyperactivity/Noncompliance (H/N), Angelman Severity Assessment (ASA) Sleep, ASA Gross Motor. For each assessment a meaningful score difference (MSD) is defined. A single net response score per participant will be derived accordingly, and a summary measure of net response will then be calculated across all participants.",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol C Only: MDRI Net Response at Day 338",
+                "description": "The following assessments will be included to calculate the MDRI net response: Vineland-3 Expressive and Receptive Communication, ABC-C Irritability, ASA Gross Motor. For each assessment a meaningful score difference (MSD) is defined. A single net response score per participant will be derived accordingly, and a summary measure of net response will then be calculated across all participants.",
+                "timeFrame": "Baseline, Day 338"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Subprotocol A/B/D Only: Change From Baseline at Day 338 in Bayley-4 Receptive Communication Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol A/B/D Only: Change From Baseline at Day 338 in Bayley-4 Gross Motor Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/D Only: Change From Baseline at Day 338 in Bayley-4 Cognitive Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/C/D Only: Change From Baseline at Day 338 in Vineland-3 Receptive Communication Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/C/D Only: Change From Baseline at Day 338 in Vineland-3 Expressive Communication Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/D: Change From Baseline at Day 338 in Aberrant Behavior Checklist-Community (ABC-C) Hyperactivity/Noncompliance Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/D Only: Change From Baseline at Day 338 in Angelman Severity Assessment (ASA) Sleep Rating",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol B/C/D Only: Change From Baseline at Day 338 in ASA Gross Motor Rating",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Subprotocol C Only: Change From Baseline at Day 338 in ABC-C Irritability Raw Score",
+                "timeFrame": "Baseline, Day 338"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent from parent(s) or legal guardian(s)\n2. Males and females of the following ages and genotypes at time of informed consent:\n\n   1. Subprotocol A: \u2265 1 to \\< 4 years of age with a genetically confirmed diagnosis of deletion-type Angelman syndrome\n   2. Subprotocol B: \u2265 4 to \\< 18 years of age with a genetically confirmed diagnosis of UPD/ICD Angelman syndrome\n   3. Subprotocol C: \u2265 18 to \\< 65 years of age with a genetically confirmed diagnosis of Angelman syndrome, any genotype\n   4. Subprotocol D: \u2265 4 to \\< 18 years of age with a genetically confirmed diagnosis of mutation-type Angelman syndrome\n3. Weight \u2265 8 kg at Screening Visit\n4. Platelet count, prothrombin time / international normalized ratio, and partial thromboplastin time \\< 1.5x the upper limit of normal and platelets \\> 75,000 cells/mm3 at the Screening Visit\n5. Willing and able to comply with scheduled visits, drug administration plan, laboratory tests, and all study procedures, including lumbar puncture (LP) procedure, magnetic resonance imaging (MRI) and tolerating anesthesia without intubation\n6. From the time of informed consent through to at least 6 months after the final dose of GTX-102, females of childbearing potential who are sexually active must use highly effective contraception or abstinence. Males are able to participate if they agree to remain abstinent (refrain from heterosexual intercourse) or use acceptable contraceptive methods during the study and for at least 3 months after the final dose of GTX-102\n\nExclusion Criteria:\n\n1. Any change in medications or diet/supplements intended to treat symptoms of Angelman Syndrome (eg, sleeping aids, antiseizure medications, supplements, dietary change including ketogenic or low-glycemic index diet, other) within the month prior to the Screening Visit (excluding weight-based adjustments)\n2. Any condition that creates an increased risk of unsuccessful lumbar puncture\n3. Current or expected concomitant use of drugs that increase the risk of bleeding (eg, heparin, low molecular weight heparin, platelet inhibitors)\n4. Known hypersensitivity to GTX-102 or its excipients or required premedication that, in the judgment of the Investigator, places the subject at increased risk for adverse effects\n5. Presence or history of any condition, lab abnormality, or infection that, in the judgment of the Investigator, would interfere with study participation, pose undue safety risk, or would confound interpretation of results\n6. Pregnant or breastfeeding or planning to become pregnant (self or partner) at any time during the study\n7. Use of any investigational product or investigational medical device within 6 months or 5 half-lives prior to the Screening Visit, or any prior use of gene therapy or an ASO regardless of length of time since last use\n8. Concurrent participation in any interventional study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Year",
+            "maximumAge": "64 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Director",
+                "affiliation": "Ultragenyx Pharmaceutical Inc",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Cedars Sinai Medical Center",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90048",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Rush University Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Kennedy Kreiger Institute",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "city": "Kansas City",
+                "state": "Missouri",
+                "zip": "64108",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.09973,
+                  "lon": -94.57857
+                }
+              },
+              {
+                "facility": "Rare Disease Research",
+                "city": "Hillsborough",
+                "state": "North Carolina",
+                "zip": "27278",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.07542,
+                  "lon": -79.09973
+                }
+              },
+              {
+                "facility": "Akron Children's Hospital",
+                "city": "Akron",
+                "state": "Ohio",
+                "zip": "44308",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.08144,
+                  "lon": -81.51901
+                }
+              },
+              {
+                "facility": "UT Health Austin",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78723",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "Carum Research Inc.",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75243",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "Hospital Universitario Austral",
+                "city": "Pilar",
+                "state": "Buenos Aires",
+                "country": "Argentina",
+                "geoPoint": {
+                  "lat": -34.45867,
+                  "lon": -58.91398
+                }
+              },
+              {
+                "facility": "Hospital de Crian\u00e7as C\u00e9sar Pernetta e Hospital Pequeno Pr\u00edncipe",
+                "city": "Curitiba",
+                "state": "Paran\u00e1",
+                "country": "Brazil",
+                "geoPoint": {
+                  "lat": -25.42778,
+                  "lon": -49.27306
+                }
+              },
+              {
+                "facility": "Casa dos Raros",
+                "city": "Santa Cec\u00edlia",
+                "state": "Porto Alegre",
+                "country": "Brazil",
+                "geoPoint": {
+                  "lat": -26.96083,
+                  "lon": -50.42694
+                }
+              },
+              {
+                "facility": "Hopital de la Timone",
+                "city": "Marseille",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Necker-Enfants Malades Hospital",
+                "city": "Paris",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Sheba Medical Center",
+                "city": "Ramat Gan",
+                "country": "Israel",
+                "geoPoint": {
+                  "lat": 32.08227,
+                  "lon": 34.81065
+                }
+              },
+              {
+                "facility": "Azienda Ospedaliera Universitaria Meyer IRCCS",
+                "city": "Florence",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 43.77925,
+                  "lon": 11.24626
+                }
+              },
+              {
+                "facility": "Fondazione IRCCS Istituto Neurologico C. Besta",
+                "city": "Milan",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.46427,
+                  "lon": 9.18951
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "city": "Rome",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 41.89193,
+                  "lon": 12.51133
+                }
+              },
+              {
+                "facility": "Hospital de Santa Maria",
+                "city": "Lisbon",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 38.72509,
+                  "lon": -9.1498
+                }
+              },
+              {
+                "facility": "Hospital Santa Joao",
+                "city": "Porto",
+                "country": "Portugal",
+                "geoPoint": {
+                  "lat": 41.1485,
+                  "lon": -8.61097
+                }
+              },
+              {
+                "facility": "Clinical Trial Site",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "University of Oxford",
+                "city": "Oxford",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Ultragenyx Patient Advocacy Website",
+                "url": "https://www.ultrarareadvocacy.com/conditions-we-study/angelman-syndrome-as/"
+              },
+              {
+                "label": "Ultragenyx Transparency Commitment",
+                "url": "https://www.ultragenyx.com/our-research/our-clinical-trial-transparency-commitment/"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017204",
+                "term": "Angelman Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D000096803",
+                "term": "Imprinting Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05531890",
+            "orgStudyIdInfo": {
+              "id": "GTX-102-001"
+            },
+            "organization": {
+              "fullName": "Grace Therapeutics Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Comparative Bioavailability of Betamethasone Oral Solution Metered Spray (GTX-102) in Healthy Subjects",
+            "officialTitle": "Crossover Study to Evaluate the Comparative Bioavailability, Pharmacokinetics, and Safety of GTX-102 Administered as an Oral Spray Compared to Intramuscular Injection and an Oral Solution of Betamethasone in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-06",
+            "overallStatus": "UNKNOWN",
+            "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-09-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-11-24",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-05-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-08-31",
+            "studyFirstSubmitQcDate": "2022-09-06",
+            "studyFirstPostDateStruct": {
+              "date": "2022-09-08",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-01-20",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-01-23",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Grace Therapeutics Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Randomized, Open-label, Crossover Study to Evaluate the Comparative Bioavailability, Pharmacokinetics, and Safety of GTX-102 Administered as an Oral Spray Compared to Intramuscular Injection - betamethasone and an Oral Solution of Betamethasone in Healthy Subjects.\n\nFour groups of subjects will receive 2 treatments each and randomized in 2-way crossover."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Ataxia Telangiectasia"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "OTHER",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 48,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Group 1 GTX-102 medium dose fast or slow in Period 1 and Period 2",
+                "type": "EXPERIMENTAL",
+                "description": "GTX-102 Betamethasone oral spray medium dose (0.05 mg/kg) administered fast or slow over two periods",
+                "interventionNames": [
+                  "Drug: GTX-102 medium dose fast Period 1 and Period 2",
+                  "Drug: GTX-102 medium dose slow Period 1 and Period 2"
+                ]
+              },
+              {
+                "label": "Group 2a GTX-102 high dose fast in Period 1 and Period 2",
+                "type": "EXPERIMENTAL",
+                "description": "GTX-102 Betamethasone oral spray high dose (0.1 mg/kg) administered fast over two periods\n\nNote: Note under US IND",
+                "interventionNames": [
+                  "Drug: GTX-102 high dose fast Period 1 and Period 2"
+                ]
+              },
+              {
+                "label": "Group 2b Oral comparator in Period 1 and Period 2",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "0.1 mg/kg betamethasone solution oral drops solution over two periods\n\nNote: Not under US IND",
+                "interventionNames": [
+                  "Drug: Betamethasone Oral Solution Period 1 and Period 2"
+                ]
+              },
+              {
+                "label": "Group 3 GTX-102 high dose fast or low dose fast in Period 1 and Period 2",
+                "type": "EXPERIMENTAL",
+                "description": "GTX-102 Betamethasone oral spray high dose (0.1 mg/kg) or GTX-102 Betamethasone oral spray low dose (0.025 mg/kg) administered fast over two periods",
+                "interventionNames": [
+                  "Drug: GTX-102 high dose fast Period 1 and Period 2",
+                  "Drug: GTX-102 low dose fast Period 1 and Period 2"
+                ]
+              },
+              {
+                "label": "Group 4a GTX-102 high dose fast in Period 1 and Period 2",
+                "type": "EXPERIMENTAL",
+                "description": "GTX-102 Betamethasone oral spray high dose (0.1 mg/kg) administered fast over two periods",
+                "interventionNames": [
+                  "Drug: GTX-102 high dose fast Period 1 and Period 2"
+                ]
+              },
+              {
+                "label": "Group 4b betamethasone intramuscular in Period 1 and Period 2",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "0.1 mg/kg betamethasone solution as intramuscular injection administered over two periods",
+                "interventionNames": [
+                  "Drug: Betamethasone solution as intramuscular injection Period 1 and Period 2"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GTX-102 medium dose fast Period 1 and Period 2",
+                "description": "GTX-102 Betamethasone oral spray medium dose (0.05 mg/kg) administered in Period 1 and Period 2 fast",
+                "armGroupLabels": [
+                  "Group 1 GTX-102 medium dose fast or slow in Period 1 and Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GTX-102 medium dose slow Period 1 and Period 2",
+                "description": "GTX-102 Betamethasone oral spray medium dose (0.05 mg/kg) administered in Period 1 and Period 2 slow",
+                "armGroupLabels": [
+                  "Group 1 GTX-102 medium dose fast or slow in Period 1 and Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GTX-102 high dose fast Period 1 and Period 2",
+                "description": "GTX-102 Betamethasone oral spray high dose (0.1 mg/kg) administered in Period 1 and Period 2 fast",
+                "armGroupLabels": [
+                  "Group 2a GTX-102 high dose fast in Period 1 and Period 2",
+                  "Group 3 GTX-102 high dose fast or low dose fast in Period 1 and Period 2",
+                  "Group 4a GTX-102 high dose fast in Period 1 and Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GTX-102 low dose fast Period 1 and Period 2",
+                "description": "GTX-102 Betamethasone oral spray high dose (0.025 mg/kg) administered in Period 1 and Period 2 fast",
+                "armGroupLabels": [
+                  "Group 3 GTX-102 high dose fast or low dose fast in Period 1 and Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Betamethasone solution as intramuscular injection Period 1 and Period 2",
+                "description": "reference product 0.1 mg/kg betamethasone solution as an intramuscular injection",
+                "armGroupLabels": [
+                  "Group 4b betamethasone intramuscular in Period 1 and Period 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Betamethasone Oral Solution Period 1 and Period 2",
+                "description": "Comparator product 0.1 mg/kg betamethasone oral drops solution",
+                "armGroupLabels": [
+                  "Group 2b Oral comparator in Period 1 and Period 2"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "AUC from 0 to 72 hours post-dose",
+                "description": "Area under the curve",
+                "timeFrame": "Up to 72 hours post-dose"
+              },
+              {
+                "measure": "AUC",
+                "description": "Area under the curve",
+                "timeFrame": "Up to infinity"
+              },
+              {
+                "measure": "Cmax from 0 to 72 hours post-dose",
+                "description": "Maximum concentration",
+                "timeFrame": "Up to 72 hours post-dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Adverse Events from Day 1 to Day 45",
+                "description": "Adverse events",
+                "timeFrame": "Day 1 to Day 45"
+              },
+              {
+                "measure": "Relative bioavailability of GTX-102 oral spray versus betamethasone oral solution and betamethasone intramuscular injection",
+                "description": "Area under the curve (AUC0-t)",
+                "timeFrame": "Up to 72 hours post-dose"
+              },
+              {
+                "measure": "Relative bioavailability of GTX-102 oral spray versus betamethasone oral solution and betamethasone intramuscular injection",
+                "description": "Area under the curve (AUC0-inf)",
+                "timeFrame": "Up to infinity"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Healthy male and female subjects between the ages of 18 and 55 years, inclusive.\n2. Willing and able to provide written informed consent prior to participating in the study.\n3. Able to communicate clearly with the Investigator and staff; able to read, complete questionnaires, and understand study procedures.\n4. Able to complete all screening period evaluations, and stay in the clinic testing facility for up to 2 consecutive days on 2 separate occasions.\n5. Body mass index (BMI) between 18 and 32 kg/m2, inclusive, and body weight between 40 and 120 kg, inclusive.\n\nExclusion Criteria:\n\n1. Has a history of or current clinically significant medical illness including (but not limited to) pulmonary, cardiovascular, coagulation disorders, lipid abnormalities, gastrointestinal, immunologic, endocrine (stable thyroid hormone replacement therapy is not excluded), neurologic, psychiatric, or thromboembolic disease, metabolic disturbances, or any other current physical condition that the Investigator considers should exclude the participant, or that could interfere with the interpretation of the study results.\n2. Has current or recent (within 6 months) history of gastrointestinal disease, or any surgical or medical condition such as Crohn's disease or liver disease, that could potentially alter the absorption, metabolism, or excretion of the study drug.\n3. Has any clinically significant medical condition, physical examination finding, vital signs, ECG abnormality (at screening), or clinically significant abnormal value for hematology, serology, clinical chemistry, or urinalysis at screening or at admission to the study center, as deemed appropriate by the Investigator",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Janice Faulknor, MD",
+                "affiliation": "Clinical Research Unit",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Clinical Research Unit",
+                "city": "Toronto",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D001260",
+                "term": "Ataxia Telangiectasia"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020754",
+                "term": "Spinocerebellar Ataxias"
+              },
+              {
+                "id": "D002524",
+                "term": "Cerebellar Ataxia"
+              },
+              {
+                "id": "D002526",
+                "term": "Cerebellar Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D020752",
+                "term": "Neurocutaneous Syndromes"
+              },
+              {
+                "id": "D001259",
+                "term": "Ataxia"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D013684",
+                "term": "Telangiectasis"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D000081207",
+                "term": "Primary Immunodeficiency Diseases"
+              },
+              {
+                "id": "D049914",
+                "term": "DNA Repair-Deficiency Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D007153",
+                "term": "Immunologic Deficiency Syndromes"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04259281",
+            "orgStudyIdInfo": {
+              "id": "GTX-102-001"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2021-001793-36",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of the Safety and Tolerability of GTX-102 in Children With Angelman Syndrome",
+            "officialTitle": "A Phase 1/2 Open-label, Multiple-dose, Dose-escalating Clinical Trial of the Safety and Tolerability of GTX-102 in Pediatric Patients With Angelman Syndrome (AS)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-02-24",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-01-08",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-01-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-01-31",
+            "studyFirstSubmitQcDate": "2020-02-04",
+            "studyFirstPostDateStruct": {
+              "date": "2020-02-06",
+              "type": "ACTUAL"
+            },
+            "dispFirstSubmitDate": "2026-01-05",
+            "dispFirstPostDateStruct": {
+              "date": "2025-01-31",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of the study is to evaluate the safety and tolerability of multiple-ascending doses of GTX-102 administered by intrathecal (IT) injection to participants with Angelman Syndrome (AS).",
+            "detailedDescription": "This is a Phase 1/2, open-label, multiple-dose, study to evaluate the safety, tolerability, and plasma and CSF concentrations of GTX-102 in pediatric participants with AS.\n\nThe study includes a Loading phase followed by a Maintenance phase. Participants may continue on GTX-102 during the Maintenance phase of the study until GTX-102 is commercially available, intolerable toxicity occurs, the parent/legal guardian withdraws consent, the participant enrolls in another experimental study, or this study is terminated.\n\nThis study was previously posted by GeneTX Biotherapeutics, LLC and was transferred to Ultragenyx in July 2022."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Angelman Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 74,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GTX-102 Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "3.3 mg starting dose followed by intra-patient dose escalation up to 36 mg and then a maintenance phase (in U.S participants 4 to \\<17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "10 mg starting dose followed by intra-patient dose escalation up to 36 mg and then a maintenance phase (in U.S participants 4 to \\<17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "20 mg starting dose followed by intra-patient dose escalation up to 55 mg and then a maintenance phase (in U.S participants 4 to \\<17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 4",
+                "type": "EXPERIMENTAL",
+                "description": "3.3 mg starting dose followed by slow intra-patient dose escalation up to 5 mg and then a maintenance phase (in Ex-U.S participants 4 to \\<8 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 5",
+                "type": "EXPERIMENTAL",
+                "description": "5 mg starting dose followed by slow intra-patient dose escalation up to 7.5 mg and then a maintenance phase (in Ex-U.S participants \u2265 8 to 17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 6",
+                "type": "EXPERIMENTAL",
+                "description": "7.5 mg starting dose followed by slow intra-patient dose escalation up to 10 mg and then a maintenance phase (in Ex-U.S participants 4 to \\<8 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort 7",
+                "type": "EXPERIMENTAL",
+                "description": "10 mg starting dose followed by slow intra-patient dose escalation up to 12 mg and then a maintenance phase (in Ex-U.S participants \u2265 8 to 17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort US",
+                "type": "EXPERIMENTAL",
+                "description": "2 mg for 4 monthly doses followed by a quarterly maintenance regimen",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Expanded Enrollment Cohort A",
+                "type": "EXPERIMENTAL",
+                "description": "Sponsor selected dose followed by slow intra-patient dose escalation and then a maintenance phase (in Ex-U.S participants 4 to \\<8 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Expanded Enrollment Cohort B",
+                "type": "EXPERIMENTAL",
+                "description": "Sponsor selected dose followed by slow intra-patient dose escalation and then a maintenance phase (in Ex-U.S participants \u2265 8 to 17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Expanded Enrollment Cohort C",
+                "type": "EXPERIMENTAL",
+                "description": "Sponsor selected dose followed by slow intra-patient dose escalation and then a maintenance phase (in U.S participants 4 to \\<8 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Expanded Enrollment Cohort D",
+                "type": "EXPERIMENTAL",
+                "description": "Sponsor selected dose followed by slow intra-patient dose escalation and then a maintenance phase (in U.S participants \u2265 8 to 17 years of age)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "GTX-102 Cohort E",
+                "type": "EXPERIMENTAL",
+                "description": "Sponsor selected dose followed by slow intra-patient dose escalation and then a maintenance phase (in participants that transition from GTX-102 US Cohort only)",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GTX-102",
+                "description": "antisense oligonucleotide",
+                "armGroupLabels": [
+                  "GTX-102 Cohort 1",
+                  "GTX-102 Cohort 2",
+                  "GTX-102 Cohort 3",
+                  "GTX-102 Cohort 4",
+                  "GTX-102 Cohort 5",
+                  "GTX-102 Cohort 6",
+                  "GTX-102 Cohort 7",
+                  "GTX-102 Cohort E",
+                  "GTX-102 Cohort US",
+                  "GTX-102 Expanded Enrollment Cohort A",
+                  "GTX-102 Expanded Enrollment Cohort B",
+                  "GTX-102 Expanded Enrollment Cohort C",
+                  "GTX-102 Expanded Enrollment Cohort D"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Adverse Events (AEs), Serious AEs (SAEs), Adverse Events of Special Interest (AESIs), AEs Leading to Discontinuation and Severity of AEs",
+                "timeFrame": "Up to Day 337"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetics of GTX-102 over time",
+                "description": "Maximum drug concentration (Cmax)",
+                "timeFrame": "Up to Day 337"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent from parent(s) or legal guardian(s)\n* Documented genetic confirmation of full maternal UBE3A gene deletion causing AS in the region of 15q11.2-q13 including class I, II or III\n* Stable seizure control (defined as clinically stable with no changes in antiepileptic medications over the prior 1 month before the screening visit, other than weight associated dose adjustments)\n* Able to ambulate independently, or with an assistive device (note, a child whose primary means of mobility is by wheelchair is excluded from the study)\n* Platelet count, prothrombin time / international normalized ratio, and partial thromboplastin time within 1.2 x the normal limits\n* Normal renal function with serum creatinine and spot urine protein \u2264 1.4 x the upper limit of normal (ULN)\n* Normal hepatic function with total bilirubin, aspartate aminotransferase, alanine aminotransferase, and alkaline phosphatase \u2264 1.4 x ULN. Exception: levels \u2264 2 \u00d7 ULN are acceptable if due to anti-epileptic drugs (AEDs) or Gilbert syndrome\n* Willing and able to comply with scheduled visits, drug administration plan, laboratory tests, study restrictions, and all study procedures, including LP procedure\n* Able to tolerate the anesthetic regimen, if required for LP procedure\n* A female patient is eligible to participate if she is not pregnant, not breastfeeding, and at least one of the following conditions applies: Female of non-childbearing potential (ie, pre-menarche), Female of childbearing potential who agrees to remain abstinent (refrain from heterosexual intercourse) or use acceptable contraceptive methods during the treatment period and for at least 3 months after the final dose of GTX-102\n* A male patient is eligible to participate if he agrees to remain abstinent (refrain from heterosexual intercourse) or use acceptable contraceptive methods during the treatment period and for at least 3 months after the final dose of GTX-102\n\nExclusion Criteria:\n\n* Any change in medications (excluding AEDs) or diet/supplements intended to treat symptoms of AS (eg, sleeping aids, supplements, dietary change including ketogenic or low-glycemic index diet, other) over the prior 1 month before screening\n* Any bleeding or platelet disorder\n* Any clinically significant cardiovascular, endocrine, hepatic, renal, pulmonary, gastrointestinal, neurological, malignant, metabolic, psychiatric, or other condition that, in the judgment of the Investigator, will pose a safety risk, make the patient unsuitable for participation in, and/or unable to complete the study procedures\n* Any laboratory abnormality, that, in the Investigator's opinion, could adversely affect the safety of the patient, make it unlikely that the course of treatment or follow up would be completed, or impair the assessment of study result\n* Known positive for hepatitis B virus, hepatitis C virus, or human immunodeficiency virus\n* Any active infection\n* Bone, spine, bleeding, or other disorder that exposes the patient to risk of injury or unsuccessful lumbar puncture\n* Drugs that increase the risk of bleeding (eg, heparin, low molecular weight heparin, platelet inhibitors)\n* Any prior use of gene therapy\n* Use of any investigational drugs in the past 6 months or within 5 half-lives, whichever period is greater (with the exception of prior GTX 102)\n* Known hypersensitivity to any oligonucleotide, as demonstrated by an immune mediated reaction (eg, pneumonitis, hepatitis, nephritis, neuritis, or other system inflammation), or a systemic allergic reaction such as signs and symptoms of anaphylaxis, urticaria, clinically significant rash\n* Patient is pregnant or lactating\n* Any medical condition that would require intubation for the anesthesia procedure",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "4 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Director",
+                "affiliation": "Ultragenyx Pharmaceutical Inc",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "UCLA Medical Center",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Rady Children's Hospital",
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92123",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "facility": "Rare Disease Research",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30318",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Rush University Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Weill Cornell Medicine",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Austin Health",
+                "city": "Heidelberg",
+                "state": "Victoria",
+                "zip": "3084",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.75,
+                  "lon": 145.06667
+                }
+              },
+              {
+                "facility": "The Royal Children's Hospital",
+                "city": "Parkville",
+                "state": "Victoria",
+                "zip": "3052",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.78333,
+                  "lon": 144.95
+                }
+              },
+              {
+                "facility": "Queensland Children's Hospital",
+                "city": "South Brisbane",
+                "zip": "QLD 4101",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.48034,
+                  "lon": 153.02049
+                }
+              },
+              {
+                "facility": "MAGIC Clinic Ltd",
+                "city": "Calgary",
+                "state": "Alberta",
+                "zip": "T2E 7Z4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "British Columbia Children's Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6H3V4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Children's Hospital of Western Ontario",
+                "city": "London",
+                "state": "Ontario",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 42.98339,
+                  "lon": -81.23304
+                }
+              },
+              {
+                "facility": "Children's Hospital of Eastern Ontario",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K1H 8L1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "McGill University Health Centre",
+                "city": "Montreal",
+                "state": "Quebec",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Hopital de la Timone",
+                "city": "Marseille",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "AP-HP Hopital Necker-Enfants Malades",
+                "city": "Paris",
+                "zip": "75015",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Universitatsklinikum Leipzig",
+                "city": "Leipzig",
+                "state": "Saxony",
+                "zip": "04103",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "Universitatsklinikum Hamburg-Eppendorf",
+                "city": "Hamburg",
+                "zip": "20246",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 53.55073,
+                  "lon": 9.99302
+                }
+              },
+              {
+                "facility": "The Edmond and Lily Safra Children's Hospital",
+                "city": "Ramat Gan",
+                "country": "Israel",
+                "geoPoint": {
+                  "lat": 32.08227,
+                  "lon": 34.81065
+                }
+              },
+              {
+                "facility": "Hospital Sant Joan de Deu",
+                "city": "Esplugues de Llobregat",
+                "state": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.37732,
+                  "lon": 2.08809
+                }
+              },
+              {
+                "facility": "Hospital Universitari Parc Tauli",
+                "city": "Sabadell",
+                "state": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.54329,
+                  "lon": 2.10942
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta de Hierro",
+                "city": "Majadahonda",
+                "state": "Madrid",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.47353,
+                  "lon": -3.87182
+                }
+              },
+              {
+                "facility": "Cambridge University Hospitals",
+                "city": "Cambridge",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              },
+              {
+                "facility": "Great Ormond Street Hospital for Children",
+                "city": "London",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Oxford University Hospitals NHS Foundation Trust",
+                "city": "Oxford",
+                "zip": "OX3 7LE",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "36947593",
+                "type": "DERIVED",
+                "citation": "Dindot SV, Christian S, Murphy WJ, Berent A, Panagoulias J, Schlafer A, Ballard J, Radeva K, Robinson R, Myers L, Jepp T, Shaheen H, Hillman P, Konganti K, Hillhouse A, Bredemeyer KR, Black L, Douville J; FIRE consortium; FIRE Consortium. An ASO therapy for Angelman syndrome that targets an evolutionarily conserved region at the start of the UBE3A-AS transcript. Sci Transl Med. 2023 Mar 22;15(688):eabf4077. doi: 10.1126/scitranslmed.abf4077. Epub 2023 Mar 22."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017204",
+                "term": "Angelman Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D000096803",
+                "term": "Imprinting Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06617429",
+            "orgStudyIdInfo": {
+              "id": "GTX-102-CL301"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-512600-19-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 3 Efficacy and Safety Study of GTX-102 in Pediatric Subjects With Angelman Syndrome (AS)",
+            "officialTitle": "A Phase 3, Randomized, Double-blind, Sham-controlled Study Investigating the Efficacy and Safety of GTX-102 in Pediatric Subjects With Angelman Syndrome",
+            "acronym": "Aspire"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Lack of efficacy",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-07-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-09-24",
+            "studyFirstSubmitQcDate": "2024-09-24",
+            "studyFirstPostDateStruct": {
+              "date": "2024-09-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-02",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of this study is to evaluate the effect of GTX-102 in cognitive function in participants with deletion-type Angelman Syndrome (AS)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Angelman Syndrome"
+            ],
+            "keywords": [
+              "Angelman Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 129,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive GTX-102 via lumbar puncture (LP) during both the double-blind and open-label period",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              },
+              {
+                "label": "Sham-LP then GTX-102",
+                "type": "SHAM_COMPARATOR",
+                "description": "Participants will receive sham procedure during the double-blind period and then will receive GTX-102 via LP during the open-label period",
+                "interventionNames": [
+                  "Drug: GTX-102",
+                  "Procedure: Sham-LP"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GTX-102",
+                "description": "antisense oligonucleotide",
+                "armGroupLabels": [
+                  "GTX-102",
+                  "Sham-LP then GTX-102"
+                ],
+                "otherNames": [
+                  "apazunersen"
+                ]
+              },
+              {
+                "type": "PROCEDURE",
+                "name": "Sham-LP",
+                "description": "Small needle prick on the lower back at the location where the LP injection is normally made",
+                "armGroupLabels": [
+                  "Sham-LP then GTX-102"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from Baseline in Bayley-4 Cognitive Raw Score Without Caregiver Input at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Net Response in Multidomain Responder Index (MDRI)",
+                "timeFrame": "Day 338"
+              },
+              {
+                "measure": "Change from Baseline in ABC-C Hyperactivity/Noncompliance Subscale Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 Receptive Communication Raw Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in Angelman Severity Assessment (ASA) Sleep Rating Raw Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in Vineland Adaptive Behavior Scales-3 (Vineland-3) Receptive Communication Raw Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in Vineland-3 Expressive Communication Raw Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in Bayley-4 Gross Motor Raw Score at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Change from Baseline in ASA Gross Motor Rating at Day 338",
+                "timeFrame": "Baseline, Day 338"
+              },
+              {
+                "measure": "Number of Participants with Treatment Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs), Severity of AEs and Relationship to Investigational Drug, Procedure, and Premedication",
+                "timeFrame": "2 Years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Signed informed consent from parent(s) or legal guardian(s)\n* Confirmed diagnosis of AS with genetic confirmation of full maternal ubiquitin-protein ligase E3A (UBE3A) gene deletion causing AS in the region of 15q11.2 q13\n* Able to ambulate independently, or with assistance at the Screening Visit (note, a child whose primary means of mobility is by wheelchair is excluded from the study)\n* Platelet count, prothrombin time / international normalized ratio, and partial thromboplastin time within 1.5x the normal limits at the Screening Visit\n* Willing and able to comply with scheduled visits, drug administration plan, laboratory tests, and all study procedures, including LP procedure, MRI, and tolerating anesthesia without intubation\n* From the time of informed consent through to at least 6 months after the final dose of GTX-102, females of childbearing potential who are sexually active must use highly effective contraception or abstinence. Males are able to participate if they agree to remain abstinent (refrain from heterosexual intercourse) or use acceptable contraceptive methods during the study and for at least 3 months after the final dose of GTX-102\n\nKey Exclusion Criteria:\n\n* Any change in medications or diet/supplements intended to treat symptoms of AS (eg, sleeping aids, antiseizure medications, supplements, dietary change including ketogenic or low-glycemic index diet, other) within the month prior to the Screening Visit (excluding weight-based adjustments)\n* Any condition that creates an increased risk of unsuccessful LP\n* Current or expected concomitant use of drugs that increase the risk of bleeding (eg, heparin, low molecular weight heparin, platelet inhibitors)\n* Known hypersensitivity to GTX-102 or its excipients that, in the judgment of the Investigator, places the subject at increased risk for adverse effects\n* Presence or history of any condition, lab abnormality, or infection, that, in the judgement of the Investigator, would interfere with participation, pose undue safety risk, or would confound interpretation of results\n* Pregnant or breastfeeding or planning to become pregnant (self or partner) at any time during the study\n* Use of any investigational product or investigational medical device within 6 months or 5 half-lives prior to the Screening Visit or any prior use of gene therapy or ASO regardless of duration since last administration\n* Concurrent participation in any interventional study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "4 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Director",
+                "affiliation": "Ultragenyx Pharmaceuticals Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Cedars Sinai",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90048",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "UCSD, Rady Children's Hospital",
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92123",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "facility": "UCSF",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94143",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              },
+              {
+                "facility": "Children's Hospital Colorado",
+                "city": "Aurora",
+                "state": "Colorado",
+                "zip": "80045",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                }
+              },
+              {
+                "facility": "Nicklaus Children's Hospital",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33155",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Rare Disease Research",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30329",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Rush University",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Children's Mercy",
+                "city": "Kansas City",
+                "state": "Missouri",
+                "zip": "64108",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.09973,
+                  "lon": -94.57857
+                }
+              },
+              {
+                "facility": "Columbia University Medical Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "UNC Chapel Hill Pediatrics",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27599",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              },
+              {
+                "facility": "Rare Disease Research",
+                "city": "Hillsborough",
+                "state": "North Carolina",
+                "zip": "27278",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.07542,
+                  "lon": -79.09973
+                }
+              },
+              {
+                "facility": "The University of Texas",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78723",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "Carum Research Inc",
+                "city": "Dallas",
+                "state": "Texas",
+                "zip": "75243",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                }
+              },
+              {
+                "facility": "McGill University Health Centre",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H4A3J1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "British Columbia Children's Hospital",
+                "city": "Vancouver",
+                "zip": "V6H 3V4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Universitaetsklinikum Hamburg-Eppendorf",
+                "city": "Hamburg",
+                "zip": "20251",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 53.55073,
+                  "lon": 9.99302
+                }
+              },
+              {
+                "facility": "University of Leipzig",
+                "city": "Leipzig",
+                "zip": "04155",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "Haunersche Kinderklinik",
+                "city": "Munich",
+                "zip": "80336",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.13743,
+                  "lon": 11.57549
+                }
+              },
+              {
+                "facility": "Nagoya City University Graduate School of Medical Sciences",
+                "city": "Nagoya",
+                "state": "Aichi-ken",
+                "zip": "467-0001",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.18147,
+                  "lon": 136.90641
+                }
+              },
+              {
+                "facility": "Osaka City General Hospital",
+                "city": "Osaka",
+                "zip": "543-0021",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.69379,
+                  "lon": 135.50107
+                }
+              },
+              {
+                "facility": "Hokkaido University Hospital",
+                "city": "Sapporo",
+                "zip": "060-8648",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 43.06667,
+                  "lon": 141.35
+                }
+              },
+              {
+                "facility": "Medical University of Gda\u0144sk",
+                "city": "Gdansk",
+                "zip": "80211",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 54.35227,
+                  "lon": 18.64912
+                }
+              },
+              {
+                "facility": "Polish Mothers Memorial Institute",
+                "city": "Lodz",
+                "zip": "93-338",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 51.77058,
+                  "lon": 19.47395
+                }
+              },
+              {
+                "facility": "Hospital Universitario Parc Tauli",
+                "city": "Barcelona",
+                "zip": "08208",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Sant Joan de Deu",
+                "city": "Barcelona",
+                "zip": "08950",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta de Hierro",
+                "city": "Madrid",
+                "zip": "28222",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Hospital Universitario Virgen del Rocio",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Ultragenyx Patient Advocacy Website",
+                "url": "https://www.ultrarareadvocacy.com/conditions-we-study/angelman-syndrome-as/"
+              },
+              {
+                "label": "Ultragenyx Angelman Syndrome (AS) Research Study Opportunity",
+                "url": "https://www.ultraclinicaltrials.com/angelman-syndrome-as/"
+              },
+              {
+                "label": "Ultragenyx Transparency Commitment",
+                "url": "https://www.ultragenyx.com/our-research/our-clinical-trial-transparency-commitment/"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "removedCountries": [
+              "Australia",
+              "Netherlands"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017204",
+                "term": "Angelman Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D000096803",
+                "term": "Imprinting Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06415344",
+            "orgStudyIdInfo": {
+              "id": "GTX-102-CL302"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-510917-14-00",
+                "type": "CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Long-term Extension of GTX-102 in Angelman Syndrome",
+            "officialTitle": "A Long-term Extension Trial Investigating the Safety and Efficacy of GTX-102 in Patients With Angelman Syndrome"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Lack of efficacy",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-07-31",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-10-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-05-10",
+            "studyFirstSubmitQcDate": "2024-05-10",
+            "studyFirstPostDateStruct": {
+              "date": "2024-05-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-30",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Ultragenyx Pharmaceutical Inc",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of the study is to evaluate the long-term safety profile of GTX-102 in participants with Angelman Syndrome (AS)",
+            "detailedDescription": "This study is a phase 3, long term extension (LTE) which is open to participants rolling over from a prior GTX-102 clinical study. The LTE study will evaluate the long-term safety and efficacy of GTX-102 in participants with AS."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Angelman Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 66,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GTX-102",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive GTX-102 via intrathecal lumbar puncture (IT LP) on a intrapatient flexible dosing schedule.",
+                "interventionNames": [
+                  "Drug: GTX-102"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GTX-102",
+                "description": "Antisense Oligonucleotide",
+                "armGroupLabels": [
+                  "GTX-102"
+                ],
+                "otherNames": [
+                  "apazunersen"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Treatment Emergent Adverse Events (TEAEs)",
+                "timeFrame": "Up to 5 Years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in the Bayley-4 Raw Score",
+                "timeFrame": "Baseline, Up to 5 Years"
+              },
+              {
+                "measure": "Net Response in Multidomain Responder Index (MDRI)",
+                "timeFrame": "Month 12, Month 24"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent from parent(s) or legal guardian(s).\n* Completed a final study visit in a prior clinical trial with GTX-102. If the subject has an ongoing adverse event, medical monitor approval is required to rollover. The Screening visit must occur within 6 months of the last visit in the prior GTX-102 trial.\n* From the time of informed consent through the end of the study and for at least 6 months after the final dose of GTX-102, females of childbearing potential who are sexually active must use highly effective contraception or abstinence. Males are able to participate if they agree to remain abstinent (refrain from heterosexual intercourse) or use acceptable contraceptive methods during the study and for at least 3 months after the final dose of GTX-102.\n\nExclusion Criteria:\n\n* Discontinued from study or withdrew from study treatment in a prior GTX-102 trial.\n* History or evidence of any other medical, neurological, or psychological condition that would expose the subject to an undue risk of a significant AE or interfere with study assessments during the course of the trial as determined by the clinical judgment of the Investigator.\n* Known hypersensitivity to GTX-102 or its excipients that, in the judgment of the Investigator, places the subject at increased risk for adverse effects.\n* Pregnant or breastfeeding or planning to become pregnant (self or partner) at any time during the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Medical Director",
+                "affiliation": "Ultragenyx Pharmaceuticals Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of California, Los Angeles (UCLA)",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "University of California, San Diego - Rady Children's Hospital",
+                "city": "San Diego",
+                "state": "California",
+                "zip": "92123",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.71571,
+                  "lon": -117.16472
+                }
+              },
+              {
+                "facility": "Rare Disease Research, LLC",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30329",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Rush University Medical Center",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02115",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Weill Cornell Medicine",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10021",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Queensland Children's Hospital",
+                "city": "South Brisbane",
+                "state": "Queensland",
+                "zip": "4101",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -27.48034,
+                  "lon": 153.02049
+                }
+              },
+              {
+                "facility": "The Royal Children's Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3052",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "MAGIC Clinic Ltd",
+                "city": "Calgary",
+                "state": "Alberta",
+                "zip": "T2E 7Z4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 51.05011,
+                  "lon": -114.08529
+                }
+              },
+              {
+                "facility": "British Columbia Children's Hospital",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6H 3V4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Childrens Hospital London Health Sciences Centre",
+                "city": "London",
+                "state": "Ontario",
+                "zip": "N6A 5W9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 42.98339,
+                  "lon": -81.23304
+                }
+              },
+              {
+                "facility": "Childrens Hospital of Eastern Ontario",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "zip": "K1H 8L1",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.41117,
+                  "lon": -75.69812
+                }
+              },
+              {
+                "facility": "The Research Institute of the McGill University Health Centre",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H3G 1A4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "AP-HM - Hopital de la Timone",
+                "city": "Marseille",
+                "zip": "13385",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "AP-HP Hopital Necker-Enfants Malades",
+                "city": "Paris",
+                "zip": "75015",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Universitaetsklinikum Hamburg-Eppendorf",
+                "city": "Hamburg",
+                "zip": "20246",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 53.55073,
+                  "lon": 9.99302
+                }
+              },
+              {
+                "facility": "Universitaetsklinikum Leipzig",
+                "city": "Leipzig",
+                "zip": "04103",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "Sheba Medical Center",
+                "city": "Ramat Gan",
+                "zip": "5265601",
+                "country": "Israel",
+                "geoPoint": {
+                  "lat": 32.08227,
+                  "lon": 34.81065
+                }
+              },
+              {
+                "facility": "Hospital Universitario Puerta de Hierro",
+                "city": "Majadahonda",
+                "zip": "28222",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.47353,
+                  "lon": -3.87182
+                }
+              },
+              {
+                "facility": "Corporacio Sanitaria Parc Tauli - Hospital de Sabadell",
+                "city": "Sabadell",
+                "zip": "08208",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.54329,
+                  "lon": 2.10942
+                }
+              },
+              {
+                "facility": "University of Cambridge",
+                "city": "Cambridge",
+                "zip": "CB2 0QQ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              },
+              {
+                "facility": "Great Ormond Street Hospital for Children",
+                "city": "London",
+                "zip": "WC1N 3JH",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Oxford University Hospitals NHS Foundation Trust",
+                "city": "Oxford",
+                "zip": "OX3 9DU",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.75222,
+                  "lon": -1.25596
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Ultragenyx Patient Advocacy Website",
+                "url": "https://www.ultrarareadvocacy.com/conditions-we-study/angelman-syndrome-as/"
+              },
+              {
+                "label": "Ultragenyx Transparency Commitment",
+                "url": "https://www.ultragenyx.com/our-research/our-clinical-trial-transparency-commitment/"
+              },
+              {
+                "label": "Ultragenyx Angelman Syndrome (AS) Research Study Opportunity",
+                "url": "https://www.ultraclinicaltrials.com/angelman-syndrome-as/"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D017204",
+                "term": "Angelman Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D000096803",
+                "term": "Imprinting Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

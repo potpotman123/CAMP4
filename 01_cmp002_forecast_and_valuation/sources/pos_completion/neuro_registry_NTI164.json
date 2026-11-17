@@ -1,0 +1,1665 @@
+{
+  "asset": "NTI164",
+  "query": "NTI164",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=NTI164&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05626959",
+            "orgStudyIdInfo": {
+              "id": "NTIASD2"
+            },
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluating the Efficacy of NTI164 in Young People With Autism Spectrum Disorder",
+            "officialTitle": "A Phase II/III Double-Blind, Randomised and Controlled-to-Open-Label Study Assessing the Efficacy of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) on the Severity of Autism Spectrum Disorder in Young People"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-11-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-03-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-05-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-11-15",
+            "studyFirstSubmitQcDate": "2022-11-22",
+            "studyFirstPostDateStruct": {
+              "date": "2022-11-25",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-10",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              },
+              {
+                "name": "Monash Health",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an 18 to 54 week study assessing the efficacy of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) on the severity of autism spectrum disorder in young people.",
+            "detailedDescription": "The purpose of this study is to determine the effectiveness of NTI164 in patients with ASD when treated with 20mg/kg/day for 8 - 54 weeks.\n\nThe study comprises of an 8-week double-blinded randomised controlled treatment period followed by an 8-week open-label maintenance period followed by a 2-week wash-out period. Participants who wish to continue receiving the study treatment beyond the 16 week period may do so for up to fifty-two weeks (Extension phase).\n\nEfficacy will be measured and monitored by performing participant- and psychologist- led questionnaires specific to measuring changes in the behaviour of patients with ASD.\n\nSafety will be measured and monitored by performing full blood examinations and liver and renal function tests throughout the study.\n\nAdditional assessments include microbiome and inflammatory marker assessments."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Autism Spectrum Disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "At the beginning of the study, participants will be randomised into either the active group or placebo group. Both groups will commence a double-blinded baseline dose of either 5mg/kg/day of NTI164 or Placebo that will be increased weekly by 5mg/kg for a period of 4 weeks until the maximum tolerated dose or 20/mg/kg/day is achieved.\n\nAt the end of the 8-week period, both study groups will be unblinded and all participants will begin or continue NTI164 for 8 weeks.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "Allocation is concealed utilising central randomisation by computer.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 54,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NTI164",
+                "type": "EXPERIMENTAL",
+                "description": "Full-Spectrum Medicinal Cannabis Plant Extract with less than 0.08% THC (NTI164)\n\nRandomised Controlled Phase:\n\nPart A: 5mg/kg, 10mg/kg, 15mg/kg, 20mg/kg (1 week each, total duration = 4 weeks) Part B: 20mg/kg or maximum tolerated dose (total duration = 4 weeks).\n\nOpen-Label Phase 20mg/kg or maximum tolerated dose (total duration = 8 weeks).\n\nExtension Phase 20mg/kg or maximum tolerated dose (total duration = 36 weeks).",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Randomised Controlled Phase:\n\nPart A: 5mg/kg, 10mg/kg, 15mg/kg, 20mg/kg (1 week each, total duration = 4 weeks) Part B: 20mg/kg or maximum tolerated dose (total duration = 4 weeks).",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "Oil based. Full-spectrum medicinal cannabis plant extract with less than 0.08% THC.",
+                "armGroupLabels": [
+                  "NTI164",
+                  "Placebo"
+                ],
+                "otherNames": [
+                  "Full-spectrum medicinal cannabis plant extract 0.08% THC"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in Clinical Global Impression-Severity (CGI-S)",
+                "description": "Reflects clinician's impression of severity of illness on a 7-point scale ranging from 1=not at all to 7=among the most extremely ill.",
+                "timeFrame": "Baseline, Week 8."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Vineland Adaptive Behaviour Scales, Third Edition",
+                "description": "Used to measure adaptive functioning across three core domains (Communication, Daily Living Skills, and Socialization), and two optional domains (Motor Skills and Maladaptive Behaviour); items are rated on a 3-point scale (0=never; 1=sometimes; 2=usually or often). The core domains sum to a total Adaptive Behaviour Composite.",
+                "timeFrame": "Baseline, Weeks 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Social Responsiveness Scale, 2nd Editions (SRS-2)",
+                "description": "Five domains are assessed including: Social Awareness, Social Cognition, Social Communication, Social Motivation, and Restricted Interests and Repetitive Behaviour. Items are scored on a 4-point scale (ranging from 1=not true to 4=almost always true).",
+                "timeFrame": "Baseline, Weeks 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Clinical Global Impression Scale - Improvement (CGI-I)",
+                "description": "This is a 7-point scale measuring symptom change from baseline.",
+                "timeFrame": "Baseline, Weeks 4, 8, 12, 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Anxiety, Depression and Mood Scale (ADAMS)",
+                "description": "28 symptom items that resolve into five subscales labelled: Manic/Hyperactive Behaviour, Depressed Mood, Social Avoidance, General Anxiety, and Compulsive Behaviour. Items are rated on 4-point scale ranging from 0=not a problem to 3=severe problem.",
+                "timeFrame": "Baseline, Weeks 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Sleep Disturbance Scale for Children (SDSC)",
+                "description": "Six subscales including Disorders of Initiating and Maintaining Sleep, Sleep Breathing Disorders, Disorders of Arousal, Sleep Wake Transition Disorders, Disorders of Excessive Somnolence, and Sleep Hyperhydrosis. Items are rated on 5-point scale where 1=never and 5=always (daily). Subscale scores sum to equal a total score",
+                "timeFrame": "Baseline, Weeks 4, 8, 12, 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Anxiety Scale for Children - Autism Spectrum Disorder",
+                "description": "A form developed to detect symptoms of anxiety in youth with ASD. Composed of four subscales (Performance Anxiety, Uncertainty, Anxious Arousal, and Separation Anxiety), items are rated on a 4-point scale (0=never and 3=always). Subscales sum to equal a total score.",
+                "timeFrame": "Baseline, Weeks 4, 8, 12, 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Caregiver Global Impression of Change in Attention (CGI-CA)",
+                "description": "Reflects clinician's impression of change in attention on a 7-point scale ranging from 1=not at all to 7=very severe problem. Provided as Baseline and Post-Baseline questionnaires.",
+                "timeFrame": "Baseline, Weeks 4, 8, 12, 16, 28, 40 & 52"
+              },
+              {
+                "measure": "Caregiver Global Impression of Change (CGI-C) Target Behaviour",
+                "description": "Reflects clinician's impression of change of behaviour on a 7-point scale ranging from 1=not at all to 7=very severe problem. Provided as Baseline and Post-Baseline questionnaires.",
+                "timeFrame": "Baseline, Weeks 4, 8, 12, 16, 28, 40 & 52"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "INCLUSION CRITERIA:\n\n* Participant is aged 8 years to 17 years (inclusive)\n* Participant is at a healthy weight at the discretion of the Principal Investigator.\n* Parents or caregivers can give informed consent for participation in the trial with assent from individuals with autism.\n* Participants can comply with trial requirements.\n* According the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-5) criteria the participant has a diagnosis of Level 2 or 3 Autism Spectrum Disorder (ASD) confirmed by Autism Diagnostic Observational Schedule (ADOS-2) criteria\n* All treatments including medications and therapies for ASD related symptoms must have been stable for 4 weeks before enrolment and for the duration of the trial wherever possible.\n* Participants must be able to swallow liquid.\n* Consent giver must be able to understand the requirements of the study.\n\nEXCLUSION CRITERIA:\n\n* Current diagnosis of bipolar disorder, psychosis, schizophrenia, schizoaffective disorder, or active major depression\n* Has a diagnosis other than ASD that dominates the clinical presentation (e.g., Attention Deficit Hyperactivity Disorder \\[ADHD\\])\n* Has a degenerative condition\n* Changes in anticonvulsive therapy within the last 12 weeks\n* Taking omeprazole, lansoprazole, tolbutamide, warfarin, sirolimus, everolimus, temsirolimus, tacrolimus, clobazam, repaglinide, pioglitazone, rosiglitazone, montelukast, bupropion, or efavirenz\n* Currently using or has used recreational or medicinal cannabis, cannabinoid-based medications (including Sativex\u00ae, or Epidiolex\u00ae) within the 12 weeks prior to screening and is unwilling to abstain for the duration of the trial\n* Participant has any known or suspected hypersensitivity to cannabinoids or any of the excipients\n* Participant has moderately impaired hepatic function at screening, defined as serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2 \u00d7 upper limit of normal (ULN) or total bilirubin (TBL) \\> 2 \u00d7 ULN. This criterion can only be confirmed once the laboratory results are available; participants enrolled into the trial who are later found to meet this criterion must be screen-failed.\n* Participant is male and fertile (i.e., after puberty unless permanently sterile by bilateral orchidectomy) unless willing to ensure that they use male contraception (condom) or remain sexually abstinent during the trial and for 12 weeks thereafter.\n* Participant is female and with childbearing potential (i.e., following menarche and until becoming postmenopausal for greater than or equal to 12 consecutive months unless permanently sterile by hysterectomy, bilateral salpingectomy, or bilateral oophorectomy) unless willing to ensure that they use a highly effective method of birth control (e.g., hormonal contraception, intrauterine device/hormone-releasing system, bilateral tubal occlusion, vasectomized partner, sexual abstinence) during the trial and for 12 weeks thereafter.\n* Female participant who is pregnant (positive pregnancy test), lactating or planning pregnancy during the course of the trial or within 12 weeks thereafter.\n* Participant had brain surgery or traumatic brain injury within 1 year of screening.\n* Participant has any other significant disease or disorder which, in the opinion of the investigator, may either put the participant, other participants, or site staff at risk because of participation in the trial, may influence the result of the trial, or may affect the participant's ability to take part in the trial.\n* Any abnormalities identified following a physical examination of the participant that, in the opinion of the investigator, would jeopardize the safety of the participant if they took part in the trial\n* Any history of suicidal behaviour (lifelong) or any suicidal ideation of type 4 or 5 on the Columbia-Suicide Severity Rating Scale (C-SSRS) in the last 4 weeks or at screening or randomization\n* Participant has donated blood during the past 12 weeks and is unwilling to abstain from donation of blood during the trial.\n* Participant has any known or suspected history of alcohol or substance abuse or positive drugs of abuse test at screening (not justified by a known concurrent medication).\n* Participant has previously been enrolled into this trial.\n* Participant has plans to travel outside their country of residence during the trial, unless the participant has confirmation that the product is permitted in the destination country/state.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "8 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Michael Fahey, Prof",
+                "affiliation": "Head of Paediatric Neurology",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Monash Children's Hospital",
+                "city": "Clayton",
+                "state": "Victoria",
+                "zip": "3168",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000067877",
+                "term": "Autism Spectrum Disorder"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002659",
+                "term": "Child Development Disorders, Pervasive"
+              },
+              {
+                "id": "D065886",
+                "term": "Neurodevelopmental Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D013759",
+                "term": "Dronabinol"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002186",
+                "term": "Cannabinoids"
+              },
+              {
+                "id": "D013729",
+                "term": "Terpenes"
+              },
+              {
+                "id": "D006838",
+                "term": "Hydrocarbons"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06621888",
+            "orgStudyIdInfo": {
+              "id": "NTIPANS1"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "ACTRN12622001419752",
+                "type": "OTHER",
+                "domain": "ANZCTR"
+              }
+            ],
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Investigating The Effects Of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) On Paediatric Acute-onset Neuropsychiatric Syndrome (PANS)",
+            "officialTitle": "Investigating The Effects Of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) On Paediatric Acute-onset Neuropsychiatric Syndrome (PANS)",
+            "acronym": "CannaPANS"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-06-02",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-09-11",
+            "studyFirstSubmitQcDate": "2024-09-27",
+            "studyFirstPostDateStruct": {
+              "date": "2024-10-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study investigates the effectiveness of a medicinal cannabis extract (NTI164) with 0.08% THC in treating children with pediatric acute-onset neuropsychiatric syndrome (PANS) over a period of 18 to 54 weeks. Participants, aged 18 to 54, will start with a daily dose of 5mg/kg, gradually increasing to a maximum of 20mg/kg over four weeks. After reaching their maximum tolerated dose, they will maintain this dose for eight weeks, with an option to extend up to 54 weeks. The study will measure the treatment\\&#39;s efficacy using questionnaires on emotional and behavioral changes, and verify the results with whole blood RNA sequencing to assess immune dysfunction.",
+            "detailedDescription": "This open-label study spans 18 to 54 weeks and aims to assess the efficacy of Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164) for treating pediatric acute-onset neuropsychiatric syndrome (PANS) in children. The main objective is to evaluate how effective the NTI164 treatment is over the specified duration.\n\nThe study protocol involves several phases:\n\n1. \\*\\*Up-titration phase:\\*\\* Participants will start with a daily dosage of 5 mg/kg of NTI164, incrementally increasing this dose over a four-week period until reaching either the maximum tolerated dose or 20 mg/kg per day.\n2. \\*\\*Treatment phase:\\*\\* Following the up-titration, participants will continue at their maximum tolerated dose for eight weeks.\n3. \\*\\*Extension phase:\\*\\* After the initial eight-week treatment phase, participants have the option to continue at their maximum dose for up to an additional 46 weeks, totaling a possible 54 weeks of treatment.\n4. \\*\\*Down-titration phase:\\*\\* At the conclusion of the treatment or extension phases, the dosage will be gradually reduced by 5 mg/kg over four weeks until the participant\\&#39;s involvement in the study ends.\n\nThe effectiveness of NTI164 will be monitored through both participant- and psychologist-led questionnaires, which are designed to track changes in the emotions and behavior of the patients with PANS. Additionally, the study will employ whole blood RNA sequencing as a method to validate the presence of an immune dysfunction signature, aiming to provide a biomarker for response to treatment. This comprehensive approach seeks to ensure a thorough evaluation of NTI164's potential benefits in alleviating the symptoms of PANS."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "PANS Pediatric Acute-Onset Neuropsychiatric Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 18,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active NTI164 Group",
+                "type": "EXPERIMENTAL",
+                "description": "Participants in this group receive Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164) to treat pediatric acute-onset neuropsychiatric syndrome (PANS). The treatment begins with an up-titration phase where doses start at 5 mg/kg daily and increase to a maximum of 20 mg/kg. This is followed by an 8-week treatment phase at the maximum tolerated dose. Participants have the option to extend this phase up to 54 weeks. The study concludes with a down-titration phase, gradually reducing the dose over 4 weeks. Efficacy is assessed through psychological questionnaires and immune function tests.",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "This intervention uses Full-Spectrum Medicinal Cannabis Plant Extract with a low THC concentration of 0.08% (NTI164), specifically formulated to treat pediatric acute-onset neuropsychiatric syndrome (PANS). The dosing regimen is carefully structured to increase from an initial 5 mg/kg per day up to a maximum of 20 mg/kg, tailored to individual tolerance levels. This gradual titration and the option to extend treatment up to 54 weeks distinguishes it from other interventions that may use different concentrations of THC or shorter treatment durations. The efficacy of NTI164 is rigorously assessed through psychological evaluations and biomarker analyses.",
+                "armGroupLabels": [
+                  "Active NTI164 Group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Clinical Global Impression Scale-Improvement",
+                "description": "The CGI-I (Clinical Global Impressions - Improvement) scale rates patient improvement on a scale from 1 to 7. Lower scores indicate better improvement.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              },
+              {
+                "measure": "Revised Childrens Anxiety and Depression Scale-Parent Version",
+                "description": "The RCADS-P (Revised Child Anxiety and Depression Scale - Parent Version) assesses anxiety and depression in children, with individual item scores ranging from 0 to 3. Higher scores indicate more severe symptoms, meaning lower scores suggest better emotional well-being.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Yale Global Tic Severity Scale",
+                "description": "The Yale Global Tic Severity Scale (YGTSS) measures the severity of tics in individuals, with individual item scores ranging from 0 to 5 for both motor and vocal tics. Higher scores indicate more severe tics and lower scores reflect better tic control.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              },
+              {
+                "measure": "Children's Yale-Brown Obsessive-Compulsive Scale",
+                "description": "The Children's Yale-Brown Obsessive-Compulsive Scale (CY-BOCS) assesses the severity of obsessive-compulsive symptoms in children, with individual item scores ranging from 0 to 4. Higher scores indicate more severe symptoms and lower scores suggest better symptom control.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              },
+              {
+                "measure": "Conners Scale",
+                "description": "The Conners\\&#39; Scale measures behavioural problems, with individual item scores ranging from 0 to 3. Higher scores indicate more severe behavioural issues and lower scores reflect better behavioural functioning.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              },
+              {
+                "measure": "EQ-5D-Y",
+                "description": "The EQ-5D-Y (EuroQol Five-Dimension Youth) is a measure of health-related quality of life in children and adolescents. It assesses five dimensions, with individual item scores ranging from 1 to 3. A higher score indicates more health-related difficulties, meaning lower scores reflect better quality of life.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment. Additional timepoints for Extension phase: Weeks 28, 40, 52 post-commencement of treatment."
+              },
+              {
+                "measure": "Blood Transcriptomic Signature",
+                "description": "The Blood Transcriptomic Signature outcome assesses changes in gene expression in PANS children post-NTI164 treatment, compared to baseline and controls. RNA sequencing of blood samples will identify modifications in the transcriptomic profile, providing insights into the treatment's impact on molecular processes.",
+                "timeFrame": "Baseline (pre-dose) and 16 weeks post-commencement of treatment."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 1 - 17 years of age\n* Patients who fulfil PANS criteria\n* Acute onset of OCD or severely restricted food intake\n* Concurrent presentation of additional neuropsychiatric symptoms from at least 2 of the following 7 categories: anxiety, emotional lability/depression, irritability, aggression or severely oppositional behaviours, behavioural regression, deterioration in school performance, sensory or motor abnormalities (e.g. tics), somatic symptoms (e.g. sleep disturbances, enuresis or increase in urinary frequency)\n* Symptoms not better explained by a known neurologic or medical disorder (e.g. Sydenham's chorea)\n* RCADS-P scores of \\&gt;65 (a scale of anxiety, social phobia, panic disorder, OCD, and low mood, a score of \\&gt;65 infers moderate-significant impairment)\n* Other patient medications (e.g. anti-psychotics) must be stable for at least 12 weeks prior to trial participation\n\nExclusion Criteria:\n\n* Infection and/or antibiotic use in the 2 weeks prior to trial participation (i.e. baseline blood tests and commencement of NTI164)\n* Recent changes to other patient medication (e.g. addition or escalation of anxiolytics, anti-depressants etc; medication dosage must be stable for at least 12 weeks prior to trial participation)\n* Intellectual disability preventing adequate assent from patient, or that would affect reporting throughout trial; patients with intellectual disability must still have the capacity to verbalise their symptoms/experiences\n* Ongoing immunomodulating or immunosuppressive treatment use in the previous 12 weeks, including steroids, IVIG, antibiotics, low-dose naltrexone, mycophenolate, Rituximab etc.\n* Currently using or has used recreational or medicinal cannabis or cannabinoid-based medications (e.g. Sativex \u00ae, Epidiolex \u00ae) in the previous 12 weeks and/or is unwilling or unable to abstain for the duration of the trial\n* Underlying renal impairment, cardiovascular issues (e.g. arrhythmia), current or previous thrombosis\n* Impaired hepatic function, defined as serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\&gt; 2 x upper limit of normal (ULN) or total bilirubin (TBL) \\&gt; 2 x ULN; this criterion can only be confirmed once baseline laboratory results are available and participants who fail this criterion will not proceed in this study\n* Other diagnosed neurological condition likely to be contributing to OCD/neuropsychiatric symptoms (e.g. Huntington's disease)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Year",
+            "maximumAge": "17 Years",
+            "stdAges": [
+              "CHILD"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Childrens Hospital at Westmead",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Monash Children&#39;s Hospital",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "IPD will not be shared as per commercial in confidence restrictions."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000631768",
+                "term": "Pediatric acute-onset neuropsychiatric syndrome"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07257978",
+            "orgStudyIdInfo": {
+              "id": "NTIRTT2"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "NTIRTT2",
+                "type": "OTHER",
+                "domain": "Fenix Innovation Group Pty Ltd"
+              }
+            ],
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Efficacy and Safety of NTI164 in Children and Young Adults With Rett Syndrome",
+            "officialTitle": "A Phase II/III Double-blind, Randomised, Placebo-controlled, Crossover Study Investigating the Efficacy and Safety of NTI164 in Children and Young Adults With Rett Syndrome",
+            "acronym": "TRANSCEND"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2027-07-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-10-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-10-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-07-18",
+            "studyFirstSubmitQcDate": "2025-11-26",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-02",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The FENRTT2 study will investigate the efficacy and safety of a medicinal cannabis plant extract with extremely low THC (delta-9-tetrahydrocannabinol), NTI164, on Rett syndrome (RTT) in a crossover design. RTT is a devastating rare genetic condition affecting females and involves debilitating physical and intellectual symptoms. NTI164 is an oil which has demonstrated efficacy in reducing symptoms in several paediatric neurological conditions, including RTT, autism spectrum disorder (ASD), and paediatric acute-onset neuropsychicatric syndrome (PANS). A Phase I/II clinical trial of NTI164 in RTT (FENRTT1/NTIRTT1) showed NTI164 is safe in this population and significantly improved overall clinical severity of illness, as well as core RTT symptoms, including anxiety, mental alertness, communication skills, socialisation/eye contact, and attentiveness. The FENRTT2 study will investigate NTI164 in a larger number of patients, and compare NTI164 to a placebo control. Research tests on patient blood will also be included to further investigate how NTI164 works in the body.",
+            "detailedDescription": "The FENRTT2 study will investigate the efficacy and safety of a full-spectrum medicinal cannabis plant extract with extremely low THC, NTI164, on Rett syndrome (RTT). This study will be a randomised, placebo-controlled, double-blind, crossover study spanning from 28 weeks up t0 52 weeks.\n\nRTT is a devastating rare genetic condition affecting females and involves debilitating physical and intellectual symptoms, with inflammation often driving the progression of symptoms. NTI164 is a potently anti-inflammatory oil which has demonstrated efficacy in reducing symptoms in several paediatric neurological conditions, including RTT (Phase I/II), autism spectrum disorder (ASD), and paediatric acute-onset neuropsychicatric syndrome (PANS). A Phase I/II clinical trial of NTI164 in RTT (FENRTT1) showed NTI164 is safe in this population and significantly improved overall clinical severity of illness, as well as core RTT symptoms, including anxiety, mental alertness, communication skills, socialisation/eye contact, and attentiveness.\n\nThe FENRTT2 study will investigate NTI164 in a larger number of patients and will seek to demonstrate superiority over placebo in clinical outcomes in this cohort of patients. Multi-omic analyses on patient blood will also be included to further investigate the mechanism of action of NTI164, including transcriptomics, proteomics, phosphoproteomics, methylation, and cytokine analyses. Functional and clinical benefit will be measured using several validated, gold-standard assessment tools, rated by both clinicians and parents."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "RETT Syndrome With Proven MECP2 Mutation",
+              "Rett Syndrome"
+            ],
+            "keywords": [
+              "Rett syndrome",
+              "Rett",
+              "cannabis",
+              "NTI164"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2",
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "Randomised, placebo-controlled, double-blind, crossover",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "All parties other than the Clinical Trials Pharmacy and Sponsor will be blinded during the Active study phase (up to Week 28).",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "NTI164 active",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "NTI164",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "NTI164 is a full-spectrum medicinal cannabis plant extract with \\<0.3% THC.",
+                "armGroupLabels": [
+                  "NTI164 active"
+                ],
+                "otherNames": [
+                  "FEN164"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Rett Syndrome Behaviour Questionnaire (RSBQ)",
+                "description": "A validated, FDA-accepted 45-item caregiver-assessed tool to assess a variety of behavioural features impaired in RTT. The caregiver rates items as 0 = not true, 1 = somewhat true or sometimes true, or 2 = very true. Symptoms assessed include maladaptive behaviours, mood disruption, repetitive movements, fear/anxiety, breathing abnormalities, hand behaviours, and gross motor skills. A higher score indicates greater impairment/disease severity.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Clinical Global Impression - Severity (CGI-S)",
+                "description": "7-point scale rating a clinician's impression of disease severity at a given time point, a higher score indicates more severe illness.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "Clinical Global Impression - Improvement (CGI-I)",
+                "description": "A clinician-rated tool to assess how much an individual's symptoms improve or worsen following an intervention on a 7-point scale. 1-3 = improvement, 4 = no change, 5-7 = worsening. It is anticipated the CGI-I score will be \\<4 following NTI164 treatment, indicating moderate-substantial improvement.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "RTT-Domain- specific Concerns - Visual Analog Scale (RTT-DSC-VAS)",
+                "description": "An 8-point scale assessing areas of functional impairment (0 = normal function, 7 = most severe impairment).",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "Impact of Childhood Neurologic Disability scale + Quality of Life (ICND + QoL)",
+                "description": "Rates the effect of 4 health problems (inattentiveness, impulsivity, or mood; ability to think and remember; neurologic or physical limitations; epilepsy) on 11 aspects of the child and/or family's life (overall health, relationships with parents, relationships with siblings, relationship between your spouse/partner, relationships with child's friends/peers, social life - acceptability by others, social life - number of activities, school - academics, child's self-esteem, loss of original hopes for child/self, and family activities. A higher score indicates a lower level of disability. QoL component rates the QoL of the patient on a 6-point scale (1 = poor, 6 = excellent).",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "RTT-Caregiver Burden Inventory (RTT-CBI)",
+                "description": "Assesses 4 aspects of burden (physical, emotional, and social burden, and time dependence) on the primary caregiver of the patient. Subdomains include general caregiver tasks, emotional and social impact of caregiving, and financial burden. A higher score indicates greater impairment and caregiver burden.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "EQ-5D-Y-5L",
+                "description": "A descriptive scale covering 5 dimensions of health (mobility, looking after myself, doing usual activities, having pain or discomfort, and feeling worried, sad, or unhappy). This version of the scale has 5 levels to each answer (5L) and is worded so as to be more child friendly (Y). A higher score indicates greater impairment/worse health status.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              },
+              {
+                "measure": "CSBS-DP-IT",
+                "description": "A caregiver rated scale often used as the first step in routine screening to determine if a developmental evaluation is needed. In the context of RTT, it can be used to assess functional communication. A higher score indicates a better communication ability.",
+                "timeFrame": "Baseline, Week 12, and Week 28"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Research bloods - transcriptomics",
+                "description": "To further clarify the mechanism of action of NTI164, both bulk and single-cell RNA sequencing will be performed on peripheral blood mononuclear cells (PBMCs) from patients at specified time points. This will provide additional information regarding which genes are being expressed in patients at either abnormally low or high levels compared to a non-RTT population, and the effects NTI164 has on gene expression. This workflow includes RNA extraction, depletion of ribosomal RNA via hybrid capture, library preparation, and sequencing. Cleaned sequence reads will then be aligned against the Homo sapiens genome (Build version hg38) and STAR aligner (v2.5.3a) will be used to map unique reads to the genomic sequences. This is exploratory so genes of interest cannot be identified in advance.",
+                "timeFrame": "Baseline, Week 12, Week 16, and Week 28"
+              },
+              {
+                "measure": "Research bloods - proteomics (and phosphoproteomics)",
+                "description": "To further clarify the mechanism of action of NTI164, proteomics and phosphoproteomics will be performed on peripheral blood mononuclear cells (PBMCs) from patients at specified time points. This will provide additional information regarding which proteins are being expressed at either abnormally low or high levels compared to a non-ASD population, as well as how extensively these proteins are phosphorylated compared to a non-ASD population, and the effects NTI164 has on protein expression and phosphorylation. Samples will be tagged using the TMTpro system and hydrophilic ion liquid chromatography fractionation performed. This is exploratory so proteins of interest cannot be identified in advance.",
+                "timeFrame": "Baseline, Week 12, Week 16, Week 28"
+              },
+              {
+                "measure": "Research bloods - methylomics",
+                "description": "To further clarify the mechanism of action of NTI164, methylomics will be performed on whole blood from patients at specified time points. This will provide additional information on methylation patterns (e.g. addition of a methyl group to histones or DNA) in patients compared to non-patients, and how NTI164 effects this type of epigenetic modification and how genes of interest may be regulated. This is exploratory so patterns of interest cannot be identified in advance. Genome-wide methylation will be assessed using the Illumina MethylationEPIC v2.0 BeadChip (or the latest version if a new version is available to the study team at the time of analysis).",
+                "timeFrame": "Baseline, Week 12, Week 16, Week 28"
+              },
+              {
+                "measure": "Research bloods - cytokine assay",
+                "description": "To further clarify the mechanism of action of NTI164, a cytokine assay investigating a panel of inflammatory markers will be performed on plasma from patients at specified time points. The cytokine assay will likely be the LEGENDplex Human Neuroinflammation Panel 1 (13 plex). Cytokines investigated with this panel include VILIP-1, CCL2, sTREM-2, b-NGF, TGF-b1, TNF-a, IL-6, s-TREM-1, sRAGE, CX3CL1, VEGF, BDNF, and IL-18.",
+                "timeFrame": "Baseline, Week 12, Week 16, Week 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Females aged 4-25 years of age\n2. Weight \u226512 kg\n3. Classical/typical RTT as confirmed with a documented pathogenic variant in the MECP2 gene\n4. At least 6 months post-regression at screening (i.e. no loss or degradation in ambulation, hand function, speech, non-verbal communication, or social skills within 6 months of screening)\n5. Rett Syndrome Clinical Severity Scale rating of 10-36\n6. Clinical Global Impression - Severity of Illness score \u22654\n7. Stable pattern of seizures or has had no seizures within 8 weeks of screening, as determined by the participant's primary physician\n8. Other patient medications must be stable (i.e. no dose adjustments) for at least 8 weeks prior to screening, including steroids, anti-inflammatories, anxiolytics etc\n\nExclusion Criteria:\n\n1. Current clinically significant cardiovascular, endocrine (such as hypo- or hyperthyroidism, type 1 diabetes, or uncontrolled type 2 diabetes), renal, hepatic, respiratory, or gastrointestinal disease (such as coeliac disease or inflammatory bowel disease), or major surgery planned\n2. Known history or symptoms of long QT syndrome\n3. QTcF interval \\>450 milliseconds, history of risk factor for torsades de pointes or clinically significant QT prolongation deemed to increase risk\n4. Currently receiving treatment with DAYBUE\u2122 (Trofinetide)\n5. Currently using other unregistered drugs for the treatment of Rett syndrome, such as Anavex\u00ae\n6. Currently using or has used recreational or medicinal cannabis or cannabinoid-based medications, including Sativex\u00ae or Epidiolex\u00ae, within the 12 weeks prior to screening and is unwilling to abstain for the duration of the trial\n7. A known or suspected hypersensitivity to cannabinoids or any of the excipients\n8. Moderate-severe impairment in hepatic function at screening, defined as serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2 x upper limit of normal (ULN), or total bilirubin (TBL) \\> 2 x ULN. This criterion can only be confirmed once laboratory results are available, participants enrolled into the trial who are later found to meet this criterion will be screen-failed.\n9. Participant is enrolled in another clinical trial within 14 days of screening or becomes enrolled in another clinical trial throughout the duration of this study\n10. Infection and/or antibiotic use in the 2 weeks prior to screening (participants can be recruited following 2 weeks without infection and/or antibiotic use)",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "4 Years",
+            "maximumAge": "25 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Kanan Sharma",
+                "role": "CONTACT",
+                "phone": "+61395946666",
+                "email": "MonashChildrensCTC@monashhealth.org"
+              },
+              {
+                "name": "Michael C Fahey",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Monash Health",
+                "city": "Clayton",
+                "state": "Victoria",
+                "zip": "3168",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Kanan Sharma",
+                    "role": "CONTACT",
+                    "phone": "+61395946666",
+                    "email": "MonashChildrensCTC@monashhealth.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015518",
+                "term": "Rett Syndrome"
+              },
+              {
+                "id": "D002189",
+                "term": "Marijuana Abuse"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019966",
+                "term": "Substance-Related Disorders"
+              },
+              {
+                "id": "D064419",
+                "term": "Chemically-Induced Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07257939",
+            "orgStudyIdInfo": {
+              "id": "NTIASD3"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "FENASD3",
+                "type": "OTHER",
+                "domain": "Fenix Innovation Group"
+              }
+            ],
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "NTI164 in Autism Spectrum Disorder",
+            "officialTitle": "A Phase III Double-blind, Randomised, Placebo-controlled Study Investigating the Efficacy and Safety of NTI164 in Children and Young Adults With Autism Spectrum Disorder",
+            "acronym": "Beyond Harmony"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-09-30",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-07-01",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-07-01",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-11-17",
+            "studyFirstSubmitQcDate": "2025-11-26",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-02",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-27",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-30",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a double-blind, randomised, placebo-controlled study investigating the efficacy of a full-spectrum medicinal cannabis plant extract on core and associated ASD symptoms over placebo. Participants will be randomly allocated to either NTI164 or placebo at a 1:1 ratio and blood samples will be collected and surveys completed at baseline and Week 16. This study will expand efficacy and safety data of NTI164 and provide additional mechanism of action data of NTI164 in this patient cohort.",
+            "detailedDescription": "Participants will be recruited from sites across Australia and will have a diagnosis of ASD Level II or III, as well as satisfying other inclusion/exclusion criteria. The primary objective is to assess efficacy of 16 weeks of daily oral administration of NTI164 on core ASD symptoms compared to placebo. The secondary objectives are to further expand the safety data of NTI164 in this patient cohort, and assess the changes in other associated symptoms of ASD following NTI164."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Autism",
+              "Autism Spectrum Disorder",
+              "Autism Disorder"
+            ],
+            "keywords": [
+              "Cannabis",
+              "NTI164",
+              "Autism spectrum disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Double-blind, randomised, placebo-controlled, parallel",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "All study team members will be blinded during the main treatment phase of this study (i.e up to Week 16). Only Clinical Trial Pharmacy staff will be unblinded.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 200,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active",
+                "type": "EXPERIMENTAL",
+                "description": "NTI164",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "A CBDA-dominant full-spectrum medicinal cannabis plant extract with extremely low THC.",
+                "armGroupLabels": [
+                  "Active"
+                ],
+                "otherNames": [
+                  "FEN164"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo oil suspension",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Vineland Adaptive Behaviour Scales, 3rd Edition (Vineland-3)",
+                "description": "Used to measure functioning across 3 core domains, Communication, Daily Living Skills, and Socialisation, as well as 2 optional domains, Motor Skills and Maladaptive Behaviour. The core domains sum to a total Adaptive Behaviour Composite. Scores are between 20-160, higher scores indicate better outcomes.",
+                "timeFrame": "Baseline, Week 16"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Social Responsiveness Scale, 2nd Edition (SRS-2)",
+                "description": "Captures overall change in core ASD symptoms across domains including social awareness, social cognition, social communication, social motivation, and restricted and repetitive behaviours. Scores are between 0-195, and higher scores indicate greater impairment.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Clinical Global Impression - Improvement (CGI-I)",
+                "description": "Provides a clinician-rated global assessment of improvement at a given time point following an intervention. 1-3 = improvement, 4 = no change, 5-7 = worsening.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Clinical Global Impression - Severity (CGI-S)",
+                "description": "Evaluates a clinician's impression of disease severity at a given time point from a scale of 1-7. A higher score indicates greater impairment/disease severity.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Anxiety, Depression, and Mood Scale (ADAMS)",
+                "description": "Measures emotional and behavioural disturbances frequently comorbid with ASD. Assesses 5 domains (Manic/hyperactive Behaviour, Depressed Mood, Social Avoidance, General Anxiety, and Compulsive Behaviour). Scores are between 0-84, with higher scores indicating greater impairment.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Autism Family Experience Questionnaire (AFEQ)",
+                "description": "Captures caregiver perceptions of changes in family impact, child wellbeing, and support burden. Scores range from 48-240, with higher scores indicating worse family outcomes.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Sleep Disturbances Scale for Children (SDSC)",
+                "description": "Evaluates treatment-related changes in sleep quality and sleep-wake behaviours. Assesses 6 domains (Disorders of Initiating and Maintaining Sleep, Sleep Breathing Disorders, Disorders of Arousal, Sleep Wake Transition Disorders, Disorders of Excessive Somnolence, and Sleep Hyperhidrosis). Scores range from 26-130, with higher scores indicating greater impairment and issues around sleep.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "EQ-5D-Y-5L",
+                "description": "Measures broader wellbeing and day-to-day function, as well as quality of life (QoL), from a caregiver-reported perspective. Assesses health in 5 domains (Mobility, Usual Activities, Self-care, Pain/discomfort, and Anxiety/depression), and QoL. Scores range from 0-1, with 0 = the worst health possible and 1 = the best possible health state. The higher the score, the better the health state.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Anxiety Scale for Children with ASD, Parent edition (ASC-ASD-P)",
+                "description": "Evaluates changes in anxiety symptoms and emotional regulation. It is used to detect symptoms of anxiety in youth with ASD and assesses 4 domains (Performance Anxiety, Uncertainty, Anxious Arousal, and Separation Anxiety). Scores range from 0-72, with higher scores indicating greater impairment.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Aberrant Behaviour Checklist (ABC)",
+                "description": "Assesses challenging behaviours and behavioural regulation relevant to ASD functioning. Measures impairment across 5 domains (Irritability, Lethargy/social Withdrawal, Stereotypic Behaviour, Hyperactivity/non-compliance, and Inappropriate Speech. Scores range from 0-174, with higher scores indicating greater impairment.",
+                "timeFrame": "Baseline, Week 16"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Research samples - transcriptomics",
+                "description": "To further clarify the mechanism of action of NTI164, both bulk and single-cell RNA sequencing will be performed on peripheral blood mononuclear cells (PBMCs) from patients at specified time points. This will provide additional information regarding which genes are being expressed in patients at either abnormally low or high levels compared to a non-ASD population, and the effects NTI164 has on gene expression. This workflow includes RNA extraction, depletion of ribosomal RNA via hybrid capture, library preparation, and sequencing. Cleaned sequence reads will then be aligned against the Homo sapiens genome (Build version hg38) and STAR aligner (v2.5.3a) will be used to map unique reads to the genomic sequences. This is exploratory so genes of interest cannot be identified in advance.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Research bloods - proteomics (and phosphoproteomics)",
+                "description": "To further clarify the mechanism of action of NTI164, proteomics and phosphoproteomics will be performed on peripheral blood mononuclear cells (PBMCs) from patients at specified time points. This will provide additional information regarding which proteins are being expressed at either abnormally low or high levels compared to a non-ASD population, as well as how extensively these proteins are phosphorylated compared to a non-ASD population, and the effects NTI164 has on protein expression and phosphorylation. Samples will be tagged using the TMTpro system and hydrophilic ion liquid chromatography fractionation performed. This is exploratory so proteins of interest cannot be identified in advance.",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Research bloods - Methylomics",
+                "description": "To further clarify the mechanism of action of NTI164, methylomics will be performed on whole blood from patients at specified time points. This will provide additional information on methylation patterns (e.g. addition of a methyl group to histones or DNA) in patients compared to non-patients, and how NTI164 effects this type of epigenetic modification and how genes of interest may be regulated. This is exploratory so patterns of interest cannot be identified in advance. Genome-wide methylation will be assessed using the Illumina MethylationEPIC v2.0 BeadChip (or the latest version if a new version is available to the study team at the time of analysis).",
+                "timeFrame": "Baseline, Week 16"
+              },
+              {
+                "measure": "Research bloods - cytokine assay",
+                "description": "To further clarify the mechanism of action of NTI164, a cytokine assay investigating a panel of inflammatory markers will be performed on plasma from patients at specified time points. The cytokine assay will likely be the LEGENDplex Human Neuroinflammation Panel 1 (13 plex). Cytokines investigated with this panel include VILIP-1, CCL2, sTREM-2, b-NGF, TGF-b1, TNF-a, IL-6, s-TREM-1, sRAGE, CX3CL1, VEGF, BDNF, and IL-18.",
+                "timeFrame": "Baseline, Week 16"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participant is aged 6 years to 21 years (inclusive).\n2. Participant is at a healthy weight at the discretion of the Principal Investigator.\n3. Written informed consent from parent or legal guardian according to the local law.\n4. Participants can comply with trial requirements.\n5. According the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-5) criteria the participant has a diagnosis of Level II or III ASD confirmed by a validated assessment tool.\n6. All treatments including medications and therapies for ASD related symptoms must have been stable for 12 weeks before enrolment and for the duration of the trial wherever possible.\n7. Participants must be able to swallow liquid.\n8. Consent giver must be able to understand the requirements of the study.\n\nExclusion Criteria:\n\n1. Current diagnosis of bipolar disorder, psychosis, schizophrenia, schizoaffective disorder, or active major depression.\n2. Has a diagnosis other than ASD that dominates the clinical presentation (e.g., ADHD).\n3. Has a degenerative condition.\n4. Changes in anticonvulsive therapy within the last 12 weeks.\n5. Taking omeprazole, lansoprazole, tolbutamide, warfarin, sirolimus, everolimus, temsirolimus, tacrolimus, clobazam, repaglinide, pioglitazone, rosiglitazone, montelukast, bupropion, or efavirenz.\n6. Currently using or has used recreational or medicinal cannabis, cannabinoid-based medications (including Sativex\u00ae, or Epidiolex\u00ae) within the 12 weeks prior to screening and is unwilling to abstain for the duration of the trial.\n7. Participant has any known or suspected hypersensitivity to cannabinoids or any of the excipients.\n8. Participant has moderately impaired hepatic function at screening, defined as serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2 \u00d7 upper limit of normal (ULN) or total bilirubin (TBL) \\> 2 \u00d7 ULN. This criterion can only be confirmed once the laboratory results are available; participants enrolled into the trial who are later found to meet this criterion must be screen-failed.\n9. Participant is male and fertile (i.e., after puberty unless permanently sterile by bilateral orchidectomy) unless willing to ensure that they use male contraception (condom) or remain sexually abstinent during the trial and for 12 weeks thereafter.\n10. Participant is female and with childbearing potential (i.e., following menarche and until becoming postmenopausal for \u2265 12 consecutive months unless permanently sterile by hysterectomy, bilateral salpingectomy, or bilateral oophorectomy) unless willing to ensure that they use a highly effective method of birth control (e.g., hormonal contraception, intrauterine device/hormone-releasing system, bilateral tubal occlusion, vasectomised partner, sexual abstinence) during the trial and for 12 weeks thereafter.\n11. Female participant who is pregnant (positive pregnancy test), lactating or planning pregnancy during the course of the trial or within 12 weeks thereafter.\n12. Participant had brain surgery or traumatic brain injury within 1 year of screening.\n13. Participant has any other significant disease or disorder which, in the opinion of the Investigator, may either put the participant, other participants, or site staff at risk because of participation in the trial, may influence the result of the trial, or may affect the participant's ability to take part in the trial.\n14. Any abnormalities identified following a physical examination of the participant that, in the opinion of the Investigator, would jeopardise the safety of the participant if they took part in the trial.\n15. Any history of suicidal behaviour (lifelong) or any suicidal ideation of type 4 or 5 on the Columbia-Suicide Severity Rating Scale (C-SSRS) in the last 12 weeks or at screening or randomisation.\n16. Participant has donated blood during the past 12 weeks and is unwilling to abstain from donation of blood during the trial.\n17. Participant has any known or suspected history of alcohol or substance abuse or positive drugs of abuse test at screening (not justified by a known concurrent medication).\n18. Participant has previously been enrolled into this trial.\n19. Participant has plans to travel outside their country of residence during the trial, unless the participant has confirmation that the product is permitted in the destination country/state.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "maximumAge": "21 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Kanan Sharma",
+                "role": "CONTACT",
+                "phone": "+61395946666",
+                "email": "monashchildrensctc@monashhealth.org"
+              },
+              {
+                "name": "Michael C Fahey",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Children's Hospital Queensland",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Michael Duhig",
+                    "role": "CONTACT",
+                    "phone": "61+ 07 3068 2593",
+                    "email": "CHQ_CCTRND@health.qld.gov.au"
+                  },
+                  {
+                    "name": "Helen Heussler",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -27.46794,
+                  "lon": 153.02809
+                }
+              },
+              {
+                "facility": "Sunshine Coast University Hospital",
+                "city": "Sunshine Coast",
+                "state": "Queensland",
+                "zip": "4575",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Roni Cole",
+                    "role": "CONTACT",
+                    "phone": "61+ 07 5202 0000",
+                    "email": "sc-wcs-research@health.qld.gov.au"
+                  },
+                  {
+                    "name": "Ianthe Mills",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -26.65682,
+                  "lon": 153.07955
+                }
+              },
+              {
+                "facility": "Monash Health",
+                "city": "Clayton",
+                "state": "Victoria",
+                "zip": "3168",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Kanan Sharma",
+                    "role": "CONTACT",
+                    "phone": "+61395946666",
+                    "email": "MonashChildrensCTC@monashhealth.org"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.91667,
+                  "lon": 145.11667
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D001321",
+                "term": "Autistic Disorder"
+              },
+              {
+                "id": "D000067877",
+                "term": "Autism Spectrum Disorder"
+              },
+              {
+                "id": "D002189",
+                "term": "Marijuana Abuse"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002659",
+                "term": "Child Development Disorders, Pervasive"
+              },
+              {
+                "id": "D065886",
+                "term": "Neurodevelopmental Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              },
+              {
+                "id": "D019966",
+                "term": "Substance-Related Disorders"
+              },
+              {
+                "id": "D064419",
+                "term": "Chemically-Induced Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06621043",
+            "orgStudyIdInfo": {
+              "id": "NTIRTT1"
+            },
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Assessing the Safety and Efficacy of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) in the Treatment of Rett Syndrome (RTT)",
+            "officialTitle": "Assessing the Safety and Efficacy of Full-Spectrum Medicinal Cannabis Plant Extract 0.08% THC (NTI164) in the Treatment of Rett Syndrome (RTT)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-09-20",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-12-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-09-11",
+            "studyFirstSubmitQcDate": "2024-09-27",
+            "studyFirstPostDateStruct": {
+              "date": "2024-10-01",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This 18-week open-label study examines the effectiveness of Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164) in treating Rett syndrome (RTT) in children and young people. The study aims to determine the impact of NTI164 on RTT symptoms over a 16-week treatment period.\n\nParticipants will start with a daily dose of 5 mg/kg of NTI164, which will be gradually increased over four weeks until they reach either the maximum tolerated dose or 20 mg/kg per day. They will then maintain this dose for eight weeks. Following this treatment phase, the dosage will be reduced by 5 mg/kg each week for four weeks until treatment concludes.\n\nThe effectiveness of the treatment will be assessed using tailored questionnaires that measure changes in the patients\\&#39; conditions. Additionally, full blood examinations will be conducted at multiple points throughout the study to monitor the effects of the treatment.",
+            "detailedDescription": "This study is an 18-week open-label trial designed to assess the effectiveness of Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164) on the severity of symptoms in children and young people with Rett syndrome (RTT). The main objective is to determine how well NTI164 alleviates the symptoms of RTT over a 16-week treatment period.\n\nThe study involves multiple phases:\n\n1. \\*\\*Up-titration Phase (4 weeks):\\*\\* Treatment begins with an initial daily dose of 5 mg/kg of NTI164. Over the first four weeks, this dose is incrementally increased based on patient tolerance, aiming for a maximum daily dose of 20 mg/kg.\n2. \\*\\*Treatment Phase (8 weeks):\\*\\* Once the maximum tolerated dose is established, participants continue to receive this dose for the following eight weeks. This phase focuses on maintaining a steady dosage to observe the therapeutic effects on RTT symptoms.\n3. \\*\\*Down-titration Phase (4 weeks):\\*\\* After completing the treatment phase, the dosage is systematically reduced by 5 mg/kg each week for four weeks until treatment cessation. This gradual reduction helps in assessing any withdrawal effects and the stability of symptom improvement post-treatment.\n\nThroughout the study, the efficacy of NTI164 is evaluated using specifically designed questionnaires that track changes in the emotional, behavioral, and cognitive functions of the participants, providing insights into how the treatment impacts various aspects of RTT. Additionally, full blood examinations are conducted at key points during the study to monitor the physiological responses to the treatment and to ensure the safety and tolerability of NTI164. This comprehensive approach allows for a detailed assessment of both the immediate and longer-term effects of the medicinal cannabis extract on Rett syndrome symptoms."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Rett Syndrome"
+            ],
+            "keywords": [
+              "RTT"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 14,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Active NTI164 Arm",
+                "type": "EXPERIMENTAL",
+                "description": "Participants in this arm receive Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164), targeted at treating symptoms of Rett syndrome (RTT) in children and young people. The intervention starts with a daily initial dose of 5 mg/kg, which is increased gradually over a four-week up-titration phase to a maximum of 20 mg/kg per day, depending on individual tolerance. Participants then continue at their maximum tolerated dose for eight weeks during the treatment phase. The study concludes with a four-week down-titration phase, where the dosage is reduced by 5 mg/kg each week. The effectiveness of the treatment is monitored through specialized questionnaires and full blood examinations throughout the study duration.",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC, administered orally starting with a dose of 5 mg/kg, titrated up to 20 mg/kg based on tolerance, followed by a maintenance phase at the maximum tolerated dose, and concluding with a gradual dose reduction.",
+                "armGroupLabels": [
+                  "Active NTI164 Arm"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Rett Syndrome: Symptom Index Score",
+                "description": "The Rett Syndrome: Symptom Index Score (RTT: SIS) measures the severity of various symptoms in individuals with Rett syndrome. Individual scores are from 0 to 7 with lower scores reflecting improvement or milder symptoms.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Clinical Global Impression - Improvement (CGI-I)",
+                "description": "The CGI-I (Clinical Global Impressions - Improvement) scale rates patient improvement on a scale from 1 to 7. Lower scores indicate better improvement.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment"
+              },
+              {
+                "measure": "Rett Syndrome Behaviour Questionnaire",
+                "description": "The Rett Syndrome Behaviour Questionnaire (RSBQ) assesses behavioural symptoms in individuals with Rett syndrome. Individual items are scored from 0 to 2. Higher total scores indicate more severe behavioural issues, meaning lower scores reflect better behavioural functioning.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              },
+              {
+                "measure": "RTT-Clinician Domain Specific Concerns - Visual Analog Scale",
+                "description": "The Rett Syndrome Clinician Domain Specific Concerns Visual Analog Scale (RTT-DSC-VAS) assesses clinician concerns across specific domains of Rett syndrome. Each domain is scored on a scale from 0 to 7, with higher scores reflecting greater impairment in specific areas, while lower scores suggest less concern.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              },
+              {
+                "measure": "Communication and Symbolic Behaviour Scales Developmental Profile\u2122 Infant-Toddler Checklist",
+                "description": "The Communication and Symbolic Behavior Scales Developmental Profile Infant-Toddler Social Composite (CSBS-DP-IT Social) assesses early social communication skills in young children. Individual items are scored on a scale from 0 to 2, with higher scores indicating stronger social communication abilities. A lower total score reflects more social communication difficulties, while a higher score suggests better social engagement and communication skills.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              },
+              {
+                "measure": "Impact of Childhood Neurological Disability Scale",
+                "description": "The Impact of Childhood Neurological Disability Scale (ICND) assesses the impact of neurological disabilities on a child\\&#39;s daily life and functioning. Each item is scored from 0 to 3, where higher scores indicate greater disability impact. A lower total score reflects less impact or better functioning, while higher scores suggest more significant limitations due to the neurological condition.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              },
+              {
+                "measure": "Rett Syndrome Caregiver Burden Inventory",
+                "description": "The Rett Syndrome Caregiver Burden Inventory (RTT CBI) measures the burden experienced by caregivers of individuals with Rett syndrome. Individual items are scored from 0 to 4, with higher scores indicating a greater caregiver burden. Lower scores reflect less burden or stress, while higher scores suggest increased strain and challenges for caregivers.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              },
+              {
+                "measure": "The Overall Quality of Life Rating of the Impact of Childhood Neurological Disability Scale",
+                "description": "The Overall Quality of Life Rating of the Impact of Childhood Neurological Disability Scale (ICND-QoL) is completed by the caregiver, who rates the child's overall quality of life on a scale from 0 to 6, with 0 indicating the worst possible quality of life and 6 indicating the best. Higher scores reflect a more positive perception of the child's quality of life, while lower scores suggest a greater negative impact of the neurological condition.",
+                "timeFrame": "Baseline (pre-dose), 4, 12, 16 weeks post-commencement of treatment."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Girls and women, aged 5-20 years\n* Weight greater than or equal to 12kg\n* Classical/typical RTT\n* Documented disease-causing mutation in MECP2 gene\n* At least 6 months post regression at screening (ie. no loss or degradation in ambulation, hand function, speech, nonverbal communicative or social skills within 6 months of screening) Rett Syndrome Clinical Severity Scale rating of 10-36\n* CGI score of 4 or higher.\n* Stable pattern of seizures, or has had no seizures, within 8 weeks of screening.\n\nExclusion Criteria:\n\n* Current clinically significant cardiovascular, endocrine (such as hypo- or hyperthyroidism, type 1 diabetes, or uncontrolled type 2 diabetes), renal, hepatic, respiratory, or gastrointestinal disease (such as celiac disease or inflammatory bowel disease), or major surgery planned during the study.\n* Known history or symptoms of long QT syndrome.\n* QTcF interval \\&gt;450 ms, history of risk factor for torsades de pointes or clinically significant QT prolongation deemed to increase risk.\n* Treatment with insulin, IGF-1, or growth hormone within 12 weeks of baseline.\n* Currently receiving treatment with DAYBUETM (trofinetide).\n* Currently using other unregistered drugs for the treatment of Rett syndrome such as Anavex.\n* Currently using or has used recreational or medicinal cannabis, cannabinoid-based medications (including Sativex\u00ae, or Epidiolex\u00ae) within the 12 weeks prior to screening and is unwilling to abstain for the duration of the trial.\n* Participant has any known or suspected hypersensitivity to cannabinoids or any of the excipients.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "genderBased": true,
+            "minimumAge": "5 Years",
+            "maximumAge": "20 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "The Childrens Hospital at Westmead",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "IPD will not be shared as per commercial in confidence restrictions."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D015518",
+                "term": "Rett Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06713447",
+            "orgStudyIdInfo": {
+              "id": "FENPK1"
+            },
+            "organization": {
+              "fullName": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "NTI164 Human PK Study",
+            "officialTitle": "A Pharmacokinetic Study of NTI164 in Healthy Adult Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-02-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-06-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-06-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-11-26",
+            "studyFirstSubmitQcDate": "2024-11-27",
+            "studyFirstPostDateStruct": {
+              "date": "2024-12-03",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fenix Innovation Group",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "CMAX Clinical Research Pty Ltd",
+                "class": "UNKNOWN"
+              },
+              {
+                "name": "Neurotech International Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is looking at how a new cannabis compound with extremely low THC (0.08%), NTI164, is metabolised in the body and how it is excreted in urine over time (up to 28 days) in healthy adult volunteers. NTI164 will be delivered twice daily, at a concentration of 20mg/kg/day. There will be 2 parts to this study, Part A and Part B. Part A involves only one day of taking NTI164, whereas Part B involves taking NTI164 for 7 consecutive days. Urine samples and blood samples will be collected at certain time points after NTI164 dosing to help characterise how the drug is being broken down in the body and over what time frame.",
+            "detailedDescription": "This open-label study aims to assess the efficacy of Full-Spectrum Medicinal Cannabis Plant Extract containing 0.08% THC (NTI164) in healthy adult volunteers. The main objective is to characterise the pharmacokinetic (PK) profile of NTI164 in the body. This study is split into 2 Parts, with NTI164 delivered orally twice daily at a dose of 20mg/kg/day (i.e. 2 x 10mg/kg doses), and blood and urine samples collected in both parts.\n\nPart A involves only one day of NTI164 administration. In Part A, an oral dose of NTI164 will be administered to participants in a fasted state in the morning (AM). Blood samples will be collected at pre-dose and then 0.5, 2, 4, 6, and 8 hours following the AM dose. In the evening (PM), participants will receive another dose of NTI164 and bloods will be collected pre-PM dose, and 0.5, 2, 4, 6, 8, 12, and 24 hours following the PM dose.\n\nOn Day 3 and 4, only one blood sample will be collected in the morning. Urine samples will be collected pre-AM dose, as well as 4, 8, 12, and 24 hours following, and 4, 8, 16, and 24 hours following the PM dose. Following the 24-hour post-PM dose urine sample, urine samples will be collected every 6 hours until 72 hours after the initial AM dose on Day 1 (i.e. AM on Day 4).\n\nFollowing blood and urine sample collection on Day 4, participants may be discharged from the clinical facility and will return on Day 7 to provide a final blood and urine sample. A follow-up phone call will be made to participants on Day 14 to ensure no adverse events have occurred and there are no concerns.\n\nIn Part B, NTI164 will be administered for 7 consecutive days. Participants will not need to be fasted for Part B. On Day 1 (day of first dose), blood samples will be collected at pre-dose and then 0.5, 2, 4, 6, and 8 hours following the AM dose. In the evening (PM), participants will receive another dose of NTI164, and bloods will be collected 0.5, 2, 4, 6, 8, 12, and 24 hours following the PM dose.\n\nUrine samples will be collected pre-AM dose, as well as 4, 8, 12, and 24 hours following, and 4, 8, 16, and 24 hours following the PM dose. On Day 3, blood and urine samples will be collected pre-AM dose, and participants will be discharged and will continue at-home administration of NTI164.\n\nParticipants will return on Day 6 as intensive blood and urine sampling will occur once again on Day 7. On Day 7, blood samples will be collected at pre-dose and then 0.5, 2, 4, 6, 8, and 12 hours following the AM dose. In the evening (PM), participants will receive another dose of NTI164 (FINAL dose of the study), and bloods will be collected 0.5, 2, 4, and 24 hours (Day 8) following the PM dose. Urine samples will be collected pre-AM dose, as well as 4, 8, 12, and 24 hours following, and 4, 8, 16, and 24 hours following the PM dose.\n\nThe PM dose on Day 7 will be the final dose of NTI164 administered, however, participants will need to remain in the clinical facility on Day 8 for sample collection. A final blood and urine sample will be collected Day 9 AM, and then participants will be discharged from the clinical facility. Participants will return to the clinical facility for a blood and urine sample in the morning on Day 14, and also on Day 21 for a follow-up visit and final blood sample (no urine to be collected at this visit). This will mark the end of the study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy",
+              "Healthy Volunteer"
+            ],
+            "keywords": [
+              "Pharmacokinetic",
+              "Healthy",
+              "Cannabis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Open-label, single intervention, single site pharmacokinetic study.",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 12,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NTI164 active",
+                "type": "EXPERIMENTAL",
+                "description": "All participants will be in this arm (single intervention) and will receive NTI164.",
+                "interventionNames": [
+                  "Drug: NTI164"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NTI164",
+                "description": "This intervention uses Full-Spectrum Medicinal Cannabis Plant Extract with a low THC concentration of 0.08% (NTI164) specifically formulated to target inflammation in various neurological conditions. The dose of 20mg/kg has been selected based off existing clinical trial evidence for NTI164, and is similar to the dose of other cannabis-based drugs used in neurology. The safety of NTI164 has been rigorously tested in several ongoing paediatric clinical trials through blood tests and clinician-rated surveys.",
+                "armGroupLabels": [
+                  "NTI164 active"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Peak plasma concentration (Cmax)",
+                "description": "Maximum concentration of the drug at timepoints: baseline (pre-dose), 1, 2, 3, 4, 5, 12, 24 hrs post commencement of treatment, and daily up to 7 days post-dose for Part A and 21 days for Part B.",
+                "timeFrame": "Up to 21 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Ae t1-t2 - urine",
+                "description": "Amount of drug excreted in urine at timepoints: baseline (pre-dose), 1, 2, 3, 4, 5, 12, 24 hrs post commencement of treatment, and daily up to 7 days post-dose for Part A and 21 days for Part B.",
+                "timeFrame": "Up to 21 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Must have given written informed consent before any study-related activities are performed and must be able to understand the full nature and purpose of the study, including possible risks and AEs.\n2. Adult males and females, 18 to 65 years of age (inclusive) at screening.\n3. BMI \u2265 18.0 and \u2264 32.0 kg/m2, with a body weight of at least 50 kg.\n4. Medically healthy (in the opinion of the Investigator), as determined by pre-study medical history and without clinically significant abnormalities. Must have:\n\n   1. Physical examination without any clinically relevant findings;\n   2. Systolic blood pressure (BP) in the range of 90 to 145 mmHg and diastolic BP in the range of 50 to 95 mmHg after resting for 5 minutes in a supine position.\n   3. Pulse rate in the range of 45 to 100 bpm after 5 minutes resting in a supine position.\n   4. Body temperature (tympanic), between 35.5\u00b0C and 37.7\u00b0C.\n   5. Electrocardiogram (ECG) without clinically significant abnormalities including QT interval corrected for Fredericia (QTcF) \\<450 msec, QRS interval \\< 120 msec and PR interval \\< 220 msec, based on the average of triplicate measurements.\n   6. No clinically significant findings in serum chemistry, haematology, coagulation, and urinalysis tests.\n5. Female participants:\n\n   1. Must be of non-child-bearing potential, i.e., surgically sterilised (hysterectomy, bilateral salpingectomy, bilateral oophorectomy) at least 6 weeks before the screening visit or postmenopausal (with postmenopausal defined as no menses for 12 months without an alternative medical cause and a follicle-stimulating hormone (FSH) level consistent with postmenopausal status, per local laboratory guidelines), or\n   2. If of child-bearing potential, must:\n\n   i. Have a negative pregnancy test at the screening visit and on admission to the study site on Day-1. ii. Agree not to attempt to become pregnant or donate ova from signing the consent form until at least 30 days after the last dose of study drug. iii. Agree to use adequate contraception (defined as use of a condom by the male partner combined with use of a highly effective method of contraception (e.g. hormonal contraception, intrauterine device, bilateral tube occlusion, etc.) from one month prior to screening until at least 30 days after the last dose of study drug, if not exclusively in a same-sex relationship or abstinent as a committed lifestyle.\n6. Male participants:\n\n   1. Must agree not to donate sperm from signing the consent form until at least 90 days after the last dose of study drug.\n   2. If engaging in sexual intercourse with a female partner who could become pregnant, agree to use adequate contraception (defined as use of a condom combined with use of a highly effective female method of contraception (as above)) from signing the consent form until at least 90 days after the last dose of study drug.\n   3. If engaging in sexual intercourse with a female partner who is not of childbearing potential or a same-sex partner, agree to use a condom from signing the consent form until at least 90 days after the last dose of study drug.\n   4. Practise true abstinence: when this is in line with their preferred and usual lifestyle.\n7. Have suitable venous access for blood sampling.\n8. Abstain from alcohol for the duration of the study period.\n9. Be willing and able to comply with all study assessments and adhere to the protocol schedule and restrictions.\n\nExclusion Criteria:\n\n1. Known hypersensitivity to any of the study drug ingredients.\n2. History of anaphylaxis or other significant allergy (including system sensitivity to any aerosol) which, in the opinion of the Investigator, would interfere with the participant's ability to participate in the study.\n3. History or presence of clinically significant cardiovascular, pulmonary, hepatic, renal, haematological, gastrointestinal, endocrine, immunologic, dermatologic, psychiatric, or neurological disease/disorder, including any acute illness, determined by the Investigator to be clinically relevant.\n4. Current diagnosis of bipolar disorder, major depressive disorder, psychosis, schizophrenia, or schizoaffective disorder.\n5. History of major surgery or hospitalisation within 12 weeks prior to screening, or surgery planned during the study.\n6. History of malignant disease in the last 10 years (excludes surgically resected skin squamous cell or basal cell carcinoma).\n7. Clinically relevant history or presence of rhythm disorders (e.g. sinoatrial heart block, second- or third-degree atrioventricular block, long QT syndrome, symptomatic bradycardia, atrial flutter, or atrial fibrillation), clinically-relevant history of hypokalaemia, congestive heart failure, or structural heart disease.\n8. Presence or having sequelae of gastrointestinal, liver (with the exception of Gilbert's syndrome), kidney, or other conditions known to interfere with the absorption, distribution, metabolism, or excretion of drugs.\n9. Serum or plasma potassium \\<3.5 or \\>5.2 mmol/L, alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 1.5 x upper limit of normal (ULN), or total bilirubin \\>2 x ULN at screening or Day -1 (except for Gilbert's syndrome).\n10. History of or positive test results for HIV, HBsAg, or HCV antibodies at screening.\n11. Positive drugs of abuse test, urine cotinine test, and/or urine alcohol test results at screening and/or on admission to the clinical facility on Day -1.\n12. History or clinical evidence of alcoholism or drug abuse (in the opinion of the Investigator) within the 3-year period prior to screening.\n13. Regular consumption of \\>10 standard alcoholic beverages/week, where 1 standard drink is 10g of pure alcohol and is equivalent to 285 mL beer (4.9% Alc/Vol), 100 mL wine (12% Alc/Vol), or 30mL spirit (40% Alc/Vol).\n14. Excessive caffeine consumption, defined as \u2265 800 mg per day at screening (1 cup of coffee contains \\~100 mg caffeine, 1 cup of tea or one glass of cola contains \\~40 mg caffeine, 1 can of Red Bull contains \\~80 mg caffeine).\n15. Females who are pregnant, breastfeeding, or planning to breastfeed.\n16. Use of any prescribed medications (including vaccines) or over-the-counter medications (including herbal medicines, such as St John's Wort, homeopathic preparations, dietary supplements, vitamins, and minerals) within 2 weeks (or 5 half-lives, whichever is longer) prior to (first) study treatment administration, except the use of contraceptives, and occasional use of paracetamol and/or ibuprofen (at the discretion of the Investigator).\n17. Received any vaccinations within 14 days prior to screening.\n18. Donation of blood or plasma within 12 weeks prior to screening, loss of whole blood of \\>500mL within 12 weeks prior to first dose of study drug, or receipt of a blood transfusion within 1 year of first dose of study drug.\n19. Participation in another clinical study of an investigational drug or device within 12 weeks prior to screening.\n20. Any other condition or prior therapy that, in the opinion of the Investigator, would make the participant unsuitable for this study, including inability to cooperate fully with the requirements of the study protocol or likelihood of noncompliance with any study requirements.\n21. Currently using or has used recreational or medicinal cannabis or cannabinoid-based medications within the 12 weeks prior to screening and is unwilling to abstain for the duration of the study.\n22. Had brain surgery or a traumatic brain injury within 1 year of screening.\n23. History of suicidal behaviour or suicidal ideation of type 4 or 5 on the Columbia-Suicide Severity Rating Scale (C-SSRS) in the 12 weeks prior to screening and in ongoing assessment throughout the study.\n24. Has previously been enrolled in this study.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "CMAX Clinical Research Pty Ltd",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "zip": "5000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "IPD will not be shared as per commercial in confidence restrictions."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002189",
+                "term": "Marijuana Abuse"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D019966",
+                "term": "Substance-Related Disorders"
+              },
+              {
+                "id": "D064419",
+                "term": "Chemically-Induced Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

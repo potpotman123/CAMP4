@@ -1,0 +1,712 @@
+{
+  "asset": "DUOC-01",
+  "query": "DUOC-01",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=DUOC-01&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04943289",
+            "orgStudyIdInfo": {
+              "id": "Pro00107012"
+            },
+            "organization": {
+              "fullName": "Duke University",
+              "class": "OTHER"
+            },
+            "briefTitle": "Intrathecal Administration of DUOC-01 in Adults With Primary Progressive Multiple Sclerosis",
+            "officialTitle": "Phase IA Trial of Intrathecal Administration of Human Umbilical Cord Blood-Derived Cell Therapy (DUOC-01) in Adults With Primary Progressive Multiple Sclerosis (PPMS)",
+            "acronym": "DUOC for MS"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-01-24",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-09-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-09-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-06-21",
+            "studyFirstSubmitQcDate": "2021-06-21",
+            "studyFirstPostDateStruct": {
+              "date": "2021-06-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-06",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR_INVESTIGATOR",
+              "investigatorFullName": "Joanne Kurtzberg, MD",
+              "investigatorTitle": "Professor of Pediatrics",
+              "investigatorAffiliation": "Duke University"
+            },
+            "leadSponsor": {
+              "name": "Joanne Kurtzberg, MD",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is a prospective Phase 1a open-label single- center trial. It will assess the safety of intrathecal administration of DUOC-01 cells to adults with Primary Progressive Multiple Sclerosis (PPMS). DUOC-01 is a population of cells expanded from donated human umbilical cord blood cells and is intended for treatment of neurodegenerative and demyelinating diseases. There will be approximately 20 participants enrolled. Exploratory objectives include changes in MS assessment scores, changes in brain MRI findings, and changes in blood biomarkers.",
+            "detailedDescription": "This study is a prospective phase 1a open-label, single center trial. It is designed to assess the safety of administration of escalating doses of DUOC-01 intrathecally to adults with PPMS. DUOC-01 is a population of cells expanded from donated human umbilical cord blood mononuclear cells. Immunodepletion and selection studies demonstrated that DUOC-01 cells are derived from CB CD14+ monocytes. Based on pre-clinical rodent models, this cell product is considered a candidate for the treatment of injury-induced Central Nervous System (CNS) demyelination and modulation of neuroinflammation.\n\nApproximately 20 participants will be enrolled. DUOC-01 will be infused into the cerebrospinal fluid (intrathecal infusion). The first 3 subjects will receive a single dose of 10 million cells (cohort 1). The next 3 subjects will receive a single intrathecal dose of \\>10 to 25 million cells (cohort 2), if manufacturing of this yield is reliable. The final 14 patients will receive a single intrathecal dose of \\>25 to 50 million cells (cohort 3), if manufacturing of this yield is reliable. Subjects will be followed for 12 months post administration.\n\nParticipants will be identified and screened for eligibility for the study. HLA typing will be performed on the participant, and once results become available, several \\>4/6 matched cord blood units (CBUs) will be selected from the Carolinas Cord Blood Bank (CCBB), an FDA licensed public cord blood bank at Duke University in Durham, NC. Cord blood units will have complete donor screening and testing per banking regulations.\n\nThe frozen CBU will be transferred to the GMP manufacturing facility at Duke University Medical Center per standard practice. Production, testing and release of DUOC-01 will take 19-21 days. Within 14 days prior to planned administration, subjects will receive a baseline brain MRI and be re-screened on MS assessments. Subjects will not be infused with DUOC-01 cells if they no longer meet inclusion criteria or if no qualifying DUOC-01 cells are available. If there is a failure of DUOC-01 manufacturing, a second cord blood unit, if available, will be utilized for repeat manufacturing.\n\nDUOC-01 administration will occur by a trained clinician. A lumbar puncture (insertion of a needle into the lower back, into the cerebrospinal spinal fluid (CSF)) will be performed and baseline CSF samples will be obtained. The DUOC-01 product will be injected into the CSF (intrathecally) and appropriate monitoring will be performed.\n\nPost administration, all subjects will remain in the hospital for 24-hour observation. At 2 weeks post administration subjects will participate in a virtual visit to evaluate for adverse events. Subjects will receive follow up visits with functional evaluation, biomarker sampling and brain MRI at 3, 6 and 12 months."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Progressive Multiple Sclerosis"
+            ],
+            "keywords": [
+              "Multiple Sclerosis, MS"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "DUOC-01",
+                "type": "EXPERIMENTAL",
+                "description": "Intrathecal Infusion of DUOC-01 and hydrocortisone. Cohort 1: 10 million cells Cohort 2: greater than 10 to 25 million cells Cohort 3: greater than 25 to 50 million cells",
+                "interventionNames": [
+                  "Biological: DUOC-01"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "DUOC-01",
+                "description": "DUOC-01 is a population of cells expanded from donor human umbilical cord blood mononuclear cells. DUOC-01 cells are derived from CB CD14+ monocytes. DUOC-01 will be administered along with hydrocortisone via intrathecal injection.",
+                "armGroupLabels": [
+                  "DUOC-01"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of IT administration adverse events",
+                "description": "Total number of adverse events associated with DUOC-01 infusion",
+                "timeFrame": "2 weeks post infusion"
+              },
+              {
+                "measure": "Incidence of adverse events attributed to the investigational product",
+                "description": "Cumulative summary of adverse events related to DUOC-01",
+                "timeFrame": "1 year post infusion"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female subjects must be 18-65 years of age\n2. Diagnosis of primary progressive MS according to 2017 revised McDonald criteria (26)\n3. EDSS score at screening 3.0-6.5 that was not acquired within the last 6 months\n4. Stable disease state as evidenced by no significant change in EDSS (1 point or more) in the last 3 months\n5. Patients must have a suitably matched, banked UCB per section 5.3\n6. Able to complete a written informed consent prior to any study assessments\n7. Patients of childbearing potential must practice effective contraception during the study, and be willing to continue contraception for at least 6 months after DUOC-01 dosing so that, in the opinion of the Investigator, they will not become pregnant during the course of the study.\n8. Patient is a good candidate for the trial, in the opinion of the Investigators\n9. Subjects on disease-modifying therapies upon entering the study must continue on these therapies as a concomitant treatment throughout the course of the study to minimize additional variables. However, changes in these disease-modifying therapies can occur at the clinician's discretion, if there are clinical reasons to do so, which would be documented.\n\nExclusion Criteria:\n\n* 1\\. Prior organ, tissue, or stem cell transplant or cell therapy within 3 years of study entry 2. Diagnosis of a progressive neurological disorder other than MS 3. Active, chronic disease of the immune system other than MS 4. Any medical condition that the investigator deems as unsuitable with therapy 5. Inability to have an MRI brain scan, or lumbar puncture (i.e., claustrophobia, allergy to contrast, bleeding disorder, or on anticoagulation) 6. Intractable seizures 7. Chronic aspiration 8. Bleeding disorder 9. Evidence of HIV infection or HIV positive serology 10. Uncontrolled bacterial, viral, or fungal infection within 2 weeks of DUOC-01 administration, as defined by progression while on appropriate treatment 11. History of malignancy of any organ system within the past two years with the exception of basal cell carcinoma or squamous cell carcinoma of the skin that has been excised with clear margins. 12. Requirement of ventilatory support 13. Pregnant or breastfeeding or intention to become pregnant during the study 14. Active concurrent malignancy, or receiving concurrent radiotherapy, immunosuppressive medications for conditions other than MS, or cytotoxic chemotherapy 15. Patients with Suicidal Ideation in the past 6 months per screening on C-SSRS; patients with Suicidal Behavior in the past 2 years, except for Non-suicidal self-injurious behavior 16. Abnormal lab values:\n* Total bilirubin\\>2.0 mg/dl unless due to Gilbert's syndrome\n* AST or ALT \\> 5 times the ULN\n* WBC \\<2.0x 103/\u03bcL\n* ALC \\<0.5 x 103/ \u03bcL\n* Serum creatinine \\>2x ULN\n* eGFR \\<60 mg/mmol\n* CD4 count \\<200 cells/mm3",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Beth Shaz, MD",
+                "affiliation": "Duke University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Duke University Medical Center",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27705",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "26276011",
+                "type": "BACKGROUND",
+                "citation": "Kurtzberg J, Buntz S, Gentry T, Noeldner P, Ozamiz A, Rusche B, Storms RW, Wollish A, Wenger DA, Balber AE. Reprint of: Preclinical characterization of DUOC-01, a cell therapy product derived from banked umbilical cord blood for use as an adjuvant to umbilical cord blood transplantation for treatment of inherited metabolic diseases. Cytotherapy. 2015 Sep;17(9):1314-26. doi: 10.1016/j.jcyt.2015.07.014."
+              },
+              {
+                "pmid": "27699230",
+                "type": "BACKGROUND",
+                "citation": "Saha A, Buntz S, Scotland P, Xu L, Noeldner P, Patel S, Wollish A, Gunaratne A, Gentry T, Troy J, Matsushima GK, Kurtzberg J, Balber AE. A cord blood monocyte-derived cell therapy product accelerates brain remyelination. JCI Insight. 2016 Aug 18;1(13):e86667. doi: 10.1172/jci.insight.86667."
+              },
+              {
+                "pmid": "21341973",
+                "type": "BACKGROUND",
+                "citation": "Tracy ET, Zhang CY, Gentry T, Shoulars KW, Kurtzberg J. Isolation and expansion of oligodendrocyte progenitor cells from cryopreserved human umbilical cord blood. Cytotherapy. 2011 Jul;13(6):722-9. doi: 10.3109/14653249.2011.553592. Epub 2011 Feb 22."
+              },
+              {
+                "pmid": "18608351",
+                "type": "BACKGROUND",
+                "citation": "Tracy E, Aldrink J, Panosian J, Beam D, Thacker J, Reese M, Kurtzberg J. Isolation of oligodendrocyte-like cells from human umbilical cord blood. Cytotherapy. 2008;10(5):518-25. doi: 10.1080/14653240802154586."
+              },
+              {
+                "pmid": "28391986",
+                "type": "BACKGROUND",
+                "citation": "Scotland P, Buntz S, Noeldner P, Saha A, Gentry T, Kurtzberg J, Balber AE. Gene products promoting remyelination are up-regulated in a cell therapy product manufactured from banked human cord blood. Cytotherapy. 2017 Jun;19(6):771-782. doi: 10.1016/j.jcyt.2017.03.004. Epub 2017 Apr 5."
+              },
+              {
+                "pmid": "25770677",
+                "type": "BACKGROUND",
+                "citation": "Kurtzberg J, Buntz S, Gentry T, Noeldner P, Ozamiz A, Rusche B, Storms RW, Wollish A, Wenger DA, Balber AE. Preclinical characterization of DUOC-01, a cell therapy product derived from banked umbilical cord blood for use as an adjuvant to umbilical cord blood transplantation for treatment of inherited metabolic diseases. Cytotherapy. 2015 Jun;17(6):803-815. doi: 10.1016/j.jcyt.2015.02.006. Epub 2015 Mar 12."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D020528",
+                "term": "Multiple Sclerosis, Chronic Progressive"
+              },
+              {
+                "id": "D009103",
+                "term": "Multiple Sclerosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D020278",
+                "term": "Demyelinating Autoimmune Diseases, CNS"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D002908",
+                "term": "Chronic Disease"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02254863",
+            "orgStudyIdInfo": {
+              "id": "Pro00050198"
+            },
+            "organization": {
+              "fullName": "Duke University",
+              "class": "OTHER"
+            },
+            "briefTitle": "UCB Transplant of Inherited Metabolic Diseases With Administration of Intrathecal UCB Derived Oligodendrocyte-Like Cells",
+            "officialTitle": "Augmentation of Umbilical Cord Blood Transplantation for Inherited Metabolic Diseases With Intrathecal Administration of Human Umbilical Cord Blood-Derived Oligodendrocyte-Like Cells",
+            "acronym": "DUOC-01"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-09"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2027-10",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-10",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2014-09-23",
+            "studyFirstSubmitQcDate": "2014-09-29",
+            "studyFirstPostDateStruct": {
+              "date": "2014-10-02",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2026-09-01",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR_INVESTIGATOR",
+              "investigatorFullName": "Joanne Kurtzberg, MD",
+              "investigatorTitle": "Professor of Pediatrics",
+              "investigatorAffiliation": "Duke University"
+            },
+            "leadSponsor": {
+              "name": "Joanne Kurtzberg, MD",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary objective of the study is to determine the safety and feasibility of intrathecal administration of DUOC-01 in patients who are undergoing standard treatment with umbilical cord blood transplant (UCBT) for inborn errors of metabolism and who have evidence of early demyelinating disease in the central nervous system (CNS). The secondary objective of the study is to describe the efficacy of UCBT with intrathecal administration of DUOC-01 in these patients.",
+            "detailedDescription": "The inherited metabolic disorders (IMD) are a group of genetic diseases, most of which involve a single gene mutation, resulting in an enzyme defect. In the majority of cases, the enzyme defect leads to the buildup of substances that are toxic and/or interfere with normal cellular function. Often times, patients may appear normal at birth but during infancy begin to exhibit disease symptoms, frequently including progressive neurological deterioration due to absent or abnormal brain myelination. The ultimate result is death in later infancy or childhood.\n\nCurrently, the only effective therapy to slow or halt this neurologic decline is allogeneic hematopoietic stem cell transplantation (HSCT). The engraftment of donor cells in a patient with an IMD provides a constant source of enzyme replacement, thereby slowing or halting the progression of disease. However, one barrier to the success of HSCT is the slower engraftment of donor cells in the central nervous system (CNS), which is associated with ongoing disease progression over 2-4 months before stabilization.\n\nThis study will evaluate the safety of an additional cell therapy for patients who are receiving HSCT using umbilical cord blood (UCB) cells from an allogeneic (non-self) donor for treatment of an IMD that is known to benefit from HSCT. The additional cell therapy, UCB-derived oligodendrocyte-like cells (DUOC-01), will serve as a supplementary therapy to a standard UCB transplant. DUOC-01 is administered intrathecally (injected into the spinal fluid) after transplant. The goal of this therapy is to accelerate delivery of donor cells to the CNS, thereby bridging the gap between the time from UCB transplant to engraftment of the UCB cells in the CNS, with the goal of preventing disease progression.\n\nThis study is only performed at Duke University Medical Center and only patients who are medically eligible for a UCB transplant will be enrolled."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Adrenoleukodystrophy",
+              "Batten Disease",
+              "Mucopolysaccharidosis II",
+              "Leukodystrophy, Globoid Cell",
+              "Leukodystrophy, Metachromatic",
+              "Neimann Pick Disease",
+              "Pelizaeus-Merzbacher Disease",
+              "Sandhoff Disease",
+              "Tay-Sachs Disease",
+              "Brain Diseases, Metabolic, Inborn",
+              "Alpha-Mannosidosis",
+              "Sanfilippo Mucopolysaccharidoses"
+            ],
+            "keywords": [
+              "Adrenoleukodystrophy",
+              "Batten Disease",
+              "Hunter Syndrome",
+              "Krabbe",
+              "Metachromatic Leukodystrophy",
+              "ALD",
+              "MLD",
+              "PMD"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Intrathecal administration of DUOC-01",
+                "type": "EXPERIMENTAL",
+                "description": "Administration of DUOC-01, given intrathecally, between day 26 and 28 post unrelated cord blood transplant",
+                "interventionNames": [
+                  "Biological: DUOC-01"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "DUOC-01",
+                "description": "Intrathecal administration of DUOC-01",
+                "armGroupLabels": [
+                  "Intrathecal administration of DUOC-01"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Evaluate for Infusional Toxicity",
+                "description": "Will monitor for fever, vomiting, neck stiffness, seizures, changes in state of consciousness",
+                "timeFrame": "24 hours after infusion"
+              },
+              {
+                "measure": "Evaluate for Neuro Toxicity",
+                "description": "Perform computerized tomography (CT) scan to evaluate for bleeding, tumor formation, central nervous system generalized infiltration",
+                "timeFrame": "1 month after infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Efficacy determination",
+                "description": "Perform standard of care follow-up evaluations to include brain magnetic resonance imaging (MRI) with diffuse tensor imaging (DTI), Electroencephalography (EEG), nerve conduction, brainstem auditory evoked response (BAER), visual evoked potential (VEP) and neurocognitive testing. Bench mark results against historical controls previously transplanted by our institution for the past 20 years.",
+                "timeFrame": "1-5 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients must be age \u22651 week to \u226421 years.\n2. Patients must have one of the following inherited metabolic diseases detected by enzyme or mutation analysis, and confirmed by repeat testing on a separately obtained sample:\n\n   Adrenoleukodystrophy (ALD) Batten Disease Hunter Syndrome (MPS II) Krabbe disease (Globoid Leukodystrophy) Metachromatic Leukodystrophy (MLD) Niemann Pick disease type A or B Pelizaeus-Merzbacher disease (PMD) Sandhoff disease Tay Sachs disease. Alpha Mannosidosis Sanfilippo (MPS III)\n3. Patients must have neurologic evidence of their disease, either clinically or via neuroimaging or neurophysiological testing. Examples of evidence of neurologic involvement include, but are not limited to the following:\n\n   * Abnormal EEG, Brainstem Auditory Evoked Response (BAER), and/or Visual Evoked Potentials (VEP).\n   * Abnormal brain MRI, ie. increased Loes score (measure of white matter damage, demyelination, and brain atrophy) and/or abnormal corticospinal tracts as assessed by MRI with diffusion tensor imaging (DTI).\n   * Three or more of the early clinical markers: problems sleeping, increased activity, behavior difficulties, seizure-like activity, chewing behavior, inappropriate bladder training, inappropriate bowel training.\n4. Patients must have adequate organ function as measured by:\n\n   * Renal: Serum creatinine \u2264 2.0 mg/dl\n   * Hepatic: Hepatic transaminases (ALT/AST) \u2264 5 x normal, bilirubin \u2264 2.0 mg/dl (except in patients with Gilbert's disease or newborns with physiological or breast milk associated jaundice).\n   * Cardiac: Normal cardiac function by echocardiogram or radionuclide scan (shortening fraction or ejection fraction\n\n     * 80% of normal value for age). Patients with acquired or congenital cardiomyopathy may receive melphalan as a substitute for cyclophosphamide.\n   * Pulmonary: Pulmonary function tests demonstrating FVC, FEV1, and DLCO \u2265 60% of predicted in patients who can complete the testing. If patient cannot perform PFT's, an O2 sat must be \\>90% on room air.\n5. Patients must have an available, suitably matched, banked UCB unit for transplant.\n6. Patients must have a performance status as follows: Lansky \u2265 40%, or Karnofsky \u2265 40%\n7. Patients must have a life expectancy of \u2265 6 months.\n\nExclusion Criteria:\n\n1. Prior organ, tissue, or stem cell transplant within 3 years of study entry.\n2. Prior participation in any gene or regenerative cell therapy study.\n3. Inability to have an MRI scan or lumbar puncture.\n4. Intractable seizures.\n5. Chronic aspiration.\n6. Bleeding disorder.\n7. Evidence of HIV infection or HIV positive serology.\n8. Uncontrolled bacterial, viral, or fungal infection at the time of pre-UCBT cytoreduction.\n9. Inability to obtain patient's, parent's or legal guardian's consent.\n10. Requirement of ventilatory support.\n11. Pregnant or breastfeeding.\n12. Active concurrent malignancy, or receiving concurrent radiotherapy, immunosuppressive medications, or cytotoxic chemotherapy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Week",
+            "maximumAge": "22 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Sydney Crane, RN",
+                "role": "CONTACT",
+                "email": "cordbloodtherapyinfo@dm.duke.edu"
+              },
+              {
+                "name": "Erin Arbuckle",
+                "role": "CONTACT",
+                "email": "cordbloodtherapyinfo@dm.duke.edu"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Joanne Kurtzberg, MD",
+                "affiliation": "Duke University",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Duke University Medical Center",
+                "status": "RECRUITING",
+                "city": "Durham",
+                "state": "North Carolina",
+                "zip": "27705",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Sydney Crane, RN",
+                    "role": "CONTACT",
+                    "email": "cordbloodtherapyinfo@dm.duke.edu"
+                  },
+                  {
+                    "name": "Joanne Kurtzberg, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  },
+                  {
+                    "name": "Jessica Sun, MD",
+                    "role": "SUB_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.99403,
+                  "lon": -78.89862
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000326",
+                "term": "Adrenoleukodystrophy"
+              },
+              {
+                "id": "D009472",
+                "term": "Neuronal Ceroid-Lipofuscinoses"
+              },
+              {
+                "id": "D016532",
+                "term": "Mucopolysaccharidosis II"
+              },
+              {
+                "id": "D007965",
+                "term": "Leukodystrophy, Globoid Cell"
+              },
+              {
+                "id": "D007966",
+                "term": "Leukodystrophy, Metachromatic"
+              },
+              {
+                "id": "D052536",
+                "term": "Niemann-Pick Disease, Type A"
+              },
+              {
+                "id": "D020371",
+                "term": "Pelizaeus-Merzbacher Disease"
+              },
+              {
+                "id": "D012497",
+                "term": "Sandhoff Disease"
+              },
+              {
+                "id": "D013661",
+                "term": "Tay-Sachs Disease"
+              },
+              {
+                "id": "D020739",
+                "term": "Brain Diseases, Metabolic, Inborn"
+              },
+              {
+                "id": "D008363",
+                "term": "alpha-Mannosidosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001928",
+                "term": "Brain Diseases, Metabolic"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D020279",
+                "term": "Hereditary Central Nervous System Demyelinating Diseases"
+              },
+              {
+                "id": "D056784",
+                "term": "Leukoencephalopathies"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D038901",
+                "term": "X-Linked Intellectual Disability"
+              },
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D040181",
+                "term": "Genetic Diseases, X-Linked"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D008661",
+                "term": "Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D018901",
+                "term": "Peroxisomal Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D000309",
+                "term": "Adrenal Insufficiency"
+              },
+              {
+                "id": "D000307",
+                "term": "Adrenal Gland Diseases"
+              },
+              {
+                "id": "D004700",
+                "term": "Endocrine System Diseases"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D008064",
+                "term": "Lipidoses"
+              },
+              {
+                "id": "D008052",
+                "term": "Lipid Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D052439",
+                "term": "Lipid Metabolism Disorders"
+              },
+              {
+                "id": "D009083",
+                "term": "Mucopolysaccharidoses"
+              },
+              {
+                "id": "D002239",
+                "term": "Carbohydrate Metabolism, Inborn Errors"
+              },
+              {
+                "id": "D016464",
+                "term": "Lysosomal Storage Diseases"
+              },
+              {
+                "id": "D017520",
+                "term": "Mucinoses"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D013106",
+                "term": "Sphingolipidoses"
+              },
+              {
+                "id": "D020140",
+                "term": "Lysosomal Storage Diseases, Nervous System"
+              },
+              {
+                "id": "D052516",
+                "term": "Sulfatidosis"
+              },
+              {
+                "id": "D009542",
+                "term": "Niemann-Pick Diseases"
+              },
+              {
+                "id": "D015616",
+                "term": "Histiocytosis, Non-Langerhans-Cell"
+              },
+              {
+                "id": "D015614",
+                "term": "Histiocytosis"
+              },
+              {
+                "id": "D008206",
+                "term": "Lymphatic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D020143",
+                "term": "Gangliosidoses, GM2"
+              },
+              {
+                "id": "D005733",
+                "term": "Gangliosidoses"
+              },
+              {
+                "id": "D044904",
+                "term": "Mannosidase Deficiency Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

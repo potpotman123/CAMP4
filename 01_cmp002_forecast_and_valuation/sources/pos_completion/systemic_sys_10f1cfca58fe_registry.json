@@ -1,0 +1,788 @@
+{
+  "integrated_id": "systemic:sys_10f1cfca58fe",
+  "asset": "L608 Inhalation Solution",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=L608",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07925619",
+            "orgStudyIdInfo": {
+              "id": "PBI-L608-A21"
+            },
+            "organization": {
+              "fullName": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Efficacy and Safety Study of L608 in Patients With Systemic Sclerosis-associated Digital Ulcers",
+            "officialTitle": "A Phase 2, Multicenter, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Evaluate Efficacy and Safety of L608 Suspension in Patients With Systemic Sclerosis-associated Digital Ulcers",
+            "acronym": "LIFT"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2027-02-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-10-29",
+            "studyFirstSubmitQcDate": "2026-11-03",
+            "studyFirstPostDateStruct": {
+              "date": "2026-11-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-11-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-11-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial is designed to evaluate the efficacy and safety of L608 compared to placebo in patients with SSc-DU.",
+            "detailedDescription": "This trial is designed to evaluate the efficacy and safety of L608 compared to placebo in patients with SSc-DU, with the primary objective of exploring the effect of L608 on reducing the time to healing of the cardinal DU.\n\nThe trial utilizes a double-blind, placebo-controlled, parallel group design. Approximately 40 eligible participants will be enrolled and randomized 1:1 to L608 or placebo groups at baseline."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Systemic Sclerosis"
+            ],
+            "keywords": [
+              "Systemic Sclerosis",
+              "Digital Ulcers"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "maskingDescription": "This is a double-blind study; the Sponsor and designee, investigators and their delegates and the participants will be blinded to treatment allocation until all participants have completed study participation. Participants, investigators, and all delegated clinical staff who directly interact with participants, conduct safety assessments, and collect participant data, will remain blinded and must not communicate or discuss any study information with assigned unblinded personnel.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "L608",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: L608"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "L608",
+                "description": "Participants will receive L608 TID over 28 consecutive days.",
+                "armGroupLabels": [
+                  "L608"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Participants will receive Placebo TID over 28 consecutive days.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Time to healing of the cardinal DU",
+                "description": "Time to healing of the cardinal DU compared with placebo",
+                "timeFrame": "up to 12 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Diagnosed with systemic sclerosis per ACR/EULAR 2013 criteria.\n2. Presence of at least one visible, painful digital ulcer.\n3. Participants aged \u226518 years.\n\nKey Exclusion Criteria:\n\n1. DUs not primarily ischemic in origin.\n2. Other rheumatic diseases are permitted if SSc is the predominant condition associated with DUs.\n3. Active gangrene (within 3 months) or active DU infection requiring treatment (within 1 month) prior to screening",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Pei Kan, PhD",
+                "role": "CONTACT",
+                "phone": "+886-2-2782-7561",
+                "phoneExt": "102",
+                "email": "peikan@pharmosa.com.tw"
+              },
+              {
+                "name": "Sydney Chuang",
+                "role": "CONTACT",
+                "phone": "+886-2-2782-7561",
+                "phoneExt": "110",
+                "email": "sydney@pharmosa.com.tw"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D012595",
+                "term": "Scleroderma, Systemic"
+              },
+              {
+                "id": "C000721267",
+                "term": "digital ulcers"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06429930",
+            "orgStudyIdInfo": {
+              "id": "PBI-L608-B12"
+            },
+            "organization": {
+              "fullName": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability and Pharmacokinetics Study of L608 in Healthy Adults",
+            "officialTitle": "A Phase 1, Randomized, Double-blinded, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single Ascending Doses of L608 for Inhalation in Healthy Participants"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-04-11",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-21",
+            "studyFirstSubmitQcDate": "2024-05-21",
+            "studyFirstPostDateStruct": {
+              "date": "2024-05-28",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-07-21",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-07-22",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Novotech (Australia) Pty Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single ascending dose study of L608 in healthy participants and is being conducted to evaluate the safety of L608 with dose level ranging from 10 \u03bcg to 20 \u03bcg.",
+            "detailedDescription": "L608 inhalation Suspension (L608) is developed by Pharmosa Biopharm Inc. (PBI) as a new liposomal Iloprost formulation for inhalation use in the treatment of patients with WHO Group 1 PAH. As a liposomal formulation of iloprost, L608 is intended to reduce the dosing frequency, as well as provide sustained and selective release along with achieving therapeutically relevant iloprost level.\n\nThis Phase I, randomized, double-blinded, placebo-controlled study will be conducted in healthy participants in New Zealand to evaluate the safety, tolerability, and pharmacokinetic of L608."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Adult Participants"
+            ],
+            "keywords": [
+              "Pulmonary Arterial Hypertension",
+              "Hypertension, Pulmonary",
+              "Lung Diseases",
+              "Respiratory Tract Diseases",
+              "Pharmaceutical Solutions"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Randomized, Placebo-controlled, double-blinded, single ascending dose escalation",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "maskingDescription": "This is a double-blinded, single ascending dose escalation design. For Cohorts A1 and B1, after confirmation of eligibility, subjects will be randomized at a ratio of 1:1 (for sentinel dosing) followed by 5:1 for rest of the cohorts to receive the assigned dose of L608 or placebo.\n\nCohorts B2, B3, C1 and C2 are open-label.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 40,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "L608 Liposomal inhalation suspension",
+                "type": "EXPERIMENTAL",
+                "description": "Eight participants will be enrolled in each cohort and be randomized to receive assigned dose of L608 or placebo (6:2).",
+                "interventionNames": [
+                  "Drug: L608 Liposomal inhalation suspension"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Eight participants will be enrolled in each cohort and be randomized to receive assigned dose of L608 or placebo (6:2).",
+                "interventionNames": [
+                  "Drug: Placebo Solution"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "L608 Liposomal inhalation suspension",
+                "description": "Participants will be randomized at a ratio of 1:1 (for sentinel dosing) followed by 5:1 for the rest of the cohort to receive the assigned dose of L608 or placebo.",
+                "armGroupLabels": [
+                  "L608 Liposomal inhalation suspension"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo Solution",
+                "description": "Participants will be randomized at a ratio of 1:1 (for sentinel dosing) followed by 5:1 for the rest of the cohort to receive the assigned dose of L608 or placebo.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percentage of participants with DLT",
+                "description": "DLT: Dose-limiting toxicity",
+                "timeFrame": "7 days after administration"
+              },
+              {
+                "measure": "Percentage of participants with TEAEs and SAEs",
+                "description": "TEAEs: treatment emergent adverse events; SAEs: serious adverse events",
+                "timeFrame": "2 weeks after administration"
+              },
+              {
+                "measure": "Frequency and severity of TEAEs and SAEs",
+                "description": "TEAEs: treatment emergent adverse events; SAEs: serious adverse events",
+                "timeFrame": "2 weeks after administration"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "AUC0-t",
+                "description": "Area under the plasma concentration-time curve from time 0 to the last quantifiable concentration",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "AUC0-inf",
+                "description": "Area under the plasma concentration-time curve from time 0 to infinity",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "%AUCextrap",
+                "description": "AUC extrapolated from the last measurable concentration to infinity as a percentage of total AUC",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "Cmax",
+                "description": "Maximum observed plasma concentration",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "Tmax",
+                "description": "Time to reach the maximum observed plasma concentration",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "T1/2",
+                "description": "Apparent plasma terminal elimination half-life",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "CL/F",
+                "description": "Apparent total plasma clearance",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "Vz/F",
+                "description": "Apparent volume of distribution during the terminal phase",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "\u03bbz",
+                "description": "Terminal elimination rate constant",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "Cmax/D",
+                "description": "Dose-normalized Cmax.",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "AUC0-t/D",
+                "description": "Dose-normalized AUC0-t.",
+                "timeFrame": "24 hours after administration"
+              },
+              {
+                "measure": "AUC0-inf/D",
+                "description": "Dose-normalized AUC0-inf.",
+                "timeFrame": "24 hours after administration"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Men and women aged between 18 and 65 (inclusive) at the time of Screening visit.\n2. Participants with Body Mass Index (BMI) of \u226518.5 and \u226432.0 kg/m2 and weight of at least 50 kg at Screening.\n3. Non-smokers or former smokers who have smoked \u2264 100 cigarettes in their lifetime and have not consumed any tobacco or tobacco-containing products for at least 3 months prior to Screening.\n4. Females must not be pregnant or lactating and must use acceptable, highly effective double contraception from Screening until 3 months after the last dose of the Investigational product.\n\nKey Exclusion Criteria:\n\n1. Participants with contraindications or sensitivity to any components of the study treatment.\n2. Participants with histories or active conditions of unexplained bleeding events, hemoptysis, abnormal bleeding tendencies, and/or coagulation disorders.\n3. Participants with histories or active conditions of asthma, sleep apnea, chronic obstructive pulmonary disease (COPD), pulmonary fibrosis, bronchiectasis, bronchospasm, and/or reactive airway. Subjects who have had childhood asthma which have resolved as deemed by the PI can be considered.\n4. Participants with histories or active conditions of myocardial infarction (MI), cerebrovascular accident (CVA), coronary artery disease (CAD), unstable angina, heart failure, significant cardiac arrhythmias, congenital or acquired valvular heart disease with clinically insignificant symptom, suspected lung congestion, and/or pulmonary arterial hypertension (PAH) causing by venous thromboembolism.\n5. Cohorts A1 and B1: Participants with systolic blood pressure \\< 90 mmHg or \\> 140 mmHg and/or diastolic blood pressure \\< 50 mmHg or \\> 95 mmHg at Screening or check-in visit.\n\n   Cohorts B2, B3, C1 and C2: Participants with systolic blood pressure \\< 110 mmHg or \\> 140 mmHg and/or diastolic blood pressure \\< 50 mmHg or \\> 95 mmHg at Screening, check-in visit or predose on Day1.\n6. Participants with FEV1 less than 80% predicted, FVC \u02c2 80% predicted, or resting oxygen saturation less than 95% at Screening or check-in visit.\n7. Participants with histories of drug or alcohol abuse within 1 year prior to subject check-in (Day -1). Regular alcohol consumption defined as \\> 14 standard drinks per week for female and \\> 21 standard drinks per week for male.\n8. Consumption of products containing caffeine/methylxanthines, poppy seeds and/or alcohol within 48 hours before dosing and products containing grapefruit and/or pomelo (shown to inhibit cytochrome P450 \\[CYP\\] 3A4 activity) within 10 days prior to drug administration, and/or participants unwilling to refrain from consumption of alcohol from 48 hours before dosing to Day 14.\n9. Receipt of blood products within 2 months prior to dosing.\n10. Positive results of human immunodeficiency virus (HIV), hepatitis B virus (HBV), hepatitis C virus (HCV), and pregnancy test.\n11. Blood donation or significant blood loss (\\>480 ml) within 3 months prior to Screening.\n12. Participants unwilling to refrain from strenuous exercises from 7 days prior to dosing until the EOS visit.\n13. Participants planning to receive a tattoo, body piercing, or undergo any invasive procedure during the study period.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Pei Kan, PhD",
+                "role": "CONTACT",
+                "phone": "+886-2-2782-7561",
+                "phoneExt": "102",
+                "email": "peikan@pharmosa.com.tw"
+              },
+              {
+                "name": "Sydney Chuang",
+                "role": "CONTACT",
+                "phone": "+886-2-2782-7561",
+                "phoneExt": "110",
+                "email": "sydney@pharmosa.com.tw"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "NZCR Ltd (New Zealand Clinical Research)",
+                "status": "RECRUITING",
+                "city": "Christchurch",
+                "zip": "8011",
+                "country": "New Zealand",
+                "contacts": [
+                  {
+                    "name": "Christopher John Wynne",
+                    "role": "CONTACT",
+                    "phone": "+64 3 372-9477",
+                    "email": "chris.wynne@nzcr.co.nz"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -43.53333,
+                  "lon": 172.63333
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              },
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006973",
+                "term": "Hypertension"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05938946",
+            "orgStudyIdInfo": {
+              "id": "PBI L608p1"
+            },
+            "organization": {
+              "fullName": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability and Pharmacokinetics of L608 in Healthy Adults",
+            "officialTitle": "A Phase I, Randomized, Double-blinded, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single Ascending Doses of L608 for Inhalation in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2024-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-08-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-09-02",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-09-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2023-06-09",
+            "studyFirstSubmitQcDate": "2023-07-06",
+            "studyFirstPostDateStruct": {
+              "date": "2023-07-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-10-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2024-10-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Pharmosa Biopharm Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Novotech (Australia) Pty Limited",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase I, randomized, double-blinded, placebo-controlled single ascending dose, sequential-group study to evaluate the safety, tolerability, and PK of single ascending doses of L608 inhalation in healthy volunteers.",
+            "detailedDescription": "L608 inhalation Solution (L608) is developed by Pharmosa Biopharm Inc. (PBI) as a new liposomal Iloprost formulation for inhalation use in the treatment of patients with PAH (WHO Group 1). As a liposomal formulation of iloprost, L608 is intended to reduce the dosing frequency, as well as provide sustained and selective release along with achieving therapeutically relevant iloprost level. Meanwhile, L608 is expected to mitigate burst release related local irritation and systemic side effects (e.g., hypotension due to plasma peak) in clinical practice.\n\nThis Phase I, randomized, double-blinded, placebo-controlled study will be conducted in healthy volunteers in Australia to evaluate the safety, tolerability, and pharmacokinetic of L608. The dose escalation design is applied in this study. The sentinel dosing design will be applied for all cohorts."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Pulmonary Arterial Hypertension"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "interventionModelDescription": "Randomized, Placebo-controlled, double-blinded, single ascending dose escalation",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "maskingDescription": "This is a double-blinded, single ascending dose escalation design. After confirmation of eligibility, subjects will be randomized at a ratio of 1:1 (for sentinel dosing) followed by 5:1 for rest of the cohorts to receive the assigned dose of L608 or placebo",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 64,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "L608 Liposomal inhalation solution",
+                "type": "EXPERIMENTAL",
+                "description": "Eight subjects will be enrolled in each cohort and be randomized to receive assigned dose of L608 or placebo (6:2).",
+                "interventionNames": [
+                  "Drug: L608 Inhalation Solution"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "EXPERIMENTAL",
+                "description": "Eight subjects will be enrolled in each cohort and be randomized to receive assigned dose of L608 or placebo (6:2).",
+                "interventionNames": [
+                  "Drug: Placebo solution"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "L608 Inhalation Solution",
+                "description": "subjects will be randomized at a ratio of 1:1 (for Sentinel dosing) followed by 5:1 for rest of the cohort to receive the assigned dose of L608 or placebo",
+                "armGroupLabels": [
+                  "L608 Liposomal inhalation solution"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo solution",
+                "description": "subjects will be randomized at a ratio of 1:1 (for Sentinel dosing) followed by 5:1 for rest of the cohort to receive the assigned dose of L608 or placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "The incidence of dose limiting toxicity (DLT)",
+                "description": "The percentage of subjects with dose limiting toxicity (DLT) within 14 days after dosing",
+                "timeFrame": "Baseline to Day 14"
+              },
+              {
+                "measure": "The incidence of treatment emergent adverse events (TEAEs) and serious adverse events (SAEs)",
+                "description": "The percentage of subjects with treatment emergent adverse events (TEAEs) and serious adverse events (SAEs) within 21 days after dosing.",
+                "timeFrame": "Baseline to Day 21"
+              },
+              {
+                "measure": "Frequency and severity of treatment emergent adverse events (TEAEs) and serious adverse events (SAEs)",
+                "description": "The frequency and severity of treatment emergent adverse events (TEAEs) and serious adverse events (SAEs) within 21 days after dosing.",
+                "timeFrame": "Baseline to Day 21"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "AUC0-t",
+                "description": "Area under the plasma concentration-time curve from time 0 to the last quantifiable concentration",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "AUC0-\u221e",
+                "description": "Area under the plasma concentration-time curve from time 0 to infinity",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "%AUCextrap",
+                "description": "AUC extrapolated from the last measurable concentration to infinity as a percentage of total AUC",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "Cmax",
+                "description": "Maximum observed plasma concentration",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "Tmax",
+                "description": "Time to reach the maximum observed plasma concentration",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "T1/2",
+                "description": "Apparent plasma terminal elimination half-life",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "CL/F",
+                "description": "Apparent total plasma clearance",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "Vz/F",
+                "description": "Apparent volume of distribution during the terminal phase",
+                "timeFrame": "Baseline to 24 hours"
+              },
+              {
+                "measure": "kel",
+                "description": "Terminal elimination rate constant",
+                "timeFrame": "Baseline to 24 hours"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Men and women aged between 18 and 65 (inclusive) at the time of Screening visit. Females must not be pregnant or lactating.\n2. Body Mass Index (BMI) of \u226518.5 and \u226430.0 kg/m2\n3. Non-smokers or former smokers who have smoked \u2264 100 cigarettes in their lifetime and have not consumed any tobacco or tobacco-containing products for at least 3 months prior to Screening.\n4. Females must not be pregnant or lactating and must use acceptable, highly effective double contraception from Screening until 3 months after the last dose of the Investigational product.\n\nKey Exclusion Criteria:\n\n1. Subjects with contraindications or sensitivity to any components of the study treatment.\n2. Subjects with medical histories (within 3 months prior to Screening) or ongoing conditions of any clinically significant and/or any other medical conditions which may jeopardize the safety of the subjects and/or effect the results of the study at the Investigator's discretion.\n3. Subjects with histories or active conditions of unexplained bleeding events, hemoptysis, abnormal bleeding tendencies, and/or coagulation disorders.\n4. Subjects who voluntarily participate in this study and sign the informed consent form prior to any study procedures.\n5. Subjects with histories or active conditions of asthma, sleep apnea, chronic obstructive pulmonary disease (COPD), pulmonary fibrosis, bronchiectasis, bronchospasm, and/or reactive airway. Subjects who have had childhood asthma which have resolved as deemed by the PI can be considered.\n6. Subjects with histories or active conditions of myocardial infarction (MI), cerebrovascular accident (CVA), coronary artery disease (CAD), unstable angina, heart failure, significant cardiac arrhythmias, congenital or acquired valvular heart disease with clinically insignificant symptom, suspected lung congestion, and/or pulmonary arterial hypertension (PAH) causing by venous thromboembolism.\n7. Subjects with systolic blood pressure \\< 90 mmHg or \\> 160 mmHg and/or diastolic blood pressure \\< 50 mmHg or \\> 95 mmHg at Screening or check-in visit.\n8. Subjects with FEV1 less than 80% predicted, FVC \u02c280% predicted, or resting oxygen saturation less than 95% at Screening or check-in visit.\n9. Subjects with histories of drug or alcohol abuse within 1 year prior to subject check-in (Day -1). Regular alcohol consumption defined as \\> 10 standard drinks per week.\n10. Consumption of products containing caffeine/methylxanthines, poppy seeds and/or alcohol within 48 hours before dosing and products containing grapefruit and/or pomelo (shown to inhibit cytochrome P450 \\[CYP\\] 3A4 activity) within 10 days prior to drug administration.\n11. Positive results of human immunodeficiency virus (HIV), hepatitis B virus (HBV), hepatitis C virus (HCV), and pregnancy test.\n12. Blood donation or significant blood loss (\\>480 ml) within 3 months prior to Screening.\n13. Subjects are pregnant or breast feeding.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "CMAX Clinical Research Pty Ltd",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "zip": "SA 5000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

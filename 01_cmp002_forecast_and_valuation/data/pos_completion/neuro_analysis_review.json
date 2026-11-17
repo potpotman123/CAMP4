@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-16",
+  "reviewed_file": "scripts/analyze_completed_pos_panel.py",
+  "scope": "Independent static inspection; full execution not attempted because metabolic_updates.json was not yet present. Reviewed source schema and multirow clusters in available family updates. No changes to analysis script.",
+  "passed": [
+    "Maturity requires upper endpoint of entry interval to have aged through the horizon; boundary cases are separated.",
+    "Certain versus possible approval-within-horizon calculations use earlier/later entry endpoints in the correct direction.",
+    "Stopped and fate-unknown programs remain in mature inception denominators rather than being censored at stop.",
+    "No lifetime-PoS claim in script documentation; selected finite public panel and Wilson limitations explicitly described."
+  ],
+  "issues": [
+    {
+      "priority": "high",
+      "topic": "Asset cluster first-approval event",
+      "detail": "dedup sorts equal entry intervals by lexical row ID and retains one outcome. For BB305, lovotibeglogene sys_776b1386625c sorts ahead of betibeglogene sys_784ce96d8dcd despite first FDA approval being beti-cel2022-08-17 versus lovo-cel2023-12-08. This changes the asset-level event and can change10year counts.",
+      "recommendation": "For first-FDA event among explicitly original co-developed indications, aggregate the earliest qualifying approval within cluster; for an index-indication estimand, predeclare the index based on actual original clinical indication and retain that outcome. Never use lexical ID to define clinical event."
+    },
+    {
+      "priority": "medium",
+      "topic": "Component versus combination inception",
+      "detail": "Alyftrek cluster uses deutivacaftor2014 entry before vanzacaftor2018. It is a correlated combination cluster but2014is earliest component history, not first combination dosing.",
+      "recommendation": "Label this lineage-entry convention; show sensitivity excluding combination/component clusters or using a documented first-combination date. Molecular-entry and combination-entry rates answer different questions."
+    },
+    {
+      "priority": "medium",
+      "topic": "Approval ascertainment uncertainty",
+      "detail": "FDA_ever_approved=null is normalized to observed_FDA_approval=false. No-inventory-hit classification remains an operational negative, while unresolved inventory hits are also counted as nonapprovals in horizon calculations. Existing limitation text is good but an unresolved hit can be an actual unidentified approval.",
+      "recommendation": "Report approval-unresolved denominator counts and an upper sensitivity adding unresolved ascertainment cases, or withhold headline rates for those rows until indication-level adjudication. Describe rates as observed/captured FDA approval fractions, not fully ascertained probability."
+    },
+    {
+      "priority": "low",
+      "topic": "Date precision normalization",
+      "detail": "interval handles month/year strings before applying registry/proxy widening. Thus full-day registry dates widen to a year, but month registry dates remain one month. Also strict_entry accepts first_human_verified even when accompanying precision says actual_trial_start_proxy.",
+      "recommendation": "Use explicit supplied intervals or a consistent predeclared proxy rule. Describe strict gate as verified eligible clinical-entry window if exact dosing is not required; do not imply exact injection timing."
+    },
+    {
+      "priority": "low",
+      "topic": "Safety assertions",
+      "detail": "approved_by_cutoff sums approved flags without explicitly checking approval_date<=cutoff; horizon calculations assume valid full-day dates. Existing summary diagnoses missing-day dates only after calculations.",
+      "recommendation": "Assert all qualifying approval events fall after entry lowerbound and on/before cutoff; validate date precision before horizon calculation. Missing approval dates should be separately unresolved rather than silently zerowithin-horizon."
+    }
+  ],
+  "duplicate_unit_note": "Drug-indication outputs may retain co-developed basket rows and correlated component successes. Primary independent-asset summary should use corrected cluster aggregation; drug-indication outputs should be descriptive sensitivity rather than pooled independent binomial evidence."
+}

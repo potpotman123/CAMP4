@@ -1,0 +1,830 @@
+{
+  "asset": "BMB-101",
+  "query": "BMB-101",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=BMB-101&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06401538",
+            "orgStudyIdInfo": {
+              "id": "BMB-101-103"
+            },
+            "organization": {
+              "fullName": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "BMB-101 in Absence Epilepsy and DEE",
+            "officialTitle": "An Open-Label Phase 2 Study to Evaluate the Efficacy, Safety and Tolerability of BMB-101 in Adults With Either Classic Absence Epilepsy (With or Without Eyelid Myoclonia (EEM; Jeavons Syndrome), OR Developmental Epileptic Encephalopathy (DEE)."
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-12-05",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-09-15",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2025-11-30",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-02",
+            "studyFirstSubmitQcDate": "2024-05-03",
+            "studyFirstPostDateStruct": {
+              "date": "2024-05-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-08-07",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-08-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is a pilot, open-label, study to test whether BMB-101 is safe and effective in reducing the frequency of seizures in subjects with Absence Epilepsy including Epilepsy with Eyelid Myoclonia (also called Jeavons Syndrome) as well as Developmental Epileptic Encephalopathies such as Dravet and Lennox Gastaut. The study will last up to 6 months. There will be a 1 month screening period, then up to 3 months on open-label BMB-101 including titration and tapering/washout periods, and then a 1 month follow-up period. There will be 6 clinic visits."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Absence Epilepsy",
+              "Jeavons Syndrome",
+              "Dravet Syndrome",
+              "Lennox Gastaut Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BMB-101",
+                "type": "EXPERIMENTAL",
+                "description": "BMB-101 10 mg/ml liquid",
+                "interventionNames": [
+                  "Drug: BMB-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BMB-101",
+                "description": "BMB-101 liquid administered orally twice a day for 3 months",
+                "armGroupLabels": [
+                  "BMB-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline in seizure frequency in DEE subjects",
+                "description": "Seizure diary",
+                "timeFrame": "10 weeks"
+              },
+              {
+                "measure": "Change from baseline in the number of generalized spike-wave discharges (GSWD) on the 24 hr EEG in Absence subjects.",
+                "description": "24 hour EEG",
+                "timeFrame": "6 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in quality of life",
+                "description": "Quality of Life in Epilepsy (QOLIE-31) for adults",
+                "timeFrame": "6-10 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects must have a diagnosis of Absence Epilepsy with or without eyelid myoclonia (Jeavons Syndrome) or a diagnosis of Developmental and Epileptic Encephalopathy (DEE) such as Dravet syndrome or Lennox-Gastaut syndrome or other DEE.\n2. Subjects with Absence must experience at least 4 episodes of 3-4/second SWD lasting at least 3 seconds each in a 24 hour EEG during the baseline period. Those with DEE must have a typical EEG pattern for DEE on routine EEG and experience at least 4 seizures during the 4 week baseline period prior to BMB-101 administration.\n3. Subjects can be male or female ages 18-65 inclusive at time of baseline.\n4. Subject must have tried at least one anti-seizure medication at a recommended dose and duration and must be on a stable dose on their current anti-seizure medications for at least 4 weeks prior to baseline and remain stable throughout the study.\n5. Subjectis willing and able to be compliant with diary completion, visit schedule, and study drug accountability.\n6. Female subjects of childbearing potential must have a negative urine pregnancy test at baseline. Subjects of childbearing or child-fathering potential must be willing to use medically acceptable forms of birth control, which includes abstinence, while in this study and for 90 days after the last dose of study drug.\n\nExclusion Criteria:\n\n1. Subject has current or past history of cardiovascular or cerebrovascular disease, such as cardiac valvulopathy, pulmonary hypertension, myocardial infarction or stroke, or clinically significant structural cardiac abnormality.\n2. Subject has moderate or severe hepatic impairment. Asymptomatic subjects with mild hepatic impairment (elevated liver enzymes \\< 3x upper limit of normal (ULN) and/or elevated bilirubin \\<2x ULN) may be entered into the study after review and approval by the Medical Monitor in conjunction with the sponsor, in consideration of comorbidities and concomitant medications.\n3. Subject has severe renal impairment (estimated glomerular filtration rate \\<30mL/min/1.73m2)\n4. Clinically significant ECG abnormality such as QTcF \\>450 msec (males) or \\>470 msec (females)\n5. Subject is receiving concomitant therapy with: fenfluramine, lorcaserin, monoamine-oxidase inhibitors, SSRIs, SNRIs, tricyclic antidepressants or other serotonergic agonists or antagonists (antipsychotics).\n6. Subject is currently receiving an investigational medicinal product.\n7. Subject has participated in another clinical trial within the past 30 days (calculated from that study's last scheduled visit). Participation in non-treatment trials will be reviewed by the medical monitor.\n8. Subject has a history of drug or alcohol abuse within the last 12 months or a positive urine drug screen (with the exception of cannabinoids).\n9. A current C-SSRS score of 4 or 5 at baseline or history of suicide attempt at any time during the past year\n10. Subject has a clinically significant condition or has had clinically relevant symptoms or a clinically significant illness in the 4 weeks prior to the Baseline Visit, other than epilepsy, that would negatively impact study participation, collection of study data, or pose a risk to the subject.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Rachelle Kirk-Burnnand",
+                "role": "CONTACT",
+                "phone": "+61 439615368",
+                "email": "rachelle@basebio.com.au"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "name": "Terence O'Brien, MD",
+                "affiliation": "The Alfred",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "The Prince of Wales Hospital",
+                "status": "RECRUITING",
+                "city": "Randwick",
+                "state": "New South Wales",
+                "zip": "2031",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Christian Zentner",
+                    "role": "CONTACT",
+                    "phone": "+612 9382 2437",
+                    "email": "Christian.Zentner@health.nsw.gov.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -33.91439,
+                  "lon": 151.24895
+                }
+              },
+              {
+                "facility": "Royal Brisbane and Womans Hospital",
+                "status": "RECRUITING",
+                "city": "Herston",
+                "state": "Queensland",
+                "zip": "4029",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "David Reutens",
+                    "role": "CONTACT",
+                    "phone": "+61 7 3646 2523",
+                    "email": "d.reutens@uq.edu.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -27.44453,
+                  "lon": 153.01852
+                }
+              },
+              {
+                "facility": "St Vincent's Hospital Melbourne",
+                "status": "RECRUITING",
+                "city": "Fitzroy",
+                "state": "Victoria",
+                "zip": "3065",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Wendyl D'Souza",
+                    "role": "CONTACT",
+                    "phone": "+61 3 9288 3069",
+                    "email": "wendyl.dsouza@svhm.org.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.79839,
+                  "lon": 144.97833
+                }
+              },
+              {
+                "facility": "Austin Health",
+                "status": "RECRUITING",
+                "city": "Heidelberg",
+                "state": "Victoria",
+                "zip": "3084",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Ingrid Scheffer",
+                    "role": "CONTACT",
+                    "phone": "+61 3 9035 7116",
+                    "email": "i.scheffer@unimelb.edu.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.75,
+                  "lon": 145.06667
+                }
+              },
+              {
+                "facility": "Alfred Health",
+                "status": "RECRUITING",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3004",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Terrence O'Brien, MD",
+                    "role": "CONTACT",
+                    "phone": "+61 3 9903 0855",
+                    "email": "te.obrien@alfred.org.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004832",
+                "term": "Epilepsy, Absence"
+              },
+              {
+                "id": "D004831",
+                "term": "Epilepsies, Myoclonic"
+              },
+              {
+                "id": "D065768",
+                "term": "Lennox Gastaut Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D004829",
+                "term": "Epilepsy, Generalized"
+              },
+              {
+                "id": "D004827",
+                "term": "Epilepsy"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000073376",
+                "term": "Epileptic Syndromes"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05397041",
+            "orgStudyIdInfo": {
+              "id": "PR-BMB-101-101"
+            },
+            "organization": {
+              "fullName": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A 3-Part Study to Evaluate the Safety, Tolerability, PK, and Food Effect of BMB-101 in Healthy Volunteers",
+            "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase I Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single and Multiple Ascending Oral Doses of BMB-101 in Fed and Fasted Adult Healthy Human Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-06-06",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-05-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-05-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-05-19",
+            "studyFirstSubmitQcDate": "2022-05-27",
+            "studyFirstPostDateStruct": {
+              "date": "2022-05-31",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-07-06",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study is designed as a single centre, double blind, placebo controlled, randomized, SAD/FE/MAD, safety, tolerance and PK study of BMB-101 in healthy adult subjects. The study will be conducted as a 3-part study.",
+            "detailedDescription": "This study is designed as a 3-part study:\n\nPart 1 is designed as single ascending dose (SAD) escalation study investigating 4 dose levels. Each cohort will consist of participants to be randomly assigned to receive a blinded oral dose of BMB-101 or placebo.\n\nPart 2 is designed as a randomized, orally administered, single-dose, two-treatment (fed vs fasted), two-period, two-sequence crossover to assess the effects of a standard high-fat breakfast on PK of BMB-101.\n\nPart 3 is designed as a multiple ascending dose (MAD) escalation study investigating up to 4 dose levels. Subjects will be randomized to receive double-blind treatment of BMB-101 or matching placebo twice daily for 7 days."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "SAD, FE, MAD, dose escalating",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 81,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BMB-101",
+                "type": "EXPERIMENTAL",
+                "description": "Participants receiving BMB-101 orally",
+                "interventionNames": [
+                  "Drug: BMB-101"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants receiving Matched Placebo orally",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BMB-101",
+                "description": "Participants will receive one of several different oral doses of BMB-101 once or twice daily",
+                "armGroupLabels": [
+                  "BMB-101"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Matched Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Treatment-emergent Adverse Events",
+                "description": "Incidence and severity of adverse events, including serious adverse events and adverse events, clinically significant changes in laboratory testing, vital signs, Holter monitoring, physical examination, and ECGs",
+                "timeFrame": "Baseline up to Follow Up/End of Treatment visit, an average of 8 months."
+              },
+              {
+                "measure": "Change in Columbia-Suicide Severity Rating Scale (C-SSRS) Response",
+                "description": "Type of Suicidal Ideation, Intensity (1 - 5, with 5 being most severe), Suicidal Behavior",
+                "timeFrame": "Administered at each of the following visits in Part 3: Screening, Clinic Discharge, and Follow-up/Early Withdrawal."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetic Assessment",
+                "description": "Concentration of BMB-101 in Plasma and Urine samples:\n\n* SAD - 13 blood collection timepoints \\& 8 urine PK collection periods over 4 days (Day 1 through End of Dosing period)\n* FE - 10 blood collection timepoints over 4 days (Day 1 through End of Dosing period) - 20 blood collection timepoints in total as 2 periods in FE\n* MAD - 23 blood collection timepoints \\& 8 urine PK collection periods over 7 days (Day 1 through End of Dosing period)",
+                "timeFrame": "Day 1 through End of Dosing Period."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Subject must be aged between 18 and 55 years (both inclusive).\n2. Healthy subjects with no clinically significant screening results.\n3. Body mass index (BMI) 18.0 to 32.0 kg/m\u00b2.\n4. Males and non pregnant females willing to use contraceptives consistent with local regulations from screening through 3 months after the last dose of study medication.\n5. Agree to frequent blood and urine sampling during the course of the study.\n6. Agree to be confined in the study unit and follow study procedures.\n\nKey Exclusion Criteria:\n\n1. Subjects with unstable or severe illness as indicated on medical history, physical examination, or clinical laboratory, vital signs, and electrocardiograms (ECGs) evaluations, or in the opinion of the Investigator.\n2. Subjects with reported history within past 6 months of, or current treatment for, any GI disease that may impact the absorption of an oral drug for example gastroesophageal reflux disorder, peptic ulcer disease, inflammatory bowel disease.\n3. Subjects with a history of seizures other than febrile seizures as a child.\n4. Subjects with history of or current glucose intolerance; or with history of gestational diabetes.\n5. Subjects with lifetime history of suicidal behavior or with lifetime history of suicidal ideation as indicated by the Columbia-Suicide Severity Rating Scale (C-SSRS)\n6. Subjects with any use of or intent to use any medications, including prescription, over-the-counter (OTC), herbal preparations, or vitamin/mineral supplementation, other than study medications, from 7 days prior to first dose through follow-up visit.\n7. Female subjects with a positive pregnancy test at Screening or Day -1 or who are breastfeeding.\n8. Subjects who have used more than 5 cigarettes, cigars, or nicotine-containing products per month within 6 months prior to first study dose, or plan to use them through completion of the follow-up visit.\n9. Subjects with a positive drug screen for illegal drugs including cannabis at Screening or Day -1.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Michele De Sciscio",
+                "affiliation": "CMAX Clinical Research",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "CMAX Clinical Research",
+                "city": "Adelaide",
+                "state": "South Australia",
+                "zip": "5000",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -34.92866,
+                  "lon": 138.59863
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07266324",
+            "orgStudyIdInfo": {
+              "id": "BMB-101-201"
+            },
+            "organization": {
+              "fullName": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A 2-Part Study to Assess Efficacy, Safety and Tolerability of BMB-101 for the Treatment of Patients With Prader-Willi Syndrome.",
+            "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study to Assess Efficacy, Safety and Tolerability of BMB-101 Oral Solution for the Treatment of Patients With Prader-Willi Syndrome (PWS)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-01",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-11",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2027-03",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-11-17",
+            "studyFirstSubmitQcDate": "2025-11-24",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-05",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Bright Minds Biosciences Pty Ltd",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to evaluate the safety and effects of a new drug called BMB-101 in people with Prader-Willi Syndrome (PWS). This study is designed as a multi-centre, double-blind, randomized, placebo controlled 2-part study with a blinded main phase followed up an open label extension phase.",
+            "detailedDescription": "This study is designed as a 2-part study:\n\nPart 1 is designed as a randomized phase, lasting up to 16 weeks. There will be a 4-week screening period. Following the screening period, participants will be randomized in a 1:1 ratio to either BMB-101 or placebo. Participants will enter into a weekly ascending Maximum Tolerated Dose (MTD) titration phase of 4 weeks followed by a maintenance phase of 8 weeks. There will be 5 clinic visits and 4 telephone visits.\n\nPart 2 is designed to follow after the completion of the maintenance phase in Part 1. Participants at the discretion of the Investigator may elect to continue into an unblinded, expandable open label phase to receive BMB-101.\n\nParticipants who do not elect to continue into the open label phase will be tapered from assigned study treatment over 4 weeks following completion of the maintenance phase."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Prader-Willi Syndrome"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 16,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BMB-101",
+                "type": "EXPERIMENTAL",
+                "description": "Participants receive BMB-101 (10mg/mL liquid) orally",
+                "interventionNames": [
+                  "Drug: BMB-101"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Participants receiving matched placebo orally",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "BMB-101",
+                "description": "Participants will receive weekly ascending oral doses of BMB-101(10 mg/mL) twice daily (BID) for 16 weeks.\n\nDoses will be based on weight (kg) and will initially start at 1.67 mg/kg. Doses may be titrated in 0.33 mg/kg increments based on tolerability up to a maximum dose of 2.0 mg/kg.",
+                "armGroupLabels": [
+                  "BMB-101"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Matched Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from Baseline in Hyperphagia Questionnaire for Clinical Trials scores over time in Prader-Willi Syndrome participants.",
+                "description": "The Hyperphagia Questionnaire for Clinical Trials consists of 9 items; each rated on a scale from 0 (no symptoms) to 4 (severe symptoms). The total score ranges from 0 to 36, with higher scores indicating worse hyperphagia symptoms. A score of approximately 13 is associated with moderate to severe hyperphagia, and a score of 22 or greater is associated with severe hyperphagia.",
+                "timeFrame": "16 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in hyperphagia severity score as measured by the Caregiver Global Impression of Severity 7-point scale over time.",
+                "description": "This scale is a single-item measure from 1 to 7, where higher scores indicate greater severity.",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Change from Baseline in hyperphagia severity score as measured by the Clinician Global Impression of Severity 7-point scale over time.",
+                "description": "This scale is a single-item measure from 1 to 7, where higher scores indicate greater severity.",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Change from Baseline in severity of Prader-Willi Syndrome disease scores as measured by the Clinician Global Impression of Severity 7-point scale over time.",
+                "description": "This scale is a single-item measure from 1 to 7, where higher scores indicate greater severity.",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Change from Baseline in improvement of Prader-Willi Syndrome disease scores as measured by the Clinician Global Impression of Improvement 7-point scale over time.",
+                "description": "This scale is a single-item measure from 1 to 7, where 1 indicates very much improved, and 7 indicates very much worse.",
+                "timeFrame": "16 weeks"
+              },
+              {
+                "measure": "Change from Baseline in Prader-Willi Syndrome correlated behavioral issues such as symptoms measured by the Prader-Willi Syndrome Profile on a 3-point scale over time.",
+                "description": "The Prader-Willi Syndrome Profile is a 57-item caregiver rated questionnaire that measures 52 Prader-Willi Syndrome specific behaviors on a 3-point scale (0-2), where 0=Not True, and 2=Often True. Higher scores indicate greater severity.",
+                "timeFrame": "16 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must be aged 18-65 years (both inclusive).\n* Genetically confirmed diagnosis of Prader Willi Syndrome via standard DNA testing or other commonly approved methods.\n* Willing and able to provide voluntary written informed consent, or have a Legally Authorized Representative who is able to provide consent.\n* Moderate to severe hyperphagia as defined by a HQ-CT score \u2265 13 at time of randomization (Visit 3).\n* If participant is receiving growth hormone, the subject must be on the same medication and stable dose for at least 90 days prior to Visit 1.\n* Female participant of childbearing potential must have a negative urine pregnancy test at baseline. Participants of childbearing or child-fathering potential must be willing to use medically acceptable forms of birth control, which includes abstinence, while in this study and for 90 days after the last dose of study drug.\n* Participant and/or caregiver has the ability to be compliant with study requirements, including visit schedule, diary completion and study drug accountability.\n* If a caregiver assists in completion of questionnaires, the same caregiver is available to complete the questionnaires throughout the duration of the study.\n\nExclusion Criteria:\n\n* Participant has used metabolic agents known to affect appetite within 3 months of Visit 1.\n* Participant use of psychotropic medications including SSRIs/SNRIs, monoamine-oxidase inhibitors, tricyclic antidepressants, other serotonergic agonists or antagonists (antipsychotics), and other agents which have known Serotonin Syndrome risk (e.g. mirtazapine) within 1 month of Visit 1.\n* Participant has implementation of new food restrictions or new environmental restrictions within 1 month of Visit 1.\n* Participant has participated in an interventional clinical trial of any Prader-Willi Syndrome agent within 3 months of Visit 1 or any other investigational agent within 1 month of Visit 1.\n* Participant has current or past history of cardiovascular or cerebrovascular disease, such as cardiac valvulopathy, pulmonary hypertension, myocardial infarction or stroke, or clinically significant structural cardiac abnormality.\n* Participant has moderate or severe hepatic impairment. Asymptomatic participants with mild hepatic impairment (elevated liver enzymes \\< 3x upper limit of normal (ULN) and/or elevated bilirubin \\<2x ULN) may be entered into the study after review and approval by the Medical Monitor in conjunction with the sponsor, in consideration of comorbidities and concomitant medications.\n* Participant has severe renal impairment (estimated glomerular filtration rate \\<30mL/min/1.73m2).\n* Participant has clinically significant ECG abnormality such as QTcF \\>450 msec (males) or \\>470 msec (females).\n* Participant has a history of drug or alcohol abuse within the last 12 months or a positive urine drug screen.\n* A current C-SSRS score of 4 or 5 at Visit 1 or history of suicide attempt at any time during the past year.\n* Participant has a clinically significant condition or has had clinically relevant symptoms or a clinically significant illness in the 4 weeks prior to Visit 1, other than PWS, that would negatively impact study participation, collection of study data, evaluation of study endpoints or pose a risk to the participant, in the opinion of the Investigator.\n* Participant is pregnant (determined by a positive urine pregnancy test) or lactating female.\n* Any condition that is thought to be a degenerative neurological disease.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Rachelle Kirk-Burnnand",
+                "role": "CONTACT",
+                "phone": "+61 439615368",
+                "email": "rachelle@basebio.com.au"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Royal Prince Alfred Hospital",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zip": "2050",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Tania Markovic",
+                    "role": "CONTACT",
+                    "phone": "02 9519 7605",
+                    "email": "tania.markovic@sydney.edu.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -33.86785,
+                  "lon": 151.20732
+                }
+              },
+              {
+                "facility": "Alfred Health",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3004",
+                "country": "Australia",
+                "contacts": [
+                  {
+                    "name": "Daniel Fineberg",
+                    "role": "CONTACT",
+                    "phone": "+61 411403167",
+                    "email": "D.Fineberg@alfred.org.au"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D011218",
+                "term": "Prader-Willi Syndrome"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008607",
+                "term": "Intellectual Disability"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D000015",
+                "term": "Abnormalities, Multiple"
+              },
+              {
+                "id": "D000013",
+                "term": "Congenital Abnormalities"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D025063",
+                "term": "Chromosome Disorders"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D000096803",
+                "term": "Imprinting Disorders"
+              },
+              {
+                "id": "D009765",
+                "term": "Obesity"
+              },
+              {
+                "id": "D050177",
+                "term": "Overweight"
+              },
+              {
+                "id": "D044343",
+                "term": "Overnutrition"
+              },
+              {
+                "id": "D009748",
+                "term": "Nutrition Disorders"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

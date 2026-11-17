@@ -1,0 +1,267 @@
+{
+  "integrated_id": "systemic:sys_2ce1a92bbb33",
+  "asset": "Vantobra (tobramycin)",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=Vantobra",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01953367",
+            "orgStudyIdInfo": {
+              "id": "12012.102"
+            },
+            "organization": {
+              "fullName": "Pari Pharma GmbH",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Bioequivalence and Safety of Vantobra and TOBI in Healthy Subjects",
+            "officialTitle": "Bioequivalence and Safety Study of Vantobra and TOBI Nebulizer Solutions in Healthy Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2014-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2013-09"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2013-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2013-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2013-09-04",
+            "studyFirstSubmitQcDate": "2013-09-24",
+            "studyFirstPostDateStruct": {
+              "date": "2013-10-01",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2014-04-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2014-04-25",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Pari Pharma GmbH",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will investigate the bioequivalence and compare the safety profiles following inhalation of Vantobra to TOBI nebulizer solution in healthy subjects.\n\nBioequivalence will be investigated based on the pharmacokinetic plasma profiles of Vantobra nebulizer solution compared to TOBI nebulizer solution."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "Bioequivalence",
+              "AUC",
+              "Cmax"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 72,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Vantobra; Treatment A",
+                "type": "EXPERIMENTAL",
+                "description": "Vantobra, 170 mg tobramycin/1.7 mL nebulizer solution",
+                "interventionNames": [
+                  "Drug: Vantobra (tobramycin)"
+                ]
+              },
+              {
+                "label": "TOBI; Treatment B",
+                "type": "ACTIVE_COMPARATOR",
+                "description": "TOBI, 300 mg tobramycin/5 mL nebulizer solution",
+                "interventionNames": [
+                  "Drug: TOBI (tobramycin)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Vantobra (tobramycin)",
+                "description": "Inhalation",
+                "armGroupLabels": [
+                  "Vantobra; Treatment A"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "TOBI (tobramycin)",
+                "description": "Inhalation",
+                "armGroupLabels": [
+                  "TOBI; Treatment B"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To investigate the bioequivalence (in terms of relative systemic bioavailability based on pharmacokinetic plasma profiles) of Vantobra 170 mg/1.7 mL nebulizer solution as compared to TOBI 300 mg/5 mL nebulizer solution in healthy subjects",
+                "description": "Plasma AUClast of tobramycin",
+                "timeFrame": "Day 1 and Day 7"
+              },
+              {
+                "measure": "To investigate the bioequivalence (in terms of relative systemic bioavailability based on pharmacokinetic plasma profiles) of Vantobra 170 mg/1.7 mL nebulizer solution as compared to TOBI 300 mg/5 mL nebulizer solution in healthy subjects",
+                "description": "Plasma Cmax of tobramycin",
+                "timeFrame": "Day 1 and Day 7"
+              },
+              {
+                "measure": "To investigate the bioequivalence (in terms of relative systemic bioavailability based on pharmacokinetic plasma profiles) of Vantobra 170 mg/1.7 mL nebulizer solution as compared to TOBI 300 mg/5 mL nebulizer solution in healthy subjects",
+                "description": "tmax of tobramycin",
+                "timeFrame": "Day 1 and Day 7"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Adverse Events during the trial period",
+                "description": "Adverse events",
+                "timeFrame": "Adverse Events during the study period of max. 17 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female healthy subjects of any ethnic origin\n* Aged between 18 and 50 years of age\n* Body weight of \u226550 kg and body mass index (BMI) between 18.5 and 29 kg/m2\n* FEV1 \\> 90% of predicted\n* Able to demonstrate correct inhaler use\n* Written informed consent\n\nExclusion Criteria:\n\n* History of clinically relevant allergies or idiosyncrasies to tobramycin or any other inactive ingredient(s) of the IMP\n* Any history of drug hypersensitivity, asthma, urticaria, or other significant allergic diathesis.\n* Any evidence of cardiovascular, pulmonary, renal, hepatic, gastrointestinal, hematological, endocrinological, metabolic, neurological, psychiatric or other diseases at screening\n* Surgery of the gastrointestinal or respiratory tract which might interfere with drug absorption\n* History of malignancy within the past 5 years\n* History of orthostatic hypotension, faintings or blackouts\n* Acute or chronic viral, bacterial or fungal airway infections, including laryngeal infections, mouth and throat infections, and hoarseness;\n* Other clinically relevant chronic or acute infectious illnesses\n* Clinical chemical, hematological or any other laboratory parameters clinically relevant outside the normal range",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Wolgang Timmer, MD",
+                "affiliation": "Inamed GmbH",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Inamed GmbH",
+                "city": "Gauting",
+                "zip": "82131",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.06919,
+                  "lon": 11.37703
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D014031",
+                "term": "Tobramycin"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D009328",
+                "term": "Nebramycin"
+              },
+              {
+                "id": "D007612",
+                "term": "Kanamycin"
+              },
+              {
+                "id": "D000617",
+                "term": "Aminoglycosides"
+              },
+              {
+                "id": "D006027",
+                "term": "Glycosides"
+              },
+              {
+                "id": "D002241",
+                "term": "Carbohydrates"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

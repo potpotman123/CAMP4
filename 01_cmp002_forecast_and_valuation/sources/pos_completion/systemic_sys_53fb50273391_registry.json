@@ -1,0 +1,1153 @@
+{
+  "integrated_id": "systemic:sys_53fb50273391",
+  "asset": "K-808",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=K-808",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06247735",
+            "orgStudyIdInfo": {
+              "id": "K-808-2.01"
+            },
+            "organization": {
+              "fullName": "Kowa Research Institute, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Evaluate the Efficacy and Safety of K-808 (Pemafibrate) in Participants With Primary Biliary Cholangitis (PBC) With Inadequate Response to Ursodeoxycholic Acid (UDCA) and/or Obeticholic Acid (OCA) Treatment.",
+            "officialTitle": "A Phase 2, Randomized, Placebo-controlled, Parallel Group, Multicenter 12-week Study With a 52-week Extension to Evaluate the Efficacy and Safety of Two Doses of K-808 (Pemafibrate) in Subjects With Primary Biliary Cholangitis With Inadequate Response to Ursodeoxycholic Acid and/or Obeticholic Acid Treatment"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-02-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-06-26",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-07-23",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-01-22",
+            "studyFirstSubmitQcDate": "2024-01-30",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-08",
+              "type": "ACTUAL"
+            },
+            "dispFirstSubmitDate": "2026-06-24",
+            "dispFirstPostDateStruct": {
+              "date": "2025-09-10",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-07",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kowa Research Institute, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Study to investigate the efficacy and safety of two doses of K-808 (pemafribate) in subjects with PBC."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cholangitis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 46,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo + K-808 (Group A)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo for 12 Weeks followed by K-808 (Dose A) for 52 Weeks",
+                "interventionNames": [
+                  "Drug: K-808 (Dose A)",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "Placebo + K-808 (Group B)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo for 12 Weeks followed by K-808 (Dose B) for 52 Weeks",
+                "interventionNames": [
+                  "Drug: K-808 (Dose B)",
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "K-808 Group A",
+                "type": "EXPERIMENTAL",
+                "description": "K-808 (Dose A) for 64 Weeks",
+                "interventionNames": [
+                  "Drug: K-808 (Dose A)"
+                ]
+              },
+              {
+                "label": "K-808 Group B",
+                "type": "EXPERIMENTAL",
+                "description": "K-808 (Dose B) for 64 Weeks",
+                "interventionNames": [
+                  "Drug: K-808 (Dose B)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "K-808 (Dose A)",
+                "description": "Administered orally once daily",
+                "armGroupLabels": [
+                  "K-808 Group A",
+                  "Placebo + K-808 (Group A)"
+                ],
+                "otherNames": [
+                  "Pemafibrate"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "K-808 (Dose B)",
+                "description": "Administered orally once daily",
+                "armGroupLabels": [
+                  "K-808 Group B",
+                  "Placebo + K-808 (Group B)"
+                ],
+                "otherNames": [
+                  "Pemafibrate"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Administered orally once daily",
+                "armGroupLabels": [
+                  "Placebo + K-808 (Group A)",
+                  "Placebo + K-808 (Group B)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Percent change from baseline in serum alkaline phosphatase (ALP)",
+                "description": "Two doses of K-808 compared to placebo after 12 weeks of treatment",
+                "timeFrame": "Baseline to Week 12"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Achievement of normalization of ALP level",
+                "description": "ALP \u22641 \u00d7 upper limit of normal (ULN)",
+                "timeFrame": "Baseline to Week 12"
+              },
+              {
+                "measure": "Achievement of target levels of ALP and total bilirubin (TB)",
+                "description": "After two doses of K-808",
+                "timeFrame": "Baseline to Weeks 12 and 64"
+              },
+              {
+                "measure": "Change from baseline in liver function parameters",
+                "description": "liver function test results including ALP, total and conjugated bilirubin, albumin, international normalized ratio \\[INR\\], \u03b3-GT, ALT, AST, albumin, platelets count",
+                "timeFrame": "Baseline to Weeks 12 and 64"
+              },
+              {
+                "measure": "Change from baseline in GLOBE risk score",
+                "description": "calculated by GLOBE scoring system which is calculated based on serum values of bilirubin, ALP, albumin and platelet count.",
+                "timeFrame": "Baseline to Weeks 12 and 64"
+              },
+              {
+                "measure": "Change from baseline in UK-PBC score",
+                "description": "PBC risk score developed by United Kingdom (UK)-PBC Consortium is a scoring system and the calculation is based on laboratory test measurements and upper limits of normal (ULN) for the total bilirubin (BIL12); alanine transaminase or aspartate transaminase (TA12), and alkaline phosphatase (ALP12) after at least 12 months of UDCA, and the laboratory test measurements and lower limits of normal (LLN) for the serum albumin and platelet count in the same timeframe. A high number is indicative of a worse score.",
+                "timeFrame": "Baseline to Weeks 12 and 64"
+              },
+              {
+                "measure": "Incidence of Treatment Emergent Adverse Events (TEAEs)",
+                "description": "Coded using the most recent version of Medical Dictionary of Regulatory Activities (MedDRA).",
+                "timeFrame": "Baseline to Week 68"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female participant who has a PBC diagnosis as demonstrated by the presence of \u22652 of the following three diagnostic criteria:\n\n  * History of ALP above ULN for at least 6 months\n  * History of positive antimitochondrial antibody (AMA) titer or positive PBC-specific antinuclear antibody (ANA) titer\n  * Historical liver biopsy consistent with PBC\n* Participant has the following qualifying biochemistry value at Screening:\n\n  * ALP \u22651.5 \u00d7 ULN\n* Participant is \u226518 years of age at consent.\n* Participant meets all other eligibility criteria outlined in the Clinical Study Protocol.\n\nExclusion Criteria:\n\n* Participant meets any one of the following criteria at Screening:\n\n  * ALP\\>10 \u00d7 ULN\n  * ALT or AST \\>5 \u00d7 ULN\n  * Hepatitis C treatment within 5 years of Screening, or active hepatitis C as defined by positive hepatitis C antibody with the presence of hepatitis C virus ribonucleic acid; subjects with active hepatitis B (HBV) infection (hepatitis B surface antigen \\[HbsAg\\] positive) will be excluded. A subject with resolved hepatitis A at least 3 months prior to the Screening Visit can be screened.\n  * Primary sclerosing cholangitis and secondary sclerosing cholangitis (eg, due to cholangiolithiasis, ischemia, telangiectasia, vasculitis, infectious diseases)\n  * Alcoholic liver disease\n  * History of definite autoimmune hepatitis or PBC/autoimmune hepatitis overlap, defined as both of the following: 1) IgG \\>2 \u00d7 ULN and/or positive anti-smooth muscle antibodies, 2) liver histology revealing moderate or severe periportal or periseptal inflammation\n  * Nonalcoholic steatohepatitis (NASH)\n  * Gilbert's Syndrome\n  * Alpha-1-antitrypsin deficiency, cystic fibrosis, Wilson's disease, hemochromatosis based on historically established diagnosis\n  * Drug-induced liver injury (DILI) as defined by typical exposure and history\n  * Known condition that involves bile duct obstruction or cholestasis other than PBC, eg, vascular diseases (eg, Budd-Chiari syndrome, sinusoidal obstruction syndrome, congestive hepatopathy), congenital conditions (ductal plate malformations, Caroli syndrome, congenital liver fibrosis), idiopathic ductopenia\n  * Hepatocellular carcinoma\n* Participant meets any other exclusion criteria outlined in the Clinical Study Protocol.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Andre Belous, MD, PhD",
+                "affiliation": "Kowa Pharma Development Co.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "UA Thomas D. Boyer Liver Institute",
+                "city": "Tucson",
+                "state": "Arizona",
+                "zip": "85724",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.22174,
+                  "lon": -110.92648
+                }
+              },
+              {
+                "facility": "Southern California Research Center - Coronado",
+                "city": "Coronado",
+                "state": "California",
+                "zip": "92118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.68589,
+                  "lon": -117.18309
+                }
+              },
+              {
+                "facility": "Cedars-Sinai Medical Center",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90048",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Velocity Clinical Research",
+                "city": "Santa Ana",
+                "state": "California",
+                "zip": "92704",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.74557,
+                  "lon": -117.86783
+                }
+              },
+              {
+                "facility": "Peak Gastroenterology Associates Colorado Springs",
+                "city": "Colorado Springs",
+                "state": "Colorado",
+                "zip": "80921",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.83388,
+                  "lon": -104.82136
+                }
+              },
+              {
+                "facility": "University of Florida Hepatology Research at CTRB",
+                "city": "Gainesville",
+                "state": "Florida",
+                "zip": "32610",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.65163,
+                  "lon": -82.32483
+                }
+              },
+              {
+                "facility": "Florida Research Institute",
+                "city": "Lakewood Rch",
+                "state": "Florida",
+                "zip": "34211",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 27.3863,
+                  "lon": -82.4332
+                }
+              },
+              {
+                "facility": "University of Miami Leonard M. Miller School of Medicine",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33136",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Springfield Clinic",
+                "city": "Springfield",
+                "state": "Illinois",
+                "zip": "62702",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.80172,
+                  "lon": -89.64371
+                }
+              },
+              {
+                "facility": "Mercy Medical Center - Mcauley Plaza",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "CommonSpirit Health Research Institute",
+                "city": "Omaha",
+                "state": "Nebraska",
+                "zip": "68124",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                }
+              },
+              {
+                "facility": "New York University Hepatology Associates",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10016",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Wake Forest University Baptist Medical Center",
+                "city": "Winston-Salem",
+                "state": "North Carolina",
+                "zip": "27157",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                }
+              },
+              {
+                "facility": "University of Cincinnati",
+                "city": "Cincinnati",
+                "state": "Ohio",
+                "zip": "45267",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                }
+              },
+              {
+                "facility": "Einstein Medical Center",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19141",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Rapid City Medical Center",
+                "city": "Rapid City",
+                "state": "South Dakota",
+                "zip": "57701",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.08054,
+                  "lon": -103.23101
+                }
+              },
+              {
+                "facility": "Vanderbilt Digestive Disease Center",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37232",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "Pioneer Research Solutions",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77099",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "UVA Health - University of Virginia Health System",
+                "city": "Charlottesville",
+                "state": "Virginia",
+                "zip": "22908",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.02931,
+                  "lon": -78.47668
+                }
+              },
+              {
+                "facility": "Gastrointestinal and Liver Specialists of Tidewater - Digestive and Liver Disease Specialists",
+                "city": "Norfolk",
+                "state": "Virginia",
+                "zip": "23502",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.84681,
+                  "lon": -76.28522
+                }
+              },
+              {
+                "facility": "Liver Institute Northwest",
+                "city": "Seattle",
+                "state": "Washington",
+                "zip": "98105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 47.60621,
+                  "lon": -122.33207
+                }
+              },
+              {
+                "facility": "(G.I,R,I) GI Research Institute",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zip": "V6Z 2K5",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                }
+              },
+              {
+                "facility": "Office of Dr. Gauthier",
+                "city": "North Bay",
+                "state": "Ontario",
+                "zip": "P1B 2H3",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 46.3168,
+                  "lon": -79.46633
+                }
+              },
+              {
+                "facility": "Toronto General Hospital",
+                "city": "Toronto",
+                "state": "Ontario",
+                "zip": "M5G 2C4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 43.65333,
+                  "lon": -79.38389
+                }
+              },
+              {
+                "facility": "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM)",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X 0A9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "306",
+                "city": "Fukui",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.84214,
+                  "lon": 135.54836
+                }
+              },
+              {
+                "facility": "313",
+                "city": "Fukuoka",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 33.6,
+                  "lon": 130.41667
+                }
+              },
+              {
+                "facility": "305",
+                "city": "Hamamatsu",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.7,
+                  "lon": 137.73333
+                }
+              },
+              {
+                "facility": "308",
+                "city": "Hirakata",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.81352,
+                  "lon": 135.64914
+                }
+              },
+              {
+                "facility": "309",
+                "city": "Hiroshima",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 34.4,
+                  "lon": 132.45
+                }
+              },
+              {
+                "facility": "304",
+                "city": "Isehara",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.39932,
+                  "lon": 139.31019
+                }
+              },
+              {
+                "facility": "312",
+                "city": "Kanazawa",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 36.6,
+                  "lon": 136.61667
+                }
+              },
+              {
+                "facility": "307",
+                "city": "Matsumoto",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 36.23333,
+                  "lon": 137.96667
+                }
+              },
+              {
+                "facility": "311",
+                "city": "\u014cmura",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 32.92139,
+                  "lon": 129.95389
+                }
+              },
+              {
+                "facility": "302",
+                "city": "Sapporo",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 43.06667,
+                  "lon": 141.35
+                }
+              },
+              {
+                "facility": "Teine Keijinkai Hospital",
+                "city": "Sapporo",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 43.06667,
+                  "lon": 141.35
+                }
+              },
+              {
+                "facility": "303",
+                "city": "tabashi City",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.74893,
+                  "lon": 139.71497
+                }
+              },
+              {
+                "facility": "314",
+                "city": "Yokohama",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.43333,
+                  "lon": 139.65
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C540740",
+                "term": "(R)-2-(3-((benzoxazol-2-yl-d4 (3-(4-methoxyphenoxy-d7)propyl)amino)methyl)phenoxy) butanoic acid"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06525311",
+            "orgStudyIdInfo": {
+              "id": "K-808-1.01"
+            },
+            "organization": {
+              "fullName": "Kowa Research Institute, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Pharmacokinetics and Safety of K-808 (Pemafibrate) in Subjects With Primary Biliary Cholangitis With Compensated Cirrhosis and Without Cirrhosis.",
+            "officialTitle": "A Phase 1 Open-Label Study to Evaluate the Pharmacokinetics and Safety of K-808 (Pemafibrate) in Subjects With Primary Biliary Cholangitis With Compensated Cirrhosis and Without Cirrhosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-10-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2025-03-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2025-04-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-06-27",
+            "studyFirstSubmitQcDate": "2024-07-24",
+            "studyFirstPostDateStruct": {
+              "date": "2024-07-29",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-05-22",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-05-23",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Kowa Research Institute, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "A Trial to Investigate the Pharmacokinetics (PK) Effects and Safety Profile of K-808 (Pemafibrate) in Primary Biliary Cholangitis (PBC) Subjects with and without Cirrhosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Primary Biliary Cholangitis",
+              "Compensated Cirrhosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 17,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PBC w/o CIRR",
+                "type": "EXPERIMENTAL",
+                "description": "K-808 single dose followed by multiple-dose treatment period.",
+                "interventionNames": [
+                  "Drug: K-808"
+                ]
+              },
+              {
+                "label": "PBC w/ CIRR CP-A",
+                "type": "EXPERIMENTAL",
+                "description": "K-808 single dose followed by optional multiple-dose treatment period.",
+                "interventionNames": [
+                  "Drug: K-808"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "K-808",
+                "description": "K-808 single or multi dose extended-release tablets",
+                "armGroupLabels": [
+                  "PBC w/ CIRR CP-A",
+                  "PBC w/o CIRR"
+                ],
+                "otherNames": [
+                  "Pemafibrate"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "PK parameters after a single dose of K-808: Area under the curve from 0 to infinity (AUC0-inf)",
+                "timeFrame": "Day 1 - Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Area under the curve from time 0 to last quantifiable time (AUC0-t)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Observed maximum plasma concentration (Cmax)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Time to reach observed maximum plasma concentration (Tmax)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: kel",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Apparent first-order terminal elimination half-life (t\u00bd)",
+                "timeFrame": "Day 1 to Day 3."
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Apparent total volume of distribution estimated based on the terminal phase (Vd/F)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Apparent plasma clearance after extravascular administration (CL/F)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: Mean resistance time from time 0 to last measurable concentration (MRT0-t)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters after a single dose of K-808: MRT from time 0 extrapolated to infinity (MRT0-inf)",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "Trough concentrations after multiple dosing of K-808",
+                "timeFrame": "Day 4 - Day 6"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Area under the curve over the dosing interval (AUC0-tau)",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Cmax",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Tmax",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: kel",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: t\u00bd",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Vd,ss/F at steady state",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: CLss/F at steady state",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: MRT at steady state (MRTss)",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Observed accumulation ratio based on the AUC (RobsAUC)",
+                "timeFrame": "Day 6 to Day 8"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: AUC0-inf",
+                "timeFrame": "Day 1 - Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: AUC0-t",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: Cmax",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: Tmax",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: kel",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: t\u00bd",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: MRT0-t",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters of K-808 metabolites after a single dose: MRT0-inf",
+                "timeFrame": "Day 1 to Day 3"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: AUC0- tau",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Cmax",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: Tmax",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: kel",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: t\u00bd",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: (MRTss)",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "PK parameters at steady state after multiple dosing of K-808: (RobsAUC)",
+                "timeFrame": "Day 6 to Day 8"
+              },
+              {
+                "measure": "Trough concentrations after multiple dosing of K-808",
+                "timeFrame": "Day 4 to Day 6"
+              },
+              {
+                "measure": "To assess the safety and tolerability of K-808",
+                "timeFrame": "5 Weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant has a PBC diagnosis as demonstrated by the presence of \u22652 of the following three diagnostic criteria (Lindor et al, 2019; Hirschfield et al, 2017):\n\n  1. History of ALP above ULN for at least 6 months\n  2. History of positive antimitochondrial antibody (AMA) titer or positive PBC-specific antinuclear antibody (ANA) titers\n  3. Historical liver biopsy consistent with PBC\n* Has PBC with cirrhosis Child-Pugh grade A (well-compensated disease; score 5 to 6) at Screening. Group 2 (PBC w/ CIRR CP-A) only\n* Male or female participant is \u226518 years of age at consent.\n* Able to understand and comply with study requirements and procedures and provide written informed consent.\n* Meet all other inclusion criteria outlined in the clinical study protocol.\n\nExclusion Criteria:\n\n* Female subject of childbearing potential who is known to be pregnant, has a positive pregnancy test (serum test, or urine test that is confirmed by a positive serum pregnancy test), or is lactating and breastfeeding, or planning to become pregnant or breastfeed during the study.\n* Subject has had ongoing conditions that may affect drug absorption such as gastroparesis, intestinal obstruction, severe gastritis, severe gastric reflux syndrome, conditions causing frequent vomiting and/or diarrhea.\n* Subject who has participated in another investigational drug, biologic, or medical device study within five half-lives of the agent (or within 8 weeks when half-life is unknown) prior to the first dose of study drug, or prior participation in an investigational antibody drug study within 6 months prior to the first dose of study drug. Participation in noninterventional studies (eg, observational studies, registries) is allowed.\n* Meet any other exclusion criteria outlined in the clinical study protocol.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Sara Neville, MD",
+                "affiliation": "Kowa Research Institute, Inc.",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Arizona Liver Health",
+                "city": "Chandler",
+                "state": "Arizona",
+                "zip": "85225",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.30616,
+                  "lon": -111.84125
+                }
+              },
+              {
+                "facility": "Southern California Research Center, Inc",
+                "city": "Coronado",
+                "state": "California",
+                "zip": "92118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.68589,
+                  "lon": -117.18309
+                }
+              },
+              {
+                "facility": "Indiana University School of Medicine - Indianapolis",
+                "city": "Indianapolis",
+                "state": "Indiana",
+                "zip": "46202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.76838,
+                  "lon": -86.15804
+                }
+              },
+              {
+                "facility": "Houston Research Institute",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77079",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Texas Liver Institute",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78215",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "Pinnacle Clinical Research",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "782329",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              },
+              {
+                "facility": "303",
+                "city": "Fukuoka",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 33.6,
+                  "lon": 130.41667
+                }
+              },
+              {
+                "facility": "302",
+                "city": "Kita-gun",
+                "country": "Japan"
+              },
+              {
+                "facility": "304",
+                "city": "Shinjuku-ku",
+                "country": "Japan"
+              },
+              {
+                "facility": "301",
+                "city": "Yufu",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 33.1956,
+                  "lon": 131.37829
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D008105",
+                "term": "Liver Cirrhosis, Biliary"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002780",
+                "term": "Cholestasis, Intrahepatic"
+              },
+              {
+                "id": "D002779",
+                "term": "Cholestasis"
+              },
+              {
+                "id": "D001649",
+                "term": "Bile Duct Diseases"
+              },
+              {
+                "id": "D001660",
+                "term": "Biliary Tract Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008107",
+                "term": "Liver Diseases"
+              },
+              {
+                "id": "D008103",
+                "term": "Liver Cirrhosis"
+              },
+              {
+                "id": "D005355",
+                "term": "Fibrosis"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C540740",
+                "term": "(R)-2-(3-((benzoxazol-2-yl-d4 (3-(4-methoxyphenoxy-d7)propyl)amino)methyl)phenoxy) butanoic acid"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,896 @@
+{
+  "asset": "PBF-999",
+  "query": "PBF-999",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=PBF-999&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03786484",
+            "orgStudyIdInfo": {
+              "id": "VHIO-PBF-999-01"
+            },
+            "organization": {
+              "fullName": "Palobiofarma SL",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of PBF-999 in Solid Tumour Advanced Cancer",
+            "officialTitle": "Phase I/Ib Trial of Single Agent PBF-999 in Solid Tumour Advanced Cancer"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-01",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2017-10-01",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-06-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-06-30",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-12-20",
+            "studyFirstSubmitQcDate": "2018-12-20",
+            "studyFirstPostDateStruct": {
+              "date": "2018-12-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-01-24",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-01-26",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Palobiofarma SL",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Vall d'Hebron Institute of Oncology",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Multicentric phase I (dose escalation plus expansion) clinical trial of PBF-999 in patients with immunotherapy na\u00efve and pretreated solid tumors to evaluate the safety, tolerability and preliminary efficacy of the compound",
+            "detailedDescription": "The phase I dose escalations will be conducted utilizing the standard 3+3 dose escalation method. Pharmacokinetic (PK) data will be obtained for PBF-999.\n\nThe phase I dose expansion will consist of 1 group including immunotherapy na\u00efve and pretreated (previous immune checkpoint inhibitors; anti-CTLA-4, anti-PD-1, anti-PD-L1 and/or combinations) solid tumors cancer patients. Pharmacodynamic (PD) data will be obtained for potential biomarker analysis with pre-treatment and on-treatment tumor biopsies.\n\nPhase I Dose Escalation (3+3 Design):\n\n1\\. The MTD will be defined as the highest dose level at which less than 2 out of 6 patients (\\<33%) experience DLT in Cycle 1 (first 28 days).\n\nPhase I Safety Expansion Once RP2D has been declared for PBF-999 using the standard 3+3 design, up to 20 additional solid tumor cancer patients may be treated at the RP2D to further explore safety and tolerability of the selected PBF-999 dose.\n\nPatients in this study will be males or females 18 years of age or older. Patients must have histologically or cytologically confirmed cancer with at least one measurable lesion, with adequate organ and marrow function, and with ECOG performance status of 0-1. Eligible patients must have received at least one prior line of therapy for their disease."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cancer"
+            ],
+            "keywords": [
+              "solid tumors",
+              "PDE10 inhibitors",
+              "Immunoncology"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 54,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PBF-999 20 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 40 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 80 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 120 mg",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "recommended phase 2 dose (RP2D)",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PBF-999",
+                "description": "Phosphodiesterase 10 inhibitor (PDE10i)",
+                "armGroupLabels": [
+                  "PBF-999 120 mg",
+                  "PBF-999 20 mg",
+                  "PBF-999 40 mg",
+                  "PBF-999 80 mg",
+                  "recommended phase 2 dose (RP2D)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Adverse Events (AEs) graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v4.03",
+                "description": "AEs will be described by system organ class and preferred tem using the Medical Dictionary for Regulatory Activities (MedDRA). Clinically relevant Laboratory abnormalities with toxicity grades according to the NCI CTCAE v4.03 will be derived and summarized.",
+                "timeFrame": "28 Days"
+              },
+              {
+                "measure": "The Maximun Tolerated Dose (MTD) of PBF-999",
+                "description": "The MTD evaluation will be based on the Dose-limiting Toxicity (DLT) of the treated Population and will include Adverse events (AEs), Serious Adverse events (SAEs) and laboratory evaluations. DLT Evaluable Population will be all patients enrolled in the dose-escalation portion of the trial, who receive the protocol-assigned treatment with PBF-999 and complete the safety follow-up through the DLT evaluation period or experience a DLT during the DLT evaluation period.",
+                "timeFrame": "28 Days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Time to PBF-999 peak concentration in plasma \"Tmax",
+                "description": "The parameter will be calculated from plasma samples collected at days 1, day 8 and 29 after drug administration. It will consist in the time (in minutes) to reach the maximum \"PBF-1129\" concentration in plasma samples of patients after oral administration of PBF-999.",
+                "timeFrame": "Day 1, Day 8 and Day 29"
+              },
+              {
+                "measure": "PBF-999 peak concentration in plasma \"Cmax\"",
+                "description": "The parameter will be calculated from plasma samples collected at days 1, 8 and 29 after drug administration. It will consist in the maximum plasma concentration (ng/mL) of PBF-999 observed after administration.",
+                "timeFrame": "Day 1, Day 8 and Day 29"
+              },
+              {
+                "measure": "The area under PBF-999 plasma concentration-time curve to infinite time \"AUC(0-inf)",
+                "description": "The parameter will be calculated from plasma samples collected at days 1, 8 and 29 after drug administration. It will consist in the area under the concentration-time curve from zero up to \u221e with extrapolation of the terminal phase. \"AUC(0-inf)\" will be given in Amount\u00b7time/ volume units",
+                "timeFrame": "Day 1, Day 8 and Day 29"
+              },
+              {
+                "measure": "PBF-999 half-life in plasma \" t\u00bd\"",
+                "description": "The parameter will be calculated from plasma samples collected at days 1, 8 and 29 after drug administration. It will consist in the terminal half-life of PBF-999 in plasma. \"t\u00bd\" will be given in hours (h)",
+                "timeFrame": "Day 1, Day 8 and Day 29"
+              },
+              {
+                "measure": "Efficacy of PBF-999 treatment as measured by Objective response rate (ORR",
+                "description": "ORR: Response and progression will be evaluated in this study using the new international criteria proposed by the revised Response Evaluation Criteria in Solid Tumors (RECIST) guideline (version 1.1).ORR is defined as confirmed complete response (CR) or partial response (PR) based on modified RECIST v1.1.",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "Efficacy of PBF-999 as measured by Disease control rate (DCR)",
+                "description": "The disease control rate (DCR) will be estimated considering the following variables: Complete response (CR), Partial response (PR) and stable disease (SD) as described by Response Evaluation Criteria in Solid Tumors (RECIST) guideline (version 1.1). These variables will be assessed based on Imaging-based evaluation methods as chest x-ray, conventional computed tomography (CT) and magnetic resonance imaging (MRI) that will be performed every 2 cycles of 28 days administration.",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "Efficacy of PBF-999 as measured by duration of response (DoR)",
+                "description": "Duration of response (DoR) is defined as the duration from the first documentation of OR to the first documented disease progression or death due to any cause, whichever occurs first",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "Efficacy of PBF-999 as measured by progression-free survival (PFS)",
+                "description": "Progression-free survival (PFS) will be measured from the start of treatment until the documentation of disease progression or death due to any cause, whichever occurs first. For subjects who are alive and progression-free at the time of data cut-off for analysis, PFS will be censored at the last tumor assessment date.",
+                "timeFrame": "2 years"
+              },
+              {
+                "measure": "Efficacy of PBF-999 as measured by overall survival (OS)",
+                "description": "Overall survival (OS) will be determined as the time from the start of treatment until death due to any cause",
+                "timeFrame": "2 years"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Advanced/metastatic histologically confirmed solid tumor\n* At least 1 measurable lesion per Response Evaluation Criteria in Solid Tumors (RECIST 1.1).\n* Patients who has progressed to the standard therapy\n* ECOG performance status of 0/1\n* Age greater than 18 years.\n* Adequate bone marrow, renal and hepatic function\n* Able and willing to give valid written consent for available archival tumor samples (not mandatory) and tumor biopsies before and during protocol (immune)therapy (not mandatory but highly recommended).\n* Prior immunotherapy is allowed\n\nExclusion Criteria:\n\n* Participation in another clinical study with an investigational product during the last 4 weeks or 5 half-lifes prior to starting on treatment.\n* Symptomatic and/or untreated Brain Metastases\n* Pregnancy or breast feeding\n* Serious uncontrolled medical disorder or active infection that in the investigator's opinion would impair the patient's ability to receive study treatment.\n* Concurrent use of other anticancer approved or investigational agents is not allowed.\n* Active or prior documented autoimmune disease within the past 2 years. NOTE: Patients with vitiligo, Grave's disease, or psoriasis not requiring systemic treatment (within the past 2 years) are not excluded.\n* Prior malignancy in past 2 years or as identified in Section 7.2 of this protocol\n* Patients receiving systemic steroids \u2265 10mg/day of prednisone or the equivalent\n* Concurrent administration of strong inhibitors or moderate inducers of CYP1A2 is not permitted; administration must be discontinued at least 7 days prior to initiating study drug administration.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Vall d'Hebron institute of oncology (VHIO)",
+                "city": "Barcelona",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02907294",
+            "orgStudyIdInfo": {
+              "id": "IIBSP-PBF-2015-82"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2015-004748-20",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2015",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2015"
+              }
+            ],
+            "organization": {
+              "fullName": "Palobiofarma SL",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study to Assess the Safety, Tolerability and Pharmacokinetic Profile of PBF-999 \"After Multiple Oral Doses\" in Healthy Volunteers",
+            "officialTitle": "Randomized, Double Blind, Placebo Controlled, Parallel Groups Study to Assess the Safety, Tolerability and Pharmacokinetic Profile of PBF-999 (160 mg and 320 mg) \"After Multiple Oral Doses\" in Healthy Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-09",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "change in the therapeutic indication",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-03"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2016-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2016-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-03-08",
+            "studyFirstSubmitQcDate": "2016-09-15",
+            "studyFirstPostDateStruct": {
+              "date": "2016-09-20",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-09-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-09-20",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Palobiofarma SL",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Fundaci\u00f3 Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "To assess the safety and tolerability of five doses of PBF-999 (160 mg and 320mg) after repeated (8 days) single daily oral dose administration in young male and female healthy subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington Disease"
+            ],
+            "keywords": [
+              "PDE10 inhibitor",
+              "phosphodiesterase 10 inhibitor",
+              "Huntington's disease",
+              "psychiatric disorders"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 8,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PBF-999",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Drug: PBF-999 / 160 mg",
+                  "Drug: PBF-999 / 320 mg"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PBF-999 / 160 mg",
+                "description": "2 capsule 80 mg x 8 days",
+                "armGroupLabels": [
+                  "PBF-999"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "PBF-999 / 320 mg",
+                "description": "4 capsule 80 mg x 8 days",
+                "armGroupLabels": [
+                  "PBF-999"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "2 capsules of placebo x 8 days 4 capsules of placebo x 8 days",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Serious and Non-Serious Adverse Events",
+                "description": "Vital Signs, ECG recordings, laboratory safety test and physical examination will be performed",
+                "timeFrame": "from day 0 to day 15"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "AUC",
+                "description": "Day 1: baseline \\[pre-dose\\], \\[+10 min\\], \\[+20 min\\], \\[+40min\\], \\[+60min\\], \\[+ 1.5h\\], \\[+2 h\\], \\[+ 2.5 h\\], \\[+ 3 h\\], \\[+ 4h\\], \\[+8h\\], \\[+ 12h\\] and \\[+16h\\] post-medication;\n\n* Days 2 to 7: baseline \\[daily pre-dose\\] which corresponds at +24h of previous dose;\n* Day 8: baseline \\[daily pre-dose\\], \\[+10 min\\], \\[+20 min\\], \\[+40min\\], \\[+60min\\], \\[+1.5h\\], \\[+2 h\\], \\[+ 2.5 h\\], \\[+ 3 h\\], \\[+ 4h\\], \\[+8h\\], \\[+ 12h\\] and \\[+16h\\] and \\[+ 24h\\] post-daily medication (D9).",
+                "timeFrame": "from day 1 to 8"
+              },
+              {
+                "measure": "Cmax",
+                "description": "Day 1: baseline \\[pre-dose\\], \\[+10 min\\], \\[+20 min\\], \\[+40min\\], \\[+60min\\], \\[+ 1.5h\\], \\[+2 h\\], \\[+ 2.5 h\\], \\[+ 3 h\\], \\[+ 4h\\], \\[+8h\\], \\[+ 12h\\] and \\[+16h\\] post-medication;",
+                "timeFrame": "from day 1 to 8"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Leeds Sleep Evaluation Questionnaire",
+                "timeFrame": "from day 1 to 8"
+              },
+              {
+                "measure": "-Analogic visual scales (VAS/100)",
+                "description": "ten scales will be used, Liking (only at +24 of the last drug administration), high, good effects, bad effects, sedation, nervous, euphoria, absent, vigouros and aphatetic.",
+                "timeFrame": "from day 1 to 8"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male or females subjects, 18-45 years (inclusive) of age at the time of enrollment.\n* Females must be of non-childbearing potential (i.e., surgically sterile) or have to use contraceptive measures (non-hormonal) such as condom, diaphragm or cervical/vault cap with spermicide until 28 days post-administration. Males should agree to abstain from sexual intercourse with a female partner or agree to use a condom with spermicide, in addition to having their female partner use some contraceptive measures until 28 days post-administration.\n* Clinically acceptable blood pressure and pulse rate in supine and standing position. Blood pressure and pulse will be measured after a minimum of 3 minutes of resting.\n* Body weight within normal range (Quetelet's index between 19 and 26) expressed as weight (kg) / height (m2).\n* Able to understand the nature of the study and comply with all their requirements.\n* Free acceptance to participate in the study by obtains signed informed consent form approved by the Ethics Committee of the Hospital (CEIC).\n\nExclusion Criteria:\n\n* History of serious adverse reactions or hypersensitivity to any drug.\n* Presence or history of allergies requiring acute or chronic treatment (except seasonal allergic rhinitis).\n* Background or clinical evidence of chronic diseases.\n* Acute illness two weeks before drug administration.\n* Having undergone major surgery during the previous 6 months.\n* Smokers (refrained from any tobacco usage, including smokeless tobacco, nicotine patches, etc., for 6 months prior to the administration of the study medication\n* History of alcohol dependence or drug abuse in the last 5 years or daily consumption of alcohol \\> 40 g for men or 24 gr/day for women or high consumption of stimulating beverages (\\> 5 coffees, teas or coca cola drinks/ day)\n* Abnormal physical findings of clinical significance at the screening examination or baseline which would interfere with the objectives of the study.\n* Need of any prescription medication within 14 days prior to the administration of the drug and non prescription medication or herbal medicines within 7 days prior to the administration of the drug.\n* Participation in other clinical trials during the previous 90 days in which an investigational drug or a commercially available drug was tested.\n* Having donated blood during 4 weeks period before inclusion in the study.\n* Existence of any surgical or medical condition which might interfere with the absorption, distribution, metabolism or excretion of the drug, i.e. impaired renal or hepatic function, diabetes mellitus, cardiovascular abnormalities, chronic symptoms of pronounced constipation or diarrhea or conditions associated with total or partial obstruction of the urinary tract.\n* 12 lead ECG obtained at screening with PR \u2265 220 msec, QRS \u2265120 msec and QTc \u2265 440 msec, bradychardia (\\<50 bpm) or clinically significant minor ST wave changes or any other abnormal changes on the screening ECG that would interfere with measurement of the QT interval.\n* Symptoms of a significant somatic or mental illness in the four week period preceding drug administration.\n* History of hepatitis HBV and / or HCV and / or positive serology results which indicate the presence of hepatitis B surface antigen and / or detectable HCV ribonucleic acid (RNA).\n* Positive results from the HIV serology.\n* Females with positive results from the pregnancy test or breast-feeding\n* Clinically significant abnormal laboratory values (as determined by the Principal Investigator) at the screening evaluation.\n* Positive results of the drugs at screening period or the day before starting treatment period. A minimum list of drugs that will be screened for include Amphetamines, Cocaine, Ethanol, Opiates, Cannabinoids and Benzodiazepines (positive results may be repeated at the discretion of the Principal Investigator).\n* Known hypersensitivity to the study drug or the composition of the galenical form\n* History of psychiatric diseases or epileptic seizures",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Joan Martinez, MD",
+                "affiliation": "CIM-Sant Pau",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "CIM-Sant Pau",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "zip": "08025",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "phase 1 unit website",
+                "url": "http://www.iibsantpau.cat/"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02208934",
+            "orgStudyIdInfo": {
+              "id": "IIBSP-PBF-2014-28"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2014-002138-29",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2014",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2014"
+              }
+            ],
+            "organization": {
+              "fullName": "Fundaci\u00f3 Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau",
+              "class": "OTHER"
+            },
+            "briefTitle": "Study To Assess the Safety and Tolerability of Single Ascending Oral Doses of PBF-999 in Healthy Young Male Volunteers",
+            "officialTitle": "Study To Assess the Safety and Tolerability of Single Ascending Oral Doses of PBF-999 ( 5 mg, 10 mg, 20 mg and 40 mg ) in Healthy Young Male Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2016-03",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-09"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2015-10",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2015-10",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2014-08-04",
+            "studyFirstSubmitQcDate": "2014-08-04",
+            "studyFirstPostDateStruct": {
+              "date": "2014-08-05",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2016-03-07",
+            "lastUpdatePostDateStruct": {
+              "date": "2016-03-08",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fundaci\u00f3 Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Palo Biofarma, S.L",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Study To Assess the Safety and Tolerability of Single Ascending Oral Doses of PBF-999 ( 5 mg, 10 mg, 20 mg and 40 mg ) in Healthy Young Male Volunteers"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Huntington's Disease"
+            ],
+            "keywords": [
+              "PDE10 inhibitor",
+              "Huntington's disease",
+              "phosphodiesterase 10 inhibitor",
+              "psychiatric disorders"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 32,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "PBF-999 (5 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "5 mg of PBF-999",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 (10 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "10 mg of PBF-999",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 (20 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "20 mg of PBF-999",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "PBF-999 (40 mg)",
+                "type": "EXPERIMENTAL",
+                "description": "40 mg of PBF-999",
+                "interventionNames": [
+                  "Drug: PBF-999"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo for the 5, 10, 20 and 40 mg dose",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "PBF-999",
+                "description": "5, 10, 20 and 40 mg of PBF-999",
+                "armGroupLabels": [
+                  "PBF-999 (10 mg)",
+                  "PBF-999 (20 mg)",
+                  "PBF-999 (40 mg)",
+                  "PBF-999 (5 mg)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo for all dosis of PBF-999",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants with Serious and Non-Serious Adverse Events",
+                "description": "Vital Signs, ECG recordings, laboratory safety test and physical examination will be performed",
+                "timeFrame": "day 0 to day 7"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Pharmacokinetic Profile Analysis (Plasma concentrations)",
+                "description": "Baseline \\[pre-dose\\], \\[+ 10 min\\], \\[+ 20 min\\], \\[+ 40 min\\], \\[+ 60 min\\], \\[+ 1.5h\\], \\[+ 2 h\\], \\[+ 2.5 h\\], \\[+ 3 h\\], \\[+ 4h\\], \\[+ 8h\\], \\[+ 12h\\], \\[+16h\\] and \\[+ 24h\\] post-medication",
+                "timeFrame": "day 1"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Leeds Sleep Evaluation Questionnaire (LSEQ)",
+                "timeFrame": "baseline and +24h"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Healthy male subjects, 18-45 years (inclusive) of age at the time of enrollment.\n2. Males should agree to abstain from sexual intercourse with a female partner or agree to use a condom with spermicide, in addition to having their female partner use some contraceptive measures until 28 days post-administration.\n3. Clinically acceptable blood pressure and pulse rate in supine and standing position. Blood pressure and pulse will be measured after a minimum of 3 minutes of resting.\n4. Body weight within normal range (Quetelet's index between 19 and 26) expressed as weight (kg) / height (m2).\n5. Able to understand the nature of the study and comply with all their requirements.\n6. Free acceptance to participate in the study by obtains signed informed consent form approved by the Ethics Committee of the Hospital (CEIC).\n\nExclusion Criteria:\n\n1. History of serious adverse reactions or hypersensitivity to any drug.\n2. Presence or history of allergies requiring acute or chronic treatment (except seasonal allergic rhinitis).\n3. Background or clinical evidence of chronic diseases.\n4. Acute illness two weeks before drug administration.\n5. Having undergone major surgery during the previous 6 months.\n6. Smokers (refrained from any tobacco usage, including smokeless tobacco, nicotine patches, etc., for 6 months prior to the administration of the study medication.\n7. History of alcohol dependence or drug abuse in the last 5 years or daily consumption of alcohol \\> 40 g or high consumption of stimulating beverages (\\> 5 coffees, teas or coca cola drinks/ day).\n8. Abnormal physical findings of clinical significance at the screening examination or baseline which would interfere with the objectives of the study.\n9. Need of any prescription medication within 14 days prior to the administration of the drug and non prescription medication or herbal medicines within 7 days prior to the administration of the drug.\n10. Participation in other clinical trials during the previous 90 days in which an investigational drug or a commercially available drug was tested.\n11. Having donated blood during 4 weeks period before inclusion in the study.\n12. Existence of any surgical or medical condition which might interfere with the absorption, distribution, metabolism or excretion of the drug, i.e. impaired renal or hepatic function, diabetes mellitus, cardiovascular abnormalities, chronic symptoms of pronounced constipation or diarrhea or conditions associated with total or partial obstruction of the urinary tract.\n13. 12 lead ECG obtained at screening with PR \u2265 220 msec, QRS \u2265120 msec and QTc \u2265 440 msec, bradycardia (\\<50 bpm) or clinically significant minor ST wave changes or any other abnormal changes on the screening ECG that would interfere with measurement of the QT interval.\n14. Symptoms of a significant somatic or mental illness in the four week period preceding drug administration.\n15. History of hepatitis HBV and / or HCV and / or positive serology results which indicate the presence of hepatitis B surface antigen and / or detectable HCV ribonucleic acid (RNA).\n16. Positive results from the HIV serology.\n17. Clinically significant abnormal laboratory values (as determined by the Principal Investigator) at the screening evaluation.\n18. Positive results of the drugs at screening period or the day before starting treatment period. A minimum list of 6 drugs will be screened for inclusion: Amphetamines, Cocaine, Ethanol, Opiates, Cannabinoids and Benzodiazepines (positive results may be repeated at the discretion of the Principal Investigator).\n19. Known hypersensitivity to the study drug or the composition of the galenical form.\n20. History of psychiatric diseases or epileptic seizures.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Joan Mart\u00ednez Colomer, MD",
+                "affiliation": "CIM Sant Pau - IIB Sant Pau",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "CIM-Sant Pau - IIB Sant Pau, HSCSP",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "zip": "08025",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Palobiofarma S.L. (molecule owner)",
+                "city": "Matar\u00f3",
+                "state": "Barcelona",
+                "zip": "08302",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.54211,
+                  "lon": 2.4445
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Related Info",
+                "url": "http://www.iibsantpau.cat/"
+              },
+              {
+                "label": "Related Info",
+                "url": "http://www.palobiofarma.com/"
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006816",
+                "term": "Huntington Disease"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D002819",
+                "term": "Chorea"
+              },
+              {
+                "id": "D020820",
+                "term": "Dyskinesias"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D020271",
+                "term": "Heredodegenerative Disorders, Nervous System"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

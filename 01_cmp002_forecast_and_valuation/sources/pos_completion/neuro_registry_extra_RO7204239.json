@@ -1,0 +1,566 @@
+{
+  "asset": "RO7204239",
+  "query": "GYM329",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=GYM329&pageSize=100&format=json",
+  "retrieved_at": "2026-11-16",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07137585",
+            "orgStudyIdInfo": {
+              "id": "BP45980"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2025-521401-41-00",
+                "type": "CTIS"
+              },
+              {
+                "id": "2025",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2025"
+              }
+            ],
+            "organization": {
+              "fullName": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Effect of RO7204239 on Insulin Sensitivity and Muscle Composition in Participants With Type 2 Diabetes Mellitus (T2DM) and Overweight or Obesity",
+            "officialTitle": "Effects of RO7204239 on Insulin Sensitivity, Muscle Composition and Function in Participants Living With Type 2 Diabetes Mellitus and Overweight or Obesity: A Double-blind, Randomized, Placebo-controlled Study"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-09-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-09-14",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2027-02-28",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-08-15",
+            "studyFirstSubmitQcDate": "2025-08-15",
+            "studyFirstPostDateStruct": {
+              "date": "2025-08-22",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-28",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-29",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Hoffmann-La Roche",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to assess the effect of RO7204239 on insulin sensitivity versus placebo in participants with T2DM and obesity or overweight."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Type 2 Diabetes Mellitus",
+              "Obesity",
+              "Overweight"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 30,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Placebo",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive RO7204239 matching placebo, every 4 weeks (Q4W), as a subcutaneous (SC) injection for 24 weeks.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "RO7204239",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive RO7204239, Q4W, as a SC injection for 24 weeks.",
+                "interventionNames": [
+                  "Drug: RO7204239"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "RO7204239 matching placebo will be administered as per the schedule specified in the treatment arm.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "RO7204239",
+                "description": "RO7204239 will be administered as per the schedule specified in the treatment arm.",
+                "armGroupLabels": [
+                  "RO7204239"
+                ],
+                "otherNames": [
+                  "GYM329"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change From Baseline in M-value in a Hyperinsulinemic Euglycemic Glucose Clamp (HEC) at Week 24",
+                "timeFrame": "Baseline, Week 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change From Baseline in Glycated Hemoglobin (HbA1c) at Week 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Glucose Metabolism Assessed Using Fasting Glucose Test at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Glucose Metabolism Assessed Using Insulin Test at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Glucose Metabolism Assessed Using C-peptide Test at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Blood Lipid Profiles at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Body Weight at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Waist Circumference at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Waist to Height Ratio at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Total Lean Tissue Volume and Total Adipose Tissue Volume From Abdominal Magnetic Resonance Imaging (MRI) at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Muscle Volume From Thigh Muscle MRI at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Change From Baseline in Muscle Fat Infiltration From Thigh Muscle MRI at Weeks 12 and 24",
+                "timeFrame": "Baseline, Week 12, Week 24"
+              },
+              {
+                "measure": "Number of Participants With Adverse Events (AEs)",
+                "timeFrame": "Up to Week 48"
+              },
+              {
+                "measure": "Number of Participants With Local and Systemic Injection Reactions",
+                "timeFrame": "Up to Week 48"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants with T2DM for at least 6 months, treated with diet, exercise and/or metformin alone or in combination with either dipeptidyl peptidase 4 (DPP-4) inhibitor or sodium-glucose co-transporter 2 (SGLT2) at stable dose for the last 3 months prior to study entry and with a HbA1c between \u2264 6.5% and \u2264 10%\n* Body mass index (BMI) within the range of 27.0 to 45.0 kilogram per meter square (kg/m2)\n* Stable body weight for the 3 months prior to screening\n* Participants on lipid-lowering or antihypertensive drugs must be on stable doses for at least 3 months\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus (DM), known latent autoimmune diabetes in adults, or people with an episode of ketoacidosis or hyperosmolar state requiring hospitalisation in 6 months prior to screening\n* Active proliferative diabetic retinopathy, diabetic maculopathy, or severe non-proliferative diabetic retinopathy requiring acute treatment\n* Uncontrolled comorbid conditions commonly associated with diabetes (for example, hypertension, hyperlipidaemia)\n* Severe hypoglycaemia within 6 months prior to screening visit\n* Current autonomic neuropathy as evidenced by neuropathic urinary retention, resting tachycardia, orthostatic hypotension, or diabetic diarrhea\n* Have evidence of a significant, uncontrolled endocrine abnormality (e.g., thyrotoxicosis and adrenal crises)\n* Are currently taking a central nervous system stimulant (e.g., Ritalin-SR), with the exception of caffeinated beverage\n* Have a known allergy, hypersensitivity, or intolerance to any component of the study treatment (i.e., RO7204239 / placebo) formulation\n* Blood donation of more than 500 milliliters (mL) within the past 3 months or blood transfusion or severe blood loss within 3 months prior to screening",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Clinical Trials",
+                "affiliation": "Hoffmann-La Roche",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Profil Institut f\u00fcr Stoffwechselforschung",
+                "city": "Homburg",
+                "state": "Saarland",
+                "zip": "66421",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.32637,
+                  "lon": 7.33867
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003924",
+                "term": "Diabetes Mellitus, Type 2"
+              },
+              {
+                "id": "D009765",
+                "term": "Obesity"
+              },
+              {
+                "id": "D050177",
+                "term": "Overweight"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003920",
+                "term": "Diabetes Mellitus"
+              },
+              {
+                "id": "D044882",
+                "term": "Glucose Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D004700",
+                "term": "Endocrine System Diseases"
+              },
+              {
+                "id": "D044343",
+                "term": "Overnutrition"
+              },
+              {
+                "id": "D009748",
+                "term": "Nutrition Disorders"
+              },
+              {
+                "id": "D001835",
+                "term": "Body Weight"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04708847",
+            "orgStudyIdInfo": {
+              "id": "JP42791"
+            },
+            "organization": {
+              "fullName": "Chugai Pharmaceutical",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Clinical Pharmacology Study to Evaluate the Effect of GYM329 on Disuse Muscle Atrophy in Healthy Volunteer",
+            "officialTitle": "A Double-Blind, Placebo-Controlled, Randomized Clinical Pharmacology Study to Evaluate the Prevention Effect and the Recovery-Promoting Effect of a Single Subcutaneous Administration of GYM329 on Disuse Muscle Atrophy in Healthy Male Volunteers"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-02-10",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-06-03",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2023-02-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-12-24",
+            "studyFirstSubmitQcDate": "2021-01-12",
+            "studyFirstPostDateStruct": {
+              "date": "2021-01-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2023-02-17",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Chugai Pharmaceutical",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will induce disuse atrophy through unilateral immobilization of the thigh and lower leg in healthy male volunteers to evaluate the PD of a single subcutaneous dose of GYM329 prior to or after unilateral thigh and lower leg immobilization.\n\nHealthy male volunteers will receive either GYM329 or placebo by subcutaneous injection at two time points, before and after 2 weeks of unilateral thigh and lower leg immobilization, in an investigator- and subject-blinded, randomized, placebo-controlled, parallel-group design. At enrollment, all subjects will be randomized in a 1:2 ratio to either the pre-immobilization active drug group receiving a single subcutaneous dose of GYM329 before unilateral thigh and lower leg immobilization (Group A) or the pre-immobilization placebo group receiving a single subcutaneous dose of placebo before unilateral thigh and lower leg immobilization (Group B). On Day 15, subjects assigned to Group B and who completed the muscle strength assessment at Day15 will be further randomized in a 1:1 ratio to either the post-immobilization active drug group (Group B-1) or the post-immobilization placebo group (Group B-2). Group A will receive GYM329 on Day 1 and placebo on Day 15. Group B will receive placebo on Day 1. Subsequently, Group B-1 will receive GYM329 on Day 15 and Group B-2 will receive placebo on Day 15.\n\nMuscle strength will be measured at pre-immobilization of unilateral thigh and lower leg, post-immobilization of unilateral thigh and lower leg (Day 15), Day 29, and Day 43. Subjects will be observed for 252 days after the second study treatment administration (266 days after the first study treatment administration)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Volunteers"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 30,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Pre-immobilization active drug group",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will receive a single subcutaneous dose of GYM329 on Day 1 and a single subcutaneous dose of placebo on Day 15.",
+                "interventionNames": [
+                  "Drug: GYM329"
+                ]
+              },
+              {
+                "label": "Post-immobilization active drug group",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will receive a single subcutaneous dose of placebo on Day 1 and a single subcutaneous dose of GYM329 on Day 15.",
+                "interventionNames": [
+                  "Drug: GYM329"
+                ]
+              },
+              {
+                "label": "Placebo group",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Subjects will receive a single subcutaneous dose of placebo on Day 1 and a single subcutaneous dose of placebo on Day 15.",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GYM329",
+                "description": "GYM329 subcutaneous injection",
+                "armGroupLabels": [
+                  "Post-immobilization active drug group",
+                  "Pre-immobilization active drug group"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo subcutaneous injection",
+                "armGroupLabels": [
+                  "Placebo group"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Thigh muscle strength score",
+                "description": "Percent change in thigh muscle strength score from Day 1 to Day 15 and Day 15 to Day 29 (Thigh muscle strength score: peak isometric knee extension torque and peak isokinetic knee extension torque at 90\u00b0/s and 180\u00b0/s)",
+                "timeFrame": "28 days"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Safety; Adverse event monitoring",
+                "description": "Incidence and severity of adverse events",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Safety; Laboratory tests",
+                "description": "Incidence of laboratory abnormalities, based on clinical laboratory tests",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Safety; Vital signs",
+                "description": "Abnormality in vital signs",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Safety; Electrocardiogram (ECG)",
+                "description": "Abnormality in Electrocardiograms (ECGs)",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics; Serum GYM329 concentrations",
+                "description": "Serum GYM329 concentrations over time",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics; Cmax",
+                "description": "Cmax of GYM329",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics; Tmax",
+                "description": "Tmax of GYM329",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics; AUC",
+                "description": "AUC of GYM329",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacokinetics; T1/2",
+                "description": "T1/2 of GYM329",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Immunogenicity",
+                "description": "Incidence of serum anti-GYM329 antibodies",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics; Muscle volume",
+                "description": "Changes in thigh muscle volume over time",
+                "timeFrame": "45 weeks"
+              },
+              {
+                "measure": "Pharmacodynamics; Total and free latent myostatin, mature myostatin",
+                "description": "Changes in total and free latent myostatin, mature myostatin over time",
+                "timeFrame": "45 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Able and willing to provide written informed consent and to comply with the study protocol\n* Healthy men aged from 18 to less than 40 years at the time of consent\n* Right leg dominant\n* Agreed to limit physical activity as directed by study site staff from the time of informed consent until the end of the muscle strength evaluation period (completion of Day 43)\n* BMI is between 18.5 and less than 25.0 at screening\n* Agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive measures, and agreement to refrain from donating sperm.\n\nExclusion Criteria:\n\n* History of congenital myopathy\n* Congenital thrombophilia\n* Previous or current VTE\n* History of hip or limb surgery, spine or spinal cord surgery, or laparotomy (excluding laparotomy for appendicitis or inguinal hernia), or laparoscopic surgery (e.g. cholecystectomy)\n* History of fracture of the pelvis or open/compound fracture of lower limb, or history of fracture within 3 years prior to screening, excluding digit fracture\n* History of severe trauma, trauma requiring surgical intervention, or trauma with organ injury which deemed as clinically significant by the investigator\n* Previous or current medical condition that could lead to thrombosis as judged by the investigator\n* Angiography within 6 months before first study treatment administration\n* Current Grade \u2265 3 thermal burn or history of Grade \u2265 3 thermal burn within 3 months prior to study treatment administration\n* Unable to wear compression stockings\n* History of heparin-induced thrombocytopenia or hypersensitivity to the LMWH and to the heparin or any other clinically significant contra-indications for use of LMWH\n* Participation in bodybuilding or full time employment in a physically demanding occupation\n* Immobilization, surgery, or traumatic injury of the arm within 90 days before first study treatment administration\n* Traumatic injury of the leg within 6 months before first study treatment administration\n* Immobilization or surgery of the leg within 6 months before first study treatment administration\n* Immobilization of the leg for 2 or more weeks within 12 months before first study treatment administration\n* Contraindication for MRI\n* Habitual excessive over- or under-eating\n* Any condition that may interfere with assessment of local pain and pruritus at the injection site",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "39 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Sponsor Chugai Pharmaceutical Co. Ltd",
+                "affiliation": "clinical-trials@chugai-pharm.co.jp",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "QPS Netherlands B.V.",
+                "city": "Groningen",
+                "zip": "9713",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 53.21917,
+                  "lon": 6.56667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Qualified researchers may request access to individual patient level data through the clinical study data request platform. For further details on Chugai's Data Sharing Policy and how to request access to related clinical study documents, see here (www.chugai-pharm.co.jp/english/profile/rd/ctds\\_request.html)."
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

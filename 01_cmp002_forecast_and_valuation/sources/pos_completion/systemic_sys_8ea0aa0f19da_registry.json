@@ -1,0 +1,1072 @@
+{
+  "integrated_id": "systemic:sys_8ea0aa0f19da",
+  "asset": "BEAM-101",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=BEAM-101",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05456880",
+            "orgStudyIdInfo": {
+              "id": "BTX-AUT-001"
+            },
+            "organization": {
+              "fullName": "Beam Therapeutics Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+            "officialTitle": "A Phase 1/2 Study Evaluating the Safety and Efficacy of a Single Dose of Autologous CD34+ Base Edited Hematopoietic Stem Cells (BEAM-101) in Patients With Sickle Cell Disease and Severe Vaso-Occlusive Crises (Beacon Trial)",
+            "acronym": "BEACON"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2022-08-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-02",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-02",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-23",
+            "studyFirstSubmitQcDate": "2022-07-11",
+            "studyFirstPostDateStruct": {
+              "date": "2022-07-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-15",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-16",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Beam Therapeutics Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label, single-arm, multicenter, Phase 1/2 study evaluating the safety and efficacy of the administration of autologous base edited CD34+ HSPCs (BEAM-101) in patients with severe SCD"
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "Gene Editing",
+              "Sickle Cell",
+              "Severe Sickle Cell"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1",
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 15,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BEAM-101",
+                "type": "EXPERIMENTAL",
+                "description": "BEAM-101 manufactured with autologous CD34+ hematopoietic stem cells collected by plerixafor mobilization and edited ex vivo. No maximum dose has been set for BEAM-101; all of the gene edited cells that pass release specifications will be administered to the patient. BEAM 101 will be administered as a single dose by IV infusion.",
+                "interventionNames": [
+                  "Biological: BEAM-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "BEAM-101",
+                "description": "Single dose of BEAM-101 administered by IV following myeloablative conditioning with busulfan",
+                "armGroupLabels": [
+                  "BEAM-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in annualized number of severe VOCs (Vascular-occlusive Crisis) relative to baseline",
+                "timeFrame": "6 months to time of analysis as compared to baseline"
+              },
+              {
+                "measure": "Proportion of patients with successful neutrophil engraftment",
+                "timeFrame": "BEAM-101 administration to month 24"
+              },
+              {
+                "measure": "Time to neutrophil engraftment",
+                "timeFrame": "BEAM-101 administration to month 24"
+              },
+              {
+                "measure": "Time to platelet engraftment",
+                "timeFrame": "BEAM-101 administration to month 24"
+              },
+              {
+                "measure": "Transplant-related mortality within 100 days after beam-101 treatment",
+                "timeFrame": "BEAM-101 administration to day 100"
+              },
+              {
+                "measure": "Safety and tolerability assessments based on frequency, severity and seriousness of adverse events (AE's)",
+                "timeFrame": "BEAM-101 administration through month 24"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of patients experiencing at least 75% reduction in annualized rate of severe VOCs",
+                "timeFrame": "Month 6 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Proportion of patients experiencing no severe VOCs",
+                "timeFrame": "6 months to time of analysis as compared to baseline"
+              },
+              {
+                "measure": "Change in annualized number of hospitalizations for VOCs",
+                "timeFrame": "Month 6 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in annualized duration of hospitalizations for VOCs",
+                "timeFrame": "Month 6 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in RBC transfusions per month and per year for SCD-related indications",
+                "timeFrame": "Month 2 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in total Hgb (g/dL) concentration over time",
+                "timeFrame": "Baseline to month 24"
+              },
+              {
+                "measure": "Proportion of patients with HbF \u226530%, for at least 3 months",
+                "timeFrame": "Month 6 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in lactate dehydrogenase (LDH) over time",
+                "timeFrame": "Month 3 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in total bilirubin over time",
+                "timeFrame": "Month 3 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in free Hgb over time",
+                "timeFrame": "Month 3 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in haptoglobin over time",
+                "timeFrame": "Month 3 post BEAM-101 treatment to month 24 as compared to baseline"
+              },
+              {
+                "measure": "Change in reticulocyte count over time",
+                "timeFrame": "Month 3 post BEAM-101 treatment to month 24 as compared to baseline"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria Include:\n\n1. Age \u226512 years to \u226435 years\n2. Documented diagnosis of sickle cell disease with \u03b2S/\u03b2S, \u03b2S/\u03b20, or \u03b2S/\u03b2+ genotypes.\n3. Severe SCD defined by the occurrence of at least 4 severe VOCs in the 24 months prior to screening despite receiving hydroxyurea or other supportive care measures\n\nKey Exclusion Criteria Include:\n\n1. HbF levels \\>20%, obtained at the time of screening on or off hydroxyurea therapy\n2. Previous receipt of an autologous or allogeneic HSCT or solid organ transplantation\n3. Available and willing matched sibling donor\n4. Definitive diagnosis of moyamoya syndrome based on screening brain MRA\n5. History of overt stroke",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Alabama at Birmingham",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35233",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "Phoenix Children's Hospital",
+                "city": "Phoenix",
+                "state": "Arizona",
+                "zip": "85016",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.44838,
+                  "lon": -112.07404
+                }
+              },
+              {
+                "facility": "Mayo Clinic Florida",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32224",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "University of Miami",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33136-1005",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Children's Healthcare of Atlanta - Aflac Cancer and Blood Disorders Center - Egleston Hospital",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30329",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02215",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Henry Ford Cancer Center",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48202",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine in St. Louis",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Hackensack University Medical Center",
+                "city": "Hackensack",
+                "state": "New Jersey",
+                "zip": "07601",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.88593,
+                  "lon": -74.04347
+                }
+              },
+              {
+                "facility": "Columbia University Irving Medical Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Memorial Sloan Kettering Cancer Center",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10065",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "University Hospitals Cleveland Medical Center",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "The Cleveland Clinic Foundation",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44195",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "St Jude Children's Research Hospital",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              },
+              {
+                "facility": "The Children's Hospital at TriStar Centennial",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "Medical College of Wisconsin",
+                "city": "Milwaukee",
+                "state": "Wisconsin",
+                "zip": "53226",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 43.0389,
+                  "lon": -87.90647
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41931046",
+                "type": "DERIVED",
+                "citation": "Gupta AO, Sharma A, Frangoul H, Kanter J, Mapara MY, Dalal J, Alavi A, Jaroscak JJ, Ayala E, DiPersio JF, Ziga ED, Eapen M, Rifkin-Zenenberg S, Minella AC, Chen Y, Chesler S, Ambati S, Bowman TS, Habtemariam B, Joseney-Antoine M, Chockalingam PS, Lin L, Goyal S, Simon A, Thompson AA, Heeney MM; BEACON Investigators. Base Editing of HBG1 and HBG2 Promoters for Sickle Cell Disease. N Engl J Med. 2026 May 7;394(18):1824-1835. doi: 10.1056/NEJMoa2504835. Epub 2026 Apr 1."
+              },
+              {
+                "pmid": "38866240",
+                "type": "DERIVED",
+                "citation": "Ligon JA, Cupit-Link MC, Yu C, Levine J, Foley T, Rotz S, Sharma A, Gomez-Lobo V, Shah NN. Pediatric Cancer Immunotherapy and Potential for Impact on Fertility: A Need for Evidence-Based Guidance. Transplant Cell Ther. 2024 Aug;30(8):737-749. doi: 10.1016/j.jtct.2024.06.006. Epub 2024 Jun 10."
+              },
+              {
+                "pmid": "36975201",
+                "type": "DERIVED",
+                "citation": "Sharma A, Young A, Carroll Y, Darji H, Li Y, Mandrell BN, Nelson MN, Owens CL, Irvine M, Caples M, Jerkins LP, Unguru Y, Hankins JS, Johnson LM. Gene therapy in sickle cell disease: Attitudes and informational needs of patients and caregivers. Pediatr Blood Cancer. 2023 Jun;70(6):e30319. doi: 10.1002/pbc.30319. Epub 2023 Mar 28."
+              },
+              {
+                "pmid": "36860093",
+                "type": "DERIVED",
+                "citation": "Persaud Y, Mandrell BN, Sharma A, Carroll Y, Irvine M, Olufadi Y, Kang G, Hijano DR, Rai P, Hankins JS, Johnson LM. Attitudes toward COVID-19 vaccine among pediatric patients with sickle cell disease and their caregivers. Pediatr Blood Cancer. 2023 May;70(5):e30274. doi: 10.1002/pbc.30274. Epub 2023 Mar 1."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07373639",
+            "orgStudyIdInfo": {
+              "id": "BTX-101-002"
+            },
+            "organization": {
+              "fullName": "Beam Therapeutics Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Long-term Follow-up Study in Patients Who Received BEAM-101",
+            "officialTitle": "A Long-term Follow-up Study in Patients With Hemoglobinopathy Who Received Autologous CD34+ Edited Hematopoietic Stem Cells"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-12-15",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2043-02-12",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2043-02-12",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-01-06",
+            "studyFirstSubmitQcDate": "2026-01-23",
+            "studyFirstPostDateStruct": {
+              "date": "2026-01-28",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Beam Therapeutics Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Long-term Follow-up (LTFU) study in patients who received BEAM-101 in the parent study (Study BTX-AUT-001). Eligible patients who received BEAM-101 will be asked to participate in this LTFU study prior to completing Study BTX-AUT-001. Patients who enter into this study will be followed for 13 years (a total of 15 years after receiving BEAM-101).",
+            "detailedDescription": "Patients who were treated with BEAM-101 in Study BTX-AUT-001 will be asked to sign an informed consent form (ICF) to enter this LTFU study (during the EOS/Month 24 visit for BTX-AUT-001). Patients in this study will have periodic safety and efficacy assessments per the schedule of assessments (SoA). Visits will occur annually through Year 5 following BEAM-101 administration and then every 3 years through Year 11, with a final visit at Year 15. Virtual/phone call check-in visits will occur every 6 months through Year 5 and then annually thereafter."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hemoglobinopathy",
+              "Sickle Cell Disease"
+            ]
+          },
+          "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+              "observationalModel": "CASE_ONLY",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 50,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "BTX-101-002 Long-term Follow-up on Patients who received BEAM-101",
+                "description": "All participants who received BEAM-101 in the BTX-AUT-001 trial will be asked to participate in this long-term follow-up study",
+                "interventionNames": [
+                  "Drug: Long-Term Follow-up Study of patients who received BEAM-101"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Long-Term Follow-up Study of patients who received BEAM-101",
+                "description": "This is a Long-Term Follow-up Study of patients who received a single dose of BEAM-101 administered by IV following myeloablative conditioning with busulfan",
+                "armGroupLabels": [
+                  "BTX-101-002 Long-term Follow-up on Patients who received BEAM-101"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Long-Term Safety Monitoring and Mortality Assessment",
+                "description": "Monitor all BEAM-101-related AEs and SAEs through Year 15 post-IMP administration, all SAEs regardless of relatedness through Year 5, new malignancies, new or worsening bone marrow-related hematologic disorders, and all-cause mortality.",
+                "timeFrame": "Up to 13 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Proportion of patients without severe VOCs overtime",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Duration of being severe VOC-free",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Frequency of RBC transfusions over time",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Proportion (%) of patients requiring treatment for SCD related complications",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Total Hemoglobin (Hb) Concentration (g/dL) over time",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Total Fetal Hemoglobin (HbF) Concentration (%) over time",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Total Sickle Hemoglobin (HbS) Concentration (%)",
+                "timeFrame": "Through year 15"
+              },
+              {
+                "measure": "Change from baseline in indirect bilirubin (mg/dL) overtime",
+                "timeFrame": "Up to year 5"
+              },
+              {
+                "measure": "Change from baseline in haptoglobin (mg/dL) over time",
+                "timeFrame": "Up to year 5"
+              },
+              {
+                "measure": "Change from baseline in reticulocyte (%) count over time",
+                "timeFrame": "Up to year 5"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Have received BEAM-101 in Study BTX-AUT-001 and are in the process of completing that study's end-of-study (EOS) visit.\n2. Provide signed, written informed consent according to local institutional review board (IRB)/independent ethics committee (IEC) and institutional requirements.\n\nExclusion Criteria:\n\n* There are no exclusion criteria for this study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "14 Years",
+            "maximumAge": "37 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ],
+            "studyPopulation": "The study population consists of participants enrolled at sites from the parent study (BTX-AUT-001) who meet the criteria for long-term follow-up",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Medical Information",
+                "role": "CONTACT",
+                "phone": "+1 857-327-8641",
+                "email": "clinicalinfo@beamtx.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Alabama at Birmingham",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Birmingham",
+                "state": "Alabama",
+                "zip": "35233",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                }
+              },
+              {
+                "facility": "Phoenix Children's Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Phoenix",
+                "state": "Arizona",
+                "zip": "85016",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.44838,
+                  "lon": -112.07404
+                }
+              },
+              {
+                "facility": "Mayo Clinic Florida",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32224",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Children's Healthcare of Atlanta - Aflac Cancer and Blood Disorders Center- Egleston",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30329",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Boston Children's Hospital",
+                "status": "RECRUITING",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02215",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Henry Ford Cancer Center",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Detroit",
+                "state": "Michigan",
+                "zip": "48202",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 42.33143,
+                  "lon": -83.04575
+                }
+              },
+              {
+                "facility": "University of Minnesota",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Minneapolis",
+                "state": "Minnesota",
+                "zip": "55455",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine in St. Louis",
+                "status": "NOT_YET_RECRUITING",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Hackensack University Medical Center",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Hackensack",
+                "state": "New Jersey",
+                "zip": "07601",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.88593,
+                  "lon": -74.04347
+                }
+              },
+              {
+                "facility": "Columbia University Irving Medical Center",
+                "status": "NOT_YET_RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10032",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "University Hospitals Clevland Medical Center",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44106",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "The Clevland Clinic Foundation",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Cleveland",
+                "state": "Ohio",
+                "zip": "44195",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                }
+              },
+              {
+                "facility": "Children's Hospital of Philadelphia",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Philadelphia",
+                "state": "Pennsylvania",
+                "zip": "19104",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                }
+              },
+              {
+                "facility": "Medical University of South Carolina",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Charleston",
+                "state": "South Carolina",
+                "zip": "29425",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 32.77632,
+                  "lon": -79.93275
+                }
+              },
+              {
+                "facility": "St. Jude Children's Research Hospital",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38105",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              },
+              {
+                "facility": "The Children's Hospital at TriStar Centennial",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "Medical College of Wisconsin",
+                "status": "NOT_YET_RECRUITING",
+                "city": "Milwaukee",
+                "state": "Wisconsin",
+                "zip": "53226",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "8573278641",
+                    "email": "clinicalinfo@beamtx.com"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 43.0389,
+                  "lon": -87.90647
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

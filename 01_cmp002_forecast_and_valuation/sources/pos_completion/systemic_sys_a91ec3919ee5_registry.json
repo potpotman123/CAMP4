@@ -1,0 +1,1564 @@
+{
+  "integrated_id": "systemic:sys_a91ec3919ee5",
+  "asset": "FTX6058",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=FTX-6058+OR+pociredir",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07431398",
+            "orgStudyIdInfo": {
+              "id": "6058-CLP-104"
+            },
+            "organization": {
+              "fullName": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Single-dose Pharmacokinetics of Pociredir in Participants With Sickle Cell Disease",
+            "officialTitle": "A Phase 1, Open-Label Study to Assess Pharmacokinetics After Single Doses of Pociredir in Participants With Sickle Cell Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-06",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Sponsor decision",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-12-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-06-01",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-06-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-02-18",
+            "studyFirstSubmitQcDate": "2026-02-18",
+            "studyFirstPostDateStruct": {
+              "date": "2026-02-24",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-06-16",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-06-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This clinical trial is a study to evaluate the pharmacokinetics of the tablet formulation Pociredir in fasted and fed state participants with Sickle Cell Disease (SCD).",
+            "detailedDescription": "The study is designed to assess the pharmacokinetics of the tablet formulation of pociredir under fasted conditions in up to approximately 12 study participants with SCD (Fasted Cohort). An additional cohort of up to approximately 12 study participants with SCD may be enrolled to evaluate the potential effect of food on the PK of the tablet formulation (Fed Cohort). The fasted cohort will be conducted first.\n\nThe study will include screening period: Day -28 to Day -2; In-patient confinement period: Days -1 to 3; check-in on day -1; single dose of pociredir on day 1; discharge on Day 3; outpatient visit: Day 4; end of study (EOS) visit: Days 8-11\n\nEligible participants who meet all inclusion and none of the exclusion criteria will be admitted to the clinical site on Day -1, the day before dosing. Participants may be discharged on Day 3 following completion of 48-hour PK sampling or may remain in-clinic through Day 4 if needed. Fasted Cohort: Participants will fast for at least 10 hours prior to dosing and remain fasted for 4 hours post-dose. Water intake will be restricted for 1 hour before and after administration of the investigational medicinal product (IMP). Fed Cohort (if conducted): Participants will fast for at least 10 hours prior to breakfast and will receive a standard high-fat breakfast starting 30 minutes before dosing.\n\nPharmacokinetic samples will be collected up to 72 hours post-dose. Participants are required to remain in-clinic for the first 48 hours post-dose and may return to the site for subsequent Outpatient and EOS visits."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "Sickle Cell Disease",
+              "Hemoglobin subunit beta",
+              "fetal hemoglobin",
+              "Pharmacokinetics",
+              "Pociredir",
+              "FTX-6058",
+              "Tablet Pharmacokinetics Study",
+              "Anemia, Sickle Cell",
+              "Hematologic diseases",
+              "Small Molecule"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 13,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Fasted Cohort",
+                "type": "EXPERIMENTAL",
+                "description": "Pociredir single dose tablet formulation under fasted conditions.",
+                "interventionNames": [
+                  "Drug: Pociredir"
+                ]
+              },
+              {
+                "label": "Fed Cohort",
+                "type": "EXPERIMENTAL",
+                "description": "Pociredir single dose tablet formulation under fed conditions (after a high-fat breakfast).",
+                "interventionNames": [
+                  "Drug: Pociredir"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Pociredir",
+                "description": "Pociredir tablet formulation",
+                "armGroupLabels": [
+                  "Fasted Cohort",
+                  "Fed Cohort"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Plasma concentration of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Maximum plasma concentration (Cmax) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time 0 to 24 hours (AUC(0-24)) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time 0 to the last measurable concentration (AUC(0-tlast)) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time 0, extrapolated to infinity (AUC(0-inf)), of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Time to maximum plasma concentration (Tmax) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Terminal disposition rate constant (\u03bbz) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Terminal half-life (t1/2) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Apparent volume of distribution during the terminal phase (Vz/F) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Apparent clearance (CL/F) of pociredir under fasted and fed conditions",
+                "timeFrame": "Day 1 through Day 4"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of participants with treatment emergent adverse events (TEAEs) under fasted and fed conditions",
+                "timeFrame": "Up to Day 11"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in safety assessments under fasted and fed conditions",
+                "timeFrame": "Up to Day 11"
+              },
+              {
+                "measure": "Number of participants with clinically significant findings in clinical laboratory evaluations, vital signs, electrocardiogram (ECGs) and physical examination",
+                "timeFrame": "Up to Day 11"
+              },
+              {
+                "measure": "Plasma concentration of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Cmax of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "AUC(0-24) of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "AUC(0-tlast) of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "AUC(0-inf), under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Tmax of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "\u03bbz of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "t1/2 of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "Vz/F of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              },
+              {
+                "measure": "CL/F of pociredir under fasted and fed conditions compared to healthy participants",
+                "timeFrame": "Day 1 through Day 4"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Documented SCD at the time of screening, as confirmed through review of medical records or high-performance liquid chromatography (HPLC)/electrophoresis.\n* Participant, who if female and of childbearing potential, agrees to use 2 effective methods of contraception, one which must be highly effective, or practice abstinence starting at the time of the ICF signing to 90 days after the last dose of study drug, and, who if male, agrees to use condoms or practice abstinence from the time of ICF signing to 90 days after the last dose of study drug.\n* Total Hb \u2265 5.5 grams/deciliter (g/dL) and \u2264 12 g/dL (males) or \u2264 10.6 g/dL (females) at screening\n* Participant must meet all of the following laboratory values at screening:\n\n  1. Absolute neutrophil count \u2265 1.5 \u00d7 10\\^9/L (cells/liter)\n  2. Platelets \u2265 80 \u00d7 10\\^9/L\n  3. Absolute reticulocyte count \\> 100 \u00d7 10\\^9/L\n* Participants who meet all other inclusion and exclusion criteria for this study, and per Investigator's recommendation may continue crizanlizumab, and/or L-glutamine, must be on a stable dose for at least 6 months\n\nExclusion Criteria:\n\n* Participant has had any of the following in the 14 days prior to dosing: major surgery, serious illness, infection (clinically significant bacterial, fungal, parasitic or viral infection which requires therapy), fever not resolved within 3 days and requiring treatment, or sickle cell complication requiring care from a medical provider in a hospital or emergency care setting.\n* Participant has a serious medical condition other than SCD that, in the opinion of the Investigator, would preclude them from participating in the study, or which is unresolved or requiring ongoing treatment.\n* Elective surgery planned for the time period of the study.\n* Use of any medications that induce or inhibit cytochrome P450 (CYP) 3A4, inhibit P-glycoprotein, breast cancer resistance protein, or multidrug and toxin extrusion protein 2-K, or are substrates of CYP2B6 within 14 days prior to first dose of study drug or anticipated need for any of these medications during the study.\n* Participation in any other study with an investigational agent within the past 30 days or 5 half-lives, whichever is longer, prior to the first dose of study drug.\n* For Fed Cohort Only: Participant has special dietary restrictions or inability to consume standard meals as required in the study.\n\nNote: Other protocol specified criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "Advanced Pharma - Miami",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33147",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              },
+              {
+                "facility": "Omega Research Group",
+                "city": "Orlando",
+                "state": "Florida",
+                "zip": "32808",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 28.53834,
+                  "lon": -81.37924
+                }
+              },
+              {
+                "facility": "Sonar Clinical Research",
+                "city": "Riverdale",
+                "state": "Georgia",
+                "zip": "30274",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.57261,
+                  "lon": -84.41326
+                }
+              },
+              {
+                "facility": "Neuro-Behavioral Clinical Research",
+                "city": "North Canton",
+                "state": "Ohio",
+                "zip": "44720",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.87589,
+                  "lon": -81.40234
+                }
+              },
+              {
+                "facility": "University of Texas Health Science Center Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Worldwide Clinical Trials",
+                "city": "San Antonio",
+                "state": "Texas",
+                "zip": "78217",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04586985",
+            "orgStudyIdInfo": {
+              "id": "FIS-002-2020"
+            },
+            "organization": {
+              "fullName": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability and Pharmacokinetics of FTX-6058",
+            "officialTitle": "A Phase 1 Randomized, Double-Blind, Placebo-Controlled, Single-and Multiple-Dose Study Evaluating Safety, Tolerability, and Pharmacokinetics, With an Open-Label Initial Food Effect and CYP3A Drug-Drug Interaction Study, of FTX-6058 in Healthy Adult Subjects, and a Randomized, Double-Blind, Placebo-Controlled Multiple-Dose Study Evaluating, Safety, Tolerability and Pharmacokinetics in Subjects With Sickle Cell Disease (SCD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2022-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2020-10-26",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2022-11-15",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2022-11-15",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-10-05",
+            "studyFirstSubmitQcDate": "2020-10-09",
+            "studyFirstPostDateStruct": {
+              "date": "2020-10-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-12-09",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-12-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study to evaluate the safety, tolerability and pharmacokinetics of FTX-6058 in healthy adult subjects and adult subjects with sickle cell disease (SCD).",
+            "detailedDescription": "This study is a Phase 1 randomized, double-blind, placebo-controlled, single- and multiple-dose study evaluating safety, tolerability, and pharmacokinetics, with an open-label initial food effect and CYP3A drug-drug interaction study, of FTX-6058 in healthy adult subjects and a randomized, double-blind, placebo-controlled, multiple-dose study in adult subjects with sickle cell disease (SCD).\n\nThis study will comprise 5 parts and will be conducted in healthy adult subjects and adult subjects with sickle cell disease (SCD) (Part E only).\n\nPart A will be a randomized, double-blind, placebo-controlled, single ascending dose (SAD) study in up to 8 cohorts of healthy adult subjects. Part B will be a randomized, double-blind, placebo-controlled, multiple ascending dose (MAD) study in up to 6 cohorts of healthy adult subjects dosed once daily for 14 days. Part C will be an open-label pilot food effect study in healthy adult subjects randomized to take FTX-6058 with and without a high-fat meal, and Part D will be an open-label study to evaluate the potential of FTX-6058 to induce CYP3A (using midazolam) in healthy adult subjects. Part E will be a randomized, double-blind, placebo-controlled, multiple dose study in adult subjects with sickle cell disease (SCD). Subjects in Part E may enroll into Study 6058-SCD-101 (NCT 05169580) Part A (6 mg cohort) at the Day 15 visit; subjects that enroll into 6058-SCD-101 will not need to undergo the Safety Follow-up visit.\n\nThe primary endpoint of the study is to evaluate the safety and tolerability of FTX-6058 in healthy adult subjects and adult subjects with sickle cell disease as measured by the frequency of adverse events. Secondary endpoints include evaluation of the pharmacokinetics of single dose and multiple dose FTX-6058 in healthy adult subjects, pharmacokinetics of multiple dose FTX-6058 in adult subjects with sickle cell disease, evaluation of the potential effect of food on FTX-6058 and evaluation of the potential for CYP3A induction by FTX-6058 in healthy adult subjects."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy Adult Subjects",
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "Healthy Adult Subjects",
+              "Sickle Cell Disease",
+              "Sickle Cell Anemia",
+              "Sickle Cell Disorder"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Single ascending dose escalation and multiple ascending dose escalation study followed by an evaluation of food effects on absorption and CYP3A induction",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Randomized double-blind, placebo-controlled",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 109,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Single Ascending Dose (SAD) cohorts in Healthy Subjects (Part A)",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will be randomized to receive a single dose of FTX-6058 or placebo. Cohorts 1 and 2 will enroll 5 subjects per cohort randomized 3:2. Cohorts 3-8 will enroll 7 subjects per cohort randomized 5:2. Planned doses are 2 mg (Cohort 1), 4 mg (Cohort 2), 10 mg (Cohort 3), 20 mg (Cohort 4), 30 mg (Cohort 5), 40 mg (Cohort 6), 60 mg (Cohort 7), and 90 mg (Cohort 8).",
+                "interventionNames": [
+                  "Drug: FTX-6058/placebo oral capsule(s)"
+                ]
+              },
+              {
+                "label": "Multiple Ascending Dose (MAD) cohorts in Healthy Subjects (Part B)",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will be randomized 3:1 to receive once daily FTX-6058 or placebo by mouth for 14 days. Up to 6 cohorts of 8 subjects per cohort will be enrolled. Planned doses are 2 mg (Cohort 1), 6 mg (Cohort 2), 10 mg (Cohort 3), 20 mg (Cohort 4), 30 mg (Cohort 5), and 40 mg (Cohort 6).",
+                "interventionNames": [
+                  "Drug: FTX-6058/placebo oral capsule(s)"
+                ]
+              },
+              {
+                "label": "Pilot Food Effect Cohort in Healthy Subjects (Part C)",
+                "type": "EXPERIMENTAL",
+                "description": "Ten subjects will be randomized to receive a single 20 mg dose of FTX-6058 with and without a high-fat meal with a washout period of 4 days.",
+                "interventionNames": [
+                  "Drug: FTX-6058 - Two Dosing Periods"
+                ]
+              },
+              {
+                "label": "Potential for CYP3A Induction in Healthy Subjects (Part D)",
+                "type": "EXPERIMENTAL",
+                "description": "Sixteen subjects will receive 3 mg Midazolam once by mouth on Day 1. On Days 3-12, subjects will receive FTX-6058 by mouth once daily. On Day 12, a second dose of 3 mg Midazolam will be given once by mouth. The dose of FTX-6058 will be the highest tolerated dose from Part B.",
+                "interventionNames": [
+                  "Drug: FTX-6058 / Midazolam Syrup"
+                ]
+              },
+              {
+                "label": "Multiple Dose Cohort in Sickle Cell Disease Subjects (Part E)",
+                "type": "EXPERIMENTAL",
+                "description": "Subjects will be randomized 3:1 to receive FTX-6058 or placebo once daily by mouth for 14 days. Up to 8 subjects will be enrolled. The planned dose is 6mg.",
+                "interventionNames": [
+                  "Drug: FTX-6058/placebo oral capsule(s)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "FTX-6058/placebo oral capsule(s)",
+                "description": "Subjects will receive FTX-6058 or matching placebo.",
+                "armGroupLabels": [
+                  "Single Ascending Dose (SAD) cohorts in Healthy Subjects (Part A)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "FTX-6058/placebo oral capsule(s)",
+                "description": "Subjects will receive FTX-6058 or matching placebo.",
+                "armGroupLabels": [
+                  "Multiple Ascending Dose (MAD) cohorts in Healthy Subjects (Part B)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "FTX-6058 - Two Dosing Periods",
+                "description": "Subjects will receive FTX-6058",
+                "armGroupLabels": [
+                  "Pilot Food Effect Cohort in Healthy Subjects (Part C)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "FTX-6058 / Midazolam Syrup",
+                "description": "Subjects will receive FTX-6058 and midazolam syrup",
+                "armGroupLabels": [
+                  "Potential for CYP3A Induction in Healthy Subjects (Part D)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "FTX-6058/placebo oral capsule(s)",
+                "description": "Subjects will receive FTX-6058 or matching placebo.",
+                "armGroupLabels": [
+                  "Multiple Dose Cohort in Sickle Cell Disease Subjects (Part E)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Treatment-Emergent Adverse Events",
+                "description": "To evaluate the safety and tolerability of FTX-6058 in healthy adult subjects and adult subjects with sickle cell disease based on the frequency of adverse events (AEs), frequency of serious adverse events (SAEs), and clinically significant laboratory test results, electrocardiograms (ECGs), and vital signs.",
+                "timeFrame": "Up to approximately 4 weeks of monitoring"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Plasma Concentrations of FTX-6058",
+                "description": "Blood samples will be collected to measure the plasma concentration of FTX-6058 at specified timepoints by liquid chromatography with tandem mass spectrometry.",
+                "timeFrame": "Study Part A: Days 1, 2, 3 and 4"
+              },
+              {
+                "measure": "Plasma Concentrations of FTX-6058",
+                "description": "Blood samples will be collected to measure the plasma concentration of FTX-6058 at specified timepoints by liquid chromatography with tandem mass spectrometry",
+                "timeFrame": "Study Part B: Days 1, 2, 7, 8-10, 11-14 and 15"
+              },
+              {
+                "measure": "Plasma Concentrations of FTX-6058",
+                "description": "Blood samples will be collected to measure the plasma concentration of FTX-6058 at specified timepoints by liquid chromatography with tandem mass spectrometry.",
+                "timeFrame": "Study Part C: Days 1-4"
+              },
+              {
+                "measure": "Plasma Concentrations of Midazolam",
+                "description": "Blood samples will be collected to measure the plasma concentration of Midazolam at specified timepoints by liquid chromatography with tandem mass spectrometry",
+                "timeFrame": "Study Part D: Days 1, 2, 12 and 13"
+              },
+              {
+                "measure": "Plasma Concentrations of for 1-OH-Midazolam",
+                "description": "Blood samples will be collected to measure the plasma concentration of 1-OH-Midazolam at specified timepoints by liquid chromatography with tandem mass spectrometry.",
+                "timeFrame": "Study Part D: Days 1, 2, 12 and 13"
+              },
+              {
+                "measure": "Plasma Concentrations of FTX-6058",
+                "description": "Blood samples will be collected to measure the plasma concentration of FTX-6058 at specified timepoints by liquid chromatography with tandem mass spectrometry.",
+                "timeFrame": "Study Part E: Days 1, 7 and 14"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Predictive Model of the Relationship between FTX-6058 Concentration and QTc Intervals",
+                "description": "A model of the relationship between time-match FTX-6058 plasma concentrations and QTc intervals may be developed and will include simulations to predict potential QT risk.",
+                "timeFrame": "Study Part A: Days 1 and 2"
+              },
+              {
+                "measure": "Predictive Model of the Relationship between FTX-6058 Concentration and QTc Intervals",
+                "description": "A model of the relationship between time-match FTX-6058 plasma concentrations and QTc intervals may be developed and will include simulations to predict potential QT risk.",
+                "timeFrame": "Study Part B: Days 1, 2, and 7-15"
+              },
+              {
+                "measure": "Target Engagement of FTX-6058",
+                "description": "Change from baseline in H3K27me3/Total Histone H3 ratio in circulating monocytes will be evaluated by fluorescence-activated cell sorting (FACS).",
+                "timeFrame": "Study Part B: Days -1, 7, 11-14 and 7-10 days after last dose of study drug"
+              },
+              {
+                "measure": "Target Engagement of FTX-6058",
+                "description": "Change from baseline in H3K27me3/Total Histone H3 ratio in circulating monocytes will be evaluated by fluorescence- activated cell sorting (FACS).",
+                "timeFrame": "Study Part E : Days -1, 7,14 and and 7-10 days after last dose of study drug"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria: Healthy Subjects\n\n1. Healthy male / female subjects, 18 to 55 years of age, inclusive at screening.\n2. Good health, based upon the opinion of the investigator and the results of medical history, physical examination, vital signs, ECG, and laboratory profiles of both blood and urine at screening.\n3. Body mass index (BMI) between 18 and 32 kg/m\u00b2, inclusive at screening, and with a minimum weight of 50 kg.\n4. Willingness of men and women of reproductive potential to agree to use two effective means of contraception throughout study participation until 90 days after dose administration.\n5. Signed and dated written informed consent.\n6. Willing and able to comply with all study procedures.\n7. Females with hematocrit \\>35% and \\<45% or hemoglobin \\>11.7/dL and \\<15.5/dL and males with hematocrit \\>38.5% and \\<50% or hemoglobin \\>13.2/dL and \\<17.1/dL.\n\nExclusion Criteria: Healthy Subjects\n\n1. History of any illness or any clinical condition that, in the opinion of the investigator/sub-investigator, might confound the results of the study or pose an additional risk in administering study drug to the subject. This may include, but is not limited to, history or presence of gastrointestinal conditions including Crohn's disease, ulcerative colitis, frequent episodes of diarrhea, or irritable bowel syndrome; history of relevant drug or food allergies; history of cardiovascular or central nervous system disease; history or presence of clinically significant pathology; clinically significant history of mental disease; concurrent active malignancy; and history of cancer, except for squamous cell skin cancer, basal cell skin cancer, and Stage 0 cervical carcinoma in situ (all 3 with no recurrence for the last 5 years).\n2. History of febrile illness within 1 week prior to the baseline visit.\n3. Acute or chronic history of liver disease or current alanine aminotransferase \u2265 2 \u00d7 ULN or total bilirubin \\>1.5 \u00d7 ULN at screening (Note: Subjects with Gilbert's syndrome are permitted to enroll in the trial).\n4. Known renal impairment (defined as glomerular filtration rate of \\<60 mL/min/1.73 m\u00b2).\n5. Positive screen for hepatitis B surface antigen (HBsAg), hepatitis C virus (HCV) antibody, or antibodies against human immunodeficiency viruses 1 and 2 (HIV1/HIV2 Abs) at screening.\n6. Any condition possibly affecting drug absorption (e.g., gastrectomy, cholecystectomy, or other gastrointestinal tract surgery, except appendectomy).\n7. Standard 12 lead ECG demonstrating QTcF \\>450 msec for male subjects and QTcF \\>470 msec for female subjects at screening. If QTcF exceeds 450 msec for males or 470 msec for females, the ECG will be repeated 2 more times, and the average of the 3 QTcF values will be used to determine the subject's eligibility.\n8. History of cardiac dysrhythmias requiring anti-arrhythmia treatment(s) or history or evidence of abnormal ECGs that, in the opinion of the investigator or medical monitor, would preclude the subject's participation in the study.\n9. Blood or blood product (e.g., plasma/serum) donation (of approximately 1 pint \\[500 mL\\] or more) or any significant loss of blood within 8 weeks prior to screening or intention to donate blood or blood products during the study as determined by the investigator.\n10. History of abuse of addictive substances such as drug abuse, or regular user of sedatives, hypnotics, tranquilizers, or any other addictive agent within 6 months prior to screening.\n11. History of regular alcohol consumption within 6 months prior to screening defined as: (a) An average weekly intake of greater than 21 units. One unit is equivalent to a 285 mL glass of full-strength beer or 425 mL of light beer or 1 (30 mL) measure of spirits or 1 glass (100 mL) of wine.\n12. History of demonstrating an excess in xanthine or caffeine consumption (more than 8 cups of coffee or equivalent per day).\n13. Use of another investigational product within 30 days or 5 half-lives (whichever is longer), or according to local regulations, or currently participating in a prospective study with an investigational product or medical device.\n14. Use of any medication (prescription or over-the-counter \\[OTC\\]) within 14 days of study drug administration, or use of herbal supplements, dietary supplements or multivitamins within 7 days of study drug administration or less than 5 half-lives (whichever is longer), with the exception of paracetamol (up to 3 g/day). Other exceptions will only be made if the rationale is clearly documented by the investigator (a) Note: Any vaccination, including COVID-19 vaccine, cannot be administered within 14 days prior to initial dose of study drug until the end of study participation.\n15. History of sensitivity to the study drug or placebo, or a history of drug or other allergy that, in the opinion of the investigator or medical monitor, contraindicates their participation.\n16. Female subject who is pregnant, trying to become pregnant, or is breastfeeding or male subject whose partner is pregnant, trying to become pregnant, or is breastfeeding.\n17. Subject is mentally or legally incapacitated.\n18. Abnormal laboratory results indicative of any significant medical disease that, in the opinion of the investigator, would preclude the subject's participation in the study at screening or prior to first dose.\n19. Subject, or close relative of the subject, is the investigator or a sub-investigator, research assistant, pharmacist, study coordinator, or other staff directly involved with the conduct of the study at that site.\n20. Positive test for drugs of abuse at screening or baseline.\n21. Positive test for COVID-19 prior to admission to the study site, as required per local regulations.\n22. Subject smokes cigarettes (or equivalent) and/or has used nicotine-based products within 3 months prior to screening. (a) Note: Cotinine test is not required per protocol but may be performed at the discretion of the Investigator to confirm non-smoker status.\n23. Consumption of any alcohol within the 48-hour period prior to study drug administration.\n24. Plans for hospitalization, surgery, or other major procedures during the study duration or between screening and baseline.\n25. Part D Only: Any contraindication to the use of midazolam.\n\nInclusion Criteria: Sickle Cell Disease Subjects\n\n1. Subject is 18 to 55 years of age at the time informed consent is obtained. Subject has provided consent before any study-specific procedures are performed and is willing and able to comply with the study procedures and restrictions.\n2. Body mass index (BMI) between 18 and 32 kg/m\u00b2, inclusive at screening, and with a minimum weight of 50 kg\n3. Willingness of men and women of reproductive potential must agree to use 2 effective means of contraception throughout study participation until 90 days after dose administration.\n4. Signed and dated written informed consent.\n5. Confirmed Sickle Cell Disease (SCD) at the time of screening (SS and S/\u03b2\u2070) by high performance liquid chromatography (HPLC).\n6. HbF \u226420% of total hemoglobin (Hb) at screening by HPLC\n7. SCD characterized by both of the following: (a) Total hemoglobin between 5.5 and 10.5 g/dL at screening; (b) 0-6 vaso-occlusive crisis (VOC) episodes over the 12 months prior to screening (VOC is defined as pain crises (defined as an acute onset of pain for which there is no other medically determined explanation other than vaso- occlusion and which requires therapy with oral or parenteral opioids or parenteral NSAIDs) as well as other complicated crises, such as acute chest syndrome (ACS), priapism, and hepatic or splenic sequestration.).\n8. Subject must meet both of the following laboratory values at screening: (a) Absolute neutrophil count \u22651.5/ \u00d7 10\u2079/L; (b) Platelets \u226580 \u00d7 10\u2079/L\n9. Absolute reticulocyte count at screening higher than 100 \u00d7 10\u2079/L\n\nExclusion Criteria: Sickle Cell Disease Subjects\n\n1. Major surgery, hospitalization, infection, significant bleeding, cerebrovascular accident or seizure, or transfusion within 14 days prior to study enrollment through conclusion of study follow-up period; elective surgery planned for the time period of the trial.\n2. Sickle cell complication requiring hospitalization in the past 14 days or \\> 6 total VOCs over the past 12 months requiring hospitalization.\n3. Use of opioids and/or opiates (unless used for chronic pain management), anticoagulants, or medications that induce or inhibit CYP3A4 within 14 days prior to starting study drug or anticipated need for any of these agents during the study. (Pain meds for chronic pain management or VOC events occurring during the study may be administered at the discretion of the investigator.)\n4. Use of voxelotor or hydroxyurea within 60 days prior to starting study drug.\n5. Participation in any other investigative treatment studies within the past 60 days.\n6. History of bone marrow transplant or human stem cell transplant or gene therapies.\n7. Vaccination (including against COVID-19) in the previous 14 days.\n8. Positive test for COVID-19 prior to admission to the study site, as required per local regulations.\n9. Significant abnormalities in hepatic biochemical tests that, in the opinion of the investigator, are outside the typical range seen with SCD. Potential subjects are to be excluded if alanine aminotransferase (ALT) or aspartate transaminase (AST) \u22653\u00d7 ULN or albumin \\<2.0 mg/dL or direct (conjugated) bilirubin \u22651.5 mg/dL or prothrombin time/international normalized ratio \\> 1.5 ULN.\n10. Subjects with end stage renal disease defined as glomerular filtration rate \\<10 mL/min/1.73m\u00b2, using Schwartz formula or serum creatinine \\>1.2 mg/dL and calculated creatinine clearance \\<30 mL/min. Subjects on dialysis are excluded.\n11. Subjects with abnormal laboratory results indicative of any significant medical disease that, in the opinion of the investigator, would preclude the subject's participation in the study or potentially obscure the interpretation of the scheduled assessments. Screening laboratory assessments may be repeated up to twice at the discretion of the investigator.\n12. Subjects being treated with antiretroviral agents (such as didanosine and stavudine).\n13. Infection with human immunodeficiency virus (HIV), hepatitis B, or hepatitis C such that subjects are currently on therapy or will be placed on therapy during the trial\n14. Subjects receiving regularly scheduled transfusions to reduce levels of HbS.\n15. Clinically diagnosed substance use disorder for alcohol or other illicit drugs of abuse. Positive urine drug screen at screening or on day of admission for substances other than marijuana or prescribed opioids/opiates for chronic pain management is exclusionary.\n16. Pregnant or lactating female; or female of childbearing age unable or unwilling to comply with birth control or abstinence during the course of the study.\n17. Febrile illness in the 7 days prior to baseline visit.\n18. Subject is investigative site personnel or member of their immediate family (spouse, parent, child or sibling whether biological or legally adopted).\n19. Heart rate corrected QT interval-Frederica's method (QTcF) \\>450 msec male and \\>470 msec female.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "John Ziegler, MD, FASA",
+                "affiliation": "Fulcrum Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Atlanta Center for Medical Research - Sickle Cell Subjects Only",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30331",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "Altasciences Clinical Kansas, Inc. - Healthy Adults Subjects Only",
+                "city": "Overland Park",
+                "state": "Kansas",
+                "zip": "66212",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.98223,
+                  "lon": -94.67079
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "22017641",
+                "type": "BACKGROUND",
+                "citation": "Ngo DA, Aygun B, Akinsheye I, Hankins JS, Bhan I, Luo HY, Steinberg MH, Chui DH. Fetal haemoglobin levels and haematological characteristics of compound heterozygotes for haemoglobin S and deletional hereditary persistence of fetal haemoglobin. Br J Haematol. 2012 Jan;156(2):259-64. doi: 10.1111/j.1365-2141.2011.08916.x. Epub 2011 Oct 24."
+              },
+              {
+                "pmid": "28423290",
+                "type": "BACKGROUND",
+                "citation": "Piel FB, Steinberg MH, Rees DC. Sickle Cell Disease. N Engl J Med. 2017 Apr 20;376(16):1561-1573. doi: 10.1056/NEJMra1510865. No abstract available."
+              },
+              {
+                "pmid": "23209159",
+                "type": "BACKGROUND",
+                "citation": "Sankaran VG, Orkin SH. The switch from fetal to adult hemoglobin. Cold Spring Harb Perspect Med. 2013 Jan 1;3(1):a011643. doi: 10.1101/cshperspect.a011643."
+              },
+              {
+                "pmid": "24361300",
+                "type": "BACKGROUND",
+                "citation": "Saraf SL, Molokie RE, Nouraie M, Sable CA, Luchtman-Jones L, Ensing GJ, Campbell AD, Rana SR, Niu XM, Machado RF, Gladwin MT, Gordeuk VR. Differences in the clinical and genotypic presentation of sickle cell disease around the world. Paediatr Respir Rev. 2014 Mar;15(1):4-12. doi: 10.1016/j.prrv.2013.11.003. Epub 2013 Nov 15."
+              },
+              {
+                "pmid": "24222332",
+                "type": "BACKGROUND",
+                "citation": "Steinberg MH, Chui DH, Dover GJ, Sebastiani P, Alsultan A. Fetal hemoglobin in sickle cell anemia: a glass half full? Blood. 2014 Jan 23;123(4):481-5. doi: 10.1182/blood-2013-09-528067. Epub 2013 Nov 12."
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05169580",
+            "orgStudyIdInfo": {
+              "id": "6058-SCD-101"
+            },
+            "organization": {
+              "fullName": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Pociredir",
+            "officialTitle": "A Phase 1 Open-Label, Multiple-Dose Study to Evaluate Safety and Tolerability, Pharmacokinetics and Pharmacodynamics of FTX-6058 in Subjects With Sickle Cell Disease (SCD)"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-12-13",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-01-20",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-01-20",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-12-14",
+            "studyFirstSubmitQcDate": "2021-12-23",
+            "studyFirstPostDateStruct": {
+              "date": "2021-12-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-11",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a study to evaluate the safety, tolerability, pharmacokinetics and pharmacodynamics of Pociredir in participants with sickle cell disease.",
+            "detailedDescription": "This is a Phase 1 multicenter, international, open-label study evaluating the safety, tolerability, pharmacokinetics (PK), fetal hemoglobin (HbF) induction and biological activity of Pociredir in participants 18-65 years of age, inclusive, with SCD.\n\nParticipants will receive 12 weeks of dosing with 4 weeks of follow-up. Approximately 10 participants will be enrolled in each cohort. A maximum of 3 participants with SCD HbSC+ genotype may be enrolled in each cohort.\n\nCohort 1 will receive 6 milligrams (mg) of Pociredir by mouth once daily. Doses for subsequent cohorts will be determined following review by the Data Monitoring Committee \\[DMC\\]. A total of seven cohorts may be included. Cohort 2 will be dosed at 2 mg once daily by mouth, and cohort 3 will be dosed at 12 mg once daily by mouth. The Sponsor will reinitiate enrolment in the 3rd cohort (12 mg cohort) with the updated inclusion and exclusion criteria. Based on review of available safety and biomarker data and with the recommendation of the DMC, a subsequent 4th cohort of 20 mg and potentially a 5th cohort of 30 mg may be initiated. Additional cohorts using alternative dosing schedules may be considered based on available data.\n\nThe primary endpoints of the study are to evaluate the safety and tolerability of Pociredir as measured by the frequency of adverse events and to evaluate single and multiple-dose pharmacokinetics of Pociredir in participants with sickle cell disease. Secondary endpoints include evaluating the effect of Pociredir on fetal hemoglobin induction in peripheral blood and evaluating the effects of Pociredir on hemolysis in participants with sickle cell disease."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease",
+              "Sickle Cell Anemia"
+            ],
+            "keywords": [
+              "Sickle Cell Disease",
+              "Sickle Cell Anemia",
+              "Pharmacokinetics",
+              "Pharmacodynamics",
+              "Pociredir",
+              "Open label"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Open-label, multiple-dose study.",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 45,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Pociredir oral capsule(s) in Sickle Cell participants",
+                "type": "EXPERIMENTAL",
+                "description": "Cohort 1 will receive 6 mg of Pociredir by mouth once daily. Cohort 2 will be dosed at 2 mg once daily by mouth, and cohort 3 will be dosed at 12 mg once daily by mouth. The Sponsor will reinitiate enrolment in the 3rd cohort (12 mg cohort) with the updated inclusion and exclusion criteria. Based on review of available safety and biomarker data and with the recommendation of the DMC, a subsequent 4th cohort of 20 mg and potentially a 5th cohort of 30 mg may be initiated. A total of seven cohorts may be included. Following the first cohort, doses for all subsequent cohorts will be determined following DMC review of the safety and pharmacokinetic data observed in participants from the prior and ongoing cohorts. Alternate dosing schedules may be evaluated in some of the cohorts.",
+                "interventionNames": [
+                  "Drug: Pociredir oral capsule(s)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Pociredir oral capsule(s)",
+                "description": "Participants will receive Pociredir",
+                "armGroupLabels": [
+                  "Pociredir oral capsule(s) in Sickle Cell participants"
+                ],
+                "otherNames": [
+                  "FTX-6058"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Treatment-Emergent Adverse Events",
+                "description": "To evaluate the safety and tolerability of Pociredir in adult participants with sickle cell disease based on the frequency of adverse events (AEs) and changes in clinically significant laboratory test results, vital signs and electrocardiograms (ECGs) parameters.",
+                "timeFrame": "Up to approximately 16 weeks of monitoring"
+              },
+              {
+                "measure": "Plasma Concentrations of Pociredir",
+                "description": "Blood samples will be collected to measure the plasma concentration of Pociredir at specified timepoints.",
+                "timeFrame": "Days 1, 14, 28, 42, 56, 70, 84 and 91"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in percentage fetal hemoglobin (%HbF) biomarkers in peripheral blood",
+                "description": "The percentage of HbF will be measured in peripheral whole blood.",
+                "timeFrame": "Baseline and at Days 1, 14, 28, 42, 56, 70, 84, 91, and 112"
+              },
+              {
+                "measure": "Change from Baseline in % Reticulocytes",
+                "description": "The percentage of reticulocytes will be measured in peripheral whole blood.",
+                "timeFrame": "Baseline and at Days 1, 14, 28, 42, 56, 70, 84, 91, and 112"
+              },
+              {
+                "measure": "Change from Baseline in Absolute Reticulocyte Count",
+                "description": "The absolute reticulocyte count will be measured in peripheral whole blood.",
+                "timeFrame": "Baseline and at Days 1, 14, 28, 42, 56, 70, 84, 91, and 112"
+              },
+              {
+                "measure": "Change from Baseline in Red cell distribution width",
+                "description": "Blood samples will be collected for the analysis of hematology parameter: red cell distribution width",
+                "timeFrame": "Baseline and at Days 1, 14, 28, 42, 56, 70, 84 and 91"
+              },
+              {
+                "measure": "Change from Baseline in unconjugated bilirubin",
+                "description": "Blood samples will be collected for the analysis of clinical chemistry parameter: unconjugated bilirubin",
+                "timeFrame": "Baseline and at Days 1, 14, 28, 42, 56, 70, 84 and 91"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Participant is 18 to 65 years of age, inclusive at the time informed consent is obtained.\n* Documented SCD at the time of screening (S/S, S/\u03b20, S/\u03b2+, and S/C only) as confirmed through review of medical records or HPLC.\n* Participants who meet at least one the following criteria:\n\n  1. \u22654 to 10 episodes of SCD pain crisis over 12 months, or \u22652 to 5 over 6 months prior to screening\n  2. \u22652 episodes of SCD pain crisis plus at least one of the following over previous 12 months: i) Acute chest syndrome (ACS) ii. Hepatic or splenic sequestration iii. Priapism\n  3. \u22652 of the following events over the previous 12 months:i. ACS ii. Hepatic or splenic sequestration iii. Priapism\n  4. Tricuspid regurgitant jet velocity (TRV) \u2265 3.0 meter/second(m/s) OR TRV \u2265 2.5 m/s + N-terminal pro b-type natriuretic peptide (NT-proBNP) plasma level \u2265 160 picogram per milliliter; OR documented ongoing pulmonary hypertension diagnosed from previous echocardiogram or right-sided heart catheterization with mean pulmonary artery pressure \\> 25 millimeter of mercury;\n  5. SCD-related chronic kidney disease (CKD)\n  6. Meet medical criteria to receive (e.g., post-cerebrovascular accident) but are contraindicated for chronic transfusions (e.g., alloimmunization, transfusion reactions)\n* Previous experience with Hydroxyurea (HU) but have shown to be unresponsive and/or intolerant or ineligible AND\n* Previous experience with a stable dose of voxelotor, crizanlizumab, and/ or L-glutamine but have shown to be unresponsive and/or intolerant or ineligible\n* Per Investigator's recommendation, participants may continue crizanlizumab and/or L-glutamine but must be on a stable dose for at least 6 months\n* HbF \u2264 20% of total Hb\n* Total Hb \u2265 5.5 g/dL and \u2264 12 g/dl (males) or \u2264 10.6 g/dl (females) at screening.\n* Participant must meet both of the following laboratory values at screening:\n\n  1. Absolute neutrophil count \u2265 1.5 \u00d7 10\\^9 per liter (/l)\n  2. Platelets \u2265 80 \u00d7 10\\^9/l\n  3. Absolute reticulocyte count at screening \u2265 100 x 10\\^9/l.\n\nKey Exclusion Criteria:\n\n* Sickle cell complication requiring care from a medical provider in hospital or emergency care setting in the 14 days prior to starting study drug.\n* History of bone marrow transplant or human stem cell transplant or gene therapies.\n* \u2022 Participants with a history of severe renal disease defined as estimated glomerular filtration rate \\< 30 mL/min/1.73m\\^2. Participants on dialysis of any kind are excluded.\n* Participants receiving regularly scheduled transfusions or therapeutic phlebotomies, or any participant who has been transfused within 60 days prior to initiating study drug.\n* Participant with active malignancy, or history of cancer (except for squamous cell skin cancer, basal cell skin cancer, and stage 0 cervical carcinoma in situ, with no recurrence for the last 5 years), or has an immediate family member with known or suspected familial cancer syndrome. Known presence of a chromosomal abnormality or genetic mutation that may put the participant at an increased risk of myelodysplastic syndrome (MDS) or acute myeloid leukemia (AML).\n* Participant currently on HU, or have received HU, within 60 days prior to initiating study drug.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Adeyemi Adenola, MD",
+                "affiliation": "Fulcrum Therapeutics",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "University of Arkansas for Medical Sciences (UAMS)",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "University of California, Los Angeles",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Sonar Research Center",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "zip": "30315",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                }
+              },
+              {
+                "facility": "University of Illinois Chicago",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60612",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "Our Lady of the Lake Hospital",
+                "city": "Baton Rouge",
+                "state": "Louisiana",
+                "zip": "70808",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.44332,
+                  "lon": -91.18747
+                }
+              },
+              {
+                "facility": "Boston Medical Center",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Queens Hospital Cancer Center",
+                "city": "Jamaica",
+                "state": "New York",
+                "zip": "11432",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.69149,
+                  "lon": -73.80569
+                }
+              },
+              {
+                "facility": "Jacobi Medical Center",
+                "city": "The Bronx",
+                "state": "New York",
+                "zip": "10461",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.84985,
+                  "lon": -73.86641
+                }
+              },
+              {
+                "facility": "University of North Carolina at Chapel Hill",
+                "city": "Chapel Hill",
+                "state": "North Carolina",
+                "zip": "27599",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.9132,
+                  "lon": -79.05584
+                }
+              },
+              {
+                "facility": "Eastern Carolina University",
+                "city": "Greenville",
+                "state": "North Carolina",
+                "zip": "27834",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.61266,
+                  "lon": -77.36635
+                }
+              },
+              {
+                "facility": "Lynn Health Science Institute",
+                "city": "Oklahoma City",
+                "state": "Oklahoma",
+                "zip": "73112",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.46756,
+                  "lon": -97.51643
+                }
+              },
+              {
+                "facility": "University of Texas Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Inova Schar Cancer Institute",
+                "city": "Fairfax",
+                "state": "Virginia",
+                "zip": "22031",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.84622,
+                  "lon": -77.30637
+                }
+              },
+              {
+                "facility": "Virginia Commonwealth University",
+                "city": "Richmond",
+                "state": "Virginia",
+                "zip": "23298",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 37.55376,
+                  "lon": -77.46026
+                }
+              },
+              {
+                "facility": "National Hospital, Abuja",
+                "city": "Abuja",
+                "zip": "900247",
+                "country": "Nigeria",
+                "geoPoint": {
+                  "lat": 9.05785,
+                  "lon": 7.49508
+                }
+              },
+              {
+                "facility": "University of Ibadan",
+                "city": "Ibadan",
+                "zip": "200212",
+                "country": "Nigeria",
+                "geoPoint": {
+                  "lat": 7.37756,
+                  "lon": 3.90591
+                }
+              },
+              {
+                "facility": "Barau Dikko Teaching Hospital",
+                "city": "Kaduna",
+                "zip": "800125",
+                "country": "Nigeria",
+                "geoPoint": {
+                  "lat": 10.52641,
+                  "lon": 7.43879
+                }
+              },
+              {
+                "facility": "Charlotte Maxeke Johannesburg Academic Hospital",
+                "city": "Johannesburg",
+                "zip": "2193",
+                "country": "South Africa",
+                "geoPoint": {
+                  "lat": -26.20227,
+                  "lon": 28.04363
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "22017641",
+                "type": "BACKGROUND",
+                "citation": "Ngo DA, Aygun B, Akinsheye I, Hankins JS, Bhan I, Luo HY, Steinberg MH, Chui DH. Fetal haemoglobin levels and haematological characteristics of compound heterozygotes for haemoglobin S and deletional hereditary persistence of fetal haemoglobin. Br J Haematol. 2012 Jan;156(2):259-64. doi: 10.1111/j.1365-2141.2011.08916.x. Epub 2011 Oct 24."
+              },
+              {
+                "pmid": "28423290",
+                "type": "BACKGROUND",
+                "citation": "Piel FB, Steinberg MH, Rees DC. Sickle Cell Disease. N Engl J Med. 2017 Apr 20;376(16):1561-1573. doi: 10.1056/NEJMra1510865. No abstract available."
+              },
+              {
+                "pmid": "23209159",
+                "type": "BACKGROUND",
+                "citation": "Sankaran VG, Orkin SH. The switch from fetal to adult hemoglobin. Cold Spring Harb Perspect Med. 2013 Jan 1;3(1):a011643. doi: 10.1101/cshperspect.a011643."
+              },
+              {
+                "pmid": "24361300",
+                "type": "BACKGROUND",
+                "citation": "Saraf SL, Molokie RE, Nouraie M, Sable CA, Luchtman-Jones L, Ensing GJ, Campbell AD, Rana SR, Niu XM, Machado RF, Gladwin MT, Gordeuk VR. Differences in the clinical and genotypic presentation of sickle cell disease around the world. Paediatr Respir Rev. 2014 Mar;15(1):4-12. doi: 10.1016/j.prrv.2013.11.003. Epub 2013 Nov 15."
+              },
+              {
+                "pmid": "24222332",
+                "type": "BACKGROUND",
+                "citation": "Steinberg MH, Chui DH, Dover GJ, Sebastiani P, Alsultan A. Fetal hemoglobin in sickle cell anemia: a glass half full? Blood. 2014 Jan 23;123(4):481-5. doi: 10.1182/blood-2013-09-528067. Epub 2013 Nov 12."
+              },
+              {
+                "pmid": "40569673",
+                "type": "DERIVED",
+                "citation": "Abbasi M, Srivastava A, Saraf SL. Management of Kidney Disease with Sickle Cell Disease. J Am Soc Nephrol. 2025 Oct 1;36(10):2041-2054. doi: 10.1681/ASN.0000000804. Epub 2025 Jun 26."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16",
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2026-10-19",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2026-10-19"
+                }
+              ]
+            }
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07401823",
+            "orgStudyIdInfo": {
+              "id": "6058-SCD-102"
+            },
+            "organization": {
+              "fullName": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Open-Label Extension Study to Pioneer Study 6058-SCD-101",
+            "officialTitle": "An Open-Label Extension Study to Evaluate Long-Term Safety and Tolerability of Pociredir in Participants With Sickle Cell Disease (SCD) Who Have Participated in a Pociredir Study"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "TERMINATED",
+            "whyStopped": "Sponsor Decision",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-03-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-06-04",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2026-07-02",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-01-28",
+            "studyFirstSubmitQcDate": "2026-02-06",
+            "studyFirstPostDateStruct": {
+              "date": "2026-02-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-26",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-28",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Fulcrum Therapeutics",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label study to evaluate the safety and tolerability of long-term treatment with pociredir without a comparator in participants with SCD who have previously been treated and shown benefit with pociredir in feeder study 6058-SCD-101 (NCT05169580). Participants in this study will receive once daily doses of pociredir for up to 48 months.",
+            "detailedDescription": "The first dose of study drug will be administered on Day 1 in the clinic and participants will continue at home dosing once daily (QD). Dosing will occur in the clinic on days where there are clinic visits. Treatment Period clinic visits are planned every other week through Week 12 (Weeks 2, 4, 6, 8, 10, and 12), monthly through Week 24 (Weeks 16, 20, and 24), and then every 12 weeks from Week 24 through Week 192. A final follow-up visit (Week 196) will occur 4 weeks after the final dose of study drug at Week 192.\n\nParticipants will receive pociredir at the dose level they received in Study 6058-SCD-101 through Week 192, unless data from that study indicates a change to a different optimized dose."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Sickle Cell Disease"
+            ],
+            "keywords": [
+              "FTX-6058",
+              "Pociredir",
+              "Fetal hemoglobin",
+              "Sickle Cell Disease",
+              "Open-label",
+              "Anemia, Sickle Cell",
+              "Hematologic diseases"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 1,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Pociredir",
+                "type": "EXPERIMENTAL",
+                "description": "Participants will receive Pociredir orally once daily (QD)",
+                "interventionNames": [
+                  "Drug: Pociredir"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Pociredir",
+                "description": "Pociredir Oral Capsules will be administered",
+                "armGroupLabels": [
+                  "Pociredir"
+                ],
+                "otherNames": [
+                  "FTX-6058"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of participants reporting Treatment Emergent Adverse Events (TEAEs)",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in 12-lead Electrocardiogram (ECGs)",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in Vital signs",
+                "timeFrame": "Up to Week 196"
+              },
+              {
+                "measure": "Number of participants with clinically significant changes in Clinical laboratory tests",
+                "description": "Laboratory assessments including hematology, coagulation, serum chemistry and electrolytes, lipid panel, SCD characterization, serology, urinalysis and pregnancy tests will be performed.",
+                "timeFrame": "Up to Week 196"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from Baseline in percent Fetal hemoglobin (HbF)",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in percent Reticulocytes",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Red cell distribution width",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Unconjugated bilirubin",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Lactate dehydrogenase (LDH)",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Haptoglobin",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Change from Baseline in Reticulocyte count",
+                "timeFrame": "Baseline (Day 1), and Up to Week 192"
+              },
+              {
+                "measure": "Number of participants reporting SCD-related complications",
+                "timeFrame": "Up to Week 192"
+              },
+              {
+                "measure": "Annualized rate of Vaso-occlusive episode (VOE)",
+                "timeFrame": "through end of month 48"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants aged \u226518 years and older must have previously participated in and successfully completed Study 6058-SCD-101.\n* Participant has signed and dated the informed consent form (ICF) before any study-specific procedures are performed and is willing and able to comply with the study procedures and restrictions.\n* Participants who meet all other inclusion and exclusion criteria for this study, and per Investigator's recommendation may continue standard of care as indicated with the exception of hydroxyurea (HU). Participants may continue crizanlizumab, and/or L-glutamine, but must be on a stable dose for at least 6 months.\n* Participants, who if female and of childbearing potential, agree to use 2 effective methods of contraception, 1 of which must be highly effective, or practice abstinence starting at the time of the ICF signing to 90 days after the last dose of study drug, and, who if male, should use condoms or practice abstinence from the time of ICF signing to 90 days after the last dose of study drug.\n* Documented HbF benefit, as judged by the Investigator, from prior study.\n* Participant must meet both of the following laboratory values during Screening:\n\n  1. Absolute neutrophil count \u2265 1.5 \u00d7 10\\^9/liter,\n  2. Platelets \u2265 80 \u00d7 10\\^9/liter\n* Absolute reticulocyte count during Screening \\> 100 \u00d7 10\\^9/liter.\n\nExclusion Criteria:\n\n* Major surgery, serious illness (acute or chronic), infection (clinically significant bacterial, fungal, parasitic or viral infection which requires therapy), fever not resolved within 3 days of onset and requiring treatment, significant bleeding, cerebrovascular accident, or seizure within 14 days prior to signing the ICF and 14 days prior to starting study drug.\n* Sickle cell complication requiring more than 24-hour care from a medical provider in hospital or emergency care setting in the 14 days prior to starting study drug.\n* Use of medications that are moderate or strong inducers or inhibitors of cytochrome P450 (CYP) 3A4 or CYP2C8, inhibit P-glycoprotein, breast cancer resistance protein, or multidrug and toxin extrusion protein 2-K, or are substrates of CYP2B6 within 14 days prior to first dose of study drug or anticipated need for any of these medications during the study.\n* Participation in any other study with an investigational agent other than pociredir within the past 60 days prior to the first dose of study drug.\n* History of bone marrow transplant or hematopoietic stem cell transplant or gene therapies.\n* Vaccination in the previous 7 days prior to the first dose of study drug.\n\nNote: Other protocol specified criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of Arkansas for Medical Sciences",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "zip": "72205",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.74648,
+                  "lon": -92.28959
+                }
+              },
+              {
+                "facility": "University of California, Los Angeles",
+                "city": "Los Angeles",
+                "state": "California",
+                "zip": "90095",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 34.05223,
+                  "lon": -118.24368
+                }
+              },
+              {
+                "facility": "Our Lady of the Lake Hospital",
+                "city": "Baton Rouge",
+                "state": "Louisiana",
+                "zip": "70808",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.44332,
+                  "lon": -91.18747
+                }
+              },
+              {
+                "facility": "Boston Medical Center",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "zip": "02118",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.35843,
+                  "lon": -71.05977
+                }
+              },
+              {
+                "facility": "Queens Hospital Cancer Center",
+                "city": "Jamaica",
+                "state": "New York",
+                "zip": "11432",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.69149,
+                  "lon": -73.80569
+                }
+              },
+              {
+                "facility": "Jacobi Medical Center",
+                "city": "The Bronx",
+                "state": "New York",
+                "zip": "10461",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.84985,
+                  "lon": -73.86641
+                }
+              },
+              {
+                "facility": "University of Texas Houston",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              },
+              {
+                "facility": "Inova Schar Cancer Institute",
+                "city": "Fairfax",
+                "state": "Virginia",
+                "zip": "22031",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.84622,
+                  "lon": -77.30637
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000755",
+                "term": "Anemia, Sickle Cell"
+              },
+              {
+                "id": "D017086",
+                "term": "beta-Thalassemia"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000745",
+                "term": "Anemia, Hemolytic, Congenital"
+              },
+              {
+                "id": "D000743",
+                "term": "Anemia, Hemolytic"
+              },
+              {
+                "id": "D000740",
+                "term": "Anemia"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D006453",
+                "term": "Hemoglobinopathies"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D013789",
+                "term": "Thalassemia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

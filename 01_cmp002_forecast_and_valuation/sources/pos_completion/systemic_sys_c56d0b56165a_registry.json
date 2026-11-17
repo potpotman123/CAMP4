@@ -1,0 +1,928 @@
+{
+  "integrated_id": "systemic:sys_c56d0b56165a",
+  "asset": "GLPG2451",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=GLPG2451",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02788721",
+            "orgStudyIdInfo": {
+              "id": "GLPG2451-CL-101"
+            },
+            "organization": {
+              "fullName": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Assess Safety, Tolerability and Pharmacokinetics of GLPG2451 in Healthy Female Subjects",
+            "officialTitle": "Assessment of Safety, Tolerability and Pharmacokinetics of Single and Multiple Ascending Oral Doses of GLPG2451 and of the Combination of GLPG2451 and GLPG2222 in Healthy Female Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-04-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-04-27",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-04-27",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2016-05-13",
+            "studyFirstSubmitQcDate": "2016-05-27",
+            "studyFirstPostDateStruct": {
+              "date": "2016-06-02",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2017-07-10",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-07-12",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Pharmaceutical Research Associates",
+                "class": "OTHER"
+              },
+              {
+                "name": "SGS S.A.",
+                "class": "INDUSTRY"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is a First-in-Human, Phase I, randomized, double-blind, placebo-controlled study evaluating single and multiple ascending oral doses of GLPG2451 and combined multiple doses of GLPG2451 and GLPG2222 in healthy female subjects. The purpose of the study is to evaluate safety and tolerability after single ascending oral doses and of multiple doses of GLPG2451 given to healthy female subjects compared to placebo as well as of multiple doses of the combination of GLPG2451/GLPG2222 compared to GLPG2451/placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 31,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GLPG2451 single dose",
+                "type": "EXPERIMENTAL",
+                "description": "Single dose of GLPG2451 oral suspension at up to 4 dose levels in ascending order",
+                "interventionNames": [
+                  "Drug: GLPG2451 single dose"
+                ]
+              },
+              {
+                "label": "Placebo single dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Single dose of Placebo oral suspension",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GLPG2451 single dose",
+                "description": "GLPG2451 oral suspension, single ascending doses, daily",
+                "armGroupLabels": [
+                  "GLPG2451 single dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo, oral suspension, daily",
+                "armGroupLabels": [
+                  "Placebo single dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change versus placebo in the proportion of subjects with adverse events",
+                "description": "To assess safety and tolerability of single ascending doses with GLPG2451 versus placebo in healthy subjects",
+                "timeFrame": "Between screening and 182 days after the last dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum observed plasma concentration of GLPG2451 (Cmax) given alone",
+                "description": "To characterize pharmacokinetics of GLPG2451 and its metabolite after a single oral dose in healthy subjects",
+                "timeFrame": "Between day 1 predose and 175 days after the last dose"
+              },
+              {
+                "measure": "Time of occurrence of Cmax for GLPG2451 and (tmax) given alone",
+                "description": "To characterize pharmacokinetics of GLPG2451 and its metabolite after a single oral dose in healthy subjects",
+                "timeFrame": "Between day 1 predose and 175 days after the last dose"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve (AUC0-t) of GLPG2451 given alone",
+                "description": "To characterize pharmacokinetics of GLPG2451 and its metabolite after a single oral dose in healthy subjects",
+                "timeFrame": "Between day 1 predose and 175 days after the last dose"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Female between 18-65 years of age inclusive, on the day of signing informed consent form (ICF).\n* Of non-childbearing potential defined as surgically sterile (hysterectomy, bilateral salpingectomy and bilateral oophorectomy), or post-menopausal (at least 12 consecutive months without menstruation, without an alternative medical cause \\[including hormone replacement therapy\\]). In addition a determination of follicle stimulating hormone (FSH) can be performed with FSH \\>35 mIU/ml to further confirm postmenopausal status without menstruation for \u226512 months.\n* A body mass index (BMI) between 18-30 kg/m2, inclusive.\n* Judged by the investigator to be in good health based upon the results of a medical history, physical examination, vital signs, 12-lead electrocardiogram (ECG), Holter monitoring and a laboratory profile prior to the initial study drug administration.\n* Discontinuation of all medications (including over-the-counter medications and herbal supplements) except occasional paracetamol (maximum dose of 2 g/day and maximum of 10 g/2 weeks) at least 2 weeks prior to the first study drug administration. In addition, subjects must agree not to take any medications (including over-the-counter medication and herbal supplements), or alcohol during the course of the study.-non-smokers and non-users of any nicotine-containing products.\n* Non-smokers and non-users of any nicotine-containing products. A non-smoker is defined as an individual who has abstained from smoking for at least 1 year prior to the screening. A non-user is defined as an individual who has abstained from any nicotine containing products for at least 1 year prior to the screening.\n* Negative urine drug screen (amphetamines, barbiturates, benzodiazepines, cannabis, cocaine, opiates, methadone, and tricyclic antidepressants) and alcohol breath test.\n* Able and willing to sign the ICF as approved by the IEC, prior to screening evaluations, and willing to adhere to the prohibitions and restrictions.\n\nExclusion Criteria:\n\n* Known hypersensitivity or a significant allergic reaction to any drug as determined by the investigator, such as anaphylaxis requiring hospitalization.\n* Positive serology for hepatitis B virus surface antigen (HBsAg) or hepatitis C virus (HCV) or any history of hepatitis from any cause with the exception of hepatitis A.\n* History of or a current immunosuppressive condition (e.g., human immunodeficiency virus \\[HIV\\] infection).\n* Symptoms of clinically significant illness in the 3 months before the initial study drug administration.\n* Presence or having sequelae of gastrointestinal, liver or kidney (creatinine clearance \u2264 80 mL/min using the Cockroft formula; if calculated result \u2264 80 mL/min, a 24-hour urine collection to determine actual value can be done) or other conditions known to interfere with the absorption, distribution, metabolism, or excretion of drugs.\n* History of malignancy within the past 5 years (except for basal cell carcinoma of the skin or carcinoma in situ of the cervix that has been treated with no evidence of recurrence).\n* Clinically relevant abnormalities detected on ECG and/or Holter regarding either rhythm or conduction (e.g. QTcF \u2265 470 msec, or a known long QT syndrome). A first degree heart block will not be considered as a significant abnormality.\n* Family history (if known) of long QT syndrome in a primary relative.\n* Clinically relevant abnormalities detected on vital signs.\n* Significant blood loss (including blood donation \\[\\> 500 mL\\]), or having had a transfusion of any blood product within 12 weeks prior to the initial study drug administration.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Chris Brearley, MD",
+                "affiliation": "Lakefront Biotherapeutics NV",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "SGS LSS Clinical Pharmacology Unit Antwerp",
+                "city": "Antwerp",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.22047,
+                  "lon": 4.40026
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03540524",
+            "orgStudyIdInfo": {
+              "id": "GLPG2737-CL-105"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2017-001067-20",
+                "type": "EUDRACT_NUMBER"
+              },
+              {
+                "id": "2017",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/2017"
+              }
+            ],
+            "organization": {
+              "fullName": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study Looking at the Safety, Tolerability and Efficacy of the Combination of the Study Drugs GLPG2451 and GLPG2222 With or Without GLPG2737 in Patients With Cystic Fibrosis.",
+            "officialTitle": "Assessment of Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Oral Doses of the Combination of GLPG2451 and GLPG2222, With or Without GLPG2737, in Adult Subjects With Cystic Fibrosis",
+            "acronym": "FALCON"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2018-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2018-05-31",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-03-11",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-03-11",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-04-27",
+            "studyFirstSubmitQcDate": "2018-05-16",
+            "studyFirstPostDateStruct": {
+              "date": "2018-05-30",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2019-04-04",
+            "lastUpdatePostDateStruct": {
+              "date": "2019-04-08",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a Phase Ib, multi-center, open-label, nonrandomized multiple cohorts study to assess the safety, tolerability, pharmacokinetics, and pharmacodynamics of multiple doses of a combination treatment of GLPG2451 and GLPG2222, with and without GLPG2737, in adult subjects with Cystic Fibrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort A - F508del homozygous",
+                "type": "EXPERIMENTAL",
+                "description": "Dual combination (GLPG2451 and GLPG2222) will be administered for 14 days, followed by the triple combination (GLPG2451, GLPG2222 and GLPG2737) for 14 days, without washout in between the sequential treatment periods.( Study Part I)",
+                "interventionNames": [
+                  "Drug: GLPG2451 dose regimen A",
+                  "Drug: GLPG2222",
+                  "Drug: GLPG2737"
+                ]
+              },
+              {
+                "label": "Cohort B - F508del heterozygous/potentiator nonresponsive",
+                "type": "EXPERIMENTAL",
+                "description": "Dual combination (GLPG2451 and GLPG2222) will be administered for 14 days, followed by the triple combination (GLPG2451, GLPG2222 and GLPG2737) for 14 days, without washout in between the sequential treatment periods. (study Part II)",
+                "interventionNames": [
+                  "Drug: GLPG2451 dose regimen B",
+                  "Drug: GLPG2222",
+                  "Drug: GLPG2737"
+                ]
+              },
+              {
+                "label": "Cohort C - F508del homozygous",
+                "type": "EXPERIMENTAL",
+                "description": "Dual combination (GLPG2451 and GLPG2222) will be administered for 14 days, followed by the triple combination (GLPG2451, GLPG2222 and GLPG2737) for 14 days, without washout in between the sequential treatment periods. (Study Part II)",
+                "interventionNames": [
+                  "Drug: GLPG2451 dose regimen B",
+                  "Drug: GLPG2222",
+                  "Drug: GLPG2737"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GLPG2451 dose regimen A",
+                "description": "GLPG2451 oral suspension, daily.",
+                "armGroupLabels": [
+                  "Cohort A - F508del homozygous"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG2451 dose regimen B",
+                "description": "GLPG2451 oral suspension, daily.",
+                "armGroupLabels": [
+                  "Cohort B - F508del heterozygous/potentiator nonresponsive",
+                  "Cohort C - F508del homozygous"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG2222",
+                "description": "GLPG2222 tablet for oral use, daily.",
+                "armGroupLabels": [
+                  "Cohort A - F508del homozygous",
+                  "Cohort B - F508del heterozygous/potentiator nonresponsive",
+                  "Cohort C - F508del homozygous"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG2737",
+                "description": "GLPG2737 capsules for oral use, daily.",
+                "armGroupLabels": [
+                  "Cohort A - F508del homozygous",
+                  "Cohort B - F508del heterozygous/potentiator nonresponsive",
+                  "Cohort C - F508del homozygous"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of subjects with adverse events.",
+                "description": "To assess safety and tolerability of doses of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I and Part II).",
+                "timeFrame": "Up to 24 weeks after the last dose"
+              },
+              {
+                "measure": "Maximum observed plasma concentration (Cmax).",
+                "description": "To characterize the pharmacokinetics (PK) of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Day 14"
+              },
+              {
+                "measure": "Maximum observed plasma concentration (Cmax).",
+                "description": "To characterize the PK of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Day 28"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero until 24 hours (AUC0-24h).",
+                "description": "To characterize the PK of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Day 14"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve from time zero until 24 hours (AUC0-24h).",
+                "description": "To characterize the PK of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Day 28"
+              },
+              {
+                "measure": "Trough plasma concentration observed at the end of the dosing interval (24 hours post-dose) (Ctrough).",
+                "description": "To characterize the PK of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I and Part II).",
+                "timeFrame": "Between Day 2 and Day 28"
+              },
+              {
+                "measure": "Change from baseline in sweat chloride concentration.",
+                "description": "To assess changes in sweat chloride concentration after administration of the combination of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part II).",
+                "timeFrame": "Between Day 1 pre-dose and Day 28"
+              },
+              {
+                "measure": "Change from baseline in percent predicted FEV1.",
+                "description": "To assess changes in percent predicted FEV1 after administration of the combination of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part II).",
+                "timeFrame": "Between Day 1 pre-dose and Day 28"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in sweat chloride concentration.",
+                "description": "To assess changes in sweat chloride concentration after administration of the combination of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Between Day 1 pre-dose and Day 28"
+              },
+              {
+                "measure": "Change from baseline in percent predicted FEV1.",
+                "description": "To assess changes in percent predicted FEV1 after administration of the combination of GLPG2451 and GLPG2222 with or without GLPG2737 (Study Part I).",
+                "timeFrame": "Between Day 1 pre-dose and Day 28"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Female or male subject \u226518 years of age, on the day of signing the Informed Consent Form (ICF)\n* Confirmed clinical diagnosis of cystic fibrosis (CF) (documented in the subject's medical record).\n* Eligible cystic fibrosis transmembrane conductance regulator (CFTR) genotype at screening:\n\n  * Cohort A: Homozygous for the F508del CFTR mutation\n  * Cohort B: Heterozygous for the F508del CFTR mutation with a potentiator non-responsive mutation on the second allele\n  * Cohort C: Homozygous for the F508del CFTR mutation\n* A body weight of \u226540 kg at screening.\n* Stable concomitant medication for pulmonary health for CF for at least 4 weeks prior to the first study drug administration and planned continuation of the same concomitant medication for the duration of the dosing period of the study. Subjects with diabetes mellitus and/or pancreatic insufficiency are eligible for the study provided they are on stable treatment (e.g. medication, diet, pancreatic enzyme replacement therapy) for at least 4 weeks prior to the first study drug administration in the opinion of the investigator.\n* Forced expiratory volume in 1 second (FEV1): 40% \u2264 FEV1 \u2264 90% of predicted normal for age, sex, and height at screening (pre- or post bronchodilator) at screening.\n* Sweat chloride concentration \u226560 mmol/L at screening.\n* Non-smoker and non-user of any nicotine and or cannabis containing products. A non-smoker is defined as an individual who has abstained from smoking for at least 1 year prior to the screening. A non-user is defined as an individual who has abstained from any nicotine containing products for at least 1 year prior to the screening.\n\nExclusion Criteria:\n\n* History of or ongoing allergic bronchopulmonary aspergillosis.\n* Medical history of cataract (or lens opacity) and/or glaucoma.\n* Cataract (or lens opacity) and/or glaucoma determined by an ophthalmologist during the screening period.\n* Unstable pulmonary status or respiratory tract infection (including rhinosinusitis) requiring a change in therapy within 4 weeks prior to the first study drug administration.\n* History of clinically meaningful unstable or uncontrolled chronic disease that makes the subject unsuitable for inclusion in the study in the opinion of the investigator.\n* Need for supplemental oxygen during the day, and \\>2 L/minute while sleeping.\n* History of hepatic cirrhosis with portal hypertension (e.g., signs/symptoms of splenomegaly, esophageal varices).\n* History of malignancy within the past 5 years (except for basal cell carcinoma of the skin with no evidence of recurrence and/or carcinoma in situ of the cervix that has been treated with no evidence of recurrence).\n* Use of any moderate and strong inhibitor(s) or inducer(s) of CYP3A4 within 4 weeks prior to the first study drug administration (e.g., clarithromycin, itraconazole, ketoconazole, telithromycin, rifampin, carbamazepine).\n* Use of CFTR modulator therapy (e.g., lumacaftor and/or ivacaftor) within 4 weeks prior to the first study drug administration.\n* Use of any oral corticosteroid within 3 months of screening; or history of oral corticosteroid use for \u226530 days (cumulative) within 2 years of screening.\n* Abnormal liver function test at screening; defined as aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) and/or alkaline phosphatase and/or gamma-glutamyl transferase (GGT) \u22653\u00d7 the upper limit of normal (ULN); and/or total bilirubin \u22651.5\u00d7 the ULN.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Olivier Van de Steen, MD MBA",
+                "affiliation": "Lakefront Biotherapeutics NV",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Study Site BEL004",
+                "city": "Antwerp",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.22047,
+                  "lon": 4.40026
+                }
+              },
+              {
+                "facility": "Study Site BEL003",
+                "city": "Brussels",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.85045,
+                  "lon": 4.34878
+                }
+              },
+              {
+                "facility": "Study Site BEL002",
+                "city": "Ghent",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.05,
+                  "lon": 3.71667
+                }
+              },
+              {
+                "facility": "Study Site BEL001",
+                "city": "Leuven",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "Study Site BGR001",
+                "city": "Sofia",
+                "country": "Bulgaria",
+                "geoPoint": {
+                  "lat": 42.69751,
+                  "lon": 23.32415
+                }
+              },
+              {
+                "facility": "Study Site DEU001",
+                "city": "Berlin",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Study Site DEU002",
+                "city": "Essen",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.45657,
+                  "lon": 7.01228
+                }
+              },
+              {
+                "facility": "Study Site GRC001",
+                "city": "Thessaloniki",
+                "country": "Greece",
+                "geoPoint": {
+                  "lat": 40.64072,
+                  "lon": 22.93493
+                }
+              },
+              {
+                "facility": "Study Site NLD002",
+                "city": "Amsterdam",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.37403,
+                  "lon": 4.88969
+                }
+              },
+              {
+                "facility": "Study Site NLD001",
+                "city": "Utrecht",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 52.09083,
+                  "lon": 5.12222
+                }
+              },
+              {
+                "facility": "Study Site SRB001",
+                "city": "Belgrade",
+                "country": "Serbia",
+                "geoPoint": {
+                  "lat": 44.80401,
+                  "lon": 20.46513
+                }
+              },
+              {
+                "facility": "Study Site SWE001",
+                "city": "Gothenburg",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 57.70716,
+                  "lon": 11.96679
+                }
+              },
+              {
+                "facility": "Study Site SWE002",
+                "city": "Stockholm",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 59.32938,
+                  "lon": 18.06871
+                }
+              },
+              {
+                "facility": "Study Site GBR003",
+                "city": "Birmingham",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.48142,
+                  "lon": -1.89983
+                }
+              },
+              {
+                "facility": "Study Site GBR004",
+                "city": "Glasgow",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 55.86515,
+                  "lon": -4.25763
+                }
+              },
+              {
+                "facility": "Study Site GBR005",
+                "city": "Liverpool",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.41058,
+                  "lon": -2.97794
+                }
+              },
+              {
+                "facility": "Study Site GBR007",
+                "city": "London",
+                "zip": "SW3 6NP",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              },
+              {
+                "facility": "Study Site GBR006",
+                "city": "Newcastle",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 54.21804,
+                  "lon": -5.88979
+                }
+              },
+              {
+                "facility": "Study Site GBR001",
+                "city": "Papworth Everard",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.24893,
+                  "lon": -0.11827
+                }
+              },
+              {
+                "facility": "Study Site GBR002",
+                "city": "Wythenshawe",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 53.38027,
+                  "lon": -2.2654
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C000708865",
+                "term": "GLPG2222"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT03214614",
+            "orgStudyIdInfo": {
+              "id": "GLPG2451-CL-105"
+            },
+            "organization": {
+              "fullName": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Assess Safety, Tolerability and Pharmacokinetics of GLPG2451 in Healthy Male Subjects",
+            "officialTitle": "Assessment of Safety, Tolerability and Pharmacokinetics of Multiple Ascending Oral Doses of GLPG2451 and of the Combination of GLPG2451 and GLPG2222 in Healthy Male Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2017-09",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-11-14",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2017-08-25",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2017-08-25",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2017-07-10",
+            "studyFirstSubmitQcDate": "2017-07-10",
+            "studyFirstPostDateStruct": {
+              "date": "2017-07-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2017-09-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2017-09-13",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Lakefront Biotherapeutics NV",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The study is a Phase I, randomized, double-blind, placebo-controlled study evaluating multiple ascending oral doses of GLPG2451 and the combination of GLPG2451 and GLPG2222 given for 14 days in healthy male subjects.\n\nThe purpose of the study is to evaluate the safety and tolerability of multiple ascending oral doses of GLPG2451 given to healthy male subjects compared to placebo, as well as of multiple oral doses of the combination of GLPG2451/GLPG2222 compared to placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Healthy"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "BASIC_SCIENCE",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 39,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "GLPG2451 multiple dose",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple doses of GLPG2451 oral suspension at up to 3 dose levels in ascending order",
+                "interventionNames": [
+                  "Drug: GLPG2451 multiple dose"
+                ]
+              },
+              {
+                "label": "Placebo multiple dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Multiple doses of Placebo oral suspension",
+                "interventionNames": [
+                  "Drug: Placebo multiple dose"
+                ]
+              },
+              {
+                "label": "GLPG2451/GLPG2222",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple doses of GLPG2451 oral suspension combined GLPG2222 oral suspension at up to 2 dose levels",
+                "interventionNames": [
+                  "Drug: GLPG2451/GLPG2222 multiple dose"
+                ]
+              },
+              {
+                "label": "Combined Placebo multiple dose",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Multiple doses of Combined Placebo oral suspension",
+                "interventionNames": [
+                  "Drug: Combined Placebo multiple dose"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "GLPG2451 multiple dose",
+                "description": "GLPG2451 oral suspension, multiple ascending doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG2451 multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo multiple dose",
+                "description": "Placebo, oral suspension, daily for 14 days",
+                "armGroupLabels": [
+                  "Placebo multiple dose"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "GLPG2451/GLPG2222 multiple dose",
+                "description": "GLPG2451 oral suspension and GLPG2222 oral suspension, multiple doses, daily for 14 days",
+                "armGroupLabels": [
+                  "GLPG2451/GLPG2222"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Combined Placebo multiple dose",
+                "description": "Combined Placebo, oral suspension, daily for 14 days",
+                "armGroupLabels": [
+                  "Combined Placebo multiple dose"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change versus placebo in the proportion of subjects with adverse events",
+                "description": "To assess safety and tolerability of multiple ascending doses and combination of GLPG2451 with GLPG2222 versus placebo in healthy subjects",
+                "timeFrame": "Between screening and 154 days after the last dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum observed plasma concentration of GLPG2451 (Cmax) given alone or in combination with GLPG2222",
+                "description": "To characterize the pharmacokinetics of GLPG2451 and its metabolite after multiple oral doses in healthy subjects",
+                "timeFrame": "Between screening and 154 days after the last dose"
+              },
+              {
+                "measure": "Time of occurrence of Cmax for GLPG2451 given alone or in combination with GLPG2222",
+                "description": "To characterize the pharmacokinetics of GLPG2451and its metabolite after multiple oral doses in healthy subjects",
+                "timeFrame": "Between screening and 154 days after the last dose"
+              },
+              {
+                "measure": "Area under the plasma concentration-time curve of GLPG2451 (AUC0-t) given alone or in combination with GLPG2222",
+                "description": "To characterize the pharmacokinetics of GLPG2451 and its metabolite after multiple oral doses in healthy subjects",
+                "timeFrame": "Between screening and 154 days after the last dose"
+              },
+              {
+                "measure": "Ratio of 4-beta-hydroxycholesterol/cholesterol in plasma after multiple oral doses in healthy subjects",
+                "description": "To explore the potential of CYP3A4 interaction with GLPG2451",
+                "timeFrame": "Day 1 predose and Day 14"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male between 18 and 50 years of age inclusive, on the date of signing the Informed Consent Form (ICF).\n* A body mass index (BMI) between 18-30 kg/m2, inclusive.\n* Judged by the investigator to be in good health based upon the results of a medical history, physical examination, vital signs, 12-lead ECG, and clinical safety laboratory tests prior to the initial study drug administration. Clinical safety laboratory test results must be within the laboratory reference ranges or test results that are outside the reference ranges need to be considered non clinically significant in the opinion of the investigator. One retest is allowed during screening period, if deemed appropriate by the investigator.\n* Liver function tests must meet the following criteria: a. Aspartate aminotransferase (AST), ALT, or alkaline phosphatase (ALP) \\<1.5x ULN.\n\n  b. Bilirubin not greater than ULN, however documented Gilbert's syndrome is acceptable but no more than one subject with confirmed Gilbert's syndrome is allowed per cohort. One retest is allowed during screening period, if deemed appropriate by the investigator.\n* Able and willing to comply with restrictions on prior and concomitant medication as described in the protocol.\n* Non-smokers and non-users of any nicotine-containing products. A non-smoker is defined as an individual who has abstained from smoking for at least 1 year prior to screening. A non-user is defined as an individual who has abstained from any nicotine containing products for at least 1 year prior to the screening.\n* Negative urine screen for drugs of abuse (amphetamines, barbiturates, benzodiazepines, cannabis, cocaine, opiates, methadone, and tricyclic antidepressants) and negative alcohol breath test.\n* No evidence of lens opacity on slit lamp examination or similar system (e.g. ITrace technology).\n* Agree to the use of a highly effective method of contraception (see protocol).\n* Able and willing to sign the ICF as approved by the IEC, prior to any screening evaluations and willing to adhere to predefined prohibitions and restrictions.\n\nExclusion Criteria:\n\n* Known hypersensitivity to study drug ingredients or a significant allergic reaction to any drug as determined by the investigator, such as anaphylaxis requiring hospitalization.\n* Positive serology for hepatitis B virus surface antigen (HBs Ag), hepatitis C virus (HCV), or history of hepatitis from any cause with the exception of hepatitis A.\n* History of or a current immunosuppressive condition (e.g., human immunodeficiency virus \\[HIV\\] infection).\n* Clinically significant illness in the 3 months before the initial study drug administration.\n* Presence or sequelae of gastrointestinal, liver, kidney (creatinine clearance \u226480 mL/min using the Cockcroft-Gault formula; if calculated result \u226480 mL/min, a 24-hour urine collection to determine actual value can be performed) or other conditions known to interfere with the absorption, distribution, metabolism, or excretion of drugs.\n* History of malignancy within the past 5 years (except for basal cell carcinoma of the skin that has been treated and with no evidence of recurrence).\n* Treatment with any drug known to have a well-defined potential for toxicity to a major organ in the last 3 months of 5 half-lives of the drug (whichever is the longer) before the initial study drug administration.\n* Active drug or alcohol abuse (more than 3 glasses of wine or beer or equivalent/day) within 2 years prior to the initial study drug administration.\n* Participation in a drug, drug-device combination or biologic investigational research study within 12 weeks or 5 half-lives of the investigational drug (whichever is the longer) prior to initial study drug administration.\n* Any condition or circumstances that in the opinion of the investigator may make a subject unlikely or unable to complete the study or comply with study procedures and requirements.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "genderBased": true,
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Chris Brearley, MD",
+                "affiliation": "Lakefront Biotherapeutics NV",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "SGS LSS Clinical Pharmacology Unit Antwerp",
+                "city": "Antwerp",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.22047,
+                  "lon": 4.40026
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

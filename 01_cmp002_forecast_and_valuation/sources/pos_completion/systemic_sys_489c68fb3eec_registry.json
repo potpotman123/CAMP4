@@ -1,0 +1,4507 @@
+{
+  "integrated_id": "systemic:sys_489c68fb3eec",
+  "asset": "AMB new formulation (1 mg)",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.id=NCT04095286",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04095286",
+            "orgStudyIdInfo": {
+              "id": "205019"
+            },
+            "organization": {
+              "fullName": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Relative Bioavailability Study of Marketed and Lower Dose Ambrisentan in Healthy Adult Participants",
+            "officialTitle": "An Open-label, Randomized Three Period Cross-over Relative Bioavailability Study to Compare the Pharmacokinetic Parameters of a Lower Dose Formulation of Ambrisentan (GSK1325760) With Marketed Ambrisentan in Healthy Adult Participants"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2020-07",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2019-09-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2019-12-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2019-12-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-09-18",
+            "studyFirstSubmitQcDate": "2019-09-18",
+            "studyFirstPostDateStruct": {
+              "date": "2019-09-19",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2020-07-21",
+            "resultsFirstSubmitQcDate": "2020-07-21",
+            "resultsFirstPostDateStruct": {
+              "date": "2020-08-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2020-07-21",
+            "lastUpdatePostDateStruct": {
+              "date": "2020-08-06",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "GlaxoSmithKline",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a single center, open-label, randomized, single-dose, three-period cross-over study in healthy participants. The aim of this study is to provide clinically relevant information on the pharmacokinetic (PK) and safety profile of a new lower dose formulation ambrisentan (AMB) tablet, which is intended for pediatric use. The study will compare the relative bioavailability of the lower dose tablet, dispersed in water and administered orally, with the reference marketed AMB tablet in healthy adults. The total study duration for each participant is expected to be approximately 9 weeks."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hypertension, Pulmonary"
+            ],
+            "keywords": [
+              "Ambrisentan",
+              "Oral dosage forms",
+              "Pulmonary arterial hypertension",
+              "Bioavailability"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "interventionModelDescription": "This is a three-period crossover study",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 29,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "AMB dispersed in water/AMB oral tablet/reference AMB",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants will receive a single oral dose of 5 milligram (mg) AMB tablet dispersed in water during treatment period 1 followed by a single dose of 5 mg AMB oral tablet in treatment period 2. In treatment period 3, participants will receive a single oral dose of reference 5 mg AMB tablet. There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              },
+              {
+                "label": "AMB oral tablet/reference AMB/AMB dispersed in water",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants will receive single dose of 5 mg AMB oral tablet during treatment period 1 followed by single dose of reference 5 mg AMB oral tablet in treatment period 2. In treatment period 3, participants will receive single dose of 5 mg AMB tablet dispersed in water. There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              },
+              {
+                "label": "Reference AMB/AMB dispersed in water/AMB oral tablet",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants will receive single dose of reference 5 mg AMB oral tablet during treatment period 1 followed by single dose of 5 mg AMB tablet dispersed in water in treatment period 2. In treatment period 3 participants will receive single dose of 5 mg AMB oral tablet. There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              },
+              {
+                "label": "AMB dispersed in water/reference AMB/AMB oral tablet",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants will receive single dose of 5 mg AMB tablet dispersed in water during treatment period 1 followed by single dose of reference 5 mg AMB oral tablet in treatment period 2. In treatment period 3 participants will receive single dose of 5 mg AMB oral tablet. There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              },
+              {
+                "label": "AMB oral tablet/AMB dispersed in water/reference AMB",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants will receive single dose of 5 mg AMB oral tablet during treatment period 1 followed by single dose of 5 mg AMB tablet dispersed in water in treatment period 2. In treatment period 3 participants will receive single dose of reference 5 mg AMB oral tablet. There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              },
+              {
+                "label": "Reference AMB/AMB oral/AMB dispersed in water",
+                "type": "EXPERIMENTAL",
+                "description": "Eligible participants in this arm will receive single dose of reference 5 mg AMB oral tablet during treatment period 1 followed by single dose of 5 mg AMB oral tablet in treatment period 2. In treatment period 3 participants will receive single dose of 5 mg AMB tablet dispersed in water There will be a washout period of 7 days between doses in each treatment period.",
+                "interventionNames": [
+                  "Drug: AMB new formulation (1 mg)",
+                  "Drug: Reference AMB (5 mg)"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "AMB new formulation (1 mg)",
+                "description": "AMB tablets will be available at a unit dose strength of 1 mg. Participants will orally administer 5 tablets of 1 mg unit dose.",
+                "armGroupLabels": [
+                  "AMB dispersed in water/AMB oral tablet/reference AMB",
+                  "AMB dispersed in water/reference AMB/AMB oral tablet",
+                  "AMB oral tablet/AMB dispersed in water/reference AMB",
+                  "AMB oral tablet/reference AMB/AMB dispersed in water",
+                  "Reference AMB/AMB dispersed in water/AMB oral tablet",
+                  "Reference AMB/AMB oral/AMB dispersed in water"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Reference AMB (5 mg)",
+                "description": "AMB reference tablet will be available as film-coated tablet at unit dose strength of 5 mg. Participants will orally administer 1 tablet of 5 mg unit dose",
+                "armGroupLabels": [
+                  "AMB dispersed in water/AMB oral tablet/reference AMB",
+                  "AMB dispersed in water/reference AMB/AMB oral tablet",
+                  "AMB oral tablet/AMB dispersed in water/reference AMB",
+                  "AMB oral tablet/reference AMB/AMB dispersed in water",
+                  "Reference AMB/AMB dispersed in water/AMB oral tablet",
+                  "Reference AMB/AMB oral/AMB dispersed in water"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Maximum Observed Plasma Concentration (Cmax) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis. PK Parameter Population included all participants who provided PK parameter data.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              },
+              {
+                "measure": "Time to Cmax (Tmax) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              },
+              {
+                "measure": "Time of Last Quantifiable Concentration (Tlast) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              },
+              {
+                "measure": "Area Under the Plasma Concentration-time Curve From Time Zero Extrapolated to Infinite Time [(AUC(0-inf)] After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              },
+              {
+                "measure": "Area Under the Plasma Concentration-time Curve From Time Zero to Last Time of Quantifiable Concentration [AUC(0-t)] After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              },
+              {
+                "measure": "Apparent Terminal Phase Half-life (t1/2) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of Participants With Serious Adverse Events (SAEs) and Non-Serious Adverse Events (Non-SAEs >=2%)",
+                "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of a study intervention, whether or not considered related to the study intervention. Any untoward event resulting in death, life threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent disability/incapacity, congenital anomaly/birth defect, any other situation according to medical or scientific judgment were categorized as SAE.",
+                "timeFrame": "Up to 40 days"
+              },
+              {
+                "measure": "Number of Participants With Worst Case Vital Sign Results Relative to Potential Clinical Importance (PCI) Criteria Post-Baseline Relative to Baseline",
+                "description": "Vital signs were measured in semi-supine position after 5 minutes rest and included Systolic blood pressure (SBP), Diastolic blood pressure (DBP), Heart rate (HR). Data for number of participants with Post-Baseline worst case Vital Sign results relative to PCI Criteria relative to Baseline has been presented. Participants are counted in worst case category that their value changes to low, within range or high. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in \"Within Range or No Change\" category. Participants are counted twice if values changed 'To Low' and 'To High', so the percentages are not added to 100%. Participants with missing baseline value are assumed as within range value. PCI ranges were: SBP \\[lower: \\<85, upper: \\>160 millimeter of mercury (mmHg)\\]; DBP (lower: \\<40, upper: \\>110 mmHg); HR (lower: \\<45, upper: \\>100 beats per minute). The value at Day 1 was considered as Baseline.",
+                "timeFrame": "Baseline (Day 1) and up to 40 days"
+              },
+              {
+                "measure": "Number of Participants With Worst Case Post-Baseline Abnormal Electrocardiogram (ECG) Findings",
+                "description": "12-lead ECGs were recorded in semi-supine position after 5 minutes rest using an ECG machine that automatically calculated the heart rate and measured PR, QRS, QT and QT duration corrected for heart rate by Fridericia's formula (QTcF) intervals. Data for number of participants with abnormal clinically significant ECG findings for worst case post-Baseline has been presented. Clinically significant abnormal laboratory findings are those which are not associated with the underlying disease, unless judged by the investigator to be more severe than expected for the participant's condition. The value at Day 1 was considered as Baseline.",
+                "timeFrame": "Baseline (Day 1) and up to 40 days"
+              },
+              {
+                "measure": "Number of Participants With Worst Case Hematology Results Relative to PCI Criteria Post-Baseline Relative to Baseline",
+                "description": "Blood samples were collected to analyze hemoglobin, hematocrit, lymphocytes, total neutrophils, platelet count, and white blood cell(WBC) counts. PCI ranges were hematocrit (high: \\>0.54 proportion of red blood cells in blood and low: change from Baseline \\<0.075); hemoglobin(high: \\>180 grams per liter\\[g/L\\] and low: change from Baseline \\<25 g/L); lymphocytes (low: \\<0.8 Giga cells per liter\\[GI/L\\]); platelet count (low: \\<100 GI/L and high: \\>550 GI/L); neutrophil count (low: \\<1.5 GI/L); WBC count (low: \\<3 GI/L and high: \\>20 GI/L). Participants were counted in worst-case category that their value changed to low, within range or no change, or high unless there was no change in their category. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, were recorded in ''To within Range or No Change' category. Participants were counted twice if participant had both values that changed 'To Low' and 'To High'. Baseline is defined as Day -1.",
+                "timeFrame": "Baseline (Day -1) and up to 40 days"
+              },
+              {
+                "measure": "Number of Participants With Worst Case Clinical Chemistry Results Relative to PCI Criteria Post-Baseline Relative to Baseline",
+                "description": "Blood samples were collected to analyze PCI ranges for aspartate amino transferase (AST), alanine amino transferase (ALT), \\& alkaline phosphatase (ALP) (high: \\>=2 times (\\*) upper limit of normal \\[ULN\\] International units per liter \\[IU/L\\]); bilirubin (high: \\>=1.5 \\* ULN micromoles per liter \\[\u00b5mol/L\\]); calcium (low: \\<2 millimoles per liter \\[mmol/L\\] \\& high: \\>2.75 mmol/L); glucose (low: \\<3 \\& high: \\>9 mmol/L); potassium (low: \\<3 \\& high: \\>5.5 mmol/L); sodium (low: \\<130 \\& high: \\>150 mmol/L) \\& Blood Urea Nitrogen (BUN) (high: \\>=2 \\* ULN \u00b5mol/L). Participants were counted in worst-case category that their value changed to (low, within range or no change, or high) unless there was no change in their category. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, were recorded in the 'To within Range or No Change' category. Participants were counted twice if participant had both values that changed 'To Low' \\& 'To High'.",
+                "timeFrame": "Baseline (Day -1) and up to 40 days"
+              },
+              {
+                "measure": "Number of Participants With Worst Case Any Increase in Urinalysis Results Post-Baseline Relative to Baseline",
+                "description": "Urine samples were collected for analysis of cellular casts, granular casts, hyaline casts and red blood cells. WBCs were counted as cells per high-power field (cells/HPF). Participants with worst case any increase in urinalysis results post-Baseline relative to Baseline has been presented. Baseline is defined as Day -1.",
+                "timeFrame": "Baseline (Day -1) and up to 40 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be 18 to 65 years of age inclusive, at the time of signing the informed consent.\n* Participants who are overtly healthy as determined by medical evaluation including medical history, physical examination, laboratory tests, vital signs and cardiac monitoring.\n* Average systolic blood pressure between 100-160 millimeter of mercury (mmHg) and diastolic between 55-90 mmHg (inclusive) over 3 readings at Screening.\n* Body weight \\>=50 kilogram (kg) for men and \\>= 45kg for women, and body mass index (BMI) within the range 18-30 kilogram per meter square (kg/m\\^2) (inclusive).\n* Male participants are eligible to participate if they agree to the following during the study and for at least 13 weeks afterwards corresponding to time needed to eliminate study intervention (5 terminal half-lives) plus an additional 90 days (a spermatogenesis cycle): 1. Refrain from donating sperm plus either 2. Be abstinent from heterosexual intercourse as their preferred and usual lifestyle (abstinent on a long term and persistent basis) and agree to remain abstinent. OR\n* Must agree to use contraception/barrier, as follows: Agree to use a male condom; and Female partner to use an additional highly effective contraceptive method with a failure rate of \\<1% per year as described.\n* A female participant is eligible to participate if she is not a woman of childbearing potential (WOCBP).\n* Capable of giving signed informed consent.\n\nExclusion Criteria:\n\n* History or presence of cardiovascular, respiratory, hepatic, renal, gastrointestinal,endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the study intervention or interfering with the interpretation of data.\n* History or presence of palpitations or tachyarrhythmia.\n* Hemoglobin (Hb) below the normal range (Hb \\<133 grams per liter \\[g/L\\] for male participants ; and Hb \\<114 g/L for female participants).\n* Alanine transaminase (ALT) \\>1.5 times upper limit of normal (ULN)\n* Bilirubin \\>1.5 times ULN (isolated bilirubin \\>1.5 times ULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%).\n* Current or chronic history of liver disease, or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* Corrected QT interval (QTc) \\>450 millisecond (msec).\n* Past or intended use of over-the-counter or prescription medication (including vitamins and dietary or herbal supplements but excluding paracetamol \\<=2 grams/day) within 7 days (or 14 days if the drug is a potential enzyme inhibitor) or 5 half-lives (whichever is longer) prior to the first dose of study medication, unless approved by the Investigator in conjunction with GlaxoSmithKline Medical Monitor.\n* Participation in the study would result in loss of blood or blood products in excess of 500 milliliter (mL) within a 56-day period.\n* Exposure to more than 4 new chemical entities within 12 months prior to the first dosing day.\n* Current enrolment or past participation within 30 days before Screening in any other clinical study involving an investigational study intervention or any other type of medical research.\n* Presence of Hepatitis B surface antigen (HBsAg) at Screening or within 3 months prior to first dose of study intervention.\n* Positive Hepatitis C antibody test result at Screening or within 3 months prior to first dose of study intervention.\n* Positive Hepatitis C Ribonucleic acid (RNA) test result at Screening or within 3 months prior to first dose of study intervention.\n* Positive human immunodeficiency virus (HIV) antibody test.\n* Positive pre-study drug/alcohol screen.\n* Regular use of known drugs of abuse.\n* Regular alcohol consumption within 6 months prior to the study defined as: An average weekly intake of \\>14 units. One unit is equivalent to 8 grams of alcohol: a half-pint (equivalent to 240 mL) of beer, 1 glass (125 mL) of wine or 1 (25 mL) measure of spirits.\n* Smoking \\> 5 cigarettes per week (or equivalent) and participants must be able to abstain from smoking for a 24-hour period prior to dose and any time whilst in the clinical unit.\n* Sensitivity to any of the study interventions, or components thereof, or drug or other allergy that, in the opinion of the investigator or medical monitor, contraindicates participation in the study",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "GSK Clinical Trials",
+                "affiliation": "GlaxoSmithKline",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "GSK Investigational Site",
+                "city": "Cambridge",
+                "state": "Cambridgeshire",
+                "zip": "CB2 2GG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "IPD for this study will be made available via the Clinical Study Data Request site.",
+            "infoTypes": [
+              "STUDY_PROTOCOL",
+              "SAP",
+              "ICF",
+              "CSR"
+            ],
+            "timeFrame": "IPD will be made available within 6 months of publishing the results of the primary endpoints of the study.",
+            "accessCriteria": "Access is provided after a research proposal is submitted and has received approval from the Independent Review Panel and after a Data Sharing Agreement is in place. Access is provided for an initial period of 12 months but an extension can be granted, when justified, for up to another 12 months.",
+            "url": "http://clinicalstudydatarequest.com"
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "preAssignmentDetails": "A total of 29 participants were enrolled at a single center in the United Kingdom.",
+            "recruitmentDetails": "This was a single center, open-label, randomized, single dose, 3-period crossover study in healthy participants that compared the pharmacokinetics (PK) of a new lower dose formulation (dispersed in water and administered intact orally) of ambrisentan (AMB) tablet with the reference marketed AMB tablet (administered orally).",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "AMB Dispersed in Water/AMB Oral Tablet/Reference AMB",
+                "description": "Participants received a single oral dose of 5 milligram (mg) (administered as 5 x 1 mg tablet) AMB tablet dispersed in water during treatment period 1 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact in treatment period 2 followed by a single oral dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB tablet in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              },
+              {
+                "id": "FG001",
+                "title": "AMB Oral Tablet/Reference AMB/AMB Dispersed in Water",
+                "description": "Participants received a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact during treatment period 1 followed by a single dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB oral tablet in treatment period 2 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB tablet dispersed in water in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              },
+              {
+                "id": "FG002",
+                "title": "Reference AMB/AMB Dispersed in Water/AMB Oral Tablet",
+                "description": "Participants received a single dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB oral tablet during treatment period 1 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB tablet dispersed in water in treatment period 2 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              },
+              {
+                "id": "FG003",
+                "title": "AMB Dispersed in Water/Reference AMB/AMB Oral Tablet",
+                "description": "Participants received a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB tablet dispersed in water during treatment period 1 followed by a single dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB oral tablet in treatment period 2 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              },
+              {
+                "id": "FG004",
+                "title": "AMB Oral Tablet/AMB Dispersed in Water/Reference AMB",
+                "description": "Participants received a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact during treatment period 1 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB tablet dispersed in water in treatment period 2 followed by a single dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB oral tablet in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              },
+              {
+                "id": "FG005",
+                "title": "Reference AMB/AMB Oral/AMB Dispersed in Water",
+                "description": "Participants received a single dose of reference 5 mg (administered as 1 x 5 mg tablet) AMB oral tablet during treatment period 1 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB oral tablet administered intact in treatment period 2 followed by a single dose of 5 mg (administered as 5 x 1 mg tablet) AMB tablet dispersed in water in treatment period 3. The treatment periods were separated by a washout period of minimum 7 days."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Period 1 (4 Days) + Washout (7days)",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Met Protocol-defined Stopping Criteria",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Withdrawal by Subject",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Adverse Event",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Period 2 (4 Days) + Washout (7days)",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Met Protocol-defined Stopping Criteria",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Adverse Event",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Period 3 (4 Days) + Follow up (14 Days)",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "5"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "4"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG005",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "All Study Participants",
+                "description": "Participants received a single oral dose of AMB tablet (administered as 5 x 1 mg tablet) dispersed in water (F1) or a single dose of AMB oral tablet (administered as 5 x 1 mg tablet) administered intact (F2) or a single oral dose of reference AMB tablet (R) administered as 1 x 5 mg tablet in the following six sequences F1/F2/R, F2/R/F1, R/F1/F2, F1/R/F2, F2/F1/R and R/F2/F1."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "29"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "Years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "42.3",
+                            "spread": "11.16"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "27"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race/Ethnicity, Customized",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Asian - Central/South Asian Heritage",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian - East Asian Heritage",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White - Arabic/North African Heritage",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White - White/Caucasian/European Heritage",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "25"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Maximum Observed Plasma Concentration (Cmax) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis. PK Parameter Population included all participants who provided PK parameter data.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "Geometric Coefficient of Variation",
+                "unitOfMeasure": "Nanogram per milliliter",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "359.030",
+                            "spread": "15.5"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "316.505",
+                            "spread": "19.2"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "353.252",
+                            "spread": "29.3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "1.03",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.96",
+                    "ciUpperLimit": "1.11",
+                    "estimateComment": "Treatment comparison between AMB dispersed in water and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  },
+                  {
+                    "groupIds": [
+                      "OG001",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "0.91",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "0.85",
+                    "ciUpperLimit": "0.98",
+                    "estimateComment": "Treatment comparison between AMB oral tablet and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Time to Cmax (Tmax) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEDIAN",
+                "dispersionType": "Full Range",
+                "unitOfMeasure": "Hour",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.000",
+                            "lowerLimit": "0.50",
+                            "upperLimit": "2.00"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2.000",
+                            "lowerLimit": "1.00",
+                            "upperLimit": "4.00"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1.750",
+                            "lowerLimit": "0.50",
+                            "upperLimit": "8.00"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Time of Last Quantifiable Concentration (Tlast) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEDIAN",
+                "dispersionType": "Full Range",
+                "unitOfMeasure": "Hour",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "72.00",
+                            "lowerLimit": "71.5",
+                            "upperLimit": "72.4"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "72.00",
+                            "lowerLimit": "71.5",
+                            "upperLimit": "72.1"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "72.00",
+                            "lowerLimit": "71.5",
+                            "upperLimit": "72.2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Area Under the Plasma Concentration-time Curve From Time Zero Extrapolated to Infinite Time [(AUC(0-inf)] After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analysed.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "Geometric Coefficient of Variation",
+                "unitOfMeasure": "Hours*nanogram per milliliter",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "23"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "22"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "3006.443",
+                            "spread": "23.6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2859.283",
+                            "spread": "21.7"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "2963.908",
+                            "spread": "21.6"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "1.05",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "1.02",
+                    "ciUpperLimit": "1.09",
+                    "estimateComment": "Treatment comparison between AMB dispersed in water and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  },
+                  {
+                    "groupIds": [
+                      "OG001",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "1.04",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "1.00",
+                    "ciUpperLimit": "1.08",
+                    "estimateComment": "Treatment comparison between AMB oral tablet and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Area Under the Plasma Concentration-time Curve From Time Zero to Last Time of Quantifiable Concentration [AUC(0-t)] After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "Geometric Coefficient of Variation",
+                "unitOfMeasure": "Hours*nanogram per milliliter",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "2844.151",
+                            "spread": "22.1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2849.378",
+                            "spread": "22.0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "2779.364",
+                            "spread": "21.4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "analyses": [
+                  {
+                    "groupIds": [
+                      "OG000",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "1.05",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "1.02",
+                    "ciUpperLimit": "1.08",
+                    "estimateComment": "Treatment comparison between AMB dispersed in water and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  },
+                  {
+                    "groupIds": [
+                      "OG001",
+                      "OG002"
+                    ],
+                    "nonInferiorityType": "OTHER",
+                    "paramType": "Ratio of adjusted geometric mean",
+                    "paramValue": "1.04",
+                    "ciPctValue": "90",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciLowerLimit": "1.01",
+                    "ciUpperLimit": "1.07",
+                    "estimateComment": "Treatment comparison between AMB oral tablet and reference AMB tablet using ratio of adjusted geometric mean and its corresponding 90% confidence interval has been presented"
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "Apparent Terminal Phase Half-life (t1/2) After Administration of AMB Under Fasted Condition",
+                "description": "Blood samples were collected at indicated time-points for PK analysis of AMB. PK parameters were calculated by standard non-compartmental analysis.",
+                "populationDescription": "PK Parameter Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "GEOMETRIC_MEAN",
+                "dispersionType": "Geometric Coefficient of Variation",
+                "unitOfMeasure": "Hour",
+                "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 2.5, 4, 8, 12, 18, 24, 36, 48 and 72 hours post-dose",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "23"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "22"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "19.250",
+                            "spread": "15.6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "18.119",
+                            "spread": "19.3"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "18.197",
+                            "spread": "16.4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Serious Adverse Events (SAEs) and Non-Serious Adverse Events (Non-SAEs >=2%)",
+                "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of a study intervention, whether or not considered related to the study intervention. Any untoward event resulting in death, life threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent disability/incapacity, congenital anomaly/birth defect, any other situation according to medical or scientific judgment were categorized as SAE.",
+                "populationDescription": "Safety Population comprises of all randomized participants who took at least 1 dose of study intervention. Participants were analyzed according to the intervention actually received. Only those participants with data available at the specified data points were analysed.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "non-SAE (>=2%)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "SAE",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Worst Case Vital Sign Results Relative to Potential Clinical Importance (PCI) Criteria Post-Baseline Relative to Baseline",
+                "description": "Vital signs were measured in semi-supine position after 5 minutes rest and included Systolic blood pressure (SBP), Diastolic blood pressure (DBP), Heart rate (HR). Data for number of participants with Post-Baseline worst case Vital Sign results relative to PCI Criteria relative to Baseline has been presented. Participants are counted in worst case category that their value changes to low, within range or high. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in \"Within Range or No Change\" category. Participants are counted twice if values changed 'To Low' and 'To High', so the percentages are not added to 100%. Participants with missing baseline value are assumed as within range value. PCI ranges were: SBP \\[lower: \\<85, upper: \\>160 millimeter of mercury (mmHg)\\]; DBP (lower: \\<40, upper: \\>110 mmHg); HR (lower: \\<45, upper: \\>100 beats per minute). The value at Day 1 was considered as Baseline.",
+                "populationDescription": "Safety Population. Only those participants with data available at the specified data points were analysed.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline (Day 1) and up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "SBP, To Low",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "SBP, Within Range or No Change",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "SBP, To High",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "DBP, To Low",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "DBP, Within Range or No Change",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "DBP, To High",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "HR, To Low",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "HR, Within Range or No Change",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "HR, To High",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Worst Case Post-Baseline Abnormal Electrocardiogram (ECG) Findings",
+                "description": "12-lead ECGs were recorded in semi-supine position after 5 minutes rest using an ECG machine that automatically calculated the heart rate and measured PR, QRS, QT and QT duration corrected for heart rate by Fridericia's formula (QTcF) intervals. Data for number of participants with abnormal clinically significant ECG findings for worst case post-Baseline has been presented. Clinically significant abnormal laboratory findings are those which are not associated with the underlying disease, unless judged by the investigator to be more severe than expected for the participant's condition. The value at Day 1 was considered as Baseline.",
+                "populationDescription": "Safety Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline (Day 1) and up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Abnormal, not clinically significant",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "5"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Abnormal - clinically significant",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Worst Case Hematology Results Relative to PCI Criteria Post-Baseline Relative to Baseline",
+                "description": "Blood samples were collected to analyze hemoglobin, hematocrit, lymphocytes, total neutrophils, platelet count, and white blood cell(WBC) counts. PCI ranges were hematocrit (high: \\>0.54 proportion of red blood cells in blood and low: change from Baseline \\<0.075); hemoglobin(high: \\>180 grams per liter\\[g/L\\] and low: change from Baseline \\<25 g/L); lymphocytes (low: \\<0.8 Giga cells per liter\\[GI/L\\]); platelet count (low: \\<100 GI/L and high: \\>550 GI/L); neutrophil count (low: \\<1.5 GI/L); WBC count (low: \\<3 GI/L and high: \\>20 GI/L). Participants were counted in worst-case category that their value changed to low, within range or no change, or high unless there was no change in their category. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, were recorded in ''To within Range or No Change' category. Participants were counted twice if participant had both values that changed 'To Low' and 'To High'. Baseline is defined as Day -1.",
+                "populationDescription": "Safety Population. Only those participants with data available at the specified data points were analyzed (represented by n= X in the category titles)",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline (Day -1) and up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Hemoglobin, To Low, , n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin,To within Range/No Change, n=27,25,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hemoglobin, To High, , n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hematocrit, To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hematocrit,To within Range/No Change, n=27,25,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hematocrit, To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lymphocytes, To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lymphocytes,To within Range/No Change,n=27,25,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lymphocytes, To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Neutrophil count, To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Neutrophil,To within Range/No Change, n=27,25,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Neutrophil count, To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Platelet count, To Low, n=27, 24, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "24"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Platelet,To within Range/No Change,n=27,24,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "24"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "24"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Platelet count, To High, n=27, 24, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "24"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "WBC, To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "WBC,To within Range/No Change,n=27,25,26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "WBC, To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Worst Case Clinical Chemistry Results Relative to PCI Criteria Post-Baseline Relative to Baseline",
+                "description": "Blood samples were collected to analyze PCI ranges for aspartate amino transferase (AST), alanine amino transferase (ALT), \\& alkaline phosphatase (ALP) (high: \\>=2 times (\\*) upper limit of normal \\[ULN\\] International units per liter \\[IU/L\\]); bilirubin (high: \\>=1.5 \\* ULN micromoles per liter \\[\u00b5mol/L\\]); calcium (low: \\<2 millimoles per liter \\[mmol/L\\] \\& high: \\>2.75 mmol/L); glucose (low: \\<3 \\& high: \\>9 mmol/L); potassium (low: \\<3 \\& high: \\>5.5 mmol/L); sodium (low: \\<130 \\& high: \\>150 mmol/L) \\& Blood Urea Nitrogen (BUN) (high: \\>=2 \\* ULN \u00b5mol/L). Participants were counted in worst-case category that their value changed to (low, within range or no change, or high) unless there was no change in their category. Participants whose value category was unchanged (e.g., High to High), or whose value became within range, were recorded in the 'To within Range or No Change' category. Participants were counted twice if participant had both values that changed 'To Low' \\& 'To High'.",
+                "populationDescription": "Safety Population. Only those participants with data available at the specified data points were analyzed (represented by n= X in the category titles)",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline (Day -1) and up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "27"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "26"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "ALP,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ALP,To within Range/No Change,n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ALP,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ALT,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ALT,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "ALT,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "AST,To Low, n=26, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "AST,To within Range/No Change, n=26, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "AST,To High, n=26, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "26"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Bilirubin,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Bilirubin,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Bilirubin,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Calcium,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Calcium,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Calcium,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Glucose,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Glucose,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Glucose,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Potassium,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Potassium,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Potassium,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Sodium,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Sodium,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Sodium,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "BUN,To Low, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "BUN,To within Range/No Change, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "BUN,To High, n=27, 25, 26",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "27"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "25"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "26"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Participants With Worst Case Any Increase in Urinalysis Results Post-Baseline Relative to Baseline",
+                "description": "Urine samples were collected for analysis of cellular casts, granular casts, hyaline casts and red blood cells. WBCs were counted as cells per high-power field (cells/HPF). Participants with worst case any increase in urinalysis results post-Baseline relative to Baseline has been presented. Baseline is defined as Day -1.",
+                "populationDescription": "Safety Population. Only those participants with data available at the specified data points were analyzed.",
+                "reportingStatus": "POSTED",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "Baseline (Day -1) and up to 40 days",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "AMB Dispersed in Water",
+                    "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally"
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "AMB Oral Tablet",
+                    "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally"
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "Reference AMB",
+                    "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "3"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "1"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Urine Microscopy - Cellular Casts",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Urine Microscopy - Granular Casts",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Urine Microscopy - Hyaline Casts",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Urine Microscopy - Red Blood Cells",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Urine Microscopy-WBCs (1-9 cells/HPF)",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "2",
+            "timeFrame": "SAEs and non-SAEs were collected from the start of study treatment until the follow up (Up to 40 days)",
+            "description": "SAEs and Non-SAEs were reported for Safety Population which comprised of all participants who received at least one dose of study intervention. Data has been presented treatment wise.",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "AMB Dispersed in Water",
+                "description": "Participants received a single dose of 5 mg AMB tablet dispersed in water and administered orally",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 27,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 27,
+                "otherNumAffected": 5,
+                "otherNumAtRisk": 27
+              },
+              {
+                "id": "EG001",
+                "title": "AMB Oral Tablet",
+                "description": "Participants received a single dose of 5 mg AMB tablet administered intact orally",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 25,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 25,
+                "otherNumAffected": 7,
+                "otherNumAtRisk": 25
+              },
+              {
+                "id": "EG002",
+                "title": "Reference AMB",
+                "description": "Participants received a single dose of reference 5 mg AMB tablet administered orally",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 26,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 26,
+                "otherNumAffected": 5,
+                "otherNumAtRisk": 26
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Ocular hyperaemia",
+                "organSystem": "Eye disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Diarrhoea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Nausea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Vomiting",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Catheter site pain",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Catheter site swelling",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Feeling hot",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Malaise",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Pain",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Pyrexia",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Nasopharyngitis",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Contusion",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Heart rate increased",
+                "organSystem": "Investigations",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Liver function test abnormal",
+                "organSystem": "Investigations",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Dizziness",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 4,
+                    "numAffected": 3,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 2,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Nasal congestion",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Dermatitis contact",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 26
+                  }
+                ]
+              },
+              {
+                "term": "Erythema",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "sourceVocabulary": "MedDRA 22.1",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 27
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 25
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 26
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "OTHER",
+              "restrictiveAgreement": true,
+              "otherDetails": "GSK agreements may vary with individual investigators, but will not prohibit any investigator from publishing. GSK supports the publication of results from all centers of a multi-center trial but requests that reports based on single-site data not precede the primary publication of the entire clinical trial"
+            },
+            "pointOfContact": {
+              "title": "GSK Response Center",
+              "organization": "GlaxoSmithKline",
+              "email": "GSKClinicalSupportHD@gsk.com",
+              "phone": "866-435-7343"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot",
+                "hasProtocol": true,
+                "hasSap": false,
+                "hasIcf": false,
+                "label": "Study Protocol",
+                "date": "2019-06-19",
+                "uploadDate": "2020-07-12T19:17",
+                "filename": "Prot_000.pdf",
+                "size": 937836
+              },
+              {
+                "typeAbbrev": "SAP",
+                "hasProtocol": false,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Statistical Analysis Plan",
+                "date": "2020-01-14",
+                "uploadDate": "2020-07-12T19:18",
+                "filename": "SAP_001.pdf",
+                "size": 539472
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D006976",
+                "term": "Hypertension, Pulmonary"
+              },
+              {
+                "id": "D000081029",
+                "term": "Pulmonary Arterial Hypertension"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D006973",
+                "term": "Hypertension"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      }
+    ]
+  }
+}

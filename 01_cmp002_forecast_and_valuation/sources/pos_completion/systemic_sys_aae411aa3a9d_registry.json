@@ -1,0 +1,308 @@
+{
+  "integrated_id": "systemic:sys_aae411aa3a9d",
+  "asset": "CR002 Liquid API",
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.intr=CR002+Liquid+API",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01347190",
+            "orgStudyIdInfo": {
+              "id": "CR002_1004"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2010-022671-60",
+                "type": "EUDRACT_NUMBER"
+              }
+            ],
+            "organization": {
+              "fullName": "CSL Behring",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety and Tolerability Study of Liquid Alpha1 Proteinase Inhibitor (API) in Subjects With Cystic Fibrosis",
+            "officialTitle": "A Double Blind, Randomized, Placebo Controlled, Single Dose, Phase I Study of the Safety and Tolerability of Alpha1 Proteinase Inhibitor (Human) Inhalation Solution (CR002) in Subjects With Cystic Fibrosis"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2012-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2011-04"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-08",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2011-08",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2011-05-03",
+            "studyFirstSubmitQcDate": "2011-05-03",
+            "studyFirstPostDateStruct": {
+              "date": "2011-05-04",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2012-04-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2012-04-05",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "CSL Behring",
+              "class": "INDUSTRY"
+            }
+          },
+          "descriptionModule": {
+            "briefSummary": "Study to assess safety and tolerability of a single dose of study-drug administered to Cystic Fibrosis (CF) patients."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Cystic Fibrosis"
+            ],
+            "keywords": [
+              "Cystic Fibrosis"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 25,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Liquid API",
+                "type": "EXPERIMENTAL",
+                "interventionNames": [
+                  "Biological: CR002 Liquid API"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Biological: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "BIOLOGICAL",
+                "name": "CR002 Liquid API",
+                "description": "A single nominal dose of CR002 (three different dose groups) will be inhaled as an aerosol mist produced by an I-neb Adaptive Aerosol Delivery (AAD) System.",
+                "armGroupLabels": [
+                  "Liquid API"
+                ]
+              },
+              {
+                "type": "BIOLOGICAL",
+                "name": "Placebo",
+                "description": "A single nominal dose of Placebo will be inhaled as an aerosol mist produced by an I-neb Adaptive Aerosol Delivery (AAD) System.",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Frequency of Adverse events",
+                "timeFrame": "44 Days (Day -21 to Day 22)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Have a confirmed diagnosis of CF: one or more clinical findings consistent with CF and at least one of the following:\n\n  1. Sweat chloride \u2265 60 mEq/L by quantitative pilocarpine iontophoresis test OR\n  2. A genotype with two identifiable mutations consistent with CF (\u2206F508 homozygous or two alleles known to cause a class I, II, or III mutation)\n* Have an FEV1 \u226530% of predicted normal as defined by age, gender, and height\n\nExclusion Criteria:\n\n* Oxygen saturation \\<90%\n* Changed in treatment regimen within 2 weeks prior to screening\n* Antibiotics regimen change \\< 4 weeks before screening\n* Persistent colonization with Burkholderia cepacia\n* Serum IgA \\< 50% of lower level of normal",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Program director Clinical R&D",
+                "affiliation": "CSL Behring",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Site 11",
+                "city": "Sofia",
+                "country": "Bulgaria",
+                "geoPoint": {
+                  "lat": 42.69751,
+                  "lon": 23.32415
+                }
+              },
+              {
+                "facility": "Site 12",
+                "city": "Varna",
+                "country": "Bulgaria",
+                "geoPoint": {
+                  "lat": 43.21912,
+                  "lon": 27.91024
+                }
+              },
+              {
+                "facility": "Site 30",
+                "city": "Debrecen",
+                "country": "Hungary",
+                "geoPoint": {
+                  "lat": 47.53167,
+                  "lon": 21.62444
+                }
+              },
+              {
+                "facility": "Site 24",
+                "city": "Bialystok",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 53.13333,
+                  "lon": 23.16433
+                }
+              },
+              {
+                "facility": "Site 22",
+                "city": "Gdansk",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 54.35227,
+                  "lon": 18.64912
+                }
+              },
+              {
+                "facility": "Site 21",
+                "city": "Poznan",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 52.40692,
+                  "lon": 16.92993
+                }
+              },
+              {
+                "facility": "Site 20",
+                "city": "Rabka-Zdr\u00f3j",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 49.60889,
+                  "lon": 19.96654
+                }
+              },
+              {
+                "facility": "Site 23",
+                "city": "Warsaw",
+                "country": "Poland",
+                "geoPoint": {
+                  "lat": 52.22977,
+                  "lon": 21.01178
+                }
+              },
+              {
+                "facility": "Site 42",
+                "city": "Papworth Hospital",
+                "country": "United Kingdom"
+              },
+              {
+                "facility": "Site 40",
+                "city": "Penarth",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.4386,
+                  "lon": -3.17342
+                }
+              },
+              {
+                "facility": "Site 41",
+                "city": "Southampton",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.90395,
+                  "lon": -1.40428
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D003550",
+                "term": "Cystic Fibrosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D010182",
+                "term": "Pancreatic Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D007232",
+                "term": "Infant, Newborn, Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}
