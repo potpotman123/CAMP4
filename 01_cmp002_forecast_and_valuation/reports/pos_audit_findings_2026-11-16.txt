@@ -1,0 +1,42 @@
+CMP-002 PoS audit — decision memo
+16 November 2026 | Project 1 | First public-source audit, not a complete global denominator
+
+CONCLUSION
+Needham's 25% is defensible as an optimistic judgmental approval assumption. The evidence does not establish it as conservative or empirically calibrated, but also does not prove it is too high. A generic 10% Phase-I benchmark is not an adequate rebuttal. CMP-002 is regulatory-cleared and awaiting first dosing, not a discovery-stage project.
+
+If a single model input is needed now, 20% is a provisional judgment, with 10% downside, Needham's 25% explicitly retained, and 35% upside. These are scenarios, not estimated probabilities or a confidence interval. There is no statistical evidence here identifying a five-point difference between 20% and 25%; using a range without a preferred point is also defensible.
+
+WHAT WAS BUILT
+24 intrathecal CNS ASO assets / 28 drug-indication pairs with identified group-trial starts in 2010–2024. The underlying discovery query, 25 named/alias registry queries and seven targeted trial records are saved. The initial generic query returned 25 trials, not the whole clinical universe. Literature/pipeline discovery and sponsor termination disclosures filled gaps. Separate boundaries retain very recent entrants, individualized therapies, ocular/systemic programs and the older superseded SOD1 candidate.
+
+At asset level: 3 approved; 7 stopped for efficacy; 1 stopped for disclosed strategy; 1 sponsor exit with asset fate unresolved; 12 still developing. These counts are not a lifetime approval rate. They are affected by incomplete coverage, different follow-up and correlated assets/targets/platforms.
+
+CLOSEST PEERS
+Zorevunersen / Dravet: closest DEE and deficient-protein restoration analogue. Early human signals and ongoing Phase III, not approval.
+Apazunersen (GTX-102) / Angelman: close pediatric protein-restoration and functional-endpoint analogue. September 2026 pivotal primary/key-secondary failure; November filing confirms wind-down.
+Rugonersen / Angelman: early human data; ongoing Phase III with OHB sponsor.
+Obudanersen (ION582) / Angelman: ongoing Phase III at Ionis despite Biogen declining its option.
+This four-program group has zero approvals, one stop and three ongoing programs. It is immature, not evidence of 0% PoS. Three molecules share Angelman/UBE3A biology, so four programs do not represent four independent biological tests.
+
+EVIDENCE SUPPORTING 25%
+Nusinersen validates protein-increasing intrathecal ASO treatment in a genetic disease, though SMA biology/endpoints differ. Zilganersen's September 2026 approval provides recent rare pediatric/adult CNS evidence, but through GFAP lowering. Tofersen demonstrates an accelerated approval pathway in genetic ALS, which cannot be assumed transferable to SYNGAP1. Ulefnersen's positive Phase III FUS-ALS results are supportive but are not an approval. CAMP has genetically causal biology, drug-specific mouse evidence and regulatory clearance. Independent adult mouse genetic rescue argues against a blanket assumption of irreversible disease after infancy.
+
+EVIDENCE AGAINST CALLING 25% CONSERVATIVE
+GTX-102 shows that early pediatric restoration signals need not survive a randomized pivotal trial. WVE-004 and BIIB105 show biomarker/target engagement without clinical benefit. BIIB078 and tominersen add genetic-CNS failures. CMP's regRNA transcriptional approach, human CNS distribution, safe dosage window, clinical reversibility and endpoint sensitivity remain unresolved. Successful ASOs do not directly validate the whole CMP-002 mechanism.
+
+CLASSIFICATION CORRECTIONS
+Do not count Biogen's ION582 option decision as asset failure. Do not count ION464/BIIB101 as permanently stopped solely from Biogen's exit: Ionis still lists it and HORIZON remains recruiting. Do not count BIIB080's missed Phase II primary endpoint as termination when development continues. Do not count a positive ulefnersen pivotal result as approval. Tofersen's approval is accelerated, not equivalent to traditional approval based on the same kind of endpoint CAMP would need.
+
+VINTAGE AND STAGE
+September GTX failure and zilganersen approval were already known at Needham's October 15 initiation; November GTX wind-down is later confirmation. Recent cases receive more qualitative emphasis; no arbitrary numerical recency weighting is fitted. Registry study start is generally an enrollment proxy, not the exact first dose. Ulefnersen had human individualized use before its group trial; NIO752's AD indication followed PSP exposure. Clinical-entry cohorts omit cleared programs that never dosed, so they cannot exactly estimate clearance-to-approval risk.
+
+MODEL USE AND NEXT GATE
+Use this work for explicit scenarios and causal risk assessment, not as a measured CMP-specific PoS. At fixed sales/timing, 20% versus 25% lowers probability-weighted revenue contribution by 20%, not necessarily total equity value by 20% because cash and development costs differ.
+The next highest-value work is to verify the human target-engagement/endpoint bridge and reconstruct a fuller clearance-stage historical denominator, including never-dosed programs. Public registry records alone cannot do that. Paid collection or large historical reconstruction has not been initiated.
+
+FILES
+Detailed report: reports/pos_audit_2026-11-16.html
+Peer ledger: data/pos_audit/program_ledger.csv (and JSON)
+Sources: data/pos_audit/source_registry.json and sources/pos_audit/
+Scope and exclusions: data/pos_audit/discovery_screen.json; boundaries_and_exclusions.json
+Reproduce: scripts/build_pos_audit.py; scripts/render_pos_audit.py; scripts/check_pos_audit.py

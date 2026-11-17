@@ -1,0 +1,317 @@
+{
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=ISIS+333611&pageSize=100&countTotal=true&format=json",
+  "retrieved": "2026-11-16",
+  "data": {
+    "totalCount": 1,
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT01041222",
+            "orgStudyIdInfo": {
+              "id": "ISIS 333611- CS1"
+            },
+            "organization": {
+              "fullName": "Ionis Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability, and Activity Study of ISIS SOD1Rx to Treat Familial Amyotrophic Lateral Sclerosis (ALS) Caused by SOD1 Gene Mutations",
+            "officialTitle": "A Phase 1, Double-Blind, Placebo-Controlled, Dose-Escalation Study of the Safety, Tolerability, and Pharmacokinetics of ISIS 333611 Administered Intrathecally to Patients With Familial Amyotrophic Lateral Sclerosis Due to Superoxide Dismutase 1 Gene Mutations",
+            "acronym": "SOD-1"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2012-04",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2010-01"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2011-12",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2012-01",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2009-12-30",
+            "studyFirstSubmitQcDate": "2009-12-30",
+            "studyFirstPostDateStruct": {
+              "date": "2009-12-31",
+              "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2012-04-12",
+            "lastUpdatePostDateStruct": {
+              "date": "2012-04-13",
+              "type": "ESTIMATED"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Ionis Pharmaceuticals, Inc.",
+              "class": "INDUSTRY"
+            },
+            "collaborators": [
+              {
+                "name": "Muscular Dystrophy Association",
+                "class": "OTHER"
+              },
+              {
+                "name": "ALS Association",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will test the safety, tolerability and pharmacokinetics of single doses of ISIS 333611 administered into the spinal canal as 12 hour infusions.",
+            "detailedDescription": "This study will test the safety, tolerability, and pharmacokinetics of single doses of ISIS 333611 administered as 12-hour intrathecal infusions. Four dose levels (0.15, 0.5, 1.5 and 3 mg) will be evaluated sequentially. The volume of the infusion is 0.25 mL/12 hours. Each dose level will be studied in a cohort of 8 patients where 6 are randomized to active treatment with ISIS 333611 and 2 are randomized to placebo."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Familial Amyotrophic Lateral Sclerosis"
+            ],
+            "keywords": [
+              "Familial ALS",
+              "ALS",
+              "SOD1 Protein",
+              "ISIS 333611",
+              "SOD1Rx"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 33,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Arm 1",
+                "type": "EXPERIMENTAL",
+                "description": "0.15 mg ISIS 333611 continuous intrathecal infusion over 12 hours",
+                "interventionNames": [
+                  "Drug: ISIS 333611"
+                ]
+              },
+              {
+                "label": "Arm 2",
+                "type": "EXPERIMENTAL",
+                "description": "0.5 mg ISIS 333611 continuous intrathecal infusion over 12 hours",
+                "interventionNames": [
+                  "Drug: ISIS 333611"
+                ]
+              },
+              {
+                "label": "Arm 3",
+                "type": "EXPERIMENTAL",
+                "description": "1.5 mg ISIS 333611 continuous intrathecal infusion over 12 hours",
+                "interventionNames": [
+                  "Drug: ISIS 333611"
+                ]
+              },
+              {
+                "label": "Arm 4",
+                "type": "EXPERIMENTAL",
+                "description": "3.0 mg ISIS 333611 continuous intrathecal infusion over 12 hours",
+                "interventionNames": [
+                  "Drug: ISIS 333611"
+                ]
+              },
+              {
+                "label": "Placebo (phosphate buffered saline)",
+                "type": "PLACEBO_COMPARATOR",
+                "interventionNames": [
+                  "Drug: ISIS 333611"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "ISIS 333611",
+                "description": "5 arms of 12 hour infusion: Arm 1 0.15 mg, Arm 2 0.5 mg, Arm 3 1.5 mg, Arm 4 3.0 mg, matching volume of placebo",
+                "armGroupLabels": [
+                  "Arm 1",
+                  "Arm 2",
+                  "Arm 3",
+                  "Arm 4",
+                  "Placebo (phosphate buffered saline)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "To evaluate the safety, tolerability, and pharmacokinetics of four dose levels of ISIS 333611",
+                "timeFrame": "Safety analysis for dose escalation after Study Day 8"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical signs of weakness attributed to ALS.\n* Familial ALS with a documented SOD1 gene mutation.\n* Age 18 years or older.\n* Capable of providing informed consent and willing to comply with trial procedures and time commitments.\n* Vital capacity (VC) at least 50% predicted value for gender, height and age at screening and not using invasive respiratory support.\n* If taking riluzole, patients must be on stable dosage for at least 30 days prior to starting the study and expect to remain at that dosage until the end of the study.\n* Medically able to undergo temporary insertion of intrathecal catheter.\n* Normal test results for coagulation parameters.\n\nExclusion Criteria:\n\n* Treatment with another investigational drug for ALS (e.g. pyrimethamine, ceftriaxone, lithium, tamoxifen, arimoclomol, high dose creatine, biological agent, or device within 1-month of Screening or 5 half-lives of study agent, whichever is longer. No prior treatment with siRNA, cell transplant, or gene therapy is allowed.\n* Dosing in ISIS 333611-CS1 in a previous dose cohort within 60 days of screening.\n* Presence of any of the following clinical conditions:\n\n  1. Drug abuse or alcoholism within one year of the Screening visit.\n  2. Unstable cardiac, pulmonary, renal, hepatic, endocrine, hematologic function, or active infectious disease.\n  3. Documented history of HIV infection.\n  4. Unstable psychiatric illness defined as psychosis or untreated major depression within 90 days of the Screening Visit.\n* Any condition that may impact intrathecal infusion including:\n\n  1. History of structural spinal disease including tumors and hyperplasia.\n  2. Presence of an implanted shunt for the drainage of CSF or an implanted CNS catheter.\n  3. Clinically significant abnormalities in hematology or clinical chemistry parameters as assessed by the Site Investigator during the Screening visit.\n  4. Ongoing medical condition that according to the Site Investigator would interfere with the conduct and assessments of the study. Examples are medical disability (e.g., severe degenerative arthritis, compromised nutritional state, peripheral neuropathy) that would interfere with the assessment of safety and efficacy of study material or device performance, or would compromise the ability of the patient to undergo study procedures.\n  5. ALT or AST \\>/= 3 x ULN, unless discussed with and approved by the Medical Monitor.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Merit Cudkowicz, MD, MSc",
+                "affiliation": "Massachusetts General Hospital",
+                "role": "STUDY_CHAIR"
+              },
+              {
+                "name": "Timothy Miller, MD, PhD",
+                "affiliation": "Washington University School of Medicine",
+                "role": "STUDY_CHAIR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Johns Hopkins University",
+                "city": "Baltimore",
+                "state": "Maryland",
+                "zip": "21287",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 39.29038,
+                  "lon": -76.61219
+                }
+              },
+              {
+                "facility": "Massachusetts General Hospital-East, Neurology Clinical Trials Unit",
+                "city": "Charlestown",
+                "state": "Massachusetts",
+                "zip": "02129",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.37787,
+                  "lon": -71.062
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "Methodist Neurological Institute",
+                "city": "Houston",
+                "state": "Texas",
+                "zip": "77030",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.76328,
+                  "lon": -95.36327
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "23541756",
+                "type": "DERIVED",
+                "citation": "Miller TM, Pestronk A, David W, Rothstein J, Simpson E, Appel SH, Andres PL, Mahoney K, Allred P, Alexander K, Ostrow LW, Schoenfeld D, Macklin EA, Norris DA, Manousakis G, Crisp M, Smith R, Bennett CF, Bishop KM, Cudkowicz ME. An antisense oligonucleotide against SOD1 delivered intrathecally for patients with SOD1 familial amyotrophic lateral sclerosis: a phase 1, randomised, first-in-man study. Lancet Neurol. 2013 May;12(5):435-42. doi: 10.1016/S1474-4422(13)70061-9. Epub 2013 Mar 29."
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000690",
+                "term": "Amyotrophic Lateral Sclerosis"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D013118",
+                "term": "Spinal Cord Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D016472",
+                "term": "Motor Neuron Disease"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D057177",
+                "term": "TDP-43 Proteinopathies"
+              },
+              {
+                "id": "D009468",
+                "term": "Neuromuscular Diseases"
+              },
+              {
+                "id": "D057165",
+                "term": "Proteostasis Deficiencies"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

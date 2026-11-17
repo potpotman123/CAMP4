@@ -9,11 +9,16 @@
 | Sell-side context and assumption audit | Eight original reports and extracted text saved; inherited Street data available |
 | Reverse DCF | To build: observed EV, development/operating costs, timeline, financing context and sales implied by valuation |
 | Independent worldwide revenue forecast | To build: epidemiology, diagnosis, eligibility, uptake, paid exposure, net pricing and country access |
-| KPI and PoS comparator research | Extensive prompt prepared; new matched cohorts and audit not yet executed |
+| KPI and PoS comparator research | PoS public-source v1 complete: 24 assets / 28 drug–indication pairs; no statistically calibrated PoS claimed. Other KPI audits pending |
 | Post-LOE / terminal-value analysis | Needham arithmetic decomposition recorded; independent durability assumptions still to research |
 | Explain the valuation gap | Pending independent model and reverse DCF |
 
 ## Start here
+
+- **[PoS audit decision memo](reports/pos_audit_findings_2026-11-16.txt)** and [full evidence report](reports/pos_audit_2026-11-16.html).
+- [PoS peer ledger (CSV)](data/pos_audit/program_ledger.csv), [source registry](data/pos_audit/source_registry.json), [scope/limitations](protocol/pos_audit_design_2026-11-16.txt), and [97 internal checks](data/pos_audit/validation.json).
+- Current conclusion: Needham's 25% is defensible as an optimistic assumption, not demonstrated conservative or empirically calibrated. Provisional 20% central / 10–35% scenarios are explicit judgment, not estimated probabilities.
+
 
 - [KPI, PoS and post-LOE audit research prompt](protocol/cmp002_kpi_audit_research_prompt_2026-11-16.txt).
 - [Current handoff and corrections](context/kpi_audit_prompt_handoff_2026-11-16.txt).

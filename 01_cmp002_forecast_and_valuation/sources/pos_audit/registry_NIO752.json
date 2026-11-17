@@ -1,0 +1,2922 @@
+{
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=NIO752&pageSize=100&countTotal=true&format=json",
+  "retrieved": "2026-11-16",
+  "data": {
+    "totalCount": 5,
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT06372821",
+            "orgStudyIdInfo": {
+              "id": "158160"
+            },
+            "organization": {
+              "fullName": "University College, London",
+              "class": "OTHER"
+            },
+            "briefTitle": "A Trial Evaluating the Effect of NIO752 on Tau Synthesis Measured by a Process Known as SILK",
+            "officialTitle": "A Randomized, Participant & Investigator Blinded, Placebo-Controlled Study to Evaluate the Ability of Intrathecally Administered NIO752 to Lower CSF Total Tau Synthesis in Participants With AD Measured by Stable Isotope Labelling Kinetics",
+            "acronym": "NIO-SILK"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2024-11-18",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-07",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2026-07",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-13",
+            "studyFirstSubmitQcDate": "2024-04-16",
+            "studyFirstPostDateStruct": {
+              "date": "2024-04-18",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-01-23",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-01-27",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "University College, London",
+              "class": "OTHER"
+            },
+            "collaborators": [
+              {
+                "name": "Washington University School of Medicine",
+                "class": "OTHER"
+              },
+              {
+                "name": "University of Washington",
+                "class": "OTHER"
+              },
+              {
+                "name": "Alzheimer's Association",
+                "class": "OTHER"
+              },
+              {
+                "name": "Sigrid Rausing Trust",
+                "class": "OTHER"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This study will assess if drug (NIO752) reduces production of a protein, tau, by the brain. Normally tau maintains the internal skeleton of nerve cells. In Alzheimer's disease (AD) it builds up in the brain, causing damage. Abnormal tau proteins cling to each other forming 'tangles' inside nerve cells, which interfere with how the nerve cells work, and eventually die. This is what causes the symptoms of dementia. It is thought that NIO752 reduces production of tau."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer Disease",
+              "Autosomal Dominant Alzheimer Disease Due to Mutation of Presenilin 1 (Disorder)",
+              "Autosomal Dominant Alzheimer Disease Due to Mutation of Presenilin 2 (Disorder)",
+              "Autosomal Dominant Alzheimer Disease Due to Mutation of Amyloid Precursor Protein (Disorder)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "TRIPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 10,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "Intrathecal administration.",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Saline",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "10mL of saline (placebo) is administered intrathecally.",
+                "interventionNames": [
+                  "Drug: NIO752",
+                  "Other: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "Antisense oligonucleotide",
+                "armGroupLabels": [
+                  "NIO752",
+                  "Saline"
+                ]
+              },
+              {
+                "type": "OTHER",
+                "name": "Placebo",
+                "description": "Saline",
+                "armGroupLabels": [
+                  "Saline"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Tau synthesis rate inhibition in individuals with sporadic AD and ADAD",
+                "description": "Tau synthesis rate calculated using tracer to tracee ratio of tau specific peptide calculated on day 20 post leucine administration in individuals with sporadic and ADAD (analyzed collectively) receiving intrathecal NIO752 compared to placebo.",
+                "timeFrame": "Day 23"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Compare efficacy of knockdown of tau production in sporadic AD and ADAD by measuring the synthesis rate of tau by determining the ratio of labelled to unlabeled tau (tracer to tracee ratio) in serial cerebrospinal fluid samples.",
+                "timeFrame": "Day 23"
+              },
+              {
+                "measure": "Number of participants with adverse events [safety and tolerability]",
+                "timeFrame": "Day 0 to Day 145"
+              },
+              {
+                "measure": "Comparison of number of Adverse Events reported between participants receiving one dose of NIO752 versus those receiving two doses of NIO752.",
+                "description": "Compare safety between 1 and 2 doses.",
+                "timeFrame": "Day 0 to Day 145"
+              },
+              {
+                "measure": "Compare rates of tau synthesis and clearance in sporadic AD and ADAD",
+                "timeFrame": "Day 23"
+              },
+              {
+                "measure": "Determine CSF tau concentration to tau production relationships in humans",
+                "timeFrame": "120 days"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able to provide signed informed consent.\n2. Between 21 to 80 years old (inclusive).\n3. A diagnosis of mild or moderate Alzheimer's disease by a Clinical Dementia Rating score of 0.5 to 2, where the investigator believes they will be able to complete the study.\n4. A history of cerebrospinal fluid, Positron Emission Topography (PET), or blood-based biomarkers supporting the diagnosis of Alzheimer's disease, or symptomatic approved presenilin (PSEN) or amyloid precursor protein (APP) mutation carriers. If blood biomarkers are equivocal then amyloid status can be confirmed using cerebrospinal fluid.\n5. Fluency in English\n6. Participant has a reliable study partner or caregiver\n7. Able to undergo lumbar punctures, magnetic resonance imaging (MRI), cerebrospinal fluid draws, and blood draws.\n8. Individuals will be willing to consent for their biological samples and personal data to be shared with the commercial partner (Novartis)\n\nExclusion Criteria:\n\n1. Live in a skilled nursing facility or dementia care facility.\n2. Any clinically significant laboratory abnormality\n3. Attempted suicide, suicidal ideation with a plan that required hospital admission within 12 months prior to Screening\n4. Any previous use of experimental therapy within 180 days or 5 half-lives prior to Day 1, whichever is greater.\n5. Any previous use of MAPT antisense oligonucleotides (ASO) or any other ASO or other gene therapy meant as treatment for Alzheimer's disease.\n6. History of hypersensitivity to any of the study treatments or its excipients or to drugs of similar chemical classes.\n7. Any condition that increases risk of meningitis unless participant is receiving appropriate prophylactic treatment.\n8. Current medical or non-Alzheimer's disease neurological condition that might impact cognition or performance on cognitive assessments\n9. Have any other conditions which, in the opinion of the investigator, would make the participant unsuitable for inclusion or could interfere with the patient participating in or completing the study.\n10. Unlikely to cooperate in the study; not able to attend scheduled examinations and visits; or not able to follow study instructions per the judgement of the investigator.\n11. Current alcohol (\\>14 units per week) or current cannabis use; or history of alcohol or drug abuse or dependence (except nicotine dependence) within 2-years before the screening visit.\n12. Treatment with immunosuppressants, antipsychotics, lithium, neuroleptics, dopaminergic agonists, L-dopa, or monoamine oxidase inhibitors at the time of screening. Current use of medications, other than cholinesterase inhibitors and/or memantine, that could alter cognition, as determined by the Investigator. If patients are taking cholinesterase inhibitors and/or memantine at screening, the dose must have been stable within 12-weeks prior to screening and must remain stable during the duration of the study.\n13. Unable to undergo MRI due to for example claustrophobia, or presents absolute contraindications to MRI (e.g., metallic implants, metallic foreign bodies, pacemaker, defibrillator).\n14. Significant signs of major cerebrovascular disease\n15. Sexually active males, unless they agree to use a condom during intercourse from the time of consent until a minimum of 15 weeks after treatment.\n16. Breast feeding women, pregnant women, and females of reproductive potential unless they use highly effective contraception methods, as specified in the protocol.\n17. Patients on regular anticoagulants or anti-platelets that would preclude lumbar puncture are not eligible to participate\n18. Seropositive for human immunodeficiency virus (HIV), Hepatitis B or hepatitis C.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Ross Paterson",
+                "role": "CONTACT",
+                "phone": "+44(0)2074483875",
+                "email": "r.paterson@ucl.ac.uk"
+              },
+              {
+                "name": "Lisa French",
+                "role": "CONTACT",
+                "email": "l.french@ucl.ac.uk"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Washington University in St. Louis",
+                "status": "RECRUITING",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Tina Nolte",
+                    "role": "CONTACT",
+                    "phone": "314-362-3839",
+                    "email": "nolte.tina@wustl.edu"
+                  },
+                  {
+                    "name": "Nupur Ghoshal, MD, PhD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "University College London Hospitals NHS Foundation Trust",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "NW1 2PG",
+                "country": "United Kingdom",
+                "contacts": [
+                  {
+                    "name": "Joe Mwanza",
+                    "role": "CONTACT",
+                    "phone": "+44(0)2034567890",
+                    "email": "joe.mwanza@nhs.net"
+                  },
+                  {
+                    "name": "Ross Paterson",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT04539041",
+            "orgStudyIdInfo": {
+              "id": "CNIO752A02101"
+            },
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Safety, Tolerability and Pharmacokinetics of Multiple Ascending Doses of NIO752 in Progressive Supranuclear Palsy",
+            "officialTitle": "A Randomized, Participant, Investigator and Sponsor Blinded, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Pharmacokinetics of Multiple Ascending Doses of Intrathecally Administered NIO752 in Participants With Progressive Supranuclear Palsy"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2025-12",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2021-02-16",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2024-10-17",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2024-10-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2020-08-25",
+            "studyFirstSubmitQcDate": "2020-08-31",
+            "studyFirstPostDateStruct": {
+              "date": "2020-09-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-18",
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a phase 1, multi-center, double-blind, placebo-controlled, multiple dose escalation study with NIO752 in progressive supranuclear palsy (PSP) participants.",
+            "detailedDescription": "This is a phase 1, multi-center, double-blind, placebo-controlled, multiple dose escalation study with NIO752 in progressive supranuclear palsy (PSP) participants.\n\nApproximately 58 PSP participants in 5 cohorts will be randomized to receive NIO752 or placebo in a ratio of 3:1. Intrathecal (IT) injections will be given multiple times over 3 months and participants will remain in study for an additional 9-month follow-up period; or will be given multiple times over 9 months and participants will remain in study for an additional 3-month follow-up period.\n\nCohorts will be enrolled sequentially.\n\nSafety assessments will include physical and neurological examinations, ECGs, vital signs, standard clinical laboratory evaluations (hematology, blood chemistry, and urinalysis), CSF laboratory test, adverse event, and serious adverse event monitoring."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Progressive Supranuclear Palsy (PSP)"
+            ],
+            "keywords": [
+              "progressive supranuclear palsy",
+              "PSP",
+              "antisense oligonucleotide",
+              "ASO",
+              "tau",
+              "NIO752",
+              "adult"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 59,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Cohort A NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "4 injections of NIO752 at dose A",
+                "interventionNames": [
+                  "Drug: antisense oligonucleotide"
+                ]
+              },
+              {
+                "label": "Cohort B NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "4 injections of NIO752 at dose B",
+                "interventionNames": [
+                  "Drug: antisense oligonucleotide"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "4 injections of placebo",
+                "interventionNames": [
+                  "Drug: placebo"
+                ]
+              },
+              {
+                "label": "Cohort C NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "4 injections of NIO752 at dose C",
+                "interventionNames": [
+                  "Drug: antisense oligonucleotide"
+                ]
+              },
+              {
+                "label": "Cohort D NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "4 injections of NIO752 at dose D",
+                "interventionNames": [
+                  "Drug: antisense oligonucleotide"
+                ]
+              },
+              {
+                "label": "Cohort E NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "4 injections of NIO752 at dose E",
+                "interventionNames": [
+                  "Drug: antisense oligonucleotide"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "antisense oligonucleotide",
+                "description": "solution of antisense oligonucleotide injected intrathecally (spine tap) at multiple dose levels",
+                "armGroupLabels": [
+                  "Cohort A NIO752",
+                  "Cohort B NIO752",
+                  "Cohort C NIO752",
+                  "Cohort D NIO752",
+                  "Cohort E NIO752"
+                ],
+                "otherNames": [
+                  "NIO752"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "placebo",
+                "description": "placebo for each dose level",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of adverse events and serious adverse events",
+                "description": "Adverse events will be collected at clinical visits and other contacts. All abnormalities from safety assessments (physical exams and neurological exams and clinical safety labs) considered clinically significant will be recorded as adverse events",
+                "timeFrame": "Baseline up to approximately one year (3-month treatment plus 9-month follow-up or 9-month treatment plus 3-month follow-up)"
+              },
+              {
+                "measure": "Change in severity scores for Columbia-Suicide Severity Rating Scale (C-SSRS)",
+                "description": "The Columbia-Suicide Severity Rating Scale (C-SSRS) is a questionnaire that prospectively assesses Suicidal Ideation and Suicidal Behavior. The C-SSRS must be administered at visits. If, at any time after \"screening and/or baseline\" version, the score is \"yes\" on item 4 or item 5 of the Suicidal Ideation section of the C-SSRS or \"yes\" on any item of the Suicidal Behavior section, the participant must be referred to a mental health care professional for further assessment and/or treatment.",
+                "timeFrame": "Baseline up to approximately 1 year (3-month treatment plus 9-month follow-up or 9-month treatment plus 3-month follow-up)"
+              },
+              {
+                "measure": "Levels of infection indicators in Cerebrospinal fluid (CSF)",
+                "description": "CSF safety labs measure levels of proteins, glucose, lactate and white blood cell counts with differential indicating infections.",
+                "timeFrame": "Baseline up to approximately 1 year (3-month treatment plus 9-month follow-up or 9-month treatment plus 3-month follow-up)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Concentrations of NIO752 in blood plasma",
+                "description": "concentrations of NIO752 in plasma",
+                "timeFrame": "From the 1st dose administration (day 1), through study completion, where the longest duration would be approximately 1 year for those who receive 4 treatment doses"
+              },
+              {
+                "measure": "Concentrations of NIO752 in CSF",
+                "description": "concentrations of NIO752 in CSF",
+                "timeFrame": "From the 1st dose administration (day 1), through study completion, where the longest duration would be approximately 1 year for those who receive 4 treatment doses"
+              },
+              {
+                "measure": "Cmax, Ctrough in blood plasma",
+                "description": "Maximum and trough level concentrations of NIO752 in plasma",
+                "timeFrame": "From the 1st dose administration (day 1), through study completion, where the longest duration would be approximately 1 year for those who receive 4 treatment doses"
+              },
+              {
+                "measure": "Tmax in blood plasma",
+                "description": "Time of Cmax in plasma post first injection",
+                "timeFrame": "From the 1st dose administration (day 1), through study completion, where the longest duration would be approximately 1 year for those who receive 4 treatment doses"
+              },
+              {
+                "measure": "AUClast in blood plasma",
+                "description": "Area under curve (AUC) from time zero to the last measurable concentration sampling time (tlast) (mass x time x volume-1)",
+                "timeFrame": "0 to 24 hours after first injection"
+              },
+              {
+                "measure": "AUCinf in blood plasma",
+                "description": "The AUC from time zero to infinity (mass x time x volume-1)",
+                "timeFrame": "0 to 24 hours after first injection"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent\n2. Between 40 to 75 years old (inclusive)\n3. Have PSP diagnosed for less than 5 years with a current classification of probable PSP Richardson syndrome, a progressive supranuclear palsy rating scale (PSPRS) score \\< 40 and MOCA score \\>17 at screening\n4. Be able to ambulate independently or able to take at least 5 steps with minimal assistance\n5. At least a 12-month history of postural instability or falls within 3 years from disease onset as per medical history\n6. Vertical supranuclear gaze palsy, or reduced velocity of vertical saccade\n7. Able and willing to meet all study requirements including:\n\n   Have a study partner who is reliable, competent, and at least 18 years of age, and will be able to accompany the participant to study visits, be knowledgeable of the participant's ongoing condition during the study to provide study related information to study site when required both in person and via a phone Reside in a proximity to the study site to allow a timely unscheduled visit if necessary (ideally less than 2 hours) Able to undergo lumbar puncture (LP), CSF draws and blood draws\n8. If the participant is receiving levodopa/carbidopa, levodopa/benserazide, a dopamine agonist, catechol-o-methyltransferase (COMT) inhibitor, rasagiline, CoQ10 or other Parkinson's medications, acetylcholinesterase inhibitors, antipsychotics, memantine, or other non-tau modifying Alzheimer's medication the dose must have been stable for at least 30 days prior to the screening visit and must remain stable for the duration of the study. No such medication can be initiated during the study.\n\nExclusion Criteria:\n\n1. Live in a skilled nursing facility or dementia care facility\n2. Evidence of motor neuron disease, or any other neurological disease that could explain symptoms\n3. Clinically significant laboratory abnormality\n4. Attempted suicide, suicidal ideation with a plan that required hospital admission within 12 months prior to Screening. In addition, patients deemed by the Investigator to be at significant risk of suicide, major depressive episode, psychosis, confusion state, or violent behavior should be excluded.\n5. A clear and robust benefit from levodopa by history\n6. Use of lithium, methylene blue or other putative disease modifying drugs for PSP within 30 days of screening\n7. Any previous use of experimental therapy within 30 days or 5 half-lives prior to Day 1, whichever is greater\n8. Any condition that increases risk of meningitis unless participant is receiving appropriate prophylactic treatment\n9. History of post-lumbar-puncture headache of moderate or severe intensity and/or blood patch\n\n11\\. Hospitalization for any major medical or surgical procedure involving general anesthesia within 12 weeks of Screening or planned during the study 12. Unable to undergo magnetic resonance imaging (MRI) due to for example claustrophobia, or presents absolute contraindications to MRI (e.g., metallic implants, metallic foreign bodies, pacemaker, defibrillator) 13. Patients with other significant brain MRI abnormalities by history or at screening.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "facility": "University of California San Diego",
+                "city": "La Jolla",
+                "state": "California",
+                "zip": "92037",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                }
+              },
+              {
+                "facility": "Mayo Clinic Rochester",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "Vanderbilt University Medical CenterX",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37221",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H2X 1R9",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Montreal",
+                "state": "Quebec",
+                "zip": "H3A 2B4",
+                "country": "Canada",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Bonn",
+                "state": "North Rhine-Westphalia",
+                "zip": "53127",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "D\u00fcsseldorf",
+                "zip": "40225",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.22319,
+                  "lon": 6.77927
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Hanover",
+                "zip": "30625",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.37052,
+                  "lon": 9.73322
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "M\u00fcnchen",
+                "zip": "81377",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.60698,
+                  "lon": 13.31243
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "T\u00fcbingen",
+                "zip": "72076",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.52266,
+                  "lon": 9.05222
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Southampton",
+                "zip": "SO16 6YD",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 50.90395,
+                  "lon": -1.40428
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "pmid": "41389437",
+                "type": "DERIVED",
+                "citation": "Rahim AA, Kurian MA, Zhou H, Ferguson R, Tabrizi SJ, Lignani G, Aquilina K, Waddington SN. Genetic therapies for neurological diseases. Pharmacol Rev. 2026 Jan;78(1):100093. doi: 10.1016/j.pharmr.2025.100093. Epub 2025 Oct 3."
+              }
+            ],
+            "seeAlsoLinks": [
+              {
+                "label": "Link to study results",
+                "url": "https://www.novctrd.com/ctrdweb/trialresult/trialresults/pdf?trialResultId=18339"
+              },
+              {
+                "label": "A Plain Language Trial Summary is available on www.novctrd.com",
+                "url": "https://www.novctrd.com/ctrdweb/patientsummary/patientsummaries?patientSummaryId=2903"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D013494",
+                "term": "Supranuclear Palsy, Progressive"
+              },
+              {
+                "id": "D020774",
+                "term": "Pick Disease of the Brain"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D009886",
+                "term": "Ophthalmoplegia"
+              },
+              {
+                "id": "D015835",
+                "term": "Ocular Motility Disorders"
+              },
+              {
+                "id": "D003389",
+                "term": "Cranial Nerve Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D010243",
+                "term": "Paralysis"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D005128",
+                "term": "Eye Diseases"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D057180",
+                "term": "Frontotemporal Dementia"
+              },
+              {
+                "id": "D057174",
+                "term": "Frontotemporal Lobar Degeneration"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D016376",
+                "term": "Oligonucleotides, Antisense"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D016375",
+                "term": "Antisense Elements (Genetics)"
+              },
+              {
+                "id": "D009706",
+                "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+              },
+              {
+                "id": "D015341",
+                "term": "Nucleic Acid Probes"
+              },
+              {
+                "id": "D009696",
+                "term": "Nucleic Acids"
+              },
+              {
+                "id": "D009841",
+                "term": "Oligonucleotides"
+              },
+              {
+                "id": "D011119",
+                "term": "Polynucleotides"
+              },
+              {
+                "id": "D009711",
+                "term": "Nucleotides"
+              },
+              {
+                "id": "D015335",
+                "term": "Molecular Probes"
+              },
+              {
+                "id": "D019995",
+                "term": "Laboratory Chemicals"
+              },
+              {
+                "id": "D020313",
+                "term": "Specialty Uses of Chemicals"
+              },
+              {
+                "id": "D020164",
+                "term": "Chemical Actions and Uses"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07498426",
+            "orgStudyIdInfo": {
+              "id": "CNIO752A12301"
+            },
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Efficacy of NIO752 in Participants With Progressive Supranuclear Palsy",
+            "officialTitle": "A Phase III, Randomized, Placebo-controlled, Parallel Group, Double-blind Study to Evaluate the Efficacy and Safety of NIO752 in Participants With Progressive Supranuclear Palsy Followed by an Open Label Extension"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-06-03",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-07-20",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2031-07-18",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-03-23",
+            "studyFirstSubmitQcDate": "2026-03-23",
+            "studyFirstPostDateStruct": {
+              "date": "2026-03-27",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-14",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-15",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This Phase III study is intended to evaluate the efficacy and safety of NIO752 in participants with Progressive Supranuclear Palsy (PSP). Eligible participants will be randomized to receive either NIO752 or placebo followed by an open-label extension.",
+            "detailedDescription": "This is a randomized, double-blind, placebo-controlled, parallel group, study to evaluate the efficacy of NIO752 in participants with Progressive Supranuclear Palsy followed by an open-label extension (OLE).\n\nThe participants with or without symptomatic therapy will be randomly allocated to either NIO752 or placebo treatment in a 2:1 randomization ratio.\n\nUpon completion of the core double-blind treatment period, participants will be offered to continue with NIO752 treatment in the OLE."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Progressive Supranuclear Palsy Richardson Syndrome (PSP-RS)"
+            ],
+            "keywords": [
+              "Progressive Supranuclear Palsy (PSP)",
+              "NIO752",
+              "Anti-Sense Oligonucleotide (ASO)",
+              "Microtubule Associated Protein Tau (MAPT)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE3"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 300,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NIO752",
+                "type": "EXPERIMENTAL",
+                "description": "NIO752 solution",
+                "interventionNames": [
+                  "Other: NIO752"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo in solution",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "OTHER",
+                "name": "NIO752",
+                "description": "Solution of antisense oligonucleotide.",
+                "armGroupLabels": [
+                  "NIO752"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo solution",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change from baseline in the mPSPRS-10 score",
+                "description": "The 10-item Progressive Supranuclear Palsy Rating Scale (mPSPRS-10) is a modified version of the original 28 item PSPRS developed to improve clinical meaningfulness and statistical performance. The 10 items measure three key motor domains: gait, limb function, and bulbar. The mPSPRS-10 ranges between 0 and 30, with higher scores indicating greater disability.",
+                "timeFrame": "Baseline, Week 72"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Change from baseline in the PSPRS-28 items score",
+                "description": "28-item Progressive Supranuclear Palsy Rating Scale (PSPRS-28) , scale ranges between 0 and 100 with higher scores indicating greater disability.",
+                "timeFrame": "Baseline, Week 72"
+              },
+              {
+                "measure": "Changes from baseline in activities of daily living on the Cortical Basal ganglia Functional Scale (CBFS)",
+                "description": "The CBFS is a patient/study partner reported rating scale designed to evaluate the functional impact of 4 repeat tauopathies (4RTs), including PSP. The level of disability assessed by the CBFS correlates with motor, cognitive and psychiatric impairments.\n\nThe CBFS consists of 14 questions on Motor experiences in daily living (EDL's) and 17 questions on non-Motor EDL's, each rated on a Likert 5-point scale that goes from 0 (Normal/No problems) to 4 (Severe problems).",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Change from baseline on the PSP-ShoQoL",
+                "description": "The Progressive Supranuclear Palsy - Short version Quality of Life (PSP-ShoQoL) is a patient reported outcome that comprises 12 items, covering phyisical (7 items) and mental health (5 items) states. Items are scored from 0 (no problem) to 4 (extreme problems), total score ranges from 0 to 48 with higher scores indicating greater impact of the disease on the quality of life.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Change from baseline in Category (or Semantic) Fluency test over time",
+                "description": "The Category Fluency test is a measure of semantic retrieval and executive functions. It requires the study participant to name as many objects as possible belonging to a given category within one minute. The total score is given by the number of correct words generated within the time limit.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Change from baseline in Letter (or Phonemic) Fluency test over time",
+                "description": "The Letter Fluency test is a measure of language and executive functions. It requires the study participant to name as many words as possible starting with a certain letter within one minute. The total score is given by the number of correct words generated within the time limit.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Change from baseline in Symbol Digit Modality Test (SDMT) over time",
+                "description": "The SDMT is a measure of attention and processing speed. It requires the study participant to orally pair specific numbers with symbols as quickly and as accurately as possible using a reference key.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Change from baseline in Letter-Number Sequencing task (LNS) over time",
+                "description": "The LNS is a sub-test of the Weschler Adult Intelligence Scale - Fourth Edition (WAIS-IV) and it is a measure of working memory and executive function. The study participant is read a sequence of numbers and letters and is required to recall the numbers in ascending order followed by the letters in alphabetical order.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Ratio to baseline of NfL (CSF)",
+                "description": "Neurofilament light chain (NfL) is a specific marker of neuroaxonal damage. NfL in CSF will be used to assess the effect of NIO752 on neurodegeneration.",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Ratio to baseline of CSF phospho-Tau-181 and CSF Total-Tau",
+                "description": "Ratio to baseline in Total -Tau and Phospho-Tau-181 will be used as measures of target engagement",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Changes from baseline in volumes of brain structures as measured by MRI",
+                "description": "MRI measured volumes will be collected for ventricles, whole brain, midbrain, pons, superior cerebellar peduncle, third ventricle and frontal lobe",
+                "timeFrame": "From baseline up to week 72"
+              },
+              {
+                "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                "description": "Incidence and severity of AEs and SAEs by treatment group, including clinical laboratory evaluations, vital signs, ECG, C-SSRS qualifying and reported as AEs.",
+                "timeFrame": "From first treatment administration up to 72 weeks"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent must be obtained prior to participation in the study.\n2. Male or female participants, age between 41-81 yrs inclusive.\n3. Diagnosis of mild-moderate, probable/possible PSP Richardson syndrome as per MDS-PSP 2017 criteria with symptoms onset \\< 5 years.\n4. PSPRS total score less than 40 at Baseline.\n5. Reliable study partner such as spouse, sibling, close friend, or caregiver able and willing to provide accurate information (including clinical symptoms and medical history) about the participant and to participate in study visits and informant-based assessments for the duration of the study. A reliable study partner is expected to spend enough time (at least 5 hours per week) with the study participant.\n6. Participant is able to ambulate defined as the ability to take at least 10 steps independently or with minimal assistance (stabilization of one arm to minimize fall risk).\n7. Mini Mental State Examination (MMSE) score \u2265 20 at Screening.\n\nExclusion Criteria:\n\n1. Diagnosis of other significant neurological or psychiatric disorders including (but not limited to) Parkinsons' Disease (which has not subsequently been revised to a diagnosis of PSP); Alzheimer's disease (AD), dementia with Lewy bodies; prion disease; any psychotic disorders; severe Major depressive disorder; seizure; brain tumor or other space-occupying lesion; history of clinically significant stroke (e.g., stroke with permanent neurological deficit); history of head injury with loss of consciousness for at least 15 minutes within the past 20 years.\n2. Diagnosis of amyotrophic lateral sclerosis or other motor neuron diseases.\n3. Diagnosis of cerebellar ataxia, choreoathetosis, and early symptomatic autonomic dysfunction.\n4. History of or screening brain MRI scan indicative of significant abnormality, including, but not limited to, prior hemorrhage or infarct \\>1 cm3, \\>3 lacunar infarcts, cerebral contusion, aneurysm, vascular malformation \\>1 cm3, subdural hematoma, hydrocephalus, and space-occupying lesion (e.g., abscess or brain tumor).\n5. Contraindications to undergo MRI procedure, including metal (ferromagnetic) implants and/or a cardiac pacemaker that is not compatible with MRI.\n6. Medical conditions that would, as per Investigator's judgement, prevent the participant from undergoing lumbar puncture, including but not limited to:\n\n   1. Known allergy to local anesthetic\n   2. History of back surgery (with the exception of microdiscectomy or laminectomy over 1 level)\n   3. Spinal deformities\n   4. Current dermatological infection at the lumbar puncture spot and/or significant skin alterations at the planned puncture place\n   5. Risk of increased or uncontrolled bleeding and/or risk of bleeding that if not managed optimally, could place a participant at an increased risk for procedural bleeding. These could include, but are not limited, to anatomical factors at or near the LP site (e.g., vascular abnormalities, neoplasms) and underlying disorders of coagulation, platelet function or platelet count (e.g. abnormal coagulation parameters, hemophilia, Von Willebrand's disease, liver disease).\n7. History of deep brain stimulator surgery other than sham surgery for participation in a deep brain stimulation clinical trial.\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "41 Years",
+            "maximumAge": "81 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "1-888-669-6682",
+                "email": "novartis.email@novartis.com"
+              },
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "+41613241111"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Mayo Clinic Arizona",
+                "status": "RECRUITING",
+                "city": "Scottsdale",
+                "state": "Arizona",
+                "zip": "85259",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Heather Esnaola",
+                    "role": "CONTACT",
+                    "phone": "+1 480 301 8300",
+                    "email": "esnaola.heather@mayo.edu"
+                  },
+                  {
+                    "name": "Erika D Driver-Dunckley",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 33.50921,
+                  "lon": -111.89903
+                }
+              },
+              {
+                "facility": "Univ of California San Francisco",
+                "status": "RECRUITING",
+                "city": "San Francisco",
+                "state": "California",
+                "zip": "94158",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Brianna Garcia",
+                    "role": "CONTACT",
+                    "email": "brianna.garcia2@ucsf.edu"
+                  },
+                  {
+                    "name": "Lawren Vandevrede",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.77493,
+                  "lon": -122.41942
+                }
+              },
+              {
+                "facility": "CenExcel Rocky Mtn Clin Research",
+                "status": "RECRUITING",
+                "city": "Englewood",
+                "state": "Colorado",
+                "zip": "80113",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Jessica Crall",
+                    "role": "CONTACT",
+                    "phone": "+1 303 762 6674",
+                    "email": "j.crall@cenexel.com"
+                  },
+                  {
+                    "name": "Meagen Salinas",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 39.64777,
+                  "lon": -104.98776
+                }
+              },
+              {
+                "facility": "Parkinsons Disease and Movement Disorders Center of Boca Raton",
+                "status": "RECRUITING",
+                "city": "Boca Raton",
+                "state": "Florida",
+                "zip": "33486",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Lily Turchin",
+                    "role": "CONTACT",
+                    "phone": "+1 561 392 1818",
+                    "email": "lturchin@ParkinsonsCenter.org"
+                  },
+                  {
+                    "name": "Stuart H Isaacson",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 26.35869,
+                  "lon": -80.0831
+                }
+              },
+              {
+                "facility": "Mayo Jacksonville",
+                "status": "RECRUITING",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32224",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Audrey Strongosky",
+                    "role": "CONTACT",
+                    "phone": "+1 904 953 2254",
+                    "email": "strongosky.audrey@mayo.edu"
+                  },
+                  {
+                    "name": "Zbigniew K Wszolek",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "University of Kentucky - C201 Clinic",
+                "status": "RECRUITING",
+                "city": "Lexington",
+                "state": "Kentucky",
+                "zip": "40536",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Lynne Cagle",
+                    "role": "CONTACT",
+                    "email": "lynne.cagle@uky.edu"
+                  },
+                  {
+                    "name": "John T Slevin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 37.98869,
+                  "lon": -84.47772
+                }
+              },
+              {
+                "facility": "Ochsner Clinic Foundation",
+                "status": "RECRUITING",
+                "city": "New Orleans",
+                "state": "Louisiana",
+                "zip": "70121",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Anna Leonard-Leumas",
+                    "role": "CONTACT",
+                    "email": "anna.leonardleumas@ochsner.org"
+                  },
+                  {
+                    "name": "David Jeffery Houghton",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 29.95465,
+                  "lon": -90.07507
+                }
+              },
+              {
+                "facility": "Mayo Clinic",
+                "status": "RECRUITING",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Jeff Laivell",
+                    "role": "CONTACT",
+                    "email": "laivell.jeffrey@mayo.edu"
+                  },
+                  {
+                    "name": "James Bower",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "Central TX Neuro Consultants P A",
+                "status": "RECRUITING",
+                "city": "Round Rock",
+                "state": "Texas",
+                "zip": "78681",
+                "country": "United States",
+                "contacts": [
+                  {
+                    "name": "Hadie Mendoza",
+                    "role": "CONTACT",
+                    "phone": "+1 512 218 1222",
+                    "email": "hmendoza@dermresearch.net"
+                  },
+                  {
+                    "name": "Elizabeth Peckham",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 30.50826,
+                  "lon": -97.6789
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Kogarah",
+                "state": "New South Wales",
+                "zip": "2217",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.9681,
+                  "lon": 151.13564
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Westmead",
+                "state": "New South Wales",
+                "zip": "2145",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -33.80383,
+                  "lon": 150.98768
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "zip": "3004",
+                "country": "Australia",
+                "geoPoint": {
+                  "lat": -37.814,
+                  "lon": 144.96332
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Leuven",
+                "state": "Vlaams Brabant",
+                "zip": "3000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 50.87959,
+                  "lon": 4.70093
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Bruges",
+                "zip": "8000",
+                "country": "Belgium",
+                "geoPoint": {
+                  "lat": 51.20892,
+                  "lon": 3.22424
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Chengdu",
+                "state": "Sichuan",
+                "zip": "610041",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.66667,
+                  "lon": 104.06667
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100034",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Beijing",
+                "zip": "100730",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 39.9075,
+                  "lon": 116.39723
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Jinan",
+                "zip": "250012",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 36.66833,
+                  "lon": 116.99722
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Shanghai",
+                "zip": "200040",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.22222,
+                  "lon": 121.45806
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Suzhou",
+                "zip": "215000",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 31.30408,
+                  "lon": 120.59538
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Wuhan",
+                "zip": "430022",
+                "country": "China",
+                "geoPoint": {
+                  "lat": 30.58333,
+                  "lon": 114.26667
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Caen",
+                "zip": "14033",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 49.18585,
+                  "lon": -0.35912
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Cr\u00e9teil",
+                "zip": "94010",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.79266,
+                  "lon": 2.46569
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Lille",
+                "zip": "59037",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 50.63391,
+                  "lon": 3.05512
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Marseille",
+                "zip": "13885",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.29695,
+                  "lon": 5.38107
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Nantes",
+                "zip": "44093",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 47.21725,
+                  "lon": -1.55336
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Rennes",
+                "zip": "35033",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.11109,
+                  "lon": -1.67431
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Toulouse",
+                "zip": "31059",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.60426,
+                  "lon": 1.44367
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Munich",
+                "state": "Bavaria",
+                "zip": "81377",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.13743,
+                  "lon": 11.57549
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "W\u00fcrzburg",
+                "state": "Bavaria",
+                "zip": "97080",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 49.79391,
+                  "lon": 9.95121
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Bonn",
+                "state": "North Rhine-Westphalia",
+                "zip": "53127",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.73438,
+                  "lon": 7.09549
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "D\u00fcsseldorf",
+                "state": "North Rhine-Westphalia",
+                "zip": "40225",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.22319,
+                  "lon": 6.77927
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Dresden",
+                "state": "Saxony",
+                "zip": "01307",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.05089,
+                  "lon": 13.73832
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Leipzig",
+                "state": "Saxony",
+                "zip": "04103",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 51.33962,
+                  "lon": 12.37129
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Beelitz",
+                "zip": "14547",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.23812,
+                  "lon": 12.9714
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Berlin",
+                "zip": "13353",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 52.52437,
+                  "lon": 13.41053
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Stadtroda",
+                "zip": "07646",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 50.85684,
+                  "lon": 11.72677
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "T\u00fcbingen",
+                "zip": "72076",
+                "country": "Germany",
+                "geoPoint": {
+                  "lat": 48.52266,
+                  "lon": 9.05222
+                }
+              },
+              {
+                "facility": "Klinik f\u00fcr Neurologie (Schwerpunkt Neurodegeneration)",
+                "status": "RECRUITING",
+                "city": "Ulm",
+                "zip": "89081",
+                "country": "Germany",
+                "contacts": [
+                  {
+                    "name": "Olga Vintonyak",
+                    "role": "CONTACT",
+                    "email": "olga.vintonyak@uni-ulm.de"
+                  },
+                  {
+                    "name": "Olga aVintonyak",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Genova",
+                "state": "GE",
+                "zip": "16132",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 45.21604,
+                  "lon": 11.87211
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Milan",
+                "state": "MI",
+                "zip": "20133",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 42.78235,
+                  "lon": 12.59836
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Padova",
+                "state": "PD",
+                "zip": "35128",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.38225,
+                  "lon": 11.14261
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Roma",
+                "state": "RM",
+                "zip": "00168",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Salerno",
+                "state": "SA",
+                "zip": "84131",
+                "country": "Italy",
+                "geoPoint": {
+                  "lat": 40.67545,
+                  "lon": 14.79328
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Nagoya",
+                "state": "Aichi-ken",
+                "zip": "4650065",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.18147,
+                  "lon": 136.90641
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Gifu",
+                "state": "Gifu",
+                "zip": "5011194",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.42291,
+                  "lon": 136.76039
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Bunkyo Ku",
+                "state": "Tokyo",
+                "zip": "1138431",
+                "country": "Japan"
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Kodaira",
+                "state": "Tokyo",
+                "zip": "1878551",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.72603,
+                  "lon": 139.48508
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Yonago",
+                "state": "Tottori",
+                "zip": "6838504",
+                "country": "Japan",
+                "geoPoint": {
+                  "lat": 35.43333,
+                  "lon": 133.33333
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Rotterdam",
+                "state": "South Holland",
+                "zip": "3015 GD",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.9225,
+                  "lon": 4.47917
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Nijmegen",
+                "zip": "6525 GA",
+                "country": "Netherlands",
+                "geoPoint": {
+                  "lat": 51.8425,
+                  "lon": 5.85278
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Seoul",
+                "zip": "03722",
+                "country": "South Korea",
+                "geoPoint": {
+                  "lat": 37.566,
+                  "lon": 126.9784
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Sant Cugat Del V",
+                "state": "Barcelona",
+                "zip": "08190",
+                "country": "Spain"
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Pozuelo de Alarc\u00f3n",
+                "state": "Madrid",
+                "zip": "28223",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.43293,
+                  "lon": -3.81338
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08036",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Barcelona",
+                "zip": "08041",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Las Palmas GC",
+                "zip": "35010",
+                "country": "Spain"
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28009",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28034",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Madrid",
+                "zip": "28041",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 40.4165,
+                  "lon": -3.70256
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Seville",
+                "zip": "41013",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 37.38283,
+                  "lon": -5.97317
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "Cambridge",
+                "zip": "CB2 0QQ",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 52.2,
+                  "lon": 0.11667
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "status": "RECRUITING",
+                "city": "London",
+                "zip": "WC1N 3BG",
+                "country": "United Kingdom",
+                "geoPoint": {
+                  "lat": 51.50853,
+                  "lon": -0.12574
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D013494",
+                "term": "Supranuclear Palsy, Progressive"
+              },
+              {
+                "id": "D020774",
+                "term": "Pick Disease of the Brain"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D009886",
+                "term": "Ophthalmoplegia"
+              },
+              {
+                "id": "D015835",
+                "term": "Ocular Motility Disorders"
+              },
+              {
+                "id": "D003389",
+                "term": "Cranial Nerve Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D010243",
+                "term": "Paralysis"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D005128",
+                "term": "Eye Diseases"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D057180",
+                "term": "Frontotemporal Dementia"
+              },
+              {
+                "id": "D057174",
+                "term": "Frontotemporal Lobar Degeneration"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT05469360",
+            "orgStudyIdInfo": {
+              "id": "CNIO752B12201"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "2024-514004-14",
+                "type": "OTHER",
+                "domain": "EU CTIS"
+              }
+            ],
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Safety, Tolerability, Pharmacodynamics and Pharmacokinetics of NIO752 in Early Alzheimer's Disease Participants",
+            "officialTitle": "A Randomized, Participant and Investigator Blinded, Placebo-Controlled Study to Evaluate the Ability of a Single Intrathecally Administered Dose of NIO752 to Lower Cerebrospinal Fluid Total Tau Levels in Participants With Early Alzheimer's Disease"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2023-02-23",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2026-07-30",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2027-09-24",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-11",
+            "studyFirstSubmitQcDate": "2022-07-19",
+            "studyFirstPostDateStruct": {
+              "date": "2022-07-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-17",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-18",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "Phase 1b study to assess the pharmacodynamics, safety, tolerability, and pharmacokinetics of NIO752 in patients with early Alzheimer's disease (AD)",
+            "detailedDescription": "This is a phase 1b, randomized, double-blind, placebo-controlled study, in which 36 patients with early AD will be enrolled in one of three cohorts.\n\nCohorts 1 \\& 2 will receive a single intrathecal (IT) dose of NIO752 or placebo in the placebo-controlled part of the study, and multiple administrations of NIO752 in the open-label extension (OLE) part of the study.\n\nCohort 3 will receive two single IT doses of NIO752 or placebo in the placebo-controlled part of the study, and a single administration of NIO752 in the OLE part of the study.\n\nEach cohort will enroll 12 participants, and they will be randomized into receiving NIO752 or placebo in 2:1 ratio. Participants in cohorts 1\\& 2 will remain in this study for approximately \\~19 months, including \\~18 in-clinic follow up visits during that period of time. In cohort 3, participants will remain in this study for a follow up period of approximately \\~18 months including \\~10 in-clinic follow up visits.\n\nCohorts will be enrolled sequentially.\n\nParticipants who complete the placebo-controlled part of the study will be eligible to continue in an OLE part of the study regardless of randomization assignment in the placebo-controlled part. All OLE participants will receive either two (cohorts 1 \\& 2) or one (cohort 3) dose of NIO752.\n\nStudy assessments will include physical and neurological examinations, ECGs, vital signs, standard clinical laboratory evaluations (hematology, blood chemistry, and urinalysis), routine laboratory evaluation of CSF collected through lumbar puncture, adverse event, and serious adverse event monitoring. Cohort 3 participation will also require 3 MRI scans and 3 PET scans throughout the 18 months of the study."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Alzheimer Disease",
+              "Mild Cognitive Impairment"
+            ],
+            "keywords": [
+              "Alzheimer Disease",
+              "Autosomal dominant Alzheimer disease",
+              "Early onset Alzheimer disease",
+              "Familial Alzheimer disease",
+              "Dementia",
+              "Brain Diseases",
+              "Central Nervous System Diseases",
+              "Nervous System Diseases",
+              "Tauopathies",
+              "Neurodegenerative Diseases",
+              "Neurocognitive Disorders",
+              "Memory loss",
+              "Placebo",
+              "Adult"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Phase 1b",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 38,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NIO752 - Dose A - Cohort 1",
+                "type": "EXPERIMENTAL",
+                "description": "A single intrathecal injection of Dose A",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Matching placebo - Cohort 1",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "A single intrathecal injection of artificial cerebrospinal fluid (CSF)",
+                "interventionNames": [
+                  "Drug: Matching placebo"
+                ]
+              },
+              {
+                "label": "NIO752 Dose B - Cohort 2",
+                "type": "EXPERIMENTAL",
+                "description": "A single intrathecal injection of Dose B",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Matching placebo - Cohort 2",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "A single intrathecal injection of artificial cerebrospinal fluid (CSF)",
+                "interventionNames": [
+                  "Drug: Matching placebo"
+                ]
+              },
+              {
+                "label": "NIO752 OLE - Cohorts 1 and 2",
+                "type": "EXPERIMENTAL",
+                "description": "Multiple intrathecal injections of Dose A",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "NIO752 - Dose C - Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Two intrathecal injections of Dose C",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Matching Placebo - Cohort 3",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Two intrathecal injections of artificial cerebrospinal fluid (CSF)",
+                "interventionNames": [
+                  "Drug: Matching placebo"
+                ]
+              },
+              {
+                "label": "NIO752 OLE - Cohort 3",
+                "type": "EXPERIMENTAL",
+                "description": "Single intrathecal injection of Dose C",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "A single intrathecal (cerebrospinal) injection of NIO752 of Dose A",
+                "armGroupLabels": [
+                  "NIO752 - Dose A - Cohort 1"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "A single intrathecal (cerebrospinal) injection of NIO752 at dose B",
+                "armGroupLabels": [
+                  "NIO752 Dose B - Cohort 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Matching placebo",
+                "description": "A single intrathecal injection of matching placebo",
+                "armGroupLabels": [
+                  "Matching placebo - Cohort 1",
+                  "Matching placebo - Cohort 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "Multiple intrathecal injections of NIO752 of Dose A",
+                "armGroupLabels": [
+                  "NIO752 OLE - Cohorts 1 and 2"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "Two intrathecal injections of NIO752 at dose C",
+                "armGroupLabels": [
+                  "NIO752 - Dose C - Cohort 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "Single intrathecal injection of NIO752 at dose C",
+                "armGroupLabels": [
+                  "NIO752 OLE - Cohort 3"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Matching placebo",
+                "description": "Two intrathecal injections of matching placebo",
+                "armGroupLabels": [
+                  "Matching Placebo - Cohort 3"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Change in cerebrospinal total tau from baseline to Day 85",
+                "description": "Total tau protein levels in cerebrospinal fluid. More frequent timepoints might be added as deemed necessary per the site Investigator's judgment.",
+                "timeFrame": "Baseline, Day 85"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Number of adverse events and serious adverse events",
+                "description": "Adverse events are assessed at each clinic visit. Laboratory values and other safety assessment values considered clinically significant by the investigator and meet the definition of adverse event will be reported.",
+                "timeFrame": "Cohort 1 & 2: Baseline up to 170 days (placebo-controlled part) and up to 589 days (OLE part), Cohort 3: Baseline up to 169 days (placebo-controlled part) and up to 507 days (OLE part)"
+              },
+              {
+                "measure": "Concentration of NIO752 in cerebrospinal fluid (CSF)",
+                "description": "Concentration of NIO752 in CSF",
+                "timeFrame": "Cohorts 1 & 2: Pre-dose, Days 57, 85, 170 (placebo-controlled part) and Days 252, 420, and 588 (OLE part), Cohort 3: Pre-dose, day 1, 57, 85, 169 (placebo-controlled part) and Days 388 and 506 (OLE part)"
+              },
+              {
+                "measure": "Cmax, Ctrough in plasma",
+                "description": "Maximum and trough level concentrations of NIO752 in plasma",
+                "timeFrame": "Cohorts 1, 2 & 3: Pre-dose, 0.5, 1, 2, 3 4, 5, 6, 24 hours post first dose. Cohort 1 & 2: Days 14, 57, 85 and 170 (pbo-controlled part) and 252, 253, 420, 421, and 588 (OLE) Cohort 3: Days 14, 57, 85 and 169 (pbo-controlled part) and 338 and 506 (OLE)"
+              },
+              {
+                "measure": "Tmax in blood plasma",
+                "description": "Time of Cmax in plasma post-IT injection",
+                "timeFrame": "Cohorts 1, 2 & 3: Pre-dose, 0.5, 1, 2, 3 4, 5, 6, 24 hours post first dose. Cohort 1 & 2: Days 14, 57, 85 and 170 (pbo-controlled part) and 252, 253, 420, 421, and 588 (OLE) Cohort 3: Days 14, 57, 85 and 169 (pbo-controlled part) and 338 and 506 (OLE)"
+              },
+              {
+                "measure": "AUC-last in blood plasma",
+                "description": "Area under curve (AUC) from time zero to the last measurable concentration sampling time (t-last) (mass x time x volume-1)",
+                "timeFrame": "Cohorts 1, 2 & 3: Pre-dose, 0.5, 1, 2, 3 4, 5, 6, 24 hours post first dose. Cohort 1 & 2: Days 14, 57, 85 and 170 (pbo-controlled part) and 252, 253, 420, 421, and 588 (OLE) Cohort 3: Days 14, 57, 85 and 169 (pbo-controlled part) and 338 and 506 (OLE)"
+              },
+              {
+                "measure": "AUC-inf in blood plasma",
+                "description": "The AUC from time zero to infinity (mass x time x volume-1)",
+                "timeFrame": "Cohorts 1, 2 & 3: Pre-dose, 0.5, 1, 2, 3 4, 5, 6, 24 hours post first dose. Cohort 1 & 2: Days 14, 57, 85 and 170 (pbo-controlled part) and 252, 253, 420, 421, and 588 (OLE) Cohort 3: Days 14, 57, 85 and 169 (pbo-controlled part) and 338 and 506 (OLE)"
+              },
+              {
+                "measure": "Change in CSF total Tau",
+                "description": "Evaluating the ability of NIO752 to lower CSF total tau in participants with early AD when administered as multiple doses",
+                "timeFrame": "Cohorts 1 & 2: Pre-dose, Days 57, 85, 170 (placebo-controlled part) and Days 252, 420, and 588 (OLE part), Cohort 3: Pre-dose, day 1, 57, 85, 169 (placebo-controlled part) and Days 388 and 506 (OLE part)"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Main Inclusion Criteria (placebo-controlled part):\n\n* Between 30 to 74 years old (both inclusive) at the time of informed consent.\n* A diagnosis of mild Alzheimer's Disease (AD) or mild cognitive impairment (MCI) due to AD at screening with at least a 6-month decline in cognitive function prior to screening documented in the medical record. Both participants with sporadic AD as well as Amyloid Precursor Protein (APP), Presenilin-1 (PSEN1) or Presenilin-2 (PSEN2) mutation carriers are eligible.\n* Participants must have a diagnosis of MCI due to AD or mild AD at screening as defined by a Clinical Dementia Rating Scale (CDR) Global Score of 0.5 or 1 and a Memory Score \u2265 0.5.\n* A history of CSF biomarkers supporting the diagnosis of AD obtained at any time point prior to screening, including CSF amyloid (amyloid-\u03b2 42 and/or 42/40 ratio) AND tau species (total tau and/or phosphorylated tau). All participants must have documented historical confirmation of both CSF biomarkers (amyloid-\u03b2 and tau species) with results supporting a diagnosis of AD prior to screening. This criterion will be determined individually for each participant taking into consideration the biomarker assay used in each case. For participants (Cohorts 1 \\& 2 only) with no historical CSF biomarker information, a LP for CSF collection must be performed at the screening visit. For CSF collected at screening, participants must have confirmed positivity of amyloid-\u03b2-42 \u2264 1000 pg/mL as well as positivity on, at least, one of the following Tau biomarkers: phosphorylated-tau-181 \\> 12 pg/ml OR T-tau \\> 149.9 pg/mL as determined by the central laboratory.\n* Participant has a reliable study partner or caregiver (e.g., spouse, sibling, close friend, adult child) who, is at least 18 years old.\n* Participant resides in a proximity to the study site to allow a timely unscheduled visit to the study site, if necessary.\n* Participant is able to undergo lumbar puncture (LP), CSF collections, and blood draws, tolerate brain MRI and PET scanning, and able to participate and tolerate all study procedures at study visit.\n\nMain Inclusion Criteria (OLE part):\n\n* Signed informed consent of protocol version inclusive of the OLE.\n* Participant must complete Day 170 of the placebo-controlled part of this study.\n\nMain Exclusion Criteria (placebo-controlled part):\n\n* Participant lives in a skilled nursing facility or dementia care facility.\n* Any previous use of experimental therapy within 180 days or 5 half-lives prior to Day 1, whichever is greater. Previous exposure to anti-tau and anti-\u03b2-amyloid antibodies is allowed if at the time of screening at least 180 days have passed since the last dose. Previous exposure to amyloid vaccines or tau vaccines meant to treat AD, or previous treatment with oligonucleotides or with gene therapy at any time frame is not allowed.\n* Any current or past non-AD neurological conditions.\n* Other medical conditions including but not limited to poorly controlled diabetes mellitus, unstable angina, myocardial infarction, chronic heart failure, clinical significant conduction abnormalities, impaired renal or kidney function, which, in the opinion of the Investigator, would make the participant unsuitable for inclusion or could interfere with the participation in or completion of the study.\n* Treatment with immunosuppressants, antipsychotics, lithium, neuroleptics, dopaminergic agonists, L-dopa, or monoamine oxidase inhibitors at the time of screening. Current use of medications, other than cholinesterase inhibitors and/or memantine, that could alter cognition, as determined by the Investigator. If the participant is receiving cholinesterase inhibitors and/or memantine, the dose must have been stable within 12 weeks prior to screening, and must remain stable during the duration of the study.\n* Brain MRI at screening or within 12 months prior to screening showing evidence of cerebrovascular disease such as acute or sub-acute micro- or macrohemorrhage, significant signs of major cerebrovascular disease, or any other imaging evidence that, in the opinion of the Investigator, makes the participant unsuitable for the study.\n\nMain Exclusion Criteria (OLE part):\n\n* Use of any investigational drugs, or participation in a clinical trial with an investigational new drug (other than NIO752), after completing the initial placebo-controlled part of this trial\n* Participants who withdrew informed consent while participating in the main placebo-controlled part of the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "30 Years",
+            "maximumAge": "74 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Madhav Thambisetty, MD PhD",
+                "affiliation": "Novartis Pharmaceuticals",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Kuopio",
+                "zip": "70210",
+                "country": "Finland",
+                "geoPoint": {
+                  "lat": 62.89238,
+                  "lon": 27.67703
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Turku",
+                "zip": "20520",
+                "country": "Finland",
+                "geoPoint": {
+                  "lat": 60.45148,
+                  "lon": 22.26869
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Lille",
+                "zip": "59037",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 50.63391,
+                  "lon": 3.05512
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Paris",
+                "zip": "75013",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 48.85341,
+                  "lon": 2.3488
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Toulouse",
+                "zip": "31059",
+                "country": "France",
+                "geoPoint": {
+                  "lat": 43.60426,
+                  "lon": 1.44367
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Valencia",
+                "state": "Valencia",
+                "zip": "46017",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 39.47391,
+                  "lon": -0.37966
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Barcelona",
+                "zip": "08036",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Barcelona",
+                "zip": "08041",
+                "country": "Spain",
+                "geoPoint": {
+                  "lat": 41.38879,
+                  "lon": 2.15899
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Malm\u00f6",
+                "zip": "221 85",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 55.60587,
+                  "lon": 13.00073
+                }
+              },
+              {
+                "facility": "Novartis Investigative Site",
+                "city": "Stockholm",
+                "zip": "141 86",
+                "country": "Sweden",
+                "geoPoint": {
+                  "lat": 59.32938,
+                  "lon": 18.06871
+                }
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D000544",
+                "term": "Alzheimer Disease"
+              },
+              {
+                "id": "D060825",
+                "term": "Cognitive Dysfunction"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D008569",
+                "term": "Memory Disorders"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              },
+              {
+                "id": "D003072",
+                "term": "Cognition Disorders"
+              },
+              {
+                "id": "D019954",
+                "term": "Neurobehavioral Manifestations"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07868328",
+            "orgStudyIdInfo": {
+              "id": "CNIO752A12201"
+            },
+            "organization": {
+              "fullName": "Novartis",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Evaluate the Safety, Tolerability and Pharmacodynamics of NIO752 in Primary Tauopathies",
+            "officialTitle": "A Phase II, Randomized, Double Blind, Placebo-controlled, Basket Study to Evaluate the Safety, Tolerability and Pharmacodynamics of NIO752 in Participants With Primary Tauopathies"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-10",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2026-10-23",
+              "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2029-03-26",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2030-05-20",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2026-10-05",
+            "studyFirstSubmitQcDate": "2026-10-05",
+            "studyFirstPostDateStruct": {
+              "date": "2026-10-09",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-10-05",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-10-09",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Novartis Pharmaceuticals",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a phase II study intended to evaluate the safety, tolerability and pharmacodynamics of NIO752 in participants with primary tauopathies. Eligible participants will be randomized to receive either NIO752 or placebo during the double-blind treatment period followed by an Open-label Extension (OLE).",
+            "detailedDescription": "This is a randomized, double-blind (DB), placebo-controlled, parallel group, basket study to evaluate the safety, tolerability and pharmacodynamics of NIO752 in participants with PSP non-RS (Cohort 1), CBS non-AD (Cohort 2), and MAPT-FTLD (Cohort 3), followed by an OLE.\n\nThe study participants (16 per cohort) will be randomly allocated to either NIO752 or placebo treatment.\n\nThe study includes a screening period, a Double Blind treatment period, an Open-Label extension treatment period, and and a follow-up period until End-of-Study (EoS) visit."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Progressive Supranuclear Palsy",
+              "Corticobasal Degeneration",
+              "Frontotemporal Lobar Degeneration",
+              "Tauopathies"
+            ],
+            "keywords": [
+              "PSP non-Richardson syndrome (PSP non-RS)",
+              "Corticobasal syndrome, amyloid-negative (CBS non-AD)",
+              "MAPT mutation carriers (MAPT-FTLD)",
+              "NIO752",
+              "Antisense Oligonucleotide (ASO)",
+              "Microtubule Associated Protein Tau (MAPT)",
+              "Double-blind",
+              "Intrathecal"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "Parallel arm basket trial with 3 cohorts for the double blind period",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "maskingDescription": "Double-blind for the core treatment period; open-label NIO752 for all participants in the extension; raters blinded to safety data.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 48,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "NIO752 - Cohort 1 (PSP non-RS)",
+                "type": "EXPERIMENTAL",
+                "description": "NIO752 solution",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Placebo - Cohort 1 (PSP non-RS)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo solution",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "NIO752 - Cohort 2 (CBS non-AD)",
+                "type": "EXPERIMENTAL",
+                "description": "NIO752 solution",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Placebo - Cohort 2 (CBS non-AD)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo solution",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              },
+              {
+                "label": "NIO752 - Cohort 3 (MAPT-FTLD)",
+                "type": "EXPERIMENTAL",
+                "description": "NIO752 solution",
+                "interventionNames": [
+                  "Drug: NIO752"
+                ]
+              },
+              {
+                "label": "Placebo - Cohort 3 (MAPT-FTLD)",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "Placebo solution",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "NIO752",
+                "description": "Antisense Oligonucleotide Solution",
+                "armGroupLabels": [
+                  "NIO752 - Cohort 1 (PSP non-RS)",
+                  "NIO752 - Cohort 2 (CBS non-AD)",
+                  "NIO752 - Cohort 3 (MAPT-FTLD)"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo solution",
+                "armGroupLabels": [
+                  "Placebo - Cohort 1 (PSP non-RS)",
+                  "Placebo - Cohort 2 (CBS non-AD)",
+                  "Placebo - Cohort 3 (MAPT-FTLD)"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs) in double blind period",
+                "description": "Number of participants with TEAEs including SAEs, AESIs, and AEs leading to treatment interruption/discontinuation or dose reduction.",
+                "timeFrame": "From first treatment administration up to week 48"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs) in open-label extension",
+                "description": "Number of participants with TEAE, AESIs, SAEs, AEs leading to treatment interruption/discontinuation or dose reduction in OLE.",
+                "timeFrame": "From first treatment administration in OLE period up to week 96"
+              },
+              {
+                "measure": "Change from baseline in clinical laboratory evaluations",
+                "description": "Number of participants with laboratory test abnormalities.",
+                "timeFrame": "From baseline up to week 96"
+              },
+              {
+                "measure": "Change from baseline in vital signs",
+                "description": "Number of participants with clinically notable vital signs.",
+                "timeFrame": "From baseline up to week 96"
+              },
+              {
+                "measure": "Change from baseline in ECG parameters",
+                "description": "Number of participants with clinically notable ECG abnormalities.",
+                "timeFrame": "From baseline up to week 96"
+              },
+              {
+                "measure": "Suicidality assessment using the C-SSRS",
+                "description": "The number and percentage of participants reporting any suicidal ideation and behavior in Columbia Suicide Severity Rating Scale will be summarized",
+                "timeFrame": "From baseline up to week 96"
+              },
+              {
+                "measure": "Change from baseline in target engagement biomarker",
+                "description": "Change from baseline in biomarker as measure of target engagement.",
+                "timeFrame": "Baseline, week 24, week 48 and week 84"
+              },
+              {
+                "measure": "Change from baseline in neurodegeneration biomarker",
+                "description": "To assess NIO752 effect on neurodegeneration.",
+                "timeFrame": "Baseline, week 24, week 48 and week 84"
+              },
+              {
+                "measure": "Pharmacokinetic concentrations of NIO752",
+                "description": "Observed concentration of NIO752",
+                "timeFrame": "Baseline, week 12, 24, 36, 48, 60, 72 and 84"
+              },
+              {
+                "measure": "NIO752 antidrug antibodies (ADA)",
+                "description": "To assess immunogenicity of NIO752",
+                "timeFrame": "Baseline, week 12, 24, 36, 48, 60, 72 and 84"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nCommon across all cohorts:\n\n1. Signed informed consent must be obtained prior to participation in the study.\n2. Participants between the ages of \u226541 and \u226481 years.\n3. Able to walk at least 10 steps with minimal assistance (stabilization of one arm or use of cane/walker).\n4. Documented symptom (clinical manifestation) onset in the past \u22645 years prior to screening, defined as the first emergence of disease related motor, cognitive, or behavioral symptoms that led to measurable impairment in instrumental or basic activities of daily living (iADLs/ADLs), based on clinical history or reliable informant report.\n5. Reliable study partner(s) such as spouse, sibling, close friend or partner, family member or caregiver who are able and willing to provide accurate information (including clinical symptoms and medical history) about the participant and to participate in study visits and informant-based assessments for the duration of the study. A reliable study partner is expected to spend sufficient time (near-daily contact) with the study participant\n6. If participant is receiving symptomatic medication, the dose must have been stable for at least 8 weeks prior to randomization.\n\nCohort specific criteria:\n\nInclusion criteria (PSP non-RS): Diagnosis of mild-moderate, probable PSP non-RS as per MDS-PSP 2017 criteria with symptoms onset \u22645 years prior to Screening.\n\nInclusion criteria (CBS non-AD): Diagnosis of possible or probable CBD as per the 2013 consensus criteria, with CBS phenotype and symptom onset \u22645 years prior to screening. Individuals meeting criteria for probable CBD with non-CBS phenotypes (e.g., behavioral variant) are excluded to maintain consistency with the CBS non-AD target population.\n\nInclusion criteria (MAPT-FTLD): Carriers of a known pathogenic MAPT mutation based on existing evidence of prior genetic testing.\n\nExclusion Criteria:\n\n1. Diagnosis of other significant neurological or psychiatric disorders including (but not limited to) Parkinson's' Disease (which has not subsequently been revised to a diagnosis of PSP); Alzheimer's disease (AD), dementia with Lewy bodies; prion disease; any psychotic disorders; severe Major Depressive Disorder (MDD); history of epilepsy or seizure disorder (excluding febrile seizures in childhood); brain tumor or other space occupying lesion (e.g., brain tumor, subdural hematoma, abscess, or any intracranial mass causing compression or structural distortion) ; history of clinically significant stroke (e.g., stroke with neurological deficit); history of head injury with loss of consciousness for at least 15 minutes within the past 20 years.\n2. Diagnosis of amyotrophic lateral sclerosis and/or motor neuron disease.\n3. Diagnosis of cerebellar ataxia, choreoathetosis, and early symptomatic autonomic dysfunction.\n4. History of or screening brain Magnetic Resonance Imaging (MRI) scan indicative of significant abnormality, including, but not limited to, prior intracerebral hemorrhage or infarct \\>1 cm diameter, \\>3 lacunar infarcts, cerebral contusion, aneurysm, vascular malformation \\>1 cm diameter, subdural hematoma, hydrocephalus, and space-occupying lesion (e.g., abscess or brain tumor).\n5. Contraindications to undergo MRI procedure, including metal (ferromagnetic) implants and/or a cardiac pacemaker that is not compatible with MRI.\n6. Medical conditions that would as per Investigator's judgement prevent the participant from undergoing lumbar puncture (LP), including but not limited to:\n\n   * History of/ known allergy to local anesthetic\n   * History of back surgery (except for microdiscectomy or laminectomy at level one)\n   * Spinal deformities that would interfere with i.t. administration or CSF flow\n   * Current dermatological infection at the LP site and/or significant skin alterations at the planned LP site:\n\n     * Presence of increased or uncontrolled bleeding and/or risk of bleeding that if not managed optimally could increase a participant's likelihood of procedural bleeding. These could include but are not limited to anatomical factors at or near the LP site (e.g., vascular abnormalities, neoplasms) and underlying disorders of coagulation, platelet function or platelet count (e.g., abnormal coagulation parameters, hemophilia, Von Willebrand's disease, liver disease).\n     * Participants on anticoagulants (e.g., warfarin) or antiplatelets therapies \\[except for low dose aspirin (100 mg/day or lower) and low-dose ibuprofen (600 mg/day or lower) which are allowable\\], are not eligible to participate, unless temporal suspension of the anticoagulant or antiplatelet therapies for the purpose of the LP is considered safe for the patient, feasible, and guided by a hematologist.\n7. History of deep brain stimulator surgery other than sham surgery for participation in a deep brain stimulation clinical trial.\n\nOther protocol defined inclusion/exclusion criteria may apply",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "41 Years",
+            "maximumAge": "81 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "1-888-669-6682",
+                "email": "novartis.email@novartis.com"
+              },
+              {
+                "name": "Novartis Pharmaceuticals",
+                "role": "CONTACT",
+                "phone": "+41613241111"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com",
+            "url": "https://www.clinicalstudydatarequest.com/"
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D013494",
+                "term": "Supranuclear Palsy, Progressive"
+              },
+              {
+                "id": "D000088282",
+                "term": "Corticobasal Degeneration"
+              },
+              {
+                "id": "D057174",
+                "term": "Frontotemporal Lobar Degeneration"
+              },
+              {
+                "id": "D024801",
+                "term": "Tauopathies"
+              },
+              {
+                "id": "D020774",
+                "term": "Pick Disease of the Brain"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D001480",
+                "term": "Basal Ganglia Diseases"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D009069",
+                "term": "Movement Disorders"
+              },
+              {
+                "id": "D009886",
+                "term": "Ophthalmoplegia"
+              },
+              {
+                "id": "D015835",
+                "term": "Ocular Motility Disorders"
+              },
+              {
+                "id": "D003389",
+                "term": "Cranial Nerve Diseases"
+              },
+              {
+                "id": "D019636",
+                "term": "Neurodegenerative Diseases"
+              },
+              {
+                "id": "D010243",
+                "term": "Paralysis"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D005128",
+                "term": "Eye Diseases"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D003704",
+                "term": "Dementia"
+              },
+              {
+                "id": "D057177",
+                "term": "TDP-43 Proteinopathies"
+              },
+              {
+                "id": "D057165",
+                "term": "Proteostasis Deficiencies"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D019965",
+                "term": "Neurocognitive Disorders"
+              },
+              {
+                "id": "D001523",
+                "term": "Mental Disorders"
+              },
+              {
+                "id": "D057180",
+                "term": "Frontotemporal Dementia"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      }
+    ]
+  }
+}

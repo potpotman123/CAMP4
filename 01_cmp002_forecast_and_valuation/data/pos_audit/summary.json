@@ -1,0 +1,97 @@
+{
+  "as_of": "2026-11-16",
+  "core_asset_n": 24,
+  "core_drug_indication_n": 28,
+  "asset_status_counts": {
+    "approved": 3,
+    "stopped_efficacy": 7,
+    "ongoing": 9,
+    "stopped_strategic": 1,
+    "sponsor_exit_unresolved": 1,
+    "ongoing_after_partner_exit": 1,
+    "ongoing_after_negative_endpoint": 1,
+    "ongoing_positive_pivotal": 1
+  },
+  "pair_status_counts": {
+    "approved": 3,
+    "stopped_efficacy": 8,
+    "ongoing": 12,
+    "stopped_strategic": 1,
+    "sponsor_exit_unresolved": 1,
+    "ongoing_after_partner_exit": 1,
+    "ongoing_after_negative_endpoint": 1,
+    "ongoing_positive_pivotal": 1
+  },
+  "closest_pediatric_restoration": {
+    "ongoing": 3,
+    "stopped_efficacy": 1
+  },
+  "closest_n": 4,
+  "genetic_pair_n": 21,
+  "asset_vintages": {
+    "2010_2016": {
+      "approved": 2,
+      "stopped_efficacy": 1
+    },
+    "2017_2020": {
+      "stopped_efficacy": 5,
+      "sponsor_exit_unresolved": 1,
+      "ongoing_after_negative_endpoint": 1,
+      "ongoing": 2
+    },
+    "2021_2024": {
+      "ongoing": 7,
+      "stopped_efficacy": 1,
+      "stopped_strategic": 1,
+      "ongoing_after_partner_exit": 1,
+      "approved": 1,
+      "ongoing_positive_pivotal": 1
+    }
+  },
+  "pooled_approval_probability": null,
+  "reason_no_rate": "Purpose-built, incomplete public-source cohort; right-censoring, stage mismatch, correlated programs and unresolved exits. Raw outcome proportions are not lifetime PoS.",
+  "recommended_working_model": {
+    "central": 0.2,
+    "downside": 0.1,
+    "needham": 0.25,
+    "upside": 0.35,
+    "classification": "Judgmental valuation scenarios, NOT empirical estimates or confidence interval; central is provisional and not statistically preferred to 25%."
+  },
+  "5y_complete_calendar_followup_diagnostic": {
+    "n": 15,
+    "approval_within_horizon_n": 0,
+    "assets": [
+      "nusinersen",
+      "tofersen",
+      "tominersen",
+      "WVE-120101",
+      "WVE-120102",
+      "WVE-003",
+      "WVE-004",
+      "BIIB078",
+      "BIIB105",
+      "BIIB094",
+      "diranersen",
+      "zorevunersen",
+      "apazunersen",
+      "rugonersen",
+      "zilganersen"
+    ],
+    "successful_assets": [],
+    "interpretation": "Descriptive selected-cohort calendar horizon only; no survival estimate or independence assumption; unresolved asset status remains a limitation."
+  },
+  "10y_complete_calendar_followup_diagnostic": {
+    "n": 3,
+    "approval_within_horizon_n": 2,
+    "assets": [
+      "nusinersen",
+      "tofersen",
+      "tominersen"
+    ],
+    "successful_assets": [
+      "nusinersen",
+      "tofersen"
+    ],
+    "interpretation": "Descriptive selected-cohort calendar horizon only; no survival estimate or independence assumption; unresolved asset status remains a limitation."
+  }
+}

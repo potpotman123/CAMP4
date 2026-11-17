@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "ISIS333611",
+    "disposition": "legacy_superseded_uncertain",
+    "source": "https://clinicaltrials.gov/study/NCT01041222",
+    "reason": "Retain excluded sensitivity: older SOD1 compound superseded; start month legacy/unspecified and primary termination documentation incomplete. Not silently erased as an approval."
+  },
+  {
+    "asset": "RG6496",
+    "disposition": "2025_2026_entry_watchlist_negative",
+    "source": "https://ehdn.org/wp-content/uploads/2026/07/Roche-GENERATION-HD2-_-POINT-HD-global-patient-community-letter-July2026.pdf",
+    "reason": "POINT-HD stopped after chronic animal toxicity. Outside core entry window; reinforces risk remaining after first-dose clearance. Entry date not yet independently reconciled."
+  },
+  {
+    "asset": "RC001; LTX-002; AMX0114; TRCN-1023; TS1-ASO",
+    "disposition": "2025_2026_entry_watchlist",
+    "source": "sources/pos_audit/registry_discovery.json",
+    "reason": "Recent discovery leads retained with registry records, not yet full program adjudication; do not infer resolved success."
+  },
+  {
+    "asset": "milasen; afinersen; atipeksen; VCA-894A; tianasen",
+    "disposition": "individualized_boundary",
+    "source": "sources/pos_audit/registry_discovery.json",
+    "reason": "Single-patient or mutation-specific use does not have comparable commercial-approval intent; separate safety/feasibility evidence, not zero-approval failures. Some aliases are literature leads not fully verified."
+  },
+  {
+    "asset": "STK-002",
+    "disposition": "ocular_route_boundary",
+    "source": "https://www.sec.gov/Archives/edgar/data/1623526/000119312526437775/stok-ex99_1.htm",
+    "reason": "Protein upregulation relevant, ocular delivery differs; excluded from direct intrathecal reference denominator."
+  },
+  {
+    "asset": "DMD ASOs; systemic TTR ASOs; IL-17 me-too drugs",
+    "disposition": "excluded_modality_route_or_biology",
+    "source": "protocol/pos_audit_design_2026-11-16.txt",
+    "reason": "Not direct CNS delivery and mechanism matching. Can inform broad priors only."
+  },
+  {
+    "asset": "CNS viral gene therapies / enzyme replacement",
+    "disposition": "adjacent_not_pooled",
+    "source": "../../02_first_entry_dmt_forecast_study/data/independent/analogue_matrix.csv",
+    "reason": "Distinct dose persistence, delivery, immunology and manufacturing. Separate causal comparisons possible; no pooled PoS denominator."
+  }
+]
