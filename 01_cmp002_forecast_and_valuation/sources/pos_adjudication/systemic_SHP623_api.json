@@ -1,0 +1,2807 @@
+{
+  "retrieved_date": "2026-11-16",
+  "query_url": "https://clinicaltrials.gov/api/v2/studies?query.intr=SHP623&format=json&pageSize=100",
+  "response": {
+    "studies": [
+      {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02663687",
+            "orgStudyIdInfo": {
+              "id": "SHP623-100"
+            },
+            "organization": {
+              "fullName": "Takeda",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "Phase 1 Study to Assess the Safety, Tolerability, and Pharmacokinetics of Recombinant Human C1 Esterase Inhibitor in Healthy Adult Subjects",
+            "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Ascending Dose, Phase 1 Study to Assess the Safety, Tolerability, and Pharmacokinetics of Single Intravenous and Subcutaneous Doses of Recombinant Human C1 Esterase Inhibitor in Healthy Adult Subjects"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2021-05",
+            "overallStatus": "COMPLETED",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2016-02-19",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2016-12-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2016-12-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2015-12-21",
+            "studyFirstSubmitQcDate": "2016-01-21",
+            "studyFirstPostDateStruct": {
+              "date": "2016-01-26",
+              "type": "ESTIMATED"
+            },
+            "resultsFirstSubmitDate": "2017-12-04",
+            "resultsFirstSubmitQcDate": "2018-09-04",
+            "resultsFirstPostDateStruct": {
+              "date": "2018-09-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-05-13",
+            "lastUpdatePostDateStruct": {
+              "date": "2021-06-03",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Shire",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial is looking to gain information about the safety and tolerability of an investigational treatment (SHP623) in healthy adult volunteers. This study will also collect pharmacokinetic data (how the body absorbs and breaks down the study drug)."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Hereditary Angioedema (HAE)"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              }
+            },
+            "enrollmentInfo": {
+              "count": 48,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Treatment 1- 4",
+                "type": "EXPERIMENTAL",
+                "description": "Treatment A: 9 Subjects will receive dose level I of SHP623 intravenously (IV). B: 9 Subjects will receive dose level I of SHP623 subcutaneously(SC).",
+                "interventionNames": [
+                  "Drug: Recombinant human C1 esterase inhibitor",
+                  "Drug: SHP623"
+                ]
+              },
+              {
+                "label": "Placebo",
+                "type": "PLACEBO_COMPARATOR",
+                "description": "3 Subjects will receive placebo for each cohort",
+                "interventionNames": [
+                  "Drug: Placebo"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "Recombinant human C1 esterase inhibitor",
+                "description": "Subjects will receive escalating doses I-IV as both IV and SC injections",
+                "armGroupLabels": [
+                  "Treatment 1- 4"
+                ],
+                "otherNames": [
+                  "SHP623"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Subjects will receive matching placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "SHP623",
+                "description": "SHP623",
+                "armGroupLabels": [
+                  "Treatment 1- 4"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "Placebo",
+                "description": "Placebo",
+                "armGroupLabels": [
+                  "Placebo"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs ) Including Serious Adverse Events (SAEs)",
+                "description": "An adverse event (AE) was defined as any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product and that did not necessarily have a causal relationship with this treatment. An AE was considered to be a TEAE in a specific treatment period of the study if the date and time of onset were after investigational product administration in that period and if it occurred less than equals to (\\<=) Day 28 and was both not present at the start of that period and was not a chronic condition that was part of the participant's medical history, or it was present at the start of that period or as part of the participant's medical history but the severity or frequency increased during that period \\<= Day 28. An SAE was defined as any untoward medical occurrence (whether considered to be related to investigational product or not) that at any dose.",
+                "timeFrame": "From the start of study treatment up to 28 days after the last dose of the study treatment (up to 56 days)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Maximum Observed Plasma Concentration (Cmax) of SHP623 Occurring at Time of Maximum Observed Concentration During a Dosing Interval (Tmax)",
+                "description": "Cmax of SHP623 recombinant human C1 esterase inhibitor (rC1 INH) antigen at Tmax was calculated based on observed concentration-versus-time data. Cmax at Tmax of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Time of Maximum Plasma Concentration (Tmax) of SHP623 Sampled During a Dosing Interval",
+                "description": "Tmax of SHP623 (rC1 INH) antigen was calculated based on observed concentration-versus-time data. Tmax of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Terminal Half-life (t1/2) of SHP623",
+                "description": "t1/2 is the time required for the concentration of the drug to reach half of its original value. t1/2 of SHP623 (rC1 INH) antigen for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Area Under the Plasma Concentration Curve From Time Zero to Infinity (AUC 0-inf) of SHP623",
+                "description": "AUC 0-inf is the area under the curve extrapolated to infinity, calculated using the observed value of the last non-zero concentration. AUC 0-inf of SHP623 (rC1 INH) antigen was calculated from observed concentration-versus-time data. AUC 0-inf of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Area Under the Plasma Concentration Curve From Time Zero to 168 Hours Postdose (AUC 0-168) of SHP623",
+                "description": "AUC 0-168 is the area under the concentration curve over the interval from 0 to 168 hours after dosing of SHP623. AUC 0-168 of SHP623 (rC1 INH) was calculated based on observed concentration-versus-time data. AUC 0-168 of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Area Under the Curve From the Time of Dosing to the Last Measurable Concentration (AUClast) of SHP623",
+                "description": "AUClast is the area under the curve from the time 0 to the last measurable concentration of SHP623 (rC1 INH), which was calculated from observed concentration-versus-time data. AUClast of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Total Body Clearance (CL) for Intravascular (IV) Administration of SHP623",
+                "description": "CL is the total body clearance of SHP623 for IV administration. The unit of measurement is unit per hour\\*microgram per milliliter \\[U/(hr\\*mcg/ml)\\].",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Volume of Distribution Associated With the Terminal Slope (Vz) Following Intravenous (IV) Administration of SHP623",
+                "description": "Vz is the volume of distribution associated with the terminal slope following IV administration. Vz was calculated for SHP 623 (rC1 INH) antigen from observed concentration-versus-time data. The unit of measure is unit per microgram per milliliter \\[U/(mcg/ml)\\].",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Total Body Clearance for Extravascular Administration (CL/F) of SHP623 for Subcutaneous (SC) Administration",
+                "description": "CL/F is the total body clearance for extravascular administration of SHP623 for SC administration divided by the fraction of dose absorbed. CL/F of SHP623 (rC1 INH) was calculated based on observed concentration-versus-time data. The unit of measure is unit per hour\\*microgram per milliliter \\[U/(hr\\*mcg/ml)\\].",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              },
+              {
+                "measure": "Volume of Distribution Influenced by Fraction of Dose Absorbed (Vz/F) Following Extravascular Administration of SHP623",
+                "description": "Vz/F is the volume of distribution associated with the terminal slope following extravascular administration divided by the fraction of dose absorbed for subcutaneous (SC) administration. Vz/F of SHP623 (rC1 INH) were calculated from observed concentration-versus-time data. The unit of measure is unit per microgram per milliliter \\[U/(mcg/ml)\\].",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose."
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Must be considered healthy. Healthy status is defined by absence of evidence of any active or chronic disease\n2. Male, or non-pregnant, non-lactating female, who agrees to comply with any applicable contraceptive requirements of the protocol, or females of non-child-bearing potential.\n3. Body mass index between 18.0 and 30.0 kg/m2 inclusive with a body weight \\>50 kg (110 lbs.). This inclusion criterion will be assessed only at the first screening visit.\n4. Hemoglobin \u226512.0g/ld.\n\nExclusion Criteria:\n\n1. Have a history of allergic reaction to C1 INH products (e.g. C1 Inhibitor \\[Human\\], Berinert \\[C1 Estrace Inhibitor (Human)\\] and C1 estrace \\[recombinant\\]\n2. Known history of alcohol or other substance abuse within the last year.\n3. Donation of blood or blood products within 60 days prior to receiving investigational product.\n4. Current use of any medication except hormonal replacement therapy, hormonal contraceptives and occasional use of any over-the-counter non-steroidal anti-inflammatory drug (NSAID) or acetaminophen.\n5. Have a history of hypercoagulability or other predisposition to thrombotic events.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Study Director",
+                "affiliation": "Takeda",
+                "role": "STUDY_DIRECTOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "Clinical Pharmacology of Miami",
+                "city": "Miami",
+                "state": "Florida",
+                "zip": "33014",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                }
+              }
+            ]
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "preAssignmentDetails": "A total of 48 participants were screened, randomized and received at least one dose of treatment.",
+            "recruitmentDetails": "The study was conducted at a single center in the United States between 19 February 2016 (first participant first visit) and 05 December 2016 (last participant last visit).",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to SHP623 intravenous (IV) and subcutaneous (SC) administration in 1:3 ratio for each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "FG001",
+                "title": "1000 U SHP623",
+                "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an subcutaneous SC dose."
+              },
+              {
+                "id": "FG002",
+                "title": "2000 U SHP623",
+                "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an subcutaneous SC dose."
+              },
+              {
+                "id": "FG003",
+                "title": "3000 U SHP623",
+                "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an subcutaneous SC dose."
+              },
+              {
+                "id": "FG004",
+                "title": "5000 U SHP623",
+                "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an subcutaneous SC dose."
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "12"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Treatment Period 1 (IV)",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "12"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Treatment Period 2 (SC)",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "10"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "8"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "10"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "8"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "9"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Adverse Event",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Other",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG002",
+                        "numSubjects": "1"
+                      },
+                      {
+                        "groupId": "FG003",
+                        "numSubjects": "0"
+                      },
+                      {
+                        "groupId": "FG004",
+                        "numSubjects": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "populationDescription": "Safety analysis set consisted of all participants who were administered at least 1 dose of investigational product.",
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to SHP623 intravenous and subcutaneous administration in 1:3 ratio for each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between intravenous (IV) and subcutaneous (SC) dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "BG001",
+                "title": "1000 U SHP623",
+                "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "BG002",
+                "title": "2000 U SHP623",
+                "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "BG003",
+                "title": "3000 U SHP623",
+                "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "BG004",
+                "title": "5000 U SHP623",
+                "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+              },
+              {
+                "id": "BG005",
+                "title": "Total",
+                "description": "Total of all reporting groups"
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "BG001",
+                    "value": "9"
+                  },
+                  {
+                    "groupId": "BG002",
+                    "value": "9"
+                  },
+                  {
+                    "groupId": "BG003",
+                    "value": "9"
+                  },
+                  {
+                    "groupId": "BG004",
+                    "value": "9"
+                  },
+                  {
+                    "groupId": "BG005",
+                    "value": "48"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "description": "Age was calculated as the difference between date of birth and date of informed consent, truncated to years.",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "Years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "36.3",
+                            "spread": "7.93"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "40.7",
+                            "spread": "7.25"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "36.8",
+                            "spread": "7.08"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "38.0",
+                            "spread": "10.49"
+                          },
+                          {
+                            "groupId": "BG004",
+                            "value": "35.7",
+                            "spread": "8.63"
+                          },
+                          {
+                            "groupId": "BG005",
+                            "value": "37.4",
+                            "spread": "8.17"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG004",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG005",
+                            "value": "20"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG003",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG004",
+                            "value": "5"
+                          },
+                          {
+                            "groupId": "BG005",
+                            "value": "28"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs ) Including Serious Adverse Events (SAEs)",
+                "description": "An adverse event (AE) was defined as any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product and that did not necessarily have a causal relationship with this treatment. An AE was considered to be a TEAE in a specific treatment period of the study if the date and time of onset were after investigational product administration in that period and if it occurred less than equals to (\\<=) Day 28 and was both not present at the start of that period and was not a chronic condition that was part of the participant's medical history, or it was present at the start of that period or as part of the participant's medical history but the severity or frequency increased during that period \\<= Day 28. An SAE was defined as any untoward medical occurrence (whether considered to be related to investigational product or not) that at any dose.",
+                "populationDescription": "Safety analysis set consisted of all participants who were administered at least 1 dose of investigational product.",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "unitOfMeasure": "Participants",
+                "timeFrame": "From the start of study treatment up to 28 days after the last dose of the study treatment (up to 56 days)",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Placebo",
+                    "description": "Participants received placebo matched to SHP623 intravenous (IV) and subcutaneous (SC) administration in 1:3 ratio for each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG004",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "12"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG004",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Any TEAE",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG004",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Serious TEAE",
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG004",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Maximum Observed Plasma Concentration (Cmax) of SHP623 Occurring at Time of Maximum Observed Concentration During a Dosing Interval (Tmax)",
+                "description": "Cmax of SHP623 recombinant human C1 esterase inhibitor (rC1 INH) antigen at Tmax was calculated based on observed concentration-versus-time data. Cmax at Tmax of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "populationDescription": "Pharmacokinetic (PK) set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "microgram per milliliter (mcg/ml)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "47.911",
+                            "spread": "14.5979"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "130.367",
+                            "spread": "31.3581"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "160.556",
+                            "spread": "22.1083"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "307.000",
+                            "spread": "54.6374"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "4.248",
+                            "spread": "1.7445"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "15.694",
+                            "spread": "4.2062"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "16.318",
+                            "spread": "4.5612"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "32.056",
+                            "spread": "8.7727"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Time of Maximum Plasma Concentration (Tmax) of SHP623 Sampled During a Dosing Interval",
+                "description": "Tmax of SHP623 (rC1 INH) antigen was calculated based on observed concentration-versus-time data. Tmax of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEDIAN",
+                "dispersionType": "Full Range",
+                "unitOfMeasure": "hour (h)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.250",
+                            "lowerLimit": "0.25",
+                            "upperLimit": "0.25"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.250",
+                            "lowerLimit": "0.25",
+                            "upperLimit": "1.00"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0.250",
+                            "lowerLimit": "0.25",
+                            "upperLimit": "1.00"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "0.500",
+                            "lowerLimit": "0.25",
+                            "upperLimit": "1.00"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "72.000",
+                            "lowerLimit": "36.00",
+                            "upperLimit": "144.00"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "36.000",
+                            "lowerLimit": "24.00",
+                            "upperLimit": "72.00"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "48.000",
+                            "lowerLimit": "36.00",
+                            "upperLimit": "96.00"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "48.000",
+                            "lowerLimit": "36.00",
+                            "upperLimit": "96.00"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Terminal Half-life (t1/2) of SHP623",
+                "description": "t1/2 is the time required for the concentration of the drug to reach half of its original value. t1/2 of SHP623 (rC1 INH) antigen for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group.",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEDIAN",
+                "dispersionType": "Full Range",
+                "unitOfMeasure": "hour (h)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "28.8",
+                            "lowerLimit": "24.6",
+                            "upperLimit": "38.6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "40.2",
+                            "lowerLimit": "30.2",
+                            "upperLimit": "45.8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "38.2",
+                            "lowerLimit": "33.6",
+                            "upperLimit": "48.2"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "38.9",
+                            "lowerLimit": "31.7",
+                            "upperLimit": "48.2"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "51.8",
+                            "lowerLimit": "34.0",
+                            "upperLimit": "80.4"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "49.8",
+                            "lowerLimit": "42.4",
+                            "upperLimit": "65.9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "59.5",
+                            "lowerLimit": "46.3",
+                            "upperLimit": "71.7"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "51.8",
+                            "lowerLimit": "35.8",
+                            "upperLimit": "63.3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Area Under the Plasma Concentration Curve From Time Zero to Infinity (AUC 0-inf) of SHP623",
+                "description": "AUC 0-inf is the area under the curve extrapolated to infinity, calculated using the observed value of the last non-zero concentration. AUC 0-inf of SHP623 (rC1 INH) antigen was calculated from observed concentration-versus-time data. AUC 0-inf of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "hr*mcg/ml",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1114.535",
+                            "spread": "368.6962"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2941.364",
+                            "spread": "348.6029"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "4278.273",
+                            "spread": "663.0496"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "8282.120",
+                            "spread": "1118.0116"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "594.741",
+                            "spread": "101.0006"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1653.875",
+                            "spread": "318.0261"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "2304.409",
+                            "spread": "590.0275"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "4174.091",
+                            "spread": "854.5110"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Area Under the Plasma Concentration Curve From Time Zero to 168 Hours Postdose (AUC 0-168) of SHP623",
+                "description": "AUC 0-168 is the area under the concentration curve over the interval from 0 to 168 hours after dosing of SHP623. AUC 0-168 of SHP623 (rC1 INH) was calculated based on observed concentration-versus-time data. AUC 0-168 of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "hr*mcg/ml",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1069.451",
+                            "spread": "365.0676"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2823.169",
+                            "spread": "311.8634"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "4083.493",
+                            "spread": "623.9060"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "7893.069",
+                            "spread": "1010.5182"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "407.936",
+                            "spread": "149.3221"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1414.762",
+                            "spread": "328.9591"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1792.962",
+                            "spread": "488.0679"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "3386.375",
+                            "spread": "790.1633"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Area Under the Curve From the Time of Dosing to the Last Measurable Concentration (AUClast) of SHP623",
+                "description": "AUClast is the area under the curve from the time 0 to the last measurable concentration of SHP623 (rC1 INH), which was calculated from observed concentration-versus-time data. AUClast of SHP623 for both treatment period 1 (IV) and treatment period 2 (SC) was presented in the categories for each dosing group. The unit of measure is hour\\*microgram per milliliter (hr\\*mcg/ml).",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "hr*mcg/ml",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "title": "Intravenous (IV)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1054.798",
+                            "spread": "369.5553"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "2868.736",
+                            "spread": "344.7756"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "4174.135",
+                            "spread": "664.8862"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "8168.337",
+                            "spread": "1127.0107"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Subcutaneous (SC)",
+                    "denoms": [
+                      {
+                        "units": "Participants",
+                        "counts": [
+                          {
+                            "groupId": "OG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "9"
+                          }
+                        ]
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "401.030",
+                            "spread": "147.1284"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1518.124",
+                            "spread": "341.5602"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "2159.527",
+                            "spread": "599.1840"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "4040.772",
+                            "spread": "845.6065"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Total Body Clearance (CL) for Intravascular (IV) Administration of SHP623",
+                "description": "CL is the total body clearance of SHP623 for IV administration. The unit of measurement is unit per hour\\*microgram per milliliter \\[U/(hr\\*mcg/ml)\\].",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "U/(hr*mcg/ml)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0.961",
+                            "spread": "0.2229"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0.688",
+                            "spread": "0.0802"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "0.718",
+                            "spread": "0.1233"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "0.614",
+                            "spread": "0.0857"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Volume of Distribution Associated With the Terminal Slope (Vz) Following Intravenous (IV) Administration of SHP623",
+                "description": "Vz is the volume of distribution associated with the terminal slope following IV administration. Vz was calculated for SHP 623 (rC1 INH) antigen from observed concentration-versus-time data. The unit of measure is unit per microgram per milliliter \\[U/(mcg/ml)\\].",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "U/(mcg/ml)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "42.600",
+                            "spread": "10.7552"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "37.284",
+                            "spread": "4.8077"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "40.794",
+                            "spread": "6.9950"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "35.684",
+                            "spread": "4.6175"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Total Body Clearance for Extravascular Administration (CL/F) of SHP623 for Subcutaneous (SC) Administration",
+                "description": "CL/F is the total body clearance for extravascular administration of SHP623 for SC administration divided by the fraction of dose absorbed. CL/F of SHP623 (rC1 INH) was calculated based on observed concentration-versus-time data. The unit of measure is unit per hour\\*microgram per milliliter \\[U/(hr\\*mcg/ml)\\].",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "U/(hr*mcg/ml)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment period 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and treatment oeriod 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "8"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1.723",
+                            "spread": "0.2965"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1.250",
+                            "spread": "0.2445"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "1.399",
+                            "spread": "0.4512"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "1.254",
+                            "spread": "0.3199"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Volume of Distribution Influenced by Fraction of Dose Absorbed (Vz/F) Following Extravascular Administration of SHP623",
+                "description": "Vz/F is the volume of distribution associated with the terminal slope following extravascular administration divided by the fraction of dose absorbed for subcutaneous (SC) administration. Vz/F of SHP623 (rC1 INH) were calculated from observed concentration-versus-time data. The unit of measure is unit per microgram per milliliter \\[U/(mcg/ml)\\].",
+                "populationDescription": "PK set consisted of all participants in the safety analysis set for whom the primary PK data were considered sufficient and interpretable.",
+                "reportingStatus": "POSTED",
+                "paramType": "MEAN",
+                "dispersionType": "Standard Deviation",
+                "unitOfMeasure": "U/(mcg/ml)",
+                "timeFrame": "Pre-dose, 0, 0.25, 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 36, 48, 72, 96, 120, 144, 168, 216, 312, 648 hours post-dose.",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "1000 U SHP623",
+                    "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG001",
+                    "title": "2000 U SHP623",
+                    "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG002",
+                    "title": "3000 U SHP623",
+                    "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  },
+                  {
+                    "id": "OG003",
+                    "title": "5000 U SHP623",
+                    "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 and 2 for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose."
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "6"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "8"
+                      },
+                      {
+                        "groupId": "OG002",
+                        "value": "9"
+                      },
+                      {
+                        "groupId": "OG003",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "133.585",
+                            "spread": "48.5385"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "94.861",
+                            "spread": "27.1022"
+                          },
+                          {
+                            "groupId": "OG002",
+                            "value": "121.511",
+                            "spread": "37.3158"
+                          },
+                          {
+                            "groupId": "OG003",
+                            "value": "94.463",
+                            "spread": "30.0244"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "From the start of study treatment up to 28 days after the last dose of the study treatment (up to 56 days)",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "Placebo",
+                "description": "Participants received placebo matched to SHP623 intravenous (IV) and subcutaneous (SC) administration in 1:3 ratio for each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 12,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 12,
+                "otherNumAffected": 8,
+                "otherNumAtRisk": 12
+              },
+              {
+                "id": "EG001",
+                "title": "1000 U SHP623",
+                "description": "Participants received 1000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 9,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 9,
+                "otherNumAffected": 4,
+                "otherNumAtRisk": 9
+              },
+              {
+                "id": "EG002",
+                "title": "2000 U SHP623",
+                "description": "Participants received 2000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 9,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 9,
+                "otherNumAffected": 3,
+                "otherNumAtRisk": 9
+              },
+              {
+                "id": "EG003",
+                "title": "3000 U SHP623",
+                "description": "Participants received 3000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 9,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 9,
+                "otherNumAffected": 8,
+                "otherNumAtRisk": 9
+              },
+              {
+                "id": "EG004",
+                "title": "5000 U SHP623",
+                "description": "Participants received 5000 unit (U) of SHP623 in each cohort during treatment period 1 (IV) and treatment period 2 (SC) for 28 days respectively with 28 days interval between IV and SC dosing in the following order: once as an IV dose and once as an SC dose.",
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 9,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 9,
+                "otherNumAffected": 4,
+                "otherNumAtRisk": 9
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Back pain",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Constipation",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Diarrhoea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Dry mouth",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Dyspepsia",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Nausea",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Injection site pain",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Liver function test abnormal",
+                "organSystem": "Investigations",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 6,
+                    "numAffected": 5,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 4,
+                    "numAffected": 4,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Somnolence",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Cough",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Rhinorrhoea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Dermatitis",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              },
+              {
+                "term": "Dermatitis contact",
+                "organSystem": "Skin and subcutaneous tissue disorders",
+                "sourceVocabulary": "MedDRA 19.1",
+                "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 12
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG002",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG003",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  },
+                  {
+                    "groupId": "EG004",
+                    "numEvents": 0,
+                    "numAffected": 0,
+                    "numAtRisk": 9
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": false,
+              "restrictionType": "OTHER",
+              "restrictiveAgreement": true,
+              "otherDetails": "If a multicenter publication is not submitted within twelve (12) months after conclusion, abandonmentor termination of the Study at all sites, or after Sponsor confirms there shall be no multicenter Study publication, the Institution and/or such Principal Investigator may publish the results from the Institution site individually."
+            },
+            "pointOfContact": {
+              "title": "Study Director",
+              "organization": "Shire",
+              "email": "ClinicalTransparency@shire.com",
+              "phone": "+1 866 842 5335"
+            }
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-11-16"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D054179",
+                "term": "Angioedemas, Hereditary"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D000799",
+                "term": "Angioedema"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              },
+              {
+                "id": "D000081208",
+                "term": "Hereditary Complement Deficiency Diseases"
+              },
+              {
+                "id": "D000081207",
+                "term": "Primary Immunodeficiency Diseases"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D014581",
+                "term": "Urticaria"
+              },
+              {
+                "id": "D017445",
+                "term": "Skin Diseases, Vascular"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D006969",
+                "term": "Hypersensitivity, Immediate"
+              },
+              {
+                "id": "D006967",
+                "term": "Hypersensitivity"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D007153",
+                "term": "Immunologic Deficiency Syndromes"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "C571093",
+                "term": "conestat alfa"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      }
+    ]
+  }
+}

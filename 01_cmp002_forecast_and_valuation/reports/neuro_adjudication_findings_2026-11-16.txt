@@ -1,0 +1,44 @@
+Neuro program adjudication — 16 November 2026
+
+Scope and coverage
+All 321 candidate buckets in the assigned neurodevelopmental, inherited neurodegeneration and SMA panel with observed registry dates in 2010–2024 have a disposition. There are 195 mapped candidate buckets, 100 previously tested/repurposed candidates requiring a separate sensitivity frame, 14 background or diagnostic exclusions and 12 identities/commercial-intent cases unresolved. The mapped candidates collapse to 117 provisional drug–indication records. They are not 117 independent, eligible first-human entrants.
+
+All 117 records have either inherited source review, a primary adjudication or a logged targeted search. The bounded review leaves 45 program fates unresolved; a search without decisive evidence is not a failure. There are 34 retained retrieval batches. Raw registry records provide trial identifiers, date types, enrollment types and reasons for stopping. Every candidate ID remains mapped or dispositioned.
+
+Outcome observations in the entire provisional ledger
+11 FDA-approved records; 36 ongoing variants (32 ongoing, 2 regulatory review, 2 partial hold); 20 stopped variants; 5 pre-dose indication attrition records; 45 unknown. These are descriptive records before the entry gate, not a PoS denominator or numerator. Several rows share a molecule or pooled development program. Leriglitazone has a separately recorded EU exceptional-circumstances approval; it is not counted as FDA approved.
+
+Entry gate
+The primary target is a molecule entering human development in 2010–2024 for the relevant development rationale, before previous human efficacy data. A registry study start is enrollment, not necessarily dosing, and the first trial captured by a condition search is not necessarily first human exposure. Most rows remain pending validation of earlier trials and registration intent. The 15 inherited ASO reference records preserve their original evidence explicitly. They are a selected reference cohort, not an exhaustive independently reconstructed denominator.
+
+The one newly verified first-human month is apitegromab: May 2018, not its 2019 SMA patient trial proxy. The March 2018 sponsor release called the planned study first-in-human; the May 31 release confirmed first-cohort dosing, and the annual report dates Phase 1 initiation to May 2018. FDA's review confirms IND clearance on April 25, 2018. The December 2017 event was pre-IND correspondence, not human entry.
+
+Ganaxolone and trofinetide have explicit strict-frame exclusions across their indication rows. Primary publications establish human ganaxolone experience by 1997. Neuren's February 13, 2007 release states that NNZ-2566 safety and tolerability had already been confirmed in humans. Their later CDKL5 and Rett approvals must not inflate a novel-entry 2010–2024 success count. They remain useful only in separately defined indication-entry analyses.
+
+Five pre-dose boundary records
+VY-HTT01/Huntington (NCT04885114), CAD-1883/SCA (NCT04301284), PXL065/ALD (NCT05200104), PXL770/ALD (NCT05146284) and sobetirome/ALD have only withdrawn indication trials with actual enrollment zero in this panel. Exclude from an after-clinical-entry denominator. Preserve them for the different question of attrition between clinical planning/clearance and dosing; this dataset does not ascertain that pre-dose population completely. VYNT-0126/Rett remains unconfirmed: only an estimated 2023 start and a stale record, not proof that a patient was dosed.
+
+Identity corrections
+AB-1001 delivers CYP46A1 and is separate from HTT-lowering VY-HTT01. The latter's trial never enrolled a participant. Generic rhASA in NCT01510028 is intrathecal HGT-1110/SHP611, explicitly named in the intervention description; it is merged with SHP611 rather than counted as a separate enzyme program. It must not be confused with intravenous HGT-1111. CLN-301 is CLN3, formerly AT-GTX-502; AT-GTX-501 is CLN6. CLN2, CLN3, CLN5 and CLN7 subtypes are retained. TTX-381 is the ocular CLN2 program formerly RGX-381 and is excluded from the CNS therapeutic flag despite the underlying multisystem disease.
+
+Interpretation of narrow flags
+The neurodevelopmental flag means the named developmental/synaptic syndrome group: Angelman, Dravet, Rett, Fragile X, SYNGAP1, CDKL5 and Lennox-Gastaut. It intentionally excludes childhood neurodegenerative CLN/MLD/ALD programs; it does not mean those diseases lack developmental manifestations. LGS is not assumed genetically homogeneous. Genetic medicine means nucleic-acid or gene-transfer modality, not every drug treating a genetic disease. Protein restoration means restoration of the causal deficient protein; unknown mechanisms remain null. Many mechanistic annotations remain provisional.
+
+Target-novelty correction: the inherited novel_target_at_entry boolean was not an audit of whether a target had ever been tested in humans. It is preserved as legacy_novel_target_at_entry; literal novel_target_at_entry is reset to null. A reference_implied_no_approved_target_therapy field preserves the old implication without asserting it as evidence. The separate no_approved_target_directed_treatment_at_entry field is populated only for nusinersen and salanersen, where nusinersen's first SMA approval in December 2016 establishes the chronology. Prior human target exposure and established clinical efficacy remain separate unknown fields. Later HTT and UBE3A entrants cannot all be called first human target tests. The closest-four subgroup does not require literal never-human target novelty. This correction supersedes the earlier selected-cohort characterization as uniformly novel targets.
+
+The closest_restoration_ASO4 flag preserves exactly zorevunersen/Dravet, apazunersen/Angelman, rugonersen/Angelman and obudanersen/Angelman. Reused outcome evidence currently records zero approved, one stopped and three ongoing. It is nested within the inherited ASO reference records. A hypothetical one success among the three unfinished programs would yield one of four, or 25%, in that selected group. That is an arithmetic hurdle, not an empirical estimate of CMP-002's probability. This audit did not independently revalidate the inherited four histories.
+
+Why program histories matter
+Apitegromab was FDA approved September 11, 2026. Alogabat/Angelman was stopped March 27, 2026 according to Roche's community letter. Harmony's February 19, 2026 statement suspended ZYN002/Fragile X and ended its OLE; an apparently active registry record would have missed that. NGN-101 stopped advancement after failure to agree on a streamlined regulatory path, while post-dose follow-up continued. Arbaclofen was relicensed after the earlier Seaside shutdown, illustrating that a historic cessation is not always absorbing. BMB-101's November 2026 partial hold is distinguished from permanent discontinuation. Branaplam's SMA commercial stop and later Huntington safety stop are separate histories; the second is not an independent first-human experiment.
+
+Use in the model
+Use these files to identify exclusions, shared programs, appropriate strata and source-supported case histories. Do not use approved/(approved+stopped), do not turn ongoing or unknown into failures, and do not treat the most recent publication or a COMPLETED trial date as continuous program follow-up through the audit date. No precise lifetime PoS is calculated. Completing the entry gate and resolving enough unknown fates remain necessary before this expanded ledger can support a representative rate.
+
+Files
+data/pos_adjudication/neuro_program_ledger.json — program records, source URLs, dates, flags and entry gates.
+data/pos_adjudication/neuro_candidate_dispositions.json — full candidate-ID coverage.
+data/pos_adjudication/neuro_primary_adjudications.json — explicit source-led overrides.
+data/pos_adjudication/neuro_research_log.json — per-program searches, including unresolved attempts.
+data/pos_adjudication/neuro_summary.json — reproducible descriptive counts.
+sources/pos_adjudication/neuro_primary_search_*.json — retained retrieval evidence.
+scripts/neuro_adjudication.py — reproducible mapping and adjudication assembly.

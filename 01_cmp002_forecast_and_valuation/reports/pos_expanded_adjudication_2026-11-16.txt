@@ -1,0 +1,85 @@
+CMP-002 PoS audit: expanded public-source adjudication
+As of 16 November 2026 | Project 1 | Decision memo
+
+CONCLUSION
+The program-history audit is materially expanded, but a calibrated set of three lifetime approval probabilities is NOT completed. Needham's 25% remains a plausible valuation assumption; this research does not establish that it is conservative, too high, or statistically preferable to 20%. The earlier 20% central case and 10–35% range remain judgmental scenarios, not empirical estimates. Do not blend overlapping reference sets as if they supplied independent probabilities.
+
+What is completed: all 606 prioritized early-industry registry buckets were assigned an auditable disposition; supplemental alias/stage searches increased reviewed buckets to 952. These yielded 518 provisional program–indication records, not 518 verified clinical entrants. The integrated reference view retains 418 provisionally eligible records, excludes 69 and leaves 31 unresolved for entry/identity. Outcome research is uneven:233 of 418 retained rows have targeted/reused outcome review;185 remain registry-only.267 retained rows have unknown program fate. These limitations are measured in the saved records, not hidden in a fitted number.
+
+WHAT THE NESTED COMPARISONS ACTUALLY SHOW
+All counts below describe a selected public-source reference set. They are not population PoS estimates. Unresolved includes both known ongoing programs and programs whose fate could not be established. Program stops include non-biological reasons; they are not all efficacy failures.
+
+Group | Records | FDA approvals | Observed program stops | Unresolved
+R1 Broad mapped rare-disease reference | 418 | 38 | 47 | 333
+R2 Genetically defined CNS indication | 117 | 12 | 19 | 86
+R3 CNS + nucleic-acid / gene-modified therapy | 54 | 7 | 8 | 39
+R4 Closest four intrathecal restoration ASOs | 4 | 0 | 1 | 3
+
+R1 starts from a purposive 48-disease panel, not all rare diseases or all drugs. R2 requires a genetically defined CNS disease and intended neurologic treatment; a systemic metabolic disease is not automatically CNS because untreated patients can develop brain injury. R3 requires a nucleic-acid or gene-modified modality: ASO, siRNA, in-vivo gene therapy or ex-vivo genetically modified cells. Recombinant enzymes and small-molecule splice modifiers are outside that modality definition, even when they restore a missing protein. These mechanisms remain in R1/R2 and the complete ledger.
+
+R4 is the prespecified mechanistic anchor subset: zorevunersen/Dravet, apazunersen/Angelman, rugonersen/Angelman and obudanersen/Angelman. It is not an exhaustive result of route/restoration filters. All are intrathecal ASOs intended to raise a deficient neuronal protein in developmental disease. They are closer to CMP-002 on delivery, biology and efficacy-measurement challenges, but three share Angelman/UBE3A biology and are correlated. They do not use the same CAMP regulatory-RNA platform or establish SYNGAP1 reversibility. Zero approvals, one efficacy stop and three ongoing programs is not 0% PoS.
+
+Unknown filter membership remains explicit: 11 additional R1 records have insufficient CNS classification; four records potentially qualify for R3 but lack a required flag. The table does not count missing as false. Indication-family aggregation and combination programs remain further record-granularity limitations. Counts should not be read as independent Bernoulli trials.
+
+ARITHMETIC CHECKS, NOT PROBABILITY ESTIMATES
+For each reference set, let A=approved, F=observed program stops and U=unresolved. A/N is approvals observed to date. Conditional on all current stops remaining stopped, the possible eventual fraction lies between A/N and(A+U)/N. These are finite-record completion envelopes, not confidence intervals, not statistical identification bounds for the drug population, and not CMP-specific estimates. Restarts can invalidate the upper-end assumption.
+
+R1: observed approvals9.1%; conditional completion envelope9.1–88.8%.
+R2: observed approvals10.3%; conditional completion envelope10.3–83.8%.
+R3: observed approvals13.0%; conditional completion envelope13.0–85.2%.
+R4: observed approvals0.0%; conditional completion envelope0.0–75.0%.
+
+All four envelopes admit 25%; this demonstrates how little the incomplete records constrain the answer. For R3, seven additional approvals among 39 unresolved records would produce 14/54=25.9%. That is a completion scenario, not a prediction. In the closest four, one eventual approval among the three ongoing programs would produce 1/4=25%. Small-sample arithmetic does not validate Needham.
+
+WHY THE ANSWER CAN CHANGE WITH THE DENOMINATOR
+The more fully researched HAE/PNH reference slice has 34 observations across 33 clusters: 9 FDA approvals,6 observed program stops and19 unresolved US outcomes. The latter includes 13 ongoing, one China-only approval, one reversible suspension and four unknowns. The observed FDA fraction is 26.5%, but the indications, mechanisms, prior target validation and endpoint measurability differ substantially from CMP-002. Only 13 of those rows have explicit first-human evidence. It is useful evidence against a universal claim that 25% is implausible for any rare-disease program; it is not a 25% calibration for a pre-dose CNS platform.
+
+The metabolic/neuromuscular slice also provides a better-researched maturity check: every one of 56 pre-2019 reference rows received targeted external review. Its stricter terminal-outcome coding finds 13 FDA approvals,11 documented discontinuations and32 other/unknown outcomes. The 23.2% observed approval fraction is not lifetime PoS. This slice uses a stricter permanent-stop gate than the integrated table; the original and integrated definitions are both retained, rather than silently combining incompatible failure definitions.
+
+RECENCY AND STAGE MATCHING
+The user prioritizes recent experience and CMP-002's pre-first-dose stage. We preserve calendar cohorts instead of applying an arbitrary recency multiplier. Within R3:
+Observed entry vintage | Records | Approvals | Stops | Unresolved
+2010–2016 | 13 | 6 | 1 | 6
+2017–2020 | 11 | 0 | 5 | 6
+2021–2024 | 30 | 1 | 2 | 27
+
+The recent 2021–2024 set has 27/30 unresolved records. Comparing its 1/30 observed approval fraction with 6/13 among 2010–2016 records would confound follow-up time, discovery completeness and biological differences with changes in success rates. Older successful modalities are useful evidence that delivery can work, with less direct weight on current SYNGAP1 development. The recent close peers remain central for mechanistic judgment, despite not supplying mature outcomes.
+
+Clinical entry is another boundary. A trial's posted start date can refer to enrollment rather than dosing, and an actual start date can coexist with zero actual enrollment. We found never-enrolled programs such as ARO-SOD1, VY-HTT01, MRT5201 and HMI203. These cannot enter a first-dose denominator. They are relevant to CMP-002's pre-dose stage, but the ascertainment here does not supply a complete population of cleared-but-never-dosed assets from which to estimate that extra attrition. No numerical pre-dose haircut is therefore fitted.
+
+EVIDENCE THAT MATTERS FOR CMP-002
+Favorable: successful genetically directed CNS development is real. R3 includes FDA approvals for nusinersen, onasemnogene abeparvovec, tofersen, atidarsagene autotemcel, elivaldogene autotemcel, zilganersen and UX111. The set spans protein restoration, toxic-protein reduction and cell-mediated enzyme delivery; these are mechanisms with different translational and regulatory risks. Approval type and later safety/withdrawal events must remain separate from the endpoint ever approved. Representative regulator records:
+https://www.fda.gov/vaccines-blood-biologics/zolgensma
+https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-children-metachromatic-leukodystrophy
+https://www.fda.gov/media/194921/download
+
+Unfavorable: convincing rationale and target engagement do not ensure a clinically meaningful response or acceptable safety. The ASO peer set retains the apazunersen, BIIB078, WVE-004 and WVE-120101/120102 efficacy failures. Beyond ASOs, GDC-0134 development stopped for safety, while VRG50635 reached the brain and engaged its pathway but did not deliver the intended efficacy result. Those ALS programs are weaker biological matches to SYNGAP1; they are useful disconfirming evidence against treating CNS exposure or a biomarker change as sufficient proof. Primary sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8791798/
+https://www.vergelabs.blog/p/what-we-learned-from-the-trial-of
+
+Program-fate errors can bias either direction. Adrabetadex continued under a new sponsor after Mallinckrodt's discontinuation; lucerastat restarted Phase III after an earlier failure. UX111's terminated advanced-disease study did not prevent subsequent FDA approval in a different severity window within MPSIIIA. A completed or terminated study is not itself an asset-level terminal outcome. Conversely, negative efficacy followed by explicit program abandonment is retained as a stop. Every case's source and scope are in the ledger.
+
+IMPORTANT CORRECTION TO EARLIER WORK
+The prior ASO audit used novel_target_at_entry without consistently checking earlier human target exposure. That flag cannot support the claimed literal never-tested-in-humans filter. Tofersen followed earlier SOD1 human work; later HTT and UBE3A programs also followed earlier target exposure. We preserved legacy flags and reset unsupported literal novelty to unknown. No approved target-directed treatment is a separate concept from no prior human exposure or no prior clinical efficacy. The earlier 16-asset/19-pair description as a uniformly verified novel-target cohort is superseded. This correction does not erase the documented clinical outcomes.
+
+COMPUTATION, ACCESS AND STOPPING RULE
+The existing ClinicalTrials.gov API v2 inventory supplies 6,407 distinct trials and4,352 exact-name/condition buckets. The new screen uses actual structured condition matches, date windows, sponsor/stage and FDA ingredient flags. Ingredient matches only identify review candidates: they do not establish indication-specific approvals. Named searches and original regulator, sponsor, SEC, trial-publication and sponsor-submitted registry statements resolve aliases and outcomes. FDA Drugs@FDA and CBER sources are complementary; the latter matters for gene therapies. Public source snapshots and request metadata are preserved.
+
+A local merge then standardizes source-specific schemas, separates FDA outcomes from non-US approvals, retains failures/unknowns, preserves shared asset clusters and applies nested filters.19 integration checks validate counts, nesting, entry exclusions, jurisdiction and shared-source collisions; offline rebuilds reproduce all four input ledgers byte-for-byte. These checks validate arithmetic/provenance, not representativeness. Additional family-specific checks are saved. Three parallel reviewers were explicitly authorized by the user; the final merge and interpretation received a separate read-only review.
+
+No paid database, outreach or black-box predictive fitting was used. The previously identified Parker 2017-designation cohort remained unavailable beyond metadata/abstract; full-text endpoints returned 401/403/406 or no usable paper. No unseen results were imported. Public registry expansion is cheap computationally but does not solve identity, entry chronology, silent abandonment or missing historical eligibility. A commercial history database could improve ascertainment but would still require indication and stage adjudication.
+
+WHAT IS STILL UNFINISHED / WHAT MAY ENTER THE MODEL
+Case evidence, sources, named comparator membership and scenario sensitivities can inform the model now. These pooled observed fractions cannot enter as estimated CMP-002 lifetime PoS. The broad row set includes 185 registry-only records and many histories still lack true first-human dates. Only 14 of 418 currently carry explicit first-human verification. This is an evidence-qualification count, not a claim that the others were never dosed.
+
+The remaining work is in data/pos_adjudication/remaining_work_queue.json: recover earlier healthy-volunteer/other-indication exposure, resolve registration intent and disease subtypes, verify endpoints for untouched rows, and qualify time-to-event follow-up. Recent active programs will still require censoring even after those tasks. A competing-risk estimator already exists, but fitting it now would mislabel ignorance about program fate as independent right censoring. Lifetime extrapolation would require further assumptions even after a valid fixed-horizon analysis.
+
+The study should stay marked partial rather than claiming the requested broad PoS calculation is done. Further expansion into more unreviewed trials is stopped here because it would enlarge the proxy denominator without resolving the measurement problem. The highest-value continuation is closure of entry/outcome histories for a frozen, auditable cohort, with completeness diagnostics; not another raw search expansion or an arbitrary blend of the ratios above.
+
+DELIVERABLES AND REPRODUCTION
+data/pos_adjudication/integrated_program_ledger.json: full records with source-specific evidence retained.
+data/pos_adjudication/nested_reference_results.json: membership, calendar strata, arithmetic and input hashes.
+data/pos_adjudication/remaining_work_queue.json: explicit unfinished qualification/outcome work.
+data/pos_adjudication/integration_validation.json: checks and exclusions.
+reports/pos_adjudication_2026-11-16.html: searchable human-readable ledger.
+Run scripts/adjudicate_als.py, neuro_adjudication.py, metabolic_build.py, systemic_build.py; then integrate_pos_adjudication.py and render_pos_adjudication.py. All operate from saved inputs without fresh network access. The raw screening and retrieval scripts are retained separately.

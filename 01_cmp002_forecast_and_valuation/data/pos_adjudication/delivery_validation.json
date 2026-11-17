@@ -1,0 +1,64 @@
+{
+  "as_of": "2026-11-16",
+  "checks": [
+    {
+      "check": "All adjudication JSON files parse",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash als_program_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash neuro_program_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash metabolic_program_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash systemic_programs.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash als_candidate_dispositions.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash neuro_candidate_dispositions.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash metabolic_candidate_dispositions.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input hash systemic_dispositions.json",
+      "passed": true
+    },
+    {
+      "check": "Rendered evidence rows equal integrated records",
+      "passed": true
+    },
+    {
+      "check": "All source links HTTPS or HTTP",
+      "passed": true
+    },
+    {
+      "check": "Main report states incomplete probability estimation",
+      "passed": true
+    },
+    {
+      "check": "No headline literal novelty filter",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "offline_rebuilds": "Allfour family ledgers rebuilt byte-for-byte identically from saved inputs on2026-11-16",
+  "integration_checks": 19,
+  "independent_review": "Systemic reviewer checked integration read-only; fixed cluster, rarefilter and novelty-definition issues.",
+  "source_links_rendered": 401,
+  "source_and_data_files_hashed": 117,
+  "lifetime_probability_estimation_complete": false
+}

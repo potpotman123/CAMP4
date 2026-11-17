@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-11-16",
+  "selection": "Every priority_early_industry bucket with lysosomal/metabolic family or structured DMD/GNE/DM1/Friedreich disease match; SMA/ALS excluded. Six explicit supplemental discovery repairs for mixed-phase/condition-screen/academic-origin programs. Not the complete worldwide drug-development denominator.",
+  "candidate_count": 193,
+  "priority_candidate_count": 187,
+  "supplemental_candidate_count": 6,
+  "mapped_program_count": 139,
+  "excluded_candidate_count": 7,
+  "outcomes": {
+    "unknown": 92,
+    "stopped": 20,
+    "approved": 16,
+    "ongoing": 11
+  },
+  "search_status_counts": {
+    "targeted_primary_non_US_approval_US_outcome_unresolved": 2,
+    "targeted_primary_outcome_evidence": 51,
+    "targeted_search_unresolved_primary_program_endpoint": 20,
+    "registry_reviewed_no_targeted_outcome_search": 66
+  },
+  "reference_eligibility_counts": {
+    "True": 117,
+    "False": 17,
+    "None": 5
+  },
+  "limitations": [
+    "Canonicalized finite discovery frame, not a census of all clinical entrants.",
+    "First-human dates remain mostly study-start proxies and cannot be used as independently validated clinical inception.",
+    "US approval endpoint kept separate from non-US approvals.",
+    "Explicit sponsor program stops retained separately from irreversible lifetime failures; unknown is not failure.",
+    "Current pipeline/trial activity cannot by itself identify eventual approval probability; recent entrants are right-censored.",
+    "CNS and genetic-medicine flags operationally distinct; recombinant enzyme manufacture is not gene therapy.",
+    "Untargeted outcome rows are explicitly distinguishable from researched-but-unresolved rows."
+  ],
+  "model_ready_lifetime_pos": false
+}

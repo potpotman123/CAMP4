@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-11-16",
+  "scope": "All272 priority_early_industry buckets assigned to systemic/hematology/immune plus all2010–2024 industry-linked HAE/PNH buckets, including later-phase discovery aliases. Finite panel subset, not whole drug-development universe.",
+  "candidate_bucket_count": 366,
+  "priority_bucket_count": 272,
+  "program_identity_rows": 210,
+  "status_counts": {
+    "unknown": 168,
+    "approved": 20,
+    "stopped": 9,
+    "ongoing": 13
+  },
+  "eligibility_counts": {
+    "pending_first_human_and_global_entry_verification": 154,
+    "pending_program_indication_split": 8,
+    "exclude_prior_human_or_existing_agent": 22,
+    "pending_component_and_prior_human_entry": 2,
+    "include": 13,
+    "exclude_condition_mismatch": 5,
+    "exclude_later_indication_from_strict_first_human": 3,
+    "pending_indication_linkage": 1,
+    "exclude_never_dosed_boundary": 2
+  },
+  "HAE_PNH_frame_status": {
+    "ongoing": 13,
+    "stopped": 7,
+    "unknown": 4,
+    "approved": 10
+  },
+  "zero_enrollment_withdrawn_programs": 2,
+  "only_mapped_trials_zero_enrollment_rows": 4,
+  "limits": [
+    "All candidate IDs have an auditable disposition; mapping completeness is not historical program-universe completeness.",
+    "Most non-HAE/PNH programs have registry identity review only; external outcome research unfinished.",
+    "Healthy-volunteer starts omitted by disease search and later-indication/combination entries can bias denominator.",
+    "Approval endpoint must be specified: China-only approval is not FDA success.",
+    "Closed-case success fractions would be upward biased by selective outcome resolution and right censoring.",
+    "No fitted lifetime probability or unbiased broad PoS estimate is claimed."
+  ]
+}

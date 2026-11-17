@@ -9,11 +9,14 @@
 | Sell-side context and assumption audit | Eight original reports and extracted text saved; inherited Street data available |
 | Reverse DCF | To build: observed EV, development/operating costs, timeline, financing context and sales implied by valuation |
 | Independent worldwide revenue forecast | To build: epidemiology, diagnosis, eligibility, uptake, paid exposure, net pricing and country access |
-| KPI and PoS comparator research | PoS public-source v1 complete: 24 assets / 28 drug–indication pairs; no statistically calibrated PoS claimed. Other KPI audits pending |
+| KPI and PoS comparator research | Expanded adjudication: 518 mapped records; 418 provisional reference records. All 606 priority buckets dispositioned. Lifetime PoS estimation remains incomplete; other KPI audits pending |
 | Post-LOE / terminal-value analysis | Needham arithmetic decomposition recorded; independent durability assumptions still to research |
 | Explain the valuation gap | Pending independent model and reverse DCF |
 
 ## Start here
+
+- **Latest: [expanded PoS adjudication and decision memo](reports/pos_expanded_adjudication_2026-11-16.txt)**, [searchable evidence ledger](reports/pos_adjudication_2026-11-16.html), and [nested reference results](data/pos_adjudication/nested_reference_results.json). Counts tighten 418 → 117 → 54 → four closest peers; these are provisional reference sets, **not calibrated PoS estimates**. [Current handoff](context/pos_adjudication_handoff_2026-11-16.txt).
+- **Correction:** the old `novel_target_at_entry` flag did not establish absence of prior human target exposure. Unsupported flags are now unknown; the earlier uniform novel-target characterization is superseded. The earlier 20% central case remains judgmental, with no evidence here that it is statistically preferable to Needham’s 25%.
 
 - **[Public-source pilot and broader discovery results](reports/pos_pilot_and_broad_universe_2026-11-16.txt)**: eight-program linkage pilot; 6,407-trial inventory across 48 rare-disease search terms; FDA local matching; [review queue](data/pos_nested/candidate_review_queue.json). This is not yet an adjudicated program denominator or an empirical PoS estimate.
 
@@ -26,7 +29,7 @@
 
 - **[PoS audit decision memo](reports/pos_audit_findings_2026-11-16.txt)** and [full evidence report](reports/pos_audit_2026-11-16.html).
 - [PoS peer ledger (CSV)](data/pos_audit/program_ledger.csv), [source registry](data/pos_audit/source_registry.json), [scope/limitations](protocol/pos_audit_design_2026-11-16.txt), and [97 internal checks](data/pos_audit/validation.json).
-- Current conclusion: Needham's 25% is defensible as an optimistic assumption, not demonstrated conservative or empirically calibrated. Provisional 20% central / 10–35% scenarios are explicit judgment, not estimated probabilities.
+- Current conclusion: Needham's 25% remains a plausible assumption, not an empirically calibrated estimate. This expanded audit does not establish that it is too high or conservative. Earlier 20% central / 10–35% scenarios are retained as historical judgment, not estimated probabilities.
 
 
 - [KPI, PoS and post-LOE audit research prompt](protocol/cmp002_kpi_audit_research_prompt_2026-11-16.txt).

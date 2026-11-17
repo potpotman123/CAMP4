@@ -1,0 +1,36 @@
+SYSTEMIC / HEMATOLOGY / IMMUNE ADJUDICATION — 16 NOVEMBER 2026
+
+Scope and completion
+All 272 priority_early_industry buckets in the assigned families have a candidate-to-identity disposition. Additional industry-linked HAE/PNH buckets with observed panel starts in2010–2024 were added regardless of phase or approval status;94 additional buckets are mapped. This produces210 asset/indication identity rows. Most rows outside HAE/PNH remain registry identity review only; this is explicitly incomplete outcome adjudication, not a full rare-disease PoS denominator.
+
+The HAE/PNH finite reference frame has34 rows after excluding existing medicines/formulations, background agents, healthy-only unclear indication linkage, and demonstrated later indications. The current outcomes are9 FDA approvals,1 China-only approval,7 stops/suspensions,13 ongoing,4 unknown after bounded external/registry checks. This is a finite reference-frame inventory, not a lifetime approval rate. Pozelimab and cemdisiran are separate molecules but the current PNH combination is a shared outcome cluster. GNR038 and SHP623 still need molecular/product distinction review; entry dates remain provisional for many programs. Do not silently convert34 into34 independent, eligible first-human programs.
+
+Meaning of fields
+- candidate_ids: every original screening bucket allocated to this row.
+- trial_ids: panel registry records; additional_history_trial_ids and entry_evidence add relevant outside-panel history.
+- entry_date/entry_basis: explicit first-human study start where verified; otherwise an explicitly named proxy, year or upper bound. Earliest trial start can predate a drug's addition to the protocol. It is not always first dosing.
+- status: approved/stopped/ongoing/unknown in the named disease. jurisdiction and ever_FDA_approved_in_this_indication distinguish FDA from non-US outcomes. No later-indication approval credits.
+- eligibility: strict first-human cohort inclusion/exclusion or pending. reference_cohort_eligibility permits a separately labeled finite reference inventory while retaining pending exact-entry problems. approval_probability_input_eligible stays false pending reconciliation/completeness.
+- tier_flags: rare/geneticCNS/geneticmedicine/noveltarget/intrathecal/proteinrestoration; unknown allowed. None of the assigned systemic programs is a genetic CNS intrathecal comparator.
+- only_mapped_trials_zero_enrollment_withdrawn is a property of retrieved records, not a global never-dosed assertion. Four rows have only zero-enrollment withdrawn mapped records; two are established medicines(eptacog alfa,deferoxamine), two are cell/transplant records. These do not become clinical failures.
+
+Important substantive corrections
+1. Healthy-volunteer history changes the apparent entry dates. Garadacimab first-human study began28Oct2016, not the panel's2021 Phase3 date. Iptacopan first-human study beganJuly2016; the panel's earlier2015 combination-trial start cannot represent its first dosing. Donidalorsen first-human study began28Aug2017, before the panel's2020 patient trial. Zaltenibart first dosing wasSeptember2020, not2022 PNH entry. BCX10013 had ~90 healthy volunteers already exposed by the sponsor's1Nov2022 disclosure, not2023 PNH entry.
+2. Pegcetacoplan had intravitreal AMD exposure beginningJan2015 before PNH exposureFeb2015; LFG316 had ocular exposure in2010 before PNH2015. Both PNH histories are retained but excluded from a strict no-prior-human indication cohort. Indication-entry sensitivity could include them under a different denominator.
+3. ALXN1102 and ALXN1103 are TT30 formulations, not two drugs. Nine LP005 dose buckets, seven BMN331 dose buckets, multipleKVD824 formulations and multipleMim8/BCX7353 buckets collapse. Rosuvastatin/digoxin are DDI probes; C5 inhibitor is background eculizumab/ravulizumab in a danicopan trial. TAK667 is icatibant; CSL830 is explicitly a Berinert formulation.
+4. Zilucoplan has sponsor registry text explicitly abandoning PNH, so it is stopped in PNH despite approval in gMG. In contrast, TT30's enrollment termination and GNR038's pipeline-revision trial withdrawal do not independently prove irreversible program discontinuation. Vemircopan's PNH monotherapy trial failed control of hemolysis; definitive global indication fate remains unknown.
+5. Nomacopan suspension is a reversible strategic stop, not proof of biological failure. BMN331 was stopped strategically without reported safety signal. BCX9930 stopped for competitiveness; BCX10013 stopped for weak relative clinical activity/partner funding. KVD824 was stopped after liver-enzyme elevations. These mechanisms should remain separate.
+6. HSK39297/ciprocopan was approved inChinaJuly2026 per sponsor exchange filing; this is not FDA approval. HRS5965 filing verified here establishes Chinese application acceptance, not approval. Pozelimab's CHAPLE approval cannot be counted asPNH success.
+7. Voxelotor initialFDAapproval remains a first-approval success despite2024 withdrawal; commercialdurability/safety is a separate endpoint. BB305 beta-thalassemia/SCD share an active-ingredient construct and require clustering; SCD is later-indication exposure. Alyftrek component molecules share one fixed-combination approval.
+
+Four unresolved HAE/PNH fates
+GNR038: completed healthy study; subsequent patient trial withdrawn with zero enrollment for company pipeline revision. No conclusive primary asset stop found.
+SHP623: completed recombinant C1INH healthy study; primary subsequent fate not located. Do not substitute SHP616 or SHP643 outcomes.
+TT30: Phase1 terminated for enrollment,10 participants; review articles suggest PK limitations, but no conclusive primary sponsor stop retrieved in this bounded pass.
+Vemircopan: explicit PNH monotherapy efficacy failure; other-indication development makes global asset-failure classification inappropriate. Primary PNH terminal-program status remains unresolved.
+
+Provenance and validation
+systemic_build.py reproduces ledger/dispositions/summary from preserved inputs. Broad source registry snapshots remain in sources/pos_nested. Seventeen search-result packets and15 small asset-history API snapshots are in sources/pos_adjudication/systemic_*. Relevant source URLs and publication/update dates sit next to each outcome/entry claim. All366candidate IDs are unique and accounted for; no writes outside systemic_ owned files and no commit performed by this agent.
+
+Next value-producing work
+Reconcile strict entry eligibility for the reference frame, particularly earliest healthy exposure and prior ocular indications; cluster shared combinations; verify molecular distinctness of recombinant C1INH follow-ons. Then extend outcome research beyond HAE/PNH without selecting only resolvable winners. A comprehensive historical commercial-program database would reduce missing abandoned assets. This finite stratum cannot validate Needham25% for a novel CNS protein-restoration therapy.
