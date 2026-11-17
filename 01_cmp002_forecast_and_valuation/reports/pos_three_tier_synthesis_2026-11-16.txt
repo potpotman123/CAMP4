@@ -1,0 +1,60 @@
+CMP-002 PoS: three evidence tiers and an explicit valuation sensitivity
+16 November 2026 | Project 1 | v2 supplement; preserves v1 audit
+
+DECISION
+Store the four closest peers as a biological/clinical rationale set. Use three tiers of evidence, but do not present three observed approval probabilities and average them: two tiers do not yet identify a lifetime rate. Implement a broad-anchor/explicit-adjustment sensitivity now. A calibrated hierarchical posterior remains unavailable from the public first-pass evidence. The earlier 20% central remains judgment, not a finding of this exercise.
+
+TARGET AND STAGE
+Eventual FDA approval for CMP-002 in SYNGAP1, assessed from regulatory clearance before first human data. This is not discovery-stage preclinical risk, Phase III conditional success, or probability of positive Phase II results. Phase I benchmark is an approximation; residual failure to begin human dosing is not separately quantified. A worldwide model should distinguish US approval from subsequent regional approvals rather than assume all countries approve together. These comparisons assess development/approval risk, not commercial uptake conditional on success.
+
+TIER 1: CLOSEST BIOLOGICAL/CLINICAL PEERS — FROZEN MEMBERSHIP
+Zorevunersen/STK-001 (SCN1A/Dravet): strongest individual DEE and haploinsufficiency comparison; intrathecal ASO increases deficient protein. Different target and splicing mechanism from CMP-002.
+Apazunersen/GTX-102 (Angelman): protein restoration, childhood neurodevelopment and functional assessment; pivotal efficacy failure is important negative evidence.
+Rugonersen/RO7248824/OHB-724 (Angelman): independent molecule addressing related restoration/measurement problems; ongoing outcome.
+Obudanersen/ION582/BIIB121 (Angelman): repeated intrathecal protein-restoration therapy; ongoing outcome.
+All four are clinical-development analogues, not exact regRNA platform comparators. Three share Angelman/UBE3A biology, so they are not three independent validations of restoration. The set was selected retrospectively by resemblance, not enumerated prospectively at preclinical inception. Similarity does not guarantee an unbiased denominator.
+Observed in frozen v1: zero approvals, one efficacy discontinuation, three ongoing. Neither 0/4 nor 0/1 is a valid lifetime PoS estimate. Even if the stopped program never revives, eventual sample approval fraction can range 0–75%; this is an arithmetic bound, NOT a CMP-002 confidence interval.
+Persisted member records retain entry dates, registry links, status source IDs and biological clusters. Source IDs resolve in data/pos_audit/source_registry.json.
+
+TIER 2: BROADER GENETIC CNS INTRATHECAL ASOs
+Apply reproducible filters to the saved 28-pair ledger: genetically defined population; novel target at entry; no prior human exposure; intrathecal ASO. This yields 16 assets / 19 indication pairs: 3 approved, 6 efficacy discontinuations, 1 strategic discontinuation, 6 unresolved.
+Remove the four closest assets when reviewing incremental evidence: 12 assets / 15 pairs remain, with 3 approved, 5 efficacy stops, 1 strategic stop and 3 unresolved. Keeping a pair-level ledger preserves indication information; asset-level diagnostics avoid inflating observations through shared molecules/trials. Further disease/target/sponsor dependence remains.
+Exclude salanersen from primary novel-target comparison because it follows validated SMA biology. Exclude ulefnersen from the pre-human-data primary set because individualized human use preceded its group trial; its positive pivotal result remains supportive secondary evidence, not discarded science. Broad non-genetic AD/PD/PSP cases remain in v1 for adjacent-risk context.
+Approvals demonstrate that CNS ASO delivery and regulatory development can work. Toxic-protein lowering and motor-neuron rescue do not establish reversible synaptic-developmental impairment. Tofersen accelerated approval is not equivalent to a conventional functional-endpoint success.
+Sample bounds with permanent stops: 18.75–56.25% inclusive; 25–50% incremental. These are NOT estimated CMP PoS. In particular, do not call the incremental set's 25% lower bound proof that Needham is conservative: it is a selected, different-mechanism sample, not an exchangeable population.
+
+TIER 3: PUBLISHED BROAD ANCHORS
+BIO/Informa/QLS 2011–2020 study: Phase I-to-approval 7.9% all indications; 5.9% neurology; 17.0% NON-ONCOLOGY rare disease. Source Figure 5b, printed p11 and Figure 8b, printed p14:
+https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf
+These are products of phase-transition rates, not three independent cohorts or three observations to average. The neurology/rare-disease intersection is not identified by taking their average. The phase-transition counts are not a binomial sample size for a CMP posterior.
+Recency caveat: 2011–2020 is historical, not the current regulatory regime. Bounded discovery found IQVIA Global R&D Trends 2026, but the accessible landing page and summary link did not establish a comparable recent approval probability. Full report access is licensed; no purchase or bulk collection performed:
+https://www.iqvia.com/insights/the-iqvia-institute/reports-and-publications/reports/global-r-and-d-trends-2026
+Do not attach a numerical recent-regime premium merely because more ASOs have reached late development. Recent cohorts have less time to mature. Give recent close evidence greater mechanistic relevance while retaining older approvals as delivery/regulatory precedent; keep vintage separate from outcome censoring.
+
+IMPLEMENTED SYNTHESIS: ANCHOR PLUS NET ODDS ADJUSTMENT
+Use alternative base rates p0 and an explicit assumed net odds multiplier M:
+p = p0*M / (1-p0+p0*M).
+This is an assumption-driven sensitivity, NOT a fitted Bayesian posterior or empirically measured likelihood ratio. One net adjustment prevents separately multiplying correlated rarity, genetic definition and biomarker advantages. Do not feed overlapping sample outcomes back as independent observations. If estimating incremental effects later, access to benchmark constituent data or a genuinely separate cohort is needed.
+
+Illustrative probabilities:
+                           M=0.75     M=1.0      M=1.5      M=2.0
+All-drug anchor 7.9%         6.0%       7.9%      11.4%      14.6%
+Neurology anchor 5.9%        4.5%       5.9%       8.6%      11.1%
+Rare disease anchor 17.0%   13.3%      17.0%      23.5%      29.1%
+M values are hypothetical, not selected estimates. The JSON includes a wider grid.
+
+Needham's 25% requires a net odds improvement of 3.89x relative to all drugs, 5.32x relative to neurology, or 1.63x relative to non-oncology rare disease. This identifies the thesis to defend; it does not prove that improvement. Even a 20% working assumption needs 1.22x the rare-disease odds.
+A useful operational sensitivity panel is therefore 13.3%, 17.0%, 23.5%, 29.1% around the rare-disease anchor, with 25% separately retained as the Street reference and broad/neurology anchors shown as challenges. These are conditional scenarios, not a recommended confidence range or a replacement empirical base case.
+
+WHAT SUPPORTS OR OPPOSES AN UPLIFT?
+Supports: defined causal genetic deficiency; existing CNS ASO approval precedent; several relevant restoration assets advanced far enough to test efficacy; mechanism may address more than seizures.
+Opposes: novel regRNA platform/target with no human evidence; protein increase may not yield sufficient functional rescue; age/developmental windows; CNS exposure and chronic safety; difficult clinical endpoints and uncontrolled early-study optimism. The GTX-102 pivotal failure specifically challenges treating open-label developmental gains as strong approval evidence. Phase III entry is a development decision, not validated clinical efficacy.
+These observations do not currently identify the numerical net effect. The closest set supports neither a reliable upward nor downward multiplier magnitude. 25% remains possible but uncalibrated; the evidence does not establish it as conservative, nor prove that 20% is more accurate.
+
+WHAT CAN ENTER THE MODEL NOW / NEXT EVIDENCE
+Enter source-labeled historical anchors, the Street 25% case, and clearly labeled adjustment sensitivities. Do not enter selected-sample outcome fractions as lifetime approval rates. Preserve un-risked revenue separately from development risk.
+Before fitting a hierarchy, enumerate a broader inception cohort at clearance/first-human entry (including never-dosed programs), dates of phase transitions/termination, complete follow-up, target/disease/sponsor clusters and pre-entry evidence. Pre-specify membership before examining outcomes. A time-to-event or multi-state model can then accommodate censoring and recency, with partial pooling by mechanism/indication if sample size supports it. No such fit is claimed here.
+The highest-value immediate company-specific evidence is human target engagement plus a credible bridge to prespecified functional/seizure outcomes, adequate exposure/safety, and an interpretable controlled efficacy signal. A new positive pivotal restoration trial would improve mechanistic precedent but still would not validate CMP-002's distinct platform.
+
+REPRODUCIBILITY
+Run scripts/build_pos_synthesis.py. It hashes the original ledger, stores exact membership/exclusions, derives status counts and bounds, computes the assumption grid and tests overlap/formula identities. Existing v1 sources and status adjudications are reused, not independently revalidated in this supplement. No new clinical outcome claims are introduced. A new current-regime broad rate remains unresolved.

@@ -15,6 +15,9 @@
 
 ## Start here
 
+- **[Three-tier PoS synthesis](reports/pos_three_tier_synthesis_2026-11-16.txt)**: frozen [four closest biological/clinical peers](data/pos_synthesis/closest_biological_clinical_peers_2026-11-16.json), broader 16-asset genetic CNS set, published benchmark anchors and explicit odds sensitivities. No fitted posterior or empirically calibrated blend claimed.
+
+
 - **[PoS audit decision memo](reports/pos_audit_findings_2026-11-16.txt)** and [full evidence report](reports/pos_audit_2026-11-16.html).
 - [PoS peer ledger (CSV)](data/pos_audit/program_ledger.csv), [source registry](data/pos_audit/source_registry.json), [scope/limitations](protocol/pos_audit_design_2026-11-16.txt), and [97 internal checks](data/pos_audit/validation.json).
 - Current conclusion: Needham's 25% is defensible as an optimistic assumption, not demonstrated conservative or empirically calibrated. Provisional 20% central / 10–35% scenarios are explicit judgment, not estimated probabilities.
