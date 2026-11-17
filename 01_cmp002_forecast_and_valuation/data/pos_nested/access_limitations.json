@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-11-16",
+  "user_commercial_database_access": "not yet no",
+  "failures": [
+    {
+      "source": "FDA orphan form POST",
+      "observed": "search form returned, not result table"
+    },
+    {
+      "source": "FDA orphan GET and known-drug retries",
+      "observed": "HTTP503"
+    },
+    {
+      "source": "openFDA searches valoctocogene,ataluren,tominersen",
+      "observed": "HTTP404; no inference about clinical outcome"
+    },
+    {
+      "source": "Parker2026 ScienceDirect and public institutional PDF",
+      "observed": "HTTP403; abstract only verified"
+    }
+  ],
+  "credentials_used": false,
+  "paid_access": false,
+  "outreach": false
+}

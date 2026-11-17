@@ -1,0 +1,41 @@
+{
+  "accessed": "2026-11-16",
+  "references": [
+    {
+      "id": "ctg_api",
+      "url": "https://clinicaltrials.gov/data-api/api",
+      "role": "Official API documentation; actual response metadata records query URLs."
+    },
+    {
+      "id": "openfda",
+      "url": "https://open.fda.gov/apis/drug/drugsfda/",
+      "role": "Coverage and harmonization limitations."
+    },
+    {
+      "id": "fda_download",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+      "role": "Official database snapshot and table schema; retrieved ZIP preserved."
+    },
+    {
+      "id": "roctavian",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-adults-severe-hemophilia",
+      "role": "Indication-specific approval2023-06-29; resolves API false negative."
+    },
+    {
+      "id": "aceer_exit",
+      "url": "https://ir.ultragenyx.com/node/11086/html",
+      "role": "Sponsor filing confirms August2017 termination of its program, not global lifetime failure."
+    },
+    {
+      "id": "aceer_japan",
+      "url": "https://www.pmda.go.jp/files/000273006.pdf",
+      "role": "Primary regulator search result shows Japanese development distinct from sponsor exit; full document not read in this pass."
+    },
+    {
+      "id": "parker_abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41344392/",
+      "role": "292designations2017 alternative-frame discovery lead; no underlying dataset retrieved."
+    }
+  ],
+  "inherited_outcome_sources": "../pos_audit/source_registry.json"
+}

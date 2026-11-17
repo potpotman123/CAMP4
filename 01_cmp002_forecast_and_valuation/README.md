@@ -15,6 +15,9 @@
 
 ## Start here
 
+- **[Public-source pilot and broader discovery results](reports/pos_pilot_and_broad_universe_2026-11-16.txt)**: eight-program linkage pilot; 6,407-trial inventory across 48 rare-disease search terms; FDA local matching; [review queue](data/pos_nested/candidate_review_queue.json). This is not yet an adjudicated program denominator or an empirical PoS estimate.
+
+
 - **Current direction: [independent nested-cohort rebuild](protocol/pos_nested_cohort_reset_2026-11-16.txt).** Recalculate the broad rate from a common universe and progressively filter it. The earlier odds sensitivity is a scenario tool, not completion of this empirical analysis.
 
 

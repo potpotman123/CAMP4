@@ -1,0 +1,52 @@
+PoS pilot and broader discovery universe — 16 November 2026
+Project 1 | Public-source execution, not an estimated approval rate
+
+RESULT
+Completed an eight-program technical pilot and expanded into a reproducible discovery inventory across48 rare-disease search terms in8 disease families. The corrected all-phase inventory contains6,407 unique interventional trial records. This is a discovery panel, not a complete or representative census of all rare-disease development. Exact-name/condition buckets are provisional review units, not unique drug–indication programs.
+No new broad or filtered approval probability is yet defensible. The limitation is incomplete program identity, entry-stage and outcome adjudication, not arithmetic or API access. A number based on COMPLETED versus TERMINATED trials or approved-name matches would answer the wrong question.
+
+ACTUAL COMPUTATIONAL PIPELINE
+1. Public ClinicalTrials.gov API v2: https://clinicaltrials.gov/api/v2/studies
+   Query disease names, all interventional phases and study start through2024; paginate until no token. Include pre2010 records to detect earlier exposure. Retrieve identifiers, conditions, interventions/aliases/arms, sponsor, dates, phase, status and brief descriptions. No account/key used in this run. Keep original responses, URL parameters and hashes. This endpoint provides study records, not verified program outcomes or historical phase at first entry.
+2. Public openFDA Drugs@FDA API: https://api.fda.gov/drug/drugsfda.json
+   Pilot exact ingredient searches. Returned records for nusinersen, vosoritide and olipudase. No-hit for valoctocogene despite official FDA approval, so no-hit is unknown, never failure.
+3. Official Drugs@FDA download: https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files
+   Retrieved the6.1MB ZIP (12 text tables); match ingredient/brand names locally and extract original approval dates. Current local matching is exact, not fuzzy auto-adjudication. Original product approval may be for another indication; supplemental approvals and CBER products require separate checking. Original approval is not identical to orphan indication approval.
+4. FDA orphan designations: public form exists, but the pilot returned a search form/503errors rather than valid records. This source is not silently treated as successfully retrieved. Orphan designation is not clinical entry anyway.
+5. Python builds JSON evidence tables and a rebuildable SQLite workspace. Separate trials, intervention mentions, provisional program buckets, outcome evidence and eligibility flags. Missing classification remains null. Preserve all aliases and sponsors. Manual review is needed for collisions, background drugs, repurposing, indication subtypes and sponsor transfers.
+6. Nested filter analysis will operate on the SAME adjudicated program rows: rare/non-oncology -> genetically defined CNS -> novel-target genetic medicine -> intrathecal protein restoration/neurodevelopment. No artificial multiplicative uplift from published17%.
+7. A tested competing-risk estimator is implemented for fixed-horizon approval cumulative incidence. Confirmed permanent discontinuation competes with approval; unresolved cases end at verified last follow-up, not automatic failure or today's date. It rejects unverified eligibility/follow-up. It does not estimate unsupported lifetime tails or solve selection/missingness. It has been tested only on hand-calculated synthetic examples, not fitted to this unadjudicated inventory.
+
+PILOT: SELECTED TO TEST LINKAGE, NOT ESTIMATE A RATE
+Eight assets generated143 trial search results, all pages retrieved:
+- Nusinersen/SMA: first indication study recovered; FDA original approval2016-12-23. Later trials do not add independent programs.
+- GTX-102/Angelman: NCT04259281 recovered; another GTX-102 in ataxia-telangiectasia is a different drug, not another indication for the same ASO. Keep disease, sponsor and identity evidence together.
+- Vosoritide/achondroplasia: earliest recovered indication study2012-02; FDA approval2021-11-19. Earlier healthy-human exposure is not ruled out. Later short-stature/MPS studies must not be counted as original program entry.
+- Olipudase/ASMD: modern aliases missed rhASM in NCT00410566, start2006-12. Initial hit2013 would falsely place it in the2010+ cohort. Corrected entry excludes it from that inception window. FDA approval2022-08-31.
+- Ataluren/DMD: earliest recovered DMD study2005-12, alreadyPhase2. Earlier human entry remains to resolve; excluded from2010+ pilot entry window. US FDA no-match is not a global failure determination.
+- Valoctocogene/hemophiliaA: entry study2015-09-28. Official FDA/CBER source confirms2023-06-29 approval despite openFDA no-hit. Commercial discontinuation later does not erase first approval.
+- Ace-ER/GNE myopathy: SA-ER alias recovers2011-07 entry missed by initial searches. Ultragenyx discontinued its program in2017, but Japanese development continued: sponsor exit must not automatically become irreversible asset failure.
+- Tominersen/HD: dose arms collapse into one asset. The2021 trial halt was not terminal program failure; later development continued. Existing audit supplies subsequent2026 termination evidence.
+Full trial IDs, source links and review dispositions: data/pos_nested/pilot_audit.json. Outcome evidence from the prior ASO audit is reused explicitly, not represented as independent validation.
+
+BROADER EXPANSION AND CHECKS
+Frozen search panel covers neurodevelopment, genetic neurodegeneration, neuromuscular, lysosomal, metabolic, hematologic, systemic and immune disease families. Specific terms and selection caveats are in disease_panel.json. These are48 search terms, NOT48 guaranteed distinct diseases or a complete rare-disease ontology; several represent heterogeneous families.
+Initial phase1-only discovery returned1,543 unique trials. Comparison against the prior reference ledger missed tofersen, zilganersen and ulefnersen entry studies. All-phase expansion recovered them. All four closest pediatric restoration peers are now recovered without named-drug queries in the broader pass. This is a useful positive-control check, not proof that every failed program is found.
+Corrected inventory:6,407unique trials;5,736 retained drug/biologic/genetic intervention mentions;4,352 conservative exact-name/condition buckets, of which3,372 have earliest observed panel dates in2010–2024. Among these,2,338 have candidate dates2010–2020 and1,034 have2021–2024 dates. These dates are NOT yet established first human entries.
+1,214 buckets have an exact FDA ingredient/brand name match. This is NOT1,214 approvals in the studied indication. Old approved drugs, supportive treatments, repurposing and repeated aliases remain to resolve.5,364 non-drug/control/nonexperimental intervention mentions were flagged out; experimental-arm membership still does not prove the drug is the novel investigational agent.
+All12 all-phase API pages completed. No pagination truncation. Unique-ID/provenance checks passed. Source snapshots total approximately31MB before derived outputs. Public investigator contact fields were not requested in the broad pass; pilot complete responses remain original sources.
+
+WHY NO PoS NUMBER YET
+This panel is purposive and can overrepresent high-activity diseases; it cannot be labeled the all-rare-disease base rate. Condition searches miss healthy-volunteer entry studies and unregistered historical activity. Current phase labels are not original phase labels. Program discontinuation requires sponsor/regulatory evidence, and no update is not necessarily a failure. Ongoing programs require verified follow-up dates. Failure of a single trial is not failure of the drug–indication program. Treating FDA name matches as successes would create indication leakage.
+The raw data therefore fails the pre-specified gate for an approval-rate denominator. It is suitable for candidate discovery and review prioritization, not valuation input. This is the pilot's substantive finding; adding more undifferentiated records would not fix it.
+
+NEXT WORK AND ACCESS
+User confirmed no historical commercial database access. Continue public-source work; no paid database, new account or outreach was used. Prioritize actual program reconstruction within a fixed, declared cohort, then expand disease coverage against a rare-disease ontology. Adjudicate aliases, earliest human stage, registration intent, target/modality, outcomes and follow-up; keep unresolved programs visible. A staged/sampled audit can establish matching precision and missingness before manual review of thousands of buckets. Do not estimate a rate from the purposively chosen8 pilot assets.
+A concrete additional lead is Parker etal., Non-oncology orphan drug development: Productivity and probability of success (onlineDec2025; Jan2026 issue), a292-designation2017 cohort. Primary abstract verified through PubMed/university repository; full text/supplement retrieval returned403. It may offer a reproducible alternative starting frame, but designation stage differs from PhaseI inception. No results or underlying records imported, and no claim that it supplies our missing denominator. Link: https://pubmed.ncbi.nlm.nih.gov/41344392/
+The pilot and broad DISCOVERY expansion are complete. Program adjudication, a representative broader denominator and empirical nested PoS estimates remain outstanding. The prior odds-sensitivity analysis remains illustrative and does not fill this gap.
+
+FILES AND REPRODUCTION
+sources/pos_nested/: raw trial/API responses and FDA ZIP, request metadata.
+data/pos_nested/: pilot audit, disease panel, trial inventory, intervention mentions, exclusions, candidate review queue, retrieval manifests, summaries and source hashes.
+scripts/fetch_pos_pilot.py; fetch_pos_broad_registry.py; build_pos_nested.py; audit_pos_nested_pilot.py; estimate_pos_competing_risks.py.
+work/pos_nested.sqlite is rebuilt from preserved inputs and is not the canonical evidence store.
