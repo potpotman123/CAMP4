@@ -14,6 +14,7 @@ This public repository contains two separate projects. Read the root README and 
 - Check competing mechanisms and disconfirming evidence. Arithmetic reconciliation is not independent validation.
 - Prefer bounded, targeted research and original sources. Ask before paid access, bulk scraping, large OCR or materially expensive fitting. Do not initiate outreach without explicit authorization.
 - Do not launch agents or change model settings without applicable user authorization.
+- On 16 November 2026 the user instructed "no more parallel agents." This supersedes the earlier permission to parallelize this research. Continue without parallel agents unless the user explicitly changes that instruction.
 - Preserve concise durable state, source provenance, unresolved issues and the next highest-value step. Avoid duplicative reports.
 - On 9 November 2026, the user explicitly instructed: "Keep it public and save everything, including the sell-side context." This supersedes the earlier private-only instruction. Preserve public visibility and save all project research, supplied sources and sell-side context here. Do not change sharing without a new user instruction.
 
