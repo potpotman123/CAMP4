@@ -125,7 +125,7 @@ for horizon in [5,10]:
 for name,obj in [('program_ledger',rows),('source_registry',src),('discovery_screen',screen),('boundaries_and_exclusions',boundaries),('summary',summary)]:
  (D/(name+'.json')).write_text(json.dumps(obj,indent=2)+'\n')
 with (D/'program_ledger.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows({k:json.dumps(v) if isinstance(v,(list,dict)) else v for k,v in x.items()} for x in rows)
+ w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows({k:json.dumps(v) if isinstance(v,(list,dict)) else v for k,v in x.items()} for x in rows)
 manifest=[dict(file=str(p.relative_to(R)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(S.glob('*')) if p.is_file()]
 (D/'source_hashes.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(json.dumps(summary,indent=2))
