@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "45 unique bounded decisions",
+    "319 unique molecule clusters / inherited 42 approvals",
+    "nested 319/89/56/18/6/4",
+    "status-only changes leave approval curve invariant",
+    "entry intervals ordered",
+    "no unknown candidate automatically deleted",
+    "all 45 decisions have source links"
+  ],
+  "input_hashes": {
+    "data/evaluate_audit/updated_observations.json": "f2cfb9a3d9aceefe4325e472de3a08b3a7b75c9f77b688e68864c10218b6238c",
+    "data/pos_completion/completed_program_ledger.json": "b011c2418a0f1d0f47412eddff21b0e35c753be08b71bb772133eb3b21212722",
+    "scripts/build_evaluate_primary_followup.py": "be50697110b07ea667dcc93236bfeb54cd54fa0afb22ab282d3a9242f3b66660"
+  }
+}

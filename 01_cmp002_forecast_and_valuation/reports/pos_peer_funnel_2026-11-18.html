@@ -1,0 +1,518 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>CMP-002 PoS peer funnel</title>
+<style>body{font:16px/1.5 system-ui;margin:40px auto;max-width:1120px;padding:0 24px;color:#162b40}h1{font-size:30px}table{border-collapse:collapse;width:100%;margin:20px 0}th,td{text-align:left;padding:10px;border-bottom:1px solid #cbd5df}th{background:#eaf1f7}summary{cursor:pointer;font-weight:600;margin:12px 0}.note{background:#fff3dc;padding:16px}small{color:#4e6174}</style>
+<h1>CMP-002: the peer funnel we actually have</h1><p>18 November 2026 · Project 1 · selected clinical-entry molecule panel</p>
+<p class="note"><b>This is not an all-drugs or comprehensive drug–indication dataset.</b> Percentages are finite-horizon FDA approval estimates after clinical entry—not CMP-002’s preclinical lifetime PoS. Multiple indications currently consolidated under a molecule still require pair-level adjudication.</p>
+<table><tr><th>Additional filter</th><th>Molecules</th><th>Approved / failed / active / unknown</th><th>10-year estimate</th><th>Unapproved observed to 10 years</th></tr>
+<tr><td>Selected rare-disease molecule clusters</td><td>319</td><td>42 / 116 / 127 / 34</td><td>21.5%</td><td>73</td></tr>
+<tr><td>Genetic CNS disease</td><td>89</td><td>12 / 29 / 43 / 5</td><td>20.1%</td><td>20</td></tr>
+<tr><td>Genetic CNS + genetic medicine</td><td>56</td><td>7 / 19 / 27 / 3</td><td>20.5%</td><td>9</td></tr>
+<tr><td>Genetic CNS + intrathecal ASO</td><td>18</td><td>3 / 8 / 7 / 0</td><td>31.2%</td><td>2</td></tr>
+<tr><td>Above + deficient-protein restoration</td><td>6</td><td>1 / 1 / 4 / 0</td><td>not supported</td><td>0</td></tr>
+<tr><td>Above + closest neurodevelopmental rationale</td><td>4</td><td>0 / 1 / 3 / 0</td><td>not supported</td><td>0</td></tr>
+</table><p>The ASO tail is particularly thin. The closest four have no ten-year support; absence of an approval so far is not a zero lifetime probability. Recent-entry and date sensitivities are saved in the linked results.</p>
+<p><a href="evaluate_primary_followup_2026-11-18.txt">Full findings and all 45 audit decisions</a> · <a href="../data/evaluate_primary_followup/funnel_results.json">All calculations and sensitivities</a></p><h2>Every member, not just selected examples</h2>
+<details><summary>Selected rare-disease molecule clusters (319)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>DISC-3405 (9MW3011)</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>deutivacaftor, vanzacaftor</td><td>Cystic fibrosis</td><td>approved</td></tr>
+<tr><td>betibeglogene autotemcel, lovotibeglogene autotemcel</td><td>Beta-thalassemia, SCD and beta-thalassemia mixed</td><td>approved</td></tr>
+<tr><td>elexacaftor</td><td>Cystic fibrosis</td><td>approved</td></tr>
+<tr><td>odevixibat</td><td>Mixed cholestatic liver indications</td><td>approved</td></tr>
+<tr><td>AAV9_CLN7</td><td>NCL</td><td>active</td></tr>
+<tr><td>AAVrh10_ARSA</td><td>MLD</td><td>failed</td></tr>
+<tr><td>AAVrh10_CLN2</td><td>NCL</td><td>failed</td></tr>
+<tr><td>AB-1001</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ABO101 (rAAV9.CMV.hNAGLU)</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>Rebisufligene etisparvovec (UX111/ABO102)</td><td>MPS IIIA</td><td>approved</td></tr>
+<tr><td>ABX1100</td><td>Late-onset Pompe</td><td>active</td></tr>
+<tr><td>ACTUS101</td><td>Late-onset Pompe</td><td>failed</td></tr>
+<tr><td>ADX038</td><td>PNH</td><td>active</td></tr>
+<tr><td>ADX324</td><td>HAE</td><td>active</td></tr>
+<tr><td>5-hydroxymethylfurfural (AES-103)</td><td>SCD</td><td>unknown</td></tr>
+<tr><td>tebapivat</td><td>SCD</td><td>failed</td></tr>
+<tr><td>Valanafusp alfa (AGT181)</td><td>MPS I</td><td>unknown</td></tr>
+<tr><td>AGT182</td><td>MPS II</td><td>unknown</td></tr>
+<tr><td>alidornase alfa</td><td>Cystic fibrosis</td><td>unknown</td></tr>
+<tr><td>ALN-HTT02</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ALN-SOD</td><td>SOD1-ALS</td><td>active</td></tr>
+<tr><td>ALX009</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>ALXN1850</td><td>Hypophosphatasia</td><td>active</td></tr>
+<tr><td>AMT-130</td><td>Huntington</td><td>active</td></tr>
+<tr><td>AMT-162</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>AMT191</td><td>Fabry</td><td>active</td></tr>
+<tr><td>Delpacibart etedesiran (AOC1001)</td><td>DM1</td><td>active</td></tr>
+<tr><td>AOC1044</td><td>DMD exon 44</td><td>active</td></tr>
+<tr><td>AP-101</td><td>ALS</td><td>active</td></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>apitegromab</td><td>SMA</td><td>approved</td></tr>
+<tr><td>AP-PA02</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>ARCT-032</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>ARCT810</td><td>Ornithine transcarbamylase deficiency</td><td>active</td></tr>
+<tr><td>ARO-ENaC</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>AstroRx</td><td>ALS</td><td>active</td></tr>
+<tr><td>Zocaglusagene nuzaparvovec (AT845)</td><td>Pompe</td><td>active</td></tr>
+<tr><td>Cipaglucosidase alfa plus miglustat (ATB200/AT2221)</td><td>Late-onset Pompe</td><td>approved</td></tr>
+<tr><td>AT-GTX-501</td><td>NCL</td><td>failed</td></tr>
+<tr><td>atidarsagene_autotemcel</td><td>MLD</td><td>approved</td></tr>
+<tr><td>ATX01</td><td>DM1</td><td>active</td></tr>
+<tr><td>Avalglucosidase alfa (GZ402666)</td><td>Pompe</td><td>approved</td></tr>
+<tr><td>avoralstat</td><td>HAE</td><td>failed</td></tr>
+<tr><td>AVR-RD-01</td><td>Fabry</td><td>failed</td></tr>
+<tr><td>AVR-RD-02</td><td>Gaucher type 1</td><td>failed</td></tr>
+<tr><td>Tralesinidase alfa (AX250)</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>AZD5634</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>mosliciguat</td><td>Pulmonary arterial hypertension</td><td>unknown</td></tr>
+<tr><td>BCX10013</td><td>PNH</td><td>failed</td></tr>
+<tr><td>BCX9930</td><td>PNH</td><td>failed</td></tr>
+<tr><td>ristoglogene autogetemcel (BEAM-101)</td><td>SCD</td><td>active</td></tr>
+<tr><td>berotralstat</td><td>HAE</td><td>approved</td></tr>
+<tr><td>BI 3720931</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>BI 443651</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>BIIB078</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>BIIB100</td><td>ALS</td><td>failed</td></tr>
+<tr><td>BIIB105</td><td>ALS</td><td>failed</td></tr>
+<tr><td>BIIB132</td><td>SCA</td><td>failed</td></tr>
+<tr><td>BIVV003</td><td>SCD</td><td>failed</td></tr>
+<tr><td>BLS-M22</td><td>DMD</td><td>active</td></tr>
+<tr><td>BMB-101</td><td>Dravet, Lennox_Gastaut</td><td>active</td></tr>
+<tr><td>BMN307</td><td>Phenylketonuria</td><td>unknown</td></tr>
+<tr><td>BMN331</td><td>HAE</td><td>failed</td></tr>
+<tr><td>BMN351</td><td>DMD exon 51</td><td>active</td></tr>
+<tr><td>Reveglucosidase alfa (BMN701)</td><td>Pompe</td><td>failed</td></tr>
+<tr><td>BMS-986470</td><td>SCD</td><td>active</td></tr>
+<tr><td>BN82451B</td><td>Huntington</td><td>unknown</td></tr>
+<tr><td>Bocidelpar</td><td>DMD</td><td>failed</td></tr>
+<tr><td>branaplam</td><td>Huntington, SMA</td><td>failed</td></tr>
+<tr><td>BRL-101</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>Burlulipase</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>beremagene geperpavec</td><td>Epidermolysis bullosa</td><td>approved</td></tr>
+<tr><td>BX004-A</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>CAN103</td><td>Gaucher type 1/3 mixed</td><td>unknown</td></tr>
+<tr><td>Casimersen (SRP4045)</td><td>DMD exon 45</td><td>approved</td></tr>
+<tr><td>CB-280</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>CDX6114</td><td>Phenylketonuria</td><td>failed</td></tr>
+<tr><td>Cellavita_HD</td><td>Huntington</td><td>unknown</td></tr>
+<tr><td>cerliponase_alfa</td><td>NCL</td><td>approved</td></tr>
+<tr><td>CHF6333</td><td>Cystic fibrosis</td><td>unknown</td></tr>
+<tr><td>ciprocopan</td><td>PNH</td><td>unknown</td></tr>
+<tr><td>CLN-301</td><td>NCL</td><td>active</td></tr>
+<tr><td>CMTX-101</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>CNP-104</td><td>Primary biliary cholangitis</td><td>active</td></tr>
+<tr><td>concizumab</td><td>Hemophilia A, Hemophilia A/B (subtype review)</td><td>approved</td></tr>
+<tr><td>crovalimab</td><td>PNH</td><td>approved</td></tr>
+<tr><td>CS101 (CorrectSequence base-edited HSC)</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>CSL889</td><td>SCD</td><td>active</td></tr>
+<tr><td>CTH120</td><td>Fragile_X</td><td>active</td></tr>
+<tr><td>Nomlabofusp (CTI1601)</td><td>Friedreich ataxia</td><td>active</td></tr>
+<tr><td>danicopan</td><td>PNH</td><td>approved</td></tr>
+<tr><td>DCR-PH1</td><td>Primary hyperoxaluria type 1</td><td>failed</td></tr>
+<tr><td>deucrictibant</td><td>HAE</td><td>active</td></tr>
+<tr><td>deutetrabenazine</td><td>Huntington</td><td>approved</td></tr>
+<tr><td>Baliforsen (IONIS-DMPKRx)</td><td>DM1</td><td>failed</td></tr>
+<tr><td>DNL126</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>Tividenofusp alfa (DNL310)</td><td>MPS II neurologic</td><td>approved</td></tr>
+<tr><td>DNL747</td><td>ALS</td><td>failed</td></tr>
+<tr><td>donidalorsen</td><td>HAE</td><td>approved</td></tr>
+<tr><td>DS5141b</td><td>DMD exon 45</td><td>failed</td></tr>
+<tr><td>DT216</td><td>Friedreich ataxia</td><td>active</td></tr>
+<tr><td>DTX301 (scAAV8OTC)</td><td>Ornithine transcarbamylase deficiency</td><td>active</td></tr>
+<tr><td>Pariglasgene brecaparvovec (DTX401)</td><td>Glycogen storage disease Ia</td><td>approved</td></tr>
+<tr><td>DYNE101</td><td>DM1</td><td>active</td></tr>
+<tr><td>DYNE251</td><td>DMD exon 51</td><td>active</td></tr>
+<tr><td>EA5</td><td>PNH</td><td>active</td></tr>
+<tr><td>prademagene zamikeracel</td><td>Epidermolysis bullosa</td><td>approved</td></tr>
+<tr><td>renizgamglogene autogedtemcel</td><td>Beta-thalassemia, SCD</td><td>failed</td></tr>
+<tr><td>elivaldogene_autotemcel</td><td>ALD</td><td>approved</td></tr>
+<tr><td>EN001</td><td>DMD</td><td>failed</td></tr>
+<tr><td>etavopivat</td><td>SCD</td><td>active</td></tr>
+<tr><td>ETD001</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>ETX101</td><td>Dravet</td><td>active</td></tr>
+<tr><td>EXG001-307</td><td>SMA</td><td>active</td></tr>
+<tr><td>Ezutromid (SMTC1100)</td><td>DMD</td><td>failed</td></tr>
+<tr><td>dabocemagene autoficel</td><td>Epidermolysis bullosa</td><td>active</td></tr>
+<tr><td>FLT190</td><td>Fabry</td><td>failed</td></tr>
+<tr><td>FLT201</td><td>Gaucher type 1</td><td>active</td></tr>
+<tr><td>4D310</td><td>Fabry</td><td>failed</td></tr>
+<tr><td>frespaciguat</td><td>Pulmonary arterial hypertension</td><td>unknown</td></tr>
+<tr><td>garadacimab</td><td>HAE</td><td>approved</td></tr>
+<tr><td>seralutinib</td><td>Pulmonary arterial hypertension</td><td>active</td></tr>
+<tr><td>GC101</td><td>SMA</td><td>active</td></tr>
+<tr><td>Idursulfase beta (GC1111/Hunterase)</td><td>MPS II somatic</td><td>unknown</td></tr>
+<tr><td>GC1130A</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>GC301</td><td>Pompe (infantile and late-onset)</td><td>active</td></tr>
+<tr><td>GDC-0134</td><td>ALS</td><td>failed</td></tr>
+<tr><td>RAG1-LV CD34+ cells</td><td>SCID</td><td>active</td></tr>
+<tr><td>Hologene 7</td><td>Epidermolysis bullosa</td><td>unknown</td></tr>
+<tr><td>HGI-001 (Hemo-cel)</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>Bioray HBB CVS654-corrected HSC</td><td>Beta-thalassemia</td><td>unknown</td></tr>
+<tr><td>galicaftor (SION-2222)</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>GLPG2451</td><td>Cystic fibrosis</td><td>unknown</td></tr>
+<tr><td>GLPG2737</td><td>Cystic fibrosis</td><td>unknown</td></tr>
+<tr><td>ABBV-3067</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>GMA301</td><td>Pulmonary arterial hypertension</td><td>active</td></tr>
+<tr><td>GNR038</td><td>HAE</td><td>failed</td></tr>
+<tr><td>Golodirsen (SRP4053)</td><td>DMD exon 53</td><td>approved</td></tr>
+<tr><td>VX-371 (P-1037)</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>GSK4172239D</td><td>SCD</td><td>failed</td></tr>
+<tr><td>HepaStem</td><td>Urea-cycle disorders and Crigler-Najjar (mixed)</td><td>failed</td></tr>
+<tr><td>HG302</td><td>DMD</td><td>active</td></tr>
+<tr><td>HMI102</td><td>Phenylketonuria</td><td>failed</td></tr>
+<tr><td>HMI103</td><td>Phenylketonuria</td><td>failed</td></tr>
+<tr><td>HRS5965</td><td>PNH</td><td>active</td></tr>
+<tr><td>HS135</td><td>Pulmonary arterial hypertension</td><td>unknown</td></tr>
+<tr><td>IDUA-LVV genetically modified autologous HSPCs (OTL203)</td><td>MPS I Hurler</td><td>active</td></tr>
+<tr><td>imr-687</td><td>SCD</td><td>failed</td></tr>
+<tr><td>Inhaled SNSP113</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>ION283</td><td>Lafora</td><td>active</td></tr>
+<tr><td>IONIS-ENaCRx</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>IPL344</td><td>ALS</td><td>unknown</td></tr>
+<tr><td>iptacopan</td><td>PNH</td><td>approved</td></tr>
+<tr><td>ISIS333611</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>ISP001 autologous engineered plasmablasts</td><td>MPS I</td><td>active</td></tr>
+<tr><td>ITU512</td><td>SCD</td><td>active</td></tr>
+<tr><td>JNT517</td><td>Phenylketonuria</td><td>active</td></tr>
+<tr><td>Pabinafusp alfa (JR141)</td><td>MPS II neurologic</td><td>active</td></tr>
+<tr><td>Lepunafusp alfa (JR171)</td><td>MPS I</td><td>active</td></tr>
+<tr><td>JR441</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>JR446</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>rodatristat ethyl</td><td>Pulmonary arterial hypertension</td><td>failed</td></tr>
+<tr><td>KB407 (Nebulization)</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>KP104</td><td>PNH</td><td>active</td></tr>
+<tr><td>KVD824</td><td>HAE</td><td>failed</td></tr>
+<tr><td>lanadelumab</td><td>HAE</td><td>approved</td></tr>
+<tr><td>lanoracopan</td><td>PNH</td><td>active</td></tr>
+<tr><td>leriglitazone</td><td>ALD</td><td>active</td></tr>
+<tr><td>LP005</td><td>PNH</td><td>active</td></tr>
+<tr><td>LPM3770164</td><td>Huntington</td><td>active</td></tr>
+<tr><td>LTP001</td><td>Pulmonary arterial hypertension</td><td>active</td></tr>
+<tr><td>Lumasiran</td><td>Primary hyperoxaluria type 1</td><td>approved</td></tr>
+<tr><td>LX2006</td><td>Friedreich ataxia cardiomyopathy</td><td>active</td></tr>
+<tr><td>LY-M001</td><td>Gaucher type 1</td><td>active</td></tr>
+<tr><td>LYS-GM101</td><td>GM1 gangliosidosis</td><td>failed</td></tr>
+<tr><td>LYS-SAF302</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>MBF-015</td><td>Huntington</td><td>active</td></tr>
+<tr><td>denecimig</td><td>Hemophilia A</td><td>active</td></tr>
+<tr><td>MK-8892</td><td>Pulmonary arterial hypertension</td><td>unknown</td></tr>
+<tr><td>Moss-aGal</td><td>Fabry</td><td>active</td></tr>
+<tr><td>MP4CO</td><td>SCD</td><td>failed</td></tr>
+<tr><td>mRNA3745</td><td>Glycogen storage disease Ia</td><td>failed</td></tr>
+<tr><td>MRT5005</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>N91115</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>navenibart</td><td>HAE</td><td>active</td></tr>
+<tr><td>Nedosiran (DCR-PHXC)</td><td>Primary hyperoxaluria type 1 (early study included PH2)</td><td>approved</td></tr>
+<tr><td>NGGT002</td><td>Phenylketonuria</td><td>active</td></tr>
+<tr><td>NGN-101</td><td>NCL</td><td>failed</td></tr>
+<tr><td>NGN-401</td><td>Rett</td><td>active</td></tr>
+<tr><td>NKG001</td><td>SMA</td><td>active</td></tr>
+<tr><td>NKTT120</td><td>SCD</td><td>unknown</td></tr>
+<tr><td>Inno8</td><td>Hemophilia A</td><td>active</td></tr>
+<tr><td>NNZ-2591</td><td>Angelman</td><td>active</td></tr>
+<tr><td>nomacopan</td><td>PNH</td><td>failed</td></tr>
+<tr><td>NP001_sodium_chlorite</td><td>ALS</td><td>active</td></tr>
+<tr><td>NTLA2002</td><td>HAE</td><td>active</td></tr>
+<tr><td>nulabeglogene autogedtemcel</td><td>SCD</td><td>active</td></tr>
+<tr><td>NurOwn</td><td>ALS</td><td>active</td></tr>
+<tr><td>nusinersen</td><td>SMA</td><td>approved</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>onasemnogene_abeparvovec</td><td>SMA</td><td>approved</td></tr>
+<tr><td>ORT247</td><td>ALS</td><td>unknown</td></tr>
+<tr><td>osivelotor</td><td>SCD</td><td>active</td></tr>
+<tr><td>OTQ923</td><td>SCD</td><td>failed</td></tr>
+<tr><td>PBGM01</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>Fordadistrogene movaparvovec (PF06939926)</td><td>DMD</td><td>failed</td></tr>
+<tr><td>PF-07209326</td><td>SCD</td><td>failed</td></tr>
+<tr><td>PF-07868489</td><td>Pulmonary arterial hypertension</td><td>failed</td></tr>
+<tr><td>PGN-EDODM1</td><td>DM1</td><td>active</td></tr>
+<tr><td>pociredir</td><td>SCD</td><td>failed</td></tr>
+<tr><td>POL6014</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>cemdisiran, pozelimab</td><td>PNH</td><td>active</td></tr>
+<tr><td>LY3884961 (PR001)</td><td>Gaucher type 2 neuronopathic</td><td>failed</td></tr>
+<tr><td>PRO045/BMN045</td><td>DMD exon 45</td><td>failed</td></tr>
+<tr><td>PRO053/BMN053</td><td>DMD exon 53</td><td>failed</td></tr>
+<tr><td>prosetin</td><td>ALS</td><td>active</td></tr>
+<tr><td>Pegunigalsidase alfa (PRX102)</td><td>Fabry</td><td>approved</td></tr>
+<tr><td>PRX112 oral glucocerebrosidase</td><td>Gaucher</td><td>unknown</td></tr>
+<tr><td>PTI-428</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>PTI-801</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>PTI-808</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>PTR-01 (BBP-589)</td><td>Epidermolysis bullosa</td><td>failed</td></tr>
+<tr><td>PTW-002 (QR-313)</td><td>Epidermolysis bullosa</td><td>unknown</td></tr>
+<tr><td>PUR118</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>PVT201</td><td>Primary biliary cholangitis</td><td>active</td></tr>
+<tr><td>QBW251</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>QBW276</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>QR-010</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>QRL-101</td><td>ALS</td><td>active</td></tr>
+<tr><td>QRL-201</td><td>ALS</td><td>active</td></tr>
+<tr><td>rAAV2/5-hNAGLU</td><td>MPS IIIB</td><td>failed</td></tr>
+<tr><td>ravulizumab</td><td>PNH</td><td>approved</td></tr>
+<tr><td>reldesemtiv</td><td>SMA</td><td>failed</td></tr>
+<tr><td>RG7800</td><td>SMA</td><td>failed</td></tr>
+<tr><td>RGX111</td><td>MPS I</td><td>active</td></tr>
+<tr><td>rhHNS (SHP610/HGT-1410)</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>risdiplam</td><td>SMA</td><td>approved</td></tr>
+<tr><td>RT001</td><td>Friedreich ataxia</td><td>failed</td></tr>
+<tr><td>RTX134</td><td>Phenylketonuria</td><td>failed</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>Aceneuramic acid ER (SA-ER/Ace-ER)</td><td>GNE myopathy</td><td>unknown</td></tr>
+<tr><td>SAF301</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>SAGE-718</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>salanersen</td><td>SMA</td><td>active</td></tr>
+<tr><td>pegylated carboxyhemoglobin bovine</td><td>SCD</td><td>unknown</td></tr>
+<tr><td>SAR443809</td><td>PNH</td><td>unknown</td></tr>
+<tr><td>SAR443820</td><td>ALS</td><td>failed</td></tr>
+<tr><td>SAT3247</td><td>DMD</td><td>active</td></tr>
+<tr><td>SB318</td><td>MPS I</td><td>failed</td></tr>
+<tr><td>SB913</td><td>MPS II</td><td>failed</td></tr>
+<tr><td>SBC103</td><td>MPS IIIB</td><td>failed</td></tr>
+<tr><td>SCD-101</td><td>SCD</td><td>unknown</td></tr>
+<tr><td>sebetralstat</td><td>HAE</td><td>approved</td></tr>
+<tr><td>SGT001</td><td>DMD</td><td>failed</td></tr>
+<tr><td>SGT003</td><td>DMD</td><td>active</td></tr>
+<tr><td>SHP623</td><td>HAE</td><td>unknown</td></tr>
+<tr><td>divesiran</td><td>Beta-thalassemia</td><td>unknown</td></tr>
+<tr><td>SOBI003</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>soticlestat</td><td>CDKL5, Dravet, Lennox_Gastaut</td><td>failed</td></tr>
+<tr><td>SP-420</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>SPG302</td><td>ALS</td><td>active</td></tr>
+<tr><td>SPK3006</td><td>Pompe</td><td>failed</td></tr>
+<tr><td>SPX-101</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>SRP1003 (ARO-DM1)</td><td>DM1</td><td>active</td></tr>
+<tr><td>Vesleteplirsen (SRP5051)</td><td>DMD exon 51</td><td>failed</td></tr>
+<tr><td>Delandistrogene moxeparvovec (SRP9001)</td><td>DMD</td><td>approved</td></tr>
+<tr><td>ST-400</td><td>Beta-thalassemia</td><td>failed</td></tr>
+<tr><td>Isaralgagene civaparvovec (ST920)</td><td>Fabry</td><td>active</td></tr>
+<tr><td>Suvodirsen (WVE210201)</td><td>DMD exon 51</td><td>failed</td></tr>
+<tr><td>SYNB1618</td><td>Phenylketonuria</td><td>failed</td></tr>
+<tr><td>tofersen</td><td>SOD1-ALS</td><td>approved</td></tr>
+<tr><td>tominersen</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>troriluzole</td><td>SCA</td><td>active</td></tr>
+<tr><td>TSHA-102</td><td>Rett</td><td>active</td></tr>
+<tr><td>TT30</td><td>PNH</td><td>failed</td></tr>
+<tr><td>TTX-381</td><td>NCL</td><td>active</td></tr>
+<tr><td>turoctocog alfa pegol</td><td>Hemophilia A</td><td>approved</td></tr>
+<tr><td>Vestronidase alfa (UX003)</td><td>MPS VII</td><td>approved</td></tr>
+<tr><td>UX053</td><td>Glycogen storage disease III</td><td>failed</td></tr>
+<tr><td>UX701</td><td>Wilson disease</td><td>failed</td></tr>
+<tr><td>VAL1221</td><td>Pompe</td><td>failed</td></tr>
+<tr><td>valoctocogene roxaparvovec</td><td>Hemophilia A</td><td>approved</td></tr>
+<tr><td>vebeglogene autotemcel</td><td>Beta-thalassemia</td><td>active</td></tr>
+<tr><td>vemircopan</td><td>PNH</td><td>failed</td></tr>
+<tr><td>Verenafusp alfa</td><td>MPS II</td><td>unknown</td></tr>
+<tr><td>vesemnogene_lantuparvovec</td><td>SMA</td><td>active</td></tr>
+<tr><td>Viltolarsen (NS065/NCNP01)</td><td>DMD exon 53</td><td>approved</td></tr>
+<tr><td>VK0214</td><td>ALD</td><td>failed</td></tr>
+<tr><td>VO659</td><td>Huntington, SCA</td><td>active</td></tr>
+<tr><td>votoplam</td><td>Huntington</td><td>active</td></tr>
+<tr><td>voxelotor</td><td>SCD</td><td>approved</td></tr>
+<tr><td>VRG50635</td><td>ALS</td><td>failed</td></tr>
+<tr><td>Adrabetadex (VTS270)</td><td>Niemann-Pick C1</td><td>active</td></tr>
+<tr><td>VTX801</td><td>Wilson disease</td><td>failed</td></tr>
+<tr><td>VX-118</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>VX-440</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>VX-522</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>VX-659</td><td>Cystic fibrosis</td><td>failed</td></tr>
+<tr><td>VX670</td><td>DM1</td><td>active</td></tr>
+<tr><td>VX-828</td><td>Cystic fibrosis</td><td>active</td></tr>
+<tr><td>WVE-003</td><td>Huntington</td><td>active</td></tr>
+<tr><td>WVE-004</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>WVE-120101</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>WVE-120102</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>WVE-N531</td><td>DMD exon 53</td><td>active</td></tr>
+<tr><td>zaltenibart</td><td>PNH</td><td>active</td></tr>
+<tr><td>zilganersen</td><td>Alexander</td><td>approved</td></tr>
+<tr><td>zilucoplan</td><td>PNH</td><td>failed</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+<tr><td>OTL-201</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>AXO-AAV-GM1 / AAV9-GLB1</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>RGX-181 / TTX-181</td><td>CLN2 Batten CNS</td><td>active</td></tr>
+<tr><td>PBKR03</td><td>Krabbe disease</td><td>unknown</td></tr>
+<tr><td>TSHA-101</td><td>GM2 gangliosidosis</td><td>active</td></tr>
+<tr><td>FBX-101</td><td>Krabbe disease</td><td>failed</td></tr>
+<tr><td>TSHA-118 / ABO-202</td><td>CLN1 Batten</td><td>unknown</td></tr>
+<tr><td>EGT-101</td><td>MPS IIIA</td><td>unknown</td></tr>
+<tr><td>AVR-RD-04 / CTNS-RD-04</td><td>Cystinosis</td><td>active</td></tr>
+</table></details>
+<details><summary>Genetic CNS disease (89)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>AAV9_CLN7</td><td>NCL</td><td>active</td></tr>
+<tr><td>AAVrh10_ARSA</td><td>MLD</td><td>failed</td></tr>
+<tr><td>AAVrh10_CLN2</td><td>NCL</td><td>failed</td></tr>
+<tr><td>AB-1001</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ABO101 (rAAV9.CMV.hNAGLU)</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>Rebisufligene etisparvovec (UX111/ABO102)</td><td>MPS IIIA</td><td>approved</td></tr>
+<tr><td>ALN-HTT02</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ALN-SOD</td><td>SOD1-ALS</td><td>active</td></tr>
+<tr><td>AMT-130</td><td>Huntington</td><td>active</td></tr>
+<tr><td>AMT-162</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>apitegromab</td><td>SMA</td><td>approved</td></tr>
+<tr><td>AT-GTX-501</td><td>NCL</td><td>failed</td></tr>
+<tr><td>atidarsagene_autotemcel</td><td>MLD</td><td>approved</td></tr>
+<tr><td>Tralesinidase alfa (AX250)</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>BIIB078</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>BIIB132</td><td>SCA</td><td>failed</td></tr>
+<tr><td>BMB-101</td><td>Dravet, Lennox_Gastaut</td><td>active</td></tr>
+<tr><td>BN82451B</td><td>Huntington</td><td>unknown</td></tr>
+<tr><td>branaplam</td><td>Huntington, SMA</td><td>failed</td></tr>
+<tr><td>Cellavita_HD</td><td>Huntington</td><td>unknown</td></tr>
+<tr><td>cerliponase_alfa</td><td>NCL</td><td>approved</td></tr>
+<tr><td>CLN-301</td><td>NCL</td><td>active</td></tr>
+<tr><td>CTH120</td><td>Fragile_X</td><td>active</td></tr>
+<tr><td>Nomlabofusp (CTI1601)</td><td>Friedreich ataxia</td><td>active</td></tr>
+<tr><td>deutetrabenazine</td><td>Huntington</td><td>approved</td></tr>
+<tr><td>DNL126</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>Tividenofusp alfa (DNL310)</td><td>MPS II neurologic</td><td>approved</td></tr>
+<tr><td>DT216</td><td>Friedreich ataxia</td><td>active</td></tr>
+<tr><td>elivaldogene_autotemcel</td><td>ALD</td><td>approved</td></tr>
+<tr><td>ETX101</td><td>Dravet</td><td>active</td></tr>
+<tr><td>EXG001-307</td><td>SMA</td><td>active</td></tr>
+<tr><td>GC101</td><td>SMA</td><td>active</td></tr>
+<tr><td>GC1130A</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>IDUA-LVV genetically modified autologous HSPCs (OTL203)</td><td>MPS I Hurler</td><td>active</td></tr>
+<tr><td>ION283</td><td>Lafora</td><td>active</td></tr>
+<tr><td>ISIS333611</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>Pabinafusp alfa (JR141)</td><td>MPS II neurologic</td><td>active</td></tr>
+<tr><td>JR441</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>JR446</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>leriglitazone</td><td>ALD</td><td>active</td></tr>
+<tr><td>LPM3770164</td><td>Huntington</td><td>active</td></tr>
+<tr><td>LYS-GM101</td><td>GM1 gangliosidosis</td><td>failed</td></tr>
+<tr><td>LYS-SAF302</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>MBF-015</td><td>Huntington</td><td>active</td></tr>
+<tr><td>NGN-101</td><td>NCL</td><td>failed</td></tr>
+<tr><td>NGN-401</td><td>Rett</td><td>active</td></tr>
+<tr><td>NKG001</td><td>SMA</td><td>active</td></tr>
+<tr><td>NNZ-2591</td><td>Angelman</td><td>active</td></tr>
+<tr><td>nusinersen</td><td>SMA</td><td>approved</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>onasemnogene_abeparvovec</td><td>SMA</td><td>approved</td></tr>
+<tr><td>PBGM01</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>LY3884961 (PR001)</td><td>Gaucher type 2 neuronopathic</td><td>failed</td></tr>
+<tr><td>rAAV2/5-hNAGLU</td><td>MPS IIIB</td><td>failed</td></tr>
+<tr><td>reldesemtiv</td><td>SMA</td><td>failed</td></tr>
+<tr><td>RG7800</td><td>SMA</td><td>failed</td></tr>
+<tr><td>rhHNS (SHP610/HGT-1410)</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>risdiplam</td><td>SMA</td><td>approved</td></tr>
+<tr><td>RT001</td><td>Friedreich ataxia</td><td>failed</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>SAF301</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>SAGE-718</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>salanersen</td><td>SMA</td><td>active</td></tr>
+<tr><td>SBC103</td><td>MPS IIIB</td><td>failed</td></tr>
+<tr><td>SOBI003</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>soticlestat</td><td>CDKL5, Dravet, Lennox_Gastaut</td><td>failed</td></tr>
+<tr><td>tofersen</td><td>SOD1-ALS</td><td>approved</td></tr>
+<tr><td>tominersen</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>troriluzole</td><td>SCA</td><td>active</td></tr>
+<tr><td>TSHA-102</td><td>Rett</td><td>active</td></tr>
+<tr><td>vesemnogene_lantuparvovec</td><td>SMA</td><td>active</td></tr>
+<tr><td>VK0214</td><td>ALD</td><td>failed</td></tr>
+<tr><td>VO659</td><td>Huntington, SCA</td><td>active</td></tr>
+<tr><td>votoplam</td><td>Huntington</td><td>active</td></tr>
+<tr><td>WVE-003</td><td>Huntington</td><td>active</td></tr>
+<tr><td>WVE-004</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>WVE-120101</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>WVE-120102</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>zilganersen</td><td>Alexander</td><td>approved</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+<tr><td>OTL-201</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>AXO-AAV-GM1 / AAV9-GLB1</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>RGX-181 / TTX-181</td><td>CLN2 Batten CNS</td><td>active</td></tr>
+<tr><td>PBKR03</td><td>Krabbe disease</td><td>unknown</td></tr>
+<tr><td>TSHA-101</td><td>GM2 gangliosidosis</td><td>active</td></tr>
+<tr><td>FBX-101</td><td>Krabbe disease</td><td>failed</td></tr>
+<tr><td>TSHA-118 / ABO-202</td><td>CLN1 Batten</td><td>unknown</td></tr>
+<tr><td>EGT-101</td><td>MPS IIIA</td><td>unknown</td></tr>
+</table></details>
+<details><summary>Genetic CNS + genetic medicine (56)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>AAV9_CLN7</td><td>NCL</td><td>active</td></tr>
+<tr><td>AAVrh10_ARSA</td><td>MLD</td><td>failed</td></tr>
+<tr><td>AAVrh10_CLN2</td><td>NCL</td><td>failed</td></tr>
+<tr><td>AB-1001</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ABO101 (rAAV9.CMV.hNAGLU)</td><td>MPS IIIB</td><td>active</td></tr>
+<tr><td>Rebisufligene etisparvovec (UX111/ABO102)</td><td>MPS IIIA</td><td>approved</td></tr>
+<tr><td>ALN-HTT02</td><td>Huntington</td><td>active</td></tr>
+<tr><td>ALN-SOD</td><td>SOD1-ALS</td><td>active</td></tr>
+<tr><td>AMT-130</td><td>Huntington</td><td>active</td></tr>
+<tr><td>AMT-162</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>AT-GTX-501</td><td>NCL</td><td>failed</td></tr>
+<tr><td>atidarsagene_autotemcel</td><td>MLD</td><td>approved</td></tr>
+<tr><td>BIIB078</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>BIIB132</td><td>SCA</td><td>failed</td></tr>
+<tr><td>CLN-301</td><td>NCL</td><td>active</td></tr>
+<tr><td>elivaldogene_autotemcel</td><td>ALD</td><td>approved</td></tr>
+<tr><td>ETX101</td><td>Dravet</td><td>active</td></tr>
+<tr><td>EXG001-307</td><td>SMA</td><td>active</td></tr>
+<tr><td>GC101</td><td>SMA</td><td>active</td></tr>
+<tr><td>IDUA-LVV genetically modified autologous HSPCs (OTL203)</td><td>MPS I Hurler</td><td>active</td></tr>
+<tr><td>ION283</td><td>Lafora</td><td>active</td></tr>
+<tr><td>ISIS333611</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>LYS-GM101</td><td>GM1 gangliosidosis</td><td>failed</td></tr>
+<tr><td>LYS-SAF302</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>NGN-101</td><td>NCL</td><td>failed</td></tr>
+<tr><td>NGN-401</td><td>Rett</td><td>active</td></tr>
+<tr><td>NKG001</td><td>SMA</td><td>active</td></tr>
+<tr><td>nusinersen</td><td>SMA</td><td>approved</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>onasemnogene_abeparvovec</td><td>SMA</td><td>approved</td></tr>
+<tr><td>PBGM01</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>LY3884961 (PR001)</td><td>Gaucher type 2 neuronopathic</td><td>failed</td></tr>
+<tr><td>rAAV2/5-hNAGLU</td><td>MPS IIIB</td><td>failed</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>SAF301</td><td>MPS IIIA</td><td>failed</td></tr>
+<tr><td>salanersen</td><td>SMA</td><td>active</td></tr>
+<tr><td>tofersen</td><td>SOD1-ALS</td><td>approved</td></tr>
+<tr><td>tominersen</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>TSHA-102</td><td>Rett</td><td>active</td></tr>
+<tr><td>vesemnogene_lantuparvovec</td><td>SMA</td><td>active</td></tr>
+<tr><td>VO659</td><td>Huntington, SCA</td><td>active</td></tr>
+<tr><td>WVE-003</td><td>Huntington</td><td>active</td></tr>
+<tr><td>WVE-004</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>WVE-120101</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>WVE-120102</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>zilganersen</td><td>Alexander</td><td>approved</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+<tr><td>OTL-201</td><td>MPS IIIA</td><td>active</td></tr>
+<tr><td>AXO-AAV-GM1 / AAV9-GLB1</td><td>GM1 gangliosidosis</td><td>active</td></tr>
+<tr><td>RGX-181 / TTX-181</td><td>CLN2 Batten CNS</td><td>active</td></tr>
+<tr><td>PBKR03</td><td>Krabbe disease</td><td>unknown</td></tr>
+<tr><td>TSHA-101</td><td>GM2 gangliosidosis</td><td>active</td></tr>
+<tr><td>FBX-101</td><td>Krabbe disease</td><td>failed</td></tr>
+<tr><td>TSHA-118 / ABO-202</td><td>CLN1 Batten</td><td>unknown</td></tr>
+<tr><td>EGT-101</td><td>MPS IIIA</td><td>unknown</td></tr>
+</table></details>
+<details><summary>Genetic CNS + intrathecal ASO (18)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>BIIB078</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>BIIB132</td><td>SCA</td><td>failed</td></tr>
+<tr><td>ION283</td><td>Lafora</td><td>active</td></tr>
+<tr><td>ISIS333611</td><td>SOD1-ALS</td><td>failed</td></tr>
+<tr><td>nusinersen</td><td>SMA</td><td>approved</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>salanersen</td><td>SMA</td><td>active</td></tr>
+<tr><td>tofersen</td><td>SOD1-ALS</td><td>approved</td></tr>
+<tr><td>tominersen</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>VO659</td><td>Huntington, SCA</td><td>active</td></tr>
+<tr><td>WVE-003</td><td>Huntington</td><td>active</td></tr>
+<tr><td>WVE-004</td><td>C9orf72-ALS</td><td>failed</td></tr>
+<tr><td>WVE-120101</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>WVE-120102</td><td>Huntington</td><td>failed</td></tr>
+<tr><td>zilganersen</td><td>Alexander</td><td>approved</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+</table></details>
+<details><summary>Above + deficient-protein restoration (6)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>nusinersen</td><td>SMA</td><td>approved</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>salanersen</td><td>SMA</td><td>active</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+</table></details>
+<details><summary>Above + closest neurodevelopmental rationale (4)</summary><table><tr><th>Molecule</th><th>Selected indication(s)</th><th>Status</th></tr>
+<tr><td>apazunersen</td><td>Angelman</td><td>failed</td></tr>
+<tr><td>obudanersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>rugonersen</td><td>Angelman</td><td>active</td></tr>
+<tr><td>zorevunersen</td><td>Dravet</td><td>active</td></tr>
+</table></details>
+<p><small>Active can mean retained programme or clinical follow-up, not verified new dosing. Untargeted historical classifications were inherited. The broad panel is purposively selected and cannot establish an unbiased population rate.</small></p></html>

@@ -1,0 +1,154 @@
+[
+  {
+    "candidate": "EGT-101",
+    "disposition": "include_entry_proxy",
+    "rationale": "CTIS reports actual trial start 20 March 2018, recruitment ending November 2020, and global trial end 2 October 2025. Treated cohort reported by April 2021. Registry start is not proven first dose; use conservative interval, exclude in stronger-entry sensitivity. Completion does not establish permanent failure or advancement.",
+    "sources": [
+      "https://euclinicaltrials.eu/ctis-public/view/2024-515835-31-00",
+      "https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000359-26/ES",
+      "https://curesanfilippofoundation.org/2021/04/egt-101-gene-therapy/"
+    ],
+    "cluster": "egt101",
+    "indication": "MPS IIIA",
+    "entry": [
+      "2018-03-20",
+      "2021-04-29"
+    ],
+    "strict": false,
+    "cns": true,
+    "status": "unknown"
+  },
+  {
+    "candidate": "AVR-RD-04 / CTNS-RD-04",
+    "disposition": "include",
+    "rationale": "Cystinosis autologous HSC gene therapy first treated October 2019. Original trial completed; long-term follow-up continues. Novartis DFT383 development provides a continuation lead, but exact manufacturing continuity should be checked before counting new trial as identical construct. Broad rare tier only: systemic cystinosis, not CNS-targeted.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1681087/000119312522031820/d312907dex992.htm",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919641/",
+      "https://clinicaltrials.gov/study/NCT03897361",
+      "https://clinicaltrials.gov/study/NCT05146830",
+      "https://www.novartis.com/clinicaltrials/study/nct06910813"
+    ],
+    "cluster": "ctnsrd04",
+    "indication": "Cystinosis",
+    "entry": [
+      "2019-10-01",
+      "2019-10-31"
+    ],
+    "strict": true,
+    "cns": false,
+    "status": "active"
+  },
+  {
+    "candidate": "OPK88001 / CUR1916 / CMP-SCN",
+    "disposition": "clinical_entry_unverified",
+    "rationale": "Proposed Phase II and inconsistent vendor stages do not establish human dosing. No qualifying clinical exposure established in bounded search.",
+    "sources": [
+      "https://www.opko.com/investors/sec-filings/all-sec-filings/content/0000944809-18-000025/0000944809-18-000025.pdf"
+    ]
+  },
+  {
+    "candidate": "ADVM-063 / ANN-003",
+    "disposition": "clinical_entry_unverified",
+    "rationale": "Friedreich ataxia programme described in sponsor filing; vendor abandoned Phase I not independently supported by a human-dosing record. Do not infer never dosed, but do not add an unverified entrant.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1501756/000156459016028352/advm-10q_20160930.htm"
+    ]
+  },
+  {
+    "candidate": "LB-301",
+    "disposition": "clinical_entry_unverified",
+    "rationale": "Sponsor 2021 pipeline describes preclinical Crigler-Najjar programme. No qualifying dosing evidence found; vendor Phase II is insufficient.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1664106/000119312521006839/d109973dex991.htm"
+    ]
+  },
+  {
+    "candidate": "PBML04",
+    "disposition": "clinical_entry_unverified",
+    "rationale": "IND clearance is not dosing. Sponsor paused MLD programme in 2022 and transferred it in 2024; no treated patient established. Nearby first-dose statements concern PBFT02, not PBML04. Primary construct AAVhu68 differs from vendor AAV1 label.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1787297/000155837023009256/pasg-20230331x10q.htm",
+      "https://www.sec.gov/Archives/edgar/data/1787297/000155837024002310/pasg-20231231x10k.htm"
+    ]
+  },
+  {
+    "candidate": "TSHA-121",
+    "disposition": "existing_construct_or_umbrella",
+    "rationale": "UTSW CLN7 programme corresponds to existing aav9cln7 entry; no distinct dosed construct established. Company deprioritisation does not prove academic trial abandonment.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1806310/000095017025027348/tsha-20241231.htm",
+      "https://clinicaltrials.gov/study/NCT04737460"
+    ]
+  },
+  {
+    "candidate": "Genethon SMA research programme",
+    "disposition": "existing_construct_or_umbrella",
+    "rationale": "Genethon licensing/IP relationship to AVXS-101 does not establish another dosed molecule beyond existing onasemnogene entry.",
+    "sources": [
+      "https://www.genethon.com/avexis-enters-into-licensing-agreement-with-genethon/"
+    ]
+  },
+  {
+    "candidate": "MolMed rare-disease research programme",
+    "disposition": "existing_construct_or_umbrella",
+    "rationale": "Manufacturing/services umbrella spanning multiple clients and products, not a uniquely identifiable clinical molecule.",
+    "sources": [
+      "https://www.molmed.com/sites/default/files/2019-04/2626_1426764168.pdf",
+      "https://ir.orchard-tx.com/static-files/2178861c-4bcd-4fc2-8f1e-fb0cf778ed7d"
+    ]
+  },
+  {
+    "candidate": "NTSAD GM1 research programme",
+    "disposition": "existing_construct_or_umbrella",
+    "rationale": "Foundation research umbrella, not a unique molecule. AXO-AAV-GM1 is already separately included; cannot count generic research label again.",
+    "sources": [
+      "https://mail.ntsad.org/index.php/research-for-families/research-by-disease/gm-1"
+    ]
+  },
+  {
+    "candidate": "University of Iowa Huntington programme",
+    "disposition": "identity_unresolved",
+    "rationale": "Institutional research programme does not establish a distinct construct. Iowa being a study site is not sufficient to identify it as AMT-130 or another molecule.",
+    "sources": [
+      "https://psychiatry.medicine.uiowa.edu/huntingtons-disease-center-excellence/research-huntingtons-disease"
+    ]
+  },
+  {
+    "candidate": "REGENXBIO Batten research programme",
+    "disposition": "existing_construct_or_umbrella",
+    "rationale": "2011 sponsor release describes Weill Cornell rAAVrh10 CLN2 dosing, represented by existing aavrh10cln2. No additional distinct construct established.",
+    "sources": [
+      "https://ir.regenxbio.com/static-files/c2244bb0-a57a-4164-9da2-149c96659813"
+    ]
+  },
+  {
+    "candidate": "REGENXBIO MLD research programme",
+    "disposition": "identity_unresolved",
+    "rationale": "Generic licence/platform label cannot be mapped confidently to a distinct dosed construct. Existing aavrh10arsa may overlap, but alias not independently proven.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/25758611/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8236561/",
+      "https://clinicaltrials.gov/study/NCT01801709"
+    ]
+  },
+  {
+    "candidate": "RTT-1",
+    "disposition": "no_verified_entry_within_window",
+    "rationale": "First-patient report observed by August 2025 and 2026 company partnership; exact dosing date not established. No evidence of entry within frozen 2010-2024 window. Retain recent watchlist, not a failure.",
+    "sources": [
+      "https://www.eurekalert.org/news-releases/1096048",
+      "https://www.neucyte.com/neucyte-and-grannpharmaceuticals-announce-strategic-partnership",
+      "https://www.grannpharma.com/pipeline"
+    ]
+  },
+  {
+    "candidate": "RDGT-101",
+    "disposition": "no_verified_entry_within_window",
+    "rationale": "2026 registry and first-sentinel report put this outside 2010-2024 entry cohort. Primary report describes AAV9-NAGLU, not vendor enzyme-fusion modality. Retain watchlist.",
+    "sources": [
+      "https://www.chictr.org.cn/hvshowproject.html?id=298322&v=1.0",
+      "https://www.medrxiv.org/content/10.64898/2026.06.01.26354386v1.full.pdf"
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+{
+  "review_date": "2026-11-18",
+  "comparison_cutoff": "2026-11-16",
+  "entry_window": "2010-2024",
+  "unit": "molecule cluster with selected original indication(s); NOT comprehensive drug-indication pairs",
+  "endpoint": "FDA approval in selected indication(s), inherited frozen adjudications",
+  "estimand": "Finite-horizon cumulative approval after clinical entry, NOT eventual or preclinical PoS",
+  "status_rule": "Unknown is retained, not deleted. Failed remains nonapproval through cutoff. No censoring at discontinuation.",
+  "scope": "45 bounded candidate checks: 15 discovery identities and 30 vendor-only status assignments. Existing approvals and all other historical classifications are inherited, not independently re-audited.",
+  "all_drugs_tier": "Not built. This purposive rare panel cannot supply an all-drugs estimate.",
+  "pair_design": "Future primary unit: molecule-indication pair, own entry/outcome dates, approvals only for that indication; flag prior human data and prior molecule approval at pair entry. Cluster uncertainty by molecule; equal-molecule-weight sensitivity. No automatic new samples for age cohorts, trials or territories.",
+  "pair_limitations": [
+    {
+      "cluster": "bmb101",
+      "records": [
+        {
+          "id": "neuro:BMB-101|Dravet",
+          "indication": "Dravet",
+          "entry_interval": [
+            "2022-01-01",
+            "2022-12-31"
+          ],
+          "approval_date": null
+        },
+        {
+          "id": "neuro:BMB-101|Lennox_Gastaut",
+          "indication": "Lennox_Gastaut",
+          "entry_interval": [
+            "2022-01-01",
+            "2022-12-31"
+          ],
+          "approval_date": null
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "vo659",
+      "records": [
+        {
+          "id": "neuro:VO659|Huntington",
+          "indication": "Huntington",
+          "entry_interval": [
+            "2023-01-01",
+            "2023-12-31"
+          ],
+          "approval_date": null
+        },
+        {
+          "id": "neuro:VO659|SCA",
+          "indication": "SCA",
+          "entry_interval": [
+            "2023-01-01",
+            "2023-12-31"
+          ],
+          "approval_date": null
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "soticlestat",
+      "records": [
+        {
+          "id": "neuro:soticlestat|CDKL5",
+          "indication": "CDKL5",
+          "entry_interval": [
+            "2014-01-01",
+            "2014-12-31"
+          ],
+          "approval_date": null
+        },
+        {
+          "id": "neuro:soticlestat|Dravet",
+          "indication": "Dravet",
+          "entry_interval": [
+            "2014-01-01",
+            "2014-12-31"
+          ],
+          "approval_date": null
+        },
+        {
+          "id": "neuro:soticlestat|Lennox_Gastaut",
+          "indication": "Lennox_Gastaut",
+          "entry_interval": [
+            "2014-01-01",
+            "2014-12-31"
+          ],
+          "approval_date": null
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "BB305",
+      "records": [
+        {
+          "id": "systemic:sys_784ce96d8dcd",
+          "indication": "Beta-thalassemia",
+          "entry_interval": [
+            "2013-01-01",
+            "2013-12-31"
+          ],
+          "approval_date": "2022-08-17"
+        },
+        {
+          "id": "systemic:sys_776b1386625c",
+          "indication": "SCD and beta-thalassemia mixed",
+          "entry_interval": [
+            "2013-01-01",
+            "2013-12-31"
+          ],
+          "approval_date": "2023-12-08"
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "Alyftrek_fixed_combination",
+      "records": [
+        {
+          "id": "systemic:sys_5c1b62772e17",
+          "indication": "Cystic fibrosis",
+          "entry_interval": [
+            "2015-01-01",
+            "2015-05-08"
+          ],
+          "approval_date": "2024-12-20"
+        },
+        {
+          "id": "systemic:sys_63b17612fcf4",
+          "indication": "Cystic fibrosis",
+          "entry_interval": [
+            "2018-01-01",
+            "2018-12-31"
+          ],
+          "approval_date": "2024-12-20"
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "pozelimab_cemdisiran_PNH_combination",
+      "records": [
+        {
+          "id": "systemic:sys_60d818e7fb2d",
+          "indication": "PNH",
+          "entry_interval": [
+            "2015-01-01",
+            "2015-12-31"
+          ],
+          "approval_date": null
+        },
+        {
+          "id": "systemic:sys_0bfbf88afa2f",
+          "indication": "PNH",
+          "entry_interval": [
+            "2017-01-01",
+            "2017-12-31"
+          ],
+          "approval_date": null
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    },
+    {
+      "cluster": "hepastem",
+      "records": [
+        {
+          "id": "metabolic:metabolic_hepastem",
+          "indication": "Urea-cycle disorders and Crigler-Najjar (mixed)",
+          "entry_interval": [
+            "2012-03-01",
+            "2012-03-31"
+          ],
+          "approval_date": null
+        }
+      ],
+      "action": "Indication-specific date/outcome adjudication required; distinguish distinct diseases from duplicate records and mixed baskets. Do not duplicate molecule outcomes."
+    }
+  ],
+  "limitations": [
+    "Not a probability sample or complete census; discovery remains concentrated in genetic CNS programmes.",
+    "Clinical-entry clock may begin in healthy volunteers before disease-specific patient exposure. Pair-level clocks require separate adjudication.",
+    "Historical label consistency and inherited approval/entry ascertainment remain limitations.",
+    "Recent entrants have immature follow-up; 10/12-year curves disproportionately depend on older entrants and an exchangeability assumption.",
+    "Active includes retained programmes and safety follow-up; it does not universally mean advancing toward approval.",
+    "Failure counts include sponsor/portfolio exits, not only biological failures.",
+    "Finite-horizon invariance to status labels is intentional: administrative censoring depends on dates/approvals, not active/failed classification.",
+    "No valid independent weighted blend of nested layers; their samples overlap.",
+    "No efficacy or eventual approval rate can be estimated reliably from the four closest peers alone."
+  ]
+}

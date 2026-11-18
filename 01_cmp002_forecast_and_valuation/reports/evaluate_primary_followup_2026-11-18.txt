@@ -1,0 +1,238 @@
+EVALUATE PRIMARY FOLLOW-UP AND NESTED PEER FUNNEL — 18 NOVEMBER 2026
+Project 1: independent CMP-002 forecast / PoS assumption audit
+Evidence reviewed 18 November; comparison cutoff remains 16 November 2026.
+
+WHAT CHANGED
+All 15 remaining discovery records (14 plus EGT-101) and all 30 vendor-only status changes received a bounded independent source check. This means checked, not all resolved.
+Two additions: AVR-RD-04/CTNS-RD-04 in cystinosis and EGT-101 in MPS IIIA. EGT first-dose timing remains a proxy and is excluded in the stronger-entry sensitivity.
+Remaining discovery: five duplicate/umbrella records; four without verified clinical entry; two unresolved construct identities; two without verified entry in the 2010–2024 window. Recent candidates remain on a watchlist rather than being called failures.
+Of the 30 vendor-only statuses: four exits supported under the molecule-replacement/sponsor-exit rule; five retained programmes or clinical follow-up supported with qualifications; 21 current/terminal original-indication statuses remain unresolved. Vendor dispositions are preserved separately.
+Updated panel: 319 molecule clusters = 42 approved, 116 failed, 127 active, 34 unknown. Untargeted records retain their prior evidence quality, including probable classifications; this is not a new primary verification of all 319.
+
+THE FUNNEL — WHAT THE NUMBERS ACTUALLY MEAN
+All drugs: NOT BUILT. The top measured tier is a selected rare-disease panel, not a representative census of all drugs or all rare-disease development.
+The percentages below estimate cumulative FDA approval within a finite interval after clinical entry. They are not lifetime probabilities, not preclinical probabilities, and not simple approved/(approved+failed) rates.
+Tier | N | Approved/failed/active/unknown | 5-year | 10-year | 12-year | Still observed without approval at year 10
+Selected rare-disease molecule clusters | 319 | 42/116/127/34 | 4.6% | 21.5% | 26.0% | 73
+Genetic CNS disease | 89 | 12/29/43/5 | 4.6% | 20.1% | 24.1% | 20
+Genetic CNS + genetic medicine | 56 | 7/19/27/3 | 2.8% | 20.5% | 29.3% | 9
+Genetic CNS + intrathecal ASO | 18 | 3/8/7/0 | 0.0% | 31.2% | 31.2% | 2
+Above + deficient-protein restoration | 6 | 1/1/4/0 | 0.0% | not supported | not supported | 0
+Above + closest neurodevelopmental rationale | 4 | 0/1/3/0 | 0.0% | not supported | not supported | 0
+
+Examples: broad rare includes systemic metabolic, neuromuscular and other disease programmes; genetic CNS includes small molecules as well as genetic medicines. Genetic medicines include viral vectors, ex-vivo gene therapy and RNA-directed drugs; they are not synonymous with ASOs.
+All 18 ASOs in this selected genetic-CNS panel are intrathecally delivered, so route is not an additional numerical narrowing here. The six deficient-protein-restoration ASOs are nusinersen, salanersen, zorevunersen, apazunersen, obudanersen and rugonersen.
+The four closest biological/clinical-rationale peers are zorevunersen–Dravet and apazunersen, obudanersen, rugonersen–Angelman. The SMA therapies leave at this final phenotype filter, not because Spinraza is irrelevant to ASO delivery or protein restoration. Three Angelman assets share target/disease risks; four assets are not four fully independent biological experiments.
+The 18-ASO estimate of 31.3% at ten years is fragile: only two unapproved observations extend that far; the descriptive bootstrap range is approximately 0–64%. It is not a reliable 31% prior for CMP-002. The six- and four-member sets have no supported ten-year estimate. No approval yet in the closest four does not mean a 0% eventual PoS.
+
+RECENCY, UNCERTAINTY AND NEEDHAM 25%
+Restricting entry to 2015 onward changes ten-year estimates to 20.7% broad rare, 15.5% genetic CNS, 10.4% genetic medicines within genetic CNS, and 28.0% intrathecal ASO. These tails still depend on the earliest entrants in that restricted era; they do not measure ten-year outcomes for drugs first dosed recently.
+The broad ten-year descriptive bootstrap interval is approximately 15–28%; genetic CNS 9–32%; genetic CNS medicines 4–40%. These resampling ranges describe this selected panel, not population-valid confidence intervals.
+Needham 25% is neither independently validated nor ruled out. It sits near the broad 12-year result, but comparing a pre-dose lifetime assumption with post-entry finite-horizon curves is not an apples-to-apples calibration. Delivery precedent, target biology, clinical translatability, endpoint sensitivity and pre-dose attrition still require judgment. Do not average nested percentages as though independent estimates.
+Status-only corrections do not change these curves: failed candidates remain known nonapprovals through the administrative cutoff. The two added nonapproved entrants modestly change the denominator/risk sets. Unknowns are retained. Deleting them or censoring failures at discontinuation would introduce avoidable bias.
+
+DRUG–INDICATION PAIRS: THE CORRECT NEXT DATA MODEL
+For the question whether CMP-002 will be approved in SYNGAP1, the natural unit is a molecule–indication pair. The current panel instead consolidates molecules with selected indication records. It must not be relabelled a comprehensive pair panel.
+Examples needing separation: VO659 in Huntington and SCA; soticlestat in Dravet and Lennox–Gastaut; BMB-101 in those two epilepsy syndromes; BB305 sickle-cell and beta-thalassemia constructs/labels require identity adjudication; HepaStem has a mixed UCD/Crigler-Najjar entry. In contrast, duplicate CF combination records are not distinct indication bets.
+A pair table needs its own clinical-entry evidence, target-indication FDA outcome and decision history, molecule/construct ID, and prior human-data/approval status at entry. Healthy-volunteer Phase I may support several later indications; specify whether the clock starts at molecule first dosing or disease-specific entry and run both when feasible.
+A later indication approval never rescues the original pair. The same indication in a new territory is not a new disease sample. Separate paediatric/age/genotype cohorts only when the prespecified indication taxonomy justifies it. Trial counts are not sample counts.
+Pairs sharing a molecule are correlated. Report unweighted pair outcomes, cluster-resampled uncertainty by molecule, and equal-total-weight-per-molecule sensitivity. Flag prior approval separately, since an indication expansion of an established drug is a different risk proposition from a first-in-human unapproved CNS medicine.
+Future genuinely nested funnel: all qualifying clinical-entry pairs → previously unapproved molecules at pair entry → rare disease → genetic CNS disease → ASO → intrathecal → deficient-protein restoration → closest neurodevelopmental phenotype. The current data support only the selected-molecule funnel shown above. Building the all-drugs and expanded-indication top requires further collection, not arithmetic relabelling.
+
+COMPLETE DISCOVERY LEDGER (15)
+
+EGT-101 — include_entry_proxy
+CTIS reports actual trial start 20 March 2018, recruitment ending November 2020, and global trial end 2 October 2025. Treated cohort reported by April 2021. Registry start is not proven first dose; use conservative interval, exclude in stronger-entry sensitivity. Completion does not establish permanent failure or advancement.
+Sources: https://euclinicaltrials.eu/ctis-public/view/2024-515835-31-00 ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000359-26/ES ; https://curesanfilippofoundation.org/2021/04/egt-101-gene-therapy/
+
+AVR-RD-04 / CTNS-RD-04 — include
+Cystinosis autologous HSC gene therapy first treated October 2019. Original trial completed; long-term follow-up continues. Novartis DFT383 development provides a continuation lead, but exact manufacturing continuity should be checked before counting new trial as identical construct. Broad rare tier only: systemic cystinosis, not CNS-targeted.
+Sources: https://www.sec.gov/Archives/edgar/data/1681087/000119312522031820/d312907dex992.htm ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12919641/ ; https://clinicaltrials.gov/study/NCT03897361 ; https://clinicaltrials.gov/study/NCT05146830 ; https://www.novartis.com/clinicaltrials/study/nct06910813
+
+OPK88001 / CUR1916 / CMP-SCN — clinical_entry_unverified
+Proposed Phase II and inconsistent vendor stages do not establish human dosing. No qualifying clinical exposure established in bounded search.
+Sources: https://www.opko.com/investors/sec-filings/all-sec-filings/content/0000944809-18-000025/0000944809-18-000025.pdf
+
+ADVM-063 / ANN-003 — clinical_entry_unverified
+Friedreich ataxia programme described in sponsor filing; vendor abandoned Phase I not independently supported by a human-dosing record. Do not infer never dosed, but do not add an unverified entrant.
+Sources: https://www.sec.gov/Archives/edgar/data/1501756/000156459016028352/advm-10q_20160930.htm
+
+LB-301 — clinical_entry_unverified
+Sponsor 2021 pipeline describes preclinical Crigler-Najjar programme. No qualifying dosing evidence found; vendor Phase II is insufficient.
+Sources: https://www.sec.gov/Archives/edgar/data/1664106/000119312521006839/d109973dex991.htm
+
+PBML04 — clinical_entry_unverified
+IND clearance is not dosing. Sponsor paused MLD programme in 2022 and transferred it in 2024; no treated patient established. Nearby first-dose statements concern PBFT02, not PBML04. Primary construct AAVhu68 differs from vendor AAV1 label.
+Sources: https://www.sec.gov/Archives/edgar/data/1787297/000155837023009256/pasg-20230331x10q.htm ; https://www.sec.gov/Archives/edgar/data/1787297/000155837024002310/pasg-20231231x10k.htm
+
+TSHA-121 — existing_construct_or_umbrella
+UTSW CLN7 programme corresponds to existing aav9cln7 entry; no distinct dosed construct established. Company deprioritisation does not prove academic trial abandonment.
+Sources: https://www.sec.gov/Archives/edgar/data/1806310/000095017025027348/tsha-20241231.htm ; https://clinicaltrials.gov/study/NCT04737460
+
+Genethon SMA research programme — existing_construct_or_umbrella
+Genethon licensing/IP relationship to AVXS-101 does not establish another dosed molecule beyond existing onasemnogene entry.
+Sources: https://www.genethon.com/avexis-enters-into-licensing-agreement-with-genethon/
+
+MolMed rare-disease research programme — existing_construct_or_umbrella
+Manufacturing/services umbrella spanning multiple clients and products, not a uniquely identifiable clinical molecule.
+Sources: https://www.molmed.com/sites/default/files/2019-04/2626_1426764168.pdf ; https://ir.orchard-tx.com/static-files/2178861c-4bcd-4fc2-8f1e-fb0cf778ed7d
+
+NTSAD GM1 research programme — existing_construct_or_umbrella
+Foundation research umbrella, not a unique molecule. AXO-AAV-GM1 is already separately included; cannot count generic research label again.
+Sources: https://mail.ntsad.org/index.php/research-for-families/research-by-disease/gm-1
+
+University of Iowa Huntington programme — identity_unresolved
+Institutional research programme does not establish a distinct construct. Iowa being a study site is not sufficient to identify it as AMT-130 or another molecule.
+Sources: https://psychiatry.medicine.uiowa.edu/huntingtons-disease-center-excellence/research-huntingtons-disease
+
+REGENXBIO Batten research programme — existing_construct_or_umbrella
+2011 sponsor release describes Weill Cornell rAAVrh10 CLN2 dosing, represented by existing aavrh10cln2. No additional distinct construct established.
+Sources: https://ir.regenxbio.com/static-files/c2244bb0-a57a-4164-9da2-149c96659813
+
+REGENXBIO MLD research programme — identity_unresolved
+Generic licence/platform label cannot be mapped confidently to a distinct dosed construct. Existing aavrh10arsa may overlap, but alias not independently proven.
+Sources: https://pubmed.ncbi.nlm.nih.gov/25758611/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8236561/ ; https://clinicaltrials.gov/study/NCT01801709
+
+RTT-1 — no_verified_entry_within_window
+First-patient report observed by August 2025 and 2026 company partnership; exact dosing date not established. No evidence of entry within frozen 2010-2024 window. Retain recent watchlist, not a failure.
+Sources: https://www.eurekalert.org/news-releases/1096048 ; https://www.neucyte.com/neucyte-and-grannpharmaceuticals-announce-strategic-partnership ; https://www.grannpharma.com/pipeline
+
+RDGT-101 — no_verified_entry_within_window
+2026 registry and first-sentinel report put this outside 2010-2024 entry cohort. Primary report describes AAV9-NAGLU, not vendor enzyme-fusion modality. Retain watchlist.
+Sources: https://www.chictr.org.cn/hvshowproject.html?id=298322&v=1.0 ; https://www.medrxiv.org/content/10.64898/2026.06.01.26354386v1.full.pdf
+
+COMPLETE VENDOR-STATUS FOLLOW-UP (30)
+
+actus101 / Late-onset Pompe — vendor failed → conservative failed
+Primary sponsor describes closing recruitment and completing existing patients while prioritising distinct AB-1009. Treat as superseded under the user-defined molecule rule; this is a portfolio decision, not demonstrated lack of efficacy. March formal discontinuation is additionally reported by secondary sources; inaccessible primary March deck is not claimed as read.
+Sources: https://www.bayer.com/media/download/75964e0c-af43-4c30-8781-bde50e5e506f/2026-0006e.pdf ; https://clinicaltrials.gov/study/NCT03533673
+
+aes103 / SCD — vendor failed → conservative unknown
+Phase II was terminated following unblinding. That establishes a stopped trial, not independently verified permanent abandonment of the molecule in SCD.
+Sources: https://clinicaltrials.gov/study/NCT01987908 ; https://www.clinicaltrialsregister.eu/ctr-search/trial/2013-001534-18/results
+
+agt181 / MPS I — vendor failed → conservative unknown
+MPS I studies completed. Acquisition of ArmaGen and different JCR successors do not establish the disposition of this specific molecule. Vendor abandonment remains uncorroborated.
+Sources: https://clinicaltrials.gov/study/NCT03053089 ; https://clinicaltrials.gov/study/NCT03071341 ; https://clinicaltrials.gov/study/NCT02597114
+
+agt182 / MPS II — vendor failed → conservative unknown
+MPS II study completed with six participants. No retrieved primary statement establishes permanent abandonment or a current registration programme for this molecule.
+Sources: https://clinicaltrials.gov/study/NCT02262338
+
+bmn307 / Phenylketonuria — vendor failed → conservative unknown
+BioMarin disclosed a clinical hold and requested additional preclinical work; registry retains active-not-recruiting status. Hold is not permanent failure and follow-up is not resumed development.
+Sources: https://www.biomarin.com/news/press-releases/biomarin-provides-updates-on-progress-in-gene-therapy-programs/ ; https://clinicaltrials.gov/study/NCT04480567
+
+bn82451b / Huntington — vendor failed → conservative unknown
+Huntington study terminated for recruitment problems. No primary evidence retrieved of definitive molecule-level abandonment.
+Sources: https://clinicaltrials.gov/study/NCT02231580
+
+chf6333 / Cystic fibrosis — vendor failed → conservative unknown
+Completed early studies and later bronchiectasis work do not establish current CF advancement or permanent CF abandonment. Keep original indication scope.
+Sources: https://clinicaltrials.gov/study/NCT03056326 ; https://clinicaltrials.gov/study/NCT04010799 ; https://clinicaltrials.gov/study/NCT06166056 ; https://www.chiesiclinicalstudies.com/trials/CLI-06333CA1-01
+
+glpg2451 / Cystic fibrosis — vendor failed → conservative unknown
+FALCON combination study completed; weak combination results and transfer to AbbVie alone do not prove definitive CF molecule abandonment. Do not confuse with navocaftor/GLPG3067.
+Sources: https://clinicaltrials.gov/study/NCT03540524 ; https://reports.glpg.com/2018/q2/en/the-galapagos-group/letter-from-the-management.html
+
+glpg2737 / Cystic fibrosis — vendor failed → conservative unknown
+ADPKD trial termination for efficacy is not a CF outcome. CF trials completed; original CF programme disposition not independently resolved.
+Sources: https://clinicaltrials.gov/study/NCT04578548 ; https://clinicaltrials.gov/study/NCT03474042 ; https://clinicaltrials.gov/study/NCT03450720 ; https://reports.glpg.com/annual-report-2022/en/_assets/downloads/oth-other-information-glpg-ar22.pdf
+
+hepastem / Urea-cycle disorders and Crigler-Najjar (mixed) — vendor failed → conservative failed
+Sponsor terminated long-term study for product-development prioritisation and withdrew further UCD study. Classify exit from the selected metabolic programme; mixed UCD/Crigler-Najjar entry still requires pair-level separation. Not an efficacy-failure claim.
+Sources: https://clinicaltrials.gov/study/NCT03343756 ; https://clinicaltrials.gov/study/NCT03884959 ; https://clinicaltrials.gov/study/NCT01765283
+
+hs135 / Pulmonary arterial hypertension — vendor failed → conservative unknown
+Two pulmonary hypertension trials terminated by sponsor decision. No retrieved primary evidence establishes whether programme permanently abandoned or replaced by HS235; do not treat a successor's activity as rescue.
+Sources: https://clinicaltrials.gov/study/NCT06493461 ; https://clinicaltrials.gov/study/NCT06581159 ; https://www.35pharma.com/news/35pharma-closes-series-c-financing-to-advance-clinical-pipeline-of-activin-inhibitors-for-pulmonary-hypertension-cardiometabolic-disease-and-obesity-2-4abwj
+
+ipl344 / ALS — vendor failed → conservative unknown
+Registry says suspended because of drug shortage, with possible resumption and continuing survival follow-up. This contradicts treating the available primary record as definitive permanent failure.
+Sources: https://clinicaltrials.gov/study/NCT03652805 ; https://clinicaltrials.gov/study/NCT03755167
+
+mk8892 / Pulmonary arterial hypertension — vendor failed → conservative unknown
+PAH trial terminated with seven participants; other studies completed. No retrieved primary statement settles permanent molecule-level exit.
+Sources: https://clinicaltrials.gov/study/NCT01934647 ; https://clinicaltrials.gov/study/NCT01798849 ; https://clinicaltrials.gov/study/NCT01926509
+
+nktt120 / SCD — vendor failed → conservative unknown
+Completed SCD Phase I study with 21 participants; current development fate not independently established.
+Sources: https://clinicaltrials.gov/study/NCT01783691
+
+pf07209326 / SCD — vendor failed → conservative failed
+Pfizer August 2023 pipeline explicitly lists discontinuation. Later registry completion/update does not reverse the sponsor's development decision.
+Sources: https://cdn.pfizer.com/pfizercom/product-pipeline/Pipeline_Update_01AUG2023_4.pdf?4_xUVtkbfSMGswNtunOZO87JwWWPQvuU= ; https://clinicaltrials.gov/study/NCT04255875
+
+ptw00210mgggel / Epidermolysis bullosa — vendor failed → conservative unknown
+QR-313 trial terminated for low enrolment; transfer to Wings/Phoenicis does not establish subsequent permanent abandonment. Current original-indication fate unresolved.
+Sources: https://clinicaltrials.gov/study/NCT03605069 ; https://www.sec.gov/Archives/edgar/data/1612940/000155837022006395/R13.htm
+
+saer / GNE myopathy — vendor failed → conservative unknown
+Ultragenyx stopped US development after Phase III failure, but aceneuramic acid subsequently received Japanese approval. Do not call the molecule globally failed or count foreign approval as FDA success; future FDA path remains unknown.
+Sources: https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-top-line-results-phase-3-study-ace-er-gne ; https://www.nobelpharma.co.jp/_cms/wp-content/uploads/2024/03/587fe2db53b3944fb58405e11716b6d1.pdf
+
+sar443809 / PNH — vendor failed → conservative unknown
+Sanofi reports discontinuation in rare renal disease; the panel maps the healthy-volunteer study to PNH. Neither that cross-indication exit nor completion of healthy-volunteer dosing establishes the original PNH programme's terminal outcome. Pair mapping needs verification.
+Sources: https://www.sec.gov/Archives/edgar/data/1121404/000112140425000010/sny-20241231.htm ; https://clinicaltrials.gov/study/NCT06326814
+
+scd101 / SCD — vendor failed → conservative unknown
+Botanical SCD-101 record is stale/unknown. A search match to protocol 6058-SCD-101 is pociredir, a different molecule, and is explicitly rejected as status evidence.
+Sources: https://clinicaltrials.gov/study/NCT02380079 ; https://clinicaltrials.gov/study/NCT07401823
+
+shp623 / HAE — vendor failed → conservative unknown
+Completed healthy-volunteer study does not establish permanent HAE programme abandonment or current advancement.
+Sources: https://clinicaltrials.gov/study/NCT02663687
+
+spk3006 / Pompe — vendor failed → conservative failed
+Roche July 2024 materials identify portfolio termination/removal. Continued safety follow-up in registry does not make the development programme active.
+Sources: https://assets.roche.com/f/176343/x/26b92ed3d9/irp240725-a.pdf ; https://assets.roche.com/f/176343/x/d8a0113b83/pharmahy24.pdf ; https://clinicaltrials.gov/study/NCT04093349
+
+airdnase / Cystic fibrosis — vendor active → conservative unknown
+Protalix stopped further CF development in 2019; subsequent SarcoMed licence and sarcoidosis work do not establish current CF development. Continuing original CF rights/pathway unresolved; vendor active is not independently validated.
+Sources: https://www.sec.gov/Archives/edgar/data/1006281/000114420419014447/tv516469_ex99-1.htm ; https://www.sec.gov/Archives/edgar/data/1006281/000110465921020787/tm216286d1_424b5.htm ; https://sarcomedusa.com/sarcomed-sm001/
+
+astrorx / ALS — vendor active → conservative active
+NewcelX 2026 filing retains AstroRx as an ALS clinical-stage platform-validation asset. Active here means retained programme, not independently verified new patient dosing or pivotal commitment.
+Sources: https://www.sec.gov/Archives/edgar/data/1783036/000121390026101419/ea030514101ex99-2.htm
+
+blsm22 / DMD — vendor active → conservative active
+Licensor 2026 filing retains EL22/BLS-M22 DMD development. Obesity development is a separate indication. Active means retained DMD programme; no new DMD dosing established in this review.
+Sources: https://kind.krx.co.kr/external/2026/06/23/000460/20260623001127/00591.htm ; https://kind.krx.co.kr/external/2026/01/15/000613/20260115001558/10401.htm ; https://clinicaltrials.gov/study/NCT03789734
+
+hg302 / DMD — vendor active → conservative active
+Sponsor 2026 reports clinical DMD programme and follow-up in treated children. Fourth participant died after ARDS; other three remain in follow-up. Active-follow-up classification is not evidence of resumed recruitment or favourable safety.
+Sources: https://huidagene.com/new/news/82 ; https://huidagene.com/new/news/83 ; https://clinicaltrials.gov/study/NCT06594094
+
+mbf015 / Huntington — vendor active → conservative active
+Sponsor February 2025 reports completed Phase IIa work and continuing development of Huntington asset. Retained programme, not independently established ongoing dosing.
+Sources: https://medibiofarma.com/medibiofarma-s-l-announced-the-award-of-the-european-commissionseal-of-excellence-for-their-clinical-asset-mbf-015/ ; https://clinicaltrials.gov/study/NCT06469853 ; https://clinicaltrials.gov/study/NCT06049147
+
+ort247 / ALS — vendor active → conservative unknown
+Retrospectively registered healthy-volunteer study completed in 2023. No retrieved primary evidence of a current ALS patient programme; vendor Phase I alone is insufficient.
+Sources: https://clinicaltrials.gov/study/NCT06769620
+
+pbgm01 / GM1 gangliosidosis — vendor active → conservative active
+Gemma registry retains GM1 clinical follow-up. Passage filing reports unpaid transfer instalment; financing uncertainty does not by itself prove abandonment. Active-follow-up only, not verified new dosing.
+Sources: https://clinicaltrials.gov/study/NCT04713475 ; https://www.sec.gov/Archives/edgar/data/1787297/000110465926124783/pasg-20260930x10q.htm
+
+sanguinate / SCD — vendor active → conservative unknown
+Sponsor describes current stroke development and historical SCD work. Activity in stroke does not establish active SCD development or a definitive SCD exit.
+Sources: https://www.prolongpharma.com/pp-007 ; https://www.prolongpharma.com/about
+
+sln124 / Beta-thalassemia — vendor active → conservative unknown
+Divesiran is advancing in polycythemia vera; original beta-thalassemia/MDS trial completed. Later indication activity cannot resolve the original thalassemia programme.
+Sources: https://www.sec.gov/Archives/edgar/data/1479615/000119312526341248/sln-20260630.htm ; https://clinicaltrials.gov/study/NCT04718844 ; https://clinicaltrials.gov/study/NCT05499013
+
+REPRODUCIBILITY AND LIMITS
+Source searches and registry snapshots: sources/evaluate_primary_followup_2026-11-18/. Decision records, all funnel memberships, recent-entry and entry-date sensitivities: data/evaluate_primary_followup/. Builder: scripts/build_evaluate_primary_followup.py.
+This bounded discovery pass is complete. Unresolved entries require stronger programme/construct evidence or a historical indication-level export. No inference from a missing search hit, an outdated registry, a completed study or a corporate acquisition alone was promoted to a confirmed failure.
+Frozen prior source files and calculations are preserved. Source retrieval dates can postdate the comparison cutoff; evidence is used to describe pre-cutoff events. This is a current retrospective audit, not a point-in-time backtest.
+Not a probability sample or complete census; discovery remains concentrated in genetic CNS programmes.
+Clinical-entry clock may begin in healthy volunteers before disease-specific patient exposure. Pair-level clocks require separate adjudication.
+Historical label consistency and inherited approval/entry ascertainment remain limitations.
+Recent entrants have immature follow-up; 10/12-year curves disproportionately depend on older entrants and an exchangeability assumption.
+Active includes retained programmes and safety follow-up; it does not universally mean advancing toward approval.
+Failure counts include sponsor/portfolio exits, not only biological failures.
+Finite-horizon invariance to status labels is intentional: administrative censoring depends on dates/approvals, not active/failed classification.
+No valid independent weighted blend of nested layers; their samples overlap.
+No efficacy or eventual approval rate can be estimated reliably from the four closest peers alone.

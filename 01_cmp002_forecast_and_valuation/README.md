@@ -9,11 +9,13 @@
 | Sell-side context and assumption audit | 15 original reports saved (eight with extracted text); seven LSEG initiations/pivot and valuation reports added November 17; inherited Street data available |
 | Reverse DCF | To build: observed EV, development/operating costs, timeline, financing context and sales implied by valuation |
 | Independent worldwide revenue forecast | To build: epidemiology, diagnosis, eligibility, uptake, paid exposure, net pricing and country access |
-| KPI and PoS comparator research | Evaluate audit expands the selected panel to 317 molecule clusters; nested filters, censoring-adjusted approval horizons and sensitivities saved. Vendor-only statuses remain provisional and discovery is not exhaustive. CMP-002 lifetime PoS remains judgmental; other KPI audits pending |
+| KPI and PoS comparator research | Primary-source follow-up expands the selected panel to 319 molecule clusters; explicit nested ASO/restoration filters saved. Of 30 vendor-only statuses checked, 21 remain unresolved at the selected-indication level. This is not yet a comprehensive drug–indication panel or all-drugs census. CMP-002 lifetime PoS remains judgmental; other KPI audits pending |
 | Post-LOE / terminal-value analysis | Needham arithmetic decomposition recorded; independent durability assumptions still to research |
 | Explain the valuation gap | Pending independent model and reverse DCF |
 
 ## Start here
+
+- **Latest: [45-candidate primary-source follow-up and pair-unit clarification](reports/evaluate_primary_followup_2026-11-18.txt)**. All 15 remaining discovery candidates and 30 vendor-only statuses checked; two additions, with EGT-101 entry-date sensitivity. Selected molecule funnel **319 → 89 → 56 → 18 → 6 → 4**. [Browse the funnel and every member](reports/pos_peer_funnel_2026-11-18.html), [results and sensitivities](data/evaluate_primary_followup/funnel_results.json), [handoff](context/evaluate_primary_followup_handoff_2026-11-18.txt). Current calculations are clinical-entry finite-horizon FDA approval estimates, not preclinical lifetime PoS. A comprehensive molecule–indication expansion remains separate work.
 
 - **[Evaluate-assisted PoS audit — 18 November](reports/evaluate_pos_audit_2026-11-18.txt)**: two source exports; all 40 unresolved and 113 failed records audited, two failed-to-active corrections corroborated, seven new molecule clusters. Nested panel **317 → 88 → 55 → 4**; ten-year estimates **21.6% / 20.3% / 20.9%**, not lifetime PoS. Vendor-only dispositions remain provisional; broader discovery is not a completed census. [Results and sensitivities](data/evaluate_audit/updated_results.json), [current handoff](context/evaluate_pos_handoff_2026-11-18.txt).
 
