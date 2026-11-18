@@ -1,0 +1,95 @@
+EVALUATE-ASSISTED PoS AUDIT — PROJECT 1 — 18 NOVEMBER 2026
+
+DECISION
+Evaluate materially improves discovery and disposition evidence, but does not supply a clean, automatically usable inception cohort. The qualified comparison panel expands from310 to317 molecule clusters, genetic CNS81 to88, and genetic medicines in genetic CNS48 to55. The four closest restoration ASOs remain unchanged. The updated ten-year cumulative approval estimates are21.6%,20.3%,20.9%, respectively; these are NOT lifetime or preclinical probabilities. Needham's25% remains an uncalibrated assumption, neither validated nor decisively rejected.
+
+This is a completed bounded reconciliation of the existing310 and a targeted high-relevance expansion, NOT a completed historical census of every Evaluate rare-disease program. The remaining discovery queue is explicitly retained. Do not describe unmatched/discovery records as failures.
+
+WHAT WAS ACCESSED
+Two standard Evaluate report exports via the authenticated Chrome UI:14,599 company-product rows with any orphan designation;10,246 company-product-indication rows across51 matched disease classes without an orphan restriction. Combined9,515 vendor Product IDs before clinical/disease/time eligibility. Company licensing duplicates, nonrare co-indications, preclinical records, old drugs, post2024 entrants and accidental partial-string disease matches explain why these are not9,515 eligible molecules. Omnium Development Risk/PTRS remains unavailable under this subscription.
+
+The metadata manifest records fields, filters, unmatched search terms, false-positive classes and source hashes. Standard exports do not provide a reliable first-human date for every molecule. Current phase is not a phase-transition history and is not proof of patient exposure.
+
+COVERAGE OF THE OLD PANEL
+294/310 clusters have at least one accepted candidate identity link after rejecting several obvious collisions:42/42 approved,107/113 failed,108/115 active,37/40 unresolved. These are identity-link coverage counts, not294 independently revalidated development histories. Six failed candidates have no accepted vendor match; retain their prior primary evidence. The old ISIS333611 candidate is among these because the vendor aggregates its code under tofersen, a distinct successor.
+
+ALL40 PREVIOUSLY UNRESOLVED: EXPLICIT DECISIONS
+21 receive provisional vendor-supported failed/discontinued labels:
+ACTUS101; AES103 (5-hydroxymethylfurfural); AGT181/valanafusp; AGT182/TAK531; BMN307; BN82451; CHF6333 in CF; GLPG2451; GLPG2737; HepaStem; HS135; IPL344; MK8892; NKTT120; PF07209326; PTW002/QR313; Ace-ER; SAR443809; SCD101; SHP623/RC1-INH; SPK3006.
+
+Nine receive provisional vendor-supported active clinical labels:
+alidornase alfa; AstroRx; BLS-M22; HG302; MBF015; ORT247; PBGM01; Sanguinate; divesiran/SLN124.
+
+Ten remain unknown under the original FDA/indication question:
+- Mosliciguat and frespaciguat: a broad pulmonary-hypertension phase does not resolve original PAH-subtype continuity.
+- CAN103, ciprocopan, Hunterase and verenafusp: global approval/development does not establish FDA approval or resolve the US-pathway question.
+- PRX112: conflicting WW Marketed versus USA Abandoned PhaseII fields; oral PRX112 must not inherit injectable taliglucerase approval.
+- Cellavita_HD, Hologene7 and Bioray HBB-corrected HSC: no accepted exact construct match.
+
+IMPORTANT: Vendor-supported classification is a new evidence layer, not equivalent to independent sponsor confirmation. In a primary-corroboration-only interpretation, the30 vendor-only changes remain unresolved. A current PhaseII label does not prove recent dosing or funded advancement. The full40-row decision record is data/evaluate_audit/status_decisions.json. This distinction prevents cosmetic reduction of the unknown count from masquerading as definitive biological knowledge.
+
+AUDIT OF THE113 PREVIOUS FAILURES
+-83 have vendor nonactive records consistent with the prior failure, without proving the cause/date/irreversibility.
+-Two require correction to active after primary-source corroboration: ABO101→SNG101, and ABBV3067→SION3067.
+-Five apparent conflicts reflect activity in OTHER indications; those indications do not rescue the original failure.
+-17 retain a vendor/prior-source conflict flag. Existing explicit sponsor discontinuations or stronger indication-specific evidence take precedence over undated vendor phase labels. Some retained failures are only probable/reversible, as in the frozen ledger; that uncertainty remains.
+-Six have no accepted vendor match and retain the prior evidence.
+Every prior failed cluster has a source-linked audit row in failed_113_audit.json; no unsupported claim that all113 were freshly confirmed by Evaluate.
+
+IMPORTANT CORRECTIONS AND DISCONFIRMING EVIDENCE
+1. Sangrail's May2026 announcement explicitly identifies SNG101 as former ABO101, with a regulatory-development plan. A historical sponsor exit was not terminal molecule failure. Source: https://www.businesswire.com/news/home/20260505269322/en/ and https://sangrailbiologics.com/
+2. Sionna's2025 annual report and July2024 license announcement establish continued SION3067/ABBV3067 development. Prior failed-regimen evidence was overextended to the molecule. Sources: https://www.sec.gov/Archives/edgar/data/2036042/000162828026012996/sionna-20251231.htm and https://sionnatx.gcs-web.com/node/6576/pdf
+3. The old GLPG2451 row was incorrectly named navocaftor. Its trials are indeed GLPG2451; navocaftor belongs to GLPG3067. Correct the display identity; do not merge the two molecules or shift the entry clock. https://clinicaltrials.gov/study/NCT02788721 and https://clinicaltrials.gov/study/NCT03540524
+4. Evaluate includes ISIS333611 among Qalsody/tofersen aliases. Reject this successor merger for our molecule-level endpoint. Similarly, ABO101 has an unrelated Arbor drug with the same code, and GTX102 can identify unrelated betamethasone. AP101 also collides with the unrelated Oleogel-S10 skin product; that vendor ID is excluded. Name matching alone is insufficient.
+5. FBX101 is still PhaseII in vendor data, but Forge's January28,2025 letter explicitly discontinued the program. The addition is failed, not active. https://alextlc.org/wp-content/uploads/2025/03/2025-Forge-Update-to-the-Krabbe-Community.pdf
+6. VY-HTT01 and ASP2016 have phase labels but zero actual enrollment. Keep these as pre-dose attrition evidence outside the clinical-inception denominator. Adding them as dosed clinical failures would bias the clinical rate downward.
+
+WHAT WE MISSED / QUALIFIED EXPANSION
+Seven new molecule clusters, all in the genetic-CNS-medicine tier:
+-OTL201, MPSIIIA: first human use under a Specials license in2019, before the2020 formal study. Active vendor/clinical record.
+-AXO-AAV-GM1/AAV9-GLB1: first dose May2019. Academic clinical study continues despite company exit; distinct from PBGM01 and LYS-GM101.
+-RGX181/TTX181, CLN2 CNS disease: first treated child confirmed by December2022; transferred to Tern. Active vendor record.
+-PBKR03, Krabbe: first dose March2022. Transferred to Gemma but trial remains suspended; current advancement unresolved.
+-TSHA101, GM2: treated patients in2021. Rights returned to Queen's; active clinical follow-up/vendor phase, with new-dosing/commercial-advancement caveat.
+-FBX101, Krabbe: first clinical exposure bounded between2021 IND clearance and early2022 by dated180-day data; failed after sponsor strategic discontinuation2025.
+-TSHA118/ABO202, CLN1: treated patient confirmed by February2024; exact first-dose interval broad.2026 license termination with possible academic continuation leaves status unknown.
+
+RGX381/TTX381 is also identified and reviewed. It treats ocular CLN2 manifestations via subretinal AAV9/TPP1 delivery. Conservatively cluster with RGX181 until distinct construct identity is established; separate-program sensitivity adds one broad-tier record but does not add a CNS-directed comparator. Do not double-count shared biology as independent evidence.
+
+Entry dates are intervals wherever exact dosing dates are not known. Some current registry starts are later than sponsor first-dose reports; those reports take precedence. The added Krabbe candidates explicitly broaden the earlier purposive disease search, which was not an exhaustive rare-disease ontology.
+
+RECALCULATION — SAME ESTIMATOR, SAME16NOV2026 ADMINISTRATIVE CUTOFF
+Tier                         Before N  After N   Before10y  After10y  After12y
+Broad selected rare panel       310      317       21.8%      21.6%     26.1%
+Genetic CNS                      81       88       21.1%      20.3%     24.3%
+Genetic medicines in CNS          48       55       22.2%      20.9%     29.7%
+Closest restoration ASOs           4        4       Unsupported at10y/12y
+
+Updated status totals, INCLUDING provisional vendor dispositions:
+Broad:42approved/133failed/130active/12unknown.
+Genetic CNS:12approved/30failed/43active/3unknown.
+Genetic CNS medicines:7approved/19failed/27active/2unknown.
+Closest4:0approved/1failed/3active.
+These status totals are not success-rate denominators with active patients removed.
+
+Failed candidates remain nonapprovals through the administrative cutoff; ongoing candidates contribute observed follow-up only. Merely changing failed/active/unknown labels does NOT change these curves. The changes above come from additional exposed candidates, not from relabeling missing programs. Validation explicitly tests this invariance. Outcomes/entry dates for the original310 were not otherwise retrospectively altered. Evidence review occurs18Nov but the16Nov clock is held fixed for comparability, with no new approval event introduced.
+
+2015+ entry sensitivity:10-year estimates20.8% broad,15.8% genetic CNS,11.0% genetic medicines in CNS. The latter still has only THREE candidates observed through10years; it is not an11% lifetime PoS estimate for a current program. The full genetic-medicine panel has only9 candidates supporting the10-year tail and6 at12years. Earlier/later entry-date scenarios give22.5%/28.9% at10years in this tier; date precision remains material. Descriptive bootstrap intervals, complete curves, stronger-entry and shared-construct sensitivities are in updated_results.json. Resampling a selected panel cannot remove selection bias.
+
+Three formerly entry-uncertain records—ANB004, SKG0201, ER2001—have additional registry evidence but still lack definitive first-human construct histories. An explicit registry-proxy sensitivity includes them (320/91/58/4); rounded10-year results are unchanged. They are not silently promoted to verified first-dose entrants.
+
+WHERE EXPANSION STOPS / REMAINING COVERAGE
+The independent export comparison produces5,329 unmatched disease-linked vendor Product IDs, NOT5,329 eligible missed drugs. A reproducible high-relevance screen identifies40 genetic-medicine candidates with apparent clinical-phase history. Dispositions:8 reviewed program additions (7main clusters);7 post2024/not-yet-dosed watchlist;4 clinical only in other indications;3 prior entry-uncertain sensitivities;2 zero-enrollment pre-dose failures;1 possible existing construct alias; EGT101 awaiting firmer first-dose evidence;14 not yet qualified. All retained explicitly, none classified as failures simply because missing.
+
+Newer candidates such as MVX220, RC001, SGT212 and ION337 are preserved in the watchlist. They are outside the original2010–2024 entry window, not deemed irrelevant. A separate current-era inception cohort should include them prospectively once actual exposure is confirmed. Changing the entry window only for newly discovered drugs would make the comparison inconsistent.
+
+Completing a historical census across thousands of records would require substantially more collection: exact indication/construct linkage, first exposure, original versus later indication, US pathway and primary event histories. The standard exports do not supply those facts automatically. This bounded pass improves the existing analysis but does not establish coverage completeness or eliminate paper-trail selection. Do not claim otherwise.
+
+VALUATION IMPLICATION
+The more relevant clinical genetic-CNS tier shifts modestly downward, while two failed-to-active corrections strengthen the surviving pipeline. Neither effect calibrates eventual pre-dose CMP002 PoS.25% is still a sensitivity anchor; a new platform/target, pre-human-entry attrition and CNS translation require explicit judgment. Do not average the nested rates as independent estimates or substitute a ten-year probability for lifetime approval.
+
+REPRODUCTION
+1.python3 scripts/audit_evaluate_universe.py
+2.python3 scripts/build_evaluate_pos_update.py
+3.python3 scripts/summarize_evaluate_audit.py
+Run relative to Project1 or with full script path. No browser/API access is needed for these calculations. Raw UI exports, public trial API snapshots and web evidence are preserved under sources/evaluate_2026-11-18. The fetch scripts document the bounded public ClinicalTrials.gov requests; rerunning them requires network access. No agents used, no purchases/upgrades/outreach. Original public-source analysis remains unchanged.

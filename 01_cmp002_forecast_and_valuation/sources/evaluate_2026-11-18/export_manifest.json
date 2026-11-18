@@ -1,0 +1,96 @@
+{
+  "retrieved": "2026-11-18",
+  "method": "User-authorized Chrome UI Create Report -> Products -> CSV export; no private API/scraping",
+  "source": "https://app.evaluate.com/ux/WebReport/ViewReport.aspx",
+  "reports": [
+    {
+      "file": "orphan_all_status.csv",
+      "filter": "Orphan Drug (Any Designation)=YES; all companies/statuses",
+      "rows": 14599
+    },
+    {
+      "file": "disease_all_status.csv",
+      "filter": "51 indication classes matched with partial-name import; no orphan restriction; all statuses",
+      "rows": 10246
+    }
+  ],
+  "requested_disease_terms": [
+    "Angelman",
+    "Dravet",
+    "Rett",
+    "Fragile X",
+    "SYNGAP",
+    "CDKL5",
+    "Lennox",
+    "Huntington",
+    "Spinocerebellar",
+    "Alexander",
+    "Batten",
+    "Lafora",
+    "Adrenoleukodystrophy",
+    "Metachromatic",
+    "Spinal muscular",
+    "Duchenne",
+    "GNE",
+    "Amyotrophic",
+    "Friedreich",
+    "Myotonic",
+    "Pompe",
+    "Fabry",
+    "Gaucher",
+    "Niemann",
+    "Mucopolysaccharidosis",
+    "Lysosomal",
+    "Gangliosidosis",
+    "Phenylketonuria",
+    "Urea cycle",
+    "Hyperoxaluria",
+    "Wilson",
+    "Glycogen",
+    "Hypophosphatasia",
+    "Haemophilia",
+    "Sickle",
+    "Thalassaemia",
+    "Paroxysmal nocturnal",
+    "Achondroplasia",
+    "Angioedema",
+    "Cystic fibrosis",
+    "Pulmonary hypertension",
+    "Epidermolysis",
+    "Biliary",
+    "Wiskott",
+    "Severe combined",
+    "Granulomatous",
+    "Alveolar proteinosis",
+    "Krabbe"
+  ],
+  "unmatched_terms": [
+    "SYNGAP",
+    "CDKL5",
+    "Alexander",
+    "Lafora",
+    "Adrenoleukodystrophy",
+    "Gangliosidosis",
+    "Hyperoxaluria",
+    "Glycogen"
+  ],
+  "known_false_positive_classes": [
+    "Biliary cancer",
+    "Poisoning neutralization",
+    "Tourette's syndrome",
+    "Barrett's oesophagus"
+  ],
+  "limitations": [
+    "Orphan designation includes oncology and drugs with nonrare co-indications; not identical to rare disease definition",
+    "Disease taxonomy coarser than genetic diagnosis; generic buckets and unmatched names prevent exhaustive coverage",
+    "PhaseI can mean regulatory stage before actual dosing",
+    "Company abandonment/transfer is not global molecule death",
+    "Unique Product ID does not guarantee our construct-level independence; known alias aggregation errors",
+    "Standard exports lack reliable first-human dates for the full candidate universe; Omnium risk upgrade unavailable",
+    "No purchase, new subscription, outreach or account modification"
+  ],
+  "hashes": {
+    "orphan_all_status.csv": "7f70fd6949d78f4d87b902e0f44b1a275d7bea39f7eea1f99ce1564290679813",
+    "disease_all_status.csv": "77cb7d650ab8dd1c93db7d80d942c451ecd6295ca77e81fddfd51bd9abbc43a3"
+  }
+}
