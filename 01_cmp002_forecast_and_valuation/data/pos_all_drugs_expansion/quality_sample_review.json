@@ -1,0 +1,510 @@
+[
+  {
+    "candidate_pair_id": "EV-60826-51fb019d7178",
+    "name": "SAR441255",
+    "indication": "Diabetes, type 2",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase I"
+    ],
+    "query_hits": 1,
+    "query_truncated": false,
+    "gate": "indication_intent_needs_verification",
+    "review": "Explicit first-in-human trial began 2019-04-25 in healthy/overweight participants. Molecule linkage is credible; type-2-diabetes programme intent needs separate evidence. Completed trial does not independently verify vendor abandonment.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22SAR+441255%22+OR+%22SAR-441255%22+OR+%22SAR441255%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT04521738"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-9801-722ff5aa7a0a",
+    "name": "RG7386",
+    "indication": "Solid tumour indications",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase I"
+    ],
+    "query_hits": 1,
+    "query_truncated": false,
+    "gate": "dated_trial_lead",
+    "review": "RO6874813 alias matches a phase-I solid-tumour trial starting 2015-10-11. Earlier worldwide entry and programme-level discontinuation remain unverified.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22RG7386%22+OR+%22RO6874813%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT02558140"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-11113-5bde44aaf50c",
+    "name": "Ramorelix",
+    "indication": "Prostate cancer",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase I"
+    ],
+    "query_hits": 0,
+    "query_truncated": false,
+    "gate": "unresolved_identity_or_history",
+    "review": "No ClinicalTrials.gov hit on supplied name. Vendor abandonment retained as vendor evidence only. No entry date inferred from absence of a registry match.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Ramorelix%22+OR+%22ramorelix%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-26802-985ba83223d1",
+    "name": "Galantamine 1-Day Patch",
+    "indication": "Alzheimer's disease",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase III"
+    ],
+    "query_hits": 118,
+    "query_truncated": true,
+    "gate": "formulation_specific_history_needed",
+    "review": "Generic galantamine query retrieves 118 studies, truncated at 100. Oral galantamine and rivastigmine-patch studies are not NAL8801 history. Do not inherit oral-drug approval or trial dates for this patch.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Galantamine+1-Day+Patch%22+OR+%22NAL8801%22+OR+%22galantamine+hydrobromide%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-216558-51fb019d7178",
+    "name": "LR19123",
+    "indication": "Diabetes, type 2",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase I"
+    ],
+    "query_hits": 1,
+    "query_truncated": false,
+    "gate": "dated_trial_lead",
+    "review": "LC542019 alias matches a phase-I healthy/type-2-diabetes trial starting 2022-03-25. Earlier entry and whole-programme failure remain unverified.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22LC542019%22+OR+%22LR+19123%22+OR+%22LR-19123%22+OR+%22LR19123%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT06333977"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-202218-38e48b392aa4",
+    "name": "DSP-0390",
+    "indication": "Glioma",
+    "stratum": "abandoned_clinical_no_fda_date",
+    "vendor_status": [
+      "Abandoned - Phase I"
+    ],
+    "query_hits": 3,
+    "query_truncated": false,
+    "gate": "vendor_registry_status_conflict",
+    "review": "Vendor says abandoned-phase-I. Registry lists industry trial active-not-recruiting from 2021-09-08 and Washington University glioma study recruiting from 2025-04-03. Keep disagreement visible; neither a stale registry label nor sponsor abandonment settles global molecule-indication failure.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22DSP+0390%22+OR+%22DSP-0390%22+OR+%22DSP0390%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT05023551",
+      "https://clinicaltrials.gov/study/NCT06636162"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-26049-3fb3d4cce682",
+    "name": "Wayrilz",
+    "indication": "Glomerulonephritis",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase II"
+    ],
+    "query_hits": 23,
+    "query_truncated": false,
+    "gate": "subtype_and_arm_entry_needed",
+    "review": "Phase-II multi-drug trial began 2024-12-19 in FSGS/minimal-change disease. These are narrower than glomerulonephritis. Current rilzabrutinib arm presence does not prove that arm was present at the initial study start. Healthy-volunteer or pemphigus dates cannot substitute for renal-programme entry.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22PRN+1008%22+OR+%22PRN-1008%22+OR+%22PRN1008%22+OR+%22SAR+444671%22+OR+%22SAR-444671%22+OR+%22SAR444671%22+OR+%22Wayrilz%22+OR+%22rilzabrutinib%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT06500702"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-1227964-a18f659b2adc",
+    "name": "ION775",
+    "indication": "Hyperlipidaemia",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase II"
+    ],
+    "query_hits": 1,
+    "query_truncated": false,
+    "gate": "earlier_history_and_era_unresolved",
+    "review": "Only retrieved study is phase II starting 2026-05-12 in hypertriglyceridaemia. This is a later-era lead, not proof that development began in 2026; prior codes/phase-I history need verification.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22ION+775%22+OR+%22ION-775%22+OR+%22ION775%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT07604974"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-226260-722ff5aa7a0a",
+    "name": "HM97662",
+    "indication": "Solid tumour indications",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase I"
+    ],
+    "query_hits": 1,
+    "query_truncated": false,
+    "gate": "dated_trial_lead",
+    "review": "Molecule and solid-tumour phase-I trial match, start 2023-01-11. First worldwide entry and current programme ascertainment need corroboration.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22HM+97662%22+OR+%22HM-97662%22+OR+%22HM97662%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT05598151"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-1286374-6e7ec145d7fc",
+    "name": "CD117 CAR-T cell therapy",
+    "indication": "Leukaemia, acute myeloid (AML)",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase I"
+    ],
+    "query_hits": 0,
+    "query_truncated": false,
+    "gate": "unresolved_identity_or_history",
+    "review": "Descriptive CD117 CAR-T label yields no exact-name registry hit. Sponsor/product identity must precede broader target searches; do not merge all CD117 CAR-T products.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22CD117+CAR-T+cell+therapy%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-9878-7f771a3466dd",
+    "name": "Ibtrozi",
+    "indication": "Neuroendocrine tumour",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase I",
+      "Transferred (M&A) - Phase I"
+    ],
+    "query_hits": 13,
+    "query_truncated": false,
+    "gate": "subtype_entry_needs_verification",
+    "review": "DS-6051b first-in-human solid-tumour trial started 2014-09. Broad trial condition alone does not establish when neuroendocrine patients entered. Later approval in another indication cannot become a neuroendocrine approval.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22AB+106%22+OR+%22AB-106%22+OR+%22AB106%22+OR+%22DS+6051%22+OR+%22DS+6051b%22+OR+%22DS-6051%22+OR+%22DS-6051a%22+OR+%22DS-6051b%22+OR+%22DS6051%22+OR+%22DS6051b%22+OR+%22E+7860%22+OR+%22E-7860%22+OR+%22E7860%22+OR+%22IBI+344%22+OR+%22IBI-344%22+OR+%22IBI344%22+OR+%22Ibtrozi%22+OR+%22taletrectinib+adipate%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT02279433"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-1243575-99aef4cde68f",
+    "name": "YHP2406",
+    "indication": "Undisclosed",
+    "stratum": "active_clinical_no_fda_date",
+    "vendor_status": [
+      "Phase I"
+    ],
+    "query_hits": 2,
+    "query_truncated": false,
+    "gate": "routine_bioequivalence_lead",
+    "review": "Two exact-code phase-I studies are bioequivalence studies beginning in 2025. Exclude these trials from novel-drug clinical-entry ascertainment; original programme/ingredient remains undisclosed.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22YHP+2406%22+OR+%22YHP-2406%22+OR+%22YHP2406%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT06920719",
+      "https://clinicaltrials.gov/study/NCT07265167"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-12659-7030379348a0",
+    "name": "Gynoxin",
+    "indication": "Vaginitis",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Marketed"
+    ],
+    "query_hits": 2,
+    "query_truncated": false,
+    "gate": "false_positive_generic_linkage",
+    "review": "Returned fenticonazole studies test EVEGYN fixed combinations, not this Gynoxin product. Generic ingredient overlap is insufficient for product-history linkage.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Gynoxin%22+OR+%22fenticonazole+nitrate%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT06056947",
+      "https://clinicaltrials.gov/study/NCT05361369"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-3047-090df441d982",
+    "name": "Arasid",
+    "indication": "Epilepsy, general",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Marketed",
+      "Transferred (M&A) - Marketed"
+    ],
+    "query_hits": 340,
+    "query_truncated": true,
+    "gate": "legacy_or_duplicate_identity",
+    "review": "Topiramate epilepsy trials precede 2010 (one retrieved study starts 1988). Arasid is not automatically another molecule-indication sample. Current regional brand row cannot establish a new 2010-2024 programme.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Arasid%22+OR+%22topiramate%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT00236730"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-10858-1b6c2d7776c2",
+    "name": "Truxal",
+    "indication": "Generalised anxiety",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Marketed"
+    ],
+    "query_hits": 4,
+    "query_truncated": false,
+    "gate": "wrong_study_purpose_or_indication",
+    "review": "Search retrieves observational safety and later psychiatric studies. These do not establish first development in generalised anxiety or a US approval outcome.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Truxal%22+OR+%22chlorprothixen%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT02582736",
+      "https://clinicaltrials.gov/study/NCT02435095"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-54011-8e6cbb9b069f",
+    "name": "Opisezol Codeine Liquid",
+    "indication": "Upper respiratory tract infections",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Marketed"
+    ],
+    "query_hits": 0,
+    "query_truncated": false,
+    "gate": "unresolved_identity_or_history",
+    "review": "No brand-specific registry hit. Vendor generic field is herbal extract although product name includes codeine. Composition and programme identity require verification.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Opisezol+Codeine+Liquid%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-53725-c27b36f3f67d",
+    "name": "Potentox",
+    "indication": "Pneumonia, hospital-acquired (HAP)",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Marketed"
+    ],
+    "query_hits": 0,
+    "query_truncated": false,
+    "gate": "unresolved_identity_or_history",
+    "review": "No hit for brand/fixed-combination query. Separate cefepime or amikacin programmes cannot be used as this combination history.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Potentox%22+OR+%22amikacin+sulfate%3B+cefepime+hydrochloride%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-1419529-6728b99339ad",
+    "name": "Enwylma",
+    "indication": "General cancer indications",
+    "stratum": "other_or_disputed_clinical",
+    "vendor_status": [
+      "Approved"
+    ],
+    "query_hits": 338,
+    "query_truncated": true,
+    "gate": "biosimilar_separate_analysis",
+    "review": "EMA medicine-overview search result identifies Enwylma as biosimilar to Xgeva. Generic denosumab search is truncated and includes originator programmes. Verify biosimilar development separately; exclude from novel/unapproved-at-entry CMP sensitivity.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Enwylma%22+OR+%22denosumab%22&pageSize=100&countTotal=true&format=json",
+      "https://www.ema.europa.eu/en/documents/overview/enwylma-epar-medicine-overview_en.pdf"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-2168-e4aa73967d13",
+    "name": "INFeD",
+    "indication": "Anaemia, iron-deficiency",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Disposed - Marketed",
+      "Marketed",
+      "Transferred (M&A) - Marketed"
+    ],
+    "query_hits": 210,
+    "query_truncated": true,
+    "gate": "pre_window_vendor_date",
+    "review": "Vendor indication approval date is 1974-04-29, predating the 2010 entry window. FDA date needs regulator reconciliation before final exclusion; modern iron-dextran studies do not establish new inception.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22INFeD%22+OR+%22iron+dextran%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-26049-31d44a2d9c32",
+    "name": "Wayrilz",
+    "indication": "Thrombocytopaenic purpura, idiopathic (ITP)",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Marketed",
+      "Transferred (M&A) - Phase II"
+    ],
+    "query_hits": 23,
+    "query_truncated": false,
+    "gate": "approval_verified_phase_entry_unresolved",
+    "review": "FDA confirms rilzabrutinib approval for persistent/chronic ITP in 2025. Retrieved ITP trial starts 2018-03-22 in phase II. Do not place it in a phase-I-entry denominator using 2016 pemphigus history. FDA approval is not in dispute; entry-stage attribution still matters.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22PRN+1008%22+OR+%22PRN-1008%22+OR+%22PRN1008%22+OR+%22SAR+444671%22+OR+%22SAR-444671%22+OR+%22SAR444671%22+OR+%22Wayrilz%22+OR+%22rilzabrutinib%22&pageSize=100&countTotal=true&format=json",
+      "https://clinicaltrials.gov/study/NCT03395210",
+      "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-adults-persistent-or-chronic-immune-thrombocytopenia"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-102394-a8cd8f89a65e",
+    "name": "Dopamine Hydrochloride",
+    "indication": "Cardiogenic shock",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Marketed",
+      "Transferred (M&A) - Marketed"
+    ],
+    "query_hits": 927,
+    "query_truncated": true,
+    "gate": "pre_window_vendor_date",
+    "review": "Vendor indication approval dates are 1987-03-27 and 1987-11-02. Preserve both; regulator/application reconciliation needed. Broad dopamine query returns many unrelated interventions and indications.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Dopamine+Hydrochloride%22+OR+%22dopamine+hydrochloride%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-3171-cf3ad3c122a1",
+    "name": "Ditemer",
+    "indication": "Tetanus prophylaxis",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Marketed"
+    ],
+    "query_hits": 77,
+    "query_truncated": false,
+    "gate": "pre_window_vendor_date",
+    "review": "Vendor date is 1997-06-30. Vaccine/formulation identity and exact indication need checking; modern booster trials must not reset entry.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Ditemer%22+OR+%22diphtheria+%26+tetanus+vaccine%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-6997-f3c26ed3a5f2",
+    "name": "Vogelxo",
+    "indication": "Testosterone deficiency",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Marketed",
+      "Transferred (M&A) - Marketed"
+    ],
+    "query_hits": 1039,
+    "query_truncated": true,
+    "gate": "formulation_specific_history_needed",
+    "review": "Vendor approval is 2014-06-04, but that does not prove 2010-2024 first clinical entry. Broad testosterone search retrieves 1,039 studies and is truncated. Need USL240-specific history and reformulation/prior-approval flags.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22USL240%22+OR+%22Vogelxo%22+OR+%22testosterone%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  },
+  {
+    "candidate_pair_id": "EV-6201-51f512c44f9d",
+    "name": "Aquasol",
+    "indication": "Vitamin deficiency",
+    "stratum": "vendor_fda_date_present",
+    "vendor_status": [
+      "Disposed - Marketed",
+      "Marketed",
+      "Transferred (M&A) - Marketed"
+    ],
+    "query_hits": 794,
+    "query_truncated": true,
+    "gate": "pre_window_vendor_date",
+    "review": "Vendor indication approval date is 1949-05-18. Broad vitamin-A search is not brand-specific history. Regulator verification and canonical molecule mapping needed before final exclusion.",
+    "sources": [
+      "https://clinicaltrials.gov/api/v2/studies?query.intr=%22Aquasol%22+OR+%22retinyl+palmitate%22&pageSize=100&countTotal=true&format=json"
+    ],
+    "clinical_inception_verified": false,
+    "rare_status": "not_adjudicated",
+    "eligible_for_pos": false,
+    "review_scope": "Initial registry linkage and identity/entry screening only; not complete programme-history adjudication."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "sample_size": 24,
+  "sampling": "Six deterministic hash-ranked candidates per current-status/FDA-date stratum; oncology not separately balanced.",
+  "query_hits_any": 20,
+  "query_no_hits": 4,
+  "query_truncated": 7,
+  "query_errors": 0,
+  "complete_eligibility_adjudications": 0,
+  "rare_classifications_complete": 0,
+  "vendor_ind_dates_present": 0,
+  "gates": {
+    "indication_intent_needs_verification": 1,
+    "dated_trial_lead": 3,
+    "unresolved_identity_or_history": 4,
+    "formulation_specific_history_needed": 2,
+    "vendor_registry_status_conflict": 1,
+    "subtype_and_arm_entry_needed": 1,
+    "earlier_history_and_era_unresolved": 1,
+    "subtype_entry_needs_verification": 1,
+    "routine_bioequivalence_lead": 1,
+    "false_positive_generic_linkage": 1,
+    "legacy_or_duplicate_identity": 1,
+    "wrong_study_purpose_or_indication": 1,
+    "biosimilar_separate_analysis": 1,
+    "pre_window_vendor_date": 4,
+    "approval_verified_phase_entry_unresolved": 1
+  },
+  "pos": null,
+  "reason": "Quality-control sample, with incomplete programme histories and unequal sampling weights; no approval rate should be computed."
+}
