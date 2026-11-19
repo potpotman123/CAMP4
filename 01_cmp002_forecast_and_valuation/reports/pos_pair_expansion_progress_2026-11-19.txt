@@ -1,0 +1,25 @@
+Expanded PoS analysis: extraction and pair-level preparation
+19 November 2026 | Project 1 | INCOMPLETE: no new PoS estimates
+
+Completed independent work
+Parsed the two frozen Evaluate exports (24,845 source rows) into 32,187 candidate vendor-product/indication records spanning 9,515 vendor product IDs and 787 indication labels. Source file and CSV row references retained for every pair. This is the union of the existing orphan-any-designation and selected-disease exports, NOT an all-drugs census and NOT an all-rare-disease cohort.
+
+22,042 pairs have a vendor clinical-stage/market signal. This is not proof of dosing in the 2010–2024 eligibility window. First clinical entry, indication-specific FDA approval, disease rarity and canonical molecule identity still require adjudication. These fields remain unknown; no current-status fraction has been presented as PoS.
+
+866 pairs have both a current active-phase signal and an abandonment signal across source rows. This illustrates why a sponsor exit cannot automatically become global programme failure. All conflicting original statuses remain visible. All source indication-summary strings parsed without unmatched remainder; candidate IDs are unique. These are mechanical extraction checks, not independent clinical validation.
+
+The broader CNS search needs indications outside the old genetic-CNS panel. The discovery inventory contains, for example, 28 clinical-stage-signal vendor pairs labelled neuromyelitis optica, 28 spinal cord injury, 27 frontotemporal dementia, and 8 progressive multifocal leukoencephalopathy. These are vendor discovery counts, not verified rare-disease eligibility, unique clinical molecules, or PoS denominators. They include repurposed agents and require prior-approval-at-entry flags.
+
+Download blocker
+The old unrestricted rendered report remained unresponsive. A fresh Evaluate tab successfully loaded the report editor with the intended unrestricted product/indication fields. A direct CSV export opened an 'Export Report To Excel' page and displayed generation progress. It subsequently displayed 'app.evaluate.com is blocked' / ERR_BLOCKED_BY_CLIENT. No generated inventory was recovered.
+A check of Chrome's downloads page was rejected by browser security policy because chrome:// URLs are not permitted. No workaround or settings change attempted. The user was asked to inspect whether the CSV downloaded or a blocked-download prompt appeared. No paid upgrade, account change, or agent delegation.
+
+Next dependent step
+Recover the generated export with user assistance, or use smaller disjoint exports once the download path is functioning. Check row count, blank-status coverage, stable IDs, historical-date completeness and indication-specific status semantics. Only then run the prespecified validation sample and expanded estimates. The approved funnel remains all drugs -> all rare -> non-oncology rare -> CNS (not genetic CNS) -> gene/RNA-directed modality -> ASO -> intrathecal -> protein restoration -> closest neurodevelopmental rationale.
+
+Files
+data/pos_pair_expansion/inventory_summary.json: counts, hashes and limitations.
+data/pos_pair_expansion/candidate_pairs.jsonl.gz: complete compressed discovery inventory, one JSON record per line.
+data/pos_pair_expansion/parsing_issues.json: parser exceptions (none).
+scripts/build_pair_discovery_inventory.py: reproducible transformation; does not calculate PoS.
+Existing 319-molecule panel and historical estimates remain unchanged.

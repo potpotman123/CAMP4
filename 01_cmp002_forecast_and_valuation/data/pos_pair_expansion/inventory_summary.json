@@ -1,0 +1,33 @@
+{
+  "created": "2026-11-19",
+  "source_retrieved": "2026-11-18",
+  "scope": "Union of orphan-any-designation and selected-disease exports; NOT all drugs or all rare indications",
+  "source_rows": 24845,
+  "candidate_pairs": 32187,
+  "vendor_product_ids": 9515,
+  "vendor_indication_labels": 787,
+  "vendor_clinical_stage_candidate_pairs": 22042,
+  "simultaneous_active_and_abandoned_signals": 866,
+  "analysis_eligible_pairs": 0,
+  "parsing_issues": 0,
+  "sources": [
+    {
+      "file": "sources/evaluate_2026-11-18/disease_all_status.csv",
+      "rows": 10246,
+      "sha256": "77cb7d650ab8dd1c93db7d80d942c451ecd6295ca77e81fddfd51bd9abbc43a3"
+    },
+    {
+      "file": "sources/evaluate_2026-11-18/orphan_all_status.csv",
+      "rows": 14599,
+      "sha256": "7f70fd6949d78f4d87b902e0f44b1a275d7bea39f7eea1f99ce1564290679813"
+    }
+  ],
+  "limitations": [
+    "All indications of orphan-designated products are included; many are not rare.",
+    "Vendor product IDs require construct/alias reconciliation before molecule clustering.",
+    "Indication summary supplies status but not indication-specific first dosing or FDA approval dates.",
+    "Clinical stage is a discovery signal, not proof of actual dosing within 2010\u20132024.",
+    "M&A/disposal and sponsor-specific abandonment do not establish terminal global failure.",
+    "Do not calculate approval rates from this discovery inventory."
+  ]
+}
