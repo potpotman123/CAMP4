@@ -1,0 +1,327 @@
+Estimation of clinical trial success rates and related parameters - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/)
+citeturn711view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn709view0","lineno":112}); Total lines: 456
+L105: Conditioned on one or more trial(s) being completed, the sponsor can choose to either pursue Phase 【29†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 trials, or simply terminate development. If the company chooses the former option, the drug development program is categorized as a success in Phase 【30†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, otherwise, it will be categorized as terminated in Phase 【31†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】.
+L106: See Figure S2 (bottom) of the 【25†supplementary material】 available at Biostatistics online for an illustration. The POS for a given Phase 【32†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, denoted by POS【33†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, is defined as the probability that the drug development program advances to the next phase.
+L107: The probability of getting a drug development program in Phase 【34†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 through to approval is denoted by POS【35†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】. Hence the overall probability of success—moving a drug from Phase 1 to approval, which 【21†Hay and others (2014)】 calls the likelihood of approval (LOA)—is POS【36†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】.
+L108: The proper interpretation of drug development programs from clinical trial data requires some understanding of the drug development process, especially in cases of missing data. This is particularly important for estimating a drug candidate’s POS【37†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, which is typically estimated by multiplying the empirical POS of Phase 1 (safety), 2 (efficacy for a given indication), and 3 (efficacy for larger populations and against alternatives) trials.
+L109: If, for example, Phase 2 data are missing for certain approved drugs, the estimated POS【38†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 would be biased downward. Here, we take a different approach to estimating POSs.
+L110: Consider an idealized process in which every drug development program passes through Phase 1, 2, and 3 trials, in this order. This is plausible, since each of these stages involves distinct predefined tests, all of which are required by regulators in any new drug application (NDA). If we observe data for Phases 1 and 3 but not Phase 2 for a given drug-indication pair, our idealized process implies that there was at least one Phase 2 trial that occurred, but is missing from our data set.
+L111: Accordingly, we impute the successful completion of Phase 2 in these cases. There exist some cases where Phase 2 trials are skipped, as with the recent example of Aducanumab (BIIB037), Biogen’s Alzheimer’s candidate, as reported by 【39†Root (2014)】. Since skipping Phase 2 trials is motivated by compelling Phase 1 data, imputing the successful completion of Phase 2 trials in these cases to trace drug development paths may not be a bad approximation.
+L112: In addition, we make the standard assumption that Phase 1/2 and Phase 2/3 trials are to be considered as Phase 2 and Phase 3, respectively.
+L113: These assumptions allow us to more accurately reconstruct ‘drug development paths’ for individual drug-indication pairs, which in turn yield more accurate POS estimates.
+L114: Let 【40†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 be the number of drug development paths with observed Phase 【41†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 trials, and 【42†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 be the number of drug development paths where we observe phase transitions of state 【43†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 of Phase 【44†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 (defined below).
+L115: 【45†Image: graphic file with name M19.gif†cdn.ncbi.nlm.nih.gov】
+L116: 
+L117: Equation 【46†3.1】 is the conservation law for drug development paths in Phase 【47†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】.
+L118: 
+L119: 【48†Image: graphic file with name M21.gif†cdn.ncbi.nlm.nih.gov】  | (3.1)
+L120: The POS from any one state to the next, 【49†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, is thus the ratio of the number of drug development projects in Phase 【50†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, both observed and non-observed, to the number of drug development projects in Phase 【51†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, both observed and non-observed:
+L121: 
+L122: 【52†Image: graphic file with name M25.gif†cdn.ncbi.nlm.nih.gov】  | (3.2)
+L123: Given our model, we can now compute 【53†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 by finding the proportion of development paths that made it from Phase 1 to Approval:
+L124: 
+L125: 【54†Image: graphic file with name M27.gif†cdn.ncbi.nlm.nih.gov】  | (3.3)
+L126: We term this the ‘path-by-path’ approach. In contrast, extant papers define the phase transition probability as the ratio of observed phase transitions to the number of observed drug development programs in Phase 【55†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 and multiply the individual phase probabilities to estimate the overall POS.
+L127: We term this the ‘phase-by-phase’ approach, which we shall differentiate from the path-by-path computation by a superscript 【56†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 as follows:
+L128: 【57†Image: graphic file with name M30.gif†cdn.ncbi.nlm.nih.gov】  | (3.4)
+L129: 【58†Image: graphic file with name M31.gif†cdn.ncbi.nlm.nih.gov】  | (3.5)
+L130: Implicit in the path-by-path computation method is the assumption that we have relatively complete information about the trials involved in drug development programs. This is true of our data set, as we are analyzing relatively recent years where trial pre-registration is a prerequisite for publication in major medical journals and use of the studies as supporting evidence for drug applications.
+L131: However, this assumption breaks down when we look at short windows of duration, for example, in a rolling window analysis to estimate the change in the POS over time. In such cases, we default back to the ‘phase-by-phase’ estimation to get an insight into the trend. This is done by considering only those drug development programs with phases that ended between 【59†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 and 【60†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 in the computation of the POS.
+L132: 【61†Image: graphic file with name M34.gif†cdn.ncbi.nlm.nih.gov】  | (3.6)
+L133: 【62†Image: graphic file with name M35.gif†cdn.ncbi.nlm.nih.gov】  | (3.7)
+L134: 
+L135: We further note that if no phase transitions are missing, the path-by-path and phase-by-phase methods should produce the same results, but the former will be more representative of actual approval rates if phase transitions are missing. We elaborate on this in Section A2 of the 【25†supplementary material】 available at Biostatistics online.
+L136: Given our development-path framework, we can compute the POS using an algorithm that recursively considers all possible drug-indication pairs and determines the maximum observed phase. Reaching Phase 【63†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 would imply that all lower phases were completed.
+L137: To determine if a drug development program has been terminated in the last observed phase or is still ongoing, we use a simple heuristic: if the time elapsed between the end date of the most recent Phase 【64†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 and the end of our sample exceeds a certain threshold 【65†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】, we conclude that the trial has terminated.
+L138: Based on practical considerations, we set 【66†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 to be 360, 540, and 900 days for Phases 1, 2, and 3, respectively. For example, we assume that it takes approximately 6 months to prepare documents for an NDA filing after a Phase 3 trial has been completed.
+L139: Since the FDA has a 6-month period to decide if it wishes to follow-up on a filing, and an additional 18 months to deliver a verdict, this places the overall time between Phase 3 and Approval to about 30 months, hence we set 【67†Image: Inline graphic†cdn.ncbi.nlm.nih.gov】 days. A pseudo-code for the algorithm is given in Figure S5 in Section A3 of the 【25†supplementary material】 available at Biostatistics online.
+L140: In summary, our algorithm allows us to impute missing trial data, and by counting the number of phase transitions, we can estimate the phase and overall POS.
+--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn711view1 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"Definitions"}); Total lines: 1440
+No matching text found for "Definitions"--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn711view2 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"200,000"}); Total lines: 1440
+L445@P11: underlying cancer, spanning both solid and hematologic types. The first successful immuno-oncology (IO)
+L446@P11: drugs spawned intense growth in this field over a short period of time, with 679 total phase transitions
+L447@P11: included in the Biomedtracker database. The success rates of IO drugs far exceed the traditional oncology
+L448@P11: averages, with a Phase I LOA of 12.4%. The notably high Phase II transition rate of 42.0% for IO drugs –
+L449@P11: contrasting 24.6% as a whole for oncology – is the main factor underpinning the overall LOA success for the
+L450@P11: IO class. These oncology groupings are shown in Figure 7.
+L451@P11: 48.8%
+L452@P11: 24.6%
+L453@P11: 47.7%
+L454@P11: 92.0%
+L455@P11: 5.3%
+L456@P11: 53.9%
+L457@P11: 31.2%
+L458@P11: 61.3%
+L459@P11: 90.2%
+L460@P11: 9.3%
+L461@P11: 0%
+L462@P11: 10%
+L463@P11: 20%
+L464@P11: 30%
+L465@P11: 40%
+L466@P11: 50%
+L467@P11: 60%
+L468@P11: 70%
+L469@P11: 80%
+L470@P11: 90%
+L471@P11: 100%
+L472@P11: Phase I to II Phase II to III Phase III to
+L473@P11: NDA/BLA
+L474@P11: NDA/BLA to
+L475@P11: Approval
+L476@P11: Phase I to
+L477@P11: Approval
+L478@P11: Probability of Success
+L479@P11: Probability of Success: Oncology vs. Others
+L480@P11-12: Oncology Non-oncology13/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L481@P12: Oncology sub-category phase transition success rates and LOA
+L482@P12: Phase Success
+L483@P12: Phase I to II Phase II to III Phase III to
+L484@P12: NDA/BLA
+L485@P12: NDA/BLA to
+L486@P12: Approval
+L487@P12: POS n Phase
+L488@P12: POS POS n PhasePOS POS n PhasePOS POS n PhasePOS
+L489@P12: Hematologic 425 50.1% 449 27.8% 120 60.0% 100 90.0%
+L490@P12: Solid 1145 48.9% 1261 23.4% 364 42.9% 212 92.9%
+L491@P12: IO 275 64.0% 244 40.2% 98 49.0% 62 98.4%
+L492@P12: Phase I to
+L493@P12: Approval
+L494@P12: Phase II to
+L495@P12: Approval
+L496@P12: Phase III to
+L497@P12: Approval
+L498@P12: NDA/BLA to
+L499@P12: Likelihood of Approval
+L500@P12: Approval
+L501@P12: LOA n Phase
+L502@P12: LOA LOA n PhaseLOA LOA n PhaseLOA LOA n Phase LOA
+L503@P12: Hematologic 1094 7.5% 669 15.0% 220 54.0% 100 90.0%
+L504@P12: Solid 2982 4.6% 1837 9.3% 576 39.8% 212 92.9%
+L505@P12: IO 679 12.4% 404 19.4% 160 48.2% 62 98.4%
+L506@P12: Figure 7: Oncology sub-category phase transition success rates and LOA. The n value is the total ‘Advanced or Suspended’ transitions of all phases used to calculate
+L507@P12: LOA. ‘POS’ is the probability of successfully advancing to the next phase, whereas ‘Phase LOA’ is the probability of FDA approval for drugs from this phase of
+L508@P12: development. Note: Hematologic and solid tumor types are mutually exclusive categories, while the IO drug class includes transitions from across both categories.
+L509@P12: IO drugs for solid tumors had 3x the transitions as IO hematological cancers but have similar success rates. Source: Biomedtracker® and Pharmapremia®, 2020
+L510@P12: Rare and Chronic High Prevalence Diseases
+L511@P12: Within the Biomedtracker database, rare diseases can be identified based on meeting either or both of the
+L512@P12: following standard criteria: affecting fewer than 200,000 people in the US, or prevalence of 1 in 2,000 people
+L513@P12: in the EU. As 43% of the Oncology transitions are for rare indications, all Oncology indications were removed
+L514@P12: to make this rare disease analysis more concentrated on inborn genetic disorders. For chronic diseases, we
+L515@P12: first obtained a list of conditions from the CMS Chronic Conditions Data Warehouse (CCW). We removed any
+L516@P12: cancer indications, then identified those diseases with greater than 1 million patients affected in the United
+L517@P12: States.
+L518@P12: Rare disease vs. highly prevalent chronic disease success rates
+L519@P12: 67.4%
+L520@P12: 44.6%
+L521@P12: 60.4%
+L522@P12: 93.6%
+L523@P12: 17.0%
+L524@P12: 46.0%
+L525@P12: 23.1%
+L526@P12: 59.5%
+L527@P12: 92.6%
+L528@P12: 5.9%
+L529@P12: 52.0%
+L530@P12: 28.9%
+L531@P12: 57.8%
+L532@P12: 90.6%
+L533@P12: 7.9%
+L534@P12: 0%
+L535@P12: 20%
+L536@P12: 40%
+L537@P12: 60%
+L538@P12: 80%
+L539@P12: 100%
+L540@P12: Phase I to II Phase II to III Phase III to
+L541@P12: NDA/BLA
+L542@P12: NDA/BLA to
+L543@P12: Approval
+L544@P12: Phase I to
+L545@P12: Approval
+L546@P12: Probability of Success
+L547@P12: Probability of Success: Rare vs Chronic Diseases
+L548@P12: Rare diseases Chronic, high prevalence diseases All indications
+L549@P12: Figure 8a: Non-oncology rare disease and highly prevalent chronic disease phase transition success rates and LOA.
+L550@P12-13: Chart of phase transition success rates and LOA from Phase I. Source: Biomedtracker® and Pharmapremia®, 202014/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L551@P13: Phase Success
+L552@P13: Phase I to II Phase II to III Phase III to
+L553@P13: NDA/BLA
+L554@P13: NDA/BLA to
+L555@P13: Approval
+L556@P13: POS n Phase
+L557@P13: POS POS n PhasePOS POS n PhasePOS POS n PhasePOS
+L558@P13: Rare diseases 380 67.4% 464 44.6% 240 60.4% 172 93.6%
+L559@P13: Chronic, high 745 46.0% 737 23.1% 279 59.5% 217 92.6% prevalence diseases
+L560@P13: All diseases 4414 52.0% 4933 28.9% 1928 57.8% 1453 90.6%
+L561@P13: Likelihood of
+L562@P13: Approval
+L563@P13: Phase I to
+L564@P13: Approval
+L565@P13: Phase II to
+L566@P13: Approval
+L567@P13: Phase III to
+L568@P13: Approval
+L569@P13: NDA/BLA to
+L570@P13: Approval
+L571@P13: LOA n Phase
+L572@P13: LOA LOA n PhaseLOA LOA n PhaseLOA LOA n PhaseLOA
+L573@P13: Rare diseases 1256 17.0% 876 25.2% 412 56.6% 172 93.6%
+L574@P13: Chronic, high 1978 5.9% 1233 12.7% 496 55.1% 217 92.6% prevalence diseases
+L575@P13: All diseases 12728 7.9% 8314 15.1% 3381 52.4% 1453 90.6%
+L576@P13: Figure 8b: Non-oncology rare disease and highly prevalent chronic disease phase transition success rates and LOA. Table of phase transition success and likelihood
+L577@P13: of approval by disease prevalence with corresponding n values. The n value is the total ‘Advanced or Suspended’ transitions of all phases used to calculate LOA.
+L578@P13: ‘POS’ is the probability of successfully advancing to the next phase, whereas ‘Phase LOA’ is the probability of FDA approval for drugs from this phase of development.
+L579@P13: Source: Biomedtracker® and Pharmapremia®, 2020
+L580@P13: After identifying programs for non-oncology rare diseases and highly prevalent chronic diseases, we
+L581@P13: compared their phase transition success rates and LOA as shown in Figure 8. At 17.0%, the overall LOA from
+L582@P13: Phase I for rare diseases (17.0%) was almost three times higher than for chronic, high prevalence diseases
+L583@P13: (5.9%). As both of these groups exclude Oncology indications, we can compare these results with those of the
+L584@P13: overall non-oncology figures. The 9.3% LOA (n=8,549) value for all non-oncology indications is meaningfully
+L585@P13: higher than for chronic, high prevalence diseases, suggesting that these indications are having a negative
+L586@P13: impact on overall success rates outside Oncology. Chronic, high prevalence diseases accounted for 16% of
+L587@P13: total transitions, with Oncology providing a further 33%. These two groups, having LOAs well below average,
+L588@P13: together comprise half of the total dataset, thus negatively affecting the overall industry LOA of 7.9%.
+L589@P13: Although excluded from the above analysis, rare disease Oncology indications had a higher LOA than
+L590@P13: non-rare Oncology indications (6.8% vs 4.4%), largely driven by the higher overall success for hematologic
+L591@P13: malignancies. Blood cancers typically have lower prevalence and are classified as rare diseases.
+L592@P13: Success rates for all four transitions were higher for the rare disease group than any of the overall transition
+L593@P13: success rates. The largest difference was found in Phase II transition success rates (44.6% for rare disease
+L594@P13: vs 28.9% overall). There was also a notable gap between Phase I transition rates (67.4% vs 52.0%), although
+L595@P13: success in Phase III and in the NDA/BLA to Approval transitions were broadly comparable.
+L596@P13: Conversely, the success rates for transitions in the highly prevalent chronic disease group were lower than
+L597@P13: the overall transition success rates in Phase I (46.0% vs 52.0%) and Phase II (23.1% vs 28.9%). The opposite
+L598@P13: was seen in Phase III and NDA/BLA transitions, where slightly higher success rates were observed: 59.5% vs
+L599@P13-14: 57.8% for Phase III and 92.6% vs 90.6% for NDA/BLA.15/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L600@P14: Drug Classes and Modalities
+L601@P14: Drugs in the dataset were annotated as novel or off-patent, with the novel category including new molecular
+L602@P14: entities (NMEs; mainly small molecules), biologics, and vaccines; and the off-patent group comprised of
+L603@P14: non-NMEs and biosimilars. As noted in Figure 9, transition success rates for novel drugs confirm that they
+L604@P14: face a more difficult pathway to approval than for off-patent products. The overall Phase I LOA for offpatent therapies (14.7%, n=2,161) was twice as high as that for novel therapies (6.8%, n=10,527).This two-fold
+--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn711view3 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"ongoing"}); Total lines: 1440
+L760@P17: of all phases used to calculate LOA. ‘POS’ is the probability of successfully advancing to the next phase, whereas ‘Phase LOA’ is the probability of FDA approval for
+L761@P17: drugs from this phase of development. Source: Biomedtracker®, Pharmapremia®, and Trialtrove®, 2020
+L762@P17: The advantage of patient preselection biomarkers varies according to the trial stage. At Phase I, there is no
+L763@P17: discernible difference between the two discrete sets, with both biomarker and non-biomarker programs
+L764@P17: achieving close to the average success rate of 52.0%. The benefit is clearly greatest at Phase II, where the use
+L765@P17: of preselection biomarkers enables 46.3% of programs to advance (n=149), compared to just 28.3% of those
+L766@P17: without. A similar advantage, albeit smaller in magnitude, is also observed with Phase III transitions – 68.2%
+L767@P17: for biomarker-supported programs vs 57.1% for those without. Success at the NDA/BLA transition is largely
+L768@P17: contingent on Phase III trial design and so this benefit carries over from the largest clinical phase.
+L769@P17: While this analysis only represents a small subset of the overall data, the degree of difference between
+L770@P17: individual phase success rates and overall LOA from Phase I builds confidence in the pursuit of drug
+L771@P17: development programs targeted at biomarker-enriched patient populations. Such assets are likely to
+L772@P17: advance through clinical development with lower levels of attrition, and should in theory improve patient
+L773@P17: outcomes via the advent of increasingly personalized medicine.
+L774@P17: 52.4%
+L775@P17: 46.3%
+L776@P17: 68.2%
+L777@P17: 96.0%
+L778@P17: 15.9%
+L779@P17: 52.0%
+L780@P17: 28.3%
+L781@P17: 57.1%
+L782@P17: 90.3%
+L783@P17: 7.6%
+L784@P17: 0%
+L785@P17: 10%
+L786@P17: 20%
+L787@P17: 30%
+L788@P17: 40%
+L789@P17: 50%
+L790@P17: 60%
+L791@P17: 70%
+L792@P17: 80%
+L793@P17: 90%
+L794@P17: 100%
+L795@P17: Phase I to II Phase II to III Phase III to
+L796@P17: NDA/BLA
+L797@P17: NDA/BLA to
+L798@P17: Approval
+L799@P17: Phase I to
+L800@P17: Approval
+L801@P17: Probability of Success
+L802@P17: Probability of Success: Preselection Biomarkers
+L803@P17-18: Preselection biomarkers No biomarkers19/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L804@P18: Part 2. Predictive Analysis of Clinical Success
+L805@P18: In Part 1, we estimated success rates using the drug-indication pathways gathered from the Biomedtracker
+L806@P18: database. We can now incorporate additional information, called “features,” for each drug development
+L807@P18: program using machine learning methods to produce forward-looking measures—forecasts—of the outcome
+L808@P18: of ongoing programs. This type of analysis provides more timely and relevant estimates than standalone
+L809@P18: analyses of historical success rates.
+L810@P18: Some examples of features included in this predictive analysis are the characteristics of the drug, its indication,
+L811@P18: its sponsor, and its clinical trial design. There are more than 200 features used in the QLS forecasts, a sample
+L812@P18: of which can be found in Figure 12. In much the same way that linear regression models employ regressors,
+L813@P18: or “right-hand-side” variables, to predict the “left-hand-side” or the dependent variable, these features
+L814@P18: contain useful signals about drug development that allow the outcomes of drug development programs to
+L815@P18: be more accurately predicted than before.
+L816@P18: Sample of the 200-plus features driving success rate probabilities
+L817@P18: Figure 12: Sample of the 200-plus features extracted from Pharmaprojects, Trialtrove, and Biomedtracker.
+L818@P18: The QLS approach uses state of the art machine-learning techniques to analyze clinical trial data. While the
+L819@P18: details of the QLS model are proprietary, an example of a commonly used machine-learning algorithm is a
+L820@P18: random forest classifier. The random forest classifier is an algorithm that takes the average prediction from
+L821@P18: a multitude of yes-no decision trees (i.e., a “forest”) that are applied to the features (see Figure 13).
+L822@P18: When training a decision tree, one task is to learn the most informative questions to ask at each branch
+L823@P18: point of the tree. For example, the algorithm might ask, “Is the drug sponsor a big pharma company?” If the
+L824@P18: answer is “yes,” then the algorithm would move to the “yes” branch of the decision tree and then ask, “Is
+L825@P18: the trial double-blind?” On the other hand, if the answer is “no,” then the algorithm would move to the “no”
+L826@P18: branch of the decision tree, and ask, “Is the drug a small molecule?” and so on, until enough information
+L827@P18: has been collected about the drug-program to make a prediction about its success or failure. By identifying
+L828@P18: subtle patterns in a large enough database of historical drug transitions, machine-learning algorithms can
+L829@P18: often make remarkably accurate predictions. Additional details on these techniques can be found in the
+L830@P18: Methodology section.
+L831@P18: Figure 13: A hypothetical representation of a single, simplified decision tree. The percentages at the “leaves” of the tree denote the fraction of training data samples
+L832@P18-19: that are categorized by a given pathway.20/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L833@P19: Feature Importance
+L834@P19: Given the stakes involved in the drug development process, machine learning forecasts must not only be
+L835@P19: accurate, but also interpretable to stakeholders charged with the responsibility of making go/no-go decisions.
+L836@P19: These decision-makers need to understand why a given forecast differs from the historical average, and
+L837@P19: which features were most important in driving the difference or delta with respect to the disease-group
+L838@P19: baseline LOA. To increase the transparency of our forecasts, the QLS machine learning algorithm reports the
+L839@P19: most important features and their individual contributions to the forecast’s delta.
+L840@P19: As an illustration, we decompose our probability of approval (POA) prediction of an oncology drug that
+L841@P19: is currently in phase 3 clinical trials into its key components. (Note that we use the term POA for the QLS
+L842@P19: machine-learning forecasts to differentiate from the empirical “LOA” presented in Part I.) Figure 14 reports
+L843@P19: the top five features that increase this program’s estimated probability of approval from its therapeutic
+L844@P19: area historical baseline of 35.0% from phase 3 to approval, to 71.8%. The top positive feature driving this
+L845@P19: higher than average probability is its breakthrough therapy designation (+20.6%). This designation is granted
+L846@P19: when the FDA has determined that preliminary clinical evidence indicates that the drug may demonstrate
+L847@P19: substantial clinical improvement over available therapies. Further positive clinical evidence in phase 2
+L848@P19: increases the estimate by an additional +6.4%. Next, because it is a PARP inhibitor (+4.6%) that has been
+L849@P19: previously approved for another indication (+3.6%), the POA is augmented by an additional 8.2%. Finally, its
+L850@P19: treatment of a solid tumor type (-2.0%) and the net aggregate contribution of other features (-2.8%) penalize
+L851@P19: the overall POA score slightly.
+L852@P19: Example of probability decomposition
+L853@P19: Figure 14: Decomposition of the probability of approval estimate for an anti-cancer drug that is currently in phase 3 clinical trials for prostate cancer. The top five
+L854@P19: features that increase this program’s estimated probability of approval from the historical phase 3 to approval baseline in oncology of 35.0% to 71.8% are reported.
+L855@P19-20: Abbreviations: POA=probability of approval; PARP= poly ADP-ribose polymerase.21/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L856@P20: Although each individual prediction may have unique drivers, we can also extract the most informative
+L857@P20: variables across all predictions to gain insight into some of the most common predictors of success. Figure
+L858@P20: 15 summarizes our results.
+L859@P20: Feature importance by phase to approval
+L860@P20: 0%
+L861@P20: 5%
+L862@P20: 10%
+L863@P20: 15%
+L864@P20: 20%
+L865@P20: 25%
+L866@P20: 30%
+L867@P20: 35%
+L868@P20: 40%
+L869@P20: 45%
+L870@P20: Feature Importance
+L871@P20: Phase I to Approval Phase II to Approval Phase III to Approval NDA/BLA
+L872@P20: Figure 15: The most important features of our random forest classifier across all predictions. Feature importance is normalized to sum to 100%. Note that individual
+--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn711view4 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"multiply"}); Total lines: 1440
+No matching text found for "multiply"--------------------------------------------------------------------------------
+Checking your browser - reCAPTCHA (https://pmc.ncbi.nlm.nih.gov/articles/PMC10407707/)
+citeturn711view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10407707/","pattern":"Kaplan"}); Total lines: 3
+No matching text found for "Kaplan"

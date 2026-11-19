@@ -1,0 +1,118 @@
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn714view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"Only"}); Total lines: 1440
+L102@P4: study cuts across 1,779 companies, roughly the entire spectrum of biopharma companies was included. This
+L103@P4: is illustrated with 15 companies each contributing more than 100 transitions, while 748 smaller biotechs
+L104@P4: contributed just one transition each. Only company-sponsored, FDA registration-enabling development
+L105@P4: programs were included in this analysis. Investigator-sponsored studies and combinations with other
+L213@P7: 3, Phase II success rates ranged from a high of 48.1% (Hematology, n=106) to a low of 15.0% (Urology, n=40).
+L214@P7: This 33% range of disparity between major disease areas at the Phase II transition is the major contributor to
+L215@P7: the observed divergences in overall likelihood of approval (LOA), as discussed in the next section. With only
+L216@P7: Hematology and Metabolic (45.0%) coming close to achieving a one-in-two success rate, these two disease
+L276@P8: with only 137 drugs suspended by their sponsors at the regulatory transition over 2011–2020 (thus, 1,316
+L277@P8: approved).
+L278@P8: Among the clinical development programs analyzed, there was an approximately even split of innovative
+L279@P8: drugs and non-originator products that were successful in obtaining regulatory approval. These included
+L280@P8: 740 innovative drug programs (435 new molecular entities (NMEs), 278 new biologics, and 27 vaccines) and
+L322@P8-9: Probability of Phase III Success10/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L323@P9: Multiplying the individual phase probabilities across all disease areas (found in Figure 1), the compounded
+L324@P9: probability of progressing from Phase I to U.S. FDA approval reveals that only 7.9% of drug development
+L325@P9: programs (n=12,728) successfully make it to market.
+L768@P17: contingent on Phase III trial design and so this benefit carries over from the largest clinical phase.
+L769@P17: While this analysis only represents a small subset of the overall data, the degree of difference between
+L770@P17: individual phase success rates and overall LOA from Phase I builds confidence in the pursuit of drug
+L771@P17: development programs targeted at biomarker-enriched patient populations. Such assets are likely to
+L831@P18: Figure 13: A hypothetical representation of a single, simplified decision tree. The percentages at the “leaves” of the tree denote the fraction of training data samples
+L832@P18-19: that are categorized by a given pathway.20/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L833@P19: Feature Importance
+L834@P19: Given the stakes involved in the drug development process, machine learning forecasts must not only be
+L887@P20: of December 31, 2020, our algorithm predicts that one specific BLA for Alzheimer’s disease has only a 65%
+L888@P20: chance of progressing from regulatory review to approval, even though historically 83% of neurology drugs
+L889@P20: have made the transition to approval once they have reached this stage. The observation that the biologic
+L1207@P26: be due to an increase in biomarker-defined patient populations, and the success of novel drug modalities
+L1208@P26: (CAR-T, ADCs, etc.). That being said, the overall performance of Oncology is still considerably below the
+L1209@P26: industry average (7.9%) and non-oncology indications (9.3%). There is also no substantial benefit to many
+L1210@P26: Oncology indications being classified as rare diseases, as the rare Oncology subset only carries a Phase I LOA
+L1216@P26: The Phase II transition is clearly the main translational and limiting step from bench to bedside, as proof-ofconcept is only established in 28.9% of drug programs at this stage. Phase II also sees the greatest distribution
+L1217@P26: between major disease areas, with a three-fold difference spanning Urology (15.0%) and Hematology (48.1%)
+L1218@P26: at opposite ends of the spectrum. Within these disease areas, it is the performance of “novel” drug classes –
+L1328@P28: and prolonging the duration within a given phase, only for the drug to subsequently fail again.
+L1329@P28: Oncology timelines were found to have unique characteristics. Although the overall oncology development
+L1330@P28: time is close to the average (10.3 years vs 10.5 years), the length of each constituent phase varies considerably
+L1331@P28: from the average. Its Phase I duration (2.7 years) is the longest of all major disease areas, while its NDA/
+L1341@P29: sclerosis (MS). Biomedtracker assigns a unique internal identifier that can be used to isolate all development
+L1342@P29: paths.
+L1343@P29: In addition to tracking the phase of development, Biomedtracker also assigns “lead” status to certain
+L1344@P29: development paths. This is used to denote the most advanced indication in clinical development for a specific
+L1345@P29: drug. Drugs can only have one lead development program (with some rare exceptions). For example, cancer
+--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn714view1 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"Methodology for"}); Total lines: 1440
+No matching text found for "Methodology for"--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn714view2 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: find({"ref_id":"turn709view1","pattern":"suspended"}); Total lines: 1440
+L29@P2: the next phase of development or is suspended by the sponsor. By calculating the number of programs
+L30@P2: progressing to the next phase vs the total number progressing and suspended, we assessed the success rate
+L31@P2: at each of the four phases of development: Phase I, II, III, and regulatory filing. Having phase-by-phase data
+L32@P2: in hand, we then compared groups of diseases, drug modalities, and other attributes to generate the most
+L33@P2: comprehensive analysis yet of biopharmaceutical R&D success.
+L93@P4: timelines of clinical trials. With the goal of providing current benchmarking metrics for drug development,
+L94@P4: this study covers the most recent decade of individual drug program phase transitions from January 1,
+L95@P4: 2011, to November 30, 2020. A phase transition is defined as the movement out of a clinical phase – for
+L96@P4: example, advancing from Phase I to Phase II development, or being suspended after completion of Phase I
+L119@P5: Success rates for individual phases of the drug development process were determined by dividing the
+L120@P5: number that successfully advanced to the next phase by the total number advanced and suspended. This
+L121@P5: “advanced and suspended” number is often referred to as “n” in this report and should be taken into account
+L122@P5: when drawing conclusions from the success rate results.
+L123@P5: Consistent with previous studies of drug development phase transition success rates, we found Phase II
+L646@P14: Figure 9: Phase transition success rates and LOA from Phase I for drugs based on class and novelty. The n value is the total ‘Advanced or Suspended’ transitions of
+L647@P14: all phases used to calculate LOA. ‘POS’ is the probability of successfully advancing to the next phase, whereas ‘Phase LOA’ is the probability of FDA approval for drugs
+L757@P17: No biomarkers 11961 7.6% 7961 14.6% 3177 51.5% 1378 90.3%
+L758@P17: Figure 11: Patient preselection biomarker phase transition success rates and LOA. Top: Chart of phase transition success rates and LOA from Phase I. Bottom: Table
+L759@P17: of phase transition success and likelihood of approval by biomarker status with corresponding n values. The n value is the total ‘Advanced or Suspended’ transitions
+L1350@P29: phase to the next phase divided by the sum of the number of drugs that progressed to the next phase and
+L1351@P29: the number of drugs that were suspended. The n value associated with the phase transition success rates
+L1352@P29: represents the number of drugs that have advanced plus the number of drugs that have been suspended,
+L1353@P29: which we label as phase transitions. Phase transition success rates reported in this study were based on
+L1368@P30: using Pharmapremia, a purpose-built Probability of Technical Success (PTS) tool, which identified all ‘Advanced’
+L1369@P30: and ‘Suspended’ drugs by development phase from January 1, 2011, to November 30, 2020. Biomedtracker
+L1370@P30: and Pharmapremia, subscription-based products of Informa, track the clinical development and regulatory
+L1371@P30: history of investigational drugs to assess their Likelihood of Approval (LOA) by the FDA. Biomedtracker is
+L1390@P30: assigned accordingly, while those that either featured trials without confirmed patient preselection, or for
+L1391@P30: which no information could be identified, were marked as not having patient preselection biomarkers. NDA/
+L1392@P30: BLA transitions were assumed to feature patient preselection biomarker data if the Phase III transitions
+L1393@P30: qualified as such.
+L1394@P30: Drug Development Timelines. In addition to denoting whether a drug was advanced or suspended at
+L1395@P30: the end of a phase, Pharmapremia also calculates the time spent at each clinical or regulatory phase for
+L1396@P30: all successful transitions. Suspended program timelines were not included to assess timelines. This is the
+L1397@P30: duration between public disclosures of the initiation of appropriate stages, and as such does not map exactly
+L1398@P30: to clinical trial timings. Each clinical phase transition may encompass more than one clinical trial, which may
+--------------------------------------------------------------------------------
+Estimation of clinical trial success rates and related parameters - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/)
+citeturn714view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn709view0","pattern":"13.8"}); Total lines: 456
+L143: 【68†Table 1】 contains our estimates of the aggregate POS for each clinical phase across all indications. Corresponding estimates from the prior literature are also included for comparison. We find that 13.8% of all drug development programs eventually lead to approval, which is higher than the 10.4% reported by 【21†Hay and others (2014)】 and the 9.6% reported by 【23†Thomas and others (2016)】.
+L154: --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+L155: Phase 1 to 2  | 66.4%  | 13.8%  | 38.8%  | 6.9%  | 75.8%  | 21.6%  | 63.2%  | 9.6%  | 64.5%  | 10.4%  | 66.5%  | 15.3%  | 71.0%  | 19.0%
+L156: Phase 2 to 3  | 58.3%  | 35.1%  | 38.2%  | 11.2%  | 55.9%  | 26.4%  | 30.7%  | 15.2%  | 32.4%  | 16.2%  | 39.5%  | 23.1%  | 45.0%  | 26.8%
+L157: Phase 3 to APP  | 59.0%  | 59.0%  | 59.0%  | 59.0%  | 70.0%  | 70.0%  | 49.6%  | 49.6%  | 50.0%  | 50.0%  | 58.4%  | 58.4%  | 60.0%  | 59.5%
+L158: Phase 1 to APP  |    | 13.8%  |    | 6.9%  |    | 21.6%  |    | 9.6%  |    | 10.4%  |    | 15.3%  |    | 19.0%
+L159: Number of drugs  | 15 102  | Unknown  | 5820  | 4736  | 1316
+L160: Years of source data (time-span)  | 2000–2015 (16 years)  | 2006–2015 (10 years)  | 2003–2011 (9 years)  | 1993–2009 (17 years)
+L161: Number of companies  | 5764  | 1103  | 835  | 50
+L194: Overall  | 41 040  | 66.4  | 21 180  | 58.3  | 35.1  | 7532  | 59.0  | 13.8
+L195:    |    | (0.2)  |    | (2.3)  | (2.2)  |    | (0.6)  | (0.2)
+L196: All without  | 23 672  | 73.0  | 14 647  | 27.3  | 27.3  | 6296  | 63.6  | 20.9
+L197: oncology  |    | (0.3)  |    | (0.4)  | (0.4)  |    | (0.6)  | (0.3)
+L198: Lead indications (Industry)
+L199:    | Phase 1 to Phase 2  | Phase 2 to Phase 3  | Phase 3 to Approval  | Overall
+L298: CNS  | 160  | 85.0  | 96  | 56.3  | 8.3  | 25  | 32.0  | 5.0
+L299:    |    | (2.8)  |    | (5.1)  | (2.2)  |    | (9.3)  | (1.7)
+L300: Autoimmune/inflammation  | 228  | 76.3  | 114  | 57.0  | 8.8  | 32  | 31.3  | 4.4
+L301:    |    | (2.8)  |    | (4.6)  | (1.9)  |    | (8.2)  | (1.4)
+L302: Genitourinary  | 14  | 100.0  | 13  | 46.2  | 38.5  | 6  | 83.3  | 35.7
+L303:    |    | (0.00)  |    | (13.8)  | (13.0)  |    | (15.2)  | (12.8)
+L304: Infectious disease  | 157  | 89.2  | 104  | 53.8  | 28.8  | 39  | 76.9  | 19.1
+L347: Compared to 【23†Thomas and others (2016)】, we find that our phase POS is higher in Phases 1 and 2, but lower in Phase 3, due to our use of the path-by-path method for calculating the POS. Our 13.8% overall POS is higher than their 9.6%.
+--------------------------------------------------------------------------------
+Estimation of clinical trial success rates and related parameters - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/)
+citeturn714view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn709view0","pattern":"independent"}); Total lines: 456
+No matching text found for "independent"

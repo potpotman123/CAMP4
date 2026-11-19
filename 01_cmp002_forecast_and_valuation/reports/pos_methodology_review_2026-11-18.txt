@@ -1,0 +1,65 @@
+Retrospective PoS methods review and broader-cohort feasibility
+18 November 2026 | Project 1 | Status: methods review complete; inventory pilot blocked before retrieval
+
+CONCLUSION
+The research question is reasonable and time-to-approval estimation has published precedent. The existing selected 319-molecule panel is exploratory, not a representative all-rare-disease population and not a clean drug-indication inception cohort. Its estimates cannot independently validate Needham's pre-dose 25% lifetime approval assumption. Changing the estimator does not fix the sampling frame.
+
+ESTABLISHED APPROACHES (primary sources checked)
+1. BIO/Informa/QLS, Clinical Development Success Rates 2011–2020 (2021).
+https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf
+Methods pp30–31; rare-disease analysis pp13–14; ascertainment discussion p26.
+The study follows distinct drug-indication development paths and counts observed phase exits during the study window. A phase success rate is advances divided by advances plus suspensions; unresolved ongoing phases do not enter that resolved-exit denominator. Phase-I likelihood of approval multiplies four transition probabilities. Overall 7.9%; rare 17.0% explicitly excludes oncology. These are not ten-year approval fractions of entrants from 2011. Commercial discontinuations count, not just efficacy failures. Better ascertainment of early failures can lower reported success without a biological deterioration. Its rare sample's 1,256 transitions are not 1,256 independent molecules.
+Implication: build dated phase histories for a comparable benchmark; do not infer those histories solely from current maximum phase. Preserve an all-rare layer including cancers, then a non-oncology-rare comparison.
+
+2. Wong, Siah & Lo, Biostatistics (2019; online 2018).
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/
+DOI:10.1093/biostatistics/kxx069. Methods and Table 1 reviewed.
+The authors reconstruct drug-indication paths and impute missing intermediate transitions when later development is observed. Their path-based overall estimate is 13.8%, versus 6.9% under their phase-based comparison. They use inactivity rules of 360/540/900 days after trial completion in phases I/II/III to infer termination, rather than requiring a documented abandonment for every programme. Combined I/II is assigned to II.
+Implication: reconstruction and inactivity assumptions matter materially. We should distinguish inferred inactivity from verified failure, publish sensitivity analyses, and never present an arbitrary no-news threshold as proven abandonment. Different methods' estimates are not independent observations to average.
+
+3. Arfe et al., JNCI (2023), Clinical development of new drugs for adults and children with cancer, 2010–2020.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10407707/
+DOI:10.1093/jnci/djad082. Full methods/results retrieved.
+The authors identified 572 new oncology molecules first entering human trials in 2010–2015, followed through 2020. They used Kaplan–Meier time-to-FDA-approval analysis: 39/572 (6.8%) were observed approved, while estimated ten-year approval probability was 10.4% (95% CI 6.6–14.1%). They separately analysed stalled development using competing risks, with approval a competing event. Stalling depended on a six-year no-new-trial/no-approval rule, with shorter-rule sensitivities. Their unit is molecule, not our intended indication pair; combined I/II counts as I.
+Implication: unequal-follow-up adjustment in drug development is established. This provides methodological precedent, not validation of our ascertainment, calendar-era assumptions or CMP-002 transferability.
+
+4. DiMasi et al., Clinical Pharmacology & Therapeutics (2010).
+https://ascpt.onlinelibrary.wiley.com/doi/10.1038/clpt.2009.295
+Abstract reviewed; full estimator not independently audited here.
+Top-50-firm cohort, clinical entry 1993–2004 followed to June 2009; reported overall clinical success 19%, with different results by origin and molecule type.
+Implication: sponsor composition, era and licensing selection make this an unsuitable unqualified contemporary all-drugs prior. Do not interpret it as a census of small-company novel CNS programmes.
+
+Additional statistical reference:
+https://link.springer.com/article/10.1186/s12874-017-0327-3
+The importance of censoring in competing risks analysis of the subdistribution hazard (2017).
+Known administrative follow-up permits a censoring-complete subdistribution approach. Our failed programmes remain nonapprovals through the administrative horizon; they are not removed as though their poor outcomes were random losses to observation. Actual loss of approval ascertainment must not be disguised as known complete follow-up.
+
+WHAT NEEDS CORRECTING IN OUR CURRENT WORK
+- Selection: 48 chosen disease queries created the original discovery frame. More adjudication within that frame cannot make it all rare diseases.
+- Unit: 319 molecule clusters are not 319 independent drug-indication programmes. The new ledger must explicitly preserve every qualifying pair and cluster statistical uncertainty by molecule.
+- Endpoint: approval by ten years after clinical entry is different from eventual approval, and both differ from preclinical-to-approval.
+- Calendar time: recent entrants cannot reveal a contemporary ten-year outcome yet. A pooled time-adjusted curve relies on older cohorts informing later development ages. Report era-specific support and shorter horizons instead of concealing this.
+- Missingness: unknown development status and unknown FDA approval status are different. A programme can have uncertain abandonment but a verified absence of US approval through cutoff. Conversely missing approval ascertainment cannot count as a known nonapproval.
+- Failure: censoring at permanent discontinuation would inflate approval estimates. Keep the existing no-censor-at-failure rule; competing-risk models require credible dates and event definitions.
+- Tail support: the 18-ASO ten-year estimate rests on three approvals and very limited late follow-up. The 31.2% is not an established modality prior.
+- Geography: worldwide development with an FDA-only endpoint includes programmes without US development intent. Report this explicitly and stratify.
+- Stage: first exposure in healthy volunteers and first trial for a later indication are different entry events. Preclinical attrition is absent from a clinical-entry cohort.
+- Dependence: several indications for one molecule are legitimate programme observations, not independent biological experiments. A trial, sponsor licence or renamed asset is not another programme.
+
+RECOMMENDED REPORTING
+A. Observed status counts for all included pairs, with actual follow-up distributions.
+B. Direct five-/ten-year approval fractions in calendar-entry cohorts old enough to observe those horizons. 'Unapproved by ten years' is not synonymous with permanent failure.
+C. Time-to-approval estimates as a separate, assumption-dependent analysis, with at-risk counts, calendar-era sensitivities and molecule-clustered uncertainty. Do not imply lifetime extrapolation.
+D. Phase-transition LOA, only where dated phase histories and exits are available. Use the same unit, geography and phase definitions as the benchmark.
+Do not blend A–D into one weighted average. They answer different questions.
+
+BOUNDED EVALUATE PILOT: ACTUAL RESULT
+Using the user's existing Chrome Evaluate session, built an unrestricted product/indication report with all companies, all products, all indication classes, all current-status items and unrestricted dates. Selected company, product, generic name, mechanism, technology, research codes, WW/USA indication-specific current status, indication, product FDA approval date, indication FDA approval date, and US IND filing date; enabled record IDs and repeated values.
+These fields are visibly available. An IND filing date is not a first-patient dosing date. No complete phase-entry/exit history was demonstrated.
+Running the unrestricted report caused repeated browser command timeouts, including a screenshot attempt. No report rows, total count or downloadable result were recovered. No new all-drugs or all-rare PoS has been calculated. Do not count UI field availability as populated historical coverage.
+Next extraction should partition the identical unrestricted frame into small mutually exhaustive vendor status/therapeutic-area batches, preserving blank/unknown-status records and deduplicating stable product and indication IDs. Start with one bounded batch to measure row volume, date completeness and export latency before scaling. Do not use successful retrieval or easier documentation as a programme inclusion criterion.
+
+DECISION
+Retain the selected panel as exploratory evidence and a source-linked audit trail. Build a separate expanded ledger according to the accompanying protocol. No change to Needham's 25% is warranted from this methods review alone.
+
+Provenance: source retrievals preserved in sources/pos_methodology_review_2026-11-18/retrieval_1.txt through retrieval_8.txt. These are web retrieval records, not newly authored full-paper reproductions.

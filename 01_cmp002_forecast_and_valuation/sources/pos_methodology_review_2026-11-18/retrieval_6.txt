@@ -1,0 +1,210 @@
+Clinical development of new drugs for adults and children with cancer, 2010-2020 (https://pmc.ncbi.nlm.nih.gov/articles/PMC10407707/)
+citeturn713search0 [wordlim: 200] Published: 3.5 years ago; Crawled: 2 months ago; We obtained data on novel therapeutic products from AdisInsight, a commercial database of global pharmaceutical research and development (11) that was previously used in other studies of clinical development pipelines (12-16). ... We included only new molecular entities, which are defined as drugs or biologics containing moieties not previously approved by the FDA (as single drug ingredients or as part of combination products) (20). ... To account for censored follow-up times, we summarized the distribution of time to FDA approval and time to initiation of pediatric-eligible trials using Kaplan–Meier (KM) cumulative probability estimates (with 95% confidence intervals [CIs]). Because by definition new molecular entities were not at risk of stalling after being approved (competing risk), we summarized the distribution of time until stalled development using Kalbfleisch–Prentice cumulative probability estimates (22).
+## Methods
+
+### Data sources
+
+We obtained data on novel therapeutic products from AdisInsight, a commercial database of global pharmaceutical research and development (11) that was previously used in other studies of clinical development pipelines (12-16). AdisInsight provides data on individual therapeutic products, including their type (Supplementary Methods, available online), and their clinical trials, including trial start date, phase, and age-related inclusion criteria. For each investigational product, we used the FDA’s public data to obtain information on its approval status for adult and pediatric patients and on the issuance and status of pediatric study requests (17-19).
+
+### Selection of new molecular entities
+
+We queried AdisInsight on May 25, 2021, for all oncology products studied for anticancer indication in any phase I clinical trial (including hybrid phase I-II studies) started between January 1, 2010, and December 31, 2015. We included only new molecular entities, which are defined as drugs or biologics containing moieties not previously approved by the FDA (as single drug ingredients or as part of combination products) (20). Conversely, we excluded products not studied for anticancer indications (eg, contrast dyes or anti-emetics), products studied in other clinical trials (of any phase and for any indication) before 2010, and products for which the first identified trial during 2010-2015 was not a phase I study. We identified the first trial started during 2010-2015 that studied an new molecular entity as its first-in-human study and defined the corresponding start date as the start date of the new molecular entities clinical development.
+
+### Longitudinal follow-up of individual new molecular entities
+
+We followed each new molecular entity from start of clinical development to December 31, 2020, when data were censored. We identified all clinical trials started during follow-up that studied the product, alone or in combination with other interventions, and for any indication (not distinguishing between company and investigator-sponsored trials). We considered phase I/II and II/III studies as equivalent to phase I and III studies, respectively. We defined trials as pediatric eligible if patients aged younger than 18 years were eligible for participation. Trials with missing age eligibility information (n = 95) were excluded from analyses examining pediatric trials. Similar to prior analyses (21), we considered development of an new molecular entity as stalled if the new molecular entity was neither approved nor studied in new trials of any phase for at least 6 years after start of the last trial, assuming an average trial duration of 4 years and a gap of 2 years between the end of a study and the start of the next. As these assumptions might be conservative for new molecular entities studied in phase I and II studies (which are commonly based on short-term toxicity or tumor response endpoints), in sensitivity analyses we also considered 4- and 5-year periods without new trials.
+
+We identified FDA actions for each new molecular entity through the end of 2020, including drug approval, date of approval, and approval for use in pediatric populations. We also determined if new molecular entities were subject to FDA pediatric study requests under the Best Pharmaceuticals for Children Act (BPCA) or the Pediatric Research Equity Act (PREA) and whether these were fulfilled.
+
+### Statistical analyses
+
+We described the distribution of categorical variables using counts and percentages and of quantitative variables using means, medians, and interquartile ranges (IQRs). To account for censored follow-up times, we summarized the distribution of time to FDA approval and time to initiation of pediatric-eligible trials using Kaplan–Meier (KM) cumulative probability estimates (with 95% confidence intervals [CIs]). Because by definition new molecular entities were not at risk of stalling after being approved (competing risk), we summarized the distribution of time until stalled development using Kalbfleisch–Prentice cumulative probability estimates (22). We performed all analyses in R (v4.1.2) (23).
+
+## Results
+
+### Identification and classification of new molecular entities
+
+We identified 1181 therapeutic products potentially eligible to enter our analysis cohort. After applying our exclusion criteria (Supplementary Figure 1, Supplementary Table 1, available online), we included 572 new molecular entities in our analysis (Supplementary Table 2, available online). On average, 95 new molecular entities started clinical development per year, from a minimum of 76 in 2013 to a maximum of 112 in 2011 (Figure 1). The 3 most studied types of new molecular entities were small molecules (55.2%; Figure 2), antibodies (25.9%), and antibody-drug conjugates (7.7%).
+
+#### Figure 1.
+
+Open in a new tab
+
+New molecular entities starting clinical development, 2010-2015. Blue, total number of new molecular entities; orange, new molecular entities that were ultimately studied in at least 1 pediatric-eligible trial before the end of 2020.
+
+#### Figure 2.
+
+Open in a new tab
+
+Distribution of new molecular entity types that started clinical development, 2010-2015. Upper bars, total number of NMEs that started clinical development in 2010-2015; Lower bars, new molecular entities that were studied in at least 1 pediatric-eligible trial before the end of 2020. Small molecules included kinase inhibitors (n = 141) or other targeted agents (n = 175). Nonantibody biologics included nonantibody proteins (n = 23) and nucleic acids (n = 12). Other or unspecified new molecular entities included 3 products: a radiopharmaceutical agent, a photosensitizing drug, and an new molecular entity for which we could not identify the type or mechanism of action.
+
+### Follow-up of new molecular entities and identified clinical trials
+
+We followed each new molecular entity for a mean of 8.0 (median = 8.1, IQR = 6.4-9.5) years. During follow-up, the 572 new molecular entities were studied in 6141 clinical trials initiated during 2010 to 2020, with a mean of 12 (median = 3, IQR = 1-7) trials per product. Of all trials, 2971 (48.4%) were phase I, 2413 (39.3%) phase II, 490 (8.0%) phase III, and 258 (4.2%) phase IV (phase information was not available for 9 trials). The highest development phase reached by the end of 2020 was first-in-human phase I trials for 173 (30.2%) new molecular entities, non-first-in-human phase I trials for 152 (26.6%), phase II trials for 162 (28.3%), phase III trials for 55 (9.6%), and phase IV trials for 30 (5.2%).
+
+Although products in our cohort that stalled during follow-up were less likely to have done so after a phase II or III trial, such studies are typically longer, larger, and more costly than phase I trials (35). This highlights the need to identify, develop, and evaluate strategies aimed at reducing potential waste in such studies, including use of external controls, novel surrogate endpoints, and more efficient trial designs.
+
+The increasing availability of patient-level data from completed clinical trials, real-world observational studies, and electronic health records has created new opportunities for the use of trial designs based on external control arms (36). In phase II studies, these designs can help increase statistical power to assess experimental therapies and more quickly predict which ones are unlikely to succeed in phase III studies (37-39). However, careful consideration is required to account for confounding because of differences in prognostic factors across internal and external study groups or other distortions (40,41). Emergent liquid biopsy techniques may allow the development of new blood-based surrogates defined by monitoring circulating tumor cells or DNA to detect residual disease or predict treatment response (43,47,48). Such endpoints will need to be collected in clinical trials alongside outcomes such as overall survival to enable their prospective validation.
+
+Innovative trial designs may also support increased efficiency in the development of new cancer therapies. For example, adaptive multistage designs can enable early termination of studies for investigational therapies lacking efficacy—a common cause of failure in phase II and III trials (29,49)—and support redirection of resources to other products (50,51). Novel platform trial designs that allow new arms to open after study start may help avoid the cost of planning new trials for studying emergent therapies (52-54). In trials of investigational targeted therapies, enrolling only patients predicted to receive its benefits may help reduce the overall study size. However, this approach is only appropriate when validated biomarkers that accurately predict treatment effects are available (55,56).
+
+--------------------------------------------------------------------------------
+Clinical development of new drugs for adults and children with cancer, 2010-2020 (https://academic.oup.com/jnci/article/115/8/917/7160925)
+citeturn713search1 [wordlim: 200] Published: 3.5 years ago; Crawled: 4 weeks ago; These 184 new molecular entities were studied in 275 trials before stalling, with a mean of 1.5 (median = 1.0, IQR = 1.0-2.0) trials per stalled new molecular entity. ... At the level of drug types, small molecules and antibodies had a 10-year probability of stalling of 43.4% (95% CI = 36.2% to 52.0%) and 54.8% (95% CI = 44.1% to 65.2%), respectively, and for new molecular entities of remaining types of this probability was 58.6% (95% CI = 44.9% to 76.5%; Figure 4). ... Given the high rate of products that stall in development, strategies are needed to ensure information generated in clinical trials of unsuccessful therapeutics is made available to inform future research activities (57). ... Development stalled for more than half of new products in our cohort, with about 2 clinical trials conducted on average for each stalled product.
+### Follow-up of new molecular entities and identified clinical trials
+
+We followed each new molecular entity for a mean of 8.0 (median = 8.1, IQR = 6.4-9.5) years. During follow-up, the 572 new molecular entities were studied in 6141 clinical trials initiated during 2010 to 2020, with a mean of 12 (median = 3, IQR = 1-7) trials per product. Of all trials, 2971 (48.4%) were phase I, 2413 (39.3%) phase II, 490 (8.0%) phase III, and 258 (4.2%) phase IV (phase information was not available for 9 trials). The highest development phase reached by the end of 2020 was first-in-human phase I trials for 173 (30.2%) new molecular entities, non-first-in-human phase I trials for 152 (26.6%), phase II trials for 162 (28.3%), phase III trials for 55 (9.6%), and phase IV trials for 30 (5.2%).
+
+### Development and regulatory outcomes
+
+There were 39 (6.8%) new molecular entities approved by the FDA during follow-up, with a median time to approval of 6.1 (IQR = 4.6-8.1) years. For these new molecular entities, a mean of 26 trials (of any phase) were initiated prior to approval (median = 20, IQR = 9-35). Based on KM estimates, at 5 and 10 years from start of clinical development, each new molecular entity had a 2.6% (95% CI = 1.3% to 3.9%) and 10.4% (95% CI = 6.6% to 14.1%) probability, respectively, of reaching FDA approval (Figure 3).
+
+#### 
+
+Image: Cumulative probability estimates for each time-to-event endpoint. Terminal curve heights correspond to the estimated probabilities of achieving the corresponding endpoint during follow-up. FDA = US Food and Drug Administration.
+
+Figure 3.
+
+Cumulative probability estimates for each time-to-event endpoint. Terminal curve heights correspond to the estimated probabilities of achieving the corresponding endpoint during follow-up. FDA = US Food and Drug Administration.
+
+Open in new tabDownload slide
+
+Development of 184 of the 572 (32.2%) new molecular entities stalled during follow-up. These 184 new molecular entities were studied in 275 trials before stalling, with a mean of 1.5 (median = 1.0, IQR = 1.0-2.0) trials per stalled new molecular entity. Most of these new molecular entities stalled after their first-in-human phase I trial (n = 133, 72.3%) or a non-first-in-human phase I trial (n = 45, 24.5%), and 6 (<0.1%) stalled after a phase II trial. Each new molecular entity had a 49.2% (95% CI = 43.4% to 55.7%) probability of stalling within 10 years of development start (Supplementary Figure 2, available online). At the level of drug types, small molecules and antibodies had a 10-year probability of stalling of 43.4% (95% CI = 36.2% to 52.0%) and 54.8% (95% CI = 44.1% to 65.2%), respectively, and for new molecular entities of remaining types of this probability was 58.6% (95% CI = 44.9% to 76.5%; Figure 4).
+
+#### 
+
+Image: Estimates of the cumulative probability of stalled development (based on 4 years without new trials) for new molecular entities of different types. Terminal curve heights correspond to the estimated probabilities of stalled development (based on 4 years without new trials) during follow-up.
+
+Figure 4.
+
+Estimates of the cumulative probability of stalled development (based on 4 years without new trials) for new molecular entities of different types. Terminal curve heights correspond to the estimated probabilities of stalled development (based on 4 years without new trials) during follow-up.
+
+Open in new tabDownload slide
+
+In sensitivity analyses using 4 and 5 years of trial inactivity to define stalled development, 341 (59.6%) and 275 (48.1%) new molecular entities stalled during follow-up, respectively. In either case, more than 90% of stalled new molecular entities ended development during phase I trials, with more than 60% never leaving first-in-human phase I trials (Supplementary Table 3, available online). New molecular entities had a 67.2% (95% CI = 62.5% to 72.2%) and 57.6% (95% CI = 52.5% to 63.2%) 10-year probability of stalling, based on 4 and 5 years of trial inactivity, respectively (Supplementary Figure 2, available online).
+
+### Pediatric development of new molecular entities
+
+Of the 572 new molecular entities, 67 (11.7%)—mostly small molecules and antibodies (Figure 2)—were tested in pediatric-eligible trials during follow-up, with a median time from start of clinical development to first pediatric-eligible trial of 4.6 (IQR = 2.8-6.4) years. Five new molecular entities began their clinical development with a pediatric-eligible trial (Supplementary Table 4, available online). For the remaining 62 new molecular entities, a mean of 14.9 (median = 8.5, IQR = 3.0-19.8) trials (not open to children) were started before the start of pediatric-eligible trials. The highest clinical trial phase reached by these 62 new molecular entities before the start of pediatric-eligible trials was first-in-human phase I for 5 (8.1%), non-first-in-human phase I for 11 (17.7%), phase II for 18 (29.0%), phase III for 21 (33.9%), and phase IV for 7 (11.3%). Based on KM estimates, the 67 new molecular entities had a 15.4% 10-year probability (95% CI = 11.2% to 19.4%) of being studied in pediatric-eligible trials (Figure 3).
+
+Of the 39 approved new molecular entities, 5 (13% of approved new molecular entities, 0.9% of all new molecular entities) were approved by the FDA for use in pediatric patients by the end of 2020 (Table 1). The 10-year probability of obtaining pediatric approval was 1.4% (95% CI = 0.0% to 2.7%; Figure 3). Of the 39 approved products, 8 received BPCA requests, which resulted in the initiation of pediatric studies for 2 new molecular entities. No approved new molecular entity was subject to PREA study requirements.
+## Discussion
+
+In this study, we characterized the clinical development of a comprehensive cohort of 572 new anticancer products that started clinical testing in 2010-2015 worldwide, following them from their first phase I trial to 2020. We found that, over a mean follow-up of 8 years, individual products were studied in 12 trials on average, but less than half progressed beyond phase I. The 10-year probability of stalled development was 67.2% and, of reaching FDA approval, 10.4%. Few products were studied in trials open to pediatric patients, and the 10-year probability of receiving a pediatric approval was 1.4%. Overall, our results highlight the need for improved strategies to reduce unnecessary clinical testing, promote the study of new anticancer agents in pediatric populations, and ensure knowledge gain from investigational products that stall in development.
+
+Our results update and expand previous analyses of clinical development programs (7,21,24-28). Compared with some of these, a strength of our study is that it was based on a database that captures information by continuously monitoring multiple origins, including, among others, different clinical trial registries, press releases from pharmaceutical companies, and publications in medical journals. This database is thus more likely to provide a timely characterization of the clinical development of an individual product beginning their first clinical trial than any single information source considered alone. Another key feature is our focus on adult and pediatric development outcomes, including start of pediatric-eligible trials or pediatric FDA approvals. Although other studies evaluated similar endpoints (7,28), ours is the first to characterize their incidence within a comprehensive cohort of new anticancer products.
+
+In our cohort, development programs that stalled were more likely to have done so after phase I studies, especially first-in-human ones. Although no data on the reason for stalling were available from our data sources, we expect that, in addition to commercial considerations by the sponsor, development was likely paused or terminated during this phase because toxicity rates were higher or tumor response rates lower than predicted by preclinical studies (29). Indeed, meta-analyses of preclinical studies indicated that preclinical models are poor predictors of drug effects in human patients, and their findings often have poor reproducibility (30-33). Improving the robustness and predictive value of preclinical results could thus help reduce the risk of translational failures and waste of resources in unwarranted clinical trials (34).
+
+Although products in our cohort that stalled during follow-up were less likely to have done so after a phase II or III trial, such studies are typically longer, larger, and more costly than phase I trials (35). This highlights the need to identify, develop, and evaluate strategies aimed at reducing potential waste in such studies, including use of external controls, novel surrogate endpoints, and more efficient trial designs.
+
+Given the high rate of products that stall in development, strategies are needed to ensure information generated in clinical trials of unsuccessful therapeutics is made available to inform future research activities (57). Sponsors can discontinue or pause development pipelines without public disclosure of the underlying reasons and without making clinical trial data available (5,58-60). Development stalled for more than half of new products in our cohort, with about 2 clinical trials conducted on average for each stalled product. Access to data from such trials can guide development decisions for other investigational agents, help identify and evaluate resource-saving strategies for early stopping of unpromising development programs, and help reduce exposure of trial participants to futile or unsafe products. Data from trials of stalled development programs can also help reposition a product for alternative indications and contribute information for meta-analyses of toxicity or efficacy endpoints (5,58,60-62).
+Bourgeois, MD, MPH (Conceptualization; Funding acquisition; Investigation; Methodology; Project administration; Resources; Supervision; Writing – original draft; Writing – review & editing)
+
+## Funding
+
+This study was supported by funds from the Harvard-MIT Center for Regulatory Science, Harvard Medical School, Boston, MA (USA) and an Innovation in Regulatory Science Award from the Burroughs Wellcome Fund.
+
+## Conflicts of interest
+
+AA, CN, GR, and FTB have no conflict of interests to disclose. SGD was a consultant for Amgen and Bayer and received research funding from Bayer, BMS, Curis, Eisai, Lilly, Loxo, Merck, Pfizer, and Turning Point Therapeutics. SGD also received research funding and travel/expenses support from Roche/Genentech Salarius Pharmaceuticals.
+
+## Acknowledgements
+
+Funds from the Harvard-MIT Center for Regulatory Science were used to purchase a subscription to AdisInsight, which was used to access and extract the data used in this study. While working on this study, AA was supported by a postdoctoral fellowship from the Harvard-MIT Center for Regulatory Science.
+
+Partial results from this study were the subject of a poster presentation at the 2022 annual meeting of the American Society of Clinical Oncology (meeting abstract: J Clin Oncol. 2022;40(16 suppl): 1563-1563. doi: 10.1200/JCO.2022.40.16_suppl.1563).
+--------------------------------------------------------------------------------
+Clinical development of new drugs for adults and children with cancer, 2010-2020 (https://pmc.ncbi.nlm.nih.gov/articles/10407707/)
+citeturn713search2 [wordlim: 200] Published: 3.5 years ago; Crawled: 5 days ago; For each new molecular entity, we determined whether it was granted US Food and Drug Administration (FDA) approval, studied in a trial open to pediatric enrollment, or stalled during development. ... More efficient clinical development strategies are needed to evaluate new cancer therapies, especially for children, and incorporate approaches to ensure knowledge gain from investigational products that stall in development. ... In conclusion, our findings call for a renewed focus on improving preclinical research practices, evaluating and promoting more efficient clinical trial design strategies for the study of new anticancer products in adult and pediatric patients, and ensuring the availability of data from unsuccessful development programs.
+
+[Button: J Natl Cancer Inst]
+
+. 2023 May 12;115(8):917–925. doi: 10.1093/jnci/djad082
+
+# Clinical development of new drugs for adults and children with cancer, 2010-2020
+
+Received 2022 Oct 26; Revised 2023 Jan 30; Accepted 2023 May 9; Collection date 2023 Aug.
+
+© The Author(s) 2023. Published by Oxford University Press. All rights reserved. For permissions, please email: journals.permissions@oup.com
+
+This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (https://academic.oup.com/pages/standard-publication-reuse-rights)
+
+PMC Copyright notice
+
+PMCID: PMC10407707  PMID: 37171887
+
+## Abstract
+
+### Background
+
+Many new molecular entities enter clinical development to evaluate potential therapeutic benefits for oncology patients. We characterized adult and pediatric development of the set of new molecular entities that started clinical testing in 2010-2015 worldwide.
+
+### Methods
+
+We extracted data from AdisInsight, an extensive database of global pharmaceutical development, and the FDA.gov website. We followed the cohort of new molecular entities initiating first-in-human phase I clinical trials in 2010-2015 to the end of 2020. For each new molecular entity, we determined whether it was granted US Food and Drug Administration (FDA) approval, studied in a trial open to pediatric enrollment, or stalled during development. We characterized the cumulative incidence of these endpoints using statistical methods for censored data.
+
+### Results
+
+The 572 new molecular entities starting first-in-human studies in 2010-2015 were studied in 6142 trials by the end of 2020. Most new molecular entities were small molecules (n = 316, 55.2%), antibodies (n = 148, 25.9%), or antibody-drug conjugates (n = 44, 7.7%). After a mean follow-up of 8.0 years, 173 new molecular entities did not advance beyond first-in-human trials, and 39 were approved by the FDA. New molecular entities had a 10.4% estimated probability (95% confidence interval = 6.6% to 14.1%) of being approved by the FDA within 10 years of first-in-human trials. After a median of 4.6 years since start of first-in-human trials, 67 (11.7%) new molecular entities were tested in trials open to pediatric patients, and 5 (0.9%) were approved for pediatric indications.
+
+### Conclusions
+
+More efficient clinical development strategies are needed to evaluate new cancer therapies, especially for children, and incorporate approaches to ensure knowledge gain from investigational products that stall in development.
+
+Over the past 2 decades, an improved understanding of cancer biology and innovations in tumor profiling techniques have promoted the development of many new anticancer products in clinical trials. Moving away from traditional chemotherapies, clinical trials have begun to evaluate investigational drugs and biologics with diverse mechanisms of action, such as kinase inhibitors, antibodies, and other molecularly targeted agents (1-3).
+
+To maximize the benefits of these scientific advances, concomitant development of data-driven approaches is needed to improve efficiencies and success rates in clinical development pipelines. Investigational products frequently stall during clinical development, from first-in-human trials to application for regulatory approval, with common causes including emerging safety or efficacy concerns and difficulties in patient accrual (4,5). Systematically characterizing development programs and their outcomes would inform strategies to increase development efficiencies and identify processes in need of innovation.
+
+In assessing development programs, special consideration is warranted for the evaluation of therapeutic agents in children and adolescents. Historically, most initial or pivotal clinical trials of novel agents excluded pediatric cancer patients, potentially contributing to delays in development and a paucity of approved anticancer therapies for this population (6). When adult drugs are studied in children, initiation of pediatric clinical trials is typically postponed until well after completion of 1 or more in adults (7), promoting off-label use in pediatric patients (8). To accelerate the development of new therapies, US Congress has promulgated several reforms granting the Food and Drug Administration (FDA) authority to request pediatric studies, but data on the impact of these programs in pediatric oncology remain sparse (9,10).
+
+We conducted a longitudinal analysis of a comprehensive set of new therapeutic products starting development for an oncology indication from 2010 to 2015, with follow-up through 2020. Our objective was to characterize the clinical development pipeline of oncology products for adult and pediatric cancers and determine the rate and timing of regulatory deliberations.
+
+Our study has several potential limitations. In particular, we cannot exclude that some anticancer products or clinical trials potentially eligible to enter our analyses were not captured by AdisInsight. Still, this database is assembled using information regularly collected from multiple sources and is designed to track individual products from start of clinical development, including through capture of all product names (Supplementary Table 2, available online) (12-16). Thus, any possible missed trial is most likely to be a phase I study, as higher phase trials are subject to more stringent registration requirements. For the same reason, if any therapeutic product was not captured by AdisInsight, it is likely that this was only studied in phase I trials.
+
+More generally, our results depend on the completeness and quality of information collated by AdisInsight from multiple sources. Validation studies of such databases are impaired by the lack of an appropriate gold standard data source. Future investigations like ours might rely on data extracted from multiple databases that report information on individual clinical development programs (69,70) to allow comparisons of results obtained across different data sources.
+
+Lastly, for pediatric-eligible trials, we could only determine if the reported minimum age for trial participation was younger than 18 years, but we did not have information on the actual age distribution of patients enrolled in each study. Thus, it is possible that the number of trials enrolling pediatric patients was lower than the number of pediatric-eligible trials, and we may have underestimated the time between start of clinical trials and testing in pediatric patients.
+
+To characterize clinical development programs in oncology, we focused on endpoints relevant for US regulatory policies and decisions. Alternative endpoint definitions may also be considered, including adult or pediatric approvals from regulatory agencies outside the United States. Metrics of resource utilization or of new molecular entities potential clinical value (like the American Society of Clinical Oncology Clinical Value Framework) could also be investigated (71,72). To study these, data sources such as ours should be integrated with additional ones, such as public registries of international regulatory agencies (73).
+
+In conclusion, our findings call for a renewed focus on improving preclinical research practices, evaluating and promoting more efficient clinical trial design strategies for the study of new anticancer products in adult and pediatric patients, and ensuring the availability of data from unsuccessful development programs. Analyses such as this should be conducted regularly to support data-driven approaches to optimize clinical development processes and assess the impact of new regulatory initiatives and development strategies.
+
+--------------------------------------------------------------------------------
+Biologic Therapies - KAPLAN & SADOCK S | PDF | Receptor (Biochemistry) | Cell Signaling (https://www.scribd.com/document/1031125948/Biologic-Therapies-KAPLAN-SADOCK-S)
+citeturn713search3 [wordlim: 200] Crawled: last month; The latest figures estimate that the cost to develop a new drug is an average of $2.6 billion. ... there is a history in CNS drug development of the optimal clinical dose of a compound not ... There are efforts underway across neuroscience ... The development of a new pharmacologic treatment for a psychiatric (or any other) disorder ... also includes studies in which investigational drugs are used as research tools to explore ... study results; chemistry/product quality; pharmacology/toxicology information; clinical
+--------------------------------------------------------------------------------
+Challenges of Antibacterial Discovery (https://journals.asm.org/doi/abs/10.1128/cmr.00030-10)
+citeturn713search4 [wordlim: 200] Published: 15.9 years ago; Crawled: 2 months ago; The discovery of novel small-molecule antibacterial drugs has been stalled for many years. ... The major challenges fall into two areas: (i) proper target selection, particularly the necessity of pursuing molecular targets that are not prone to rapid resistance development, and (ii) improvement of chemical libraries to overcome limitations of diversity, especially that which is necessary to overcome barriers to bacterial entry and proclivity to be effluxed, especially in Gram-negative organisms.
+--------------------------------------------------------------------------------
+Background Chapter 8.3 - WHO archives (https://studylib.net/doc/7245119/background-chapter-8.3---who-archives)
+citeturn713search5 [wordlim: 200] Published: 22.1 years ago; Crawled: last month;     Research and Development: ...     By Warren Kaplan, Ph.D., JD, MPH
+--------------------------------------------------------------------------------
+ (https://www.sec.gov/Archives/edgar/data/1847903/000119312521123969/d123754ds1.htm)
+citeturn713search6 [wordlim: 200] Published: 5.6 years ago; Crawled: 2 months ago;    | •  |    | delays in submitting Investigational New Drug applications (INDs), Clinical Trial Applications (CTAs), or comparable foreign applications or delays or failure in obtaining the necessary approvals from regulators to commence a clinical trial, or a suspension or termination of a clinical trial once commenced; ... There is a high failure rate for small molecule drugs and biologic products proceeding through clinical development. ...    | •  |    | delays in reaching agreement or failing to agree on acceptable terms with prospective clinical research organizations (CROs), and clinical trial sites, the terms of which can be subject to extensive negotiation and may vary significantly among different CROs and clinical trial sites;
+--------------------------------------------------------------------------------
+2013 HIV, HCV, and TB Pipeline Executive Summary and Research Policy Recommendations – Treatment Action Group (https://www.treatmentactiongroup.org/resources/pipeline-report/2013-pipeline-report/2013-hiv-hcv-and-tb-pipeline-executive-summary-and-research-policy-recommendations/)
+citeturn713search7 [wordlim: 200] Published: 13.5 years ago; Crawled: last month; Pfizer seems to have virtually frozen clinical development of the new oxazolidinone sutezolid, which will be needed in the forthcoming trials of the NIAID-funded AIDS Clinical Trials Group (ACTG), the NiX-TB study, and the TB Alliance’s studies of novel TB regimens. ... Centers for Disease Control and Prevention (CDC) and the FDA can help, but they too are suffering from the effects global financial austerity, and—in the United States—sequestration is hitting the CDC’s TB program and its research programs particularly hard.
+--------------------------------------------------------------------------------
+Clinical Trials in the Era of Real-World Evidence - DOKUMEN.PUB (https://dokumen.pub/clinical-trials-in-the-era-of-real-world-evidence.html)
+citeturn713search8 [wordlim: 200] Published: 9 months ago; Crawled: 4 months ago; Clinical Development Process of a New Drug
+--------------------------------------------------------------------------------
+Food and Drug Administration – A DES Daughter's Blog (https://desdaughter.wordpress.com/tag/food-and-drug-administration/)
+citeturn713search9 [wordlim: 200] Crawled: last month; Nonpublication of Trial Results for New Neurological Drugs: A Systematic Review ... ‘Stalled’ drugs included all experimental agents tested in the same domains that had at least one completed phase III trial in the same timeframe but failed to receive FDA approval.
+--------------------------------------------------------------------------------
+2019-10K_Taxonomy2019 (https://www.sec.gov/Archives/edgar/data/1557142/000155714220000015/kdmn-20191231x10k.htm)
+citeturn713search10 [wordlim: 200] Published: 6.7 years ago; Crawled: 2 months ago; Once a pharmaceutical or biological product candidate is identified for development, it enters the preclinical testing stage. ... The sponsor must also include a protocol detailing, among other things, the objectives of the initial clinical study, the parameters to be used in monitoring safety and the effectiveness criteria to be evaluated if the initial clinical study lends itself to an efficacy evaluation.
+--------------------------------------------------------------------------------
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn713view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: open({"ref_id":"turn709view1","lineno":1300}); Total lines: 1440
+L1298@P28: features related to therapeutic modality, trial design, sponsor track record, or other characteristics specific to
+L1299@P28: the indication. Drug and device developers need to be able to accurately evaluate the impact of key drivers on
+L1300@P28: the probability of success to efficiently allocate capital to opportunities with the highest potential. In this report,
+L1301@P28: we demonstrate how machine learning techniques can be used to fully exploit all available data.
+--------------------------------------------------------------------------------
+Checking your browser - reCAPTCHA (https://pmc.ncbi.nlm.nih.gov/articles/10407707/)
+citeturn713view1 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://pmc.ncbi.nlm.nih.gov/articles/10407707/","lineno":null}); Total lines: 3
+L0: Checking your browser before accessing pmc.ncbi.nlm.nih.gov ...
+L1: 
+L2: Click 【0†here】 if you are not automatically redirected after 5 seconds.
+

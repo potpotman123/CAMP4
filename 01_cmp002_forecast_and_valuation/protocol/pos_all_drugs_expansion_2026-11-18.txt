@@ -1,0 +1,47 @@
+Expanded all-drugs / all-rare programme cohort protocol v1
+18 November 2026 | Project 1 | Prespecified before expanded outcome calculation
+
+Target: probability of FDA approval for the specified drug-indication programme, conditional on documented clinical entry. Finite-horizon and phase-transition quantities must be reported separately; neither is automatically preclinical lifetime PoS.
+
+Proposed main entry window: 2010–2024; track 2025–2026 entrants separately. Preserve 2026-11-16 outcome cutoff for compatibility with existing calculations; later observations must be flagged and not silently backdated. Entry-date intervals straddling boundaries receive explicit sensitivities, not convenient midpoint-only selection.
+
+Funnel, each layer nested in the preceding layer:
+1. All captured therapeutic drug-indication clinical programmes within the entry window.
+2. All rare-disease programmes, INCLUDING oncology; not restricted to the original 48 diseases.
+3. Non-oncology rare disease (for the BIO 17% comparison).
+4. Genetic CNS disorders.
+5. Genetic medicines.
+6. ASOs.
+7. Intrathecal ASOs.
+8. Deficient-protein restoration.
+9. Closest neurodevelopmental biological/clinical rationale.
+Also show a separately labelled all-CNS branch from layer 1; do not imply that this is nested below all rare diseases. Do not require every progressively smaller layer to produce an estimable PoS.
+
+The word 'all' describes the intended eligibility rule, not proven exhaustive worldwide coverage. Publish vendor coverage and missingness. No all-drugs denominator until eligibility, dates and identity resolution are measured.
+
+Unit and identity:
+Canonical molecule ID + prespecified disease ID; retain vendor aliases, codes, sponsor history, original indication wording and links. Deduplicate partners, licences and trials. Successor molecules remain distinct. Indication expansion can be another pair, but age-only cohorts and alternate labels for the same disease are not automatically separate pairs. Avoid a Cartesian product between every drug and every condition in a basket trial.
+Capture molecule first-human date, pair first-clinical date, pair first-phase-I date, each dated phase entry/exit, source and confidence. A pair first tested in phase II is not silently inserted in a phase-I denominator.
+Flag prior approval at pair entry, repurposing, biosimilar/reformulation, investigational combinations and geographic development intent. Exclude devices, diagnostics and routine generic bioequivalence from the therapeutic development target. Provide a separate novel/unapproved-at-entry sensitivity for CMP comparability; do not let postapproval expansions silently dominate it.
+
+Rare disease:
+Disease-specific US prevalence under 200,000 as primary operational rule, with EU threshold sensitivity and explicit data date. Orphan designation is evidence/discovery input, not a complete disease census. A molecule's designation for one rare disease does not make all its indications rare. Absence of designation does not establish common disease. Maintain rare / nonrare / uncertain and an adjudication source. Freeze disease/subtype granularity independently of outcomes; do not create favourable rare subgroups after seeing approvals.
+
+Source pipeline:
+Evaluate unrestricted inventory -> stable-ID deduplication -> systematic disease mapping -> clinical-entry and phase-history linkage using registry/sponsor/regulator records -> FDA label-level outcome verification -> status/ascertainment ledger -> nested filters -> estimates.
+Existing orphan and 48-disease exports are supplementary coverage checks, not the new sampling frame.
+FDA approvals establish successes, not the denominator. Clinical trial completion/termination is not necessarily whole-programme success/failure. IND dates are not dosing dates. Preserve inferred versus observed dates and status.
+
+Bounded extraction continuation:
+The first unrestricted report did not return accessible output. Partition into disjoint, exhaustive status/area batches with an unknown bin; begin with one small batch. Audit whether indication status and dates are actually populated. Then select a fixed reproducible stratified pilot (target 24 pairs across active/abandoned/approved/unknown and oncology/non-oncology) to test linkage, rare classification and entry dates. Do not cherry-pick familiar molecules; publish unresolved sample members.
+This 24-pair validation has NOT yet been executed. It cannot begin until an accessible inventory is obtained. Do not report a pilot PoS from this small quality-control sample.
+
+Analysis:
+Observed counts + mature cohort 5/10-year approval fractions + time-to-approval sensitivity; phase-transition LOA only with genuine phase histories. Cluster uncertainty by molecule; never assume independent indications of one drug. Show new/old era strata, numbers contributing at each time, missingness and complete-case selection.
+Unknowns require explicit sensitivity bounds/scenarios; do not automatically mark failures or drop them. Missing development status can coexist with verified FDA nonapproval; record both dimensions.
+Statistical bootstrap intervals do not correct coverage bias. A published statistical method is not validation of our data.
+For pooling older and recent entrants, evaluate whether approval hazards differ by era/technology; explain that contemporary 10-year outcomes are unobservable without extrapolation.
+Preclinical CMP inference requires an additional stage-matched bridge and mechanistic judgment. No mechanically weighted blend of overlapping funnel rates.
+
+Stop/scale rule:
+If accessible exports lack historical first-entry/phase transitions or loss coverage is severe, report quantified missingness and source gaps before commissioning extensive manual reconstruction or bulk scraping. Computing thousands of rows is inexpensive relative to validating thousands of histories. Seek approval for genuinely expensive collection with measured pilot throughput and uncertainty; do not invent precise cost estimates.

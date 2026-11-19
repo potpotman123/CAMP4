@@ -1,0 +1,147 @@
+ (https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)
+citeturn715view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 34; Source: open({"ref_id":"turn709view1","lineno":1335}); Total lines: 1440
+L1286@P27: innovation more complex, riskier, and more expensive. In the face of multiple growing uncertainties, the
+L1287@P27: 5 Thomas D, Wessel C (2019). The State of Innovation in Highly Prevalent Chronic Diseases Volume V: Systemic Hypertension and Heart Failure. Available here [Accessed
+L1290@P27: 7 Thomas D, Wessel C (2017). The State of Innovation in Highly Prevalent Chronic Diseases Volume I: Depression Therapeutics. Available here [Accessed 15 January 2021].
+L1291@P27-28: 8 Lloyd I (2020) Pharma RD Annual Review 2020 Whitepaper. Available here [Accessed 15 January 2021].29/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L1292@P28: need for greater accuracy in predicting clinical trial outcomes has also grown. More accurate forecasts mean
+L1293@P28: fewer drug failures, faster approval times, a lower cost of capital, and more funding available to bring new
+L1294@P28: and better therapies to patients sooner.
+L1295@P28: When managing their portfolios of investigational drugs, biopharma companies typically use simple historical
+L1296@P28: averages of regulatory approval rates, based on backward-looking relative frequencies of approval. While
+L1297@P28: these historical averages contain useful insights, they do not take into account the many important predictive
+L1298@P28: features related to therapeutic modality, trial design, sponsor track record, or other characteristics specific to
+L1299@P28: the indication. Drug and device developers need to be able to accurately evaluate the impact of key drivers on
+L1300@P28: the probability of success to efficiently allocate capital to opportunities with the highest potential. In this report,
+L1301@P28: we demonstrate how machine learning techniques can be used to fully exploit all available data.
+L1302@P28: The relative importance of individual features in our predictive models find that trial outcome, regulatory
+L1303@P28: designation, prior approval for another indication, the use of patient pre-selection biomarkers, drug modality,
+L1304@P28: and sponsor track record are all critical features for predicting success in our set of more than 200 features.
+L1305@P28: Because these classifiers are nonlinear, there is no simple interpretation of the contribution of each predictor
+L1306@P28: to the forecast. However, the intuition behind some of these factors is clear. For example, drug-indication pairs
+L1307@P28: with trials that achieve positive outcomes should have a greater chance of approval; candidates sponsored
+L1308@P28: by companies with strong track records and diverse expertise in drug development should have a higher
+L1309@P28: likelihood of success; and already approved drugs should have higher chances of approval for a second related
+L1310@P28: indication.
+L1311@P28: When applied to out-of-sample data, the QLS forecasts show that candidates with higher probabilities were
+L1312@P28: indeed more likely to be approved, indicating that our models are able to discriminate between high- and
+L1313@P28: low-probability candidates. These promising results suggest the possibility of even more powerful predictive
+L1314@P28: models with the inclusion of more refined drug development data, including patient-level clinical trial data.
+L1315@P28: Ultimately, such predictive analytics have the potential to facilitate more informed data-driven decisions about
+L1316@P28: the risk assessment and portfolio management of investigational drugs at all clinical stages.
+L1317@P28: Increasing duration in clinical development typically carries an elevated risk
+L1318@P28: The average timeline from Phase I to approval over 2011–2020 was 10.5 years. This lengthy timeframe is a
+L1319@P28: significant risk to investors and entrepreneurs, and speaks to the current complexities of today’s clinical drug
+L1320@P28: development. This risk is compounded with the correlation of longer timelines in certain disease areas with
+L1321@P28: greater pipeline attrition rates. For example, Urology and Cardiovascular carry both the longest clinical program
+L1322@P28: durations (12.2 years and 11.5 years) and the lowest LOAs from Phase I (3.6% and 4.8%). This may partly be
+L1323@P28: attributed to highly prevalent diseases requiring longer enrollment times and more complex endpoints. The
+L1324@P28: average time to run an Alzheimer’s Phase II trial is not going to be a short as a Phase II trial for a Covid-19
+L1325@P28: antibody. However, for some of the more complex diseases, the failure to terminate R&D programs when the
+L1326@P28: data do not support further progression can add significantly to the duration recorded for a particular phase.
+L1327@P28: There are countless examples of studies yielding inconclusive results, necessitating further clinical investigation
+L1328@P28: and prolonging the duration within a given phase, only for the drug to subsequently fail again.
+L1329@P28: Oncology timelines were found to have unique characteristics. Although the overall oncology development
+L1330@P28: time is close to the average (10.3 years vs 10.5 years), the length of each constituent phase varies considerably
+L1331@P28: from the average. Its Phase I duration (2.7 years) is the longest of all major disease areas, while its NDA/
+L1332@P28: BLA filing transition is the shortest (0.8 years). Oncology drug developers have broadly adopted the basket
+L1333@P28: trial design at Phase I, whereby multiple different indications are studied in a single trial to evaluate potential
+L1334@P28: efficacy signals, before expansion cohorts are initiated, either within the same trial or in a new Phase II study. At
+L1335@P28: the US FDA, the Office of Oncologic Diseases in particular has led the use of expedited pathways and predictive
+L1336@P28: endpoints, as well as Real Time Oncology Review (RTOR), facilitating the transition of new cancer drugs that
+L1337@P28-29: address unmet clinical needs.30/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L1338@P29: Methods
+L1339@P29: Drug Development Programs analyzed in this report track a specific indication for each drug. For example,
+L1340@P29: Rituxan in non-Hodgkin’s lymphoma (NHL) qualifies as a different development path than Rituxan in multiple
+L1341@P29: sclerosis (MS). Biomedtracker assigns a unique internal identifier that can be used to isolate all development
+L1342@P29: paths.
+L1343@P29: In addition to tracking the phase of development, Biomedtracker also assigns “lead” status to certain
+L1344@P29: development paths. This is used to denote the most advanced indication in clinical development for a specific
+L1345@P29: drug. Drugs can only have one lead development program (with some rare exceptions). For example, cancer
+L1346@P29: drugs developed in multiple indications will have the most advanced program assigned as the lead, and the
+L1347@P29: rest as “non-lead”. However, in this report we do not differentiate the most advanced programs and analyze
+L1348@P29: the data on a program/development path level, which more accurately reflects company resource utilization.
+L1349@P29: Individual Phase Transition Success Rates were calculated as the number of drugs that moved from one
+L1350@P29: phase to the next phase divided by the sum of the number of drugs that progressed to the next phase and
+L1351@P29: the number of drugs that were suspended. The n value associated with the phase transition success rates
+L1352@P29: represents the number of drugs that have advanced plus the number of drugs that have been suspended,
+L1353@P29: which we label as phase transitions. Phase transition success rates reported in this study were based on
+L1354@P29: transition rates, not necessarily resulting from safety or efficacy data. Transition rates are negatively impacted
+L1355@P29: by early development termination due to commercial and regulatory uncertainty as well as economic and
+L1356@P29: portfolio management decisions.
+L1357@P29: Biomedtracker further classifies events by phase of development, summarized in the table below:
+L1358@P29: Generic products were not included, but generic manufacturers developing novel investigational drugs were
+L1359@P29: represented. Biosimilars, which require thorough clinical development, were also included.
+L1360@P29: Likelihood of Approval (LOA) denotes the probability of reaching FDA approval from the current phase
+L1361@P29: and is also expressed as a percentage. LOA is calculated as the product of each phase success probability
+L1362@P29: leading to FDA approval. The n value associated with LOA is the sum of the n values for each phase transition
+L1363@P29: included in the LOA calculation.
+L1364@P29: For example, if a drug is currently in Phase II, and the phase success for Phase II is 50% (n=10), Phase
+L1365@P29: III is 50% (n=10), and FDA approval is 50% (n=10), then the LOA for the Phase II drug would be 12.5%
+L1366@P29: (50%×50%×50%=12.5%, n=30).
+L1367@P29-30: Data Source for Drug Program Transitions. Data used for this study were extracted from Biomedtracker 31/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L1368@P30: using Pharmapremia, a purpose-built Probability of Technical Success (PTS) tool, which identified all ‘Advanced’
+L1369@P30: and ‘Suspended’ drugs by development phase from January 1, 2011, to November 30, 2020. Biomedtracker
+L1370@P30: and Pharmapremia, subscription-based products of Informa, track the clinical development and regulatory
+L1371@P30: history of investigational drugs to assess their Likelihood of Approval (LOA) by the FDA. Biomedtracker is
+L1372@P30: populated in near real-time with updated information from press releases, corporate earnings calls, investor
+L1373@P30: and medical meetings, and numerous other sources. These data are recorded in Biomedtracker and tagged
+L1374@P30: with a date. Biomedtracker also uses other sources, including regular communication with companies
+L1375@P30: conducting clinical trials, to enhance the accuracy and timeliness of the data.
+L1376@P30: Drug Classification Methods. Biomedtracker records FDA classification (i.e., new molecular entity (NME),
+L1377@P30: non-NME, biologic, or vaccine) as well as the biochemical profile (e.g., small molecule, monoclonal antibody,
+L1378@P30: peptides, natural proteins, antisense, vaccine, etc.). Biologics, as defined by the FDA, can be sugars, proteins,
+L1379@P30: or nucleic acids, or complex combinations of these substances, or may be living entities such as cells and
+L1380@P30: tissues.
+L1381@P30: Patient Preselection Biomarkers. A subset of the Biomedtracker phase transition data was matched with
+L1382@P30: corresponding entries in Trialtrove, an analyst-curated clinical trial database produced by Informa Pharma
+L1383@P30: Intelligence. Where available, NCT numbers (ClinicalTrials.gov) from Biomedtracker for each drug-indication
+L1384@P30: pair was matched according to the corresponding entry in Trialtrove, which contains additional information
+L1385@P30: on whether patient preselection biomarkers featured in the trial design. This includes trials incorporating
+L1386@P30: pharmacogenomic and/or pharmacogenetic analysis, including the use of genomic biomarkers (RNA, DNA)
+L1387@P30: for patient selection or stratification. Qualifying trials were also matched by their corresponding phase
+L1388@P30: of clinical development and timing, with completion dates occurring in advance of the subsequent phase
+L1389@P30: transition. Phase transitions for which an associated biomarker-augmented trial could be identified were
+L1390@P30: assigned accordingly, while those that either featured trials without confirmed patient preselection, or for
+L1391@P30: which no information could be identified, were marked as not having patient preselection biomarkers. NDA/
+L1392@P30: BLA transitions were assumed to feature patient preselection biomarker data if the Phase III transitions
+L1393@P30: qualified as such.
+L1394@P30: Drug Development Timelines. In addition to denoting whether a drug was advanced or suspended at
+L1395@P30: the end of a phase, Pharmapremia also calculates the time spent at each clinical or regulatory phase for
+L1396@P30: all successful transitions. Suspended program timelines were not included to assess timelines. This is the
+L1397@P30: duration between public disclosures of the initiation of appropriate stages, and as such does not map exactly
+L1398@P30: to clinical trial timings. Each clinical phase transition may encompass more than one clinical trial, which may
+L1399@P30: or may not run sequentially. Furthermore, there may be an additional delay between planning development
+L1400@P30: strategy, reporting of trial results, the decision to progress or suspend, and the public disclosure of this
+L1401@P30: information.
+L1402@P30: QLS Methodology. As in the case of estimating historical success rates, missing data is a significant challenge
+L1403@P30: when applying machine-learning algorithms to predicting clinical trial outcomes. Gathering and filling in
+L1404@P30: this missing data manually is expensive, time-consuming, susceptible to error, and, in many cases, simply
+L1405@P30: not possible because the missing data no longer exist. A typical solution is to discard any clinical trials or
+L1406@P30: drug-indication pathways with missing features. However, this approach eliminates a great deal of useful
+L1407@P30: information, and can lead to biased inferences in the analysis. A more elegant solution involves replacing
+L1408@P30: it with substituted values obtained through various imputation methods. One approach is a statistical
+L1409@P30: technique called the k-nearest neighbors algorithm, in which the missing data are replaced with the average
+L1410@P30: of the k “most similar” (i.e., closest) examples in the data set. For example, if one were replacing a square of
+L1411@P30: missing bathroom tile, the k-nearest neighbors algorithm using a k of 8 would suggest the replacement tile
+L1412@P30: should have the color average of the eight tiles surrounding the missing piece.
+L1413@P30: Once the missing information has been imputed, the QLS approach uses a proprietary machine-learning
+L1414@P30-31: algorithm to analyze the clinical trial data, including its additional features. While the details of the QLS model32/ February 2021 © BIO | QLS Advisors | Informa UK Ltd 2021 (Unauthorized photocopying prohibited.)
+L1415@P31: are proprietary, an example of a commonly used machine-learning algorithm is a random forest classifier.
+L1416@P31: The motivation for a random forest is to aggregate the predictions of many different decision trees, each
+L1417@P31: of which is trained over a randomized subset of variables (see figure below). While each individual tree is
+L1418@P31: a weak predictor, their collective average forms a strong predictor, similar to the ‘wisdom of crowds’ that
+L1419@P31: determines the market price of a financial asset. For example, consider a specific dataset of clinical trials in
+L1420@P31: which the successful trials are more frequently associated with big pharma companies having three or more
+L1421@P31: oncology drugs approved over the past five years, all of which were biologics rather than small molecules.
+L1422@P31: The collection of decision trees that form a random forest might recognize this pattern and predict that
+L1423@P31: a small biotech company with no previous drug approvals will have a lower probability of success than a
+L1424@P31: company that more closely fit the profile described in the previous sentence.
+L1425@P31: A “forest” of decision trees. Each individual tree is a weak predictor, but similar to the wisdom of crowds, their ensemble average forms a strong predictor.
+L1426@P31: By identifying subtle patterns in a large enough database of historical drug transitions, machine-learning
+L1427@P31: algorithms can often make remarkably accurate predictions. An illustration of the components of the QLS
+L1428@P31: approach is provided below.9
+L1429@P31: Modeling methodology adopted by QLS. Abbreviations: CV=cross-validation.
+L1430@P31: 9 We use Citeline data provided by Informa Pharma Intelligence, a superset of the most commonly used data sources in the industry. It combines individual clinical trial
+L1431@P31: information from Trialtrove and drug approval data from Pharmaprojects and Biomedtracker, in addition to incorporating multiple data streams, including nightly feeds from
+
