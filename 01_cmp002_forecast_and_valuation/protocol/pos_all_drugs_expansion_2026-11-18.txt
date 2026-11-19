@@ -1,4 +1,4 @@
-Expanded all-drugs / all-rare programme cohort protocol v1
+Expanded all-drugs / all-rare programme cohort protocol v2
 18 November 2026 | Project 1 | Prespecified before expanded outcome calculation
 
 Target: probability of FDA approval for the specified drug-indication programme, conditional on documented clinical entry. Finite-horizon and phase-transition quantities must be reported separately; neither is automatically preclinical lifetime PoS.
@@ -9,13 +9,15 @@ Funnel, each layer nested in the preceding layer:
 1. All captured therapeutic drug-indication clinical programmes within the entry window.
 2. All rare-disease programmes, INCLUDING oncology; not restricted to the original 48 diseases.
 3. Non-oncology rare disease (for the BIO 17% comparison).
-4. Genetic CNS disorders.
-5. Genetic medicines.
+4. CNS disorders (no requirement for an identified genetic cause).
+5. Gene/RNA-directed medicines (modality filter, previously labelled 'genetic medicines'; not a genetic-disease requirement).
 6. ASOs.
 7. Intrathecal ASOs.
 8. Deficient-protein restoration.
 9. Closest neurodevelopmental biological/clinical rationale.
 Also show a separately labelled all-CNS branch from layer 1; do not imply that this is nested below all rare diseases. Do not require every progressively smaller layer to produce an estimable PoS.
+
+User amendment, 18 November: replace genetic CNS with CNS. Every subsequent layer retains all upstream restrictions: layer 6 means ASOs for non-oncology rare CNS indications; layer 7 further requires intrathecal delivery. Layer 8 further requires a mechanism intended to restore deficient protein, rather than merely reducing a toxic protein. A genetic etiology may emerge in the closest mechanistic subset but must not be imposed at CNS entry. Existing genetic-CNS results are historical and cannot be relabelled as the broader CNS results; membership and estimates require recalculation. Version 1 is preserved in Git history.
 
 The word 'all' describes the intended eligibility rule, not proven exhaustive worldwide coverage. Publish vendor coverage and missingness. No all-drugs denominator until eligibility, dates and identity resolution are measured.
 
